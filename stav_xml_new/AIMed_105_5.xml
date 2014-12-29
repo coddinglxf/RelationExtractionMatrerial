@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@binding@affinity@to@IL-6R alpha@of@these@variants@is@normal@but@their@biological@activity@is@poor@or@absent@.@</sentence>
+   <tags>
+      <tag pos="5">IL-6R alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="3" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="NNS">IL-6R alpha</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">these</taggedword>
+      <taggedword index="8" part-of-speech="NNS">variants</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="11" part-of-speech="CC">but</taggedword>
+      <taggedword index="12" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="13" part-of-speech="JJ">biological</taggedword>
+      <taggedword index="14" part-of-speech="NN">activity</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="16" part-of-speech="JJ">poor</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="JJ">absent</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="affinity" gov_index="3">det</dependency>
+      <dependency dep="binding" dep_index="2" gov="affinity" gov_index="3">amod</dependency>
+      <dependency dep="affinity" dep_index="3" gov="normal" gov_index="10">nsubj</dependency>
+      <dependency dep="IL-6R alpha" dep_index="5" gov="affinity" gov_index="3">prep_to</dependency>
+      <dependency dep="these" dep_index="7" gov="variants" gov_index="8">det</dependency>
+      <dependency dep="variants" dep_index="8" gov="IL-6R alpha" gov_index="5">prep_of</dependency>
+      <dependency dep="is" dep_index="9" gov="normal" gov_index="10">cop</dependency>
+      <dependency dep="normal" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="their" dep_index="12" gov="activity" gov_index="14">poss</dependency>
+      <dependency dep="biological" dep_index="13" gov="activity" gov_index="14">amod</dependency>
+      <dependency dep="activity" dep_index="14" gov="poor" gov_index="16">nsubj</dependency>
+      <dependency dep="activity" dep_index="14" gov="absent" gov_index="18">nsubj</dependency>
+      <dependency dep="is" dep_index="15" gov="poor" gov_index="16">cop</dependency>
+      <dependency dep="poor" dep_index="16" gov="normal" gov_index="10">conj_but</dependency>
+      <dependency dep="absent" dep_index="18" gov="normal" gov_index="10">conj_but</dependency>
+      <dependency dep="absent" dep_index="18" gov="poor" gov_index="16">conj_or</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Overexpression@of@PLC@-beta1@or@-beta3@in@normal@rat@islets@@elicits@a@larger@increase@in@IP@accumulation@but@,@again@,@has@no@effect@on@@insulin@secretion@.@</sentence>
+   <tags>
+      <tag pos="3">PLC</tag>
+      <tag pos="28">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Overexpression</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="4" part-of-speech="JJ">-beta1</taggedword>
+      <taggedword index="5" part-of-speech="CC">or</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-beta3</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="9" part-of-speech="NN">rat</taggedword>
+      <taggedword index="10" part-of-speech="NNS">islets</taggedword>
+      <taggedword index="11" part-of-speech="RB"></taggedword>
+      <taggedword index="12" part-of-speech="VBZ">elicits</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="JJR">larger</taggedword>
+      <taggedword index="15" part-of-speech="NN">increase</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="NNP">IP</taggedword>
+      <taggedword index="18" part-of-speech="NN">accumulation</taggedword>
+      <taggedword index="19" part-of-speech="CC">but</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="RB">again</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="24" part-of-speech="DT">no</taggedword>
+      <taggedword index="25" part-of-speech="NN">effect</taggedword>
+      <taggedword index="26" part-of-speech="IN">on</taggedword>
+      <taggedword index="27" part-of-speech="JJ"></taggedword>
+      <taggedword index="28" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="29" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Overexpression" dep_index="1" gov="elicits" gov_index="12">nsubj</dependency>
+      <dependency dep="Overexpression" dep_index="1" gov="has" gov_index="23">nsubj</dependency>
+      <dependency dep="PLC" dep_index="3" gov="Overexpression" gov_index="1">prep_of</dependency>
+      <dependency dep="-beta1" dep_index="4" gov="PLC" gov_index="3">amod</dependency>
+      <dependency dep="-beta3" dep_index="6" gov="PLC" gov_index="3">amod</dependency>
+      <dependency dep="-beta3" dep_index="6" gov="-beta1" gov_index="4">conj_or</dependency>
+      <dependency dep="normal" dep_index="8" gov="islets" gov_index="10">amod</dependency>
+      <dependency dep="rat" dep_index="9" gov="islets" gov_index="10">nn</dependency>
+      <dependency dep="islets" dep_index="10" gov="PLC" gov_index="3">prep_in</dependency>
+      <dependency dep="" dep_index="11" gov="elicits" gov_index="12">advmod</dependency>
+      <dependency dep="elicits" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="13" gov="increase" gov_index="15">det</dependency>
+      <dependency dep="larger" dep_index="14" gov="increase" gov_index="15">amod</dependency>
+      <dependency dep="increase" dep_index="15" gov="elicits" gov_index="12">dobj</dependency>
+      <dependency dep="IP" dep_index="17" gov="accumulation" gov_index="18">nn</dependency>
+      <dependency dep="accumulation" dep_index="18" gov="elicits" gov_index="12">prep_in</dependency>
+      <dependency dep="again" dep_index="21" gov="elicits" gov_index="12">dep</dependency>
+      <dependency dep="has" dep_index="23" gov="elicits" gov_index="12">conj_but</dependency>
+      <dependency dep="no" dep_index="24" gov="effect" gov_index="25">det</dependency>
+      <dependency dep="effect" dep_index="25" gov="has" gov_index="23">dobj</dependency>
+      <dependency dep="" dep_index="27" gov="secretion" gov_index="29">amod</dependency>
+      <dependency dep="insulin" dep_index="28" gov="secretion" gov_index="29">nn</dependency>
+      <dependency dep="secretion" dep_index="29" gov="effect" gov_index="25">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300028" relationship="false">3 1 23 25 29 28</relation>
+   </relations>
+   <pairs/>
+</root>

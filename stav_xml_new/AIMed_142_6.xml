@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@ability@of@YY1@to@initiate@transcription@is@augmented@by@the@presence@of@a@TATA@motif@or@binding@sites@for@transcription@factor@Sp1@.@</sentence>
+   <tags>
+      <tag pos="4">YY1</tag>
+      <tag pos="23">Sp1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">ability</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">YY1</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="VB">initiate</taggedword>
+      <taggedword index="7" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="VBN">augmented</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">presence</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="NNP">TATA</taggedword>
+      <taggedword index="16" part-of-speech="NN">motif</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="19" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="20" part-of-speech="IN">for</taggedword>
+      <taggedword index="21" part-of-speech="JJ">transcription</taggedword>
+      <taggedword index="22" part-of-speech="NN">factor</taggedword>
+      <taggedword index="23" part-of-speech="NNS">Sp1</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="ability" gov_index="2">det</dependency>
+      <dependency dep="ability" dep_index="2" gov="augmented" gov_index="9">nsubjpass</dependency>
+      <dependency dep="YY1" dep_index="4" gov="ability" gov_index="2">prep_of</dependency>
+      <dependency dep="to" dep_index="5" gov="initiate" gov_index="6">aux</dependency>
+      <dependency dep="initiate" dep_index="6" gov="ability" gov_index="2">infmod</dependency>
+      <dependency dep="transcription" dep_index="7" gov="initiate" gov_index="6">dobj</dependency>
+      <dependency dep="is" dep_index="8" gov="augmented" gov_index="9">auxpass</dependency>
+      <dependency dep="augmented" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="presence" gov_index="12">det</dependency>
+      <dependency dep="presence" dep_index="12" gov="augmented" gov_index="9">agent</dependency>
+      <dependency dep="a" dep_index="14" gov="motif" gov_index="16">det</dependency>
+      <dependency dep="TATA" dep_index="15" gov="motif" gov_index="16">nn</dependency>
+      <dependency dep="motif" dep_index="16" gov="presence" gov_index="12">prep_of</dependency>
+      <dependency dep="binding" dep_index="18" gov="sites" gov_index="19">amod</dependency>
+      <dependency dep="sites" dep_index="19" gov="augmented" gov_index="9">agent</dependency>
+      <dependency dep="sites" dep_index="19" gov="presence" gov_index="12">conj_or</dependency>
+      <dependency dep="transcription" dep_index="21" gov="Sp1" gov_index="23">amod</dependency>
+      <dependency dep="factor" dep_index="22" gov="Sp1" gov_index="23">nn</dependency>
+      <dependency dep="Sp1" dep_index="23" gov="sites" gov_index="19">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400023" relationship="false">4 2 9 19 23</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Reverse@transcription-polymerase@chain@reaction@analyses@revealed@the@presence@of@both@GR@messenger@RNA@and@COX-2@messenger@RNA@expression@in@nasal@polyps@from@nonallergic@patients@,@as@well@as@in@normal@nasal@mucosa@from@controls@.@</sentence>
+   <tags>
+      <tag pos="15">COX-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Reverse</taggedword>
+      <taggedword index="2" part-of-speech="JJ">transcription-polymerase</taggedword>
+      <taggedword index="3" part-of-speech="NN">chain</taggedword>
+      <taggedword index="4" part-of-speech="NN">reaction</taggedword>
+      <taggedword index="5" part-of-speech="NNS">analyses</taggedword>
+      <taggedword index="6" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">presence</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="DT">both</taggedword>
+      <taggedword index="11" part-of-speech="NNP">GR</taggedword>
+      <taggedword index="12" part-of-speech="NNP">messenger</taggedword>
+      <taggedword index="13" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NNP">COX-2</taggedword>
+      <taggedword index="16" part-of-speech="NNP">messenger</taggedword>
+      <taggedword index="17" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="18" part-of-speech="NN">expression</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="JJ">nasal</taggedword>
+      <taggedword index="21" part-of-speech="NNS">polyps</taggedword>
+      <taggedword index="22" part-of-speech="IN">from</taggedword>
+      <taggedword index="23" part-of-speech="JJ">nonallergic</taggedword>
+      <taggedword index="24" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="RB">as</taggedword>
+      <taggedword index="27" part-of-speech="RB">well</taggedword>
+      <taggedword index="28" part-of-speech="IN">as</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="31" part-of-speech="JJ">nasal</taggedword>
+      <taggedword index="32" part-of-speech="NN">mucosa</taggedword>
+      <taggedword index="33" part-of-speech="IN">from</taggedword>
+      <taggedword index="34" part-of-speech="NNS">controls</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Reverse" dep_index="1" gov="analyses" gov_index="5">amod</dependency>
+      <dependency dep="transcription-polymerase" dep_index="2" gov="analyses" gov_index="5">amod</dependency>
+      <dependency dep="chain" dep_index="3" gov="analyses" gov_index="5">nn</dependency>
+      <dependency dep="reaction" dep_index="4" gov="analyses" gov_index="5">nn</dependency>
+      <dependency dep="analyses" dep_index="5" gov="revealed" gov_index="6">nsubj</dependency>
+      <dependency dep="revealed" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="presence" gov_index="8">det</dependency>
+      <dependency dep="presence" dep_index="8" gov="revealed" gov_index="6">dobj</dependency>
+      <dependency dep="both" dep_index="10" gov="RNA" gov_index="13">preconj</dependency>
+      <dependency dep="GR" dep_index="11" gov="RNA" gov_index="13">nn</dependency>
+      <dependency dep="messenger" dep_index="12" gov="RNA" gov_index="13">nn</dependency>
+      <dependency dep="RNA" dep_index="13" gov="presence" gov_index="8">prep_of</dependency>
+      <dependency dep="COX-2" dep_index="15" gov="expression" gov_index="18">nn</dependency>
+      <dependency dep="messenger" dep_index="16" gov="expression" gov_index="18">nn</dependency>
+      <dependency dep="RNA" dep_index="17" gov="expression" gov_index="18">nn</dependency>
+      <dependency dep="expression" dep_index="18" gov="presence" gov_index="8">prep_of</dependency>
+      <dependency dep="expression" dep_index="18" gov="RNA" gov_index="13">conj_and</dependency>
+      <dependency dep="nasal" dep_index="20" gov="polyps" gov_index="21">amod</dependency>
+      <dependency dep="polyps" dep_index="21" gov="revealed" gov_index="6">prep_in</dependency>
+      <dependency dep="polyps" dep_index="21" gov="revealed" gov_index="6">prep_in</dependency>
+      <dependency dep="polyps" dep_index="21" gov="polyps" gov_index="21">conj_and</dependency>
+      <dependency dep="nonallergic" dep_index="23" gov="patients" gov_index="24">amod</dependency>
+      <dependency dep="patients" dep_index="24" gov="polyps" gov_index="21">prep_from</dependency>
+      <dependency dep="normal" dep_index="30" gov="mucosa" gov_index="32">amod</dependency>
+      <dependency dep="nasal" dep_index="31" gov="mucosa" gov_index="32">amod</dependency>
+      <dependency dep="mucosa" dep_index="32" gov="polyps" gov_index="21">prep_in</dependency>
+      <dependency dep="controls" dep_index="34" gov="revealed" gov_index="6">prep_from</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

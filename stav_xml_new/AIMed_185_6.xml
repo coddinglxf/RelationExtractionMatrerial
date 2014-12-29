@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Using@a@structure-function@mutagenesis@approach@,@two@tyrosine@residues@(Tyr427@and@Tyr477)@in@the@intracellular@domain@of@the@murine@IL-10 receptor@were@found@to@be@redundantly@required@for@receptor@function@and@for@activation@of@Stat3@but@not@for@Stat1@or@Stat5@.@</sentence>
+   <tags>
+      <tag pos="20">IL-10 receptor</tag>
+      <tag pos="34">Stat3</tag>
+      <tag pos="38">Stat1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Using</taggedword>
+      <taggedword index="2" part-of-speech="DT">a</taggedword>
+      <taggedword index="3" part-of-speech="JJ">structure-function</taggedword>
+      <taggedword index="4" part-of-speech="NN">mutagenesis</taggedword>
+      <taggedword index="5" part-of-speech="NN">approach</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="CD">two</taggedword>
+      <taggedword index="8" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="9" part-of-speech="JJ">residues</taggedword>
+      <taggedword index="10" part-of-speech="NNS">(Tyr427</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNS">Tyr477)</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="16" part-of-speech="NN">domain</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">murine</taggedword>
+      <taggedword index="20" part-of-speech="NN">IL-10 receptor</taggedword>
+      <taggedword index="21" part-of-speech="VBD">were</taggedword>
+      <taggedword index="22" part-of-speech="VBN">found</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="VB">be</taggedword>
+      <taggedword index="25" part-of-speech="RB">redundantly</taggedword>
+      <taggedword index="26" part-of-speech="VBN">required</taggedword>
+      <taggedword index="27" part-of-speech="IN">for</taggedword>
+      <taggedword index="28" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="29" part-of-speech="NN">function</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="IN">for</taggedword>
+      <taggedword index="32" part-of-speech="NN">activation</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="NNS">Stat3</taggedword>
+      <taggedword index="35" part-of-speech="CC">but</taggedword>
+      <taggedword index="36" part-of-speech="RB">not</taggedword>
+      <taggedword index="37" part-of-speech="IN">for</taggedword>
+      <taggedword index="38" part-of-speech="NNS">Stat1</taggedword>
+      <taggedword index="39" part-of-speech="CC">or</taggedword>
+      <taggedword index="40" part-of-speech="NNS">Stat5</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Using" dep_index="1" gov="found" gov_index="22">partmod</dependency>
+      <dependency dep="a" dep_index="2" gov="approach" gov_index="5">det</dependency>
+      <dependency dep="structure-function" dep_index="3" gov="approach" gov_index="5">amod</dependency>
+      <dependency dep="mutagenesis" dep_index="4" gov="approach" gov_index="5">nn</dependency>
+      <dependency dep="approach" dep_index="5" gov="Using" gov_index="1">dobj</dependency>
+      <dependency dep="two" dep_index="7" gov="(Tyr427" gov_index="10">num</dependency>
+      <dependency dep="tyrosine" dep_index="8" gov="(Tyr427" gov_index="10">nn</dependency>
+      <dependency dep="residues" dep_index="9" gov="(Tyr427" gov_index="10">amod</dependency>
+      <dependency dep="(Tyr427" dep_index="10" gov="found" gov_index="22">nsubjpass</dependency>
+      <dependency dep="(Tyr427" dep_index="10" gov="required" gov_index="26">xsubj</dependency>
+      <dependency dep="Tyr477)" dep_index="12" gov="(Tyr427" gov_index="10">conj_and</dependency>
+      <dependency dep="Tyr477)" dep_index="12" gov="found" gov_index="22">nsubjpass</dependency>
+      <dependency dep="Tyr477)" dep_index="12" gov="required" gov_index="26">xsubj</dependency>
+      <dependency dep="the" dep_index="14" gov="domain" gov_index="16">det</dependency>
+      <dependency dep="intracellular" dep_index="15" gov="domain" gov_index="16">nn</dependency>
+      <dependency dep="domain" dep_index="16" gov="(Tyr427" gov_index="10">prep_in</dependency>
+      <dependency dep="the" dep_index="18" gov="IL-10 receptor" gov_index="20">det</dependency>
+      <dependency dep="murine" dep_index="19" gov="IL-10 receptor" gov_index="20">amod</dependency>
+      <dependency dep="IL-10 receptor" dep_index="20" gov="domain" gov_index="16">prep_of</dependency>
+      <dependency dep="were" dep_index="21" gov="found" gov_index="22">auxpass</dependency>
+      <dependency dep="found" dep_index="22" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="23" gov="required" gov_index="26">aux</dependency>
+      <dependency dep="be" dep_index="24" gov="required" gov_index="26">auxpass</dependency>
+      <dependency dep="redundantly" dep_index="25" gov="required" gov_index="26">advmod</dependency>
+      <dependency dep="required" dep_index="26" gov="found" gov_index="22">xcomp</dependency>
+      <dependency dep="receptor" dep_index="28" gov="function" gov_index="29">nn</dependency>
+      <dependency dep="function" dep_index="29" gov="required" gov_index="26">prep_for</dependency>
+      <dependency dep="and" dep_index="30" gov="required" gov_index="26">cc</dependency>
+      <dependency dep="activation" dep_index="32" gov="required" gov_index="26">prep_for</dependency>
+      <dependency dep="activation" dep_index="32" gov="function" gov_index="29">conj_negcc</dependency>
+      <dependency dep="Stat3" dep_index="34" gov="activation" gov_index="32">prep_of</dependency>
+      <dependency dep="Stat1" dep_index="38" gov="required" gov_index="26">prep_for</dependency>
+      <dependency dep="Stat1" dep_index="38" gov="function" gov_index="29">conj_negcc</dependency>
+      <dependency dep="Stat5" dep_index="40" gov="function" gov_index="29">conj_negcc</dependency>
+      <dependency dep="Stat5" dep_index="40" gov="Stat1" gov_index="38">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000034" relationship="true">20 16 10 26 32 34</relation>
+      <relation position="2000038" relationship="false">20 16 10 26 38</relation>
+      <relation position="3400038" relationship="false">34 32 29 38</relation>
+   </relations>
+   <pairs>
+      <pair>2000034</pair>
+   </pairs>
+</root>

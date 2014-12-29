@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Raf-1@,@which@is@known@to@bind@14-3-3@proteins@,@has@recently@been@shown@to@associate@with@cdc25A@and@to@stimulate@its@phosphatase@activity@.@</sentence>
+   <tags>
+      <tag pos="1">Raf-1</tag>
+      <tag pos="18">cdc25A</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Raf-1</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="WDT">which</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="VBN">known</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">bind</taggedword>
+      <taggedword index="8" part-of-speech="CD">14-3-3</taggedword>
+      <taggedword index="9" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="12" part-of-speech="RB">recently</taggedword>
+      <taggedword index="13" part-of-speech="VBN">been</taggedword>
+      <taggedword index="14" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="VB">associate</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="CD">cdc25A</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">stimulate</taggedword>
+      <taggedword index="22" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="23" part-of-speech="JJ">phosphatase</taggedword>
+      <taggedword index="24" part-of-speech="NN">activity</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Raf-1" dep_index="1" gov="known" gov_index="5">nsubjpass</dependency>
+      <dependency dep="Raf-1" dep_index="1" gov="bind" gov_index="7">xsubj</dependency>
+      <dependency dep="Raf-1" dep_index="1" gov="shown" gov_index="14">nsubjpass</dependency>
+      <dependency dep="is" dep_index="4" gov="known" gov_index="5">auxpass</dependency>
+      <dependency dep="known" dep_index="5" gov="Raf-1" gov_index="1">rcmod</dependency>
+      <dependency dep="to" dep_index="6" gov="bind" gov_index="7">aux</dependency>
+      <dependency dep="bind" dep_index="7" gov="known" gov_index="5">xcomp</dependency>
+      <dependency dep="14-3-3" dep_index="8" gov="proteins" gov_index="9">num</dependency>
+      <dependency dep="proteins" dep_index="9" gov="bind" gov_index="7">dobj</dependency>
+      <dependency dep="has" dep_index="11" gov="shown" gov_index="14">aux</dependency>
+      <dependency dep="recently" dep_index="12" gov="shown" gov_index="14">advmod</dependency>
+      <dependency dep="been" dep_index="13" gov="shown" gov_index="14">auxpass</dependency>
+      <dependency dep="shown" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="15" gov="associate" gov_index="16">aux</dependency>
+      <dependency dep="associate" dep_index="16" gov="shown" gov_index="14">ccomp</dependency>
+      <dependency dep="cdc25A" dep_index="18" gov="associate" gov_index="16">prep_with</dependency>
+      <dependency dep="to" dep_index="20" gov="stimulate" gov_index="21">aux</dependency>
+      <dependency dep="stimulate" dep_index="21" gov="shown" gov_index="14">ccomp</dependency>
+      <dependency dep="stimulate" dep_index="21" gov="associate" gov_index="16">conj_and</dependency>
+      <dependency dep="its" dep_index="22" gov="activity" gov_index="24">poss</dependency>
+      <dependency dep="phosphatase" dep_index="23" gov="activity" gov_index="24">amod</dependency>
+      <dependency dep="activity" dep_index="24" gov="stimulate" gov_index="21">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100018" relationship="true">1 14 16 18</relation>
+   </relations>
+   <pairs>
+      <pair>100018</pair>
+   </pairs>
+</root>

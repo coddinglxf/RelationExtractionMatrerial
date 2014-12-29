@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@approach@is@based@on@the@assumption@that@an@actin@mutation@that@specifically@impairs@the@interaction@with@an@actin-binding protein@will@cause@a@phenotype@similar@to@a@null@mutation@in@the@gene@that@encodes@the@actin-binding protein@.@</sentence>
+   <tags>
+      <tag pos="35">actin-binding protein</tag>
+      <tag pos="10">actin</tag>
+      <tag pos="19">actin-binding protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">approach</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="4" part-of-speech="VBN">based</taggedword>
+      <taggedword index="5" part-of-speech="IN">on</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">assumption</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="DT">an</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="12" part-of-speech="WDT">that</taggedword>
+      <taggedword index="13" part-of-speech="RB">specifically</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">impairs</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="DT">an</taggedword>
+      <taggedword index="19" part-of-speech="NN">actin-binding protein</taggedword>
+      <taggedword index="20" part-of-speech="MD">will</taggedword>
+      <taggedword index="21" part-of-speech="VB">cause</taggedword>
+      <taggedword index="22" part-of-speech="DT">a</taggedword>
+      <taggedword index="23" part-of-speech="NN">phenotype</taggedword>
+      <taggedword index="24" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="DT">a</taggedword>
+      <taggedword index="27" part-of-speech="JJ">null</taggedword>
+      <taggedword index="28" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="NN">gene</taggedword>
+      <taggedword index="32" part-of-speech="WDT">that</taggedword>
+      <taggedword index="33" part-of-speech="VBZ">encodes</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="NN">actin-binding protein</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="approach" gov_index="2">det</dependency>
+      <dependency dep="approach" dep_index="2" gov="based" gov_index="4">nsubjpass</dependency>
+      <dependency dep="is" dep_index="3" gov="based" gov_index="4">auxpass</dependency>
+      <dependency dep="based" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="assumption" gov_index="7">det</dependency>
+      <dependency dep="assumption" dep_index="7" gov="based" gov_index="4">prep_on</dependency>
+      <dependency dep="that" dep_index="8" gov="cause" gov_index="21">mark</dependency>
+      <dependency dep="an" dep_index="9" gov="mutation" gov_index="11">det</dependency>
+      <dependency dep="actin" dep_index="10" gov="mutation" gov_index="11">nn</dependency>
+      <dependency dep="mutation" dep_index="11" gov="impairs" gov_index="14">nsubj</dependency>
+      <dependency dep="mutation" dep_index="11" gov="cause" gov_index="21">nsubj</dependency>
+      <dependency dep="specifically" dep_index="13" gov="impairs" gov_index="14">advmod</dependency>
+      <dependency dep="impairs" dep_index="14" gov="mutation" gov_index="11">rcmod</dependency>
+      <dependency dep="the" dep_index="15" gov="interaction" gov_index="16">det</dependency>
+      <dependency dep="interaction" dep_index="16" gov="impairs" gov_index="14">dobj</dependency>
+      <dependency dep="an" dep_index="18" gov="actin-binding protein" gov_index="19">det</dependency>
+      <dependency dep="actin-binding protein" dep_index="19" gov="interaction" gov_index="16">prep_with</dependency>
+      <dependency dep="will" dep_index="20" gov="cause" gov_index="21">aux</dependency>
+      <dependency dep="cause" dep_index="21" gov="based" gov_index="4">ccomp</dependency>
+      <dependency dep="a" dep_index="22" gov="phenotype" gov_index="23">det</dependency>
+      <dependency dep="phenotype" dep_index="23" gov="similar" gov_index="24">nsubj</dependency>
+      <dependency dep="similar" dep_index="24" gov="cause" gov_index="21">xcomp</dependency>
+      <dependency dep="a" dep_index="26" gov="mutation" gov_index="28">det</dependency>
+      <dependency dep="null" dep_index="27" gov="mutation" gov_index="28">amod</dependency>
+      <dependency dep="mutation" dep_index="28" gov="similar" gov_index="24">prep_to</dependency>
+      <dependency dep="the" dep_index="30" gov="gene" gov_index="31">det</dependency>
+      <dependency dep="gene" dep_index="31" gov="mutation" gov_index="28">prep_in</dependency>
+      <dependency dep="gene" dep_index="31" gov="encodes" gov_index="33">nsubj</dependency>
+      <dependency dep="encodes" dep_index="33" gov="gene" gov_index="31">rcmod</dependency>
+      <dependency dep="the" dep_index="34" gov="actin-binding protein" gov_index="35">det</dependency>
+      <dependency dep="actin-binding protein" dep_index="35" gov="encodes" gov_index="33">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000035" relationship="false">10 11 21 24 28 31 33 35</relation>
+      <relation position="1900035" relationship="false">19 16 14 11 21 24 28 31 33 35</relation>
+      <relation position="1000019" relationship="true">10 11 14 16 19</relation>
+   </relations>
+   <pairs>
+      <pair>1000019</pair>
+   </pairs>
+</root>

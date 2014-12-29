@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@probed@an@epitope@sequence@(His18-Pro19-Lys20-Phe21)@in@interleukin-8@(@IL-8@)@by@site-directed@mutagenesis@.@</sentence>
+   <tags>
+      <tag pos="9">interleukin-8</tag>
+      <tag pos="11">IL-8</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">probed</taggedword>
+      <taggedword index="4" part-of-speech="DT">an</taggedword>
+      <taggedword index="5" part-of-speech="JJ">epitope</taggedword>
+      <taggedword index="6" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="7" part-of-speech="NN">(His18-Pro19-Lys20-Phe21)</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">interleukin-8</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">IL-8</taggedword>
+      <taggedword index="12" part-of-speech="NNP">)</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="JJ">site-directed</taggedword>
+      <taggedword index="15" part-of-speech="NNS">mutagenesis</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="probed" gov_index="3">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="probed" gov_index="3">aux</dependency>
+      <dependency dep="probed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="4" gov="(His18-Pro19-Lys20-Phe21)" gov_index="7">det</dependency>
+      <dependency dep="epitope" dep_index="5" gov="(His18-Pro19-Lys20-Phe21)" gov_index="7">amod</dependency>
+      <dependency dep="sequence" dep_index="6" gov="(His18-Pro19-Lys20-Phe21)" gov_index="7">nn</dependency>
+      <dependency dep="(His18-Pro19-Lys20-Phe21)" dep_index="7" gov="probed" gov_index="3">dobj</dependency>
+      <dependency dep="interleukin-8" dep_index="9" gov=")" gov_index="12">amod</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="IL-8" dep_index="11" gov=")" gov_index="12">nn</dependency>
+      <dependency dep=")" dep_index="12" gov="(His18-Pro19-Lys20-Phe21)" gov_index="7">prep_in</dependency>
+      <dependency dep="site-directed" dep_index="14" gov="mutagenesis" gov_index="15">amod</dependency>
+      <dependency dep="mutagenesis" dep_index="15" gov="probed" gov_index="3">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="false">9 12 11</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>PATIENTS@:@Thirteen@patients@with@clinical@and@histopathologic@criteria@of@TEN@and@6@patients@with@second-degree@burns@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">PATIENTS</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="JJ">Thirteen</taggedword>
+      <taggedword index="4" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="JJ">clinical</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">histopathologic</taggedword>
+      <taggedword index="9" part-of-speech="NNS">criteria</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNP">TEN</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="CD">6</taggedword>
+      <taggedword index="14" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="JJ">second-degree</taggedword>
+      <taggedword index="17" part-of-speech="NNS">burns</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="PATIENTS" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Thirteen" dep_index="3" gov="patients" gov_index="4">amod</dependency>
+      <dependency dep="patients" dep_index="4" gov="PATIENTS" gov_index="1">dep</dependency>
+      <dependency dep="clinical" dep_index="6" gov="criteria" gov_index="9">amod</dependency>
+      <dependency dep="histopathologic" dep_index="8" gov="clinical" gov_index="6">conj_and</dependency>
+      <dependency dep="histopathologic" dep_index="8" gov="criteria" gov_index="9">amod</dependency>
+      <dependency dep="criteria" dep_index="9" gov="patients" gov_index="4">prep_with</dependency>
+      <dependency dep="TEN" dep_index="11" gov="criteria" gov_index="9">prep_of</dependency>
+      <dependency dep="6" dep_index="13" gov="patients" gov_index="14">num</dependency>
+      <dependency dep="patients" dep_index="14" gov="patients" gov_index="4">prep_with</dependency>
+      <dependency dep="patients" dep_index="14" gov="criteria" gov_index="9">conj_and</dependency>
+      <dependency dep="second-degree" dep_index="16" gov="burns" gov_index="17">amod</dependency>
+      <dependency dep="burns" dep_index="17" gov="patients" gov_index="14">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

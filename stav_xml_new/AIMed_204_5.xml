@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Deletion@of@the@complete@active-site@[des-(161-228)-@MMP-1@]@within@the@catalytic@domain@,@or@mutation@of@a@single@His@residue@of@the@Zn2+@binding@domain@(His199)@,@generates@stable@forms@of@MMP-1@proteins@which@are@unable@to@digest@collagen type I@or@beta-casein@.@</sentence>
+   <tags>
+      <tag pos="7">MMP-1</tag>
+      <tag pos="32">MMP-1</tag>
+      <tag pos="39">collagen type I</tag>
+      <tag pos="41">beta-casein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Deletion</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">complete</taggedword>
+      <taggedword index="5" part-of-speech="JJ">active-site</taggedword>
+      <taggedword index="6" part-of-speech="JJ">[des-(161-228)-</taggedword>
+      <taggedword index="7" part-of-speech="NN">MMP-1</taggedword>
+      <taggedword index="8" part-of-speech="NN">]</taggedword>
+      <taggedword index="9" part-of-speech="IN">within</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">catalytic</taggedword>
+      <taggedword index="12" part-of-speech="NN">domain</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CC">or</taggedword>
+      <taggedword index="15" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">single</taggedword>
+      <taggedword index="19" part-of-speech="PRP$">His</taggedword>
+      <taggedword index="20" part-of-speech="NN">residue</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">Zn2+</taggedword>
+      <taggedword index="24" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="25" part-of-speech="NN">domain</taggedword>
+      <taggedword index="26" part-of-speech="NN">(His199)</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="VBZ">generates</taggedword>
+      <taggedword index="29" part-of-speech="JJ">stable</taggedword>
+      <taggedword index="30" part-of-speech="NNS">forms</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="NN">MMP-1</taggedword>
+      <taggedword index="33" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="34" part-of-speech="WDT">which</taggedword>
+      <taggedword index="35" part-of-speech="VBP">are</taggedword>
+      <taggedword index="36" part-of-speech="JJ">unable</taggedword>
+      <taggedword index="37" part-of-speech="TO">to</taggedword>
+      <taggedword index="38" part-of-speech="VB">digest</taggedword>
+      <taggedword index="39" part-of-speech="NNS">collagen type I</taggedword>
+      <taggedword index="40" part-of-speech="CC">or</taggedword>
+      <taggedword index="41" part-of-speech="NN">beta-casein</taggedword>
+      <taggedword index="42" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Deletion" dep_index="1" gov="generates" gov_index="28">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="]" gov_index="8">det</dependency>
+      <dependency dep="complete" dep_index="4" gov="]" gov_index="8">amod</dependency>
+      <dependency dep="active-site" dep_index="5" gov="]" gov_index="8">amod</dependency>
+      <dependency dep="[des-(161-228)-" dep_index="6" gov="]" gov_index="8">amod</dependency>
+      <dependency dep="MMP-1" dep_index="7" gov="]" gov_index="8">nn</dependency>
+      <dependency dep="]" dep_index="8" gov="Deletion" gov_index="1">prep_of</dependency>
+      <dependency dep="the" dep_index="10" gov="domain" gov_index="12">det</dependency>
+      <dependency dep="catalytic" dep_index="11" gov="domain" gov_index="12">amod</dependency>
+      <dependency dep="domain" dep_index="12" gov="]" gov_index="8">prep_within</dependency>
+      <dependency dep="mutation" dep_index="15" gov="Deletion" gov_index="1">conj_or</dependency>
+      <dependency dep="mutation" dep_index="15" gov="generates" gov_index="28">nsubj</dependency>
+      <dependency dep="a" dep_index="17" gov="residue" gov_index="20">det</dependency>
+      <dependency dep="single" dep_index="18" gov="residue" gov_index="20">amod</dependency>
+      <dependency dep="His" dep_index="19" gov="residue" gov_index="20">poss</dependency>
+      <dependency dep="residue" dep_index="20" gov="mutation" gov_index="15">prep_of</dependency>
+      <dependency dep="the" dep_index="22" gov="(His199)" gov_index="26">det</dependency>
+      <dependency dep="Zn2+" dep_index="23" gov="(His199)" gov_index="26">amod</dependency>
+      <dependency dep="binding" dep_index="24" gov="(His199)" gov_index="26">amod</dependency>
+      <dependency dep="domain" dep_index="25" gov="(His199)" gov_index="26">nn</dependency>
+      <dependency dep="(His199)" dep_index="26" gov="residue" gov_index="20">prep_of</dependency>
+      <dependency dep="generates" dep_index="28" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="stable" dep_index="29" gov="forms" gov_index="30">amod</dependency>
+      <dependency dep="forms" dep_index="30" gov="generates" gov_index="28">dobj</dependency>
+      <dependency dep="forms" dep_index="30" gov="unable" gov_index="36">nsubj</dependency>
+      <dependency dep="forms" dep_index="30" gov="digest" gov_index="38">xsubj</dependency>
+      <dependency dep="MMP-1" dep_index="32" gov="proteins" gov_index="33">nn</dependency>
+      <dependency dep="proteins" dep_index="33" gov="forms" gov_index="30">prep_of</dependency>
+      <dependency dep="are" dep_index="35" gov="unable" gov_index="36">cop</dependency>
+      <dependency dep="unable" dep_index="36" gov="forms" gov_index="30">rcmod</dependency>
+      <dependency dep="to" dep_index="37" gov="digest" gov_index="38">aux</dependency>
+      <dependency dep="digest" dep_index="38" gov="unable" gov_index="36">xcomp</dependency>
+      <dependency dep="collagen type I" dep_index="39" gov="digest" gov_index="38">dobj</dependency>
+      <dependency dep="beta-casein" dep_index="41" gov="digest" gov_index="38">dobj</dependency>
+      <dependency dep="beta-casein" dep_index="41" gov="collagen type I" gov_index="39">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700032" relationship="false">7 8 1 28 30 33 32</relation>
+      <relation position="700039" relationship="false">7 8 1 28 30 36 38 39</relation>
+      <relation position="700041" relationship="false">7 8 1 28 30 36 38 41</relation>
+      <relation position="3200039" relationship="false">32 33 30 38 39</relation>
+      <relation position="3200041" relationship="false">32 33 30 38 41</relation>
+      <relation position="3900041" relationship="false">39 38 41</relation>
+   </relations>
+   <pairs/>
+</root>

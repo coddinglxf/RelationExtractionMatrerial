@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>To@study@the@mechanism@underlying@the@apparent@functional@cooperation@between@YY1@and@Sp1@,@we@explored@the@possibility@of@protein-protein@interactions@between@these@two@transcription@factors@.@</sentence>
+   <tags>
+      <tag pos="11">YY1</tag>
+      <tag pos="13">Sp1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="TO">To</taggedword>
+      <taggedword index="2" part-of-speech="VB">study</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="5" part-of-speech="VBG">underlying</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">apparent</taggedword>
+      <taggedword index="8" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="9" part-of-speech="NN">cooperation</taggedword>
+      <taggedword index="10" part-of-speech="IN">between</taggedword>
+      <taggedword index="11" part-of-speech="NNP">YY1</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NNP">Sp1</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="PRP">we</taggedword>
+      <taggedword index="16" part-of-speech="VBD">explored</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">possibility</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="JJ">protein-protein</taggedword>
+      <taggedword index="21" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="22" part-of-speech="IN">between</taggedword>
+      <taggedword index="23" part-of-speech="DT">these</taggedword>
+      <taggedword index="24" part-of-speech="CD">two</taggedword>
+      <taggedword index="25" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="26" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="To" dep_index="1" gov="study" gov_index="2">aux</dependency>
+      <dependency dep="study" dep_index="2" gov="explored" gov_index="16">advcl</dependency>
+      <dependency dep="the" dep_index="3" gov="mechanism" gov_index="4">det</dependency>
+      <dependency dep="mechanism" dep_index="4" gov="study" gov_index="2">dobj</dependency>
+      <dependency dep="underlying" dep_index="5" gov="mechanism" gov_index="4">partmod</dependency>
+      <dependency dep="the" dep_index="6" gov="cooperation" gov_index="9">det</dependency>
+      <dependency dep="apparent" dep_index="7" gov="functional" gov_index="8">amod</dependency>
+      <dependency dep="functional" dep_index="8" gov="cooperation" gov_index="9">amod</dependency>
+      <dependency dep="cooperation" dep_index="9" gov="underlying" gov_index="5">dobj</dependency>
+      <dependency dep="YY1" dep_index="11" gov="cooperation" gov_index="9">prep_between</dependency>
+      <dependency dep="Sp1" dep_index="13" gov="cooperation" gov_index="9">prep_between</dependency>
+      <dependency dep="Sp1" dep_index="13" gov="YY1" gov_index="11">conj_and</dependency>
+      <dependency dep="we" dep_index="15" gov="explored" gov_index="16">nsubj</dependency>
+      <dependency dep="explored" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="17" gov="possibility" gov_index="18">det</dependency>
+      <dependency dep="possibility" dep_index="18" gov="explored" gov_index="16">dobj</dependency>
+      <dependency dep="protein-protein" dep_index="20" gov="interactions" gov_index="21">amod</dependency>
+      <dependency dep="interactions" dep_index="21" gov="possibility" gov_index="18">prep_of</dependency>
+      <dependency dep="these" dep_index="23" gov="factors" gov_index="26">det</dependency>
+      <dependency dep="two" dep_index="24" gov="factors" gov_index="26">num</dependency>
+      <dependency dep="transcription" dep_index="25" gov="factors" gov_index="26">nn</dependency>
+      <dependency dep="factors" dep_index="26" gov="interactions" gov_index="21">prep_between</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100013" relationship="false">11 9 13</relation>
+   </relations>
+   <pairs/>
+</root>

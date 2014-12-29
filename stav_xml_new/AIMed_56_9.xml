@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@TRAP@gene@is@located@in@the@q26.3-q27.1@region@of@the@X@chromosome@.@</sentence>
+   <tags>
+      <tag pos="2">TRAP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">TRAP</taggedword>
+      <taggedword index="3" part-of-speech="NN">gene</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="VBN">located</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">q26.3-q27.1</taggedword>
+      <taggedword index="9" part-of-speech="NN">region</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NNP">X</taggedword>
+      <taggedword index="13" part-of-speech="NN">chromosome</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="gene" gov_index="3">det</dependency>
+      <dependency dep="TRAP" dep_index="2" gov="gene" gov_index="3">nn</dependency>
+      <dependency dep="gene" dep_index="3" gov="located" gov_index="5">nsubjpass</dependency>
+      <dependency dep="is" dep_index="4" gov="located" gov_index="5">auxpass</dependency>
+      <dependency dep="located" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="region" gov_index="9">det</dependency>
+      <dependency dep="q26.3-q27.1" dep_index="8" gov="region" gov_index="9">amod</dependency>
+      <dependency dep="region" dep_index="9" gov="located" gov_index="5">prep_in</dependency>
+      <dependency dep="the" dep_index="11" gov="chromosome" gov_index="13">det</dependency>
+      <dependency dep="X" dep_index="12" gov="chromosome" gov_index="13">nn</dependency>
+      <dependency dep="chromosome" dep_index="13" gov="region" gov_index="9">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

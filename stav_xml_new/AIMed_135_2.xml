@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Tumor@necrosis@factor@(TNF)@and@lymphotoxin-alpha@(@LT-alpha@)@are@members@of@a@family@of@secreted@and@cell@surface@cytokines@that@participate@in@the@regulation@of@immune@and@inflammatory@responses@.@</sentence>
+   <tags>
+      <tag pos="6">lymphotoxin-alpha</tag>
+      <tag pos="8">LT-alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Tumor</taggedword>
+      <taggedword index="2" part-of-speech="JJ">necrosis</taggedword>
+      <taggedword index="3" part-of-speech="NN">factor</taggedword>
+      <taggedword index="4" part-of-speech="NNS">(TNF)</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">lymphotoxin-alpha</taggedword>
+      <taggedword index="7" part-of-speech="NNP">(</taggedword>
+      <taggedword index="8" part-of-speech="NNP">LT-alpha</taggedword>
+      <taggedword index="9" part-of-speech="NNP">)</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="NNS">members</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="NN">family</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NN">secreted</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">cell</taggedword>
+      <taggedword index="19" part-of-speech="NN">surface</taggedword>
+      <taggedword index="20" part-of-speech="NNS">cytokines</taggedword>
+      <taggedword index="21" part-of-speech="WDT">that</taggedword>
+      <taggedword index="22" part-of-speech="VBP">participate</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="JJ">immune</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="JJ">inflammatory</taggedword>
+      <taggedword index="30" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Tumor" dep_index="1" gov="(TNF)" gov_index="4">amod</dependency>
+      <dependency dep="necrosis" dep_index="2" gov="(TNF)" gov_index="4">amod</dependency>
+      <dependency dep="factor" dep_index="3" gov="(TNF)" gov_index="4">nn</dependency>
+      <dependency dep="(TNF)" dep_index="4" gov="members" gov_index="11">nsubj</dependency>
+      <dependency dep="lymphotoxin-alpha" dep_index="6" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="(" dep_index="7" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="LT-alpha" dep_index="8" gov=")" gov_index="9">nn</dependency>
+      <dependency dep=")" dep_index="9" gov="(TNF)" gov_index="4">conj_and</dependency>
+      <dependency dep=")" dep_index="9" gov="members" gov_index="11">nsubj</dependency>
+      <dependency dep="are" dep_index="10" gov="members" gov_index="11">cop</dependency>
+      <dependency dep="members" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="members" dep_index="11" gov="participate" gov_index="22">nsubj</dependency>
+      <dependency dep="a" dep_index="13" gov="family" gov_index="14">det</dependency>
+      <dependency dep="family" dep_index="14" gov="members" gov_index="11">prep_of</dependency>
+      <dependency dep="secreted" dep_index="16" gov="cytokines" gov_index="20">nn</dependency>
+      <dependency dep="cell" dep_index="18" gov="secreted" gov_index="16">conj_and</dependency>
+      <dependency dep="cell" dep_index="18" gov="cytokines" gov_index="20">nn</dependency>
+      <dependency dep="surface" dep_index="19" gov="cytokines" gov_index="20">nn</dependency>
+      <dependency dep="cytokines" dep_index="20" gov="family" gov_index="14">prep_of</dependency>
+      <dependency dep="participate" dep_index="22" gov="members" gov_index="11">rcmod</dependency>
+      <dependency dep="the" dep_index="24" gov="regulation" gov_index="25">det</dependency>
+      <dependency dep="regulation" dep_index="25" gov="participate" gov_index="22">prep_in</dependency>
+      <dependency dep="immune" dep_index="27" gov="responses" gov_index="30">amod</dependency>
+      <dependency dep="inflammatory" dep_index="29" gov="immune" gov_index="27">conj_and</dependency>
+      <dependency dep="inflammatory" dep_index="29" gov="responses" gov_index="30">amod</dependency>
+      <dependency dep="responses" dep_index="30" gov="regulation" gov_index="25">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="false">6 9 8</relation>
+   </relations>
+   <pairs/>
+</root>

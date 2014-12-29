@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>TR6@(@decoy receptor 3@(@DcR3@))@is@a@new@member@of@the@tumor@necrosis@factor@receptor@(TNFR)@family@.@</sentence>
+   <tags>
+      <tag pos="1">TR6</tag>
+      <tag pos="3">decoy receptor 3</tag>
+      <tag pos="5">DcR3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">TR6</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">decoy receptor 3</taggedword>
+      <taggedword index="4" part-of-speech="NNP">(</taggedword>
+      <taggedword index="5" part-of-speech="NNP">DcR3</taggedword>
+      <taggedword index="6" part-of-speech="NNP">))</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">new</taggedword>
+      <taggedword index="10" part-of-speech="NN">member</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="14" part-of-speech="NN">necrosis</taggedword>
+      <taggedword index="15" part-of-speech="NN">factor</taggedword>
+      <taggedword index="16" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="17" part-of-speech="NN">(TNFR)</taggedword>
+      <taggedword index="18" part-of-speech="NN">family</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="TR6" dep_index="1" gov="))" gov_index="6">nn</dependency>
+      <dependency dep="(" dep_index="2" gov="))" gov_index="6">nn</dependency>
+      <dependency dep="decoy receptor 3" dep_index="3" gov="))" gov_index="6">nn</dependency>
+      <dependency dep="(" dep_index="4" gov="))" gov_index="6">nn</dependency>
+      <dependency dep="DcR3" dep_index="5" gov="))" gov_index="6">nn</dependency>
+      <dependency dep="))" dep_index="6" gov="member" gov_index="10">nsubj</dependency>
+      <dependency dep="is" dep_index="7" gov="member" gov_index="10">cop</dependency>
+      <dependency dep="a" dep_index="8" gov="member" gov_index="10">det</dependency>
+      <dependency dep="new" dep_index="9" gov="member" gov_index="10">amod</dependency>
+      <dependency dep="member" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="family" gov_index="18">det</dependency>
+      <dependency dep="tumor" dep_index="13" gov="family" gov_index="18">nn</dependency>
+      <dependency dep="necrosis" dep_index="14" gov="family" gov_index="18">nn</dependency>
+      <dependency dep="factor" dep_index="15" gov="family" gov_index="18">nn</dependency>
+      <dependency dep="receptor" dep_index="16" gov="family" gov_index="18">nn</dependency>
+      <dependency dep="(TNFR)" dep_index="17" gov="family" gov_index="18">nn</dependency>
+      <dependency dep="family" dep_index="18" gov="member" gov_index="10">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false">1 6 3</relation>
+      <relation position="100005" relationship="false">1 6 5</relation>
+      <relation position="300005" relationship="false">3 6 5</relation>
+   </relations>
+   <pairs/>
+</root>

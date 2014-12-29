@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Desmoplakin@(@DPI@),@a@desmosomal@component@lacking@a@transmembrane@domain@,@has@been@implicated@in@this@interaction@,@although@most@studies@have@been@conducted@with@cells@that@contain@few@or@no@desmosomes@,@and@efforts@to@demonstrate@direct@interactions@between@desmoplakin@and@intermediate@filaments@have@not@been@successful@.@</sentence>
+   <tags>
+      <tag pos="1">Desmoplakin</tag>
+      <tag pos="3">DPI</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Desmoplakin</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">DPI</taggedword>
+      <taggedword index="4" part-of-speech="VBD">),</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">desmosomal</taggedword>
+      <taggedword index="7" part-of-speech="NN">component</taggedword>
+      <taggedword index="8" part-of-speech="VBG">lacking</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="JJ">transmembrane</taggedword>
+      <taggedword index="11" part-of-speech="NN">domain</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="14" part-of-speech="VBN">been</taggedword>
+      <taggedword index="15" part-of-speech="VBN">implicated</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">this</taggedword>
+      <taggedword index="18" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="IN">although</taggedword>
+      <taggedword index="21" part-of-speech="JJS">most</taggedword>
+      <taggedword index="22" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="23" part-of-speech="VBP">have</taggedword>
+      <taggedword index="24" part-of-speech="VBN">been</taggedword>
+      <taggedword index="25" part-of-speech="VBN">conducted</taggedword>
+      <taggedword index="26" part-of-speech="IN">with</taggedword>
+      <taggedword index="27" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="28" part-of-speech="WDT">that</taggedword>
+      <taggedword index="29" part-of-speech="VBP">contain</taggedword>
+      <taggedword index="30" part-of-speech="JJ">few</taggedword>
+      <taggedword index="31" part-of-speech="CC">or</taggedword>
+      <taggedword index="32" part-of-speech="DT">no</taggedword>
+      <taggedword index="33" part-of-speech="NNS">desmosomes</taggedword>
+      <taggedword index="34" part-of-speech=",">,</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="NNS">efforts</taggedword>
+      <taggedword index="37" part-of-speech="TO">to</taggedword>
+      <taggedword index="38" part-of-speech="VB">demonstrate</taggedword>
+      <taggedword index="39" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="40" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="41" part-of-speech="IN">between</taggedword>
+      <taggedword index="42" part-of-speech="JJ">desmoplakin</taggedword>
+      <taggedword index="43" part-of-speech="CC">and</taggedword>
+      <taggedword index="44" part-of-speech="JJ">intermediate</taggedword>
+      <taggedword index="45" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="46" part-of-speech="VBP">have</taggedword>
+      <taggedword index="47" part-of-speech="RB">not</taggedword>
+      <taggedword index="48" part-of-speech="VBN">been</taggedword>
+      <taggedword index="49" part-of-speech="JJ">successful</taggedword>
+      <taggedword index="50" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Desmoplakin" dep_index="1" gov="DPI" gov_index="3">nn</dependency>
+      <dependency dep="(" dep_index="2" gov="DPI" gov_index="3">nn</dependency>
+      <dependency dep="DPI" dep_index="3" gov=")," gov_index="4">nsubj</dependency>
+      <dependency dep=")," dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="component" gov_index="7">det</dependency>
+      <dependency dep="desmosomal" dep_index="6" gov="component" gov_index="7">amod</dependency>
+      <dependency dep="component" dep_index="7" gov=")," gov_index="4">dobj</dependency>
+      <dependency dep="lacking" dep_index="8" gov=")," gov_index="4">xcomp</dependency>
+      <dependency dep="a" dep_index="9" gov="domain" gov_index="11">det</dependency>
+      <dependency dep="transmembrane" dep_index="10" gov="domain" gov_index="11">amod</dependency>
+      <dependency dep="domain" dep_index="11" gov="lacking" gov_index="8">dobj</dependency>
+      <dependency dep="has" dep_index="13" gov="implicated" gov_index="15">aux</dependency>
+      <dependency dep="been" dep_index="14" gov="implicated" gov_index="15">auxpass</dependency>
+      <dependency dep="implicated" dep_index="15" gov=")," gov_index="4">dep</dependency>
+      <dependency dep="this" dep_index="17" gov="interaction" gov_index="18">det</dependency>
+      <dependency dep="interaction" dep_index="18" gov="implicated" gov_index="15">prep_in</dependency>
+      <dependency dep="although" dep_index="20" gov="conducted" gov_index="25">mark</dependency>
+      <dependency dep="most" dep_index="21" gov="studies" gov_index="22">amod</dependency>
+      <dependency dep="studies" dep_index="22" gov="conducted" gov_index="25">nsubjpass</dependency>
+      <dependency dep="have" dep_index="23" gov="conducted" gov_index="25">aux</dependency>
+      <dependency dep="been" dep_index="24" gov="conducted" gov_index="25">auxpass</dependency>
+      <dependency dep="conducted" dep_index="25" gov=")," gov_index="4">advcl</dependency>
+      <dependency dep="cells" dep_index="27" gov="conducted" gov_index="25">prep_with</dependency>
+      <dependency dep="cells" dep_index="27" gov="contain" gov_index="29">nsubj</dependency>
+      <dependency dep="contain" dep_index="29" gov="cells" gov_index="27">rcmod</dependency>
+      <dependency dep="few" dep_index="30" gov="desmosomes" gov_index="33">amod</dependency>
+      <dependency dep="no" dep_index="32" gov="few" gov_index="30">conj_or</dependency>
+      <dependency dep="no" dep_index="32" gov="desmosomes" gov_index="33">amod</dependency>
+      <dependency dep="desmosomes" dep_index="33" gov="contain" gov_index="29">dobj</dependency>
+      <dependency dep="efforts" dep_index="36" gov="successful" gov_index="49">nsubj</dependency>
+      <dependency dep="to" dep_index="37" gov="demonstrate" gov_index="38">aux</dependency>
+      <dependency dep="demonstrate" dep_index="38" gov="efforts" gov_index="36">infmod</dependency>
+      <dependency dep="direct" dep_index="39" gov="interactions" gov_index="40">amod</dependency>
+      <dependency dep="interactions" dep_index="40" gov="demonstrate" gov_index="38">dobj</dependency>
+      <dependency dep="desmoplakin" dep_index="42" gov="filaments" gov_index="45">amod</dependency>
+      <dependency dep="intermediate" dep_index="44" gov="desmoplakin" gov_index="42">conj_and</dependency>
+      <dependency dep="intermediate" dep_index="44" gov="filaments" gov_index="45">amod</dependency>
+      <dependency dep="filaments" dep_index="45" gov="interactions" gov_index="40">prep_between</dependency>
+      <dependency dep="have" dep_index="46" gov="successful" gov_index="49">aux</dependency>
+      <dependency dep="not" dep_index="47" gov="successful" gov_index="49">neg</dependency>
+      <dependency dep="been" dep_index="48" gov="successful" gov_index="49">cop</dependency>
+      <dependency dep="successful" dep_index="49" gov=")," gov_index="4">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

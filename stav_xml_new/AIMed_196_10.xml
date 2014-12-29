@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@interaction@suggests@a@mechanism@by@which@a@homeobox@can@alter@the@cell@cycle@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="WDT">which</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="NN">homeobox</taggedword>
+      <taggedword index="10" part-of-speech="MD">can</taggedword>
+      <taggedword index="11" part-of-speech="VB">alter</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">cell</taggedword>
+      <taggedword index="14" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="interaction" gov_index="2">det</dependency>
+      <dependency dep="interaction" dep_index="2" gov="suggests" gov_index="3">nsubj</dependency>
+      <dependency dep="suggests" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="mechanism" gov_index="5">det</dependency>
+      <dependency dep="mechanism" dep_index="5" gov="suggests" gov_index="3">dobj</dependency>
+      <dependency dep="mechanism" dep_index="5" gov="alter" gov_index="11">prep_by</dependency>
+      <dependency dep="a" dep_index="8" gov="homeobox" gov_index="9">det</dependency>
+      <dependency dep="homeobox" dep_index="9" gov="alter" gov_index="11">nsubj</dependency>
+      <dependency dep="can" dep_index="10" gov="alter" gov_index="11">aux</dependency>
+      <dependency dep="alter" dep_index="11" gov="mechanism" gov_index="5">rcmod</dependency>
+      <dependency dep="the" dep_index="12" gov="cycle" gov_index="14">det</dependency>
+      <dependency dep="cell" dep_index="13" gov="cycle" gov_index="14">nn</dependency>
+      <dependency dep="cycle" dep_index="14" gov="alter" gov_index="11">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

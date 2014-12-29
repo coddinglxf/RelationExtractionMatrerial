@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@human@cDNA@encodes@a@protein@of@160@amino@acids@that@does@not@show@homology@to@previously@identified@proteins@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">human</taggedword>
+      <taggedword index="3" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">encodes</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="NN">protein</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="CD">160</taggedword>
+      <taggedword index="9" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="10" part-of-speech="NNS">acids</taggedword>
+      <taggedword index="11" part-of-speech="WDT">that</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="13" part-of-speech="RB">not</taggedword>
+      <taggedword index="14" part-of-speech="VB">show</taggedword>
+      <taggedword index="15" part-of-speech="RB">homology</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="RB">previously</taggedword>
+      <taggedword index="18" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="19" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="cDNA" gov_index="3">det</dependency>
+      <dependency dep="human" dep_index="2" gov="cDNA" gov_index="3">amod</dependency>
+      <dependency dep="cDNA" dep_index="3" gov="encodes" gov_index="4">nsubj</dependency>
+      <dependency dep="encodes" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="protein" gov_index="6">det</dependency>
+      <dependency dep="protein" dep_index="6" gov="encodes" gov_index="4">dobj</dependency>
+      <dependency dep="160" dep_index="8" gov="acids" gov_index="10">num</dependency>
+      <dependency dep="amino" dep_index="9" gov="acids" gov_index="10">amod</dependency>
+      <dependency dep="acids" dep_index="10" gov="protein" gov_index="6">prep_of</dependency>
+      <dependency dep="acids" dep_index="10" gov="show" gov_index="14">nsubj</dependency>
+      <dependency dep="does" dep_index="12" gov="show" gov_index="14">aux</dependency>
+      <dependency dep="not" dep_index="13" gov="show" gov_index="14">neg</dependency>
+      <dependency dep="show" dep_index="14" gov="acids" gov_index="10">rcmod</dependency>
+      <dependency dep="homology" dep_index="15" gov="show" gov_index="14">advmod</dependency>
+      <dependency dep="previously" dep_index="17" gov="identified" gov_index="18">advmod</dependency>
+      <dependency dep="identified" dep_index="18" gov="proteins" gov_index="19">amod</dependency>
+      <dependency dep="proteins" dep_index="19" gov="show" gov_index="14">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

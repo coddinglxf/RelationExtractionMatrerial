@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@to@controlling@transcription@of@phrC@,@sigmaH@appears@to@control@expression@of@at@least@one@other@gene@required@for@production@of@CSF@.@</sentence>
+   <tags>
+      <tag pos="9">sigmaH</tag>
+      <tag pos="7">phrC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="VBG">controlling</taggedword>
+      <taggedword index="5" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">phrC</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">sigmaH</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">appears</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">control</taggedword>
+      <taggedword index="13" part-of-speech="NN">expression</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="IN">at</taggedword>
+      <taggedword index="16" part-of-speech="JJS">least</taggedword>
+      <taggedword index="17" part-of-speech="CD">one</taggedword>
+      <taggedword index="18" part-of-speech="JJ">other</taggedword>
+      <taggedword index="19" part-of-speech="NN">gene</taggedword>
+      <taggedword index="20" part-of-speech="VBN">required</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="NN">production</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NNP">CSF</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="controlling" dep_index="4" gov="transcription" gov_index="5">amod</dependency>
+      <dependency dep="transcription" dep_index="5" gov="appears" gov_index="10">prep_in_addition_to</dependency>
+      <dependency dep="phrC" dep_index="7" gov="transcription" gov_index="5">prep_of</dependency>
+      <dependency dep="sigmaH" dep_index="9" gov="appears" gov_index="10">nsubj</dependency>
+      <dependency dep="sigmaH" dep_index="9" gov="control" gov_index="12">xsubj</dependency>
+      <dependency dep="appears" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="11" gov="control" gov_index="12">aux</dependency>
+      <dependency dep="control" dep_index="12" gov="appears" gov_index="10">xcomp</dependency>
+      <dependency dep="expression" dep_index="13" gov="control" gov_index="12">dobj</dependency>
+      <dependency dep="at" dep_index="15" gov="one" gov_index="17">quantmod</dependency>
+      <dependency dep="least" dep_index="16" gov="at" gov_index="15">mwe</dependency>
+      <dependency dep="least" dep_index="16" gov="at" gov_index="15">pobj</dependency>
+      <dependency dep="one" dep_index="17" gov="gene" gov_index="19">num</dependency>
+      <dependency dep="other" dep_index="18" gov="gene" gov_index="19">amod</dependency>
+      <dependency dep="gene" dep_index="19" gov="expression" gov_index="13">prep_of</dependency>
+      <dependency dep="required" dep_index="20" gov="gene" gov_index="19">partmod</dependency>
+      <dependency dep="production" dep_index="22" gov="required" gov_index="20">prep_for</dependency>
+      <dependency dep="CSF" dep_index="24" gov="production" gov_index="22">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true">7 5 10 9</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

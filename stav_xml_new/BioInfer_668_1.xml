@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@procedure@allows@for@the@simultaneous@quantification@of@myosin heavy chain@,@myosin light chain@,@phosphorylatable myosin light chain@and@actin@from@as@little@as@50@mg@of@tissue@.@</sentence>
+   <tags>
+      <tag pos="13">phosphorylatable myosin light chain</tag>
+      <tag pos="9">myosin heavy chain</tag>
+      <tag pos="15">actin</tag>
+      <tag pos="11">myosin light chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">procedure</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">allows</taggedword>
+      <taggedword index="4" part-of-speech="IN">for</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">simultaneous</taggedword>
+      <taggedword index="7" part-of-speech="NN">quantification</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">myosin light chain</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">phosphorylatable myosin light chain</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">actin</taggedword>
+      <taggedword index="16" part-of-speech="IN">from</taggedword>
+      <taggedword index="17" part-of-speech="RB">as</taggedword>
+      <taggedword index="18" part-of-speech="JJ">little</taggedword>
+      <taggedword index="19" part-of-speech="IN">as</taggedword>
+      <taggedword index="20" part-of-speech="CD">50</taggedword>
+      <taggedword index="21" part-of-speech="NN">mg</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="procedure" gov_index="2">det</dependency>
+      <dependency dep="procedure" dep_index="2" gov="allows" gov_index="3">nsubj</dependency>
+      <dependency dep="allows" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="quantification" gov_index="7">det</dependency>
+      <dependency dep="simultaneous" dep_index="6" gov="quantification" gov_index="7">amod</dependency>
+      <dependency dep="quantification" dep_index="7" gov="allows" gov_index="3">prep_for</dependency>
+      <dependency dep="myosin heavy chain" dep_index="9" gov="quantification" gov_index="7">prep_of</dependency>
+      <dependency dep="myosin light chain" dep_index="11" gov="quantification" gov_index="7">prep_of</dependency>
+      <dependency dep="myosin light chain" dep_index="11" gov="myosin heavy chain" gov_index="9">conj_and</dependency>
+      <dependency dep="phosphorylatable myosin light chain" dep_index="13" gov="quantification" gov_index="7">prep_of</dependency>
+      <dependency dep="phosphorylatable myosin light chain" dep_index="13" gov="myosin heavy chain" gov_index="9">conj_and</dependency>
+      <dependency dep="actin" dep_index="15" gov="quantification" gov_index="7">prep_of</dependency>
+      <dependency dep="actin" dep_index="15" gov="myosin heavy chain" gov_index="9">conj_and</dependency>
+      <dependency dep="as" dep_index="17" gov="50" gov_index="20">quantmod</dependency>
+      <dependency dep="little" dep_index="18" gov="50" gov_index="20">quantmod</dependency>
+      <dependency dep="as" dep_index="19" gov="50" gov_index="20">quantmod</dependency>
+      <dependency dep="50" dep_index="20" gov="mg" gov_index="21">num</dependency>
+      <dependency dep="mg" dep_index="21" gov="allows" gov_index="3">prep_from</dependency>
+      <dependency dep="tissue" dep_index="23" gov="mg" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="false">9 7 13</relation>
+      <relation position="1300015" relationship="false">13 7 15</relation>
+      <relation position="1100013" relationship="false">11 7 13</relation>
+      <relation position="900015" relationship="false">9 7 15</relation>
+      <relation position="900011" relationship="false">9 7 11</relation>
+      <relation position="1100015" relationship="false">11 7 15</relation>
+   </relations>
+   <pairs/>
+</root>

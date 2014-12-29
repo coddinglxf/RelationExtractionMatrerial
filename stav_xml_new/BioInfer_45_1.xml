@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Although@platelets@contain@only@1@profilin@for@every@5-10@actin@molecules@,@these@complex@reactions@may@allow@substoichiometric@profilin@to@have@an@important@influence@on@actin@assembly@.@</sentence>
+   <tags>
+      <tag pos="26">actin</tag>
+      <tag pos="10">actin</tag>
+      <tag pos="6">profilin</tag>
+      <tag pos="19">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Although</taggedword>
+      <taggedword index="2" part-of-speech="NNS">platelets</taggedword>
+      <taggedword index="3" part-of-speech="VBP">contain</taggedword>
+      <taggedword index="4" part-of-speech="RB">only</taggedword>
+      <taggedword index="5" part-of-speech="CD">1</taggedword>
+      <taggedword index="6" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="DT">every</taggedword>
+      <taggedword index="9" part-of-speech="JJ">5-10</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="DT">these</taggedword>
+      <taggedword index="14" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="15" part-of-speech="NNS">reactions</taggedword>
+      <taggedword index="16" part-of-speech="MD">may</taggedword>
+      <taggedword index="17" part-of-speech="VB">allow</taggedword>
+      <taggedword index="18" part-of-speech="JJ">substoichiometric</taggedword>
+      <taggedword index="19" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">have</taggedword>
+      <taggedword index="22" part-of-speech="DT">an</taggedword>
+      <taggedword index="23" part-of-speech="JJ">important</taggedword>
+      <taggedword index="24" part-of-speech="NN">influence</taggedword>
+      <taggedword index="25" part-of-speech="IN">on</taggedword>
+      <taggedword index="26" part-of-speech="NN">actin</taggedword>
+      <taggedword index="27" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Although" dep_index="1" gov="contain" gov_index="3">mark</dependency>
+      <dependency dep="platelets" dep_index="2" gov="contain" gov_index="3">nsubj</dependency>
+      <dependency dep="contain" dep_index="3" gov="allow" gov_index="17">advcl</dependency>
+      <dependency dep="only" dep_index="4" gov="1" gov_index="5">quantmod</dependency>
+      <dependency dep="1" dep_index="5" gov="profilin" gov_index="6">num</dependency>
+      <dependency dep="profilin" dep_index="6" gov="contain" gov_index="3">dobj</dependency>
+      <dependency dep="every" dep_index="8" gov="molecules" gov_index="11">det</dependency>
+      <dependency dep="5-10" dep_index="9" gov="molecules" gov_index="11">amod</dependency>
+      <dependency dep="actin" dep_index="10" gov="molecules" gov_index="11">nn</dependency>
+      <dependency dep="molecules" dep_index="11" gov="profilin" gov_index="6">prep_for</dependency>
+      <dependency dep="these" dep_index="13" gov="reactions" gov_index="15">det</dependency>
+      <dependency dep="complex" dep_index="14" gov="reactions" gov_index="15">amod</dependency>
+      <dependency dep="reactions" dep_index="15" gov="allow" gov_index="17">nsubj</dependency>
+      <dependency dep="reactions" dep_index="15" gov="have" gov_index="21">xsubj</dependency>
+      <dependency dep="may" dep_index="16" gov="allow" gov_index="17">aux</dependency>
+      <dependency dep="allow" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="substoichiometric" dep_index="18" gov="profilin" gov_index="19">amod</dependency>
+      <dependency dep="profilin" dep_index="19" gov="allow" gov_index="17">dobj</dependency>
+      <dependency dep="to" dep_index="20" gov="have" gov_index="21">aux</dependency>
+      <dependency dep="have" dep_index="21" gov="allow" gov_index="17">xcomp</dependency>
+      <dependency dep="an" dep_index="22" gov="influence" gov_index="24">det</dependency>
+      <dependency dep="important" dep_index="23" gov="influence" gov_index="24">amod</dependency>
+      <dependency dep="influence" dep_index="24" gov="have" gov_index="21">dobj</dependency>
+      <dependency dep="actin" dep_index="26" gov="assembly" gov_index="27">nn</dependency>
+      <dependency dep="assembly" dep_index="27" gov="influence" gov_index="24">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000026" relationship="false">10 11 6 3 17 21 24 27 26</relation>
+      <relation position="600026" relationship="false">6 3 17 21 24 27 26</relation>
+      <relation position="1900026" relationship="true">19 17 21 24 27 26</relation>
+      <relation position="600010" relationship="false"></relation>
+      <relation position="1000019" relationship="false">10 11 6 3 17 19</relation>
+      <relation position="600019" relationship="false">6 3 17 19</relation>
+   </relations>
+   <pairs>
+      <pair>1900026</pair>
+   </pairs>
+</root>

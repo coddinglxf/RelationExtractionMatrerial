@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@conclude@that@the@faster@Vus@of@smooth@muscle@of@the@KO@mouse@is@consistent@with@,@but@does@not@prove@without@further@study@,@physiological@regulation@of@the@crossbridge@cycle@by@calponin@.@</sentence>
+   <tags>
+      <tag pos="33">calponin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">conclude</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJR">faster</taggedword>
+      <taggedword index="6" part-of-speech="NN">Vus</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">smooth</taggedword>
+      <taggedword index="9" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NNP">KO</taggedword>
+      <taggedword index="13" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="JJ">consistent</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">but</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="20" part-of-speech="RB">not</taggedword>
+      <taggedword index="21" part-of-speech="VB">prove</taggedword>
+      <taggedword index="22" part-of-speech="IN">without</taggedword>
+      <taggedword index="23" part-of-speech="JJ">further</taggedword>
+      <taggedword index="24" part-of-speech="NN">study</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="JJ">physiological</taggedword>
+      <taggedword index="27" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="JJ">crossbridge</taggedword>
+      <taggedword index="31" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="32" part-of-speech="IN">by</taggedword>
+      <taggedword index="33" part-of-speech="NN">calponin</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="conclude" gov_index="2">nsubj</dependency>
+      <dependency dep="We" dep_index="1" gov="prove" gov_index="21">nsubj</dependency>
+      <dependency dep="conclude" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="consistent" gov_index="15">mark</dependency>
+      <dependency dep="the" dep_index="4" gov="Vus" gov_index="6">det</dependency>
+      <dependency dep="faster" dep_index="5" gov="Vus" gov_index="6">amod</dependency>
+      <dependency dep="Vus" dep_index="6" gov="consistent" gov_index="15">nsubj</dependency>
+      <dependency dep="smooth" dep_index="8" gov="muscle" gov_index="9">amod</dependency>
+      <dependency dep="muscle" dep_index="9" gov="Vus" gov_index="6">prep_of</dependency>
+      <dependency dep="the" dep_index="11" gov="mouse" gov_index="13">det</dependency>
+      <dependency dep="KO" dep_index="12" gov="mouse" gov_index="13">nn</dependency>
+      <dependency dep="mouse" dep_index="13" gov="muscle" gov_index="9">prep_of</dependency>
+      <dependency dep="is" dep_index="14" gov="consistent" gov_index="15">cop</dependency>
+      <dependency dep="consistent" dep_index="15" gov="conclude" gov_index="2">ccomp</dependency>
+      <dependency dep="with" dep_index="16" gov="consistent" gov_index="15">prep</dependency>
+      <dependency dep="does" dep_index="19" gov="prove" gov_index="21">aux</dependency>
+      <dependency dep="not" dep_index="20" gov="prove" gov_index="21">neg</dependency>
+      <dependency dep="prove" dep_index="21" gov="conclude" gov_index="2">conj_but</dependency>
+      <dependency dep="further" dep_index="23" gov="study" gov_index="24">amod</dependency>
+      <dependency dep="study" dep_index="24" gov="prove" gov_index="21">prep_without</dependency>
+      <dependency dep="physiological" dep_index="26" gov="regulation" gov_index="27">amod</dependency>
+      <dependency dep="regulation" dep_index="27" gov="study" gov_index="24">appos</dependency>
+      <dependency dep="the" dep_index="29" gov="cycle" gov_index="31">det</dependency>
+      <dependency dep="crossbridge" dep_index="30" gov="cycle" gov_index="31">amod</dependency>
+      <dependency dep="cycle" dep_index="31" gov="regulation" gov_index="27">prep_of</dependency>
+      <dependency dep="calponin" dep_index="33" gov="prove" gov_index="21">prep_by</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

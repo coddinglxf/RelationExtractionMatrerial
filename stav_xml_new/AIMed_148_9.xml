@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunoprecipitation@experiments@with@human@osteosarcoma@cells@and@Ewing's@sarcoma@cells@demonstrated@that@cyclin D1@is@associated@with@both@p34cdc2@and@p33cdk2@,@and@that@cyclin D1@immune@complexes@exhibit@appreciable@histone@H1@kinase@activity@.@</sentence>
+   <tags>
+      <tag pos="13">cyclin D1</tag>
+      <tag pos="18">p34cdc2</tag>
+      <tag pos="20">p33cdk2</tag>
+      <tag pos="24">cyclin D1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Immunoprecipitation</taggedword>
+      <taggedword index="2" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="JJ">human</taggedword>
+      <taggedword index="5" part-of-speech="NN">osteosarcoma</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NNS">Ewing's</taggedword>
+      <taggedword index="9" part-of-speech="NN">sarcoma</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="11" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="12" part-of-speech="IN">that</taggedword>
+      <taggedword index="13" part-of-speech="NNS">cyclin D1</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="DT">both</taggedword>
+      <taggedword index="18" part-of-speech="CD">p34cdc2</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="CD">p33cdk2</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="IN">that</taggedword>
+      <taggedword index="24" part-of-speech="JJ">cyclin D1</taggedword>
+      <taggedword index="25" part-of-speech="JJ">immune</taggedword>
+      <taggedword index="26" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="27" part-of-speech="VB">exhibit</taggedword>
+      <taggedword index="28" part-of-speech="JJ">appreciable</taggedword>
+      <taggedword index="29" part-of-speech="NN">histone</taggedword>
+      <taggedword index="30" part-of-speech="NN">H1</taggedword>
+      <taggedword index="31" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="32" part-of-speech="NN">activity</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunoprecipitation" dep_index="1" gov="experiments" gov_index="2">nn</dependency>
+      <dependency dep="experiments" dep_index="2" gov="demonstrated" gov_index="11">nsubj</dependency>
+      <dependency dep="human" dep_index="4" gov="cells" gov_index="6">amod</dependency>
+      <dependency dep="osteosarcoma" dep_index="5" gov="cells" gov_index="6">nn</dependency>
+      <dependency dep="cells" dep_index="6" gov="experiments" gov_index="2">prep_with</dependency>
+      <dependency dep="Ewing's" dep_index="8" gov="cells" gov_index="10">nn</dependency>
+      <dependency dep="sarcoma" dep_index="9" gov="cells" gov_index="10">nn</dependency>
+      <dependency dep="cells" dep_index="10" gov="experiments" gov_index="2">prep_with</dependency>
+      <dependency dep="cells" dep_index="10" gov="cells" gov_index="6">conj_and</dependency>
+      <dependency dep="demonstrated" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="12" gov="associated" gov_index="15">mark</dependency>
+      <dependency dep="cyclin D1" dep_index="13" gov="associated" gov_index="15">nsubjpass</dependency>
+      <dependency dep="is" dep_index="14" gov="associated" gov_index="15">auxpass</dependency>
+      <dependency dep="associated" dep_index="15" gov="demonstrated" gov_index="11">ccomp</dependency>
+      <dependency dep="both" dep_index="17" gov="p34cdc2" gov_index="18">preconj</dependency>
+      <dependency dep="p34cdc2" dep_index="18" gov="associated" gov_index="15">prep_with</dependency>
+      <dependency dep="p33cdk2" dep_index="20" gov="associated" gov_index="15">prep_with</dependency>
+      <dependency dep="p33cdk2" dep_index="20" gov="p34cdc2" gov_index="18">conj_and</dependency>
+      <dependency dep="that" dep_index="23" gov="exhibit" gov_index="27">mark</dependency>
+      <dependency dep="cyclin D1" dep_index="24" gov="complexes" gov_index="26">amod</dependency>
+      <dependency dep="immune" dep_index="25" gov="complexes" gov_index="26">amod</dependency>
+      <dependency dep="complexes" dep_index="26" gov="exhibit" gov_index="27">nsubj</dependency>
+      <dependency dep="exhibit" dep_index="27" gov="demonstrated" gov_index="11">ccomp</dependency>
+      <dependency dep="exhibit" dep_index="27" gov="associated" gov_index="15">conj_and</dependency>
+      <dependency dep="appreciable" dep_index="28" gov="activity" gov_index="32">amod</dependency>
+      <dependency dep="histone" dep_index="29" gov="activity" gov_index="32">nn</dependency>
+      <dependency dep="H1" dep_index="30" gov="activity" gov_index="32">nn</dependency>
+      <dependency dep="kinase" dep_index="31" gov="activity" gov_index="32">nn</dependency>
+      <dependency dep="activity" dep_index="32" gov="exhibit" gov_index="27">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300018" relationship="true">13 15 18</relation>
+      <relation position="1300020" relationship="true">13 15 20</relation>
+      <relation position="1300024" relationship="false">13 15 11 27 26 24</relation>
+      <relation position="1800020" relationship="false">18 15 20</relation>
+      <relation position="1800024" relationship="false">18 15 11 27 26 24</relation>
+      <relation position="2000024" relationship="false">20 15 11 27 26 24</relation>
+   </relations>
+   <pairs>
+      <pair>1300018</pair>
+      <pair>1300020</pair>
+   </pairs>
+</root>

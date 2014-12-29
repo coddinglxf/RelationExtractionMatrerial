@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>If@daily@oxytocin@injections@are@repeated@over@a@5-day@period@,@blood@pressure@is@decreased@by@10-20@mmHg@,@the@withdrawal@latency@to@heat@stimuli@is@prolonged@,@cortisol@levels@are@decreased@and@insulin@and@cholecystokinin@levels@are@increased@</sentence>
+   <tags>
+      <tag pos="3">oxytocin</tag>
+      <tag pos="34">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">If</taggedword>
+      <taggedword index="2" part-of-speech="JJ">daily</taggedword>
+      <taggedword index="3" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="4" part-of-speech="NNS">injections</taggedword>
+      <taggedword index="5" part-of-speech="VBP">are</taggedword>
+      <taggedword index="6" part-of-speech="VBN">repeated</taggedword>
+      <taggedword index="7" part-of-speech="IN">over</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">5-day</taggedword>
+      <taggedword index="10" part-of-speech="NN">period</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NN">blood</taggedword>
+      <taggedword index="13" part-of-speech="NN">pressure</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="VBN">decreased</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="CD">10-20</taggedword>
+      <taggedword index="18" part-of-speech="NN">mmHg</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">withdrawal</taggedword>
+      <taggedword index="22" part-of-speech="NN">latency</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="NN">heat</taggedword>
+      <taggedword index="25" part-of-speech="NNS">stimuli</taggedword>
+      <taggedword index="26" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="27" part-of-speech="JJ">prolonged</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="JJ">cortisol</taggedword>
+      <taggedword index="30" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="31" part-of-speech="VBP">are</taggedword>
+      <taggedword index="32" part-of-speech="VBN">decreased</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="NN">cholecystokinin</taggedword>
+      <taggedword index="37" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="38" part-of-speech="VBP">are</taggedword>
+      <taggedword index="39" part-of-speech="VBN">increased</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="If" dep_index="1" gov="repeated" gov_index="6">mark</dependency>
+      <dependency dep="daily" dep_index="2" gov="injections" gov_index="4">amod</dependency>
+      <dependency dep="oxytocin" dep_index="3" gov="injections" gov_index="4">nn</dependency>
+      <dependency dep="injections" dep_index="4" gov="repeated" gov_index="6">nsubjpass</dependency>
+      <dependency dep="are" dep_index="5" gov="repeated" gov_index="6">auxpass</dependency>
+      <dependency dep="repeated" dep_index="6" gov="prolonged" gov_index="27">advcl</dependency>
+      <dependency dep="a" dep_index="8" gov="period" gov_index="10">det</dependency>
+      <dependency dep="5-day" dep_index="9" gov="period" gov_index="10">amod</dependency>
+      <dependency dep="period" dep_index="10" gov="repeated" gov_index="6">prep_over</dependency>
+      <dependency dep="blood" dep_index="12" gov="pressure" gov_index="13">nn</dependency>
+      <dependency dep="pressure" dep_index="13" gov="decreased" gov_index="15">nsubjpass</dependency>
+      <dependency dep="is" dep_index="14" gov="decreased" gov_index="15">auxpass</dependency>
+      <dependency dep="decreased" dep_index="15" gov="prolonged" gov_index="27">dep</dependency>
+      <dependency dep="10-20" dep_index="17" gov="mmHg" gov_index="18">num</dependency>
+      <dependency dep="mmHg" dep_index="18" gov="decreased" gov_index="15">agent</dependency>
+      <dependency dep="the" dep_index="20" gov="latency" gov_index="22">det</dependency>
+      <dependency dep="withdrawal" dep_index="21" gov="latency" gov_index="22">nn</dependency>
+      <dependency dep="latency" dep_index="22" gov="prolonged" gov_index="27">nsubj</dependency>
+      <dependency dep="heat" dep_index="24" gov="stimuli" gov_index="25">nn</dependency>
+      <dependency dep="stimuli" dep_index="25" gov="latency" gov_index="22">prep_to</dependency>
+      <dependency dep="is" dep_index="26" gov="prolonged" gov_index="27">cop</dependency>
+      <dependency dep="prolonged" dep_index="27" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cortisol" dep_index="29" gov="levels" gov_index="30">amod</dependency>
+      <dependency dep="levels" dep_index="30" gov="decreased" gov_index="32">nsubjpass</dependency>
+      <dependency dep="are" dep_index="31" gov="decreased" gov_index="32">auxpass</dependency>
+      <dependency dep="decreased" dep_index="32" gov="prolonged" gov_index="27">conj_and</dependency>
+      <dependency dep="insulin" dep_index="34" gov="levels" gov_index="37">nn</dependency>
+      <dependency dep="cholecystokinin" dep_index="36" gov="insulin" gov_index="34">conj_and</dependency>
+      <dependency dep="cholecystokinin" dep_index="36" gov="levels" gov_index="37">nn</dependency>
+      <dependency dep="levels" dep_index="37" gov="increased" gov_index="39">nsubjpass</dependency>
+      <dependency dep="are" dep_index="38" gov="increased" gov_index="39">auxpass</dependency>
+      <dependency dep="increased" dep_index="39" gov="prolonged" gov_index="27">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300034" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>300034</pair>
+   </pairs>
+</root>

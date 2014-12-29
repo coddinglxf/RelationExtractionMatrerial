@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Endometrial@IP3@was@increased@within@30@seconds@after@OT@treatment@and@preceded@the@increase@in@PGF2@alpha@release@stimulated@by@OT@</sentence>
+   <tags>
+      <tag pos="2">IP3</tag>
+      <tag pos="9">OT</tag>
+      <tag pos="21">OT</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Endometrial</taggedword>
+      <taggedword index="2" part-of-speech="NNP">IP3</taggedword>
+      <taggedword index="3" part-of-speech="VBD">was</taggedword>
+      <taggedword index="4" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="5" part-of-speech="IN">within</taggedword>
+      <taggedword index="6" part-of-speech="CD">30</taggedword>
+      <taggedword index="7" part-of-speech="NNS">seconds</taggedword>
+      <taggedword index="8" part-of-speech="IN">after</taggedword>
+      <taggedword index="9" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="10" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="VBN">preceded</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">increase</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="JJ">PGF2</taggedword>
+      <taggedword index="17" part-of-speech="NN">alpha</taggedword>
+      <taggedword index="18" part-of-speech="NN">release</taggedword>
+      <taggedword index="19" part-of-speech="VBN">stimulated</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="NNP">OT</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Endometrial" dep_index="1" gov="IP3" gov_index="2">nn</dependency>
+      <dependency dep="IP3" dep_index="2" gov="increased" gov_index="4">nsubjpass</dependency>
+      <dependency dep="IP3" dep_index="2" gov="preceded" gov_index="12">nsubjpass</dependency>
+      <dependency dep="was" dep_index="3" gov="increased" gov_index="4">auxpass</dependency>
+      <dependency dep="increased" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="30" dep_index="6" gov="seconds" gov_index="7">num</dependency>
+      <dependency dep="seconds" dep_index="7" gov="increased" gov_index="4">prep_within</dependency>
+      <dependency dep="OT" dep_index="9" gov="treatment" gov_index="10">nn</dependency>
+      <dependency dep="treatment" dep_index="10" gov="increased" gov_index="4">prep_after</dependency>
+      <dependency dep="preceded" dep_index="12" gov="increased" gov_index="4">conj_and</dependency>
+      <dependency dep="the" dep_index="13" gov="increase" gov_index="14">det</dependency>
+      <dependency dep="increase" dep_index="14" gov="preceded" gov_index="12">dobj</dependency>
+      <dependency dep="PGF2" dep_index="16" gov="alpha" gov_index="17">dep</dependency>
+      <dependency dep="alpha" dep_index="17" gov="release" gov_index="18">amod</dependency>
+      <dependency dep="release" dep_index="18" gov="preceded" gov_index="12">prep_in</dependency>
+      <dependency dep="stimulated" dep_index="19" gov="release" gov_index="18">partmod</dependency>
+      <dependency dep="OT" dep_index="21" gov="stimulated" gov_index="19">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200009" relationship="true">2 4 10 9</relation>
+      <relation position="200021" relationship="false">2 12 18 19 21</relation>
+      <relation position="900021" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>200009</pair>
+   </pairs>
+</root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Production@of@sigmaK@about@1@h@earlier@than@normal@does@affect@Spo0A@,@which@when@phosphorylated@is@an@activator@of@sigE@transcription@.@</sentence>
+   <tags>
+      <tag pos="3">sigmaK</tag>
+      <tag pos="12">Spo0A</tag>
+      <tag pos="21">sigE</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Production</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">sigmaK</taggedword>
+      <taggedword index="4" part-of-speech="RB">about</taggedword>
+      <taggedword index="5" part-of-speech="CD">1</taggedword>
+      <taggedword index="6" part-of-speech="NN">h</taggedword>
+      <taggedword index="7" part-of-speech="RB">earlier</taggedword>
+      <taggedword index="8" part-of-speech="IN">than</taggedword>
+      <taggedword index="9" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="11" part-of-speech="VB">affect</taggedword>
+      <taggedword index="12" part-of-speech="NNS">Spo0A</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="WDT">which</taggedword>
+      <taggedword index="15" part-of-speech="WRB">when</taggedword>
+      <taggedword index="16" part-of-speech="JJ">phosphorylated</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="18" part-of-speech="DT">an</taggedword>
+      <taggedword index="19" part-of-speech="NN">activator</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="JJ">sigE</taggedword>
+      <taggedword index="22" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Production" dep_index="1" gov="affect" gov_index="11">nsubj</dependency>
+      <dependency dep="sigmaK" dep_index="3" gov="Production" gov_index="1">prep_of</dependency>
+      <dependency dep="about" dep_index="4" gov="1" gov_index="5">quantmod</dependency>
+      <dependency dep="1" dep_index="5" gov="h" gov_index="6">num</dependency>
+      <dependency dep="h" dep_index="6" gov="earlier" gov_index="7">npadvmod</dependency>
+      <dependency dep="earlier" dep_index="7" gov="sigmaK" gov_index="3">advmod</dependency>
+      <dependency dep="normal" dep_index="9" gov="earlier" gov_index="7">prep_than</dependency>
+      <dependency dep="does" dep_index="10" gov="affect" gov_index="11">aux</dependency>
+      <dependency dep="affect" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Spo0A" dep_index="12" gov="affect" gov_index="11">dobj</dependency>
+      <dependency dep="Spo0A" dep_index="12" gov="activator" gov_index="19">nsubj</dependency>
+      <dependency dep="when" dep_index="15" gov="phosphorylated" gov_index="16">advmod</dependency>
+      <dependency dep="phosphorylated" dep_index="16" gov="which" gov_index="14">dep</dependency>
+      <dependency dep="is" dep_index="17" gov="activator" gov_index="19">cop</dependency>
+      <dependency dep="an" dep_index="18" gov="activator" gov_index="19">det</dependency>
+      <dependency dep="activator" dep_index="19" gov="Spo0A" gov_index="12">rcmod</dependency>
+      <dependency dep="sigE" dep_index="21" gov="transcription" gov_index="22">amod</dependency>
+      <dependency dep="transcription" dep_index="22" gov="activator" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300012" relationship="true">3 1 11 12</relation>
+      <relation position="300021" relationship="false">3 1 11 12 19 22 21</relation>
+      <relation position="1200021" relationship="true">12 19 22 21</relation>
+   </relations>
+   <pairs>
+      <pair>1200021</pair>
+      <pair>300012</pair>
+   </pairs>
+</root>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Delineation@of@the@binding@regions@of@these@three@proteins@revealed@that@HBx@,@RPB5@,@and@TFIIB@each@has@two@binding@regions@for@the@other@two@proteins@.@</sentence>
+   <tags>
+      <tag pos="12">HBx</tag>
+      <tag pos="14">RPB5</tag>
+      <tag pos="17">TFIIB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Delineation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="5" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">these</taggedword>
+      <taggedword index="8" part-of-speech="CD">three</taggedword>
+      <taggedword index="9" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="10" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="11" part-of-speech="IN">that</taggedword>
+      <taggedword index="12" part-of-speech="NNP">HBx</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NNP">RPB5</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NNP">TFIIB</taggedword>
+      <taggedword index="18" part-of-speech="DT">each</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="20" part-of-speech="CD">two</taggedword>
+      <taggedword index="21" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="22" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="23" part-of-speech="IN">for</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="JJ">other</taggedword>
+      <taggedword index="26" part-of-speech="CD">two</taggedword>
+      <taggedword index="27" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Delineation" dep_index="1" gov="revealed" gov_index="10">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="regions" gov_index="5">det</dependency>
+      <dependency dep="binding" dep_index="4" gov="regions" gov_index="5">amod</dependency>
+      <dependency dep="regions" dep_index="5" gov="Delineation" gov_index="1">prep_of</dependency>
+      <dependency dep="these" dep_index="7" gov="proteins" gov_index="9">det</dependency>
+      <dependency dep="three" dep_index="8" gov="proteins" gov_index="9">num</dependency>
+      <dependency dep="proteins" dep_index="9" gov="regions" gov_index="5">prep_of</dependency>
+      <dependency dep="revealed" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="11" gov="has" gov_index="19">mark</dependency>
+      <dependency dep="HBx" dep_index="12" gov="has" gov_index="19">nsubj</dependency>
+      <dependency dep="RPB5" dep_index="14" gov="HBx" gov_index="12">conj_and</dependency>
+      <dependency dep="RPB5" dep_index="14" gov="has" gov_index="19">nsubj</dependency>
+      <dependency dep="TFIIB" dep_index="17" gov="HBx" gov_index="12">conj_and</dependency>
+      <dependency dep="TFIIB" dep_index="17" gov="has" gov_index="19">nsubj</dependency>
+      <dependency dep="each" dep_index="18" gov="has" gov_index="19">dep</dependency>
+      <dependency dep="has" dep_index="19" gov="revealed" gov_index="10">ccomp</dependency>
+      <dependency dep="two" dep_index="20" gov="regions" gov_index="22">num</dependency>
+      <dependency dep="binding" dep_index="21" gov="regions" gov_index="22">amod</dependency>
+      <dependency dep="regions" dep_index="22" gov="has" gov_index="19">dobj</dependency>
+      <dependency dep="the" dep_index="24" gov="proteins" gov_index="27">det</dependency>
+      <dependency dep="other" dep_index="25" gov="proteins" gov_index="27">amod</dependency>
+      <dependency dep="two" dep_index="26" gov="proteins" gov_index="27">num</dependency>
+      <dependency dep="proteins" dep_index="27" gov="regions" gov_index="22">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200014" relationship="true">12 19 14</relation>
+      <relation position="1200017" relationship="false">12 19 17</relation>
+      <relation position="1400017" relationship="false">14 19 17</relation>
+   </relations>
+   <pairs>
+      <pair>1200014</pair>
+   </pairs>
+</root>

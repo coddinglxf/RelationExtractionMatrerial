@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Other@NH2-terminal@residues@directly@modulate@the@affinity@of@RII beta@dimers@for@the@AKAP75@tethering@site@.@</sentence>
+   <tags>
+      <tag pos="9">RII beta</tag>
+      <tag pos="13">AKAP75</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Other</taggedword>
+      <taggedword index="2" part-of-speech="NN">NH2-terminal</taggedword>
+      <taggedword index="3" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="4" part-of-speech="RB">directly</taggedword>
+      <taggedword index="5" part-of-speech="VBP">modulate</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNP">RII beta</taggedword>
+      <taggedword index="10" part-of-speech="NNS">dimers</taggedword>
+      <taggedword index="11" part-of-speech="IN">for</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">AKAP75</taggedword>
+      <taggedword index="14" part-of-speech="VBG">tethering</taggedword>
+      <taggedword index="15" part-of-speech="NN">site</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Other" dep_index="1" gov="residues" gov_index="3">amod</dependency>
+      <dependency dep="NH2-terminal" dep_index="2" gov="residues" gov_index="3">nn</dependency>
+      <dependency dep="residues" dep_index="3" gov="modulate" gov_index="5">nsubj</dependency>
+      <dependency dep="directly" dep_index="4" gov="modulate" gov_index="5">advmod</dependency>
+      <dependency dep="modulate" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="affinity" gov_index="7">det</dependency>
+      <dependency dep="affinity" dep_index="7" gov="modulate" gov_index="5">dobj</dependency>
+      <dependency dep="RII beta" dep_index="9" gov="dimers" gov_index="10">nn</dependency>
+      <dependency dep="dimers" dep_index="10" gov="affinity" gov_index="7">prep_of</dependency>
+      <dependency dep="the" dep_index="12" gov="site" gov_index="15">det</dependency>
+      <dependency dep="AKAP75" dep_index="13" gov="site" gov_index="15">nn</dependency>
+      <dependency dep="tethering" dep_index="14" gov="site" gov_index="15">amod</dependency>
+      <dependency dep="site" dep_index="15" gov="modulate" gov_index="5">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="true">9 10 7 5 15 13</relation>
+   </relations>
+   <pairs>
+      <pair>900013</pair>
+   </pairs>
+</root>

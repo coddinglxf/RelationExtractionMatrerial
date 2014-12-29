@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Specific@activation@of@cdc25@tyrosine@phosphatases@by@B-type@cyclins@:@evidence@for@multiple@roles@of@mitotic@cyclins@.@</sentence>
+   <tags>
+      <tag pos="4">cdc25</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Specific</taggedword>
+      <taggedword index="2" part-of-speech="NN">activation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">cdc25</taggedword>
+      <taggedword index="5" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="6" part-of-speech="NNS">phosphatases</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="JJ">B-type</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cyclins</taggedword>
+      <taggedword index="10" part-of-speech=":">:</taggedword>
+      <taggedword index="11" part-of-speech="NN">evidence</taggedword>
+      <taggedword index="12" part-of-speech="IN">for</taggedword>
+      <taggedword index="13" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="14" part-of-speech="NNS">roles</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">mitotic</taggedword>
+      <taggedword index="17" part-of-speech="NNS">cyclins</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Specific" dep_index="1" gov="activation" gov_index="2">amod</dependency>
+      <dependency dep="activation" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cdc25" dep_index="4" gov="phosphatases" gov_index="6">amod</dependency>
+      <dependency dep="tyrosine" dep_index="5" gov="phosphatases" gov_index="6">nn</dependency>
+      <dependency dep="phosphatases" dep_index="6" gov="activation" gov_index="2">prep_of</dependency>
+      <dependency dep="B-type" dep_index="8" gov="cyclins" gov_index="9">amod</dependency>
+      <dependency dep="cyclins" dep_index="9" gov="phosphatases" gov_index="6">prep_by</dependency>
+      <dependency dep="evidence" dep_index="11" gov="activation" gov_index="2">dep</dependency>
+      <dependency dep="multiple" dep_index="13" gov="roles" gov_index="14">amod</dependency>
+      <dependency dep="roles" dep_index="14" gov="evidence" gov_index="11">prep_for</dependency>
+      <dependency dep="mitotic" dep_index="16" gov="cyclins" gov_index="17">amod</dependency>
+      <dependency dep="cyclins" dep_index="17" gov="roles" gov_index="14">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

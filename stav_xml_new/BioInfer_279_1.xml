@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>However@,@upon@treatment@with@DMSO@,@cytoplasmic@actin@filaments@were@disrupted@and@intranuclear@rod@structures@containing@cofilin@and@actin@were@apparently@larger@and@thicker@in@cells@overexpressing@cofilin@than@in@normal@cells@.@</sentence>
+   <tags>
+      <tag pos="29">cofilin</tag>
+      <tag pos="18">cofilin</tag>
+      <tag pos="20">actin</tag>
+      <tag pos="9">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">However</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">upon</taggedword>
+      <taggedword index="4" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="NNP">DMSO</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="JJ">cytoplasmic</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="11" part-of-speech="VBD">were</taggedword>
+      <taggedword index="12" part-of-speech="VBN">disrupted</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">intranuclear</taggedword>
+      <taggedword index="15" part-of-speech="NN">rod</taggedword>
+      <taggedword index="16" part-of-speech="NNS">structures</taggedword>
+      <taggedword index="17" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="18" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">actin</taggedword>
+      <taggedword index="21" part-of-speech="VBD">were</taggedword>
+      <taggedword index="22" part-of-speech="RB">apparently</taggedword>
+      <taggedword index="23" part-of-speech="JJR">larger</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="JJR">thicker</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="28" part-of-speech="VBG">overexpressing</taggedword>
+      <taggedword index="29" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="30" part-of-speech="IN">than</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="33" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="However" dep_index="1" gov="disrupted" gov_index="12">advmod</dependency>
+      <dependency dep="treatment" dep_index="4" gov="disrupted" gov_index="12">prep_upon</dependency>
+      <dependency dep="DMSO" dep_index="6" gov="disrupted" gov_index="12">prep_with</dependency>
+      <dependency dep="cytoplasmic" dep_index="8" gov="filaments" gov_index="10">amod</dependency>
+      <dependency dep="actin" dep_index="9" gov="filaments" gov_index="10">nn</dependency>
+      <dependency dep="filaments" dep_index="10" gov="disrupted" gov_index="12">nsubjpass</dependency>
+      <dependency dep="were" dep_index="11" gov="disrupted" gov_index="12">auxpass</dependency>
+      <dependency dep="disrupted" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="intranuclear" dep_index="14" gov="structures" gov_index="16">nn</dependency>
+      <dependency dep="rod" dep_index="15" gov="structures" gov_index="16">nn</dependency>
+      <dependency dep="structures" dep_index="16" gov="larger" gov_index="23">nsubj</dependency>
+      <dependency dep="structures" dep_index="16" gov="thicker" gov_index="25">nsubj</dependency>
+      <dependency dep="containing" dep_index="17" gov="structures" gov_index="16">partmod</dependency>
+      <dependency dep="cofilin" dep_index="18" gov="containing" gov_index="17">dobj</dependency>
+      <dependency dep="actin" dep_index="20" gov="containing" gov_index="17">dobj</dependency>
+      <dependency dep="actin" dep_index="20" gov="cofilin" gov_index="18">conj_and</dependency>
+      <dependency dep="were" dep_index="21" gov="larger" gov_index="23">cop</dependency>
+      <dependency dep="apparently" dep_index="22" gov="larger" gov_index="23">advmod</dependency>
+      <dependency dep="larger" dep_index="23" gov="disrupted" gov_index="12">conj_and</dependency>
+      <dependency dep="thicker" dep_index="25" gov="disrupted" gov_index="12">conj_and</dependency>
+      <dependency dep="thicker" dep_index="25" gov="larger" gov_index="23">conj_and</dependency>
+      <dependency dep="cells" dep_index="27" gov="larger" gov_index="23">prep_in</dependency>
+      <dependency dep="overexpressing" dep_index="28" gov="cells" gov_index="27">partmod</dependency>
+      <dependency dep="cofilin" dep_index="29" gov="overexpressing" gov_index="28">dobj</dependency>
+      <dependency dep="than" dep_index="30" gov="overexpressing" gov_index="28">prep</dependency>
+      <dependency dep="in" dep_index="31" gov="than" gov_index="30">pcomp</dependency>
+      <dependency dep="normal" dep_index="32" gov="cells" gov_index="33">amod</dependency>
+      <dependency dep="cells" dep_index="33" gov="in" gov_index="31">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800029" relationship="false">18 17 16 23 27 28 29</relation>
+      <relation position="2000029" relationship="false">20 17 16 23 27 28 29</relation>
+      <relation position="900029" relationship="false"></relation>
+      <relation position="1800020" relationship="true">18 17 20</relation>
+      <relation position="900018" relationship="false"></relation>
+      <relation position="900020" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>1800020</pair>
+   </pairs>
+</root>

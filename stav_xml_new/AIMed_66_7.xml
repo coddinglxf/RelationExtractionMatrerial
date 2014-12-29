@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interactions@between@cyclin E@and@CDC2@,@or@CDK2@,@may@be@important@at@the@G1@to@S@transition@in@human@cells@.@</sentence>
+   <tags>
+      <tag pos="4">cyclin E</tag>
+      <tag pos="6">CDC2</tag>
+      <tag pos="9">CDK2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="3" part-of-speech="IN">between</taggedword>
+      <taggedword index="4" part-of-speech="NN">cyclin E</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">CDC2</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="CC">or</taggedword>
+      <taggedword index="9" part-of-speech="NNP">CDK2</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="MD">may</taggedword>
+      <taggedword index="12" part-of-speech="VB">be</taggedword>
+      <taggedword index="13" part-of-speech="JJ">important</taggedword>
+      <taggedword index="14" part-of-speech="IN">at</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">G1</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="NNP">S</taggedword>
+      <taggedword index="19" part-of-speech="NN">transition</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="JJ">human</taggedword>
+      <taggedword index="22" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interactions" gov_index="2">det</dependency>
+      <dependency dep="interactions" dep_index="2" gov="important" gov_index="13">nsubj</dependency>
+      <dependency dep="cyclin E" dep_index="4" gov="interactions" gov_index="2">prep_between</dependency>
+      <dependency dep="CDC2" dep_index="6" gov="interactions" gov_index="2">prep_between</dependency>
+      <dependency dep="CDC2" dep_index="6" gov="cyclin E" gov_index="4">conj_and</dependency>
+      <dependency dep="or" dep_index="8" gov="CDK2" gov_index="9">cc</dependency>
+      <dependency dep="CDK2" dep_index="9" gov="interactions" gov_index="2">dep</dependency>
+      <dependency dep="may" dep_index="11" gov="important" gov_index="13">aux</dependency>
+      <dependency dep="be" dep_index="12" gov="important" gov_index="13">cop</dependency>
+      <dependency dep="important" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="15" gov="G1" gov_index="16">det</dependency>
+      <dependency dep="G1" dep_index="16" gov="important" gov_index="13">prep_at</dependency>
+      <dependency dep="S" dep_index="18" gov="transition" gov_index="19">nn</dependency>
+      <dependency dep="transition" dep_index="19" gov="important" gov_index="13">prep_to</dependency>
+      <dependency dep="human" dep_index="21" gov="cells" gov_index="22">amod</dependency>
+      <dependency dep="cells" dep_index="22" gov="important" gov_index="13">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 2 6</relation>
+      <relation position="400009" relationship="true">4 2 9</relation>
+      <relation position="600009" relationship="false">6 2 9</relation>
+   </relations>
+   <pairs>
+      <pair>400009</pair>
+      <pair>400006</pair>
+   </pairs>
+</root>

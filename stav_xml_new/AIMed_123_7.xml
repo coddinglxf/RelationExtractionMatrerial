@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@mutation@of@receptor@tyrosine@960@to@phenylalanine@eliminates@IRS-1@interaction@in@the@two-hybrid@assay@.@</sentence>
+   <tags>
+      <tag pos="11">IRS-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="6" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="7" part-of-speech="CD">960</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="CD">phenylalanine</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">eliminates</taggedword>
+      <taggedword index="11" part-of-speech="NN">IRS-1</taggedword>
+      <taggedword index="12" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="16" part-of-speech="NN">assay</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="eliminates" gov_index="10">advmod</dependency>
+      <dependency dep="mutation" dep_index="3" gov="eliminates" gov_index="10">nsubj</dependency>
+      <dependency dep="receptor" dep_index="5" gov="tyrosine" gov_index="6">nn</dependency>
+      <dependency dep="tyrosine" dep_index="6" gov="mutation" gov_index="3">prep_of</dependency>
+      <dependency dep="960" dep_index="7" gov="phenylalanine" gov_index="9">dep</dependency>
+      <dependency dep="to" dep_index="8" gov="phenylalanine" gov_index="9">dep</dependency>
+      <dependency dep="phenylalanine" dep_index="9" gov="eliminates" gov_index="10">advmod</dependency>
+      <dependency dep="eliminates" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="IRS-1" dep_index="11" gov="interaction" gov_index="12">nn</dependency>
+      <dependency dep="interaction" dep_index="12" gov="eliminates" gov_index="10">dobj</dependency>
+      <dependency dep="the" dep_index="14" gov="assay" gov_index="16">det</dependency>
+      <dependency dep="two-hybrid" dep_index="15" gov="assay" gov_index="16">amod</dependency>
+      <dependency dep="assay" dep_index="16" gov="interaction" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@tyrosine-phosphorylated@peptides@containing@Tyr374@or@Tyr396@did@not@interact@with@Stat3@or@block@Stat3@activation@.@</sentence>
+   <tags>
+      <tag pos="14">Stat3</tag>
+      <tag pos="17">Stat3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">tyrosine-phosphorylated</taggedword>
+      <taggedword index="5" part-of-speech="NNS">peptides</taggedword>
+      <taggedword index="6" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="7" part-of-speech="NNS">Tyr374</taggedword>
+      <taggedword index="8" part-of-speech="CC">or</taggedword>
+      <taggedword index="9" part-of-speech="NNS">Tyr396</taggedword>
+      <taggedword index="10" part-of-speech="VBD">did</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="VB">interact</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="NNS">Stat3</taggedword>
+      <taggedword index="15" part-of-speech="CC">or</taggedword>
+      <taggedword index="16" part-of-speech="VB">block</taggedword>
+      <taggedword index="17" part-of-speech="JJ">Stat3</taggedword>
+      <taggedword index="18" part-of-speech="NN">activation</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="interact" gov_index="12">prep_in</dependency>
+      <dependency dep="tyrosine-phosphorylated" dep_index="4" gov="peptides" gov_index="5">amod</dependency>
+      <dependency dep="peptides" dep_index="5" gov="interact" gov_index="12">nsubj</dependency>
+      <dependency dep="peptides" dep_index="5" gov="block" gov_index="16">nsubj</dependency>
+      <dependency dep="containing" dep_index="6" gov="peptides" gov_index="5">partmod</dependency>
+      <dependency dep="Tyr374" dep_index="7" gov="containing" gov_index="6">dobj</dependency>
+      <dependency dep="Tyr396" dep_index="9" gov="containing" gov_index="6">dobj</dependency>
+      <dependency dep="Tyr396" dep_index="9" gov="Tyr374" gov_index="7">conj_or</dependency>
+      <dependency dep="did" dep_index="10" gov="interact" gov_index="12">aux</dependency>
+      <dependency dep="not" dep_index="11" gov="interact" gov_index="12">neg</dependency>
+      <dependency dep="interact" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Stat3" dep_index="14" gov="interact" gov_index="12">prep_with</dependency>
+      <dependency dep="block" dep_index="16" gov="interact" gov_index="12">conj_or</dependency>
+      <dependency dep="Stat3" dep_index="17" gov="activation" gov_index="18">amod</dependency>
+      <dependency dep="activation" dep_index="18" gov="block" gov_index="16">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400017" relationship="false">14 12 16 18 17</relation>
+   </relations>
+   <pairs/>
+</root>

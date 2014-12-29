@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>After@30-40@population@doublings@cells@became@growth-arrested@in@G0/1@with@a@threefold@decrease@in@Cdk2@-associated@activity@,@a@point@defined@as@pre-senescence@.@</sentence>
+   <tags>
+      <tag pos="15">Cdk2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">After</taggedword>
+      <taggedword index="2" part-of-speech="CD">30-40</taggedword>
+      <taggedword index="3" part-of-speech="NN">population</taggedword>
+      <taggedword index="4" part-of-speech="NN">doublings</taggedword>
+      <taggedword index="5" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="6" part-of-speech="VBD">became</taggedword>
+      <taggedword index="7" part-of-speech="JJ">growth-arrested</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NNP">G0/1</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">threefold</taggedword>
+      <taggedword index="13" part-of-speech="NN">decrease</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="JJ">Cdk2</taggedword>
+      <taggedword index="16" part-of-speech="JJ">-associated</taggedword>
+      <taggedword index="17" part-of-speech="NN">activity</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="DT">a</taggedword>
+      <taggedword index="20" part-of-speech="NN">point</taggedword>
+      <taggedword index="21" part-of-speech="VBD">defined</taggedword>
+      <taggedword index="22" part-of-speech="RB">as</taggedword>
+      <taggedword index="23" part-of-speech="JJ">pre-senescence</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="After" dep_index="1" gov="growth-arrested" gov_index="7">mark</dependency>
+      <dependency dep="30-40" dep_index="2" gov="cells" gov_index="5">num</dependency>
+      <dependency dep="population" dep_index="3" gov="cells" gov_index="5">nn</dependency>
+      <dependency dep="doublings" dep_index="4" gov="cells" gov_index="5">nn</dependency>
+      <dependency dep="cells" dep_index="5" gov="growth-arrested" gov_index="7">nsubj</dependency>
+      <dependency dep="became" dep_index="6" gov="growth-arrested" gov_index="7">cop</dependency>
+      <dependency dep="growth-arrested" dep_index="7" gov="defined" gov_index="21">advcl</dependency>
+      <dependency dep="G0/1" dep_index="9" gov="growth-arrested" gov_index="7">prep_in</dependency>
+      <dependency dep="a" dep_index="11" gov="decrease" gov_index="13">det</dependency>
+      <dependency dep="threefold" dep_index="12" gov="decrease" gov_index="13">amod</dependency>
+      <dependency dep="decrease" dep_index="13" gov="growth-arrested" gov_index="7">prep_with</dependency>
+      <dependency dep="Cdk2" dep_index="15" gov="activity" gov_index="17">amod</dependency>
+      <dependency dep="-associated" dep_index="16" gov="activity" gov_index="17">amod</dependency>
+      <dependency dep="activity" dep_index="17" gov="decrease" gov_index="13">prep_in</dependency>
+      <dependency dep="a" dep_index="19" gov="point" gov_index="20">det</dependency>
+      <dependency dep="point" dep_index="20" gov="defined" gov_index="21">nsubj</dependency>
+      <dependency dep="defined" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="as" dep_index="22" gov="pre-senescence" gov_index="23">advmod</dependency>
+      <dependency dep="pre-senescence" dep_index="23" gov="defined" gov_index="21">acomp</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

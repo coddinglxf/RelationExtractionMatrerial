@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@investigate@allelic@losses@in@microsatellites@of@the@RAD51@,@RAD52@,@RAD54@,@BRCA1@and@BRCA2@regions@,@and@their@correlations@with@nine@pathologic@parameters@in@127@breast@carcinomas@.@</sentence>
+   <tags>
+      <tag pos="15">BRCA1</tag>
+      <tag pos="13">RAD54</tag>
+      <tag pos="9">RAD51</tag>
+      <tag pos="17">BRCA2</tag>
+      <tag pos="11">RAD52</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VB">investigate</taggedword>
+      <taggedword index="3" part-of-speech="JJ">allelic</taggedword>
+      <taggedword index="4" part-of-speech="NNS">losses</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="NNS">microsatellites</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="CD">RAD51</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CD">RAD52</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="CD">RAD54</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NNP">BRCA1</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NNP">BRCA2</taggedword>
+      <taggedword index="18" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="22" part-of-speech="NNS">correlations</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="CD">nine</taggedword>
+      <taggedword index="25" part-of-speech="JJ">pathologic</taggedword>
+      <taggedword index="26" part-of-speech="NNS">parameters</taggedword>
+      <taggedword index="27" part-of-speech="IN">in</taggedword>
+      <taggedword index="28" part-of-speech="CD">127</taggedword>
+      <taggedword index="29" part-of-speech="NN">breast</taggedword>
+      <taggedword index="30" part-of-speech="NNS">carcinomas</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="investigate" gov_index="2">nsubj</dependency>
+      <dependency dep="investigate" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="allelic" dep_index="3" gov="losses" gov_index="4">amod</dependency>
+      <dependency dep="losses" dep_index="4" gov="investigate" gov_index="2">dobj</dependency>
+      <dependency dep="microsatellites" dep_index="6" gov="investigate" gov_index="2">prep_in</dependency>
+      <dependency dep="the" dep_index="8" gov="regions" gov_index="18">det</dependency>
+      <dependency dep="RAD51" dep_index="9" gov="regions" gov_index="18">nn</dependency>
+      <dependency dep="RAD52" dep_index="11" gov="RAD51" gov_index="9">num</dependency>
+      <dependency dep="RAD54" dep_index="13" gov="RAD51" gov_index="9">num</dependency>
+      <dependency dep="BRCA1" dep_index="15" gov="RAD51" gov_index="9">conj_and</dependency>
+      <dependency dep="BRCA1" dep_index="15" gov="regions" gov_index="18">nn</dependency>
+      <dependency dep="BRCA2" dep_index="17" gov="RAD51" gov_index="9">conj_and</dependency>
+      <dependency dep="BRCA2" dep_index="17" gov="regions" gov_index="18">nn</dependency>
+      <dependency dep="regions" dep_index="18" gov="microsatellites" gov_index="6">prep_of</dependency>
+      <dependency dep="their" dep_index="21" gov="correlations" gov_index="22">poss</dependency>
+      <dependency dep="correlations" dep_index="22" gov="investigate" gov_index="2">prep_in</dependency>
+      <dependency dep="correlations" dep_index="22" gov="microsatellites" gov_index="6">conj_and</dependency>
+      <dependency dep="nine" dep_index="24" gov="parameters" gov_index="26">num</dependency>
+      <dependency dep="pathologic" dep_index="25" gov="parameters" gov_index="26">amod</dependency>
+      <dependency dep="parameters" dep_index="26" gov="correlations" gov_index="22">prep_with</dependency>
+      <dependency dep="127" dep_index="28" gov="carcinomas" gov_index="30">num</dependency>
+      <dependency dep="breast" dep_index="29" gov="carcinomas" gov_index="30">nn</dependency>
+      <dependency dep="carcinomas" dep_index="30" gov="parameters" gov_index="26">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="false">13 9 18 15</relation>
+      <relation position="900015" relationship="false">9 18 15</relation>
+      <relation position="1500017" relationship="false">15 18 17</relation>
+      <relation position="1100015" relationship="false">11 9 18 15</relation>
+      <relation position="900013" relationship="false"></relation>
+      <relation position="1300017" relationship="false">13 9 18 17</relation>
+      <relation position="1100013" relationship="false">11 9 13</relation>
+      <relation position="900017" relationship="false">9 18 17</relation>
+      <relation position="900011" relationship="false"></relation>
+      <relation position="1100017" relationship="false">11 9 18 17</relation>
+   </relations>
+   <pairs/>
+</root>

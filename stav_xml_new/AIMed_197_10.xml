@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@results@confirm@the@predictive@model@and@strongly@support@our@hypothesis@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">confirm</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">predictive</taggedword>
+      <taggedword index="6" part-of-speech="NN">model</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="RB">strongly</taggedword>
+      <taggedword index="9" part-of-speech="VBP">support</taggedword>
+      <taggedword index="10" part-of-speech="PRP$">our</taggedword>
+      <taggedword index="11" part-of-speech="NNS">hypothesis</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="confirm" gov_index="3">nsubj</dependency>
+      <dependency dep="results" dep_index="2" gov="support" gov_index="9">nsubj</dependency>
+      <dependency dep="confirm" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="model" gov_index="6">det</dependency>
+      <dependency dep="predictive" dep_index="5" gov="model" gov_index="6">amod</dependency>
+      <dependency dep="model" dep_index="6" gov="confirm" gov_index="3">dobj</dependency>
+      <dependency dep="strongly" dep_index="8" gov="support" gov_index="9">advmod</dependency>
+      <dependency dep="support" dep_index="9" gov="confirm" gov_index="3">conj_and</dependency>
+      <dependency dep="our" dep_index="10" gov="hypothesis" gov_index="11">poss</dependency>
+      <dependency dep="hypothesis" dep_index="11" gov="support" gov_index="9">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

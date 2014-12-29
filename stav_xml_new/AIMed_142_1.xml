@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Evidence@for@physical@interaction@between@the@zinc-finger@transcription@factors@YY1@and@Sp1@.@</sentence>
+   <tags>
+      <tag pos="10">YY1</tag>
+      <tag pos="12">Sp1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Evidence</taggedword>
+      <taggedword index="2" part-of-speech="IN">for</taggedword>
+      <taggedword index="3" part-of-speech="JJ">physical</taggedword>
+      <taggedword index="4" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="5" part-of-speech="IN">between</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">zinc-finger</taggedword>
+      <taggedword index="8" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="9" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="10" part-of-speech="NNP">YY1</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNP">Sp1</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Evidence" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="physical" dep_index="3" gov="interaction" gov_index="4">amod</dependency>
+      <dependency dep="interaction" dep_index="4" gov="Evidence" gov_index="1">prep_for</dependency>
+      <dependency dep="the" dep_index="6" gov="YY1" gov_index="10">det</dependency>
+      <dependency dep="zinc-finger" dep_index="7" gov="YY1" gov_index="10">amod</dependency>
+      <dependency dep="transcription" dep_index="8" gov="YY1" gov_index="10">nn</dependency>
+      <dependency dep="factors" dep_index="9" gov="YY1" gov_index="10">nn</dependency>
+      <dependency dep="YY1" dep_index="10" gov="Evidence" gov_index="1">prep_between</dependency>
+      <dependency dep="Sp1" dep_index="12" gov="Evidence" gov_index="1">prep_between</dependency>
+      <dependency dep="Sp1" dep_index="12" gov="YY1" gov_index="10">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000012" relationship="true">10 1 12</relation>
+   </relations>
+   <pairs>
+      <pair>1000012</pair>
+   </pairs>
+</root>

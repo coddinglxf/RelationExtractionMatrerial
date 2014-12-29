@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Earlier@studies@have@shown@that@a@major@neurotrophin-binding@site@in@the@Trk@receptors@resides@in@the@second@immunoglobulin-like@domain@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJR">Earlier</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="VBP">have</taggedword>
+      <taggedword index="4" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="JJ">major</taggedword>
+      <taggedword index="8" part-of-speech="JJ">neurotrophin-binding</taggedword>
+      <taggedword index="9" part-of-speech="NN">site</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NNP">Trk</taggedword>
+      <taggedword index="13" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">resides</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">second</taggedword>
+      <taggedword index="18" part-of-speech="JJ">immunoglobulin-like</taggedword>
+      <taggedword index="19" part-of-speech="NN">domain</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Earlier" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="shown" gov_index="4">nsubj</dependency>
+      <dependency dep="have" dep_index="3" gov="shown" gov_index="4">aux</dependency>
+      <dependency dep="shown" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="resides" gov_index="14">mark</dependency>
+      <dependency dep="a" dep_index="6" gov="site" gov_index="9">det</dependency>
+      <dependency dep="major" dep_index="7" gov="site" gov_index="9">amod</dependency>
+      <dependency dep="neurotrophin-binding" dep_index="8" gov="site" gov_index="9">amod</dependency>
+      <dependency dep="site" dep_index="9" gov="resides" gov_index="14">nsubj</dependency>
+      <dependency dep="the" dep_index="11" gov="receptors" gov_index="13">det</dependency>
+      <dependency dep="Trk" dep_index="12" gov="receptors" gov_index="13">nn</dependency>
+      <dependency dep="receptors" dep_index="13" gov="site" gov_index="9">prep_in</dependency>
+      <dependency dep="resides" dep_index="14" gov="shown" gov_index="4">ccomp</dependency>
+      <dependency dep="the" dep_index="16" gov="domain" gov_index="19">det</dependency>
+      <dependency dep="second" dep_index="17" gov="domain" gov_index="19">amod</dependency>
+      <dependency dep="immunoglobulin-like" dep_index="18" gov="domain" gov_index="19">amod</dependency>
+      <dependency dep="domain" dep_index="19" gov="resides" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

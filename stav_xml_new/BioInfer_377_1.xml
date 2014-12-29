@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@,@by@immunoprecipitation@and@affinity@chromatography@it@is@shown@that@adenosine deaminase@and@A1 adenosine receptors@interact@in@pig@brain@cortical@membranes@.@</sentence>
+   <tags>
+      <tag pos="16">A1 adenosine receptors</tag>
+      <tag pos="14">adenosine deaminase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="IN">by</taggedword>
+      <taggedword index="6" part-of-speech="NN">immunoprecipitation</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="9" part-of-speech="NN">chromatography</taggedword>
+      <taggedword index="10" part-of-speech="PRP">it</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="12" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="13" part-of-speech="DT">that</taggedword>
+      <taggedword index="14" part-of-speech="JJ">adenosine deaminase</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">A1 adenosine receptors</taggedword>
+      <taggedword index="17" part-of-speech="NN">interact</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="NN">pig</taggedword>
+      <taggedword index="20" part-of-speech="NN">brain</taggedword>
+      <taggedword index="21" part-of-speech="NN">cortical</taggedword>
+      <taggedword index="22" part-of-speech="NNS">membranes</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="shown" gov_index="12">prep_in</dependency>
+      <dependency dep="immunoprecipitation" dep_index="6" gov="chromatography" gov_index="9">nn</dependency>
+      <dependency dep="affinity" dep_index="8" gov="immunoprecipitation" gov_index="6">conj_and</dependency>
+      <dependency dep="affinity" dep_index="8" gov="chromatography" gov_index="9">nn</dependency>
+      <dependency dep="chromatography" dep_index="9" gov="shown" gov_index="12">agent</dependency>
+      <dependency dep="it" dep_index="10" gov="shown" gov_index="12">nsubjpass</dependency>
+      <dependency dep="is" dep_index="11" gov="shown" gov_index="12">auxpass</dependency>
+      <dependency dep="shown" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="13" gov="interact" gov_index="17">det</dependency>
+      <dependency dep="adenosine deaminase" dep_index="14" gov="interact" gov_index="17">amod</dependency>
+      <dependency dep="A1 adenosine receptors" dep_index="16" gov="adenosine deaminase" gov_index="14">conj_and</dependency>
+      <dependency dep="A1 adenosine receptors" dep_index="16" gov="interact" gov_index="17">amod</dependency>
+      <dependency dep="interact" dep_index="17" gov="shown" gov_index="12">dobj</dependency>
+      <dependency dep="pig" dep_index="19" gov="membranes" gov_index="22">nn</dependency>
+      <dependency dep="brain" dep_index="20" gov="membranes" gov_index="22">nn</dependency>
+      <dependency dep="cortical" dep_index="21" gov="membranes" gov_index="22">nn</dependency>
+      <dependency dep="membranes" dep_index="22" gov="interact" gov_index="17">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400016" relationship="true">14 17 16</relation>
+   </relations>
+   <pairs>
+      <pair>1400016</pair>
+   </pairs>
+</root>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Taken@together@,@our@results@suggest@that@IRS-1@may@serve@as@a@converging@target@in@the@signaling@pathways@stimulated@by@receptors@that@belong@to@different@families@,@such@as@the@gastrin@/@CCKB G protein-coupled receptor@and@the@insulin receptor@.@</sentence>
+   <tags>
+      <tag pos="8">IRS-1</tag>
+      <tag pos="31">gastrin</tag>
+      <tag pos="33">CCKB G protein-coupled receptor</tag>
+      <tag pos="36">insulin receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Taken</taggedword>
+      <taggedword index="2" part-of-speech="RB">together</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="PRP$">our</taggedword>
+      <taggedword index="5" part-of-speech="NNS">results</taggedword>
+      <taggedword index="6" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="NNP">IRS-1</taggedword>
+      <taggedword index="9" part-of-speech="MD">may</taggedword>
+      <taggedword index="10" part-of-speech="VB">serve</taggedword>
+      <taggedword index="11" part-of-speech="IN">as</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="VBG">converging</taggedword>
+      <taggedword index="14" part-of-speech="NN">target</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">signaling</taggedword>
+      <taggedword index="18" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="19" part-of-speech="VBN">stimulated</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="22" part-of-speech="WDT">that</taggedword>
+      <taggedword index="23" part-of-speech="VBP">belong</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="JJ">different</taggedword>
+      <taggedword index="26" part-of-speech="NNS">families</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="JJ">such</taggedword>
+      <taggedword index="29" part-of-speech="IN">as</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="JJ">gastrin</taggedword>
+      <taggedword index="32" part-of-speech="NNP">/</taggedword>
+      <taggedword index="33" part-of-speech="NNP">CCKB G protein-coupled receptor</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="DT">the</taggedword>
+      <taggedword index="36" part-of-speech="NN">insulin receptor</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Taken" dep_index="1" gov="suggest" gov_index="6">partmod</dependency>
+      <dependency dep="together" dep_index="2" gov="Taken" gov_index="1">advmod</dependency>
+      <dependency dep="our" dep_index="4" gov="results" gov_index="5">poss</dependency>
+      <dependency dep="results" dep_index="5" gov="suggest" gov_index="6">nsubj</dependency>
+      <dependency dep="suggest" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="serve" gov_index="10">mark</dependency>
+      <dependency dep="IRS-1" dep_index="8" gov="serve" gov_index="10">nsubj</dependency>
+      <dependency dep="may" dep_index="9" gov="serve" gov_index="10">aux</dependency>
+      <dependency dep="serve" dep_index="10" gov="suggest" gov_index="6">ccomp</dependency>
+      <dependency dep="a" dep_index="12" gov="target" gov_index="14">det</dependency>
+      <dependency dep="converging" dep_index="13" gov="target" gov_index="14">amod</dependency>
+      <dependency dep="target" dep_index="14" gov="serve" gov_index="10">prep_as</dependency>
+      <dependency dep="the" dep_index="16" gov="pathways" gov_index="18">det</dependency>
+      <dependency dep="signaling" dep_index="17" gov="pathways" gov_index="18">amod</dependency>
+      <dependency dep="pathways" dep_index="18" gov="target" gov_index="14">prep_in</dependency>
+      <dependency dep="stimulated" dep_index="19" gov="pathways" gov_index="18">partmod</dependency>
+      <dependency dep="receptors" dep_index="21" gov="stimulated" gov_index="19">agent</dependency>
+      <dependency dep="receptors" dep_index="21" gov="belong" gov_index="23">nsubj</dependency>
+      <dependency dep="belong" dep_index="23" gov="receptors" gov_index="21">rcmod</dependency>
+      <dependency dep="different" dep_index="25" gov="families" gov_index="26">amod</dependency>
+      <dependency dep="families" dep_index="26" gov="belong" gov_index="23">prep_to</dependency>
+      <dependency dep="the" dep_index="30" gov="CCKB G protein-coupled receptor" gov_index="33">det</dependency>
+      <dependency dep="gastrin" dep_index="31" gov="CCKB G protein-coupled receptor" gov_index="33">amod</dependency>
+      <dependency dep="/" dep_index="32" gov="CCKB G protein-coupled receptor" gov_index="33">nn</dependency>
+      <dependency dep="CCKB G protein-coupled receptor" dep_index="33" gov="target" gov_index="14">prep_such_as</dependency>
+      <dependency dep="the" dep_index="35" gov="insulin receptor" gov_index="36">det</dependency>
+      <dependency dep="insulin receptor" dep_index="36" gov="serve" gov_index="10">prep_as</dependency>
+      <dependency dep="insulin receptor" dep_index="36" gov="target" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800031" relationship="false">8 10 14 33 31</relation>
+      <relation position="800033" relationship="false">8 10 14 33</relation>
+      <relation position="800036" relationship="false">8 10 36</relation>
+      <relation position="3100033" relationship="false"></relation>
+      <relation position="3100036" relationship="false">31 33 14 10 36</relation>
+      <relation position="3300036" relationship="false">33 14 10 36</relation>
+   </relations>
+   <pairs/>
+</root>

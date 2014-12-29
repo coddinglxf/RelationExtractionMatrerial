@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Myo2p@shows@homology@to@the@head@domains@and@the@coiledcoil@tail@of@the@conventional@type II myosin heavy chain@and@carries@putative@binding@sites@for@ATP@and@actin@.@</sentence>
+   <tags>
+      <tag pos="24">actin</tag>
+      <tag pos="1">Myo2p</tag>
+      <tag pos="15">type II myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Myo2p</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">shows</taggedword>
+      <taggedword index="3" part-of-speech="RB">homology</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">head</taggedword>
+      <taggedword index="7" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">coiledcoil</taggedword>
+      <taggedword index="11" part-of-speech="NN">tail</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">conventional</taggedword>
+      <taggedword index="15" part-of-speech="NN">type II myosin heavy chain</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">carries</taggedword>
+      <taggedword index="18" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="19" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="20" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="NN">ATP</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NN">actin</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Myo2p" dep_index="1" gov="shows" gov_index="2">nsubj</dependency>
+      <dependency dep="Myo2p" dep_index="1" gov="carries" gov_index="17">nsubj</dependency>
+      <dependency dep="shows" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="homology" dep_index="3" gov="shows" gov_index="2">advmod</dependency>
+      <dependency dep="the" dep_index="5" gov="domains" gov_index="7">det</dependency>
+      <dependency dep="head" dep_index="6" gov="domains" gov_index="7">nn</dependency>
+      <dependency dep="domains" dep_index="7" gov="shows" gov_index="2">prep_to</dependency>
+      <dependency dep="the" dep_index="9" gov="tail" gov_index="11">det</dependency>
+      <dependency dep="coiledcoil" dep_index="10" gov="tail" gov_index="11">amod</dependency>
+      <dependency dep="tail" dep_index="11" gov="shows" gov_index="2">prep_to</dependency>
+      <dependency dep="tail" dep_index="11" gov="domains" gov_index="7">conj_and</dependency>
+      <dependency dep="the" dep_index="13" gov="type II myosin heavy chain" gov_index="15">det</dependency>
+      <dependency dep="conventional" dep_index="14" gov="type II myosin heavy chain" gov_index="15">amod</dependency>
+      <dependency dep="type II myosin heavy chain" dep_index="15" gov="tail" gov_index="11">prep_of</dependency>
+      <dependency dep="carries" dep_index="17" gov="shows" gov_index="2">conj_and</dependency>
+      <dependency dep="putative" dep_index="18" gov="sites" gov_index="20">amod</dependency>
+      <dependency dep="binding" dep_index="19" gov="sites" gov_index="20">amod</dependency>
+      <dependency dep="sites" dep_index="20" gov="carries" gov_index="17">dobj</dependency>
+      <dependency dep="ATP" dep_index="22" gov="carries" gov_index="17">prep_for</dependency>
+      <dependency dep="actin" dep_index="24" gov="carries" gov_index="17">prep_for</dependency>
+      <dependency dep="actin" dep_index="24" gov="ATP" gov_index="22">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100024" relationship="true">1 17 24</relation>
+      <relation position="1500024" relationship="false"></relation>
+      <relation position="100015" relationship="true">1 2 11 15</relation>
+   </relations>
+   <pairs>
+      <pair>100015</pair>
+      <pair>100024</pair>
+   </pairs>
+</root>

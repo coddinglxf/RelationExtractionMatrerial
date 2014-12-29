@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@sspH@and@sspL@genes@are@recognized@primarily@by@the@forespore-specific@sigma@factor@for@RNA@polymerase@,@sigmaG@;@the@sspN@-@tlp@operon@is@recognized@equally@well@by@sigmaG@and@the@other@forespore-specific@sigma@factor@,@sigmaF@.@</sentence>
+   <tags>
+      <tag pos="18">sigmaG</tag>
+      <tag pos="30">sigmaG</tag>
+      <tag pos="38">sigmaF</tag>
+      <tag pos="2">sspH</tag>
+      <tag pos="21">sspN</tag>
+      <tag pos="4">sspL</tag>
+      <tag pos="23">tlp</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">sspH</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">sspL</taggedword>
+      <taggedword index="5" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="6" part-of-speech="VBP">are</taggedword>
+      <taggedword index="7" part-of-speech="VBN">recognized</taggedword>
+      <taggedword index="8" part-of-speech="RB">primarily</taggedword>
+      <taggedword index="9" part-of-speech="IN">by</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">forespore-specific</taggedword>
+      <taggedword index="12" part-of-speech="NN">sigma</taggedword>
+      <taggedword index="13" part-of-speech="NN">factor</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="16" part-of-speech="NNP">polymerase</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="VBG">sigmaG</taggedword>
+      <taggedword index="19" part-of-speech=":">;</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">sspN</taggedword>
+      <taggedword index="22" part-of-speech=":">-</taggedword>
+      <taggedword index="23" part-of-speech="NN">tlp</taggedword>
+      <taggedword index="24" part-of-speech="NN">operon</taggedword>
+      <taggedword index="25" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="26" part-of-speech="VBN">recognized</taggedword>
+      <taggedword index="27" part-of-speech="RB">equally</taggedword>
+      <taggedword index="28" part-of-speech="RB">well</taggedword>
+      <taggedword index="29" part-of-speech="IN">by</taggedword>
+      <taggedword index="30" part-of-speech="NN">sigmaG</taggedword>
+      <taggedword index="31" part-of-speech="CC">and</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="JJ">other</taggedword>
+      <taggedword index="34" part-of-speech="JJ">forespore-specific</taggedword>
+      <taggedword index="35" part-of-speech="NN">sigma</taggedword>
+      <taggedword index="36" part-of-speech="NN">factor</taggedword>
+      <taggedword index="37" part-of-speech=",">,</taggedword>
+      <taggedword index="38" part-of-speech="NN">sigmaF</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="sspH" gov_index="2">det</dependency>
+      <dependency dep="sspH" dep_index="2" gov="recognized" gov_index="7">nsubjpass</dependency>
+      <dependency dep="sspL" dep_index="4" gov="genes" gov_index="5">amod</dependency>
+      <dependency dep="genes" dep_index="5" gov="sspH" gov_index="2">conj_and</dependency>
+      <dependency dep="genes" dep_index="5" gov="recognized" gov_index="7">nsubjpass</dependency>
+      <dependency dep="are" dep_index="6" gov="recognized" gov_index="7">auxpass</dependency>
+      <dependency dep="recognized" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="primarily" dep_index="8" gov="recognized" gov_index="7">advmod</dependency>
+      <dependency dep="the" dep_index="10" gov="factor" gov_index="13">det</dependency>
+      <dependency dep="forespore-specific" dep_index="11" gov="factor" gov_index="13">amod</dependency>
+      <dependency dep="sigma" dep_index="12" gov="factor" gov_index="13">nn</dependency>
+      <dependency dep="factor" dep_index="13" gov="recognized" gov_index="7">agent</dependency>
+      <dependency dep="RNA" dep_index="15" gov="polymerase" gov_index="16">nn</dependency>
+      <dependency dep="polymerase" dep_index="16" gov="factor" gov_index="13">prep_for</dependency>
+      <dependency dep="sigmaG" dep_index="18" gov="recognized" gov_index="7">xcomp</dependency>
+      <dependency dep="the" dep_index="20" gov="sspN" gov_index="21">det</dependency>
+      <dependency dep="sspN" dep_index="21" gov="recognized" gov_index="26">nsubjpass</dependency>
+      <dependency dep="tlp" dep_index="23" gov="operon" gov_index="24">nn</dependency>
+      <dependency dep="operon" dep_index="24" gov="sspN" gov_index="21">dep</dependency>
+      <dependency dep="is" dep_index="25" gov="recognized" gov_index="26">auxpass</dependency>
+      <dependency dep="recognized" dep_index="26" gov="recognized" gov_index="7">parataxis</dependency>
+      <dependency dep="equally" dep_index="27" gov="well" gov_index="28">advmod</dependency>
+      <dependency dep="well" dep_index="28" gov="recognized" gov_index="26">advmod</dependency>
+      <dependency dep="sigmaG" dep_index="30" gov="recognized" gov_index="26">agent</dependency>
+      <dependency dep="the" dep_index="32" gov="factor" gov_index="36">det</dependency>
+      <dependency dep="other" dep_index="33" gov="factor" gov_index="36">amod</dependency>
+      <dependency dep="forespore-specific" dep_index="34" gov="factor" gov_index="36">amod</dependency>
+      <dependency dep="sigma" dep_index="35" gov="factor" gov_index="36">nn</dependency>
+      <dependency dep="factor" dep_index="36" gov="recognized" gov_index="26">agent</dependency>
+      <dependency dep="factor" dep_index="36" gov="sigmaG" gov_index="30">conj_and</dependency>
+      <dependency dep="sigmaF" dep_index="38" gov="factor" gov_index="36">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800030" relationship="false">18 7 26 30</relation>
+      <relation position="1800038" relationship="false">18 7 26 36 38</relation>
+      <relation position="200018" relationship="true">2 7 18</relation>
+      <relation position="1800021" relationship="false">18 7 26 21</relation>
+      <relation position="400018" relationship="true">4 5 7 18</relation>
+      <relation position="1800023" relationship="false">18 7 26 21 24 23</relation>
+      <relation position="3000038" relationship="false">30 26 36 38</relation>
+      <relation position="200030" relationship="false">2 7 26 30</relation>
+      <relation position="2100030" relationship="true">21 26 30</relation>
+      <relation position="400030" relationship="false">4 5 7 26 30</relation>
+      <relation position="2300030" relationship="true">23 24 21 26 30</relation>
+      <relation position="200038" relationship="false">2 7 26 36 38</relation>
+      <relation position="2100038" relationship="true">21 26 36 38</relation>
+      <relation position="400038" relationship="false">4 5 7 26 36 38</relation>
+      <relation position="2300038" relationship="true">23 24 21 26 36 38</relation>
+      <relation position="200021" relationship="false">2 7 26 21</relation>
+      <relation position="200004" relationship="false">2 7 5 4</relation>
+      <relation position="200023" relationship="false">2 7 26 21 24 23</relation>
+      <relation position="400021" relationship="false">4 5 7 26 21</relation>
+      <relation position="2100023" relationship="false"></relation>
+      <relation position="400023" relationship="false">4 5 7 26 21 24 23</relation>
+   </relations>
+   <pairs>
+      <pair>2100038</pair>
+      <pair>400018</pair>
+      <pair>2300038</pair>
+      <pair>2300030</pair>
+      <pair>2100030</pair>
+      <pair>200018</pair>
+   </pairs>
+</root>

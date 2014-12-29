@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@induction@of@alpha-amylase@triggered@by@gibberellic acid@in@barley@embryos@is@repressed@by@sugars@</sentence>
+   <tags>
+      <tag pos="4">alpha-amylase</tag>
+      <tag pos="7">gibberellic acid</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">induction</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">alpha-amylase</taggedword>
+      <taggedword index="5" part-of-speech="VBN">triggered</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="NN">gibberellic acid</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NN">barley</taggedword>
+      <taggedword index="10" part-of-speech="NNS">embryos</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="12" part-of-speech="JJ">repressed</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="NNS">sugars</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="induction" gov_index="2">det</dependency>
+      <dependency dep="induction" dep_index="2" gov="repressed" gov_index="12">nsubj</dependency>
+      <dependency dep="alpha-amylase" dep_index="4" gov="induction" gov_index="2">prep_of</dependency>
+      <dependency dep="triggered" dep_index="5" gov="alpha-amylase" gov_index="4">partmod</dependency>
+      <dependency dep="gibberellic acid" dep_index="7" gov="triggered" gov_index="5">agent</dependency>
+      <dependency dep="barley" dep_index="9" gov="embryos" gov_index="10">nn</dependency>
+      <dependency dep="embryos" dep_index="10" gov="gibberellic acid" gov_index="7">prep_in</dependency>
+      <dependency dep="is" dep_index="11" gov="repressed" gov_index="12">cop</dependency>
+      <dependency dep="repressed" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="sugars" dep_index="14" gov="repressed" gov_index="12">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>400007</pair>
+   </pairs>
+</root>

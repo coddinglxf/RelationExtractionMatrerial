@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>HFE@is@related@to@major@histocompatibility@complex@(MHC)@class@I@proteins@and@is@mutated@in@the@iron-overload@disease@hereditary@haemochromatosis@.@</sentence>
+   <tags>
+      <tag pos="1">HFE</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">HFE</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="VBN">related</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="JJ">major</taggedword>
+      <taggedword index="6" part-of-speech="JJ">histocompatibility</taggedword>
+      <taggedword index="7" part-of-speech="NN">complex</taggedword>
+      <taggedword index="8" part-of-speech="JJ">(MHC)</taggedword>
+      <taggedword index="9" part-of-speech="NN">class</taggedword>
+      <taggedword index="10" part-of-speech="NN">I</taggedword>
+      <taggedword index="11" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="VBN">mutated</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">iron-overload</taggedword>
+      <taggedword index="18" part-of-speech="NN">disease</taggedword>
+      <taggedword index="19" part-of-speech="NN">hereditary</taggedword>
+      <taggedword index="20" part-of-speech="NNS">haemochromatosis</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="HFE" dep_index="1" gov="related" gov_index="3">nsubjpass</dependency>
+      <dependency dep="HFE" dep_index="1" gov="mutated" gov_index="14">nsubjpass</dependency>
+      <dependency dep="is" dep_index="2" gov="related" gov_index="3">auxpass</dependency>
+      <dependency dep="related" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="major" dep_index="5" gov="proteins" gov_index="11">amod</dependency>
+      <dependency dep="histocompatibility" dep_index="6" gov="proteins" gov_index="11">amod</dependency>
+      <dependency dep="complex" dep_index="7" gov="proteins" gov_index="11">nn</dependency>
+      <dependency dep="(MHC)" dep_index="8" gov="proteins" gov_index="11">amod</dependency>
+      <dependency dep="class" dep_index="9" gov="proteins" gov_index="11">nn</dependency>
+      <dependency dep="I" dep_index="10" gov="proteins" gov_index="11">nn</dependency>
+      <dependency dep="proteins" dep_index="11" gov="related" gov_index="3">prep_to</dependency>
+      <dependency dep="is" dep_index="13" gov="mutated" gov_index="14">auxpass</dependency>
+      <dependency dep="mutated" dep_index="14" gov="related" gov_index="3">conj_and</dependency>
+      <dependency dep="the" dep_index="16" gov="haemochromatosis" gov_index="20">det</dependency>
+      <dependency dep="iron-overload" dep_index="17" gov="haemochromatosis" gov_index="20">amod</dependency>
+      <dependency dep="disease" dep_index="18" gov="haemochromatosis" gov_index="20">nn</dependency>
+      <dependency dep="hereditary" dep_index="19" gov="haemochromatosis" gov_index="20">nn</dependency>
+      <dependency dep="haemochromatosis" dep_index="20" gov="mutated" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

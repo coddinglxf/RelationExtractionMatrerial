@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@summary@,@FGFR3@signaling@pathway@utilizes@two@GRB2@-containing@complexes@;@Shc@.@</sentence>
+   <tags>
+      <tag pos="4">FGFR3</tag>
+      <tag pos="9">GRB2</tag>
+      <tag pos="13">Shc</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">summary</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">FGFR3</taggedword>
+      <taggedword index="5" part-of-speech="NNP">signaling</taggedword>
+      <taggedword index="6" part-of-speech="RB">pathway</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">utilizes</taggedword>
+      <taggedword index="8" part-of-speech="CD">two</taggedword>
+      <taggedword index="9" part-of-speech="CD">GRB2</taggedword>
+      <taggedword index="10" part-of-speech="JJ">-containing</taggedword>
+      <taggedword index="11" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="12" part-of-speech=":">;</taggedword>
+      <taggedword index="13" part-of-speech="NNP">Shc</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="summary" dep_index="2" gov="utilizes" gov_index="7">prep_in</dependency>
+      <dependency dep="FGFR3" dep_index="4" gov="signaling" gov_index="5">nn</dependency>
+      <dependency dep="signaling" dep_index="5" gov="utilizes" gov_index="7">nsubj</dependency>
+      <dependency dep="pathway" dep_index="6" gov="utilizes" gov_index="7">advmod</dependency>
+      <dependency dep="utilizes" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="two" dep_index="8" gov="GRB2" gov_index="9">number</dependency>
+      <dependency dep="GRB2" dep_index="9" gov="complexes" gov_index="11">num</dependency>
+      <dependency dep="-containing" dep_index="10" gov="complexes" gov_index="11">amod</dependency>
+      <dependency dep="complexes" dep_index="11" gov="utilizes" gov_index="7">dobj</dependency>
+      <dependency dep="Shc" dep_index="13" gov="complexes" gov_index="11">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400009" relationship="false">4 5 7 11 9</relation>
+      <relation position="400013" relationship="false">4 5 7 11 13</relation>
+      <relation position="900013" relationship="false">9 11 13</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thereafter@,@the@stimulatory@effects@of@OT@on@IPs@formation@and@the@OT@receptor@levels@dramatically@increased@toward@the@end@of@pregnancy@and@reduced@rapidly@after@parturition@</sentence>
+   <tags>
+      <tag pos="7">OT</tag>
+      <tag pos="9">IPs</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thereafter</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">stimulatory</taggedword>
+      <taggedword index="5" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="NNP">IPs</taggedword>
+      <taggedword index="10" part-of-speech="NN">formation</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="14" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="15" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="16" part-of-speech="RB">dramatically</taggedword>
+      <taggedword index="17" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="18" part-of-speech="IN">toward</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">end</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NN">pregnancy</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="VBD">reduced</taggedword>
+      <taggedword index="25" part-of-speech="RB">rapidly</taggedword>
+      <taggedword index="26" part-of-speech="IN">after</taggedword>
+      <taggedword index="27" part-of-speech="NN">parturition</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thereafter" dep_index="1" gov="increased" gov_index="17">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="effects" gov_index="5">det</dependency>
+      <dependency dep="stimulatory" dep_index="4" gov="effects" gov_index="5">amod</dependency>
+      <dependency dep="effects" dep_index="5" gov="increased" gov_index="17">nsubj</dependency>
+      <dependency dep="effects" dep_index="5" gov="reduced" gov_index="24">nsubj</dependency>
+      <dependency dep="OT" dep_index="7" gov="effects" gov_index="5">prep_of</dependency>
+      <dependency dep="IPs" dep_index="9" gov="formation" gov_index="10">nn</dependency>
+      <dependency dep="formation" dep_index="10" gov="OT" gov_index="7">prep_on</dependency>
+      <dependency dep="the" dep_index="12" gov="levels" gov_index="15">det</dependency>
+      <dependency dep="OT" dep_index="13" gov="levels" gov_index="15">nn</dependency>
+      <dependency dep="receptor" dep_index="14" gov="levels" gov_index="15">nn</dependency>
+      <dependency dep="levels" dep_index="15" gov="OT" gov_index="7">prep_on</dependency>
+      <dependency dep="levels" dep_index="15" gov="formation" gov_index="10">conj_and</dependency>
+      <dependency dep="dramatically" dep_index="16" gov="increased" gov_index="17">advmod</dependency>
+      <dependency dep="increased" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="19" gov="end" gov_index="20">det</dependency>
+      <dependency dep="end" dep_index="20" gov="increased" gov_index="17">prep_toward</dependency>
+      <dependency dep="pregnancy" dep_index="22" gov="end" gov_index="20">prep_of</dependency>
+      <dependency dep="reduced" dep_index="24" gov="increased" gov_index="17">conj_and</dependency>
+      <dependency dep="rapidly" dep_index="25" gov="reduced" gov_index="24">advmod</dependency>
+      <dependency dep="parturition" dep_index="27" gov="reduced" gov_index="24">prep_after</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

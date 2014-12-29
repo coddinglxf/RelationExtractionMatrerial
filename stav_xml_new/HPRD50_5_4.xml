@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Secondly@,@cytohesin-1@induces@expression@of@an@extracellular@activation@epitope@of@LFA-1@,@and@the@exchange@factor@function@is@not@essential@for@this@activity@</sentence>
+   <tags>
+      <tag pos="3">cytohesin-1</tag>
+      <tag pos="12">LFA-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Secondly</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="JJ">cytohesin-1</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">induces</taggedword>
+      <taggedword index="5" part-of-speech="NN">expression</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">an</taggedword>
+      <taggedword index="8" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="9" part-of-speech="NN">activation</taggedword>
+      <taggedword index="10" part-of-speech="NN">epitope</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">LFA-1</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">exchange</taggedword>
+      <taggedword index="17" part-of-speech="NN">factor</taggedword>
+      <taggedword index="18" part-of-speech="NN">function</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="20" part-of-speech="RB">not</taggedword>
+      <taggedword index="21" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="22" part-of-speech="IN">for</taggedword>
+      <taggedword index="23" part-of-speech="DT">this</taggedword>
+      <taggedword index="24" part-of-speech="NN">activity</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Secondly" dep_index="1" gov="induces" gov_index="4">advmod</dependency>
+      <dependency dep="cytohesin-1" dep_index="3" gov="induces" gov_index="4">nsubj</dependency>
+      <dependency dep="induces" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="expression" dep_index="5" gov="induces" gov_index="4">dobj</dependency>
+      <dependency dep="an" dep_index="7" gov="epitope" gov_index="10">det</dependency>
+      <dependency dep="extracellular" dep_index="8" gov="epitope" gov_index="10">nn</dependency>
+      <dependency dep="activation" dep_index="9" gov="epitope" gov_index="10">nn</dependency>
+      <dependency dep="epitope" dep_index="10" gov="expression" gov_index="5">prep_of</dependency>
+      <dependency dep="LFA-1" dep_index="12" gov="epitope" gov_index="10">prep_of</dependency>
+      <dependency dep="the" dep_index="15" gov="function" gov_index="18">det</dependency>
+      <dependency dep="exchange" dep_index="16" gov="function" gov_index="18">nn</dependency>
+      <dependency dep="factor" dep_index="17" gov="function" gov_index="18">nn</dependency>
+      <dependency dep="function" dep_index="18" gov="essential" gov_index="21">nsubj</dependency>
+      <dependency dep="is" dep_index="19" gov="essential" gov_index="21">cop</dependency>
+      <dependency dep="not" dep_index="20" gov="essential" gov_index="21">neg</dependency>
+      <dependency dep="essential" dep_index="21" gov="induces" gov_index="4">conj_and</dependency>
+      <dependency dep="this" dep_index="23" gov="activity" gov_index="24">det</dependency>
+      <dependency dep="activity" dep_index="24" gov="essential" gov_index="21">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300012" relationship="true">3 4 5 10 12</relation>
+   </relations>
+   <pairs>
+      <pair>300012</pair>
+   </pairs>
+</root>

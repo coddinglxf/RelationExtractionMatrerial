@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Domains@1@and@2@are@tightly@linked@,@but@domain@three@is@completely@separate@and@connected@by@a@flexible@linker@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Domains</taggedword>
+      <taggedword index="2" part-of-speech="CD">1</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="CD">2</taggedword>
+      <taggedword index="5" part-of-speech="VBP">are</taggedword>
+      <taggedword index="6" part-of-speech="RB">tightly</taggedword>
+      <taggedword index="7" part-of-speech="VBN">linked</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">but</taggedword>
+      <taggedword index="10" part-of-speech="NN">domain</taggedword>
+      <taggedword index="11" part-of-speech="CD">three</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="RB">completely</taggedword>
+      <taggedword index="14" part-of-speech="JJ">separate</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="VBN">connected</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">flexible</taggedword>
+      <taggedword index="20" part-of-speech="NN">linker</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Domains" dep_index="1" gov="linked" gov_index="7">nsubjpass</dependency>
+      <dependency dep="1" dep_index="2" gov="Domains" gov_index="1">num</dependency>
+      <dependency dep="2" dep_index="4" gov="Domains" gov_index="1">conj_and</dependency>
+      <dependency dep="2" dep_index="4" gov="linked" gov_index="7">nsubjpass</dependency>
+      <dependency dep="are" dep_index="5" gov="linked" gov_index="7">auxpass</dependency>
+      <dependency dep="tightly" dep_index="6" gov="linked" gov_index="7">advmod</dependency>
+      <dependency dep="linked" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="domain" dep_index="10" gov="separate" gov_index="14">nsubjpass</dependency>
+      <dependency dep="domain" dep_index="10" gov="connected" gov_index="16">nsubjpass</dependency>
+      <dependency dep="three" dep_index="11" gov="domain" gov_index="10">num</dependency>
+      <dependency dep="is" dep_index="12" gov="separate" gov_index="14">auxpass</dependency>
+      <dependency dep="is" dep_index="12" gov="separate" gov_index="14">cop</dependency>
+      <dependency dep="completely" dep_index="13" gov="separate" gov_index="14">advmod</dependency>
+      <dependency dep="separate" dep_index="14" gov="linked" gov_index="7">conj_but</dependency>
+      <dependency dep="connected" dep_index="16" gov="linked" gov_index="7">conj_but</dependency>
+      <dependency dep="connected" dep_index="16" gov="separate" gov_index="14">conj_and</dependency>
+      <dependency dep="a" dep_index="18" gov="linker" gov_index="20">det</dependency>
+      <dependency dep="flexible" dep_index="19" gov="linker" gov_index="20">amod</dependency>
+      <dependency dep="linker" dep_index="20" gov="connected" gov_index="16">prep_by</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

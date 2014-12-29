@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@,@we@evaluated@the@prognostic@significance@of@E-cadherin@,@alpha-catenin@,@and@beta-catenin@expressions@in@the@metastatic@foci@of@patients@with@colorectal@carcinoma@.@</sentence>
+   <tags>
+      <tag pos="11">E-cadherin</tag>
+      <tag pos="16">beta-catenin</tag>
+      <tag pos="13">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBN">evaluated</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">prognostic</taggedword>
+      <taggedword index="9" part-of-speech="NN">significance</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="17" part-of-speech="NNS">expressions</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">metastatic</taggedword>
+      <taggedword index="21" part-of-speech="NN">foci</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="24" part-of-speech="IN">with</taggedword>
+      <taggedword index="25" part-of-speech="JJ">colorectal</taggedword>
+      <taggedword index="26" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="evaluated" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="evaluated" gov_index="6">nsubj</dependency>
+      <dependency dep="evaluated" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="significance" gov_index="9">det</dependency>
+      <dependency dep="prognostic" dep_index="8" gov="significance" gov_index="9">amod</dependency>
+      <dependency dep="significance" dep_index="9" gov="evaluated" gov_index="6">dobj</dependency>
+      <dependency dep="E-cadherin" dep_index="11" gov="significance" gov_index="9">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="13" gov="significance" gov_index="9">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="13" gov="E-cadherin" gov_index="11">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="16" gov="expressions" gov_index="17">amod</dependency>
+      <dependency dep="expressions" dep_index="17" gov="significance" gov_index="9">prep_of</dependency>
+      <dependency dep="expressions" dep_index="17" gov="E-cadherin" gov_index="11">conj_and</dependency>
+      <dependency dep="the" dep_index="19" gov="foci" gov_index="21">det</dependency>
+      <dependency dep="metastatic" dep_index="20" gov="foci" gov_index="21">amod</dependency>
+      <dependency dep="foci" dep_index="21" gov="evaluated" gov_index="6">prep_in</dependency>
+      <dependency dep="patients" dep_index="23" gov="foci" gov_index="21">prep_of</dependency>
+      <dependency dep="colorectal" dep_index="25" gov="carcinoma" gov_index="26">amod</dependency>
+      <dependency dep="carcinoma" dep_index="26" gov="patients" gov_index="23">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100016" relationship="false">11 9 17 16</relation>
+      <relation position="1100013" relationship="false">11 9 13</relation>
+      <relation position="1300016" relationship="false">13 9 17 16</relation>
+   </relations>
+   <pairs/>
+</root>

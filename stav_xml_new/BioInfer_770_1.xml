@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Total@actin@and@myosin heavy chain@mRNAs@,@and@polyadenylated@RNA@,@were@determined@using@slot-blot@assays@.@</sentence>
+   <tags>
+      <tag pos="4">myosin heavy chain</tag>
+      <tag pos="2">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Total</taggedword>
+      <taggedword index="2" part-of-speech="NN">actin</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="5" part-of-speech="NNS">mRNAs</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="RB">polyadenylated</taggedword>
+      <taggedword index="9" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="VBD">were</taggedword>
+      <taggedword index="12" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="13" part-of-speech="VBG">using</taggedword>
+      <taggedword index="14" part-of-speech="JJ">slot-blot</taggedword>
+      <taggedword index="15" part-of-speech="NNS">assays</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Total" dep_index="1" gov="actin" gov_index="2">amod</dependency>
+      <dependency dep="actin" dep_index="2" gov="determined" gov_index="12">nsubjpass</dependency>
+      <dependency dep="myosin heavy chain" dep_index="4" gov="mRNAs" gov_index="5">nn</dependency>
+      <dependency dep="mRNAs" dep_index="5" gov="actin" gov_index="2">conj_and</dependency>
+      <dependency dep="mRNAs" dep_index="5" gov="determined" gov_index="12">nsubjpass</dependency>
+      <dependency dep="polyadenylated" dep_index="8" gov="actin" gov_index="2">advmod</dependency>
+      <dependency dep="polyadenylated" dep_index="8" gov="actin" gov_index="2">conj_and</dependency>
+      <dependency dep="polyadenylated" dep_index="8" gov="determined" gov_index="12">nsubjpass</dependency>
+      <dependency dep="RNA" dep_index="9" gov="actin" gov_index="2">conj_and</dependency>
+      <dependency dep="RNA" dep_index="9" gov="determined" gov_index="12">nsubjpass</dependency>
+      <dependency dep="were" dep_index="11" gov="determined" gov_index="12">auxpass</dependency>
+      <dependency dep="determined" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="13" gov="determined" gov_index="12">xcomp</dependency>
+      <dependency dep="slot-blot" dep_index="14" gov="assays" gov_index="15">amod</dependency>
+      <dependency dep="assays" dep_index="15" gov="using" gov_index="13">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 12 5 4</relation>
+   </relations>
+   <pairs/>
+</root>

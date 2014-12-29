@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Similarly@,@carbachol@,@but@not@AVP@or@DDAVP@,@induced@a@significant@increase@in@membrane-associated@protein kinase C@(PKC)@enzyme@activity@</sentence>
+   <tags>
+      <tag pos="7">AVP</tag>
+      <tag pos="17">protein kinase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Similarly</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">carbachol</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="CC">but</taggedword>
+      <taggedword index="6" part-of-speech="RB">not</taggedword>
+      <taggedword index="7" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="8" part-of-speech="CC">or</taggedword>
+      <taggedword index="9" part-of-speech="NNP">DDAVP</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="14" part-of-speech="NN">increase</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="JJ">membrane-associated</taggedword>
+      <taggedword index="17" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="18" part-of-speech="NNS">(PKC)</taggedword>
+      <taggedword index="19" part-of-speech="VBP">enzyme</taggedword>
+      <taggedword index="20" part-of-speech="NN">activity</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Similarly" dep_index="1" gov="enzyme" gov_index="19">advmod</dependency>
+      <dependency dep="carbachol" dep_index="3" gov="enzyme" gov_index="19">nsubj</dependency>
+      <dependency dep="AVP" dep_index="7" gov="carbachol" gov_index="3">conj_negcc</dependency>
+      <dependency dep="AVP" dep_index="7" gov="enzyme" gov_index="19">nsubj</dependency>
+      <dependency dep="DDAVP" dep_index="9" gov="carbachol" gov_index="3">conj_negcc</dependency>
+      <dependency dep="DDAVP" dep_index="9" gov="AVP" gov_index="7">conj_or</dependency>
+      <dependency dep="induced" dep_index="11" gov="carbachol" gov_index="3">partmod</dependency>
+      <dependency dep="a" dep_index="12" gov="increase" gov_index="14">det</dependency>
+      <dependency dep="significant" dep_index="13" gov="increase" gov_index="14">amod</dependency>
+      <dependency dep="increase" dep_index="14" gov="induced" gov_index="11">dobj</dependency>
+      <dependency dep="membrane-associated" dep_index="16" gov="(PKC)" gov_index="18">amod</dependency>
+      <dependency dep="protein kinase C" dep_index="17" gov="(PKC)" gov_index="18">amod</dependency>
+      <dependency dep="(PKC)" dep_index="18" gov="increase" gov_index="14">prep_in</dependency>
+      <dependency dep="enzyme" dep_index="19" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="activity" dep_index="20" gov="enzyme" gov_index="19">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700017" relationship="false">7 3 11 14 18 17</relation>
+   </relations>
+   <pairs/>
+</root>

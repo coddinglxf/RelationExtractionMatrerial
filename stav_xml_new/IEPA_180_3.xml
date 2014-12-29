@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Circadian@fluctuations@of@NPY@and@leptin@levels@maintain@normal@body@homeostasis@</sentence>
+   <tags>
+      <tag pos="4">NPY</tag>
+      <tag pos="6">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Circadian</taggedword>
+      <taggedword index="2" part-of-speech="NNS">fluctuations</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">NPY</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="7" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="8" part-of-speech="VBP">maintain</taggedword>
+      <taggedword index="9" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="10" part-of-speech="NN">body</taggedword>
+      <taggedword index="11" part-of-speech="NNS">homeostasis</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Circadian" dep_index="1" gov="fluctuations" gov_index="2">nn</dependency>
+      <dependency dep="fluctuations" dep_index="2" gov="maintain" gov_index="8">nsubj</dependency>
+      <dependency dep="NPY" dep_index="4" gov="levels" gov_index="7">nn</dependency>
+      <dependency dep="leptin" dep_index="6" gov="NPY" gov_index="4">conj_and</dependency>
+      <dependency dep="leptin" dep_index="6" gov="levels" gov_index="7">nn</dependency>
+      <dependency dep="levels" dep_index="7" gov="fluctuations" gov_index="2">prep_of</dependency>
+      <dependency dep="maintain" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="normal" dep_index="9" gov="homeostasis" gov_index="11">amod</dependency>
+      <dependency dep="body" dep_index="10" gov="homeostasis" gov_index="11">nn</dependency>
+      <dependency dep="homeostasis" dep_index="11" gov="maintain" gov_index="8">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 7 6</relation>
+   </relations>
+   <pairs/>
+</root>

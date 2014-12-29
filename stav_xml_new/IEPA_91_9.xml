@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>U-73122@at@8@mumol.L-1@totally@abolished@the@Oxy@-induced@increases@in@[Ca2+]i@and@IP3@;@however@it@reduced@the@Oxy@-induced@increase@in@insulin@release@only@by@36%@and@63%@in@the@monolayer@and@suspended@cell@preparations@,@respectively@</sentence>
+   <tags>
+      <tag pos="8">Oxy</tag>
+      <tag pos="20">Oxy</tag>
+      <tag pos="24">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">U-73122</taggedword>
+      <taggedword index="2" part-of-speech="IN">at</taggedword>
+      <taggedword index="3" part-of-speech="CD">8</taggedword>
+      <taggedword index="4" part-of-speech="CD">mumol.L-1</taggedword>
+      <taggedword index="5" part-of-speech="RB">totally</taggedword>
+      <taggedword index="6" part-of-speech="VBD">abolished</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Oxy</taggedword>
+      <taggedword index="9" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="10" part-of-speech="NNS">increases</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="CD">[Ca2+]i</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="CD">IP3</taggedword>
+      <taggedword index="15" part-of-speech=":">;</taggedword>
+      <taggedword index="16" part-of-speech="RB">however</taggedword>
+      <taggedword index="17" part-of-speech="PRP">it</taggedword>
+      <taggedword index="18" part-of-speech="VBD">reduced</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NNP">Oxy</taggedword>
+      <taggedword index="21" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="22" part-of-speech="NN">increase</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="25" part-of-speech="NN">release</taggedword>
+      <taggedword index="26" part-of-speech="RB">only</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="CD">36%</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="CD">63%</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">monolayer</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="JJ">suspended</taggedword>
+      <taggedword index="36" part-of-speech="NN">cell</taggedword>
+      <taggedword index="37" part-of-speech="NNS">preparations</taggedword>
+      <taggedword index="38" part-of-speech=",">,</taggedword>
+      <taggedword index="39" part-of-speech="RB">respectively</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="U-73122" dep_index="1" gov="abolished" gov_index="6">nsubj</dependency>
+      <dependency dep="8" dep_index="3" gov="mumol.L-1" gov_index="4">num</dependency>
+      <dependency dep="mumol.L-1" dep_index="4" gov="U-73122" gov_index="1">prep_at</dependency>
+      <dependency dep="totally" dep_index="5" gov="abolished" gov_index="6">advmod</dependency>
+      <dependency dep="abolished" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="increases" gov_index="10">det</dependency>
+      <dependency dep="Oxy" dep_index="8" gov="increases" gov_index="10">nn</dependency>
+      <dependency dep="-induced" dep_index="9" gov="increases" gov_index="10">amod</dependency>
+      <dependency dep="increases" dep_index="10" gov="abolished" gov_index="6">dobj</dependency>
+      <dependency dep="[Ca2+]i" dep_index="12" gov="abolished" gov_index="6">prep_in</dependency>
+      <dependency dep="IP3" dep_index="14" gov="abolished" gov_index="6">prep_in</dependency>
+      <dependency dep="IP3" dep_index="14" gov="[Ca2+]i" gov_index="12">conj_and</dependency>
+      <dependency dep="however" dep_index="16" gov="reduced" gov_index="18">advmod</dependency>
+      <dependency dep="it" dep_index="17" gov="reduced" gov_index="18">nsubj</dependency>
+      <dependency dep="reduced" dep_index="18" gov="abolished" gov_index="6">parataxis</dependency>
+      <dependency dep="the" dep_index="19" gov="increase" gov_index="22">det</dependency>
+      <dependency dep="Oxy" dep_index="20" gov="increase" gov_index="22">nn</dependency>
+      <dependency dep="-induced" dep_index="21" gov="increase" gov_index="22">amod</dependency>
+      <dependency dep="increase" dep_index="22" gov="reduced" gov_index="18">dobj</dependency>
+      <dependency dep="insulin" dep_index="24" gov="release" gov_index="25">nn</dependency>
+      <dependency dep="release" dep_index="25" gov="increase" gov_index="22">prep_in</dependency>
+      <dependency dep="only" dep_index="26" gov="reduced" gov_index="18">advmod</dependency>
+      <dependency dep="36%" dep_index="28" gov="reduced" gov_index="18">prep_by</dependency>
+      <dependency dep="63%" dep_index="30" gov="reduced" gov_index="18">prep_by</dependency>
+      <dependency dep="63%" dep_index="30" gov="36%" gov_index="28">conj_and</dependency>
+      <dependency dep="the" dep_index="32" gov="monolayer" gov_index="33">det</dependency>
+      <dependency dep="monolayer" dep_index="33" gov="reduced" gov_index="18">prep_in</dependency>
+      <dependency dep="suspended" dep_index="35" gov="preparations" gov_index="37">amod</dependency>
+      <dependency dep="cell" dep_index="36" gov="preparations" gov_index="37">nn</dependency>
+      <dependency dep="preparations" dep_index="37" gov="reduced" gov_index="18">prep_in</dependency>
+      <dependency dep="preparations" dep_index="37" gov="monolayer" gov_index="33">conj_and</dependency>
+      <dependency dep="respectively" dep_index="39" gov="reduced" gov_index="18">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800020" relationship="false">8 10 6 18 22 20</relation>
+      <relation position="800024" relationship="false">8 10 6 18 22 25 24</relation>
+      <relation position="2000024" relationship="true">20 22 25 24</relation>
+   </relations>
+   <pairs>
+      <pair>2000024</pair>
+   </pairs>
+</root>

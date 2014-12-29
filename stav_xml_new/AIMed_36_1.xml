@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Molecular@determinants@of@the@interaction@between@the@C-terminal@domain@of@Alzheimer's@beta-amyloid peptide@and@apolipoprotein E@alpha-helices@.@</sentence>
+   <tags>
+      <tag pos="12">beta-amyloid peptide</tag>
+      <tag pos="14">apolipoprotein E</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Molecular</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">determinants</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="6" part-of-speech="IN">between</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">C-terminal</taggedword>
+      <taggedword index="9" part-of-speech="NN">domain</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNP">Alzheimer's</taggedword>
+      <taggedword index="12" part-of-speech="NN">beta-amyloid peptide</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">apolipoprotein E</taggedword>
+      <taggedword index="15" part-of-speech="NNS">alpha-helices</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Molecular" dep_index="1" gov="determinants" gov_index="2">nsubj</dependency>
+      <dependency dep="determinants" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="interaction" gov_index="5">det</dependency>
+      <dependency dep="interaction" dep_index="5" gov="determinants" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="7" gov="domain" gov_index="9">det</dependency>
+      <dependency dep="C-terminal" dep_index="8" gov="domain" gov_index="9">amod</dependency>
+      <dependency dep="domain" dep_index="9" gov="interaction" gov_index="5">prep_between</dependency>
+      <dependency dep="Alzheimer's" dep_index="11" gov="beta-amyloid peptide" gov_index="12">nn</dependency>
+      <dependency dep="beta-amyloid peptide" dep_index="12" gov="domain" gov_index="9">prep_of</dependency>
+      <dependency dep="apolipoprotein E" dep_index="14" gov="alpha-helices" gov_index="15">nn</dependency>
+      <dependency dep="alpha-helices" dep_index="15" gov="domain" gov_index="9">prep_of</dependency>
+      <dependency dep="alpha-helices" dep_index="15" gov="beta-amyloid peptide" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200014" relationship="true">12 9 15 14</relation>
+   </relations>
+   <pairs>
+      <pair>1200014</pair>
+   </pairs>
+</root>

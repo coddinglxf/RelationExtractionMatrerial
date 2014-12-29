@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@the@oxytocin@response@to@insulin@-induced@hypoglycemia@was@significantly@reduced@by@melatonin@treatment@</sentence>
+   <tags>
+      <tag pos="5">oxytocin</tag>
+      <tag pos="8">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="6" part-of-speech="NN">response</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="9" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="10" part-of-speech="NN">hypoglycemia</taggedword>
+      <taggedword index="11" part-of-speech="VBD">was</taggedword>
+      <taggedword index="12" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="13" part-of-speech="VBN">reduced</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="NN">melatonin</taggedword>
+      <taggedword index="16" part-of-speech="NN">treatment</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="reduced" gov_index="13">prep_in</dependency>
+      <dependency dep="the" dep_index="4" gov="response" gov_index="6">det</dependency>
+      <dependency dep="oxytocin" dep_index="5" gov="response" gov_index="6">nn</dependency>
+      <dependency dep="response" dep_index="6" gov="reduced" gov_index="13">nsubjpass</dependency>
+      <dependency dep="insulin" dep_index="8" gov="hypoglycemia" gov_index="10">nn</dependency>
+      <dependency dep="-induced" dep_index="9" gov="hypoglycemia" gov_index="10">amod</dependency>
+      <dependency dep="hypoglycemia" dep_index="10" gov="response" gov_index="6">prep_to</dependency>
+      <dependency dep="was" dep_index="11" gov="reduced" gov_index="13">auxpass</dependency>
+      <dependency dep="significantly" dep_index="12" gov="reduced" gov_index="13">advmod</dependency>
+      <dependency dep="reduced" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="melatonin" dep_index="15" gov="treatment" gov_index="16">nn</dependency>
+      <dependency dep="treatment" dep_index="16" gov="reduced" gov_index="13">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500008" relationship="true">5 6 10 8</relation>
+   </relations>
+   <pairs>
+      <pair>500008</pair>
+   </pairs>
+</root>

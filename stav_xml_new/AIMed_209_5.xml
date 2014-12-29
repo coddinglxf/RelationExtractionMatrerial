@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@same@domain@of@RIN1@that@binds@RAS@also@interacts@with@14-3-3@proteins@,@extending@the@similarity@between@RIN1@and@other@RAS@effectors@.@</sentence>
+   <tags>
+      <tag pos="5">RIN1</tag>
+      <tag pos="8">RAS</tag>
+      <tag pos="19">RIN1</tag>
+      <tag pos="22">RAS</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">same</taggedword>
+      <taggedword index="3" part-of-speech="NN">domain</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">RIN1</taggedword>
+      <taggedword index="6" part-of-speech="WDT">that</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="8" part-of-speech="NNP">RAS</taggedword>
+      <taggedword index="9" part-of-speech="RB">also</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="CD">14-3-3</taggedword>
+      <taggedword index="13" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="VBG">extending</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">similarity</taggedword>
+      <taggedword index="18" part-of-speech="IN">between</taggedword>
+      <taggedword index="19" part-of-speech="NN">RIN1</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="JJ">other</taggedword>
+      <taggedword index="22" part-of-speech="NN">RAS</taggedword>
+      <taggedword index="23" part-of-speech="NNS">effectors</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="domain" gov_index="3">det</dependency>
+      <dependency dep="same" dep_index="2" gov="domain" gov_index="3">amod</dependency>
+      <dependency dep="domain" dep_index="3" gov="interacts" gov_index="10">nsubj</dependency>
+      <dependency dep="RIN1" dep_index="5" gov="domain" gov_index="3">prep_of</dependency>
+      <dependency dep="RIN1" dep_index="5" gov="binds" gov_index="7">nsubj</dependency>
+      <dependency dep="binds" dep_index="7" gov="RIN1" gov_index="5">rcmod</dependency>
+      <dependency dep="RAS" dep_index="8" gov="binds" gov_index="7">dobj</dependency>
+      <dependency dep="also" dep_index="9" gov="interacts" gov_index="10">advmod</dependency>
+      <dependency dep="interacts" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="14-3-3" dep_index="12" gov="proteins" gov_index="13">num</dependency>
+      <dependency dep="proteins" dep_index="13" gov="interacts" gov_index="10">prep_with</dependency>
+      <dependency dep="extending" dep_index="15" gov="interacts" gov_index="10">xcomp</dependency>
+      <dependency dep="the" dep_index="16" gov="similarity" gov_index="17">det</dependency>
+      <dependency dep="similarity" dep_index="17" gov="extending" gov_index="15">dobj</dependency>
+      <dependency dep="RIN1" dep_index="19" gov="effectors" gov_index="23">nn</dependency>
+      <dependency dep="other" dep_index="21" gov="RIN1" gov_index="19">conj_and</dependency>
+      <dependency dep="other" dep_index="21" gov="effectors" gov_index="23">nn</dependency>
+      <dependency dep="RAS" dep_index="22" gov="effectors" gov_index="23">nn</dependency>
+      <dependency dep="effectors" dep_index="23" gov="similarity" gov_index="17">prep_between</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500008" relationship="true">5 7 8</relation>
+      <relation position="500019" relationship="false">5 3 10 15 17 23 19</relation>
+      <relation position="500022" relationship="false">5 3 10 15 17 23 22</relation>
+      <relation position="800019" relationship="false">8 7 5 3 10 15 17 23 19</relation>
+      <relation position="800022" relationship="false">8 7 5 3 10 15 17 23 22</relation>
+      <relation position="1900022" relationship="false">19 23 22</relation>
+   </relations>
+   <pairs>
+      <pair>500008</pair>
+   </pairs>
+</root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>To@determine@the@role@of@each@of@these@receptors@in@IL-7@driven@proliferation@,@IL-7R@expression@and@proliferative@capacity@were@monitored@during@mitogenic@stimulation@.@</sentence>
+   <tags>
+      <tag pos="11">IL-7</tag>
+      <tag pos="15">IL-7R</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="TO">To</taggedword>
+      <taggedword index="2" part-of-speech="VB">determine</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">role</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">each</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">these</taggedword>
+      <taggedword index="9" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="JJ">IL-7</taggedword>
+      <taggedword index="12" part-of-speech="JJ">driven</taggedword>
+      <taggedword index="13" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="16" part-of-speech="NN">expression</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="JJ">proliferative</taggedword>
+      <taggedword index="19" part-of-speech="NN">capacity</taggedword>
+      <taggedword index="20" part-of-speech="VBD">were</taggedword>
+      <taggedword index="21" part-of-speech="VBN">monitored</taggedword>
+      <taggedword index="22" part-of-speech="IN">during</taggedword>
+      <taggedword index="23" part-of-speech="JJ">mitogenic</taggedword>
+      <taggedword index="24" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="To" dep_index="1" gov="determine" gov_index="2">aux</dependency>
+      <dependency dep="determine" dep_index="2" gov="monitored" gov_index="21">advcl</dependency>
+      <dependency dep="the" dep_index="3" gov="role" gov_index="4">det</dependency>
+      <dependency dep="role" dep_index="4" gov="determine" gov_index="2">dobj</dependency>
+      <dependency dep="each" dep_index="6" gov="role" gov_index="4">prep_of</dependency>
+      <dependency dep="these" dep_index="8" gov="receptors" gov_index="9">det</dependency>
+      <dependency dep="receptors" dep_index="9" gov="each" gov_index="6">prep_of</dependency>
+      <dependency dep="IL-7" dep_index="11" gov="driven" gov_index="12">amod</dependency>
+      <dependency dep="driven" dep_index="12" gov="proliferation" gov_index="13">amod</dependency>
+      <dependency dep="proliferation" dep_index="13" gov="receptors" gov_index="9">prep_in</dependency>
+      <dependency dep="IL-7R" dep_index="15" gov="expression" gov_index="16">nn</dependency>
+      <dependency dep="expression" dep_index="16" gov="monitored" gov_index="21">nsubjpass</dependency>
+      <dependency dep="proliferative" dep_index="18" gov="capacity" gov_index="19">amod</dependency>
+      <dependency dep="capacity" dep_index="19" gov="expression" gov_index="16">conj_and</dependency>
+      <dependency dep="capacity" dep_index="19" gov="monitored" gov_index="21">nsubjpass</dependency>
+      <dependency dep="were" dep_index="20" gov="monitored" gov_index="21">auxpass</dependency>
+      <dependency dep="monitored" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="mitogenic" dep_index="23" gov="stimulation" gov_index="24">amod</dependency>
+      <dependency dep="stimulation" dep_index="24" gov="monitored" gov_index="21">prep_during</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100015" relationship="false">11 12 13 9 6 4 2 21 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

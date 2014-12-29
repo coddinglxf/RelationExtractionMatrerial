@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@effect@is@maximal@at@10(-8)@M@AVP@(a@concentration@clearly@above@the@normal@physiological@range@of@AVP@concentrations)@and@involves@the@V2@receptor@pathway@,@while@activation@of@protein kinase C@or@changes@in@intracellular@calcium@are@ineffective@</sentence>
+   <tags>
+      <tag pos="18">AVP</tag>
+      <tag pos="8">AVP</tag>
+      <tag pos="30">protein kinase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">effect</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="4" part-of-speech="JJ">maximal</taggedword>
+      <taggedword index="5" part-of-speech="IN">at</taggedword>
+      <taggedword index="6" part-of-speech="CD">10(-8)</taggedword>
+      <taggedword index="7" part-of-speech="NNP">M</taggedword>
+      <taggedword index="8" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="9" part-of-speech="NN">(a</taggedword>
+      <taggedword index="10" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="11" part-of-speech="RB">clearly</taggedword>
+      <taggedword index="12" part-of-speech="IN">above</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="15" part-of-speech="JJ">physiological</taggedword>
+      <taggedword index="16" part-of-speech="NN">range</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="19" part-of-speech="NNP">concentrations)</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">involves</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">V2</taggedword>
+      <taggedword index="24" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="25" part-of-speech="RB">pathway</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="IN">while</taggedword>
+      <taggedword index="28" part-of-speech="NN">activation</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NN">protein kinase C</taggedword>
+      <taggedword index="31" part-of-speech="CC">or</taggedword>
+      <taggedword index="32" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="33" part-of-speech="IN">in</taggedword>
+      <taggedword index="34" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="35" part-of-speech="NN">calcium</taggedword>
+      <taggedword index="36" part-of-speech="VBP">are</taggedword>
+      <taggedword index="37" part-of-speech="JJ">ineffective</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="effect" gov_index="2">det</dependency>
+      <dependency dep="effect" dep_index="2" gov="maximal" gov_index="4">nsubj</dependency>
+      <dependency dep="effect" dep_index="2" gov="involves" gov_index="21">nsubj</dependency>
+      <dependency dep="is" dep_index="3" gov="maximal" gov_index="4">cop</dependency>
+      <dependency dep="maximal" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="10(-8)" dep_index="6" gov="concentration" gov_index="10">num</dependency>
+      <dependency dep="M" dep_index="7" gov="concentration" gov_index="10">nn</dependency>
+      <dependency dep="AVP" dep_index="8" gov="concentration" gov_index="10">nn</dependency>
+      <dependency dep="(a" dep_index="9" gov="concentration" gov_index="10">nn</dependency>
+      <dependency dep="concentration" dep_index="10" gov="maximal" gov_index="4">prep_at</dependency>
+      <dependency dep="clearly" dep_index="11" gov="maximal" gov_index="4">advmod</dependency>
+      <dependency dep="the" dep_index="13" gov="range" gov_index="16">det</dependency>
+      <dependency dep="normal" dep_index="14" gov="range" gov_index="16">amod</dependency>
+      <dependency dep="physiological" dep_index="15" gov="range" gov_index="16">amod</dependency>
+      <dependency dep="range" dep_index="16" gov="maximal" gov_index="4">prep_above</dependency>
+      <dependency dep="AVP" dep_index="18" gov="concentrations)" gov_index="19">nn</dependency>
+      <dependency dep="concentrations)" dep_index="19" gov="range" gov_index="16">prep_of</dependency>
+      <dependency dep="involves" dep_index="21" gov="maximal" gov_index="4">conj_and</dependency>
+      <dependency dep="the" dep_index="22" gov="receptor" gov_index="24">det</dependency>
+      <dependency dep="V2" dep_index="23" gov="receptor" gov_index="24">amod</dependency>
+      <dependency dep="receptor" dep_index="24" gov="involves" gov_index="21">dobj</dependency>
+      <dependency dep="pathway" dep_index="25" gov="involves" gov_index="21">advmod</dependency>
+      <dependency dep="while" dep_index="27" gov="ineffective" gov_index="37">mark</dependency>
+      <dependency dep="activation" dep_index="28" gov="ineffective" gov_index="37">nsubj</dependency>
+      <dependency dep="protein kinase C" dep_index="30" gov="activation" gov_index="28">prep_of</dependency>
+      <dependency dep="changes" dep_index="32" gov="activation" gov_index="28">prep_of</dependency>
+      <dependency dep="changes" dep_index="32" gov="protein kinase C" gov_index="30">conj_or</dependency>
+      <dependency dep="intracellular" dep_index="34" gov="calcium" gov_index="35">nn</dependency>
+      <dependency dep="calcium" dep_index="35" gov="activation" gov_index="28">prep_in</dependency>
+      <dependency dep="are" dep_index="36" gov="ineffective" gov_index="37">cop</dependency>
+      <dependency dep="ineffective" dep_index="37" gov="involves" gov_index="21">advcl</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800018" relationship="false">8 10 4 16 19 18</relation>
+      <relation position="1800030" relationship="false"></relation>
+      <relation position="800030" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

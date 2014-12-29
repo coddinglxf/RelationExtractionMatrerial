@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Equine@satellite@cell@clone@SE-11@and@ovine@satellite@cell@clone@I(1)were@evaluated@for@expression@of@myosin heavy chain@,@myogenin@,@desmin@,@and@muscle-specific actin@over@a@240@h@period@in@culture@.@</sentence>
+   <tags>
+      <tag pos="23">muscle-specific actin</tag>
+      <tag pos="18">myogenin</tag>
+      <tag pos="20">desmin</tag>
+      <tag pos="16">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Equine</taggedword>
+      <taggedword index="2" part-of-speech="NN">satellite</taggedword>
+      <taggedword index="3" part-of-speech="NN">cell</taggedword>
+      <taggedword index="4" part-of-speech="VBP">clone</taggedword>
+      <taggedword index="5" part-of-speech="JJ">SE-11</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="JJ">ovine</taggedword>
+      <taggedword index="8" part-of-speech="NN">satellite</taggedword>
+      <taggedword index="9" part-of-speech="NN">cell</taggedword>
+      <taggedword index="10" part-of-speech="NN">clone</taggedword>
+      <taggedword index="11" part-of-speech="NNS">I(1)were</taggedword>
+      <taggedword index="12" part-of-speech="VBN">evaluated</taggedword>
+      <taggedword index="13" part-of-speech="IN">for</taggedword>
+      <taggedword index="14" part-of-speech="NN">expression</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NN">myogenin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NN">desmin</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NN">muscle-specific actin</taggedword>
+      <taggedword index="24" part-of-speech="IN">over</taggedword>
+      <taggedword index="25" part-of-speech="DT">a</taggedword>
+      <taggedword index="26" part-of-speech="CD">240</taggedword>
+      <taggedword index="27" part-of-speech="NN">h</taggedword>
+      <taggedword index="28" part-of-speech="NN">period</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="NN">culture</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Equine" dep_index="1" gov="cell" gov_index="3">amod</dependency>
+      <dependency dep="satellite" dep_index="2" gov="cell" gov_index="3">nn</dependency>
+      <dependency dep="cell" dep_index="3" gov="clone" gov_index="4">nsubj</dependency>
+      <dependency dep="clone" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="SE-11" dep_index="5" gov="I(1)were" gov_index="11">amod</dependency>
+      <dependency dep="ovine" dep_index="7" gov="SE-11" gov_index="5">conj_and</dependency>
+      <dependency dep="ovine" dep_index="7" gov="I(1)were" gov_index="11">amod</dependency>
+      <dependency dep="satellite" dep_index="8" gov="I(1)were" gov_index="11">nn</dependency>
+      <dependency dep="cell" dep_index="9" gov="I(1)were" gov_index="11">nn</dependency>
+      <dependency dep="clone" dep_index="10" gov="I(1)were" gov_index="11">nn</dependency>
+      <dependency dep="I(1)were" dep_index="11" gov="clone" gov_index="4">dobj</dependency>
+      <dependency dep="evaluated" dep_index="12" gov="I(1)were" gov_index="11">partmod</dependency>
+      <dependency dep="expression" dep_index="14" gov="evaluated" gov_index="12">prep_for</dependency>
+      <dependency dep="myosin heavy chain" dep_index="16" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="myogenin" dep_index="18" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="myogenin" dep_index="18" gov="myosin heavy chain" gov_index="16">conj_and</dependency>
+      <dependency dep="desmin" dep_index="20" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="desmin" dep_index="20" gov="myosin heavy chain" gov_index="16">conj_and</dependency>
+      <dependency dep="muscle-specific actin" dep_index="23" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="muscle-specific actin" dep_index="23" gov="myosin heavy chain" gov_index="16">conj_and</dependency>
+      <dependency dep="a" dep_index="25" gov="period" gov_index="28">det</dependency>
+      <dependency dep="240" dep_index="26" gov="period" gov_index="28">num</dependency>
+      <dependency dep="h" dep_index="27" gov="period" gov_index="28">nn</dependency>
+      <dependency dep="period" dep_index="28" gov="myosin heavy chain" gov_index="16">prep_over</dependency>
+      <dependency dep="culture" dep_index="30" gov="evaluated" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800023" relationship="false">18 14 23</relation>
+      <relation position="2000023" relationship="false">20 14 23</relation>
+      <relation position="1600023" relationship="false">16 14 23</relation>
+      <relation position="1800020" relationship="false">18 14 20</relation>
+      <relation position="1600018" relationship="false">16 14 18</relation>
+      <relation position="1600020" relationship="false">16 14 20</relation>
+   </relations>
+   <pairs/>
+</root>

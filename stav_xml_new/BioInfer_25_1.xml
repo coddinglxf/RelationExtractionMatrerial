@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Adherens@junction@proteins@(@N-cadherin@,@E-cadherin@,@alpha-catenin@,@beta-catenin@,@plakoglobin@,@and@actin@)@and@the@proliferation@marker@Ki-67@were@localized@in@the@cultures@by@fluorescence@microscopy@,@and@in@vitro@wound@healing@was@compared@.@</sentence>
+   <tags>
+      <tag pos="13">plakoglobin</tag>
+      <tag pos="7">E-cadherin</tag>
+      <tag pos="9">alpha-catenin</tag>
+      <tag pos="5">N-cadherin</tag>
+      <tag pos="22">Ki-67</tag>
+      <tag pos="16">actin</tag>
+      <tag pos="11">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Adherens</taggedword>
+      <taggedword index="2" part-of-speech="NN">junction</taggedword>
+      <taggedword index="3" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="4" part-of-speech="VBG">(</taggedword>
+      <taggedword index="5" part-of-speech="NN">N-cadherin</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NN">E-cadherin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech="NNP">)</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="21" part-of-speech="NN">marker</taggedword>
+      <taggedword index="22" part-of-speech="NN">Ki-67</taggedword>
+      <taggedword index="23" part-of-speech="VBD">were</taggedword>
+      <taggedword index="24" part-of-speech="JJ">localized</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NNS">cultures</taggedword>
+      <taggedword index="28" part-of-speech="IN">by</taggedword>
+      <taggedword index="29" part-of-speech="JJ">fluorescence</taggedword>
+      <taggedword index="30" part-of-speech="NN">microscopy</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="CC">and</taggedword>
+      <taggedword index="33" part-of-speech="IN">in</taggedword>
+      <taggedword index="34" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="35" part-of-speech="VBN">wound</taggedword>
+      <taggedword index="36" part-of-speech="NN">healing</taggedword>
+      <taggedword index="37" part-of-speech="VBD">was</taggedword>
+      <taggedword index="38" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Adherens" dep_index="1" gov="proteins" gov_index="3">amod</dependency>
+      <dependency dep="junction" dep_index="2" gov="proteins" gov_index="3">nn</dependency>
+      <dependency dep="proteins" dep_index="3" gov="compared" gov_index="38">nsubjpass</dependency>
+      <dependency dep="(" dep_index="4" gov="proteins" gov_index="3">partmod</dependency>
+      <dependency dep="N-cadherin" dep_index="5" gov="(" gov_index="4">dobj</dependency>
+      <dependency dep="E-cadherin" dep_index="7" gov="(" gov_index="4">dobj</dependency>
+      <dependency dep="E-cadherin" dep_index="7" gov="N-cadherin" gov_index="5">conj_and</dependency>
+      <dependency dep="alpha-catenin" dep_index="9" gov="(" gov_index="4">dobj</dependency>
+      <dependency dep="alpha-catenin" dep_index="9" gov="N-cadherin" gov_index="5">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="11" gov="(" gov_index="4">dobj</dependency>
+      <dependency dep="beta-catenin" dep_index="11" gov="N-cadherin" gov_index="5">conj_and</dependency>
+      <dependency dep="plakoglobin" dep_index="13" gov="(" gov_index="4">dobj</dependency>
+      <dependency dep="plakoglobin" dep_index="13" gov="N-cadherin" gov_index="5">conj_and</dependency>
+      <dependency dep="actin" dep_index="16" gov="(" gov_index="4">dobj</dependency>
+      <dependency dep="actin" dep_index="16" gov="N-cadherin" gov_index="5">conj_and</dependency>
+      <dependency dep=")" dep_index="17" gov="localized" gov_index="24">nsubj</dependency>
+      <dependency dep="the" dep_index="19" gov="Ki-67" gov_index="22">det</dependency>
+      <dependency dep="proliferation" dep_index="20" gov="Ki-67" gov_index="22">nn</dependency>
+      <dependency dep="marker" dep_index="21" gov="Ki-67" gov_index="22">nn</dependency>
+      <dependency dep="Ki-67" dep_index="22" gov=")" gov_index="17">conj_and</dependency>
+      <dependency dep="Ki-67" dep_index="22" gov="localized" gov_index="24">nsubj</dependency>
+      <dependency dep="were" dep_index="23" gov="localized" gov_index="24">cop</dependency>
+      <dependency dep="localized" dep_index="24" gov="N-cadherin" gov_index="5">rcmod</dependency>
+      <dependency dep="the" dep_index="26" gov="cultures" gov_index="27">det</dependency>
+      <dependency dep="cultures" dep_index="27" gov="localized" gov_index="24">prep_in</dependency>
+      <dependency dep="fluorescence" dep_index="29" gov="microscopy" gov_index="30">amod</dependency>
+      <dependency dep="microscopy" dep_index="30" gov="localized" gov_index="24">prep_by</dependency>
+      <dependency dep="in" dep_index="33" gov="vitro" gov_index="34">dep</dependency>
+      <dependency dep="vitro" dep_index="34" gov="healing" gov_index="36">amod</dependency>
+      <dependency dep="wound" dep_index="35" gov="healing" gov_index="36">amod</dependency>
+      <dependency dep="healing" dep_index="36" gov="(" gov_index="4">dobj</dependency>
+      <dependency dep="healing" dep_index="36" gov="N-cadherin" gov_index="5">conj_and</dependency>
+      <dependency dep="was" dep_index="37" gov="compared" gov_index="38">auxpass</dependency>
+      <dependency dep="compared" dep_index="38" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700013" relationship="false">7 4 13</relation>
+      <relation position="900013" relationship="false">9 4 13</relation>
+      <relation position="500013" relationship="false">5 4 13</relation>
+      <relation position="1300022" relationship="false">13 4 5 24 22</relation>
+      <relation position="1300016" relationship="false">13 4 16</relation>
+      <relation position="1100013" relationship="false">11 4 13</relation>
+      <relation position="700009" relationship="false">7 4 9</relation>
+      <relation position="500007" relationship="false">5 4 7</relation>
+      <relation position="700022" relationship="false">7 4 5 24 22</relation>
+      <relation position="700016" relationship="false">7 4 16</relation>
+      <relation position="700011" relationship="false">7 4 11</relation>
+      <relation position="500009" relationship="false">5 4 9</relation>
+      <relation position="900022" relationship="false">9 4 5 24 22</relation>
+      <relation position="900016" relationship="false">9 4 16</relation>
+      <relation position="900011" relationship="false">9 4 11</relation>
+      <relation position="500022" relationship="false"></relation>
+      <relation position="500016" relationship="false">5 4 16</relation>
+      <relation position="500011" relationship="false">5 4 11</relation>
+      <relation position="1600022" relationship="false">16 4 5 24 22</relation>
+      <relation position="1100022" relationship="false">11 4 5 24 22</relation>
+      <relation position="1100016" relationship="false">11 4 16</relation>
+   </relations>
+   <pairs/>
+</root>

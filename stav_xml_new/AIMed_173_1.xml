@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Two-hybrid@system@as@a@model@to@study@the@interaction@of@beta-amyloid@peptide@monomers@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Two-hybrid</taggedword>
+      <taggedword index="2" part-of-speech="NN">system</taggedword>
+      <taggedword index="3" part-of-speech="IN">as</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="NN">model</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">study</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">beta-amyloid</taggedword>
+      <taggedword index="12" part-of-speech="NN">peptide</taggedword>
+      <taggedword index="13" part-of-speech="NNS">monomers</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Two-hybrid" dep_index="1" gov="system" gov_index="2">amod</dependency>
+      <dependency dep="system" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="model" gov_index="5">det</dependency>
+      <dependency dep="model" dep_index="5" gov="system" gov_index="2">prep_as</dependency>
+      <dependency dep="to" dep_index="6" gov="study" gov_index="7">aux</dependency>
+      <dependency dep="study" dep_index="7" gov="model" gov_index="5">infmod</dependency>
+      <dependency dep="the" dep_index="8" gov="interaction" gov_index="9">det</dependency>
+      <dependency dep="interaction" dep_index="9" gov="study" gov_index="7">dobj</dependency>
+      <dependency dep="beta-amyloid" dep_index="11" gov="monomers" gov_index="13">amod</dependency>
+      <dependency dep="peptide" dep_index="12" gov="monomers" gov_index="13">nn</dependency>
+      <dependency dep="monomers" dep_index="13" gov="interaction" gov_index="9">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

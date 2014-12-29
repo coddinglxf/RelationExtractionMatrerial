@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@yeast@,@Cdi1@interacts@with@cyclin-dependent@kinases@,@including@human@Cdc2@,@Cdk2@,@and@Cdk3@,@but@not@with@Cdk4@.@</sentence>
+   <tags>
+      <tag pos="4">Cdi1</tag>
+      <tag pos="12">Cdc2</tag>
+      <tag pos="14">Cdk2</tag>
+      <tag pos="17">Cdk3</tag>
+      <tag pos="22">Cdk4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNS">Cdi1</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="JJ">cyclin-dependent</taggedword>
+      <taggedword index="8" part-of-speech="NNS">kinases</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="VBG">including</taggedword>
+      <taggedword index="11" part-of-speech="JJ">human</taggedword>
+      <taggedword index="12" part-of-speech="NNS">Cdc2</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NNS">Cdk2</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NNS">Cdk3</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">but</taggedword>
+      <taggedword index="20" part-of-speech="RB">not</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="NNS">Cdk4</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="yeast" dep_index="2" gov="interacts" gov_index="5">prep_in</dependency>
+      <dependency dep="Cdi1" dep_index="4" gov="interacts" gov_index="5">nsubj</dependency>
+      <dependency dep="interacts" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cyclin-dependent" dep_index="7" gov="kinases" gov_index="8">amod</dependency>
+      <dependency dep="kinases" dep_index="8" gov="interacts" gov_index="5">prep_with</dependency>
+      <dependency dep="human" dep_index="11" gov="Cdc2" gov_index="12">amod</dependency>
+      <dependency dep="Cdc2" dep_index="12" gov="kinases" gov_index="8">prep_including</dependency>
+      <dependency dep="Cdk2" dep_index="14" gov="kinases" gov_index="8">prep_including</dependency>
+      <dependency dep="Cdk2" dep_index="14" gov="Cdc2" gov_index="12">conj_and</dependency>
+      <dependency dep="Cdk3" dep_index="17" gov="kinases" gov_index="8">prep_including</dependency>
+      <dependency dep="Cdk3" dep_index="17" gov="Cdc2" gov_index="12">conj_and</dependency>
+      <dependency dep="Cdk4" dep_index="22" gov="interacts" gov_index="5">prep_with</dependency>
+      <dependency dep="Cdk4" dep_index="22" gov="kinases" gov_index="8">conj_negcc</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400012" relationship="true">4 5 8 12</relation>
+      <relation position="400014" relationship="true">4 5 8 14</relation>
+      <relation position="400017" relationship="true">4 5 8 17</relation>
+      <relation position="400022" relationship="false">4 5 22</relation>
+      <relation position="1200014" relationship="false">12 8 14</relation>
+      <relation position="1200017" relationship="false">12 8 17</relation>
+      <relation position="1200022" relationship="false">12 8 22</relation>
+      <relation position="1400017" relationship="false">14 8 17</relation>
+      <relation position="1400022" relationship="false">14 8 22</relation>
+      <relation position="1700022" relationship="false">17 8 22</relation>
+   </relations>
+   <pairs>
+      <pair>400014</pair>
+      <pair>400012</pair>
+      <pair>400017</pair>
+   </pairs>
+</root>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@during@myogenic@differentiation@,@formation@of@E2F4@and@pRb2@/@p130@containing@complexes@is@an@early@event@,@but@not@enough@on@its@own@to@prevent@the@reactivation@of@DNA@synthesis@.@</sentence>
+   <tags>
+      <tag pos="9">E2F4</tag>
+      <tag pos="11">pRb2</tag>
+      <tag pos="13">p130</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">during</taggedword>
+      <taggedword index="4" part-of-speech="JJ">myogenic</taggedword>
+      <taggedword index="5" part-of-speech="NN">differentiation</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NN">formation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="CD">E2F4</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="CD">pRb2</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">/</taggedword>
+      <taggedword index="13" part-of-speech="JJ">p130</taggedword>
+      <taggedword index="14" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="15" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="17" part-of-speech="DT">an</taggedword>
+      <taggedword index="18" part-of-speech="JJ">early</taggedword>
+      <taggedword index="19" part-of-speech="NN">event</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">but</taggedword>
+      <taggedword index="22" part-of-speech="RB">not</taggedword>
+      <taggedword index="23" part-of-speech="RB">enough</taggedword>
+      <taggedword index="24" part-of-speech="IN">on</taggedword>
+      <taggedword index="25" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="26" part-of-speech="JJ">own</taggedword>
+      <taggedword index="27" part-of-speech="TO">to</taggedword>
+      <taggedword index="28" part-of-speech="VB">prevent</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="NN">reactivation</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="33" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="/" gov_index="12">advmod</dependency>
+      <dependency dep="myogenic" dep_index="4" gov="differentiation" gov_index="5">amod</dependency>
+      <dependency dep="differentiation" dep_index="5" gov="/" gov_index="12">prep_during</dependency>
+      <dependency dep="formation" dep_index="7" gov="/" gov_index="12">nsubj</dependency>
+      <dependency dep="E2F4" dep_index="9" gov="formation" gov_index="7">prep_of</dependency>
+      <dependency dep="pRb2" dep_index="11" gov="formation" gov_index="7">prep_of</dependency>
+      <dependency dep="pRb2" dep_index="11" gov="E2F4" gov_index="9">conj_and</dependency>
+      <dependency dep="/" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="p130" dep_index="13" gov="/" gov_index="12">acomp</dependency>
+      <dependency dep="containing" dep_index="14" gov="event" gov_index="19">csubj</dependency>
+      <dependency dep="complexes" dep_index="15" gov="containing" gov_index="14">dobj</dependency>
+      <dependency dep="is" dep_index="16" gov="event" gov_index="19">cop</dependency>
+      <dependency dep="an" dep_index="17" gov="event" gov_index="19">det</dependency>
+      <dependency dep="early" dep_index="18" gov="event" gov_index="19">amod</dependency>
+      <dependency dep="event" dep_index="19" gov="p130" gov_index="13">ccomp</dependency>
+      <dependency dep="not" dep_index="22" gov="enough" gov_index="23">neg</dependency>
+      <dependency dep="enough" dep_index="23" gov="/" gov_index="12">acomp</dependency>
+      <dependency dep="enough" dep_index="23" gov="p130" gov_index="13">conj_but</dependency>
+      <dependency dep="its" dep_index="25" gov="own" gov_index="26">poss</dependency>
+      <dependency dep="own" dep_index="26" gov="enough" gov_index="23">prep_on</dependency>
+      <dependency dep="to" dep_index="27" gov="prevent" gov_index="28">aux</dependency>
+      <dependency dep="prevent" dep_index="28" gov="enough" gov_index="23">xcomp</dependency>
+      <dependency dep="the" dep_index="29" gov="reactivation" gov_index="30">det</dependency>
+      <dependency dep="reactivation" dep_index="30" gov="prevent" gov_index="28">dobj</dependency>
+      <dependency dep="DNA" dep_index="32" gov="synthesis" gov_index="33">nn</dependency>
+      <dependency dep="synthesis" dep_index="33" gov="reactivation" gov_index="30">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="true">9 7 11</relation>
+      <relation position="900013" relationship="true">9 7 12 13</relation>
+      <relation position="1100013" relationship="false">11 7 12 13</relation>
+   </relations>
+   <pairs>
+      <pair>900011</pair>
+      <pair>900013</pair>
+   </pairs>
+</root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@enzyme@showed@hardly@any@activity@below@50@degrees@C@but@considerable@activity@at@around@60@degrees@C@against@myofibrils@,@digesting@myosin heavy chain@,@actin@and@tropomyosin@.@</sentence>
+   <tags>
+      <tag pos="25">actin</tag>
+      <tag pos="27">tropomyosin</tag>
+      <tag pos="23">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">enzyme</taggedword>
+      <taggedword index="3" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="4" part-of-speech="RB">hardly</taggedword>
+      <taggedword index="5" part-of-speech="DT">any</taggedword>
+      <taggedword index="6" part-of-speech="NN">activity</taggedword>
+      <taggedword index="7" part-of-speech="IN">below</taggedword>
+      <taggedword index="8" part-of-speech="CD">50</taggedword>
+      <taggedword index="9" part-of-speech="NNS">degrees</taggedword>
+      <taggedword index="10" part-of-speech="JJ">C</taggedword>
+      <taggedword index="11" part-of-speech="CC">but</taggedword>
+      <taggedword index="12" part-of-speech="JJ">considerable</taggedword>
+      <taggedword index="13" part-of-speech="NN">activity</taggedword>
+      <taggedword index="14" part-of-speech="IN">at</taggedword>
+      <taggedword index="15" part-of-speech="IN">around</taggedword>
+      <taggedword index="16" part-of-speech="CD">60</taggedword>
+      <taggedword index="17" part-of-speech="NNP">degrees</taggedword>
+      <taggedword index="18" part-of-speech="NNP">C</taggedword>
+      <taggedword index="19" part-of-speech="IN">against</taggedword>
+      <taggedword index="20" part-of-speech="NNS">myofibrils</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="VBG">digesting</taggedword>
+      <taggedword index="23" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="NN">actin</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="NN">tropomyosin</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="enzyme" gov_index="2">det</dependency>
+      <dependency dep="enzyme" dep_index="2" gov="showed" gov_index="3">nsubj</dependency>
+      <dependency dep="showed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="hardly" dep_index="4" gov="showed" gov_index="3">advmod</dependency>
+      <dependency dep="any" dep_index="5" gov="activity" gov_index="6">det</dependency>
+      <dependency dep="activity" dep_index="6" gov="showed" gov_index="3">iobj</dependency>
+      <dependency dep="below" dep_index="7" gov="activity" gov_index="6">advmod</dependency>
+      <dependency dep="50" dep_index="8" gov="degrees" gov_index="9">num</dependency>
+      <dependency dep="degrees" dep_index="9" gov="below" gov_index="7">pobj</dependency>
+      <dependency dep="C" dep_index="10" gov="activity" gov_index="13">amod</dependency>
+      <dependency dep="considerable" dep_index="12" gov="C" gov_index="10">conj_but</dependency>
+      <dependency dep="considerable" dep_index="12" gov="activity" gov_index="13">amod</dependency>
+      <dependency dep="activity" dep_index="13" gov="showed" gov_index="3">dobj</dependency>
+      <dependency dep="around" dep_index="15" gov="C" gov_index="18">amod</dependency>
+      <dependency dep="60" dep_index="16" gov="C" gov_index="18">num</dependency>
+      <dependency dep="degrees" dep_index="17" gov="C" gov_index="18">nn</dependency>
+      <dependency dep="C" dep_index="18" gov="showed" gov_index="3">prep_at</dependency>
+      <dependency dep="myofibrils" dep_index="20" gov="showed" gov_index="3">prep_against</dependency>
+      <dependency dep="digesting" dep_index="22" gov="showed" gov_index="3">partmod</dependency>
+      <dependency dep="myosin heavy chain" dep_index="23" gov="digesting" gov_index="22">dobj</dependency>
+      <dependency dep="actin" dep_index="25" gov="digesting" gov_index="22">dobj</dependency>
+      <dependency dep="actin" dep_index="25" gov="myosin heavy chain" gov_index="23">conj_and</dependency>
+      <dependency dep="tropomyosin" dep_index="27" gov="digesting" gov_index="22">dobj</dependency>
+      <dependency dep="tropomyosin" dep_index="27" gov="myosin heavy chain" gov_index="23">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2500027" relationship="false">25 22 27</relation>
+      <relation position="2300025" relationship="false">23 22 25</relation>
+      <relation position="2300027" relationship="false">23 22 27</relation>
+   </relations>
+   <pairs/>
+</root>

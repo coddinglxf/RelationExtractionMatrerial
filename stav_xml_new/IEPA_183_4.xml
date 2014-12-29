@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Our@results@,@ie@higher@mean@plasma@NPY@levels@in@postmenopausal@diabetic@women@and@positive@correlation@of@CCK@with@leptin@and@insulin@,@may@suggest@the@role@of@these@neuropeptides@in@metabolic@disorders@leading@to@type@2@diabetes@mellitus@</sentence>
+   <tags>
+      <tag pos="8">NPY</tag>
+      <tag pos="20">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP$">Our</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="VBN">ie</taggedword>
+      <taggedword index="5" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="6" part-of-speech="JJ">mean</taggedword>
+      <taggedword index="7" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="8" part-of-speech="NN">NPY</taggedword>
+      <taggedword index="9" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="JJ">postmenopausal</taggedword>
+      <taggedword index="12" part-of-speech="JJ">diabetic</taggedword>
+      <taggedword index="13" part-of-speech="NNS">women</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="JJ">positive</taggedword>
+      <taggedword index="16" part-of-speech="NN">correlation</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">CCK</taggedword>
+      <taggedword index="19" part-of-speech="IN">with</taggedword>
+      <taggedword index="20" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="MD">may</taggedword>
+      <taggedword index="25" part-of-speech="VB">suggest</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">role</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="DT">these</taggedword>
+      <taggedword index="30" part-of-speech="NNS">neuropeptides</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="JJ">metabolic</taggedword>
+      <taggedword index="33" part-of-speech="NNS">disorders</taggedword>
+      <taggedword index="34" part-of-speech="VBG">leading</taggedword>
+      <taggedword index="35" part-of-speech="TO">to</taggedword>
+      <taggedword index="36" part-of-speech="NN">type</taggedword>
+      <taggedword index="37" part-of-speech="CD">2</taggedword>
+      <taggedword index="38" part-of-speech="NN">diabetes</taggedword>
+      <taggedword index="39" part-of-speech="NNS">mellitus</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Our" dep_index="1" gov="results" gov_index="2">poss</dependency>
+      <dependency dep="results" dep_index="2" gov="suggest" gov_index="25">nsubj</dependency>
+      <dependency dep="ie" dep_index="4" gov="results" gov_index="2">partmod</dependency>
+      <dependency dep="higher" dep_index="5" gov="levels" gov_index="9">amod</dependency>
+      <dependency dep="mean" dep_index="6" gov="levels" gov_index="9">amod</dependency>
+      <dependency dep="plasma" dep_index="7" gov="levels" gov_index="9">nn</dependency>
+      <dependency dep="NPY" dep_index="8" gov="levels" gov_index="9">nn</dependency>
+      <dependency dep="levels" dep_index="9" gov="ie" gov_index="4">dobj</dependency>
+      <dependency dep="postmenopausal" dep_index="11" gov="women" gov_index="13">amod</dependency>
+      <dependency dep="diabetic" dep_index="12" gov="women" gov_index="13">amod</dependency>
+      <dependency dep="women" dep_index="13" gov="levels" gov_index="9">prep_in</dependency>
+      <dependency dep="positive" dep_index="15" gov="correlation" gov_index="16">amod</dependency>
+      <dependency dep="correlation" dep_index="16" gov="ie" gov_index="4">dobj</dependency>
+      <dependency dep="correlation" dep_index="16" gov="levels" gov_index="9">conj_and</dependency>
+      <dependency dep="CCK" dep_index="18" gov="correlation" gov_index="16">prep_of</dependency>
+      <dependency dep="leptin" dep_index="20" gov="ie" gov_index="4">prep_with</dependency>
+      <dependency dep="insulin" dep_index="22" gov="ie" gov_index="4">prep_with</dependency>
+      <dependency dep="insulin" dep_index="22" gov="leptin" gov_index="20">conj_and</dependency>
+      <dependency dep="may" dep_index="24" gov="suggest" gov_index="25">aux</dependency>
+      <dependency dep="suggest" dep_index="25" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="26" gov="role" gov_index="27">det</dependency>
+      <dependency dep="role" dep_index="27" gov="suggest" gov_index="25">dobj</dependency>
+      <dependency dep="these" dep_index="29" gov="neuropeptides" gov_index="30">det</dependency>
+      <dependency dep="neuropeptides" dep_index="30" gov="role" gov_index="27">prep_of</dependency>
+      <dependency dep="metabolic" dep_index="32" gov="disorders" gov_index="33">amod</dependency>
+      <dependency dep="disorders" dep_index="33" gov="suggest" gov_index="25">prep_in</dependency>
+      <dependency dep="leading" dep_index="34" gov="disorders" gov_index="33">partmod</dependency>
+      <dependency dep="type" dep_index="36" gov="mellitus" gov_index="39">nn</dependency>
+      <dependency dep="2" dep_index="37" gov="mellitus" gov_index="39">num</dependency>
+      <dependency dep="diabetes" dep_index="38" gov="mellitus" gov_index="39">nn</dependency>
+      <dependency dep="mellitus" dep_index="39" gov="leading" gov_index="34">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800020" relationship="false">8 9 4 20</relation>
+   </relations>
+   <pairs/>
+</root>

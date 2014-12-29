@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>TBP-1@associates@with@the@beta-domain@of@pVHL@and@complexes@with@pVHL@and@Hif1 alpha@in@vivo@</sentence>
+   <tags>
+      <tag pos="1">TBP-1</tag>
+      <tag pos="7">pVHL</tag>
+      <tag pos="11">pVHL</tag>
+      <tag pos="13">Hif1 alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">TBP-1</taggedword>
+      <taggedword index="2" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">beta-domain</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">pVHL</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="NN">pVHL</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Hif1 alpha</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">vivo</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="TBP-1" dep_index="1" gov="associates" gov_index="2">nn</dependency>
+      <dependency dep="associates" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="beta-domain" gov_index="5">det</dependency>
+      <dependency dep="beta-domain" dep_index="5" gov="associates" gov_index="2">prep_with</dependency>
+      <dependency dep="pVHL" dep_index="7" gov="beta-domain" gov_index="5">prep_of</dependency>
+      <dependency dep="complexes" dep_index="9" gov="beta-domain" gov_index="5">prep_of</dependency>
+      <dependency dep="complexes" dep_index="9" gov="pVHL" gov_index="7">conj_and</dependency>
+      <dependency dep="pVHL" dep_index="11" gov="associates" gov_index="2">prep_with</dependency>
+      <dependency dep="Hif1 alpha" dep_index="13" gov="associates" gov_index="2">prep_with</dependency>
+      <dependency dep="Hif1 alpha" dep_index="13" gov="pVHL" gov_index="11">conj_and</dependency>
+      <dependency dep="vivo" dep_index="15" gov="associates" gov_index="2">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="true">1 2 5 7</relation>
+      <relation position="100011" relationship="true">1 2 11</relation>
+      <relation position="100013" relationship="true">1 2 13</relation>
+      <relation position="700011" relationship="false">7 5 2 11</relation>
+      <relation position="700013" relationship="false">7 5 2 13</relation>
+      <relation position="1100013" relationship="false">11 2 13</relation>
+   </relations>
+   <pairs>
+      <pair>100013</pair>
+      <pair>100011</pair>
+      <pair>100007</pair>
+   </pairs>
+</root>

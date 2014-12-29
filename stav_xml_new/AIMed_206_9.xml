@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Like@antibodies@to@the@beta 1 integrin@subunit@,@anti-@CD9@inhibited@suspension-induced@terminal@differentiation@.@</sentence>
+   <tags>
+      <tag pos="5">beta 1 integrin</tag>
+      <tag pos="9">CD9</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Like</taggedword>
+      <taggedword index="2" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">beta 1 integrin</taggedword>
+      <taggedword index="6" part-of-speech="NN">subunit</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NNP">anti-</taggedword>
+      <taggedword index="9" part-of-speech="NNP">CD9</taggedword>
+      <taggedword index="10" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="11" part-of-speech="JJ">suspension-induced</taggedword>
+      <taggedword index="12" part-of-speech="NN">terminal</taggedword>
+      <taggedword index="13" part-of-speech="NN">differentiation</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="antibodies" dep_index="2" gov="inhibited" gov_index="10">prep_like</dependency>
+      <dependency dep="the" dep_index="4" gov="subunit" gov_index="6">det</dependency>
+      <dependency dep="beta 1 integrin" dep_index="5" gov="subunit" gov_index="6">amod</dependency>
+      <dependency dep="subunit" dep_index="6" gov="antibodies" gov_index="2">prep_to</dependency>
+      <dependency dep="anti-" dep_index="8" gov="CD9" gov_index="9">nn</dependency>
+      <dependency dep="CD9" dep_index="9" gov="inhibited" gov_index="10">nsubj</dependency>
+      <dependency dep="inhibited" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="suspension-induced" dep_index="11" gov="differentiation" gov_index="13">amod</dependency>
+      <dependency dep="terminal" dep_index="12" gov="differentiation" gov_index="13">nn</dependency>
+      <dependency dep="differentiation" dep_index="13" gov="inhibited" gov_index="10">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500009" relationship="false">5 6 2 10 9</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@suggest@that@the@subcellular@distribution@of@cofilin@as@well@as@its@interaction@with@actin@in@vivo@is@regulated@by@its@phosphorylation@and@dephosphorylation@.@</sentence>
+   <tags>
+      <tag pos="16">actin</tag>
+      <tag pos="9">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">subcellular</taggedword>
+      <taggedword index="7" part-of-speech="NN">distribution</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="10" part-of-speech="RB">as</taggedword>
+      <taggedword index="11" part-of-speech="RB">well</taggedword>
+      <taggedword index="12" part-of-speech="IN">as</taggedword>
+      <taggedword index="13" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="14" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="20" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="21" part-of-speech="IN">by</taggedword>
+      <taggedword index="22" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="23" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="NN">dephosphorylation</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="regulated" gov_index="20">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="distribution" gov_index="7">det</dependency>
+      <dependency dep="subcellular" dep_index="6" gov="distribution" gov_index="7">nn</dependency>
+      <dependency dep="distribution" dep_index="7" gov="regulated" gov_index="20">nsubjpass</dependency>
+      <dependency dep="cofilin" dep_index="9" gov="distribution" gov_index="7">prep_of</dependency>
+      <dependency dep="its" dep_index="13" gov="interaction" gov_index="14">poss</dependency>
+      <dependency dep="interaction" dep_index="14" gov="distribution" gov_index="7">prep_of</dependency>
+      <dependency dep="interaction" dep_index="14" gov="cofilin" gov_index="9">conj_and</dependency>
+      <dependency dep="actin" dep_index="16" gov="interaction" gov_index="14">prep_with</dependency>
+      <dependency dep="vivo" dep_index="18" gov="actin" gov_index="16">prep_in</dependency>
+      <dependency dep="is" dep_index="19" gov="regulated" gov_index="20">auxpass</dependency>
+      <dependency dep="regulated" dep_index="20" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="its" dep_index="22" gov="phosphorylation" gov_index="23">poss</dependency>
+      <dependency dep="phosphorylation" dep_index="23" gov="regulated" gov_index="20">agent</dependency>
+      <dependency dep="dephosphorylation" dep_index="25" gov="regulated" gov_index="20">agent</dependency>
+      <dependency dep="dephosphorylation" dep_index="25" gov="phosphorylation" gov_index="23">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900016" relationship="true">9 7 14 16</relation>
+   </relations>
+   <pairs>
+      <pair>900016</pair>
+   </pairs>
+</root>

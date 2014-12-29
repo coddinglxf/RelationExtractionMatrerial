@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Binding@of@the@C-SH2@domain@to@the@Y463@phosphopeptide@,@together@with@preferential@binding@of@the@N-SH2@domain@to@the@Y429-Y441@phosphopeptide@,@suggests@a@bivalent@interaction@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Binding</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">C-SH2</taggedword>
+      <taggedword index="5" part-of-speech="NN">domain</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Y463</taggedword>
+      <taggedword index="9" part-of-speech="NN">phosphopeptide</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="RB">together</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="JJ">preferential</taggedword>
+      <taggedword index="14" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">N-SH2</taggedword>
+      <taggedword index="18" part-of-speech="NN">domain</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">Y429-Y441</taggedword>
+      <taggedword index="22" part-of-speech="NN">phosphopeptide</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="25" part-of-speech="DT">a</taggedword>
+      <taggedword index="26" part-of-speech="JJ">bivalent</taggedword>
+      <taggedword index="27" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Binding" dep_index="1" gov="suggests" gov_index="24">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="domain" gov_index="5">det</dependency>
+      <dependency dep="C-SH2" dep_index="4" gov="domain" gov_index="5">nn</dependency>
+      <dependency dep="domain" dep_index="5" gov="Binding" gov_index="1">prep_of</dependency>
+      <dependency dep="the" dep_index="7" gov="phosphopeptide" gov_index="9">det</dependency>
+      <dependency dep="Y463" dep_index="8" gov="phosphopeptide" gov_index="9">nn</dependency>
+      <dependency dep="phosphopeptide" dep_index="9" gov="domain" gov_index="5">prep_to</dependency>
+      <dependency dep="together" dep_index="11" gov="Binding" gov_index="1">advmod</dependency>
+      <dependency dep="with" dep_index="12" gov="Binding" gov_index="1">amod</dependency>
+      <dependency dep="preferential" dep_index="13" gov="Binding" gov_index="1">dep</dependency>
+      <dependency dep="binding" dep_index="14" gov="preferential" gov_index="13">amod</dependency>
+      <dependency dep="the" dep_index="16" gov="domain" gov_index="18">det</dependency>
+      <dependency dep="N-SH2" dep_index="17" gov="domain" gov_index="18">nn</dependency>
+      <dependency dep="domain" dep_index="18" gov="preferential" gov_index="13">prep_of</dependency>
+      <dependency dep="the" dep_index="20" gov="phosphopeptide" gov_index="22">det</dependency>
+      <dependency dep="Y429-Y441" dep_index="21" gov="phosphopeptide" gov_index="22">nn</dependency>
+      <dependency dep="phosphopeptide" dep_index="22" gov="preferential" gov_index="13">prep_to</dependency>
+      <dependency dep="suggests" dep_index="24" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="25" gov="interaction" gov_index="27">det</dependency>
+      <dependency dep="bivalent" dep_index="26" gov="interaction" gov_index="27">amod</dependency>
+      <dependency dep="interaction" dep_index="27" gov="suggests" gov_index="24">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

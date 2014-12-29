@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@their@cytoplasmic@region@,@some@of@these@receptors@share@a@conserved@sequence@motif@-@the@'death@domain'@-@which@is@required@for@transduction@of@the@apoptotic@signal@by@recruiting@other@death-domain-containing@adaptor@molecules@like@the@Fas@-associated@protein@FADD@/@MORT1@or@the@TNF receptor@-associated@protein@TRADD@[2-4]@.@</sentence>
+   <tags>
+      <tag pos="37">Fas</tag>
+      <tag pos="48">TRADD</tag>
+      <tag pos="45">TNF receptor</tag>
+      <tag pos="42">MORT1</tag>
+      <tag pos="40">FADD</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="3" part-of-speech="JJ">cytoplasmic</taggedword>
+      <taggedword index="4" part-of-speech="NN">region</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="DT">some</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">these</taggedword>
+      <taggedword index="9" part-of-speech="JJ">receptors</taggedword>
+      <taggedword index="10" part-of-speech="NN">share</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">conserved</taggedword>
+      <taggedword index="13" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="14" part-of-speech="NN">motif</taggedword>
+      <taggedword index="15" part-of-speech=":">-</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">'death</taggedword>
+      <taggedword index="18" part-of-speech="JJ">domain'</taggedword>
+      <taggedword index="19" part-of-speech=":">-</taggedword>
+      <taggedword index="20" part-of-speech="WDT">which</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="22" part-of-speech="VBN">required</taggedword>
+      <taggedword index="23" part-of-speech="IN">for</taggedword>
+      <taggedword index="24" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="JJ">apoptotic</taggedword>
+      <taggedword index="28" part-of-speech="NN">signal</taggedword>
+      <taggedword index="29" part-of-speech="IN">by</taggedword>
+      <taggedword index="30" part-of-speech="VBG">recruiting</taggedword>
+      <taggedword index="31" part-of-speech="JJ">other</taggedword>
+      <taggedword index="32" part-of-speech="JJ">death-domain-containing</taggedword>
+      <taggedword index="33" part-of-speech="NN">adaptor</taggedword>
+      <taggedword index="34" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="35" part-of-speech="IN">like</taggedword>
+      <taggedword index="36" part-of-speech="DT">the</taggedword>
+      <taggedword index="37" part-of-speech="NNP">Fas</taggedword>
+      <taggedword index="38" part-of-speech="JJ">-associated</taggedword>
+      <taggedword index="39" part-of-speech="NN">protein</taggedword>
+      <taggedword index="40" part-of-speech="NN">FADD</taggedword>
+      <taggedword index="41" part-of-speech=":">/</taggedword>
+      <taggedword index="42" part-of-speech="NN">MORT1</taggedword>
+      <taggedword index="43" part-of-speech="CC">or</taggedword>
+      <taggedword index="44" part-of-speech="DT">the</taggedword>
+      <taggedword index="45" part-of-speech="NNP">TNF receptor</taggedword>
+      <taggedword index="46" part-of-speech="JJ">-associated</taggedword>
+      <taggedword index="47" part-of-speech="NN">protein</taggedword>
+      <taggedword index="48" part-of-speech="VBD">TRADD</taggedword>
+      <taggedword index="49" part-of-speech="CD">[2-4]</taggedword>
+      <taggedword index="50" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="their" dep_index="2" gov="region" gov_index="4">poss</dependency>
+      <dependency dep="cytoplasmic" dep_index="3" gov="region" gov_index="4">amod</dependency>
+      <dependency dep="region" dep_index="4" gov="TRADD" gov_index="48">prep_in</dependency>
+      <dependency dep="some" dep_index="6" gov="TRADD" gov_index="48">nsubj</dependency>
+      <dependency dep="these" dep_index="8" gov="share" gov_index="10">det</dependency>
+      <dependency dep="receptors" dep_index="9" gov="share" gov_index="10">amod</dependency>
+      <dependency dep="share" dep_index="10" gov="some" gov_index="6">prep_of</dependency>
+      <dependency dep="a" dep_index="11" gov="motif" gov_index="14">det</dependency>
+      <dependency dep="conserved" dep_index="12" gov="motif" gov_index="14">amod</dependency>
+      <dependency dep="sequence" dep_index="13" gov="motif" gov_index="14">nn</dependency>
+      <dependency dep="motif" dep_index="14" gov="share" gov_index="10">dep</dependency>
+      <dependency dep="the" dep_index="16" gov="MORT1" gov_index="42">det</dependency>
+      <dependency dep="'death" dep_index="17" gov="MORT1" gov_index="42">amod</dependency>
+      <dependency dep="domain'" dep_index="18" gov="MORT1" gov_index="42">amod</dependency>
+      <dependency dep="which" dep_index="20" gov="required" gov_index="22">nsubjpass</dependency>
+      <dependency dep="is" dep_index="21" gov="required" gov_index="22">auxpass</dependency>
+      <dependency dep="required" dep_index="22" gov="MORT1" gov_index="42">dep</dependency>
+      <dependency dep="transduction" dep_index="24" gov="required" gov_index="22">prep_for</dependency>
+      <dependency dep="the" dep_index="26" gov="signal" gov_index="28">det</dependency>
+      <dependency dep="apoptotic" dep_index="27" gov="signal" gov_index="28">amod</dependency>
+      <dependency dep="signal" dep_index="28" gov="transduction" gov_index="24">prep_of</dependency>
+      <dependency dep="recruiting" dep_index="30" gov="required" gov_index="22">agent</dependency>
+      <dependency dep="other" dep_index="31" gov="molecules" gov_index="34">amod</dependency>
+      <dependency dep="death-domain-containing" dep_index="32" gov="molecules" gov_index="34">amod</dependency>
+      <dependency dep="adaptor" dep_index="33" gov="molecules" gov_index="34">nn</dependency>
+      <dependency dep="molecules" dep_index="34" gov="recruiting" gov_index="30">dobj</dependency>
+      <dependency dep="the" dep_index="36" gov="FADD" gov_index="40">det</dependency>
+      <dependency dep="Fas" dep_index="37" gov="FADD" gov_index="40">nn</dependency>
+      <dependency dep="-associated" dep_index="38" gov="FADD" gov_index="40">amod</dependency>
+      <dependency dep="protein" dep_index="39" gov="FADD" gov_index="40">nn</dependency>
+      <dependency dep="FADD" dep_index="40" gov="recruiting" gov_index="30">prep_like</dependency>
+      <dependency dep="/" dep_index="41" gov="required" gov_index="22">punct</dependency>
+      <dependency dep="MORT1" dep_index="42" gov="some" gov_index="6">prep_of</dependency>
+      <dependency dep="MORT1" dep_index="42" gov="share" gov_index="10">conj_or</dependency>
+      <dependency dep="the" dep_index="44" gov="protein" gov_index="47">det</dependency>
+      <dependency dep="TNF receptor" dep_index="45" gov="protein" gov_index="47">nn</dependency>
+      <dependency dep="-associated" dep_index="46" gov="protein" gov_index="47">amod</dependency>
+      <dependency dep="protein" dep_index="47" gov="some" gov_index="6">prep_of</dependency>
+      <dependency dep="protein" dep_index="47" gov="share" gov_index="10">conj_or</dependency>
+      <dependency dep="TRADD" dep_index="48" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="[2-4]" dep_index="49" gov="TRADD" gov_index="48">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3700048" relationship="false"></relation>
+      <relation position="3700045" relationship="false">37 40 30 22 42 10 47 45</relation>
+      <relation position="3700042" relationship="true"></relation>
+      <relation position="3700040" relationship="true"></relation>
+      <relation position="4500048" relationship="true"></relation>
+      <relation position="4200048" relationship="false"></relation>
+      <relation position="4000048" relationship="false"></relation>
+      <relation position="4200045" relationship="false">42 10 47 45</relation>
+      <relation position="4000045" relationship="false">40 30 22 42 10 47 45</relation>
+      <relation position="4000042" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>4500048</pair>
+      <pair>3700040</pair>
+      <pair>3700042</pair>
+   </pairs>
+</root>

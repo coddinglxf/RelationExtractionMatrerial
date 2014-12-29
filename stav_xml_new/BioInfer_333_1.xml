@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@enriched@cell@lines@and@in@a@pure@myocyte@cell@strain@,@EGF@inhibited@increases@in@immunoreactive@sarcomeric actin@and@sarcomeric myosin heavy chain@(@SMHC@)@normally@seen@after@serum@withdrawal@.@</sentence>
+   <tags>
+      <tag pos="18">sarcomeric actin</tag>
+      <tag pos="22">SMHC</tag>
+      <tag pos="13">EGF</tag>
+      <tag pos="20">sarcomeric myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">enriched</taggedword>
+      <taggedword index="3" part-of-speech="NN">cell</taggedword>
+      <taggedword index="4" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">pure</taggedword>
+      <taggedword index="9" part-of-speech="NN">myocyte</taggedword>
+      <taggedword index="10" part-of-speech="NN">cell</taggedword>
+      <taggedword index="11" part-of-speech="NN">strain</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNP">EGF</taggedword>
+      <taggedword index="14" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="15" part-of-speech="NNS">increases</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="JJ">immunoreactive</taggedword>
+      <taggedword index="18" part-of-speech="NN">sarcomeric actin</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">sarcomeric myosin heavy chain</taggedword>
+      <taggedword index="21" part-of-speech="NN">(</taggedword>
+      <taggedword index="22" part-of-speech="NNP">SMHC</taggedword>
+      <taggedword index="23" part-of-speech="NNP">)</taggedword>
+      <taggedword index="24" part-of-speech="RB">normally</taggedword>
+      <taggedword index="25" part-of-speech="VBN">seen</taggedword>
+      <taggedword index="26" part-of-speech="IN">after</taggedword>
+      <taggedword index="27" part-of-speech="NN">serum</taggedword>
+      <taggedword index="28" part-of-speech="NN">withdrawal</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="enriched" dep_index="2" gov="lines" gov_index="4">amod</dependency>
+      <dependency dep="cell" dep_index="3" gov="lines" gov_index="4">nn</dependency>
+      <dependency dep="lines" dep_index="4" gov="strain" gov_index="11">nn</dependency>
+      <dependency dep="in" dep_index="6" gov="lines" gov_index="4">conj_and</dependency>
+      <dependency dep="in" dep_index="6" gov="strain" gov_index="11">nn</dependency>
+      <dependency dep="a" dep_index="7" gov="myocyte" gov_index="9">det</dependency>
+      <dependency dep="pure" dep_index="8" gov="myocyte" gov_index="9">amod</dependency>
+      <dependency dep="myocyte" dep_index="9" gov="in" gov_index="6">pobj</dependency>
+      <dependency dep="cell" dep_index="10" gov="strain" gov_index="11">nn</dependency>
+      <dependency dep="strain" dep_index="11" gov="inhibited" gov_index="14">prep_in</dependency>
+      <dependency dep="EGF" dep_index="13" gov="inhibited" gov_index="14">nsubj</dependency>
+      <dependency dep="inhibited" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="increases" dep_index="15" gov="inhibited" gov_index="14">dobj</dependency>
+      <dependency dep="immunoreactive" dep_index="17" gov="sarcomeric actin" gov_index="18">amod</dependency>
+      <dependency dep="sarcomeric actin" dep_index="18" gov="inhibited" gov_index="14">prep_in</dependency>
+      <dependency dep="sarcomeric myosin heavy chain" dep_index="20" gov=")" gov_index="23">nn</dependency>
+      <dependency dep="(" dep_index="21" gov=")" gov_index="23">nn</dependency>
+      <dependency dep="SMHC" dep_index="22" gov=")" gov_index="23">nn</dependency>
+      <dependency dep=")" dep_index="23" gov="inhibited" gov_index="14">prep_in</dependency>
+      <dependency dep=")" dep_index="23" gov="sarcomeric actin" gov_index="18">conj_and</dependency>
+      <dependency dep="normally" dep_index="24" gov="seen" gov_index="25">advmod</dependency>
+      <dependency dep="seen" dep_index="25" gov="sarcomeric actin" gov_index="18">partmod</dependency>
+      <dependency dep="serum" dep_index="27" gov="withdrawal" gov_index="28">nn</dependency>
+      <dependency dep="withdrawal" dep_index="28" gov="seen" gov_index="25">prep_after</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800022" relationship="false">18 14 23 22</relation>
+      <relation position="1300018" relationship="true">13 14 18</relation>
+      <relation position="1800020" relationship="false">18 14 23 20</relation>
+      <relation position="1300022" relationship="true">13 14 23 22</relation>
+      <relation position="2000022" relationship="false">20 23 22</relation>
+      <relation position="1300020" relationship="true">13 14 23 20</relation>
+   </relations>
+   <pairs>
+      <pair>1300018</pair>
+      <pair>1300022</pair>
+      <pair>1300020</pair>
+   </pairs>
+</root>

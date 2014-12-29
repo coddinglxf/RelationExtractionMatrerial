@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@cultured@cells@,@cofilin@,@as@well@as@ADF@,@translocates@from@the@cytoplasm@into@the@nucleus@together@with@actin@and@forms@rod-like@structures@in@response@to@heat@shock@or@dimethylsulfoxide@(DMSO)@treatment@.@</sentence>
+   <tags>
+      <tag pos="10">ADF</tag>
+      <tag pos="21">actin</tag>
+      <tag pos="5">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">cultured</taggedword>
+      <taggedword index="3" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="RB">as</taggedword>
+      <taggedword index="8" part-of-speech="RB">well</taggedword>
+      <taggedword index="9" part-of-speech="IN">as</taggedword>
+      <taggedword index="10" part-of-speech="NNP">ADF</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">translocates</taggedword>
+      <taggedword index="13" part-of-speech="IN">from</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">cytoplasm</taggedword>
+      <taggedword index="16" part-of-speech="IN">into</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="19" part-of-speech="RB">together</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="NN">actin</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="VBZ">forms</taggedword>
+      <taggedword index="24" part-of-speech="JJ">rod-like</taggedword>
+      <taggedword index="25" part-of-speech="NNS">structures</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="NN">response</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="NN">heat</taggedword>
+      <taggedword index="30" part-of-speech="NN">shock</taggedword>
+      <taggedword index="31" part-of-speech="CC">or</taggedword>
+      <taggedword index="32" part-of-speech="JJ">dimethylsulfoxide</taggedword>
+      <taggedword index="33" part-of-speech="JJ">(DMSO)</taggedword>
+      <taggedword index="34" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="cultured" dep_index="2" gov="cells" gov_index="3">amod</dependency>
+      <dependency dep="cells" dep_index="3" gov="translocates" gov_index="12">prep_in</dependency>
+      <dependency dep="cofilin" dep_index="5" gov="translocates" gov_index="12">nsubj</dependency>
+      <dependency dep="cofilin" dep_index="5" gov="forms" gov_index="23">nsubj</dependency>
+      <dependency dep="ADF" dep_index="10" gov="cofilin" gov_index="5">conj_and</dependency>
+      <dependency dep="ADF" dep_index="10" gov="translocates" gov_index="12">nsubj</dependency>
+      <dependency dep="translocates" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="cytoplasm" gov_index="15">det</dependency>
+      <dependency dep="cytoplasm" dep_index="15" gov="translocates" gov_index="12">prep_from</dependency>
+      <dependency dep="the" dep_index="17" gov="nucleus" gov_index="18">det</dependency>
+      <dependency dep="nucleus" dep_index="18" gov="cytoplasm" gov_index="15">prep_into</dependency>
+      <dependency dep="actin" dep_index="21" gov="translocates" gov_index="12">prep_together_with</dependency>
+      <dependency dep="forms" dep_index="23" gov="translocates" gov_index="12">conj_and</dependency>
+      <dependency dep="rod-like" dep_index="24" gov="structures" gov_index="25">amod</dependency>
+      <dependency dep="structures" dep_index="25" gov="forms" gov_index="23">dobj</dependency>
+      <dependency dep="response" dep_index="27" gov="structures" gov_index="25">prep_in</dependency>
+      <dependency dep="heat" dep_index="29" gov="shock" gov_index="30">nn</dependency>
+      <dependency dep="shock" dep_index="30" gov="forms" gov_index="23">prep_to</dependency>
+      <dependency dep="dimethylsulfoxide" dep_index="32" gov="treatment" gov_index="34">amod</dependency>
+      <dependency dep="(DMSO)" dep_index="33" gov="treatment" gov_index="34">amod</dependency>
+      <dependency dep="treatment" dep_index="34" gov="forms" gov_index="23">prep_to</dependency>
+      <dependency dep="treatment" dep_index="34" gov="shock" gov_index="30">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000021" relationship="true">10 12 21</relation>
+      <relation position="500010" relationship="false">5 12 10</relation>
+      <relation position="500021" relationship="true">5 12 21</relation>
+   </relations>
+   <pairs>
+      <pair>500021</pair>
+      <pair>1000021</pair>
+   </pairs>
+</root>

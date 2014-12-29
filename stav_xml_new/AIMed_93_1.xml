@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crystal@structure@of@a@complex@between@interferon-gamma@and@its@soluble@high-affinity@receptor@.@</sentence>
+   <tags>
+      <tag pos="7">interferon-gamma</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Crystal</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="NN">complex</taggedword>
+      <taggedword index="6" part-of-speech="IN">between</taggedword>
+      <taggedword index="7" part-of-speech="NN">interferon-gamma</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="10" part-of-speech="JJ">soluble</taggedword>
+      <taggedword index="11" part-of-speech="JJ">high-affinity</taggedword>
+      <taggedword index="12" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crystal" dep_index="1" gov="structure" gov_index="2">nn</dependency>
+      <dependency dep="structure" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="complex" gov_index="5">det</dependency>
+      <dependency dep="complex" dep_index="5" gov="structure" gov_index="2">prep_of</dependency>
+      <dependency dep="interferon-gamma" dep_index="7" gov="structure" gov_index="2">prep_between</dependency>
+      <dependency dep="its" dep_index="9" gov="receptor" gov_index="12">poss</dependency>
+      <dependency dep="soluble" dep_index="10" gov="receptor" gov_index="12">amod</dependency>
+      <dependency dep="high-affinity" dep_index="11" gov="receptor" gov_index="12">amod</dependency>
+      <dependency dep="receptor" dep_index="12" gov="structure" gov_index="2">prep_between</dependency>
+      <dependency dep="receptor" dep_index="12" gov="interferon-gamma" gov_index="7">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

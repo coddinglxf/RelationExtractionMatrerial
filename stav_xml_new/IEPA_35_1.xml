@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Oxytocin@(OT)@and@vasopressin@(AVP)@stimulate@insulin@and@glucagon@release@from@the@pancreas@,@and@evoke@insulin@secretion@from@the@rat@insulinoma@cell@line@,@RINm5F@</sentence>
+   <tags>
+      <tag pos="1">Oxytocin</tag>
+      <tag pos="7">insulin</tag>
+      <tag pos="17">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Oxytocin</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(OT)</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">vasopressin</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">(AVP)</taggedword>
+      <taggedword index="6" part-of-speech="VB">stimulate</taggedword>
+      <taggedword index="7" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">glucagon</taggedword>
+      <taggedword index="10" part-of-speech="NN">release</taggedword>
+      <taggedword index="11" part-of-speech="IN">from</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">pancreas</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="VB">evoke</taggedword>
+      <taggedword index="17" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="18" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="19" part-of-speech="IN">from</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">rat</taggedword>
+      <taggedword index="22" part-of-speech="NN">insulinoma</taggedword>
+      <taggedword index="23" part-of-speech="NN">cell</taggedword>
+      <taggedword index="24" part-of-speech="NN">line</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="NNS">RINm5F</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Oxytocin" dep_index="1" gov="(OT)" gov_index="2">nn</dependency>
+      <dependency dep="(OT)" dep_index="2" gov="(AVP)" gov_index="5">nsubj</dependency>
+      <dependency dep="vasopressin" dep_index="4" gov="(OT)" gov_index="2">conj_and</dependency>
+      <dependency dep="vasopressin" dep_index="4" gov="(AVP)" gov_index="5">nsubj</dependency>
+      <dependency dep="(AVP)" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="stimulate" dep_index="6" gov="(AVP)" gov_index="5">dep</dependency>
+      <dependency dep="insulin" dep_index="7" gov="release" gov_index="10">nn</dependency>
+      <dependency dep="glucagon" dep_index="9" gov="insulin" gov_index="7">conj_and</dependency>
+      <dependency dep="glucagon" dep_index="9" gov="release" gov_index="10">nn</dependency>
+      <dependency dep="release" dep_index="10" gov="stimulate" gov_index="6">dobj</dependency>
+      <dependency dep="the" dep_index="12" gov="pancreas" gov_index="13">det</dependency>
+      <dependency dep="pancreas" dep_index="13" gov="stimulate" gov_index="6">prep_from</dependency>
+      <dependency dep="evoke" dep_index="16" gov="(AVP)" gov_index="5">dep</dependency>
+      <dependency dep="evoke" dep_index="16" gov="stimulate" gov_index="6">conj_and</dependency>
+      <dependency dep="insulin" dep_index="17" gov="secretion" gov_index="18">nn</dependency>
+      <dependency dep="secretion" dep_index="18" gov="evoke" gov_index="16">dobj</dependency>
+      <dependency dep="the" dep_index="20" gov="line" gov_index="24">det</dependency>
+      <dependency dep="rat" dep_index="21" gov="line" gov_index="24">nn</dependency>
+      <dependency dep="insulinoma" dep_index="22" gov="line" gov_index="24">nn</dependency>
+      <dependency dep="cell" dep_index="23" gov="line" gov_index="24">nn</dependency>
+      <dependency dep="line" dep_index="24" gov="evoke" gov_index="16">prep_from</dependency>
+      <dependency dep="RINm5F" dep_index="26" gov="line" gov_index="24">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="true">1 2 5 6 10 7</relation>
+      <relation position="100017" relationship="true">1 2 5 16 18 17</relation>
+      <relation position="700017" relationship="false">7 10 6 5 16 18 17</relation>
+   </relations>
+   <pairs>
+      <pair>100007</pair>
+      <pair>100017</pair>
+   </pairs>
+</root>

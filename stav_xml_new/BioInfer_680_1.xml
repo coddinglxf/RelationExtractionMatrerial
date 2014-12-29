@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>There@are@only@14@non-conservative@substitutions@in@the@two@myosin heavy chains@,@three@of@which@are@located@in@the@secondary@actin@-binding@loop@and@flanking@regions@and@others@correspond@to@residues@so@far@not@assigned@a@functional@role@,@including@two@residues@in@the@proximal@S2@domain@.@</sentence>
+   <tags>
+      <tag pos="10">myosin heavy chains</tag>
+      <tag pos="20">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="EX">There</taggedword>
+      <taggedword index="2" part-of-speech="VBP">are</taggedword>
+      <taggedword index="3" part-of-speech="RB">only</taggedword>
+      <taggedword index="4" part-of-speech="CD">14</taggedword>
+      <taggedword index="5" part-of-speech="JJ">non-conservative</taggedword>
+      <taggedword index="6" part-of-speech="NNS">substitutions</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="CD">two</taggedword>
+      <taggedword index="10" part-of-speech="NNS">myosin heavy chains</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CD">three</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="WDT">which</taggedword>
+      <taggedword index="15" part-of-speech="VBP">are</taggedword>
+      <taggedword index="16" part-of-speech="VBN">located</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">secondary</taggedword>
+      <taggedword index="20" part-of-speech="NN">actin</taggedword>
+      <taggedword index="21" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="22" part-of-speech="NN">loop</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="VBG">flanking</taggedword>
+      <taggedword index="25" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="NNS">others</taggedword>
+      <taggedword index="28" part-of-speech="VB">correspond</taggedword>
+      <taggedword index="29" part-of-speech="TO">to</taggedword>
+      <taggedword index="30" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="31" part-of-speech="RB">so</taggedword>
+      <taggedword index="32" part-of-speech="RB">far</taggedword>
+      <taggedword index="33" part-of-speech="RB">not</taggedword>
+      <taggedword index="34" part-of-speech="VBN">assigned</taggedword>
+      <taggedword index="35" part-of-speech="DT">a</taggedword>
+      <taggedword index="36" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="37" part-of-speech="NN">role</taggedword>
+      <taggedword index="38" part-of-speech=",">,</taggedword>
+      <taggedword index="39" part-of-speech="VBG">including</taggedword>
+      <taggedword index="40" part-of-speech="CD">two</taggedword>
+      <taggedword index="41" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="42" part-of-speech="IN">in</taggedword>
+      <taggedword index="43" part-of-speech="DT">the</taggedword>
+      <taggedword index="44" part-of-speech="JJ">proximal</taggedword>
+      <taggedword index="45" part-of-speech="NN">S2</taggedword>
+      <taggedword index="46" part-of-speech="NN">domain</taggedword>
+      <taggedword index="47" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="There" dep_index="1" gov="are" gov_index="2">expl</dependency>
+      <dependency dep="are" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="only" dep_index="3" gov="14" gov_index="4">quantmod</dependency>
+      <dependency dep="14" dep_index="4" gov="substitutions" gov_index="6">num</dependency>
+      <dependency dep="non-conservative" dep_index="5" gov="substitutions" gov_index="6">amod</dependency>
+      <dependency dep="substitutions" dep_index="6" gov="are" gov_index="2">nsubj</dependency>
+      <dependency dep="the" dep_index="8" gov="myosin heavy chains" gov_index="10">det</dependency>
+      <dependency dep="two" dep_index="9" gov="myosin heavy chains" gov_index="10">num</dependency>
+      <dependency dep="myosin heavy chains" dep_index="10" gov="substitutions" gov_index="6">prep_in</dependency>
+      <dependency dep="myosin heavy chains" dep_index="10" gov="three" gov_index="12">prep_of</dependency>
+      <dependency dep="three" dep_index="12" gov="located" gov_index="16">nsubjpass</dependency>
+      <dependency dep="three" dep_index="12" gov="flanking" gov_index="24">nsubjpass</dependency>
+      <dependency dep="are" dep_index="15" gov="located" gov_index="16">auxpass</dependency>
+      <dependency dep="located" dep_index="16" gov="myosin heavy chains" gov_index="10">rcmod</dependency>
+      <dependency dep="the" dep_index="18" gov="loop" gov_index="22">det</dependency>
+      <dependency dep="secondary" dep_index="19" gov="loop" gov_index="22">amod</dependency>
+      <dependency dep="actin" dep_index="20" gov="loop" gov_index="22">nn</dependency>
+      <dependency dep="-binding" dep_index="21" gov="loop" gov_index="22">amod</dependency>
+      <dependency dep="loop" dep_index="22" gov="located" gov_index="16">prep_in</dependency>
+      <dependency dep="flanking" dep_index="24" gov="myosin heavy chains" gov_index="10">rcmod</dependency>
+      <dependency dep="flanking" dep_index="24" gov="located" gov_index="16">conj_and</dependency>
+      <dependency dep="regions" dep_index="25" gov="correspond" gov_index="28">nsubj</dependency>
+      <dependency dep="others" dep_index="27" gov="regions" gov_index="25">conj_and</dependency>
+      <dependency dep="others" dep_index="27" gov="correspond" gov_index="28">nsubj</dependency>
+      <dependency dep="correspond" dep_index="28" gov="flanking" gov_index="24">ccomp</dependency>
+      <dependency dep="residues" dep_index="30" gov="correspond" gov_index="28">prep_to</dependency>
+      <dependency dep="so" dep_index="31" gov="not" gov_index="33">advmod</dependency>
+      <dependency dep="far" dep_index="32" gov="not" gov_index="33">advmod</dependency>
+      <dependency dep="not" dep_index="33" gov="assigned" gov_index="34">neg</dependency>
+      <dependency dep="assigned" dep_index="34" gov="residues" gov_index="30">partmod</dependency>
+      <dependency dep="a" dep_index="35" gov="role" gov_index="37">det</dependency>
+      <dependency dep="functional" dep_index="36" gov="role" gov_index="37">amod</dependency>
+      <dependency dep="role" dep_index="37" gov="assigned" gov_index="34">dobj</dependency>
+      <dependency dep="two" dep_index="40" gov="residues" gov_index="41">num</dependency>
+      <dependency dep="residues" dep_index="41" gov="substitutions" gov_index="6">prep_including</dependency>
+      <dependency dep="the" dep_index="43" gov="domain" gov_index="46">det</dependency>
+      <dependency dep="proximal" dep_index="44" gov="domain" gov_index="46">amod</dependency>
+      <dependency dep="S2" dep_index="45" gov="domain" gov_index="46">nn</dependency>
+      <dependency dep="domain" dep_index="46" gov="residues" gov_index="41">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000020" relationship="true">10 12 16 22 20</relation>
+   </relations>
+   <pairs>
+      <pair>1000020</pair>
+   </pairs>
+</root>

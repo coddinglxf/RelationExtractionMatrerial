@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Inhibin@,@which@had@no@activity@of@its@own@,@antagonized@the@inhibitory@effect@of@activin@on@DNA@synthesis@.@</sentence>
+   <tags>
+      <tag pos="1">Inhibin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Inhibin</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="WDT">which</taggedword>
+      <taggedword index="4" part-of-speech="VBD">had</taggedword>
+      <taggedword index="5" part-of-speech="DT">no</taggedword>
+      <taggedword index="6" part-of-speech="NN">activity</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="9" part-of-speech="JJ">own</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="VBD">antagonized</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">inhibitory</taggedword>
+      <taggedword index="14" part-of-speech="NN">effect</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NN">activin</taggedword>
+      <taggedword index="17" part-of-speech="IN">on</taggedword>
+      <taggedword index="18" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="19" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Inhibin" dep_index="1" gov="had" gov_index="4">nsubj</dependency>
+      <dependency dep="Inhibin" dep_index="1" gov="antagonized" gov_index="11">nsubj</dependency>
+      <dependency dep="had" dep_index="4" gov="Inhibin" gov_index="1">rcmod</dependency>
+      <dependency dep="no" dep_index="5" gov="activity" gov_index="6">det</dependency>
+      <dependency dep="activity" dep_index="6" gov="had" gov_index="4">dobj</dependency>
+      <dependency dep="its" dep_index="8" gov="own" gov_index="9">poss</dependency>
+      <dependency dep="own" dep_index="9" gov="activity" gov_index="6">prep_of</dependency>
+      <dependency dep="antagonized" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="effect" gov_index="14">det</dependency>
+      <dependency dep="inhibitory" dep_index="13" gov="effect" gov_index="14">amod</dependency>
+      <dependency dep="effect" dep_index="14" gov="antagonized" gov_index="11">dobj</dependency>
+      <dependency dep="activin" dep_index="16" gov="effect" gov_index="14">prep_of</dependency>
+      <dependency dep="DNA" dep_index="18" gov="synthesis" gov_index="19">nn</dependency>
+      <dependency dep="synthesis" dep_index="19" gov="antagonized" gov_index="11">prep_on</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

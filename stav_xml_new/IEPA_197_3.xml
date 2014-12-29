@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@also@show@that@bPrP@counteracts@the@inhibition@of@calmodulin@phosphorylation@promoted@by@the@regulatory@beta@subunits@of@CK2@</sentence>
+   <tags>
+      <tag pos="5">bPrP</tag>
+      <tag pos="19">CK2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="RB">also</taggedword>
+      <taggedword index="3" part-of-speech="VBP">show</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">bPrP</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">counteracts</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NN">calmodulin</taggedword>
+      <taggedword index="11" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="12" part-of-speech="VBN">promoted</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="16" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="17" part-of-speech="NNS">subunits</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NNP">CK2</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="show" gov_index="3">nsubj</dependency>
+      <dependency dep="also" dep_index="2" gov="show" gov_index="3">advmod</dependency>
+      <dependency dep="show" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="counteracts" gov_index="6">mark</dependency>
+      <dependency dep="bPrP" dep_index="5" gov="counteracts" gov_index="6">nsubj</dependency>
+      <dependency dep="counteracts" dep_index="6" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="7" gov="inhibition" gov_index="8">det</dependency>
+      <dependency dep="inhibition" dep_index="8" gov="counteracts" gov_index="6">dobj</dependency>
+      <dependency dep="calmodulin" dep_index="10" gov="phosphorylation" gov_index="11">nn</dependency>
+      <dependency dep="phosphorylation" dep_index="11" gov="inhibition" gov_index="8">prep_of</dependency>
+      <dependency dep="promoted" dep_index="12" gov="phosphorylation" gov_index="11">partmod</dependency>
+      <dependency dep="the" dep_index="14" gov="subunits" gov_index="17">det</dependency>
+      <dependency dep="regulatory" dep_index="15" gov="subunits" gov_index="17">amod</dependency>
+      <dependency dep="beta" dep_index="16" gov="subunits" gov_index="17">amod</dependency>
+      <dependency dep="subunits" dep_index="17" gov="promoted" gov_index="12">agent</dependency>
+      <dependency dep="CK2" dep_index="19" gov="subunits" gov_index="17">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500019" relationship="false">5 6 8 11 12 17 19</relation>
+   </relations>
+   <pairs/>
+</root>

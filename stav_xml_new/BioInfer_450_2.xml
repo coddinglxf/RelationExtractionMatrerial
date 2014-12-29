@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@resulting@profilin II@-peptide@complex@overcomes@the@combined@capacity@of@thymosin beta4@and@profilin II@to@inhibit@actin@nucleation@and@restores@the@extent@of@filament@formation@.@</sentence>
+   <tags>
+      <tag pos="16">actin</tag>
+      <tag pos="13">profilin II</tag>
+      <tag pos="11">thymosin beta4</tag>
+      <tag pos="3">profilin II</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="VBG">resulting</taggedword>
+      <taggedword index="3" part-of-speech="NN">profilin II</taggedword>
+      <taggedword index="4" part-of-speech="JJ">-peptide</taggedword>
+      <taggedword index="5" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">overcomes</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">combined</taggedword>
+      <taggedword index="9" part-of-speech="NN">capacity</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNS">thymosin beta4</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NNS">profilin II</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">inhibit</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech="NN">nucleation</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">restores</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">extent</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">filament</taggedword>
+      <taggedword index="24" part-of-speech="NN">formation</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="profilin II" gov_index="3">det</dependency>
+      <dependency dep="resulting" dep_index="2" gov="profilin II" gov_index="3">amod</dependency>
+      <dependency dep="profilin II" dep_index="3" gov="overcomes" gov_index="6">nsubj</dependency>
+      <dependency dep="profilin II" dep_index="3" gov="inhibit" gov_index="15">xsubj</dependency>
+      <dependency dep="profilin II" dep_index="3" gov="restores" gov_index="19">nsubj</dependency>
+      <dependency dep="-peptide" dep_index="4" gov="complex" gov_index="5">amod</dependency>
+      <dependency dep="complex" dep_index="5" gov="profilin II" gov_index="3">amod</dependency>
+      <dependency dep="overcomes" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="capacity" gov_index="9">det</dependency>
+      <dependency dep="combined" dep_index="8" gov="capacity" gov_index="9">amod</dependency>
+      <dependency dep="capacity" dep_index="9" gov="overcomes" gov_index="6">dobj</dependency>
+      <dependency dep="thymosin beta4" dep_index="11" gov="capacity" gov_index="9">prep_of</dependency>
+      <dependency dep="profilin II" dep_index="13" gov="capacity" gov_index="9">prep_of</dependency>
+      <dependency dep="profilin II" dep_index="13" gov="thymosin beta4" gov_index="11">conj_and</dependency>
+      <dependency dep="to" dep_index="14" gov="inhibit" gov_index="15">aux</dependency>
+      <dependency dep="inhibit" dep_index="15" gov="overcomes" gov_index="6">xcomp</dependency>
+      <dependency dep="actin" dep_index="16" gov="nucleation" gov_index="17">nn</dependency>
+      <dependency dep="nucleation" dep_index="17" gov="inhibit" gov_index="15">dobj</dependency>
+      <dependency dep="restores" dep_index="19" gov="overcomes" gov_index="6">conj_and</dependency>
+      <dependency dep="the" dep_index="20" gov="extent" gov_index="21">det</dependency>
+      <dependency dep="extent" dep_index="21" gov="restores" gov_index="19">dobj</dependency>
+      <dependency dep="filament" dep_index="23" gov="formation" gov_index="24">amod</dependency>
+      <dependency dep="formation" dep_index="24" gov="extent" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300016" relationship="true">13 9 6 15 17 16</relation>
+      <relation position="1100016" relationship="true">11 9 6 15 17 16</relation>
+      <relation position="300016" relationship="true">3 15 17 16</relation>
+      <relation position="1100013" relationship="false">11 9 13</relation>
+      <relation position="300013" relationship="false">3 6 9 13</relation>
+      <relation position="300011" relationship="false">3 6 9 11</relation>
+   </relations>
+   <pairs>
+      <pair>1100016</pair>
+      <pair>1300016</pair>
+      <pair>300016</pair>
+   </pairs>
+</root>

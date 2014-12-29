@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Studies@have@also@focused@on@the@variations@in@virulence@of@the@bacillus@in@both@its@drug-susceptible@and@drug-resistant@forms@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNPS">Studies</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="RB">also</taggedword>
+      <taggedword index="4" part-of-speech="VBN">focused</taggedword>
+      <taggedword index="5" part-of-speech="IN">on</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NNS">variations</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NN">virulence</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NNS">bacillus</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">both</taggedword>
+      <taggedword index="15" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="16" part-of-speech="JJ">drug-susceptible</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="JJ">drug-resistant</taggedword>
+      <taggedword index="19" part-of-speech="NNS">forms</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Studies" dep_index="1" gov="focused" gov_index="4">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="focused" gov_index="4">aux</dependency>
+      <dependency dep="also" dep_index="3" gov="focused" gov_index="4">advmod</dependency>
+      <dependency dep="focused" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="variations" gov_index="7">det</dependency>
+      <dependency dep="variations" dep_index="7" gov="focused" gov_index="4">prep_on</dependency>
+      <dependency dep="virulence" dep_index="9" gov="variations" gov_index="7">prep_in</dependency>
+      <dependency dep="the" dep_index="11" gov="bacillus" gov_index="12">det</dependency>
+      <dependency dep="bacillus" dep_index="12" gov="virulence" gov_index="9">prep_of</dependency>
+      <dependency dep="both" dep_index="14" gov="drug-susceptible" gov_index="16">preconj</dependency>
+      <dependency dep="its" dep_index="15" gov="drug-susceptible" gov_index="16">poss</dependency>
+      <dependency dep="drug-susceptible" dep_index="16" gov="bacillus" gov_index="12">prep_in</dependency>
+      <dependency dep="drug-resistant" dep_index="18" gov="forms" gov_index="19">amod</dependency>
+      <dependency dep="forms" dep_index="19" gov="bacillus" gov_index="12">prep_in</dependency>
+      <dependency dep="forms" dep_index="19" gov="drug-susceptible" gov_index="16">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

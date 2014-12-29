@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@methods@include@subtractive@hybridization@based@on@covalent@bonding@,@a@simple@and@accurate@means@to@determine@molecular@profile@of@as@few@as@20@cells@based@on@an@RNA-PCR@approach@,@and@a@messenger@RNA-antisense@DNA@interference@phenomenon@(D-RNAi)@,@resulting@in@a@long-term@gene@knockout@effects@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">methods</taggedword>
+      <taggedword index="3" part-of-speech="VBP">include</taggedword>
+      <taggedword index="4" part-of-speech="JJ">subtractive</taggedword>
+      <taggedword index="5" part-of-speech="NN">hybridization</taggedword>
+      <taggedword index="6" part-of-speech="VBN">based</taggedword>
+      <taggedword index="7" part-of-speech="IN">on</taggedword>
+      <taggedword index="8" part-of-speech="JJ">covalent</taggedword>
+      <taggedword index="9" part-of-speech="NN">bonding</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">simple</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">accurate</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">means</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="VB">determine</taggedword>
+      <taggedword index="18" part-of-speech="JJ">molecular</taggedword>
+      <taggedword index="19" part-of-speech="NN">profile</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="RB">as</taggedword>
+      <taggedword index="22" part-of-speech="JJ">few</taggedword>
+      <taggedword index="23" part-of-speech="IN">as</taggedword>
+      <taggedword index="24" part-of-speech="CD">20</taggedword>
+      <taggedword index="25" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="26" part-of-speech="VBN">based</taggedword>
+      <taggedword index="27" part-of-speech="IN">on</taggedword>
+      <taggedword index="28" part-of-speech="DT">an</taggedword>
+      <taggedword index="29" part-of-speech="NN">RNA-PCR</taggedword>
+      <taggedword index="30" part-of-speech="NN">approach</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="CC">and</taggedword>
+      <taggedword index="33" part-of-speech="DT">a</taggedword>
+      <taggedword index="34" part-of-speech="NN">messenger</taggedword>
+      <taggedword index="35" part-of-speech="JJ">RNA-antisense</taggedword>
+      <taggedword index="36" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="37" part-of-speech="NN">interference</taggedword>
+      <taggedword index="38" part-of-speech="NN">phenomenon</taggedword>
+      <taggedword index="39" part-of-speech="VBD">(D-RNAi)</taggedword>
+      <taggedword index="40" part-of-speech=",">,</taggedword>
+      <taggedword index="41" part-of-speech="VBG">resulting</taggedword>
+      <taggedword index="42" part-of-speech="IN">in</taggedword>
+      <taggedword index="43" part-of-speech="DT">a</taggedword>
+      <taggedword index="44" part-of-speech="JJ">long-term</taggedword>
+      <taggedword index="45" part-of-speech="NN">gene</taggedword>
+      <taggedword index="46" part-of-speech="NN">knockout</taggedword>
+      <taggedword index="47" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="48" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="methods" gov_index="2">det</dependency>
+      <dependency dep="methods" dep_index="2" gov="include" gov_index="3">nsubj</dependency>
+      <dependency dep="include" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="subtractive" dep_index="4" gov="hybridization" gov_index="5">amod</dependency>
+      <dependency dep="hybridization" dep_index="5" gov="include" gov_index="3">dobj</dependency>
+      <dependency dep="based" dep_index="6" gov="include" gov_index="3">KILL</dependency>
+      <dependency dep="on" dep_index="7" gov="based" gov_index="6">KILL</dependency>
+      <dependency dep="covalent" dep_index="8" gov="bonding" gov_index="9">amod</dependency>
+      <dependency dep="bonding" dep_index="9" gov="include" gov_index="3">pobj</dependency>
+      <dependency dep="a" dep_index="11" gov="simple" gov_index="12">det</dependency>
+      <dependency dep="simple" dep_index="12" gov="means" gov_index="15">nsubj</dependency>
+      <dependency dep="simple" dep_index="12" gov="determine" gov_index="17">xsubj</dependency>
+      <dependency dep="accurate" dep_index="14" gov="simple" gov_index="12">conj_and</dependency>
+      <dependency dep="accurate" dep_index="14" gov="means" gov_index="15">nsubj</dependency>
+      <dependency dep="accurate" dep_index="14" gov="determine" gov_index="17">xsubj</dependency>
+      <dependency dep="means" dep_index="15" gov="include" gov_index="3">ccomp</dependency>
+      <dependency dep="means" dep_index="15" gov="include" gov_index="3">conj_and</dependency>
+      <dependency dep="to" dep_index="16" gov="determine" gov_index="17">aux</dependency>
+      <dependency dep="determine" dep_index="17" gov="means" gov_index="15">xcomp</dependency>
+      <dependency dep="molecular" dep_index="18" gov="profile" gov_index="19">amod</dependency>
+      <dependency dep="profile" dep_index="19" gov="determine" gov_index="17">dobj</dependency>
+      <dependency dep="as" dep_index="21" gov="20" gov_index="24">quantmod</dependency>
+      <dependency dep="few" dep_index="22" gov="20" gov_index="24">quantmod</dependency>
+      <dependency dep="as" dep_index="23" gov="20" gov_index="24">quantmod</dependency>
+      <dependency dep="20" dep_index="24" gov="cells" gov_index="25">num</dependency>
+      <dependency dep="cells" dep_index="25" gov="profile" gov_index="19">prep_of</dependency>
+      <dependency dep="on" dep_index="27" gov="determine" gov_index="17">prepc_based_on</dependency>
+      <dependency dep="an" dep_index="28" gov="approach" gov_index="30">det</dependency>
+      <dependency dep="RNA-PCR" dep_index="29" gov="approach" gov_index="30">nn</dependency>
+      <dependency dep="approach" dep_index="30" gov="determine" gov_index="17">pobj</dependency>
+      <dependency dep="a" dep_index="33" gov="phenomenon" gov_index="38">det</dependency>
+      <dependency dep="messenger" dep_index="34" gov="phenomenon" gov_index="38">nn</dependency>
+      <dependency dep="RNA-antisense" dep_index="35" gov="phenomenon" gov_index="38">amod</dependency>
+      <dependency dep="DNA" dep_index="36" gov="phenomenon" gov_index="38">nn</dependency>
+      <dependency dep="interference" dep_index="37" gov="phenomenon" gov_index="38">nn</dependency>
+      <dependency dep="phenomenon" dep_index="38" gov="(D-RNAi)" gov_index="39">nsubj</dependency>
+      <dependency dep="(D-RNAi)" dep_index="39" gov="include" gov_index="3">conj_and</dependency>
+      <dependency dep="resulting" dep_index="41" gov="(D-RNAi)" gov_index="39">xcomp</dependency>
+      <dependency dep="a" dep_index="43" gov="effects" gov_index="47">det</dependency>
+      <dependency dep="long-term" dep_index="44" gov="effects" gov_index="47">amod</dependency>
+      <dependency dep="gene" dep_index="45" gov="effects" gov_index="47">nn</dependency>
+      <dependency dep="knockout" dep_index="46" gov="effects" gov_index="47">nn</dependency>
+      <dependency dep="effects" dep_index="47" gov="resulting" gov_index="41">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

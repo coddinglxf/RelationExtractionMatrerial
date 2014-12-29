@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Although@IRS-1@is@thought@to@interact@with@the@insulin receptor@,@the@nature@of@the@interaction@has@not@been@defined@.@</sentence>
+   <tags>
+      <tag pos="2">IRS-1</tag>
+      <tag pos="9">insulin receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Although</taggedword>
+      <taggedword index="2" part-of-speech="NNP">IRS-1</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="4" part-of-speech="VBN">thought</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="VB">interact</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">insulin receptor</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">nature</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="17" part-of-speech="RB">not</taggedword>
+      <taggedword index="18" part-of-speech="VBN">been</taggedword>
+      <taggedword index="19" part-of-speech="VBN">defined</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Although" dep_index="1" gov="thought" gov_index="4">mark</dependency>
+      <dependency dep="IRS-1" dep_index="2" gov="thought" gov_index="4">nsubjpass</dependency>
+      <dependency dep="IRS-1" dep_index="2" gov="interact" gov_index="6">xsubj</dependency>
+      <dependency dep="is" dep_index="3" gov="thought" gov_index="4">auxpass</dependency>
+      <dependency dep="thought" dep_index="4" gov="defined" gov_index="19">advcl</dependency>
+      <dependency dep="to" dep_index="5" gov="interact" gov_index="6">aux</dependency>
+      <dependency dep="interact" dep_index="6" gov="thought" gov_index="4">xcomp</dependency>
+      <dependency dep="the" dep_index="8" gov="insulin receptor" gov_index="9">det</dependency>
+      <dependency dep="insulin receptor" dep_index="9" gov="interact" gov_index="6">prep_with</dependency>
+      <dependency dep="the" dep_index="11" gov="nature" gov_index="12">det</dependency>
+      <dependency dep="nature" dep_index="12" gov="defined" gov_index="19">nsubjpass</dependency>
+      <dependency dep="the" dep_index="14" gov="interaction" gov_index="15">det</dependency>
+      <dependency dep="interaction" dep_index="15" gov="nature" gov_index="12">prep_of</dependency>
+      <dependency dep="has" dep_index="16" gov="defined" gov_index="19">aux</dependency>
+      <dependency dep="not" dep_index="17" gov="defined" gov_index="19">neg</dependency>
+      <dependency dep="been" dep_index="18" gov="defined" gov_index="19">auxpass</dependency>
+      <dependency dep="defined" dep_index="19" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200009" relationship="true">2 6 9</relation>
+   </relations>
+   <pairs>
+      <pair>200009</pair>
+   </pairs>
+</root>

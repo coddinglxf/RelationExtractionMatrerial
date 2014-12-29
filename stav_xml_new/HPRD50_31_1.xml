@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Raf1@interaction@with@Cdc25@phosphatase@ties@mitogenic@signal@transduction@to@cell@cycle@activation@</sentence>
+   <tags>
+      <tag pos="1">Raf1</tag>
+      <tag pos="4">Cdc25</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Raf1</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="JJ">Cdc25</taggedword>
+      <taggedword index="5" part-of-speech="NN">phosphatase</taggedword>
+      <taggedword index="6" part-of-speech="NNS">ties</taggedword>
+      <taggedword index="7" part-of-speech="JJ">mitogenic</taggedword>
+      <taggedword index="8" part-of-speech="NN">signal</taggedword>
+      <taggedword index="9" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="NN">cell</taggedword>
+      <taggedword index="12" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="13" part-of-speech="NN">activation</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Raf1" dep_index="1" gov="interaction" gov_index="2">amod</dependency>
+      <dependency dep="interaction" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Cdc25" dep_index="4" gov="ties" gov_index="6">amod</dependency>
+      <dependency dep="phosphatase" dep_index="5" gov="ties" gov_index="6">nn</dependency>
+      <dependency dep="ties" dep_index="6" gov="interaction" gov_index="2">prep_with</dependency>
+      <dependency dep="mitogenic" dep_index="7" gov="transduction" gov_index="9">amod</dependency>
+      <dependency dep="signal" dep_index="8" gov="transduction" gov_index="9">nn</dependency>
+      <dependency dep="transduction" dep_index="9" gov="interaction" gov_index="2">dep</dependency>
+      <dependency dep="cell" dep_index="11" gov="activation" gov_index="13">nn</dependency>
+      <dependency dep="cycle" dep_index="12" gov="activation" gov_index="13">nn</dependency>
+      <dependency dep="activation" dep_index="13" gov="transduction" gov_index="9">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100004" relationship="true">1 2 6 4</relation>
+   </relations>
+   <pairs>
+      <pair>100004</pair>
+   </pairs>
+</root>

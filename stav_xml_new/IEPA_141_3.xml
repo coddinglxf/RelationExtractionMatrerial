@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@tolbutamide@and@diazoxide@regulate@both@PLC@-linked@Ca(2+)@signaling@and@insulin@secretion@from@pancreatic@beta-cells@by@modulating@K(ATP)@channels@,@thereby@determining@voltage-sensitive@Ca(2+)@influx@</sentence>
+   <tags>
+      <tag pos="7">PLC</tag>
+      <tag pos="12">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech="VB">tolbutamide</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="VB">diazoxide</taggedword>
+      <taggedword index="5" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="6" part-of-speech="DT">both</taggedword>
+      <taggedword index="7" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="8" part-of-speech="JJ">-linked</taggedword>
+      <taggedword index="9" part-of-speech="JJ">Ca(2+)</taggedword>
+      <taggedword index="10" part-of-speech="NN">signaling</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="13" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="14" part-of-speech="IN">from</taggedword>
+      <taggedword index="15" part-of-speech="JJ">pancreatic</taggedword>
+      <taggedword index="16" part-of-speech="NNS">beta-cells</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="VBG">modulating</taggedword>
+      <taggedword index="19" part-of-speech="JJ">K(ATP)</taggedword>
+      <taggedword index="20" part-of-speech="NNS">channels</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="RB">thereby</taggedword>
+      <taggedword index="23" part-of-speech="VBG">determining</taggedword>
+      <taggedword index="24" part-of-speech="JJ">voltage-sensitive</taggedword>
+      <taggedword index="25" part-of-speech="JJ">Ca(2+)</taggedword>
+      <taggedword index="26" part-of-speech="NN">influx</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="tolbutamide" gov_index="2">advmod</dependency>
+      <dependency dep="tolbutamide" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="diazoxide" dep_index="4" gov="tolbutamide" gov_index="2">conj_and</dependency>
+      <dependency dep="regulate" dep_index="5" gov="diazoxide" gov_index="4">xcomp</dependency>
+      <dependency dep="both" dep_index="6" gov="signaling" gov_index="10">preconj</dependency>
+      <dependency dep="PLC" dep_index="7" gov="signaling" gov_index="10">nn</dependency>
+      <dependency dep="-linked" dep_index="8" gov="signaling" gov_index="10">amod</dependency>
+      <dependency dep="Ca(2+)" dep_index="9" gov="signaling" gov_index="10">amod</dependency>
+      <dependency dep="signaling" dep_index="10" gov="regulate" gov_index="5">dobj</dependency>
+      <dependency dep="insulin" dep_index="12" gov="secretion" gov_index="13">nn</dependency>
+      <dependency dep="secretion" dep_index="13" gov="regulate" gov_index="5">dobj</dependency>
+      <dependency dep="secretion" dep_index="13" gov="signaling" gov_index="10">conj_and</dependency>
+      <dependency dep="pancreatic" dep_index="15" gov="beta-cells" gov_index="16">amod</dependency>
+      <dependency dep="beta-cells" dep_index="16" gov="signaling" gov_index="10">prep_from</dependency>
+      <dependency dep="modulating" dep_index="18" gov="regulate" gov_index="5">prepc_by</dependency>
+      <dependency dep="K(ATP)" dep_index="19" gov="channels" gov_index="20">amod</dependency>
+      <dependency dep="channels" dep_index="20" gov="modulating" gov_index="18">dobj</dependency>
+      <dependency dep="thereby" dep_index="22" gov="determining" gov_index="23">advmod</dependency>
+      <dependency dep="determining" dep_index="23" gov="regulate" gov_index="5">partmod</dependency>
+      <dependency dep="voltage-sensitive" dep_index="24" gov="influx" gov_index="26">amod</dependency>
+      <dependency dep="Ca(2+)" dep_index="25" gov="influx" gov_index="26">amod</dependency>
+      <dependency dep="influx" dep_index="26" gov="determining" gov_index="23">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700012" relationship="true">7 10 5 13 12</relation>
+   </relations>
+   <pairs>
+      <pair>700012</pair>
+   </pairs>
+</root>

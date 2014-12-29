@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Only@the@unphosphorylated@form@of@cofilin@is@an@active@form@that@binds@actin@,@whereas@the@regulatory@mechanisms@of@cofilin@have@not@been@elucidated@.@</sentence>
+   <tags>
+      <tag pos="20">cofilin</tag>
+      <tag pos="13">actin</tag>
+      <tag pos="6">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Only</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">unphosphorylated</taggedword>
+      <taggedword index="4" part-of-speech="NN">form</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="8" part-of-speech="DT">an</taggedword>
+      <taggedword index="9" part-of-speech="JJ">active</taggedword>
+      <taggedword index="10" part-of-speech="NN">form</taggedword>
+      <taggedword index="11" part-of-speech="WDT">that</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="13" part-of-speech="NN">actin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="18" part-of-speech="NNS">mechanisms</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="21" part-of-speech="VBP">have</taggedword>
+      <taggedword index="22" part-of-speech="RB">not</taggedword>
+      <taggedword index="23" part-of-speech="VBN">been</taggedword>
+      <taggedword index="24" part-of-speech="VBN">elucidated</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Only" dep_index="1" gov="form" gov_index="4">advmod</dependency>
+      <dependency dep="the" dep_index="2" gov="form" gov_index="4">det</dependency>
+      <dependency dep="unphosphorylated" dep_index="3" gov="form" gov_index="4">amod</dependency>
+      <dependency dep="form" dep_index="4" gov="form" gov_index="10">nsubj</dependency>
+      <dependency dep="cofilin" dep_index="6" gov="form" gov_index="4">prep_of</dependency>
+      <dependency dep="is" dep_index="7" gov="form" gov_index="10">cop</dependency>
+      <dependency dep="an" dep_index="8" gov="form" gov_index="10">det</dependency>
+      <dependency dep="active" dep_index="9" gov="form" gov_index="10">amod</dependency>
+      <dependency dep="form" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="form" dep_index="10" gov="binds" gov_index="12">nsubj</dependency>
+      <dependency dep="binds" dep_index="12" gov="form" gov_index="10">rcmod</dependency>
+      <dependency dep="actin" dep_index="13" gov="binds" gov_index="12">dobj</dependency>
+      <dependency dep="whereas" dep_index="15" gov="elucidated" gov_index="24">mark</dependency>
+      <dependency dep="the" dep_index="16" gov="mechanisms" gov_index="18">det</dependency>
+      <dependency dep="regulatory" dep_index="17" gov="mechanisms" gov_index="18">amod</dependency>
+      <dependency dep="mechanisms" dep_index="18" gov="elucidated" gov_index="24">nsubjpass</dependency>
+      <dependency dep="cofilin" dep_index="20" gov="mechanisms" gov_index="18">prep_of</dependency>
+      <dependency dep="have" dep_index="21" gov="elucidated" gov_index="24">aux</dependency>
+      <dependency dep="not" dep_index="22" gov="elucidated" gov_index="24">neg</dependency>
+      <dependency dep="been" dep_index="23" gov="elucidated" gov_index="24">auxpass</dependency>
+      <dependency dep="elucidated" dep_index="24" gov="binds" gov_index="12">advcl</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300020" relationship="false">13 12 24 18 20</relation>
+      <relation position="600020" relationship="false">6 4 10 12 24 18 20</relation>
+      <relation position="600013" relationship="true">6 4 10 12 13</relation>
+   </relations>
+   <pairs>
+      <pair>600013</pair>
+   </pairs>
+</root>

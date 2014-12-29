@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cloning@and@characterization@of@a@human@type@II@receptor@for@bone@morphogenetic@proteins@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Cloning</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NN">characterization</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">human</taggedword>
+      <taggedword index="7" part-of-speech="NN">type</taggedword>
+      <taggedword index="8" part-of-speech="NNP">II</taggedword>
+      <taggedword index="9" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="NN">bone</taggedword>
+      <taggedword index="12" part-of-speech="JJ">morphogenetic</taggedword>
+      <taggedword index="13" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cloning" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="characterization" dep_index="3" gov="Cloning" gov_index="1">conj_and</dependency>
+      <dependency dep="a" dep_index="5" gov="receptor" gov_index="9">det</dependency>
+      <dependency dep="human" dep_index="6" gov="receptor" gov_index="9">amod</dependency>
+      <dependency dep="type" dep_index="7" gov="receptor" gov_index="9">nn</dependency>
+      <dependency dep="II" dep_index="8" gov="receptor" gov_index="9">nn</dependency>
+      <dependency dep="receptor" dep_index="9" gov="Cloning" gov_index="1">prep_of</dependency>
+      <dependency dep="bone" dep_index="11" gov="proteins" gov_index="13">nn</dependency>
+      <dependency dep="morphogenetic" dep_index="12" gov="proteins" gov_index="13">amod</dependency>
+      <dependency dep="proteins" dep_index="13" gov="receptor" gov_index="9">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

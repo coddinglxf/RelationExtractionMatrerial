@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@binding@properties@of@these@variants@in@vitro@,@and@the@result@of@using@a@neutralizing@monoclonal@antibody@directed@against@site@3@,@lead@to@the@conclusion@that@gp130@dimer@is@formed@through@direct@binding@at@two@independent@and@differently@oriented@sites@on@IL-6@.@</sentence>
+   <tags>
+      <tag pos="29">gp130</tag>
+      <tag pos="44">IL-6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="3" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">these</taggedword>
+      <taggedword index="6" part-of-speech="NNS">variants</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="NNP">vitro</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">result</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="VBG">using</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="VBG">neutralizing</taggedword>
+      <taggedword index="17" part-of-speech="JJ">monoclonal</taggedword>
+      <taggedword index="18" part-of-speech="NN">antibody</taggedword>
+      <taggedword index="19" part-of-speech="VBN">directed</taggedword>
+      <taggedword index="20" part-of-speech="IN">against</taggedword>
+      <taggedword index="21" part-of-speech="NN">site</taggedword>
+      <taggedword index="22" part-of-speech="CD">3</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="VBP">lead</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">conclusion</taggedword>
+      <taggedword index="28" part-of-speech="IN">that</taggedword>
+      <taggedword index="29" part-of-speech="JJ">gp130</taggedword>
+      <taggedword index="30" part-of-speech="NN">dimer</taggedword>
+      <taggedword index="31" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="32" part-of-speech="VBN">formed</taggedword>
+      <taggedword index="33" part-of-speech="IN">through</taggedword>
+      <taggedword index="34" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="35" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="36" part-of-speech="IN">at</taggedword>
+      <taggedword index="37" part-of-speech="CD">two</taggedword>
+      <taggedword index="38" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="39" part-of-speech="CC">and</taggedword>
+      <taggedword index="40" part-of-speech="RB">differently</taggedword>
+      <taggedword index="41" part-of-speech="JJ">oriented</taggedword>
+      <taggedword index="42" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="43" part-of-speech="IN">on</taggedword>
+      <taggedword index="44" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="45" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="properties" gov_index="3">det</dependency>
+      <dependency dep="binding" dep_index="2" gov="properties" gov_index="3">amod</dependency>
+      <dependency dep="properties" dep_index="3" gov="lead" gov_index="24">nsubj</dependency>
+      <dependency dep="these" dep_index="5" gov="variants" gov_index="6">det</dependency>
+      <dependency dep="variants" dep_index="6" gov="properties" gov_index="3">prep_of</dependency>
+      <dependency dep="vitro" dep_index="8" gov="variants" gov_index="6">prep_in</dependency>
+      <dependency dep="the" dep_index="11" gov="result" gov_index="12">det</dependency>
+      <dependency dep="result" dep_index="12" gov="properties" gov_index="3">conj_and</dependency>
+      <dependency dep="result" dep_index="12" gov="lead" gov_index="24">nsubj</dependency>
+      <dependency dep="using" dep_index="14" gov="result" gov_index="12">prepc_of</dependency>
+      <dependency dep="a" dep_index="15" gov="antibody" gov_index="18">det</dependency>
+      <dependency dep="neutralizing" dep_index="16" gov="antibody" gov_index="18">amod</dependency>
+      <dependency dep="monoclonal" dep_index="17" gov="antibody" gov_index="18">amod</dependency>
+      <dependency dep="antibody" dep_index="18" gov="using" gov_index="14">dobj</dependency>
+      <dependency dep="directed" dep_index="19" gov="antibody" gov_index="18">partmod</dependency>
+      <dependency dep="site" dep_index="21" gov="directed" gov_index="19">prep_against</dependency>
+      <dependency dep="3" dep_index="22" gov="site" gov_index="21">num</dependency>
+      <dependency dep="lead" dep_index="24" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="26" gov="conclusion" gov_index="27">det</dependency>
+      <dependency dep="conclusion" dep_index="27" gov="lead" gov_index="24">prep_to</dependency>
+      <dependency dep="that" dep_index="28" gov="formed" gov_index="32">mark</dependency>
+      <dependency dep="gp130" dep_index="29" gov="dimer" gov_index="30">amod</dependency>
+      <dependency dep="dimer" dep_index="30" gov="formed" gov_index="32">nsubjpass</dependency>
+      <dependency dep="is" dep_index="31" gov="formed" gov_index="32">auxpass</dependency>
+      <dependency dep="formed" dep_index="32" gov="lead" gov_index="24">ccomp</dependency>
+      <dependency dep="direct" dep_index="34" gov="formed" gov_index="32">prep_through</dependency>
+      <dependency dep="binding" dep_index="35" gov="direct" gov_index="34">amod</dependency>
+      <dependency dep="two" dep_index="37" gov="sites" gov_index="42">num</dependency>
+      <dependency dep="independent" dep_index="38" gov="sites" gov_index="42">amod</dependency>
+      <dependency dep="differently" dep_index="40" gov="independent" gov_index="38">advmod</dependency>
+      <dependency dep="differently" dep_index="40" gov="independent" gov_index="38">conj_and</dependency>
+      <dependency dep="differently" dep_index="40" gov="sites" gov_index="42">amod</dependency>
+      <dependency dep="oriented" dep_index="41" gov="independent" gov_index="38">conj_and</dependency>
+      <dependency dep="oriented" dep_index="41" gov="sites" gov_index="42">amod</dependency>
+      <dependency dep="sites" dep_index="42" gov="direct" gov_index="34">prep_at</dependency>
+      <dependency dep="IL-6" dep_index="44" gov="direct" gov_index="34">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2900044" relationship="false">29 30 32 34 44</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@resulting@abnormally@phosphorylated@PrPsc@aggregates@to@freshly@synthesized@PrPc@,@transforming@it@into@same@;@due@to@a@system@of@positive@feedback@invoked@by@the@organophosphate-induced@blockage@of@a@prion protein@-specific@protein kinase@.@</sentence>
+   <tags>
+      <tag pos="5">PrPsc</tag>
+      <tag pos="10">PrPc</tag>
+      <tag pos="31">prion protein</tag>
+      <tag pos="33">protein kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="VBG">resulting</taggedword>
+      <taggedword index="3" part-of-speech="NN">abnormally</taggedword>
+      <taggedword index="4" part-of-speech="VBD">phosphorylated</taggedword>
+      <taggedword index="5" part-of-speech="JJ">PrPsc</taggedword>
+      <taggedword index="6" part-of-speech="NNS">aggregates</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="RB">freshly</taggedword>
+      <taggedword index="9" part-of-speech="JJ">synthesized</taggedword>
+      <taggedword index="10" part-of-speech="NNS">PrPc</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="VBG">transforming</taggedword>
+      <taggedword index="13" part-of-speech="PRP">it</taggedword>
+      <taggedword index="14" part-of-speech="IN">into</taggedword>
+      <taggedword index="15" part-of-speech="JJ">same</taggedword>
+      <taggedword index="16" part-of-speech=":">;</taggedword>
+      <taggedword index="17" part-of-speech="JJ">due</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="DT">a</taggedword>
+      <taggedword index="20" part-of-speech="NN">system</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="JJ">positive</taggedword>
+      <taggedword index="23" part-of-speech="NN">feedback</taggedword>
+      <taggedword index="24" part-of-speech="VBN">invoked</taggedword>
+      <taggedword index="25" part-of-speech="IN">by</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="JJ">organophosphate-induced</taggedword>
+      <taggedword index="28" part-of-speech="NN">blockage</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="DT">a</taggedword>
+      <taggedword index="31" part-of-speech="JJ">prion protein</taggedword>
+      <taggedword index="32" part-of-speech="JJ">-specific</taggedword>
+      <taggedword index="33" part-of-speech="NN">protein kinase</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="abnormally" gov_index="3">det</dependency>
+      <dependency dep="resulting" dep_index="2" gov="abnormally" gov_index="3">amod</dependency>
+      <dependency dep="abnormally" dep_index="3" gov="phosphorylated" gov_index="4">nsubj</dependency>
+      <dependency dep="phosphorylated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="PrPsc" dep_index="5" gov="aggregates" gov_index="6">amod</dependency>
+      <dependency dep="aggregates" dep_index="6" gov="phosphorylated" gov_index="4">dobj</dependency>
+      <dependency dep="freshly" dep_index="8" gov="PrPc" gov_index="10">advmod</dependency>
+      <dependency dep="synthesized" dep_index="9" gov="PrPc" gov_index="10">amod</dependency>
+      <dependency dep="PrPc" dep_index="10" gov="phosphorylated" gov_index="4">prep_to</dependency>
+      <dependency dep="transforming" dep_index="12" gov="phosphorylated" gov_index="4">partmod</dependency>
+      <dependency dep="it" dep_index="13" gov="transforming" gov_index="12">dobj</dependency>
+      <dependency dep="same" dep_index="15" gov="transforming" gov_index="12">prep_into</dependency>
+      <dependency dep="a" dep_index="19" gov="system" gov_index="20">det</dependency>
+      <dependency dep="system" dep_index="20" gov="same" gov_index="15">prep_due_to</dependency>
+      <dependency dep="positive" dep_index="22" gov="feedback" gov_index="23">amod</dependency>
+      <dependency dep="feedback" dep_index="23" gov="system" gov_index="20">prep_of</dependency>
+      <dependency dep="invoked" dep_index="24" gov="feedback" gov_index="23">partmod</dependency>
+      <dependency dep="the" dep_index="26" gov="blockage" gov_index="28">det</dependency>
+      <dependency dep="organophosphate-induced" dep_index="27" gov="blockage" gov_index="28">amod</dependency>
+      <dependency dep="blockage" dep_index="28" gov="invoked" gov_index="24">agent</dependency>
+      <dependency dep="a" dep_index="30" gov="protein kinase" gov_index="33">det</dependency>
+      <dependency dep="prion protein" dep_index="31" gov="protein kinase" gov_index="33">amod</dependency>
+      <dependency dep="-specific" dep_index="32" gov="protein kinase" gov_index="33">amod</dependency>
+      <dependency dep="protein kinase" dep_index="33" gov="blockage" gov_index="28">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500010" relationship="false">5 6 4 10</relation>
+      <relation position="500031" relationship="false">5 6 4 12 15 20 23 24 28 33 31</relation>
+      <relation position="500033" relationship="false">5 6 4 12 15 20 23 24 28 33</relation>
+      <relation position="1000031" relationship="false">10 4 12 15 20 23 24 28 33 31</relation>
+      <relation position="1000033" relationship="false">10 4 12 15 20 23 24 28 33</relation>
+      <relation position="3100033" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>3100033</pair>
+   </pairs>
+</root>

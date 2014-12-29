@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@suggest@that@a@rising@level@of@GerE@in@sporulating@cells@may@first@activate@cotD@transcription@from@the@upstream@site@then@repress@transcription@as@the@downstream@site@becomes@occupied@.@</sentence>
+   <tags>
+      <tag pos="9">GerE</tag>
+      <tag pos="16">cotD</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="VBG">rising</taggedword>
+      <taggedword index="7" part-of-speech="NN">level</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNP">GerE</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="VBG">sporulating</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="13" part-of-speech="MD">may</taggedword>
+      <taggedword index="14" part-of-speech="RB">first</taggedword>
+      <taggedword index="15" part-of-speech="VB">activate</taggedword>
+      <taggedword index="16" part-of-speech="JJ">cotD</taggedword>
+      <taggedword index="17" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="18" part-of-speech="IN">from</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">upstream</taggedword>
+      <taggedword index="21" part-of-speech="NN">site</taggedword>
+      <taggedword index="22" part-of-speech="RB">then</taggedword>
+      <taggedword index="23" part-of-speech="RB">repress</taggedword>
+      <taggedword index="24" part-of-speech="VB">transcription</taggedword>
+      <taggedword index="25" part-of-speech="IN">as</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="JJ">downstream</taggedword>
+      <taggedword index="28" part-of-speech="NN">site</taggedword>
+      <taggedword index="29" part-of-speech="VBZ">becomes</taggedword>
+      <taggedword index="30" part-of-speech="VBN">occupied</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="transcription" gov_index="24">mark</dependency>
+      <dependency dep="a" dep_index="5" gov="level" gov_index="7">det</dependency>
+      <dependency dep="rising" dep_index="6" gov="level" gov_index="7">amod</dependency>
+      <dependency dep="level" dep_index="7" gov="transcription" gov_index="24">nsubj</dependency>
+      <dependency dep="GerE" dep_index="9" gov="level" gov_index="7">prep_of</dependency>
+      <dependency dep="sporulating" dep_index="11" gov="GerE" gov_index="9">prepc_in</dependency>
+      <dependency dep="cells" dep_index="12" gov="activate" gov_index="15">nsubj</dependency>
+      <dependency dep="may" dep_index="13" gov="activate" gov_index="15">aux</dependency>
+      <dependency dep="first" dep_index="14" gov="activate" gov_index="15">advmod</dependency>
+      <dependency dep="activate" dep_index="15" gov="sporulating" gov_index="11">ccomp</dependency>
+      <dependency dep="cotD" dep_index="16" gov="transcription" gov_index="17">amod</dependency>
+      <dependency dep="transcription" dep_index="17" gov="activate" gov_index="15">dobj</dependency>
+      <dependency dep="the" dep_index="19" gov="site" gov_index="21">det</dependency>
+      <dependency dep="upstream" dep_index="20" gov="site" gov_index="21">amod</dependency>
+      <dependency dep="site" dep_index="21" gov="activate" gov_index="15">prep_from</dependency>
+      <dependency dep="then" dep_index="22" gov="transcription" gov_index="24">advmod</dependency>
+      <dependency dep="repress" dep_index="23" gov="transcription" gov_index="24">advmod</dependency>
+      <dependency dep="transcription" dep_index="24" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="as" dep_index="25" gov="occupied" gov_index="30">mark</dependency>
+      <dependency dep="the" dep_index="26" gov="site" gov_index="28">det</dependency>
+      <dependency dep="downstream" dep_index="27" gov="site" gov_index="28">amod</dependency>
+      <dependency dep="site" dep_index="28" gov="occupied" gov_index="30">nsubjpass</dependency>
+      <dependency dep="becomes" dep_index="29" gov="occupied" gov_index="30">auxpass</dependency>
+      <dependency dep="occupied" dep_index="30" gov="transcription" gov_index="24">advcl</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900016" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>900016</pair>
+   </pairs>
+</root>

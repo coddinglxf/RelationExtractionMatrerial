@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@genes@for@MPIF-2@/@eotaxin-2@(@SCYA24@)@and@eotaxin-3@(@SCYA26@)@are@localized@within@a@region@of@approximately@40@kilobases@.@</sentence>
+   <tags>
+      <tag pos="4">MPIF-2</tag>
+      <tag pos="6">eotaxin-2</tag>
+      <tag pos="8">SCYA24</tag>
+      <tag pos="11">eotaxin-3</tag>
+      <tag pos="13">SCYA26</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="3" part-of-speech="IN">for</taggedword>
+      <taggedword index="4" part-of-speech="NN">MPIF-2</taggedword>
+      <taggedword index="5" part-of-speech=":">/</taggedword>
+      <taggedword index="6" part-of-speech="JJ">eotaxin-2</taggedword>
+      <taggedword index="7" part-of-speech="NNP">(</taggedword>
+      <taggedword index="8" part-of-speech="NNP">SCYA24</taggedword>
+      <taggedword index="9" part-of-speech="NNP">)</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="JJ">eotaxin-3</taggedword>
+      <taggedword index="12" part-of-speech="NNP">(</taggedword>
+      <taggedword index="13" part-of-speech="NNP">SCYA26</taggedword>
+      <taggedword index="14" part-of-speech="NNP">)</taggedword>
+      <taggedword index="15" part-of-speech="VBP">are</taggedword>
+      <taggedword index="16" part-of-speech="JJ">localized</taggedword>
+      <taggedword index="17" part-of-speech="IN">within</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="NN">region</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="RB">approximately</taggedword>
+      <taggedword index="22" part-of-speech="CD">40</taggedword>
+      <taggedword index="23" part-of-speech="NNS">kilobases</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="genes" gov_index="2">det</dependency>
+      <dependency dep="genes" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="MPIF-2" dep_index="4" gov="genes" gov_index="2">prep_for</dependency>
+      <dependency dep="/" dep_index="5" gov="genes" gov_index="2">punct</dependency>
+      <dependency dep="eotaxin-2" dep_index="6" gov=")" gov_index="9">amod</dependency>
+      <dependency dep="(" dep_index="7" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="SCYA24" dep_index="8" gov=")" gov_index="9">nn</dependency>
+      <dependency dep=")" dep_index="9" gov="localized" gov_index="16">nsubj</dependency>
+      <dependency dep="eotaxin-3" dep_index="11" gov=")" gov_index="14">amod</dependency>
+      <dependency dep="(" dep_index="12" gov=")" gov_index="14">nn</dependency>
+      <dependency dep="SCYA26" dep_index="13" gov=")" gov_index="14">nn</dependency>
+      <dependency dep=")" dep_index="14" gov=")" gov_index="9">conj_and</dependency>
+      <dependency dep=")" dep_index="14" gov="localized" gov_index="16">nsubj</dependency>
+      <dependency dep="are" dep_index="15" gov="localized" gov_index="16">cop</dependency>
+      <dependency dep="localized" dep_index="16" gov="genes" gov_index="2">dep</dependency>
+      <dependency dep="a" dep_index="18" gov="region" gov_index="19">det</dependency>
+      <dependency dep="region" dep_index="19" gov="localized" gov_index="16">prep_within</dependency>
+      <dependency dep="approximately" dep_index="21" gov="40" gov_index="22">quantmod</dependency>
+      <dependency dep="40" dep_index="22" gov="kilobases" gov_index="23">num</dependency>
+      <dependency dep="kilobases" dep_index="23" gov="region" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 16 9 6</relation>
+      <relation position="400008" relationship="false">4 2 16 9 8</relation>
+      <relation position="400011" relationship="false">4 2 16 14 11</relation>
+      <relation position="400013" relationship="false">4 2 16 14 13</relation>
+      <relation position="600008" relationship="false">6 9 8</relation>
+      <relation position="600011" relationship="false">6 9 16 14 11</relation>
+      <relation position="600013" relationship="false">6 9 16 14 13</relation>
+      <relation position="800011" relationship="false">8 9 16 14 11</relation>
+      <relation position="800013" relationship="false">8 9 16 14 13</relation>
+      <relation position="1100013" relationship="false">11 14 13</relation>
+   </relations>
+   <pairs/>
+</root>

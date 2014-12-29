@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Smooth muscle talin@prepared@from@chicken@gizzard@binds@to@skeletal muscle actin@in@vitro@.@</sentence>
+   <tags>
+      <tag pos="1">Smooth muscle talin</tag>
+      <tag pos="8">skeletal muscle actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Smooth muscle talin</taggedword>
+      <taggedword index="2" part-of-speech="VBN">prepared</taggedword>
+      <taggedword index="3" part-of-speech="IN">from</taggedword>
+      <taggedword index="4" part-of-speech="NN">chicken</taggedword>
+      <taggedword index="5" part-of-speech="VBD">gizzard</taggedword>
+      <taggedword index="6" part-of-speech="NNS">binds</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="NN">skeletal muscle actin</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Smooth muscle talin" dep_index="1" gov="gizzard" gov_index="5">nsubj</dependency>
+      <dependency dep="prepared" dep_index="2" gov="Smooth muscle talin" gov_index="1">partmod</dependency>
+      <dependency dep="chicken" dep_index="4" gov="prepared" gov_index="2">prep_from</dependency>
+      <dependency dep="gizzard" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="binds" dep_index="6" gov="gizzard" gov_index="5">dobj</dependency>
+      <dependency dep="skeletal muscle actin" dep_index="8" gov="gizzard" gov_index="5">prep_to</dependency>
+      <dependency dep="vitro" dep_index="10" gov="gizzard" gov_index="5">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100008" relationship="true">1 5 8</relation>
+   </relations>
+   <pairs>
+      <pair>100008</pair>
+   </pairs>
+</root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Biological@data@and@clinical@symptoms@as@predictors@of@astrogliosis@and@neurodegeneration@in@patients@with@second-stage@Trypanosoma@brucei@gambiense@sleeping@sickness@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Biological</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">clinical</taggedword>
+      <taggedword index="5" part-of-speech="NNS">symptoms</taggedword>
+      <taggedword index="6" part-of-speech="IN">as</taggedword>
+      <taggedword index="7" part-of-speech="NNS">predictors</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNS">astrogliosis</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">neurodegeneration</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="JJ">second-stage</taggedword>
+      <taggedword index="16" part-of-speech="NNP">Trypanosoma</taggedword>
+      <taggedword index="17" part-of-speech="NNS">brucei</taggedword>
+      <taggedword index="18" part-of-speech="VBP">gambiense</taggedword>
+      <taggedword index="19" part-of-speech="VBG">sleeping</taggedword>
+      <taggedword index="20" part-of-speech="NN">sickness</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Biological" dep_index="1" gov="data" gov_index="2">amod</dependency>
+      <dependency dep="data" dep_index="2" gov="gambiense" gov_index="18">nsubj</dependency>
+      <dependency dep="clinical" dep_index="4" gov="symptoms" gov_index="5">amod</dependency>
+      <dependency dep="symptoms" dep_index="5" gov="data" gov_index="2">conj_and</dependency>
+      <dependency dep="symptoms" dep_index="5" gov="gambiense" gov_index="18">nsubj</dependency>
+      <dependency dep="predictors" dep_index="7" gov="symptoms" gov_index="5">prep_as</dependency>
+      <dependency dep="astrogliosis" dep_index="9" gov="predictors" gov_index="7">prep_of</dependency>
+      <dependency dep="neurodegeneration" dep_index="11" gov="predictors" gov_index="7">prep_of</dependency>
+      <dependency dep="neurodegeneration" dep_index="11" gov="astrogliosis" gov_index="9">conj_and</dependency>
+      <dependency dep="patients" dep_index="13" gov="symptoms" gov_index="5">prep_in</dependency>
+      <dependency dep="second-stage" dep_index="15" gov="brucei" gov_index="17">amod</dependency>
+      <dependency dep="Trypanosoma" dep_index="16" gov="brucei" gov_index="17">nn</dependency>
+      <dependency dep="brucei" dep_index="17" gov="patients" gov_index="13">prep_with</dependency>
+      <dependency dep="gambiense" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="sleeping" dep_index="19" gov="gambiense" gov_index="18">xcomp</dependency>
+      <dependency dep="sickness" dep_index="20" gov="sleeping" gov_index="19">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

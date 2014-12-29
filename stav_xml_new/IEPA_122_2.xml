@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Centrally@administered@leptin@has@been@shown@to@increase@insulin-stimulated@glucose@utilization@and@to@favor@the@expression@of@uncoupling proteins@(UCPs)@</sentence>
+   <tags>
+      <tag pos="3">leptin</tag>
+      <tag pos="18">uncoupling proteins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Centrally</taggedword>
+      <taggedword index="2" part-of-speech="VBN">administered</taggedword>
+      <taggedword index="3" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="5" part-of-speech="VBN">been</taggedword>
+      <taggedword index="6" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="VB">increase</taggedword>
+      <taggedword index="9" part-of-speech="JJ">insulin-stimulated</taggedword>
+      <taggedword index="10" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="11" part-of-speech="NN">utilization</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="VB">favor</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">expression</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="JJ">uncoupling proteins</taggedword>
+      <taggedword index="19" part-of-speech="NNS">(UCPs)</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Centrally" dep_index="1" gov="administered" gov_index="2">advmod</dependency>
+      <dependency dep="administered" dep_index="2" gov="leptin" gov_index="3">amod</dependency>
+      <dependency dep="leptin" dep_index="3" gov="shown" gov_index="6">nsubjpass</dependency>
+      <dependency dep="has" dep_index="4" gov="shown" gov_index="6">aux</dependency>
+      <dependency dep="been" dep_index="5" gov="shown" gov_index="6">auxpass</dependency>
+      <dependency dep="shown" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="7" gov="increase" gov_index="8">aux</dependency>
+      <dependency dep="increase" dep_index="8" gov="shown" gov_index="6">ccomp</dependency>
+      <dependency dep="insulin-stimulated" dep_index="9" gov="utilization" gov_index="11">amod</dependency>
+      <dependency dep="glucose" dep_index="10" gov="utilization" gov_index="11">nn</dependency>
+      <dependency dep="utilization" dep_index="11" gov="increase" gov_index="8">dobj</dependency>
+      <dependency dep="to" dep_index="13" gov="favor" gov_index="14">aux</dependency>
+      <dependency dep="favor" dep_index="14" gov="shown" gov_index="6">ccomp</dependency>
+      <dependency dep="favor" dep_index="14" gov="increase" gov_index="8">conj_and</dependency>
+      <dependency dep="the" dep_index="15" gov="expression" gov_index="16">det</dependency>
+      <dependency dep="expression" dep_index="16" gov="favor" gov_index="14">dobj</dependency>
+      <dependency dep="uncoupling proteins" dep_index="18" gov="(UCPs)" gov_index="19">amod</dependency>
+      <dependency dep="(UCPs)" dep_index="19" gov="expression" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300018" relationship="true">3 6 14 16 19 18</relation>
+   </relations>
+   <pairs>
+      <pair>300018</pair>
+   </pairs>
+</root>

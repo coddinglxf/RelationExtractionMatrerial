@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@therefore@tested@whether@other@CC-chemokines@could@bind@to@and@activate@CCR5@.@</sentence>
+   <tags>
+      <tag pos="13">CCR5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="RB">therefore</taggedword>
+      <taggedword index="4" part-of-speech="VBN">tested</taggedword>
+      <taggedword index="5" part-of-speech="IN">whether</taggedword>
+      <taggedword index="6" part-of-speech="JJ">other</taggedword>
+      <taggedword index="7" part-of-speech="NNS">CC-chemokines</taggedword>
+      <taggedword index="8" part-of-speech="MD">could</taggedword>
+      <taggedword index="9" part-of-speech="VB">bind</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="VBP">activate</taggedword>
+      <taggedword index="13" part-of-speech="NNP">CCR5</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="tested" gov_index="4">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="tested" gov_index="4">aux</dependency>
+      <dependency dep="therefore" dep_index="3" gov="tested" gov_index="4">advmod</dependency>
+      <dependency dep="tested" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="whether" dep_index="5" gov="bind" gov_index="9">mark</dependency>
+      <dependency dep="other" dep_index="6" gov="CC-chemokines" gov_index="7">amod</dependency>
+      <dependency dep="CC-chemokines" dep_index="7" gov="bind" gov_index="9">nsubj</dependency>
+      <dependency dep="CC-chemokines" dep_index="7" gov="activate" gov_index="12">nsubj</dependency>
+      <dependency dep="could" dep_index="8" gov="bind" gov_index="9">aux</dependency>
+      <dependency dep="bind" dep_index="9" gov="tested" gov_index="4">ccomp</dependency>
+      <dependency dep="to" dep_index="10" gov="bind" gov_index="9">prep</dependency>
+      <dependency dep="activate" dep_index="12" gov="tested" gov_index="4">ccomp</dependency>
+      <dependency dep="activate" dep_index="12" gov="bind" gov_index="9">conj_and</dependency>
+      <dependency dep="CCR5" dep_index="13" gov="activate" gov_index="12">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

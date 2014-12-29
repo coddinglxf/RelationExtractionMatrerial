@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@head@of@the@heterodimer@appears@to@involve@similar@intradimer@interactions@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">head</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">heterodimer</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">appears</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="VB">involve</taggedword>
+      <taggedword index="9" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="10" part-of-speech="NN">intradimer</taggedword>
+      <taggedword index="11" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="head" gov_index="2">det</dependency>
+      <dependency dep="head" dep_index="2" gov="appears" gov_index="6">nsubj</dependency>
+      <dependency dep="head" dep_index="2" gov="involve" gov_index="8">xsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="heterodimer" gov_index="5">det</dependency>
+      <dependency dep="heterodimer" dep_index="5" gov="head" gov_index="2">prep_of</dependency>
+      <dependency dep="appears" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="7" gov="involve" gov_index="8">aux</dependency>
+      <dependency dep="involve" dep_index="8" gov="appears" gov_index="6">xcomp</dependency>
+      <dependency dep="similar" dep_index="9" gov="interactions" gov_index="11">amod</dependency>
+      <dependency dep="intradimer" dep_index="10" gov="interactions" gov_index="11">nn</dependency>
+      <dependency dep="interactions" dep_index="11" gov="involve" gov_index="8">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

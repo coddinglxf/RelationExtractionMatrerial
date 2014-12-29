@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CD5@is@a@glycoprotein@expressed@on@thymocytes@,@T@cells@,@and@a@subset@of@B@cells@.@</sentence>
+   <tags>
+      <tag pos="1">CD5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">glycoprotein</taggedword>
+      <taggedword index="5" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="6" part-of-speech="IN">on</taggedword>
+      <taggedword index="7" part-of-speech="NNS">thymocytes</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">T</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="NN">subset</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NNP">B</taggedword>
+      <taggedword index="17" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CD5" dep_index="1" gov="glycoprotein" gov_index="4">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="glycoprotein" gov_index="4">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="glycoprotein" gov_index="4">det</dependency>
+      <dependency dep="glycoprotein" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="expressed" dep_index="5" gov="glycoprotein" gov_index="4">partmod</dependency>
+      <dependency dep="thymocytes" dep_index="7" gov="expressed" gov_index="5">prep_on</dependency>
+      <dependency dep="T" dep_index="9" gov="cells" gov_index="10">nn</dependency>
+      <dependency dep="cells" dep_index="10" gov="expressed" gov_index="5">prep_on</dependency>
+      <dependency dep="cells" dep_index="10" gov="thymocytes" gov_index="7">conj_and</dependency>
+      <dependency dep="a" dep_index="13" gov="subset" gov_index="14">det</dependency>
+      <dependency dep="subset" dep_index="14" gov="expressed" gov_index="5">prep_on</dependency>
+      <dependency dep="subset" dep_index="14" gov="thymocytes" gov_index="7">conj_and</dependency>
+      <dependency dep="B" dep_index="16" gov="cells" gov_index="17">nn</dependency>
+      <dependency dep="cells" dep_index="17" gov="subset" gov_index="14">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

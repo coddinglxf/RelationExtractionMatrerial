@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@vivo@labelling@with@32P(i)@also@showed@a@four-@to@fivefold@increase@in@Y-394@occupancy@in@p56lck@when@associated@with@CD5@.@</sentence>
+   <tags>
+      <tag pos="17">p56lck</tag>
+      <tag pos="21">CD5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="3" part-of-speech="VBG">labelling</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="CD">32P(i)</taggedword>
+      <taggedword index="6" part-of-speech="RB">also</taggedword>
+      <taggedword index="7" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">four-</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="JJ">fivefold</taggedword>
+      <taggedword index="12" part-of-speech="NN">increase</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">Y-394</taggedword>
+      <taggedword index="15" part-of-speech="NN">occupancy</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="CD">p56lck</taggedword>
+      <taggedword index="18" part-of-speech="WRB">when</taggedword>
+      <taggedword index="19" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="vivo" dep_index="2" gov="showed" gov_index="7">prep_in</dependency>
+      <dependency dep="labelling" dep_index="3" gov="showed" gov_index="7">csubj</dependency>
+      <dependency dep="32P(i)" dep_index="5" gov="labelling" gov_index="3">prep_with</dependency>
+      <dependency dep="also" dep_index="6" gov="showed" gov_index="7">advmod</dependency>
+      <dependency dep="showed" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="8" gov="increase" gov_index="12">det</dependency>
+      <dependency dep="four-" dep_index="9" gov="fivefold" gov_index="11">amod</dependency>
+      <dependency dep="to" dep_index="10" gov="fivefold" gov_index="11">dep</dependency>
+      <dependency dep="fivefold" dep_index="11" gov="increase" gov_index="12">amod</dependency>
+      <dependency dep="increase" dep_index="12" gov="showed" gov_index="7">dobj</dependency>
+      <dependency dep="Y-394" dep_index="14" gov="occupancy" gov_index="15">nn</dependency>
+      <dependency dep="occupancy" dep_index="15" gov="increase" gov_index="12">prep_in</dependency>
+      <dependency dep="p56lck" dep_index="17" gov="showed" gov_index="7">prep_in</dependency>
+      <dependency dep="when" dep_index="18" gov="associated" gov_index="19">advmod</dependency>
+      <dependency dep="associated" dep_index="19" gov="showed" gov_index="7">advcl</dependency>
+      <dependency dep="CD5" dep_index="21" gov="associated" gov_index="19">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700021" relationship="true">17 7 19 21</relation>
+   </relations>
+   <pairs>
+      <pair>1700021</pair>
+   </pairs>
+</root>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>When@taken@in@their@entirety@,@the@experimental@evidence@suggests@that@the@activation@of@PLC@is@an@essential@component@in@the@physiologic@regulation@of@insulin@secretion@and@that@disordered@activation@of@the@enzyme@culminates@in@disordered@insulin@release@</sentence>
+   <tags>
+      <tag pos="15">PLC</tag>
+      <tag pos="25">insulin</tag>
+      <tag pos="37">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="WRB">When</taggedword>
+      <taggedword index="2" part-of-speech="VBN">taken</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="5" part-of-speech="NN">entirety</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">experimental</taggedword>
+      <taggedword index="9" part-of-speech="NN">evidence</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="11" part-of-speech="IN">that</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">activation</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="17" part-of-speech="DT">an</taggedword>
+      <taggedword index="18" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="19" part-of-speech="NN">component</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="JJ">physiologic</taggedword>
+      <taggedword index="23" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="26" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="IN">that</taggedword>
+      <taggedword index="29" part-of-speech="JJ">disordered</taggedword>
+      <taggedword index="30" part-of-speech="NN">activation</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">enzyme</taggedword>
+      <taggedword index="34" part-of-speech="VBZ">culminates</taggedword>
+      <taggedword index="35" part-of-speech="IN">in</taggedword>
+      <taggedword index="36" part-of-speech="JJ">disordered</taggedword>
+      <taggedword index="37" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="38" part-of-speech="NN">release</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="When" dep_index="1" gov="suggests" gov_index="10">advmod</dependency>
+      <dependency dep="taken" dep_index="2" gov="suggests" gov_index="10">partmod</dependency>
+      <dependency dep="their" dep_index="4" gov="entirety" gov_index="5">poss</dependency>
+      <dependency dep="entirety" dep_index="5" gov="taken" gov_index="2">prep_in</dependency>
+      <dependency dep="the" dep_index="7" gov="evidence" gov_index="9">det</dependency>
+      <dependency dep="experimental" dep_index="8" gov="evidence" gov_index="9">amod</dependency>
+      <dependency dep="evidence" dep_index="9" gov="suggests" gov_index="10">nsubj</dependency>
+      <dependency dep="suggests" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="11" gov="component" gov_index="19">mark</dependency>
+      <dependency dep="the" dep_index="12" gov="activation" gov_index="13">det</dependency>
+      <dependency dep="activation" dep_index="13" gov="component" gov_index="19">nsubj</dependency>
+      <dependency dep="PLC" dep_index="15" gov="activation" gov_index="13">prep_of</dependency>
+      <dependency dep="is" dep_index="16" gov="component" gov_index="19">cop</dependency>
+      <dependency dep="an" dep_index="17" gov="component" gov_index="19">det</dependency>
+      <dependency dep="essential" dep_index="18" gov="component" gov_index="19">amod</dependency>
+      <dependency dep="component" dep_index="19" gov="suggests" gov_index="10">ccomp</dependency>
+      <dependency dep="the" dep_index="21" gov="regulation" gov_index="23">det</dependency>
+      <dependency dep="physiologic" dep_index="22" gov="regulation" gov_index="23">amod</dependency>
+      <dependency dep="regulation" dep_index="23" gov="component" gov_index="19">prep_in</dependency>
+      <dependency dep="insulin" dep_index="25" gov="secretion" gov_index="26">nn</dependency>
+      <dependency dep="secretion" dep_index="26" gov="regulation" gov_index="23">prep_of</dependency>
+      <dependency dep="that" dep_index="28" gov="culminates" gov_index="34">mark</dependency>
+      <dependency dep="disordered" dep_index="29" gov="activation" gov_index="30">amod</dependency>
+      <dependency dep="activation" dep_index="30" gov="culminates" gov_index="34">nsubj</dependency>
+      <dependency dep="the" dep_index="32" gov="enzyme" gov_index="33">det</dependency>
+      <dependency dep="enzyme" dep_index="33" gov="activation" gov_index="30">prep_of</dependency>
+      <dependency dep="culminates" dep_index="34" gov="suggests" gov_index="10">ccomp</dependency>
+      <dependency dep="culminates" dep_index="34" gov="component" gov_index="19">conj_and</dependency>
+      <dependency dep="disordered" dep_index="36" gov="release" gov_index="38">amod</dependency>
+      <dependency dep="insulin" dep_index="37" gov="release" gov_index="38">nn</dependency>
+      <dependency dep="release" dep_index="38" gov="culminates" gov_index="34">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500025" relationship="true">15 13 19 23 26 25</relation>
+      <relation position="1500037" relationship="false">15 13 19 10 34 38 37</relation>
+      <relation position="2500037" relationship="false">25 26 23 19 10 34 38 37</relation>
+   </relations>
+   <pairs>
+      <pair>1500025</pair>
+   </pairs>
+</root>

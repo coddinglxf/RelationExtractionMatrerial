@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>AS@is@caused@by@specific@missense@mutations@in@one@of@two@adjacent@amino@acid@residues@(S252W@or@P253R)@in@the@highly@conserved@region@linking@Ig-like@domains@II@and@III@of@FGFR2@.@</sentence>
+   <tags>
+      <tag pos="31">FGFR2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">AS</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="VBN">caused</taggedword>
+      <taggedword index="4" part-of-speech="IN">by</taggedword>
+      <taggedword index="5" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="6" part-of-speech="NN">missense</taggedword>
+      <taggedword index="7" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="CD">one</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="CD">two</taggedword>
+      <taggedword index="12" part-of-speech="JJ">adjacent</taggedword>
+      <taggedword index="13" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="14" part-of-speech="NN">acid</taggedword>
+      <taggedword index="15" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="16" part-of-speech="CD">(S252W</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="CD">P253R)</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="RB">highly</taggedword>
+      <taggedword index="22" part-of-speech="JJ">conserved</taggedword>
+      <taggedword index="23" part-of-speech="NN">region</taggedword>
+      <taggedword index="24" part-of-speech="VBG">linking</taggedword>
+      <taggedword index="25" part-of-speech="NNP">Ig-like</taggedword>
+      <taggedword index="26" part-of-speech="NNP">domains</taggedword>
+      <taggedword index="27" part-of-speech="NNP">II</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="NNP">III</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="NNP">FGFR2</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="AS" dep_index="1" gov="caused" gov_index="3">nsubjpass</dependency>
+      <dependency dep="is" dep_index="2" gov="caused" gov_index="3">auxpass</dependency>
+      <dependency dep="caused" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="specific" dep_index="5" gov="mutations" gov_index="7">amod</dependency>
+      <dependency dep="missense" dep_index="6" gov="mutations" gov_index="7">nn</dependency>
+      <dependency dep="mutations" dep_index="7" gov="caused" gov_index="3">agent</dependency>
+      <dependency dep="one" dep_index="9" gov="mutations" gov_index="7">prep_in</dependency>
+      <dependency dep="two" dep_index="11" gov="residues" gov_index="15">num</dependency>
+      <dependency dep="adjacent" dep_index="12" gov="residues" gov_index="15">amod</dependency>
+      <dependency dep="amino" dep_index="13" gov="residues" gov_index="15">amod</dependency>
+      <dependency dep="acid" dep_index="14" gov="residues" gov_index="15">nn</dependency>
+      <dependency dep="residues" dep_index="15" gov="one" gov_index="9">prep_of</dependency>
+      <dependency dep="(S252W" dep_index="16" gov="caused" gov_index="3">dobj</dependency>
+      <dependency dep="P253R)" dep_index="18" gov="caused" gov_index="3">dobj</dependency>
+      <dependency dep="P253R)" dep_index="18" gov="(S252W" gov_index="16">conj_or</dependency>
+      <dependency dep="the" dep_index="20" gov="region" gov_index="23">det</dependency>
+      <dependency dep="highly" dep_index="21" gov="conserved" gov_index="22">advmod</dependency>
+      <dependency dep="conserved" dep_index="22" gov="region" gov_index="23">amod</dependency>
+      <dependency dep="region" dep_index="23" gov="(S252W" gov_index="16">prep_in</dependency>
+      <dependency dep="linking" dep_index="24" gov="region" gov_index="23">partmod</dependency>
+      <dependency dep="Ig-like" dep_index="25" gov="II" gov_index="27">nn</dependency>
+      <dependency dep="domains" dep_index="26" gov="II" gov_index="27">nn</dependency>
+      <dependency dep="II" dep_index="27" gov="linking" gov_index="24">dobj</dependency>
+      <dependency dep="III" dep_index="29" gov="linking" gov_index="24">dobj</dependency>
+      <dependency dep="III" dep_index="29" gov="II" gov_index="27">conj_and</dependency>
+      <dependency dep="FGFR2" dep_index="31" gov="II" gov_index="27">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

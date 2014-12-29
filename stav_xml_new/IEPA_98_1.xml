@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@observed@that@primary@microglial@cultures@and@the@THP-1@monocytic@cell@line@are@stimulated@by@fibrillar@beta-amyloid@and@prion@peptides@to@activate@identical@tyrosine kinase@-dependent@inflammatory@signal@transduction@cascades@</sentence>
+   <tags>
+      <tag pos="19">prion</tag>
+      <tag pos="24">tyrosine kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">observed</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="5" part-of-speech="JJ">microglial</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cultures</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">THP-1</taggedword>
+      <taggedword index="10" part-of-speech="JJ">monocytic</taggedword>
+      <taggedword index="11" part-of-speech="NN">cell</taggedword>
+      <taggedword index="12" part-of-speech="NN">line</taggedword>
+      <taggedword index="13" part-of-speech="VBP">are</taggedword>
+      <taggedword index="14" part-of-speech="VBN">stimulated</taggedword>
+      <taggedword index="15" part-of-speech="IN">by</taggedword>
+      <taggedword index="16" part-of-speech="NN">fibrillar</taggedword>
+      <taggedword index="17" part-of-speech="NN">beta-amyloid</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">prion</taggedword>
+      <taggedword index="20" part-of-speech="NNS">peptides</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="CD">activate</taggedword>
+      <taggedword index="23" part-of-speech="JJ">identical</taggedword>
+      <taggedword index="24" part-of-speech="JJ">tyrosine kinase</taggedword>
+      <taggedword index="25" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="26" part-of-speech="JJ">inflammatory</taggedword>
+      <taggedword index="27" part-of-speech="NN">signal</taggedword>
+      <taggedword index="28" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="29" part-of-speech="NNS">cascades</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="observed" gov_index="2">nsubj</dependency>
+      <dependency dep="observed" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="stimulated" gov_index="14">mark</dependency>
+      <dependency dep="primary" dep_index="4" gov="cultures" gov_index="6">amod</dependency>
+      <dependency dep="microglial" dep_index="5" gov="cultures" gov_index="6">amod</dependency>
+      <dependency dep="cultures" dep_index="6" gov="stimulated" gov_index="14">nsubjpass</dependency>
+      <dependency dep="the" dep_index="8" gov="line" gov_index="12">det</dependency>
+      <dependency dep="THP-1" dep_index="9" gov="monocytic" gov_index="10">amod</dependency>
+      <dependency dep="monocytic" dep_index="10" gov="line" gov_index="12">amod</dependency>
+      <dependency dep="cell" dep_index="11" gov="line" gov_index="12">nn</dependency>
+      <dependency dep="line" dep_index="12" gov="cultures" gov_index="6">conj_and</dependency>
+      <dependency dep="line" dep_index="12" gov="stimulated" gov_index="14">nsubjpass</dependency>
+      <dependency dep="are" dep_index="13" gov="stimulated" gov_index="14">auxpass</dependency>
+      <dependency dep="stimulated" dep_index="14" gov="observed" gov_index="2">ccomp</dependency>
+      <dependency dep="fibrillar" dep_index="16" gov="beta-amyloid" gov_index="17">nn</dependency>
+      <dependency dep="beta-amyloid" dep_index="17" gov="stimulated" gov_index="14">agent</dependency>
+      <dependency dep="prion" dep_index="19" gov="peptides" gov_index="20">nn</dependency>
+      <dependency dep="peptides" dep_index="20" gov="stimulated" gov_index="14">agent</dependency>
+      <dependency dep="peptides" dep_index="20" gov="beta-amyloid" gov_index="17">conj_and</dependency>
+      <dependency dep="activate" dep_index="22" gov="cascades" gov_index="29">num</dependency>
+      <dependency dep="identical" dep_index="23" gov="tyrosine kinase" gov_index="24">amod</dependency>
+      <dependency dep="tyrosine kinase" dep_index="24" gov="cascades" gov_index="29">amod</dependency>
+      <dependency dep="-dependent" dep_index="25" gov="cascades" gov_index="29">amod</dependency>
+      <dependency dep="inflammatory" dep_index="26" gov="cascades" gov_index="29">amod</dependency>
+      <dependency dep="signal" dep_index="27" gov="cascades" gov_index="29">nn</dependency>
+      <dependency dep="transduction" dep_index="28" gov="cascades" gov_index="29">nn</dependency>
+      <dependency dep="cascades" dep_index="29" gov="stimulated" gov_index="14">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1900024" relationship="true">19 20 14 29 24</relation>
+   </relations>
+   <pairs>
+      <pair>1900024</pair>
+   </pairs>
+</root>

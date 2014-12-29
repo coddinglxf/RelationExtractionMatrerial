@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Expression@analysis@and@epidemiologic@studies@have@provided@indirect@evidence@that@proteinases@and@growth@factors@play@a@role@in@the@development@of@atherosclerosis@and@complications@such@as@aneurysm@formation@and@plaque@rupture@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Expression</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">epidemiologic</taggedword>
+      <taggedword index="5" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="6" part-of-speech="VBP">have</taggedword>
+      <taggedword index="7" part-of-speech="VBN">provided</taggedword>
+      <taggedword index="8" part-of-speech="JJ">indirect</taggedword>
+      <taggedword index="9" part-of-speech="NN">evidence</taggedword>
+      <taggedword index="10" part-of-speech="IN">that</taggedword>
+      <taggedword index="11" part-of-speech="NNS">proteinases</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NN">growth</taggedword>
+      <taggedword index="14" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="15" part-of-speech="VBP">play</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="NN">role</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">development</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNS">atherosclerosis</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NNS">complications</taggedword>
+      <taggedword index="25" part-of-speech="JJ">such</taggedword>
+      <taggedword index="26" part-of-speech="IN">as</taggedword>
+      <taggedword index="27" part-of-speech="NN">aneurysm</taggedword>
+      <taggedword index="28" part-of-speech="NN">formation</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="NN">plaque</taggedword>
+      <taggedword index="31" part-of-speech="NN">rupture</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Expression" dep_index="1" gov="analysis" gov_index="2">nn</dependency>
+      <dependency dep="analysis" dep_index="2" gov="provided" gov_index="7">nsubj</dependency>
+      <dependency dep="epidemiologic" dep_index="4" gov="studies" gov_index="5">nn</dependency>
+      <dependency dep="studies" dep_index="5" gov="analysis" gov_index="2">conj_and</dependency>
+      <dependency dep="studies" dep_index="5" gov="provided" gov_index="7">nsubj</dependency>
+      <dependency dep="have" dep_index="6" gov="provided" gov_index="7">aux</dependency>
+      <dependency dep="provided" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="indirect" dep_index="8" gov="evidence" gov_index="9">amod</dependency>
+      <dependency dep="evidence" dep_index="9" gov="provided" gov_index="7">dobj</dependency>
+      <dependency dep="that" dep_index="10" gov="play" gov_index="15">mark</dependency>
+      <dependency dep="proteinases" dep_index="11" gov="play" gov_index="15">nsubj</dependency>
+      <dependency dep="growth" dep_index="13" gov="factors" gov_index="14">nn</dependency>
+      <dependency dep="factors" dep_index="14" gov="proteinases" gov_index="11">conj_and</dependency>
+      <dependency dep="factors" dep_index="14" gov="play" gov_index="15">nsubj</dependency>
+      <dependency dep="play" dep_index="15" gov="provided" gov_index="7">ccomp</dependency>
+      <dependency dep="a" dep_index="16" gov="role" gov_index="17">det</dependency>
+      <dependency dep="role" dep_index="17" gov="play" gov_index="15">dobj</dependency>
+      <dependency dep="the" dep_index="19" gov="development" gov_index="20">det</dependency>
+      <dependency dep="development" dep_index="20" gov="role" gov_index="17">prep_in</dependency>
+      <dependency dep="atherosclerosis" dep_index="22" gov="development" gov_index="20">prep_of</dependency>
+      <dependency dep="complications" dep_index="24" gov="development" gov_index="20">prep_of</dependency>
+      <dependency dep="complications" dep_index="24" gov="atherosclerosis" gov_index="22">conj_and</dependency>
+      <dependency dep="aneurysm" dep_index="27" gov="formation" gov_index="28">nn</dependency>
+      <dependency dep="formation" dep_index="28" gov="atherosclerosis" gov_index="22">prep_such_as</dependency>
+      <dependency dep="plaque" dep_index="30" gov="rupture" gov_index="31">nn</dependency>
+      <dependency dep="rupture" dep_index="31" gov="atherosclerosis" gov_index="22">prep_such_as</dependency>
+      <dependency dep="rupture" dep_index="31" gov="formation" gov_index="28">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

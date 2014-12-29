@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Acanthamoeba@profilin@affects@the@mechanical@properties@of@nonfilamentous@actin@.@</sentence>
+   <tags>
+      <tag pos="9">actin</tag>
+      <tag pos="2">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Acanthamoeba</taggedword>
+      <taggedword index="2" part-of-speech="NNP">profilin</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">affects</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">mechanical</taggedword>
+      <taggedword index="6" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">nonfilamentous</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Acanthamoeba" dep_index="1" gov="profilin" gov_index="2">nn</dependency>
+      <dependency dep="profilin" dep_index="2" gov="affects" gov_index="3">nsubj</dependency>
+      <dependency dep="affects" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="properties" gov_index="6">det</dependency>
+      <dependency dep="mechanical" dep_index="5" gov="properties" gov_index="6">amod</dependency>
+      <dependency dep="properties" dep_index="6" gov="affects" gov_index="3">dobj</dependency>
+      <dependency dep="nonfilamentous" dep_index="8" gov="actin" gov_index="9">amod</dependency>
+      <dependency dep="actin" dep_index="9" gov="properties" gov_index="6">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200009" relationship="true">2 3 6 9</relation>
+   </relations>
+   <pairs>
+      <pair>200009</pair>
+   </pairs>
+</root>

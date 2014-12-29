@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Comparison@of@the@two@crystallographically@distinct@protein-DNA@complexes@show@that@the@coiled-coil@is@flexibly@joined@to@the@basic@regions@and@that@the@Fos@-@Jun@heterodimer@does@not@recognize@the@asymmetric@5'-TGAGTCA-3'@recognition@element@in@a@unique@orientation@.@</sentence>
+   <tags>
+      <tag pos="23">Fos</tag>
+      <tag pos="25">Jun</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Comparison</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="CD">two</taggedword>
+      <taggedword index="5" part-of-speech="NN">crystallographically</taggedword>
+      <taggedword index="6" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="7" part-of-speech="NN">protein-DNA</taggedword>
+      <taggedword index="8" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="9" part-of-speech="VBP">show</taggedword>
+      <taggedword index="10" part-of-speech="IN">that</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">coiled-coil</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="RB">flexibly</taggedword>
+      <taggedword index="15" part-of-speech="VBN">joined</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">basic</taggedword>
+      <taggedword index="19" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="IN">that</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NNP">Fos</taggedword>
+      <taggedword index="24" part-of-speech="NNP">-</taggedword>
+      <taggedword index="25" part-of-speech="NNP">Jun</taggedword>
+      <taggedword index="26" part-of-speech="NN">heterodimer</taggedword>
+      <taggedword index="27" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="28" part-of-speech="RB">not</taggedword>
+      <taggedword index="29" part-of-speech="VB">recognize</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="JJ">asymmetric</taggedword>
+      <taggedword index="32" part-of-speech="CD">5'-TGAGTCA-3'</taggedword>
+      <taggedword index="33" part-of-speech="NN">recognition</taggedword>
+      <taggedword index="34" part-of-speech="NN">element</taggedword>
+      <taggedword index="35" part-of-speech="IN">in</taggedword>
+      <taggedword index="36" part-of-speech="DT">a</taggedword>
+      <taggedword index="37" part-of-speech="JJ">unique</taggedword>
+      <taggedword index="38" part-of-speech="NN">orientation</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Comparison" dep_index="1" gov="show" gov_index="9">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="complexes" gov_index="8">det</dependency>
+      <dependency dep="two" dep_index="4" gov="complexes" gov_index="8">num</dependency>
+      <dependency dep="crystallographically" dep_index="5" gov="complexes" gov_index="8">nn</dependency>
+      <dependency dep="distinct" dep_index="6" gov="complexes" gov_index="8">amod</dependency>
+      <dependency dep="protein-DNA" dep_index="7" gov="complexes" gov_index="8">nn</dependency>
+      <dependency dep="complexes" dep_index="8" gov="Comparison" gov_index="1">prep_of</dependency>
+      <dependency dep="show" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="10" gov="joined" gov_index="15">mark</dependency>
+      <dependency dep="the" dep_index="11" gov="coiled-coil" gov_index="12">det</dependency>
+      <dependency dep="coiled-coil" dep_index="12" gov="joined" gov_index="15">nsubjpass</dependency>
+      <dependency dep="is" dep_index="13" gov="joined" gov_index="15">auxpass</dependency>
+      <dependency dep="flexibly" dep_index="14" gov="joined" gov_index="15">advmod</dependency>
+      <dependency dep="joined" dep_index="15" gov="show" gov_index="9">ccomp</dependency>
+      <dependency dep="the" dep_index="17" gov="regions" gov_index="19">det</dependency>
+      <dependency dep="basic" dep_index="18" gov="regions" gov_index="19">amod</dependency>
+      <dependency dep="regions" dep_index="19" gov="joined" gov_index="15">prep_to</dependency>
+      <dependency dep="that" dep_index="21" gov="recognize" gov_index="29">mark</dependency>
+      <dependency dep="the" dep_index="22" gov="heterodimer" gov_index="26">det</dependency>
+      <dependency dep="Fos" dep_index="23" gov="heterodimer" gov_index="26">nn</dependency>
+      <dependency dep="Jun" dep_index="25" gov="heterodimer" gov_index="26">nn</dependency>
+      <dependency dep="heterodimer" dep_index="26" gov="recognize" gov_index="29">nsubj</dependency>
+      <dependency dep="does" dep_index="27" gov="recognize" gov_index="29">aux</dependency>
+      <dependency dep="not" dep_index="28" gov="recognize" gov_index="29">neg</dependency>
+      <dependency dep="recognize" dep_index="29" gov="show" gov_index="9">ccomp</dependency>
+      <dependency dep="recognize" dep_index="29" gov="joined" gov_index="15">conj_and</dependency>
+      <dependency dep="the" dep_index="30" gov="element" gov_index="34">det</dependency>
+      <dependency dep="asymmetric" dep_index="31" gov="element" gov_index="34">amod</dependency>
+      <dependency dep="5'-TGAGTCA-3'" dep_index="32" gov="element" gov_index="34">num</dependency>
+      <dependency dep="recognition" dep_index="33" gov="element" gov_index="34">nn</dependency>
+      <dependency dep="element" dep_index="34" gov="recognize" gov_index="29">dobj</dependency>
+      <dependency dep="a" dep_index="36" gov="orientation" gov_index="38">det</dependency>
+      <dependency dep="unique" dep_index="37" gov="orientation" gov_index="38">amod</dependency>
+      <dependency dep="orientation" dep_index="38" gov="element" gov_index="34">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2300025" relationship="true">23 26 25</relation>
+   </relations>
+   <pairs>
+      <pair>2300025</pair>
+   </pairs>
+</root>

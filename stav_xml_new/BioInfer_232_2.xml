@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@find@that@heterozygotes@for@actin@(@Act88F@)@or@myosin heavy chain@(@Mhc36B@)@null@alleles@have@complex@myofibrillar@defects@,@whereas@Mhc36B@-/+;@Act88F@-/+@double@heterozygotes@have@nearly@normal@myofibrils@.@</sentence>
+   <tags>
+      <tag pos="25">Act88F</tag>
+      <tag pos="13">Mhc36B</tag>
+      <tag pos="11">myosin heavy chain</tag>
+      <tag pos="8">Act88F</tag>
+      <tag pos="6">actin</tag>
+      <tag pos="23">Mhc36B</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">find</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NNS">heterozygotes</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="7" part-of-speech="NNP">(</taggedword>
+      <taggedword index="8" part-of-speech="NN">Act88F</taggedword>
+      <taggedword index="9" part-of-speech="NN">)</taggedword>
+      <taggedword index="10" part-of-speech="CC">or</taggedword>
+      <taggedword index="11" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="12" part-of-speech="NN">(</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Mhc36B</taggedword>
+      <taggedword index="14" part-of-speech="VBD">)</taggedword>
+      <taggedword index="15" part-of-speech="JJ">null</taggedword>
+      <taggedword index="16" part-of-speech="NNS">alleles</taggedword>
+      <taggedword index="17" part-of-speech="VBP">have</taggedword>
+      <taggedword index="18" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="19" part-of-speech="NN">myofibrillar</taggedword>
+      <taggedword index="20" part-of-speech="NNS">defects</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="23" part-of-speech="JJ">Mhc36B</taggedword>
+      <taggedword index="24" part-of-speech="NN">-/+;</taggedword>
+      <taggedword index="25" part-of-speech="NNS">Act88F</taggedword>
+      <taggedword index="26" part-of-speech="VBD">-/+</taggedword>
+      <taggedword index="27" part-of-speech="JJ">double</taggedword>
+      <taggedword index="28" part-of-speech="NNS">heterozygotes</taggedword>
+      <taggedword index="29" part-of-speech="VBP">have</taggedword>
+      <taggedword index="30" part-of-speech="RB">nearly</taggedword>
+      <taggedword index="31" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="32" part-of-speech="NNS">myofibrils</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="find" gov_index="2">nsubj</dependency>
+      <dependency dep="find" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov=")" gov_index="14">mark</dependency>
+      <dependency dep="heterozygotes" dep_index="4" gov=")" gov_index="14">nsubj</dependency>
+      <dependency dep="actin" dep_index="6" gov=")" gov_index="9">amod</dependency>
+      <dependency dep="(" dep_index="7" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="Act88F" dep_index="8" gov=")" gov_index="9">nn</dependency>
+      <dependency dep=")" dep_index="9" gov="heterozygotes" gov_index="4">prep_for</dependency>
+      <dependency dep="myosin heavy chain" dep_index="11" gov="Mhc36B" gov_index="13">nn</dependency>
+      <dependency dep="(" dep_index="12" gov="Mhc36B" gov_index="13">nn</dependency>
+      <dependency dep="Mhc36B" dep_index="13" gov="heterozygotes" gov_index="4">prep_for</dependency>
+      <dependency dep="Mhc36B" dep_index="13" gov=")" gov_index="9">conj_or</dependency>
+      <dependency dep=")" dep_index="14" gov="find" gov_index="2">ccomp</dependency>
+      <dependency dep="null" dep_index="15" gov="alleles" gov_index="16">amod</dependency>
+      <dependency dep="alleles" dep_index="16" gov="have" gov_index="17">nsubj</dependency>
+      <dependency dep="have" dep_index="17" gov=")" gov_index="14">ccomp</dependency>
+      <dependency dep="complex" dep_index="18" gov="defects" gov_index="20">amod</dependency>
+      <dependency dep="myofibrillar" dep_index="19" gov="defects" gov_index="20">nn</dependency>
+      <dependency dep="defects" dep_index="20" gov="have" gov_index="17">dobj</dependency>
+      <dependency dep="whereas" dep_index="22" gov="-/+" gov_index="26">mark</dependency>
+      <dependency dep="Mhc36B" dep_index="23" gov="Act88F" gov_index="25">amod</dependency>
+      <dependency dep="-/+;" dep_index="24" gov="Act88F" gov_index="25">nn</dependency>
+      <dependency dep="Act88F" dep_index="25" gov="-/+" gov_index="26">nsubj</dependency>
+      <dependency dep="-/+" dep_index="26" gov="have" gov_index="17">advcl</dependency>
+      <dependency dep="double" dep_index="27" gov="heterozygotes" gov_index="28">amod</dependency>
+      <dependency dep="heterozygotes" dep_index="28" gov="have" gov_index="29">nsubj</dependency>
+      <dependency dep="have" dep_index="29" gov="-/+" gov_index="26">ccomp</dependency>
+      <dependency dep="nearly" dep_index="30" gov="normal" gov_index="31">advmod</dependency>
+      <dependency dep="normal" dep_index="31" gov="myofibrils" gov_index="32">amod</dependency>
+      <dependency dep="myofibrils" dep_index="32" gov="have" gov_index="29">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300025" relationship="false">13 4 14 17 26 25</relation>
+      <relation position="1100025" relationship="false">11 13 4 14 17 26 25</relation>
+      <relation position="800025" relationship="false">8 9 4 14 17 26 25</relation>
+      <relation position="600025" relationship="false">6 9 4 14 17 26 25</relation>
+      <relation position="2300025" relationship="false"></relation>
+      <relation position="1100013" relationship="false"></relation>
+      <relation position="800013" relationship="false">8 9 13</relation>
+      <relation position="600013" relationship="false">6 9 13</relation>
+      <relation position="1300023" relationship="false">13 4 14 17 26 25 23</relation>
+      <relation position="800011" relationship="false">8 9 13 11</relation>
+      <relation position="600011" relationship="false">6 9 13 11</relation>
+      <relation position="1100023" relationship="false">11 13 4 14 17 26 25 23</relation>
+      <relation position="600008" relationship="false">6 9 8</relation>
+      <relation position="800023" relationship="false">8 9 4 14 17 26 25 23</relation>
+      <relation position="600023" relationship="false">6 9 4 14 17 26 25 23</relation>
+   </relations>
+   <pairs/>
+</root>

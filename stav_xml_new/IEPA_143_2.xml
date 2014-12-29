@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@oxytocin@administration@stimulates@insulin@synthesis@and@secretion@in@intact@and@diabetic@animals@and@this@effect@is@more@expressed@with@central@injections@</sentence>
+   <tags>
+      <tag pos="3">oxytocin</tag>
+      <tag pos="6">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="4" part-of-speech="NN">administration</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">stimulates</taggedword>
+      <taggedword index="6" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="7" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="JJ">intact</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="JJ">diabetic</taggedword>
+      <taggedword index="14" part-of-speech="NNS">animals</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="DT">this</taggedword>
+      <taggedword index="17" part-of-speech="NN">effect</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="19" part-of-speech="RBR">more</taggedword>
+      <taggedword index="20" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="JJ">central</taggedword>
+      <taggedword index="23" part-of-speech="NNS">injections</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="stimulates" gov_index="5">advmod</dependency>
+      <dependency dep="oxytocin" dep_index="3" gov="administration" gov_index="4">nn</dependency>
+      <dependency dep="administration" dep_index="4" gov="stimulates" gov_index="5">nsubj</dependency>
+      <dependency dep="stimulates" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="insulin" dep_index="6" gov="synthesis" gov_index="7">nn</dependency>
+      <dependency dep="synthesis" dep_index="7" gov="stimulates" gov_index="5">dobj</dependency>
+      <dependency dep="secretion" dep_index="9" gov="stimulates" gov_index="5">dobj</dependency>
+      <dependency dep="secretion" dep_index="9" gov="synthesis" gov_index="7">conj_and</dependency>
+      <dependency dep="intact" dep_index="11" gov="animals" gov_index="14">amod</dependency>
+      <dependency dep="diabetic" dep_index="13" gov="intact" gov_index="11">conj_and</dependency>
+      <dependency dep="diabetic" dep_index="13" gov="animals" gov_index="14">amod</dependency>
+      <dependency dep="animals" dep_index="14" gov="synthesis" gov_index="7">prep_in</dependency>
+      <dependency dep="this" dep_index="16" gov="effect" gov_index="17">det</dependency>
+      <dependency dep="effect" dep_index="17" gov="expressed" gov_index="20">nsubjpass</dependency>
+      <dependency dep="is" dep_index="18" gov="expressed" gov_index="20">auxpass</dependency>
+      <dependency dep="more" dep_index="19" gov="expressed" gov_index="20">advmod</dependency>
+      <dependency dep="expressed" dep_index="20" gov="stimulates" gov_index="5">conj_and</dependency>
+      <dependency dep="central" dep_index="22" gov="injections" gov_index="23">amod</dependency>
+      <dependency dep="injections" dep_index="23" gov="expressed" gov_index="20">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300006" relationship="true">3 4 5 7 6</relation>
+   </relations>
+   <pairs>
+      <pair>300006</pair>
+   </pairs>
+</root>

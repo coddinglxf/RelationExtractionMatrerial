@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Oxytocin@central@injections@to@intact@animals@stimulated@insulin@synthesis@and@secretion@without@changing@of@islets@area@</sentence>
+   <tags>
+      <tag pos="1">Oxytocin</tag>
+      <tag pos="8">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Oxytocin</taggedword>
+      <taggedword index="2" part-of-speech="JJ">central</taggedword>
+      <taggedword index="3" part-of-speech="NNS">injections</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="JJ">intact</taggedword>
+      <taggedword index="6" part-of-speech="NNS">animals</taggedword>
+      <taggedword index="7" part-of-speech="VBN">stimulated</taggedword>
+      <taggedword index="8" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="9" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="12" part-of-speech="IN">without</taggedword>
+      <taggedword index="13" part-of-speech="VBG">changing</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">islets</taggedword>
+      <taggedword index="16" part-of-speech="NN">area</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Oxytocin" dep_index="1" gov="injections" gov_index="3">amod</dependency>
+      <dependency dep="central" dep_index="2" gov="injections" gov_index="3">amod</dependency>
+      <dependency dep="injections" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="intact" dep_index="5" gov="animals" gov_index="6">amod</dependency>
+      <dependency dep="animals" dep_index="6" gov="injections" gov_index="3">prep_to</dependency>
+      <dependency dep="stimulated" dep_index="7" gov="animals" gov_index="6">partmod</dependency>
+      <dependency dep="insulin" dep_index="8" gov="synthesis" gov_index="9">nn</dependency>
+      <dependency dep="synthesis" dep_index="9" gov="stimulated" gov_index="7">dobj</dependency>
+      <dependency dep="secretion" dep_index="11" gov="stimulated" gov_index="7">dobj</dependency>
+      <dependency dep="secretion" dep_index="11" gov="synthesis" gov_index="9">conj_and</dependency>
+      <dependency dep="changing" dep_index="13" gov="stimulated" gov_index="7">prepc_without</dependency>
+      <dependency dep="islets" dep_index="15" gov="area" gov_index="16">amod</dependency>
+      <dependency dep="area" dep_index="16" gov="changing" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100008" relationship="true">1 3 6 7 9 8</relation>
+   </relations>
+   <pairs>
+      <pair>100008</pair>
+   </pairs>
+</root>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>SF3a@interacts@with@U2 snRNP@in@the@presence@of@SF3b@to@generate@a@structure@similar@to@17S@U2 snRNP@,@which@suggests@a@function@for@SF3a@and@SF3b@in@the@incorporation@of@U2 snRNP@into@the@spliceosome@.@</sentence>
+   <tags>
+      <tag pos="1">SF3a</tag>
+      <tag pos="4">U2 snRNP</tag>
+      <tag pos="9">SF3b</tag>
+      <tag pos="17">U2 snRNP</tag>
+      <tag pos="24">SF3a</tag>
+      <tag pos="26">SF3b</tag>
+      <tag pos="31">U2 snRNP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">SF3a</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="NNS">U2 snRNP</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">presence</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNS">SF3b</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="VB">generate</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="NN">structure</taggedword>
+      <taggedword index="14" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="CD">17S</taggedword>
+      <taggedword index="17" part-of-speech="NNS">U2 snRNP</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="WDT">which</taggedword>
+      <taggedword index="20" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="21" part-of-speech="DT">a</taggedword>
+      <taggedword index="22" part-of-speech="NN">function</taggedword>
+      <taggedword index="23" part-of-speech="IN">for</taggedword>
+      <taggedword index="24" part-of-speech="NNS">SF3a</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="NNS">SF3b</taggedword>
+      <taggedword index="27" part-of-speech="IN">in</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="NN">incorporation</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="NNS">U2 snRNP</taggedword>
+      <taggedword index="32" part-of-speech="IN">into</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="NN">spliceosome</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="SF3a" dep_index="1" gov="interacts" gov_index="2">nsubj</dependency>
+      <dependency dep="SF3a" dep_index="1" gov="generate" gov_index="11">xsubj</dependency>
+      <dependency dep="interacts" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="U2 snRNP" dep_index="4" gov="interacts" gov_index="2">prep_with</dependency>
+      <dependency dep="the" dep_index="6" gov="presence" gov_index="7">det</dependency>
+      <dependency dep="presence" dep_index="7" gov="U2 snRNP" gov_index="4">prep_in</dependency>
+      <dependency dep="SF3b" dep_index="9" gov="presence" gov_index="7">prep_of</dependency>
+      <dependency dep="to" dep_index="10" gov="generate" gov_index="11">aux</dependency>
+      <dependency dep="generate" dep_index="11" gov="interacts" gov_index="2">xcomp</dependency>
+      <dependency dep="a" dep_index="12" gov="structure" gov_index="13">det</dependency>
+      <dependency dep="structure" dep_index="13" gov="similar" gov_index="14">nsubj</dependency>
+      <dependency dep="similar" dep_index="14" gov="generate" gov_index="11">xcomp</dependency>
+      <dependency dep="17S" dep_index="16" gov="U2 snRNP" gov_index="17">num</dependency>
+      <dependency dep="U2 snRNP" dep_index="17" gov="similar" gov_index="14">prep_to</dependency>
+      <dependency dep="U2 snRNP" dep_index="17" gov="suggests" gov_index="20">nsubj</dependency>
+      <dependency dep="suggests" dep_index="20" gov="U2 snRNP" gov_index="17">rcmod</dependency>
+      <dependency dep="a" dep_index="21" gov="function" gov_index="22">det</dependency>
+      <dependency dep="function" dep_index="22" gov="suggests" gov_index="20">dobj</dependency>
+      <dependency dep="SF3a" dep_index="24" gov="function" gov_index="22">prep_for</dependency>
+      <dependency dep="SF3b" dep_index="26" gov="function" gov_index="22">prep_for</dependency>
+      <dependency dep="SF3b" dep_index="26" gov="SF3a" gov_index="24">conj_and</dependency>
+      <dependency dep="the" dep_index="28" gov="incorporation" gov_index="29">det</dependency>
+      <dependency dep="incorporation" dep_index="29" gov="SF3a" gov_index="24">prep_in</dependency>
+      <dependency dep="U2 snRNP" dep_index="31" gov="incorporation" gov_index="29">prep_of</dependency>
+      <dependency dep="the" dep_index="33" gov="spliceosome" gov_index="34">det</dependency>
+      <dependency dep="spliceosome" dep_index="34" gov="suggests" gov_index="20">prep_into</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100004" relationship="true">1 2 4</relation>
+      <relation position="100009" relationship="false">1 2 4 7 9</relation>
+      <relation position="100017" relationship="false">1 11 14 17</relation>
+      <relation position="100024" relationship="false">1 11 14 17 20 22 24</relation>
+      <relation position="100026" relationship="false">1 11 14 17 20 22 26</relation>
+      <relation position="100031" relationship="false">1 11 14 17 20 22 24 29 31</relation>
+      <relation position="400009" relationship="false"></relation>
+      <relation position="400017" relationship="false">4 2 11 14 17</relation>
+      <relation position="400024" relationship="false">4 2 11 14 17 20 22 24</relation>
+      <relation position="400026" relationship="false">4 2 11 14 17 20 22 26</relation>
+      <relation position="400031" relationship="false">4 2 11 14 17 20 22 24 29 31</relation>
+      <relation position="900017" relationship="false">9 7 4 2 11 14 17</relation>
+      <relation position="900024" relationship="false">9 7 4 2 11 14 17 20 22 24</relation>
+      <relation position="900026" relationship="false">9 7 4 2 11 14 17 20 22 26</relation>
+      <relation position="900031" relationship="false">9 7 4 2 11 14 17 20 22 24 29 31</relation>
+      <relation position="1700024" relationship="false">17 20 22 24</relation>
+      <relation position="1700026" relationship="false">17 20 22 26</relation>
+      <relation position="1700031" relationship="false">17 20 22 24 29 31</relation>
+      <relation position="2400026" relationship="false">24 22 26</relation>
+      <relation position="2400031" relationship="false"></relation>
+      <relation position="2600031" relationship="false">26 22 24 29 31</relation>
+   </relations>
+   <pairs>
+      <pair>100004</pair>
+   </pairs>
+</root>

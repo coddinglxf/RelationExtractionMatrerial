@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@the@F93A@mutation@in@full-length@EPOR@expressed@in@COS@cells@abolished@detectable@EPO@binding@.@</sentence>
+   <tags>
+      <tag pos="8">EPOR</tag>
+      <tag pos="15">EPO</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">F93A</taggedword>
+      <taggedword index="5" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">full-length</taggedword>
+      <taggedword index="8" part-of-speech="NN">EPOR</taggedword>
+      <taggedword index="9" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NNP">COS</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="13" part-of-speech="VBD">abolished</taggedword>
+      <taggedword index="14" part-of-speech="NNP">detectable</taggedword>
+      <taggedword index="15" part-of-speech="NNP">EPO</taggedword>
+      <taggedword index="16" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="abolished" gov_index="13">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="mutation" gov_index="5">det</dependency>
+      <dependency dep="F93A" dep_index="4" gov="mutation" gov_index="5">amod</dependency>
+      <dependency dep="mutation" dep_index="5" gov="abolished" gov_index="13">nsubj</dependency>
+      <dependency dep="full-length" dep_index="7" gov="EPOR" gov_index="8">amod</dependency>
+      <dependency dep="EPOR" dep_index="8" gov="mutation" gov_index="5">prep_in</dependency>
+      <dependency dep="expressed" dep_index="9" gov="EPOR" gov_index="8">partmod</dependency>
+      <dependency dep="COS" dep_index="11" gov="cells" gov_index="12">nn</dependency>
+      <dependency dep="cells" dep_index="12" gov="expressed" gov_index="9">prep_in</dependency>
+      <dependency dep="abolished" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="detectable" dep_index="14" gov="EPO" gov_index="15">nn</dependency>
+      <dependency dep="EPO" dep_index="15" gov="binding" gov_index="16">nsubj</dependency>
+      <dependency dep="binding" dep_index="16" gov="abolished" gov_index="13">xcomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800015" relationship="true">8 5 13 16 15</relation>
+   </relations>
+   <pairs>
+      <pair>800015</pair>
+   </pairs>
+</root>

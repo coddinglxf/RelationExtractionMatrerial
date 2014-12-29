@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>After@digestion@of@the@60@kDa@fragment@with@cyanogen@bromide@,@the@N-terminal@21-amino@acid@sequence@of@one@of@the@resulting@peptides@was@found@to@show@sequence@similarity@to@a@region@near@the@actin@-binding@site@(amino@acid@residues@260-281)@of@yeast@fimbrin@.@</sentence>
+   <tags>
+      <tag pos="43">fimbrin</tag>
+      <tag pos="34">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">After</taggedword>
+      <taggedword index="2" part-of-speech="NN">digestion</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="CD">60</taggedword>
+      <taggedword index="6" part-of-speech="NN">kDa</taggedword>
+      <taggedword index="7" part-of-speech="NN">fragment</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NN">cyanogen</taggedword>
+      <taggedword index="10" part-of-speech="NN">bromide</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">N-terminal</taggedword>
+      <taggedword index="14" part-of-speech="JJ">21-amino</taggedword>
+      <taggedword index="15" part-of-speech="NN">acid</taggedword>
+      <taggedword index="16" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="CD">one</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="VBG">resulting</taggedword>
+      <taggedword index="22" part-of-speech="NNS">peptides</taggedword>
+      <taggedword index="23" part-of-speech="VBD">was</taggedword>
+      <taggedword index="24" part-of-speech="VBN">found</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="VB">show</taggedword>
+      <taggedword index="27" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="28" part-of-speech="NN">similarity</taggedword>
+      <taggedword index="29" part-of-speech="TO">to</taggedword>
+      <taggedword index="30" part-of-speech="DT">a</taggedword>
+      <taggedword index="31" part-of-speech="NN">region</taggedword>
+      <taggedword index="32" part-of-speech="IN">near</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="35" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="36" part-of-speech="NN">site</taggedword>
+      <taggedword index="37" part-of-speech="NN">(amino</taggedword>
+      <taggedword index="38" part-of-speech="NN">acid</taggedword>
+      <taggedword index="39" part-of-speech="VBG">residues</taggedword>
+      <taggedword index="40" part-of-speech="CD">260-281)</taggedword>
+      <taggedword index="41" part-of-speech="IN">of</taggedword>
+      <taggedword index="42" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="43" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="44" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="digestion" dep_index="2" gov="found" gov_index="24">prep_after</dependency>
+      <dependency dep="the" dep_index="4" gov="fragment" gov_index="7">det</dependency>
+      <dependency dep="60" dep_index="5" gov="fragment" gov_index="7">num</dependency>
+      <dependency dep="kDa" dep_index="6" gov="fragment" gov_index="7">nn</dependency>
+      <dependency dep="fragment" dep_index="7" gov="digestion" gov_index="2">prep_of</dependency>
+      <dependency dep="cyanogen" dep_index="9" gov="bromide" gov_index="10">nn</dependency>
+      <dependency dep="bromide" dep_index="10" gov="fragment" gov_index="7">prep_with</dependency>
+      <dependency dep="the" dep_index="12" gov="sequence" gov_index="16">det</dependency>
+      <dependency dep="N-terminal" dep_index="13" gov="sequence" gov_index="16">amod</dependency>
+      <dependency dep="21-amino" dep_index="14" gov="sequence" gov_index="16">amod</dependency>
+      <dependency dep="acid" dep_index="15" gov="sequence" gov_index="16">nn</dependency>
+      <dependency dep="sequence" dep_index="16" gov="found" gov_index="24">nsubjpass</dependency>
+      <dependency dep="sequence" dep_index="16" gov="show" gov_index="26">xsubj</dependency>
+      <dependency dep="one" dep_index="18" gov="sequence" gov_index="16">prep_of</dependency>
+      <dependency dep="the" dep_index="20" gov="peptides" gov_index="22">det</dependency>
+      <dependency dep="resulting" dep_index="21" gov="peptides" gov_index="22">amod</dependency>
+      <dependency dep="peptides" dep_index="22" gov="one" gov_index="18">prep_of</dependency>
+      <dependency dep="was" dep_index="23" gov="found" gov_index="24">auxpass</dependency>
+      <dependency dep="found" dep_index="24" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="25" gov="show" gov_index="26">aux</dependency>
+      <dependency dep="show" dep_index="26" gov="found" gov_index="24">xcomp</dependency>
+      <dependency dep="sequence" dep_index="27" gov="similarity" gov_index="28">nn</dependency>
+      <dependency dep="similarity" dep_index="28" gov="show" gov_index="26">dobj</dependency>
+      <dependency dep="a" dep_index="30" gov="region" gov_index="31">det</dependency>
+      <dependency dep="region" dep_index="31" gov="show" gov_index="26">prep_to</dependency>
+      <dependency dep="the" dep_index="33" gov="acid" gov_index="38">det</dependency>
+      <dependency dep="actin" dep_index="34" gov="acid" gov_index="38">amod</dependency>
+      <dependency dep="-binding" dep_index="35" gov="acid" gov_index="38">amod</dependency>
+      <dependency dep="site" dep_index="36" gov="acid" gov_index="38">nn</dependency>
+      <dependency dep="(amino" dep_index="37" gov="acid" gov_index="38">nn</dependency>
+      <dependency dep="acid" dep_index="38" gov="region" gov_index="31">prep_near</dependency>
+      <dependency dep="residues" dep_index="39" gov="acid" gov_index="38">partmod</dependency>
+      <dependency dep="260-281)" dep_index="40" gov="residues" gov_index="39">dobj</dependency>
+      <dependency dep="yeast" dep_index="42" gov="fimbrin" gov_index="43">nn</dependency>
+      <dependency dep="fimbrin" dep_index="43" gov="260-281)" gov_index="40">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3400043" relationship="true">34 38 39 40 43</relation>
+   </relations>
+   <pairs>
+      <pair>3400043</pair>
+   </pairs>
+</root>

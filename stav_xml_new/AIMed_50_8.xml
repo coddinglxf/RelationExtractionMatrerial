@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Relating@the@anti-viral@and@anti-proliferative@activity@of@the@various@interferon@mutants@with@their@affinity@toward@ifnar2@results@in@linear@function@over@the@whole@range@of@affinities@investigated@,@suggesting@that@ifnar2@binding@is@the@rate-determining@step@in@cellular@activation@.@</sentence>
+   <tags>
+      <tag pos="16">ifnar2</tag>
+      <tag pos="31">ifnar2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Relating</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">anti-viral</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="JJ">anti-proliferative</taggedword>
+      <taggedword index="6" part-of-speech="NN">activity</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">various</taggedword>
+      <taggedword index="10" part-of-speech="NN">interferon</taggedword>
+      <taggedword index="11" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="14" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="15" part-of-speech="IN">toward</taggedword>
+      <taggedword index="16" part-of-speech="JJ">ifnar2</taggedword>
+      <taggedword index="17" part-of-speech="NNS">results</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="JJ">linear</taggedword>
+      <taggedword index="20" part-of-speech="NN">function</taggedword>
+      <taggedword index="21" part-of-speech="IN">over</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">whole</taggedword>
+      <taggedword index="24" part-of-speech="NN">range</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NNS">affinities</taggedword>
+      <taggedword index="27" part-of-speech="VBD">investigated</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="VBG">suggesting</taggedword>
+      <taggedword index="30" part-of-speech="IN">that</taggedword>
+      <taggedword index="31" part-of-speech="JJ">ifnar2</taggedword>
+      <taggedword index="32" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="33" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="JJ">rate-determining</taggedword>
+      <taggedword index="36" part-of-speech="NN">step</taggedword>
+      <taggedword index="37" part-of-speech="IN">in</taggedword>
+      <taggedword index="38" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="39" part-of-speech="NN">activation</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Relating" dep_index="1" gov="investigated" gov_index="27">csubj</dependency>
+      <dependency dep="the" dep_index="2" gov="activity" gov_index="6">det</dependency>
+      <dependency dep="anti-viral" dep_index="3" gov="activity" gov_index="6">amod</dependency>
+      <dependency dep="anti-proliferative" dep_index="5" gov="anti-viral" gov_index="3">conj_and</dependency>
+      <dependency dep="anti-proliferative" dep_index="5" gov="activity" gov_index="6">amod</dependency>
+      <dependency dep="activity" dep_index="6" gov="Relating" gov_index="1">dobj</dependency>
+      <dependency dep="the" dep_index="8" gov="mutants" gov_index="11">det</dependency>
+      <dependency dep="various" dep_index="9" gov="mutants" gov_index="11">amod</dependency>
+      <dependency dep="interferon" dep_index="10" gov="mutants" gov_index="11">nn</dependency>
+      <dependency dep="mutants" dep_index="11" gov="activity" gov_index="6">prep_of</dependency>
+      <dependency dep="their" dep_index="13" gov="affinity" gov_index="14">poss</dependency>
+      <dependency dep="affinity" dep_index="14" gov="Relating" gov_index="1">prep_with</dependency>
+      <dependency dep="ifnar2" dep_index="16" gov="results" gov_index="17">amod</dependency>
+      <dependency dep="results" dep_index="17" gov="affinity" gov_index="14">prep_toward</dependency>
+      <dependency dep="linear" dep_index="19" gov="function" gov_index="20">amod</dependency>
+      <dependency dep="function" dep_index="20" gov="results" gov_index="17">prep_in</dependency>
+      <dependency dep="the" dep_index="22" gov="range" gov_index="24">det</dependency>
+      <dependency dep="whole" dep_index="23" gov="range" gov_index="24">amod</dependency>
+      <dependency dep="range" dep_index="24" gov="Relating" gov_index="1">prep_over</dependency>
+      <dependency dep="affinities" dep_index="26" gov="range" gov_index="24">prep_of</dependency>
+      <dependency dep="investigated" dep_index="27" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="suggesting" dep_index="29" gov="investigated" gov_index="27">xcomp</dependency>
+      <dependency dep="that" dep_index="30" gov="step" gov_index="36">mark</dependency>
+      <dependency dep="ifnar2" dep_index="31" gov="step" gov_index="36">nsubj</dependency>
+      <dependency dep="binding" dep_index="32" gov="ifnar2" gov_index="31">amod</dependency>
+      <dependency dep="is" dep_index="33" gov="step" gov_index="36">cop</dependency>
+      <dependency dep="the" dep_index="34" gov="step" gov_index="36">det</dependency>
+      <dependency dep="rate-determining" dep_index="35" gov="step" gov_index="36">amod</dependency>
+      <dependency dep="step" dep_index="36" gov="suggesting" gov_index="29">ccomp</dependency>
+      <dependency dep="cellular" dep_index="38" gov="activation" gov_index="39">amod</dependency>
+      <dependency dep="activation" dep_index="39" gov="step" gov_index="36">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600031" relationship="false">16 17 14 1 27 29 36 31</relation>
+   </relations>
+   <pairs/>
+</root>

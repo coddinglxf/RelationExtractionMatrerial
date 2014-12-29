@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>From@these@results@,@it@appears@that@p60@is@a@key@mediator@in@the@chaperoned@assembly@and@functional@maturation@of@PR@complexes@.@</sentence>
+   <tags>
+      <tag pos="8">p60</tag>
+      <tag pos="21">PR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">From</taggedword>
+      <taggedword index="2" part-of-speech="DT">these</taggedword>
+      <taggedword index="3" part-of-speech="NNS">results</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">it</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">appears</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="NNS">p60</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">key</taggedword>
+      <taggedword index="12" part-of-speech="NN">mediator</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">chaperoned</taggedword>
+      <taggedword index="16" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">functional</taggedword>
+      <taggedword index="19" part-of-speech="NN">maturation</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NNP">PR</taggedword>
+      <taggedword index="22" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="these" dep_index="2" gov="results" gov_index="3">det</dependency>
+      <dependency dep="results" dep_index="3" gov="appears" gov_index="6">prep_from</dependency>
+      <dependency dep="it" dep_index="5" gov="appears" gov_index="6">nsubj</dependency>
+      <dependency dep="appears" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="mediator" gov_index="12">mark</dependency>
+      <dependency dep="p60" dep_index="8" gov="mediator" gov_index="12">nsubj</dependency>
+      <dependency dep="is" dep_index="9" gov="mediator" gov_index="12">cop</dependency>
+      <dependency dep="a" dep_index="10" gov="mediator" gov_index="12">det</dependency>
+      <dependency dep="key" dep_index="11" gov="mediator" gov_index="12">amod</dependency>
+      <dependency dep="mediator" dep_index="12" gov="appears" gov_index="6">ccomp</dependency>
+      <dependency dep="the" dep_index="14" gov="assembly" gov_index="16">det</dependency>
+      <dependency dep="chaperoned" dep_index="15" gov="assembly" gov_index="16">amod</dependency>
+      <dependency dep="assembly" dep_index="16" gov="mediator" gov_index="12">prep_in</dependency>
+      <dependency dep="functional" dep_index="18" gov="maturation" gov_index="19">nn</dependency>
+      <dependency dep="maturation" dep_index="19" gov="mediator" gov_index="12">prep_in</dependency>
+      <dependency dep="maturation" dep_index="19" gov="assembly" gov_index="16">conj_and</dependency>
+      <dependency dep="PR" dep_index="21" gov="complexes" gov_index="22">nn</dependency>
+      <dependency dep="complexes" dep_index="22" gov="assembly" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800021" relationship="false">8 12 16 22 21</relation>
+   </relations>
+   <pairs/>
+</root>

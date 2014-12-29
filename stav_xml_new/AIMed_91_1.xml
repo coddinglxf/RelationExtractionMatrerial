@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Molecular@cloning@and@expression@of@the@32-kDa@subunit@of@human@TFIID@reveals@interactions@with@VP16@and@TFIIB@that@mediate@transcriptional@activation@.@</sentence>
+   <tags>
+      <tag pos="11">TFIID</tag>
+      <tag pos="15">VP16</tag>
+      <tag pos="17">TFIIB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Molecular</taggedword>
+      <taggedword index="2" part-of-speech="NN">cloning</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">32-kDa</taggedword>
+      <taggedword index="8" part-of-speech="NN">subunit</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="JJ">human</taggedword>
+      <taggedword index="11" part-of-speech="NNP">TFIID</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">reveals</taggedword>
+      <taggedword index="13" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="NNP">VP16</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NNP">TFIIB</taggedword>
+      <taggedword index="18" part-of-speech="WDT">that</taggedword>
+      <taggedword index="19" part-of-speech="VB">mediate</taggedword>
+      <taggedword index="20" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="21" part-of-speech="NN">activation</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Molecular" dep_index="1" gov="cloning" gov_index="2">nn</dependency>
+      <dependency dep="cloning" dep_index="2" gov="reveals" gov_index="12">nsubj</dependency>
+      <dependency dep="expression" dep_index="4" gov="cloning" gov_index="2">conj_and</dependency>
+      <dependency dep="expression" dep_index="4" gov="reveals" gov_index="12">nsubj</dependency>
+      <dependency dep="the" dep_index="6" gov="subunit" gov_index="8">det</dependency>
+      <dependency dep="32-kDa" dep_index="7" gov="subunit" gov_index="8">amod</dependency>
+      <dependency dep="subunit" dep_index="8" gov="cloning" gov_index="2">prep_of</dependency>
+      <dependency dep="human" dep_index="10" gov="TFIID" gov_index="11">amod</dependency>
+      <dependency dep="TFIID" dep_index="11" gov="subunit" gov_index="8">prep_of</dependency>
+      <dependency dep="reveals" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="interactions" dep_index="13" gov="reveals" gov_index="12">dobj</dependency>
+      <dependency dep="interactions" dep_index="13" gov="mediate" gov_index="19">nsubj</dependency>
+      <dependency dep="VP16" dep_index="15" gov="interactions" gov_index="13">prep_with</dependency>
+      <dependency dep="TFIIB" dep_index="17" gov="interactions" gov_index="13">prep_with</dependency>
+      <dependency dep="TFIIB" dep_index="17" gov="VP16" gov_index="15">conj_and</dependency>
+      <dependency dep="mediate" dep_index="19" gov="interactions" gov_index="13">rcmod</dependency>
+      <dependency dep="transcriptional" dep_index="20" gov="activation" gov_index="21">amod</dependency>
+      <dependency dep="activation" dep_index="21" gov="mediate" gov_index="19">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100015" relationship="false">11 8 2 12 13 15</relation>
+      <relation position="1100017" relationship="false">11 8 2 12 13 17</relation>
+      <relation position="1500017" relationship="false">15 13 17</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Kinetic@measurements@indicate@that@profilin@binding@to@actin@weakens@the@affinity@of@actin@for@nucleotides@primarily@due@to@an@increased@nucleotide@dissociation@rate@constant@,@but@the@nucleotide@association@rate@constant@is@also@increased@about@2-fold@.@</sentence>
+   <tags>
+      <tag pos="13">actin</tag>
+      <tag pos="5">profilin</tag>
+      <tag pos="8">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Kinetic</taggedword>
+      <taggedword index="2" part-of-speech="NNS">measurements</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="6" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="NN">actin</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">weakens</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">actin</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="NNS">nucleotides</taggedword>
+      <taggedword index="16" part-of-speech="RB">primarily</taggedword>
+      <taggedword index="17" part-of-speech="JJ">due</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="DT">an</taggedword>
+      <taggedword index="20" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="21" part-of-speech="NN">nucleotide</taggedword>
+      <taggedword index="22" part-of-speech="NN">dissociation</taggedword>
+      <taggedword index="23" part-of-speech="NN">rate</taggedword>
+      <taggedword index="24" part-of-speech="JJ">constant</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">but</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="JJ">nucleotide</taggedword>
+      <taggedword index="29" part-of-speech="NN">association</taggedword>
+      <taggedword index="30" part-of-speech="NN">rate</taggedword>
+      <taggedword index="31" part-of-speech="JJ">constant</taggedword>
+      <taggedword index="32" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="33" part-of-speech="RB">also</taggedword>
+      <taggedword index="34" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="35" part-of-speech="IN">about</taggedword>
+      <taggedword index="36" part-of-speech="JJ">2-fold</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Kinetic" dep_index="1" gov="measurements" gov_index="2">amod</dependency>
+      <dependency dep="measurements" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="weakens" gov_index="9">mark</dependency>
+      <dependency dep="profilin" dep_index="5" gov="weakens" gov_index="9">nsubj</dependency>
+      <dependency dep="binding" dep_index="6" gov="profilin" gov_index="5">amod</dependency>
+      <dependency dep="actin" dep_index="8" gov="binding" gov_index="6">prep_to</dependency>
+      <dependency dep="weakens" dep_index="9" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="10" gov="affinity" gov_index="11">det</dependency>
+      <dependency dep="affinity" dep_index="11" gov="due" gov_index="17">nsubj</dependency>
+      <dependency dep="actin" dep_index="13" gov="affinity" gov_index="11">prep_of</dependency>
+      <dependency dep="nucleotides" dep_index="15" gov="actin" gov_index="13">prep_for</dependency>
+      <dependency dep="primarily" dep_index="16" gov="due" gov_index="17">advmod</dependency>
+      <dependency dep="due" dep_index="17" gov="weakens" gov_index="9">xcomp</dependency>
+      <dependency dep="an" dep_index="19" gov="dissociation" gov_index="22">det</dependency>
+      <dependency dep="increased" dep_index="20" gov="dissociation" gov_index="22">amod</dependency>
+      <dependency dep="nucleotide" dep_index="21" gov="dissociation" gov_index="22">nn</dependency>
+      <dependency dep="dissociation" dep_index="22" gov="due" gov_index="17">prep_to</dependency>
+      <dependency dep="rate" dep_index="23" gov="constant" gov_index="24">npadvmod</dependency>
+      <dependency dep="constant" dep_index="24" gov="dissociation" gov_index="22">amod</dependency>
+      <dependency dep="the" dep_index="27" gov="association" gov_index="29">det</dependency>
+      <dependency dep="nucleotide" dep_index="28" gov="association" gov_index="29">amod</dependency>
+      <dependency dep="association" dep_index="29" gov="increased" gov_index="34">nsubjpass</dependency>
+      <dependency dep="rate" dep_index="30" gov="constant" gov_index="31">npadvmod</dependency>
+      <dependency dep="constant" dep_index="31" gov="association" gov_index="29">amod</dependency>
+      <dependency dep="is" dep_index="32" gov="increased" gov_index="34">auxpass</dependency>
+      <dependency dep="also" dep_index="33" gov="increased" gov_index="34">advmod</dependency>
+      <dependency dep="increased" dep_index="34" gov="indicate" gov_index="3">conj_but</dependency>
+      <dependency dep="2-fold" dep_index="36" gov="increased" gov_index="34">prep_about</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500013" relationship="true">5 9 17 11 13</relation>
+      <relation position="800013" relationship="true">8 6 5 9 17 11 13</relation>
+      <relation position="500008" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>500013</pair>
+      <pair>500008</pair>
+      <pair>800013</pair>
+   </pairs>
+</root>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@findings@support@the@concept@that@the@mitochondrial@metabolism@of@nutrient@molecules@is@an@event@sufficient@to@acutely@augment@insulin@release@from@the@beta@cell@,@to@increase@phospholipase C@-mediated@phosphoinositide@hydrolysis@,@and@to@induce@time-dependent@potentiation@of@insulin@secretion@</sentence>
+   <tags>
+      <tag pos="20">insulin</tag>
+      <tag pos="29">phospholipase C</tag>
+      <tag pos="40">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">findings</taggedword>
+      <taggedword index="3" part-of-speech="VBP">support</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">concept</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">mitochondrial</taggedword>
+      <taggedword index="9" part-of-speech="NN">metabolism</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">nutrient</taggedword>
+      <taggedword index="12" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="DT">an</taggedword>
+      <taggedword index="15" part-of-speech="NN">event</taggedword>
+      <taggedword index="16" part-of-speech="JJ">sufficient</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="RB">acutely</taggedword>
+      <taggedword index="19" part-of-speech="VB">augment</taggedword>
+      <taggedword index="20" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="21" part-of-speech="NN">release</taggedword>
+      <taggedword index="22" part-of-speech="IN">from</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="25" part-of-speech="NN">cell</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="TO">to</taggedword>
+      <taggedword index="28" part-of-speech="VB">increase</taggedword>
+      <taggedword index="29" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="30" part-of-speech="JJ">-mediated</taggedword>
+      <taggedword index="31" part-of-speech="NN">phosphoinositide</taggedword>
+      <taggedword index="32" part-of-speech="NNS">hydrolysis</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="TO">to</taggedword>
+      <taggedword index="36" part-of-speech="VB">induce</taggedword>
+      <taggedword index="37" part-of-speech="JJ">time-dependent</taggedword>
+      <taggedword index="38" part-of-speech="NN">potentiation</taggedword>
+      <taggedword index="39" part-of-speech="IN">of</taggedword>
+      <taggedword index="40" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="41" part-of-speech="NN">secretion</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="findings" gov_index="2">det</dependency>
+      <dependency dep="findings" dep_index="2" gov="support" gov_index="3">nsubj</dependency>
+      <dependency dep="support" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="concept" gov_index="5">det</dependency>
+      <dependency dep="concept" dep_index="5" gov="support" gov_index="3">dobj</dependency>
+      <dependency dep="that" dep_index="6" gov="event" gov_index="15">mark</dependency>
+      <dependency dep="the" dep_index="7" gov="metabolism" gov_index="9">det</dependency>
+      <dependency dep="mitochondrial" dep_index="8" gov="metabolism" gov_index="9">amod</dependency>
+      <dependency dep="metabolism" dep_index="9" gov="event" gov_index="15">nsubj</dependency>
+      <dependency dep="nutrient" dep_index="11" gov="molecules" gov_index="12">amod</dependency>
+      <dependency dep="molecules" dep_index="12" gov="metabolism" gov_index="9">prep_of</dependency>
+      <dependency dep="is" dep_index="13" gov="event" gov_index="15">cop</dependency>
+      <dependency dep="an" dep_index="14" gov="event" gov_index="15">det</dependency>
+      <dependency dep="event" dep_index="15" gov="support" gov_index="3">ccomp</dependency>
+      <dependency dep="sufficient" dep_index="16" gov="event" gov_index="15">amod</dependency>
+      <dependency dep="to" dep_index="17" gov="augment" gov_index="19">aux</dependency>
+      <dependency dep="acutely" dep_index="18" gov="augment" gov_index="19">advmod</dependency>
+      <dependency dep="augment" dep_index="19" gov="sufficient" gov_index="16">dep</dependency>
+      <dependency dep="insulin" dep_index="20" gov="release" gov_index="21">nn</dependency>
+      <dependency dep="release" dep_index="21" gov="augment" gov_index="19">dobj</dependency>
+      <dependency dep="the" dep_index="23" gov="cell" gov_index="25">det</dependency>
+      <dependency dep="beta" dep_index="24" gov="cell" gov_index="25">amod</dependency>
+      <dependency dep="cell" dep_index="25" gov="augment" gov_index="19">prep_from</dependency>
+      <dependency dep="to" dep_index="27" gov="increase" gov_index="28">aux</dependency>
+      <dependency dep="increase" dep_index="28" gov="sufficient" gov_index="16">dep</dependency>
+      <dependency dep="increase" dep_index="28" gov="augment" gov_index="19">conj_and</dependency>
+      <dependency dep="phospholipase C" dep_index="29" gov="hydrolysis" gov_index="32">amod</dependency>
+      <dependency dep="-mediated" dep_index="30" gov="hydrolysis" gov_index="32">amod</dependency>
+      <dependency dep="phosphoinositide" dep_index="31" gov="hydrolysis" gov_index="32">nn</dependency>
+      <dependency dep="hydrolysis" dep_index="32" gov="increase" gov_index="28">dobj</dependency>
+      <dependency dep="to" dep_index="35" gov="induce" gov_index="36">aux</dependency>
+      <dependency dep="induce" dep_index="36" gov="sufficient" gov_index="16">dep</dependency>
+      <dependency dep="induce" dep_index="36" gov="augment" gov_index="19">conj_and</dependency>
+      <dependency dep="time-dependent" dep_index="37" gov="potentiation" gov_index="38">amod</dependency>
+      <dependency dep="potentiation" dep_index="38" gov="induce" gov_index="36">dobj</dependency>
+      <dependency dep="insulin" dep_index="40" gov="secretion" gov_index="41">nn</dependency>
+      <dependency dep="secretion" dep_index="41" gov="potentiation" gov_index="38">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000029" relationship="false">20 21 19 16 28 32 29</relation>
+      <relation position="2000040" relationship="false">20 21 19 16 36 38 41 40</relation>
+      <relation position="2900040" relationship="false">29 32 28 16 36 38 41 40</relation>
+   </relations>
+   <pairs/>
+</root>

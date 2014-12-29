@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@expression@of@alpha-amylase@in@aleurone@layers@of@barley@is@known@to@be@induced@by@gibberellin A3@(GA)@.@</sentence>
+   <tags>
+      <tag pos="4">alpha-amylase</tag>
+      <tag pos="16">gibberellin A3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">alpha-amylase</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="JJ">aleurone</taggedword>
+      <taggedword index="7" part-of-speech="NNS">layers</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">barley</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">known</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">be</taggedword>
+      <taggedword index="14" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="15" part-of-speech="IN">by</taggedword>
+      <taggedword index="16" part-of-speech="JJ">gibberellin A3</taggedword>
+      <taggedword index="17" part-of-speech="NNS">(GA)</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="expression" gov_index="2">det</dependency>
+      <dependency dep="expression" dep_index="2" gov="known" gov_index="11">nsubjpass</dependency>
+      <dependency dep="expression" dep_index="2" gov="induced" gov_index="14">xsubj</dependency>
+      <dependency dep="alpha-amylase" dep_index="4" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="aleurone" dep_index="6" gov="layers" gov_index="7">amod</dependency>
+      <dependency dep="layers" dep_index="7" gov="alpha-amylase" gov_index="4">prep_in</dependency>
+      <dependency dep="barley" dep_index="9" gov="layers" gov_index="7">prep_of</dependency>
+      <dependency dep="is" dep_index="10" gov="known" gov_index="11">auxpass</dependency>
+      <dependency dep="known" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="12" gov="induced" gov_index="14">aux</dependency>
+      <dependency dep="be" dep_index="13" gov="induced" gov_index="14">auxpass</dependency>
+      <dependency dep="induced" dep_index="14" gov="known" gov_index="11">xcomp</dependency>
+      <dependency dep="gibberellin A3" dep_index="16" gov="(GA)" gov_index="17">amod</dependency>
+      <dependency dep="(GA)" dep_index="17" gov="induced" gov_index="14">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400016" relationship="true">4 2 14 17 16</relation>
+   </relations>
+   <pairs>
+      <pair>400016</pair>
+   </pairs>
+</root>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>BMPR-II@bound@ligands@only@weakly@alone@,@but@the@binding@was@facilitated@by@the@presence@of@previously@identified@type@I@receptors@for@BMPs@.@</sentence>
+   <tags>
+      <tag pos="1">BMPR-II</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">BMPR-II</taggedword>
+      <taggedword index="2" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="3" part-of-speech="NNS">ligands</taggedword>
+      <taggedword index="4" part-of-speech="RB">only</taggedword>
+      <taggedword index="5" part-of-speech="VB">weakly</taggedword>
+      <taggedword index="6" part-of-speech="RB">alone</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="CC">but</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="11" part-of-speech="VBD">was</taggedword>
+      <taggedword index="12" part-of-speech="VBN">facilitated</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">presence</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="RB">previously</taggedword>
+      <taggedword index="18" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="19" part-of-speech="NN">type</taggedword>
+      <taggedword index="20" part-of-speech="NN">I</taggedword>
+      <taggedword index="21" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="22" part-of-speech="IN">for</taggedword>
+      <taggedword index="23" part-of-speech="NNP">BMPs</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="BMPR-II" dep_index="1" gov="bound" gov_index="2">advmod</dependency>
+      <dependency dep="bound" dep_index="2" gov="ligands" gov_index="3">amod</dependency>
+      <dependency dep="ligands" dep_index="3" gov="weakly" gov_index="5">nsubj</dependency>
+      <dependency dep="only" dep_index="4" gov="weakly" gov_index="5">advmod</dependency>
+      <dependency dep="weakly" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="alone" dep_index="6" gov="weakly" gov_index="5">advmod</dependency>
+      <dependency dep="the" dep_index="9" gov="facilitated" gov_index="12">nsubjpass</dependency>
+      <dependency dep="binding" dep_index="10" gov="the" gov_index="9">amod</dependency>
+      <dependency dep="was" dep_index="11" gov="facilitated" gov_index="12">auxpass</dependency>
+      <dependency dep="facilitated" dep_index="12" gov="weakly" gov_index="5">conj_but</dependency>
+      <dependency dep="the" dep_index="14" gov="presence" gov_index="15">det</dependency>
+      <dependency dep="presence" dep_index="15" gov="facilitated" gov_index="12">agent</dependency>
+      <dependency dep="previously" dep_index="17" gov="identified" gov_index="18">advmod</dependency>
+      <dependency dep="identified" dep_index="18" gov="receptors" gov_index="21">amod</dependency>
+      <dependency dep="type" dep_index="19" gov="receptors" gov_index="21">nn</dependency>
+      <dependency dep="I" dep_index="20" gov="receptors" gov_index="21">nn</dependency>
+      <dependency dep="receptors" dep_index="21" gov="presence" gov_index="15">prep_of</dependency>
+      <dependency dep="BMPs" dep_index="23" gov="receptors" gov_index="21">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

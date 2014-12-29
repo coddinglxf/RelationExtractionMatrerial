@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@demonstrate@that@chronic@central@infusion@to@produce@a@persistent@elevation@of@the@cytokine@at@pathophysiological@levels@(a@situation@that@may@normally@manifest@during@infection@,@injury@and@inflammation)@produced@severe@anorexia@and@weight@loss@in@conjunction@with@reduction@in@both@serum@leptin@concentrations@and@hypothalamic@NPY@gene@expression@</sentence>
+   <tags>
+      <tag pos="44">leptin</tag>
+      <tag pos="48">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="JJ">chronic</taggedword>
+      <taggedword index="6" part-of-speech="JJ">central</taggedword>
+      <taggedword index="7" part-of-speech="NN">infusion</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">produce</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">persistent</taggedword>
+      <taggedword index="12" part-of-speech="NN">elevation</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">cytokine</taggedword>
+      <taggedword index="16" part-of-speech="IN">at</taggedword>
+      <taggedword index="17" part-of-speech="JJ">pathophysiological</taggedword>
+      <taggedword index="18" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="19" part-of-speech="NN">(a</taggedword>
+      <taggedword index="20" part-of-speech="NN">situation</taggedword>
+      <taggedword index="21" part-of-speech="WDT">that</taggedword>
+      <taggedword index="22" part-of-speech="MD">may</taggedword>
+      <taggedword index="23" part-of-speech="RB">normally</taggedword>
+      <taggedword index="24" part-of-speech="VB">manifest</taggedword>
+      <taggedword index="25" part-of-speech="IN">during</taggedword>
+      <taggedword index="26" part-of-speech="NN">infection</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NN">injury</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="NN">inflammation)</taggedword>
+      <taggedword index="31" part-of-speech="VBD">produced</taggedword>
+      <taggedword index="32" part-of-speech="JJ">severe</taggedword>
+      <taggedword index="33" part-of-speech="NN">anorexia</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="NN">weight</taggedword>
+      <taggedword index="36" part-of-speech="NN">loss</taggedword>
+      <taggedword index="37" part-of-speech="IN">in</taggedword>
+      <taggedword index="38" part-of-speech="NN">conjunction</taggedword>
+      <taggedword index="39" part-of-speech="IN">with</taggedword>
+      <taggedword index="40" part-of-speech="NN">reduction</taggedword>
+      <taggedword index="41" part-of-speech="IN">in</taggedword>
+      <taggedword index="42" part-of-speech="DT">both</taggedword>
+      <taggedword index="43" part-of-speech="JJ">serum</taggedword>
+      <taggedword index="44" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="45" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="46" part-of-speech="CC">and</taggedword>
+      <taggedword index="47" part-of-speech="JJ">hypothalamic</taggedword>
+      <taggedword index="48" part-of-speech="NN">NPY</taggedword>
+      <taggedword index="49" part-of-speech="NN">gene</taggedword>
+      <taggedword index="50" part-of-speech="NN">expression</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="demonstrate" gov_index="3">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="produced" gov_index="31">mark</dependency>
+      <dependency dep="chronic" dep_index="5" gov="infusion" gov_index="7">amod</dependency>
+      <dependency dep="central" dep_index="6" gov="infusion" gov_index="7">amod</dependency>
+      <dependency dep="infusion" dep_index="7" gov="produced" gov_index="31">nsubj</dependency>
+      <dependency dep="to" dep_index="8" gov="produce" gov_index="9">aux</dependency>
+      <dependency dep="produce" dep_index="9" gov="infusion" gov_index="7">infmod</dependency>
+      <dependency dep="a" dep_index="10" gov="elevation" gov_index="12">det</dependency>
+      <dependency dep="persistent" dep_index="11" gov="elevation" gov_index="12">amod</dependency>
+      <dependency dep="elevation" dep_index="12" gov="produce" gov_index="9">dobj</dependency>
+      <dependency dep="the" dep_index="14" gov="situation" gov_index="20">det</dependency>
+      <dependency dep="cytokine" dep_index="15" gov="situation" gov_index="20">amod</dependency>
+      <dependency dep="pathophysiological" dep_index="17" gov="levels" gov_index="18">amod</dependency>
+      <dependency dep="levels" dep_index="18" gov="cytokine" gov_index="15">prep_at</dependency>
+      <dependency dep="(a" dep_index="19" gov="situation" gov_index="20">nn</dependency>
+      <dependency dep="situation" dep_index="20" gov="elevation" gov_index="12">prep_of</dependency>
+      <dependency dep="situation" dep_index="20" gov="manifest" gov_index="24">nsubj</dependency>
+      <dependency dep="may" dep_index="22" gov="manifest" gov_index="24">aux</dependency>
+      <dependency dep="normally" dep_index="23" gov="manifest" gov_index="24">advmod</dependency>
+      <dependency dep="manifest" dep_index="24" gov="situation" gov_index="20">rcmod</dependency>
+      <dependency dep="infection" dep_index="26" gov="manifest" gov_index="24">prep_during</dependency>
+      <dependency dep="injury" dep_index="28" gov="manifest" gov_index="24">prep_during</dependency>
+      <dependency dep="injury" dep_index="28" gov="infection" gov_index="26">conj_and</dependency>
+      <dependency dep="inflammation)" dep_index="30" gov="manifest" gov_index="24">prep_during</dependency>
+      <dependency dep="inflammation)" dep_index="30" gov="infection" gov_index="26">conj_and</dependency>
+      <dependency dep="produced" dep_index="31" gov="demonstrate" gov_index="3">ccomp</dependency>
+      <dependency dep="severe" dep_index="32" gov="anorexia" gov_index="33">amod</dependency>
+      <dependency dep="anorexia" dep_index="33" gov="produced" gov_index="31">dobj</dependency>
+      <dependency dep="weight" dep_index="35" gov="loss" gov_index="36">nn</dependency>
+      <dependency dep="loss" dep_index="36" gov="produced" gov_index="31">dobj</dependency>
+      <dependency dep="loss" dep_index="36" gov="anorexia" gov_index="33">conj_and</dependency>
+      <dependency dep="conjunction" dep_index="38" gov="anorexia" gov_index="33">prep_in</dependency>
+      <dependency dep="reduction" dep_index="40" gov="produced" gov_index="31">prep_with</dependency>
+      <dependency dep="both" dep_index="42" gov="concentrations" gov_index="45">det</dependency>
+      <dependency dep="serum" dep_index="43" gov="concentrations" gov_index="45">amod</dependency>
+      <dependency dep="leptin" dep_index="44" gov="concentrations" gov_index="45">nn</dependency>
+      <dependency dep="concentrations" dep_index="45" gov="produced" gov_index="31">prep_in</dependency>
+      <dependency dep="hypothalamic" dep_index="47" gov="expression" gov_index="50">amod</dependency>
+      <dependency dep="NPY" dep_index="48" gov="expression" gov_index="50">nn</dependency>
+      <dependency dep="gene" dep_index="49" gov="expression" gov_index="50">nn</dependency>
+      <dependency dep="expression" dep_index="50" gov="produced" gov_index="31">prep_in</dependency>
+      <dependency dep="expression" dep_index="50" gov="concentrations" gov_index="45">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="4400048" relationship="false">44 45 31 50 48</relation>
+   </relations>
+   <pairs/>
+</root>

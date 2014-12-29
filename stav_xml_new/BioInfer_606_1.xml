@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@domains@in@CBP@that@are@involved@in@CREB@binding@and@transcriptional@activation@are@highly@related@to@the@adenoviral@E1A@-associated@cellular@protein@p300@(refs@2@,@3)@,@and@to@two@hypothetical@proteins@from@Caenorhabditis@elegans@,@R10E11.1@and@K03H1.10@(refs@4@and@5@,@respectively)@,@whose@functions@are@unknown@.@</sentence>
+   <tags>
+      <tag pos="20">E1A</tag>
+      <tag pos="41">K03H1.10</tag>
+      <tag pos="24">p300</tag>
+      <tag pos="39">R10E11.1</tag>
+      <tag pos="9">CREB</tag>
+      <tag pos="4">CBP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="5" part-of-speech="WDT">that</taggedword>
+      <taggedword index="6" part-of-speech="VBP">are</taggedword>
+      <taggedword index="7" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="VBG">CREB</taggedword>
+      <taggedword index="10" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="13" part-of-speech="NN">activation</taggedword>
+      <taggedword index="14" part-of-speech="VBP">are</taggedword>
+      <taggedword index="15" part-of-speech="RB">highly</taggedword>
+      <taggedword index="16" part-of-speech="VBN">related</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">adenoviral</taggedword>
+      <taggedword index="20" part-of-speech="NN">E1A</taggedword>
+      <taggedword index="21" part-of-speech="JJ">-associated</taggedword>
+      <taggedword index="22" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="23" part-of-speech="NN">protein</taggedword>
+      <taggedword index="24" part-of-speech="NNS">p300</taggedword>
+      <taggedword index="25" part-of-speech="VBZ">(refs</taggedword>
+      <taggedword index="26" part-of-speech="CD">2</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="CD">3)</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="CD">two</taggedword>
+      <taggedword index="33" part-of-speech="JJ">hypothetical</taggedword>
+      <taggedword index="34" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="35" part-of-speech="IN">from</taggedword>
+      <taggedword index="36" part-of-speech="NNP">Caenorhabditis</taggedword>
+      <taggedword index="37" part-of-speech="NNS">elegans</taggedword>
+      <taggedword index="38" part-of-speech=",">,</taggedword>
+      <taggedword index="39" part-of-speech="NNP">R10E11.1</taggedword>
+      <taggedword index="40" part-of-speech="CC">and</taggedword>
+      <taggedword index="41" part-of-speech="NNP">K03H1.10</taggedword>
+      <taggedword index="42" part-of-speech="VBZ">(refs</taggedword>
+      <taggedword index="43" part-of-speech="CD">4</taggedword>
+      <taggedword index="44" part-of-speech="CC">and</taggedword>
+      <taggedword index="45" part-of-speech="CD">5</taggedword>
+      <taggedword index="46" part-of-speech=",">,</taggedword>
+      <taggedword index="47" part-of-speech="RB">respectively)</taggedword>
+      <taggedword index="48" part-of-speech=",">,</taggedword>
+      <taggedword index="49" part-of-speech="WP$">whose</taggedword>
+      <taggedword index="50" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="51" part-of-speech="VBP">are</taggedword>
+      <taggedword index="52" part-of-speech="JJ">unknown</taggedword>
+      <taggedword index="53" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="domains" gov_index="2">det</dependency>
+      <dependency dep="domains" dep_index="2" gov="related" gov_index="16">nsubjpass</dependency>
+      <dependency dep="CBP" dep_index="4" gov="domains" gov_index="2">prep_in</dependency>
+      <dependency dep="CBP" dep_index="4" gov="involved" gov_index="7">nsubjpass</dependency>
+      <dependency dep="are" dep_index="6" gov="involved" gov_index="7">auxpass</dependency>
+      <dependency dep="involved" dep_index="7" gov="CBP" gov_index="4">rcmod</dependency>
+      <dependency dep="CREB" dep_index="9" gov="involved" gov_index="7">prepc_in</dependency>
+      <dependency dep="binding" dep_index="10" gov="activation" gov_index="13">amod</dependency>
+      <dependency dep="transcriptional" dep_index="12" gov="binding" gov_index="10">conj_and</dependency>
+      <dependency dep="transcriptional" dep_index="12" gov="activation" gov_index="13">amod</dependency>
+      <dependency dep="activation" dep_index="13" gov="CREB" gov_index="9">dobj</dependency>
+      <dependency dep="are" dep_index="14" gov="related" gov_index="16">auxpass</dependency>
+      <dependency dep="highly" dep_index="15" gov="related" gov_index="16">advmod</dependency>
+      <dependency dep="related" dep_index="16" gov="(refs" gov_index="42">ccomp</dependency>
+      <dependency dep="the" dep_index="18" gov="E1A" gov_index="20">det</dependency>
+      <dependency dep="adenoviral" dep_index="19" gov="E1A" gov_index="20">amod</dependency>
+      <dependency dep="E1A" dep_index="20" gov="related" gov_index="16">prep_to</dependency>
+      <dependency dep="-associated" dep_index="21" gov="p300" gov_index="24">amod</dependency>
+      <dependency dep="cellular" dep_index="22" gov="p300" gov_index="24">amod</dependency>
+      <dependency dep="protein" dep_index="23" gov="p300" gov_index="24">nn</dependency>
+      <dependency dep="p300" dep_index="24" gov="(refs" gov_index="25">nsubj</dependency>
+      <dependency dep="(refs" dep_index="25" gov="E1A" gov_index="20">rcmod</dependency>
+      <dependency dep="2" dep_index="26" gov="(refs" gov_index="25">dobj</dependency>
+      <dependency dep="3)" dep_index="28" gov="2" gov_index="26">amod</dependency>
+      <dependency dep="two" dep_index="32" gov="proteins" gov_index="34">num</dependency>
+      <dependency dep="hypothetical" dep_index="33" gov="proteins" gov_index="34">amod</dependency>
+      <dependency dep="proteins" dep_index="34" gov="related" gov_index="16">prep_to</dependency>
+      <dependency dep="proteins" dep_index="34" gov="E1A" gov_index="20">conj_and</dependency>
+      <dependency dep="Caenorhabditis" dep_index="36" gov="elegans" gov_index="37">nn</dependency>
+      <dependency dep="elegans" dep_index="37" gov="proteins" gov_index="34">prep_from</dependency>
+      <dependency dep="R10E11.1" dep_index="39" gov="(refs" gov_index="42">nsubj</dependency>
+      <dependency dep="K03H1.10" dep_index="41" gov="R10E11.1" gov_index="39">conj_and</dependency>
+      <dependency dep="K03H1.10" dep_index="41" gov="(refs" gov_index="42">nsubj</dependency>
+      <dependency dep="(refs" dep_index="42" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="4" dep_index="43" gov="(refs" gov_index="42">dobj</dependency>
+      <dependency dep="4" dep_index="43" gov="functions" gov_index="50">poss</dependency>
+      <dependency dep="5" dep_index="45" gov="(refs" gov_index="42">dobj</dependency>
+      <dependency dep="5" dep_index="45" gov="4" gov_index="43">conj_and</dependency>
+      <dependency dep="5" dep_index="45" gov="functions" gov_index="50">poss</dependency>
+      <dependency dep="respectively)" dep_index="47" gov="4" gov_index="43">advmod</dependency>
+      <dependency dep="functions" dep_index="50" gov="unknown" gov_index="52">nsubj</dependency>
+      <dependency dep="are" dep_index="51" gov="unknown" gov_index="52">cop</dependency>
+      <dependency dep="unknown" dep_index="52" gov="4" gov_index="43">rcmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000041" relationship="false">20 16 42 41</relation>
+      <relation position="2000024" relationship="true"></relation>
+      <relation position="2000039" relationship="false">20 16 42 39</relation>
+      <relation position="900020" relationship="false">9 7 4 2 16 20</relation>
+      <relation position="400020" relationship="false">4 2 16 20</relation>
+      <relation position="2400041" relationship="false">24 25 20 16 42 41</relation>
+      <relation position="3900041" relationship="false">39 42 41</relation>
+      <relation position="900041" relationship="false">9 7 4 2 16 42 41</relation>
+      <relation position="400041" relationship="true">4 2 16 42 41</relation>
+      <relation position="2400039" relationship="false">24 25 20 16 42 39</relation>
+      <relation position="900024" relationship="false">9 7 4 2 16 20 25 24</relation>
+      <relation position="400024" relationship="true">4 2 16 20 25 24</relation>
+      <relation position="900039" relationship="false">9 7 4 2 16 42 39</relation>
+      <relation position="400039" relationship="true">4 2 16 42 39</relation>
+      <relation position="400009" relationship="true">4 7 9</relation>
+   </relations>
+   <pairs>
+      <pair>400041</pair>
+      <pair>400009</pair>
+      <pair>400024</pair>
+      <pair>2000024</pair>
+      <pair>400039</pair>
+   </pairs>
+</root>

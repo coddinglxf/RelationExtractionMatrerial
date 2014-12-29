@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@is@followed@by@a@short@presentation@of@data@concerning@tissue@RAS@in@the@heart@and@vessels@,@brain@and@neurocranial@accessory@glands@,@cortico-suprarenal@and@gonadal@glandular@territory@.@</sentence>
+   <tags>
+      <tag pos="12">RAS</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="VBN">followed</taggedword>
+      <taggedword index="4" part-of-speech="IN">by</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">short</taggedword>
+      <taggedword index="7" part-of-speech="NN">presentation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNS">data</taggedword>
+      <taggedword index="10" part-of-speech="VBG">concerning</taggedword>
+      <taggedword index="11" part-of-speech="NNP">tissue</taggedword>
+      <taggedword index="12" part-of-speech="NNP">RAS</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">heart</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NNS">vessels</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="NN">brain</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="JJ">neurocranial</taggedword>
+      <taggedword index="22" part-of-speech="JJ">accessory</taggedword>
+      <taggedword index="23" part-of-speech="NNS">glands</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="NN">cortico-suprarenal</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="JJ">gonadal</taggedword>
+      <taggedword index="28" part-of-speech="NN">glandular</taggedword>
+      <taggedword index="29" part-of-speech="NN">territory</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="followed" gov_index="3">nsubjpass</dependency>
+      <dependency dep="is" dep_index="2" gov="followed" gov_index="3">auxpass</dependency>
+      <dependency dep="followed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="presentation" gov_index="7">det</dependency>
+      <dependency dep="short" dep_index="6" gov="presentation" gov_index="7">amod</dependency>
+      <dependency dep="presentation" dep_index="7" gov="followed" gov_index="3">agent</dependency>
+      <dependency dep="data" dep_index="9" gov="presentation" gov_index="7">prep_of</dependency>
+      <dependency dep="tissue" dep_index="11" gov="RAS" gov_index="12">nn</dependency>
+      <dependency dep="RAS" dep_index="12" gov="data" gov_index="9">prep_concerning</dependency>
+      <dependency dep="the" dep_index="14" gov="heart" gov_index="15">det</dependency>
+      <dependency dep="heart" dep_index="15" gov="RAS" gov_index="12">prep_in</dependency>
+      <dependency dep="vessels" dep_index="17" gov="RAS" gov_index="12">prep_in</dependency>
+      <dependency dep="vessels" dep_index="17" gov="heart" gov_index="15">conj_and</dependency>
+      <dependency dep="brain" dep_index="19" gov="RAS" gov_index="12">prep_in</dependency>
+      <dependency dep="brain" dep_index="19" gov="heart" gov_index="15">conj_and</dependency>
+      <dependency dep="neurocranial" dep_index="21" gov="glands" gov_index="23">amod</dependency>
+      <dependency dep="accessory" dep_index="22" gov="glands" gov_index="23">amod</dependency>
+      <dependency dep="glands" dep_index="23" gov="RAS" gov_index="12">prep_in</dependency>
+      <dependency dep="glands" dep_index="23" gov="heart" gov_index="15">conj_and</dependency>
+      <dependency dep="cortico-suprarenal" dep_index="25" gov="heart" gov_index="15">conj_and</dependency>
+      <dependency dep="cortico-suprarenal" dep_index="25" gov="glands" gov_index="23">conj_and</dependency>
+      <dependency dep="gonadal" dep_index="27" gov="territory" gov_index="29">amod</dependency>
+      <dependency dep="glandular" dep_index="28" gov="territory" gov_index="29">nn</dependency>
+      <dependency dep="territory" dep_index="29" gov="heart" gov_index="15">conj_and</dependency>
+      <dependency dep="territory" dep_index="29" gov="glands" gov_index="23">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Treatment@with@(+)-trifluoro-ABA@strongly@inhibited@the@gibberellic acid@-inducible@expression@of@alpha-amylase@I-1@encoded@by@RAmy1A@in@the@aleurone@layers@of@embryoless@half-seeds@at@the@levels@of@transcription@,@protein@synthesis@,@and@enzyme@activity@</sentence>
+   <tags>
+      <tag pos="7">gibberellic acid</tag>
+      <tag pos="11">alpha-amylase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Treatment</taggedword>
+      <taggedword index="2" part-of-speech="IN">with</taggedword>
+      <taggedword index="3" part-of-speech="NN">(+)-trifluoro-ABA</taggedword>
+      <taggedword index="4" part-of-speech="RB">strongly</taggedword>
+      <taggedword index="5" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">gibberellic acid</taggedword>
+      <taggedword index="8" part-of-speech="JJ">-inducible</taggedword>
+      <taggedword index="9" part-of-speech="NN">expression</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">alpha-amylase</taggedword>
+      <taggedword index="12" part-of-speech="NN">I-1</taggedword>
+      <taggedword index="13" part-of-speech="VBN">encoded</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="NNS">RAmy1A</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">aleurone</taggedword>
+      <taggedword index="19" part-of-speech="NNS">layers</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="JJ">embryoless</taggedword>
+      <taggedword index="22" part-of-speech="NNS">half-seeds</taggedword>
+      <taggedword index="23" part-of-speech="IN">at</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="NN">protein</taggedword>
+      <taggedword index="30" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="CC">and</taggedword>
+      <taggedword index="33" part-of-speech="JJ">enzyme</taggedword>
+      <taggedword index="34" part-of-speech="NN">activity</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Treatment" dep_index="1" gov="inhibited" gov_index="5">nsubj</dependency>
+      <dependency dep="(+)-trifluoro-ABA" dep_index="3" gov="Treatment" gov_index="1">prep_with</dependency>
+      <dependency dep="strongly" dep_index="4" gov="inhibited" gov_index="5">advmod</dependency>
+      <dependency dep="inhibited" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="expression" gov_index="9">det</dependency>
+      <dependency dep="gibberellic acid" dep_index="7" gov="expression" gov_index="9">amod</dependency>
+      <dependency dep="-inducible" dep_index="8" gov="expression" gov_index="9">amod</dependency>
+      <dependency dep="expression" dep_index="9" gov="inhibited" gov_index="5">dobj</dependency>
+      <dependency dep="alpha-amylase" dep_index="11" gov="I-1" gov_index="12">amod</dependency>
+      <dependency dep="I-1" dep_index="12" gov="expression" gov_index="9">prep_of</dependency>
+      <dependency dep="encoded" dep_index="13" gov="I-1" gov_index="12">partmod</dependency>
+      <dependency dep="RAmy1A" dep_index="15" gov="encoded" gov_index="13">agent</dependency>
+      <dependency dep="the" dep_index="17" gov="layers" gov_index="19">det</dependency>
+      <dependency dep="aleurone" dep_index="18" gov="layers" gov_index="19">amod</dependency>
+      <dependency dep="layers" dep_index="19" gov="RAmy1A" gov_index="15">prep_in</dependency>
+      <dependency dep="embryoless" dep_index="21" gov="half-seeds" gov_index="22">amod</dependency>
+      <dependency dep="half-seeds" dep_index="22" gov="layers" gov_index="19">prep_of</dependency>
+      <dependency dep="the" dep_index="24" gov="levels" gov_index="25">det</dependency>
+      <dependency dep="levels" dep_index="25" gov="encoded" gov_index="13">prep_at</dependency>
+      <dependency dep="transcription" dep_index="27" gov="levels" gov_index="25">prep_of</dependency>
+      <dependency dep="protein" dep_index="29" gov="synthesis" gov_index="30">nn</dependency>
+      <dependency dep="synthesis" dep_index="30" gov="levels" gov_index="25">prep_of</dependency>
+      <dependency dep="synthesis" dep_index="30" gov="transcription" gov_index="27">conj_and</dependency>
+      <dependency dep="enzyme" dep_index="33" gov="activity" gov_index="34">amod</dependency>
+      <dependency dep="activity" dep_index="34" gov="levels" gov_index="25">prep_of</dependency>
+      <dependency dep="activity" dep_index="34" gov="transcription" gov_index="27">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700011" relationship="true">7 9 12 11</relation>
+   </relations>
+   <pairs>
+      <pair>700011</pair>
+   </pairs>
+</root>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Sequence@analysis@of@the@genes@encoding@the@nucleocapsid protein@and@phosphoprotein@(@P@)@of@phocid@distemper@virus@,@and@editing@of@the@P@gene@transcript@.@</sentence>
+   <tags>
+      <tag pos="8">nucleocapsid protein</tag>
+      <tag pos="23">P</tag>
+      <tag pos="10">phosphoprotein</tag>
+      <tag pos="12">P</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Sequence</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="6" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">nucleocapsid protein</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">phosphoprotein</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">(</taggedword>
+      <taggedword index="12" part-of-speech="NNP">P</taggedword>
+      <taggedword index="13" part-of-speech="NNP">)</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">phocid</taggedword>
+      <taggedword index="16" part-of-speech="NN">distemper</taggedword>
+      <taggedword index="17" part-of-speech="NN">virus</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">editing</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NNP">P</taggedword>
+      <taggedword index="24" part-of-speech="NN">gene</taggedword>
+      <taggedword index="25" part-of-speech="NN">transcript</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Sequence" dep_index="1" gov="analysis" gov_index="2">amod</dependency>
+      <dependency dep="analysis" dep_index="2" gov="(" gov_index="11">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="genes" gov_index="5">det</dependency>
+      <dependency dep="genes" dep_index="5" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="encoding" dep_index="6" gov="genes" gov_index="5">partmod</dependency>
+      <dependency dep="the" dep_index="7" gov="nucleocapsid protein" gov_index="8">det</dependency>
+      <dependency dep="nucleocapsid protein" dep_index="8" gov="encoding" gov_index="6">dobj</dependency>
+      <dependency dep="phosphoprotein" dep_index="10" gov="encoding" gov_index="6">dobj</dependency>
+      <dependency dep="phosphoprotein" dep_index="10" gov="nucleocapsid protein" gov_index="8">conj_and</dependency>
+      <dependency dep="(" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="P" dep_index="12" gov=")" gov_index="13">nn</dependency>
+      <dependency dep=")" dep_index="13" gov="(" gov_index="11">dobj</dependency>
+      <dependency dep="phocid" dep_index="15" gov="virus" gov_index="17">amod</dependency>
+      <dependency dep="distemper" dep_index="16" gov="virus" gov_index="17">nn</dependency>
+      <dependency dep="virus" dep_index="17" gov=")" gov_index="13">prep_of</dependency>
+      <dependency dep="editing" dep_index="20" gov="(" gov_index="11">dobj</dependency>
+      <dependency dep="editing" dep_index="20" gov=")" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="22" gov="transcript" gov_index="25">det</dependency>
+      <dependency dep="P" dep_index="23" gov="transcript" gov_index="25">nn</dependency>
+      <dependency dep="gene" dep_index="24" gov="transcript" gov_index="25">nn</dependency>
+      <dependency dep="transcript" dep_index="25" gov="editing" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800023" relationship="false">8 6 5 2 11 20 25 23</relation>
+      <relation position="800010" relationship="false">8 6 10</relation>
+      <relation position="800012" relationship="false">8 6 5 2 11 13 12</relation>
+      <relation position="1000023" relationship="false">10 6 5 2 11 20 25 23</relation>
+      <relation position="1200023" relationship="false">12 13 11 20 25 23</relation>
+      <relation position="1000012" relationship="false">10 6 5 2 11 13 12</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Apoptotic@proteins@.@p53@and@c-myc@related@pathways@.@</sentence>
+   <tags>
+      <tag pos="4">p53</tag>
+      <tag pos="6">c-myc</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Apoptotic</taggedword>
+      <taggedword index="2" part-of-speech="NNP">proteins</taggedword>
+      <taggedword index="3" part-of-speech=".">.</taggedword>
+      <taggedword index="4" part-of-speech="NN">p53</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="JJ">c-myc</taggedword>
+      <taggedword index="7" part-of-speech="JJ">related</taggedword>
+      <taggedword index="8" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="9" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Apoptotic" dep_index="1" gov="proteins" gov_index="2">nn</dependency>
+      <dependency dep="proteins" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="p53" dep_index="4" gov="proteins" gov_index="2">dep</dependency>
+      <dependency dep="c-myc" dep_index="6" gov="pathways" gov_index="8">amod</dependency>
+      <dependency dep="related" dep_index="7" gov="pathways" gov_index="8">amod</dependency>
+      <dependency dep="pathways" dep_index="8" gov="proteins" gov_index="2">dep</dependency>
+      <dependency dep="pathways" dep_index="8" gov="p53" gov_index="4">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 8 6</relation>
+   </relations>
+   <pairs/>
+</root>

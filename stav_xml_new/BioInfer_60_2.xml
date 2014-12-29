@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@,@cell@cycle-dependent@expression@of@human@and@rodent@RAD51@and@RAD52@proteins@was@monitored@using@two@approaches@.@</sentence>
+   <tags>
+      <tag pos="14">RAD52</tag>
+      <tag pos="12">RAD51</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NN">cell</taggedword>
+      <taggedword index="6" part-of-speech="JJ">cycle-dependent</taggedword>
+      <taggedword index="7" part-of-speech="NN">expression</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">human</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">rodent</taggedword>
+      <taggedword index="12" part-of-speech="NN">RAD51</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">RAD52</taggedword>
+      <taggedword index="15" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="16" part-of-speech="VBD">was</taggedword>
+      <taggedword index="17" part-of-speech="VBN">monitored</taggedword>
+      <taggedword index="18" part-of-speech="VBG">using</taggedword>
+      <taggedword index="19" part-of-speech="CD">two</taggedword>
+      <taggedword index="20" part-of-speech="NNS">approaches</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="monitored" gov_index="17">prep_in</dependency>
+      <dependency dep="cell" dep_index="5" gov="expression" gov_index="7">nn</dependency>
+      <dependency dep="cycle-dependent" dep_index="6" gov="expression" gov_index="7">amod</dependency>
+      <dependency dep="expression" dep_index="7" gov="monitored" gov_index="17">nsubjpass</dependency>
+      <dependency dep="human" dep_index="9" gov="RAD51" gov_index="12">amod</dependency>
+      <dependency dep="rodent" dep_index="11" gov="human" gov_index="9">conj_and</dependency>
+      <dependency dep="rodent" dep_index="11" gov="RAD51" gov_index="12">amod</dependency>
+      <dependency dep="RAD51" dep_index="12" gov="expression" gov_index="7">prep_of</dependency>
+      <dependency dep="RAD52" dep_index="14" gov="proteins" gov_index="15">nn</dependency>
+      <dependency dep="proteins" dep_index="15" gov="expression" gov_index="7">prep_of</dependency>
+      <dependency dep="proteins" dep_index="15" gov="RAD51" gov_index="12">conj_and</dependency>
+      <dependency dep="was" dep_index="16" gov="monitored" gov_index="17">auxpass</dependency>
+      <dependency dep="monitored" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="18" gov="monitored" gov_index="17">xcomp</dependency>
+      <dependency dep="two" dep_index="19" gov="approaches" gov_index="20">num</dependency>
+      <dependency dep="approaches" dep_index="20" gov="using" gov_index="18">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200014" relationship="false">12 7 15 14</relation>
+   </relations>
+   <pairs/>
+</root>

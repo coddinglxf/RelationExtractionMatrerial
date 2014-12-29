@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@apparent@critical@concentration@for@polymerization@of@actin@is@increased@by@the@addition@of@profilin@.@</sentence>
+   <tags>
+      <tag pos="8">actin</tag>
+      <tag pos="15">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">apparent</taggedword>
+      <taggedword index="3" part-of-speech="JJ">critical</taggedword>
+      <taggedword index="4" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">actin</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">addition</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="concentration" gov_index="4">det</dependency>
+      <dependency dep="apparent" dep_index="2" gov="concentration" gov_index="4">amod</dependency>
+      <dependency dep="critical" dep_index="3" gov="concentration" gov_index="4">amod</dependency>
+      <dependency dep="concentration" dep_index="4" gov="increased" gov_index="10">nsubjpass</dependency>
+      <dependency dep="polymerization" dep_index="6" gov="concentration" gov_index="4">prep_for</dependency>
+      <dependency dep="actin" dep_index="8" gov="polymerization" gov_index="6">prep_of</dependency>
+      <dependency dep="is" dep_index="9" gov="increased" gov_index="10">auxpass</dependency>
+      <dependency dep="increased" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="addition" gov_index="13">det</dependency>
+      <dependency dep="addition" dep_index="13" gov="increased" gov_index="10">agent</dependency>
+      <dependency dep="profilin" dep_index="15" gov="addition" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800015" relationship="true">8 6 4 10 13 15</relation>
+   </relations>
+   <pairs>
+      <pair>800015</pair>
+   </pairs>
+</root>

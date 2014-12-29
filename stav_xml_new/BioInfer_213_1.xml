@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Fluorescent@actin@analogs@with@a@high@affinity@for@profilin@in@vitro@exhibit@an@enhanced@gradient@of@assembly@in@living@cells@.@</sentence>
+   <tags>
+      <tag pos="2">actin</tag>
+      <tag pos="9">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Fluorescent</taggedword>
+      <taggedword index="2" part-of-speech="NN">actin</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">analogs</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">high</taggedword>
+      <taggedword index="7" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="8" part-of-speech="IN">for</taggedword>
+      <taggedword index="9" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="JJ">vitro</taggedword>
+      <taggedword index="12" part-of-speech="NN">exhibit</taggedword>
+      <taggedword index="13" part-of-speech="DT">an</taggedword>
+      <taggedword index="14" part-of-speech="JJ">enhanced</taggedword>
+      <taggedword index="15" part-of-speech="NN">gradient</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="VBG">living</taggedword>
+      <taggedword index="20" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Fluorescent" dep_index="1" gov="actin" gov_index="2">amod</dependency>
+      <dependency dep="actin" dep_index="2" gov="analogs" gov_index="3">nsubj</dependency>
+      <dependency dep="analogs" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="affinity" gov_index="7">det</dependency>
+      <dependency dep="high" dep_index="6" gov="affinity" gov_index="7">amod</dependency>
+      <dependency dep="affinity" dep_index="7" gov="analogs" gov_index="3">prep_with</dependency>
+      <dependency dep="profilin" dep_index="9" gov="affinity" gov_index="7">prep_for</dependency>
+      <dependency dep="vitro" dep_index="11" gov="exhibit" gov_index="12">amod</dependency>
+      <dependency dep="exhibit" dep_index="12" gov="profilin" gov_index="9">prep_in</dependency>
+      <dependency dep="an" dep_index="13" gov="gradient" gov_index="15">det</dependency>
+      <dependency dep="enhanced" dep_index="14" gov="gradient" gov_index="15">amod</dependency>
+      <dependency dep="gradient" dep_index="15" gov="analogs" gov_index="3">dobj</dependency>
+      <dependency dep="assembly" dep_index="17" gov="gradient" gov_index="15">prep_of</dependency>
+      <dependency dep="living" dep_index="19" gov="cells" gov_index="20">amod</dependency>
+      <dependency dep="cells" dep_index="20" gov="assembly" gov_index="17">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200009" relationship="true">2 3 7 9</relation>
+   </relations>
+   <pairs>
+      <pair>200009</pair>
+   </pairs>
+</root>

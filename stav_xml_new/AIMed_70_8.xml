@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Mutation@of@Ala-522@to@proline@,@which@is@located@outside@the@predicted@amphipathic@helix@region@,@had@no@effect@on@RII alpha@binding@.@</sentence>
+   <tags>
+      <tag pos="21">RII alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Mutation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNS">Ala-522</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="NN">proline</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="WDT">which</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="VBN">located</taggedword>
+      <taggedword index="10" part-of-speech="IN">outside</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">predicted</taggedword>
+      <taggedword index="13" part-of-speech="JJ">amphipathic</taggedword>
+      <taggedword index="14" part-of-speech="NN">helix</taggedword>
+      <taggedword index="15" part-of-speech="NN">region</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="VBD">had</taggedword>
+      <taggedword index="18" part-of-speech="DT">no</taggedword>
+      <taggedword index="19" part-of-speech="NN">effect</taggedword>
+      <taggedword index="20" part-of-speech="IN">on</taggedword>
+      <taggedword index="21" part-of-speech="NNP">RII alpha</taggedword>
+      <taggedword index="22" part-of-speech="NNP">binding</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Mutation" dep_index="1" gov="located" gov_index="9">nsubjpass</dependency>
+      <dependency dep="Mutation" dep_index="1" gov="had" gov_index="17">nsubj</dependency>
+      <dependency dep="Ala-522" dep_index="3" gov="Mutation" gov_index="1">prep_of</dependency>
+      <dependency dep="proline" dep_index="5" gov="Ala-522" gov_index="3">prep_to</dependency>
+      <dependency dep="is" dep_index="8" gov="located" gov_index="9">auxpass</dependency>
+      <dependency dep="located" dep_index="9" gov="Mutation" gov_index="1">rcmod</dependency>
+      <dependency dep="the" dep_index="11" gov="region" gov_index="15">det</dependency>
+      <dependency dep="predicted" dep_index="12" gov="region" gov_index="15">amod</dependency>
+      <dependency dep="amphipathic" dep_index="13" gov="region" gov_index="15">amod</dependency>
+      <dependency dep="helix" dep_index="14" gov="region" gov_index="15">nn</dependency>
+      <dependency dep="region" dep_index="15" gov="located" gov_index="9">prep_outside</dependency>
+      <dependency dep="had" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="no" dep_index="18" gov="effect" gov_index="19">det</dependency>
+      <dependency dep="effect" dep_index="19" gov="had" gov_index="17">dobj</dependency>
+      <dependency dep="RII alpha" dep_index="21" gov="binding" gov_index="22">nn</dependency>
+      <dependency dep="binding" dep_index="22" gov="effect" gov_index="19">prep_on</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

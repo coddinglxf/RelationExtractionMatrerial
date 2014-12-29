@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@previous@investigation@(Abe@et@al@.@(1989)@J@.@Biochem@.@106@,@696-702)@suggested@that@cofilin@is@deeply@involved@in@the@regulation@of@actin@assembly@in@developing@skeletal@muscle@.@</sentence>
+   <tags>
+      <tag pos="26">actin</tag>
+      <tag pos="18">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">previous</taggedword>
+      <taggedword index="3" part-of-speech="NN">investigation</taggedword>
+      <taggedword index="4" part-of-speech="VBP">(Abe</taggedword>
+      <taggedword index="5" part-of-speech="NNP">et</taggedword>
+      <taggedword index="6" part-of-speech="NNP">al</taggedword>
+      <taggedword index="7" part-of-speech=".">.</taggedword>
+      <taggedword index="8" part-of-speech="CD">(1989)</taggedword>
+      <taggedword index="9" part-of-speech="NNS">J</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+      <taggedword index="11" part-of-speech="NNP">Biochem</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+      <taggedword index="13" part-of-speech="CD">106</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CD">696-702)</taggedword>
+      <taggedword index="16" part-of-speech="VBD">suggested</taggedword>
+      <taggedword index="17" part-of-speech="IN">that</taggedword>
+      <taggedword index="18" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="20" part-of-speech="RB">deeply</taggedword>
+      <taggedword index="21" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NN">actin</taggedword>
+      <taggedword index="27" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="28" part-of-speech="IN">in</taggedword>
+      <taggedword index="29" part-of-speech="VBG">developing</taggedword>
+      <taggedword index="30" part-of-speech="JJ">skeletal</taggedword>
+      <taggedword index="31" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="investigation" gov_index="3">det</dependency>
+      <dependency dep="previous" dep_index="2" gov="investigation" gov_index="3">amod</dependency>
+      <dependency dep="investigation" dep_index="3" gov="(Abe" gov_index="4">nsubj</dependency>
+      <dependency dep="(Abe" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="et" dep_index="5" gov="al" gov_index="6">nn</dependency>
+      <dependency dep="al" dep_index="6" gov="(Abe" gov_index="4">dobj</dependency>
+      <dependency dep="al" dep_index="6" gov="involved" gov_index="21">mark</dependency>
+      <dependency dep="(1989)" dep_index="8" gov="J" gov_index="9">num</dependency>
+      <dependency dep="J" dep_index="9" gov="al" gov_index="6">dep</dependency>
+      <dependency dep="Biochem" dep_index="11" gov="al" gov_index="6">dep</dependency>
+      <dependency dep="106" dep_index="13" gov="al" gov_index="6">dep</dependency>
+      <dependency dep="696-702)" dep_index="15" gov="suggested" gov_index="16">nsubj</dependency>
+      <dependency dep="suggested" dep_index="16" gov="al" gov_index="6">rcmod</dependency>
+      <dependency dep="cofilin" dep_index="18" gov="involved" gov_index="21">nsubjpass</dependency>
+      <dependency dep="is" dep_index="19" gov="involved" gov_index="21">auxpass</dependency>
+      <dependency dep="deeply" dep_index="20" gov="involved" gov_index="21">advmod</dependency>
+      <dependency dep="involved" dep_index="21" gov="suggested" gov_index="16">ccomp</dependency>
+      <dependency dep="the" dep_index="23" gov="regulation" gov_index="24">det</dependency>
+      <dependency dep="regulation" dep_index="24" gov="involved" gov_index="21">prep_in</dependency>
+      <dependency dep="actin" dep_index="26" gov="assembly" gov_index="27">nn</dependency>
+      <dependency dep="assembly" dep_index="27" gov="regulation" gov_index="24">prep_of</dependency>
+      <dependency dep="developing" dep_index="29" gov="(Abe" gov_index="4">prepc_in</dependency>
+      <dependency dep="skeletal" dep_index="30" gov="muscle" gov_index="31">amod</dependency>
+      <dependency dep="muscle" dep_index="31" gov="developing" gov_index="29">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800026" relationship="true">18 21 24 27 26</relation>
+   </relations>
+   <pairs>
+      <pair>1800026</pair>
+   </pairs>
+</root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@JAK2@phosphorylated@Raf-1@at@sites@different@from@those@phosphorylated@by@pp60v-src@.@</sentence>
+   <tags>
+      <tag pos="4">JAK2</tag>
+      <tag pos="6">Raf-1</tag>
+      <tag pos="14">pp60v-src</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">JAK2</taggedword>
+      <taggedword index="5" part-of-speech="VBD">phosphorylated</taggedword>
+      <taggedword index="6" part-of-speech="NNS">Raf-1</taggedword>
+      <taggedword index="7" part-of-speech="IN">at</taggedword>
+      <taggedword index="8" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="9" part-of-speech="JJ">different</taggedword>
+      <taggedword index="10" part-of-speech="IN">from</taggedword>
+      <taggedword index="11" part-of-speech="DT">those</taggedword>
+      <taggedword index="12" part-of-speech="VBN">phosphorylated</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="JJ">pp60v-src</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="phosphorylated" gov_index="5">prep_in</dependency>
+      <dependency dep="JAK2" dep_index="4" gov="phosphorylated" gov_index="5">nsubj</dependency>
+      <dependency dep="phosphorylated" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Raf-1" dep_index="6" gov="phosphorylated" gov_index="5">dobj</dependency>
+      <dependency dep="sites" dep_index="8" gov="phosphorylated" gov_index="5">prep_at</dependency>
+      <dependency dep="different" dep_index="9" gov="sites" gov_index="8">amod</dependency>
+      <dependency dep="those" dep_index="11" gov="different" gov_index="9">prep_from</dependency>
+      <dependency dep="phosphorylated" dep_index="12" gov="those" gov_index="11">partmod</dependency>
+      <dependency dep="pp60v-src" dep_index="14" gov="phosphorylated" gov_index="12">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 5 6</relation>
+      <relation position="400014" relationship="false">4 5 8 9 11 12 14</relation>
+      <relation position="600014" relationship="true">6 5 8 9 11 12 14</relation>
+   </relations>
+   <pairs>
+      <pair>600014</pair>
+      <pair>400006</pair>
+   </pairs>
+</root>

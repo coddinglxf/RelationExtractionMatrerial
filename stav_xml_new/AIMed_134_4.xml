@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Subsequently@,@supernatants@from@selected@cell@lines@were@fractionated@directly@by@receptor@affinity@chromatography@,@resulting@in@the@single-step@purification@of@B61@,@a@protein@previously@identified@as@the@product@of@an@early@response@gene@induced@by@tumour necrosis factor-alpha@.@</sentence>
+   <tags>
+      <tag pos="22">B61</tag>
+      <tag pos="38">tumour necrosis factor-alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Subsequently</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNS">supernatants</taggedword>
+      <taggedword index="4" part-of-speech="IN">from</taggedword>
+      <taggedword index="5" part-of-speech="VBN">selected</taggedword>
+      <taggedword index="6" part-of-speech="NN">cell</taggedword>
+      <taggedword index="7" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="8" part-of-speech="VBD">were</taggedword>
+      <taggedword index="9" part-of-speech="VBN">fractionated</taggedword>
+      <taggedword index="10" part-of-speech="RB">directly</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="13" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="14" part-of-speech="NN">chromatography</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="VBG">resulting</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">single-step</taggedword>
+      <taggedword index="20" part-of-speech="NN">purification</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNP">B61</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="DT">a</taggedword>
+      <taggedword index="25" part-of-speech="NN">protein</taggedword>
+      <taggedword index="26" part-of-speech="RB">previously</taggedword>
+      <taggedword index="27" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="28" part-of-speech="IN">as</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="NN">product</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="DT">an</taggedword>
+      <taggedword index="33" part-of-speech="JJ">early</taggedword>
+      <taggedword index="34" part-of-speech="NN">response</taggedword>
+      <taggedword index="35" part-of-speech="NN">gene</taggedword>
+      <taggedword index="36" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="37" part-of-speech="IN">by</taggedword>
+      <taggedword index="38" part-of-speech="NN">tumour necrosis factor-alpha</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Subsequently" dep_index="1" gov="fractionated" gov_index="9">advmod</dependency>
+      <dependency dep="supernatants" dep_index="3" gov="fractionated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="selected" dep_index="5" gov="lines" gov_index="7">amod</dependency>
+      <dependency dep="cell" dep_index="6" gov="lines" gov_index="7">nn</dependency>
+      <dependency dep="lines" dep_index="7" gov="supernatants" gov_index="3">prep_from</dependency>
+      <dependency dep="were" dep_index="8" gov="fractionated" gov_index="9">auxpass</dependency>
+      <dependency dep="fractionated" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="directly" dep_index="10" gov="fractionated" gov_index="9">advmod</dependency>
+      <dependency dep="receptor" dep_index="12" gov="chromatography" gov_index="14">nn</dependency>
+      <dependency dep="affinity" dep_index="13" gov="chromatography" gov_index="14">nn</dependency>
+      <dependency dep="chromatography" dep_index="14" gov="fractionated" gov_index="9">agent</dependency>
+      <dependency dep="resulting" dep_index="16" gov="fractionated" gov_index="9">xcomp</dependency>
+      <dependency dep="the" dep_index="18" gov="purification" gov_index="20">det</dependency>
+      <dependency dep="single-step" dep_index="19" gov="purification" gov_index="20">amod</dependency>
+      <dependency dep="purification" dep_index="20" gov="resulting" gov_index="16">prep_in</dependency>
+      <dependency dep="B61" dep_index="22" gov="purification" gov_index="20">prep_of</dependency>
+      <dependency dep="a" dep_index="24" gov="protein" gov_index="25">det</dependency>
+      <dependency dep="protein" dep_index="25" gov="B61" gov_index="22">appos</dependency>
+      <dependency dep="previously" dep_index="26" gov="identified" gov_index="27">advmod</dependency>
+      <dependency dep="identified" dep_index="27" gov="protein" gov_index="25">partmod</dependency>
+      <dependency dep="the" dep_index="29" gov="product" gov_index="30">det</dependency>
+      <dependency dep="product" dep_index="30" gov="identified" gov_index="27">prep_as</dependency>
+      <dependency dep="an" dep_index="32" gov="gene" gov_index="35">det</dependency>
+      <dependency dep="early" dep_index="33" gov="gene" gov_index="35">amod</dependency>
+      <dependency dep="response" dep_index="34" gov="gene" gov_index="35">nn</dependency>
+      <dependency dep="gene" dep_index="35" gov="product" gov_index="30">prep_of</dependency>
+      <dependency dep="induced" dep_index="36" gov="gene" gov_index="35">partmod</dependency>
+      <dependency dep="tumour necrosis factor-alpha" dep_index="38" gov="induced" gov_index="36">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2200038" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

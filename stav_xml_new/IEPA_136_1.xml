@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@etiology@for@diabetes@mellitus@in@PWS@may@be@related@to@the@morbid@obesity@and@consequent@insulin@resistance@,@because@a@decrease@of@oxytocin@neurons@and@leptin@resistance@in@PWS@may@cause@hyperphagia@,@inducing@obesity@</sentence>
+   <tags>
+      <tag pos="17">insulin</tag>
+      <tag pos="24">oxytocin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">etiology</taggedword>
+      <taggedword index="3" part-of-speech="IN">for</taggedword>
+      <taggedword index="4" part-of-speech="NN">diabetes</taggedword>
+      <taggedword index="5" part-of-speech="NNS">mellitus</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="NNP">PWS</taggedword>
+      <taggedword index="8" part-of-speech="MD">may</taggedword>
+      <taggedword index="9" part-of-speech="VB">be</taggedword>
+      <taggedword index="10" part-of-speech="VBN">related</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">morbid</taggedword>
+      <taggedword index="14" part-of-speech="NN">obesity</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">consequent</taggedword>
+      <taggedword index="17" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="18" part-of-speech="NN">resistance</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="IN">because</taggedword>
+      <taggedword index="21" part-of-speech="DT">a</taggedword>
+      <taggedword index="22" part-of-speech="NN">decrease</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="25" part-of-speech="NNS">neurons</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="28" part-of-speech="NN">resistance</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="NNP">PWS</taggedword>
+      <taggedword index="31" part-of-speech="MD">may</taggedword>
+      <taggedword index="32" part-of-speech="VB">cause</taggedword>
+      <taggedword index="33" part-of-speech="NN">hyperphagia</taggedword>
+      <taggedword index="34" part-of-speech=",">,</taggedword>
+      <taggedword index="35" part-of-speech="VBG">inducing</taggedword>
+      <taggedword index="36" part-of-speech="RB">obesity</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="etiology" gov_index="2">det</dependency>
+      <dependency dep="etiology" dep_index="2" gov="related" gov_index="10">nsubjpass</dependency>
+      <dependency dep="diabetes" dep_index="4" gov="mellitus" gov_index="5">nn</dependency>
+      <dependency dep="mellitus" dep_index="5" gov="etiology" gov_index="2">prep_for</dependency>
+      <dependency dep="PWS" dep_index="7" gov="mellitus" gov_index="5">prep_in</dependency>
+      <dependency dep="may" dep_index="8" gov="related" gov_index="10">aux</dependency>
+      <dependency dep="be" dep_index="9" gov="related" gov_index="10">auxpass</dependency>
+      <dependency dep="related" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="obesity" gov_index="14">det</dependency>
+      <dependency dep="morbid" dep_index="13" gov="obesity" gov_index="14">amod</dependency>
+      <dependency dep="obesity" dep_index="14" gov="related" gov_index="10">prep_to</dependency>
+      <dependency dep="consequent" dep_index="16" gov="resistance" gov_index="18">amod</dependency>
+      <dependency dep="insulin" dep_index="17" gov="resistance" gov_index="18">nn</dependency>
+      <dependency dep="resistance" dep_index="18" gov="related" gov_index="10">prep_to</dependency>
+      <dependency dep="resistance" dep_index="18" gov="obesity" gov_index="14">conj_and</dependency>
+      <dependency dep="because" dep_index="20" gov="cause" gov_index="32">mark</dependency>
+      <dependency dep="a" dep_index="21" gov="decrease" gov_index="22">det</dependency>
+      <dependency dep="decrease" dep_index="22" gov="cause" gov_index="32">nsubj</dependency>
+      <dependency dep="oxytocin" dep_index="24" gov="neurons" gov_index="25">nn</dependency>
+      <dependency dep="neurons" dep_index="25" gov="decrease" gov_index="22">prep_of</dependency>
+      <dependency dep="leptin" dep_index="27" gov="resistance" gov_index="28">nn</dependency>
+      <dependency dep="resistance" dep_index="28" gov="decrease" gov_index="22">conj_and</dependency>
+      <dependency dep="resistance" dep_index="28" gov="cause" gov_index="32">nsubj</dependency>
+      <dependency dep="PWS" dep_index="30" gov="resistance" gov_index="28">prep_in</dependency>
+      <dependency dep="may" dep_index="31" gov="cause" gov_index="32">aux</dependency>
+      <dependency dep="cause" dep_index="32" gov="related" gov_index="10">advcl</dependency>
+      <dependency dep="hyperphagia" dep_index="33" gov="cause" gov_index="32">dobj</dependency>
+      <dependency dep="inducing" dep_index="35" gov="related" gov_index="10">xcomp</dependency>
+      <dependency dep="obesity" dep_index="36" gov="inducing" gov_index="35">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700024" relationship="false">17 18 10 32 22 25 24</relation>
+   </relations>
+   <pairs/>
+</root>

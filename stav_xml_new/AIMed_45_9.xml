@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@IFN-gamma R alpha@binding@does@not@result@in@a@large@conformational@change@in@the@AB@loop@as@previously@suggested@.@</sentence>
+   <tags>
+      <tag pos="3">IFN-gamma R alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">IFN-gamma R alpha</taggedword>
+      <taggedword index="4" part-of-speech="NNP">binding</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="6" part-of-speech="RB">not</taggedword>
+      <taggedword index="7" part-of-speech="VB">result</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="JJ">large</taggedword>
+      <taggedword index="11" part-of-speech="JJ">conformational</taggedword>
+      <taggedword index="12" part-of-speech="NN">change</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNP">AB</taggedword>
+      <taggedword index="16" part-of-speech="NN">loop</taggedword>
+      <taggedword index="17" part-of-speech="IN">as</taggedword>
+      <taggedword index="18" part-of-speech="RB">previously</taggedword>
+      <taggedword index="19" part-of-speech="VBD">suggested</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="result" gov_index="7">advmod</dependency>
+      <dependency dep="IFN-gamma R alpha" dep_index="3" gov="binding" gov_index="4">nn</dependency>
+      <dependency dep="binding" dep_index="4" gov="result" gov_index="7">nsubj</dependency>
+      <dependency dep="does" dep_index="5" gov="result" gov_index="7">aux</dependency>
+      <dependency dep="not" dep_index="6" gov="result" gov_index="7">neg</dependency>
+      <dependency dep="result" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="9" gov="change" gov_index="12">det</dependency>
+      <dependency dep="large" dep_index="10" gov="change" gov_index="12">amod</dependency>
+      <dependency dep="conformational" dep_index="11" gov="change" gov_index="12">amod</dependency>
+      <dependency dep="change" dep_index="12" gov="result" gov_index="7">prep_in</dependency>
+      <dependency dep="the" dep_index="14" gov="loop" gov_index="16">det</dependency>
+      <dependency dep="AB" dep_index="15" gov="loop" gov_index="16">nn</dependency>
+      <dependency dep="loop" dep_index="16" gov="change" gov_index="12">prep_in</dependency>
+      <dependency dep="as" dep_index="17" gov="suggested" gov_index="19">mark</dependency>
+      <dependency dep="previously" dep_index="18" gov="suggested" gov_index="19">advmod</dependency>
+      <dependency dep="suggested" dep_index="19" gov="result" gov_index="7">advcl</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

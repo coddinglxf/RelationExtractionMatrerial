@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Structural@studies@on@the@ribbon-to-helix@transition@in@profilin@:@actin@crystals@.@</sentence>
+   <tags>
+      <tag pos="8">profilin</tag>
+      <tag pos="10">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Structural</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="IN">on</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">ribbon-to-helix</taggedword>
+      <taggedword index="6" part-of-speech="NN">transition</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="9" part-of-speech=":">:</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="NNS">crystals</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Structural" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="transition" gov_index="6">det</dependency>
+      <dependency dep="ribbon-to-helix" dep_index="5" gov="transition" gov_index="6">amod</dependency>
+      <dependency dep="transition" dep_index="6" gov="studies" gov_index="2">prep_on</dependency>
+      <dependency dep="profilin" dep_index="8" gov="transition" gov_index="6">prep_in</dependency>
+      <dependency dep="actin" dep_index="10" gov="crystals" gov_index="11">nn</dependency>
+      <dependency dep="crystals" dep_index="11" gov="studies" gov_index="2">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 6 2 11 10</relation>
+   </relations>
+   <pairs/>
+</root>

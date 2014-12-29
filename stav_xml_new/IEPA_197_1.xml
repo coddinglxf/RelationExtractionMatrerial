@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Bovine prion protein@as@a@modulator@of@protein kinase CK2@</sentence>
+   <tags>
+      <tag pos="1">Bovine prion protein</tag>
+      <tag pos="6">protein kinase CK2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Bovine prion protein</taggedword>
+      <taggedword index="2" part-of-speech="IN">as</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">modulator</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="CD">protein kinase CK2</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Bovine prion protein" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="3" gov="modulator" gov_index="4">det</dependency>
+      <dependency dep="modulator" dep_index="4" gov="Bovine prion protein" gov_index="1">prep_as</dependency>
+      <dependency dep="protein kinase CK2" dep_index="6" gov="modulator" gov_index="4">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100006" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>100006</pair>
+   </pairs>
+</root>

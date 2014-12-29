@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@clinical@symptoms@studied@were@less@useful@in@predicting@astrogliosis@or@neurodegeneration@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">clinical</taggedword>
+      <taggedword index="3" part-of-speech="NNS">symptoms</taggedword>
+      <taggedword index="4" part-of-speech="VBN">studied</taggedword>
+      <taggedword index="5" part-of-speech="VBD">were</taggedword>
+      <taggedword index="6" part-of-speech="RBR">less</taggedword>
+      <taggedword index="7" part-of-speech="JJ">useful</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="VBG">predicting</taggedword>
+      <taggedword index="10" part-of-speech="NNS">astrogliosis</taggedword>
+      <taggedword index="11" part-of-speech="CC">or</taggedword>
+      <taggedword index="12" part-of-speech="NN">neurodegeneration</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="symptoms" gov_index="3">det</dependency>
+      <dependency dep="clinical" dep_index="2" gov="symptoms" gov_index="3">amod</dependency>
+      <dependency dep="symptoms" dep_index="3" gov="useful" gov_index="7">nsubj</dependency>
+      <dependency dep="studied" dep_index="4" gov="symptoms" gov_index="3">partmod</dependency>
+      <dependency dep="were" dep_index="5" gov="useful" gov_index="7">cop</dependency>
+      <dependency dep="less" dep_index="6" gov="useful" gov_index="7">advmod</dependency>
+      <dependency dep="useful" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="predicting" dep_index="9" gov="useful" gov_index="7">prepc_in</dependency>
+      <dependency dep="astrogliosis" dep_index="10" gov="predicting" gov_index="9">dobj</dependency>
+      <dependency dep="neurodegeneration" dep_index="12" gov="predicting" gov_index="9">dobj</dependency>
+      <dependency dep="neurodegeneration" dep_index="12" gov="astrogliosis" gov_index="10">conj_or</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

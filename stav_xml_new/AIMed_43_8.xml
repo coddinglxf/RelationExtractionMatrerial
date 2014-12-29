@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@implies@that@the@amino@acids@in@the@second@immunoglobulin-like@domain@that@determine@Trk@specificity@are@distinct@for@each@Trk@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">implies</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="6" part-of-speech="NNS">acids</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">second</taggedword>
+      <taggedword index="10" part-of-speech="JJ">immunoglobulin-like</taggedword>
+      <taggedword index="11" part-of-speech="NN">domain</taggedword>
+      <taggedword index="12" part-of-speech="WDT">that</taggedword>
+      <taggedword index="13" part-of-speech="VBP">determine</taggedword>
+      <taggedword index="14" part-of-speech="NNP">Trk</taggedword>
+      <taggedword index="15" part-of-speech="NN">specificity</taggedword>
+      <taggedword index="16" part-of-speech="VBP">are</taggedword>
+      <taggedword index="17" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="18" part-of-speech="IN">for</taggedword>
+      <taggedword index="19" part-of-speech="DT">each</taggedword>
+      <taggedword index="20" part-of-speech="NNP">Trk</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="implies" gov_index="2">nsubj</dependency>
+      <dependency dep="implies" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="distinct" gov_index="17">mark</dependency>
+      <dependency dep="the" dep_index="4" gov="acids" gov_index="6">det</dependency>
+      <dependency dep="amino" dep_index="5" gov="acids" gov_index="6">amod</dependency>
+      <dependency dep="acids" dep_index="6" gov="distinct" gov_index="17">nsubj</dependency>
+      <dependency dep="the" dep_index="8" gov="domain" gov_index="11">det</dependency>
+      <dependency dep="second" dep_index="9" gov="domain" gov_index="11">amod</dependency>
+      <dependency dep="immunoglobulin-like" dep_index="10" gov="domain" gov_index="11">amod</dependency>
+      <dependency dep="domain" dep_index="11" gov="acids" gov_index="6">prep_in</dependency>
+      <dependency dep="domain" dep_index="11" gov="determine" gov_index="13">nsubj</dependency>
+      <dependency dep="determine" dep_index="13" gov="domain" gov_index="11">rcmod</dependency>
+      <dependency dep="Trk" dep_index="14" gov="specificity" gov_index="15">nn</dependency>
+      <dependency dep="specificity" dep_index="15" gov="determine" gov_index="13">dobj</dependency>
+      <dependency dep="are" dep_index="16" gov="distinct" gov_index="17">cop</dependency>
+      <dependency dep="distinct" dep_index="17" gov="implies" gov_index="2">ccomp</dependency>
+      <dependency dep="each" dep_index="19" gov="Trk" gov_index="20">det</dependency>
+      <dependency dep="Trk" dep_index="20" gov="distinct" gov_index="17">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

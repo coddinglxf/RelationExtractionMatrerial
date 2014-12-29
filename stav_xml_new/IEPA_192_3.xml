@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>However@,@in@the@presence@of@high@GA@concentrations@,@alpha-amylase@induction@occurred@even@in@d1@</sentence>
+   <tags>
+      <tag pos="8">GA</tag>
+      <tag pos="11">alpha-amylase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">However</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">presence</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">high</taggedword>
+      <taggedword index="8" part-of-speech="NNP">GA</taggedword>
+      <taggedword index="9" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="JJ">alpha-amylase</taggedword>
+      <taggedword index="12" part-of-speech="NN">induction</taggedword>
+      <taggedword index="13" part-of-speech="VBD">occurred</taggedword>
+      <taggedword index="14" part-of-speech="RB">even</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="CD">d1</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="However" dep_index="1" gov="occurred" gov_index="13">advmod</dependency>
+      <dependency dep="the" dep_index="4" gov="presence" gov_index="5">det</dependency>
+      <dependency dep="presence" dep_index="5" gov="occurred" gov_index="13">prep_in</dependency>
+      <dependency dep="high" dep_index="7" gov="concentrations" gov_index="9">amod</dependency>
+      <dependency dep="GA" dep_index="8" gov="concentrations" gov_index="9">nn</dependency>
+      <dependency dep="concentrations" dep_index="9" gov="presence" gov_index="5">prep_of</dependency>
+      <dependency dep="alpha-amylase" dep_index="11" gov="induction" gov_index="12">amod</dependency>
+      <dependency dep="induction" dep_index="12" gov="occurred" gov_index="13">nsubj</dependency>
+      <dependency dep="occurred" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="even" dep_index="14" gov="occurred" gov_index="13">advmod</dependency>
+      <dependency dep="d1" dep_index="16" gov="occurred" gov_index="13">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800011" relationship="true">8 9 5 13 12 11</relation>
+   </relations>
+   <pairs>
+      <pair>800011</pair>
+   </pairs>
+</root>

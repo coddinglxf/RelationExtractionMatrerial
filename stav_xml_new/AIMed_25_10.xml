@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Determination@of@TNFalpha@,@complement@factors@C3@and@C4@,@and@alpha1AT@may@be@a@significant@parameter@in@the@differential@diagnosis@of@serous@effusions@,@particularly@in@those@patients@with@malignant@disease@.@</sentence>
+   <tags>
+      <tag pos="3">TNFalpha</tag>
+      <tag pos="7">C3</tag>
+      <tag pos="9">C4</tag>
+      <tag pos="12">alpha1AT</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Determination</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">TNFalpha</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="JJ">complement</taggedword>
+      <taggedword index="6" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="7" part-of-speech="NNP">C3</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNP">C4</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNS">alpha1AT</taggedword>
+      <taggedword index="13" part-of-speech="MD">may</taggedword>
+      <taggedword index="14" part-of-speech="VB">be</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="17" part-of-speech="NN">parameter</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">differential</taggedword>
+      <taggedword index="21" part-of-speech="NN">diagnosis</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">serous</taggedword>
+      <taggedword index="24" part-of-speech="NNS">effusions</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="RB">particularly</taggedword>
+      <taggedword index="27" part-of-speech="IN">in</taggedword>
+      <taggedword index="28" part-of-speech="DT">those</taggedword>
+      <taggedword index="29" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="30" part-of-speech="IN">with</taggedword>
+      <taggedword index="31" part-of-speech="JJ">malignant</taggedword>
+      <taggedword index="32" part-of-speech="NN">disease</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Determination" dep_index="1" gov="parameter" gov_index="17">nsubj</dependency>
+      <dependency dep="TNFalpha" dep_index="3" gov="Determination" gov_index="1">prep_of</dependency>
+      <dependency dep="complement" dep_index="5" gov="factors" gov_index="6">amod</dependency>
+      <dependency dep="factors" dep_index="6" gov="Determination" gov_index="1">prep_of</dependency>
+      <dependency dep="factors" dep_index="6" gov="TNFalpha" gov_index="3">conj_and</dependency>
+      <dependency dep="C3" dep_index="7" gov="factors" gov_index="6">dep</dependency>
+      <dependency dep="C4" dep_index="9" gov="factors" gov_index="6">dep</dependency>
+      <dependency dep="C4" dep_index="9" gov="C3" gov_index="7">conj_and</dependency>
+      <dependency dep="alpha1AT" dep_index="12" gov="Determination" gov_index="1">prep_of</dependency>
+      <dependency dep="alpha1AT" dep_index="12" gov="TNFalpha" gov_index="3">conj_and</dependency>
+      <dependency dep="may" dep_index="13" gov="parameter" gov_index="17">aux</dependency>
+      <dependency dep="be" dep_index="14" gov="parameter" gov_index="17">cop</dependency>
+      <dependency dep="a" dep_index="15" gov="parameter" gov_index="17">det</dependency>
+      <dependency dep="significant" dep_index="16" gov="parameter" gov_index="17">amod</dependency>
+      <dependency dep="parameter" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="19" gov="diagnosis" gov_index="21">det</dependency>
+      <dependency dep="differential" dep_index="20" gov="diagnosis" gov_index="21">nn</dependency>
+      <dependency dep="diagnosis" dep_index="21" gov="parameter" gov_index="17">prep_in</dependency>
+      <dependency dep="serous" dep_index="23" gov="effusions" gov_index="24">amod</dependency>
+      <dependency dep="effusions" dep_index="24" gov="diagnosis" gov_index="21">prep_of</dependency>
+      <dependency dep="particularly" dep_index="26" gov="parameter" gov_index="17">advmod</dependency>
+      <dependency dep="those" dep_index="28" gov="patients" gov_index="29">det</dependency>
+      <dependency dep="patients" dep_index="29" gov="parameter" gov_index="17">prep_in</dependency>
+      <dependency dep="malignant" dep_index="31" gov="disease" gov_index="32">amod</dependency>
+      <dependency dep="disease" dep_index="32" gov="patients" gov_index="29">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300007" relationship="false">3 1 6 7</relation>
+      <relation position="300009" relationship="false">3 1 6 9</relation>
+      <relation position="300012" relationship="false">3 1 12</relation>
+      <relation position="700009" relationship="false">7 6 9</relation>
+      <relation position="700012" relationship="false">7 6 1 12</relation>
+      <relation position="900012" relationship="false">9 6 1 12</relation>
+   </relations>
+   <pairs/>
+</root>

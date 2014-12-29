@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cloning@and@functional@analysis@of@BAG-1@:@a@novel@Bcl-2-binding protein@with@anti-cell@death@activity@.@</sentence>
+   <tags>
+      <tag pos="6">BAG-1</tag>
+      <tag pos="10">Bcl-2-binding protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Cloning</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="4" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">BAG-1</taggedword>
+      <taggedword index="7" part-of-speech=":">:</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="NN">novel</taggedword>
+      <taggedword index="10" part-of-speech="NN">Bcl-2-binding protein</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="JJ">anti-cell</taggedword>
+      <taggedword index="13" part-of-speech="NN">death</taggedword>
+      <taggedword index="14" part-of-speech="NN">activity</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cloning" dep_index="1" gov="analysis" gov_index="4">amod</dependency>
+      <dependency dep="functional" dep_index="3" gov="Cloning" gov_index="1">conj_and</dependency>
+      <dependency dep="functional" dep_index="3" gov="analysis" gov_index="4">amod</dependency>
+      <dependency dep="analysis" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="BAG-1" dep_index="6" gov="analysis" gov_index="4">prep_of</dependency>
+      <dependency dep="a" dep_index="8" gov="Bcl-2-binding protein" gov_index="10">det</dependency>
+      <dependency dep="novel" dep_index="9" gov="Bcl-2-binding protein" gov_index="10">nn</dependency>
+      <dependency dep="Bcl-2-binding protein" dep_index="10" gov="analysis" gov_index="4">dep</dependency>
+      <dependency dep="anti-cell" dep_index="12" gov="activity" gov_index="14">amod</dependency>
+      <dependency dep="death" dep_index="13" gov="activity" gov_index="14">nn</dependency>
+      <dependency dep="activity" dep_index="14" gov="Bcl-2-binding protein" gov_index="10">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="false">6 4 10</relation>
+   </relations>
+   <pairs/>
+</root>

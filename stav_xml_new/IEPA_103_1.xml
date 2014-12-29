@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@bovine@ovarian@granulosa@cell@model@is@a@primary@culture@system@where@under@stimulation@by@insulin@or@IGF-I@and@LH@the@endogenous@oxytocin@gene@is@massively@upregulated@</sentence>
+   <tags>
+      <tag pos="16">insulin</tag>
+      <tag pos="23">oxytocin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">bovine</taggedword>
+      <taggedword index="3" part-of-speech="JJ">ovarian</taggedword>
+      <taggedword index="4" part-of-speech="NN">granulosa</taggedword>
+      <taggedword index="5" part-of-speech="NN">cell</taggedword>
+      <taggedword index="6" part-of-speech="NN">model</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="10" part-of-speech="NN">culture</taggedword>
+      <taggedword index="11" part-of-speech="NN">system</taggedword>
+      <taggedword index="12" part-of-speech="WRB">where</taggedword>
+      <taggedword index="13" part-of-speech="IN">under</taggedword>
+      <taggedword index="14" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="15" part-of-speech="IN">by</taggedword>
+      <taggedword index="16" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="NNP">IGF-I</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NNP">LH</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NNS">endogenous</taggedword>
+      <taggedword index="23" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="24" part-of-speech="NN">gene</taggedword>
+      <taggedword index="25" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="26" part-of-speech="RB">massively</taggedword>
+      <taggedword index="27" part-of-speech="JJ">upregulated</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="model" gov_index="6">det</dependency>
+      <dependency dep="bovine" dep_index="2" gov="model" gov_index="6">amod</dependency>
+      <dependency dep="ovarian" dep_index="3" gov="model" gov_index="6">amod</dependency>
+      <dependency dep="granulosa" dep_index="4" gov="model" gov_index="6">nn</dependency>
+      <dependency dep="cell" dep_index="5" gov="model" gov_index="6">nn</dependency>
+      <dependency dep="model" dep_index="6" gov="system" gov_index="11">nsubj</dependency>
+      <dependency dep="is" dep_index="7" gov="system" gov_index="11">cop</dependency>
+      <dependency dep="a" dep_index="8" gov="system" gov_index="11">det</dependency>
+      <dependency dep="primary" dep_index="9" gov="system" gov_index="11">amod</dependency>
+      <dependency dep="culture" dep_index="10" gov="system" gov_index="11">nn</dependency>
+      <dependency dep="system" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="where" dep_index="12" gov="upregulated" gov_index="27">advmod</dependency>
+      <dependency dep="stimulation" dep_index="14" gov="upregulated" gov_index="27">prep_under</dependency>
+      <dependency dep="insulin" dep_index="16" gov="stimulation" gov_index="14">prep_by</dependency>
+      <dependency dep="IGF-I" dep_index="18" gov="stimulation" gov_index="14">prep_by</dependency>
+      <dependency dep="IGF-I" dep_index="18" gov="insulin" gov_index="16">conj_or</dependency>
+      <dependency dep="LH" dep_index="20" gov="insulin" gov_index="16">conj_or</dependency>
+      <dependency dep="LH" dep_index="20" gov="IGF-I" gov_index="18">conj_and</dependency>
+      <dependency dep="the" dep_index="21" gov="gene" gov_index="24">det</dependency>
+      <dependency dep="endogenous" dep_index="22" gov="gene" gov_index="24">nn</dependency>
+      <dependency dep="oxytocin" dep_index="23" gov="gene" gov_index="24">nn</dependency>
+      <dependency dep="gene" dep_index="24" gov="upregulated" gov_index="27">nsubj</dependency>
+      <dependency dep="is" dep_index="25" gov="upregulated" gov_index="27">cop</dependency>
+      <dependency dep="massively" dep_index="26" gov="upregulated" gov_index="27">advmod</dependency>
+      <dependency dep="upregulated" dep_index="27" gov="system" gov_index="11">rcmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600023" relationship="true">16 14 27 24 23</relation>
+   </relations>
+   <pairs>
+      <pair>1600023</pair>
+   </pairs>
+</root>

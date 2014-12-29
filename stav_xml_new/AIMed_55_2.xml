@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Liver-expressed chemokine@(@LEC@)/@CCL16@is@a@human@CC@chemokine@selectively@expressed@in@the@liver@.@</sentence>
+   <tags>
+      <tag pos="1">Liver-expressed chemokine</tag>
+      <tag pos="3">LEC</tag>
+      <tag pos="5">CCL16</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Liver-expressed chemokine</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="4" part-of-speech="NNP">)/</taggedword>
+      <taggedword index="5" part-of-speech="NNP">CCL16</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">human</taggedword>
+      <taggedword index="9" part-of-speech="NNP">CC</taggedword>
+      <taggedword index="10" part-of-speech="NN">chemokine</taggedword>
+      <taggedword index="11" part-of-speech="RB">selectively</taggedword>
+      <taggedword index="12" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">liver</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Liver-expressed chemokine" dep_index="1" gov="CCL16" gov_index="5">nn</dependency>
+      <dependency dep="(" dep_index="2" gov="CCL16" gov_index="5">nn</dependency>
+      <dependency dep="LEC" dep_index="3" gov="CCL16" gov_index="5">nn</dependency>
+      <dependency dep=")/" dep_index="4" gov="CCL16" gov_index="5">nn</dependency>
+      <dependency dep="CCL16" dep_index="5" gov="chemokine" gov_index="10">nsubj</dependency>
+      <dependency dep="is" dep_index="6" gov="chemokine" gov_index="10">cop</dependency>
+      <dependency dep="a" dep_index="7" gov="chemokine" gov_index="10">det</dependency>
+      <dependency dep="human" dep_index="8" gov="chemokine" gov_index="10">amod</dependency>
+      <dependency dep="CC" dep_index="9" gov="chemokine" gov_index="10">nn</dependency>
+      <dependency dep="chemokine" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="selectively" dep_index="11" gov="expressed" gov_index="12">advmod</dependency>
+      <dependency dep="expressed" dep_index="12" gov="chemokine" gov_index="10">partmod</dependency>
+      <dependency dep="the" dep_index="14" gov="liver" gov_index="15">det</dependency>
+      <dependency dep="liver" dep_index="15" gov="expressed" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false">1 5 3</relation>
+      <relation position="100005" relationship="false"></relation>
+      <relation position="300005" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

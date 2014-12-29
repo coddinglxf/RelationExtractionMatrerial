@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Another@cyclin-dependent kinase inhibitor@,@p27KIP1@,@and@cyclin D@increased@slightly@,@whereas@proliferating cell nuclear antigen@and@p130@remained@unchanged@.@</sentence>
+   <tags>
+      <tag pos="12">proliferating cell nuclear antigen</tag>
+      <tag pos="2">cyclin-dependent kinase inhibitor</tag>
+      <tag pos="14">p130</tag>
+      <tag pos="4">p27KIP1</tag>
+      <tag pos="7">cyclin D</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">Another</taggedword>
+      <taggedword index="2" part-of-speech="NN">cyclin-dependent kinase inhibitor</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNS">p27KIP1</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">cyclin D</taggedword>
+      <taggedword index="8" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="9" part-of-speech="RB">slightly</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="12" part-of-speech="NNS">proliferating cell nuclear antigen</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NNS">p130</taggedword>
+      <taggedword index="15" part-of-speech="VBD">remained</taggedword>
+      <taggedword index="16" part-of-speech="JJ">unchanged</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Another" dep_index="1" gov="cyclin-dependent kinase inhibitor" gov_index="2">det</dependency>
+      <dependency dep="cyclin-dependent kinase inhibitor" dep_index="2" gov="increased" gov_index="8">nsubj</dependency>
+      <dependency dep="p27KIP1" dep_index="4" gov="cyclin-dependent kinase inhibitor" gov_index="2">conj_and</dependency>
+      <dependency dep="p27KIP1" dep_index="4" gov="increased" gov_index="8">nsubj</dependency>
+      <dependency dep="cyclin D" dep_index="7" gov="cyclin-dependent kinase inhibitor" gov_index="2">conj_and</dependency>
+      <dependency dep="cyclin D" dep_index="7" gov="increased" gov_index="8">nsubj</dependency>
+      <dependency dep="increased" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="slightly" dep_index="9" gov="increased" gov_index="8">advmod</dependency>
+      <dependency dep="whereas" dep_index="11" gov="unchanged" gov_index="16">mark</dependency>
+      <dependency dep="proliferating cell nuclear antigen" dep_index="12" gov="unchanged" gov_index="16">nsubj</dependency>
+      <dependency dep="p130" dep_index="14" gov="proliferating cell nuclear antigen" gov_index="12">conj_and</dependency>
+      <dependency dep="p130" dep_index="14" gov="unchanged" gov_index="16">nsubj</dependency>
+      <dependency dep="remained" dep_index="15" gov="unchanged" gov_index="16">cop</dependency>
+      <dependency dep="unchanged" dep_index="16" gov="increased" gov_index="8">advcl</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200012" relationship="false">2 8 16 12</relation>
+      <relation position="1200014" relationship="false">12 16 14</relation>
+      <relation position="400012" relationship="false">4 8 16 12</relation>
+      <relation position="700012" relationship="false">7 8 16 12</relation>
+      <relation position="200014" relationship="false">2 8 16 14</relation>
+      <relation position="200004" relationship="true">2 8 4</relation>
+      <relation position="200007" relationship="false">2 8 7</relation>
+      <relation position="400014" relationship="false">4 8 16 14</relation>
+      <relation position="700014" relationship="false">7 8 16 14</relation>
+      <relation position="400007" relationship="false">4 8 7</relation>
+   </relations>
+   <pairs>
+      <pair>200004</pair>
+   </pairs>
+</root>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Hemopoietic@cell@proliferation@is@mediated@by@non-tyrosine@and@tyrosine@kinases@that@signal@via@uncommon@and@common@sets@of@downstream@effector@molecules@including@the@Grb2@/@c-Cbl@.@</sentence>
+   <tags>
+      <tag pos="24">Grb2</tag>
+      <tag pos="26">c-Cbl</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Hemopoietic</taggedword>
+      <taggedword index="2" part-of-speech="NN">cell</taggedword>
+      <taggedword index="3" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="JJ">non-tyrosine</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="10" part-of-speech="NNS">kinases</taggedword>
+      <taggedword index="11" part-of-speech="DT">that</taggedword>
+      <taggedword index="12" part-of-speech="NN">signal</taggedword>
+      <taggedword index="13" part-of-speech="IN">via</taggedword>
+      <taggedword index="14" part-of-speech="JJ">uncommon</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">common</taggedword>
+      <taggedword index="17" part-of-speech="NNS">sets</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">downstream</taggedword>
+      <taggedword index="20" part-of-speech="NN">effector</taggedword>
+      <taggedword index="21" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="22" part-of-speech="VBG">including</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="JJ">Grb2</taggedword>
+      <taggedword index="25" part-of-speech="JJ">/</taggedword>
+      <taggedword index="26" part-of-speech="NN">c-Cbl</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Hemopoietic" dep_index="1" gov="proliferation" gov_index="3">amod</dependency>
+      <dependency dep="cell" dep_index="2" gov="proliferation" gov_index="3">nn</dependency>
+      <dependency dep="proliferation" dep_index="3" gov="mediated" gov_index="5">nsubjpass</dependency>
+      <dependency dep="is" dep_index="4" gov="mediated" gov_index="5">auxpass</dependency>
+      <dependency dep="mediated" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="non-tyrosine" dep_index="7" gov="kinases" gov_index="10">amod</dependency>
+      <dependency dep="tyrosine" dep_index="9" gov="non-tyrosine" gov_index="7">conj_and</dependency>
+      <dependency dep="tyrosine" dep_index="9" gov="kinases" gov_index="10">amod</dependency>
+      <dependency dep="kinases" dep_index="10" gov="mediated" gov_index="5">agent</dependency>
+      <dependency dep="that" dep_index="11" gov="signal" gov_index="12">det</dependency>
+      <dependency dep="signal" dep_index="12" gov="mediated" gov_index="5">dobj</dependency>
+      <dependency dep="uncommon" dep_index="14" gov="sets" gov_index="17">amod</dependency>
+      <dependency dep="common" dep_index="16" gov="uncommon" gov_index="14">conj_and</dependency>
+      <dependency dep="common" dep_index="16" gov="sets" gov_index="17">amod</dependency>
+      <dependency dep="sets" dep_index="17" gov="signal" gov_index="12">prep_via</dependency>
+      <dependency dep="downstream" dep_index="19" gov="molecules" gov_index="21">amod</dependency>
+      <dependency dep="effector" dep_index="20" gov="molecules" gov_index="21">nn</dependency>
+      <dependency dep="molecules" dep_index="21" gov="sets" gov_index="17">prep_of</dependency>
+      <dependency dep="the" dep_index="23" gov="c-Cbl" gov_index="26">det</dependency>
+      <dependency dep="Grb2" dep_index="24" gov="c-Cbl" gov_index="26">amod</dependency>
+      <dependency dep="/" dep_index="25" gov="c-Cbl" gov_index="26">amod</dependency>
+      <dependency dep="c-Cbl" dep_index="26" gov="molecules" gov_index="21">prep_including</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2400026" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>PKC@phosphorylates@GAP-43@on@serine@41@.@</sentence>
+   <tags>
+      <tag pos="1">PKC</tag>
+      <tag pos="3">GAP-43</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">phosphorylates</taggedword>
+      <taggedword index="3" part-of-speech="NN">GAP-43</taggedword>
+      <taggedword index="4" part-of-speech="IN">on</taggedword>
+      <taggedword index="5" part-of-speech="JJ">serine</taggedword>
+      <taggedword index="6" part-of-speech="CD">41</taggedword>
+      <taggedword index="7" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="PKC" dep_index="1" gov="phosphorylates" gov_index="2">nsubj</dependency>
+      <dependency dep="phosphorylates" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="GAP-43" dep_index="3" gov="phosphorylates" gov_index="2">dobj</dependency>
+      <dependency dep="serine" dep_index="5" gov="41" gov_index="6">amod</dependency>
+      <dependency dep="41" dep_index="6" gov="GAP-43" gov_index="3">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="true">1 2 3</relation>
+   </relations>
+   <pairs>
+      <pair>100003</pair>
+   </pairs>
+</root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@cadherin@-associated@proteins@,@alpha-catenin@and@beta-catenin@,@were@present@in@both@mesotheliomas@and@adenocarcinomas@.@</sentence>
+   <tags>
+      <tag pos="2">cadherin</tag>
+      <tag pos="6">alpha-catenin</tag>
+      <tag pos="8">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">cadherin</taggedword>
+      <taggedword index="3" part-of-speech="JJ">-associated</taggedword>
+      <taggedword index="4" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="VBD">were</taggedword>
+      <taggedword index="11" part-of-speech="JJ">present</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">both</taggedword>
+      <taggedword index="14" part-of-speech="NNS">mesotheliomas</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNS">adenocarcinomas</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="proteins" gov_index="4">det</dependency>
+      <dependency dep="cadherin" dep_index="2" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="-associated" dep_index="3" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="proteins" dep_index="4" gov="present" gov_index="11">nsubj</dependency>
+      <dependency dep="alpha-catenin" dep_index="6" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="beta-catenin" dep_index="8" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="beta-catenin" dep_index="8" gov="alpha-catenin" gov_index="6">conj_and</dependency>
+      <dependency dep="were" dep_index="10" gov="present" gov_index="11">cop</dependency>
+      <dependency dep="present" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="both" dep_index="13" gov="mesotheliomas" gov_index="14">preconj</dependency>
+      <dependency dep="mesotheliomas" dep_index="14" gov="present" gov_index="11">prep_in</dependency>
+      <dependency dep="adenocarcinomas" dep_index="16" gov="present" gov_index="11">prep_in</dependency>
+      <dependency dep="adenocarcinomas" dep_index="16" gov="mesotheliomas" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200006" relationship="true">2 4 6</relation>
+      <relation position="200008" relationship="true">2 4 8</relation>
+      <relation position="600008" relationship="false">6 4 8</relation>
+   </relations>
+   <pairs>
+      <pair>200008</pair>
+      <pair>200006</pair>
+   </pairs>
+</root>

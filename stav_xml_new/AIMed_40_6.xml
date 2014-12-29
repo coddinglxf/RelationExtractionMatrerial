@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>FGF@is@bound@at@the@junction@between@the@two@domains@of@one@FGFR@,@and@two@such@units@are@associated@through@receptor:receptor@and@secondary@ligand:receptor@interfaces@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">FGF</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="4" part-of-speech="IN">at</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">junction</taggedword>
+      <taggedword index="7" part-of-speech="IN">between</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="CD">two</taggedword>
+      <taggedword index="10" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="CD">one</taggedword>
+      <taggedword index="13" part-of-speech="NN">FGFR</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="CD">two</taggedword>
+      <taggedword index="17" part-of-speech="JJ">such</taggedword>
+      <taggedword index="18" part-of-speech="NNS">units</taggedword>
+      <taggedword index="19" part-of-speech="VBP">are</taggedword>
+      <taggedword index="20" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="21" part-of-speech="IN">through</taggedword>
+      <taggedword index="22" part-of-speech="NN">receptor:receptor</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="JJ">secondary</taggedword>
+      <taggedword index="25" part-of-speech="NN">ligand:receptor</taggedword>
+      <taggedword index="26" part-of-speech="NNS">interfaces</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="FGF" dep_index="1" gov="bound" gov_index="3">nsubjpass</dependency>
+      <dependency dep="is" dep_index="2" gov="bound" gov_index="3">auxpass</dependency>
+      <dependency dep="bound" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="junction" gov_index="6">det</dependency>
+      <dependency dep="junction" dep_index="6" gov="bound" gov_index="3">prep_at</dependency>
+      <dependency dep="the" dep_index="8" gov="domains" gov_index="10">det</dependency>
+      <dependency dep="two" dep_index="9" gov="domains" gov_index="10">num</dependency>
+      <dependency dep="domains" dep_index="10" gov="junction" gov_index="6">prep_between</dependency>
+      <dependency dep="one" dep_index="12" gov="FGFR" gov_index="13">num</dependency>
+      <dependency dep="FGFR" dep_index="13" gov="domains" gov_index="10">prep_of</dependency>
+      <dependency dep="two" dep_index="16" gov="units" gov_index="18">num</dependency>
+      <dependency dep="such" dep_index="17" gov="units" gov_index="18">amod</dependency>
+      <dependency dep="units" dep_index="18" gov="associated" gov_index="20">nsubjpass</dependency>
+      <dependency dep="are" dep_index="19" gov="associated" gov_index="20">auxpass</dependency>
+      <dependency dep="associated" dep_index="20" gov="bound" gov_index="3">conj_and</dependency>
+      <dependency dep="receptor:receptor" dep_index="22" gov="interfaces" gov_index="26">nn</dependency>
+      <dependency dep="secondary" dep_index="24" gov="receptor:receptor" gov_index="22">conj_and</dependency>
+      <dependency dep="secondary" dep_index="24" gov="interfaces" gov_index="26">nn</dependency>
+      <dependency dep="ligand:receptor" dep_index="25" gov="interfaces" gov_index="26">nn</dependency>
+      <dependency dep="interfaces" dep_index="26" gov="associated" gov_index="20">prep_through</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

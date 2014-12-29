@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@deletion@disrupts@the@PU.1@Ets@domain@.@</sentence>
+   <tags>
+      <tag pos="5">PU.1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">deletion</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">disrupts</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNP">PU.1</taggedword>
+      <taggedword index="6" part-of-speech="NNP">Ets</taggedword>
+      <taggedword index="7" part-of-speech="NN">domain</taggedword>
+      <taggedword index="8" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="deletion" gov_index="2">det</dependency>
+      <dependency dep="deletion" dep_index="2" gov="disrupts" gov_index="3">nsubj</dependency>
+      <dependency dep="disrupts" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="domain" gov_index="7">det</dependency>
+      <dependency dep="PU.1" dep_index="5" gov="domain" gov_index="7">nn</dependency>
+      <dependency dep="Ets" dep_index="6" gov="domain" gov_index="7">nn</dependency>
+      <dependency dep="domain" dep_index="7" gov="disrupts" gov_index="3">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

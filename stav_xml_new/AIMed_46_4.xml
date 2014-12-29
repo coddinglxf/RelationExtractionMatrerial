@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@binding@epitopes@of@BMP-2@for@BMPR-IA@(type@I)@and@BMPR-II@or@ActR-II@(type@II)@were@characterized@using@BMP-2@mutant@proteins@for@analysis@of@interactions@with@receptor@ectodomains@.@</sentence>
+   <tags>
+      <tag pos="5">BMP-2</tag>
+      <tag pos="7">BMPR-IA</tag>
+      <tag pos="11">BMPR-II</tag>
+      <tag pos="13">ActR-II</tag>
+      <tag pos="19">BMP-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="3" part-of-speech="NNS">epitopes</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NN">BMP-2</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="NNP">BMPR-IA</taggedword>
+      <taggedword index="8" part-of-speech="NNP">(type</taggedword>
+      <taggedword index="9" part-of-speech="NNP">I)</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNP">BMPR-II</taggedword>
+      <taggedword index="12" part-of-speech="CC">or</taggedword>
+      <taggedword index="13" part-of-speech="NNP">ActR-II</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(type</taggedword>
+      <taggedword index="15" part-of-speech="NNP">II)</taggedword>
+      <taggedword index="16" part-of-speech="VBD">were</taggedword>
+      <taggedword index="17" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="18" part-of-speech="VBG">using</taggedword>
+      <taggedword index="19" part-of-speech="NN">BMP-2</taggedword>
+      <taggedword index="20" part-of-speech="JJ">mutant</taggedword>
+      <taggedword index="21" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="22" part-of-speech="IN">for</taggedword>
+      <taggedword index="23" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="26" part-of-speech="IN">with</taggedword>
+      <taggedword index="27" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="28" part-of-speech="NNS">ectodomains</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="epitopes" gov_index="3">det</dependency>
+      <dependency dep="binding" dep_index="2" gov="epitopes" gov_index="3">amod</dependency>
+      <dependency dep="epitopes" dep_index="3" gov="characterized" gov_index="17">nsubjpass</dependency>
+      <dependency dep="BMP-2" dep_index="5" gov="epitopes" gov_index="3">prep_of</dependency>
+      <dependency dep="BMPR-IA" dep_index="7" gov="I)" gov_index="9">nn</dependency>
+      <dependency dep="(type" dep_index="8" gov="I)" gov_index="9">nn</dependency>
+      <dependency dep="I)" dep_index="9" gov="BMP-2" gov_index="5">prep_for</dependency>
+      <dependency dep="BMPR-II" dep_index="11" gov="BMP-2" gov_index="5">prep_for</dependency>
+      <dependency dep="BMPR-II" dep_index="11" gov="I)" gov_index="9">conj_and</dependency>
+      <dependency dep="ActR-II" dep_index="13" gov="II)" gov_index="15">nn</dependency>
+      <dependency dep="(type" dep_index="14" gov="II)" gov_index="15">nn</dependency>
+      <dependency dep="II)" dep_index="15" gov="BMP-2" gov_index="5">prep_for</dependency>
+      <dependency dep="II)" dep_index="15" gov="I)" gov_index="9">conj_or</dependency>
+      <dependency dep="were" dep_index="16" gov="characterized" gov_index="17">auxpass</dependency>
+      <dependency dep="characterized" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="18" gov="characterized" gov_index="17">xcomp</dependency>
+      <dependency dep="BMP-2" dep_index="19" gov="proteins" gov_index="21">nn</dependency>
+      <dependency dep="mutant" dep_index="20" gov="proteins" gov_index="21">amod</dependency>
+      <dependency dep="proteins" dep_index="21" gov="using" gov_index="18">dobj</dependency>
+      <dependency dep="analysis" dep_index="23" gov="using" gov_index="18">prep_for</dependency>
+      <dependency dep="interactions" dep_index="25" gov="analysis" gov_index="23">prep_of</dependency>
+      <dependency dep="receptor" dep_index="27" gov="ectodomains" gov_index="28">nn</dependency>
+      <dependency dep="ectodomains" dep_index="28" gov="interactions" gov_index="25">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="true"></relation>
+      <relation position="500011" relationship="true"></relation>
+      <relation position="500013" relationship="true"></relation>
+      <relation position="500019" relationship="false">5 3 17 18 21 19</relation>
+      <relation position="700011" relationship="false">7 9 5 11</relation>
+      <relation position="700013" relationship="false">7 9 15 13</relation>
+      <relation position="700019" relationship="false">7 9 5 3 17 18 21 19</relation>
+      <relation position="1100013" relationship="false">11 5 15 13</relation>
+      <relation position="1100019" relationship="false">11 5 3 17 18 21 19</relation>
+      <relation position="1300019" relationship="false">13 15 5 3 17 18 21 19</relation>
+   </relations>
+   <pairs>
+      <pair>500013</pair>
+      <pair>500011</pair>
+      <pair>500007</pair>
+   </pairs>
+</root>

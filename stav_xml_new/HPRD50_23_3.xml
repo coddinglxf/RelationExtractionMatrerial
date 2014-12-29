@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Downregulation@of@NudC@by@RNA@interference@results@in@multiple@mitotic@defects@,@including@multinucleation@and@cells@arrested@at@the@midbody@stage@,@which@are@rescued@by@ectopic@expression@of@wild-type@NudC@,@but@not@by@NudC@with@mutations@in@the@Plk1@phosphorylation@sites@</sentence>
+   <tags>
+      <tag pos="3">NudC</tag>
+      <tag pos="31">NudC</tag>
+      <tag pos="36">NudC</tag>
+      <tag pos="41">Plk1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Downregulation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">NudC</taggedword>
+      <taggedword index="4" part-of-speech="IN">by</taggedword>
+      <taggedword index="5" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="6" part-of-speech="NN">interference</taggedword>
+      <taggedword index="7" part-of-speech="NNS">results</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="10" part-of-speech="JJ">mitotic</taggedword>
+      <taggedword index="11" part-of-speech="NNS">defects</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBG">including</taggedword>
+      <taggedword index="14" part-of-speech="NN">multinucleation</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="17" part-of-speech="VBN">arrested</taggedword>
+      <taggedword index="18" part-of-speech="IN">at</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">midbody</taggedword>
+      <taggedword index="21" part-of-speech="NN">stage</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="WDT">which</taggedword>
+      <taggedword index="24" part-of-speech="VBP">are</taggedword>
+      <taggedword index="25" part-of-speech="JJ">rescued</taggedword>
+      <taggedword index="26" part-of-speech="IN">by</taggedword>
+      <taggedword index="27" part-of-speech="JJ">ectopic</taggedword>
+      <taggedword index="28" part-of-speech="NN">expression</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="JJ">wild-type</taggedword>
+      <taggedword index="31" part-of-speech="NNP">NudC</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="CC">but</taggedword>
+      <taggedword index="34" part-of-speech="RB">not</taggedword>
+      <taggedword index="35" part-of-speech="IN">by</taggedword>
+      <taggedword index="36" part-of-speech="NNP">NudC</taggedword>
+      <taggedword index="37" part-of-speech="IN">with</taggedword>
+      <taggedword index="38" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="39" part-of-speech="IN">in</taggedword>
+      <taggedword index="40" part-of-speech="DT">the</taggedword>
+      <taggedword index="41" part-of-speech="JJ">Plk1</taggedword>
+      <taggedword index="42" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="43" part-of-speech="NNS">sites</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Downregulation" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="NudC" dep_index="3" gov="Downregulation" gov_index="1">prep_of</dependency>
+      <dependency dep="RNA" dep_index="5" gov="results" gov_index="7">nn</dependency>
+      <dependency dep="interference" dep_index="6" gov="results" gov_index="7">nn</dependency>
+      <dependency dep="results" dep_index="7" gov="Downregulation" gov_index="1">prep_by</dependency>
+      <dependency dep="results" dep_index="7" gov="rescued" gov_index="25">nsubj</dependency>
+      <dependency dep="multiple" dep_index="9" gov="defects" gov_index="11">amod</dependency>
+      <dependency dep="mitotic" dep_index="10" gov="defects" gov_index="11">amod</dependency>
+      <dependency dep="defects" dep_index="11" gov="results" gov_index="7">prep_in</dependency>
+      <dependency dep="multinucleation" dep_index="14" gov="results" gov_index="7">prep_including</dependency>
+      <dependency dep="cells" dep_index="16" gov="results" gov_index="7">prep_including</dependency>
+      <dependency dep="cells" dep_index="16" gov="multinucleation" gov_index="14">conj_and</dependency>
+      <dependency dep="arrested" dep_index="17" gov="multinucleation" gov_index="14">partmod</dependency>
+      <dependency dep="the" dep_index="19" gov="stage" gov_index="21">det</dependency>
+      <dependency dep="midbody" dep_index="20" gov="stage" gov_index="21">amod</dependency>
+      <dependency dep="stage" dep_index="21" gov="arrested" gov_index="17">prep_at</dependency>
+      <dependency dep="are" dep_index="24" gov="rescued" gov_index="25">cop</dependency>
+      <dependency dep="rescued" dep_index="25" gov="results" gov_index="7">rcmod</dependency>
+      <dependency dep="by" dep_index="26" gov="rescued" gov_index="25">KILL</dependency>
+      <dependency dep="ectopic" dep_index="27" gov="expression" gov_index="28">amod</dependency>
+      <dependency dep="expression" dep_index="28" gov="by" gov_index="26">KILL</dependency>
+      <dependency dep="wild-type" dep_index="30" gov="NudC" gov_index="31">amod</dependency>
+      <dependency dep="NudC" dep_index="31" gov="expression" gov_index="28">prep_of</dependency>
+      <dependency dep="not" dep_index="34" gov="rescued" gov_index="25">prep</dependency>
+      <dependency dep="not" dep_index="34" gov="rescued" gov_index="25">conj_but</dependency>
+      <dependency dep="not" dep_index="34" gov="by" gov_index="26">neg</dependency>
+      <dependency dep="by" dep_index="35" gov="rescued" gov_index="25">dep</dependency>
+      <dependency dep="NudC" dep_index="36" gov="by" gov_index="35">pobj</dependency>
+      <dependency dep="mutations" dep_index="38" gov="rescued" gov_index="25">prep_with</dependency>
+      <dependency dep="the" dep_index="40" gov="sites" gov_index="43">det</dependency>
+      <dependency dep="Plk1" dep_index="41" gov="sites" gov_index="43">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="42" gov="sites" gov_index="43">nn</dependency>
+      <dependency dep="sites" dep_index="43" gov="mutations" gov_index="38">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300031" relationship="false">3 1 7 25 26 28 31</relation>
+      <relation position="300036" relationship="false">3 1 7 25 35 36</relation>
+      <relation position="300041" relationship="false">3 1 7 25 38 43 41</relation>
+      <relation position="3100036" relationship="false">31 28 26 25 35 36</relation>
+      <relation position="3100041" relationship="false">31 28 26 25 38 43 41</relation>
+      <relation position="3600041" relationship="false">36 35 25 38 43 41</relation>
+   </relations>
+   <pairs/>
+</root>

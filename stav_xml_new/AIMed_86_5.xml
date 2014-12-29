@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>For@the@calibration@,@we@used@two@sets@of@proteins@,@the@Myc@-@Max@-@Mxi1@helix-loop-helix@proteins@,@and@wild-type@and@dimerization-defective@versions@of@the@lambda@cI@repressor@.@</sentence>
+   <tags>
+      <tag pos="13">Myc</tag>
+      <tag pos="15">Max</tag>
+      <tag pos="17">Mxi1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">For</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="NN">calibration</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBD">used</taggedword>
+      <taggedword index="7" part-of-speech="CD">two</taggedword>
+      <taggedword index="8" part-of-speech="NNS">sets</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">Myc</taggedword>
+      <taggedword index="14" part-of-speech=":">-</taggedword>
+      <taggedword index="15" part-of-speech="NNP">Max</taggedword>
+      <taggedword index="16" part-of-speech=":">-</taggedword>
+      <taggedword index="17" part-of-speech="JJ">Mxi1</taggedword>
+      <taggedword index="18" part-of-speech="JJ">helix-loop-helix</taggedword>
+      <taggedword index="19" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="JJ">wild-type</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="JJ">dimerization-defective</taggedword>
+      <taggedword index="25" part-of-speech="NNS">versions</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">lambda</taggedword>
+      <taggedword index="29" part-of-speech="NN">cI</taggedword>
+      <taggedword index="30" part-of-speech="NN">repressor</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="calibration" gov_index="3">det</dependency>
+      <dependency dep="calibration" dep_index="3" gov="used" gov_index="6">prep_for</dependency>
+      <dependency dep="we" dep_index="5" gov="used" gov_index="6">nsubj</dependency>
+      <dependency dep="used" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="two" dep_index="7" gov="sets" gov_index="8">num</dependency>
+      <dependency dep="sets" dep_index="8" gov="used" gov_index="6">dobj</dependency>
+      <dependency dep="proteins" dep_index="10" gov="sets" gov_index="8">prep_of</dependency>
+      <dependency dep="the" dep_index="12" gov="Myc" gov_index="13">det</dependency>
+      <dependency dep="Myc" dep_index="13" gov="proteins" gov_index="10">appos</dependency>
+      <dependency dep="Max" dep_index="15" gov="sets" gov_index="8">prep_of</dependency>
+      <dependency dep="Max" dep_index="15" gov="proteins" gov_index="10">conj_and</dependency>
+      <dependency dep="Mxi1" dep_index="17" gov="proteins" gov_index="19">amod</dependency>
+      <dependency dep="helix-loop-helix" dep_index="18" gov="proteins" gov_index="19">amod</dependency>
+      <dependency dep="proteins" dep_index="19" gov="sets" gov_index="8">prep_of</dependency>
+      <dependency dep="proteins" dep_index="19" gov="proteins" gov_index="10">conj_and</dependency>
+      <dependency dep="wild-type" dep_index="22" gov="versions" gov_index="25">amod</dependency>
+      <dependency dep="dimerization-defective" dep_index="24" gov="wild-type" gov_index="22">conj_and</dependency>
+      <dependency dep="dimerization-defective" dep_index="24" gov="versions" gov_index="25">amod</dependency>
+      <dependency dep="versions" dep_index="25" gov="sets" gov_index="8">prep_of</dependency>
+      <dependency dep="versions" dep_index="25" gov="proteins" gov_index="10">conj_and</dependency>
+      <dependency dep="the" dep_index="27" gov="repressor" gov_index="30">det</dependency>
+      <dependency dep="lambda" dep_index="28" gov="repressor" gov_index="30">nn</dependency>
+      <dependency dep="cI" dep_index="29" gov="repressor" gov_index="30">nn</dependency>
+      <dependency dep="repressor" dep_index="30" gov="versions" gov_index="25">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="false">13 10 8 15</relation>
+      <relation position="1300017" relationship="false">13 10 8 19 17</relation>
+      <relation position="1500017" relationship="false">15 8 19 17</relation>
+   </relations>
+   <pairs/>
+</root>

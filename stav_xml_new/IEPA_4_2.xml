@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@the@potencies@of@oxytocin@to@raise@IP@and@[Ca2+]i@were@similar@and@independent@of@extracellular@Ca2+@,@and@could@be@suppressed@by@pertussis@toxin@and@phorbol@ester@,@but@not@by@verapamil@</sentence>
+   <tags>
+      <tag pos="7">oxytocin</tag>
+      <tag pos="10">IP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNS">potencies</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">raise</taggedword>
+      <taggedword index="10" part-of-speech="NNP">IP</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNP">[Ca2+]i</taggedword>
+      <taggedword index="13" part-of-speech="VBD">were</taggedword>
+      <taggedword index="14" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="19" part-of-speech="NNS">Ca2+</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="MD">could</taggedword>
+      <taggedword index="23" part-of-speech="VB">be</taggedword>
+      <taggedword index="24" part-of-speech="VBN">suppressed</taggedword>
+      <taggedword index="25" part-of-speech="IN">by</taggedword>
+      <taggedword index="26" part-of-speech="NN">pertussis</taggedword>
+      <taggedword index="27" part-of-speech="NN">toxin</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="JJ">phorbol</taggedword>
+      <taggedword index="30" part-of-speech="NN">ester</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="CC">but</taggedword>
+      <taggedword index="33" part-of-speech="RB">not</taggedword>
+      <taggedword index="34" part-of-speech="IN">by</taggedword>
+      <taggedword index="35" part-of-speech="NN">verapamil</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="similar" gov_index="14">prep_in</dependency>
+      <dependency dep="the" dep_index="4" gov="potencies" gov_index="5">det</dependency>
+      <dependency dep="potencies" dep_index="5" gov="similar" gov_index="14">nsubj</dependency>
+      <dependency dep="potencies" dep_index="5" gov="independent" gov_index="16">nsubj</dependency>
+      <dependency dep="potencies" dep_index="5" gov="suppressed" gov_index="24">nsubjpass</dependency>
+      <dependency dep="oxytocin" dep_index="7" gov="potencies" gov_index="5">prep_of</dependency>
+      <dependency dep="to" dep_index="8" gov="raise" gov_index="9">aux</dependency>
+      <dependency dep="raise" dep_index="9" gov="oxytocin" gov_index="7">infmod</dependency>
+      <dependency dep="IP" dep_index="10" gov="raise" gov_index="9">dobj</dependency>
+      <dependency dep="[Ca2+]i" dep_index="12" gov="raise" gov_index="9">dobj</dependency>
+      <dependency dep="[Ca2+]i" dep_index="12" gov="IP" gov_index="10">conj_and</dependency>
+      <dependency dep="were" dep_index="13" gov="similar" gov_index="14">cop</dependency>
+      <dependency dep="similar" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="independent" dep_index="16" gov="similar" gov_index="14">conj_and</dependency>
+      <dependency dep="extracellular" dep_index="18" gov="Ca2+" gov_index="19">nn</dependency>
+      <dependency dep="Ca2+" dep_index="19" gov="similar" gov_index="14">prep_of</dependency>
+      <dependency dep="could" dep_index="22" gov="suppressed" gov_index="24">aux</dependency>
+      <dependency dep="be" dep_index="23" gov="suppressed" gov_index="24">auxpass</dependency>
+      <dependency dep="suppressed" dep_index="24" gov="similar" gov_index="14">conj_and</dependency>
+      <dependency dep="by" dep_index="25" gov="suppressed" gov_index="24">KILL</dependency>
+      <dependency dep="pertussis" dep_index="26" gov="toxin" gov_index="27">nn</dependency>
+      <dependency dep="toxin" dep_index="27" gov="by" gov_index="25">KILL</dependency>
+      <dependency dep="phorbol" dep_index="29" gov="ester" gov_index="30">amod</dependency>
+      <dependency dep="ester" dep_index="30" gov="by" gov_index="25">pobj</dependency>
+      <dependency dep="ester" dep_index="30" gov="toxin" gov_index="27">conj_and</dependency>
+      <dependency dep="not" dep_index="33" gov="suppressed" gov_index="24">prep</dependency>
+      <dependency dep="not" dep_index="33" gov="suppressed" gov_index="24">conj_but</dependency>
+      <dependency dep="not" dep_index="33" gov="by" gov_index="25">neg</dependency>
+      <dependency dep="by" dep_index="34" gov="suppressed" gov_index="24">dep</dependency>
+      <dependency dep="verapamil" dep_index="35" gov="by" gov_index="34">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700010" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>700010</pair>
+   </pairs>
+</root>

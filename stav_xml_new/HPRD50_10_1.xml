@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cutting@edge@:@CD43@functions@as@a@T@cell@counterreceptor@for@the@macrophage@adhesion@receptor@sialoadhesin@(@Siglec-1@)@</sentence>
+   <tags>
+      <tag pos="4">CD43</tag>
+      <tag pos="16">sialoadhesin</tag>
+      <tag pos="18">Siglec-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Cutting</taggedword>
+      <taggedword index="2" part-of-speech="NN">edge</taggedword>
+      <taggedword index="3" part-of-speech=":">:</taggedword>
+      <taggedword index="4" part-of-speech="CD">CD43</taggedword>
+      <taggedword index="5" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="6" part-of-speech="IN">as</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="NNP">T</taggedword>
+      <taggedword index="9" part-of-speech="NN">cell</taggedword>
+      <taggedword index="10" part-of-speech="NN">counterreceptor</taggedword>
+      <taggedword index="11" part-of-speech="IN">for</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">macrophage</taggedword>
+      <taggedword index="14" part-of-speech="JJ">adhesion</taggedword>
+      <taggedword index="15" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="16" part-of-speech="NN">sialoadhesin</taggedword>
+      <taggedword index="17" part-of-speech="NNP">(</taggedword>
+      <taggedword index="18" part-of-speech="NNP">Siglec-1</taggedword>
+      <taggedword index="19" part-of-speech="NNP">)</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cutting" dep_index="1" gov="edge" gov_index="2">amod</dependency>
+      <dependency dep="edge" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="CD43" dep_index="4" gov="functions" gov_index="5">num</dependency>
+      <dependency dep="functions" dep_index="5" gov="edge" gov_index="2">dep</dependency>
+      <dependency dep="a" dep_index="7" gov="counterreceptor" gov_index="10">det</dependency>
+      <dependency dep="T" dep_index="8" gov="counterreceptor" gov_index="10">nn</dependency>
+      <dependency dep="cell" dep_index="9" gov="counterreceptor" gov_index="10">nn</dependency>
+      <dependency dep="counterreceptor" dep_index="10" gov="functions" gov_index="5">prep_as</dependency>
+      <dependency dep="the" dep_index="12" gov=")" gov_index="19">det</dependency>
+      <dependency dep="macrophage" dep_index="13" gov=")" gov_index="19">amod</dependency>
+      <dependency dep="adhesion" dep_index="14" gov=")" gov_index="19">amod</dependency>
+      <dependency dep="receptor" dep_index="15" gov=")" gov_index="19">nn</dependency>
+      <dependency dep="sialoadhesin" dep_index="16" gov=")" gov_index="19">nn</dependency>
+      <dependency dep="(" dep_index="17" gov=")" gov_index="19">nn</dependency>
+      <dependency dep="Siglec-1" dep_index="18" gov=")" gov_index="19">nn</dependency>
+      <dependency dep=")" dep_index="19" gov="counterreceptor" gov_index="10">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400016" relationship="true">4 5 10 19 16</relation>
+      <relation position="400018" relationship="true">4 5 10 19 18</relation>
+      <relation position="1600018" relationship="false">16 19 18</relation>
+   </relations>
+   <pairs>
+      <pair>400018</pair>
+      <pair>400016</pair>
+   </pairs>
+</root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@protein kinase C@(PKC)@inhibitors@:@staurosporine@,@H7@and@GF109203X@are@able@to@block@the@AVP@-stimulated@phosphorylation@</sentence>
+   <tags>
+      <tag pos="2">protein kinase C</tag>
+      <tag pos="16">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="3" part-of-speech="NN">(PKC)</taggedword>
+      <taggedword index="4" part-of-speech="NNS">inhibitors</taggedword>
+      <taggedword index="5" part-of-speech=":">:</taggedword>
+      <taggedword index="6" part-of-speech="NNP">staurosporine</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NNP">H7</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NNP">GF109203X</taggedword>
+      <taggedword index="11" part-of-speech="VBP">are</taggedword>
+      <taggedword index="12" part-of-speech="JJ">able</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="VB">block</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="17" part-of-speech="JJ">-stimulated</taggedword>
+      <taggedword index="18" part-of-speech="NN">phosphorylation</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="inhibitors" gov_index="4">det</dependency>
+      <dependency dep="protein kinase C" dep_index="2" gov="inhibitors" gov_index="4">amod</dependency>
+      <dependency dep="(PKC)" dep_index="3" gov="inhibitors" gov_index="4">nn</dependency>
+      <dependency dep="inhibitors" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="staurosporine" dep_index="6" gov="able" gov_index="12">nsubj</dependency>
+      <dependency dep="staurosporine" dep_index="6" gov="block" gov_index="14">xsubj</dependency>
+      <dependency dep="H7" dep_index="8" gov="staurosporine" gov_index="6">conj_and</dependency>
+      <dependency dep="H7" dep_index="8" gov="able" gov_index="12">nsubj</dependency>
+      <dependency dep="H7" dep_index="8" gov="block" gov_index="14">xsubj</dependency>
+      <dependency dep="GF109203X" dep_index="10" gov="staurosporine" gov_index="6">conj_and</dependency>
+      <dependency dep="GF109203X" dep_index="10" gov="able" gov_index="12">nsubj</dependency>
+      <dependency dep="GF109203X" dep_index="10" gov="block" gov_index="14">xsubj</dependency>
+      <dependency dep="are" dep_index="11" gov="able" gov_index="12">cop</dependency>
+      <dependency dep="able" dep_index="12" gov="inhibitors" gov_index="4">dep</dependency>
+      <dependency dep="to" dep_index="13" gov="block" gov_index="14">aux</dependency>
+      <dependency dep="block" dep_index="14" gov="able" gov_index="12">xcomp</dependency>
+      <dependency dep="the" dep_index="15" gov="phosphorylation" gov_index="18">det</dependency>
+      <dependency dep="AVP" dep_index="16" gov="phosphorylation" gov_index="18">nn</dependency>
+      <dependency dep="-stimulated" dep_index="17" gov="phosphorylation" gov_index="18">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="18" gov="block" gov_index="14">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200016" relationship="true">2 4 12 14 18 16</relation>
+   </relations>
+   <pairs>
+      <pair>200016</pair>
+   </pairs>
+</root>

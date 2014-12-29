@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>RANTES@interacts@with@CCR5@and@SDF-1@with@CXCR4@receptors@.@</sentence>
+   <tags>
+      <tag pos="1">RANTES</tag>
+      <tag pos="4">CCR5</tag>
+      <tag pos="6">SDF-1</tag>
+      <tag pos="8">CXCR4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">RANTES</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="NNP">CCR5</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">SDF-1</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="CD">CXCR4</taggedword>
+      <taggedword index="9" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="RANTES" dep_index="1" gov="interacts" gov_index="2">nsubj</dependency>
+      <dependency dep="interacts" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="CCR5" dep_index="4" gov="interacts" gov_index="2">prep_with</dependency>
+      <dependency dep="SDF-1" dep_index="6" gov="interacts" gov_index="2">prep_with</dependency>
+      <dependency dep="SDF-1" dep_index="6" gov="CCR5" gov_index="4">conj_and</dependency>
+      <dependency dep="CXCR4" dep_index="8" gov="receptors" gov_index="9">num</dependency>
+      <dependency dep="receptors" dep_index="9" gov="interacts" gov_index="2">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100004" relationship="true">1 2 4</relation>
+      <relation position="100006" relationship="false">1 2 6</relation>
+      <relation position="100008" relationship="false">1 2 9 8</relation>
+      <relation position="400006" relationship="false">4 2 6</relation>
+      <relation position="400008" relationship="false">4 2 9 8</relation>
+      <relation position="600008" relationship="true">6 2 9 8</relation>
+   </relations>
+   <pairs>
+      <pair>600008</pair>
+      <pair>100004</pair>
+   </pairs>
+</root>

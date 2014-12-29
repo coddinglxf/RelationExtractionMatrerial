@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@nasal@polyps@,@GR@labeling@was@associated@with@the@cytoplasm@and@nucleus@of@surface@mucosa@,@submucosal@glands@,@endothelial@cells@,@and@inflammatory@cells@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">nasal</taggedword>
+      <taggedword index="3" part-of-speech="NNS">polyps</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NNP">GR</taggedword>
+      <taggedword index="6" part-of-speech="NNP">labeling</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="9" part-of-speech="IN">with</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">cytoplasm</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NN">surface</taggedword>
+      <taggedword index="16" part-of-speech="NN">mucosa</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="JJ">submucosal</taggedword>
+      <taggedword index="19" part-of-speech="NNS">glands</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="JJ">endothelial</taggedword>
+      <taggedword index="22" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="JJ">inflammatory</taggedword>
+      <taggedword index="26" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="nasal" dep_index="2" gov="polyps" gov_index="3">amod</dependency>
+      <dependency dep="polyps" dep_index="3" gov="associated" gov_index="8">prep_in</dependency>
+      <dependency dep="GR" dep_index="5" gov="labeling" gov_index="6">nn</dependency>
+      <dependency dep="labeling" dep_index="6" gov="associated" gov_index="8">nsubjpass</dependency>
+      <dependency dep="was" dep_index="7" gov="associated" gov_index="8">auxpass</dependency>
+      <dependency dep="associated" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="cytoplasm" gov_index="11">det</dependency>
+      <dependency dep="cytoplasm" dep_index="11" gov="associated" gov_index="8">prep_with</dependency>
+      <dependency dep="nucleus" dep_index="13" gov="associated" gov_index="8">prep_with</dependency>
+      <dependency dep="nucleus" dep_index="13" gov="cytoplasm" gov_index="11">conj_and</dependency>
+      <dependency dep="surface" dep_index="15" gov="mucosa" gov_index="16">nn</dependency>
+      <dependency dep="mucosa" dep_index="16" gov="cytoplasm" gov_index="11">prep_of</dependency>
+      <dependency dep="submucosal" dep_index="18" gov="glands" gov_index="19">amod</dependency>
+      <dependency dep="glands" dep_index="19" gov="cytoplasm" gov_index="11">prep_of</dependency>
+      <dependency dep="glands" dep_index="19" gov="mucosa" gov_index="16">conj_and</dependency>
+      <dependency dep="endothelial" dep_index="21" gov="cells" gov_index="22">amod</dependency>
+      <dependency dep="cells" dep_index="22" gov="cytoplasm" gov_index="11">prep_of</dependency>
+      <dependency dep="cells" dep_index="22" gov="mucosa" gov_index="16">conj_and</dependency>
+      <dependency dep="inflammatory" dep_index="25" gov="cells" gov_index="26">amod</dependency>
+      <dependency dep="cells" dep_index="26" gov="cytoplasm" gov_index="11">prep_of</dependency>
+      <dependency dep="cells" dep_index="26" gov="mucosa" gov_index="16">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

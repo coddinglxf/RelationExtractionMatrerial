@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>P-cadherin@expression@is@a@better@indicator@of@clinical@outcome@than@alterations@in@the@expression@of@E-cadherin@,@N-cadherin@,@alpha-catenin@,@or@beta-catenin@.@</sentence>
+   <tags>
+      <tag pos="20">alpha-catenin</tag>
+      <tag pos="16">E-cadherin</tag>
+      <tag pos="23">beta-catenin</tag>
+      <tag pos="1">P-cadherin</tag>
+      <tag pos="18">N-cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">P-cadherin</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJR">better</taggedword>
+      <taggedword index="6" part-of-speech="NN">indicator</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">clinical</taggedword>
+      <taggedword index="9" part-of-speech="NN">outcome</taggedword>
+      <taggedword index="10" part-of-speech="IN">than</taggedword>
+      <taggedword index="11" part-of-speech="NNS">alterations</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">expression</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">E-cadherin</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="JJ">N-cadherin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="CC">or</taggedword>
+      <taggedword index="23" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="P-cadherin" dep_index="1" gov="expression" gov_index="2">amod</dependency>
+      <dependency dep="expression" dep_index="2" gov="indicator" gov_index="6">nsubj</dependency>
+      <dependency dep="is" dep_index="3" gov="indicator" gov_index="6">cop</dependency>
+      <dependency dep="a" dep_index="4" gov="indicator" gov_index="6">det</dependency>
+      <dependency dep="better" dep_index="5" gov="indicator" gov_index="6">amod</dependency>
+      <dependency dep="indicator" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="clinical" dep_index="8" gov="outcome" gov_index="9">amod</dependency>
+      <dependency dep="outcome" dep_index="9" gov="indicator" gov_index="6">prep_of</dependency>
+      <dependency dep="alterations" dep_index="11" gov="outcome" gov_index="9">prep_than</dependency>
+      <dependency dep="the" dep_index="13" gov="expression" gov_index="14">det</dependency>
+      <dependency dep="expression" dep_index="14" gov="alterations" gov_index="11">prep_in</dependency>
+      <dependency dep="E-cadherin" dep_index="16" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="N-cadherin" dep_index="18" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="N-cadherin" dep_index="18" gov="E-cadherin" gov_index="16">conj_or</dependency>
+      <dependency dep="alpha-catenin" dep_index="20" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="20" gov="E-cadherin" gov_index="16">conj_or</dependency>
+      <dependency dep="beta-catenin" dep_index="23" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="23" gov="E-cadherin" gov_index="16">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600020" relationship="false">16 14 20</relation>
+      <relation position="2000023" relationship="false">20 16 23</relation>
+      <relation position="100020" relationship="false">1 2 6 9 11 14 20</relation>
+      <relation position="1800020" relationship="false">18 16 20</relation>
+      <relation position="1600023" relationship="false">16 14 23</relation>
+      <relation position="100016" relationship="false">1 2 6 9 11 14 16</relation>
+      <relation position="1600018" relationship="false">16 14 18</relation>
+      <relation position="100023" relationship="false">1 2 6 9 11 14 23</relation>
+      <relation position="1800023" relationship="false">18 16 23</relation>
+      <relation position="100018" relationship="false">1 2 6 9 11 14 18</relation>
+   </relations>
+   <pairs/>
+</root>

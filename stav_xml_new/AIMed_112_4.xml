@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Syk@and@Lyn@coimmunoprecipitated@from@mature@and@activated@B-cell@lines@,@and@gel-purified@Syk@and@Lyn@reassociated@in@vitro@,@demonstrating@their@direct@interaction@.@</sentence>
+   <tags>
+      <tag pos="1">Syk</tag>
+      <tag pos="3">Lyn</tag>
+      <tag pos="14">Syk</tag>
+      <tag pos="16">Lyn</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Syk</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Lyn</taggedword>
+      <taggedword index="4" part-of-speech="VBD">coimmunoprecipitated</taggedword>
+      <taggedword index="5" part-of-speech="IN">from</taggedword>
+      <taggedword index="6" part-of-speech="JJ">mature</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">activated</taggedword>
+      <taggedword index="9" part-of-speech="NN">B-cell</taggedword>
+      <taggedword index="10" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="JJ">gel-purified</taggedword>
+      <taggedword index="14" part-of-speech="NN">Syk</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNP">Lyn</taggedword>
+      <taggedword index="17" part-of-speech="VBD">reassociated</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="VBG">demonstrating</taggedword>
+      <taggedword index="22" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="23" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="24" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Syk" dep_index="1" gov="coimmunoprecipitated" gov_index="4">nsubj</dependency>
+      <dependency dep="Lyn" dep_index="3" gov="Syk" gov_index="1">conj_and</dependency>
+      <dependency dep="Lyn" dep_index="3" gov="coimmunoprecipitated" gov_index="4">nsubj</dependency>
+      <dependency dep="coimmunoprecipitated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="mature" dep_index="6" gov="lines" gov_index="10">amod</dependency>
+      <dependency dep="activated" dep_index="8" gov="mature" gov_index="6">conj_and</dependency>
+      <dependency dep="activated" dep_index="8" gov="lines" gov_index="10">amod</dependency>
+      <dependency dep="B-cell" dep_index="9" gov="lines" gov_index="10">nn</dependency>
+      <dependency dep="lines" dep_index="10" gov="coimmunoprecipitated" gov_index="4">prep_from</dependency>
+      <dependency dep="gel-purified" dep_index="13" gov="Syk" gov_index="14">amod</dependency>
+      <dependency dep="Syk" dep_index="14" gov="reassociated" gov_index="17">nsubj</dependency>
+      <dependency dep="Lyn" dep_index="16" gov="Syk" gov_index="14">conj_and</dependency>
+      <dependency dep="Lyn" dep_index="16" gov="reassociated" gov_index="17">nsubj</dependency>
+      <dependency dep="reassociated" dep_index="17" gov="coimmunoprecipitated" gov_index="4">conj_and</dependency>
+      <dependency dep="vitro" dep_index="19" gov="reassociated" gov_index="17">prep_in</dependency>
+      <dependency dep="demonstrating" dep_index="21" gov="reassociated" gov_index="17">xcomp</dependency>
+      <dependency dep="their" dep_index="22" gov="interaction" gov_index="24">poss</dependency>
+      <dependency dep="direct" dep_index="23" gov="interaction" gov_index="24">amod</dependency>
+      <dependency dep="interaction" dep_index="24" gov="demonstrating" gov_index="21">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="true">1 4 3</relation>
+      <relation position="100014" relationship="false"></relation>
+      <relation position="100016" relationship="false"></relation>
+      <relation position="300014" relationship="false"></relation>
+      <relation position="300016" relationship="false"></relation>
+      <relation position="1400016" relationship="true">14 17 16</relation>
+   </relations>
+   <pairs>
+      <pair>1400016</pair>
+      <pair>100003</pair>
+   </pairs>
+</root>

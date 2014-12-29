@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@present@study@was@designed@to@determine@if@cholesterol@feeding@results@in@alterations@in@the@isoforms@of@actin@and/or@myosin heavy chain@in@gallbladder@smooth@muscle@.@</sentence>
+   <tags>
+      <tag pos="20">myosin heavy chain</tag>
+      <tag pos="18">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">present</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="VBN">designed</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">determine</taggedword>
+      <taggedword index="8" part-of-speech="IN">if</taggedword>
+      <taggedword index="9" part-of-speech="NN">cholesterol</taggedword>
+      <taggedword index="10" part-of-speech="NN">feeding</taggedword>
+      <taggedword index="11" part-of-speech="NNS">results</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NNS">alterations</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">actin</taggedword>
+      <taggedword index="19" part-of-speech="NN">and/or</taggedword>
+      <taggedword index="20" part-of-speech="VBN">myosin heavy chain</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="JJ">gallbladder</taggedword>
+      <taggedword index="23" part-of-speech="JJ">smooth</taggedword>
+      <taggedword index="24" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="study" gov_index="3">det</dependency>
+      <dependency dep="present" dep_index="2" gov="study" gov_index="3">amod</dependency>
+      <dependency dep="study" dep_index="3" gov="designed" gov_index="5">nsubjpass</dependency>
+      <dependency dep="study" dep_index="3" gov="determine" gov_index="7">xsubj</dependency>
+      <dependency dep="was" dep_index="4" gov="designed" gov_index="5">auxpass</dependency>
+      <dependency dep="designed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="6" gov="determine" gov_index="7">aux</dependency>
+      <dependency dep="determine" dep_index="7" gov="designed" gov_index="5">xcomp</dependency>
+      <dependency dep="if" dep_index="8" gov="myosin heavy chain" gov_index="20">mark</dependency>
+      <dependency dep="cholesterol" dep_index="9" gov="results" gov_index="11">nn</dependency>
+      <dependency dep="feeding" dep_index="10" gov="results" gov_index="11">nn</dependency>
+      <dependency dep="results" dep_index="11" gov="myosin heavy chain" gov_index="20">nsubj</dependency>
+      <dependency dep="alterations" dep_index="13" gov="results" gov_index="11">prep_in</dependency>
+      <dependency dep="the" dep_index="15" gov="isoforms" gov_index="16">det</dependency>
+      <dependency dep="isoforms" dep_index="16" gov="alterations" gov_index="13">prep_in</dependency>
+      <dependency dep="actin" dep_index="18" gov="and/or" gov_index="19">nn</dependency>
+      <dependency dep="and/or" dep_index="19" gov="isoforms" gov_index="16">prep_of</dependency>
+      <dependency dep="myosin heavy chain" dep_index="20" gov="determine" gov_index="7">advcl</dependency>
+      <dependency dep="gallbladder" dep_index="22" gov="muscle" gov_index="24">amod</dependency>
+      <dependency dep="smooth" dep_index="23" gov="muscle" gov_index="24">amod</dependency>
+      <dependency dep="muscle" dep_index="24" gov="myosin heavy chain" gov_index="20">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800020" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

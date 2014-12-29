@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>VEGF@mediates@endothelial@cell@proliferation@,@angiogenesis@,@vascular@growth@,@and@vascular@permeability@via@the@endothelial@cell@receptors@,@kinase insert domain-containing receptor@(@KDR@)/@fetal liver kinase 1@(@Flk-1@)@and@FLT-1@.@</sentence>
+   <tags>
+      <tag pos="1">VEGF</tag>
+      <tag pos="21">kinase insert domain-containing receptor</tag>
+      <tag pos="23">KDR</tag>
+      <tag pos="25">fetal liver kinase 1</tag>
+      <tag pos="27">Flk-1</tag>
+      <tag pos="30">FLT-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">VEGF</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">mediates</taggedword>
+      <taggedword index="3" part-of-speech="JJ">endothelial</taggedword>
+      <taggedword index="4" part-of-speech="NN">cell</taggedword>
+      <taggedword index="5" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNS">angiogenesis</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">vascular</taggedword>
+      <taggedword index="10" part-of-speech="NN">growth</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NN">vascular</taggedword>
+      <taggedword index="14" part-of-speech="NN">permeability</taggedword>
+      <taggedword index="15" part-of-speech="IN">via</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">endothelial</taggedword>
+      <taggedword index="18" part-of-speech="NN">cell</taggedword>
+      <taggedword index="19" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="JJ">kinase insert domain-containing receptor</taggedword>
+      <taggedword index="22" part-of-speech="NNP">(</taggedword>
+      <taggedword index="23" part-of-speech="NNP">KDR</taggedword>
+      <taggedword index="24" part-of-speech="NNP">)/</taggedword>
+      <taggedword index="25" part-of-speech="NNPS">fetal liver kinase 1</taggedword>
+      <taggedword index="26" part-of-speech="NNP">(</taggedword>
+      <taggedword index="27" part-of-speech="NNP">Flk-1</taggedword>
+      <taggedword index="28" part-of-speech="NNP">)</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="NN">FLT-1</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="VEGF" dep_index="1" gov="mediates" gov_index="2">nsubj</dependency>
+      <dependency dep="mediates" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="endothelial" dep_index="3" gov="proliferation" gov_index="5">amod</dependency>
+      <dependency dep="cell" dep_index="4" gov="proliferation" gov_index="5">nn</dependency>
+      <dependency dep="proliferation" dep_index="5" gov="mediates" gov_index="2">dobj</dependency>
+      <dependency dep="angiogenesis" dep_index="7" gov="mediates" gov_index="2">dobj</dependency>
+      <dependency dep="angiogenesis" dep_index="7" gov="proliferation" gov_index="5">conj_and</dependency>
+      <dependency dep="vascular" dep_index="9" gov="growth" gov_index="10">nn</dependency>
+      <dependency dep="growth" dep_index="10" gov="mediates" gov_index="2">dobj</dependency>
+      <dependency dep="growth" dep_index="10" gov="proliferation" gov_index="5">conj_and</dependency>
+      <dependency dep="vascular" dep_index="13" gov="permeability" gov_index="14">nn</dependency>
+      <dependency dep="permeability" dep_index="14" gov="mediates" gov_index="2">dobj</dependency>
+      <dependency dep="permeability" dep_index="14" gov="proliferation" gov_index="5">conj_and</dependency>
+      <dependency dep="the" dep_index="16" gov="receptors" gov_index="19">det</dependency>
+      <dependency dep="endothelial" dep_index="17" gov="receptors" gov_index="19">amod</dependency>
+      <dependency dep="cell" dep_index="18" gov="receptors" gov_index="19">nn</dependency>
+      <dependency dep="receptors" dep_index="19" gov="permeability" gov_index="14">prep_via</dependency>
+      <dependency dep="kinase insert domain-containing receptor" dep_index="21" gov=")" gov_index="28">amod</dependency>
+      <dependency dep="(" dep_index="22" gov=")" gov_index="28">nn</dependency>
+      <dependency dep="KDR" dep_index="23" gov=")" gov_index="28">nn</dependency>
+      <dependency dep=")/" dep_index="24" gov=")" gov_index="28">nn</dependency>
+      <dependency dep="fetal liver kinase 1" dep_index="25" gov=")" gov_index="28">nn</dependency>
+      <dependency dep="(" dep_index="26" gov=")" gov_index="28">nn</dependency>
+      <dependency dep="Flk-1" dep_index="27" gov=")" gov_index="28">nn</dependency>
+      <dependency dep=")" dep_index="28" gov="permeability" gov_index="14">prep_via</dependency>
+      <dependency dep=")" dep_index="28" gov="receptors" gov_index="19">conj_and</dependency>
+      <dependency dep="FLT-1" dep_index="30" gov="permeability" gov_index="14">prep_via</dependency>
+      <dependency dep="FLT-1" dep_index="30" gov="receptors" gov_index="19">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100021" relationship="false">1 2 14 28 21</relation>
+      <relation position="100023" relationship="false">1 2 14 28 23</relation>
+      <relation position="100025" relationship="false">1 2 14 28 25</relation>
+      <relation position="100027" relationship="false">1 2 14 28 27</relation>
+      <relation position="100030" relationship="false">1 2 14 30</relation>
+      <relation position="2100023" relationship="false">21 28 23</relation>
+      <relation position="2100025" relationship="false">21 28 25</relation>
+      <relation position="2100027" relationship="false">21 28 27</relation>
+      <relation position="2100030" relationship="false">21 28 14 30</relation>
+      <relation position="2300025" relationship="false">23 28 25</relation>
+      <relation position="2300027" relationship="false">23 28 27</relation>
+      <relation position="2300030" relationship="false">23 28 14 30</relation>
+      <relation position="2500027" relationship="false">25 28 27</relation>
+      <relation position="2500030" relationship="false">25 28 14 30</relation>
+      <relation position="2700030" relationship="false">27 28 14 30</relation>
+   </relations>
+   <pairs/>
+</root>

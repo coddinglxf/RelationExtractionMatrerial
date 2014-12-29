@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Using@antibodies@to@dystrophin@we@immunoprecipitated@these@two@interacting@proteins@in@a@variety@of@salt@and@detergent@conditions@.@</sentence>
+   <tags>
+      <tag pos="4">dystrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Using</taggedword>
+      <taggedword index="2" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="NN">dystrophin</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBD">immunoprecipitated</taggedword>
+      <taggedword index="7" part-of-speech="DT">these</taggedword>
+      <taggedword index="8" part-of-speech="CD">two</taggedword>
+      <taggedword index="9" part-of-speech="VBG">interacting</taggedword>
+      <taggedword index="10" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="NN">variety</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NN">salt</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">detergent</taggedword>
+      <taggedword index="18" part-of-speech="NNS">conditions</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Using" dep_index="1" gov="immunoprecipitated" gov_index="6">dep</dependency>
+      <dependency dep="antibodies" dep_index="2" gov="Using" gov_index="1">dobj</dependency>
+      <dependency dep="dystrophin" dep_index="4" gov="Using" gov_index="1">prep_to</dependency>
+      <dependency dep="we" dep_index="5" gov="immunoprecipitated" gov_index="6">nsubj</dependency>
+      <dependency dep="immunoprecipitated" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="these" dep_index="7" gov="proteins" gov_index="10">det</dependency>
+      <dependency dep="two" dep_index="8" gov="proteins" gov_index="10">num</dependency>
+      <dependency dep="interacting" dep_index="9" gov="proteins" gov_index="10">amod</dependency>
+      <dependency dep="proteins" dep_index="10" gov="immunoprecipitated" gov_index="6">dobj</dependency>
+      <dependency dep="a" dep_index="12" gov="variety" gov_index="13">det</dependency>
+      <dependency dep="variety" dep_index="13" gov="proteins" gov_index="10">prep_in</dependency>
+      <dependency dep="salt" dep_index="15" gov="conditions" gov_index="18">nn</dependency>
+      <dependency dep="detergent" dep_index="17" gov="salt" gov_index="15">conj_and</dependency>
+      <dependency dep="detergent" dep_index="17" gov="conditions" gov_index="18">nn</dependency>
+      <dependency dep="conditions" dep_index="18" gov="variety" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

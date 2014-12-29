@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@gibberellin@-responsive@elements@conserved@in@cereal@alpha-amylase@genes@are@not@included@in@the@5'-upstream@region@of@Rep1@or@RepA@</sentence>
+   <tags>
+      <tag pos="2">gibberellin</tag>
+      <tag pos="8">alpha-amylase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">gibberellin</taggedword>
+      <taggedword index="3" part-of-speech="JJ">-responsive</taggedword>
+      <taggedword index="4" part-of-speech="NNS">elements</taggedword>
+      <taggedword index="5" part-of-speech="VBN">conserved</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="NN">cereal</taggedword>
+      <taggedword index="8" part-of-speech="NN">alpha-amylase</taggedword>
+      <taggedword index="9" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="VBN">included</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">5'-upstream</taggedword>
+      <taggedword index="16" part-of-speech="NN">region</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">Rep1</taggedword>
+      <taggedword index="19" part-of-speech="CC">or</taggedword>
+      <taggedword index="20" part-of-speech="NNP">RepA</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="elements" gov_index="4">det</dependency>
+      <dependency dep="gibberellin" dep_index="2" gov="elements" gov_index="4">amod</dependency>
+      <dependency dep="-responsive" dep_index="3" gov="elements" gov_index="4">amod</dependency>
+      <dependency dep="elements" dep_index="4" gov="included" gov_index="12">nsubjpass</dependency>
+      <dependency dep="conserved" dep_index="5" gov="elements" gov_index="4">partmod</dependency>
+      <dependency dep="cereal" dep_index="7" gov="genes" gov_index="9">nn</dependency>
+      <dependency dep="alpha-amylase" dep_index="8" gov="genes" gov_index="9">nn</dependency>
+      <dependency dep="genes" dep_index="9" gov="conserved" gov_index="5">prep_in</dependency>
+      <dependency dep="are" dep_index="10" gov="included" gov_index="12">auxpass</dependency>
+      <dependency dep="not" dep_index="11" gov="included" gov_index="12">neg</dependency>
+      <dependency dep="included" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="region" gov_index="16">det</dependency>
+      <dependency dep="5'-upstream" dep_index="15" gov="region" gov_index="16">amod</dependency>
+      <dependency dep="region" dep_index="16" gov="included" gov_index="12">prep_in</dependency>
+      <dependency dep="Rep1" dep_index="18" gov="region" gov_index="16">prep_of</dependency>
+      <dependency dep="RepA" dep_index="20" gov="region" gov_index="16">prep_of</dependency>
+      <dependency dep="RepA" dep_index="20" gov="Rep1" gov_index="18">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200008" relationship="true">2 4 5 9 8</relation>
+   </relations>
+   <pairs>
+      <pair>200008</pair>
+   </pairs>
+</root>

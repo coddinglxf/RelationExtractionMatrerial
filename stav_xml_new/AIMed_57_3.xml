@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Reticulocyte@lysate@forms@complexes@between@hsp90@and@a@temperature-sensitive@mutant@of@Rous@sarcoma@virus@pp60v-src@,@which@is@normally@present@in@cytosol@virtually@entirely@in@the@multiprotein@complex@form@.@</sentence>
+   <tags>
+      <tag pos="6">hsp90</tag>
+      <tag pos="15">pp60v-src</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Reticulocyte</taggedword>
+      <taggedword index="2" part-of-speech="NN">lysate</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">forms</taggedword>
+      <taggedword index="4" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="5" part-of-speech="IN">between</taggedword>
+      <taggedword index="6" part-of-speech="CD">hsp90</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">temperature-sensitive</taggedword>
+      <taggedword index="10" part-of-speech="NN">mutant</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">Rous</taggedword>
+      <taggedword index="13" part-of-speech="NN">sarcoma</taggedword>
+      <taggedword index="14" part-of-speech="NN">virus</taggedword>
+      <taggedword index="15" part-of-speech="NN">pp60v-src</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="WDT">which</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="19" part-of-speech="RB">normally</taggedword>
+      <taggedword index="20" part-of-speech="JJ">present</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="JJ">cytosol</taggedword>
+      <taggedword index="23" part-of-speech="RB">virtually</taggedword>
+      <taggedword index="24" part-of-speech="RB">entirely</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">multiprotein</taggedword>
+      <taggedword index="28" part-of-speech="NN">complex</taggedword>
+      <taggedword index="29" part-of-speech="NN">form</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Reticulocyte" dep_index="1" gov="lysate" gov_index="2">amod</dependency>
+      <dependency dep="lysate" dep_index="2" gov="forms" gov_index="3">nsubj</dependency>
+      <dependency dep="forms" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="complexes" dep_index="4" gov="forms" gov_index="3">dobj</dependency>
+      <dependency dep="hsp90" dep_index="6" gov="complexes" gov_index="4">prep_between</dependency>
+      <dependency dep="a" dep_index="8" gov="mutant" gov_index="10">det</dependency>
+      <dependency dep="temperature-sensitive" dep_index="9" gov="mutant" gov_index="10">amod</dependency>
+      <dependency dep="mutant" dep_index="10" gov="forms" gov_index="3">dobj</dependency>
+      <dependency dep="mutant" dep_index="10" gov="complexes" gov_index="4">conj_and</dependency>
+      <dependency dep="Rous" dep_index="12" gov="pp60v-src" gov_index="15">nn</dependency>
+      <dependency dep="sarcoma" dep_index="13" gov="pp60v-src" gov_index="15">nn</dependency>
+      <dependency dep="virus" dep_index="14" gov="pp60v-src" gov_index="15">nn</dependency>
+      <dependency dep="pp60v-src" dep_index="15" gov="mutant" gov_index="10">prep_of</dependency>
+      <dependency dep="pp60v-src" dep_index="15" gov="present" gov_index="20">nsubj</dependency>
+      <dependency dep="is" dep_index="18" gov="present" gov_index="20">cop</dependency>
+      <dependency dep="normally" dep_index="19" gov="present" gov_index="20">advmod</dependency>
+      <dependency dep="present" dep_index="20" gov="pp60v-src" gov_index="15">rcmod</dependency>
+      <dependency dep="cytosol" dep_index="22" gov="form" gov_index="29">amod</dependency>
+      <dependency dep="virtually" dep_index="23" gov="entirely" gov_index="24">advmod</dependency>
+      <dependency dep="entirely" dep_index="24" gov="form" gov_index="29">amod</dependency>
+      <dependency dep="the" dep_index="26" gov="complex" gov_index="28">det</dependency>
+      <dependency dep="multiprotein" dep_index="27" gov="complex" gov_index="28">nn</dependency>
+      <dependency dep="complex" dep_index="28" gov="entirely" gov_index="24">prep_in</dependency>
+      <dependency dep="form" dep_index="29" gov="present" gov_index="20">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600015" relationship="true">6 4 3 10 15</relation>
+   </relations>
+   <pairs>
+      <pair>600015</pair>
+   </pairs>
+</root>

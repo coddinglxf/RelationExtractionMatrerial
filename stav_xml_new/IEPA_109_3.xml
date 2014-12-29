@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Leptin@,@compared@with@vehicle@,@did@not@alter@BAT@UCP-1@or@UCP-3@mRNA@or@protein@expression@when@administered@to@normal@ad@libitum@fed@rats@</sentence>
+   <tags>
+      <tag pos="1">Leptin</tag>
+      <tag pos="11">UCP-1</tag>
+      <tag pos="13">UCP-3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Leptin</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="NN">vehicle</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="VBD">did</taggedword>
+      <taggedword index="8" part-of-speech="RB">not</taggedword>
+      <taggedword index="9" part-of-speech="VB">alter</taggedword>
+      <taggedword index="10" part-of-speech="NNP">BAT</taggedword>
+      <taggedword index="11" part-of-speech="NNP">UCP-1</taggedword>
+      <taggedword index="12" part-of-speech="CC">or</taggedword>
+      <taggedword index="13" part-of-speech="NN">UCP-3</taggedword>
+      <taggedword index="14" part-of-speech="NN">mRNA</taggedword>
+      <taggedword index="15" part-of-speech="CC">or</taggedword>
+      <taggedword index="16" part-of-speech="NN">protein</taggedword>
+      <taggedword index="17" part-of-speech="NN">expression</taggedword>
+      <taggedword index="18" part-of-speech="WRB">when</taggedword>
+      <taggedword index="19" part-of-speech="VBN">administered</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="22" part-of-speech="NN">ad</taggedword>
+      <taggedword index="23" part-of-speech="NN">libitum</taggedword>
+      <taggedword index="24" part-of-speech="NN">fed</taggedword>
+      <taggedword index="25" part-of-speech="NNS">rats</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Leptin" dep_index="1" gov="alter" gov_index="9">nsubj</dependency>
+      <dependency dep="with" dep_index="4" gov="Leptin" gov_index="1">prepc_compared_with</dependency>
+      <dependency dep="vehicle" dep_index="5" gov="Leptin" gov_index="1">pobj</dependency>
+      <dependency dep="did" dep_index="7" gov="alter" gov_index="9">aux</dependency>
+      <dependency dep="not" dep_index="8" gov="alter" gov_index="9">neg</dependency>
+      <dependency dep="alter" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="BAT" dep_index="10" gov="UCP-1" gov_index="11">nn</dependency>
+      <dependency dep="UCP-1" dep_index="11" gov="alter" gov_index="9">dobj</dependency>
+      <dependency dep="UCP-3" dep_index="13" gov="mRNA" gov_index="14">nn</dependency>
+      <dependency dep="mRNA" dep_index="14" gov="alter" gov_index="9">dobj</dependency>
+      <dependency dep="mRNA" dep_index="14" gov="UCP-1" gov_index="11">conj_or</dependency>
+      <dependency dep="protein" dep_index="16" gov="expression" gov_index="17">nn</dependency>
+      <dependency dep="expression" dep_index="17" gov="UCP-1" gov_index="11">conj_or</dependency>
+      <dependency dep="expression" dep_index="17" gov="mRNA" gov_index="14">conj_or</dependency>
+      <dependency dep="when" dep_index="18" gov="administered" gov_index="19">advmod</dependency>
+      <dependency dep="administered" dep_index="19" gov="alter" gov_index="9">advcl</dependency>
+      <dependency dep="normal" dep_index="21" gov="rats" gov_index="25">amod</dependency>
+      <dependency dep="ad" dep_index="22" gov="rats" gov_index="25">nn</dependency>
+      <dependency dep="libitum" dep_index="23" gov="rats" gov_index="25">nn</dependency>
+      <dependency dep="fed" dep_index="24" gov="rats" gov_index="25">nn</dependency>
+      <dependency dep="rats" dep_index="25" gov="administered" gov_index="19">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100011" relationship="false">1 9 11</relation>
+      <relation position="100013" relationship="false">1 9 14 13</relation>
+      <relation position="1100013" relationship="false">11 9 14 13</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Moreover@,@substitution@of@Ala@for@Leu12@,@Val20@,@Leu21@,@Phe31@,@Leu33@,@or@Leu39@and@replacement@of@Leu13@with@Ile@or@Val@did@not@impair@the@dimerization@reaction@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Moreover</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">substitution</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Ala</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="NNS">Leu12</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNS">Val20</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNS">Leu21</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Phe31</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NNS">Leu33</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="NNS">Leu39</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">replacement</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNS">Leu13</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="NNP">Ile</taggedword>
+      <taggedword index="25" part-of-speech="CC">or</taggedword>
+      <taggedword index="26" part-of-speech="NNP">Val</taggedword>
+      <taggedword index="27" part-of-speech="VBD">did</taggedword>
+      <taggedword index="28" part-of-speech="RB">not</taggedword>
+      <taggedword index="29" part-of-speech="VB">impair</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="NN">dimerization</taggedword>
+      <taggedword index="32" part-of-speech="NN">reaction</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Moreover" dep_index="1" gov="impair" gov_index="29">advmod</dependency>
+      <dependency dep="substitution" dep_index="3" gov="impair" gov_index="29">nsubj</dependency>
+      <dependency dep="Ala" dep_index="5" gov="substitution" gov_index="3">prep_of</dependency>
+      <dependency dep="Leu12" dep_index="7" gov="Ala" gov_index="5">prep_for</dependency>
+      <dependency dep="Val20" dep_index="9" gov="Ala" gov_index="5">prep_for</dependency>
+      <dependency dep="Val20" dep_index="9" gov="Leu12" gov_index="7">conj_or</dependency>
+      <dependency dep="Leu21" dep_index="11" gov="Ala" gov_index="5">prep_for</dependency>
+      <dependency dep="Leu21" dep_index="11" gov="Leu12" gov_index="7">conj_or</dependency>
+      <dependency dep="Phe31" dep_index="13" gov="Ala" gov_index="5">prep_for</dependency>
+      <dependency dep="Phe31" dep_index="13" gov="Leu12" gov_index="7">conj_or</dependency>
+      <dependency dep="Leu33" dep_index="15" gov="Ala" gov_index="5">prep_for</dependency>
+      <dependency dep="Leu33" dep_index="15" gov="Leu12" gov_index="7">conj_or</dependency>
+      <dependency dep="Leu39" dep_index="18" gov="Ala" gov_index="5">prep_for</dependency>
+      <dependency dep="Leu39" dep_index="18" gov="Leu12" gov_index="7">conj_or</dependency>
+      <dependency dep="replacement" dep_index="20" gov="substitution" gov_index="3">prep_of</dependency>
+      <dependency dep="replacement" dep_index="20" gov="Ala" gov_index="5">conj_and</dependency>
+      <dependency dep="Leu13" dep_index="22" gov="replacement" gov_index="20">prep_of</dependency>
+      <dependency dep="Ile" dep_index="24" gov="Leu13" gov_index="22">prep_with</dependency>
+      <dependency dep="Val" dep_index="26" gov="Leu13" gov_index="22">prep_with</dependency>
+      <dependency dep="Val" dep_index="26" gov="Ile" gov_index="24">conj_or</dependency>
+      <dependency dep="did" dep_index="27" gov="impair" gov_index="29">aux</dependency>
+      <dependency dep="not" dep_index="28" gov="impair" gov_index="29">neg</dependency>
+      <dependency dep="impair" dep_index="29" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="30" gov="reaction" gov_index="32">det</dependency>
+      <dependency dep="dimerization" dep_index="31" gov="reaction" gov_index="32">nn</dependency>
+      <dependency dep="reaction" dep_index="32" gov="impair" gov_index="29">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

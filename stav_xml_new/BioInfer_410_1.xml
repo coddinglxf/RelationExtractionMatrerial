@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Loss@of@memberanous@expression@of@E-cadherin@,@alpha-catenin@and@beta-catenin@was@demonstrated@in@52%@,@85%@and@40%@of@tumours@respectively@.@</sentence>
+   <tags>
+      <tag pos="6">E-cadherin</tag>
+      <tag pos="10">beta-catenin</tag>
+      <tag pos="8">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Loss</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">memberanous</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">E-cadherin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="11" part-of-speech="VBD">was</taggedword>
+      <taggedword index="12" part-of-speech="VBN">demonstrated</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="CD">52%</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CD">85%</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="CD">40%</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NNS">tumours</taggedword>
+      <taggedword index="21" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Loss" dep_index="1" gov="demonstrated" gov_index="12">nsubjpass</dependency>
+      <dependency dep="memberanous" dep_index="3" gov="expression" gov_index="4">amod</dependency>
+      <dependency dep="expression" dep_index="4" gov="Loss" gov_index="1">prep_of</dependency>
+      <dependency dep="E-cadherin" dep_index="6" gov="expression" gov_index="4">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="8" gov="expression" gov_index="4">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="8" gov="E-cadherin" gov_index="6">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="10" gov="expression" gov_index="4">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="10" gov="E-cadherin" gov_index="6">conj_and</dependency>
+      <dependency dep="was" dep_index="11" gov="demonstrated" gov_index="12">auxpass</dependency>
+      <dependency dep="demonstrated" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="52%" dep_index="14" gov="demonstrated" gov_index="12">prep_in</dependency>
+      <dependency dep="85%" dep_index="16" gov="52%" gov_index="14">num</dependency>
+      <dependency dep="40%" dep_index="18" gov="demonstrated" gov_index="12">prep_in</dependency>
+      <dependency dep="40%" dep_index="18" gov="52%" gov_index="14">conj_and</dependency>
+      <dependency dep="tumours" dep_index="20" gov="demonstrated" gov_index="12">prep_of</dependency>
+      <dependency dep="respectively" dep_index="21" gov="tumours" gov_index="20">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="false">6 4 10</relation>
+      <relation position="600008" relationship="false">6 4 8</relation>
+      <relation position="800010" relationship="false">8 4 10</relation>
+   </relations>
+   <pairs/>
+</root>

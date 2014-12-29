@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@expression@of@APC@,@alpha-catenin@and@beta-catenin@also@was@decreased@in@HT29@cells@,@with@a@translocation@of@APC@into@the@nucleus@.@</sentence>
+   <tags>
+      <tag pos="4">APC</tag>
+      <tag pos="8">beta-catenin</tag>
+      <tag pos="6">alpha-catenin</tag>
+      <tag pos="20">APC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">APC</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="9" part-of-speech="RB">also</taggedword>
+      <taggedword index="10" part-of-speech="VBD">was</taggedword>
+      <taggedword index="11" part-of-speech="VBN">decreased</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="CD">HT29</taggedword>
+      <taggedword index="14" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="NN">translocation</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NNP">APC</taggedword>
+      <taggedword index="21" part-of-speech="IN">into</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="expression" gov_index="2">det</dependency>
+      <dependency dep="expression" dep_index="2" gov="decreased" gov_index="11">nsubjpass</dependency>
+      <dependency dep="APC" dep_index="4" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="6" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="6" gov="APC" gov_index="4">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="8" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="8" gov="APC" gov_index="4">conj_and</dependency>
+      <dependency dep="also" dep_index="9" gov="decreased" gov_index="11">advmod</dependency>
+      <dependency dep="was" dep_index="10" gov="decreased" gov_index="11">auxpass</dependency>
+      <dependency dep="decreased" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="HT29" dep_index="13" gov="cells" gov_index="14">num</dependency>
+      <dependency dep="cells" dep_index="14" gov="decreased" gov_index="11">prep_in</dependency>
+      <dependency dep="a" dep_index="17" gov="translocation" gov_index="18">det</dependency>
+      <dependency dep="translocation" dep_index="18" gov="decreased" gov_index="11">prep_with</dependency>
+      <dependency dep="APC" dep_index="20" gov="translocation" gov_index="18">prep_of</dependency>
+      <dependency dep="the" dep_index="22" gov="nucleus" gov_index="23">det</dependency>
+      <dependency dep="nucleus" dep_index="23" gov="decreased" gov_index="11">prep_into</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400008" relationship="false">4 2 8</relation>
+      <relation position="400006" relationship="false">4 2 6</relation>
+      <relation position="400020" relationship="false">4 2 11 18 20</relation>
+      <relation position="600008" relationship="false">6 2 8</relation>
+      <relation position="800020" relationship="false">8 2 11 18 20</relation>
+      <relation position="600020" relationship="false">6 2 11 18 20</relation>
+   </relations>
+   <pairs/>
+</root>

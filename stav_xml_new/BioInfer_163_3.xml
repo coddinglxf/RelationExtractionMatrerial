@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@reduction@in@actin@and@myosin heavy chain@synthesis@presumably@plays@a@role@in@the@rapid@dissolution@of@the@muscles@.@</sentence>
+   <tags>
+      <tag pos="6">myosin heavy chain</tag>
+      <tag pos="4">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">reduction</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="7" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="8" part-of-speech="RB">presumably</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">plays</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="NN">role</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="15" part-of-speech="NN">dissolution</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NNS">muscles</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="reduction" gov_index="2">det</dependency>
+      <dependency dep="reduction" dep_index="2" gov="plays" gov_index="9">nsubj</dependency>
+      <dependency dep="actin" dep_index="4" gov="synthesis" gov_index="7">nn</dependency>
+      <dependency dep="myosin heavy chain" dep_index="6" gov="actin" gov_index="4">conj_and</dependency>
+      <dependency dep="myosin heavy chain" dep_index="6" gov="synthesis" gov_index="7">nn</dependency>
+      <dependency dep="synthesis" dep_index="7" gov="reduction" gov_index="2">prep_in</dependency>
+      <dependency dep="presumably" dep_index="8" gov="plays" gov_index="9">advmod</dependency>
+      <dependency dep="plays" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="10" gov="role" gov_index="11">det</dependency>
+      <dependency dep="role" dep_index="11" gov="plays" gov_index="9">dobj</dependency>
+      <dependency dep="the" dep_index="13" gov="dissolution" gov_index="15">det</dependency>
+      <dependency dep="rapid" dep_index="14" gov="dissolution" gov_index="15">amod</dependency>
+      <dependency dep="dissolution" dep_index="15" gov="role" gov_index="11">prep_in</dependency>
+      <dependency dep="the" dep_index="17" gov="muscles" gov_index="18">det</dependency>
+      <dependency dep="muscles" dep_index="18" gov="dissolution" gov_index="15">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 7 6</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@found@that@YY1@and@Sp1@can@form@a@physical@complex@.@</sentence>
+   <tags>
+      <tag pos="4">YY1</tag>
+      <tag pos="6">Sp1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">found</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NNP">YY1</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">Sp1</taggedword>
+      <taggedword index="7" part-of-speech="MD">can</taggedword>
+      <taggedword index="8" part-of-speech="VB">form</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="JJ">physical</taggedword>
+      <taggedword index="11" part-of-speech="NN">complex</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="found" gov_index="2">nsubj</dependency>
+      <dependency dep="found" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="form" gov_index="8">mark</dependency>
+      <dependency dep="YY1" dep_index="4" gov="form" gov_index="8">nsubj</dependency>
+      <dependency dep="Sp1" dep_index="6" gov="YY1" gov_index="4">conj_and</dependency>
+      <dependency dep="Sp1" dep_index="6" gov="form" gov_index="8">nsubj</dependency>
+      <dependency dep="can" dep_index="7" gov="form" gov_index="8">aux</dependency>
+      <dependency dep="form" dep_index="8" gov="found" gov_index="2">ccomp</dependency>
+      <dependency dep="a" dep_index="9" gov="complex" gov_index="11">det</dependency>
+      <dependency dep="physical" dep_index="10" gov="complex" gov_index="11">amod</dependency>
+      <dependency dep="complex" dep_index="11" gov="form" gov_index="8">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 8 6</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

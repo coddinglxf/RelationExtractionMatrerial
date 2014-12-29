@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>cDNA@cloning@and@expression@of@a@human@FGF@receptor@which@binds@acidic@and@basic@FGF@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="2" part-of-speech="NN">cloning</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="JJ">human</taggedword>
+      <taggedword index="8" part-of-speech="NNP">FGF</taggedword>
+      <taggedword index="9" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="10" part-of-speech="WDT">which</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="12" part-of-speech="JJ">acidic</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">basic</taggedword>
+      <taggedword index="15" part-of-speech="NN">FGF</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="cDNA" dep_index="1" gov="cloning" gov_index="2">nn</dependency>
+      <dependency dep="cloning" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="expression" dep_index="4" gov="cloning" gov_index="2">conj_and</dependency>
+      <dependency dep="a" dep_index="6" gov="receptor" gov_index="9">det</dependency>
+      <dependency dep="human" dep_index="7" gov="receptor" gov_index="9">amod</dependency>
+      <dependency dep="FGF" dep_index="8" gov="receptor" gov_index="9">nn</dependency>
+      <dependency dep="receptor" dep_index="9" gov="cloning" gov_index="2">prep_of</dependency>
+      <dependency dep="receptor" dep_index="9" gov="binds" gov_index="11">nsubj</dependency>
+      <dependency dep="binds" dep_index="11" gov="receptor" gov_index="9">rcmod</dependency>
+      <dependency dep="acidic" dep_index="12" gov="FGF" gov_index="15">amod</dependency>
+      <dependency dep="basic" dep_index="14" gov="acidic" gov_index="12">conj_and</dependency>
+      <dependency dep="basic" dep_index="14" gov="FGF" gov_index="15">amod</dependency>
+      <dependency dep="FGF" dep_index="15" gov="binds" gov_index="11">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

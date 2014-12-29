@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@conformers@that@are@committed@to@the@native@state@remained@in@the@supernatant@and@were@assayed@after@1@h@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">conformers</taggedword>
+      <taggedword index="3" part-of-speech="WDT">that</taggedword>
+      <taggedword index="4" part-of-speech="VBP">are</taggedword>
+      <taggedword index="5" part-of-speech="VBN">committed</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">native</taggedword>
+      <taggedword index="9" part-of-speech="NN">state</taggedword>
+      <taggedword index="10" part-of-speech="VBD">remained</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">supernatant</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="VBD">were</taggedword>
+      <taggedword index="16" part-of-speech="VBN">assayed</taggedword>
+      <taggedword index="17" part-of-speech="IN">after</taggedword>
+      <taggedword index="18" part-of-speech="CD">1</taggedword>
+      <taggedword index="19" part-of-speech="NN">h</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="conformers" gov_index="2">det</dependency>
+      <dependency dep="conformers" dep_index="2" gov="committed" gov_index="5">nsubjpass</dependency>
+      <dependency dep="conformers" dep_index="2" gov="remained" gov_index="10">nsubj</dependency>
+      <dependency dep="conformers" dep_index="2" gov="assayed" gov_index="16">nsubjpass</dependency>
+      <dependency dep="are" dep_index="4" gov="committed" gov_index="5">auxpass</dependency>
+      <dependency dep="committed" dep_index="5" gov="conformers" gov_index="2">rcmod</dependency>
+      <dependency dep="the" dep_index="7" gov="state" gov_index="9">det</dependency>
+      <dependency dep="native" dep_index="8" gov="state" gov_index="9">amod</dependency>
+      <dependency dep="state" dep_index="9" gov="committed" gov_index="5">prep_to</dependency>
+      <dependency dep="remained" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="supernatant" gov_index="13">det</dependency>
+      <dependency dep="supernatant" dep_index="13" gov="remained" gov_index="10">prep_in</dependency>
+      <dependency dep="were" dep_index="15" gov="assayed" gov_index="16">auxpass</dependency>
+      <dependency dep="assayed" dep_index="16" gov="remained" gov_index="10">conj_and</dependency>
+      <dependency dep="1" dep_index="18" gov="h" gov_index="19">num</dependency>
+      <dependency dep="h" dep_index="19" gov="assayed" gov_index="16">prep_after</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@protein kinase C@specific@inhibitor@Go-6983@further@enhanced@the@inhibitory@effect@of@VACM-1@on@AVP@-stimulated@cAMP@production@</sentence>
+   <tags>
+      <tag pos="2">protein kinase C</tag>
+      <tag pos="14">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="3" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="4" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="5" part-of-speech="NN">Go-6983</taggedword>
+      <taggedword index="6" part-of-speech="RBR">further</taggedword>
+      <taggedword index="7" part-of-speech="VBN">enhanced</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">inhibitory</taggedword>
+      <taggedword index="10" part-of-speech="NN">effect</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">VACM-1</taggedword>
+      <taggedword index="13" part-of-speech="IN">on</taggedword>
+      <taggedword index="14" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="15" part-of-speech="JJ">-stimulated</taggedword>
+      <taggedword index="16" part-of-speech="NN">cAMP</taggedword>
+      <taggedword index="17" part-of-speech="NN">production</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="Go-6983" gov_index="5">det</dependency>
+      <dependency dep="protein kinase C" dep_index="2" gov="Go-6983" gov_index="5">amod</dependency>
+      <dependency dep="specific" dep_index="3" gov="Go-6983" gov_index="5">amod</dependency>
+      <dependency dep="inhibitor" dep_index="4" gov="Go-6983" gov_index="5">nn</dependency>
+      <dependency dep="Go-6983" dep_index="5" gov="enhanced" gov_index="7">nsubj</dependency>
+      <dependency dep="further" dep_index="6" gov="enhanced" gov_index="7">advmod</dependency>
+      <dependency dep="enhanced" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="effect" gov_index="10">det</dependency>
+      <dependency dep="inhibitory" dep_index="9" gov="effect" gov_index="10">amod</dependency>
+      <dependency dep="effect" dep_index="10" gov="enhanced" gov_index="7">dobj</dependency>
+      <dependency dep="VACM-1" dep_index="12" gov="effect" gov_index="10">prep_of</dependency>
+      <dependency dep="AVP" dep_index="14" gov="production" gov_index="17">nn</dependency>
+      <dependency dep="-stimulated" dep_index="15" gov="production" gov_index="17">amod</dependency>
+      <dependency dep="cAMP" dep_index="16" gov="production" gov_index="17">nn</dependency>
+      <dependency dep="production" dep_index="17" gov="enhanced" gov_index="7">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200014" relationship="false">2 5 7 17 14</relation>
+   </relations>
+   <pairs/>
+</root>

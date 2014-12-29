@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interestingly@,@profilin@overproduction@can@compensate@for@the@deleterious@effects@of@too@much@actin@in@a@profilin@concentration-dependent@manner@.@</sentence>
+   <tags>
+      <tag pos="14">actin</tag>
+      <tag pos="17">profilin</tag>
+      <tag pos="3">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Interestingly</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="4" part-of-speech="NN">overproduction</taggedword>
+      <taggedword index="5" part-of-speech="MD">can</taggedword>
+      <taggedword index="6" part-of-speech="VB">compensate</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">deleterious</taggedword>
+      <taggedword index="10" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="RB">too</taggedword>
+      <taggedword index="13" part-of-speech="JJ">much</taggedword>
+      <taggedword index="14" part-of-speech="NN">actin</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="JJ">profilin</taggedword>
+      <taggedword index="18" part-of-speech="JJ">concentration-dependent</taggedword>
+      <taggedword index="19" part-of-speech="NN">manner</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interestingly" dep_index="1" gov="compensate" gov_index="6">advmod</dependency>
+      <dependency dep="profilin" dep_index="3" gov="overproduction" gov_index="4">nn</dependency>
+      <dependency dep="overproduction" dep_index="4" gov="compensate" gov_index="6">nsubj</dependency>
+      <dependency dep="can" dep_index="5" gov="compensate" gov_index="6">aux</dependency>
+      <dependency dep="compensate" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="effects" gov_index="10">det</dependency>
+      <dependency dep="deleterious" dep_index="9" gov="effects" gov_index="10">amod</dependency>
+      <dependency dep="effects" dep_index="10" gov="compensate" gov_index="6">prep_for</dependency>
+      <dependency dep="too" dep_index="12" gov="much" gov_index="13">advmod</dependency>
+      <dependency dep="much" dep_index="13" gov="actin" gov_index="14">amod</dependency>
+      <dependency dep="actin" dep_index="14" gov="effects" gov_index="10">prep_of</dependency>
+      <dependency dep="a" dep_index="16" gov="manner" gov_index="19">det</dependency>
+      <dependency dep="profilin" dep_index="17" gov="manner" gov_index="19">amod</dependency>
+      <dependency dep="concentration-dependent" dep_index="18" gov="manner" gov_index="19">amod</dependency>
+      <dependency dep="manner" dep_index="19" gov="actin" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400017" relationship="true"></relation>
+      <relation position="300014" relationship="true">3 4 6 10 14</relation>
+      <relation position="300017" relationship="false">3 4 6 10 14 19 17</relation>
+   </relations>
+   <pairs>
+      <pair>1400017</pair>
+      <pair>300014</pair>
+   </pairs>
+</root>

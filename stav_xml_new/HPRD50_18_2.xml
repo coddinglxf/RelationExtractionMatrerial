@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@receptor-like protein tyrosine phosphatase@DEP1@,@also@known@as@CD148@,@is@expressed@predominantly@in@epithelial@cells@,@in@a@variety@of@tumor@cell@lines@,@and@in@lymphocytes@</sentence>
+   <tags>
+      <tag pos="2">receptor-like protein tyrosine phosphatase</tag>
+      <tag pos="3">DEP1</tag>
+      <tag pos="8">CD148</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">receptor-like protein tyrosine phosphatase</taggedword>
+      <taggedword index="3" part-of-speech="NN">DEP1</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="RB">also</taggedword>
+      <taggedword index="6" part-of-speech="VBN">known</taggedword>
+      <taggedword index="7" part-of-speech="IN">as</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CD148</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="12" part-of-speech="RB">predominantly</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="JJ">epithelial</taggedword>
+      <taggedword index="15" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="NN">variety</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="22" part-of-speech="NN">cell</taggedword>
+      <taggedword index="23" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="NNS">lymphocytes</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="DEP1" gov_index="3">det</dependency>
+      <dependency dep="receptor-like protein tyrosine phosphatase" dep_index="2" gov="DEP1" gov_index="3">amod</dependency>
+      <dependency dep="DEP1" dep_index="3" gov="expressed" gov_index="11">nsubjpass</dependency>
+      <dependency dep="also" dep_index="5" gov="known" gov_index="6">advmod</dependency>
+      <dependency dep="known" dep_index="6" gov="DEP1" gov_index="3">partmod</dependency>
+      <dependency dep="CD148" dep_index="8" gov="known" gov_index="6">prep_as</dependency>
+      <dependency dep="is" dep_index="10" gov="expressed" gov_index="11">auxpass</dependency>
+      <dependency dep="expressed" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="predominantly" dep_index="12" gov="expressed" gov_index="11">advmod</dependency>
+      <dependency dep="epithelial" dep_index="14" gov="cells" gov_index="15">amod</dependency>
+      <dependency dep="cells" dep_index="15" gov="expressed" gov_index="11">prep_in</dependency>
+      <dependency dep="a" dep_index="18" gov="variety" gov_index="19">det</dependency>
+      <dependency dep="variety" dep_index="19" gov="expressed" gov_index="11">prep_in</dependency>
+      <dependency dep="variety" dep_index="19" gov="cells" gov_index="15">conj_and</dependency>
+      <dependency dep="tumor" dep_index="21" gov="lines" gov_index="23">nn</dependency>
+      <dependency dep="cell" dep_index="22" gov="lines" gov_index="23">nn</dependency>
+      <dependency dep="lines" dep_index="23" gov="variety" gov_index="19">prep_of</dependency>
+      <dependency dep="lymphocytes" dep_index="27" gov="expressed" gov_index="11">prep_in</dependency>
+      <dependency dep="lymphocytes" dep_index="27" gov="cells" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200003" relationship="false"></relation>
+      <relation position="200008" relationship="false">2 3 6 8</relation>
+      <relation position="300008" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

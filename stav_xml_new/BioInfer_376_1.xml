@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@recombinant@expression@system@,@the@dystrophin@relatives@,@human@dystrophin related protein@(@DRP@or@utrophin@)@and@the@87K postsynaptic protein@from@Torpedo@electric@organ@,@also@bind@to@translated@beta 1-syntrophin@.@</sentence>
+   <tags>
+      <tag pos="14">DRP</tag>
+      <tag pos="12">dystrophin related protein</tag>
+      <tag pos="20">87K postsynaptic protein</tag>
+      <tag pos="16">utrophin</tag>
+      <tag pos="30">beta 1-syntrophin</tag>
+      <tag pos="8">dystrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="JJ">recombinant</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="NN">system</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">dystrophin</taggedword>
+      <taggedword index="9" part-of-speech="NNS">relatives</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="JJ">human</taggedword>
+      <taggedword index="12" part-of-speech="NN">dystrophin related protein</taggedword>
+      <taggedword index="13" part-of-speech="NNP">(</taggedword>
+      <taggedword index="14" part-of-speech="NNP">DRP</taggedword>
+      <taggedword index="15" part-of-speech="CC">or</taggedword>
+      <taggedword index="16" part-of-speech="NN">utrophin</taggedword>
+      <taggedword index="17" part-of-speech="NNS">)</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">87K postsynaptic protein</taggedword>
+      <taggedword index="21" part-of-speech="IN">from</taggedword>
+      <taggedword index="22" part-of-speech="NNP">Torpedo</taggedword>
+      <taggedword index="23" part-of-speech="JJ">electric</taggedword>
+      <taggedword index="24" part-of-speech="NN">organ</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="RB">also</taggedword>
+      <taggedword index="27" part-of-speech="VBZ">bind</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="VB">translated</taggedword>
+      <taggedword index="30" part-of-speech="JJ">beta 1-syntrophin</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="system" gov_index="5">det</dependency>
+      <dependency dep="recombinant" dep_index="3" gov="system" gov_index="5">amod</dependency>
+      <dependency dep="expression" dep_index="4" gov="system" gov_index="5">nn</dependency>
+      <dependency dep="system" dep_index="5" gov="bind" gov_index="27">prep_in</dependency>
+      <dependency dep="the" dep_index="7" gov="relatives" gov_index="9">det</dependency>
+      <dependency dep="dystrophin" dep_index="8" gov="relatives" gov_index="9">nn</dependency>
+      <dependency dep="relatives" dep_index="9" gov="bind" gov_index="27">nsubj</dependency>
+      <dependency dep="relatives" dep_index="9" gov="translated" gov_index="29">xsubj</dependency>
+      <dependency dep="human" dep_index="11" gov="DRP" gov_index="14">amod</dependency>
+      <dependency dep="dystrophin related protein" dep_index="12" gov="DRP" gov_index="14">nn</dependency>
+      <dependency dep="(" dep_index="13" gov="DRP" gov_index="14">nn</dependency>
+      <dependency dep="DRP" dep_index="14" gov="relatives" gov_index="9">appos</dependency>
+      <dependency dep="utrophin" dep_index="16" gov=")" gov_index="17">nn</dependency>
+      <dependency dep=")" dep_index="17" gov="relatives" gov_index="9">appos</dependency>
+      <dependency dep=")" dep_index="17" gov="DRP" gov_index="14">conj_or</dependency>
+      <dependency dep="the" dep_index="19" gov="87K postsynaptic protein" gov_index="20">det</dependency>
+      <dependency dep="87K postsynaptic protein" dep_index="20" gov="relatives" gov_index="9">appos</dependency>
+      <dependency dep="87K postsynaptic protein" dep_index="20" gov="DRP" gov_index="14">conj_and</dependency>
+      <dependency dep="Torpedo" dep_index="22" gov="organ" gov_index="24">nn</dependency>
+      <dependency dep="electric" dep_index="23" gov="organ" gov_index="24">amod</dependency>
+      <dependency dep="organ" dep_index="24" gov="87K postsynaptic protein" gov_index="20">prep_from</dependency>
+      <dependency dep="also" dep_index="26" gov="bind" gov_index="27">advmod</dependency>
+      <dependency dep="bind" dep_index="27" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="28" gov="translated" gov_index="29">aux</dependency>
+      <dependency dep="translated" dep_index="29" gov="bind" gov_index="27">xcomp</dependency>
+      <dependency dep="beta 1-syntrophin" dep_index="30" gov="translated" gov_index="29">acomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200014" relationship="false"></relation>
+      <relation position="1400020" relationship="false">14 9 20</relation>
+      <relation position="1400016" relationship="false">14 9 17 16</relation>
+      <relation position="1400030" relationship="true">14 9 29 30</relation>
+      <relation position="800014" relationship="true">8 9 14</relation>
+      <relation position="1200020" relationship="false">12 14 9 20</relation>
+      <relation position="1200016" relationship="false">12 14 17 16</relation>
+      <relation position="1200030" relationship="true">12 14 9 29 30</relation>
+      <relation position="800012" relationship="true">8 9 14 12</relation>
+      <relation position="1600020" relationship="false">16 17 9 20</relation>
+      <relation position="2000030" relationship="true">20 9 29 30</relation>
+      <relation position="800020" relationship="true">8 9 20</relation>
+      <relation position="1600030" relationship="true">16 17 9 29 30</relation>
+      <relation position="800016" relationship="true">8 9 17 16</relation>
+      <relation position="800030" relationship="false">8 9 29 30</relation>
+   </relations>
+   <pairs>
+      <pair>800020</pair>
+      <pair>800016</pair>
+      <pair>1600030</pair>
+      <pair>800012</pair>
+      <pair>1400030</pair>
+      <pair>2000030</pair>
+      <pair>800014</pair>
+      <pair>1200030</pair>
+   </pairs>
+</root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Isolation@of@human@skeletal muscle myosin heavy chain@and@actin@for@measurement@of@fractional@synthesis@rates@.@</sentence>
+   <tags>
+      <tag pos="6">actin</tag>
+      <tag pos="4">skeletal muscle myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Isolation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">human</taggedword>
+      <taggedword index="4" part-of-speech="NN">skeletal muscle myosin heavy chain</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">actin</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="NN">measurement</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="JJ">fractional</taggedword>
+      <taggedword index="11" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="12" part-of-speech="NNS">rates</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Isolation" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="human" dep_index="3" gov="skeletal muscle myosin heavy chain" gov_index="4">amod</dependency>
+      <dependency dep="skeletal muscle myosin heavy chain" dep_index="4" gov="Isolation" gov_index="1">prep_of</dependency>
+      <dependency dep="actin" dep_index="6" gov="Isolation" gov_index="1">prep_of</dependency>
+      <dependency dep="actin" dep_index="6" gov="skeletal muscle myosin heavy chain" gov_index="4">conj_and</dependency>
+      <dependency dep="measurement" dep_index="8" gov="Isolation" gov_index="1">prep_for</dependency>
+      <dependency dep="fractional" dep_index="10" gov="rates" gov_index="12">amod</dependency>
+      <dependency dep="synthesis" dep_index="11" gov="rates" gov_index="12">nn</dependency>
+      <dependency dep="rates" dep_index="12" gov="Isolation" gov_index="1">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 1 6</relation>
+   </relations>
+   <pairs/>
+</root>

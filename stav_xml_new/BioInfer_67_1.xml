@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@null@mutation@of@the@actin@gene@(@ACT1@)@is@lethal@,@but@null@mutations@in@the@tropomyosin@(@TPM1@),@fimbrin@(@SAC6@),@Abp1p@(@ABP1@),@and@capping protein@(@CAP1@and@CAP2@)@genes@have@relatively@mild@or@no@effects@.@</sentence>
+   <tags>
+      <tag pos="36">CAP2</tag>
+      <tag pos="25">SAC6</tag>
+      <tag pos="23">fimbrin</tag>
+      <tag pos="19">tropomyosin</tag>
+      <tag pos="6">actin</tag>
+      <tag pos="34">CAP1</tag>
+      <tag pos="27">Abp1p</tag>
+      <tag pos="32">capping protein</tag>
+      <tag pos="29">ABP1</tag>
+      <tag pos="9">ACT1</tag>
+      <tag pos="21">TPM1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">null</taggedword>
+      <taggedword index="3" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">actin</taggedword>
+      <taggedword index="7" part-of-speech="NN">gene</taggedword>
+      <taggedword index="8" part-of-speech="NNP">(</taggedword>
+      <taggedword index="9" part-of-speech="NNP">ACT1</taggedword>
+      <taggedword index="10" part-of-speech="NNP">)</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="12" part-of-speech="JJ">lethal</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CC">but</taggedword>
+      <taggedword index="15" part-of-speech="JJ">null</taggedword>
+      <taggedword index="16" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">tropomyosin</taggedword>
+      <taggedword index="20" part-of-speech="NNP">(</taggedword>
+      <taggedword index="21" part-of-speech="NNP">TPM1</taggedword>
+      <taggedword index="22" part-of-speech="NNP">),</taggedword>
+      <taggedword index="23" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="24" part-of-speech="NNP">(</taggedword>
+      <taggedword index="25" part-of-speech="NNP">SAC6</taggedword>
+      <taggedword index="26" part-of-speech="NNPS">),</taggedword>
+      <taggedword index="27" part-of-speech="NNP">Abp1p</taggedword>
+      <taggedword index="28" part-of-speech="NNP">(</taggedword>
+      <taggedword index="29" part-of-speech="NNP">ABP1</taggedword>
+      <taggedword index="30" part-of-speech="NNP">),</taggedword>
+      <taggedword index="31" part-of-speech="CC">and</taggedword>
+      <taggedword index="32" part-of-speech="NN">capping protein</taggedword>
+      <taggedword index="33" part-of-speech="NNP">(</taggedword>
+      <taggedword index="34" part-of-speech="NNP">CAP1</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="NNP">CAP2</taggedword>
+      <taggedword index="37" part-of-speech="NNP">)</taggedword>
+      <taggedword index="38" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="39" part-of-speech="VBP">have</taggedword>
+      <taggedword index="40" part-of-speech="RB">relatively</taggedword>
+      <taggedword index="41" part-of-speech="JJ">mild</taggedword>
+      <taggedword index="42" part-of-speech="CC">or</taggedword>
+      <taggedword index="43" part-of-speech="DT">no</taggedword>
+      <taggedword index="44" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="45" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="mutation" gov_index="3">det</dependency>
+      <dependency dep="null" dep_index="2" gov="mutation" gov_index="3">amod</dependency>
+      <dependency dep="mutation" dep_index="3" gov="lethal" gov_index="12">nsubj</dependency>
+      <dependency dep="the" dep_index="5" gov=")" gov_index="10">det</dependency>
+      <dependency dep="actin" dep_index="6" gov=")" gov_index="10">nn</dependency>
+      <dependency dep="gene" dep_index="7" gov=")" gov_index="10">nn</dependency>
+      <dependency dep="(" dep_index="8" gov=")" gov_index="10">nn</dependency>
+      <dependency dep="ACT1" dep_index="9" gov=")" gov_index="10">nn</dependency>
+      <dependency dep=")" dep_index="10" gov="mutation" gov_index="3">prep_of</dependency>
+      <dependency dep="is" dep_index="11" gov="lethal" gov_index="12">cop</dependency>
+      <dependency dep="lethal" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="null" dep_index="15" gov="mutations" gov_index="16">amod</dependency>
+      <dependency dep="mutations" dep_index="16" gov="have" gov_index="39">nsubj</dependency>
+      <dependency dep="the" dep_index="18" gov=")," gov_index="30">det</dependency>
+      <dependency dep="tropomyosin" dep_index="19" gov=")," gov_index="30">nn</dependency>
+      <dependency dep="(" dep_index="20" gov=")," gov_index="30">nn</dependency>
+      <dependency dep="TPM1" dep_index="21" gov=")," gov_index="30">nn</dependency>
+      <dependency dep=")," dep_index="22" gov=")," gov_index="30">nn</dependency>
+      <dependency dep="fimbrin" dep_index="23" gov=")," gov_index="30">nn</dependency>
+      <dependency dep="(" dep_index="24" gov=")," gov_index="30">nn</dependency>
+      <dependency dep="SAC6" dep_index="25" gov=")," gov_index="30">nn</dependency>
+      <dependency dep=")," dep_index="26" gov=")," gov_index="30">nn</dependency>
+      <dependency dep="Abp1p" dep_index="27" gov=")," gov_index="30">nn</dependency>
+      <dependency dep="(" dep_index="28" gov=")," gov_index="30">nn</dependency>
+      <dependency dep="ABP1" dep_index="29" gov=")," gov_index="30">nn</dependency>
+      <dependency dep=")," dep_index="30" gov="mutations" gov_index="16">prep_in</dependency>
+      <dependency dep="capping protein" dep_index="32" gov="CAP1" gov_index="34">nn</dependency>
+      <dependency dep="(" dep_index="33" gov="CAP1" gov_index="34">nn</dependency>
+      <dependency dep="CAP1" dep_index="34" gov="mutations" gov_index="16">prep_in</dependency>
+      <dependency dep="CAP1" dep_index="34" gov=")," gov_index="30">conj_and</dependency>
+      <dependency dep="CAP2" dep_index="36" gov="genes" gov_index="38">nn</dependency>
+      <dependency dep=")" dep_index="37" gov="genes" gov_index="38">nn</dependency>
+      <dependency dep="genes" dep_index="38" gov="mutations" gov_index="16">prep_in</dependency>
+      <dependency dep="genes" dep_index="38" gov=")," gov_index="30">conj_and</dependency>
+      <dependency dep="have" dep_index="39" gov="lethal" gov_index="12">conj_but</dependency>
+      <dependency dep="relatively" dep_index="40" gov="mild" gov_index="41">advmod</dependency>
+      <dependency dep="mild" dep_index="41" gov="have" gov_index="39">dobj</dependency>
+      <dependency dep="no" dep_index="43" gov="effects" gov_index="44">det</dependency>
+      <dependency dep="effects" dep_index="44" gov="have" gov_index="39">dobj</dependency>
+      <dependency dep="effects" dep_index="44" gov="mild" gov_index="41">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2500036" relationship="false">25 30 16 38 36</relation>
+      <relation position="2300036" relationship="false">23 30 16 38 36</relation>
+      <relation position="1900036" relationship="false">19 30 16 38 36</relation>
+      <relation position="600036" relationship="false">6 10 3 12 39 16 38 36</relation>
+      <relation position="3400036" relationship="false">34 16 38 36</relation>
+      <relation position="2700036" relationship="false">27 30 16 38 36</relation>
+      <relation position="3200036" relationship="true">32 34 16 38 36</relation>
+      <relation position="2900036" relationship="false">29 30 16 38 36</relation>
+      <relation position="900036" relationship="false">9 10 3 12 39 16 38 36</relation>
+      <relation position="2100036" relationship="false">21 30 16 38 36</relation>
+      <relation position="2300025" relationship="false">23 30 25</relation>
+      <relation position="1900025" relationship="false">19 30 25</relation>
+      <relation position="600025" relationship="false">6 10 3 12 39 16 30 25</relation>
+      <relation position="2500034" relationship="false">25 30 16 34</relation>
+      <relation position="2500027" relationship="false">25 30 27</relation>
+      <relation position="2500032" relationship="false">25 30 16 34 32</relation>
+      <relation position="2500029" relationship="false">25 30 29</relation>
+      <relation position="900025" relationship="false">9 10 3 12 39 16 30 25</relation>
+      <relation position="2100025" relationship="false">21 30 25</relation>
+      <relation position="1900023" relationship="false">19 30 23</relation>
+      <relation position="600023" relationship="false">6 10 3 12 39 16 30 23</relation>
+      <relation position="2300034" relationship="false">23 30 16 34</relation>
+      <relation position="2300027" relationship="false">23 30 27</relation>
+      <relation position="2300032" relationship="false">23 30 16 34 32</relation>
+      <relation position="2300029" relationship="false">23 30 29</relation>
+      <relation position="900023" relationship="false">9 10 3 12 39 16 30 23</relation>
+      <relation position="2100023" relationship="false">21 30 23</relation>
+      <relation position="600019" relationship="false">6 10 3 12 39 16 30 19</relation>
+      <relation position="1900034" relationship="false">19 30 16 34</relation>
+      <relation position="1900027" relationship="false">19 30 27</relation>
+      <relation position="1900032" relationship="false">19 30 16 34 32</relation>
+      <relation position="1900029" relationship="false">19 30 29</relation>
+      <relation position="900019" relationship="false">9 10 3 12 39 16 30 19</relation>
+      <relation position="1900021" relationship="false">19 30 21</relation>
+      <relation position="600034" relationship="false">6 10 3 12 39 16 34</relation>
+      <relation position="600027" relationship="false">6 10 3 12 39 16 30 27</relation>
+      <relation position="600032" relationship="false">6 10 3 12 39 16 34 32</relation>
+      <relation position="600029" relationship="false">6 10 3 12 39 16 30 29</relation>
+      <relation position="600009" relationship="false">6 10 9</relation>
+      <relation position="600021" relationship="false">6 10 3 12 39 16 30 21</relation>
+      <relation position="2700034" relationship="false">27 30 16 34</relation>
+      <relation position="3200034" relationship="true"></relation>
+      <relation position="2900034" relationship="false">29 30 16 34</relation>
+      <relation position="900034" relationship="false">9 10 3 12 39 16 34</relation>
+      <relation position="2100034" relationship="false">21 30 16 34</relation>
+      <relation position="2700032" relationship="false">27 30 16 34 32</relation>
+      <relation position="2700029" relationship="false">27 30 29</relation>
+      <relation position="900027" relationship="false">9 10 3 12 39 16 30 27</relation>
+      <relation position="2100027" relationship="false">21 30 27</relation>
+      <relation position="2900032" relationship="false">29 30 16 34 32</relation>
+      <relation position="900032" relationship="false">9 10 3 12 39 16 34 32</relation>
+      <relation position="2100032" relationship="false">21 30 16 34 32</relation>
+      <relation position="900029" relationship="false">9 10 3 12 39 16 30 29</relation>
+      <relation position="2100029" relationship="false">21 30 29</relation>
+      <relation position="900021" relationship="false">9 10 3 12 39 16 30 21</relation>
+   </relations>
+   <pairs>
+      <pair>3200034</pair>
+      <pair>3200036</pair>
+   </pairs>
+</root>

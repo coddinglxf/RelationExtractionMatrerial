@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@implies@that@Munc18-2@function@in@apical@membrane@trafficking@involves@aspects@independent@of@the@syntaxin 3@interaction@.@</sentence>
+   <tags>
+      <tag pos="15">syntaxin 3</tag>
+      <tag pos="4">Munc18-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">implies</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NN">Munc18-2</taggedword>
+      <taggedword index="5" part-of-speech="NN">function</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">apical</taggedword>
+      <taggedword index="8" part-of-speech="JJ">membrane</taggedword>
+      <taggedword index="9" part-of-speech="NN">trafficking</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">involves</taggedword>
+      <taggedword index="11" part-of-speech="NNS">aspects</taggedword>
+      <taggedword index="12" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">syntaxin 3</taggedword>
+      <taggedword index="16" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="implies" gov_index="2">nsubj</dependency>
+      <dependency dep="implies" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="involves" gov_index="10">mark</dependency>
+      <dependency dep="Munc18-2" dep_index="4" gov="function" gov_index="5">nn</dependency>
+      <dependency dep="function" dep_index="5" gov="involves" gov_index="10">nsubj</dependency>
+      <dependency dep="apical" dep_index="7" gov="trafficking" gov_index="9">amod</dependency>
+      <dependency dep="membrane" dep_index="8" gov="trafficking" gov_index="9">amod</dependency>
+      <dependency dep="trafficking" dep_index="9" gov="function" gov_index="5">prep_in</dependency>
+      <dependency dep="involves" dep_index="10" gov="implies" gov_index="2">ccomp</dependency>
+      <dependency dep="aspects" dep_index="11" gov="independent" gov_index="12">nsubj</dependency>
+      <dependency dep="independent" dep_index="12" gov="involves" gov_index="10">xcomp</dependency>
+      <dependency dep="the" dep_index="14" gov="interaction" gov_index="16">det</dependency>
+      <dependency dep="syntaxin 3" dep_index="15" gov="interaction" gov_index="16">amod</dependency>
+      <dependency dep="interaction" dep_index="16" gov="independent" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400015" relationship="false">4 5 10 12 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

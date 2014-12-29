@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Bistratene@A@causes@phosphorylation@of@talin@and@redistribution@of@actin@microfilaments@in@fibroblasts@:@possible@role@for@PKC-delta@.@</sentence>
+   <tags>
+      <tag pos="10">actin</tag>
+      <tag pos="6">talin</tag>
+      <tag pos="18">PKC-delta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Bistratene</taggedword>
+      <taggedword index="2" part-of-speech="NNP">A</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">causes</taggedword>
+      <taggedword index="4" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">talin</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">redistribution</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="NNS">microfilaments</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NNS">fibroblasts</taggedword>
+      <taggedword index="14" part-of-speech=":">:</taggedword>
+      <taggedword index="15" part-of-speech="JJ">possible</taggedword>
+      <taggedword index="16" part-of-speech="NN">role</taggedword>
+      <taggedword index="17" part-of-speech="IN">for</taggedword>
+      <taggedword index="18" part-of-speech="NNP">PKC-delta</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Bistratene" dep_index="1" gov="A" gov_index="2">nn</dependency>
+      <dependency dep="A" dep_index="2" gov="causes" gov_index="3">nsubj</dependency>
+      <dependency dep="causes" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="phosphorylation" dep_index="4" gov="causes" gov_index="3">dobj</dependency>
+      <dependency dep="talin" dep_index="6" gov="phosphorylation" gov_index="4">prep_of</dependency>
+      <dependency dep="redistribution" dep_index="8" gov="phosphorylation" gov_index="4">prep_of</dependency>
+      <dependency dep="redistribution" dep_index="8" gov="talin" gov_index="6">conj_and</dependency>
+      <dependency dep="actin" dep_index="10" gov="microfilaments" gov_index="11">nn</dependency>
+      <dependency dep="microfilaments" dep_index="11" gov="phosphorylation" gov_index="4">prep_of</dependency>
+      <dependency dep="fibroblasts" dep_index="13" gov="microfilaments" gov_index="11">prep_in</dependency>
+      <dependency dep="possible" dep_index="15" gov="role" gov_index="16">amod</dependency>
+      <dependency dep="role" dep_index="16" gov="phosphorylation" gov_index="4">dep</dependency>
+      <dependency dep="PKC-delta" dep_index="18" gov="role" gov_index="16">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="false">6 4 11 10</relation>
+      <relation position="1000018" relationship="true">10 11 4 16 18</relation>
+      <relation position="600018" relationship="true">6 4 16 18</relation>
+   </relations>
+   <pairs>
+      <pair>1000018</pair>
+      <pair>600018</pair>
+   </pairs>
+</root>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Only@weak@IL-13@binding@activity@was@found@in@cells@transfected@with@only@IL-13Ralpha@;@however@,@the@combination@of@both@IL-13Ralpha@and@IL-4Ralpha@resulted@in@substantial@binding@activity@,@with@a@Kd@of@approximately@400@pM@,@indicating@that@both@chains@are@essential@components@of@the@IL-13 receptor@.@</sentence>
+   <tags>
+      <tag pos="3">IL-13</tag>
+      <tag pos="13">IL-13Ralpha</tag>
+      <tag pos="21">IL-13Ralpha</tag>
+      <tag pos="23">IL-4Ralpha</tag>
+      <tag pos="47">IL-13 receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Only</taggedword>
+      <taggedword index="2" part-of-speech="JJ">weak</taggedword>
+      <taggedword index="3" part-of-speech="JJ">IL-13</taggedword>
+      <taggedword index="4" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="5" part-of-speech="NN">activity</taggedword>
+      <taggedword index="6" part-of-speech="VBD">was</taggedword>
+      <taggedword index="7" part-of-speech="VBN">found</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="10" part-of-speech="VBN">transfected</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="JJ">only</taggedword>
+      <taggedword index="13" part-of-speech="NNS">IL-13Ralpha</taggedword>
+      <taggedword index="14" part-of-speech=":">;</taggedword>
+      <taggedword index="15" part-of-speech="RB">however</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">combination</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">both</taggedword>
+      <taggedword index="21" part-of-speech="NNS">IL-13Ralpha</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NNS">IL-4Ralpha</taggedword>
+      <taggedword index="24" part-of-speech="VBD">resulted</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="JJ">substantial</taggedword>
+      <taggedword index="27" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="28" part-of-speech="NN">activity</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="IN">with</taggedword>
+      <taggedword index="31" part-of-speech="DT">a</taggedword>
+      <taggedword index="32" part-of-speech="NN">Kd</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="RB">approximately</taggedword>
+      <taggedword index="35" part-of-speech="CD">400</taggedword>
+      <taggedword index="36" part-of-speech="NN">pM</taggedword>
+      <taggedword index="37" part-of-speech=",">,</taggedword>
+      <taggedword index="38" part-of-speech="VBG">indicating</taggedword>
+      <taggedword index="39" part-of-speech="IN">that</taggedword>
+      <taggedword index="40" part-of-speech="DT">both</taggedword>
+      <taggedword index="41" part-of-speech="NNS">chains</taggedword>
+      <taggedword index="42" part-of-speech="VBP">are</taggedword>
+      <taggedword index="43" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="44" part-of-speech="NNS">components</taggedword>
+      <taggedword index="45" part-of-speech="IN">of</taggedword>
+      <taggedword index="46" part-of-speech="DT">the</taggedword>
+      <taggedword index="47" part-of-speech="NN">IL-13 receptor</taggedword>
+      <taggedword index="48" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Only" dep_index="1" gov="found" gov_index="7">advmod</dependency>
+      <dependency dep="weak" dep_index="2" gov="IL-13" gov_index="3">amod</dependency>
+      <dependency dep="IL-13" dep_index="3" gov="activity" gov_index="5">amod</dependency>
+      <dependency dep="binding" dep_index="4" gov="activity" gov_index="5">amod</dependency>
+      <dependency dep="activity" dep_index="5" gov="found" gov_index="7">nsubjpass</dependency>
+      <dependency dep="was" dep_index="6" gov="found" gov_index="7">auxpass</dependency>
+      <dependency dep="found" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cells" dep_index="9" gov="found" gov_index="7">prep_in</dependency>
+      <dependency dep="transfected" dep_index="10" gov="cells" gov_index="9">partmod</dependency>
+      <dependency dep="only" dep_index="12" gov="IL-13Ralpha" gov_index="13">amod</dependency>
+      <dependency dep="IL-13Ralpha" dep_index="13" gov="transfected" gov_index="10">prep_with</dependency>
+      <dependency dep="however" dep_index="15" gov="resulted" gov_index="24">advmod</dependency>
+      <dependency dep="the" dep_index="17" gov="combination" gov_index="18">det</dependency>
+      <dependency dep="combination" dep_index="18" gov="resulted" gov_index="24">nsubj</dependency>
+      <dependency dep="both" dep_index="20" gov="IL-13Ralpha" gov_index="21">preconj</dependency>
+      <dependency dep="IL-13Ralpha" dep_index="21" gov="combination" gov_index="18">prep_of</dependency>
+      <dependency dep="IL-4Ralpha" dep_index="23" gov="combination" gov_index="18">prep_of</dependency>
+      <dependency dep="IL-4Ralpha" dep_index="23" gov="IL-13Ralpha" gov_index="21">conj_and</dependency>
+      <dependency dep="resulted" dep_index="24" gov="found" gov_index="7">parataxis</dependency>
+      <dependency dep="substantial" dep_index="26" gov="activity" gov_index="28">amod</dependency>
+      <dependency dep="binding" dep_index="27" gov="activity" gov_index="28">amod</dependency>
+      <dependency dep="activity" dep_index="28" gov="resulted" gov_index="24">prep_in</dependency>
+      <dependency dep="a" dep_index="31" gov="Kd" gov_index="32">det</dependency>
+      <dependency dep="Kd" dep_index="32" gov="resulted" gov_index="24">prep_with</dependency>
+      <dependency dep="approximately" dep_index="34" gov="400" gov_index="35">quantmod</dependency>
+      <dependency dep="400" dep_index="35" gov="pM" gov_index="36">num</dependency>
+      <dependency dep="pM" dep_index="36" gov="Kd" gov_index="32">prep_of</dependency>
+      <dependency dep="indicating" dep_index="38" gov="resulted" gov_index="24">xcomp</dependency>
+      <dependency dep="that" dep_index="39" gov="components" gov_index="44">mark</dependency>
+      <dependency dep="both" dep_index="40" gov="chains" gov_index="41">det</dependency>
+      <dependency dep="chains" dep_index="41" gov="components" gov_index="44">nsubj</dependency>
+      <dependency dep="are" dep_index="42" gov="components" gov_index="44">cop</dependency>
+      <dependency dep="essential" dep_index="43" gov="components" gov_index="44">amod</dependency>
+      <dependency dep="components" dep_index="44" gov="indicating" gov_index="38">ccomp</dependency>
+      <dependency dep="the" dep_index="46" gov="IL-13 receptor" gov_index="47">det</dependency>
+      <dependency dep="IL-13 receptor" dep_index="47" gov="components" gov_index="44">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300013" relationship="true">3 5 7 9 10 13</relation>
+      <relation position="300021" relationship="false">3 5 7 24 18 21</relation>
+      <relation position="300023" relationship="false">3 5 7 24 18 23</relation>
+      <relation position="300047" relationship="false">3 5 7 24 38 44 47</relation>
+      <relation position="1300021" relationship="false">13 10 9 7 24 18 21</relation>
+      <relation position="1300023" relationship="false">13 10 9 7 24 18 23</relation>
+      <relation position="1300047" relationship="false">13 10 9 7 24 38 44 47</relation>
+      <relation position="2100023" relationship="false">21 18 23</relation>
+      <relation position="2100047" relationship="false">21 18 24 38 44 47</relation>
+      <relation position="2300047" relationship="false">23 18 24 38 44 47</relation>
+   </relations>
+   <pairs>
+      <pair>300013</pair>
+   </pairs>
+</root>

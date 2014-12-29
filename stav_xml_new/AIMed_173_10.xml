@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Moreover@,@when@a@peptide@fragment@bearing@this@substitution@was@mixed@with@native@Abeta@-(1-40),@it@inhibited@formation@of@fibrils@in@vitro@as@examined@by@electron@microscopy@.@</sentence>
+   <tags>
+      <tag pos="14">Abeta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Moreover</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="WRB">when</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">peptide</taggedword>
+      <taggedword index="6" part-of-speech="NN">fragment</taggedword>
+      <taggedword index="7" part-of-speech="VBG">bearing</taggedword>
+      <taggedword index="8" part-of-speech="DT">this</taggedword>
+      <taggedword index="9" part-of-speech="NN">substitution</taggedword>
+      <taggedword index="10" part-of-speech="VBD">was</taggedword>
+      <taggedword index="11" part-of-speech="JJ">mixed</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="JJ">native</taggedword>
+      <taggedword index="14" part-of-speech="NNP">Abeta</taggedword>
+      <taggedword index="15" part-of-speech="CD">-(1-40),</taggedword>
+      <taggedword index="16" part-of-speech="PRP">it</taggedword>
+      <taggedword index="17" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="18" part-of-speech="NN">formation</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NNS">fibrils</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="23" part-of-speech="IN">as</taggedword>
+      <taggedword index="24" part-of-speech="NNP">examined</taggedword>
+      <taggedword index="25" part-of-speech="IN">by</taggedword>
+      <taggedword index="26" part-of-speech="NN">electron</taggedword>
+      <taggedword index="27" part-of-speech="NN">microscopy</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Moreover" dep_index="1" gov="inhibited" gov_index="17">advmod</dependency>
+      <dependency dep="when" dep_index="3" gov="mixed" gov_index="11">advmod</dependency>
+      <dependency dep="a" dep_index="4" gov="fragment" gov_index="6">det</dependency>
+      <dependency dep="peptide" dep_index="5" gov="fragment" gov_index="6">amod</dependency>
+      <dependency dep="fragment" dep_index="6" gov="mixed" gov_index="11">nsubj</dependency>
+      <dependency dep="bearing" dep_index="7" gov="fragment" gov_index="6">partmod</dependency>
+      <dependency dep="this" dep_index="8" gov="substitution" gov_index="9">det</dependency>
+      <dependency dep="substitution" dep_index="9" gov="bearing" gov_index="7">dobj</dependency>
+      <dependency dep="was" dep_index="10" gov="mixed" gov_index="11">cop</dependency>
+      <dependency dep="mixed" dep_index="11" gov="inhibited" gov_index="17">advcl</dependency>
+      <dependency dep="native" dep_index="13" gov="Abeta" gov_index="14">amod</dependency>
+      <dependency dep="Abeta" dep_index="14" gov="mixed" gov_index="11">prep_with</dependency>
+      <dependency dep="-(1-40)," dep_index="15" gov="Abeta" gov_index="14">num</dependency>
+      <dependency dep="it" dep_index="16" gov="inhibited" gov_index="17">nsubj</dependency>
+      <dependency dep="inhibited" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="formation" dep_index="18" gov="inhibited" gov_index="17">dobj</dependency>
+      <dependency dep="fibrils" dep_index="20" gov="formation" gov_index="18">prep_of</dependency>
+      <dependency dep="vitro" dep_index="22" gov="inhibited" gov_index="17">prep_in</dependency>
+      <dependency dep="examined" dep_index="24" gov="vitro" gov_index="22">prep_as</dependency>
+      <dependency dep="electron" dep_index="26" gov="microscopy" gov_index="27">nn</dependency>
+      <dependency dep="microscopy" dep_index="27" gov="inhibited" gov_index="17">prep_by</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

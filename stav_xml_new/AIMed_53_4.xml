@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@the@2.4@angstrom@crystal@structure@of@the@extracellular@signaling@assembly@between@viral@IL-6@and@human@gp130@,@two@complexes@are@cross-linked@into@a@tetramer@through@direct@interactions@between@the@immunoglobulin@domain@of@gp130@and@site@III@of@viral@IL-6@,@which@is@necessary@for@receptor@activation@.@</sentence>
+   <tags>
+      <tag pos="14">IL-6</tag>
+      <tag pos="17">gp130</tag>
+      <tag pos="34">gp130</tag>
+      <tag pos="40">IL-6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="CD">2.4</taggedword>
+      <taggedword index="4" part-of-speech="NN">angstrom</taggedword>
+      <taggedword index="5" part-of-speech="NN">crystal</taggedword>
+      <taggedword index="6" part-of-speech="NN">structure</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="10" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="11" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="12" part-of-speech="IN">between</taggedword>
+      <taggedword index="13" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="14" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">human</taggedword>
+      <taggedword index="17" part-of-speech="NNS">gp130</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CD">two</taggedword>
+      <taggedword index="20" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="21" part-of-speech="VBP">are</taggedword>
+      <taggedword index="22" part-of-speech="JJ">cross-linked</taggedword>
+      <taggedword index="23" part-of-speech="IN">into</taggedword>
+      <taggedword index="24" part-of-speech="DT">a</taggedword>
+      <taggedword index="25" part-of-speech="NN">tetramer</taggedword>
+      <taggedword index="26" part-of-speech="IN">through</taggedword>
+      <taggedword index="27" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="28" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="29" part-of-speech="IN">between</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="NN">immunoglobulin</taggedword>
+      <taggedword index="32" part-of-speech="NN">domain</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="CD">gp130</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="NNP">site</taggedword>
+      <taggedword index="37" part-of-speech="NNP">III</taggedword>
+      <taggedword index="38" part-of-speech="IN">of</taggedword>
+      <taggedword index="39" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="40" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="41" part-of-speech=",">,</taggedword>
+      <taggedword index="42" part-of-speech="WDT">which</taggedword>
+      <taggedword index="43" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="44" part-of-speech="JJ">necessary</taggedword>
+      <taggedword index="45" part-of-speech="IN">for</taggedword>
+      <taggedword index="46" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="47" part-of-speech="NN">activation</taggedword>
+      <taggedword index="48" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="structure" gov_index="6">det</dependency>
+      <dependency dep="2.4" dep_index="3" gov="structure" gov_index="6">num</dependency>
+      <dependency dep="angstrom" dep_index="4" gov="structure" gov_index="6">nn</dependency>
+      <dependency dep="crystal" dep_index="5" gov="structure" gov_index="6">nn</dependency>
+      <dependency dep="structure" dep_index="6" gov="signaling" gov_index="10">nsubj</dependency>
+      <dependency dep="the" dep_index="8" gov="extracellular" gov_index="9">det</dependency>
+      <dependency dep="extracellular" dep_index="9" gov="structure" gov_index="6">prep_of</dependency>
+      <dependency dep="signaling" dep_index="10" gov="cross-linked" gov_index="22">prepc_in</dependency>
+      <dependency dep="assembly" dep_index="11" gov="signaling" gov_index="10">dobj</dependency>
+      <dependency dep="viral" dep_index="13" gov="IL-6" gov_index="14">amod</dependency>
+      <dependency dep="IL-6" dep_index="14" gov="assembly" gov_index="11">prep_between</dependency>
+      <dependency dep="human" dep_index="16" gov="gp130" gov_index="17">amod</dependency>
+      <dependency dep="gp130" dep_index="17" gov="assembly" gov_index="11">prep_between</dependency>
+      <dependency dep="gp130" dep_index="17" gov="IL-6" gov_index="14">conj_and</dependency>
+      <dependency dep="two" dep_index="19" gov="complexes" gov_index="20">num</dependency>
+      <dependency dep="complexes" dep_index="20" gov="cross-linked" gov_index="22">nsubj</dependency>
+      <dependency dep="are" dep_index="21" gov="cross-linked" gov_index="22">cop</dependency>
+      <dependency dep="cross-linked" dep_index="22" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="24" gov="tetramer" gov_index="25">det</dependency>
+      <dependency dep="tetramer" dep_index="25" gov="cross-linked" gov_index="22">prep_into</dependency>
+      <dependency dep="direct" dep_index="27" gov="interactions" gov_index="28">amod</dependency>
+      <dependency dep="interactions" dep_index="28" gov="cross-linked" gov_index="22">prep_through</dependency>
+      <dependency dep="interactions" dep_index="28" gov="necessary" gov_index="44">nsubj</dependency>
+      <dependency dep="the" dep_index="30" gov="domain" gov_index="32">det</dependency>
+      <dependency dep="immunoglobulin" dep_index="31" gov="domain" gov_index="32">nn</dependency>
+      <dependency dep="domain" dep_index="32" gov="interactions" gov_index="28">prep_between</dependency>
+      <dependency dep="gp130" dep_index="34" gov="domain" gov_index="32">prep_of</dependency>
+      <dependency dep="site" dep_index="36" gov="III" gov_index="37">nn</dependency>
+      <dependency dep="III" dep_index="37" gov="interactions" gov_index="28">prep_between</dependency>
+      <dependency dep="III" dep_index="37" gov="domain" gov_index="32">conj_and</dependency>
+      <dependency dep="viral" dep_index="39" gov="IL-6" gov_index="40">amod</dependency>
+      <dependency dep="IL-6" dep_index="40" gov="III" gov_index="37">prep_of</dependency>
+      <dependency dep="is" dep_index="43" gov="necessary" gov_index="44">cop</dependency>
+      <dependency dep="necessary" dep_index="44" gov="interactions" gov_index="28">rcmod</dependency>
+      <dependency dep="receptor" dep_index="46" gov="activation" gov_index="47">nn</dependency>
+      <dependency dep="activation" dep_index="47" gov="necessary" gov_index="44">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400017" relationship="true">14 11 17</relation>
+      <relation position="1400034" relationship="false">14 11 10 22 28 32 34</relation>
+      <relation position="1400040" relationship="false">14 11 10 22 28 37 40</relation>
+      <relation position="1700034" relationship="false">17 11 10 22 28 32 34</relation>
+      <relation position="1700040" relationship="false">17 11 10 22 28 37 40</relation>
+      <relation position="3400040" relationship="true">34 32 28 37 40</relation>
+   </relations>
+   <pairs>
+      <pair>3400040</pair>
+      <pair>1400017</pair>
+   </pairs>
+</root>

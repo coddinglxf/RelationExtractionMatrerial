@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>alpha-Catenin@was@not@associated@with@these@complexes@after@synthesis@,@but@a@subpopulation@of@alpha-catenin@joined@the@complex@at@a@time@coincident@with@the@arrival@of@E-cadherin@at@the@plasma@membrane@.@</sentence>
+   <tags>
+      <tag pos="27">E-cadherin</tag>
+      <tag pos="15">alpha-catenin</tag>
+      <tag pos="1">alpha-Catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">alpha-Catenin</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="RB">not</taggedword>
+      <taggedword index="4" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="DT">these</taggedword>
+      <taggedword index="7" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="8" part-of-speech="IN">after</taggedword>
+      <taggedword index="9" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">but</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="NN">subpopulation</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="16" part-of-speech="VBD">joined</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="19" part-of-speech="IN">at</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="NN">time</taggedword>
+      <taggedword index="22" part-of-speech="NN">coincident</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">arrival</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="28" part-of-speech="IN">at</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="31" part-of-speech="NN">membrane</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="alpha-Catenin" dep_index="1" gov="associated" gov_index="4">nsubjpass</dependency>
+      <dependency dep="was" dep_index="2" gov="associated" gov_index="4">auxpass</dependency>
+      <dependency dep="not" dep_index="3" gov="associated" gov_index="4">neg</dependency>
+      <dependency dep="associated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="these" dep_index="6" gov="complexes" gov_index="7">det</dependency>
+      <dependency dep="complexes" dep_index="7" gov="associated" gov_index="4">prep_with</dependency>
+      <dependency dep="synthesis" dep_index="9" gov="associated" gov_index="4">prep_after</dependency>
+      <dependency dep="a" dep_index="12" gov="subpopulation" gov_index="13">det</dependency>
+      <dependency dep="subpopulation" dep_index="13" gov="joined" gov_index="16">nsubj</dependency>
+      <dependency dep="alpha-catenin" dep_index="15" gov="subpopulation" gov_index="13">prep_of</dependency>
+      <dependency dep="joined" dep_index="16" gov="associated" gov_index="4">conj_but</dependency>
+      <dependency dep="the" dep_index="17" gov="coincident" gov_index="22">det</dependency>
+      <dependency dep="complex" dep_index="18" gov="coincident" gov_index="22">amod</dependency>
+      <dependency dep="a" dep_index="20" gov="time" gov_index="21">det</dependency>
+      <dependency dep="time" dep_index="21" gov="complex" gov_index="18">prep_at</dependency>
+      <dependency dep="coincident" dep_index="22" gov="joined" gov_index="16">dobj</dependency>
+      <dependency dep="the" dep_index="24" gov="arrival" gov_index="25">det</dependency>
+      <dependency dep="arrival" dep_index="25" gov="joined" gov_index="16">prep_with</dependency>
+      <dependency dep="E-cadherin" dep_index="27" gov="arrival" gov_index="25">prep_of</dependency>
+      <dependency dep="the" dep_index="29" gov="membrane" gov_index="31">det</dependency>
+      <dependency dep="plasma" dep_index="30" gov="membrane" gov_index="31">nn</dependency>
+      <dependency dep="membrane" dep_index="31" gov="joined" gov_index="16">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500027" relationship="true">15 13 16 25 27</relation>
+      <relation position="100027" relationship="false">1 4 16 25 27</relation>
+      <relation position="100015" relationship="false">1 4 16 13 15</relation>
+   </relations>
+   <pairs>
+      <pair>1500027</pair>
+   </pairs>
+</root>

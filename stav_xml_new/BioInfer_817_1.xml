@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@previously@showed@that@actin@is@transported@in@an@unassembled@form@with@its@associated@proteins@actin depolymerizing factor@,@cofilin@,@and@profilin@.@</sentence>
+   <tags>
+      <tag pos="5">actin</tag>
+      <tag pos="18">cofilin</tag>
+      <tag pos="21">profilin</tag>
+      <tag pos="16">actin depolymerizing factor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="RB">previously</taggedword>
+      <taggedword index="3" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">actin</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="VBN">transported</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">an</taggedword>
+      <taggedword index="10" part-of-speech="JJ">unassembled</taggedword>
+      <taggedword index="11" part-of-speech="NN">form</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="14" part-of-speech="JJ">associated</taggedword>
+      <taggedword index="15" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin depolymerizing factor</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="showed" gov_index="3">nsubj</dependency>
+      <dependency dep="previously" dep_index="2" gov="showed" gov_index="3">advmod</dependency>
+      <dependency dep="showed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="transported" gov_index="7">mark</dependency>
+      <dependency dep="actin" dep_index="5" gov="transported" gov_index="7">nsubjpass</dependency>
+      <dependency dep="is" dep_index="6" gov="transported" gov_index="7">auxpass</dependency>
+      <dependency dep="transported" dep_index="7" gov="showed" gov_index="3">ccomp</dependency>
+      <dependency dep="an" dep_index="9" gov="form" gov_index="11">det</dependency>
+      <dependency dep="unassembled" dep_index="10" gov="form" gov_index="11">amod</dependency>
+      <dependency dep="form" dep_index="11" gov="transported" gov_index="7">prep_in</dependency>
+      <dependency dep="its" dep_index="13" gov="proteins" gov_index="15">poss</dependency>
+      <dependency dep="associated" dep_index="14" gov="proteins" gov_index="15">amod</dependency>
+      <dependency dep="proteins" dep_index="15" gov="form" gov_index="11">prep_with</dependency>
+      <dependency dep="actin depolymerizing factor" dep_index="16" gov="transported" gov_index="7">dobj</dependency>
+      <dependency dep="cofilin" dep_index="18" gov="transported" gov_index="7">dobj</dependency>
+      <dependency dep="cofilin" dep_index="18" gov="actin depolymerizing factor" gov_index="16">conj_and</dependency>
+      <dependency dep="profilin" dep_index="21" gov="transported" gov_index="7">dobj</dependency>
+      <dependency dep="profilin" dep_index="21" gov="actin depolymerizing factor" gov_index="16">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500018" relationship="true">5 7 18</relation>
+      <relation position="500021" relationship="true">5 7 21</relation>
+      <relation position="500016" relationship="true">5 7 16</relation>
+      <relation position="1800021" relationship="false">18 7 21</relation>
+      <relation position="1600018" relationship="false">16 7 18</relation>
+      <relation position="1600021" relationship="false">16 7 21</relation>
+   </relations>
+   <pairs>
+      <pair>500021</pair>
+      <pair>500016</pair>
+      <pair>500018</pair>
+   </pairs>
+</root>

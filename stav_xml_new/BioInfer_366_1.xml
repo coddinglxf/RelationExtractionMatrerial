@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@the@budding@yeast@Saccharomyces@cerevisiae@,@the@DNA@damage-induced@G2@arrest@requires@the@checkpoint@control@genes@RAD9@,@RAD17@,@RAD24@,@MEC1@,@MEC2@and@MEC3@.@</sentence>
+   <tags>
+      <tag pos="26">MEC2</tag>
+      <tag pos="20">RAD17</tag>
+      <tag pos="22">RAD24</tag>
+      <tag pos="18">RAD9</tag>
+      <tag pos="28">MEC3</tag>
+      <tag pos="24">MEC1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="VBG">budding</taggedword>
+      <taggedword index="4" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Saccharomyces</taggedword>
+      <taggedword index="6" part-of-speech="NN">cerevisiae</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="10" part-of-speech="JJ">damage-induced</taggedword>
+      <taggedword index="11" part-of-speech="NNS">G2</taggedword>
+      <taggedword index="12" part-of-speech="NN">arrest</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">requires</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">checkpoint</taggedword>
+      <taggedword index="16" part-of-speech="NN">control</taggedword>
+      <taggedword index="17" part-of-speech="JJ">genes</taggedword>
+      <taggedword index="18" part-of-speech="CD">RAD9</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CD">RAD17</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="CD">RAD24</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CD">MEC1</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CD">MEC2</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="CD">MEC3</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="cerevisiae" gov_index="6">det</dependency>
+      <dependency dep="budding" dep_index="3" gov="cerevisiae" gov_index="6">amod</dependency>
+      <dependency dep="yeast" dep_index="4" gov="cerevisiae" gov_index="6">nn</dependency>
+      <dependency dep="Saccharomyces" dep_index="5" gov="cerevisiae" gov_index="6">nn</dependency>
+      <dependency dep="cerevisiae" dep_index="6" gov="requires" gov_index="13">prep_in</dependency>
+      <dependency dep="the" dep_index="8" gov="arrest" gov_index="12">det</dependency>
+      <dependency dep="DNA" dep_index="9" gov="arrest" gov_index="12">nn</dependency>
+      <dependency dep="damage-induced" dep_index="10" gov="arrest" gov_index="12">amod</dependency>
+      <dependency dep="G2" dep_index="11" gov="arrest" gov_index="12">nn</dependency>
+      <dependency dep="arrest" dep_index="12" gov="requires" gov_index="13">nsubj</dependency>
+      <dependency dep="requires" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="control" gov_index="16">det</dependency>
+      <dependency dep="checkpoint" dep_index="15" gov="control" gov_index="16">amod</dependency>
+      <dependency dep="control" dep_index="16" gov="requires" gov_index="13">dobj</dependency>
+      <dependency dep="genes" dep_index="17" gov="control" gov_index="16">amod</dependency>
+      <dependency dep="RAD9" dep_index="18" gov="genes" gov_index="17">tmod</dependency>
+      <dependency dep="RAD17" dep_index="20" gov="RAD9" gov_index="18">num</dependency>
+      <dependency dep="RAD24" dep_index="22" gov="RAD9" gov_index="18">num</dependency>
+      <dependency dep="MEC1" dep_index="24" gov="RAD9" gov_index="18">num</dependency>
+      <dependency dep="MEC2" dep_index="26" gov="RAD9" gov_index="18">num</dependency>
+      <dependency dep="MEC3" dep_index="28" gov="genes" gov_index="17">tmod</dependency>
+      <dependency dep="MEC3" dep_index="28" gov="RAD9" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000026" relationship="false">20 18 26</relation>
+      <relation position="2200026" relationship="false">22 18 26</relation>
+      <relation position="1800026" relationship="false"></relation>
+      <relation position="2600028" relationship="false">26 18 17 28</relation>
+      <relation position="2400026" relationship="false">24 18 26</relation>
+      <relation position="2000022" relationship="false">20 18 22</relation>
+      <relation position="1800020" relationship="false"></relation>
+      <relation position="2000028" relationship="false">20 18 17 28</relation>
+      <relation position="2000024" relationship="false">20 18 24</relation>
+      <relation position="1800022" relationship="false"></relation>
+      <relation position="2200028" relationship="false">22 18 17 28</relation>
+      <relation position="2200024" relationship="false">22 18 24</relation>
+      <relation position="1800028" relationship="false">18 17 28</relation>
+      <relation position="1800024" relationship="false"></relation>
+      <relation position="2400028" relationship="false">24 18 17 28</relation>
+   </relations>
+   <pairs/>
+</root>

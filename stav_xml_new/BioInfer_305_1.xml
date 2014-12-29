@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@50@mM@KCl@,@high@concentrations@of@Acanthamoeba@profilin@inhibit@the@elongation@rate@of@muscle actin@filaments@measured@directly@by@electron@microscopy@,@but@the@effect@is@minimal@in@KCl@with@2@MgCl2@.@</sentence>
+   <tags>
+      <tag pos="10">profilin</tag>
+      <tag pos="16">muscle actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="CD">50</taggedword>
+      <taggedword index="3" part-of-speech="NN">mM</taggedword>
+      <taggedword index="4" part-of-speech="NNP">KCl</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="JJ">high</taggedword>
+      <taggedword index="7" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Acanthamoeba</taggedword>
+      <taggedword index="10" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="11" part-of-speech="VBP">inhibit</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">elongation</taggedword>
+      <taggedword index="14" part-of-speech="NN">rate</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NN">muscle actin</taggedword>
+      <taggedword index="17" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="18" part-of-speech="VBN">measured</taggedword>
+      <taggedword index="19" part-of-speech="RB">directly</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="NN">electron</taggedword>
+      <taggedword index="22" part-of-speech="NN">microscopy</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CC">but</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">effect</taggedword>
+      <taggedword index="27" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="28" part-of-speech="JJ">minimal</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="NNP">KCl</taggedword>
+      <taggedword index="31" part-of-speech="IN">with</taggedword>
+      <taggedword index="32" part-of-speech="CD">2</taggedword>
+      <taggedword index="33" part-of-speech="NNS">MgCl2</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="50" dep_index="2" gov="KCl" gov_index="4">num</dependency>
+      <dependency dep="mM" dep_index="3" gov="KCl" gov_index="4">nn</dependency>
+      <dependency dep="KCl" dep_index="4" gov="inhibit" gov_index="11">prep_in</dependency>
+      <dependency dep="high" dep_index="6" gov="concentrations" gov_index="7">amod</dependency>
+      <dependency dep="concentrations" dep_index="7" gov="inhibit" gov_index="11">nsubj</dependency>
+      <dependency dep="Acanthamoeba" dep_index="9" gov="profilin" gov_index="10">nn</dependency>
+      <dependency dep="profilin" dep_index="10" gov="concentrations" gov_index="7">prep_of</dependency>
+      <dependency dep="inhibit" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="rate" gov_index="14">det</dependency>
+      <dependency dep="elongation" dep_index="13" gov="rate" gov_index="14">nn</dependency>
+      <dependency dep="rate" dep_index="14" gov="inhibit" gov_index="11">dobj</dependency>
+      <dependency dep="muscle actin" dep_index="16" gov="filaments" gov_index="17">nn</dependency>
+      <dependency dep="filaments" dep_index="17" gov="rate" gov_index="14">prep_of</dependency>
+      <dependency dep="measured" dep_index="18" gov="filaments" gov_index="17">partmod</dependency>
+      <dependency dep="directly" dep_index="19" gov="measured" gov_index="18">advmod</dependency>
+      <dependency dep="electron" dep_index="21" gov="microscopy" gov_index="22">nn</dependency>
+      <dependency dep="microscopy" dep_index="22" gov="measured" gov_index="18">agent</dependency>
+      <dependency dep="the" dep_index="25" gov="effect" gov_index="26">det</dependency>
+      <dependency dep="effect" dep_index="26" gov="minimal" gov_index="28">nsubj</dependency>
+      <dependency dep="is" dep_index="27" gov="minimal" gov_index="28">cop</dependency>
+      <dependency dep="minimal" dep_index="28" gov="inhibit" gov_index="11">conj_but</dependency>
+      <dependency dep="KCl" dep_index="30" gov="minimal" gov_index="28">prep_in</dependency>
+      <dependency dep="2" dep_index="32" gov="MgCl2" gov_index="33">num</dependency>
+      <dependency dep="MgCl2" dep_index="33" gov="minimal" gov_index="28">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000016" relationship="true">10 7 11 14 17 16</relation>
+   </relations>
+   <pairs>
+      <pair>1000016</pair>
+   </pairs>
+</root>

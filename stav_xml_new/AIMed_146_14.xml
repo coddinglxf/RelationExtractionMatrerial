@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Taken@together@these@data@suggest@that@the@76-kDa@receptor@is@a@novel@high@affinity@IL-7R@that@may@be@necessary@for@IL-7@driven@proliferation@in@human@T@cells@.@</sentence>
+   <tags>
+      <tag pos="15">IL-7R</tag>
+      <tag pos="21">IL-7</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Taken</taggedword>
+      <taggedword index="2" part-of-speech="RP">together</taggedword>
+      <taggedword index="3" part-of-speech="DT">these</taggedword>
+      <taggedword index="4" part-of-speech="NNS">data</taggedword>
+      <taggedword index="5" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">76-kDa</taggedword>
+      <taggedword index="9" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">novel</taggedword>
+      <taggedword index="13" part-of-speech="JJ">high</taggedword>
+      <taggedword index="14" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="15" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="16" part-of-speech="WDT">that</taggedword>
+      <taggedword index="17" part-of-speech="MD">may</taggedword>
+      <taggedword index="18" part-of-speech="VB">be</taggedword>
+      <taggedword index="19" part-of-speech="JJ">necessary</taggedword>
+      <taggedword index="20" part-of-speech="IN">for</taggedword>
+      <taggedword index="21" part-of-speech="NN">IL-7</taggedword>
+      <taggedword index="22" part-of-speech="VBN">driven</taggedword>
+      <taggedword index="23" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="JJ">human</taggedword>
+      <taggedword index="26" part-of-speech="NNP">T</taggedword>
+      <taggedword index="27" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Taken" dep_index="1" gov="suggest" gov_index="5">csubj</dependency>
+      <dependency dep="together" dep_index="2" gov="Taken" gov_index="1">prt</dependency>
+      <dependency dep="these" dep_index="3" gov="data" gov_index="4">det</dependency>
+      <dependency dep="data" dep_index="4" gov="Taken" gov_index="1">dobj</dependency>
+      <dependency dep="suggest" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="IL-7R" gov_index="15">mark</dependency>
+      <dependency dep="the" dep_index="7" gov="receptor" gov_index="9">det</dependency>
+      <dependency dep="76-kDa" dep_index="8" gov="receptor" gov_index="9">amod</dependency>
+      <dependency dep="receptor" dep_index="9" gov="IL-7R" gov_index="15">nsubj</dependency>
+      <dependency dep="is" dep_index="10" gov="IL-7R" gov_index="15">cop</dependency>
+      <dependency dep="a" dep_index="11" gov="IL-7R" gov_index="15">det</dependency>
+      <dependency dep="novel" dep_index="12" gov="IL-7R" gov_index="15">amod</dependency>
+      <dependency dep="high" dep_index="13" gov="IL-7R" gov_index="15">amod</dependency>
+      <dependency dep="affinity" dep_index="14" gov="IL-7R" gov_index="15">nn</dependency>
+      <dependency dep="IL-7R" dep_index="15" gov="suggest" gov_index="5">ccomp</dependency>
+      <dependency dep="IL-7R" dep_index="15" gov="necessary" gov_index="19">nsubj</dependency>
+      <dependency dep="may" dep_index="17" gov="necessary" gov_index="19">aux</dependency>
+      <dependency dep="be" dep_index="18" gov="necessary" gov_index="19">cop</dependency>
+      <dependency dep="necessary" dep_index="19" gov="IL-7R" gov_index="15">rcmod</dependency>
+      <dependency dep="IL-7" dep_index="21" gov="necessary" gov_index="19">prep_for</dependency>
+      <dependency dep="driven" dep_index="22" gov="IL-7" gov_index="21">partmod</dependency>
+      <dependency dep="proliferation" dep_index="23" gov="driven" gov_index="22">dobj</dependency>
+      <dependency dep="human" dep_index="25" gov="cells" gov_index="27">amod</dependency>
+      <dependency dep="T" dep_index="26" gov="cells" gov_index="27">nn</dependency>
+      <dependency dep="cells" dep_index="27" gov="proliferation" gov_index="23">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500021" relationship="false">15 19 21</relation>
+   </relations>
+   <pairs/>
+</root>

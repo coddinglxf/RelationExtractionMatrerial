@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@gamma@c@mutations@in@at@least@some@XSCID@and@XCID@patients@prevent@normal@Jak3@activation@,@suggesting@that@mutations@of@Jak3@may@result@in@an@XSCID-like@phenotype@.@</sentence>
+   <tags>
+      <tag pos="16">Jak3</tag>
+      <tag pos="23">Jak3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">gamma</taggedword>
+      <taggedword index="4" part-of-speech="NN">c</taggedword>
+      <taggedword index="5" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="IN">at</taggedword>
+      <taggedword index="8" part-of-speech="JJS">least</taggedword>
+      <taggedword index="9" part-of-speech="DT">some</taggedword>
+      <taggedword index="10" part-of-speech="VBD">XSCID</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="VBD">XCID</taggedword>
+      <taggedword index="13" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="14" part-of-speech="VB">prevent</taggedword>
+      <taggedword index="15" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="16" part-of-speech="JJ">Jak3</taggedword>
+      <taggedword index="17" part-of-speech="NN">activation</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="VBG">suggesting</taggedword>
+      <taggedword index="20" part-of-speech="IN">that</taggedword>
+      <taggedword index="21" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="NNS">Jak3</taggedword>
+      <taggedword index="24" part-of-speech="MD">may</taggedword>
+      <taggedword index="25" part-of-speech="VB">result</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="DT">an</taggedword>
+      <taggedword index="28" part-of-speech="JJ">XSCID-like</taggedword>
+      <taggedword index="29" part-of-speech="NN">phenotype</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="XSCID" gov_index="10">advmod</dependency>
+      <dependency dep="gamma" dep_index="3" gov="mutations" gov_index="5">nn</dependency>
+      <dependency dep="c" dep_index="4" gov="mutations" gov_index="5">nn</dependency>
+      <dependency dep="mutations" dep_index="5" gov="XSCID" gov_index="10">nsubj</dependency>
+      <dependency dep="mutations" dep_index="5" gov="XCID" gov_index="12">nsubj</dependency>
+      <dependency dep="at" dep_index="7" gov="some" gov_index="9">quantmod</dependency>
+      <dependency dep="least" dep_index="8" gov="at" gov_index="7">mwe</dependency>
+      <dependency dep="least" dep_index="8" gov="at" gov_index="7">pobj</dependency>
+      <dependency dep="some" dep_index="9" gov="XSCID" gov_index="10">prep_in</dependency>
+      <dependency dep="XSCID" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="XCID" dep_index="12" gov="XSCID" gov_index="10">conj_and</dependency>
+      <dependency dep="patients" dep_index="13" gov="XCID" gov_index="12">dobj</dependency>
+      <dependency dep="prevent" dep_index="14" gov="XSCID" gov_index="10">dep</dependency>
+      <dependency dep="normal" dep_index="15" gov="activation" gov_index="17">amod</dependency>
+      <dependency dep="Jak3" dep_index="16" gov="activation" gov_index="17">amod</dependency>
+      <dependency dep="activation" dep_index="17" gov="prevent" gov_index="14">dobj</dependency>
+      <dependency dep="suggesting" dep_index="19" gov="XSCID" gov_index="10">partmod</dependency>
+      <dependency dep="that" dep_index="20" gov="result" gov_index="25">mark</dependency>
+      <dependency dep="mutations" dep_index="21" gov="result" gov_index="25">nsubj</dependency>
+      <dependency dep="Jak3" dep_index="23" gov="mutations" gov_index="21">prep_of</dependency>
+      <dependency dep="may" dep_index="24" gov="result" gov_index="25">aux</dependency>
+      <dependency dep="result" dep_index="25" gov="suggesting" gov_index="19">ccomp</dependency>
+      <dependency dep="an" dep_index="27" gov="phenotype" gov_index="29">det</dependency>
+      <dependency dep="XSCID-like" dep_index="28" gov="phenotype" gov_index="29">amod</dependency>
+      <dependency dep="phenotype" dep_index="29" gov="result" gov_index="25">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600023" relationship="false">16 17 14 10 19 25 21 23</relation>
+   </relations>
+   <pairs/>
+</root>

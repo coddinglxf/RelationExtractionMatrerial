@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@series@of@truncations@was@carried@out@at@the@C@terminus@of@profilin@,@a@region@that@has@been@implicated@in@actin@binding@.@</sentence>
+   <tags>
+      <tag pos="22">actin</tag>
+      <tag pos="13">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NN">series</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNS">truncations</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="VBN">carried</taggedword>
+      <taggedword index="7" part-of-speech="RP">out</taggedword>
+      <taggedword index="8" part-of-speech="IN">at</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NNP">C</taggedword>
+      <taggedword index="11" part-of-speech="NNS">terminus</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="NN">region</taggedword>
+      <taggedword index="17" part-of-speech="WDT">that</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="19" part-of-speech="VBN">been</taggedword>
+      <taggedword index="20" part-of-speech="VBN">implicated</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="NN">actin</taggedword>
+      <taggedword index="23" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="series" gov_index="2">det</dependency>
+      <dependency dep="series" dep_index="2" gov="carried" gov_index="6">nsubjpass</dependency>
+      <dependency dep="truncations" dep_index="4" gov="series" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="5" gov="carried" gov_index="6">auxpass</dependency>
+      <dependency dep="carried" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="out" dep_index="7" gov="carried" gov_index="6">prt</dependency>
+      <dependency dep="the" dep_index="9" gov="terminus" gov_index="11">det</dependency>
+      <dependency dep="C" dep_index="10" gov="terminus" gov_index="11">nn</dependency>
+      <dependency dep="terminus" dep_index="11" gov="carried" gov_index="6">prep_at</dependency>
+      <dependency dep="profilin" dep_index="13" gov="terminus" gov_index="11">prep_of</dependency>
+      <dependency dep="a" dep_index="15" gov="region" gov_index="16">det</dependency>
+      <dependency dep="region" dep_index="16" gov="profilin" gov_index="13">appos</dependency>
+      <dependency dep="region" dep_index="16" gov="implicated" gov_index="20">nsubjpass</dependency>
+      <dependency dep="has" dep_index="18" gov="implicated" gov_index="20">aux</dependency>
+      <dependency dep="been" dep_index="19" gov="implicated" gov_index="20">auxpass</dependency>
+      <dependency dep="implicated" dep_index="20" gov="region" gov_index="16">rcmod</dependency>
+      <dependency dep="actin" dep_index="22" gov="implicated" gov_index="20">prep_in</dependency>
+      <dependency dep="binding" dep_index="23" gov="actin" gov_index="22">amod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300022" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>1300022</pair>
+   </pairs>
+</root>

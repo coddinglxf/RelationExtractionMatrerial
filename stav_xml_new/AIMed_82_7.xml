@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@we@have@carried@out@mutagenesis@studies@to@investigate@the@role@of@Ser2035@,@a@potential@phosphorylation@site@for@protein kinase C@within@this@domain@.@</sentence>
+   <tags>
+      <tag pos="22">protein kinase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="PRP">we</taggedword>
+      <taggedword index="5" part-of-speech="VBP">have</taggedword>
+      <taggedword index="6" part-of-speech="VBN">carried</taggedword>
+      <taggedword index="7" part-of-speech="RP">out</taggedword>
+      <taggedword index="8" part-of-speech="JJ">mutagenesis</taggedword>
+      <taggedword index="9" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="VB">investigate</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">role</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNS">Ser2035</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">potential</taggedword>
+      <taggedword index="19" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="20" part-of-speech="NN">site</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="NN">protein kinase C</taggedword>
+      <taggedword index="23" part-of-speech="IN">within</taggedword>
+      <taggedword index="24" part-of-speech="DT">this</taggedword>
+      <taggedword index="25" part-of-speech="NN">domain</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="carried" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="4" gov="carried" gov_index="6">nsubj</dependency>
+      <dependency dep="we" dep_index="4" gov="investigate" gov_index="11">xsubj</dependency>
+      <dependency dep="have" dep_index="5" gov="carried" gov_index="6">aux</dependency>
+      <dependency dep="carried" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="out" dep_index="7" gov="carried" gov_index="6">prt</dependency>
+      <dependency dep="mutagenesis" dep_index="8" gov="studies" gov_index="9">amod</dependency>
+      <dependency dep="studies" dep_index="9" gov="carried" gov_index="6">dobj</dependency>
+      <dependency dep="to" dep_index="10" gov="investigate" gov_index="11">aux</dependency>
+      <dependency dep="investigate" dep_index="11" gov="carried" gov_index="6">xcomp</dependency>
+      <dependency dep="the" dep_index="12" gov="role" gov_index="13">det</dependency>
+      <dependency dep="role" dep_index="13" gov="investigate" gov_index="11">dobj</dependency>
+      <dependency dep="Ser2035" dep_index="15" gov="role" gov_index="13">prep_of</dependency>
+      <dependency dep="a" dep_index="17" gov="site" gov_index="20">det</dependency>
+      <dependency dep="potential" dep_index="18" gov="site" gov_index="20">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="19" gov="site" gov_index="20">nn</dependency>
+      <dependency dep="site" dep_index="20" gov="Ser2035" gov_index="15">appos</dependency>
+      <dependency dep="protein kinase C" dep_index="22" gov="site" gov_index="20">prep_for</dependency>
+      <dependency dep="this" dep_index="24" gov="domain" gov_index="25">det</dependency>
+      <dependency dep="domain" dep_index="25" gov="investigate" gov_index="11">prep_within</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

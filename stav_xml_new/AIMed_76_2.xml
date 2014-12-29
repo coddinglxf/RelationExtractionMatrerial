@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CD5@is@a@T-cell-specific@antigen@which@binds@to@the@B-cell@antigen@CD72@and@acts@as@a@coreceptor@in@the@stimulation@of@T-cell@growth@.@</sentence>
+   <tags>
+      <tag pos="1">CD5</tag>
+      <tag pos="12">CD72</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NNP">T-cell-specific</taggedword>
+      <taggedword index="5" part-of-speech="NN">antigen</taggedword>
+      <taggedword index="6" part-of-speech="WDT">which</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">B-cell</taggedword>
+      <taggedword index="11" part-of-speech="NN">antigen</taggedword>
+      <taggedword index="12" part-of-speech="NN">CD72</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">acts</taggedword>
+      <taggedword index="15" part-of-speech="IN">as</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="NN">coreceptor</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="JJ">T-cell</taggedword>
+      <taggedword index="23" part-of-speech="NN">growth</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CD5" dep_index="1" gov="antigen" gov_index="5">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="antigen" gov_index="5">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="antigen" gov_index="5">det</dependency>
+      <dependency dep="T-cell-specific" dep_index="4" gov="antigen" gov_index="5">nn</dependency>
+      <dependency dep="antigen" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="antigen" dep_index="5" gov="binds" gov_index="7">nsubj</dependency>
+      <dependency dep="antigen" dep_index="5" gov="acts" gov_index="14">nsubj</dependency>
+      <dependency dep="binds" dep_index="7" gov="antigen" gov_index="5">rcmod</dependency>
+      <dependency dep="the" dep_index="9" gov="CD72" gov_index="12">det</dependency>
+      <dependency dep="B-cell" dep_index="10" gov="CD72" gov_index="12">amod</dependency>
+      <dependency dep="antigen" dep_index="11" gov="CD72" gov_index="12">nn</dependency>
+      <dependency dep="CD72" dep_index="12" gov="binds" gov_index="7">prep_to</dependency>
+      <dependency dep="acts" dep_index="14" gov="antigen" gov_index="5">rcmod</dependency>
+      <dependency dep="acts" dep_index="14" gov="binds" gov_index="7">conj_and</dependency>
+      <dependency dep="a" dep_index="16" gov="coreceptor" gov_index="17">det</dependency>
+      <dependency dep="coreceptor" dep_index="17" gov="acts" gov_index="14">prep_as</dependency>
+      <dependency dep="the" dep_index="19" gov="stimulation" gov_index="20">det</dependency>
+      <dependency dep="stimulation" dep_index="20" gov="coreceptor" gov_index="17">prep_in</dependency>
+      <dependency dep="T-cell" dep_index="22" gov="growth" gov_index="23">amod</dependency>
+      <dependency dep="growth" dep_index="23" gov="stimulation" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100012" relationship="true">1 5 7 12</relation>
+   </relations>
+   <pairs>
+      <pair>100012</pair>
+   </pairs>
+</root>

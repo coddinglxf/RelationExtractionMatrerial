@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Involvement@of@BMP-2@signaling@in@a@cartilage@cap@in@osteochondroma@.@</sentence>
+   <tags>
+      <tag pos="3">BMP-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Involvement</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">BMP-2</taggedword>
+      <taggedword index="4" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NN">cartilage</taggedword>
+      <taggedword index="8" part-of-speech="NN">cap</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="NN">osteochondroma</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Involvement" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="BMP-2" dep_index="3" gov="Involvement" gov_index="1">prep_of</dependency>
+      <dependency dep="signaling" dep_index="4" gov="Involvement" gov_index="1">partmod</dependency>
+      <dependency dep="a" dep_index="6" gov="cap" gov_index="8">det</dependency>
+      <dependency dep="cartilage" dep_index="7" gov="cap" gov_index="8">nn</dependency>
+      <dependency dep="cap" dep_index="8" gov="signaling" gov_index="4">prep_in</dependency>
+      <dependency dep="osteochondroma" dep_index="10" gov="cap" gov_index="8">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

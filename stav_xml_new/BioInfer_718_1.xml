@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@two@proteins@were@identified@as@the@phosphorylated@and@non-phosphorylated@forms@of@the@pH-sensitive@actin@-depolymerizing@protein@,@cofilin@,@by@sequencing@of@peptide@fragments@and@immunoblotting@with@a@monoclonal@antibody@specific@for@cofilin@.@</sentence>
+   <tags>
+      <tag pos="34">cofilin</tag>
+      <tag pos="19">cofilin</tag>
+      <tag pos="15">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="CD">two</taggedword>
+      <taggedword index="3" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="4" part-of-speech="VBD">were</taggedword>
+      <taggedword index="5" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="6" part-of-speech="IN">as</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">phosphorylated</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="JJ">non-phosphorylated</taggedword>
+      <taggedword index="11" part-of-speech="NNS">forms</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">pH-sensitive</taggedword>
+      <taggedword index="15" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="16" part-of-speech="JJ">-depolymerizing</taggedword>
+      <taggedword index="17" part-of-speech="NN">protein</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="IN">by</taggedword>
+      <taggedword index="22" part-of-speech="VBG">sequencing</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="JJ">peptide</taggedword>
+      <taggedword index="25" part-of-speech="NNS">fragments</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="VBG">immunoblotting</taggedword>
+      <taggedword index="28" part-of-speech="IN">with</taggedword>
+      <taggedword index="29" part-of-speech="DT">a</taggedword>
+      <taggedword index="30" part-of-speech="JJ">monoclonal</taggedword>
+      <taggedword index="31" part-of-speech="NN">antibody</taggedword>
+      <taggedword index="32" part-of-speech="NN">specific</taggedword>
+      <taggedword index="33" part-of-speech="IN">for</taggedword>
+      <taggedword index="34" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="proteins" gov_index="3">det</dependency>
+      <dependency dep="two" dep_index="2" gov="proteins" gov_index="3">num</dependency>
+      <dependency dep="proteins" dep_index="3" gov="identified" gov_index="5">nsubjpass</dependency>
+      <dependency dep="were" dep_index="4" gov="identified" gov_index="5">auxpass</dependency>
+      <dependency dep="identified" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="forms" gov_index="11">det</dependency>
+      <dependency dep="phosphorylated" dep_index="8" gov="forms" gov_index="11">amod</dependency>
+      <dependency dep="non-phosphorylated" dep_index="10" gov="phosphorylated" gov_index="8">conj_and</dependency>
+      <dependency dep="non-phosphorylated" dep_index="10" gov="forms" gov_index="11">amod</dependency>
+      <dependency dep="forms" dep_index="11" gov="identified" gov_index="5">prep_as</dependency>
+      <dependency dep="the" dep_index="13" gov="protein" gov_index="17">det</dependency>
+      <dependency dep="pH-sensitive" dep_index="14" gov="protein" gov_index="17">amod</dependency>
+      <dependency dep="actin" dep_index="15" gov="protein" gov_index="17">amod</dependency>
+      <dependency dep="-depolymerizing" dep_index="16" gov="protein" gov_index="17">amod</dependency>
+      <dependency dep="protein" dep_index="17" gov="forms" gov_index="11">prep_of</dependency>
+      <dependency dep="cofilin" dep_index="19" gov="protein" gov_index="17">appos</dependency>
+      <dependency dep="sequencing" dep_index="22" gov="identified" gov_index="5">agent</dependency>
+      <dependency dep="peptide" dep_index="24" gov="fragments" gov_index="25">amod</dependency>
+      <dependency dep="fragments" dep_index="25" gov="sequencing" gov_index="22">prep_of</dependency>
+      <dependency dep="immunoblotting" dep_index="27" gov="identified" gov_index="5">agent</dependency>
+      <dependency dep="immunoblotting" dep_index="27" gov="sequencing" gov_index="22">conj_and</dependency>
+      <dependency dep="a" dep_index="29" gov="specific" gov_index="32">det</dependency>
+      <dependency dep="monoclonal" dep_index="30" gov="specific" gov_index="32">amod</dependency>
+      <dependency dep="antibody" dep_index="31" gov="specific" gov_index="32">nn</dependency>
+      <dependency dep="specific" dep_index="32" gov="immunoblotting" gov_index="27">prep_with</dependency>
+      <dependency dep="cofilin" dep_index="34" gov="specific" gov_index="32">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1900034" relationship="false">19 17 11 5 27 32 34</relation>
+      <relation position="1500034" relationship="false">15 17 11 5 27 32 34</relation>
+      <relation position="1500019" relationship="true">15 17 19</relation>
+   </relations>
+   <pairs>
+      <pair>1500019</pair>
+   </pairs>
+</root>

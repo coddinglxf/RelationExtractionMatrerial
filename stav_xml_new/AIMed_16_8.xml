@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CONCLUSION@:@The@triple@transduction@of@TH@,@AADC@and@GCH@genes@with@separate@AAV@vectors@is@effective@,@which@might@be@important@to@gene@therapy@for@Parkinson's@disease@.@</sentence>
+   <tags>
+      <tag pos="7">TH</tag>
+      <tag pos="9">AADC</tag>
+      <tag pos="11">GCH</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CONCLUSION</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="DT">The</taggedword>
+      <taggedword index="4" part-of-speech="JJ">triple</taggedword>
+      <taggedword index="5" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNP">TH</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">AADC</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNP">GCH</taggedword>
+      <taggedword index="12" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="JJ">separate</taggedword>
+      <taggedword index="15" part-of-speech="NNP">AAV</taggedword>
+      <taggedword index="16" part-of-speech="NNS">vectors</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="18" part-of-speech="JJ">effective</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="WDT">which</taggedword>
+      <taggedword index="21" part-of-speech="MD">might</taggedword>
+      <taggedword index="22" part-of-speech="VB">be</taggedword>
+      <taggedword index="23" part-of-speech="JJ">important</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="NN">gene</taggedword>
+      <taggedword index="26" part-of-speech="NN">therapy</taggedword>
+      <taggedword index="27" part-of-speech="IN">for</taggedword>
+      <taggedword index="28" part-of-speech="NNP">Parkinson's</taggedword>
+      <taggedword index="29" part-of-speech="NN">disease</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CONCLUSION" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="The" dep_index="3" gov="transduction" gov_index="5">det</dependency>
+      <dependency dep="triple" dep_index="4" gov="transduction" gov_index="5">amod</dependency>
+      <dependency dep="transduction" dep_index="5" gov="CONCLUSION" gov_index="1">dep</dependency>
+      <dependency dep="transduction" dep_index="5" gov="important" gov_index="23">nsubj</dependency>
+      <dependency dep="TH" dep_index="7" gov="transduction" gov_index="5">prep_of</dependency>
+      <dependency dep="AADC" dep_index="9" gov="transduction" gov_index="5">prep_of</dependency>
+      <dependency dep="AADC" dep_index="9" gov="TH" gov_index="7">conj_and</dependency>
+      <dependency dep="GCH" dep_index="11" gov="transduction" gov_index="5">prep_of</dependency>
+      <dependency dep="GCH" dep_index="11" gov="TH" gov_index="7">conj_and</dependency>
+      <dependency dep="genes" dep_index="12" gov="effective" gov_index="18">nsubj</dependency>
+      <dependency dep="separate" dep_index="14" gov="vectors" gov_index="16">amod</dependency>
+      <dependency dep="AAV" dep_index="15" gov="vectors" gov_index="16">nn</dependency>
+      <dependency dep="vectors" dep_index="16" gov="genes" gov_index="12">prep_with</dependency>
+      <dependency dep="is" dep_index="17" gov="effective" gov_index="18">cop</dependency>
+      <dependency dep="effective" dep_index="18" gov="transduction" gov_index="5">rcmod</dependency>
+      <dependency dep="might" dep_index="21" gov="important" gov_index="23">aux</dependency>
+      <dependency dep="be" dep_index="22" gov="important" gov_index="23">cop</dependency>
+      <dependency dep="important" dep_index="23" gov="effective" gov_index="18">ccomp</dependency>
+      <dependency dep="gene" dep_index="25" gov="therapy" gov_index="26">nn</dependency>
+      <dependency dep="therapy" dep_index="26" gov="important" gov_index="23">prep_to</dependency>
+      <dependency dep="Parkinson's" dep_index="28" gov="disease" gov_index="29">nn</dependency>
+      <dependency dep="disease" dep_index="29" gov="therapy" gov_index="26">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 5 9</relation>
+      <relation position="700011" relationship="false">7 5 11</relation>
+      <relation position="900011" relationship="false">9 5 11</relation>
+   </relations>
+   <pairs/>
+</root>

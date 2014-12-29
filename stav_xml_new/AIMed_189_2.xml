@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@yeast@RAD52@-dependent@pathway@is@involved@in@DNA@recombination@and@double-strand@break@repair@.@</sentence>
+   <tags>
+      <tag pos="3">RAD52</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="3" part-of-speech="NN">RAD52</taggedword>
+      <taggedword index="4" part-of-speech="NN">-dependent</taggedword>
+      <taggedword index="5" part-of-speech="RB">pathway</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="10" part-of-speech="NNP">recombination</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="JJ">double-strand</taggedword>
+      <taggedword index="13" part-of-speech="NN">break</taggedword>
+      <taggedword index="14" part-of-speech="NN">repair</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="-dependent" gov_index="4">det</dependency>
+      <dependency dep="yeast" dep_index="2" gov="-dependent" gov_index="4">nn</dependency>
+      <dependency dep="RAD52" dep_index="3" gov="-dependent" gov_index="4">nn</dependency>
+      <dependency dep="-dependent" dep_index="4" gov="involved" gov_index="7">nsubjpass</dependency>
+      <dependency dep="pathway" dep_index="5" gov="involved" gov_index="7">advmod</dependency>
+      <dependency dep="is" dep_index="6" gov="involved" gov_index="7">auxpass</dependency>
+      <dependency dep="involved" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="DNA" dep_index="9" gov="recombination" gov_index="10">nn</dependency>
+      <dependency dep="recombination" dep_index="10" gov="involved" gov_index="7">prep_in</dependency>
+      <dependency dep="double-strand" dep_index="12" gov="repair" gov_index="14">amod</dependency>
+      <dependency dep="break" dep_index="13" gov="repair" gov_index="14">nn</dependency>
+      <dependency dep="repair" dep_index="14" gov="involved" gov_index="7">prep_in</dependency>
+      <dependency dep="repair" dep_index="14" gov="recombination" gov_index="10">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

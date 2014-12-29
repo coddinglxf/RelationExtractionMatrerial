@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cell@specificity@is@first@established@in@the@forespore@under@the@control@of@the@sigma F@factor@,@which@is@itself@activated@through@the@action@of@the@SpoIIE@serine@phosphatase@,@an@enzyme@targeted@to@the@septum@between@the@two@cells@.@</sentence>
+   <tags>
+      <tag pos="26">SpoIIE</tag>
+      <tag pos="14">sigma F</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Cell</taggedword>
+      <taggedword index="2" part-of-speech="NN">specificity</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="4" part-of-speech="RB">first</taggedword>
+      <taggedword index="5" part-of-speech="VBN">established</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">forespore</taggedword>
+      <taggedword index="9" part-of-speech="IN">under</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">control</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">sigma F</taggedword>
+      <taggedword index="15" part-of-speech="NN">factor</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="WDT">which</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="19" part-of-speech="PRP">itself</taggedword>
+      <taggedword index="20" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="21" part-of-speech="IN">through</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">action</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NNP">SpoIIE</taggedword>
+      <taggedword index="27" part-of-speech="NN">serine</taggedword>
+      <taggedword index="28" part-of-speech="NN">phosphatase</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="DT">an</taggedword>
+      <taggedword index="31" part-of-speech="NN">enzyme</taggedword>
+      <taggedword index="32" part-of-speech="VBN">targeted</taggedword>
+      <taggedword index="33" part-of-speech="TO">to</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="NN">septum</taggedword>
+      <taggedword index="36" part-of-speech="IN">between</taggedword>
+      <taggedword index="37" part-of-speech="DT">the</taggedword>
+      <taggedword index="38" part-of-speech="CD">two</taggedword>
+      <taggedword index="39" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cell" dep_index="1" gov="specificity" gov_index="2">amod</dependency>
+      <dependency dep="specificity" dep_index="2" gov="established" gov_index="5">nsubjpass</dependency>
+      <dependency dep="is" dep_index="3" gov="established" gov_index="5">auxpass</dependency>
+      <dependency dep="first" dep_index="4" gov="established" gov_index="5">advmod</dependency>
+      <dependency dep="established" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="factor" gov_index="15">det</dependency>
+      <dependency dep="forespore" dep_index="8" gov="factor" gov_index="15">amod</dependency>
+      <dependency dep="the" dep_index="10" gov="control" gov_index="11">det</dependency>
+      <dependency dep="control" dep_index="11" gov="forespore" gov_index="8">prep_under</dependency>
+      <dependency dep="the" dep_index="13" gov="sigma F" gov_index="14">det</dependency>
+      <dependency dep="sigma F" dep_index="14" gov="control" gov_index="11">prep_of</dependency>
+      <dependency dep="factor" dep_index="15" gov="established" gov_index="5">prep_in</dependency>
+      <dependency dep="factor" dep_index="15" gov="activated" gov_index="20">nsubjpass</dependency>
+      <dependency dep="is" dep_index="18" gov="activated" gov_index="20">auxpass</dependency>
+      <dependency dep="itself" dep_index="19" gov="activated" gov_index="20">dobj</dependency>
+      <dependency dep="activated" dep_index="20" gov="factor" gov_index="15">rcmod</dependency>
+      <dependency dep="the" dep_index="22" gov="action" gov_index="23">det</dependency>
+      <dependency dep="action" dep_index="23" gov="activated" gov_index="20">prep_through</dependency>
+      <dependency dep="the" dep_index="25" gov="phosphatase" gov_index="28">det</dependency>
+      <dependency dep="SpoIIE" dep_index="26" gov="phosphatase" gov_index="28">nn</dependency>
+      <dependency dep="serine" dep_index="27" gov="phosphatase" gov_index="28">nn</dependency>
+      <dependency dep="phosphatase" dep_index="28" gov="action" gov_index="23">prep_of</dependency>
+      <dependency dep="an" dep_index="30" gov="enzyme" gov_index="31">det</dependency>
+      <dependency dep="enzyme" dep_index="31" gov="phosphatase" gov_index="28">appos</dependency>
+      <dependency dep="targeted" dep_index="32" gov="enzyme" gov_index="31">partmod</dependency>
+      <dependency dep="the" dep_index="34" gov="septum" gov_index="35">det</dependency>
+      <dependency dep="septum" dep_index="35" gov="targeted" gov_index="32">prep_to</dependency>
+      <dependency dep="the" dep_index="37" gov="cells" gov_index="39">det</dependency>
+      <dependency dep="two" dep_index="38" gov="cells" gov_index="39">num</dependency>
+      <dependency dep="cells" dep_index="39" gov="septum" gov_index="35">prep_between</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400026" relationship="true">14 11 8 15 20 23 28 26</relation>
+   </relations>
+   <pairs>
+      <pair>1400026</pair>
+   </pairs>
+</root>

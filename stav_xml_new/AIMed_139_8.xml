@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Because@glycine@is@a@strong@helix@breaker@,@this@change@is@predicted@to@disrupt@the@conformation@of@this@helical@domain@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Because</taggedword>
+      <taggedword index="2" part-of-speech="NN">glycine</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">strong</taggedword>
+      <taggedword index="6" part-of-speech="NN">helix</taggedword>
+      <taggedword index="7" part-of-speech="NN">breaker</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">this</taggedword>
+      <taggedword index="10" part-of-speech="NN">change</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="12" part-of-speech="VBN">predicted</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="VB">disrupt</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">conformation</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">this</taggedword>
+      <taggedword index="19" part-of-speech="JJ">helical</taggedword>
+      <taggedword index="20" part-of-speech="NN">domain</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Because" dep_index="1" gov="breaker" gov_index="7">mark</dependency>
+      <dependency dep="glycine" dep_index="2" gov="breaker" gov_index="7">nsubj</dependency>
+      <dependency dep="is" dep_index="3" gov="breaker" gov_index="7">cop</dependency>
+      <dependency dep="a" dep_index="4" gov="breaker" gov_index="7">det</dependency>
+      <dependency dep="strong" dep_index="5" gov="breaker" gov_index="7">amod</dependency>
+      <dependency dep="helix" dep_index="6" gov="breaker" gov_index="7">nn</dependency>
+      <dependency dep="breaker" dep_index="7" gov="predicted" gov_index="12">advcl</dependency>
+      <dependency dep="this" dep_index="9" gov="change" gov_index="10">det</dependency>
+      <dependency dep="change" dep_index="10" gov="predicted" gov_index="12">nsubjpass</dependency>
+      <dependency dep="change" dep_index="10" gov="disrupt" gov_index="14">xsubj</dependency>
+      <dependency dep="is" dep_index="11" gov="predicted" gov_index="12">auxpass</dependency>
+      <dependency dep="predicted" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="13" gov="disrupt" gov_index="14">aux</dependency>
+      <dependency dep="disrupt" dep_index="14" gov="predicted" gov_index="12">xcomp</dependency>
+      <dependency dep="the" dep_index="15" gov="conformation" gov_index="16">det</dependency>
+      <dependency dep="conformation" dep_index="16" gov="disrupt" gov_index="14">dobj</dependency>
+      <dependency dep="this" dep_index="18" gov="domain" gov_index="20">det</dependency>
+      <dependency dep="helical" dep_index="19" gov="domain" gov_index="20">amod</dependency>
+      <dependency dep="domain" dep_index="20" gov="conformation" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

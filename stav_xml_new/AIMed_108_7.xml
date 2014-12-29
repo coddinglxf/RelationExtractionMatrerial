@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Together@,@these@results@suggest@that@TAFII40@and@TAFII60@are@important@targets@for@transmitting@activation@signals@between@p53@and@the@initiation@complex@.@</sentence>
+   <tags>
+      <tag pos="7">TAFII40</tag>
+      <tag pos="9">TAFII60</tag>
+      <tag pos="18">p53</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Together</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">these</taggedword>
+      <taggedword index="4" part-of-speech="NNS">results</taggedword>
+      <taggedword index="5" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="NNP">TAFII40</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNP">TAFII60</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="JJ">important</taggedword>
+      <taggedword index="12" part-of-speech="NNS">targets</taggedword>
+      <taggedword index="13" part-of-speech="IN">for</taggedword>
+      <taggedword index="14" part-of-speech="VBG">transmitting</taggedword>
+      <taggedword index="15" part-of-speech="NN">activation</taggedword>
+      <taggedword index="16" part-of-speech="NNS">signals</taggedword>
+      <taggedword index="17" part-of-speech="IN">between</taggedword>
+      <taggedword index="18" part-of-speech="NN">p53</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">initiation</taggedword>
+      <taggedword index="22" part-of-speech="NN">complex</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Together" dep_index="1" gov="suggest" gov_index="5">advmod</dependency>
+      <dependency dep="these" dep_index="3" gov="results" gov_index="4">det</dependency>
+      <dependency dep="results" dep_index="4" gov="suggest" gov_index="5">nsubj</dependency>
+      <dependency dep="suggest" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="targets" gov_index="12">mark</dependency>
+      <dependency dep="TAFII40" dep_index="7" gov="targets" gov_index="12">nsubj</dependency>
+      <dependency dep="TAFII60" dep_index="9" gov="TAFII40" gov_index="7">conj_and</dependency>
+      <dependency dep="TAFII60" dep_index="9" gov="targets" gov_index="12">nsubj</dependency>
+      <dependency dep="are" dep_index="10" gov="targets" gov_index="12">cop</dependency>
+      <dependency dep="important" dep_index="11" gov="targets" gov_index="12">amod</dependency>
+      <dependency dep="targets" dep_index="12" gov="suggest" gov_index="5">ccomp</dependency>
+      <dependency dep="transmitting" dep_index="14" gov="targets" gov_index="12">prepc_for</dependency>
+      <dependency dep="activation" dep_index="15" gov="signals" gov_index="16">nn</dependency>
+      <dependency dep="signals" dep_index="16" gov="transmitting" gov_index="14">dobj</dependency>
+      <dependency dep="p53" dep_index="18" gov="signals" gov_index="16">prep_between</dependency>
+      <dependency dep="the" dep_index="20" gov="complex" gov_index="22">det</dependency>
+      <dependency dep="initiation" dep_index="21" gov="complex" gov_index="22">nn</dependency>
+      <dependency dep="complex" dep_index="22" gov="signals" gov_index="16">prep_between</dependency>
+      <dependency dep="complex" dep_index="22" gov="p53" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 12 9</relation>
+      <relation position="700018" relationship="true">7 12 14 16 18</relation>
+      <relation position="900018" relationship="true">9 12 14 16 18</relation>
+   </relations>
+   <pairs>
+      <pair>700018</pair>
+      <pair>900018</pair>
+   </pairs>
+</root>

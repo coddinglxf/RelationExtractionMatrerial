@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@aim@of@the@present@study@was@to@elucidate@whether@intracellular@expression@of@granulysin@and@perforin@by@NK@cells@might@be@associated@with@progression@of@cancer@.@</sentence>
+   <tags>
+      <tag pos="14">granulysin</tag>
+      <tag pos="16">perforin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">aim</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">present</taggedword>
+      <taggedword index="6" part-of-speech="NN">study</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">elucidate</taggedword>
+      <taggedword index="10" part-of-speech="IN">whether</taggedword>
+      <taggedword index="11" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="12" part-of-speech="NN">expression</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">granulysin</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">perforin</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="NNP">NK</taggedword>
+      <taggedword index="19" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="20" part-of-speech="MD">might</taggedword>
+      <taggedword index="21" part-of-speech="VB">be</taggedword>
+      <taggedword index="22" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="NN">progression</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="aim" gov_index="2">det</dependency>
+      <dependency dep="aim" dep_index="2" gov="was" gov_index="7">nsubj</dependency>
+      <dependency dep="aim" dep_index="2" gov="elucidate" gov_index="9">xsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="study" gov_index="6">det</dependency>
+      <dependency dep="present" dep_index="5" gov="study" gov_index="6">amod</dependency>
+      <dependency dep="study" dep_index="6" gov="aim" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="8" gov="elucidate" gov_index="9">aux</dependency>
+      <dependency dep="elucidate" dep_index="9" gov="was" gov_index="7">xcomp</dependency>
+      <dependency dep="whether" dep_index="10" gov="associated" gov_index="22">mark</dependency>
+      <dependency dep="intracellular" dep_index="11" gov="expression" gov_index="12">nn</dependency>
+      <dependency dep="expression" dep_index="12" gov="associated" gov_index="22">nsubjpass</dependency>
+      <dependency dep="granulysin" dep_index="14" gov="expression" gov_index="12">prep_of</dependency>
+      <dependency dep="perforin" dep_index="16" gov="expression" gov_index="12">prep_of</dependency>
+      <dependency dep="perforin" dep_index="16" gov="granulysin" gov_index="14">conj_and</dependency>
+      <dependency dep="NK" dep_index="18" gov="cells" gov_index="19">nn</dependency>
+      <dependency dep="cells" dep_index="19" gov="granulysin" gov_index="14">prep_by</dependency>
+      <dependency dep="might" dep_index="20" gov="associated" gov_index="22">aux</dependency>
+      <dependency dep="be" dep_index="21" gov="associated" gov_index="22">auxpass</dependency>
+      <dependency dep="associated" dep_index="22" gov="elucidate" gov_index="9">ccomp</dependency>
+      <dependency dep="progression" dep_index="24" gov="associated" gov_index="22">prep_with</dependency>
+      <dependency dep="cancer" dep_index="26" gov="progression" gov_index="24">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400016" relationship="false">14 12 16</relation>
+   </relations>
+   <pairs/>
+</root>

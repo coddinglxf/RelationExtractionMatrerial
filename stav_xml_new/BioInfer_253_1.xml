@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@we@show@that@the@ubiquitin@-dependent@proteolysis@system@is@involved@in@the@regulation@of@beta-catenin@turnover@.@</sentence>
+   <tags>
+      <tag pos="6">ubiquitin</tag>
+      <tag pos="16">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech="PRP">we</taggedword>
+      <taggedword index="3" part-of-speech="VBP">show</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">ubiquitin</taggedword>
+      <taggedword index="7" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="8" part-of-speech="NNS">proteolysis</taggedword>
+      <taggedword index="9" part-of-speech="NN">system</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="17" part-of-speech="NN">turnover</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="show" gov_index="3">advmod</dependency>
+      <dependency dep="we" dep_index="2" gov="show" gov_index="3">nsubj</dependency>
+      <dependency dep="show" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="involved" gov_index="11">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="system" gov_index="9">det</dependency>
+      <dependency dep="ubiquitin" dep_index="6" gov="system" gov_index="9">amod</dependency>
+      <dependency dep="-dependent" dep_index="7" gov="system" gov_index="9">amod</dependency>
+      <dependency dep="proteolysis" dep_index="8" gov="system" gov_index="9">nn</dependency>
+      <dependency dep="system" dep_index="9" gov="involved" gov_index="11">nsubjpass</dependency>
+      <dependency dep="is" dep_index="10" gov="involved" gov_index="11">auxpass</dependency>
+      <dependency dep="involved" dep_index="11" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="13" gov="regulation" gov_index="14">det</dependency>
+      <dependency dep="regulation" dep_index="14" gov="involved" gov_index="11">prep_in</dependency>
+      <dependency dep="beta-catenin" dep_index="16" gov="turnover" gov_index="17">amod</dependency>
+      <dependency dep="turnover" dep_index="17" gov="regulation" gov_index="14">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600016" relationship="true">6 9 11 14 17 16</relation>
+   </relations>
+   <pairs>
+      <pair>600016</pair>
+   </pairs>
+</root>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Transfection@of@plasmids@encoding@the@BRSV@minigenome@,@nucleocapsid protein@(@N@),@phosphoprotein@(@P@)@and@L@protein@,@each@under@the@control@of@T7@promoter@,@into@cells@infected@with@a@vaccinia@virus@recombinant@expressing@the@T7@RNA polymerase@gave@rise@to@CAT@activity@and@progeny@with@the@minigenome@.@</sentence>
+   <tags>
+      <tag pos="40">RNA polymerase</tag>
+      <tag pos="15">P</tag>
+      <tag pos="44">CAT</tag>
+      <tag pos="11">N</tag>
+      <tag pos="13">phosphoprotein</tag>
+      <tag pos="18">L</tag>
+      <tag pos="9">nucleocapsid protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Transfection</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNS">plasmids</taggedword>
+      <taggedword index="4" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">BRSV</taggedword>
+      <taggedword index="7" part-of-speech="NN">minigenome</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">nucleocapsid protein</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">N</taggedword>
+      <taggedword index="12" part-of-speech="NNP">),</taggedword>
+      <taggedword index="13" part-of-speech="NN">phosphoprotein</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">P</taggedword>
+      <taggedword index="16" part-of-speech="NNP">)</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNP">L</taggedword>
+      <taggedword index="19" part-of-speech="NN">protein</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="DT">each</taggedword>
+      <taggedword index="22" part-of-speech="IN">under</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">control</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="JJ">T7</taggedword>
+      <taggedword index="27" part-of-speech="NN">promoter</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="IN">into</taggedword>
+      <taggedword index="30" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="31" part-of-speech="VBN">infected</taggedword>
+      <taggedword index="32" part-of-speech="IN">with</taggedword>
+      <taggedword index="33" part-of-speech="DT">a</taggedword>
+      <taggedword index="34" part-of-speech="NN">vaccinia</taggedword>
+      <taggedword index="35" part-of-speech="NN">virus</taggedword>
+      <taggedword index="36" part-of-speech="NN">recombinant</taggedword>
+      <taggedword index="37" part-of-speech="VBG">expressing</taggedword>
+      <taggedword index="38" part-of-speech="DT">the</taggedword>
+      <taggedword index="39" part-of-speech="NNP">T7</taggedword>
+      <taggedword index="40" part-of-speech="NNP">RNA polymerase</taggedword>
+      <taggedword index="41" part-of-speech="VBD">gave</taggedword>
+      <taggedword index="42" part-of-speech="NN">rise</taggedword>
+      <taggedword index="43" part-of-speech="TO">to</taggedword>
+      <taggedword index="44" part-of-speech="NNP">CAT</taggedword>
+      <taggedword index="45" part-of-speech="NN">activity</taggedword>
+      <taggedword index="46" part-of-speech="CC">and</taggedword>
+      <taggedword index="47" part-of-speech="NN">progeny</taggedword>
+      <taggedword index="48" part-of-speech="IN">with</taggedword>
+      <taggedword index="49" part-of-speech="DT">the</taggedword>
+      <taggedword index="50" part-of-speech="NN">minigenome</taggedword>
+      <taggedword index="51" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Transfection" dep_index="1" gov="gave" gov_index="41">nsubj</dependency>
+      <dependency dep="plasmids" dep_index="3" gov="Transfection" gov_index="1">prep_of</dependency>
+      <dependency dep="encoding" dep_index="4" gov="plasmids" gov_index="3">partmod</dependency>
+      <dependency dep="the" dep_index="5" gov="minigenome" gov_index="7">det</dependency>
+      <dependency dep="BRSV" dep_index="6" gov="minigenome" gov_index="7">amod</dependency>
+      <dependency dep="minigenome" dep_index="7" gov="encoding" gov_index="4">dobj</dependency>
+      <dependency dep="minigenome" dep_index="7" gov="encoding" gov_index="4">iobj</dependency>
+      <dependency dep="nucleocapsid protein" dep_index="9" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="N" dep_index="11" gov=")" gov_index="16">nn</dependency>
+      <dependency dep=")," dep_index="12" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="phosphoprotein" dep_index="13" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="(" dep_index="14" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="P" dep_index="15" gov=")" gov_index="16">nn</dependency>
+      <dependency dep=")" dep_index="16" gov="minigenome" gov_index="7">appos</dependency>
+      <dependency dep="L" dep_index="18" gov="protein" gov_index="19">nn</dependency>
+      <dependency dep="protein" dep_index="19" gov="minigenome" gov_index="7">appos</dependency>
+      <dependency dep="protein" dep_index="19" gov=")" gov_index="16">conj_and</dependency>
+      <dependency dep="each" dep_index="21" gov="minigenome" gov_index="7">dep</dependency>
+      <dependency dep="the" dep_index="23" gov="control" gov_index="24">det</dependency>
+      <dependency dep="control" dep_index="24" gov="encoding" gov_index="4">prep_under</dependency>
+      <dependency dep="T7" dep_index="26" gov="promoter" gov_index="27">amod</dependency>
+      <dependency dep="promoter" dep_index="27" gov="control" gov_index="24">prep_of</dependency>
+      <dependency dep="cells" dep_index="30" gov="encoding" gov_index="4">prep_into</dependency>
+      <dependency dep="infected" dep_index="31" gov="cells" gov_index="30">partmod</dependency>
+      <dependency dep="a" dep_index="33" gov="recombinant" gov_index="36">det</dependency>
+      <dependency dep="vaccinia" dep_index="34" gov="recombinant" gov_index="36">nn</dependency>
+      <dependency dep="virus" dep_index="35" gov="recombinant" gov_index="36">nn</dependency>
+      <dependency dep="recombinant" dep_index="36" gov="infected" gov_index="31">prep_with</dependency>
+      <dependency dep="expressing" dep_index="37" gov="infected" gov_index="31">xcomp</dependency>
+      <dependency dep="the" dep_index="38" gov="RNA polymerase" gov_index="40">det</dependency>
+      <dependency dep="T7" dep_index="39" gov="RNA polymerase" gov_index="40">nn</dependency>
+      <dependency dep="RNA polymerase" dep_index="40" gov="expressing" gov_index="37">dobj</dependency>
+      <dependency dep="gave" dep_index="41" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="rise" dep_index="42" gov="gave" gov_index="41">dobj</dependency>
+      <dependency dep="CAT" dep_index="44" gov="activity" gov_index="45">nn</dependency>
+      <dependency dep="activity" dep_index="45" gov="gave" gov_index="41">prep_to</dependency>
+      <dependency dep="progeny" dep_index="47" gov="gave" gov_index="41">prep_to</dependency>
+      <dependency dep="progeny" dep_index="47" gov="activity" gov_index="45">conj_and</dependency>
+      <dependency dep="the" dep_index="49" gov="minigenome" gov_index="50">det</dependency>
+      <dependency dep="minigenome" dep_index="50" gov="activity" gov_index="45">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500040" relationship="false">15 16 7 4 30 31 37 40</relation>
+      <relation position="4000044" relationship="false">40 37 31 30 4 3 1 41 45 44</relation>
+      <relation position="1100040" relationship="false">11 16 7 4 30 31 37 40</relation>
+      <relation position="1300040" relationship="false">13 16 7 4 30 31 37 40</relation>
+      <relation position="1800040" relationship="false">18 19 7 4 30 31 37 40</relation>
+      <relation position="900040" relationship="false">9 16 7 4 30 31 37 40</relation>
+      <relation position="1500044" relationship="false">15 16 7 4 3 1 41 45 44</relation>
+      <relation position="1100015" relationship="false">11 16 15</relation>
+      <relation position="1300015" relationship="false">13 16 15</relation>
+      <relation position="1500018" relationship="false">15 16 7 19 18</relation>
+      <relation position="900015" relationship="false">9 16 15</relation>
+      <relation position="1100044" relationship="false">11 16 7 4 3 1 41 45 44</relation>
+      <relation position="1300044" relationship="false">13 16 7 4 3 1 41 45 44</relation>
+      <relation position="1800044" relationship="false">18 19 7 4 3 1 41 45 44</relation>
+      <relation position="900044" relationship="false">9 16 7 4 3 1 41 45 44</relation>
+      <relation position="1100013" relationship="false">11 16 13</relation>
+      <relation position="1100018" relationship="false">11 16 7 19 18</relation>
+      <relation position="900011" relationship="false">9 16 11</relation>
+      <relation position="1300018" relationship="false">13 16 7 19 18</relation>
+      <relation position="900013" relationship="false">9 16 13</relation>
+      <relation position="900018" relationship="false">9 16 7 19 18</relation>
+   </relations>
+   <pairs/>
+</root>

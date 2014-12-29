@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@data@demonstrate@loss@of@ligand@specificity@of@FGFR2@with@retained@ligand@dependence@for@receptor@activation@.@</sentence>
+   <tags>
+      <tag pos="9">FGFR2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="4" part-of-speech="NN">loss</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="JJ">ligand</taggedword>
+      <taggedword index="7" part-of-speech="NN">specificity</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNP">FGFR2</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="JJ">retained</taggedword>
+      <taggedword index="12" part-of-speech="JJ">ligand</taggedword>
+      <taggedword index="13" part-of-speech="NN">dependence</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="16" part-of-speech="NN">activation</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="data" gov_index="2">det</dependency>
+      <dependency dep="data" dep_index="2" gov="demonstrate" gov_index="3">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="loss" dep_index="4" gov="demonstrate" gov_index="3">dobj</dependency>
+      <dependency dep="ligand" dep_index="6" gov="specificity" gov_index="7">amod</dependency>
+      <dependency dep="specificity" dep_index="7" gov="loss" gov_index="4">prep_of</dependency>
+      <dependency dep="FGFR2" dep_index="9" gov="specificity" gov_index="7">prep_of</dependency>
+      <dependency dep="retained" dep_index="11" gov="dependence" gov_index="13">amod</dependency>
+      <dependency dep="ligand" dep_index="12" gov="dependence" gov_index="13">amod</dependency>
+      <dependency dep="dependence" dep_index="13" gov="demonstrate" gov_index="3">prep_with</dependency>
+      <dependency dep="receptor" dep_index="15" gov="activation" gov_index="16">nn</dependency>
+      <dependency dep="activation" dep_index="16" gov="dependence" gov_index="13">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Additionally@,@it@is@believed@to@be@the@core@structure@around@which@some@if@not@all@the@components@of@the@nucleotide@excision@repair@(NER)@machinery@assemble@to@constitute@a@nucleotide@excision@repairosome@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Additionally</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">it</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="VBN">believed</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">be</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">core</taggedword>
+      <taggedword index="10" part-of-speech="NN">structure</taggedword>
+      <taggedword index="11" part-of-speech="IN">around</taggedword>
+      <taggedword index="12" part-of-speech="WDT">which</taggedword>
+      <taggedword index="13" part-of-speech="DT">some</taggedword>
+      <taggedword index="14" part-of-speech="IN">if</taggedword>
+      <taggedword index="15" part-of-speech="RB">not</taggedword>
+      <taggedword index="16" part-of-speech="PDT">all</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NNS">components</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">nucleotide</taggedword>
+      <taggedword index="22" part-of-speech="NN">excision</taggedword>
+      <taggedword index="23" part-of-speech="NN">repair</taggedword>
+      <taggedword index="24" part-of-speech="NN">(NER)</taggedword>
+      <taggedword index="25" part-of-speech="NN">machinery</taggedword>
+      <taggedword index="26" part-of-speech="VBP">assemble</taggedword>
+      <taggedword index="27" part-of-speech="TO">to</taggedword>
+      <taggedword index="28" part-of-speech="VB">constitute</taggedword>
+      <taggedword index="29" part-of-speech="DT">a</taggedword>
+      <taggedword index="30" part-of-speech="JJ">nucleotide</taggedword>
+      <taggedword index="31" part-of-speech="NN">excision</taggedword>
+      <taggedword index="32" part-of-speech="NN">repairosome</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Additionally" dep_index="1" gov="believed" gov_index="5">advmod</dependency>
+      <dependency dep="it" dep_index="3" gov="believed" gov_index="5">nsubjpass</dependency>
+      <dependency dep="it" dep_index="3" gov="structure" gov_index="10">xsubj</dependency>
+      <dependency dep="is" dep_index="4" gov="believed" gov_index="5">auxpass</dependency>
+      <dependency dep="believed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="6" gov="structure" gov_index="10">aux</dependency>
+      <dependency dep="be" dep_index="7" gov="structure" gov_index="10">cop</dependency>
+      <dependency dep="the" dep_index="8" gov="structure" gov_index="10">det</dependency>
+      <dependency dep="core" dep_index="9" gov="structure" gov_index="10">amod</dependency>
+      <dependency dep="structure" dep_index="10" gov="believed" gov_index="5">xcomp</dependency>
+      <dependency dep="structure" dep_index="10" gov="assemble" gov_index="26">prep_around</dependency>
+      <dependency dep="some" dep_index="13" gov="assemble" gov_index="26">nsubj</dependency>
+      <dependency dep="some" dep_index="13" gov="constitute" gov_index="28">xsubj</dependency>
+      <dependency dep="all" dep_index="16" gov="components" gov_index="18">predet</dependency>
+      <dependency dep="the" dep_index="17" gov="components" gov_index="18">det</dependency>
+      <dependency dep="components" dep_index="18" gov="some" gov_index="13">conj_negcc</dependency>
+      <dependency dep="components" dep_index="18" gov="assemble" gov_index="26">nsubj</dependency>
+      <dependency dep="components" dep_index="18" gov="constitute" gov_index="28">xsubj</dependency>
+      <dependency dep="the" dep_index="20" gov="machinery" gov_index="25">det</dependency>
+      <dependency dep="nucleotide" dep_index="21" gov="machinery" gov_index="25">amod</dependency>
+      <dependency dep="excision" dep_index="22" gov="machinery" gov_index="25">nn</dependency>
+      <dependency dep="repair" dep_index="23" gov="machinery" gov_index="25">nn</dependency>
+      <dependency dep="(NER)" dep_index="24" gov="machinery" gov_index="25">nn</dependency>
+      <dependency dep="machinery" dep_index="25" gov="components" gov_index="18">prep_of</dependency>
+      <dependency dep="assemble" dep_index="26" gov="structure" gov_index="10">rcmod</dependency>
+      <dependency dep="to" dep_index="27" gov="constitute" gov_index="28">aux</dependency>
+      <dependency dep="constitute" dep_index="28" gov="assemble" gov_index="26">xcomp</dependency>
+      <dependency dep="a" dep_index="29" gov="repairosome" gov_index="32">det</dependency>
+      <dependency dep="nucleotide" dep_index="30" gov="repairosome" gov_index="32">amod</dependency>
+      <dependency dep="excision" dep_index="31" gov="repairosome" gov_index="32">nn</dependency>
+      <dependency dep="repairosome" dep_index="32" gov="constitute" gov_index="28">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

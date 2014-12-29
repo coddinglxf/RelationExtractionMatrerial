@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Presenilin 1@(@PS1@)@mutations@account@for@the@majority@of@early-onset@dominant@cases@of@familial@Alzheimer's@disease@.@</sentence>
+   <tags>
+      <tag pos="1">Presenilin 1</tag>
+      <tag pos="3">PS1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Presenilin 1</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">PS1</taggedword>
+      <taggedword index="4" part-of-speech="NNP">)</taggedword>
+      <taggedword index="5" part-of-speech="NNP">mutations</taggedword>
+      <taggedword index="6" part-of-speech="VBP">account</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">majority</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">early-onset</taggedword>
+      <taggedword index="12" part-of-speech="JJ">dominant</taggedword>
+      <taggedword index="13" part-of-speech="NNS">cases</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">familial</taggedword>
+      <taggedword index="16" part-of-speech="NNP">Alzheimer's</taggedword>
+      <taggedword index="17" part-of-speech="NN">disease</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Presenilin 1" dep_index="1" gov="mutations" gov_index="5">nn</dependency>
+      <dependency dep="(" dep_index="2" gov="mutations" gov_index="5">nn</dependency>
+      <dependency dep="PS1" dep_index="3" gov="mutations" gov_index="5">nn</dependency>
+      <dependency dep=")" dep_index="4" gov="mutations" gov_index="5">nn</dependency>
+      <dependency dep="mutations" dep_index="5" gov="account" gov_index="6">nsubj</dependency>
+      <dependency dep="account" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="majority" gov_index="9">det</dependency>
+      <dependency dep="majority" dep_index="9" gov="account" gov_index="6">prep_for</dependency>
+      <dependency dep="early-onset" dep_index="11" gov="cases" gov_index="13">amod</dependency>
+      <dependency dep="dominant" dep_index="12" gov="cases" gov_index="13">amod</dependency>
+      <dependency dep="cases" dep_index="13" gov="majority" gov_index="9">prep_of</dependency>
+      <dependency dep="familial" dep_index="15" gov="disease" gov_index="17">amod</dependency>
+      <dependency dep="Alzheimer's" dep_index="16" gov="disease" gov_index="17">nn</dependency>
+      <dependency dep="disease" dep_index="17" gov="cases" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false">1 5 3</relation>
+   </relations>
+   <pairs/>
+</root>

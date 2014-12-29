@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Microinjection@of@HOX11@into@Xenopus@oocytes@arrested@at@the@G2@phase@of@the@cell@cycle@promoted@progression@to@the@M@phase@.@</sentence>
+   <tags>
+      <tag pos="3">HOX11</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Microinjection</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">HOX11</taggedword>
+      <taggedword index="4" part-of-speech="IN">into</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Xenopus</taggedword>
+      <taggedword index="6" part-of-speech="NNS">oocytes</taggedword>
+      <taggedword index="7" part-of-speech="VBN">arrested</taggedword>
+      <taggedword index="8" part-of-speech="IN">at</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">G2</taggedword>
+      <taggedword index="11" part-of-speech="NN">phase</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">cell</taggedword>
+      <taggedword index="15" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="16" part-of-speech="VBD">promoted</taggedword>
+      <taggedword index="17" part-of-speech="NN">progression</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NNP">M</taggedword>
+      <taggedword index="21" part-of-speech="NN">phase</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Microinjection" dep_index="1" gov="promoted" gov_index="16">nsubj</dependency>
+      <dependency dep="HOX11" dep_index="3" gov="Microinjection" gov_index="1">prep_of</dependency>
+      <dependency dep="Xenopus" dep_index="5" gov="oocytes" gov_index="6">nn</dependency>
+      <dependency dep="oocytes" dep_index="6" gov="HOX11" gov_index="3">prep_into</dependency>
+      <dependency dep="arrested" dep_index="7" gov="oocytes" gov_index="6">partmod</dependency>
+      <dependency dep="the" dep_index="9" gov="phase" gov_index="11">det</dependency>
+      <dependency dep="G2" dep_index="10" gov="phase" gov_index="11">amod</dependency>
+      <dependency dep="phase" dep_index="11" gov="arrested" gov_index="7">prep_at</dependency>
+      <dependency dep="the" dep_index="13" gov="cycle" gov_index="15">det</dependency>
+      <dependency dep="cell" dep_index="14" gov="cycle" gov_index="15">nn</dependency>
+      <dependency dep="cycle" dep_index="15" gov="phase" gov_index="11">prep_of</dependency>
+      <dependency dep="promoted" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="progression" dep_index="17" gov="promoted" gov_index="16">dobj</dependency>
+      <dependency dep="the" dep_index="19" gov="phase" gov_index="21">det</dependency>
+      <dependency dep="M" dep_index="20" gov="phase" gov_index="21">nn</dependency>
+      <dependency dep="phase" dep_index="21" gov="promoted" gov_index="16">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

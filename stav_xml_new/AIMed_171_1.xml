@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crystal@structure@of@the@p27Kip1@cyclin-dependent-kinase@inhibitor@bound@to@the@cyclin A@-@Cdk2@complex@.@</sentence>
+   <tags>
+      <tag pos="5">p27Kip1</tag>
+      <tag pos="11">cyclin A</tag>
+      <tag pos="13">Cdk2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Crystal</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">p27Kip1</taggedword>
+      <taggedword index="6" part-of-speech="JJ">cyclin-dependent-kinase</taggedword>
+      <taggedword index="7" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="8" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">cyclin A</taggedword>
+      <taggedword index="12" part-of-speech=":">-</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Cdk2</taggedword>
+      <taggedword index="14" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crystal" dep_index="1" gov="structure" gov_index="2">nn</dependency>
+      <dependency dep="structure" dep_index="2" gov="bound" gov_index="8">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="inhibitor" gov_index="7">det</dependency>
+      <dependency dep="p27Kip1" dep_index="5" gov="inhibitor" gov_index="7">amod</dependency>
+      <dependency dep="cyclin-dependent-kinase" dep_index="6" gov="inhibitor" gov_index="7">amod</dependency>
+      <dependency dep="inhibitor" dep_index="7" gov="structure" gov_index="2">prep_of</dependency>
+      <dependency dep="bound" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="cyclin A" gov_index="11">det</dependency>
+      <dependency dep="cyclin A" dep_index="11" gov="bound" gov_index="8">prep_to</dependency>
+      <dependency dep="Cdk2" dep_index="13" gov="complex" gov_index="14">dep</dependency>
+      <dependency dep="complex" dep_index="14" gov="bound" gov_index="8">parataxis</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500011" relationship="true">5 7 2 8 11</relation>
+      <relation position="500013" relationship="true">5 7 2 8 14 13</relation>
+      <relation position="1100013" relationship="true">11 8 14 13</relation>
+   </relations>
+   <pairs>
+      <pair>500013</pair>
+      <pair>500011</pair>
+      <pair>1100013</pair>
+   </pairs>
+</root>

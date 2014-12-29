@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Analysis@of@sedimentation@equilibria@and@also@of@the@fluorescence@enhancement@of@suramin@when@bound@to@protein@provided@evidence@for@two@suramin-binding@sites@on@each@C9@and@three@on@each@C8@in@the@oligomers@.@</sentence>
+   <tags>
+      <tag pos="25">C9</tag>
+      <tag pos="30">C8</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Analysis</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">sedimentation</taggedword>
+      <taggedword index="4" part-of-speech="NN">equilibria</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="RB">also</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">fluorescence</taggedword>
+      <taggedword index="10" part-of-speech="NN">enhancement</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">suramin</taggedword>
+      <taggedword index="13" part-of-speech="WRB">when</taggedword>
+      <taggedword index="14" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="NN">protein</taggedword>
+      <taggedword index="17" part-of-speech="VBD">provided</taggedword>
+      <taggedword index="18" part-of-speech="NN">evidence</taggedword>
+      <taggedword index="19" part-of-speech="IN">for</taggedword>
+      <taggedword index="20" part-of-speech="CD">two</taggedword>
+      <taggedword index="21" part-of-speech="JJ">suramin-binding</taggedword>
+      <taggedword index="22" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="23" part-of-speech="IN">on</taggedword>
+      <taggedword index="24" part-of-speech="DT">each</taggedword>
+      <taggedword index="25" part-of-speech="CD">C9</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="CD">three</taggedword>
+      <taggedword index="28" part-of-speech="IN">on</taggedword>
+      <taggedword index="29" part-of-speech="DT">each</taggedword>
+      <taggedword index="30" part-of-speech="NN">C8</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NNS">oligomers</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Analysis" dep_index="1" gov="provided" gov_index="17">nsubj</dependency>
+      <dependency dep="sedimentation" dep_index="3" gov="equilibria" gov_index="4">nn</dependency>
+      <dependency dep="equilibria" dep_index="4" gov="Analysis" gov_index="1">prep_of</dependency>
+      <dependency dep="also" dep_index="6" gov="Analysis" gov_index="1">prep_of</dependency>
+      <dependency dep="also" dep_index="6" gov="equilibria" gov_index="4">conj_and</dependency>
+      <dependency dep="the" dep_index="8" gov="enhancement" gov_index="10">det</dependency>
+      <dependency dep="fluorescence" dep_index="9" gov="enhancement" gov_index="10">amod</dependency>
+      <dependency dep="enhancement" dep_index="10" gov="also" gov_index="6">prep_of</dependency>
+      <dependency dep="suramin" dep_index="12" gov="enhancement" gov_index="10">prep_of</dependency>
+      <dependency dep="when" dep_index="13" gov="bound" gov_index="14">advmod</dependency>
+      <dependency dep="bound" dep_index="14" gov="equilibria" gov_index="4">rcmod</dependency>
+      <dependency dep="protein" dep_index="16" gov="bound" gov_index="14">prep_to</dependency>
+      <dependency dep="provided" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="evidence" dep_index="18" gov="provided" gov_index="17">dobj</dependency>
+      <dependency dep="two" dep_index="20" gov="sites" gov_index="22">num</dependency>
+      <dependency dep="suramin-binding" dep_index="21" gov="sites" gov_index="22">amod</dependency>
+      <dependency dep="sites" dep_index="22" gov="provided" gov_index="17">prep_for</dependency>
+      <dependency dep="each" dep_index="24" gov="C9" gov_index="25">dep</dependency>
+      <dependency dep="C9" dep_index="25" gov="sites" gov_index="22">prep_on</dependency>
+      <dependency dep="three" dep_index="27" gov="sites" gov_index="22">prep_on</dependency>
+      <dependency dep="three" dep_index="27" gov="C9" gov_index="25">conj_and</dependency>
+      <dependency dep="each" dep_index="29" gov="C8" gov_index="30">det</dependency>
+      <dependency dep="C8" dep_index="30" gov="provided" gov_index="17">prep_on</dependency>
+      <dependency dep="the" dep_index="32" gov="oligomers" gov_index="33">det</dependency>
+      <dependency dep="oligomers" dep_index="33" gov="C8" gov_index="30">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2500030" relationship="false">25 22 17 30</relation>
+   </relations>
+   <pairs/>
+</root>

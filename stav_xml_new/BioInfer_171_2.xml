@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>LOH@was@found@in@the@RAD51@region@in@32%@of@tumours@,@in@the@RAD52@region@in@16%@,@in@RAD54@in@20%@and@in@the@BRCA1@and@BRCA2@regions@in@49%@and@44%@respectively@.@</sentence>
+   <tags>
+      <tag pos="29">BRCA2</tag>
+      <tag pos="15">RAD52</tag>
+      <tag pos="21">RAD54</tag>
+      <tag pos="6">RAD51</tag>
+      <tag pos="27">BRCA1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">LOH</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="VBN">found</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">RAD51</taggedword>
+      <taggedword index="7" part-of-speech="NN">region</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="CD">32%</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNS">tumours</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">RAD52</taggedword>
+      <taggedword index="16" part-of-speech="NN">region</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="CD">16%</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="NNP">RAD54</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="CD">20%</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NNP">BRCA1</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="NNP">BRCA2</taggedword>
+      <taggedword index="30" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="CD">49%</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="CD">44%</taggedword>
+      <taggedword index="35" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="LOH" dep_index="1" gov="found" gov_index="3">nsubjpass</dependency>
+      <dependency dep="was" dep_index="2" gov="found" gov_index="3">auxpass</dependency>
+      <dependency dep="found" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="region" gov_index="7">det</dependency>
+      <dependency dep="RAD51" dep_index="6" gov="region" gov_index="7">amod</dependency>
+      <dependency dep="region" dep_index="7" gov="found" gov_index="3">prep_in</dependency>
+      <dependency dep="32%" dep_index="9" gov="region" gov_index="7">prep_in</dependency>
+      <dependency dep="tumours" dep_index="11" gov="32%" gov_index="9">prep_of</dependency>
+      <dependency dep="the" dep_index="14" gov="region" gov_index="16">det</dependency>
+      <dependency dep="RAD52" dep_index="15" gov="region" gov_index="16">amod</dependency>
+      <dependency dep="region" dep_index="16" gov="found" gov_index="3">prep_in</dependency>
+      <dependency dep="region" dep_index="16" gov="region" gov_index="7">conj_and</dependency>
+      <dependency dep="16%" dep_index="18" gov="region" gov_index="16">prep_in</dependency>
+      <dependency dep="RAD54" dep_index="21" gov="found" gov_index="3">prep_in</dependency>
+      <dependency dep="RAD54" dep_index="21" gov="region" gov_index="7">conj_and</dependency>
+      <dependency dep="20%" dep_index="23" gov="RAD54" gov_index="21">prep_in</dependency>
+      <dependency dep="the" dep_index="26" gov="regions" gov_index="30">det</dependency>
+      <dependency dep="BRCA1" dep_index="27" gov="regions" gov_index="30">nn</dependency>
+      <dependency dep="BRCA2" dep_index="29" gov="BRCA1" gov_index="27">conj_and</dependency>
+      <dependency dep="BRCA2" dep_index="29" gov="regions" gov_index="30">nn</dependency>
+      <dependency dep="regions" dep_index="30" gov="found" gov_index="3">prep_in</dependency>
+      <dependency dep="regions" dep_index="30" gov="region" gov_index="7">conj_and</dependency>
+      <dependency dep="49%" dep_index="32" gov="regions" gov_index="30">prep_in</dependency>
+      <dependency dep="44%" dep_index="34" gov="regions" gov_index="30">prep_in</dependency>
+      <dependency dep="44%" dep_index="34" gov="49%" gov_index="32">conj_and</dependency>
+      <dependency dep="respectively" dep_index="35" gov="found" gov_index="3">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500029" relationship="false">15 16 3 30 29</relation>
+      <relation position="2100029" relationship="false">21 3 30 29</relation>
+      <relation position="600029" relationship="false">6 7 3 30 29</relation>
+      <relation position="2700029" relationship="false">27 30 29</relation>
+      <relation position="1500021" relationship="false">15 16 3 21</relation>
+      <relation position="600015" relationship="false">6 7 3 16 15</relation>
+      <relation position="1500027" relationship="false">15 16 3 30 27</relation>
+      <relation position="600021" relationship="false">6 7 3 21</relation>
+      <relation position="2100027" relationship="false">21 3 30 27</relation>
+      <relation position="600027" relationship="false">6 7 3 30 27</relation>
+   </relations>
+   <pairs/>
+</root>

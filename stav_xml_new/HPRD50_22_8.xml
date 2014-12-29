@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Expression@of@GC-GAP@in@293T@cells@led@to@a@reduction@in@active@Rac1@and@Cdc42@levels@but@not@RhoA@</sentence>
+   <tags>
+      <tag pos="3">GC-GAP</tag>
+      <tag pos="13">Rac1</tag>
+      <tag pos="15">Cdc42</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Expression</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">GC-GAP</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="CD">293T</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech="VBD">led</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="NN">reduction</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJ">active</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Rac1</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="JJ">Cdc42</taggedword>
+      <taggedword index="16" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="17" part-of-speech="CC">but</taggedword>
+      <taggedword index="18" part-of-speech="RB">not</taggedword>
+      <taggedword index="19" part-of-speech="NNP">RhoA</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Expression" dep_index="1" gov="led" gov_index="7">nsubj</dependency>
+      <dependency dep="GC-GAP" dep_index="3" gov="Expression" gov_index="1">prep_of</dependency>
+      <dependency dep="293T" dep_index="5" gov="cells" gov_index="6">num</dependency>
+      <dependency dep="cells" dep_index="6" gov="GC-GAP" gov_index="3">prep_in</dependency>
+      <dependency dep="led" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="9" gov="reduction" gov_index="10">det</dependency>
+      <dependency dep="reduction" dep_index="10" gov="led" gov_index="7">prep_to</dependency>
+      <dependency dep="active" dep_index="12" gov="Rac1" gov_index="13">amod</dependency>
+      <dependency dep="Rac1" dep_index="13" gov="led" gov_index="7">prep_in</dependency>
+      <dependency dep="Cdc42" dep_index="15" gov="levels" gov_index="16">amod</dependency>
+      <dependency dep="levels" dep_index="16" gov="led" gov_index="7">prep_in</dependency>
+      <dependency dep="levels" dep_index="16" gov="Rac1" gov_index="13">conj_and</dependency>
+      <dependency dep="RhoA" dep_index="19" gov="led" gov_index="7">prep_in</dependency>
+      <dependency dep="RhoA" dep_index="19" gov="Rac1" gov_index="13">conj_negcc</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300013" relationship="true">3 1 7 13</relation>
+      <relation position="300015" relationship="true">3 1 7 16 15</relation>
+      <relation position="1300015" relationship="false">13 7 16 15</relation>
+   </relations>
+   <pairs>
+      <pair>300013</pair>
+      <pair>300015</pair>
+   </pairs>
+</root>

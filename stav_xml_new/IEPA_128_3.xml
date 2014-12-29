@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@Abeta 25-35@exerts@a@similar@effect@on@the@membrane-bound@PI-PLC@from@normoxic@brain@or@subjected@to@ischemia@reperfusion@injury@</sentence>
+   <tags>
+      <tag pos="3">Abeta 25-35</tag>
+      <tag pos="11">PI-PLC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNS">Abeta 25-35</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">exerts</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="7" part-of-speech="NN">effect</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">membrane-bound</taggedword>
+      <taggedword index="11" part-of-speech="NN">PI-PLC</taggedword>
+      <taggedword index="12" part-of-speech="IN">from</taggedword>
+      <taggedword index="13" part-of-speech="JJ">normoxic</taggedword>
+      <taggedword index="14" part-of-speech="NN">brain</taggedword>
+      <taggedword index="15" part-of-speech="CC">or</taggedword>
+      <taggedword index="16" part-of-speech="VBN">subjected</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="NN">ischemia</taggedword>
+      <taggedword index="19" part-of-speech="NN">reperfusion</taggedword>
+      <taggedword index="20" part-of-speech="NN">injury</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="exerts" gov_index="4">advmod</dependency>
+      <dependency dep="Abeta 25-35" dep_index="3" gov="exerts" gov_index="4">nsubj</dependency>
+      <dependency dep="Abeta 25-35" dep_index="3" gov="subjected" gov_index="16">nsubj</dependency>
+      <dependency dep="exerts" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="effect" gov_index="7">det</dependency>
+      <dependency dep="similar" dep_index="6" gov="effect" gov_index="7">amod</dependency>
+      <dependency dep="effect" dep_index="7" gov="exerts" gov_index="4">dobj</dependency>
+      <dependency dep="the" dep_index="9" gov="PI-PLC" gov_index="11">det</dependency>
+      <dependency dep="membrane-bound" dep_index="10" gov="PI-PLC" gov_index="11">amod</dependency>
+      <dependency dep="PI-PLC" dep_index="11" gov="exerts" gov_index="4">prep_on</dependency>
+      <dependency dep="normoxic" dep_index="13" gov="brain" gov_index="14">amod</dependency>
+      <dependency dep="brain" dep_index="14" gov="PI-PLC" gov_index="11">prep_from</dependency>
+      <dependency dep="subjected" dep_index="16" gov="exerts" gov_index="4">conj_or</dependency>
+      <dependency dep="ischemia" dep_index="18" gov="injury" gov_index="20">nn</dependency>
+      <dependency dep="reperfusion" dep_index="19" gov="injury" gov_index="20">nn</dependency>
+      <dependency dep="injury" dep_index="20" gov="subjected" gov_index="16">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300011" relationship="true">3 4 11</relation>
+   </relations>
+   <pairs>
+      <pair>300011</pair>
+   </pairs>
+</root>

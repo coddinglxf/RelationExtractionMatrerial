@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@normal@livers@,@E-cad@,@alpha-catenin@and@beta-catenin@,@but@not@CD44s@,@CD44v5@,@CD44v6@,@CD44v7-8@,@and@CD44v10@,@were@expressed@at@the@cell@membrane@of@normal@intrahepatic@bile@ducts@.@</sentence>
+   <tags>
+      <tag pos="9">beta-catenin</tag>
+      <tag pos="13">CD44s</tag>
+      <tag pos="22">CD44v10</tag>
+      <tag pos="17">CD44v6</tag>
+      <tag pos="5">E-cad</tag>
+      <tag pos="15">CD44v5</tag>
+      <tag pos="7">alpha-catenin</tag>
+      <tag pos="19">CD44v7-8</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="3" part-of-speech="NNS">livers</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="JJ">E-cad</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">but</taggedword>
+      <taggedword index="12" part-of-speech="RB">not</taggedword>
+      <taggedword index="13" part-of-speech="NNS">CD44s</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NNS">CD44v5</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="NNS">CD44v6</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="NNS">CD44v7-8</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NNS">CD44v10</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="VBD">were</taggedword>
+      <taggedword index="25" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="26" part-of-speech="IN">at</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">cell</taggedword>
+      <taggedword index="29" part-of-speech="NN">membrane</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="32" part-of-speech="JJ">intrahepatic</taggedword>
+      <taggedword index="33" part-of-speech="NN">bile</taggedword>
+      <taggedword index="34" part-of-speech="NNS">ducts</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="normal" dep_index="2" gov="livers" gov_index="3">amod</dependency>
+      <dependency dep="livers" dep_index="3" gov="expressed" gov_index="25">prep_in</dependency>
+      <dependency dep="E-cad" dep_index="5" gov="livers" gov_index="3">amod</dependency>
+      <dependency dep="alpha-catenin" dep_index="7" gov="livers" gov_index="3">amod</dependency>
+      <dependency dep="alpha-catenin" dep_index="7" gov="E-cad" gov_index="5">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="9" gov="livers" gov_index="3">amod</dependency>
+      <dependency dep="beta-catenin" dep_index="9" gov="E-cad" gov_index="5">conj_and</dependency>
+      <dependency dep="CD44s" dep_index="13" gov="livers" gov_index="3">conj_negcc</dependency>
+      <dependency dep="CD44s" dep_index="13" gov="expressed" gov_index="25">prep_in</dependency>
+      <dependency dep="CD44v5" dep_index="15" gov="expressed" gov_index="25">nsubjpass</dependency>
+      <dependency dep="CD44v6" dep_index="17" gov="CD44v5" gov_index="15">appos</dependency>
+      <dependency dep="CD44v7-8" dep_index="19" gov="CD44v5" gov_index="15">appos</dependency>
+      <dependency dep="CD44v7-8" dep_index="19" gov="CD44v6" gov_index="17">conj_and</dependency>
+      <dependency dep="CD44v10" dep_index="22" gov="CD44v5" gov_index="15">appos</dependency>
+      <dependency dep="CD44v10" dep_index="22" gov="CD44v6" gov_index="17">conj_and</dependency>
+      <dependency dep="were" dep_index="24" gov="expressed" gov_index="25">auxpass</dependency>
+      <dependency dep="expressed" dep_index="25" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="27" gov="membrane" gov_index="29">det</dependency>
+      <dependency dep="cell" dep_index="28" gov="membrane" gov_index="29">nn</dependency>
+      <dependency dep="membrane" dep_index="29" gov="expressed" gov_index="25">prep_at</dependency>
+      <dependency dep="normal" dep_index="31" gov="ducts" gov_index="34">amod</dependency>
+      <dependency dep="intrahepatic" dep_index="32" gov="ducts" gov_index="34">amod</dependency>
+      <dependency dep="bile" dep_index="33" gov="ducts" gov_index="34">nn</dependency>
+      <dependency dep="ducts" dep_index="34" gov="membrane" gov_index="29">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="true">9 3 13</relation>
+      <relation position="900022" relationship="true">9 3 25 15 22</relation>
+      <relation position="900017" relationship="true">9 3 25 15 17</relation>
+      <relation position="500009" relationship="true">5 3 9</relation>
+      <relation position="900015" relationship="true">9 3 25 15</relation>
+      <relation position="700009" relationship="true">7 3 9</relation>
+      <relation position="900019" relationship="true">9 3 25 15 19</relation>
+      <relation position="1300022" relationship="false">13 25 15 22</relation>
+      <relation position="1300017" relationship="false">13 25 15 17</relation>
+      <relation position="500013" relationship="true">5 3 13</relation>
+      <relation position="1300015" relationship="false">13 25 15</relation>
+      <relation position="700013" relationship="true">7 3 13</relation>
+      <relation position="1300019" relationship="false">13 25 15 19</relation>
+      <relation position="1700022" relationship="false">17 15 22</relation>
+      <relation position="500022" relationship="true">5 3 25 15 22</relation>
+      <relation position="1500022" relationship="false"></relation>
+      <relation position="700022" relationship="true">7 3 25 15 22</relation>
+      <relation position="1900022" relationship="false">19 15 22</relation>
+      <relation position="500017" relationship="true">5 3 25 15 17</relation>
+      <relation position="1500017" relationship="false"></relation>
+      <relation position="700017" relationship="true">7 3 25 15 17</relation>
+      <relation position="1700019" relationship="false">17 15 19</relation>
+      <relation position="500015" relationship="true">5 3 25 15</relation>
+      <relation position="500007" relationship="true">5 3 7</relation>
+      <relation position="500019" relationship="true">5 3 25 15 19</relation>
+      <relation position="700015" relationship="true">7 3 25 15</relation>
+      <relation position="1500019" relationship="false"></relation>
+      <relation position="700019" relationship="true">7 3 25 15 19</relation>
+   </relations>
+   <pairs>
+      <pair>500013</pair>
+      <pair>500015</pair>
+      <pair>500009</pair>
+      <pair>900019</pair>
+      <pair>700019</pair>
+      <pair>500007</pair>
+      <pair>900017</pair>
+      <pair>700017</pair>
+      <pair>700022</pair>
+      <pair>900022</pair>
+      <pair>700009</pair>
+      <pair>700015</pair>
+      <pair>900015</pair>
+      <pair>700013</pair>
+      <pair>900013</pair>
+      <pair>500022</pair>
+      <pair>500017</pair>
+      <pair>500019</pair>
+   </pairs>
+</root>

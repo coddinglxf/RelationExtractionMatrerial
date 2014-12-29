@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@caveolin-1-dependent@coupling@of@PrPc@to@the@tyrosine kinase Fyn@was@observed@</sentence>
+   <tags>
+      <tag pos="5">PrPc</tag>
+      <tag pos="8">tyrosine kinase Fyn</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">caveolin-1-dependent</taggedword>
+      <taggedword index="3" part-of-speech="NN">coupling</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">PrPc</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">tyrosine kinase Fyn</taggedword>
+      <taggedword index="9" part-of-speech="VBD">was</taggedword>
+      <taggedword index="10" part-of-speech="JJ">observed</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="coupling" gov_index="3">det</dependency>
+      <dependency dep="caveolin-1-dependent" dep_index="2" gov="coupling" gov_index="3">amod</dependency>
+      <dependency dep="coupling" dep_index="3" gov="observed" gov_index="10">nsubj</dependency>
+      <dependency dep="PrPc" dep_index="5" gov="coupling" gov_index="3">prep_of</dependency>
+      <dependency dep="the" dep_index="7" gov="tyrosine kinase Fyn" gov_index="8">det</dependency>
+      <dependency dep="tyrosine kinase Fyn" dep_index="8" gov="PrPc" gov_index="5">prep_to</dependency>
+      <dependency dep="was" dep_index="9" gov="observed" gov_index="10">cop</dependency>
+      <dependency dep="observed" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500008" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>500008</pair>
+   </pairs>
+</root>

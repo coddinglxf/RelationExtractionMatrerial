@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Somatic@cell@hybrids@and@fluorescent@in@situ@hybridization@were@both@used@to@determine@their@chromosomal@locations@:@beta 2-syntrophin@to@chromosome@16q22-23@and@alpha 1-syntrophin@to@chromosome@20q11.2@.@</sentence>
+   <tags>
+      <tag pos="18">beta 2-syntrophin</tag>
+      <tag pos="23">alpha 1-syntrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Somatic</taggedword>
+      <taggedword index="2" part-of-speech="NN">cell</taggedword>
+      <taggedword index="3" part-of-speech="NNS">hybrids</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="NNS">fluorescent</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">situ</taggedword>
+      <taggedword index="8" part-of-speech="NN">hybridization</taggedword>
+      <taggedword index="9" part-of-speech="VBD">were</taggedword>
+      <taggedword index="10" part-of-speech="DT">both</taggedword>
+      <taggedword index="11" part-of-speech="VBN">used</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">determine</taggedword>
+      <taggedword index="14" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="15" part-of-speech="JJ">chromosomal</taggedword>
+      <taggedword index="16" part-of-speech="NNS">locations</taggedword>
+      <taggedword index="17" part-of-speech=":">:</taggedword>
+      <taggedword index="18" part-of-speech="JJ">beta 2-syntrophin</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="NN">chromosome</taggedword>
+      <taggedword index="21" part-of-speech="JJ">16q22-23</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="JJ">alpha 1-syntrophin</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="NN">chromosome</taggedword>
+      <taggedword index="26" part-of-speech="NNS">20q11.2</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Somatic" dep_index="1" gov="hybrids" gov_index="3">amod</dependency>
+      <dependency dep="cell" dep_index="2" gov="hybrids" gov_index="3">nn</dependency>
+      <dependency dep="hybrids" dep_index="3" gov="used" gov_index="11">nsubjpass</dependency>
+      <dependency dep="hybrids" dep_index="3" gov="determine" gov_index="13">xsubj</dependency>
+      <dependency dep="fluorescent" dep_index="5" gov="hybrids" gov_index="3">conj_and</dependency>
+      <dependency dep="fluorescent" dep_index="5" gov="used" gov_index="11">nsubjpass</dependency>
+      <dependency dep="fluorescent" dep_index="5" gov="determine" gov_index="13">xsubj</dependency>
+      <dependency dep="situ" dep_index="7" gov="hybridization" gov_index="8">amod</dependency>
+      <dependency dep="hybridization" dep_index="8" gov="hybrids" gov_index="3">prep_in</dependency>
+      <dependency dep="were" dep_index="9" gov="used" gov_index="11">auxpass</dependency>
+      <dependency dep="both" dep_index="10" gov="used" gov_index="11">dep</dependency>
+      <dependency dep="used" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="12" gov="determine" gov_index="13">aux</dependency>
+      <dependency dep="determine" dep_index="13" gov="used" gov_index="11">xcomp</dependency>
+      <dependency dep="their" dep_index="14" gov="locations" gov_index="16">poss</dependency>
+      <dependency dep="chromosomal" dep_index="15" gov="locations" gov_index="16">amod</dependency>
+      <dependency dep="locations" dep_index="16" gov="determine" gov_index="13">dobj</dependency>
+      <dependency dep="beta 2-syntrophin" dep_index="18" gov="locations" gov_index="16">amod</dependency>
+      <dependency dep="chromosome" dep_index="20" gov="beta 2-syntrophin" gov_index="18">prep_to</dependency>
+      <dependency dep="16q22-23" dep_index="21" gov="locations" gov_index="16">amod</dependency>
+      <dependency dep="alpha 1-syntrophin" dep_index="23" gov="locations" gov_index="16">amod</dependency>
+      <dependency dep="alpha 1-syntrophin" dep_index="23" gov="16q22-23" gov_index="21">conj_and</dependency>
+      <dependency dep="chromosome" dep_index="25" gov="20q11.2" gov_index="26">nn</dependency>
+      <dependency dep="20q11.2" dep_index="26" gov="determine" gov_index="13">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800023" relationship="false">18 16 23</relation>
+   </relations>
+   <pairs/>
+</root>

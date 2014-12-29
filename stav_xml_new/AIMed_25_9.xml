@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Combined@use@of@these@variables@increased@remarkably@the@diagnostic@value@(in@diagnosing@exudates@versus@transudates)@giving@sensitivity@=@93.14%@;@specificity@=@90.70%@;@positive@predictive@value@=@95.96%@;@negative@predictive@value@=@84.78%@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Combined</taggedword>
+      <taggedword index="2" part-of-speech="NN">use</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">these</taggedword>
+      <taggedword index="5" part-of-speech="NNS">variables</taggedword>
+      <taggedword index="6" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="7" part-of-speech="RB">remarkably</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">diagnostic</taggedword>
+      <taggedword index="10" part-of-speech="NN">value</taggedword>
+      <taggedword index="11" part-of-speech="NN">(in</taggedword>
+      <taggedword index="12" part-of-speech="VBG">diagnosing</taggedword>
+      <taggedword index="13" part-of-speech="NNS">exudates</taggedword>
+      <taggedword index="14" part-of-speech="IN">versus</taggedword>
+      <taggedword index="15" part-of-speech="NNP">transudates)</taggedword>
+      <taggedword index="16" part-of-speech="VBG">giving</taggedword>
+      <taggedword index="17" part-of-speech="NN">sensitivity</taggedword>
+      <taggedword index="18" part-of-speech="SYM">=</taggedword>
+      <taggedword index="19" part-of-speech="CD">93.14%</taggedword>
+      <taggedword index="20" part-of-speech=":">;</taggedword>
+      <taggedword index="21" part-of-speech="NN">specificity</taggedword>
+      <taggedword index="22" part-of-speech="SYM">=</taggedword>
+      <taggedword index="23" part-of-speech="CD">90.70%</taggedword>
+      <taggedword index="24" part-of-speech=":">;</taggedword>
+      <taggedword index="25" part-of-speech="JJ">positive</taggedword>
+      <taggedword index="26" part-of-speech="JJ">predictive</taggedword>
+      <taggedword index="27" part-of-speech="NN">value</taggedword>
+      <taggedword index="28" part-of-speech="SYM">=</taggedword>
+      <taggedword index="29" part-of-speech="CD">95.96%</taggedword>
+      <taggedword index="30" part-of-speech=":">;</taggedword>
+      <taggedword index="31" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="32" part-of-speech="JJ">predictive</taggedword>
+      <taggedword index="33" part-of-speech="NN">value</taggedword>
+      <taggedword index="34" part-of-speech="SYM">=</taggedword>
+      <taggedword index="35" part-of-speech="CD">84.78%</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Combined" dep_index="1" gov="use" gov_index="2">amod</dependency>
+      <dependency dep="use" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="these" dep_index="4" gov="variables" gov_index="5">det</dependency>
+      <dependency dep="variables" dep_index="5" gov="use" gov_index="2">prep_of</dependency>
+      <dependency dep="increased" dep_index="6" gov="variables" gov_index="5">partmod</dependency>
+      <dependency dep="remarkably" dep_index="7" gov="increased" gov_index="6">advmod</dependency>
+      <dependency dep="the" dep_index="8" gov="(in" gov_index="11">det</dependency>
+      <dependency dep="diagnostic" dep_index="9" gov="(in" gov_index="11">amod</dependency>
+      <dependency dep="value" dep_index="10" gov="(in" gov_index="11">nn</dependency>
+      <dependency dep="(in" dep_index="11" gov="remarkably" gov_index="7">pobj</dependency>
+      <dependency dep="diagnosing" dep_index="12" gov="increased" gov_index="6">xcomp</dependency>
+      <dependency dep="exudates" dep_index="13" gov="diagnosing" gov_index="12">dobj</dependency>
+      <dependency dep="transudates)" dep_index="15" gov="exudates" gov_index="13">prep_versus</dependency>
+      <dependency dep="giving" dep_index="16" gov="diagnosing" gov_index="12">xcomp</dependency>
+      <dependency dep="sensitivity" dep_index="17" gov="93.14%" gov_index="19">nsubj</dependency>
+      <dependency dep="=" dep_index="18" gov="93.14%" gov_index="19">dep</dependency>
+      <dependency dep="93.14%" dep_index="19" gov="giving" gov_index="16">ccomp</dependency>
+      <dependency dep="specificity" dep_index="21" gov="use" gov_index="2">dep</dependency>
+      <dependency dep="=" dep_index="22" gov="90.70%" gov_index="23">dep</dependency>
+      <dependency dep="90.70%" dep_index="23" gov="specificity" gov_index="21">rcmod</dependency>
+      <dependency dep="positive" dep_index="25" gov="value" gov_index="27">amod</dependency>
+      <dependency dep="predictive" dep_index="26" gov="value" gov_index="27">amod</dependency>
+      <dependency dep="value" dep_index="27" gov="use" gov_index="2">dep</dependency>
+      <dependency dep="=" dep_index="28" gov="95.96%" gov_index="29">dep</dependency>
+      <dependency dep="95.96%" dep_index="29" gov="value" gov_index="27">rcmod</dependency>
+      <dependency dep="negative" dep_index="31" gov="value" gov_index="33">amod</dependency>
+      <dependency dep="predictive" dep_index="32" gov="value" gov_index="33">amod</dependency>
+      <dependency dep="value" dep_index="33" gov="use" gov_index="2">dep</dependency>
+      <dependency dep="=" dep_index="34" gov="84.78%" gov_index="35">dep</dependency>
+      <dependency dep="84.78%" dep_index="35" gov="value" gov_index="33">rcmod</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

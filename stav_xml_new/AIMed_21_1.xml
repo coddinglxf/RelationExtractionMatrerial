@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Regulated@trafficking@of@neurotransmitter@transporters@:@common@notes@but@different@melodies@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Regulated</taggedword>
+      <taggedword index="2" part-of-speech="NN">trafficking</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">neurotransmitter</taggedword>
+      <taggedword index="5" part-of-speech="NNS">transporters</taggedword>
+      <taggedword index="6" part-of-speech=":">:</taggedword>
+      <taggedword index="7" part-of-speech="JJ">common</taggedword>
+      <taggedword index="8" part-of-speech="NNS">notes</taggedword>
+      <taggedword index="9" part-of-speech="CC">but</taggedword>
+      <taggedword index="10" part-of-speech="JJ">different</taggedword>
+      <taggedword index="11" part-of-speech="NNS">melodies</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Regulated" dep_index="1" gov="trafficking" gov_index="2">amod</dependency>
+      <dependency dep="trafficking" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="neurotransmitter" dep_index="4" gov="transporters" gov_index="5">nn</dependency>
+      <dependency dep="transporters" dep_index="5" gov="trafficking" gov_index="2">prep_of</dependency>
+      <dependency dep="common" dep_index="7" gov="notes" gov_index="8">amod</dependency>
+      <dependency dep="notes" dep_index="8" gov="trafficking" gov_index="2">dep</dependency>
+      <dependency dep="but" dep_index="9" gov="notes" gov_index="8">prep</dependency>
+      <dependency dep="different" dep_index="10" gov="melodies" gov_index="11">amod</dependency>
+      <dependency dep="melodies" dep_index="11" gov="but" gov_index="9">dep</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

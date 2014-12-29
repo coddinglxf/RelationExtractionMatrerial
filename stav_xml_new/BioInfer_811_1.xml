@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@established@an@MSH3@-deficient@HHUA/chr.2@cell@line@by@introducing@human@chromosome@2@,@which@carries@wild-type@MSH6@and@MSH2@genes@,@to@HHUA@cells@.@</sentence>
+   <tags>
+      <tag pos="21">MSH2</tag>
+      <tag pos="5">MSH3</tag>
+      <tag pos="19">MSH6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">established</taggedword>
+      <taggedword index="4" part-of-speech="DT">an</taggedword>
+      <taggedword index="5" part-of-speech="JJ">MSH3</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-deficient</taggedword>
+      <taggedword index="7" part-of-speech="NNS">HHUA/chr.2</taggedword>
+      <taggedword index="8" part-of-speech="NN">cell</taggedword>
+      <taggedword index="9" part-of-speech="NN">line</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="VBG">introducing</taggedword>
+      <taggedword index="12" part-of-speech="JJ">human</taggedword>
+      <taggedword index="13" part-of-speech="NN">chromosome</taggedword>
+      <taggedword index="14" part-of-speech="CD">2</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="WDT">which</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">carries</taggedword>
+      <taggedword index="18" part-of-speech="JJ">wild-type</taggedword>
+      <taggedword index="19" part-of-speech="NN">MSH6</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NN">MSH2</taggedword>
+      <taggedword index="22" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="NNP">HHUA</taggedword>
+      <taggedword index="26" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="established" gov_index="3">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="established" gov_index="3">aux</dependency>
+      <dependency dep="established" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="4" gov="line" gov_index="9">det</dependency>
+      <dependency dep="MSH3" dep_index="5" gov="line" gov_index="9">amod</dependency>
+      <dependency dep="-deficient" dep_index="6" gov="line" gov_index="9">amod</dependency>
+      <dependency dep="HHUA/chr.2" dep_index="7" gov="line" gov_index="9">nn</dependency>
+      <dependency dep="cell" dep_index="8" gov="line" gov_index="9">nn</dependency>
+      <dependency dep="line" dep_index="9" gov="established" gov_index="3">dobj</dependency>
+      <dependency dep="introducing" dep_index="11" gov="established" gov_index="3">prepc_by</dependency>
+      <dependency dep="human" dep_index="12" gov="chromosome" gov_index="13">amod</dependency>
+      <dependency dep="chromosome" dep_index="13" gov="introducing" gov_index="11">dobj</dependency>
+      <dependency dep="2" dep_index="14" gov="introducing" gov_index="11">tmod</dependency>
+      <dependency dep="2" dep_index="14" gov="carries" gov_index="17">nsubj</dependency>
+      <dependency dep="carries" dep_index="17" gov="2" gov_index="14">rcmod</dependency>
+      <dependency dep="wild-type" dep_index="18" gov="MSH6" gov_index="19">amod</dependency>
+      <dependency dep="MSH6" dep_index="19" gov="carries" gov_index="17">dobj</dependency>
+      <dependency dep="MSH2" dep_index="21" gov="genes" gov_index="22">nn</dependency>
+      <dependency dep="genes" dep_index="22" gov="carries" gov_index="17">dobj</dependency>
+      <dependency dep="genes" dep_index="22" gov="MSH6" gov_index="19">conj_and</dependency>
+      <dependency dep="HHUA" dep_index="25" gov="cells" gov_index="26">nn</dependency>
+      <dependency dep="cells" dep_index="26" gov="carries" gov_index="17">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500021" relationship="false">5 9 3 11 14 17 22 21</relation>
+      <relation position="1900021" relationship="false">19 17 22 21</relation>
+      <relation position="500019" relationship="false">5 9 3 11 14 17 19</relation>
+   </relations>
+   <pairs/>
+</root>

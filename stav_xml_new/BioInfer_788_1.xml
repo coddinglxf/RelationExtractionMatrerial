@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Using@the@known@three-dimensional@structure@of@the@homologous@actin@-binding@domain@of@fimbrin@,@these@results@have@enabled@us@to@determine@the@likely@orientation@of@the@utrophin@actin@-binding@domain@with@respect@to@the@actin@filament@.@</sentence>
+   <tags>
+      <tag pos="27">utrophin</tag>
+      <tag pos="13">fimbrin</tag>
+      <tag pos="35">actin</tag>
+      <tag pos="28">actin</tag>
+      <tag pos="9">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Using</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="VBN">known</taggedword>
+      <taggedword index="4" part-of-speech="JJ">three-dimensional</taggedword>
+      <taggedword index="5" part-of-speech="NN">structure</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="RB">homologous</taggedword>
+      <taggedword index="9" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="10" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="11" part-of-speech="NN">domain</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="DT">these</taggedword>
+      <taggedword index="16" part-of-speech="NNS">results</taggedword>
+      <taggedword index="17" part-of-speech="VBP">have</taggedword>
+      <taggedword index="18" part-of-speech="VBN">enabled</taggedword>
+      <taggedword index="19" part-of-speech="PRP">us</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">determine</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">likely</taggedword>
+      <taggedword index="24" part-of-speech="NN">orientation</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="JJ">utrophin</taggedword>
+      <taggedword index="28" part-of-speech="NN">actin</taggedword>
+      <taggedword index="29" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="30" part-of-speech="NN">domain</taggedword>
+      <taggedword index="31" part-of-speech="IN">with</taggedword>
+      <taggedword index="32" part-of-speech="NN">respect</taggedword>
+      <taggedword index="33" part-of-speech="TO">to</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="NN">actin</taggedword>
+      <taggedword index="36" part-of-speech="NN">filament</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Using" dep_index="1" gov="enabled" gov_index="18">partmod</dependency>
+      <dependency dep="the" dep_index="2" gov="structure" gov_index="5">det</dependency>
+      <dependency dep="known" dep_index="3" gov="structure" gov_index="5">amod</dependency>
+      <dependency dep="three-dimensional" dep_index="4" gov="structure" gov_index="5">amod</dependency>
+      <dependency dep="structure" dep_index="5" gov="Using" gov_index="1">dobj</dependency>
+      <dependency dep="the" dep_index="7" gov="domain" gov_index="11">det</dependency>
+      <dependency dep="homologous" dep_index="8" gov="domain" gov_index="11">advmod</dependency>
+      <dependency dep="actin" dep_index="9" gov="domain" gov_index="11">amod</dependency>
+      <dependency dep="-binding" dep_index="10" gov="domain" gov_index="11">amod</dependency>
+      <dependency dep="domain" dep_index="11" gov="structure" gov_index="5">prep_of</dependency>
+      <dependency dep="fimbrin" dep_index="13" gov="domain" gov_index="11">prep_of</dependency>
+      <dependency dep="these" dep_index="15" gov="results" gov_index="16">det</dependency>
+      <dependency dep="results" dep_index="16" gov="enabled" gov_index="18">nsubj</dependency>
+      <dependency dep="have" dep_index="17" gov="enabled" gov_index="18">aux</dependency>
+      <dependency dep="enabled" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="us" dep_index="19" gov="determine" gov_index="21">nsubj</dependency>
+      <dependency dep="to" dep_index="20" gov="determine" gov_index="21">aux</dependency>
+      <dependency dep="determine" dep_index="21" gov="enabled" gov_index="18">xcomp</dependency>
+      <dependency dep="the" dep_index="22" gov="orientation" gov_index="24">det</dependency>
+      <dependency dep="likely" dep_index="23" gov="orientation" gov_index="24">amod</dependency>
+      <dependency dep="orientation" dep_index="24" gov="determine" gov_index="21">dobj</dependency>
+      <dependency dep="the" dep_index="26" gov="domain" gov_index="30">det</dependency>
+      <dependency dep="utrophin" dep_index="27" gov="domain" gov_index="30">amod</dependency>
+      <dependency dep="actin" dep_index="28" gov="domain" gov_index="30">nn</dependency>
+      <dependency dep="-binding" dep_index="29" gov="domain" gov_index="30">amod</dependency>
+      <dependency dep="domain" dep_index="30" gov="orientation" gov_index="24">prep_of</dependency>
+      <dependency dep="respect" dep_index="32" gov="determine" gov_index="21">prep_with</dependency>
+      <dependency dep="the" dep_index="34" gov="filament" gov_index="36">det</dependency>
+      <dependency dep="actin" dep_index="35" gov="filament" gov_index="36">nn</dependency>
+      <dependency dep="filament" dep_index="36" gov="determine" gov_index="21">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300027" relationship="true">13 11 5 1 18 21 24 30 27</relation>
+      <relation position="2700035" relationship="true">27 30 24 21 36 35</relation>
+      <relation position="2700028" relationship="true">27 30 28</relation>
+      <relation position="900027" relationship="false">9 11 5 1 18 21 24 30 27</relation>
+      <relation position="1300035" relationship="false">13 11 5 1 18 21 36 35</relation>
+      <relation position="1300028" relationship="false">13 11 5 1 18 21 24 30 28</relation>
+      <relation position="900013" relationship="true">9 11 13</relation>
+      <relation position="2800035" relationship="false">28 30 24 21 36 35</relation>
+      <relation position="900035" relationship="false">9 11 5 1 18 21 36 35</relation>
+      <relation position="900028" relationship="false">9 11 5 1 18 21 24 30 28</relation>
+   </relations>
+   <pairs>
+      <pair>900013</pair>
+      <pair>2700035</pair>
+      <pair>1300027</pair>
+      <pair>2700028</pair>
+   </pairs>
+</root>

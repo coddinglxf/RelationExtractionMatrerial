@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@stress-induced@increase@in@ykzA@expression@is@absolutely@dependent@on@the@alternative@sigma@factor@sigmaB@,@which@controls@a@large@stationary-phase@and@stress@regulon@.@</sentence>
+   <tags>
+      <tag pos="15">sigmaB</tag>
+      <tag pos="5">ykzA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="JJ">stress-induced</taggedword>
+      <taggedword index="3" part-of-speech="NN">increase</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="NN">ykzA</taggedword>
+      <taggedword index="6" part-of-speech="NN">expression</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="8" part-of-speech="RB">absolutely</taggedword>
+      <taggedword index="9" part-of-speech="JJ">dependent</taggedword>
+      <taggedword index="10" part-of-speech="IN">on</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">alternative</taggedword>
+      <taggedword index="13" part-of-speech="NN">sigma</taggedword>
+      <taggedword index="14" part-of-speech="NN">factor</taggedword>
+      <taggedword index="15" part-of-speech="NN">sigmaB</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="WDT">which</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">controls</taggedword>
+      <taggedword index="19" part-of-speech="DT">a</taggedword>
+      <taggedword index="20" part-of-speech="JJ">large</taggedword>
+      <taggedword index="21" part-of-speech="NN">stationary-phase</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NN">stress</taggedword>
+      <taggedword index="24" part-of-speech="NN">regulon</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="increase" gov_index="3">det</dependency>
+      <dependency dep="stress-induced" dep_index="2" gov="increase" gov_index="3">amod</dependency>
+      <dependency dep="increase" dep_index="3" gov="dependent" gov_index="9">nsubj</dependency>
+      <dependency dep="ykzA" dep_index="5" gov="expression" gov_index="6">nn</dependency>
+      <dependency dep="expression" dep_index="6" gov="increase" gov_index="3">prep_in</dependency>
+      <dependency dep="is" dep_index="7" gov="dependent" gov_index="9">cop</dependency>
+      <dependency dep="absolutely" dep_index="8" gov="dependent" gov_index="9">advmod</dependency>
+      <dependency dep="dependent" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="sigmaB" gov_index="15">det</dependency>
+      <dependency dep="alternative" dep_index="12" gov="sigmaB" gov_index="15">amod</dependency>
+      <dependency dep="sigma" dep_index="13" gov="sigmaB" gov_index="15">nn</dependency>
+      <dependency dep="factor" dep_index="14" gov="sigmaB" gov_index="15">nn</dependency>
+      <dependency dep="sigmaB" dep_index="15" gov="dependent" gov_index="9">prep_on</dependency>
+      <dependency dep="sigmaB" dep_index="15" gov="controls" gov_index="18">nsubj</dependency>
+      <dependency dep="controls" dep_index="18" gov="sigmaB" gov_index="15">rcmod</dependency>
+      <dependency dep="a" dep_index="19" gov="stationary-phase" gov_index="21">det</dependency>
+      <dependency dep="large" dep_index="20" gov="stationary-phase" gov_index="21">amod</dependency>
+      <dependency dep="stationary-phase" dep_index="21" gov="controls" gov_index="18">dobj</dependency>
+      <dependency dep="stress" dep_index="23" gov="regulon" gov_index="24">nn</dependency>
+      <dependency dep="regulon" dep_index="24" gov="controls" gov_index="18">dobj</dependency>
+      <dependency dep="regulon" dep_index="24" gov="stationary-phase" gov_index="21">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500015" relationship="true">5 6 3 9 15</relation>
+   </relations>
+   <pairs>
+      <pair>500015</pair>
+   </pairs>
+</root>

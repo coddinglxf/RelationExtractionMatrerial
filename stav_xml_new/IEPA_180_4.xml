@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Leptin@increases@the@expression@of@uncoupling proteins@(UCP-1@,@-2@,@-3)@and@thus@energy@dissipation@</sentence>
+   <tags>
+      <tag pos="1">Leptin</tag>
+      <tag pos="6">uncoupling proteins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Leptin</taggedword>
+      <taggedword index="2" part-of-speech="NNS">increases</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="JJ">uncoupling proteins</taggedword>
+      <taggedword index="7" part-of-speech="CD">(UCP-1</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CD">-2</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CD">-3)</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="CD">thus</taggedword>
+      <taggedword index="14" part-of-speech="NN">energy</taggedword>
+      <taggedword index="15" part-of-speech="NN">dissipation</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Leptin" dep_index="1" gov="increases" gov_index="2">nn</dependency>
+      <dependency dep="increases" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="expression" gov_index="4">det</dependency>
+      <dependency dep="expression" dep_index="4" gov="increases" gov_index="2">dep</dependency>
+      <dependency dep="uncoupling proteins" dep_index="6" gov="dissipation" gov_index="15">amod</dependency>
+      <dependency dep="(UCP-1" dep_index="7" gov="uncoupling proteins" gov_index="6">tmod</dependency>
+      <dependency dep="-2" dep_index="9" gov="(UCP-1" gov_index="7">num</dependency>
+      <dependency dep="-3)" dep_index="11" gov="(UCP-1" gov_index="7">num</dependency>
+      <dependency dep="thus" dep_index="13" gov="uncoupling proteins" gov_index="6">tmod</dependency>
+      <dependency dep="thus" dep_index="13" gov="(UCP-1" gov_index="7">conj_and</dependency>
+      <dependency dep="energy" dep_index="14" gov="dissipation" gov_index="15">nn</dependency>
+      <dependency dep="dissipation" dep_index="15" gov="expression" gov_index="4">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100006" relationship="true">1 2 4 15 6</relation>
+   </relations>
+   <pairs>
+      <pair>100006</pair>
+   </pairs>
+</root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>TNFalpha@,@alpha1AT@,@and@complement@factors@C3@and@C4@concentrations@were@measured@simultaneously@in@blood@and@serous@effusion@using@commercially@available@methods@.@</sentence>
+   <tags>
+      <tag pos="1">TNFalpha</tag>
+      <tag pos="3">alpha1AT</tag>
+      <tag pos="8">C3</tag>
+      <tag pos="10">C4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">TNFalpha</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="JJ">alpha1AT</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">complement</taggedword>
+      <taggedword index="7" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="8" part-of-speech="NN">C3</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NNP">C4</taggedword>
+      <taggedword index="11" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="12" part-of-speech="VBD">were</taggedword>
+      <taggedword index="13" part-of-speech="VBN">measured</taggedword>
+      <taggedword index="14" part-of-speech="RB">simultaneously</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="NN">blood</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNS">serous</taggedword>
+      <taggedword index="19" part-of-speech="NN">effusion</taggedword>
+      <taggedword index="20" part-of-speech="VBG">using</taggedword>
+      <taggedword index="21" part-of-speech="RB">commercially</taggedword>
+      <taggedword index="22" part-of-speech="JJ">available</taggedword>
+      <taggedword index="23" part-of-speech="NNS">methods</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="TNFalpha" dep_index="1" gov="measured" gov_index="13">nsubjpass</dependency>
+      <dependency dep="alpha1AT" dep_index="3" gov="TNFalpha" gov_index="1">appos</dependency>
+      <dependency dep="complement" dep_index="6" gov="C3" gov_index="8">nn</dependency>
+      <dependency dep="factors" dep_index="7" gov="C3" gov_index="8">nn</dependency>
+      <dependency dep="C3" dep_index="8" gov="TNFalpha" gov_index="1">appos</dependency>
+      <dependency dep="C3" dep_index="8" gov="alpha1AT" gov_index="3">conj_and</dependency>
+      <dependency dep="C4" dep_index="10" gov="concentrations" gov_index="11">nn</dependency>
+      <dependency dep="concentrations" dep_index="11" gov="TNFalpha" gov_index="1">appos</dependency>
+      <dependency dep="concentrations" dep_index="11" gov="alpha1AT" gov_index="3">conj_and</dependency>
+      <dependency dep="were" dep_index="12" gov="measured" gov_index="13">auxpass</dependency>
+      <dependency dep="measured" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="simultaneously" dep_index="14" gov="measured" gov_index="13">advmod</dependency>
+      <dependency dep="blood" dep_index="16" gov="effusion" gov_index="19">nn</dependency>
+      <dependency dep="serous" dep_index="18" gov="blood" gov_index="16">conj_and</dependency>
+      <dependency dep="serous" dep_index="18" gov="effusion" gov_index="19">nn</dependency>
+      <dependency dep="effusion" dep_index="19" gov="measured" gov_index="13">prep_in</dependency>
+      <dependency dep="using" dep_index="20" gov="effusion" gov_index="19">partmod</dependency>
+      <dependency dep="commercially" dep_index="21" gov="available" gov_index="22">advmod</dependency>
+      <dependency dep="available" dep_index="22" gov="methods" gov_index="23">amod</dependency>
+      <dependency dep="methods" dep_index="23" gov="using" gov_index="20">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false"></relation>
+      <relation position="100008" relationship="false"></relation>
+      <relation position="100010" relationship="false"></relation>
+      <relation position="300008" relationship="false">3 1 8</relation>
+      <relation position="300010" relationship="false">3 1 11 10</relation>
+      <relation position="800010" relationship="false">8 1 11 10</relation>
+   </relations>
+   <pairs/>
+</root>

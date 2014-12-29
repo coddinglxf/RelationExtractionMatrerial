@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interaction@between@the@two@polypeptides@reconstitutes@function@of@a@transactivator@which@controls@expression@of@reporters@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Interaction</taggedword>
+      <taggedword index="2" part-of-speech="IN">between</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="CD">two</taggedword>
+      <taggedword index="5" part-of-speech="NNS">polypeptides</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">reconstitutes</taggedword>
+      <taggedword index="7" part-of-speech="NN">function</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="NN">transactivator</taggedword>
+      <taggedword index="11" part-of-speech="WDT">which</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">controls</taggedword>
+      <taggedword index="13" part-of-speech="NN">expression</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNS">reporters</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interaction" dep_index="1" gov="reconstitutes" gov_index="6">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="polypeptides" gov_index="5">det</dependency>
+      <dependency dep="two" dep_index="4" gov="polypeptides" gov_index="5">num</dependency>
+      <dependency dep="polypeptides" dep_index="5" gov="Interaction" gov_index="1">prep_between</dependency>
+      <dependency dep="reconstitutes" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="function" dep_index="7" gov="reconstitutes" gov_index="6">dobj</dependency>
+      <dependency dep="a" dep_index="9" gov="transactivator" gov_index="10">det</dependency>
+      <dependency dep="transactivator" dep_index="10" gov="function" gov_index="7">prep_of</dependency>
+      <dependency dep="transactivator" dep_index="10" gov="controls" gov_index="12">nsubj</dependency>
+      <dependency dep="controls" dep_index="12" gov="transactivator" gov_index="10">rcmod</dependency>
+      <dependency dep="expression" dep_index="13" gov="controls" gov_index="12">dobj</dependency>
+      <dependency dep="reporters" dep_index="15" gov="expression" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

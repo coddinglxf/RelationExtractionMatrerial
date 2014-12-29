@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Human@spleen@tyrosine@kinase@p72Syk@associates@with@the@Src-family@kinase@p53@/@56Lyn@and@a@120-kDa phosphoprotein@.@</sentence>
+   <tags>
+      <tag pos="5">p72Syk</tag>
+      <tag pos="11">p53</tag>
+      <tag pos="13">56Lyn</tag>
+      <tag pos="16">120-kDa phosphoprotein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Human</taggedword>
+      <taggedword index="2" part-of-speech="NN">spleen</taggedword>
+      <taggedword index="3" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="4" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="5" part-of-speech="JJ">p72Syk</taggedword>
+      <taggedword index="6" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">Src-family</taggedword>
+      <taggedword index="10" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="11" part-of-speech="NN">p53</taggedword>
+      <taggedword index="12" part-of-speech=":">/</taggedword>
+      <taggedword index="13" part-of-speech="NNS">56Lyn</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="NN">120-kDa phosphoprotein</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Human" dep_index="1" gov="associates" gov_index="6">amod</dependency>
+      <dependency dep="spleen" dep_index="2" gov="associates" gov_index="6">nn</dependency>
+      <dependency dep="tyrosine" dep_index="3" gov="associates" gov_index="6">amod</dependency>
+      <dependency dep="kinase" dep_index="4" gov="associates" gov_index="6">amod</dependency>
+      <dependency dep="p72Syk" dep_index="5" gov="associates" gov_index="6">amod</dependency>
+      <dependency dep="associates" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="p53" gov_index="11">det</dependency>
+      <dependency dep="Src-family" dep_index="9" gov="p53" gov_index="11">amod</dependency>
+      <dependency dep="kinase" dep_index="10" gov="p53" gov_index="11">nn</dependency>
+      <dependency dep="p53" dep_index="11" gov="associates" gov_index="6">prep_with</dependency>
+      <dependency dep="/" dep_index="12" gov="associates" gov_index="6">punct</dependency>
+      <dependency dep="56Lyn" dep_index="13" gov="associates" gov_index="6">dep</dependency>
+      <dependency dep="a" dep_index="15" gov="120-kDa phosphoprotein" gov_index="16">det</dependency>
+      <dependency dep="120-kDa phosphoprotein" dep_index="16" gov="associates" gov_index="6">dep</dependency>
+      <dependency dep="120-kDa phosphoprotein" dep_index="16" gov="56Lyn" gov_index="13">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500011" relationship="true">5 6 11</relation>
+      <relation position="500013" relationship="true">5 6 13</relation>
+      <relation position="500016" relationship="true">5 6 16</relation>
+      <relation position="1100013" relationship="false">11 6 13</relation>
+      <relation position="1100016" relationship="false">11 6 16</relation>
+      <relation position="1300016" relationship="false">13 6 16</relation>
+   </relations>
+   <pairs>
+      <pair>500013</pair>
+      <pair>500011</pair>
+      <pair>500016</pair>
+   </pairs>
+</root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Several@proteins@,@such@as@calmodulin@,@calbindin@,@actin@,@tubulin@,@and@fimbrin@,@have@previously@been@described@.@</sentence>
+   <tags>
+      <tag pos="8">calbindin</tag>
+      <tag pos="15">fimbrin</tag>
+      <tag pos="6">calmodulin</tag>
+      <tag pos="10">actin</tag>
+      <tag pos="12">tubulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Several</taggedword>
+      <taggedword index="2" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">such</taggedword>
+      <taggedword index="5" part-of-speech="IN">as</taggedword>
+      <taggedword index="6" part-of-speech="NN">calmodulin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">calbindin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NN">tubulin</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="VBP">have</taggedword>
+      <taggedword index="18" part-of-speech="RB">previously</taggedword>
+      <taggedword index="19" part-of-speech="VBN">been</taggedword>
+      <taggedword index="20" part-of-speech="VBN">described</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Several" dep_index="1" gov="proteins" gov_index="2">amod</dependency>
+      <dependency dep="proteins" dep_index="2" gov="described" gov_index="20">nsubjpass</dependency>
+      <dependency dep="calmodulin" dep_index="6" gov="proteins" gov_index="2">prep_such_as</dependency>
+      <dependency dep="calbindin" dep_index="8" gov="calmodulin" gov_index="6">appos</dependency>
+      <dependency dep="actin" dep_index="10" gov="calmodulin" gov_index="6">appos</dependency>
+      <dependency dep="actin" dep_index="10" gov="calbindin" gov_index="8">conj_and</dependency>
+      <dependency dep="tubulin" dep_index="12" gov="calmodulin" gov_index="6">appos</dependency>
+      <dependency dep="tubulin" dep_index="12" gov="calbindin" gov_index="8">conj_and</dependency>
+      <dependency dep="fimbrin" dep_index="15" gov="calmodulin" gov_index="6">appos</dependency>
+      <dependency dep="fimbrin" dep_index="15" gov="calbindin" gov_index="8">conj_and</dependency>
+      <dependency dep="have" dep_index="17" gov="described" gov_index="20">aux</dependency>
+      <dependency dep="previously" dep_index="18" gov="described" gov_index="20">advmod</dependency>
+      <dependency dep="been" dep_index="19" gov="described" gov_index="20">auxpass</dependency>
+      <dependency dep="described" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800015" relationship="false">8 6 15</relation>
+      <relation position="600008" relationship="false"></relation>
+      <relation position="800010" relationship="false">8 6 10</relation>
+      <relation position="800012" relationship="false">8 6 12</relation>
+      <relation position="600015" relationship="false"></relation>
+      <relation position="1000015" relationship="false">10 6 15</relation>
+      <relation position="1200015" relationship="false">12 6 15</relation>
+      <relation position="600010" relationship="false"></relation>
+      <relation position="600012" relationship="false"></relation>
+      <relation position="1000012" relationship="false">10 6 12</relation>
+   </relations>
+   <pairs/>
+</root>

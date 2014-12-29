@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Purification@of@cofilin@,@a@21,000@molecular@weight@actin-binding protein@,@from@porcine@kidney@and@identification@of@the@cofilin@-binding@site@in@the@actin@sequence@.@</sentence>
+   <tags>
+      <tag pos="23">actin</tag>
+      <tag pos="18">cofilin</tag>
+      <tag pos="9">actin-binding protein</tag>
+      <tag pos="3">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Purification</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">21,000</taggedword>
+      <taggedword index="7" part-of-speech="JJ">molecular</taggedword>
+      <taggedword index="8" part-of-speech="NN">weight</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin-binding protein</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="IN">from</taggedword>
+      <taggedword index="12" part-of-speech="JJ">porcine</taggedword>
+      <taggedword index="13" part-of-speech="NN">kidney</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">identification</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">cofilin</taggedword>
+      <taggedword index="19" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="20" part-of-speech="NN">site</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">actin</taggedword>
+      <taggedword index="24" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Purification" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cofilin" dep_index="3" gov="Purification" gov_index="1">prep_of</dependency>
+      <dependency dep="a" dep_index="5" gov="actin-binding protein" gov_index="9">det</dependency>
+      <dependency dep="21,000" dep_index="6" gov="actin-binding protein" gov_index="9">amod</dependency>
+      <dependency dep="molecular" dep_index="7" gov="actin-binding protein" gov_index="9">amod</dependency>
+      <dependency dep="weight" dep_index="8" gov="actin-binding protein" gov_index="9">nn</dependency>
+      <dependency dep="actin-binding protein" dep_index="9" gov="cofilin" gov_index="3">appos</dependency>
+      <dependency dep="porcine" dep_index="12" gov="kidney" gov_index="13">amod</dependency>
+      <dependency dep="kidney" dep_index="13" gov="Purification" gov_index="1">prep_from</dependency>
+      <dependency dep="identification" dep_index="15" gov="Purification" gov_index="1">prep_from</dependency>
+      <dependency dep="identification" dep_index="15" gov="kidney" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="site" gov_index="20">det</dependency>
+      <dependency dep="cofilin" dep_index="18" gov="site" gov_index="20">amod</dependency>
+      <dependency dep="-binding" dep_index="19" gov="site" gov_index="20">amod</dependency>
+      <dependency dep="site" dep_index="20" gov="Purification" gov_index="1">prep_of</dependency>
+      <dependency dep="the" dep_index="22" gov="sequence" gov_index="24">det</dependency>
+      <dependency dep="actin" dep_index="23" gov="sequence" gov_index="24">nn</dependency>
+      <dependency dep="sequence" dep_index="24" gov="site" gov_index="20">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800023" relationship="true">18 20 24 23</relation>
+      <relation position="900023" relationship="false">9 3 1 20 24 23</relation>
+      <relation position="300023" relationship="false">3 1 20 24 23</relation>
+      <relation position="900018" relationship="false">9 3 1 20 18</relation>
+      <relation position="300018" relationship="false">3 1 20 18</relation>
+      <relation position="300009" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>1800023</pair>
+      <pair>300009</pair>
+   </pairs>
+</root>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Both@subunits@form@continuous@alpha-helices@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">Both</taggedword>
+      <taggedword index="2" part-of-speech="NNS">subunits</taggedword>
+      <taggedword index="3" part-of-speech="VBP">form</taggedword>
+      <taggedword index="4" part-of-speech="JJ">continuous</taggedword>
+      <taggedword index="5" part-of-speech="NNS">alpha-helices</taggedword>
+      <taggedword index="6" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Both" dep_index="1" gov="subunits" gov_index="2">det</dependency>
+      <dependency dep="subunits" dep_index="2" gov="form" gov_index="3">nsubj</dependency>
+      <dependency dep="form" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="continuous" dep_index="4" gov="alpha-helices" gov_index="5">amod</dependency>
+      <dependency dep="alpha-helices" dep_index="5" gov="form" gov_index="3">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

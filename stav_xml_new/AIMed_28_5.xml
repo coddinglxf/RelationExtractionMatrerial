@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@hGITR@gene@mapped@to@chromosome@1p36@,@near@a@cluster@of@five@genes@encoding@TNFR@homologs@[1]@[6]@.@</sentence>
+   <tags>
+      <tag pos="2">hGITR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">hGITR</taggedword>
+      <taggedword index="3" part-of-speech="NN">gene</taggedword>
+      <taggedword index="4" part-of-speech="VBD">mapped</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="NN">chromosome</taggedword>
+      <taggedword index="7" part-of-speech="NNS">1p36</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="IN">near</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="NN">cluster</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="CD">five</taggedword>
+      <taggedword index="14" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="15" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="16" part-of-speech="CD">TNFR</taggedword>
+      <taggedword index="17" part-of-speech="NNS">homologs</taggedword>
+      <taggedword index="18" part-of-speech="CD">[1]</taggedword>
+      <taggedword index="19" part-of-speech="CD">[6]</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="gene" gov_index="3">det</dependency>
+      <dependency dep="hGITR" dep_index="2" gov="gene" gov_index="3">nn</dependency>
+      <dependency dep="gene" dep_index="3" gov="mapped" gov_index="4">nsubj</dependency>
+      <dependency dep="mapped" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="chromosome" dep_index="6" gov="1p36" gov_index="7">nn</dependency>
+      <dependency dep="1p36" dep_index="7" gov="mapped" gov_index="4">prep_to</dependency>
+      <dependency dep="a" dep_index="10" gov="cluster" gov_index="11">det</dependency>
+      <dependency dep="cluster" dep_index="11" gov="mapped" gov_index="4">prep_near</dependency>
+      <dependency dep="five" dep_index="13" gov="genes" gov_index="14">num</dependency>
+      <dependency dep="genes" dep_index="14" gov="cluster" gov_index="11">prep_of</dependency>
+      <dependency dep="encoding" dep_index="15" gov="genes" gov_index="14">partmod</dependency>
+      <dependency dep="TNFR" dep_index="16" gov="homologs" gov_index="17">num</dependency>
+      <dependency dep="homologs" dep_index="17" gov="encoding" gov_index="15">dobj</dependency>
+      <dependency dep="[1]" dep_index="18" gov="[6]" gov_index="19">number</dependency>
+      <dependency dep="[6]" dep_index="19" gov="homologs" gov_index="17">num</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

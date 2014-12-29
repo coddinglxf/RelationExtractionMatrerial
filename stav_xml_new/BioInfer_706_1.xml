@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@sequences@of@the@predicted@HMP-1@,@HMP-2@,@and@HMR-1@proteins@are@related@to@the@cell adhesion proteins@alpha-catenin@,@beta-catenin@/@Armadillo@,@and@classical cadherin@,@respectively@.@</sentence>
+   <tags>
+      <tag pos="20">beta-catenin</tag>
+      <tag pos="17">cell adhesion proteins</tag>
+      <tag pos="18">alpha-catenin</tag>
+      <tag pos="25">classical cadherin</tag>
+      <tag pos="8">HMP-2</tag>
+      <tag pos="11">HMR-1</tag>
+      <tag pos="22">Armadillo</tag>
+      <tag pos="6">HMP-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">sequences</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">predicted</taggedword>
+      <taggedword index="6" part-of-speech="NN">HMP-1</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">HMP-2</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">HMR-1</taggedword>
+      <taggedword index="12" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="13" part-of-speech="VBP">are</taggedword>
+      <taggedword index="14" part-of-speech="VBN">related</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">cell adhesion proteins</taggedword>
+      <taggedword index="18" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="21" part-of-speech="NNP">/</taggedword>
+      <taggedword index="22" part-of-speech="NNP">Armadillo</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="NN">classical cadherin</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="sequences" gov_index="2">det</dependency>
+      <dependency dep="sequences" dep_index="2" gov="related" gov_index="14">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="HMP-1" gov_index="6">det</dependency>
+      <dependency dep="predicted" dep_index="5" gov="HMP-1" gov_index="6">amod</dependency>
+      <dependency dep="HMP-1" dep_index="6" gov="sequences" gov_index="2">prep_of</dependency>
+      <dependency dep="HMP-2" dep_index="8" gov="sequences" gov_index="2">prep_of</dependency>
+      <dependency dep="HMP-2" dep_index="8" gov="HMP-1" gov_index="6">conj_and</dependency>
+      <dependency dep="HMR-1" dep_index="11" gov="proteins" gov_index="12">nn</dependency>
+      <dependency dep="proteins" dep_index="12" gov="sequences" gov_index="2">prep_of</dependency>
+      <dependency dep="proteins" dep_index="12" gov="HMP-1" gov_index="6">conj_and</dependency>
+      <dependency dep="are" dep_index="13" gov="related" gov_index="14">auxpass</dependency>
+      <dependency dep="related" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="16" gov="alpha-catenin" gov_index="18">det</dependency>
+      <dependency dep="cell adhesion proteins" dep_index="17" gov="alpha-catenin" gov_index="18">amod</dependency>
+      <dependency dep="alpha-catenin" dep_index="18" gov="related" gov_index="14">prep_to</dependency>
+      <dependency dep="beta-catenin" dep_index="20" gov="Armadillo" gov_index="22">amod</dependency>
+      <dependency dep="/" dep_index="21" gov="Armadillo" gov_index="22">nn</dependency>
+      <dependency dep="Armadillo" dep_index="22" gov="related" gov_index="14">prep_to</dependency>
+      <dependency dep="Armadillo" dep_index="22" gov="alpha-catenin" gov_index="18">conj_and</dependency>
+      <dependency dep="classical cadherin" dep_index="25" gov="related" gov_index="14">prep_to</dependency>
+      <dependency dep="classical cadherin" dep_index="25" gov="alpha-catenin" gov_index="18">conj_and</dependency>
+      <dependency dep="respectively" dep_index="27" gov="related" gov_index="14">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700020" relationship="true">17 18 14 22 20</relation>
+      <relation position="1800020" relationship="false">18 14 22 20</relation>
+      <relation position="2000025" relationship="false">20 22 14 25</relation>
+      <relation position="800020" relationship="true">8 2 14 22 20</relation>
+      <relation position="1100020" relationship="false">11 12 2 14 22 20</relation>
+      <relation position="2000022" relationship="false"></relation>
+      <relation position="600020" relationship="false">6 2 14 22 20</relation>
+      <relation position="1700018" relationship="true"></relation>
+      <relation position="1700025" relationship="true">17 18 14 25</relation>
+      <relation position="800017" relationship="false">8 2 14 18 17</relation>
+      <relation position="1100017" relationship="false">11 12 2 14 18 17</relation>
+      <relation position="1700022" relationship="true">17 18 14 22</relation>
+      <relation position="600017" relationship="false">6 2 14 18 17</relation>
+      <relation position="1800025" relationship="false">18 14 25</relation>
+      <relation position="800018" relationship="false">8 2 14 18</relation>
+      <relation position="1100018" relationship="false">11 12 2 14 18</relation>
+      <relation position="1800022" relationship="false">18 14 22</relation>
+      <relation position="600018" relationship="true">6 2 14 18</relation>
+      <relation position="800025" relationship="false">8 2 14 25</relation>
+      <relation position="1100025" relationship="true">11 12 2 14 25</relation>
+      <relation position="2200025" relationship="false">22 14 25</relation>
+      <relation position="600025" relationship="false">6 2 14 25</relation>
+      <relation position="800011" relationship="false">8 2 12 11</relation>
+      <relation position="800022" relationship="true">8 2 14 22</relation>
+      <relation position="600008" relationship="false">6 2 8</relation>
+      <relation position="1100022" relationship="false">11 12 2 14 22</relation>
+      <relation position="600011" relationship="false">6 2 12 11</relation>
+      <relation position="600022" relationship="false">6 2 14 22</relation>
+   </relations>
+   <pairs>
+      <pair>800020</pair>
+      <pair>800022</pair>
+      <pair>1700025</pair>
+      <pair>1100025</pair>
+      <pair>1700022</pair>
+      <pair>600018</pair>
+      <pair>1700020</pair>
+      <pair>1700018</pair>
+   </pairs>
+</root>

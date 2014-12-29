@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Assaying@of@tumor necrosis factor alpha@,@complement@factors@,@and@alpha-1-antitrypsin@in@the@diagnosis@of@malignant@serous@effusions@.@</sentence>
+   <tags>
+      <tag pos="3">tumor necrosis factor alpha</tag>
+      <tag pos="9">alpha-1-antitrypsin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Assaying</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">tumor necrosis factor alpha</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="JJ">complement</taggedword>
+      <taggedword index="6" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">alpha-1-antitrypsin</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">diagnosis</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">malignant</taggedword>
+      <taggedword index="15" part-of-speech="NNS">serous</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">effusions</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Assaying" dep_index="1" gov="effusions" gov_index="16">nsubj</dependency>
+      <dependency dep="tumor necrosis factor alpha" dep_index="3" gov="Assaying" gov_index="1">prep_of</dependency>
+      <dependency dep="complement" dep_index="5" gov="factors" gov_index="6">amod</dependency>
+      <dependency dep="factors" dep_index="6" gov="Assaying" gov_index="1">prep_of</dependency>
+      <dependency dep="factors" dep_index="6" gov="tumor necrosis factor alpha" gov_index="3">conj_and</dependency>
+      <dependency dep="alpha-1-antitrypsin" dep_index="9" gov="Assaying" gov_index="1">prep_of</dependency>
+      <dependency dep="alpha-1-antitrypsin" dep_index="9" gov="tumor necrosis factor alpha" gov_index="3">conj_and</dependency>
+      <dependency dep="the" dep_index="11" gov="diagnosis" gov_index="12">det</dependency>
+      <dependency dep="diagnosis" dep_index="12" gov="alpha-1-antitrypsin" gov_index="9">prep_in</dependency>
+      <dependency dep="malignant" dep_index="14" gov="serous" gov_index="15">amod</dependency>
+      <dependency dep="serous" dep_index="15" gov="diagnosis" gov_index="12">prep_of</dependency>
+      <dependency dep="effusions" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300009" relationship="false">3 1 9</relation>
+   </relations>
+   <pairs/>
+</root>

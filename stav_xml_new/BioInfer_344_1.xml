@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@infected@cells@,@C protein@was@detected@exclusively@in@the@cytoplasm@as@granular@fluorescence@,@which@coincided@very@well@with@the@distribution@of@nucleocapsid protein@NP@and@phosphoprotein@P@,@which@were@also@detected@with@specific@antisera@.@</sentence>
+   <tags>
+      <tag pos="24">nucleocapsid protein</tag>
+      <tag pos="5">C protein</tag>
+      <tag pos="25">NP</tag>
+      <tag pos="27">phosphoprotein</tag>
+      <tag pos="28">P</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">infected</taggedword>
+      <taggedword index="3" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NNP">C protein</taggedword>
+      <taggedword index="6" part-of-speech="VBD">was</taggedword>
+      <taggedword index="7" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="8" part-of-speech="RB">exclusively</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">cytoplasm</taggedword>
+      <taggedword index="12" part-of-speech="IN">as</taggedword>
+      <taggedword index="13" part-of-speech="JJ">granular</taggedword>
+      <taggedword index="14" part-of-speech="NN">fluorescence</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="WDT">which</taggedword>
+      <taggedword index="17" part-of-speech="VBD">coincided</taggedword>
+      <taggedword index="18" part-of-speech="RB">very</taggedword>
+      <taggedword index="19" part-of-speech="RB">well</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">distribution</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NNP">nucleocapsid protein</taggedword>
+      <taggedword index="25" part-of-speech="NNP">NP</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="NNP">phosphoprotein</taggedword>
+      <taggedword index="28" part-of-speech="NNP">P</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="WDT">which</taggedword>
+      <taggedword index="31" part-of-speech="VBD">were</taggedword>
+      <taggedword index="32" part-of-speech="RB">also</taggedword>
+      <taggedword index="33" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="34" part-of-speech="IN">with</taggedword>
+      <taggedword index="35" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="36" part-of-speech="NN">antisera</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="infected" dep_index="2" gov="cells" gov_index="3">amod</dependency>
+      <dependency dep="cells" dep_index="3" gov="detected" gov_index="7">prep_in</dependency>
+      <dependency dep="C protein" dep_index="5" gov="detected" gov_index="7">nsubjpass</dependency>
+      <dependency dep="was" dep_index="6" gov="detected" gov_index="7">auxpass</dependency>
+      <dependency dep="detected" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="exclusively" dep_index="8" gov="detected" gov_index="7">advmod</dependency>
+      <dependency dep="the" dep_index="10" gov="cytoplasm" gov_index="11">det</dependency>
+      <dependency dep="cytoplasm" dep_index="11" gov="detected" gov_index="7">prep_in</dependency>
+      <dependency dep="granular" dep_index="13" gov="fluorescence" gov_index="14">amod</dependency>
+      <dependency dep="fluorescence" dep_index="14" gov="cytoplasm" gov_index="11">prep_as</dependency>
+      <dependency dep="fluorescence" dep_index="14" gov="coincided" gov_index="17">nsubj</dependency>
+      <dependency dep="coincided" dep_index="17" gov="fluorescence" gov_index="14">rcmod</dependency>
+      <dependency dep="very" dep_index="18" gov="well" gov_index="19">advmod</dependency>
+      <dependency dep="well" dep_index="19" gov="coincided" gov_index="17">advmod</dependency>
+      <dependency dep="the" dep_index="21" gov="distribution" gov_index="22">det</dependency>
+      <dependency dep="distribution" dep_index="22" gov="coincided" gov_index="17">prep_with</dependency>
+      <dependency dep="distribution" dep_index="22" gov="detected" gov_index="33">nsubjpass</dependency>
+      <dependency dep="nucleocapsid protein" dep_index="24" gov="NP" gov_index="25">nn</dependency>
+      <dependency dep="NP" dep_index="25" gov="distribution" gov_index="22">prep_of</dependency>
+      <dependency dep="phosphoprotein" dep_index="27" gov="P" gov_index="28">nn</dependency>
+      <dependency dep="P" dep_index="28" gov="distribution" gov_index="22">prep_of</dependency>
+      <dependency dep="P" dep_index="28" gov="NP" gov_index="25">conj_and</dependency>
+      <dependency dep="were" dep_index="31" gov="detected" gov_index="33">auxpass</dependency>
+      <dependency dep="also" dep_index="32" gov="detected" gov_index="33">advmod</dependency>
+      <dependency dep="detected" dep_index="33" gov="distribution" gov_index="22">rcmod</dependency>
+      <dependency dep="specific" dep_index="35" gov="antisera" gov_index="36">amod</dependency>
+      <dependency dep="antisera" dep_index="36" gov="detected" gov_index="33">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500024" relationship="false">5 7 11 14 17 22 25 24</relation>
+      <relation position="2400025" relationship="true"></relation>
+      <relation position="2400027" relationship="false">24 25 22 28 27</relation>
+      <relation position="2400028" relationship="false">24 25 22 28</relation>
+      <relation position="500025" relationship="true">5 7 11 14 17 22 25</relation>
+      <relation position="500027" relationship="false">5 7 11 14 17 22 28 27</relation>
+      <relation position="500028" relationship="true">5 7 11 14 17 22 28</relation>
+      <relation position="2500027" relationship="false">25 22 28 27</relation>
+      <relation position="2500028" relationship="false">25 22 28</relation>
+      <relation position="2700028" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>500028</pair>
+      <pair>500025</pair>
+      <pair>2700028</pair>
+      <pair>2400025</pair>
+   </pairs>
+</root>

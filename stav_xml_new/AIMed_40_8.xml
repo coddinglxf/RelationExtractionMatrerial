@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@dimeric@assemblage@provides@a@structural@mechanism@for@FGF@signal@transduction@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="JJ">dimeric</taggedword>
+      <taggedword index="3" part-of-speech="NN">assemblage</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">provides</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="7" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="8" part-of-speech="IN">for</taggedword>
+      <taggedword index="9" part-of-speech="NNP">FGF</taggedword>
+      <taggedword index="10" part-of-speech="NN">signal</taggedword>
+      <taggedword index="11" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="assemblage" gov_index="3">det</dependency>
+      <dependency dep="dimeric" dep_index="2" gov="assemblage" gov_index="3">amod</dependency>
+      <dependency dep="assemblage" dep_index="3" gov="provides" gov_index="4">nsubj</dependency>
+      <dependency dep="provides" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="mechanism" gov_index="7">det</dependency>
+      <dependency dep="structural" dep_index="6" gov="mechanism" gov_index="7">amod</dependency>
+      <dependency dep="mechanism" dep_index="7" gov="provides" gov_index="4">dobj</dependency>
+      <dependency dep="FGF" dep_index="9" gov="transduction" gov_index="11">nn</dependency>
+      <dependency dep="signal" dep_index="10" gov="transduction" gov_index="11">nn</dependency>
+      <dependency dep="transduction" dep_index="11" gov="mechanism" gov_index="7">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@data@suggest@that@cAMP-dependent@phosphorylation@at@a@step@involving@GTP-binding@protein/PLC@coupling@can@exert@a@negative@effect@on@the@stimulation@of@IP3@formation@by@oxytocin@and@thereby@affect@contraction/relaxation@in@the@myometrium@</sentence>
+   <tags>
+      <tag pos="23">IP3</tag>
+      <tag pos="26">oxytocin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="JJ">cAMP-dependent</taggedword>
+      <taggedword index="6" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="7" part-of-speech="IN">at</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="NN">step</taggedword>
+      <taggedword index="10" part-of-speech="VBG">involving</taggedword>
+      <taggedword index="11" part-of-speech="JJ">GTP-binding</taggedword>
+      <taggedword index="12" part-of-speech="JJ">protein/PLC</taggedword>
+      <taggedword index="13" part-of-speech="NN">coupling</taggedword>
+      <taggedword index="14" part-of-speech="MD">can</taggedword>
+      <taggedword index="15" part-of-speech="VB">exert</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="18" part-of-speech="NN">effect</taggedword>
+      <taggedword index="19" part-of-speech="IN">on</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">IP3</taggedword>
+      <taggedword index="24" part-of-speech="NN">formation</taggedword>
+      <taggedword index="25" part-of-speech="IN">by</taggedword>
+      <taggedword index="26" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="RB">thereby</taggedword>
+      <taggedword index="29" part-of-speech="VB">affect</taggedword>
+      <taggedword index="30" part-of-speech="NN">contraction/relaxation</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">myometrium</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="data" gov_index="2">det</dependency>
+      <dependency dep="data" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="exert" gov_index="15">mark</dependency>
+      <dependency dep="cAMP-dependent" dep_index="5" gov="phosphorylation" gov_index="6">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="6" gov="exert" gov_index="15">nsubj</dependency>
+      <dependency dep="phosphorylation" dep_index="6" gov="affect" gov_index="29">nsubj</dependency>
+      <dependency dep="a" dep_index="8" gov="step" gov_index="9">det</dependency>
+      <dependency dep="step" dep_index="9" gov="phosphorylation" gov_index="6">prep_at</dependency>
+      <dependency dep="involving" dep_index="10" gov="step" gov_index="9">partmod</dependency>
+      <dependency dep="GTP-binding" dep_index="11" gov="coupling" gov_index="13">amod</dependency>
+      <dependency dep="protein/PLC" dep_index="12" gov="coupling" gov_index="13">amod</dependency>
+      <dependency dep="coupling" dep_index="13" gov="involving" gov_index="10">dobj</dependency>
+      <dependency dep="can" dep_index="14" gov="exert" gov_index="15">aux</dependency>
+      <dependency dep="exert" dep_index="15" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="a" dep_index="16" gov="effect" gov_index="18">det</dependency>
+      <dependency dep="negative" dep_index="17" gov="effect" gov_index="18">amod</dependency>
+      <dependency dep="effect" dep_index="18" gov="exert" gov_index="15">dobj</dependency>
+      <dependency dep="the" dep_index="20" gov="stimulation" gov_index="21">det</dependency>
+      <dependency dep="stimulation" dep_index="21" gov="exert" gov_index="15">prep_on</dependency>
+      <dependency dep="IP3" dep_index="23" gov="formation" gov_index="24">amod</dependency>
+      <dependency dep="formation" dep_index="24" gov="stimulation" gov_index="21">prep_of</dependency>
+      <dependency dep="oxytocin" dep_index="26" gov="exert" gov_index="15">prep_by</dependency>
+      <dependency dep="thereby" dep_index="28" gov="affect" gov_index="29">advmod</dependency>
+      <dependency dep="affect" dep_index="29" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="affect" dep_index="29" gov="exert" gov_index="15">conj_and</dependency>
+      <dependency dep="contraction/relaxation" dep_index="30" gov="affect" gov_index="29">dobj</dependency>
+      <dependency dep="the" dep_index="32" gov="myometrium" gov_index="33">det</dependency>
+      <dependency dep="myometrium" dep_index="33" gov="contraction/relaxation" gov_index="30">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2300026" relationship="true">23 24 21 15 26</relation>
+   </relations>
+   <pairs>
+      <pair>2300026</pair>
+   </pairs>
+</root>

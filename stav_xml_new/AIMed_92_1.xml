@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@potential@interaction@of@p75@and@trkA@NGF@receptors@revealed@by@affinity@crosslinking@and@immunoprecipitation@.@</sentence>
+   <tags>
+      <tag pos="5">p75</tag>
+      <tag pos="7">trkA</tag>
+      <tag pos="8">NGF</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">potential</taggedword>
+      <taggedword index="3" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNPS">p75</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">trkA</taggedword>
+      <taggedword index="8" part-of-speech="NNP">NGF</taggedword>
+      <taggedword index="9" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="10" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="JJ">affinity</taggedword>
+      <taggedword index="13" part-of-speech="NN">crosslinking</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">immunoprecipitation</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="interaction" gov_index="3">det</dependency>
+      <dependency dep="potential" dep_index="2" gov="interaction" gov_index="3">amod</dependency>
+      <dependency dep="interaction" dep_index="3" gov="revealed" gov_index="10">nsubj</dependency>
+      <dependency dep="p75" dep_index="5" gov="receptors" gov_index="9">nn</dependency>
+      <dependency dep="trkA" dep_index="7" gov="p75" gov_index="5">conj_and</dependency>
+      <dependency dep="trkA" dep_index="7" gov="receptors" gov_index="9">nn</dependency>
+      <dependency dep="NGF" dep_index="8" gov="receptors" gov_index="9">nn</dependency>
+      <dependency dep="receptors" dep_index="9" gov="interaction" gov_index="3">prep_of</dependency>
+      <dependency dep="revealed" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="affinity" dep_index="12" gov="crosslinking" gov_index="13">amod</dependency>
+      <dependency dep="crosslinking" dep_index="13" gov="revealed" gov_index="10">prep_by</dependency>
+      <dependency dep="immunoprecipitation" dep_index="15" gov="revealed" gov_index="10">prep_by</dependency>
+      <dependency dep="immunoprecipitation" dep_index="15" gov="crosslinking" gov_index="13">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 9 7</relation>
+      <relation position="500008" relationship="false">5 9 8</relation>
+      <relation position="700008" relationship="false">7 9 8</relation>
+   </relations>
+   <pairs/>
+</root>

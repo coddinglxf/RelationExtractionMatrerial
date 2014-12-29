@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@high@recombination@levels@seen@in@rad5@and@rad18@mutants@is@dependent@on@the@RAD1@,@RAD51@,@RAD52@,@and@RAD5@genes@.@</sentence>
+   <tags>
+      <tag pos="22">RAD5</tag>
+      <tag pos="17">RAD51</tag>
+      <tag pos="19">RAD52</tag>
+      <tag pos="9">rad18</tag>
+      <tag pos="15">RAD1</tag>
+      <tag pos="7">rad5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">high</taggedword>
+      <taggedword index="3" part-of-speech="NN">recombination</taggedword>
+      <taggedword index="4" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="5" part-of-speech="VBN">seen</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">rad5</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">rad18</taggedword>
+      <taggedword index="10" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="12" part-of-speech="JJ">dependent</taggedword>
+      <taggedword index="13" part-of-speech="IN">on</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="CD">RAD1</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CD">RAD51</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CD">RAD52</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NNP">RAD5</taggedword>
+      <taggedword index="23" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="levels" gov_index="4">det</dependency>
+      <dependency dep="high" dep_index="2" gov="levels" gov_index="4">amod</dependency>
+      <dependency dep="recombination" dep_index="3" gov="levels" gov_index="4">nn</dependency>
+      <dependency dep="levels" dep_index="4" gov="dependent" gov_index="12">nsubj</dependency>
+      <dependency dep="seen" dep_index="5" gov="levels" gov_index="4">partmod</dependency>
+      <dependency dep="rad5" dep_index="7" gov="mutants" gov_index="10">amod</dependency>
+      <dependency dep="rad18" dep_index="9" gov="rad5" gov_index="7">conj_and</dependency>
+      <dependency dep="rad18" dep_index="9" gov="mutants" gov_index="10">amod</dependency>
+      <dependency dep="mutants" dep_index="10" gov="seen" gov_index="5">prep_in</dependency>
+      <dependency dep="is" dep_index="11" gov="dependent" gov_index="12">cop</dependency>
+      <dependency dep="dependent" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="RAD52" gov_index="19">det</dependency>
+      <dependency dep="RAD1" dep_index="15" gov="RAD52" gov_index="19">num</dependency>
+      <dependency dep="RAD51" dep_index="17" gov="RAD52" gov_index="19">num</dependency>
+      <dependency dep="RAD52" dep_index="19" gov="dependent" gov_index="12">prep_on</dependency>
+      <dependency dep="RAD5" dep_index="22" gov="genes" gov_index="23">nn</dependency>
+      <dependency dep="genes" dep_index="23" gov="dependent" gov_index="12">prep_on</dependency>
+      <dependency dep="genes" dep_index="23" gov="RAD52" gov_index="19">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700022" relationship="false">17 19 12 23 22</relation>
+      <relation position="1900022" relationship="false">19 12 23 22</relation>
+      <relation position="900022" relationship="false">9 10 5 4 12 23 22</relation>
+      <relation position="1500022" relationship="false">15 19 12 23 22</relation>
+      <relation position="700022" relationship="false">7 10 5 4 12 23 22</relation>
+      <relation position="1700019" relationship="false"></relation>
+      <relation position="900017" relationship="false">9 10 5 4 12 19 17</relation>
+      <relation position="1500017" relationship="false">15 19 17</relation>
+      <relation position="700017" relationship="false">7 10 5 4 12 19 17</relation>
+      <relation position="900019" relationship="false">9 10 5 4 12 19</relation>
+      <relation position="1500019" relationship="false"></relation>
+      <relation position="700019" relationship="false">7 10 5 4 12 19</relation>
+      <relation position="900015" relationship="false">9 10 5 4 12 19 15</relation>
+      <relation position="700009" relationship="false">7 10 9</relation>
+      <relation position="700015" relationship="false">7 10 5 4 12 19 15</relation>
+   </relations>
+   <pairs/>
+</root>

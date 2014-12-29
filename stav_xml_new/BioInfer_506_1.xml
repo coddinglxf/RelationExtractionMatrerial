@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Quantitation@of@the@appearance@of@X22@banding@in@primary@cultures@of@myotubes@indicates@that@it@precedes@that@of@other@myofibrillar@proteins@and@that@assembly@takes@place@in@the@following@order@:@X22@,@titin@,@myosin heavy chain@,@actin@,@and@desmin@.@</sentence>
+   <tags>
+      <tag pos="38">actin</tag>
+      <tag pos="32">X22</tag>
+      <tag pos="34">titin</tag>
+      <tag pos="6">X22</tag>
+      <tag pos="41">desmin</tag>
+      <tag pos="36">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Quantitation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">appearance</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">X22</taggedword>
+      <taggedword index="7" part-of-speech="VBG">banding</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cultures</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNS">myotubes</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">indicates</taggedword>
+      <taggedword index="14" part-of-speech="IN">that</taggedword>
+      <taggedword index="15" part-of-speech="PRP">it</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">precedes</taggedword>
+      <taggedword index="17" part-of-speech="DT">that</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">other</taggedword>
+      <taggedword index="20" part-of-speech="NN">myofibrillar</taggedword>
+      <taggedword index="21" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="IN">that</taggedword>
+      <taggedword index="24" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="25" part-of-speech="VBZ">takes</taggedword>
+      <taggedword index="26" part-of-speech="NN">place</taggedword>
+      <taggedword index="27" part-of-speech="IN">in</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">following</taggedword>
+      <taggedword index="30" part-of-speech="NN">order</taggedword>
+      <taggedword index="31" part-of-speech=":">:</taggedword>
+      <taggedword index="32" part-of-speech="CD">X22</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="NN">titin</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="37" part-of-speech=",">,</taggedword>
+      <taggedword index="38" part-of-speech="NN">actin</taggedword>
+      <taggedword index="39" part-of-speech=",">,</taggedword>
+      <taggedword index="40" part-of-speech="CC">and</taggedword>
+      <taggedword index="41" part-of-speech="NN">desmin</taggedword>
+      <taggedword index="42" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Quantitation" dep_index="1" gov="indicates" gov_index="13">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="appearance" gov_index="4">det</dependency>
+      <dependency dep="appearance" dep_index="4" gov="Quantitation" gov_index="1">prep_of</dependency>
+      <dependency dep="X22" dep_index="6" gov="appearance" gov_index="4">prep_of</dependency>
+      <dependency dep="banding" dep_index="7" gov="X22" gov_index="6">partmod</dependency>
+      <dependency dep="primary" dep_index="9" gov="cultures" gov_index="10">amod</dependency>
+      <dependency dep="cultures" dep_index="10" gov="banding" gov_index="7">prep_in</dependency>
+      <dependency dep="myotubes" dep_index="12" gov="cultures" gov_index="10">prep_of</dependency>
+      <dependency dep="indicates" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="14" gov="precedes" gov_index="16">mark</dependency>
+      <dependency dep="it" dep_index="15" gov="precedes" gov_index="16">nsubj</dependency>
+      <dependency dep="precedes" dep_index="16" gov="indicates" gov_index="13">ccomp</dependency>
+      <dependency dep="that" dep_index="17" gov="precedes" gov_index="16">dobj</dependency>
+      <dependency dep="other" dep_index="19" gov="proteins" gov_index="21">amod</dependency>
+      <dependency dep="myofibrillar" dep_index="20" gov="proteins" gov_index="21">nn</dependency>
+      <dependency dep="proteins" dep_index="21" gov="that" gov_index="17">prep_of</dependency>
+      <dependency dep="that" dep_index="23" gov="takes" gov_index="25">mark</dependency>
+      <dependency dep="assembly" dep_index="24" gov="takes" gov_index="25">nsubj</dependency>
+      <dependency dep="takes" dep_index="25" gov="indicates" gov_index="13">ccomp</dependency>
+      <dependency dep="takes" dep_index="25" gov="precedes" gov_index="16">conj_and</dependency>
+      <dependency dep="place" dep_index="26" gov="takes" gov_index="25">dobj</dependency>
+      <dependency dep="the" dep_index="28" gov="order" gov_index="30">det</dependency>
+      <dependency dep="following" dep_index="29" gov="order" gov_index="30">amod</dependency>
+      <dependency dep="order" dep_index="30" gov="place" gov_index="26">prep_in</dependency>
+      <dependency dep="X22" dep_index="32" gov="place" gov_index="26">dep</dependency>
+      <dependency dep="titin" dep_index="34" gov="place" gov_index="26">dep</dependency>
+      <dependency dep="titin" dep_index="34" gov="X22" gov_index="32">conj_and</dependency>
+      <dependency dep="myosin heavy chain" dep_index="36" gov="place" gov_index="26">dep</dependency>
+      <dependency dep="myosin heavy chain" dep_index="36" gov="X22" gov_index="32">conj_and</dependency>
+      <dependency dep="actin" dep_index="38" gov="place" gov_index="26">dep</dependency>
+      <dependency dep="actin" dep_index="38" gov="X22" gov_index="32">conj_and</dependency>
+      <dependency dep="desmin" dep_index="41" gov="place" gov_index="26">dep</dependency>
+      <dependency dep="desmin" dep_index="41" gov="X22" gov_index="32">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3200038" relationship="true">32 26 38</relation>
+      <relation position="3400038" relationship="true">34 26 38</relation>
+      <relation position="600038" relationship="false">6 4 1 13 25 26 38</relation>
+      <relation position="3800041" relationship="true">38 26 41</relation>
+      <relation position="3600038" relationship="true">36 26 38</relation>
+      <relation position="3200034" relationship="true">32 26 34</relation>
+      <relation position="600032" relationship="false">6 4 1 13 25 26 32</relation>
+      <relation position="3200041" relationship="true">32 26 41</relation>
+      <relation position="3200036" relationship="true">32 26 36</relation>
+      <relation position="600034" relationship="false">6 4 1 13 25 26 34</relation>
+      <relation position="3400041" relationship="true">34 26 41</relation>
+      <relation position="3400036" relationship="true">34 26 36</relation>
+      <relation position="600041" relationship="false">6 4 1 13 25 26 41</relation>
+      <relation position="600036" relationship="false">6 4 1 13 25 26 36</relation>
+      <relation position="3600041" relationship="true">36 26 41</relation>
+   </relations>
+   <pairs>
+      <pair>3200034</pair>
+      <pair>3800041</pair>
+      <pair>3600041</pair>
+      <pair>3200038</pair>
+      <pair>3400041</pair>
+      <pair>3200036</pair>
+      <pair>3400036</pair>
+      <pair>3400038</pair>
+      <pair>3200041</pair>
+      <pair>3600038</pair>
+   </pairs>
+</root>

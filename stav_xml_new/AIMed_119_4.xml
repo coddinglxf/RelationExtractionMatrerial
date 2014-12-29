@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>One@model@is@that@phosphorylation@may@allow@the@recruitment@of@coactivators@which@then@interact@with@basal@transcription@factors@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">One</taggedword>
+      <taggedword index="2" part-of-speech="NN">model</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="6" part-of-speech="MD">may</taggedword>
+      <taggedword index="7" part-of-speech="VB">allow</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">recruitment</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNS">coactivators</taggedword>
+      <taggedword index="12" part-of-speech="WDT">which</taggedword>
+      <taggedword index="13" part-of-speech="RB">then</taggedword>
+      <taggedword index="14" part-of-speech="VBN">interact</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="JJ">basal</taggedword>
+      <taggedword index="17" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="18" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="One" dep_index="1" gov="model" gov_index="2">num</dependency>
+      <dependency dep="model" dep_index="2" gov="is" gov_index="3">nsubj</dependency>
+      <dependency dep="is" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="allow" gov_index="7">mark</dependency>
+      <dependency dep="phosphorylation" dep_index="5" gov="allow" gov_index="7">nsubj</dependency>
+      <dependency dep="may" dep_index="6" gov="allow" gov_index="7">aux</dependency>
+      <dependency dep="allow" dep_index="7" gov="is" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="8" gov="recruitment" gov_index="9">det</dependency>
+      <dependency dep="recruitment" dep_index="9" gov="allow" gov_index="7">dobj</dependency>
+      <dependency dep="coactivators" dep_index="11" gov="recruitment" gov_index="9">prep_of</dependency>
+      <dependency dep="coactivators" dep_index="11" gov="interact" gov_index="14">nsubj</dependency>
+      <dependency dep="then" dep_index="13" gov="interact" gov_index="14">advmod</dependency>
+      <dependency dep="interact" dep_index="14" gov="coactivators" gov_index="11">rcmod</dependency>
+      <dependency dep="basal" dep_index="16" gov="factors" gov_index="18">amod</dependency>
+      <dependency dep="transcription" dep_index="17" gov="factors" gov_index="18">nn</dependency>
+      <dependency dep="factors" dep_index="18" gov="interact" gov_index="14">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

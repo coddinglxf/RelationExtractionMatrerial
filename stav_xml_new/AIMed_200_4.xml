@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@order@to@assess@the@biological@consequences@of@such@mutations@,@the@full@complement@of@interacting@proteins@must@be@known@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">order</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="VB">assess</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">biological</taggedword>
+      <taggedword index="7" part-of-speech="NNS">consequences</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">such</taggedword>
+      <taggedword index="10" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">full</taggedword>
+      <taggedword index="14" part-of-speech="NN">complement</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="VBG">interacting</taggedword>
+      <taggedword index="17" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="18" part-of-speech="MD">must</taggedword>
+      <taggedword index="19" part-of-speech="VB">be</taggedword>
+      <taggedword index="20" part-of-speech="VBN">known</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="In" dep_index="1" gov="assess" gov_index="4">mark</dependency>
+      <dependency dep="order" dep_index="2" gov="assess" gov_index="4">dep</dependency>
+      <dependency dep="to" dep_index="3" gov="assess" gov_index="4">aux</dependency>
+      <dependency dep="assess" dep_index="4" gov="known" gov_index="20">advcl</dependency>
+      <dependency dep="the" dep_index="5" gov="consequences" gov_index="7">det</dependency>
+      <dependency dep="biological" dep_index="6" gov="consequences" gov_index="7">amod</dependency>
+      <dependency dep="consequences" dep_index="7" gov="assess" gov_index="4">dobj</dependency>
+      <dependency dep="such" dep_index="9" gov="mutations" gov_index="10">amod</dependency>
+      <dependency dep="mutations" dep_index="10" gov="consequences" gov_index="7">prep_of</dependency>
+      <dependency dep="the" dep_index="12" gov="complement" gov_index="14">det</dependency>
+      <dependency dep="full" dep_index="13" gov="complement" gov_index="14">amod</dependency>
+      <dependency dep="complement" dep_index="14" gov="known" gov_index="20">nsubjpass</dependency>
+      <dependency dep="interacting" dep_index="16" gov="proteins" gov_index="17">amod</dependency>
+      <dependency dep="proteins" dep_index="17" gov="complement" gov_index="14">prep_of</dependency>
+      <dependency dep="must" dep_index="18" gov="known" gov_index="20">aux</dependency>
+      <dependency dep="be" dep_index="19" gov="known" gov_index="20">auxpass</dependency>
+      <dependency dep="known" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

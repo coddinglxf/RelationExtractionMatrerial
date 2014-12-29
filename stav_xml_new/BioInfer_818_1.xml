@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@propose@that@profilin@may@act@by@forming@,@during@the@critical@period@of@cerebellar@development@,@a@reserve@pool@of@monomeric@actin@that@can@easily@be@mobilized@in@cell@regions@such@as@growth@cones@or@synaptic@junctions@where@filamentous@actin@is@highly@concentrated@.@</sentence>
+   <tags>
+      <tag pos="4">profilin</tag>
+      <tag pos="41">actin</tag>
+      <tag pos="23">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">propose</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="5" part-of-speech="MD">may</taggedword>
+      <taggedword index="6" part-of-speech="VB">act</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="VBG">forming</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="IN">during</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">critical</taggedword>
+      <taggedword index="13" part-of-speech="NN">period</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NN">cerebellar</taggedword>
+      <taggedword index="16" part-of-speech="NN">development</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="NN">reserve</taggedword>
+      <taggedword index="20" part-of-speech="NN">pool</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="JJ">monomeric</taggedword>
+      <taggedword index="23" part-of-speech="NN">actin</taggedword>
+      <taggedword index="24" part-of-speech="WDT">that</taggedword>
+      <taggedword index="25" part-of-speech="MD">can</taggedword>
+      <taggedword index="26" part-of-speech="RB">easily</taggedword>
+      <taggedword index="27" part-of-speech="VB">be</taggedword>
+      <taggedword index="28" part-of-speech="VBN">mobilized</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="NN">cell</taggedword>
+      <taggedword index="31" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="32" part-of-speech="JJ">such</taggedword>
+      <taggedword index="33" part-of-speech="IN">as</taggedword>
+      <taggedword index="34" part-of-speech="NN">growth</taggedword>
+      <taggedword index="35" part-of-speech="NNS">cones</taggedword>
+      <taggedword index="36" part-of-speech="CC">or</taggedword>
+      <taggedword index="37" part-of-speech="JJ">synaptic</taggedword>
+      <taggedword index="38" part-of-speech="NNS">junctions</taggedword>
+      <taggedword index="39" part-of-speech="WRB">where</taggedword>
+      <taggedword index="40" part-of-speech="JJ">filamentous</taggedword>
+      <taggedword index="41" part-of-speech="NN">actin</taggedword>
+      <taggedword index="42" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="43" part-of-speech="RB">highly</taggedword>
+      <taggedword index="44" part-of-speech="JJ">concentrated</taggedword>
+      <taggedword index="45" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="propose" gov_index="2">nsubj</dependency>
+      <dependency dep="propose" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="act" gov_index="6">mark</dependency>
+      <dependency dep="profilin" dep_index="4" gov="act" gov_index="6">nsubj</dependency>
+      <dependency dep="may" dep_index="5" gov="act" gov_index="6">aux</dependency>
+      <dependency dep="act" dep_index="6" gov="propose" gov_index="2">ccomp</dependency>
+      <dependency dep="forming" dep_index="8" gov="act" gov_index="6">prepc_by</dependency>
+      <dependency dep="the" dep_index="11" gov="period" gov_index="13">det</dependency>
+      <dependency dep="critical" dep_index="12" gov="period" gov_index="13">amod</dependency>
+      <dependency dep="period" dep_index="13" gov="act" gov_index="6">prep_during</dependency>
+      <dependency dep="cerebellar" dep_index="15" gov="development" gov_index="16">nn</dependency>
+      <dependency dep="development" dep_index="16" gov="period" gov_index="13">prep_of</dependency>
+      <dependency dep="a" dep_index="18" gov="pool" gov_index="20">det</dependency>
+      <dependency dep="reserve" dep_index="19" gov="pool" gov_index="20">nn</dependency>
+      <dependency dep="pool" dep_index="20" gov="development" gov_index="16">appos</dependency>
+      <dependency dep="pool" dep_index="20" gov="mobilized" gov_index="28">nsubjpass</dependency>
+      <dependency dep="monomeric" dep_index="22" gov="actin" gov_index="23">amod</dependency>
+      <dependency dep="actin" dep_index="23" gov="pool" gov_index="20">prep_of</dependency>
+      <dependency dep="can" dep_index="25" gov="mobilized" gov_index="28">aux</dependency>
+      <dependency dep="easily" dep_index="26" gov="mobilized" gov_index="28">advmod</dependency>
+      <dependency dep="be" dep_index="27" gov="mobilized" gov_index="28">auxpass</dependency>
+      <dependency dep="mobilized" dep_index="28" gov="pool" gov_index="20">rcmod</dependency>
+      <dependency dep="cell" dep_index="30" gov="regions" gov_index="31">nn</dependency>
+      <dependency dep="regions" dep_index="31" gov="mobilized" gov_index="28">prep_in</dependency>
+      <dependency dep="growth" dep_index="34" gov="cones" gov_index="35">nn</dependency>
+      <dependency dep="cones" dep_index="35" gov="regions" gov_index="31">prep_such_as</dependency>
+      <dependency dep="synaptic" dep_index="37" gov="junctions" gov_index="38">amod</dependency>
+      <dependency dep="junctions" dep_index="38" gov="regions" gov_index="31">prep_such_as</dependency>
+      <dependency dep="junctions" dep_index="38" gov="cones" gov_index="35">conj_or</dependency>
+      <dependency dep="where" dep_index="39" gov="concentrated" gov_index="44">advmod</dependency>
+      <dependency dep="filamentous" dep_index="40" gov="actin" gov_index="41">amod</dependency>
+      <dependency dep="actin" dep_index="41" gov="concentrated" gov_index="44">nsubj</dependency>
+      <dependency dep="is" dep_index="42" gov="concentrated" gov_index="44">cop</dependency>
+      <dependency dep="highly" dep_index="43" gov="concentrated" gov_index="44">advmod</dependency>
+      <dependency dep="concentrated" dep_index="44" gov="mobilized" gov_index="28">advcl</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400041" relationship="false">4 6 13 16 20 28 44 41</relation>
+      <relation position="400023" relationship="true">4 6 13 16 20 23</relation>
+      <relation position="2300041" relationship="false">23 20 28 44 41</relation>
+   </relations>
+   <pairs>
+      <pair>400023</pair>
+   </pairs>
+</root>

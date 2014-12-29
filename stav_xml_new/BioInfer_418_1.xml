@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Membranous@staining@and@concomitant@cytoplasmic@localization@of@E-cadherin@,@alpha-catenin@and@gamma-catenin@were@seen@in@one@case@with@abnormal@beta-catenin@immunoreactivity@.@</sentence>
+   <tags>
+      <tag pos="12">gamma-catenin</tag>
+      <tag pos="10">alpha-catenin</tag>
+      <tag pos="8">E-cadherin</tag>
+      <tag pos="20">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Membranous</taggedword>
+      <taggedword index="2" part-of-speech="NN">staining</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">concomitant</taggedword>
+      <taggedword index="5" part-of-speech="JJ">cytoplasmic</taggedword>
+      <taggedword index="6" part-of-speech="NN">localization</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">E-cadherin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">gamma-catenin</taggedword>
+      <taggedword index="13" part-of-speech="VBD">were</taggedword>
+      <taggedword index="14" part-of-speech="VBN">seen</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="CD">one</taggedword>
+      <taggedword index="17" part-of-speech="NN">case</taggedword>
+      <taggedword index="18" part-of-speech="IN">with</taggedword>
+      <taggedword index="19" part-of-speech="JJ">abnormal</taggedword>
+      <taggedword index="20" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="21" part-of-speech="NN">immunoreactivity</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Membranous" dep_index="1" gov="staining" gov_index="2">amod</dependency>
+      <dependency dep="staining" dep_index="2" gov="seen" gov_index="14">nsubjpass</dependency>
+      <dependency dep="concomitant" dep_index="4" gov="localization" gov_index="6">amod</dependency>
+      <dependency dep="cytoplasmic" dep_index="5" gov="localization" gov_index="6">amod</dependency>
+      <dependency dep="localization" dep_index="6" gov="staining" gov_index="2">conj_and</dependency>
+      <dependency dep="localization" dep_index="6" gov="seen" gov_index="14">nsubjpass</dependency>
+      <dependency dep="E-cadherin" dep_index="8" gov="staining" gov_index="2">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="10" gov="staining" gov_index="2">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="10" gov="E-cadherin" gov_index="8">conj_and</dependency>
+      <dependency dep="gamma-catenin" dep_index="12" gov="staining" gov_index="2">prep_of</dependency>
+      <dependency dep="gamma-catenin" dep_index="12" gov="E-cadherin" gov_index="8">conj_and</dependency>
+      <dependency dep="were" dep_index="13" gov="seen" gov_index="14">auxpass</dependency>
+      <dependency dep="seen" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="one" dep_index="16" gov="case" gov_index="17">num</dependency>
+      <dependency dep="case" dep_index="17" gov="seen" gov_index="14">prep_in</dependency>
+      <dependency dep="abnormal" dep_index="19" gov="immunoreactivity" gov_index="21">amod</dependency>
+      <dependency dep="beta-catenin" dep_index="20" gov="immunoreactivity" gov_index="21">amod</dependency>
+      <dependency dep="immunoreactivity" dep_index="21" gov="case" gov_index="17">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000012" relationship="true">10 2 12</relation>
+      <relation position="800012" relationship="true">8 2 12</relation>
+      <relation position="1200020" relationship="false">12 2 14 17 21 20</relation>
+      <relation position="800010" relationship="true">8 2 10</relation>
+      <relation position="1000020" relationship="false">10 2 14 17 21 20</relation>
+      <relation position="800020" relationship="false">8 2 14 17 21 20</relation>
+   </relations>
+   <pairs>
+      <pair>1000012</pair>
+      <pair>800012</pair>
+      <pair>800010</pair>
+   </pairs>
+</root>

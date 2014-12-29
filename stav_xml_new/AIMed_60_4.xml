@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@v-Raf@proteins@purified@from@cells@infected@with@EC12@or@22W@viruses@activated@MAP kinase kinase@from@skeletal@muscle@in@vitro@.@</sentence>
+   <tags>
+      <tag pos="2">v-Raf</tag>
+      <tag pos="14">MAP kinase kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">v-Raf</taggedword>
+      <taggedword index="3" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="4" part-of-speech="VBN">purified</taggedword>
+      <taggedword index="5" part-of-speech="IN">from</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech="VBN">infected</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="CD">EC12</taggedword>
+      <taggedword index="10" part-of-speech="CC">or</taggedword>
+      <taggedword index="11" part-of-speech="CD">22W</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">viruses</taggedword>
+      <taggedword index="13" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="14" part-of-speech="NN">MAP kinase kinase</taggedword>
+      <taggedword index="15" part-of-speech="IN">from</taggedword>
+      <taggedword index="16" part-of-speech="JJ">skeletal</taggedword>
+      <taggedword index="17" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="NNP">vitro</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="proteins" gov_index="3">det</dependency>
+      <dependency dep="v-Raf" dep_index="2" gov="proteins" gov_index="3">amod</dependency>
+      <dependency dep="proteins" dep_index="3" gov="viruses" gov_index="12">nsubj</dependency>
+      <dependency dep="purified" dep_index="4" gov="proteins" gov_index="3">partmod</dependency>
+      <dependency dep="cells" dep_index="6" gov="purified" gov_index="4">prep_from</dependency>
+      <dependency dep="infected" dep_index="7" gov="cells" gov_index="6">partmod</dependency>
+      <dependency dep="EC12" dep_index="9" gov="infected" gov_index="7">prep_with</dependency>
+      <dependency dep="22W" dep_index="11" gov="infected" gov_index="7">prep_with</dependency>
+      <dependency dep="22W" dep_index="11" gov="EC12" gov_index="9">conj_or</dependency>
+      <dependency dep="viruses" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="activated" dep_index="13" gov="MAP kinase kinase" gov_index="14">amod</dependency>
+      <dependency dep="MAP kinase kinase" dep_index="14" gov="viruses" gov_index="12">dobj</dependency>
+      <dependency dep="skeletal" dep_index="16" gov="muscle" gov_index="17">amod</dependency>
+      <dependency dep="muscle" dep_index="17" gov="MAP kinase kinase" gov_index="14">prep_from</dependency>
+      <dependency dep="vitro" dep_index="19" gov="muscle" gov_index="17">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200014" relationship="true">2 3 12 14</relation>
+   </relations>
+   <pairs>
+      <pair>200014</pair>
+   </pairs>
+</root>

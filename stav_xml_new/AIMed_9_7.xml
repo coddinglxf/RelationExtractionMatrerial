@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>As@[Ca2+]o@increased@,@[Ca2+]i@rapidly@increased@,@as@monitored@by@fluorometry@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">As</taggedword>
+      <taggedword index="2" part-of-speech="NNS">[Ca2+]o</taggedword>
+      <taggedword index="3" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NNS">[Ca2+]i</taggedword>
+      <taggedword index="6" part-of-speech="RB">rapidly</taggedword>
+      <taggedword index="7" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="RB">as</taggedword>
+      <taggedword index="10" part-of-speech="VBN">monitored</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="NN">fluorometry</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="As" dep_index="1" gov="increased" gov_index="3">mark</dependency>
+      <dependency dep="[Ca2+]o" dep_index="2" gov="increased" gov_index="3">nsubj</dependency>
+      <dependency dep="increased" dep_index="3" gov="increased" gov_index="7">advcl</dependency>
+      <dependency dep="[Ca2+]i" dep_index="5" gov="increased" gov_index="7">nsubj</dependency>
+      <dependency dep="rapidly" dep_index="6" gov="increased" gov_index="7">advmod</dependency>
+      <dependency dep="increased" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="as" dep_index="9" gov="monitored" gov_index="10">advmod</dependency>
+      <dependency dep="monitored" dep_index="10" gov="increased" gov_index="7">dep</dependency>
+      <dependency dep="fluorometry" dep_index="12" gov="monitored" gov_index="10">prep_by</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

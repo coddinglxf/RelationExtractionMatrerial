@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>BACKGROUND@:@Toxic@epidermal@necrolysis@(TEN)@is@a@rare@but@severe@adverse@drug@disease@,@characterized@by@extensive@skin@and@mucosal@detachment@with@participation@of@different@immunoinflammatory@pathways@,@in@particular@with@early@participation@of@activated@CD8@+@T@lymphocytes@.@</sentence>
+   <tags>
+      <tag pos="37">CD8</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">BACKGROUND</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="JJ">Toxic</taggedword>
+      <taggedword index="4" part-of-speech="JJ">epidermal</taggedword>
+      <taggedword index="5" part-of-speech="NNS">necrolysis</taggedword>
+      <taggedword index="6" part-of-speech="RB">(TEN)</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">rare</taggedword>
+      <taggedword index="10" part-of-speech="CC">but</taggedword>
+      <taggedword index="11" part-of-speech="JJ">severe</taggedword>
+      <taggedword index="12" part-of-speech="JJ">adverse</taggedword>
+      <taggedword index="13" part-of-speech="NN">drug</taggedword>
+      <taggedword index="14" part-of-speech="NN">disease</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="JJ">extensive</taggedword>
+      <taggedword index="19" part-of-speech="NN">skin</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NN">mucosal</taggedword>
+      <taggedword index="22" part-of-speech="NN">detachment</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="NN">participation</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="JJ">different</taggedword>
+      <taggedword index="27" part-of-speech="NN">immunoinflammatory</taggedword>
+      <taggedword index="28" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="IN">in</taggedword>
+      <taggedword index="31" part-of-speech="JJ">particular</taggedword>
+      <taggedword index="32" part-of-speech="IN">with</taggedword>
+      <taggedword index="33" part-of-speech="JJ">early</taggedword>
+      <taggedword index="34" part-of-speech="NN">participation</taggedword>
+      <taggedword index="35" part-of-speech="IN">of</taggedword>
+      <taggedword index="36" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="37" part-of-speech="NN">CD8</taggedword>
+      <taggedword index="38" part-of-speech="NNS">+</taggedword>
+      <taggedword index="39" part-of-speech="NNP">T</taggedword>
+      <taggedword index="40" part-of-speech="NNS">lymphocytes</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="BACKGROUND" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Toxic" dep_index="3" gov="necrolysis" gov_index="5">amod</dependency>
+      <dependency dep="epidermal" dep_index="4" gov="necrolysis" gov_index="5">amod</dependency>
+      <dependency dep="necrolysis" dep_index="5" gov="disease" gov_index="14">nsubj</dependency>
+      <dependency dep="(TEN)" dep_index="6" gov="disease" gov_index="14">advmod</dependency>
+      <dependency dep="is" dep_index="7" gov="disease" gov_index="14">cop</dependency>
+      <dependency dep="a" dep_index="8" gov="disease" gov_index="14">det</dependency>
+      <dependency dep="rare" dep_index="9" gov="disease" gov_index="14">amod</dependency>
+      <dependency dep="severe" dep_index="11" gov="rare" gov_index="9">conj_but</dependency>
+      <dependency dep="severe" dep_index="11" gov="disease" gov_index="14">amod</dependency>
+      <dependency dep="adverse" dep_index="12" gov="disease" gov_index="14">amod</dependency>
+      <dependency dep="drug" dep_index="13" gov="disease" gov_index="14">nn</dependency>
+      <dependency dep="disease" dep_index="14" gov="BACKGROUND" gov_index="1">dep</dependency>
+      <dependency dep="characterized" dep_index="16" gov="disease" gov_index="14">partmod</dependency>
+      <dependency dep="extensive" dep_index="18" gov="skin" gov_index="19">amod</dependency>
+      <dependency dep="skin" dep_index="19" gov="characterized" gov_index="16">agent</dependency>
+      <dependency dep="mucosal" dep_index="21" gov="detachment" gov_index="22">nn</dependency>
+      <dependency dep="detachment" dep_index="22" gov="characterized" gov_index="16">agent</dependency>
+      <dependency dep="detachment" dep_index="22" gov="skin" gov_index="19">conj_and</dependency>
+      <dependency dep="participation" dep_index="24" gov="characterized" gov_index="16">prep_with</dependency>
+      <dependency dep="different" dep_index="26" gov="pathways" gov_index="28">amod</dependency>
+      <dependency dep="immunoinflammatory" dep_index="27" gov="pathways" gov_index="28">nn</dependency>
+      <dependency dep="pathways" dep_index="28" gov="participation" gov_index="24">prep_of</dependency>
+      <dependency dep="particular" dep_index="31" gov="lymphocytes" gov_index="40">amod</dependency>
+      <dependency dep="early" dep_index="33" gov="participation" gov_index="34">amod</dependency>
+      <dependency dep="participation" dep_index="34" gov="particular" gov_index="31">prep_with</dependency>
+      <dependency dep="activated" dep_index="36" gov="+" gov_index="38">amod</dependency>
+      <dependency dep="CD8" dep_index="37" gov="+" gov_index="38">nn</dependency>
+      <dependency dep="+" dep_index="38" gov="participation" gov_index="34">prep_of</dependency>
+      <dependency dep="T" dep_index="39" gov="lymphocytes" gov_index="40">nn</dependency>
+      <dependency dep="lymphocytes" dep_index="40" gov="disease" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

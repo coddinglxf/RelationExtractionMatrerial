@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@two@proteins@were@found@to@differ@in@their@interaction@with@actin@,@like@destrin@and@cofilin@isolated@from@porcine@brain@.@</sentence>
+   <tags>
+      <tag pos="17">cofilin</tag>
+      <tag pos="15">destrin</tag>
+      <tag pos="12">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="CD">two</taggedword>
+      <taggedword index="3" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="4" part-of-speech="VBD">were</taggedword>
+      <taggedword index="5" part-of-speech="VBN">found</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">differ</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="10" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="NN">actin</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="IN">like</taggedword>
+      <taggedword index="15" part-of-speech="NN">destrin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="18" part-of-speech="VBN">isolated</taggedword>
+      <taggedword index="19" part-of-speech="IN">from</taggedword>
+      <taggedword index="20" part-of-speech="JJ">porcine</taggedword>
+      <taggedword index="21" part-of-speech="NN">brain</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="proteins" gov_index="3">det</dependency>
+      <dependency dep="two" dep_index="2" gov="proteins" gov_index="3">num</dependency>
+      <dependency dep="proteins" dep_index="3" gov="found" gov_index="5">nsubjpass</dependency>
+      <dependency dep="proteins" dep_index="3" gov="differ" gov_index="7">xsubj</dependency>
+      <dependency dep="were" dep_index="4" gov="found" gov_index="5">auxpass</dependency>
+      <dependency dep="found" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="6" gov="differ" gov_index="7">aux</dependency>
+      <dependency dep="differ" dep_index="7" gov="found" gov_index="5">xcomp</dependency>
+      <dependency dep="their" dep_index="9" gov="interaction" gov_index="10">poss</dependency>
+      <dependency dep="interaction" dep_index="10" gov="differ" gov_index="7">prep_in</dependency>
+      <dependency dep="actin" dep_index="12" gov="differ" gov_index="7">prep_with</dependency>
+      <dependency dep="destrin" dep_index="15" gov="found" gov_index="5">prep_like</dependency>
+      <dependency dep="cofilin" dep_index="17" gov="found" gov_index="5">prep_like</dependency>
+      <dependency dep="cofilin" dep_index="17" gov="destrin" gov_index="15">conj_and</dependency>
+      <dependency dep="isolated" dep_index="18" gov="destrin" gov_index="15">partmod</dependency>
+      <dependency dep="porcine" dep_index="20" gov="brain" gov_index="21">amod</dependency>
+      <dependency dep="brain" dep_index="21" gov="isolated" gov_index="18">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500017" relationship="true">15 5 17</relation>
+      <relation position="1200017" relationship="true">12 7 5 17</relation>
+      <relation position="1200015" relationship="true">12 7 5 15</relation>
+   </relations>
+   <pairs>
+      <pair>1200017</pair>
+      <pair>1500017</pair>
+      <pair>1200015</pair>
+   </pairs>
+</root>

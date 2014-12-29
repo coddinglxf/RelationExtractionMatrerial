@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Electrophoretic@mobility@shift@assays@showed@that@PU.1@and@NF-IL6 beta@can@simultaneously@bind@to@adjacent@DNA@binding@sites@,@but@apparently@do@not@influence@the@kinetics@or@affinity@of@each@other's@DNA@binding@.@</sentence>
+   <tags>
+      <tag pos="7">PU.1</tag>
+      <tag pos="9">NF-IL6 beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Electrophoretic</taggedword>
+      <taggedword index="2" part-of-speech="JJ">mobility</taggedword>
+      <taggedword index="3" part-of-speech="NN">shift</taggedword>
+      <taggedword index="4" part-of-speech="NNS">assays</taggedword>
+      <taggedword index="5" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="NNP">PU.1</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNP">NF-IL6 beta</taggedword>
+      <taggedword index="10" part-of-speech="MD">can</taggedword>
+      <taggedword index="11" part-of-speech="RB">simultaneously</taggedword>
+      <taggedword index="12" part-of-speech="VB">bind</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="JJ">adjacent</taggedword>
+      <taggedword index="15" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="16" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="17" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">but</taggedword>
+      <taggedword index="20" part-of-speech="RB">apparently</taggedword>
+      <taggedword index="21" part-of-speech="VBP">do</taggedword>
+      <taggedword index="22" part-of-speech="RB">not</taggedword>
+      <taggedword index="23" part-of-speech="VB">influence</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">kinetics</taggedword>
+      <taggedword index="26" part-of-speech="CC">or</taggedword>
+      <taggedword index="27" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="DT">each</taggedword>
+      <taggedword index="30" part-of-speech="JJ">other's</taggedword>
+      <taggedword index="31" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="32" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Electrophoretic" dep_index="1" gov="assays" gov_index="4">amod</dependency>
+      <dependency dep="mobility" dep_index="2" gov="assays" gov_index="4">amod</dependency>
+      <dependency dep="shift" dep_index="3" gov="assays" gov_index="4">nn</dependency>
+      <dependency dep="assays" dep_index="4" gov="showed" gov_index="5">nsubj</dependency>
+      <dependency dep="assays" dep_index="4" gov="influence" gov_index="23">nsubj</dependency>
+      <dependency dep="showed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="bind" gov_index="12">mark</dependency>
+      <dependency dep="PU.1" dep_index="7" gov="bind" gov_index="12">nsubj</dependency>
+      <dependency dep="NF-IL6 beta" dep_index="9" gov="PU.1" gov_index="7">conj_and</dependency>
+      <dependency dep="NF-IL6 beta" dep_index="9" gov="bind" gov_index="12">nsubj</dependency>
+      <dependency dep="can" dep_index="10" gov="bind" gov_index="12">aux</dependency>
+      <dependency dep="simultaneously" dep_index="11" gov="bind" gov_index="12">advmod</dependency>
+      <dependency dep="bind" dep_index="12" gov="showed" gov_index="5">ccomp</dependency>
+      <dependency dep="adjacent" dep_index="14" gov="sites" gov_index="17">amod</dependency>
+      <dependency dep="DNA" dep_index="15" gov="sites" gov_index="17">nn</dependency>
+      <dependency dep="binding" dep_index="16" gov="sites" gov_index="17">amod</dependency>
+      <dependency dep="sites" dep_index="17" gov="bind" gov_index="12">prep_to</dependency>
+      <dependency dep="apparently" dep_index="20" gov="influence" gov_index="23">advmod</dependency>
+      <dependency dep="do" dep_index="21" gov="influence" gov_index="23">aux</dependency>
+      <dependency dep="not" dep_index="22" gov="influence" gov_index="23">neg</dependency>
+      <dependency dep="influence" dep_index="23" gov="showed" gov_index="5">conj_but</dependency>
+      <dependency dep="the" dep_index="24" gov="kinetics" gov_index="25">det</dependency>
+      <dependency dep="kinetics" dep_index="25" gov="binding" gov_index="32">nsubj</dependency>
+      <dependency dep="affinity" dep_index="27" gov="kinetics" gov_index="25">conj_or</dependency>
+      <dependency dep="affinity" dep_index="27" gov="binding" gov_index="32">nsubj</dependency>
+      <dependency dep="each" dep_index="29" gov="DNA" gov_index="31">det</dependency>
+      <dependency dep="other's" dep_index="30" gov="DNA" gov_index="31">amod</dependency>
+      <dependency dep="DNA" dep_index="31" gov="kinetics" gov_index="25">prep_of</dependency>
+      <dependency dep="binding" dep_index="32" gov="influence" gov_index="23">xcomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 12 9</relation>
+   </relations>
+   <pairs/>
+</root>

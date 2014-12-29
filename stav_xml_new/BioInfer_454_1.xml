@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>No@significant@changes@in@glomerular@vinculin@,@talin@,@beta 1-integrin@,@or@total@actin@expression@occurred@at@any@time@point@during@disease@development@.@</sentence>
+   <tags>
+      <tag pos="10">beta 1-integrin</tag>
+      <tag pos="6">vinculin</tag>
+      <tag pos="14">actin</tag>
+      <tag pos="8">talin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">No</taggedword>
+      <taggedword index="2" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="3" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="NN">glomerular</taggedword>
+      <taggedword index="6" part-of-speech="NN">vinculin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">talin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="JJ">beta 1-integrin</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">or</taggedword>
+      <taggedword index="13" part-of-speech="JJ">total</taggedword>
+      <taggedword index="14" part-of-speech="NN">actin</taggedword>
+      <taggedword index="15" part-of-speech="NN">expression</taggedword>
+      <taggedword index="16" part-of-speech="VBD">occurred</taggedword>
+      <taggedword index="17" part-of-speech="IN">at</taggedword>
+      <taggedword index="18" part-of-speech="DT">any</taggedword>
+      <taggedword index="19" part-of-speech="NN">time</taggedword>
+      <taggedword index="20" part-of-speech="NN">point</taggedword>
+      <taggedword index="21" part-of-speech="IN">during</taggedword>
+      <taggedword index="22" part-of-speech="NN">disease</taggedword>
+      <taggedword index="23" part-of-speech="NN">development</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="No" dep_index="1" gov="changes" gov_index="3">det</dependency>
+      <dependency dep="significant" dep_index="2" gov="changes" gov_index="3">amod</dependency>
+      <dependency dep="changes" dep_index="3" gov="occurred" gov_index="16">nsubj</dependency>
+      <dependency dep="glomerular" dep_index="5" gov="vinculin" gov_index="6">nn</dependency>
+      <dependency dep="vinculin" dep_index="6" gov="changes" gov_index="3">prep_in</dependency>
+      <dependency dep="talin" dep_index="8" gov="changes" gov_index="3">prep_in</dependency>
+      <dependency dep="talin" dep_index="8" gov="vinculin" gov_index="6">conj_or</dependency>
+      <dependency dep="beta 1-integrin" dep_index="10" gov="changes" gov_index="3">prep_in</dependency>
+      <dependency dep="beta 1-integrin" dep_index="10" gov="vinculin" gov_index="6">conj_or</dependency>
+      <dependency dep="total" dep_index="13" gov="expression" gov_index="15">amod</dependency>
+      <dependency dep="actin" dep_index="14" gov="expression" gov_index="15">nn</dependency>
+      <dependency dep="expression" dep_index="15" gov="changes" gov_index="3">prep_in</dependency>
+      <dependency dep="expression" dep_index="15" gov="vinculin" gov_index="6">conj_or</dependency>
+      <dependency dep="occurred" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="any" dep_index="18" gov="point" gov_index="20">det</dependency>
+      <dependency dep="time" dep_index="19" gov="point" gov_index="20">nn</dependency>
+      <dependency dep="point" dep_index="20" gov="occurred" gov_index="16">prep_at</dependency>
+      <dependency dep="disease" dep_index="22" gov="development" gov_index="23">nn</dependency>
+      <dependency dep="development" dep_index="23" gov="occurred" gov_index="16">prep_during</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="false">6 3 10</relation>
+      <relation position="1000014" relationship="false">10 6 15 14</relation>
+      <relation position="800010" relationship="false">8 6 10</relation>
+      <relation position="600014" relationship="false">6 3 15 14</relation>
+      <relation position="600008" relationship="false">6 3 8</relation>
+      <relation position="800014" relationship="false">8 6 15 14</relation>
+   </relations>
+   <pairs/>
+</root>

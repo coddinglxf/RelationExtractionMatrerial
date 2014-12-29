@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Redundancy@of@Saccharomyces@cerevisiae@MSH3@and@MSH6@in@MSH2@-dependent@mismatch@repair@.@</sentence>
+   <tags>
+      <tag pos="9">MSH2</tag>
+      <tag pos="5">MSH3</tag>
+      <tag pos="7">MSH6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Redundancy</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Saccharomyces</taggedword>
+      <taggedword index="4" part-of-speech="VBP">cerevisiae</taggedword>
+      <taggedword index="5" part-of-speech="NNP">MSH3</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">MSH6</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NNP">MSH2</taggedword>
+      <taggedword index="10" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="11" part-of-speech="NN">mismatch</taggedword>
+      <taggedword index="12" part-of-speech="NN">repair</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Redundancy" dep_index="1" gov="cerevisiae" gov_index="4">nsubj</dependency>
+      <dependency dep="Saccharomyces" dep_index="3" gov="Redundancy" gov_index="1">prep_of</dependency>
+      <dependency dep="cerevisiae" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="MSH3" dep_index="5" gov="cerevisiae" gov_index="4">dobj</dependency>
+      <dependency dep="MSH6" dep_index="7" gov="cerevisiae" gov_index="4">dobj</dependency>
+      <dependency dep="MSH6" dep_index="7" gov="MSH3" gov_index="5">conj_and</dependency>
+      <dependency dep="MSH2" dep_index="9" gov="repair" gov_index="12">nn</dependency>
+      <dependency dep="-dependent" dep_index="10" gov="repair" gov_index="12">amod</dependency>
+      <dependency dep="mismatch" dep_index="11" gov="repair" gov_index="12">nn</dependency>
+      <dependency dep="repair" dep_index="12" gov="MSH3" gov_index="5">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500009" relationship="false"></relation>
+      <relation position="700009" relationship="false">7 4 5 12 9</relation>
+      <relation position="500007" relationship="false">5 4 7</relation>
+   </relations>
+   <pairs/>
+</root>

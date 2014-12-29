@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Serous@effusions@were@classified@as@follows@:@102@exudates@and@43@transudates@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Serous</taggedword>
+      <taggedword index="2" part-of-speech="NNS">effusions</taggedword>
+      <taggedword index="3" part-of-speech="VBD">were</taggedword>
+      <taggedword index="4" part-of-speech="VBN">classified</taggedword>
+      <taggedword index="5" part-of-speech="IN">as</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">follows</taggedword>
+      <taggedword index="7" part-of-speech=":">:</taggedword>
+      <taggedword index="8" part-of-speech="CD">102</taggedword>
+      <taggedword index="9" part-of-speech="NNS">exudates</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="CD">43</taggedword>
+      <taggedword index="12" part-of-speech="NNS">transudates</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Serous" dep_index="1" gov="effusions" gov_index="2">amod</dependency>
+      <dependency dep="effusions" dep_index="2" gov="classified" gov_index="4">nsubjpass</dependency>
+      <dependency dep="were" dep_index="3" gov="classified" gov_index="4">auxpass</dependency>
+      <dependency dep="classified" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="as" dep_index="5" gov="follows" gov_index="6">mark</dependency>
+      <dependency dep="follows" dep_index="6" gov="classified" gov_index="4">dep</dependency>
+      <dependency dep="102" dep_index="8" gov="exudates" gov_index="9">num</dependency>
+      <dependency dep="exudates" dep_index="9" gov="follows" gov_index="6">dobj</dependency>
+      <dependency dep="43" dep_index="11" gov="transudates" gov_index="12">num</dependency>
+      <dependency dep="transudates" dep_index="12" gov="follows" gov_index="6">dobj</dependency>
+      <dependency dep="transudates" dep_index="12" gov="exudates" gov_index="9">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

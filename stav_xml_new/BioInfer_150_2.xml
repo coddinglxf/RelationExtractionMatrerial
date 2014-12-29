@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Reduced@expression@of@alpha-catenin@,@beta-catenin@,@and@gamma-catenin@is@associated@with@high@cell@proliferative@activity@and@poor@differentiation@in@non-small@cell@lung@cancer@.@</sentence>
+   <tags>
+      <tag pos="9">gamma-catenin</tag>
+      <tag pos="4">alpha-catenin</tag>
+      <tag pos="6">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Reduced</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">gamma-catenin</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="JJ">high</taggedword>
+      <taggedword index="14" part-of-speech="NN">cell</taggedword>
+      <taggedword index="15" part-of-speech="NN">proliferative</taggedword>
+      <taggedword index="16" part-of-speech="NN">activity</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="JJ">poor</taggedword>
+      <taggedword index="19" part-of-speech="NN">differentiation</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="JJ">non-small</taggedword>
+      <taggedword index="22" part-of-speech="NN">cell</taggedword>
+      <taggedword index="23" part-of-speech="NN">lung</taggedword>
+      <taggedword index="24" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Reduced" dep_index="1" gov="expression" gov_index="2">amod</dependency>
+      <dependency dep="expression" dep_index="2" gov="associated" gov_index="11">nsubjpass</dependency>
+      <dependency dep="alpha-catenin" dep_index="4" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="6" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="6" gov="alpha-catenin" gov_index="4">conj_and</dependency>
+      <dependency dep="gamma-catenin" dep_index="9" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="gamma-catenin" dep_index="9" gov="alpha-catenin" gov_index="4">conj_and</dependency>
+      <dependency dep="is" dep_index="10" gov="associated" gov_index="11">auxpass</dependency>
+      <dependency dep="associated" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="high" dep_index="13" gov="activity" gov_index="16">amod</dependency>
+      <dependency dep="cell" dep_index="14" gov="activity" gov_index="16">nn</dependency>
+      <dependency dep="proliferative" dep_index="15" gov="activity" gov_index="16">nn</dependency>
+      <dependency dep="activity" dep_index="16" gov="associated" gov_index="11">prep_with</dependency>
+      <dependency dep="poor" dep_index="18" gov="differentiation" gov_index="19">amod</dependency>
+      <dependency dep="differentiation" dep_index="19" gov="associated" gov_index="11">prep_with</dependency>
+      <dependency dep="differentiation" dep_index="19" gov="activity" gov_index="16">conj_and</dependency>
+      <dependency dep="non-small" dep_index="21" gov="cancer" gov_index="24">amod</dependency>
+      <dependency dep="cell" dep_index="22" gov="cancer" gov_index="24">nn</dependency>
+      <dependency dep="lung" dep_index="23" gov="cancer" gov_index="24">nn</dependency>
+      <dependency dep="cancer" dep_index="24" gov="activity" gov_index="16">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400009" relationship="false">4 2 9</relation>
+      <relation position="600009" relationship="false">6 2 9</relation>
+      <relation position="400006" relationship="false">4 2 6</relation>
+   </relations>
+   <pairs/>
+</root>

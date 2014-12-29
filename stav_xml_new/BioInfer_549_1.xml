@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Spontaneous@and@mitomycin@C-induced@SCE@levels@were@significantly@reduced@for@chicken@DT40@B@cells@lacking@the@key@HR@genes@RAD51@and@RAD54@but@not@for@nonhomologous@DNA@end-joining@(NHEJ)-defective@KU70(-/-)@cells@.@</sentence>
+   <tags>
+      <tag pos="20">RAD51</tag>
+      <tag pos="22">RAD54</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Spontaneous</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="JJ">mitomycin</taggedword>
+      <taggedword index="4" part-of-speech="JJ">C-induced</taggedword>
+      <taggedword index="5" part-of-speech="NNP">SCE</taggedword>
+      <taggedword index="6" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="7" part-of-speech="VBD">were</taggedword>
+      <taggedword index="8" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="9" part-of-speech="VBN">reduced</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="CD">chicken</taggedword>
+      <taggedword index="12" part-of-speech="NNP">DT40</taggedword>
+      <taggedword index="13" part-of-speech="NNP">B</taggedword>
+      <taggedword index="14" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="15" part-of-speech="VBG">lacking</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">key</taggedword>
+      <taggedword index="18" part-of-speech="NNP">HR</taggedword>
+      <taggedword index="19" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="20" part-of-speech="NN">RAD51</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NNP">RAD54</taggedword>
+      <taggedword index="23" part-of-speech="CC">but</taggedword>
+      <taggedword index="24" part-of-speech="RB">not</taggedword>
+      <taggedword index="25" part-of-speech="IN">for</taggedword>
+      <taggedword index="26" part-of-speech="JJ">nonhomologous</taggedword>
+      <taggedword index="27" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="28" part-of-speech="VBG">end-joining</taggedword>
+      <taggedword index="29" part-of-speech="JJ">(NHEJ)-defective</taggedword>
+      <taggedword index="30" part-of-speech="NN">KU70(-/-)</taggedword>
+      <taggedword index="31" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Spontaneous" dep_index="1" gov="reduced" gov_index="9">nsubjpass</dependency>
+      <dependency dep="mitomycin" dep_index="3" gov="levels" gov_index="6">amod</dependency>
+      <dependency dep="C-induced" dep_index="4" gov="levels" gov_index="6">amod</dependency>
+      <dependency dep="SCE" dep_index="5" gov="levels" gov_index="6">nn</dependency>
+      <dependency dep="levels" dep_index="6" gov="Spontaneous" gov_index="1">conj_and</dependency>
+      <dependency dep="levels" dep_index="6" gov="reduced" gov_index="9">nsubjpass</dependency>
+      <dependency dep="were" dep_index="7" gov="reduced" gov_index="9">auxpass</dependency>
+      <dependency dep="significantly" dep_index="8" gov="reduced" gov_index="9">advmod</dependency>
+      <dependency dep="reduced" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="chicken" dep_index="11" gov="cells" gov_index="14">num</dependency>
+      <dependency dep="DT40" dep_index="12" gov="cells" gov_index="14">nn</dependency>
+      <dependency dep="B" dep_index="13" gov="cells" gov_index="14">nn</dependency>
+      <dependency dep="cells" dep_index="14" gov="reduced" gov_index="9">prep_for</dependency>
+      <dependency dep="lacking" dep_index="15" gov="cells" gov_index="14">partmod</dependency>
+      <dependency dep="the" dep_index="16" gov="RAD51" gov_index="20">det</dependency>
+      <dependency dep="key" dep_index="17" gov="RAD51" gov_index="20">amod</dependency>
+      <dependency dep="HR" dep_index="18" gov="RAD51" gov_index="20">nn</dependency>
+      <dependency dep="genes" dep_index="19" gov="RAD51" gov_index="20">nn</dependency>
+      <dependency dep="RAD51" dep_index="20" gov="lacking" gov_index="15">dobj</dependency>
+      <dependency dep="RAD54" dep_index="22" gov="lacking" gov_index="15">dobj</dependency>
+      <dependency dep="RAD54" dep_index="22" gov="RAD51" gov_index="20">conj_and</dependency>
+      <dependency dep="nonhomologous" dep_index="26" gov="DNA" gov_index="27">amod</dependency>
+      <dependency dep="DNA" dep_index="27" gov="reduced" gov_index="9">prep_for</dependency>
+      <dependency dep="DNA" dep_index="27" gov="cells" gov_index="14">conj_negcc</dependency>
+      <dependency dep="end-joining" dep_index="28" gov="DNA" gov_index="27">partmod</dependency>
+      <dependency dep="(NHEJ)-defective" dep_index="29" gov="cells" gov_index="31">amod</dependency>
+      <dependency dep="KU70(-/-)" dep_index="30" gov="cells" gov_index="31">nn</dependency>
+      <dependency dep="cells" dep_index="31" gov="end-joining" gov_index="28">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000022" relationship="false">20 15 22</relation>
+   </relations>
+   <pairs/>
+</root>

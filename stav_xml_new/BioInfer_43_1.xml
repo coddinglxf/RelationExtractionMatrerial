@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Although@co-localization@of@glucokinase@with@actin@filaments@was@not@clearly@demonstrated@in@the@pancreatic@beta-cell@line@MIN6@,@islet glucokinase@was@found@to@be@present@in@both@the@nucleus@and@the@cytoplasm@,@though@predominantly@in@the@nucleus@.@</sentence>
+   <tags>
+      <tag pos="6">actin</tag>
+      <tag pos="4">glucokinase</tag>
+      <tag pos="19">islet glucokinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Although</taggedword>
+      <taggedword index="2" part-of-speech="NN">co-localization</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">glucokinase</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="NN">actin</taggedword>
+      <taggedword index="7" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="8" part-of-speech="VBD">was</taggedword>
+      <taggedword index="9" part-of-speech="RB">not</taggedword>
+      <taggedword index="10" part-of-speech="RB">clearly</taggedword>
+      <taggedword index="11" part-of-speech="VBN">demonstrated</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">pancreatic</taggedword>
+      <taggedword index="15" part-of-speech="JJ">beta-cell</taggedword>
+      <taggedword index="16" part-of-speech="NN">line</taggedword>
+      <taggedword index="17" part-of-speech="NN">MIN6</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="NN">islet glucokinase</taggedword>
+      <taggedword index="20" part-of-speech="VBD">was</taggedword>
+      <taggedword index="21" part-of-speech="VBN">found</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="VB">be</taggedword>
+      <taggedword index="24" part-of-speech="JJ">present</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="PDT">both</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="NN">cytoplasm</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="RB">though</taggedword>
+      <taggedword index="34" part-of-speech="RB">predominantly</taggedword>
+      <taggedword index="35" part-of-speech="IN">in</taggedword>
+      <taggedword index="36" part-of-speech="DT">the</taggedword>
+      <taggedword index="37" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Although" dep_index="1" gov="demonstrated" gov_index="11">mark</dependency>
+      <dependency dep="co-localization" dep_index="2" gov="demonstrated" gov_index="11">nsubjpass</dependency>
+      <dependency dep="glucokinase" dep_index="4" gov="co-localization" gov_index="2">prep_of</dependency>
+      <dependency dep="actin" dep_index="6" gov="filaments" gov_index="7">nn</dependency>
+      <dependency dep="filaments" dep_index="7" gov="glucokinase" gov_index="4">prep_with</dependency>
+      <dependency dep="was" dep_index="8" gov="demonstrated" gov_index="11">auxpass</dependency>
+      <dependency dep="not" dep_index="9" gov="demonstrated" gov_index="11">neg</dependency>
+      <dependency dep="clearly" dep_index="10" gov="demonstrated" gov_index="11">advmod</dependency>
+      <dependency dep="demonstrated" dep_index="11" gov="found" gov_index="21">advcl</dependency>
+      <dependency dep="the" dep_index="13" gov="MIN6" gov_index="17">det</dependency>
+      <dependency dep="pancreatic" dep_index="14" gov="MIN6" gov_index="17">amod</dependency>
+      <dependency dep="beta-cell" dep_index="15" gov="MIN6" gov_index="17">amod</dependency>
+      <dependency dep="line" dep_index="16" gov="MIN6" gov_index="17">nn</dependency>
+      <dependency dep="MIN6" dep_index="17" gov="demonstrated" gov_index="11">prep_in</dependency>
+      <dependency dep="islet glucokinase" dep_index="19" gov="found" gov_index="21">nsubjpass</dependency>
+      <dependency dep="islet glucokinase" dep_index="19" gov="present" gov_index="24">xsubj</dependency>
+      <dependency dep="was" dep_index="20" gov="found" gov_index="21">auxpass</dependency>
+      <dependency dep="found" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="22" gov="present" gov_index="24">aux</dependency>
+      <dependency dep="be" dep_index="23" gov="present" gov_index="24">cop</dependency>
+      <dependency dep="present" dep_index="24" gov="found" gov_index="21">xcomp</dependency>
+      <dependency dep="both" dep_index="26" gov="nucleus" gov_index="28">predet</dependency>
+      <dependency dep="the" dep_index="27" gov="nucleus" gov_index="28">det</dependency>
+      <dependency dep="nucleus" dep_index="28" gov="present" gov_index="24">prep_in</dependency>
+      <dependency dep="the" dep_index="30" gov="cytoplasm" gov_index="31">det</dependency>
+      <dependency dep="cytoplasm" dep_index="31" gov="present" gov_index="24">prep_in</dependency>
+      <dependency dep="cytoplasm" dep_index="31" gov="nucleus" gov_index="28">conj_and</dependency>
+      <dependency dep="though" dep_index="33" gov="present" gov_index="24">advmod</dependency>
+      <dependency dep="predominantly" dep_index="34" gov="present" gov_index="24">advmod</dependency>
+      <dependency dep="the" dep_index="36" gov="nucleus" gov_index="37">det</dependency>
+      <dependency dep="nucleus" dep_index="37" gov="present" gov_index="24">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true"></relation>
+      <relation position="600019" relationship="false">6 7 4 2 11 21 19</relation>
+      <relation position="400019" relationship="false">4 2 11 21 19</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

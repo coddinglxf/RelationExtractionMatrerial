@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@key@feature@of@these@pore-forming@domains@is@the@ability@to@form@ion@channels@in@biological@membranes@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">key</taggedword>
+      <taggedword index="3" part-of-speech="NN">feature</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">these</taggedword>
+      <taggedword index="6" part-of-speech="JJ">pore-forming</taggedword>
+      <taggedword index="7" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">ability</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">form</taggedword>
+      <taggedword index="13" part-of-speech="NN">ion</taggedword>
+      <taggedword index="14" part-of-speech="NNS">channels</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="JJ">biological</taggedword>
+      <taggedword index="17" part-of-speech="NNS">membranes</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="feature" gov_index="3">det</dependency>
+      <dependency dep="key" dep_index="2" gov="feature" gov_index="3">amod</dependency>
+      <dependency dep="feature" dep_index="3" gov="ability" gov_index="10">nsubj</dependency>
+      <dependency dep="these" dep_index="5" gov="domains" gov_index="7">det</dependency>
+      <dependency dep="pore-forming" dep_index="6" gov="domains" gov_index="7">amod</dependency>
+      <dependency dep="domains" dep_index="7" gov="feature" gov_index="3">prep_of</dependency>
+      <dependency dep="is" dep_index="8" gov="ability" gov_index="10">cop</dependency>
+      <dependency dep="the" dep_index="9" gov="ability" gov_index="10">det</dependency>
+      <dependency dep="ability" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="11" gov="form" gov_index="12">aux</dependency>
+      <dependency dep="form" dep_index="12" gov="ability" gov_index="10">infmod</dependency>
+      <dependency dep="ion" dep_index="13" gov="channels" gov_index="14">nn</dependency>
+      <dependency dep="channels" dep_index="14" gov="form" gov_index="12">dobj</dependency>
+      <dependency dep="biological" dep_index="16" gov="membranes" gov_index="17">amod</dependency>
+      <dependency dep="membranes" dep_index="17" gov="form" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@light@of@previous@results@,@it@appears@that@GS@monomers@can@attain@a@groE-independent@assembly@competent@conformation@after@a@brief@interaction@with@the@chaperonin@.@</sentence>
+   <tags>
+      <tag pos="10">GS</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">light</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">previous</taggedword>
+      <taggedword index="5" part-of-speech="NNS">results</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="PRP">it</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">appears</taggedword>
+      <taggedword index="9" part-of-speech="IN">that</taggedword>
+      <taggedword index="10" part-of-speech="NNP">GS</taggedword>
+      <taggedword index="11" part-of-speech="NNS">monomers</taggedword>
+      <taggedword index="12" part-of-speech="MD">can</taggedword>
+      <taggedword index="13" part-of-speech="VB">attain</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="JJ">groE-independent</taggedword>
+      <taggedword index="16" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="17" part-of-speech="JJ">competent</taggedword>
+      <taggedword index="18" part-of-speech="NN">conformation</taggedword>
+      <taggedword index="19" part-of-speech="IN">after</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="JJ">brief</taggedword>
+      <taggedword index="22" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">chaperonin</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="light" dep_index="2" gov="appears" gov_index="8">prep_in</dependency>
+      <dependency dep="previous" dep_index="4" gov="results" gov_index="5">amod</dependency>
+      <dependency dep="results" dep_index="5" gov="light" gov_index="2">prep_of</dependency>
+      <dependency dep="it" dep_index="7" gov="appears" gov_index="8">nsubj</dependency>
+      <dependency dep="appears" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="9" gov="attain" gov_index="13">mark</dependency>
+      <dependency dep="GS" dep_index="10" gov="monomers" gov_index="11">nn</dependency>
+      <dependency dep="monomers" dep_index="11" gov="attain" gov_index="13">nsubj</dependency>
+      <dependency dep="can" dep_index="12" gov="attain" gov_index="13">aux</dependency>
+      <dependency dep="attain" dep_index="13" gov="appears" gov_index="8">ccomp</dependency>
+      <dependency dep="a" dep_index="14" gov="conformation" gov_index="18">det</dependency>
+      <dependency dep="groE-independent" dep_index="15" gov="conformation" gov_index="18">amod</dependency>
+      <dependency dep="assembly" dep_index="16" gov="conformation" gov_index="18">nn</dependency>
+      <dependency dep="competent" dep_index="17" gov="conformation" gov_index="18">amod</dependency>
+      <dependency dep="conformation" dep_index="18" gov="attain" gov_index="13">dobj</dependency>
+      <dependency dep="a" dep_index="20" gov="interaction" gov_index="22">det</dependency>
+      <dependency dep="brief" dep_index="21" gov="interaction" gov_index="22">amod</dependency>
+      <dependency dep="interaction" dep_index="22" gov="attain" gov_index="13">prep_after</dependency>
+      <dependency dep="the" dep_index="24" gov="chaperonin" gov_index="25">det</dependency>
+      <dependency dep="chaperonin" dep_index="25" gov="interaction" gov_index="22">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

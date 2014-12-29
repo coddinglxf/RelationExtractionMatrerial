@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Coexpression@of@the@A8R@and@A23R@genes@in@Escherichia@coli@was@required@for@in@vitro@activity@.@</sentence>
+   <tags>
+      <tag pos="6">A23R</tag>
+      <tag pos="4">A8R</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Coexpression</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NNP">A8R</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">A23R</taggedword>
+      <taggedword index="7" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Escherichia</taggedword>
+      <taggedword index="10" part-of-speech="NNS">coli</taggedword>
+      <taggedword index="11" part-of-speech="VBD">was</taggedword>
+      <taggedword index="12" part-of-speech="VBN">required</taggedword>
+      <taggedword index="13" part-of-speech="IN">for</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="16" part-of-speech="NN">activity</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Coexpression" dep_index="1" gov="required" gov_index="12">nsubjpass</dependency>
+      <dependency dep="the" dep_index="3" gov="genes" gov_index="7">det</dependency>
+      <dependency dep="A8R" dep_index="4" gov="genes" gov_index="7">nn</dependency>
+      <dependency dep="A23R" dep_index="6" gov="A8R" gov_index="4">conj_and</dependency>
+      <dependency dep="A23R" dep_index="6" gov="genes" gov_index="7">nn</dependency>
+      <dependency dep="genes" dep_index="7" gov="Coexpression" gov_index="1">prep_of</dependency>
+      <dependency dep="Escherichia" dep_index="9" gov="coli" gov_index="10">nn</dependency>
+      <dependency dep="coli" dep_index="10" gov="genes" gov_index="7">prep_in</dependency>
+      <dependency dep="was" dep_index="11" gov="required" gov_index="12">auxpass</dependency>
+      <dependency dep="required" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="in" dep_index="14" gov="vitro" gov_index="15">dep</dependency>
+      <dependency dep="vitro" dep_index="15" gov="activity" gov_index="16">amod</dependency>
+      <dependency dep="activity" dep_index="16" gov="required" gov_index="12">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 7 6</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

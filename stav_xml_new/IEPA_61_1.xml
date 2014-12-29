@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Secreted@form@of@beta-amyloid@precursor@protein@activates@protein@kinase@C@and@phospholipase Cgamma1@in@cultured@embryonic@rat@neocortical@cells@</sentence>
+   <tags>
+      <tag pos="4">beta-amyloid</tag>
+      <tag pos="12">phospholipase Cgamma1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Secreted</taggedword>
+      <taggedword index="2" part-of-speech="NN">form</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">beta-amyloid</taggedword>
+      <taggedword index="5" part-of-speech="NN">precursor</taggedword>
+      <taggedword index="6" part-of-speech="NN">protein</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">activates</taggedword>
+      <taggedword index="8" part-of-speech="NN">protein</taggedword>
+      <taggedword index="9" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="10" part-of-speech="NNS">C</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNS">phospholipase Cgamma1</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="JJ">cultured</taggedword>
+      <taggedword index="15" part-of-speech="JJ">embryonic</taggedword>
+      <taggedword index="16" part-of-speech="NN">rat</taggedword>
+      <taggedword index="17" part-of-speech="NN">neocortical</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cells</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Secreted" dep_index="1" gov="form" gov_index="2">amod</dependency>
+      <dependency dep="form" dep_index="2" gov="activates" gov_index="7">nsubj</dependency>
+      <dependency dep="beta-amyloid" dep_index="4" gov="protein" gov_index="6">amod</dependency>
+      <dependency dep="precursor" dep_index="5" gov="protein" gov_index="6">nn</dependency>
+      <dependency dep="protein" dep_index="6" gov="form" gov_index="2">prep_of</dependency>
+      <dependency dep="activates" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="protein" dep_index="8" gov="C" gov_index="10">nn</dependency>
+      <dependency dep="kinase" dep_index="9" gov="C" gov_index="10">amod</dependency>
+      <dependency dep="C" dep_index="10" gov="activates" gov_index="7">dobj</dependency>
+      <dependency dep="phospholipase Cgamma1" dep_index="12" gov="activates" gov_index="7">dobj</dependency>
+      <dependency dep="phospholipase Cgamma1" dep_index="12" gov="C" gov_index="10">conj_and</dependency>
+      <dependency dep="cultured" dep_index="14" gov="cells" gov_index="18">amod</dependency>
+      <dependency dep="embryonic" dep_index="15" gov="cells" gov_index="18">amod</dependency>
+      <dependency dep="rat" dep_index="16" gov="cells" gov_index="18">nn</dependency>
+      <dependency dep="neocortical" dep_index="17" gov="cells" gov_index="18">nn</dependency>
+      <dependency dep="cells" dep_index="18" gov="C" gov_index="10">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400012" relationship="true">4 6 2 7 12</relation>
+   </relations>
+   <pairs>
+      <pair>400012</pair>
+   </pairs>
+</root>

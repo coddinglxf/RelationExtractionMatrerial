@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Direct@binding@of@the@verprolin@-homology@domain@in@N-WASP@to@actin@is@essential@for@cytoskeletal@reorganization@.@</sentence>
+   <tags>
+      <tag pos="5">verprolin</tag>
+      <tag pos="11">actin</tag>
+      <tag pos="9">N-WASP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Direct</taggedword>
+      <taggedword index="2" part-of-speech="NNP">binding</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">verprolin</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-homology</taggedword>
+      <taggedword index="7" part-of-speech="NN">domain</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NNP">N-WASP</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="NN">actin</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="JJ">cytoskeletal</taggedword>
+      <taggedword index="16" part-of-speech="NN">reorganization</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Direct" dep_index="1" gov="binding" gov_index="2">nn</dependency>
+      <dependency dep="binding" dep_index="2" gov="essential" gov_index="13">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="domain" gov_index="7">det</dependency>
+      <dependency dep="verprolin" dep_index="5" gov="domain" gov_index="7">amod</dependency>
+      <dependency dep="-homology" dep_index="6" gov="domain" gov_index="7">amod</dependency>
+      <dependency dep="domain" dep_index="7" gov="binding" gov_index="2">prep_of</dependency>
+      <dependency dep="N-WASP" dep_index="9" gov="domain" gov_index="7">prep_in</dependency>
+      <dependency dep="actin" dep_index="11" gov="N-WASP" gov_index="9">prep_to</dependency>
+      <dependency dep="is" dep_index="12" gov="essential" gov_index="13">cop</dependency>
+      <dependency dep="essential" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cytoskeletal" dep_index="15" gov="reorganization" gov_index="16">amod</dependency>
+      <dependency dep="reorganization" dep_index="16" gov="essential" gov_index="13">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500011" relationship="false">5 7 9 11</relation>
+      <relation position="500009" relationship="true">5 7 9</relation>
+      <relation position="900011" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>900011</pair>
+      <pair>500009</pair>
+   </pairs>
+</root>

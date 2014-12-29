@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@pre-treatment@of@cells@with@SGE@from@partially@fed@ticks@in@amounts@corresponding@to@1@or@3@salivary@glands@increased@the@level@of@both@viral@nucleocapsid@(@N@)@protein@and@phosphoprotein@(@P@)@in@a@dose-dependent@manner@.@</sentence>
+   <tags>
+      <tag pos="32">phosphoprotein</tag>
+      <tag pos="34">P</tag>
+      <tag pos="26">nucleocapsid</tag>
+      <tag pos="28">N</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NN">pre-treatment</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="NNP">SGE</taggedword>
+      <taggedword index="7" part-of-speech="IN">from</taggedword>
+      <taggedword index="8" part-of-speech="RB">partially</taggedword>
+      <taggedword index="9" part-of-speech="VBN">fed</taggedword>
+      <taggedword index="10" part-of-speech="NNS">ticks</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NNS">amounts</taggedword>
+      <taggedword index="13" part-of-speech="VBN">corresponding</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="CD">1</taggedword>
+      <taggedword index="16" part-of-speech="CC">or</taggedword>
+      <taggedword index="17" part-of-speech="CD">3</taggedword>
+      <taggedword index="18" part-of-speech="JJ">salivary</taggedword>
+      <taggedword index="19" part-of-speech="NNS">glands</taggedword>
+      <taggedword index="20" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">level</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="DT">both</taggedword>
+      <taggedword index="25" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="26" part-of-speech="JJ">nucleocapsid</taggedword>
+      <taggedword index="27" part-of-speech="NNP">(</taggedword>
+      <taggedword index="28" part-of-speech="NNP">N</taggedword>
+      <taggedword index="29" part-of-speech="NNP">)</taggedword>
+      <taggedword index="30" part-of-speech="NN">protein</taggedword>
+      <taggedword index="31" part-of-speech="CC">and</taggedword>
+      <taggedword index="32" part-of-speech="NNP">phosphoprotein</taggedword>
+      <taggedword index="33" part-of-speech="NNP">(</taggedword>
+      <taggedword index="34" part-of-speech="NNP">P</taggedword>
+      <taggedword index="35" part-of-speech="NNP">)</taggedword>
+      <taggedword index="36" part-of-speech="IN">in</taggedword>
+      <taggedword index="37" part-of-speech="DT">a</taggedword>
+      <taggedword index="38" part-of-speech="JJ">dose-dependent</taggedword>
+      <taggedword index="39" part-of-speech="NN">manner</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="pre-treatment" gov_index="2">det</dependency>
+      <dependency dep="pre-treatment" dep_index="2" gov="increased" gov_index="20">nsubj</dependency>
+      <dependency dep="cells" dep_index="4" gov="pre-treatment" gov_index="2">prep_of</dependency>
+      <dependency dep="SGE" dep_index="6" gov="cells" gov_index="4">prep_with</dependency>
+      <dependency dep="partially" dep_index="8" gov="fed" gov_index="9">advmod</dependency>
+      <dependency dep="fed" dep_index="9" gov="ticks" gov_index="10">amod</dependency>
+      <dependency dep="ticks" dep_index="10" gov="SGE" gov_index="6">prep_from</dependency>
+      <dependency dep="amounts" dep_index="12" gov="ticks" gov_index="10">prep_in</dependency>
+      <dependency dep="corresponding" dep_index="13" gov="amounts" gov_index="12">partmod</dependency>
+      <dependency dep="1" dep_index="15" gov="glands" gov_index="19">num</dependency>
+      <dependency dep="3" dep_index="17" gov="1" gov_index="15">conj_or</dependency>
+      <dependency dep="3" dep_index="17" gov="glands" gov_index="19">num</dependency>
+      <dependency dep="salivary" dep_index="18" gov="glands" gov_index="19">amod</dependency>
+      <dependency dep="glands" dep_index="19" gov="corresponding" gov_index="13">prep_to</dependency>
+      <dependency dep="increased" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="21" gov="level" gov_index="22">det</dependency>
+      <dependency dep="level" dep_index="22" gov="increased" gov_index="20">dobj</dependency>
+      <dependency dep="both" dep_index="24" gov="protein" gov_index="30">det</dependency>
+      <dependency dep="viral" dep_index="25" gov="protein" gov_index="30">amod</dependency>
+      <dependency dep="nucleocapsid" dep_index="26" gov="protein" gov_index="30">amod</dependency>
+      <dependency dep="(" dep_index="27" gov="protein" gov_index="30">nn</dependency>
+      <dependency dep="N" dep_index="28" gov="protein" gov_index="30">nn</dependency>
+      <dependency dep=")" dep_index="29" gov="protein" gov_index="30">nn</dependency>
+      <dependency dep="protein" dep_index="30" gov="level" gov_index="22">prep_of</dependency>
+      <dependency dep="phosphoprotein" dep_index="32" gov=")" gov_index="35">nn</dependency>
+      <dependency dep="(" dep_index="33" gov=")" gov_index="35">nn</dependency>
+      <dependency dep="P" dep_index="34" gov=")" gov_index="35">nn</dependency>
+      <dependency dep=")" dep_index="35" gov="level" gov_index="22">prep_of</dependency>
+      <dependency dep=")" dep_index="35" gov="protein" gov_index="30">conj_and</dependency>
+      <dependency dep="a" dep_index="37" gov="manner" gov_index="39">det</dependency>
+      <dependency dep="dose-dependent" dep_index="38" gov="manner" gov_index="39">amod</dependency>
+      <dependency dep="manner" dep_index="39" gov="increased" gov_index="20">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3200034" relationship="false">32 35 34</relation>
+      <relation position="2600032" relationship="false">26 30 22 35 32</relation>
+      <relation position="2800032" relationship="false">28 30 22 35 32</relation>
+      <relation position="2600034" relationship="false">26 30 22 35 34</relation>
+      <relation position="2800034" relationship="false">28 30 22 35 34</relation>
+      <relation position="2600028" relationship="false">26 30 28</relation>
+   </relations>
+   <pairs/>
+</root>

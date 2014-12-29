@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@hydrophobic@interactions@seem@to@play@a@significant@role@stabilizing@this@interaction@,@with@the@charged@residues@contributing@toward@the@rapid@association@of@the@complex@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="JJ">hydrophobic</taggedword>
+      <taggedword index="4" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="5" part-of-speech="VBP">seem</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">play</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="10" part-of-speech="NN">role</taggedword>
+      <taggedword index="11" part-of-speech="VBG">stabilizing</taggedword>
+      <taggedword index="12" part-of-speech="DT">this</taggedword>
+      <taggedword index="13" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">charged</taggedword>
+      <taggedword index="18" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="19" part-of-speech="VBG">contributing</taggedword>
+      <taggedword index="20" part-of-speech="IN">toward</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="23" part-of-speech="NN">association</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">complex</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="seem" gov_index="5">advmod</dependency>
+      <dependency dep="hydrophobic" dep_index="3" gov="interactions" gov_index="4">amod</dependency>
+      <dependency dep="interactions" dep_index="4" gov="seem" gov_index="5">nsubj</dependency>
+      <dependency dep="interactions" dep_index="4" gov="play" gov_index="7">xsubj</dependency>
+      <dependency dep="seem" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="6" gov="play" gov_index="7">aux</dependency>
+      <dependency dep="play" dep_index="7" gov="seem" gov_index="5">xcomp</dependency>
+      <dependency dep="a" dep_index="8" gov="role" gov_index="10">det</dependency>
+      <dependency dep="significant" dep_index="9" gov="role" gov_index="10">amod</dependency>
+      <dependency dep="role" dep_index="10" gov="play" gov_index="7">dobj</dependency>
+      <dependency dep="stabilizing" dep_index="11" gov="play" gov_index="7">xcomp</dependency>
+      <dependency dep="this" dep_index="12" gov="interaction" gov_index="13">det</dependency>
+      <dependency dep="interaction" dep_index="13" gov="stabilizing" gov_index="11">dobj</dependency>
+      <dependency dep="the" dep_index="16" gov="residues" gov_index="18">det</dependency>
+      <dependency dep="charged" dep_index="17" gov="residues" gov_index="18">amod</dependency>
+      <dependency dep="residues" dep_index="18" gov="play" gov_index="7">prep_with</dependency>
+      <dependency dep="contributing" dep_index="19" gov="residues" gov_index="18">partmod</dependency>
+      <dependency dep="the" dep_index="21" gov="association" gov_index="23">det</dependency>
+      <dependency dep="rapid" dep_index="22" gov="association" gov_index="23">amod</dependency>
+      <dependency dep="association" dep_index="23" gov="contributing" gov_index="19">prep_toward</dependency>
+      <dependency dep="the" dep_index="25" gov="complex" gov_index="26">det</dependency>
+      <dependency dep="complex" dep_index="26" gov="association" gov_index="23">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

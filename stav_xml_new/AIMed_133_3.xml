@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@effect@on@AP-1@transcriptional@activity@results@,@in@part@,@from@enhanced@phosphorylation@of@the@c-Jun@NH2-terminal@activation@domain@.@</sentence>
+   <tags>
+      <tag pos="4">AP-1</tag>
+      <tag pos="17">c-Jun</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">effect</taggedword>
+      <taggedword index="3" part-of-speech="IN">on</taggedword>
+      <taggedword index="4" part-of-speech="NN">AP-1</taggedword>
+      <taggedword index="5" part-of-speech="VBP">transcriptional</taggedword>
+      <taggedword index="6" part-of-speech="NN">activity</taggedword>
+      <taggedword index="7" part-of-speech="NNS">results</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="NN">part</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="IN">from</taggedword>
+      <taggedword index="13" part-of-speech="VBN">enhanced</taggedword>
+      <taggedword index="14" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">c-Jun</taggedword>
+      <taggedword index="18" part-of-speech="NN">NH2-terminal</taggedword>
+      <taggedword index="19" part-of-speech="NN">activation</taggedword>
+      <taggedword index="20" part-of-speech="NN">domain</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="effect" gov_index="2">det</dependency>
+      <dependency dep="effect" dep_index="2" gov="transcriptional" gov_index="5">nsubj</dependency>
+      <dependency dep="AP-1" dep_index="4" gov="effect" gov_index="2">prep_on</dependency>
+      <dependency dep="transcriptional" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="activity" dep_index="6" gov="results" gov_index="7">nn</dependency>
+      <dependency dep="results" dep_index="7" gov="transcriptional" gov_index="5">dobj</dependency>
+      <dependency dep="part" dep_index="10" gov="transcriptional" gov_index="5">prep_in</dependency>
+      <dependency dep="enhanced" dep_index="13" gov="phosphorylation" gov_index="14">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="14" gov="transcriptional" gov_index="5">prep_from</dependency>
+      <dependency dep="the" dep_index="16" gov="domain" gov_index="20">det</dependency>
+      <dependency dep="c-Jun" dep_index="17" gov="domain" gov_index="20">amod</dependency>
+      <dependency dep="NH2-terminal" dep_index="18" gov="domain" gov_index="20">nn</dependency>
+      <dependency dep="activation" dep_index="19" gov="domain" gov_index="20">nn</dependency>
+      <dependency dep="domain" dep_index="20" gov="phosphorylation" gov_index="14">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400017" relationship="false">4 2 5 14 20 17</relation>
+   </relations>
+   <pairs/>
+</root>

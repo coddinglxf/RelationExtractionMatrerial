@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Elevation@of@cAMP@induced@morphologic@alterations@indicative@of@changes@in@the@adhesive@status@of@the@macrophage@,@including@cell@rounding@and@disassembly@of@structures@that@represent@points@of@contact@with@substrate@containing@actin@and@talin@.@</sentence>
+   <tags>
+      <tag pos="33">actin</tag>
+      <tag pos="35">talin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Elevation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">cAMP</taggedword>
+      <taggedword index="4" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="5" part-of-speech="JJ">morphologic</taggedword>
+      <taggedword index="6" part-of-speech="NNS">alterations</taggedword>
+      <taggedword index="7" part-of-speech="JJ">indicative</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">adhesive</taggedword>
+      <taggedword index="13" part-of-speech="NN">status</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">macrophage</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="VBG">including</taggedword>
+      <taggedword index="19" part-of-speech="NN">cell</taggedword>
+      <taggedword index="20" part-of-speech="JJ">rounding</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="JJ">disassembly</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NNS">structures</taggedword>
+      <taggedword index="25" part-of-speech="WDT">that</taggedword>
+      <taggedword index="26" part-of-speech="VBP">represent</taggedword>
+      <taggedword index="27" part-of-speech="NNS">points</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="NN">contact</taggedword>
+      <taggedword index="30" part-of-speech="IN">with</taggedword>
+      <taggedword index="31" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="32" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="33" part-of-speech="NN">actin</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="NN">talin</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Elevation" dep_index="1" gov="induced" gov_index="4">nsubj</dependency>
+      <dependency dep="cAMP" dep_index="3" gov="Elevation" gov_index="1">prep_of</dependency>
+      <dependency dep="induced" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="morphologic" dep_index="5" gov="alterations" gov_index="6">amod</dependency>
+      <dependency dep="alterations" dep_index="6" gov="indicative" gov_index="7">nsubj</dependency>
+      <dependency dep="indicative" dep_index="7" gov="induced" gov_index="4">xcomp</dependency>
+      <dependency dep="changes" dep_index="9" gov="induced" gov_index="4">prep_of</dependency>
+      <dependency dep="the" dep_index="11" gov="status" gov_index="13">det</dependency>
+      <dependency dep="adhesive" dep_index="12" gov="status" gov_index="13">amod</dependency>
+      <dependency dep="status" dep_index="13" gov="changes" gov_index="9">prep_in</dependency>
+      <dependency dep="the" dep_index="15" gov="macrophage" gov_index="16">det</dependency>
+      <dependency dep="macrophage" dep_index="16" gov="status" gov_index="13">prep_of</dependency>
+      <dependency dep="cell" dep_index="19" gov="status" gov_index="13">prep_including</dependency>
+      <dependency dep="rounding" dep_index="20" gov="changes" gov_index="9">amod</dependency>
+      <dependency dep="disassembly" dep_index="22" gov="changes" gov_index="9">amod</dependency>
+      <dependency dep="disassembly" dep_index="22" gov="rounding" gov_index="20">conj_and</dependency>
+      <dependency dep="structures" dep_index="24" gov="changes" gov_index="9">prep_of</dependency>
+      <dependency dep="structures" dep_index="24" gov="represent" gov_index="26">nsubj</dependency>
+      <dependency dep="represent" dep_index="26" gov="structures" gov_index="24">rcmod</dependency>
+      <dependency dep="points" dep_index="27" gov="represent" gov_index="26">dobj</dependency>
+      <dependency dep="contact" dep_index="29" gov="points" gov_index="27">prep_of</dependency>
+      <dependency dep="substrate" dep_index="31" gov="changes" gov_index="9">prep_with</dependency>
+      <dependency dep="containing" dep_index="32" gov="changes" gov_index="9">partmod</dependency>
+      <dependency dep="actin" dep_index="33" gov="containing" gov_index="32">dobj</dependency>
+      <dependency dep="talin" dep_index="35" gov="containing" gov_index="32">dobj</dependency>
+      <dependency dep="talin" dep_index="35" gov="actin" gov_index="33">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3300035" relationship="true">33 32 35</relation>
+   </relations>
+   <pairs>
+      <pair>3300035</pair>
+   </pairs>
+</root>

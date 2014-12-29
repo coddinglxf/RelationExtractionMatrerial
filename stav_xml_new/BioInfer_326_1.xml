@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@EC@located@immediately@behind@the@migrating@front@retained@junctional@VE-cadherin@,@alpha-catenin@,@and@beta-catenin@while@plakoglobin@was@absent@from@these@sites@.@</sentence>
+   <tags>
+      <tag pos="20">plakoglobin</tag>
+      <tag pos="15">alpha-catenin</tag>
+      <tag pos="18">beta-catenin</tag>
+      <tag pos="13">VE-cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">EC</taggedword>
+      <taggedword index="5" part-of-speech="VBN">located</taggedword>
+      <taggedword index="6" part-of-speech="RB">immediately</taggedword>
+      <taggedword index="7" part-of-speech="IN">behind</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="VBG">migrating</taggedword>
+      <taggedword index="10" part-of-speech="NN">front</taggedword>
+      <taggedword index="11" part-of-speech="VBD">retained</taggedword>
+      <taggedword index="12" part-of-speech="VB">junctional</taggedword>
+      <taggedword index="13" part-of-speech="NNP">VE-cadherin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="19" part-of-speech="IN">while</taggedword>
+      <taggedword index="20" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="21" part-of-speech="VBD">was</taggedword>
+      <taggedword index="22" part-of-speech="JJ">absent</taggedword>
+      <taggedword index="23" part-of-speech="IN">from</taggedword>
+      <taggedword index="24" part-of-speech="DT">these</taggedword>
+      <taggedword index="25" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="retained" gov_index="11">prep_in</dependency>
+      <dependency dep="EC" dep_index="4" gov="retained" gov_index="11">nsubj</dependency>
+      <dependency dep="located" dep_index="5" gov="EC" gov_index="4">partmod</dependency>
+      <dependency dep="immediately" dep_index="6" gov="located" gov_index="5">advmod</dependency>
+      <dependency dep="the" dep_index="8" gov="front" gov_index="10">det</dependency>
+      <dependency dep="migrating" dep_index="9" gov="front" gov_index="10">amod</dependency>
+      <dependency dep="front" dep_index="10" gov="located" gov_index="5">prep_behind</dependency>
+      <dependency dep="retained" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="junctional" dep_index="12" gov="retained" gov_index="11">xcomp</dependency>
+      <dependency dep="VE-cadherin" dep_index="13" gov="junctional" gov_index="12">dobj</dependency>
+      <dependency dep="alpha-catenin" dep_index="15" gov="junctional" gov_index="12">dobj</dependency>
+      <dependency dep="alpha-catenin" dep_index="15" gov="VE-cadherin" gov_index="13">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="18" gov="junctional" gov_index="12">dobj</dependency>
+      <dependency dep="beta-catenin" dep_index="18" gov="VE-cadherin" gov_index="13">conj_and</dependency>
+      <dependency dep="while" dep_index="19" gov="absent" gov_index="22">mark</dependency>
+      <dependency dep="plakoglobin" dep_index="20" gov="absent" gov_index="22">nsubj</dependency>
+      <dependency dep="was" dep_index="21" gov="absent" gov_index="22">cop</dependency>
+      <dependency dep="absent" dep_index="22" gov="junctional" gov_index="12">advcl</dependency>
+      <dependency dep="these" dep_index="24" gov="sites" gov_index="25">det</dependency>
+      <dependency dep="sites" dep_index="25" gov="absent" gov_index="22">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500020" relationship="false">15 12 22 20</relation>
+      <relation position="1800020" relationship="false">18 12 22 20</relation>
+      <relation position="1300020" relationship="false">13 12 22 20</relation>
+      <relation position="1500018" relationship="false">15 12 18</relation>
+      <relation position="1300015" relationship="false">13 12 15</relation>
+      <relation position="1300018" relationship="false">13 12 18</relation>
+   </relations>
+   <pairs/>
+</root>

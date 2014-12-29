@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Oxytocin@-stimulated@inositol phosphate@turnover@in@endometrium@of@ewes@is@influenced@by@stage@of@the@estrous@cycle@,@pregnancy@,@and@intrauterine@infusion@of@ovine@conceptus@secretory@proteins@</sentence>
+   <tags>
+      <tag pos="1">Oxytocin</tag>
+      <tag pos="3">inositol phosphate</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Oxytocin</taggedword>
+      <taggedword index="2" part-of-speech="JJ">-stimulated</taggedword>
+      <taggedword index="3" part-of-speech="NN">inositol phosphate</taggedword>
+      <taggedword index="4" part-of-speech="NN">turnover</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="NN">endometrium</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNS">ewes</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="VBN">influenced</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="NN">stage</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">estrous</taggedword>
+      <taggedword index="16" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NN">pregnancy</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="JJ">intrauterine</taggedword>
+      <taggedword index="22" part-of-speech="NN">infusion</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="JJ">ovine</taggedword>
+      <taggedword index="25" part-of-speech="JJ">conceptus</taggedword>
+      <taggedword index="26" part-of-speech="NN">secretory</taggedword>
+      <taggedword index="27" part-of-speech="NNS">proteins</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Oxytocin" dep_index="1" gov="turnover" gov_index="4">amod</dependency>
+      <dependency dep="-stimulated" dep_index="2" gov="turnover" gov_index="4">amod</dependency>
+      <dependency dep="inositol phosphate" dep_index="3" gov="turnover" gov_index="4">nn</dependency>
+      <dependency dep="turnover" dep_index="4" gov="influenced" gov_index="10">nsubjpass</dependency>
+      <dependency dep="endometrium" dep_index="6" gov="turnover" gov_index="4">prep_in</dependency>
+      <dependency dep="ewes" dep_index="8" gov="endometrium" gov_index="6">prep_of</dependency>
+      <dependency dep="is" dep_index="9" gov="influenced" gov_index="10">auxpass</dependency>
+      <dependency dep="influenced" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="stage" dep_index="12" gov="influenced" gov_index="10">agent</dependency>
+      <dependency dep="the" dep_index="14" gov="cycle" gov_index="16">det</dependency>
+      <dependency dep="estrous" dep_index="15" gov="cycle" gov_index="16">amod</dependency>
+      <dependency dep="cycle" dep_index="16" gov="stage" gov_index="12">prep_of</dependency>
+      <dependency dep="pregnancy" dep_index="18" gov="stage" gov_index="12">prep_of</dependency>
+      <dependency dep="pregnancy" dep_index="18" gov="cycle" gov_index="16">conj_and</dependency>
+      <dependency dep="intrauterine" dep_index="21" gov="infusion" gov_index="22">amod</dependency>
+      <dependency dep="infusion" dep_index="22" gov="stage" gov_index="12">prep_of</dependency>
+      <dependency dep="infusion" dep_index="22" gov="cycle" gov_index="16">conj_and</dependency>
+      <dependency dep="ovine" dep_index="24" gov="proteins" gov_index="27">amod</dependency>
+      <dependency dep="conceptus" dep_index="25" gov="proteins" gov_index="27">amod</dependency>
+      <dependency dep="secretory" dep_index="26" gov="proteins" gov_index="27">nn</dependency>
+      <dependency dep="proteins" dep_index="27" gov="infusion" gov_index="22">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="true">1 4 3</relation>
+   </relations>
+   <pairs>
+      <pair>100003</pair>
+   </pairs>
+</root>

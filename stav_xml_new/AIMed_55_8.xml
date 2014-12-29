@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@spite@of@its@binding@to@CCR5@,@LEC@was@unable@to@inhibit@infection@of@an@R5-type@HIV-1@to@activated@human@peripheral@blood@mononuclear@cells@even@at@high@concentrations@.@</sentence>
+   <tags>
+      <tag pos="7">CCR5</tag>
+      <tag pos="9">LEC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">spite</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="5" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="NNP">CCR5</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="10" part-of-speech="VBD">was</taggedword>
+      <taggedword index="11" part-of-speech="JJ">unable</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">inhibit</taggedword>
+      <taggedword index="14" part-of-speech="NN">infection</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">an</taggedword>
+      <taggedword index="17" part-of-speech="NNP">R5-type</taggedword>
+      <taggedword index="18" part-of-speech="NNP">HIV-1</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="21" part-of-speech="JJ">human</taggedword>
+      <taggedword index="22" part-of-speech="JJ">peripheral</taggedword>
+      <taggedword index="23" part-of-speech="NN">blood</taggedword>
+      <taggedword index="24" part-of-speech="NN">mononuclear</taggedword>
+      <taggedword index="25" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="26" part-of-speech="RB">even</taggedword>
+      <taggedword index="27" part-of-speech="IN">at</taggedword>
+      <taggedword index="28" part-of-speech="JJ">high</taggedword>
+      <taggedword index="29" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="its" dep_index="4" gov="binding" gov_index="5">poss</dependency>
+      <dependency dep="binding" dep_index="5" gov="unable" gov_index="11">prep_in_spite_of</dependency>
+      <dependency dep="CCR5" dep_index="7" gov="unable" gov_index="11">prep_to</dependency>
+      <dependency dep="LEC" dep_index="9" gov="unable" gov_index="11">nsubj</dependency>
+      <dependency dep="LEC" dep_index="9" gov="inhibit" gov_index="13">xsubj</dependency>
+      <dependency dep="was" dep_index="10" gov="unable" gov_index="11">cop</dependency>
+      <dependency dep="unable" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="12" gov="inhibit" gov_index="13">aux</dependency>
+      <dependency dep="inhibit" dep_index="13" gov="unable" gov_index="11">xcomp</dependency>
+      <dependency dep="infection" dep_index="14" gov="inhibit" gov_index="13">dobj</dependency>
+      <dependency dep="an" dep_index="16" gov="HIV-1" gov_index="18">det</dependency>
+      <dependency dep="R5-type" dep_index="17" gov="HIV-1" gov_index="18">nn</dependency>
+      <dependency dep="HIV-1" dep_index="18" gov="infection" gov_index="14">prep_of</dependency>
+      <dependency dep="activated" dep_index="20" gov="cells" gov_index="25">amod</dependency>
+      <dependency dep="human" dep_index="21" gov="cells" gov_index="25">amod</dependency>
+      <dependency dep="peripheral" dep_index="22" gov="cells" gov_index="25">amod</dependency>
+      <dependency dep="blood" dep_index="23" gov="cells" gov_index="25">nn</dependency>
+      <dependency dep="mononuclear" dep_index="24" gov="cells" gov_index="25">nn</dependency>
+      <dependency dep="cells" dep_index="25" gov="inhibit" gov_index="13">prep_to</dependency>
+      <dependency dep="even" dep_index="26" gov="cells" gov_index="25">advmod</dependency>
+      <dependency dep="high" dep_index="28" gov="concentrations" gov_index="29">amod</dependency>
+      <dependency dep="concentrations" dep_index="29" gov="cells" gov_index="25">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true">7 11 9</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

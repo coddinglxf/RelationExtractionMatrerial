@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Armadillo@(@Arm@)@repeat@10@to@the@COOH@terminus@of@beta-catenin@is@involved@in@binding@to@CBP@,@whereas@beta-catenin@interacts@directly@with@the@CREB@-binding@domain@of@CBP@.@</sentence>
+   <tags>
+      <tag pos="18">CBP</tag>
+      <tag pos="3">Arm</tag>
+      <tag pos="21">beta-catenin</tag>
+      <tag pos="26">CREB</tag>
+      <tag pos="1">Armadillo</tag>
+      <tag pos="30">CBP</tag>
+      <tag pos="12">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Armadillo</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Arm</taggedword>
+      <taggedword index="4" part-of-speech="NNP">)</taggedword>
+      <taggedword index="5" part-of-speech="NN">repeat</taggedword>
+      <taggedword index="6" part-of-speech="CD">10</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">COOH</taggedword>
+      <taggedword index="10" part-of-speech="NNS">terminus</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="21" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="23" part-of-speech="RB">directly</taggedword>
+      <taggedword index="24" part-of-speech="IN">with</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NNP">CREB</taggedword>
+      <taggedword index="27" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="28" part-of-speech="NN">domain</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Armadillo" dep_index="1" gov="repeat" gov_index="5">nn</dependency>
+      <dependency dep="(" dep_index="2" gov="repeat" gov_index="5">nn</dependency>
+      <dependency dep="Arm" dep_index="3" gov="repeat" gov_index="5">nn</dependency>
+      <dependency dep=")" dep_index="4" gov="repeat" gov_index="5">nn</dependency>
+      <dependency dep="repeat" dep_index="5" gov="involved" gov_index="14">nsubjpass</dependency>
+      <dependency dep="10" dep_index="6" gov="repeat" gov_index="5">num</dependency>
+      <dependency dep="the" dep_index="8" gov="terminus" gov_index="10">det</dependency>
+      <dependency dep="COOH" dep_index="9" gov="terminus" gov_index="10">amod</dependency>
+      <dependency dep="terminus" dep_index="10" gov="repeat" gov_index="5">prep_to</dependency>
+      <dependency dep="beta-catenin" dep_index="12" gov="terminus" gov_index="10">prep_of</dependency>
+      <dependency dep="is" dep_index="13" gov="involved" gov_index="14">auxpass</dependency>
+      <dependency dep="involved" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="binding" dep_index="16" gov="involved" gov_index="14">prep_in</dependency>
+      <dependency dep="CBP" dep_index="18" gov="binding" gov_index="16">prep_to</dependency>
+      <dependency dep="whereas" dep_index="20" gov="interacts" gov_index="22">mark</dependency>
+      <dependency dep="beta-catenin" dep_index="21" gov="interacts" gov_index="22">nsubj</dependency>
+      <dependency dep="interacts" dep_index="22" gov="involved" gov_index="14">advcl</dependency>
+      <dependency dep="directly" dep_index="23" gov="interacts" gov_index="22">advmod</dependency>
+      <dependency dep="the" dep_index="25" gov="domain" gov_index="28">det</dependency>
+      <dependency dep="CREB" dep_index="26" gov="domain" gov_index="28">nn</dependency>
+      <dependency dep="-binding" dep_index="27" gov="domain" gov_index="28">amod</dependency>
+      <dependency dep="domain" dep_index="28" gov="interacts" gov_index="22">prep_with</dependency>
+      <dependency dep="CBP" dep_index="30" gov="domain" gov_index="28">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300018" relationship="true">3 5 14 16 18</relation>
+      <relation position="1800021" relationship="false">18 16 14 22 21</relation>
+      <relation position="1800026" relationship="false">18 16 14 22 28 26</relation>
+      <relation position="100018" relationship="true">1 5 14 16 18</relation>
+      <relation position="1800030" relationship="false">18 16 14 22 28 30</relation>
+      <relation position="1200018" relationship="true">12 10 5 14 16 18</relation>
+      <relation position="300021" relationship="false">3 5 14 22 21</relation>
+      <relation position="300026" relationship="false">3 5 14 22 28 26</relation>
+      <relation position="100003" relationship="false">1 5 3</relation>
+      <relation position="300030" relationship="false">3 5 14 22 28 30</relation>
+      <relation position="300012" relationship="true">3 5 10 12</relation>
+      <relation position="2100026" relationship="false">21 22 28 26</relation>
+      <relation position="100021" relationship="false">1 5 14 22 21</relation>
+      <relation position="2100030" relationship="true">21 22 28 30</relation>
+      <relation position="1200021" relationship="false">12 10 5 14 22 21</relation>
+      <relation position="100026" relationship="false">1 5 14 22 28 26</relation>
+      <relation position="2600030" relationship="true">26 28 30</relation>
+      <relation position="1200026" relationship="false">12 10 5 14 22 28 26</relation>
+      <relation position="100030" relationship="false">1 5 14 22 28 30</relation>
+      <relation position="100012" relationship="true">1 5 10 12</relation>
+      <relation position="1200030" relationship="false">12 10 5 14 22 28 30</relation>
+   </relations>
+   <pairs>
+      <pair>1200018</pair>
+      <pair>100012</pair>
+      <pair>300018</pair>
+      <pair>2600030</pair>
+      <pair>300012</pair>
+      <pair>2100030</pair>
+      <pair>100018</pair>
+   </pairs>
+</root>

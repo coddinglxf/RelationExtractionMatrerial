@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>One@function@of@leptin@in@control@of@body@composition@is@thus@to@target@a@PKC-regulated@component@of@the@PLC@-PKC@signaling@system@within@islets@to@prevent@hypersecretion@of@insulin@</sentence>
+   <tags>
+      <tag pos="19">PLC</tag>
+      <tag pos="29">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">One</taggedword>
+      <taggedword index="2" part-of-speech="NN">function</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="NN">control</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">body</taggedword>
+      <taggedword index="9" part-of-speech="NN">composition</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="RB">thus</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">target</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="JJ">PKC-regulated</taggedword>
+      <taggedword index="16" part-of-speech="NN">component</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="20" part-of-speech="NNP">-PKC</taggedword>
+      <taggedword index="21" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="22" part-of-speech="NN">system</taggedword>
+      <taggedword index="23" part-of-speech="IN">within</taggedword>
+      <taggedword index="24" part-of-speech="NNS">islets</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="VB">prevent</taggedword>
+      <taggedword index="27" part-of-speech="NN">hypersecretion</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="NN">insulin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="One" dep_index="1" gov="function" gov_index="2">num</dependency>
+      <dependency dep="function" dep_index="2" gov="is" gov_index="10">nsubj</dependency>
+      <dependency dep="function" dep_index="2" gov="target" gov_index="13">xsubj</dependency>
+      <dependency dep="leptin" dep_index="4" gov="function" gov_index="2">prep_of</dependency>
+      <dependency dep="control" dep_index="6" gov="leptin" gov_index="4">prep_in</dependency>
+      <dependency dep="body" dep_index="8" gov="composition" gov_index="9">nn</dependency>
+      <dependency dep="composition" dep_index="9" gov="control" gov_index="6">prep_of</dependency>
+      <dependency dep="is" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="thus" dep_index="11" gov="is" gov_index="10">advmod</dependency>
+      <dependency dep="to" dep_index="12" gov="target" gov_index="13">aux</dependency>
+      <dependency dep="target" dep_index="13" gov="is" gov_index="10">xcomp</dependency>
+      <dependency dep="a" dep_index="14" gov="component" gov_index="16">det</dependency>
+      <dependency dep="PKC-regulated" dep_index="15" gov="component" gov_index="16">amod</dependency>
+      <dependency dep="component" dep_index="16" gov="target" gov_index="13">dobj</dependency>
+      <dependency dep="the" dep_index="18" gov="-PKC" gov_index="20">det</dependency>
+      <dependency dep="PLC" dep_index="19" gov="-PKC" gov_index="20">nn</dependency>
+      <dependency dep="-PKC" dep_index="20" gov="component" gov_index="16">prep_of</dependency>
+      <dependency dep="signaling" dep_index="21" gov="-PKC" gov_index="20">partmod</dependency>
+      <dependency dep="system" dep_index="22" gov="signaling" gov_index="21">dobj</dependency>
+      <dependency dep="islets" dep_index="24" gov="signaling" gov_index="21">prep_within</dependency>
+      <dependency dep="to" dep_index="25" gov="prevent" gov_index="26">aux</dependency>
+      <dependency dep="prevent" dep_index="26" gov="signaling" gov_index="21">xcomp</dependency>
+      <dependency dep="hypersecretion" dep_index="27" gov="prevent" gov_index="26">dobj</dependency>
+      <dependency dep="insulin" dep_index="29" gov="hypersecretion" gov_index="27">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1900029" relationship="false">19 20 21 26 27 29</relation>
+   </relations>
+   <pairs/>
+</root>

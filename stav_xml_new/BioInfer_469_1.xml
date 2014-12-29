@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Other@mammalian@actin-binding proteins@such@as@profilin@and@CapG@but@also@fragmin@from@Physarum@polycephalum@are@similar@targets@for@PIP2-stimulated@pp60@(@c-src@)@phosphorylation@.@</sentence>
+   <tags>
+      <tag pos="8">CapG</tag>
+      <tag pos="11">fragmin</tag>
+      <tag pos="20">pp60</tag>
+      <tag pos="22">c-src</tag>
+      <tag pos="3">actin-binding proteins</tag>
+      <tag pos="6">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Other</taggedword>
+      <taggedword index="2" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="3" part-of-speech="NNS">actin-binding proteins</taggedword>
+      <taggedword index="4" part-of-speech="JJ">such</taggedword>
+      <taggedword index="5" part-of-speech="IN">as</taggedword>
+      <taggedword index="6" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CapG</taggedword>
+      <taggedword index="9" part-of-speech="CC">but</taggedword>
+      <taggedword index="10" part-of-speech="RB">also</taggedword>
+      <taggedword index="11" part-of-speech="NN">fragmin</taggedword>
+      <taggedword index="12" part-of-speech="IN">from</taggedword>
+      <taggedword index="13" part-of-speech="NNP">Physarum</taggedword>
+      <taggedword index="14" part-of-speech="NNP">polycephalum</taggedword>
+      <taggedword index="15" part-of-speech="VBP">are</taggedword>
+      <taggedword index="16" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="17" part-of-speech="NNS">targets</taggedword>
+      <taggedword index="18" part-of-speech="IN">for</taggedword>
+      <taggedword index="19" part-of-speech="NN">PIP2-stimulated</taggedword>
+      <taggedword index="20" part-of-speech="JJ">pp60</taggedword>
+      <taggedword index="21" part-of-speech="JJ">(</taggedword>
+      <taggedword index="22" part-of-speech="JJ">c-src</taggedword>
+      <taggedword index="23" part-of-speech="NN">)</taggedword>
+      <taggedword index="24" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Other" dep_index="1" gov="actin-binding proteins" gov_index="3">amod</dependency>
+      <dependency dep="mammalian" dep_index="2" gov="actin-binding proteins" gov_index="3">amod</dependency>
+      <dependency dep="actin-binding proteins" dep_index="3" gov="targets" gov_index="17">nsubj</dependency>
+      <dependency dep="profilin" dep_index="6" gov="actin-binding proteins" gov_index="3">prep_such_as</dependency>
+      <dependency dep="CapG" dep_index="8" gov="actin-binding proteins" gov_index="3">prep_such_as</dependency>
+      <dependency dep="CapG" dep_index="8" gov="profilin" gov_index="6">conj_and</dependency>
+      <dependency dep="fragmin" dep_index="11" gov="actin-binding proteins" gov_index="3">prep_such_as</dependency>
+      <dependency dep="fragmin" dep_index="11" gov="profilin" gov_index="6">conj_and</dependency>
+      <dependency dep="Physarum" dep_index="13" gov="polycephalum" gov_index="14">nn</dependency>
+      <dependency dep="polycephalum" dep_index="14" gov="fragmin" gov_index="11">prep_from</dependency>
+      <dependency dep="are" dep_index="15" gov="targets" gov_index="17">cop</dependency>
+      <dependency dep="similar" dep_index="16" gov="targets" gov_index="17">amod</dependency>
+      <dependency dep="targets" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="PIP2-stimulated" dep_index="19" gov="phosphorylation" gov_index="24">nn</dependency>
+      <dependency dep="pp60" dep_index="20" gov="phosphorylation" gov_index="24">amod</dependency>
+      <dependency dep="(" dep_index="21" gov="phosphorylation" gov_index="24">amod</dependency>
+      <dependency dep="c-src" dep_index="22" gov="phosphorylation" gov_index="24">amod</dependency>
+      <dependency dep=")" dep_index="23" gov="phosphorylation" gov_index="24">nn</dependency>
+      <dependency dep="phosphorylation" dep_index="24" gov="targets" gov_index="17">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800011" relationship="false">8 3 11</relation>
+      <relation position="800020" relationship="true">8 3 17 24 20</relation>
+      <relation position="800022" relationship="true">8 3 17 24 22</relation>
+      <relation position="300008" relationship="true"></relation>
+      <relation position="600008" relationship="false">6 3 8</relation>
+      <relation position="1100020" relationship="true">11 3 17 24 20</relation>
+      <relation position="1100022" relationship="true">11 3 17 24 22</relation>
+      <relation position="300011" relationship="true"></relation>
+      <relation position="600011" relationship="false">6 3 11</relation>
+      <relation position="2000022" relationship="false">20 24 22</relation>
+      <relation position="300020" relationship="false">3 17 24 20</relation>
+      <relation position="600020" relationship="true">6 3 17 24 20</relation>
+      <relation position="300022" relationship="false">3 17 24 22</relation>
+      <relation position="600022" relationship="true">6 3 17 24 22</relation>
+      <relation position="300006" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>800020</pair>
+      <pair>300006</pair>
+      <pair>800022</pair>
+      <pair>1100020</pair>
+      <pair>1100022</pair>
+      <pair>600020</pair>
+      <pair>300008</pair>
+      <pair>600022</pair>
+      <pair>300011</pair>
+   </pairs>
+</root>

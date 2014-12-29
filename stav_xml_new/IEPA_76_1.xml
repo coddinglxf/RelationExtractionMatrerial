@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Melatonin@inhibits@oxytocin@response@to@insulin@-induced@hypoglycemia@,@but@not@to@angiotensin@II@in@normal@men@</sentence>
+   <tags>
+      <tag pos="3">oxytocin</tag>
+      <tag pos="6">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Melatonin</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">inhibits</taggedword>
+      <taggedword index="3" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="4" part-of-speech="NN">response</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="7" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="8" part-of-speech="NN">hypoglycemia</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="CC">but</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="NNP">angiotensin</taggedword>
+      <taggedword index="14" part-of-speech="NNP">II</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="17" part-of-speech="NNS">men</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Melatonin" dep_index="1" gov="inhibits" gov_index="2">nsubj</dependency>
+      <dependency dep="inhibits" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="oxytocin" dep_index="3" gov="response" gov_index="4">nn</dependency>
+      <dependency dep="response" dep_index="4" gov="inhibits" gov_index="2">dobj</dependency>
+      <dependency dep="to" dep_index="5" gov="inhibits" gov_index="2">KILL</dependency>
+      <dependency dep="insulin" dep_index="6" gov="hypoglycemia" gov_index="8">nn</dependency>
+      <dependency dep="-induced" dep_index="7" gov="hypoglycemia" gov_index="8">amod</dependency>
+      <dependency dep="hypoglycemia" dep_index="8" gov="to" gov_index="5">KILL</dependency>
+      <dependency dep="not" dep_index="11" gov="inhibits" gov_index="2">prep</dependency>
+      <dependency dep="not" dep_index="11" gov="inhibits" gov_index="2">conj_but</dependency>
+      <dependency dep="not" dep_index="11" gov="to" gov_index="5">neg</dependency>
+      <dependency dep="to" dep_index="12" gov="inhibits" gov_index="2">dep</dependency>
+      <dependency dep="angiotensin" dep_index="13" gov="II" gov_index="14">nn</dependency>
+      <dependency dep="II" dep_index="14" gov="to" gov_index="12">pobj</dependency>
+      <dependency dep="normal" dep_index="16" gov="men" gov_index="17">amod</dependency>
+      <dependency dep="men" dep_index="17" gov="II" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300006" relationship="true">3 4 2 5 8 6</relation>
+   </relations>
+   <pairs>
+      <pair>300006</pair>
+   </pairs>
+</root>

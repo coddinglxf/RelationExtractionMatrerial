@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>OBJECTIVE@:@To@assess@the@effect@of@chronic@treatment@with@CGP-12177@a@beta3-adrenergic@receptor@(AR)@agonist@with@beta2/beta1-AR@antagonist@action@,@on@the@expression@of@the@leptin@gene@and@of@genes@coding@for@uncoupling proteins@(ucp1@,@ucp2@and@ucp3)@in@brown@and@white@adipose@tissues@</sentence>
+   <tags>
+      <tag pos="27">leptin</tag>
+      <tag pos="34">uncoupling proteins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">OBJECTIVE</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="TO">To</taggedword>
+      <taggedword index="4" part-of-speech="VB">assess</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">effect</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">chronic</taggedword>
+      <taggedword index="9" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="VBG">CGP-12177</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">beta3-adrenergic</taggedword>
+      <taggedword index="14" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="15" part-of-speech="NN">(AR)</taggedword>
+      <taggedword index="16" part-of-speech="NN">agonist</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="JJ">beta2/beta1-AR</taggedword>
+      <taggedword index="19" part-of-speech="NN">antagonist</taggedword>
+      <taggedword index="20" part-of-speech="NN">action</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="IN">on</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">expression</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="28" part-of-speech="NN">gene</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="32" part-of-speech="VBG">coding</taggedword>
+      <taggedword index="33" part-of-speech="IN">for</taggedword>
+      <taggedword index="34" part-of-speech="JJ">uncoupling proteins</taggedword>
+      <taggedword index="35" part-of-speech="CD">(ucp1</taggedword>
+      <taggedword index="36" part-of-speech=",">,</taggedword>
+      <taggedword index="37" part-of-speech="CD">ucp2</taggedword>
+      <taggedword index="38" part-of-speech="CC">and</taggedword>
+      <taggedword index="39" part-of-speech="CD">ucp3)</taggedword>
+      <taggedword index="40" part-of-speech="IN">in</taggedword>
+      <taggedword index="41" part-of-speech="JJ">brown</taggedword>
+      <taggedword index="42" part-of-speech="CC">and</taggedword>
+      <taggedword index="43" part-of-speech="JJ">white</taggedword>
+      <taggedword index="44" part-of-speech="NN">adipose</taggedword>
+      <taggedword index="45" part-of-speech="NNS">tissues</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="OBJECTIVE" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="To" dep_index="3" gov="assess" gov_index="4">aux</dependency>
+      <dependency dep="assess" dep_index="4" gov="OBJECTIVE" gov_index="1">infmod</dependency>
+      <dependency dep="assess" dep_index="4" gov="OBJECTIVE" gov_index="1">infmod</dependency>
+      <dependency dep="assess" dep_index="4" gov="assess" gov_index="4">conj_and</dependency>
+      <dependency dep="the" dep_index="5" gov="effect" gov_index="6">det</dependency>
+      <dependency dep="effect" dep_index="6" gov="assess" gov_index="4">dobj</dependency>
+      <dependency dep="chronic" dep_index="8" gov="treatment" gov_index="9">amod</dependency>
+      <dependency dep="treatment" dep_index="9" gov="effect" gov_index="6">prep_of</dependency>
+      <dependency dep="CGP-12177" dep_index="11" gov="assess" gov_index="4">prepc_with</dependency>
+      <dependency dep="a" dep_index="12" gov="agonist" gov_index="16">det</dependency>
+      <dependency dep="beta3-adrenergic" dep_index="13" gov="agonist" gov_index="16">amod</dependency>
+      <dependency dep="receptor" dep_index="14" gov="agonist" gov_index="16">nn</dependency>
+      <dependency dep="(AR)" dep_index="15" gov="agonist" gov_index="16">nn</dependency>
+      <dependency dep="agonist" dep_index="16" gov="CGP-12177" gov_index="11">dobj</dependency>
+      <dependency dep="beta2/beta1-AR" dep_index="18" gov="action" gov_index="20">amod</dependency>
+      <dependency dep="antagonist" dep_index="19" gov="action" gov_index="20">nn</dependency>
+      <dependency dep="action" dep_index="20" gov="CGP-12177" gov_index="11">prep_with</dependency>
+      <dependency dep="the" dep_index="23" gov="expression" gov_index="24">det</dependency>
+      <dependency dep="expression" dep_index="24" gov="assess" gov_index="4">prep_on</dependency>
+      <dependency dep="the" dep_index="26" gov="gene" gov_index="28">det</dependency>
+      <dependency dep="leptin" dep_index="27" gov="gene" gov_index="28">nn</dependency>
+      <dependency dep="gene" dep_index="28" gov="expression" gov_index="24">prep_of</dependency>
+      <dependency dep="genes" dep_index="31" gov="assess" gov_index="4">prep_of</dependency>
+      <dependency dep="coding" dep_index="32" gov="genes" gov_index="31">partmod</dependency>
+      <dependency dep="uncoupling proteins" dep_index="34" gov="tissues" gov_index="45">amod</dependency>
+      <dependency dep="(ucp1" dep_index="35" gov="uncoupling proteins" gov_index="34">tmod</dependency>
+      <dependency dep="ucp2" dep_index="37" gov="(ucp1" gov_index="35">num</dependency>
+      <dependency dep="ucp3)" dep_index="39" gov="uncoupling proteins" gov_index="34">tmod</dependency>
+      <dependency dep="ucp3)" dep_index="39" gov="(ucp1" gov_index="35">conj_and</dependency>
+      <dependency dep="brown" dep_index="41" gov="adipose" gov_index="44">amod</dependency>
+      <dependency dep="white" dep_index="43" gov="brown" gov_index="41">conj_and</dependency>
+      <dependency dep="white" dep_index="43" gov="adipose" gov_index="44">amod</dependency>
+      <dependency dep="adipose" dep_index="44" gov="uncoupling proteins" gov_index="34">prep_in</dependency>
+      <dependency dep="tissues" dep_index="45" gov="coding" gov_index="32">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2700034" relationship="false">27 28 24 4 31 32 45 34</relation>
+   </relations>
+   <pairs/>
+</root>

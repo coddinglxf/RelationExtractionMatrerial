@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Removal@of@one@nonhomologous@DNA@end@during@gene@conversion@by@a@RAD1@-@and@MSH2@-independent@pathway@.@</sentence>
+   <tags>
+      <tag pos="12">RAD1</tag>
+      <tag pos="15">MSH2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Removal</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="CD">one</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">nonhomologous</taggedword>
+      <taggedword index="5" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="6" part-of-speech="NN">end</taggedword>
+      <taggedword index="7" part-of-speech="IN">during</taggedword>
+      <taggedword index="8" part-of-speech="NN">gene</taggedword>
+      <taggedword index="9" part-of-speech="NN">conversion</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">RAD1</taggedword>
+      <taggedword index="13" part-of-speech=":">-</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="JJ">MSH2</taggedword>
+      <taggedword index="16" part-of-speech="JJ">-independent</taggedword>
+      <taggedword index="17" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Removal" dep_index="1" gov="nonhomologous" gov_index="4">nsubj</dependency>
+      <dependency dep="one" dep_index="3" gov="Removal" gov_index="1">prep_of</dependency>
+      <dependency dep="nonhomologous" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="DNA" dep_index="5" gov="end" gov_index="6">nn</dependency>
+      <dependency dep="end" dep_index="6" gov="nonhomologous" gov_index="4">dobj</dependency>
+      <dependency dep="gene" dep_index="8" gov="conversion" gov_index="9">nn</dependency>
+      <dependency dep="conversion" dep_index="9" gov="nonhomologous" gov_index="4">prep_during</dependency>
+      <dependency dep="a" dep_index="11" gov="pathway" gov_index="17">det</dependency>
+      <dependency dep="RAD1" dep_index="12" gov="pathway" gov_index="17">amod</dependency>
+      <dependency dep="MSH2" dep_index="15" gov="RAD1" gov_index="12">conj_and</dependency>
+      <dependency dep="MSH2" dep_index="15" gov="pathway" gov_index="17">amod</dependency>
+      <dependency dep="-independent" dep_index="16" gov="pathway" gov_index="17">amod</dependency>
+      <dependency dep="pathway" dep_index="17" gov="nonhomologous" gov_index="4">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200015" relationship="false">12 17 15</relation>
+   </relations>
+   <pairs/>
+</root>

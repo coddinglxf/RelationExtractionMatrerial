@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@in@cerebrospinal@fluid@(CSF)@,@A beta@is@found@in@a@soluble@form@.@</sentence>
+   <tags>
+      <tag pos="9">A beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="JJ">cerebrospinal</taggedword>
+      <taggedword index="6" part-of-speech="NN">fluid</taggedword>
+      <taggedword index="7" part-of-speech="NNS">(CSF)</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">A beta</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">found</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="JJ">soluble</taggedword>
+      <taggedword index="15" part-of-speech="NN">form</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="found" gov_index="11">prep_in</dependency>
+      <dependency dep="cerebrospinal" dep_index="5" gov="(CSF)" gov_index="7">amod</dependency>
+      <dependency dep="fluid" dep_index="6" gov="(CSF)" gov_index="7">nn</dependency>
+      <dependency dep="(CSF)" dep_index="7" gov="found" gov_index="11">prep_in</dependency>
+      <dependency dep="A beta" dep_index="9" gov="found" gov_index="11">nsubjpass</dependency>
+      <dependency dep="is" dep_index="10" gov="found" gov_index="11">auxpass</dependency>
+      <dependency dep="found" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="13" gov="form" gov_index="15">det</dependency>
+      <dependency dep="soluble" dep_index="14" gov="form" gov_index="15">amod</dependency>
+      <dependency dep="form" dep_index="15" gov="found" gov_index="11">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

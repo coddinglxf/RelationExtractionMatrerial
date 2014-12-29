@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@studied@the@roles@of@cofilin@,@an@actin@-binding@phosphoprotein@,@in@superoxide@production@of@neutrophil-like@HL-60@cells@triggered@by@opsonized@zymosan@(OZ)@.@</sentence>
+   <tags>
+      <tag pos="9">actin</tag>
+      <tag pos="6">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">studied</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NNS">roles</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="DT">an</taggedword>
+      <taggedword index="9" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="10" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="11" part-of-speech="NN">phosphoprotein</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="JJ">superoxide</taggedword>
+      <taggedword index="15" part-of-speech="NN">production</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">neutrophil-like</taggedword>
+      <taggedword index="18" part-of-speech="NN">HL-60</taggedword>
+      <taggedword index="19" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="20" part-of-speech="VBN">triggered</taggedword>
+      <taggedword index="21" part-of-speech="IN">by</taggedword>
+      <taggedword index="22" part-of-speech="JJ">opsonized</taggedword>
+      <taggedword index="23" part-of-speech="NN">zymosan</taggedword>
+      <taggedword index="24" part-of-speech="NNS">(OZ)</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="studied" gov_index="2">nsubj</dependency>
+      <dependency dep="studied" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="roles" gov_index="4">det</dependency>
+      <dependency dep="roles" dep_index="4" gov="studied" gov_index="2">dobj</dependency>
+      <dependency dep="cofilin" dep_index="6" gov="roles" gov_index="4">prep_of</dependency>
+      <dependency dep="an" dep_index="8" gov="phosphoprotein" gov_index="11">det</dependency>
+      <dependency dep="actin" dep_index="9" gov="phosphoprotein" gov_index="11">amod</dependency>
+      <dependency dep="-binding" dep_index="10" gov="phosphoprotein" gov_index="11">amod</dependency>
+      <dependency dep="phosphoprotein" dep_index="11" gov="cofilin" gov_index="6">appos</dependency>
+      <dependency dep="superoxide" dep_index="14" gov="production" gov_index="15">amod</dependency>
+      <dependency dep="production" dep_index="15" gov="studied" gov_index="2">prep_in</dependency>
+      <dependency dep="neutrophil-like" dep_index="17" gov="cells" gov_index="19">amod</dependency>
+      <dependency dep="HL-60" dep_index="18" gov="cells" gov_index="19">nn</dependency>
+      <dependency dep="cells" dep_index="19" gov="production" gov_index="15">prep_of</dependency>
+      <dependency dep="triggered" dep_index="20" gov="cells" gov_index="19">partmod</dependency>
+      <dependency dep="opsonized" dep_index="22" gov="(OZ)" gov_index="24">amod</dependency>
+      <dependency dep="zymosan" dep_index="23" gov="(OZ)" gov_index="24">nn</dependency>
+      <dependency dep="(OZ)" dep_index="24" gov="triggered" gov_index="20">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600009" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>600009</pair>
+   </pairs>
+</root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Several@members@of@this@family@have@been@shown@to@transduce@their@signals@through@binding@to@type@I@and@type@II@serine-(threonine)@kinase@receptors@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Several</taggedword>
+      <taggedword index="2" part-of-speech="NNS">members</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech="NN">family</taggedword>
+      <taggedword index="6" part-of-speech="VBP">have</taggedword>
+      <taggedword index="7" part-of-speech="VBN">been</taggedword>
+      <taggedword index="8" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="VB">transduce</taggedword>
+      <taggedword index="11" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="12" part-of-speech="NNS">signals</taggedword>
+      <taggedword index="13" part-of-speech="IN">through</taggedword>
+      <taggedword index="14" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="NN">type</taggedword>
+      <taggedword index="17" part-of-speech="NN">I</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">type</taggedword>
+      <taggedword index="20" part-of-speech="NNP">II</taggedword>
+      <taggedword index="21" part-of-speech="NNP">serine-(threonine)</taggedword>
+      <taggedword index="22" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="23" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Several" dep_index="1" gov="members" gov_index="2">amod</dependency>
+      <dependency dep="members" dep_index="2" gov="shown" gov_index="8">nsubjpass</dependency>
+      <dependency dep="members" dep_index="2" gov="transduce" gov_index="10">xsubj</dependency>
+      <dependency dep="this" dep_index="4" gov="family" gov_index="5">det</dependency>
+      <dependency dep="family" dep_index="5" gov="members" gov_index="2">prep_of</dependency>
+      <dependency dep="have" dep_index="6" gov="shown" gov_index="8">aux</dependency>
+      <dependency dep="been" dep_index="7" gov="shown" gov_index="8">auxpass</dependency>
+      <dependency dep="shown" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="9" gov="transduce" gov_index="10">aux</dependency>
+      <dependency dep="transduce" dep_index="10" gov="shown" gov_index="8">xcomp</dependency>
+      <dependency dep="their" dep_index="11" gov="signals" gov_index="12">poss</dependency>
+      <dependency dep="signals" dep_index="12" gov="transduce" gov_index="10">dobj</dependency>
+      <dependency dep="binding" dep_index="14" gov="receptors" gov_index="23">amod</dependency>
+      <dependency dep="type" dep_index="16" gov="I" gov_index="17">nn</dependency>
+      <dependency dep="I" dep_index="17" gov="binding" gov_index="14">prep_to</dependency>
+      <dependency dep="type" dep_index="19" gov="binding" gov_index="14">prep_to</dependency>
+      <dependency dep="type" dep_index="19" gov="I" gov_index="17">conj_and</dependency>
+      <dependency dep="II" dep_index="20" gov="receptors" gov_index="23">nn</dependency>
+      <dependency dep="serine-(threonine)" dep_index="21" gov="receptors" gov_index="23">nn</dependency>
+      <dependency dep="kinase" dep_index="22" gov="receptors" gov_index="23">nn</dependency>
+      <dependency dep="receptors" dep_index="23" gov="transduce" gov_index="10">prep_through</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

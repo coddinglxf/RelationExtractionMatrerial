@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Munc18-2@is@a@Sec1@homologue@enriched@in@epithelial@cells@and@forms@a@complex@with@syntaxin 3@,@a@t-SNARE@localized@to@the@apical@plasma@membrane@.@</sentence>
+   <tags>
+      <tag pos="18">t-SNARE</tag>
+      <tag pos="1">Munc18-2</tag>
+      <tag pos="4">Sec1</tag>
+      <tag pos="15">syntaxin 3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Munc18-2</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">Sec1</taggedword>
+      <taggedword index="5" part-of-speech="NN">homologue</taggedword>
+      <taggedword index="6" part-of-speech="VBN">enriched</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="JJ">epithelial</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">forms</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="NN">complex</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="NNS">syntaxin 3</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">t-SNARE</taggedword>
+      <taggedword index="19" part-of-speech="JJ">localized</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="JJ">apical</taggedword>
+      <taggedword index="23" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="24" part-of-speech="NN">membrane</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Munc18-2" dep_index="1" gov="homologue" gov_index="5">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="homologue" gov_index="5">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="homologue" gov_index="5">det</dependency>
+      <dependency dep="Sec1" dep_index="4" gov="homologue" gov_index="5">amod</dependency>
+      <dependency dep="homologue" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="enriched" dep_index="6" gov="homologue" gov_index="5">dep</dependency>
+      <dependency dep="epithelial" dep_index="8" gov="cells" gov_index="9">amod</dependency>
+      <dependency dep="cells" dep_index="9" gov="enriched" gov_index="6">prep_in</dependency>
+      <dependency dep="forms" dep_index="11" gov="homologue" gov_index="5">dep</dependency>
+      <dependency dep="forms" dep_index="11" gov="enriched" gov_index="6">conj_and</dependency>
+      <dependency dep="a" dep_index="12" gov="complex" gov_index="13">det</dependency>
+      <dependency dep="complex" dep_index="13" gov="forms" gov_index="11">dobj</dependency>
+      <dependency dep="syntaxin 3" dep_index="15" gov="forms" gov_index="11">prep_with</dependency>
+      <dependency dep="a" dep_index="17" gov="membrane" gov_index="24">det</dependency>
+      <dependency dep="t-SNARE" dep_index="18" gov="membrane" gov_index="24">amod</dependency>
+      <dependency dep="localized" dep_index="19" gov="membrane" gov_index="24">amod</dependency>
+      <dependency dep="the" dep_index="21" gov="plasma" gov_index="23">det</dependency>
+      <dependency dep="apical" dep_index="22" gov="plasma" gov_index="23">amod</dependency>
+      <dependency dep="plasma" dep_index="23" gov="localized" gov_index="19">prep_to</dependency>
+      <dependency dep="membrane" dep_index="24" gov="syntaxin 3" gov_index="15">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100018" relationship="false">1 5 11 15 24 18</relation>
+      <relation position="400018" relationship="false">4 5 11 15 24 18</relation>
+      <relation position="1500018" relationship="true"></relation>
+      <relation position="100004" relationship="true">1 5 4</relation>
+      <relation position="100015" relationship="true">1 5 11 15</relation>
+      <relation position="400015" relationship="false">4 5 11 15</relation>
+   </relations>
+   <pairs>
+      <pair>100015</pair>
+      <pair>1500018</pair>
+      <pair>100004</pair>
+   </pairs>
+</root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interaction@between@AR@and@TR2@was@assessed@by@glutathione-S-transferase@(@GST@)@pull-down@assay@and@mammalian@two-hybrid@system@assay@</sentence>
+   <tags>
+      <tag pos="6">TR2</tag>
+      <tag pos="10">glutathione-S-transferase</tag>
+      <tag pos="12">GST</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">between</taggedword>
+      <taggedword index="4" part-of-speech="NNP">AR</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">TR2</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="VBN">assessed</taggedword>
+      <taggedword index="9" part-of-speech="IN">by</taggedword>
+      <taggedword index="10" part-of-speech="JJ">glutathione-S-transferase</taggedword>
+      <taggedword index="11" part-of-speech="NNP">(</taggedword>
+      <taggedword index="12" part-of-speech="NNP">GST</taggedword>
+      <taggedword index="13" part-of-speech="NNP">)</taggedword>
+      <taggedword index="14" part-of-speech="NN">pull-down</taggedword>
+      <taggedword index="15" part-of-speech="NN">assay</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="18" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="19" part-of-speech="NN">system</taggedword>
+      <taggedword index="20" part-of-speech="NN">assay</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interaction" gov_index="2">det</dependency>
+      <dependency dep="interaction" dep_index="2" gov="assessed" gov_index="8">nsubjpass</dependency>
+      <dependency dep="AR" dep_index="4" gov="interaction" gov_index="2">prep_between</dependency>
+      <dependency dep="TR2" dep_index="6" gov="interaction" gov_index="2">prep_between</dependency>
+      <dependency dep="TR2" dep_index="6" gov="AR" gov_index="4">conj_and</dependency>
+      <dependency dep="was" dep_index="7" gov="assessed" gov_index="8">auxpass</dependency>
+      <dependency dep="assessed" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="glutathione-S-transferase" dep_index="10" gov="assay" gov_index="15">amod</dependency>
+      <dependency dep="(" dep_index="11" gov="assay" gov_index="15">nn</dependency>
+      <dependency dep="GST" dep_index="12" gov="assay" gov_index="15">nn</dependency>
+      <dependency dep=")" dep_index="13" gov="assay" gov_index="15">nn</dependency>
+      <dependency dep="pull-down" dep_index="14" gov="assay" gov_index="15">nn</dependency>
+      <dependency dep="assay" dep_index="15" gov="assessed" gov_index="8">agent</dependency>
+      <dependency dep="mammalian" dep_index="17" gov="assay" gov_index="20">amod</dependency>
+      <dependency dep="two-hybrid" dep_index="18" gov="assay" gov_index="20">amod</dependency>
+      <dependency dep="system" dep_index="19" gov="assay" gov_index="20">nn</dependency>
+      <dependency dep="assay" dep_index="20" gov="assessed" gov_index="8">agent</dependency>
+      <dependency dep="assay" dep_index="20" gov="assay" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="false">6 2 8 15 10</relation>
+      <relation position="600012" relationship="false">6 2 8 15 12</relation>
+      <relation position="1000012" relationship="false">10 15 12</relation>
+   </relations>
+   <pairs/>
+</root>

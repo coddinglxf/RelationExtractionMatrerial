@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@we@report@the@cDNA@cloning@and@characterization@of@a@human@type@II@receptor@for@BMPs@(@BMPR-II@),@which@is@distantly@related@to@DAF-4@,@a@BMP type II receptor@from@Caenorhabditis@elegans@.@</sentence>
+   <tags>
+      <tag pos="18">BMPR-II</tag>
+      <tag pos="25">DAF-4</tag>
+      <tag pos="28">BMP type II receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech="PRP">we</taggedword>
+      <taggedword index="3" part-of-speech="VBP">report</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">cDNA</taggedword>
+      <taggedword index="6" part-of-speech="NN">cloning</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">characterization</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">human</taggedword>
+      <taggedword index="12" part-of-speech="NN">type</taggedword>
+      <taggedword index="13" part-of-speech="NNP">II</taggedword>
+      <taggedword index="14" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="15" part-of-speech="IN">for</taggedword>
+      <taggedword index="16" part-of-speech="NNP">BMPs</taggedword>
+      <taggedword index="17" part-of-speech="NNP">(</taggedword>
+      <taggedword index="18" part-of-speech="NNP">BMPR-II</taggedword>
+      <taggedword index="19" part-of-speech="NNP">),</taggedword>
+      <taggedword index="20" part-of-speech="WDT">which</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="22" part-of-speech="RB">distantly</taggedword>
+      <taggedword index="23" part-of-speech="VBN">related</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="NN">DAF-4</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="DT">a</taggedword>
+      <taggedword index="28" part-of-speech="NN">BMP type II receptor</taggedword>
+      <taggedword index="29" part-of-speech="IN">from</taggedword>
+      <taggedword index="30" part-of-speech="NNP">Caenorhabditis</taggedword>
+      <taggedword index="31" part-of-speech="NNS">elegans</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="report" gov_index="3">advmod</dependency>
+      <dependency dep="we" dep_index="2" gov="report" gov_index="3">nsubj</dependency>
+      <dependency dep="report" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="cloning" gov_index="6">det</dependency>
+      <dependency dep="cDNA" dep_index="5" gov="cloning" gov_index="6">amod</dependency>
+      <dependency dep="cloning" dep_index="6" gov="report" gov_index="3">dobj</dependency>
+      <dependency dep="characterization" dep_index="8" gov="report" gov_index="3">dobj</dependency>
+      <dependency dep="characterization" dep_index="8" gov="cloning" gov_index="6">conj_and</dependency>
+      <dependency dep="a" dep_index="10" gov="receptor" gov_index="14">det</dependency>
+      <dependency dep="human" dep_index="11" gov="receptor" gov_index="14">amod</dependency>
+      <dependency dep="type" dep_index="12" gov="receptor" gov_index="14">nn</dependency>
+      <dependency dep="II" dep_index="13" gov="receptor" gov_index="14">nn</dependency>
+      <dependency dep="receptor" dep_index="14" gov="cloning" gov_index="6">prep_of</dependency>
+      <dependency dep="BMPs" dep_index="16" gov=")," gov_index="19">nn</dependency>
+      <dependency dep="(" dep_index="17" gov=")," gov_index="19">nn</dependency>
+      <dependency dep="BMPR-II" dep_index="18" gov=")," gov_index="19">nn</dependency>
+      <dependency dep=")," dep_index="19" gov="receptor" gov_index="14">prep_for</dependency>
+      <dependency dep=")," dep_index="19" gov="related" gov_index="23">nsubjpass</dependency>
+      <dependency dep="is" dep_index="21" gov="related" gov_index="23">auxpass</dependency>
+      <dependency dep="distantly" dep_index="22" gov="related" gov_index="23">advmod</dependency>
+      <dependency dep="related" dep_index="23" gov=")," gov_index="19">rcmod</dependency>
+      <dependency dep="DAF-4" dep_index="25" gov="related" gov_index="23">prep_to</dependency>
+      <dependency dep="a" dep_index="27" gov="BMP type II receptor" gov_index="28">det</dependency>
+      <dependency dep="BMP type II receptor" dep_index="28" gov="DAF-4" gov_index="25">appos</dependency>
+      <dependency dep="Caenorhabditis" dep_index="30" gov="elegans" gov_index="31">nn</dependency>
+      <dependency dep="elegans" dep_index="31" gov="BMP type II receptor" gov_index="28">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800025" relationship="false">18 19 23 25</relation>
+      <relation position="1800028" relationship="false">18 19 23 25 28</relation>
+      <relation position="2500028" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

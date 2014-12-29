@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@screened@for@proteins@that@bind@to@PS1@from@a@human@embryonic@brain@cDNA@library@using@the@two-hybrid@method@and@isolated@one@clone@encoding@the@QM@/@Jif-1@gene@.@</sentence>
+   <tags>
+      <tag pos="8">PS1</tag>
+      <tag pos="26">QM</tag>
+      <tag pos="28">Jif-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">screened</taggedword>
+      <taggedword index="3" part-of-speech="IN">for</taggedword>
+      <taggedword index="4" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="CD">bind</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="CD">PS1</taggedword>
+      <taggedword index="9" part-of-speech="IN">from</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">human</taggedword>
+      <taggedword index="12" part-of-speech="JJ">embryonic</taggedword>
+      <taggedword index="13" part-of-speech="NN">brain</taggedword>
+      <taggedword index="14" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="15" part-of-speech="NN">library</taggedword>
+      <taggedword index="16" part-of-speech="VBG">using</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="19" part-of-speech="NN">method</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="VBN">isolated</taggedword>
+      <taggedword index="22" part-of-speech="NN">one</taggedword>
+      <taggedword index="23" part-of-speech="VBP">clone</taggedword>
+      <taggedword index="24" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NNP">QM</taggedword>
+      <taggedword index="27" part-of-speech="NNP">/</taggedword>
+      <taggedword index="28" part-of-speech="NN">Jif-1</taggedword>
+      <taggedword index="29" part-of-speech="NN">gene</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="screened" gov_index="2">nsubj</dependency>
+      <dependency dep="screened" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="proteins" dep_index="4" gov="screened" gov_index="2">prep_for</dependency>
+      <dependency dep="that" dep_index="5" gov="clone" gov_index="23">mark</dependency>
+      <dependency dep="bind" dep_index="6" gov="PS1" gov_index="8">number</dependency>
+      <dependency dep="to" dep_index="7" gov="PS1" gov_index="8">dep</dependency>
+      <dependency dep="PS1" dep_index="8" gov="clone" gov_index="23">nsubj</dependency>
+      <dependency dep="a" dep_index="10" gov="library" gov_index="15">det</dependency>
+      <dependency dep="human" dep_index="11" gov="library" gov_index="15">amod</dependency>
+      <dependency dep="embryonic" dep_index="12" gov="library" gov_index="15">amod</dependency>
+      <dependency dep="brain" dep_index="13" gov="library" gov_index="15">nn</dependency>
+      <dependency dep="cDNA" dep_index="14" gov="library" gov_index="15">nn</dependency>
+      <dependency dep="library" dep_index="15" gov="PS1" gov_index="8">prep_from</dependency>
+      <dependency dep="using" dep_index="16" gov="library" gov_index="15">partmod</dependency>
+      <dependency dep="the" dep_index="17" gov="method" gov_index="19">det</dependency>
+      <dependency dep="two-hybrid" dep_index="18" gov="method" gov_index="19">amod</dependency>
+      <dependency dep="method" dep_index="19" gov="using" gov_index="16">dobj</dependency>
+      <dependency dep="isolated" dep_index="21" gov="one" gov_index="22">amod</dependency>
+      <dependency dep="one" dep_index="22" gov="PS1" gov_index="8">conj_and</dependency>
+      <dependency dep="one" dep_index="22" gov="clone" gov_index="23">nsubj</dependency>
+      <dependency dep="clone" dep_index="23" gov="screened" gov_index="2">ccomp</dependency>
+      <dependency dep="encoding" dep_index="24" gov="clone" gov_index="23">xcomp</dependency>
+      <dependency dep="the" dep_index="25" gov="gene" gov_index="29">det</dependency>
+      <dependency dep="QM" dep_index="26" gov="gene" gov_index="29">nn</dependency>
+      <dependency dep="/" dep_index="27" gov="gene" gov_index="29">nn</dependency>
+      <dependency dep="Jif-1" dep_index="28" gov="gene" gov_index="29">nn</dependency>
+      <dependency dep="gene" dep_index="29" gov="encoding" gov_index="24">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800026" relationship="true">8 23 24 29 26</relation>
+      <relation position="800028" relationship="true">8 23 24 29 28</relation>
+      <relation position="2600028" relationship="false">26 29 28</relation>
+   </relations>
+   <pairs>
+      <pair>800028</pair>
+      <pair>800026</pair>
+   </pairs>
+</root>

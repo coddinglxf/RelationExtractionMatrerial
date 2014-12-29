@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Disruption@of@the@RVS167@gene@,@which@is@homologous@to@END6@/@RVS161@and@which@is@also@required@for@correct@actin@localization@,@also@blocks@endocytosis@.@</sentence>
+   <tags>
+      <tag pos="21">actin</tag>
+      <tag pos="11">END6</tag>
+      <tag pos="13">RVS161</tag>
+      <tag pos="4">RVS167</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Disruption</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NNP">RVS167</taggedword>
+      <taggedword index="5" part-of-speech="NN">gene</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="WDT">which</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="JJ">homologous</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="NNP">END6</taggedword>
+      <taggedword index="12" part-of-speech="NNP">/</taggedword>
+      <taggedword index="13" part-of-speech="NNP">RVS161</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="WDT">which</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="17" part-of-speech="RB">also</taggedword>
+      <taggedword index="18" part-of-speech="VBN">required</taggedword>
+      <taggedword index="19" part-of-speech="IN">for</taggedword>
+      <taggedword index="20" part-of-speech="JJ">correct</taggedword>
+      <taggedword index="21" part-of-speech="NN">actin</taggedword>
+      <taggedword index="22" part-of-speech="NN">localization</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="RB">also</taggedword>
+      <taggedword index="25" part-of-speech="VBZ">blocks</taggedword>
+      <taggedword index="26" part-of-speech="NNS">endocytosis</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Disruption" dep_index="1" gov="homologous" gov_index="9">nsubj</dependency>
+      <dependency dep="Disruption" dep_index="1" gov="blocks" gov_index="25">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="gene" gov_index="5">det</dependency>
+      <dependency dep="RVS167" dep_index="4" gov="gene" gov_index="5">nn</dependency>
+      <dependency dep="gene" dep_index="5" gov="Disruption" gov_index="1">prep_of</dependency>
+      <dependency dep="is" dep_index="8" gov="homologous" gov_index="9">cop</dependency>
+      <dependency dep="homologous" dep_index="9" gov="Disruption" gov_index="1">rcmod</dependency>
+      <dependency dep="END6" dep_index="11" gov="RVS161" gov_index="13">nn</dependency>
+      <dependency dep="/" dep_index="12" gov="RVS161" gov_index="13">nn</dependency>
+      <dependency dep="RVS161" dep_index="13" gov="homologous" gov_index="9">prep_to</dependency>
+      <dependency dep="which" dep_index="15" gov="required" gov_index="18">nsubjpass</dependency>
+      <dependency dep="is" dep_index="16" gov="required" gov_index="18">auxpass</dependency>
+      <dependency dep="also" dep_index="17" gov="required" gov_index="18">advmod</dependency>
+      <dependency dep="required" dep_index="18" gov="Disruption" gov_index="1">rcmod</dependency>
+      <dependency dep="required" dep_index="18" gov="homologous" gov_index="9">conj_and</dependency>
+      <dependency dep="correct" dep_index="20" gov="localization" gov_index="22">amod</dependency>
+      <dependency dep="actin" dep_index="21" gov="localization" gov_index="22">nn</dependency>
+      <dependency dep="localization" dep_index="22" gov="required" gov_index="18">prep_for</dependency>
+      <dependency dep="also" dep_index="24" gov="blocks" gov_index="25">advmod</dependency>
+      <dependency dep="blocks" dep_index="25" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="endocytosis" dep_index="26" gov="blocks" gov_index="25">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100021" relationship="false">11 13 9 1 18 22 21</relation>
+      <relation position="1300021" relationship="false">13 9 1 18 22 21</relation>
+      <relation position="400021" relationship="true">4 5 1 18 22 21</relation>
+      <relation position="1100013" relationship="false"></relation>
+      <relation position="400011" relationship="true">4 5 1 9 13 11</relation>
+      <relation position="400013" relationship="true">4 5 1 9 13</relation>
+   </relations>
+   <pairs>
+      <pair>400011</pair>
+      <pair>400013</pair>
+      <pair>400021</pair>
+   </pairs>
+</root>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Nuclear@extracts@deficient@in@U2AF35@were@inactive@;@however@,@both@constitutive@and@enhancer-dependent@splicing@could@be@restored@by@the@addition@of@purified@recombinant@U2AF35@.@</sentence>
+   <tags>
+      <tag pos="5">U2AF35</tag>
+      <tag pos="25">U2AF35</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Nuclear</taggedword>
+      <taggedword index="2" part-of-speech="NNS">extracts</taggedword>
+      <taggedword index="3" part-of-speech="NN">deficient</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="NNP">U2AF35</taggedword>
+      <taggedword index="6" part-of-speech="VBD">were</taggedword>
+      <taggedword index="7" part-of-speech="JJ">inactive</taggedword>
+      <taggedword index="8" part-of-speech=":">;</taggedword>
+      <taggedword index="9" part-of-speech="RB">however</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="DT">both</taggedword>
+      <taggedword index="12" part-of-speech="JJ">constitutive</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">enhancer-dependent</taggedword>
+      <taggedword index="15" part-of-speech="NN">splicing</taggedword>
+      <taggedword index="16" part-of-speech="MD">could</taggedword>
+      <taggedword index="17" part-of-speech="VB">be</taggedword>
+      <taggedword index="18" part-of-speech="VBN">restored</taggedword>
+      <taggedword index="19" part-of-speech="IN">by</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">addition</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">purified</taggedword>
+      <taggedword index="24" part-of-speech="JJ">recombinant</taggedword>
+      <taggedword index="25" part-of-speech="NN">U2AF35</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Nuclear" dep_index="1" gov="deficient" gov_index="3">amod</dependency>
+      <dependency dep="extracts" dep_index="2" gov="deficient" gov_index="3">nn</dependency>
+      <dependency dep="deficient" dep_index="3" gov="inactive" gov_index="7">nsubj</dependency>
+      <dependency dep="U2AF35" dep_index="5" gov="deficient" gov_index="3">prep_in</dependency>
+      <dependency dep="were" dep_index="6" gov="inactive" gov_index="7">cop</dependency>
+      <dependency dep="inactive" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="however" dep_index="9" gov="restored" gov_index="18">advmod</dependency>
+      <dependency dep="both" dep_index="11" gov="splicing" gov_index="15">det</dependency>
+      <dependency dep="constitutive" dep_index="12" gov="splicing" gov_index="15">amod</dependency>
+      <dependency dep="enhancer-dependent" dep_index="14" gov="constitutive" gov_index="12">conj_and</dependency>
+      <dependency dep="enhancer-dependent" dep_index="14" gov="splicing" gov_index="15">amod</dependency>
+      <dependency dep="splicing" dep_index="15" gov="restored" gov_index="18">nsubjpass</dependency>
+      <dependency dep="could" dep_index="16" gov="restored" gov_index="18">aux</dependency>
+      <dependency dep="be" dep_index="17" gov="restored" gov_index="18">auxpass</dependency>
+      <dependency dep="restored" dep_index="18" gov="inactive" gov_index="7">parataxis</dependency>
+      <dependency dep="the" dep_index="20" gov="addition" gov_index="21">det</dependency>
+      <dependency dep="addition" dep_index="21" gov="restored" gov_index="18">agent</dependency>
+      <dependency dep="purified" dep_index="23" gov="U2AF35" gov_index="25">amod</dependency>
+      <dependency dep="recombinant" dep_index="24" gov="U2AF35" gov_index="25">amod</dependency>
+      <dependency dep="U2AF35" dep_index="25" gov="addition" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500025" relationship="false">5 3 7 18 21 25</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interaction@between@interleukin-6@(@IL-6@)@and@IL-6 receptor@(@IL-6R@)@is@the@initial@and@most@specific@step@in@the@IL-6@signaling@pathway@.@</sentence>
+   <tags>
+      <tag pos="4">interleukin-6</tag>
+      <tag pos="6">IL-6</tag>
+      <tag pos="9">IL-6 receptor</tag>
+      <tag pos="11">IL-6R</tag>
+      <tag pos="22">IL-6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">between</taggedword>
+      <taggedword index="4" part-of-speech="JJ">interleukin-6</taggedword>
+      <taggedword index="5" part-of-speech="NNP">(</taggedword>
+      <taggedword index="6" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="7" part-of-speech="NN">)</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNS">IL-6 receptor</taggedword>
+      <taggedword index="10" part-of-speech="NN">(</taggedword>
+      <taggedword index="11" part-of-speech="NN">IL-6R</taggedword>
+      <taggedword index="12" part-of-speech="NNS">)</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">initial</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="RBS">most</taggedword>
+      <taggedword index="18" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="19" part-of-speech="NN">step</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="23" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="24" part-of-speech="RB">pathway</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interaction" gov_index="2">det</dependency>
+      <dependency dep="interaction" dep_index="2" gov="step" gov_index="19">nsubj</dependency>
+      <dependency dep="interleukin-6" dep_index="4" gov=")" gov_index="7">amod</dependency>
+      <dependency dep="(" dep_index="5" gov=")" gov_index="7">nn</dependency>
+      <dependency dep="IL-6" dep_index="6" gov=")" gov_index="7">nn</dependency>
+      <dependency dep=")" dep_index="7" gov="interaction" gov_index="2">prep_between</dependency>
+      <dependency dep="IL-6 receptor" dep_index="9" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="IL-6R" dep_index="11" gov=")" gov_index="12">nn</dependency>
+      <dependency dep=")" dep_index="12" gov="interaction" gov_index="2">prep_between</dependency>
+      <dependency dep=")" dep_index="12" gov=")" gov_index="7">conj_and</dependency>
+      <dependency dep="is" dep_index="13" gov="step" gov_index="19">cop</dependency>
+      <dependency dep="the" dep_index="14" gov="step" gov_index="19">det</dependency>
+      <dependency dep="initial" dep_index="15" gov="step" gov_index="19">nn</dependency>
+      <dependency dep="most" dep_index="17" gov="specific" gov_index="18">advmod</dependency>
+      <dependency dep="specific" dep_index="18" gov="initial" gov_index="15">conj_and</dependency>
+      <dependency dep="specific" dep_index="18" gov="step" gov_index="19">nn</dependency>
+      <dependency dep="step" dep_index="19" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="21" gov="IL-6" gov_index="22">det</dependency>
+      <dependency dep="IL-6" dep_index="22" gov="step" gov_index="19">prep_in</dependency>
+      <dependency dep="signaling" dep_index="23" gov="IL-6" gov_index="22">partmod</dependency>
+      <dependency dep="pathway" dep_index="24" gov="signaling" gov_index="23">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 7 6</relation>
+      <relation position="400009" relationship="true">4 7 2 12 9</relation>
+      <relation position="400011" relationship="true">4 7 2 12 11</relation>
+      <relation position="400022" relationship="false">4 7 2 19 22</relation>
+      <relation position="600009" relationship="true">6 7 2 12 9</relation>
+      <relation position="600011" relationship="false">6 7 2 12 11</relation>
+      <relation position="600022" relationship="false">6 7 2 19 22</relation>
+      <relation position="900011" relationship="false">9 12 11</relation>
+      <relation position="900022" relationship="false">9 12 2 19 22</relation>
+      <relation position="1100022" relationship="false">11 12 2 19 22</relation>
+   </relations>
+   <pairs>
+      <pair>600009</pair>
+      <pair>400011</pair>
+      <pair>400009</pair>
+   </pairs>
+</root>

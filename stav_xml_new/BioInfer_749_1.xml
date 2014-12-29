@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Three@actin@-associated@proteins@,@actin-binding protein@,@gelsolin@,@and@profilin@,@influence@gelation@,@solation@,@and@polymerization@,@respectively@,@of@actin@in@vitro@.@</sentence>
+   <tags>
+      <tag pos="8">gelsolin</tag>
+      <tag pos="6">actin-binding protein</tag>
+      <tag pos="2">actin</tag>
+      <tag pos="24">actin</tag>
+      <tag pos="11">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Three</taggedword>
+      <taggedword index="2" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="3" part-of-speech="JJ">-associated</taggedword>
+      <taggedword index="4" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">actin-binding protein</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">gelsolin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBP">influence</taggedword>
+      <taggedword index="14" part-of-speech="NN">gelation</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NN">solation</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">actin</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="NNP">vitro</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Three" dep_index="1" gov="proteins" gov_index="4">num</dependency>
+      <dependency dep="actin" dep_index="2" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="-associated" dep_index="3" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="proteins" dep_index="4" gov="influence" gov_index="13">nsubj</dependency>
+      <dependency dep="actin-binding protein" dep_index="6" gov="proteins" gov_index="4">appos</dependency>
+      <dependency dep="gelsolin" dep_index="8" gov="proteins" gov_index="4">appos</dependency>
+      <dependency dep="gelsolin" dep_index="8" gov="actin-binding protein" gov_index="6">conj_and</dependency>
+      <dependency dep="profilin" dep_index="11" gov="proteins" gov_index="4">appos</dependency>
+      <dependency dep="profilin" dep_index="11" gov="actin-binding protein" gov_index="6">conj_and</dependency>
+      <dependency dep="influence" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="gelation" dep_index="14" gov="influence" gov_index="13">dobj</dependency>
+      <dependency dep="solation" dep_index="16" gov="influence" gov_index="13">dobj</dependency>
+      <dependency dep="solation" dep_index="16" gov="gelation" gov_index="14">conj_and</dependency>
+      <dependency dep="polymerization" dep_index="19" gov="influence" gov_index="13">dobj</dependency>
+      <dependency dep="polymerization" dep_index="19" gov="gelation" gov_index="14">conj_and</dependency>
+      <dependency dep="respectively" dep_index="21" gov="influence" gov_index="13">advmod</dependency>
+      <dependency dep="actin" dep_index="24" gov="influence" gov_index="13">prep_of</dependency>
+      <dependency dep="vitro" dep_index="26" gov="actin" gov_index="24">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="false">6 4 8</relation>
+      <relation position="200008" relationship="true">2 4 8</relation>
+      <relation position="800024" relationship="false">8 4 13 24</relation>
+      <relation position="800011" relationship="false">8 4 11</relation>
+      <relation position="200006" relationship="true">2 4 6</relation>
+      <relation position="600024" relationship="false">6 4 13 24</relation>
+      <relation position="600011" relationship="false">6 4 11</relation>
+      <relation position="200024" relationship="false">2 4 13 24</relation>
+      <relation position="200011" relationship="true">2 4 11</relation>
+      <relation position="1100024" relationship="true">11 4 13 24</relation>
+   </relations>
+   <pairs>
+      <pair>200008</pair>
+      <pair>200011</pair>
+      <pair>1100024</pair>
+      <pair>200006</pair>
+   </pairs>
+</root>

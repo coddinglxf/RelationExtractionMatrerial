@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@regulation@of@alpha-Amy2@genes@by@GA@therefore@involves@an@interplay@of@at@least@three@different@types@of@transcription@factor@</sentence>
+   <tags>
+      <tag pos="4">alpha-Amy2</tag>
+      <tag pos="7">GA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">alpha-Amy2</taggedword>
+      <taggedword index="5" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="NNP">GA</taggedword>
+      <taggedword index="8" part-of-speech="RB">therefore</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">involves</taggedword>
+      <taggedword index="10" part-of-speech="DT">an</taggedword>
+      <taggedword index="11" part-of-speech="NN">interplay</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="IN">at</taggedword>
+      <taggedword index="14" part-of-speech="JJS">least</taggedword>
+      <taggedword index="15" part-of-speech="CD">three</taggedword>
+      <taggedword index="16" part-of-speech="JJ">different</taggedword>
+      <taggedword index="17" part-of-speech="NNS">types</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="20" part-of-speech="NN">factor</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="regulation" gov_index="2">det</dependency>
+      <dependency dep="regulation" dep_index="2" gov="involves" gov_index="9">nsubj</dependency>
+      <dependency dep="alpha-Amy2" dep_index="4" gov="genes" gov_index="5">amod</dependency>
+      <dependency dep="genes" dep_index="5" gov="regulation" gov_index="2">prep_of</dependency>
+      <dependency dep="GA" dep_index="7" gov="genes" gov_index="5">prep_by</dependency>
+      <dependency dep="therefore" dep_index="8" gov="involves" gov_index="9">advmod</dependency>
+      <dependency dep="involves" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="10" gov="interplay" gov_index="11">det</dependency>
+      <dependency dep="interplay" dep_index="11" gov="involves" gov_index="9">dobj</dependency>
+      <dependency dep="at" dep_index="13" gov="three" gov_index="15">quantmod</dependency>
+      <dependency dep="least" dep_index="14" gov="at" gov_index="13">mwe</dependency>
+      <dependency dep="least" dep_index="14" gov="at" gov_index="13">pobj</dependency>
+      <dependency dep="three" dep_index="15" gov="types" gov_index="17">num</dependency>
+      <dependency dep="different" dep_index="16" gov="types" gov_index="17">amod</dependency>
+      <dependency dep="types" dep_index="17" gov="interplay" gov_index="11">prep_of</dependency>
+      <dependency dep="transcription" dep_index="19" gov="factor" gov_index="20">nn</dependency>
+      <dependency dep="factor" dep_index="20" gov="types" gov_index="17">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="true">4 5 7</relation>
+   </relations>
+   <pairs>
+      <pair>400007</pair>
+   </pairs>
+</root>

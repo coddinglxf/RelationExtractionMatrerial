@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Three@new@sigmaB@-dependent@genes@(@ydaE@,@ydaG@and@yfkM@)@encoding@proteins@with@still@unknown@functions@were@also@described@.@</sentence>
+   <tags>
+      <tag pos="3">sigmaB</tag>
+      <tag pos="7">ydaE</tag>
+      <tag pos="9">ydaG</tag>
+      <tag pos="11">yfkM</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Three</taggedword>
+      <taggedword index="2" part-of-speech="JJ">new</taggedword>
+      <taggedword index="3" part-of-speech="JJ">sigmaB</taggedword>
+      <taggedword index="4" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="5" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="6" part-of-speech="VBG">(</taggedword>
+      <taggedword index="7" part-of-speech="NN">ydaE</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">ydaG</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">yfkM</taggedword>
+      <taggedword index="12" part-of-speech="NNS">)</taggedword>
+      <taggedword index="13" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="14" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="RB">still</taggedword>
+      <taggedword index="17" part-of-speech="JJ">unknown</taggedword>
+      <taggedword index="18" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="19" part-of-speech="VBD">were</taggedword>
+      <taggedword index="20" part-of-speech="RB">also</taggedword>
+      <taggedword index="21" part-of-speech="VBN">described</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Three" dep_index="1" gov="genes" gov_index="5">num</dependency>
+      <dependency dep="new" dep_index="2" gov="genes" gov_index="5">amod</dependency>
+      <dependency dep="sigmaB" dep_index="3" gov="genes" gov_index="5">amod</dependency>
+      <dependency dep="-dependent" dep_index="4" gov="genes" gov_index="5">amod</dependency>
+      <dependency dep="genes" dep_index="5" gov="described" gov_index="21">nsubjpass</dependency>
+      <dependency dep="(" dep_index="6" gov="genes" gov_index="5">partmod</dependency>
+      <dependency dep="ydaE" dep_index="7" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="ydaG" dep_index="9" gov="ydaE" gov_index="7">conj_and</dependency>
+      <dependency dep="ydaG" dep_index="9" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="yfkM" dep_index="11" gov="ydaE" gov_index="7">conj_and</dependency>
+      <dependency dep="yfkM" dep_index="11" gov=")" gov_index="12">nn</dependency>
+      <dependency dep=")" dep_index="12" gov="(" gov_index="6">dobj</dependency>
+      <dependency dep="encoding" dep_index="13" gov="(" gov_index="6">xcomp</dependency>
+      <dependency dep="proteins" dep_index="14" gov="encoding" gov_index="13">dobj</dependency>
+      <dependency dep="still" dep_index="16" gov="unknown" gov_index="17">advmod</dependency>
+      <dependency dep="unknown" dep_index="17" gov="functions" gov_index="18">amod</dependency>
+      <dependency dep="functions" dep_index="18" gov="encoding" gov_index="13">prep_with</dependency>
+      <dependency dep="were" dep_index="19" gov="described" gov_index="21">auxpass</dependency>
+      <dependency dep="also" dep_index="20" gov="described" gov_index="21">advmod</dependency>
+      <dependency dep="described" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300007" relationship="true">3 5 6 12 7</relation>
+      <relation position="300009" relationship="true">3 5 6 12 9</relation>
+      <relation position="300011" relationship="true">3 5 6 12 11</relation>
+      <relation position="700009" relationship="false">7 12 9</relation>
+      <relation position="700011" relationship="false">7 12 11</relation>
+      <relation position="900011" relationship="false">9 12 11</relation>
+   </relations>
+   <pairs>
+      <pair>300007</pair>
+      <pair>300009</pair>
+      <pair>300011</pair>
+   </pairs>
+</root>

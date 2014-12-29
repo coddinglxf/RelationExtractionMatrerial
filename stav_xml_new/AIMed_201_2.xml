@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Hepatitis B virus X protei@n@(@HBx@)@transactivates@viral@and@cellular@genes@through@a@wide@variety@of@cis-elements@.@</sentence>
+   <tags>
+      <tag pos="1">Hepatitis B virus X protei</tag>
+      <tag pos="4">HBx</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Hepatitis B virus X protei</taggedword>
+      <taggedword index="2" part-of-speech="NNP">n</taggedword>
+      <taggedword index="3" part-of-speech="NNP">(</taggedword>
+      <taggedword index="4" part-of-speech="NNP">HBx</taggedword>
+      <taggedword index="5" part-of-speech="NNP">)</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">transactivates</taggedword>
+      <taggedword index="7" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="10" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="11" part-of-speech="IN">through</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">wide</taggedword>
+      <taggedword index="14" part-of-speech="NN">variety</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NNS">cis-elements</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Hepatitis B virus X protei" dep_index="1" gov=")" gov_index="5">nn</dependency>
+      <dependency dep="n" dep_index="2" gov=")" gov_index="5">nn</dependency>
+      <dependency dep="(" dep_index="3" gov=")" gov_index="5">nn</dependency>
+      <dependency dep="HBx" dep_index="4" gov=")" gov_index="5">nn</dependency>
+      <dependency dep=")" dep_index="5" gov="transactivates" gov_index="6">nsubj</dependency>
+      <dependency dep="transactivates" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="viral" dep_index="7" gov="genes" gov_index="10">amod</dependency>
+      <dependency dep="cellular" dep_index="9" gov="viral" gov_index="7">conj_and</dependency>
+      <dependency dep="cellular" dep_index="9" gov="genes" gov_index="10">amod</dependency>
+      <dependency dep="genes" dep_index="10" gov="transactivates" gov_index="6">dobj</dependency>
+      <dependency dep="a" dep_index="12" gov="variety" gov_index="14">det</dependency>
+      <dependency dep="wide" dep_index="13" gov="variety" gov_index="14">amod</dependency>
+      <dependency dep="variety" dep_index="14" gov="transactivates" gov_index="6">prep_through</dependency>
+      <dependency dep="cis-elements" dep_index="16" gov="variety" gov_index="14">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100004" relationship="false">1 5 4</relation>
+   </relations>
+   <pairs/>
+</root>

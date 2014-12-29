@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Aside@from@activin's@inhibition@of@cell@proliferation@and@enhancement@of@apoptosis@,@other@newly@developed@methods@for@molecular@studies@of@apoptosis@by@activin@were@briefly@presented@that@support@the@role@of@activin@as@an@inhibitor@of@carcinogenesis@and@cancer@progression@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Aside</taggedword>
+      <taggedword index="2" part-of-speech="IN">from</taggedword>
+      <taggedword index="3" part-of-speech="JJ">activin's</taggedword>
+      <taggedword index="4" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">cell</taggedword>
+      <taggedword index="7" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">enhancement</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNS">apoptosis</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="JJ">other</taggedword>
+      <taggedword index="14" part-of-speech="RB">newly</taggedword>
+      <taggedword index="15" part-of-speech="JJ">developed</taggedword>
+      <taggedword index="16" part-of-speech="NNS">methods</taggedword>
+      <taggedword index="17" part-of-speech="IN">for</taggedword>
+      <taggedword index="18" part-of-speech="JJ">molecular</taggedword>
+      <taggedword index="19" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NNS">apoptosis</taggedword>
+      <taggedword index="22" part-of-speech="IN">by</taggedword>
+      <taggedword index="23" part-of-speech="NN">activin</taggedword>
+      <taggedword index="24" part-of-speech="VBD">were</taggedword>
+      <taggedword index="25" part-of-speech="RB">briefly</taggedword>
+      <taggedword index="26" part-of-speech="VBN">presented</taggedword>
+      <taggedword index="27" part-of-speech="IN">that</taggedword>
+      <taggedword index="28" part-of-speech="VBP">support</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="NN">role</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="NN">activin</taggedword>
+      <taggedword index="33" part-of-speech="IN">as</taggedword>
+      <taggedword index="34" part-of-speech="DT">an</taggedword>
+      <taggedword index="35" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="36" part-of-speech="IN">of</taggedword>
+      <taggedword index="37" part-of-speech="NNS">carcinogenesis</taggedword>
+      <taggedword index="38" part-of-speech="CC">and</taggedword>
+      <taggedword index="39" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="40" part-of-speech="NN">progression</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="activin's" dep_index="3" gov="inhibition" gov_index="4">amod</dependency>
+      <dependency dep="inhibition" dep_index="4" gov="presented" gov_index="26">prep_aside_from</dependency>
+      <dependency dep="cell" dep_index="6" gov="proliferation" gov_index="7">nn</dependency>
+      <dependency dep="proliferation" dep_index="7" gov="inhibition" gov_index="4">prep_of</dependency>
+      <dependency dep="enhancement" dep_index="9" gov="inhibition" gov_index="4">prep_of</dependency>
+      <dependency dep="enhancement" dep_index="9" gov="proliferation" gov_index="7">conj_and</dependency>
+      <dependency dep="apoptosis" dep_index="11" gov="inhibition" gov_index="4">prep_of</dependency>
+      <dependency dep="other" dep_index="13" gov="methods" gov_index="16">amod</dependency>
+      <dependency dep="newly" dep_index="14" gov="developed" gov_index="15">advmod</dependency>
+      <dependency dep="developed" dep_index="15" gov="methods" gov_index="16">amod</dependency>
+      <dependency dep="methods" dep_index="16" gov="presented" gov_index="26">nsubjpass</dependency>
+      <dependency dep="molecular" dep_index="18" gov="studies" gov_index="19">amod</dependency>
+      <dependency dep="studies" dep_index="19" gov="methods" gov_index="16">prep_for</dependency>
+      <dependency dep="apoptosis" dep_index="21" gov="studies" gov_index="19">prep_of</dependency>
+      <dependency dep="activin" dep_index="23" gov="apoptosis" gov_index="21">prep_by</dependency>
+      <dependency dep="were" dep_index="24" gov="presented" gov_index="26">auxpass</dependency>
+      <dependency dep="briefly" dep_index="25" gov="presented" gov_index="26">advmod</dependency>
+      <dependency dep="presented" dep_index="26" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="27" gov="support" gov_index="28">mark</dependency>
+      <dependency dep="support" dep_index="28" gov="presented" gov_index="26">ccomp</dependency>
+      <dependency dep="the" dep_index="29" gov="role" gov_index="30">det</dependency>
+      <dependency dep="role" dep_index="30" gov="support" gov_index="28">dobj</dependency>
+      <dependency dep="activin" dep_index="32" gov="role" gov_index="30">prep_of</dependency>
+      <dependency dep="an" dep_index="34" gov="inhibitor" gov_index="35">det</dependency>
+      <dependency dep="inhibitor" dep_index="35" gov="support" gov_index="28">prep_as</dependency>
+      <dependency dep="carcinogenesis" dep_index="37" gov="inhibitor" gov_index="35">prep_of</dependency>
+      <dependency dep="cancer" dep_index="39" gov="progression" gov_index="40">nn</dependency>
+      <dependency dep="progression" dep_index="40" gov="inhibitor" gov_index="35">prep_of</dependency>
+      <dependency dep="progression" dep_index="40" gov="carcinogenesis" gov_index="37">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

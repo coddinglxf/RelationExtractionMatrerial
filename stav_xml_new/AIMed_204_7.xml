@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Only@the@activated@and@not@the@latent@forms@of@wild-type@and@C-terminal@mutant@des-(248-450)-@MMP-1@proteins@are@able@to@form@complexes@with@TIMP@.@</sentence>
+   <tags>
+      <tag pos="15">MMP-1</tag>
+      <tag pos="23">TIMP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Only</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="NN">activated</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="RB">not</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">latent</taggedword>
+      <taggedword index="8" part-of-speech="NNS">forms</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="JJ">wild-type</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="JJ">C-terminal</taggedword>
+      <taggedword index="13" part-of-speech="JJ">mutant</taggedword>
+      <taggedword index="14" part-of-speech="JJ">des-(248-450)-</taggedword>
+      <taggedword index="15" part-of-speech="NN">MMP-1</taggedword>
+      <taggedword index="16" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="17" part-of-speech="VBP">are</taggedword>
+      <taggedword index="18" part-of-speech="JJ">able</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="VB">form</taggedword>
+      <taggedword index="21" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="22" part-of-speech="IN">with</taggedword>
+      <taggedword index="23" part-of-speech="NNP">TIMP</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Only" dep_index="1" gov="activated" gov_index="3">advmod</dependency>
+      <dependency dep="the" dep_index="2" gov="activated" gov_index="3">det</dependency>
+      <dependency dep="activated" dep_index="3" gov="able" gov_index="18">nsubj</dependency>
+      <dependency dep="activated" dep_index="3" gov="form" gov_index="20">xsubj</dependency>
+      <dependency dep="not" dep_index="5" gov="forms" gov_index="8">neg</dependency>
+      <dependency dep="the" dep_index="6" gov="forms" gov_index="8">det</dependency>
+      <dependency dep="latent" dep_index="7" gov="forms" gov_index="8">nn</dependency>
+      <dependency dep="forms" dep_index="8" gov="activated" gov_index="3">conj_and</dependency>
+      <dependency dep="forms" dep_index="8" gov="able" gov_index="18">nsubj</dependency>
+      <dependency dep="forms" dep_index="8" gov="form" gov_index="20">xsubj</dependency>
+      <dependency dep="wild-type" dep_index="10" gov="proteins" gov_index="16">amod</dependency>
+      <dependency dep="C-terminal" dep_index="12" gov="wild-type" gov_index="10">conj_and</dependency>
+      <dependency dep="C-terminal" dep_index="12" gov="proteins" gov_index="16">amod</dependency>
+      <dependency dep="mutant" dep_index="13" gov="proteins" gov_index="16">amod</dependency>
+      <dependency dep="des-(248-450)-" dep_index="14" gov="proteins" gov_index="16">amod</dependency>
+      <dependency dep="MMP-1" dep_index="15" gov="proteins" gov_index="16">nn</dependency>
+      <dependency dep="proteins" dep_index="16" gov="forms" gov_index="8">prep_of</dependency>
+      <dependency dep="are" dep_index="17" gov="able" gov_index="18">cop</dependency>
+      <dependency dep="able" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="19" gov="form" gov_index="20">aux</dependency>
+      <dependency dep="form" dep_index="20" gov="able" gov_index="18">xcomp</dependency>
+      <dependency dep="complexes" dep_index="21" gov="form" gov_index="20">dobj</dependency>
+      <dependency dep="TIMP" dep_index="23" gov="form" gov_index="20">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500023" relationship="true">15 16 8 20 23</relation>
+   </relations>
+   <pairs>
+      <pair>1500023</pair>
+   </pairs>
+</root>

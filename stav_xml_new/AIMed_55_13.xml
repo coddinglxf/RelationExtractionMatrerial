@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@presence@of@LEC@in@normal@plasma@at@relatively@high@concentrations@may@modulate@inflammatory@responses@.@</sentence>
+   <tags>
+      <tag pos="4">LEC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">presence</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="7" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="8" part-of-speech="IN">at</taggedword>
+      <taggedword index="9" part-of-speech="RB">relatively</taggedword>
+      <taggedword index="10" part-of-speech="JJ">high</taggedword>
+      <taggedword index="11" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="12" part-of-speech="MD">may</taggedword>
+      <taggedword index="13" part-of-speech="VB">modulate</taggedword>
+      <taggedword index="14" part-of-speech="JJ">inflammatory</taggedword>
+      <taggedword index="15" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="presence" gov_index="2">det</dependency>
+      <dependency dep="presence" dep_index="2" gov="modulate" gov_index="13">nsubj</dependency>
+      <dependency dep="LEC" dep_index="4" gov="presence" gov_index="2">prep_of</dependency>
+      <dependency dep="normal" dep_index="6" gov="plasma" gov_index="7">amod</dependency>
+      <dependency dep="plasma" dep_index="7" gov="LEC" gov_index="4">prep_in</dependency>
+      <dependency dep="relatively" dep_index="9" gov="high" gov_index="10">advmod</dependency>
+      <dependency dep="high" dep_index="10" gov="concentrations" gov_index="11">amod</dependency>
+      <dependency dep="concentrations" dep_index="11" gov="plasma" gov_index="7">prep_at</dependency>
+      <dependency dep="may" dep_index="12" gov="modulate" gov_index="13">aux</dependency>
+      <dependency dep="modulate" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="inflammatory" dep_index="14" gov="responses" gov_index="15">amod</dependency>
+      <dependency dep="responses" dep_index="15" gov="modulate" gov_index="13">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

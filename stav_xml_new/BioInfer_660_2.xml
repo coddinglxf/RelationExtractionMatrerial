@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@proximity@of@these@sites@to@the@actin@binding@site@provides@an@explanation@for@the@competition@between@actin@and@lipids@for@binding@profilin@.@</sentence>
+   <tags>
+      <tag pos="23">profilin</tag>
+      <tag pos="8">actin</tag>
+      <tag pos="18">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">proximity</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">these</taggedword>
+      <taggedword index="5" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">actin</taggedword>
+      <taggedword index="9" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="10" part-of-speech="NN">site</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">provides</taggedword>
+      <taggedword index="12" part-of-speech="DT">an</taggedword>
+      <taggedword index="13" part-of-speech="NN">explanation</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">competition</taggedword>
+      <taggedword index="17" part-of-speech="IN">between</taggedword>
+      <taggedword index="18" part-of-speech="NN">actin</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NNS">lipids</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="23" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="proximity" gov_index="2">det</dependency>
+      <dependency dep="proximity" dep_index="2" gov="provides" gov_index="11">nsubj</dependency>
+      <dependency dep="these" dep_index="4" gov="sites" gov_index="5">det</dependency>
+      <dependency dep="sites" dep_index="5" gov="proximity" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="7" gov="site" gov_index="10">det</dependency>
+      <dependency dep="actin" dep_index="8" gov="site" gov_index="10">nn</dependency>
+      <dependency dep="binding" dep_index="9" gov="site" gov_index="10">amod</dependency>
+      <dependency dep="site" dep_index="10" gov="sites" gov_index="5">prep_to</dependency>
+      <dependency dep="provides" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="12" gov="explanation" gov_index="13">det</dependency>
+      <dependency dep="explanation" dep_index="13" gov="provides" gov_index="11">dobj</dependency>
+      <dependency dep="the" dep_index="15" gov="competition" gov_index="16">det</dependency>
+      <dependency dep="competition" dep_index="16" gov="explanation" gov_index="13">prep_for</dependency>
+      <dependency dep="actin" dep_index="18" gov="competition" gov_index="16">prep_between</dependency>
+      <dependency dep="lipids" dep_index="20" gov="competition" gov_index="16">prep_between</dependency>
+      <dependency dep="lipids" dep_index="20" gov="actin" gov_index="18">conj_and</dependency>
+      <dependency dep="binding" dep_index="22" gov="profilin" gov_index="23">amod</dependency>
+      <dependency dep="profilin" dep_index="23" gov="provides" gov_index="11">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800023" relationship="true">8 10 5 2 11 23</relation>
+      <relation position="1800023" relationship="true">18 16 13 11 23</relation>
+      <relation position="800018" relationship="false">8 10 5 2 11 13 16 18</relation>
+   </relations>
+   <pairs>
+      <pair>1800023</pair>
+      <pair>800023</pair>
+   </pairs>
+</root>

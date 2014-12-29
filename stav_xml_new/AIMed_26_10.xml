@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@conclusion@,@impaired@expression@of@granulysin@by@NK@cells@correlates@with@progression@of@cancer@,@and@determination@of@granulysin@expression@might@prove@informative@for@assessing@the@immunological@condition@of@cancer@patients@.@</sentence>
+   <tags>
+      <tag pos="7">granulysin</tag>
+      <tag pos="20">granulysin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">conclusion</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="VBN">impaired</taggedword>
+      <taggedword index="5" part-of-speech="NN">expression</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">granulysin</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="NNP">NK</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">correlates</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NN">progression</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">determination</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NN">granulysin</taggedword>
+      <taggedword index="21" part-of-speech="NN">expression</taggedword>
+      <taggedword index="22" part-of-speech="MD">might</taggedword>
+      <taggedword index="23" part-of-speech="VB">prove</taggedword>
+      <taggedword index="24" part-of-speech="JJ">informative</taggedword>
+      <taggedword index="25" part-of-speech="IN">for</taggedword>
+      <taggedword index="26" part-of-speech="VBG">assessing</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="JJ">immunological</taggedword>
+      <taggedword index="29" part-of-speech="NN">condition</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="32" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="conclusion" dep_index="2" gov="correlates" gov_index="11">prep_in</dependency>
+      <dependency dep="impaired" dep_index="4" gov="expression" gov_index="5">amod</dependency>
+      <dependency dep="expression" dep_index="5" gov="correlates" gov_index="11">nsubj</dependency>
+      <dependency dep="granulysin" dep_index="7" gov="expression" gov_index="5">prep_of</dependency>
+      <dependency dep="NK" dep_index="9" gov="cells" gov_index="10">nn</dependency>
+      <dependency dep="cells" dep_index="10" gov="granulysin" gov_index="7">prep_by</dependency>
+      <dependency dep="correlates" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="progression" dep_index="13" gov="correlates" gov_index="11">prep_with</dependency>
+      <dependency dep="cancer" dep_index="15" gov="progression" gov_index="13">prep_of</dependency>
+      <dependency dep="determination" dep_index="18" gov="prove" gov_index="23">nsubj</dependency>
+      <dependency dep="granulysin" dep_index="20" gov="expression" gov_index="21">nn</dependency>
+      <dependency dep="expression" dep_index="21" gov="determination" gov_index="18">prep_of</dependency>
+      <dependency dep="might" dep_index="22" gov="prove" gov_index="23">aux</dependency>
+      <dependency dep="prove" dep_index="23" gov="correlates" gov_index="11">conj_and</dependency>
+      <dependency dep="informative" dep_index="24" gov="prove" gov_index="23">acomp</dependency>
+      <dependency dep="assessing" dep_index="26" gov="informative" gov_index="24">prepc_for</dependency>
+      <dependency dep="the" dep_index="27" gov="condition" gov_index="29">det</dependency>
+      <dependency dep="immunological" dep_index="28" gov="condition" gov_index="29">amod</dependency>
+      <dependency dep="condition" dep_index="29" gov="assessing" gov_index="26">dobj</dependency>
+      <dependency dep="cancer" dep_index="31" gov="patients" gov_index="32">nn</dependency>
+      <dependency dep="patients" dep_index="32" gov="condition" gov_index="29">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700020" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

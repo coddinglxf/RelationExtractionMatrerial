@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CD26@is@a@T@cell@activation@antigen@that@contains@dipeptidyl peptidase IV@activity@and@is@known@to@bind@adenosine deaminase@.@</sentence>
+   <tags>
+      <tag pos="10">dipeptidyl peptidase IV</tag>
+      <tag pos="17">adenosine deaminase</tag>
+      <tag pos="1">CD26</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CD26</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NNP">T</taggedword>
+      <taggedword index="5" part-of-speech="NN">cell</taggedword>
+      <taggedword index="6" part-of-speech="NN">activation</taggedword>
+      <taggedword index="7" part-of-speech="NN">antigen</taggedword>
+      <taggedword index="8" part-of-speech="WDT">that</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">contains</taggedword>
+      <taggedword index="10" part-of-speech="JJ">dipeptidyl peptidase IV</taggedword>
+      <taggedword index="11" part-of-speech="NN">activity</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="VBN">known</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="NN">bind</taggedword>
+      <taggedword index="17" part-of-speech="NN">adenosine deaminase</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CD26" dep_index="1" gov="antigen" gov_index="7">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="antigen" gov_index="7">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="antigen" gov_index="7">det</dependency>
+      <dependency dep="T" dep_index="4" gov="antigen" gov_index="7">nn</dependency>
+      <dependency dep="cell" dep_index="5" gov="antigen" gov_index="7">nn</dependency>
+      <dependency dep="activation" dep_index="6" gov="antigen" gov_index="7">nn</dependency>
+      <dependency dep="antigen" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="antigen" dep_index="7" gov="contains" gov_index="9">nsubj</dependency>
+      <dependency dep="antigen" dep_index="7" gov="known" gov_index="14">nsubjpass</dependency>
+      <dependency dep="contains" dep_index="9" gov="antigen" gov_index="7">rcmod</dependency>
+      <dependency dep="dipeptidyl peptidase IV" dep_index="10" gov="activity" gov_index="11">amod</dependency>
+      <dependency dep="activity" dep_index="11" gov="contains" gov_index="9">dobj</dependency>
+      <dependency dep="is" dep_index="13" gov="known" gov_index="14">auxpass</dependency>
+      <dependency dep="known" dep_index="14" gov="antigen" gov_index="7">rcmod</dependency>
+      <dependency dep="known" dep_index="14" gov="contains" gov_index="9">conj_and</dependency>
+      <dependency dep="bind" dep_index="16" gov="adenosine deaminase" gov_index="17">nn</dependency>
+      <dependency dep="adenosine deaminase" dep_index="17" gov="known" gov_index="14">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000017" relationship="false">10 11 9 7 14 17</relation>
+      <relation position="100010" relationship="true">1 7 9 11 10</relation>
+      <relation position="100017" relationship="true">1 7 14 17</relation>
+   </relations>
+   <pairs>
+      <pair>100010</pair>
+      <pair>100017</pair>
+   </pairs>
+</root>

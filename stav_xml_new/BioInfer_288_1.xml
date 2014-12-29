@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunofluorescence@experiments@showed@that@,@like@Abp1p@,@cofilin@is@associated@with@the@membrane@actin@cytoskeleton@.@</sentence>
+   <tags>
+      <tag pos="7">Abp1p</tag>
+      <tag pos="15">actin</tag>
+      <tag pos="9">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Immunofluorescence</taggedword>
+      <taggedword index="2" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="3" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="IN">like</taggedword>
+      <taggedword index="7" part-of-speech="NNS">Abp1p</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">membrane</taggedword>
+      <taggedword index="15" part-of-speech="NN">actin</taggedword>
+      <taggedword index="16" part-of-speech="NN">cytoskeleton</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunofluorescence" dep_index="1" gov="experiments" gov_index="2">amod</dependency>
+      <dependency dep="experiments" dep_index="2" gov="showed" gov_index="3">nsubj</dependency>
+      <dependency dep="showed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="associated" gov_index="11">mark</dependency>
+      <dependency dep="Abp1p" dep_index="7" gov="associated" gov_index="11">prep_like</dependency>
+      <dependency dep="cofilin" dep_index="9" gov="associated" gov_index="11">nsubjpass</dependency>
+      <dependency dep="is" dep_index="10" gov="associated" gov_index="11">auxpass</dependency>
+      <dependency dep="associated" dep_index="11" gov="showed" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="13" gov="cytoskeleton" gov_index="16">det</dependency>
+      <dependency dep="membrane" dep_index="14" gov="cytoskeleton" gov_index="16">amod</dependency>
+      <dependency dep="actin" dep_index="15" gov="cytoskeleton" gov_index="16">nn</dependency>
+      <dependency dep="cytoskeleton" dep_index="16" gov="associated" gov_index="11">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700015" relationship="true">7 11 16 15</relation>
+      <relation position="700009" relationship="false">7 11 9</relation>
+      <relation position="900015" relationship="true">9 11 16 15</relation>
+   </relations>
+   <pairs>
+      <pair>700015</pair>
+      <pair>900015</pair>
+   </pairs>
+</root>

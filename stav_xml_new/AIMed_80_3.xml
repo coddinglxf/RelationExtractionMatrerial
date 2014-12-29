@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>FADD@contains@a@death@domain@homologous@to@the@death@domains@of@Fas@and@TNFR-1@.@</sentence>
+   <tags>
+      <tag pos="1">FADD</tag>
+      <tag pos="12">Fas</tag>
+      <tag pos="14">TNFR-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">FADD</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">contains</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">death</taggedword>
+      <taggedword index="5" part-of-speech="NN">domain</taggedword>
+      <taggedword index="6" part-of-speech="RB">homologous</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">death</taggedword>
+      <taggedword index="10" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">Fas</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NNP">TNFR-1</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="FADD" dep_index="1" gov="contains" gov_index="2">nsubj</dependency>
+      <dependency dep="contains" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="3" gov="domain" gov_index="5">det</dependency>
+      <dependency dep="death" dep_index="4" gov="domain" gov_index="5">nn</dependency>
+      <dependency dep="domain" dep_index="5" gov="contains" gov_index="2">dobj</dependency>
+      <dependency dep="homologous" dep_index="6" gov="domain" gov_index="5">advmod</dependency>
+      <dependency dep="the" dep_index="8" gov="domains" gov_index="10">det</dependency>
+      <dependency dep="death" dep_index="9" gov="domains" gov_index="10">nn</dependency>
+      <dependency dep="domains" dep_index="10" gov="domain" gov_index="5">prep_to</dependency>
+      <dependency dep="Fas" dep_index="12" gov="domains" gov_index="10">prep_of</dependency>
+      <dependency dep="TNFR-1" dep_index="14" gov="domains" gov_index="10">prep_of</dependency>
+      <dependency dep="TNFR-1" dep_index="14" gov="Fas" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100012" relationship="false">1 2 5 10 12</relation>
+      <relation position="100014" relationship="false">1 2 5 10 14</relation>
+      <relation position="1200014" relationship="false">12 10 14</relation>
+   </relations>
+   <pairs/>
+</root>

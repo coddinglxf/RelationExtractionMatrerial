@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interaction@domains@were@mapped@to@codons@374-400@for@PS1@and@to@codons@106-179@for@Rab11@,@a@region@including@the@fourth@GTP-binding@domain@.@</sentence>
+   <tags>
+      <tag pos="9">PS1</tag>
+      <tag pos="15">Rab11</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Interaction</taggedword>
+      <taggedword index="2" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="3" part-of-speech="VBD">were</taggedword>
+      <taggedword index="4" part-of-speech="VBN">mapped</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="VB">codons</taggedword>
+      <taggedword index="7" part-of-speech="CD">374-400</taggedword>
+      <taggedword index="8" part-of-speech="IN">for</taggedword>
+      <taggedword index="9" part-of-speech="NNP">PS1</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">codons</taggedword>
+      <taggedword index="13" part-of-speech="CD">106-179</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="NNS">Rab11</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="NN">region</taggedword>
+      <taggedword index="19" part-of-speech="VBG">including</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">fourth</taggedword>
+      <taggedword index="22" part-of-speech="NN">GTP-binding</taggedword>
+      <taggedword index="23" part-of-speech="NN">domain</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interaction" dep_index="1" gov="domains" gov_index="2">nn</dependency>
+      <dependency dep="domains" dep_index="2" gov="mapped" gov_index="4">nsubjpass</dependency>
+      <dependency dep="were" dep_index="3" gov="mapped" gov_index="4">auxpass</dependency>
+      <dependency dep="mapped" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="5" gov="codons" gov_index="6">aux</dependency>
+      <dependency dep="codons" dep_index="6" gov="mapped" gov_index="4">ccomp</dependency>
+      <dependency dep="374-400" dep_index="7" gov="codons" gov_index="6">dobj</dependency>
+      <dependency dep="PS1" dep_index="9" gov="codons" gov_index="6">prep_for</dependency>
+      <dependency dep="to" dep_index="11" gov="codons" gov_index="12">aux</dependency>
+      <dependency dep="codons" dep_index="12" gov="mapped" gov_index="4">ccomp</dependency>
+      <dependency dep="codons" dep_index="12" gov="codons" gov_index="6">conj_and</dependency>
+      <dependency dep="106-179" dep_index="13" gov="codons" gov_index="12">dobj</dependency>
+      <dependency dep="Rab11" dep_index="15" gov="codons" gov_index="12">prep_for</dependency>
+      <dependency dep="a" dep_index="17" gov="region" gov_index="18">det</dependency>
+      <dependency dep="region" dep_index="18" gov="Rab11" gov_index="15">appos</dependency>
+      <dependency dep="the" dep_index="20" gov="domain" gov_index="23">det</dependency>
+      <dependency dep="fourth" dep_index="21" gov="domain" gov_index="23">amod</dependency>
+      <dependency dep="GTP-binding" dep_index="22" gov="domain" gov_index="23">nn</dependency>
+      <dependency dep="domain" dep_index="23" gov="region" gov_index="18">prep_including</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900015" relationship="true">9 6 4 12 15</relation>
+   </relations>
+   <pairs>
+      <pair>900015</pair>
+   </pairs>
+</root>

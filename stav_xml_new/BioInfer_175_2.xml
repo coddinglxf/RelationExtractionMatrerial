@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@PRT1@,@TIF34@,@GCD10@,@and@SUI1@proteins@of@Saccharomyces@cerevisiae@were@found@previously@to@copurify@with@eukaryotic translation initiation factor 3@(@eIF3@)@activity@.@</sentence>
+   <tags>
+      <tag pos="6">GCD10</tag>
+      <tag pos="2">PRT1</tag>
+      <tag pos="20">eukaryotic translation initiation factor 3</tag>
+      <tag pos="4">TIF34</tag>
+      <tag pos="22">eIF3</tag>
+      <tag pos="9">SUI1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">PRT1</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">TIF34</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NNP">GCD10</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="CD">SUI1</taggedword>
+      <taggedword index="10" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">Saccharomyces</taggedword>
+      <taggedword index="13" part-of-speech="NN">cerevisiae</taggedword>
+      <taggedword index="14" part-of-speech="VBD">were</taggedword>
+      <taggedword index="15" part-of-speech="VBN">found</taggedword>
+      <taggedword index="16" part-of-speech="RB">previously</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="VB">copurify</taggedword>
+      <taggedword index="19" part-of-speech="IN">with</taggedword>
+      <taggedword index="20" part-of-speech="JJ">eukaryotic translation initiation factor 3</taggedword>
+      <taggedword index="21" part-of-speech="NNP">(</taggedword>
+      <taggedword index="22" part-of-speech="JJ">eIF3</taggedword>
+      <taggedword index="23" part-of-speech="JJ">)</taggedword>
+      <taggedword index="24" part-of-speech="NN">activity</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="PRT1" gov_index="2">det</dependency>
+      <dependency dep="PRT1" dep_index="2" gov="found" gov_index="15">nsubjpass</dependency>
+      <dependency dep="PRT1" dep_index="2" gov="copurify" gov_index="18">xsubj</dependency>
+      <dependency dep="TIF34" dep_index="4" gov="PRT1" gov_index="2">conj_and</dependency>
+      <dependency dep="TIF34" dep_index="4" gov="found" gov_index="15">nsubjpass</dependency>
+      <dependency dep="TIF34" dep_index="4" gov="copurify" gov_index="18">xsubj</dependency>
+      <dependency dep="GCD10" dep_index="6" gov="PRT1" gov_index="2">conj_and</dependency>
+      <dependency dep="GCD10" dep_index="6" gov="found" gov_index="15">nsubjpass</dependency>
+      <dependency dep="GCD10" dep_index="6" gov="copurify" gov_index="18">xsubj</dependency>
+      <dependency dep="SUI1" dep_index="9" gov="proteins" gov_index="10">num</dependency>
+      <dependency dep="proteins" dep_index="10" gov="PRT1" gov_index="2">conj_and</dependency>
+      <dependency dep="proteins" dep_index="10" gov="found" gov_index="15">nsubjpass</dependency>
+      <dependency dep="proteins" dep_index="10" gov="copurify" gov_index="18">xsubj</dependency>
+      <dependency dep="Saccharomyces" dep_index="12" gov="cerevisiae" gov_index="13">nn</dependency>
+      <dependency dep="cerevisiae" dep_index="13" gov="proteins" gov_index="10">prep_of</dependency>
+      <dependency dep="were" dep_index="14" gov="found" gov_index="15">auxpass</dependency>
+      <dependency dep="found" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="previously" dep_index="16" gov="found" gov_index="15">advmod</dependency>
+      <dependency dep="to" dep_index="17" gov="copurify" gov_index="18">aux</dependency>
+      <dependency dep="copurify" dep_index="18" gov="found" gov_index="15">xcomp</dependency>
+      <dependency dep="eukaryotic translation initiation factor 3" dep_index="20" gov="activity" gov_index="24">amod</dependency>
+      <dependency dep="(" dep_index="21" gov="activity" gov_index="24">nn</dependency>
+      <dependency dep="eIF3" dep_index="22" gov="activity" gov_index="24">amod</dependency>
+      <dependency dep=")" dep_index="23" gov="activity" gov_index="24">amod</dependency>
+      <dependency dep="activity" dep_index="24" gov="copurify" gov_index="18">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200006" relationship="false">2 18 6</relation>
+      <relation position="600020" relationship="false">6 18 24 20</relation>
+      <relation position="400006" relationship="false">4 18 6</relation>
+      <relation position="600022" relationship="false">6 18 24 22</relation>
+      <relation position="600009" relationship="false">6 18 10 9</relation>
+      <relation position="200020" relationship="false">2 18 24 20</relation>
+      <relation position="200004" relationship="false">2 18 4</relation>
+      <relation position="200022" relationship="false">2 18 24 22</relation>
+      <relation position="200009" relationship="false">2 18 10 9</relation>
+      <relation position="400020" relationship="false">4 18 24 20</relation>
+      <relation position="2000022" relationship="false">20 24 22</relation>
+      <relation position="900020" relationship="false">9 10 18 24 20</relation>
+      <relation position="400022" relationship="false">4 18 24 22</relation>
+      <relation position="400009" relationship="false">4 18 10 9</relation>
+      <relation position="900022" relationship="false">9 10 18 24 22</relation>
+   </relations>
+   <pairs/>
+</root>

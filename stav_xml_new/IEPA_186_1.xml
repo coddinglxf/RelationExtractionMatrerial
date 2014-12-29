@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Insulin@secretion@,@inositol@phosphate@levels@,@and@phospholipase C@isozymes@in@rodent@pancreatic@islets@</sentence>
+   <tags>
+      <tag pos="1">Insulin</tag>
+      <tag pos="9">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Insulin</taggedword>
+      <taggedword index="2" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">inositol</taggedword>
+      <taggedword index="5" part-of-speech="NN">phosphate</taggedword>
+      <taggedword index="6" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="10" part-of-speech="NNS">isozymes</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJ">rodent</taggedword>
+      <taggedword index="13" part-of-speech="JJ">pancreatic</taggedword>
+      <taggedword index="14" part-of-speech="NNS">islets</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Insulin" dep_index="1" gov="secretion" gov_index="2">nn</dependency>
+      <dependency dep="secretion" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="inositol" dep_index="4" gov="levels" gov_index="6">amod</dependency>
+      <dependency dep="phosphate" dep_index="5" gov="levels" gov_index="6">nn</dependency>
+      <dependency dep="levels" dep_index="6" gov="secretion" gov_index="2">conj_and</dependency>
+      <dependency dep="phospholipase C" dep_index="9" gov="isozymes" gov_index="10">amod</dependency>
+      <dependency dep="isozymes" dep_index="10" gov="secretion" gov_index="2">conj_and</dependency>
+      <dependency dep="rodent" dep_index="12" gov="islets" gov_index="14">amod</dependency>
+      <dependency dep="pancreatic" dep_index="13" gov="islets" gov_index="14">amod</dependency>
+      <dependency dep="islets" dep_index="14" gov="secretion" gov_index="2">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100009" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

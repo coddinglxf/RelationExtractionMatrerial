@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Regulation@of@myosin heavy chain@and@actin@isogenes@during@cardiac@growth@and@hypertrophy@.@</sentence>
+   <tags>
+      <tag pos="3">myosin heavy chain</tag>
+      <tag pos="5">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Regulation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="NN">actin</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">isogenes</taggedword>
+      <taggedword index="7" part-of-speech="IN">during</taggedword>
+      <taggedword index="8" part-of-speech="JJ">cardiac</taggedword>
+      <taggedword index="9" part-of-speech="NN">growth</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">hypertrophy</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Regulation" dep_index="1" gov="isogenes" gov_index="6">nsubj</dependency>
+      <dependency dep="myosin heavy chain" dep_index="3" gov="Regulation" gov_index="1">prep_of</dependency>
+      <dependency dep="actin" dep_index="5" gov="Regulation" gov_index="1">prep_of</dependency>
+      <dependency dep="actin" dep_index="5" gov="myosin heavy chain" gov_index="3">conj_and</dependency>
+      <dependency dep="isogenes" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cardiac" dep_index="8" gov="growth" gov_index="9">amod</dependency>
+      <dependency dep="growth" dep_index="9" gov="isogenes" gov_index="6">prep_during</dependency>
+      <dependency dep="hypertrophy" dep_index="11" gov="isogenes" gov_index="6">prep_during</dependency>
+      <dependency dep="hypertrophy" dep_index="11" gov="growth" gov_index="9">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="false">3 1 5</relation>
+   </relations>
+   <pairs/>
+</root>

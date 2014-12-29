@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>When@the@ovariectomized@pregnant@rabbits@were@treated@with@estrogen@,@OT@receptors@in@the@myometrium@were@induced@,@and@OT@acquired@the@ability@to@stimulate@IP3@formation@</sentence>
+   <tags>
+      <tag pos="20">OT</tag>
+      <tag pos="26">IP3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="WRB">When</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">ovariectomized</taggedword>
+      <taggedword index="4" part-of-speech="JJ">pregnant</taggedword>
+      <taggedword index="5" part-of-speech="NNS">rabbits</taggedword>
+      <taggedword index="6" part-of-speech="VBD">were</taggedword>
+      <taggedword index="7" part-of-speech="VBN">treated</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NN">estrogen</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="12" part-of-speech="NNP">receptors</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">myometrium</taggedword>
+      <taggedword index="16" part-of-speech="VBD">were</taggedword>
+      <taggedword index="17" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="21" part-of-speech="VBD">acquired</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">ability</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="VB">stimulate</taggedword>
+      <taggedword index="26" part-of-speech="JJ">IP3</taggedword>
+      <taggedword index="27" part-of-speech="NN">formation</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="When" dep_index="1" gov="treated" gov_index="7">advmod</dependency>
+      <dependency dep="the" dep_index="2" gov="rabbits" gov_index="5">det</dependency>
+      <dependency dep="ovariectomized" dep_index="3" gov="rabbits" gov_index="5">amod</dependency>
+      <dependency dep="pregnant" dep_index="4" gov="rabbits" gov_index="5">amod</dependency>
+      <dependency dep="rabbits" dep_index="5" gov="treated" gov_index="7">nsubjpass</dependency>
+      <dependency dep="were" dep_index="6" gov="treated" gov_index="7">auxpass</dependency>
+      <dependency dep="treated" dep_index="7" gov="induced" gov_index="17">advcl</dependency>
+      <dependency dep="estrogen" dep_index="9" gov="treated" gov_index="7">prep_with</dependency>
+      <dependency dep="OT" dep_index="11" gov="receptors" gov_index="12">nn</dependency>
+      <dependency dep="receptors" dep_index="12" gov="induced" gov_index="17">nsubjpass</dependency>
+      <dependency dep="the" dep_index="14" gov="myometrium" gov_index="15">det</dependency>
+      <dependency dep="myometrium" dep_index="15" gov="receptors" gov_index="12">prep_in</dependency>
+      <dependency dep="were" dep_index="16" gov="induced" gov_index="17">auxpass</dependency>
+      <dependency dep="induced" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="OT" dep_index="20" gov="acquired" gov_index="21">nsubj</dependency>
+      <dependency dep="acquired" dep_index="21" gov="induced" gov_index="17">conj_and</dependency>
+      <dependency dep="the" dep_index="22" gov="ability" gov_index="23">det</dependency>
+      <dependency dep="ability" dep_index="23" gov="acquired" gov_index="21">dobj</dependency>
+      <dependency dep="to" dep_index="24" gov="stimulate" gov_index="25">aux</dependency>
+      <dependency dep="stimulate" dep_index="25" gov="ability" gov_index="23">infmod</dependency>
+      <dependency dep="IP3" dep_index="26" gov="formation" gov_index="27">amod</dependency>
+      <dependency dep="formation" dep_index="27" gov="stimulate" gov_index="25">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000026" relationship="true">20 21 23 25 27 26</relation>
+   </relations>
+   <pairs>
+      <pair>2000026</pair>
+   </pairs>
+</root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@RIN1@encodes@a@functional@SH2@domain@that@has@the@potential@to@activate@downstream@signals@.@</sentence>
+   <tags>
+      <tag pos="4">RIN1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">RIN1</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">encodes</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="8" part-of-speech="CD">SH2</taggedword>
+      <taggedword index="9" part-of-speech="NN">domain</taggedword>
+      <taggedword index="10" part-of-speech="WDT">that</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">potential</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">activate</taggedword>
+      <taggedword index="16" part-of-speech="JJ">downstream</taggedword>
+      <taggedword index="17" part-of-speech="NNS">signals</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="encodes" gov_index="5">prep_in</dependency>
+      <dependency dep="RIN1" dep_index="4" gov="encodes" gov_index="5">nsubj</dependency>
+      <dependency dep="encodes" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="6" gov="domain" gov_index="9">det</dependency>
+      <dependency dep="functional" dep_index="7" gov="domain" gov_index="9">amod</dependency>
+      <dependency dep="SH2" dep_index="8" gov="functional" gov_index="7">tmod</dependency>
+      <dependency dep="domain" dep_index="9" gov="encodes" gov_index="5">dobj</dependency>
+      <dependency dep="domain" dep_index="9" gov="has" gov_index="11">nsubj</dependency>
+      <dependency dep="has" dep_index="11" gov="domain" gov_index="9">rcmod</dependency>
+      <dependency dep="the" dep_index="12" gov="potential" gov_index="13">det</dependency>
+      <dependency dep="potential" dep_index="13" gov="has" gov_index="11">dobj</dependency>
+      <dependency dep="to" dep_index="14" gov="activate" gov_index="15">aux</dependency>
+      <dependency dep="activate" dep_index="15" gov="potential" gov_index="13">infmod</dependency>
+      <dependency dep="downstream" dep_index="16" gov="signals" gov_index="17">amod</dependency>
+      <dependency dep="signals" dep_index="17" gov="activate" gov_index="15">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

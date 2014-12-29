@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Specific@interaction@of@Egr1@and@c/EBPbeta@leads@to@the@transcriptional@activation@of@the@human@low density lipoprotein receptor@gene@</sentence>
+   <tags>
+      <tag pos="4">Egr1</tag>
+      <tag pos="15">low density lipoprotein receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Specific</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNS">Egr1</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">c/EBPbeta</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">leads</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="11" part-of-speech="NN">activation</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">human</taggedword>
+      <taggedword index="15" part-of-speech="NN">low density lipoprotein receptor</taggedword>
+      <taggedword index="16" part-of-speech="NN">gene</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Specific" dep_index="1" gov="interaction" gov_index="2">amod</dependency>
+      <dependency dep="interaction" dep_index="2" gov="leads" gov_index="7">nsubj</dependency>
+      <dependency dep="Egr1" dep_index="4" gov="interaction" gov_index="2">prep_of</dependency>
+      <dependency dep="c/EBPbeta" dep_index="6" gov="interaction" gov_index="2">prep_of</dependency>
+      <dependency dep="c/EBPbeta" dep_index="6" gov="Egr1" gov_index="4">conj_and</dependency>
+      <dependency dep="leads" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="9" gov="activation" gov_index="11">det</dependency>
+      <dependency dep="transcriptional" dep_index="10" gov="activation" gov_index="11">amod</dependency>
+      <dependency dep="activation" dep_index="11" gov="leads" gov_index="7">prep_to</dependency>
+      <dependency dep="the" dep_index="13" gov="gene" gov_index="16">det</dependency>
+      <dependency dep="human" dep_index="14" gov="gene" gov_index="16">amod</dependency>
+      <dependency dep="low density lipoprotein receptor" dep_index="15" gov="gene" gov_index="16">nn</dependency>
+      <dependency dep="gene" dep_index="16" gov="activation" gov_index="11">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400015" relationship="true">4 2 7 11 16 15</relation>
+   </relations>
+   <pairs>
+      <pair>400015</pair>
+   </pairs>
+</root>

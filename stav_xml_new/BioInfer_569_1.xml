@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@adventitial@tissue@underlying@PTCA-induced@lesions@temporarily@expressed@alpha-SM actin@,@desmin@,@and@SM myosin heavy chain@isoforms@,@but@not@smoothelin@.@</sentence>
+   <tags>
+      <tag pos="19">smoothelin</tag>
+      <tag pos="11">desmin</tag>
+      <tag pos="14">SM myosin heavy chain</tag>
+      <tag pos="9">alpha-SM actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">adventitial</taggedword>
+      <taggedword index="3" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="4" part-of-speech="VBG">underlying</taggedword>
+      <taggedword index="5" part-of-speech="JJ">PTCA-induced</taggedword>
+      <taggedword index="6" part-of-speech="NNS">lesions</taggedword>
+      <taggedword index="7" part-of-speech="RB">temporarily</taggedword>
+      <taggedword index="8" part-of-speech="VBD">expressed</taggedword>
+      <taggedword index="9" part-of-speech="NN">alpha-SM actin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">desmin</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">SM myosin heavy chain</taggedword>
+      <taggedword index="15" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">but</taggedword>
+      <taggedword index="18" part-of-speech="RB">not</taggedword>
+      <taggedword index="19" part-of-speech="NN">smoothelin</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="tissue" gov_index="3">det</dependency>
+      <dependency dep="adventitial" dep_index="2" gov="tissue" gov_index="3">amod</dependency>
+      <dependency dep="tissue" dep_index="3" gov="expressed" gov_index="8">nsubj</dependency>
+      <dependency dep="underlying" dep_index="4" gov="tissue" gov_index="3">partmod</dependency>
+      <dependency dep="PTCA-induced" dep_index="5" gov="lesions" gov_index="6">amod</dependency>
+      <dependency dep="lesions" dep_index="6" gov="underlying" gov_index="4">dobj</dependency>
+      <dependency dep="temporarily" dep_index="7" gov="expressed" gov_index="8">advmod</dependency>
+      <dependency dep="expressed" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="alpha-SM actin" dep_index="9" gov="expressed" gov_index="8">dobj</dependency>
+      <dependency dep="desmin" dep_index="11" gov="expressed" gov_index="8">dobj</dependency>
+      <dependency dep="desmin" dep_index="11" gov="alpha-SM actin" gov_index="9">conj_and</dependency>
+      <dependency dep="SM myosin heavy chain" dep_index="14" gov="isoforms" gov_index="15">amod</dependency>
+      <dependency dep="isoforms" dep_index="15" gov="expressed" gov_index="8">dobj</dependency>
+      <dependency dep="isoforms" dep_index="15" gov="alpha-SM actin" gov_index="9">conj_and</dependency>
+      <dependency dep="smoothelin" dep_index="19" gov="expressed" gov_index="8">dobj</dependency>
+      <dependency dep="smoothelin" dep_index="19" gov="alpha-SM actin" gov_index="9">conj_negcc</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100019" relationship="false">11 8 19</relation>
+      <relation position="1400019" relationship="false">14 15 8 19</relation>
+      <relation position="900019" relationship="false">9 8 19</relation>
+      <relation position="1100014" relationship="false">11 8 15 14</relation>
+      <relation position="900011" relationship="false">9 8 11</relation>
+      <relation position="900014" relationship="false">9 8 15 14</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cardiac@hypertrophy@and@the@steady@state@level@of@the@"fetal"@genes@,@ANP@,@alpha-skeletal actin@(@alpha-skA@),@and@beta myosin heavy chain@(@beta-MHC@)@mRNAs@were@assessed@.@</sentence>
+   <tags>
+      <tag pos="22">beta-MHC</tag>
+      <tag pos="15">alpha-skeletal actin</tag>
+      <tag pos="20">beta myosin heavy chain</tag>
+      <tag pos="13">ANP</tag>
+      <tag pos="17">alpha-skA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Cardiac</taggedword>
+      <taggedword index="2" part-of-speech="NN">hypertrophy</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">steady</taggedword>
+      <taggedword index="6" part-of-speech="NN">state</taggedword>
+      <taggedword index="7" part-of-speech="NN">level</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">"fetal"</taggedword>
+      <taggedword index="11" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNP">ANP</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="JJ">alpha-skeletal actin</taggedword>
+      <taggedword index="16" part-of-speech="JJ">(</taggedword>
+      <taggedword index="17" part-of-speech="JJ">alpha-skA</taggedword>
+      <taggedword index="18" part-of-speech="NNS">),</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="JJ">beta myosin heavy chain</taggedword>
+      <taggedword index="21" part-of-speech="JJ">(</taggedword>
+      <taggedword index="22" part-of-speech="JJ">beta-MHC</taggedword>
+      <taggedword index="23" part-of-speech="NN">)</taggedword>
+      <taggedword index="24" part-of-speech="NNS">mRNAs</taggedword>
+      <taggedword index="25" part-of-speech="VBD">were</taggedword>
+      <taggedword index="26" part-of-speech="VBN">assessed</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cardiac" dep_index="1" gov="hypertrophy" gov_index="2">nn</dependency>
+      <dependency dep="hypertrophy" dep_index="2" gov="assessed" gov_index="26">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="level" gov_index="7">det</dependency>
+      <dependency dep="steady" dep_index="5" gov="level" gov_index="7">amod</dependency>
+      <dependency dep="state" dep_index="6" gov="level" gov_index="7">nn</dependency>
+      <dependency dep="level" dep_index="7" gov="hypertrophy" gov_index="2">conj_and</dependency>
+      <dependency dep="level" dep_index="7" gov="assessed" gov_index="26">nsubjpass</dependency>
+      <dependency dep="the" dep_index="9" gov="genes" gov_index="11">det</dependency>
+      <dependency dep="&quot;fetal&quot;" dep_index="10" gov="genes" gov_index="11">amod</dependency>
+      <dependency dep="genes" dep_index="11" gov="level" gov_index="7">prep_of</dependency>
+      <dependency dep="ANP" dep_index="13" gov="level" gov_index="7">prep_of</dependency>
+      <dependency dep="ANP" dep_index="13" gov="genes" gov_index="11">conj_and</dependency>
+      <dependency dep="alpha-skeletal actin" dep_index="15" gov=")," gov_index="18">amod</dependency>
+      <dependency dep="(" dep_index="16" gov=")," gov_index="18">amod</dependency>
+      <dependency dep="alpha-skA" dep_index="17" gov=")," gov_index="18">amod</dependency>
+      <dependency dep=")," dep_index="18" gov="level" gov_index="7">prep_of</dependency>
+      <dependency dep=")," dep_index="18" gov="genes" gov_index="11">conj_and</dependency>
+      <dependency dep="beta myosin heavy chain" dep_index="20" gov="mRNAs" gov_index="24">amod</dependency>
+      <dependency dep="(" dep_index="21" gov="mRNAs" gov_index="24">amod</dependency>
+      <dependency dep="beta-MHC" dep_index="22" gov="mRNAs" gov_index="24">amod</dependency>
+      <dependency dep=")" dep_index="23" gov="mRNAs" gov_index="24">nn</dependency>
+      <dependency dep="mRNAs" dep_index="24" gov="level" gov_index="7">prep_of</dependency>
+      <dependency dep="mRNAs" dep_index="24" gov="genes" gov_index="11">conj_and</dependency>
+      <dependency dep="were" dep_index="25" gov="assessed" gov_index="26">auxpass</dependency>
+      <dependency dep="assessed" dep_index="26" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500022" relationship="false">15 18 7 24 22</relation>
+      <relation position="2000022" relationship="false">20 24 22</relation>
+      <relation position="1300022" relationship="false">13 7 24 22</relation>
+      <relation position="1700022" relationship="false">17 18 7 24 22</relation>
+      <relation position="1500020" relationship="false">15 18 7 24 20</relation>
+      <relation position="1300015" relationship="false">13 7 18 15</relation>
+      <relation position="1500017" relationship="false">15 18 17</relation>
+      <relation position="1300020" relationship="false">13 7 24 20</relation>
+      <relation position="1700020" relationship="false">17 18 7 24 20</relation>
+      <relation position="1300017" relationship="false">13 7 18 17</relation>
+   </relations>
+   <pairs/>
+</root>

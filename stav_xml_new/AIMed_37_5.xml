@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>All@CC-chemokines@currently@available@were@tested@for@their@ability@to@compete@with@[(125)I]-@MIP-1beta@binding@on@a@stable@cell@line@expressing@recombinant@CCR5@,@and/or@to@induce@a@functional@response@in@these@cells@.@</sentence>
+   <tags>
+      <tag pos="14">MIP-1beta</tag>
+      <tag pos="23">CCR5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">All</taggedword>
+      <taggedword index="2" part-of-speech="NNP">CC-chemokines</taggedword>
+      <taggedword index="3" part-of-speech="RB">currently</taggedword>
+      <taggedword index="4" part-of-speech="JJ">available</taggedword>
+      <taggedword index="5" part-of-speech="VBD">were</taggedword>
+      <taggedword index="6" part-of-speech="VBN">tested</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="9" part-of-speech="NN">ability</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="VB">compete</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="CD">[(125)I]-</taggedword>
+      <taggedword index="14" part-of-speech="NNS">MIP-1beta</taggedword>
+      <taggedword index="15" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="16" part-of-speech="IN">on</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">stable</taggedword>
+      <taggedword index="19" part-of-speech="NN">cell</taggedword>
+      <taggedword index="20" part-of-speech="NN">line</taggedword>
+      <taggedword index="21" part-of-speech="VBG">expressing</taggedword>
+      <taggedword index="22" part-of-speech="JJ">recombinant</taggedword>
+      <taggedword index="23" part-of-speech="NN">CCR5</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="NN">and/or</taggedword>
+      <taggedword index="26" part-of-speech="TO">to</taggedword>
+      <taggedword index="27" part-of-speech="VB">induce</taggedword>
+      <taggedword index="28" part-of-speech="DT">a</taggedword>
+      <taggedword index="29" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="30" part-of-speech="NN">response</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="DT">these</taggedword>
+      <taggedword index="33" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="All" dep_index="1" gov="CC-chemokines" gov_index="2">det</dependency>
+      <dependency dep="CC-chemokines" dep_index="2" gov="tested" gov_index="6">nsubjpass</dependency>
+      <dependency dep="currently" dep_index="3" gov="available" gov_index="4">advmod</dependency>
+      <dependency dep="available" dep_index="4" gov="CC-chemokines" gov_index="2">amod</dependency>
+      <dependency dep="were" dep_index="5" gov="tested" gov_index="6">auxpass</dependency>
+      <dependency dep="tested" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="their" dep_index="8" gov="ability" gov_index="9">poss</dependency>
+      <dependency dep="ability" dep_index="9" gov="tested" gov_index="6">prep_for</dependency>
+      <dependency dep="to" dep_index="10" gov="compete" gov_index="11">aux</dependency>
+      <dependency dep="compete" dep_index="11" gov="ability" gov_index="9">infmod</dependency>
+      <dependency dep="[(125)I]-" dep_index="13" gov="MIP-1beta" gov_index="14">num</dependency>
+      <dependency dep="MIP-1beta" dep_index="14" gov="compete" gov_index="11">prep_with</dependency>
+      <dependency dep="binding" dep_index="15" gov="ability" gov_index="9">amod</dependency>
+      <dependency dep="a" dep_index="17" gov="line" gov_index="20">det</dependency>
+      <dependency dep="stable" dep_index="18" gov="line" gov_index="20">amod</dependency>
+      <dependency dep="cell" dep_index="19" gov="line" gov_index="20">nn</dependency>
+      <dependency dep="line" dep_index="20" gov="binding" gov_index="15">prep_on</dependency>
+      <dependency dep="expressing" dep_index="21" gov="line" gov_index="20">partmod</dependency>
+      <dependency dep="recombinant" dep_index="22" gov="CCR5" gov_index="23">amod</dependency>
+      <dependency dep="CCR5" dep_index="23" gov="expressing" gov_index="21">dobj</dependency>
+      <dependency dep="and/or" dep_index="25" gov="ability" gov_index="9">appos</dependency>
+      <dependency dep="to" dep_index="26" gov="induce" gov_index="27">aux</dependency>
+      <dependency dep="induce" dep_index="27" gov="and/or" gov_index="25">infmod</dependency>
+      <dependency dep="a" dep_index="28" gov="response" gov_index="30">det</dependency>
+      <dependency dep="functional" dep_index="29" gov="response" gov_index="30">amod</dependency>
+      <dependency dep="response" dep_index="30" gov="induce" gov_index="27">dobj</dependency>
+      <dependency dep="these" dep_index="32" gov="cells" gov_index="33">det</dependency>
+      <dependency dep="cells" dep_index="33" gov="response" gov_index="30">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400023" relationship="false">14 11 9 15 20 21 23</relation>
+   </relations>
+   <pairs/>
+</root>

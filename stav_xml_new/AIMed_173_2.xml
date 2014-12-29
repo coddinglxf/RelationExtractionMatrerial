@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@kinetics@of@amyloid@fibril@formation@by@beta-amyloid peptide@(@Abeta@)@are@typical@of@a@nucleation-dependent@polymerization@mechanism@.@</sentence>
+   <tags>
+      <tag pos="8">beta-amyloid peptide</tag>
+      <tag pos="10">Abeta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">kinetics</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">amyloid</taggedword>
+      <taggedword index="5" part-of-speech="JJ">fibril</taggedword>
+      <taggedword index="6" part-of-speech="NN">formation</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="JJ">beta-amyloid peptide</taggedword>
+      <taggedword index="9" part-of-speech="NNP">(</taggedword>
+      <taggedword index="10" part-of-speech="NNP">Abeta</taggedword>
+      <taggedword index="11" part-of-speech="NNP">)</taggedword>
+      <taggedword index="12" part-of-speech="VBP">are</taggedword>
+      <taggedword index="13" part-of-speech="JJ">typical</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="JJ">nucleation-dependent</taggedword>
+      <taggedword index="17" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="18" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="kinetics" gov_index="2">det</dependency>
+      <dependency dep="kinetics" dep_index="2" gov="typical" gov_index="13">nsubj</dependency>
+      <dependency dep="amyloid" dep_index="4" gov="formation" gov_index="6">amod</dependency>
+      <dependency dep="fibril" dep_index="5" gov="formation" gov_index="6">amod</dependency>
+      <dependency dep="formation" dep_index="6" gov="kinetics" gov_index="2">prep_of</dependency>
+      <dependency dep="beta-amyloid peptide" dep_index="8" gov=")" gov_index="11">amod</dependency>
+      <dependency dep="(" dep_index="9" gov=")" gov_index="11">nn</dependency>
+      <dependency dep="Abeta" dep_index="10" gov=")" gov_index="11">nn</dependency>
+      <dependency dep=")" dep_index="11" gov="formation" gov_index="6">prep_by</dependency>
+      <dependency dep="are" dep_index="12" gov="typical" gov_index="13">cop</dependency>
+      <dependency dep="typical" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="15" gov="mechanism" gov_index="18">det</dependency>
+      <dependency dep="nucleation-dependent" dep_index="16" gov="mechanism" gov_index="18">amod</dependency>
+      <dependency dep="polymerization" dep_index="17" gov="mechanism" gov_index="18">nn</dependency>
+      <dependency dep="mechanism" dep_index="18" gov="typical" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 11 10</relation>
+   </relations>
+   <pairs/>
+</root>

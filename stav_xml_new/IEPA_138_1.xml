@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Insulin@-like@signaling@in@yeast@:@modulation@of@protein@phosphatase@2A@,@protein@kinase@A@,@cAMP-specific@phosphodiesterase@,@and@glycosyl-phosphatidylinositol-specific@phospholipase C@activities@</sentence>
+   <tags>
+      <tag pos="1">Insulin</tag>
+      <tag pos="22">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Insulin</taggedword>
+      <taggedword index="2" part-of-speech="VBP">-like</taggedword>
+      <taggedword index="3" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="6" part-of-speech=":">:</taggedword>
+      <taggedword index="7" part-of-speech="NN">modulation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">protein</taggedword>
+      <taggedword index="10" part-of-speech="VBP">phosphatase</taggedword>
+      <taggedword index="11" part-of-speech="CD">2A</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">protein</taggedword>
+      <taggedword index="14" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="15" part-of-speech="NN">A</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="JJ">cAMP-specific</taggedword>
+      <taggedword index="18" part-of-speech="NN">phosphodiesterase</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="JJ">glycosyl-phosphatidylinositol-specific</taggedword>
+      <taggedword index="22" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="23" part-of-speech="NNS">activities</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Insulin" dep_index="1" gov="-like" gov_index="2">nsubj</dependency>
+      <dependency dep="-like" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="signaling" dep_index="3" gov="-like" gov_index="2">xcomp</dependency>
+      <dependency dep="yeast" dep_index="5" gov="signaling" gov_index="3">prep_in</dependency>
+      <dependency dep="modulation" dep_index="7" gov="phosphatase" gov_index="10">nsubj</dependency>
+      <dependency dep="protein" dep_index="9" gov="modulation" gov_index="7">prep_of</dependency>
+      <dependency dep="phosphatase" dep_index="10" gov="-like" gov_index="2">parataxis</dependency>
+      <dependency dep="2A" dep_index="11" gov="phosphatase" gov_index="10">dobj</dependency>
+      <dependency dep="protein" dep_index="13" gov="A" gov_index="15">nn</dependency>
+      <dependency dep="kinase" dep_index="14" gov="A" gov_index="15">nn</dependency>
+      <dependency dep="A" dep_index="15" gov="phosphatase" gov_index="10">dobj</dependency>
+      <dependency dep="A" dep_index="15" gov="2A" gov_index="11">conj_and</dependency>
+      <dependency dep="cAMP-specific" dep_index="17" gov="phosphodiesterase" gov_index="18">amod</dependency>
+      <dependency dep="phosphodiesterase" dep_index="18" gov="phosphatase" gov_index="10">dobj</dependency>
+      <dependency dep="phosphodiesterase" dep_index="18" gov="2A" gov_index="11">conj_and</dependency>
+      <dependency dep="glycosyl-phosphatidylinositol-specific" dep_index="21" gov="activities" gov_index="23">amod</dependency>
+      <dependency dep="phospholipase C" dep_index="22" gov="activities" gov_index="23">amod</dependency>
+      <dependency dep="activities" dep_index="23" gov="phosphatase" gov_index="10">dobj</dependency>
+      <dependency dep="activities" dep_index="23" gov="2A" gov_index="11">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100022" relationship="false">1 2 10 23 22</relation>
+   </relations>
+   <pairs/>
+</root>

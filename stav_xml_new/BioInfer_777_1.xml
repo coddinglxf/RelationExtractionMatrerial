@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Treatment@with@HNE@resulted@in@activation@of@extracellular signal-regulated protein kinases@ERK1@and@ERK2@,@induction@of@c-fos@and@c-jun@protein@expression@,@and@an@increase@in@transcription@factor@AP-1@DNA@binding@activity@.@</sentence>
+   <tags>
+      <tag pos="9">ERK1</tag>
+      <tag pos="11">ERK2</tag>
+      <tag pos="27">AP-1</tag>
+      <tag pos="17">c-jun</tag>
+      <tag pos="15">c-fos</tag>
+      <tag pos="8">extracellular signal-regulated protein kinases</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Treatment</taggedword>
+      <taggedword index="2" part-of-speech="IN">with</taggedword>
+      <taggedword index="3" part-of-speech="NNP">HNE</taggedword>
+      <taggedword index="4" part-of-speech="VBD">resulted</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="NN">activation</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNS">extracellular signal-regulated protein kinases</taggedword>
+      <taggedword index="9" part-of-speech="NNP">ERK1</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNP">ERK2</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">induction</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNS">c-fos</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="JJ">c-jun</taggedword>
+      <taggedword index="18" part-of-speech="NN">protein</taggedword>
+      <taggedword index="19" part-of-speech="NN">expression</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="DT">an</taggedword>
+      <taggedword index="23" part-of-speech="NN">increase</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="JJ">transcription</taggedword>
+      <taggedword index="26" part-of-speech="NN">factor</taggedword>
+      <taggedword index="27" part-of-speech="NN">AP-1</taggedword>
+      <taggedword index="28" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="29" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="30" part-of-speech="NN">activity</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Treatment" dep_index="1" gov="resulted" gov_index="4">nsubj</dependency>
+      <dependency dep="HNE" dep_index="3" gov="Treatment" gov_index="1">prep_with</dependency>
+      <dependency dep="resulted" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="activation" dep_index="6" gov="resulted" gov_index="4">prep_in</dependency>
+      <dependency dep="extracellular signal-regulated protein kinases" dep_index="8" gov="ERK1" gov_index="9">nn</dependency>
+      <dependency dep="ERK1" dep_index="9" gov="activation" gov_index="6">prep_of</dependency>
+      <dependency dep="ERK2" dep_index="11" gov="activation" gov_index="6">prep_of</dependency>
+      <dependency dep="ERK2" dep_index="11" gov="ERK1" gov_index="9">conj_and</dependency>
+      <dependency dep="induction" dep_index="13" gov="resulted" gov_index="4">prep_in</dependency>
+      <dependency dep="induction" dep_index="13" gov="activation" gov_index="6">conj_and</dependency>
+      <dependency dep="c-fos" dep_index="15" gov="induction" gov_index="13">prep_of</dependency>
+      <dependency dep="c-jun" dep_index="17" gov="expression" gov_index="19">amod</dependency>
+      <dependency dep="protein" dep_index="18" gov="expression" gov_index="19">nn</dependency>
+      <dependency dep="expression" dep_index="19" gov="induction" gov_index="13">prep_of</dependency>
+      <dependency dep="expression" dep_index="19" gov="c-fos" gov_index="15">conj_and</dependency>
+      <dependency dep="an" dep_index="22" gov="increase" gov_index="23">det</dependency>
+      <dependency dep="increase" dep_index="23" gov="resulted" gov_index="4">prep_in</dependency>
+      <dependency dep="increase" dep_index="23" gov="activation" gov_index="6">conj_and</dependency>
+      <dependency dep="transcription" dep_index="25" gov="activity" gov_index="30">amod</dependency>
+      <dependency dep="factor" dep_index="26" gov="activity" gov_index="30">nn</dependency>
+      <dependency dep="AP-1" dep_index="27" gov="activity" gov_index="30">nn</dependency>
+      <dependency dep="DNA" dep_index="28" gov="activity" gov_index="30">nn</dependency>
+      <dependency dep="binding" dep_index="29" gov="activity" gov_index="30">amod</dependency>
+      <dependency dep="activity" dep_index="30" gov="increase" gov_index="23">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="false">9 6 11</relation>
+      <relation position="900027" relationship="false">9 6 4 23 30 27</relation>
+      <relation position="900017" relationship="false">9 6 4 13 19 17</relation>
+      <relation position="900015" relationship="false">9 6 4 13 15</relation>
+      <relation position="800009" relationship="true"></relation>
+      <relation position="1100027" relationship="false">11 6 4 23 30 27</relation>
+      <relation position="1100017" relationship="false">11 6 4 13 19 17</relation>
+      <relation position="1100015" relationship="false">11 6 4 13 15</relation>
+      <relation position="800011" relationship="true">8 9 6 11</relation>
+      <relation position="1700027" relationship="false">17 19 13 4 23 30 27</relation>
+      <relation position="1500027" relationship="false">15 13 4 23 30 27</relation>
+      <relation position="800027" relationship="false">8 9 6 4 23 30 27</relation>
+      <relation position="1500017" relationship="false">15 13 19 17</relation>
+      <relation position="800017" relationship="false">8 9 6 4 13 19 17</relation>
+      <relation position="800015" relationship="false">8 9 6 4 13 15</relation>
+   </relations>
+   <pairs>
+      <pair>800009</pair>
+      <pair>800011</pair>
+   </pairs>
+</root>

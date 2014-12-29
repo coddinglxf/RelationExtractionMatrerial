@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>VRP@fails@to@bind@appreciably@to@the@extracellular@domain@of@Flt1@or@Flk1@.@</sentence>
+   <tags>
+      <tag pos="1">VRP</tag>
+      <tag pos="11">Flt1</tag>
+      <tag pos="13">Flk1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">VRP</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">fails</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="VB">bind</taggedword>
+      <taggedword index="5" part-of-speech="RB">appreciably</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="9" part-of-speech="NN">domain</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNS">Flt1</taggedword>
+      <taggedword index="12" part-of-speech="CC">or</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Flk1</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="VRP" dep_index="1" gov="fails" gov_index="2">nsubj</dependency>
+      <dependency dep="VRP" dep_index="1" gov="bind" gov_index="4">xsubj</dependency>
+      <dependency dep="fails" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="3" gov="bind" gov_index="4">aux</dependency>
+      <dependency dep="bind" dep_index="4" gov="fails" gov_index="2">xcomp</dependency>
+      <dependency dep="appreciably" dep_index="5" gov="bind" gov_index="4">advmod</dependency>
+      <dependency dep="the" dep_index="7" gov="domain" gov_index="9">det</dependency>
+      <dependency dep="extracellular" dep_index="8" gov="domain" gov_index="9">nn</dependency>
+      <dependency dep="domain" dep_index="9" gov="bind" gov_index="4">prep_to</dependency>
+      <dependency dep="Flt1" dep_index="11" gov="domain" gov_index="9">prep_of</dependency>
+      <dependency dep="Flk1" dep_index="13" gov="domain" gov_index="9">prep_of</dependency>
+      <dependency dep="Flk1" dep_index="13" gov="Flt1" gov_index="11">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100011" relationship="false">1 4 9 11</relation>
+      <relation position="100013" relationship="false">1 4 9 13</relation>
+      <relation position="1100013" relationship="false">11 9 13</relation>
+   </relations>
+   <pairs/>
+</root>

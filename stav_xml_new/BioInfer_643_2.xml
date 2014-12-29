@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>When@measured@in@the@absence@of@profilin@,@actin@assembly@curves@over@a@0.7-4@microM@thymosin-beta4@concentration@range@fit@a@simple@monomer@sequestering@model@(1@microM@K(D)@for@Thymosin-beta4@.@Actin@).@</sentence>
+   <tags>
+      <tag pos="29">Thymosin-beta4</tag>
+      <tag pos="31">Actin</tag>
+      <tag pos="9">actin</tag>
+      <tag pos="7">profilin</tag>
+      <tag pos="16">thymosin-beta4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="WRB">When</taggedword>
+      <taggedword index="2" part-of-speech="VBN">measured</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">absence</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="10" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="11" part-of-speech="NNS">curves</taggedword>
+      <taggedword index="12" part-of-speech="IN">over</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="CD">0.7-4</taggedword>
+      <taggedword index="15" part-of-speech="NN">microM</taggedword>
+      <taggedword index="16" part-of-speech="JJ">thymosin-beta4</taggedword>
+      <taggedword index="17" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="18" part-of-speech="NN">range</taggedword>
+      <taggedword index="19" part-of-speech="NN">fit</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="JJ">simple</taggedword>
+      <taggedword index="22" part-of-speech="NN">monomer</taggedword>
+      <taggedword index="23" part-of-speech="NN">sequestering</taggedword>
+      <taggedword index="24" part-of-speech="NN">model</taggedword>
+      <taggedword index="25" part-of-speech="CD">(1</taggedword>
+      <taggedword index="26" part-of-speech="NN">microM</taggedword>
+      <taggedword index="27" part-of-speech="NN">K(D)</taggedword>
+      <taggedword index="28" part-of-speech="IN">for</taggedword>
+      <taggedword index="29" part-of-speech="NNS">Thymosin-beta4</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+      <taggedword index="31" part-of-speech="NNP">Actin</taggedword>
+      <taggedword index="32" part-of-speech="NNP">).</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="When" dep_index="1" gov="measured" gov_index="2">advmod</dependency>
+      <dependency dep="measured" dep_index="2" gov=")." gov_index="32">dep</dependency>
+      <dependency dep="the" dep_index="4" gov="absence" gov_index="5">det</dependency>
+      <dependency dep="absence" dep_index="5" gov="measured" gov_index="2">prep_in</dependency>
+      <dependency dep="profilin" dep_index="7" gov="absence" gov_index="5">prep_of</dependency>
+      <dependency dep="actin" dep_index="9" gov="curves" gov_index="11">amod</dependency>
+      <dependency dep="assembly" dep_index="10" gov="curves" gov_index="11">nn</dependency>
+      <dependency dep="curves" dep_index="11" gov="K(D)" gov_index="27">dep</dependency>
+      <dependency dep="a" dep_index="13" gov="fit" gov_index="19">det</dependency>
+      <dependency dep="0.7-4" dep_index="14" gov="microM" gov_index="15">num</dependency>
+      <dependency dep="microM" dep_index="15" gov="thymosin-beta4" gov_index="16">npadvmod</dependency>
+      <dependency dep="thymosin-beta4" dep_index="16" gov="fit" gov_index="19">amod</dependency>
+      <dependency dep="concentration" dep_index="17" gov="fit" gov_index="19">nn</dependency>
+      <dependency dep="range" dep_index="18" gov="fit" gov_index="19">nn</dependency>
+      <dependency dep="fit" dep_index="19" gov="curves" gov_index="11">prep_over</dependency>
+      <dependency dep="a" dep_index="20" gov="K(D)" gov_index="27">det</dependency>
+      <dependency dep="simple" dep_index="21" gov="K(D)" gov_index="27">amod</dependency>
+      <dependency dep="monomer" dep_index="22" gov="K(D)" gov_index="27">nn</dependency>
+      <dependency dep="sequestering" dep_index="23" gov="K(D)" gov_index="27">nn</dependency>
+      <dependency dep="model" dep_index="24" gov="K(D)" gov_index="27">nn</dependency>
+      <dependency dep="(1" dep_index="25" gov="K(D)" gov_index="27">num</dependency>
+      <dependency dep="microM" dep_index="26" gov="K(D)" gov_index="27">nn</dependency>
+      <dependency dep="K(D)" dep_index="27" gov=")." gov_index="32">dep</dependency>
+      <dependency dep="Thymosin-beta4" dep_index="29" gov="K(D)" gov_index="27">prep_for</dependency>
+      <dependency dep="Actin" dep_index="31" gov=")." gov_index="32">nn</dependency>
+      <dependency dep=")." dep_index="32" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2900031" relationship="true">29 27 32 31</relation>
+      <relation position="900029" relationship="false">9 11 27 29</relation>
+      <relation position="700029" relationship="false">7 5 2 32 27 29</relation>
+      <relation position="1600029" relationship="false">16 19 11 27 29</relation>
+      <relation position="900031" relationship="false">9 11 27 32 31</relation>
+      <relation position="700031" relationship="false">7 5 2 32 31</relation>
+      <relation position="1600031" relationship="false">16 19 11 27 32 31</relation>
+      <relation position="700009" relationship="false">7 5 2 32 27 11 9</relation>
+      <relation position="900016" relationship="false">9 11 19 16</relation>
+      <relation position="700016" relationship="false">7 5 2 32 27 11 19 16</relation>
+   </relations>
+   <pairs>
+      <pair>2900031</pair>
+   </pairs>
+</root>

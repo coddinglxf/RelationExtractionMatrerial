@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Moreover@,@similar@p110RB@sequences@are@required@for@binding@PP-1 alpha 2@and@SV40 large T antigen@.@</sentence>
+   <tags>
+      <tag pos="4">p110RB</tag>
+      <tag pos="10">PP-1 alpha 2</tag>
+      <tag pos="12">SV40 large T antigen</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Moreover</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="4" part-of-speech="JJ">p110RB</taggedword>
+      <taggedword index="5" part-of-speech="NNS">sequences</taggedword>
+      <taggedword index="6" part-of-speech="VBP">are</taggedword>
+      <taggedword index="7" part-of-speech="VBN">required</taggedword>
+      <taggedword index="8" part-of-speech="IN">for</taggedword>
+      <taggedword index="9" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="10" part-of-speech="NNS">PP-1 alpha 2</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNS">SV40 large T antigen</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Moreover" dep_index="1" gov="required" gov_index="7">advmod</dependency>
+      <dependency dep="similar" dep_index="3" gov="sequences" gov_index="5">amod</dependency>
+      <dependency dep="p110RB" dep_index="4" gov="sequences" gov_index="5">amod</dependency>
+      <dependency dep="sequences" dep_index="5" gov="required" gov_index="7">nsubjpass</dependency>
+      <dependency dep="are" dep_index="6" gov="required" gov_index="7">auxpass</dependency>
+      <dependency dep="required" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="binding" dep_index="9" gov="PP-1 alpha 2" gov_index="10">amod</dependency>
+      <dependency dep="PP-1 alpha 2" dep_index="10" gov="required" gov_index="7">prep_for</dependency>
+      <dependency dep="SV40 large T antigen" dep_index="12" gov="required" gov_index="7">prep_for</dependency>
+      <dependency dep="SV40 large T antigen" dep_index="12" gov="PP-1 alpha 2" gov_index="10">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400010" relationship="true">4 5 7 10</relation>
+      <relation position="400012" relationship="true">4 5 7 12</relation>
+      <relation position="1000012" relationship="false">10 7 12</relation>
+   </relations>
+   <pairs>
+      <pair>400010</pair>
+      <pair>400012</pair>
+   </pairs>
+</root>

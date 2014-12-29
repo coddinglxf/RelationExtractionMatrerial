@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@summary@,@UCP@subtype@mRNA@and@protein@are@regulated@in@tissue-@and@subtype-specific@fashion@by@leptin@and@food@restriction@</sentence>
+   <tags>
+      <tag pos="4">UCP</tag>
+      <tag pos="17">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">summary</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">UCP</taggedword>
+      <taggedword index="5" part-of-speech="JJ">subtype</taggedword>
+      <taggedword index="6" part-of-speech="NN">mRNA</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">protein</taggedword>
+      <taggedword index="9" part-of-speech="VBP">are</taggedword>
+      <taggedword index="10" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJ">tissue-</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">subtype-specific</taggedword>
+      <taggedword index="15" part-of-speech="NN">fashion</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">food</taggedword>
+      <taggedword index="20" part-of-speech="NN">restriction</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="summary" dep_index="2" gov="regulated" gov_index="10">prep_in</dependency>
+      <dependency dep="UCP" dep_index="4" gov="mRNA" gov_index="6">nn</dependency>
+      <dependency dep="subtype" dep_index="5" gov="mRNA" gov_index="6">amod</dependency>
+      <dependency dep="mRNA" dep_index="6" gov="regulated" gov_index="10">nsubjpass</dependency>
+      <dependency dep="protein" dep_index="8" gov="mRNA" gov_index="6">conj_and</dependency>
+      <dependency dep="protein" dep_index="8" gov="regulated" gov_index="10">nsubjpass</dependency>
+      <dependency dep="are" dep_index="9" gov="regulated" gov_index="10">auxpass</dependency>
+      <dependency dep="regulated" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="tissue-" dep_index="12" gov="fashion" gov_index="15">amod</dependency>
+      <dependency dep="subtype-specific" dep_index="14" gov="tissue-" gov_index="12">conj_and</dependency>
+      <dependency dep="subtype-specific" dep_index="14" gov="fashion" gov_index="15">amod</dependency>
+      <dependency dep="fashion" dep_index="15" gov="regulated" gov_index="10">prep_in</dependency>
+      <dependency dep="leptin" dep_index="17" gov="restriction" gov_index="20">nn</dependency>
+      <dependency dep="food" dep_index="19" gov="leptin" gov_index="17">conj_and</dependency>
+      <dependency dep="food" dep_index="19" gov="restriction" gov_index="20">nn</dependency>
+      <dependency dep="restriction" dep_index="20" gov="regulated" gov_index="10">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400017" relationship="true">4 6 10 20 17</relation>
+   </relations>
+   <pairs>
+      <pair>400017</pair>
+   </pairs>
+</root>

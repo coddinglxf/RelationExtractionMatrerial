@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Expression@of@glucocorticoid@receptors@and@cyclooxygenase-2@in@nasal@polyps@from@nonallergic@patients@.@</sentence>
+   <tags>
+      <tag pos="6">cyclooxygenase-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Expression</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">glucocorticoid</taggedword>
+      <taggedword index="4" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="JJ">cyclooxygenase-2</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="JJ">nasal</taggedword>
+      <taggedword index="9" part-of-speech="NNS">polyps</taggedword>
+      <taggedword index="10" part-of-speech="IN">from</taggedword>
+      <taggedword index="11" part-of-speech="JJ">nonallergic</taggedword>
+      <taggedword index="12" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Expression" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="glucocorticoid" dep_index="3" gov="receptors" gov_index="4">amod</dependency>
+      <dependency dep="receptors" dep_index="4" gov="Expression" gov_index="1">prep_of</dependency>
+      <dependency dep="cyclooxygenase-2" dep_index="6" gov="Expression" gov_index="1">conj_and</dependency>
+      <dependency dep="nasal" dep_index="8" gov="polyps" gov_index="9">amod</dependency>
+      <dependency dep="polyps" dep_index="9" gov="cyclooxygenase-2" gov_index="6">prep_in</dependency>
+      <dependency dep="nonallergic" dep_index="11" gov="patients" gov_index="12">amod</dependency>
+      <dependency dep="patients" dep_index="12" gov="cyclooxygenase-2" gov_index="6">prep_from</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

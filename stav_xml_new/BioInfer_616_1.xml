@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@genes@considered@are@those@for@5S@,@5.8S@and@18S rRNA@,@actin I@,@profilins I@/b@and@II@,@myosins IB@,@IC@and@II@,@and@calmodulin@.@</sentence>
+   <tags>
+      <tag pos="9">5.8S</tag>
+      <tag pos="7">5S</tag>
+      <tag pos="11">18S rRNA</tag>
+      <tag pos="13">actin I</tag>
+      <tag pos="15">profilins I</tag>
+      <tag pos="20">myosins IB</tag>
+      <tag pos="27">calmodulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="3" part-of-speech="VBN">considered</taggedword>
+      <taggedword index="4" part-of-speech="VBP">are</taggedword>
+      <taggedword index="5" part-of-speech="DT">those</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="CD">5S</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CD">5.8S</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="CD">18S rRNA</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNS">actin I</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="JJ">profilins I</taggedword>
+      <taggedword index="16" part-of-speech="NN">/b</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNP">II</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NNP">myosins IB</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NNP">IC</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NNP">II</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="NN">calmodulin</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="genes" gov_index="2">det</dependency>
+      <dependency dep="genes" dep_index="2" gov="those" gov_index="5">nsubj</dependency>
+      <dependency dep="considered" dep_index="3" gov="genes" gov_index="2">partmod</dependency>
+      <dependency dep="are" dep_index="4" gov="those" gov_index="5">cop</dependency>
+      <dependency dep="those" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="5S" dep_index="7" gov="those" gov_index="5">prep_for</dependency>
+      <dependency dep="5.8S" dep_index="9" gov="5S" gov_index="7">num</dependency>
+      <dependency dep="18S rRNA" dep_index="11" gov="those" gov_index="5">prep_for</dependency>
+      <dependency dep="18S rRNA" dep_index="11" gov="5S" gov_index="7">conj_and</dependency>
+      <dependency dep="actin I" dep_index="13" gov="those" gov_index="5">conj_and</dependency>
+      <dependency dep="profilins I" dep_index="15" gov="/b" gov_index="16">amod</dependency>
+      <dependency dep="/b" dep_index="16" gov="those" gov_index="5">conj_and</dependency>
+      <dependency dep="/b" dep_index="16" gov="actin I" gov_index="13">conj_and</dependency>
+      <dependency dep="II" dep_index="18" gov="those" gov_index="5">conj_and</dependency>
+      <dependency dep="II" dep_index="18" gov="actin I" gov_index="13">conj_and</dependency>
+      <dependency dep="myosins IB" dep_index="20" gov="actin I" gov_index="13">conj_and</dependency>
+      <dependency dep="myosins IB" dep_index="20" gov="II" gov_index="18">conj_and</dependency>
+      <dependency dep="IC" dep_index="22" gov="actin I" gov_index="13">conj_and</dependency>
+      <dependency dep="IC" dep_index="22" gov="II" gov_index="18">conj_and</dependency>
+      <dependency dep="II" dep_index="24" gov="actin I" gov_index="13">conj_and</dependency>
+      <dependency dep="II" dep_index="24" gov="II" gov_index="18">conj_and</dependency>
+      <dependency dep="calmodulin" dep_index="27" gov="those" gov_index="5">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false"></relation>
+      <relation position="900011" relationship="false">9 7 5 11</relation>
+      <relation position="900013" relationship="false"></relation>
+      <relation position="900015" relationship="false"></relation>
+      <relation position="900020" relationship="false"></relation>
+      <relation position="900027" relationship="false"></relation>
+      <relation position="700011" relationship="false">7 5 11</relation>
+      <relation position="700013" relationship="false"></relation>
+      <relation position="700015" relationship="false"></relation>
+      <relation position="700020" relationship="false"></relation>
+      <relation position="700027" relationship="false"></relation>
+      <relation position="1100013" relationship="false"></relation>
+      <relation position="1100015" relationship="false"></relation>
+      <relation position="1100020" relationship="false"></relation>
+      <relation position="1100027" relationship="false"></relation>
+      <relation position="1300015" relationship="false"></relation>
+      <relation position="1300020" relationship="false"></relation>
+      <relation position="1300027" relationship="false"></relation>
+      <relation position="1500020" relationship="false"></relation>
+      <relation position="1500027" relationship="false"></relation>
+      <relation position="2000027" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

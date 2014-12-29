@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>However@,@leptin@did@constrain@the@enhanced@PLC@-mediated@insulin@secretion@characteristic@of@islets@from@ob/ob@mice@,@without@influencing@release@from@islets@of@lean@mice@</sentence>
+   <tags>
+      <tag pos="8">PLC</tag>
+      <tag pos="10">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">However</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="4" part-of-speech="VBD">did</taggedword>
+      <taggedword index="5" part-of-speech="VB">constrain</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">enhanced</taggedword>
+      <taggedword index="8" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="9" part-of-speech="JJ">-mediated</taggedword>
+      <taggedword index="10" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="11" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="12" part-of-speech="NN">characteristic</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NNS">islets</taggedword>
+      <taggedword index="15" part-of-speech="IN">from</taggedword>
+      <taggedword index="16" part-of-speech="JJ">ob/ob</taggedword>
+      <taggedword index="17" part-of-speech="NNS">mice</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="IN">without</taggedword>
+      <taggedword index="20" part-of-speech="VBG">influencing</taggedword>
+      <taggedword index="21" part-of-speech="NN">release</taggedword>
+      <taggedword index="22" part-of-speech="IN">from</taggedword>
+      <taggedword index="23" part-of-speech="NNS">islets</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="JJ">lean</taggedword>
+      <taggedword index="26" part-of-speech="NNS">mice</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="However" dep_index="1" gov="constrain" gov_index="5">advmod</dependency>
+      <dependency dep="leptin" dep_index="3" gov="constrain" gov_index="5">nsubj</dependency>
+      <dependency dep="did" dep_index="4" gov="constrain" gov_index="5">aux</dependency>
+      <dependency dep="constrain" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="characteristic" gov_index="12">det</dependency>
+      <dependency dep="enhanced" dep_index="7" gov="characteristic" gov_index="12">amod</dependency>
+      <dependency dep="PLC" dep_index="8" gov="characteristic" gov_index="12">nn</dependency>
+      <dependency dep="-mediated" dep_index="9" gov="characteristic" gov_index="12">amod</dependency>
+      <dependency dep="insulin" dep_index="10" gov="characteristic" gov_index="12">nn</dependency>
+      <dependency dep="secretion" dep_index="11" gov="characteristic" gov_index="12">nn</dependency>
+      <dependency dep="characteristic" dep_index="12" gov="constrain" gov_index="5">dobj</dependency>
+      <dependency dep="islets" dep_index="14" gov="constrain" gov_index="5">prep_of</dependency>
+      <dependency dep="ob/ob" dep_index="16" gov="mice" gov_index="17">amod</dependency>
+      <dependency dep="mice" dep_index="17" gov="islets" gov_index="14">prep_from</dependency>
+      <dependency dep="influencing" dep_index="20" gov="constrain" gov_index="5">prepc_without</dependency>
+      <dependency dep="release" dep_index="21" gov="influencing" gov_index="20">dobj</dependency>
+      <dependency dep="islets" dep_index="23" gov="influencing" gov_index="20">prep_from</dependency>
+      <dependency dep="lean" dep_index="25" gov="mice" gov_index="26">amod</dependency>
+      <dependency dep="mice" dep_index="26" gov="islets" gov_index="23">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="true">8 12 10</relation>
+   </relations>
+   <pairs>
+      <pair>800010</pair>
+   </pairs>
+</root>

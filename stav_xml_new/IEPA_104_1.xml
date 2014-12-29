@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@abscisic@acid-mediated@inhibition@of@gibberellin@-stimulated@responses@seems@to@depend@on@the@activation@of@a@phospholipase@D@during@induction@of@alpha-amylase@in@barley@aleurone@cells@as@well@as@on@a@putative@acetyltransferase@involved@in@elongation@growth@.@</sentence>
+   <tags>
+      <tag pos="8">gibberellin</tag>
+      <tag pos="24">alpha-amylase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">abscisic</taggedword>
+      <taggedword index="5" part-of-speech="JJ">acid-mediated</taggedword>
+      <taggedword index="6" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">gibberellin</taggedword>
+      <taggedword index="9" part-of-speech="JJ">-stimulated</taggedword>
+      <taggedword index="10" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">seems</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">depend</taggedword>
+      <taggedword index="14" part-of-speech="IN">on</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">activation</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">phospholipase</taggedword>
+      <taggedword index="20" part-of-speech="NNP">D</taggedword>
+      <taggedword index="21" part-of-speech="IN">during</taggedword>
+      <taggedword index="22" part-of-speech="NN">induction</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">alpha-amylase</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="NN">barley</taggedword>
+      <taggedword index="27" part-of-speech="NN">aleurone</taggedword>
+      <taggedword index="28" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="29" part-of-speech="RB">as</taggedword>
+      <taggedword index="30" part-of-speech="RB">well</taggedword>
+      <taggedword index="31" part-of-speech="IN">as</taggedword>
+      <taggedword index="32" part-of-speech="IN">on</taggedword>
+      <taggedword index="33" part-of-speech="DT">a</taggedword>
+      <taggedword index="34" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="35" part-of-speech="NN">acetyltransferase</taggedword>
+      <taggedword index="36" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="37" part-of-speech="IN">in</taggedword>
+      <taggedword index="38" part-of-speech="NN">elongation</taggedword>
+      <taggedword index="39" part-of-speech="NN">growth</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="seems" gov_index="11">prep_in</dependency>
+      <dependency dep="abscisic" dep_index="4" gov="inhibition" gov_index="6">amod</dependency>
+      <dependency dep="acid-mediated" dep_index="5" gov="inhibition" gov_index="6">amod</dependency>
+      <dependency dep="inhibition" dep_index="6" gov="seems" gov_index="11">nsubj</dependency>
+      <dependency dep="inhibition" dep_index="6" gov="depend" gov_index="13">xsubj</dependency>
+      <dependency dep="gibberellin" dep_index="8" gov="responses" gov_index="10">amod</dependency>
+      <dependency dep="-stimulated" dep_index="9" gov="responses" gov_index="10">amod</dependency>
+      <dependency dep="responses" dep_index="10" gov="inhibition" gov_index="6">prep_of</dependency>
+      <dependency dep="seems" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="12" gov="depend" gov_index="13">aux</dependency>
+      <dependency dep="depend" dep_index="13" gov="seems" gov_index="11">xcomp</dependency>
+      <dependency dep="depend" dep_index="13" gov="seems" gov_index="11">xcomp</dependency>
+      <dependency dep="depend" dep_index="13" gov="depend" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="15" gov="activation" gov_index="16">det</dependency>
+      <dependency dep="activation" dep_index="16" gov="depend" gov_index="13">prep_on</dependency>
+      <dependency dep="a" dep_index="18" gov="D" gov_index="20">det</dependency>
+      <dependency dep="phospholipase" dep_index="19" gov="D" gov_index="20">amod</dependency>
+      <dependency dep="D" dep_index="20" gov="activation" gov_index="16">prep_of</dependency>
+      <dependency dep="induction" dep_index="22" gov="depend" gov_index="13">prep_during</dependency>
+      <dependency dep="alpha-amylase" dep_index="24" gov="induction" gov_index="22">prep_of</dependency>
+      <dependency dep="barley" dep_index="26" gov="cells" gov_index="28">nn</dependency>
+      <dependency dep="aleurone" dep_index="27" gov="cells" gov_index="28">nn</dependency>
+      <dependency dep="cells" dep_index="28" gov="alpha-amylase" gov_index="24">prep_in</dependency>
+      <dependency dep="a" dep_index="33" gov="acetyltransferase" gov_index="35">det</dependency>
+      <dependency dep="putative" dep_index="34" gov="acetyltransferase" gov_index="35">amod</dependency>
+      <dependency dep="acetyltransferase" dep_index="35" gov="depend" gov_index="13">prep_on</dependency>
+      <dependency dep="involved" dep_index="36" gov="acetyltransferase" gov_index="35">partmod</dependency>
+      <dependency dep="elongation" dep_index="38" gov="growth" gov_index="39">nn</dependency>
+      <dependency dep="growth" dep_index="39" gov="involved" gov_index="36">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800024" relationship="false">8 10 6 13 22 24</relation>
+   </relations>
+   <pairs/>
+</root>

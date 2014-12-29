@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>IL-1@is@the@only@cytokine@for@which@a@naturally@occurring@antagonist@is@known@.@</sentence>
+   <tags>
+      <tag pos="1">IL-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">IL-1</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">only</taggedword>
+      <taggedword index="5" part-of-speech="NN">cytokine</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="WDT">which</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="RB">naturally</taggedword>
+      <taggedword index="10" part-of-speech="JJ">occurring</taggedword>
+      <taggedword index="11" part-of-speech="NN">antagonist</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="VBN">known</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="IL-1" dep_index="1" gov="cytokine" gov_index="5">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="cytokine" gov_index="5">cop</dependency>
+      <dependency dep="the" dep_index="3" gov="cytokine" gov_index="5">det</dependency>
+      <dependency dep="only" dep_index="4" gov="cytokine" gov_index="5">amod</dependency>
+      <dependency dep="cytokine" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cytokine" dep_index="5" gov="known" gov_index="13">prep_for</dependency>
+      <dependency dep="a" dep_index="8" gov="antagonist" gov_index="11">det</dependency>
+      <dependency dep="naturally" dep_index="9" gov="occurring" gov_index="10">advmod</dependency>
+      <dependency dep="occurring" dep_index="10" gov="antagonist" gov_index="11">amod</dependency>
+      <dependency dep="antagonist" dep_index="11" gov="known" gov_index="13">nsubjpass</dependency>
+      <dependency dep="is" dep_index="12" gov="known" gov_index="13">auxpass</dependency>
+      <dependency dep="known" dep_index="13" gov="cytokine" gov_index="5">rcmod</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

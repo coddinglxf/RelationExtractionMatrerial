@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@current@study@demonstrates@that@leptin@rapidly@influences@the@secretion@of@hypothalamic@NPY@and@CRH@and@that@these@actions@of@leptin@within@the@hypothalamus@are@restrained@by@the@presence@of@endogenous@corticosterone@</sentence>
+   <tags>
+      <tag pos="6">leptin</tag>
+      <tag pos="13">NPY</tag>
+      <tag pos="21">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">current</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">demonstrates</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="7" part-of-speech="RB">rapidly</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">influences</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="JJ">hypothalamic</taggedword>
+      <taggedword index="13" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NNP">CRH</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="IN">that</taggedword>
+      <taggedword index="18" part-of-speech="DT">these</taggedword>
+      <taggedword index="19" part-of-speech="NNS">actions</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="22" part-of-speech="IN">within</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NNS">hypothalamus</taggedword>
+      <taggedword index="25" part-of-speech="VBP">are</taggedword>
+      <taggedword index="26" part-of-speech="VBN">restrained</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="NN">presence</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="JJ">endogenous</taggedword>
+      <taggedword index="32" part-of-speech="NN">corticosterone</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="study" gov_index="3">det</dependency>
+      <dependency dep="current" dep_index="2" gov="study" gov_index="3">amod</dependency>
+      <dependency dep="study" dep_index="3" gov="demonstrates" gov_index="4">nsubj</dependency>
+      <dependency dep="demonstrates" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="influences" gov_index="8">mark</dependency>
+      <dependency dep="leptin" dep_index="6" gov="influences" gov_index="8">nsubj</dependency>
+      <dependency dep="rapidly" dep_index="7" gov="influences" gov_index="8">advmod</dependency>
+      <dependency dep="influences" dep_index="8" gov="demonstrates" gov_index="4">ccomp</dependency>
+      <dependency dep="the" dep_index="9" gov="secretion" gov_index="10">det</dependency>
+      <dependency dep="secretion" dep_index="10" gov="influences" gov_index="8">dobj</dependency>
+      <dependency dep="hypothalamic" dep_index="12" gov="NPY" gov_index="13">amod</dependency>
+      <dependency dep="NPY" dep_index="13" gov="secretion" gov_index="10">prep_of</dependency>
+      <dependency dep="CRH" dep_index="15" gov="secretion" gov_index="10">prep_of</dependency>
+      <dependency dep="CRH" dep_index="15" gov="NPY" gov_index="13">conj_and</dependency>
+      <dependency dep="that" dep_index="17" gov="restrained" gov_index="26">mark</dependency>
+      <dependency dep="these" dep_index="18" gov="actions" gov_index="19">det</dependency>
+      <dependency dep="actions" dep_index="19" gov="restrained" gov_index="26">nsubjpass</dependency>
+      <dependency dep="leptin" dep_index="21" gov="actions" gov_index="19">prep_of</dependency>
+      <dependency dep="the" dep_index="23" gov="hypothalamus" gov_index="24">det</dependency>
+      <dependency dep="hypothalamus" dep_index="24" gov="leptin" gov_index="21">prep_within</dependency>
+      <dependency dep="are" dep_index="25" gov="restrained" gov_index="26">auxpass</dependency>
+      <dependency dep="restrained" dep_index="26" gov="demonstrates" gov_index="4">ccomp</dependency>
+      <dependency dep="restrained" dep_index="26" gov="influences" gov_index="8">conj_and</dependency>
+      <dependency dep="the" dep_index="28" gov="presence" gov_index="29">det</dependency>
+      <dependency dep="presence" dep_index="29" gov="restrained" gov_index="26">agent</dependency>
+      <dependency dep="endogenous" dep_index="31" gov="corticosterone" gov_index="32">amod</dependency>
+      <dependency dep="corticosterone" dep_index="32" gov="presence" gov_index="29">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600013" relationship="true">6 8 10 13</relation>
+      <relation position="600021" relationship="false">6 8 4 26 19 21</relation>
+      <relation position="1300021" relationship="false">13 10 8 4 26 19 21</relation>
+   </relations>
+   <pairs>
+      <pair>600013</pair>
+   </pairs>
+</root>

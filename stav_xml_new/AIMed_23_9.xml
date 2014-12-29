@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@in@normal@nasal@tissues@,@COX-2@labeling@was@only@found@in@the@vascular@wall@,@and@the@expression@was@weaker--a@finding@demonstrating@that@COX-2@is@upregulated@in@nasal@polyps@.@</sentence>
+   <tags>
+      <tag pos="9">COX-2</tag>
+      <tag pos="27">COX-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="6" part-of-speech="JJ">nasal</taggedword>
+      <taggedword index="7" part-of-speech="NNS">tissues</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">COX-2</taggedword>
+      <taggedword index="10" part-of-speech="NNP">labeling</taggedword>
+      <taggedword index="11" part-of-speech="VBD">was</taggedword>
+      <taggedword index="12" part-of-speech="RB">only</taggedword>
+      <taggedword index="13" part-of-speech="VBN">found</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">vascular</taggedword>
+      <taggedword index="17" part-of-speech="NN">wall</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">expression</taggedword>
+      <taggedword index="22" part-of-speech="VBD">was</taggedword>
+      <taggedword index="23" part-of-speech="JJ">weaker--a</taggedword>
+      <taggedword index="24" part-of-speech="NN">finding</taggedword>
+      <taggedword index="25" part-of-speech="VBG">demonstrating</taggedword>
+      <taggedword index="26" part-of-speech="IN">that</taggedword>
+      <taggedword index="27" part-of-speech="NNP">COX-2</taggedword>
+      <taggedword index="28" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="29" part-of-speech="VBN">upregulated</taggedword>
+      <taggedword index="30" part-of-speech="IN">in</taggedword>
+      <taggedword index="31" part-of-speech="JJ">nasal</taggedword>
+      <taggedword index="32" part-of-speech="NNS">polyps</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="found" gov_index="13">prep_in</dependency>
+      <dependency dep="normal" dep_index="5" gov="tissues" gov_index="7">amod</dependency>
+      <dependency dep="nasal" dep_index="6" gov="tissues" gov_index="7">amod</dependency>
+      <dependency dep="tissues" dep_index="7" gov="found" gov_index="13">prep_in</dependency>
+      <dependency dep="COX-2" dep_index="9" gov="labeling" gov_index="10">nn</dependency>
+      <dependency dep="labeling" dep_index="10" gov="found" gov_index="13">nsubjpass</dependency>
+      <dependency dep="was" dep_index="11" gov="found" gov_index="13">auxpass</dependency>
+      <dependency dep="only" dep_index="12" gov="found" gov_index="13">advmod</dependency>
+      <dependency dep="found" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="15" gov="wall" gov_index="17">det</dependency>
+      <dependency dep="vascular" dep_index="16" gov="wall" gov_index="17">nn</dependency>
+      <dependency dep="wall" dep_index="17" gov="found" gov_index="13">prep_in</dependency>
+      <dependency dep="the" dep_index="20" gov="expression" gov_index="21">det</dependency>
+      <dependency dep="expression" dep_index="21" gov="finding" gov_index="24">nsubj</dependency>
+      <dependency dep="was" dep_index="22" gov="finding" gov_index="24">cop</dependency>
+      <dependency dep="weaker--a" dep_index="23" gov="finding" gov_index="24">amod</dependency>
+      <dependency dep="finding" dep_index="24" gov="found" gov_index="13">conj_and</dependency>
+      <dependency dep="demonstrating" dep_index="25" gov="finding" gov_index="24">partmod</dependency>
+      <dependency dep="that" dep_index="26" gov="upregulated" gov_index="29">mark</dependency>
+      <dependency dep="COX-2" dep_index="27" gov="upregulated" gov_index="29">nsubjpass</dependency>
+      <dependency dep="is" dep_index="28" gov="upregulated" gov_index="29">auxpass</dependency>
+      <dependency dep="upregulated" dep_index="29" gov="demonstrating" gov_index="25">ccomp</dependency>
+      <dependency dep="nasal" dep_index="31" gov="polyps" gov_index="32">amod</dependency>
+      <dependency dep="polyps" dep_index="32" gov="upregulated" gov_index="29">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900027" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

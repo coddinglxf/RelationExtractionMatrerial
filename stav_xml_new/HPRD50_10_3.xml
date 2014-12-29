@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CD43@expressed@in@COS@cells@supported@increased@binding@to@immobilized@sialoadhesin@</sentence>
+   <tags>
+      <tag pos="1">CD43</tag>
+      <tag pos="11">sialoadhesin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CD43</taggedword>
+      <taggedword index="2" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NNP">COS</taggedword>
+      <taggedword index="5" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="6" part-of-speech="VBD">supported</taggedword>
+      <taggedword index="7" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="8" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="JJ">immobilized</taggedword>
+      <taggedword index="11" part-of-speech="NN">sialoadhesin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CD43" dep_index="1" gov="supported" gov_index="6">nsubj</dependency>
+      <dependency dep="expressed" dep_index="2" gov="CD43" gov_index="1">partmod</dependency>
+      <dependency dep="COS" dep_index="4" gov="cells" gov_index="5">nn</dependency>
+      <dependency dep="cells" dep_index="5" gov="expressed" gov_index="2">prep_in</dependency>
+      <dependency dep="supported" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="increased" dep_index="7" gov="supported" gov_index="6">dobj</dependency>
+      <dependency dep="binding" dep_index="8" gov="increased" gov_index="7">amod</dependency>
+      <dependency dep="immobilized" dep_index="10" gov="sialoadhesin" gov_index="11">amod</dependency>
+      <dependency dep="sialoadhesin" dep_index="11" gov="increased" gov_index="7">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100011" relationship="true">1 6 7 11</relation>
+   </relations>
+   <pairs>
+      <pair>100011</pair>
+   </pairs>
+</root>

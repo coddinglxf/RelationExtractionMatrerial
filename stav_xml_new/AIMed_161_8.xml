@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@experiments@show@that@this@modified@two@hybrid@technique@may@be@useful@for@the@identification@of@proteins@involved@in@tyrosine@kinase@signal@transduction@cascades@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="3" part-of-speech="VBP">show</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">this</taggedword>
+      <taggedword index="6" part-of-speech="NNP">modified</taggedword>
+      <taggedword index="7" part-of-speech="CD">two</taggedword>
+      <taggedword index="8" part-of-speech="JJ">hybrid</taggedword>
+      <taggedword index="9" part-of-speech="NN">technique</taggedword>
+      <taggedword index="10" part-of-speech="MD">may</taggedword>
+      <taggedword index="11" part-of-speech="VB">be</taggedword>
+      <taggedword index="12" part-of-speech="JJ">useful</taggedword>
+      <taggedword index="13" part-of-speech="IN">for</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">identification</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="18" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="21" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="22" part-of-speech="NN">signal</taggedword>
+      <taggedword index="23" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="24" part-of-speech="NNS">cascades</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="experiments" gov_index="2">det</dependency>
+      <dependency dep="experiments" dep_index="2" gov="show" gov_index="3">nsubj</dependency>
+      <dependency dep="show" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="useful" gov_index="12">mark</dependency>
+      <dependency dep="this" dep_index="5" gov="technique" gov_index="9">det</dependency>
+      <dependency dep="modified" dep_index="6" gov="technique" gov_index="9">nn</dependency>
+      <dependency dep="two" dep_index="7" gov="technique" gov_index="9">num</dependency>
+      <dependency dep="hybrid" dep_index="8" gov="technique" gov_index="9">amod</dependency>
+      <dependency dep="technique" dep_index="9" gov="useful" gov_index="12">nsubj</dependency>
+      <dependency dep="may" dep_index="10" gov="useful" gov_index="12">aux</dependency>
+      <dependency dep="be" dep_index="11" gov="useful" gov_index="12">cop</dependency>
+      <dependency dep="useful" dep_index="12" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="14" gov="identification" gov_index="15">det</dependency>
+      <dependency dep="identification" dep_index="15" gov="useful" gov_index="12">prep_for</dependency>
+      <dependency dep="proteins" dep_index="17" gov="identification" gov_index="15">prep_of</dependency>
+      <dependency dep="involved" dep_index="18" gov="proteins" gov_index="17">partmod</dependency>
+      <dependency dep="tyrosine" dep_index="20" gov="cascades" gov_index="24">amod</dependency>
+      <dependency dep="kinase" dep_index="21" gov="cascades" gov_index="24">amod</dependency>
+      <dependency dep="signal" dep_index="22" gov="cascades" gov_index="24">nn</dependency>
+      <dependency dep="transduction" dep_index="23" gov="cascades" gov_index="24">nn</dependency>
+      <dependency dep="cascades" dep_index="24" gov="involved" gov_index="18">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

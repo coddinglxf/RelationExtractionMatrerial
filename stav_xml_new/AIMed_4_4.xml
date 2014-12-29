@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Endothelin-1@(@ET-1@)@and@ET-3@had@a@strong@positive@inotropic@effect@in@all@trabeculae@.@</sentence>
+   <tags>
+      <tag pos="1">Endothelin-1</tag>
+      <tag pos="3">ET-1</tag>
+      <tag pos="6">ET-3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Endothelin-1</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">ET-1</taggedword>
+      <taggedword index="4" part-of-speech="JJ">)</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="JJ">ET-3</taggedword>
+      <taggedword index="7" part-of-speech="VBD">had</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">strong</taggedword>
+      <taggedword index="10" part-of-speech="JJ">positive</taggedword>
+      <taggedword index="11" part-of-speech="JJ">inotropic</taggedword>
+      <taggedword index="12" part-of-speech="NN">effect</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">all</taggedword>
+      <taggedword index="15" part-of-speech="NN">trabeculae</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Endothelin-1" dep_index="1" gov="ET-1" gov_index="3">nn</dependency>
+      <dependency dep="(" dep_index="2" gov="ET-1" gov_index="3">nn</dependency>
+      <dependency dep="ET-1" dep_index="3" gov="had" gov_index="7">nsubj</dependency>
+      <dependency dep=")" dep_index="4" gov="ET-1" gov_index="3">amod</dependency>
+      <dependency dep="ET-3" dep_index="6" gov="ET-1" gov_index="3">amod</dependency>
+      <dependency dep="ET-3" dep_index="6" gov=")" gov_index="4">conj_and</dependency>
+      <dependency dep="had" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="8" gov="effect" gov_index="12">det</dependency>
+      <dependency dep="strong" dep_index="9" gov="effect" gov_index="12">amod</dependency>
+      <dependency dep="positive" dep_index="10" gov="effect" gov_index="12">amod</dependency>
+      <dependency dep="inotropic" dep_index="11" gov="effect" gov_index="12">amod</dependency>
+      <dependency dep="effect" dep_index="12" gov="had" gov_index="7">dobj</dependency>
+      <dependency dep="all" dep_index="14" gov="trabeculae" gov_index="15">det</dependency>
+      <dependency dep="trabeculae" dep_index="15" gov="effect" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false"></relation>
+      <relation position="100006" relationship="false">1 3 6</relation>
+      <relation position="300006" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

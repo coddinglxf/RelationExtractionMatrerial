@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@results@of@his3@activation@indicated@that@p85@,@N@+@C-SH2@and@C-SH2@interact@with@both@IR beta@and@IGF-1R beta@,@whereas@N-SH2@and@SH3@+@N-SH2@interact@only@with@IR beta@.@</sentence>
+   <tags>
+      <tag pos="8">p85</tag>
+      <tag pos="18">IR beta</tag>
+      <tag pos="20">IGF-1R beta</tag>
+      <tag pos="31">IR beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">his3</taggedword>
+      <taggedword index="5" part-of-speech="NN">activation</taggedword>
+      <taggedword index="6" part-of-speech="VBD">indicated</taggedword>
+      <taggedword index="7" part-of-speech="DT">that</taggedword>
+      <taggedword index="8" part-of-speech="JJ">p85</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NNP">N</taggedword>
+      <taggedword index="11" part-of-speech="CD">+</taggedword>
+      <taggedword index="12" part-of-speech="JJ">C-SH2</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">C-SH2</taggedword>
+      <taggedword index="15" part-of-speech="NN">interact</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="DT">both</taggedword>
+      <taggedword index="18" part-of-speech="NNP">IR beta</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NNP">IGF-1R beta</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="23" part-of-speech="NN">N-SH2</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="NNP">SH3</taggedword>
+      <taggedword index="26" part-of-speech="NNP">+</taggedword>
+      <taggedword index="27" part-of-speech="NNP">N-SH2</taggedword>
+      <taggedword index="28" part-of-speech="VBP">interact</taggedword>
+      <taggedword index="29" part-of-speech="RB">only</taggedword>
+      <taggedword index="30" part-of-speech="IN">with</taggedword>
+      <taggedword index="31" part-of-speech="NNP">IR beta</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="indicated" gov_index="6">nsubj</dependency>
+      <dependency dep="his3" dep_index="4" gov="activation" gov_index="5">amod</dependency>
+      <dependency dep="activation" dep_index="5" gov="results" gov_index="2">prep_of</dependency>
+      <dependency dep="indicated" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="interact" gov_index="15">det</dependency>
+      <dependency dep="p85" dep_index="8" gov="interact" gov_index="15">amod</dependency>
+      <dependency dep="N" dep_index="10" gov="interact" gov_index="15">dep</dependency>
+      <dependency dep="+" dep_index="11" gov="interact" gov_index="15">num</dependency>
+      <dependency dep="C-SH2" dep_index="12" gov="interact" gov_index="15">amod</dependency>
+      <dependency dep="C-SH2" dep_index="14" gov="C-SH2" gov_index="12">conj_and</dependency>
+      <dependency dep="C-SH2" dep_index="14" gov="interact" gov_index="15">amod</dependency>
+      <dependency dep="interact" dep_index="15" gov="indicated" gov_index="6">dobj</dependency>
+      <dependency dep="both" dep_index="17" gov="IR beta" gov_index="18">preconj</dependency>
+      <dependency dep="IR beta" dep_index="18" gov="interact" gov_index="15">prep_with</dependency>
+      <dependency dep="IGF-1R beta" dep_index="20" gov="interact" gov_index="15">prep_with</dependency>
+      <dependency dep="IGF-1R beta" dep_index="20" gov="IR beta" gov_index="18">conj_and</dependency>
+      <dependency dep="whereas" dep_index="22" gov="interact" gov_index="28">mark</dependency>
+      <dependency dep="N-SH2" dep_index="23" gov="interact" gov_index="28">nsubj</dependency>
+      <dependency dep="SH3" dep_index="25" gov="N-SH2" gov_index="27">nn</dependency>
+      <dependency dep="+" dep_index="26" gov="N-SH2" gov_index="27">nn</dependency>
+      <dependency dep="N-SH2" dep_index="27" gov="N-SH2" gov_index="23">conj_and</dependency>
+      <dependency dep="N-SH2" dep_index="27" gov="interact" gov_index="28">nsubj</dependency>
+      <dependency dep="interact" dep_index="28" gov="indicated" gov_index="6">advcl</dependency>
+      <dependency dep="only" dep_index="29" gov="interact" gov_index="28">advmod</dependency>
+      <dependency dep="IR beta" dep_index="31" gov="interact" gov_index="28">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800018" relationship="true">8 15 18</relation>
+      <relation position="800020" relationship="true">8 15 20</relation>
+      <relation position="800031" relationship="false">8 15 6 28 31</relation>
+      <relation position="1800020" relationship="false">18 15 20</relation>
+      <relation position="1800031" relationship="false">18 15 6 28 31</relation>
+      <relation position="2000031" relationship="false">20 15 6 28 31</relation>
+   </relations>
+   <pairs>
+      <pair>800020</pair>
+      <pair>800018</pair>
+   </pairs>
+</root>

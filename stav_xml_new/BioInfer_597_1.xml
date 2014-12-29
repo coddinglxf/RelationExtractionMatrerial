@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@concentration@of@beta-catenin@was@constant@during@the@follicular@phase@,@whereas@the@content@of@alpha-catenin@decreased@in@granulosa@cells@after@treatment@with@diethylstilboestrol@or@hCG@.@</sentence>
+   <tags>
+      <tag pos="16">alpha-catenin</tag>
+      <tag pos="4">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="JJ">constant</taggedword>
+      <taggedword index="7" part-of-speech="IN">during</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">follicular</taggedword>
+      <taggedword index="10" part-of-speech="NN">phase</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">content</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="17" part-of-speech="VBD">decreased</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="NN">granulosa</taggedword>
+      <taggedword index="20" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="21" part-of-speech="IN">after</taggedword>
+      <taggedword index="22" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="NN">diethylstilboestrol</taggedword>
+      <taggedword index="25" part-of-speech="CC">or</taggedword>
+      <taggedword index="26" part-of-speech="NN">hCG</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="concentration" gov_index="2">det</dependency>
+      <dependency dep="concentration" dep_index="2" gov="constant" gov_index="6">nsubj</dependency>
+      <dependency dep="beta-catenin" dep_index="4" gov="concentration" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="5" gov="constant" gov_index="6">cop</dependency>
+      <dependency dep="constant" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="phase" gov_index="10">det</dependency>
+      <dependency dep="follicular" dep_index="9" gov="phase" gov_index="10">nn</dependency>
+      <dependency dep="phase" dep_index="10" gov="constant" gov_index="6">prep_during</dependency>
+      <dependency dep="whereas" dep_index="12" gov="decreased" gov_index="17">mark</dependency>
+      <dependency dep="the" dep_index="13" gov="content" gov_index="14">det</dependency>
+      <dependency dep="content" dep_index="14" gov="decreased" gov_index="17">nsubj</dependency>
+      <dependency dep="alpha-catenin" dep_index="16" gov="content" gov_index="14">prep_of</dependency>
+      <dependency dep="decreased" dep_index="17" gov="constant" gov_index="6">advcl</dependency>
+      <dependency dep="granulosa" dep_index="19" gov="cells" gov_index="20">nn</dependency>
+      <dependency dep="cells" dep_index="20" gov="decreased" gov_index="17">prep_in</dependency>
+      <dependency dep="treatment" dep_index="22" gov="decreased" gov_index="17">prep_after</dependency>
+      <dependency dep="diethylstilboestrol" dep_index="24" gov="decreased" gov_index="17">prep_with</dependency>
+      <dependency dep="hCG" dep_index="26" gov="decreased" gov_index="17">prep_with</dependency>
+      <dependency dep="hCG" dep_index="26" gov="diethylstilboestrol" gov_index="24">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400016" relationship="false">4 2 6 17 14 16</relation>
+   </relations>
+   <pairs/>
+</root>

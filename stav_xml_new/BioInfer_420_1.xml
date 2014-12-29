@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>METHODS@:@Ileal@and@colonic@biopsy@specimens@from@19@SpA@patients@with@subclinical@inflammatory@gut@lesions@and@from@seven@controls@were@stained@with@monoclonal@antibodies@against@E-cadherin@,@beta-catenin@and@plakoglobin@and@a@polyclonal@antibody@against@alpha-catenin@.@</sentence>
+   <tags>
+      <tag pos="29">beta-catenin</tag>
+      <tag pos="37">alpha-catenin</tag>
+      <tag pos="27">E-cadherin</tag>
+      <tag pos="31">plakoglobin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">METHODS</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Ileal</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="JJ">colonic</taggedword>
+      <taggedword index="6" part-of-speech="NN">biopsy</taggedword>
+      <taggedword index="7" part-of-speech="NNS">specimens</taggedword>
+      <taggedword index="8" part-of-speech="IN">from</taggedword>
+      <taggedword index="9" part-of-speech="CD">19</taggedword>
+      <taggedword index="10" part-of-speech="NNP">SpA</taggedword>
+      <taggedword index="11" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="JJ">subclinical</taggedword>
+      <taggedword index="14" part-of-speech="JJ">inflammatory</taggedword>
+      <taggedword index="15" part-of-speech="NN">gut</taggedword>
+      <taggedword index="16" part-of-speech="NNS">lesions</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="IN">from</taggedword>
+      <taggedword index="19" part-of-speech="CD">seven</taggedword>
+      <taggedword index="20" part-of-speech="NNS">controls</taggedword>
+      <taggedword index="21" part-of-speech="VBD">were</taggedword>
+      <taggedword index="22" part-of-speech="VBN">stained</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="JJ">monoclonal</taggedword>
+      <taggedword index="25" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="26" part-of-speech="IN">against</taggedword>
+      <taggedword index="27" part-of-speech="NN">E-cadherin</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="32" part-of-speech="CC">and</taggedword>
+      <taggedword index="33" part-of-speech="DT">a</taggedword>
+      <taggedword index="34" part-of-speech="JJ">polyclonal</taggedword>
+      <taggedword index="35" part-of-speech="NN">antibody</taggedword>
+      <taggedword index="36" part-of-speech="IN">against</taggedword>
+      <taggedword index="37" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="METHODS" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Ileal" dep_index="3" gov="stained" gov_index="22">nsubjpass</dependency>
+      <dependency dep="colonic" dep_index="5" gov="specimens" gov_index="7">amod</dependency>
+      <dependency dep="biopsy" dep_index="6" gov="specimens" gov_index="7">nn</dependency>
+      <dependency dep="specimens" dep_index="7" gov="Ileal" gov_index="3">conj_and</dependency>
+      <dependency dep="specimens" dep_index="7" gov="stained" gov_index="22">nsubjpass</dependency>
+      <dependency dep="19" dep_index="9" gov="patients" gov_index="11">num</dependency>
+      <dependency dep="SpA" dep_index="10" gov="patients" gov_index="11">nn</dependency>
+      <dependency dep="patients" dep_index="11" gov="specimens" gov_index="7">prep_from</dependency>
+      <dependency dep="subclinical" dep_index="13" gov="lesions" gov_index="16">amod</dependency>
+      <dependency dep="inflammatory" dep_index="14" gov="lesions" gov_index="16">amod</dependency>
+      <dependency dep="gut" dep_index="15" gov="lesions" gov_index="16">nn</dependency>
+      <dependency dep="lesions" dep_index="16" gov="patients" gov_index="11">prep_with</dependency>
+      <dependency dep="seven" dep_index="19" gov="controls" gov_index="20">num</dependency>
+      <dependency dep="controls" dep_index="20" gov="specimens" gov_index="7">prep_from</dependency>
+      <dependency dep="controls" dep_index="20" gov="patients" gov_index="11">conj_and</dependency>
+      <dependency dep="were" dep_index="21" gov="stained" gov_index="22">auxpass</dependency>
+      <dependency dep="stained" dep_index="22" gov="METHODS" gov_index="1">dep</dependency>
+      <dependency dep="monoclonal" dep_index="24" gov="antibodies" gov_index="25">amod</dependency>
+      <dependency dep="antibodies" dep_index="25" gov="stained" gov_index="22">prep_with</dependency>
+      <dependency dep="E-cadherin" dep_index="27" gov="antibodies" gov_index="25">prep_against</dependency>
+      <dependency dep="beta-catenin" dep_index="29" gov="antibodies" gov_index="25">prep_against</dependency>
+      <dependency dep="beta-catenin" dep_index="29" gov="E-cadherin" gov_index="27">conj_and</dependency>
+      <dependency dep="plakoglobin" dep_index="31" gov="antibodies" gov_index="25">prep_against</dependency>
+      <dependency dep="plakoglobin" dep_index="31" gov="E-cadherin" gov_index="27">conj_and</dependency>
+      <dependency dep="a" dep_index="33" gov="antibody" gov_index="35">det</dependency>
+      <dependency dep="polyclonal" dep_index="34" gov="antibody" gov_index="35">amod</dependency>
+      <dependency dep="antibody" dep_index="35" gov="stained" gov_index="22">prep_with</dependency>
+      <dependency dep="antibody" dep_index="35" gov="antibodies" gov_index="25">conj_and</dependency>
+      <dependency dep="alpha-catenin" dep_index="37" gov="antibody" gov_index="35">prep_against</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2900037" relationship="false">29 25 22 35 37</relation>
+      <relation position="2700029" relationship="false">27 25 29</relation>
+      <relation position="2900031" relationship="false">29 25 31</relation>
+      <relation position="2700037" relationship="false">27 25 22 35 37</relation>
+      <relation position="3100037" relationship="false">31 25 22 35 37</relation>
+      <relation position="2700031" relationship="false">27 25 31</relation>
+   </relations>
+   <pairs/>
+</root>

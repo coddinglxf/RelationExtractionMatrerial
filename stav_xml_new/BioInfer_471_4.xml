@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@used@biochemical@fractionation@,@immunoassays@and@microscopy@of@live@and@fixed@Acanthamoeba@to@determine@how@much@profilin@is@bound@to@its@known@ligands@:@actin@,@membrane@PIP(2)@,@Arp@/3@complex@and@polyproline@sequences@.@</sentence>
+   <tags>
+      <tag pos="18">profilin</tag>
+      <tag pos="26">actin</tag>
+      <tag pos="31">Arp</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">used</taggedword>
+      <taggedword index="3" part-of-speech="JJ">biochemical</taggedword>
+      <taggedword index="4" part-of-speech="NN">fractionation</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NNS">immunoassays</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">microscopy</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="JJ">live</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="JJ">fixed</taggedword>
+      <taggedword index="13" part-of-speech="NN">Acanthamoeba</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">determine</taggedword>
+      <taggedword index="16" part-of-speech="WRB">how</taggedword>
+      <taggedword index="17" part-of-speech="JJ">much</taggedword>
+      <taggedword index="18" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="20" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="23" part-of-speech="VBN">known</taggedword>
+      <taggedword index="24" part-of-speech="NNS">ligands</taggedword>
+      <taggedword index="25" part-of-speech=":">:</taggedword>
+      <taggedword index="26" part-of-speech="NN">actin</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NNP">membrane</taggedword>
+      <taggedword index="29" part-of-speech="NNP">PIP(2)</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="NNP">Arp</taggedword>
+      <taggedword index="32" part-of-speech="CD">/3</taggedword>
+      <taggedword index="33" part-of-speech="NN">complex</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="JJ">polyproline</taggedword>
+      <taggedword index="36" part-of-speech="NNS">sequences</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="used" gov_index="2">nsubj</dependency>
+      <dependency dep="We" dep_index="1" gov="determine" gov_index="15">xsubj</dependency>
+      <dependency dep="used" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="biochemical" dep_index="3" gov="fractionation" gov_index="4">amod</dependency>
+      <dependency dep="fractionation" dep_index="4" gov="used" gov_index="2">dobj</dependency>
+      <dependency dep="immunoassays" dep_index="6" gov="used" gov_index="2">dobj</dependency>
+      <dependency dep="immunoassays" dep_index="6" gov="fractionation" gov_index="4">conj_and</dependency>
+      <dependency dep="microscopy" dep_index="8" gov="used" gov_index="2">dobj</dependency>
+      <dependency dep="microscopy" dep_index="8" gov="fractionation" gov_index="4">conj_and</dependency>
+      <dependency dep="live" dep_index="10" gov="Acanthamoeba" gov_index="13">amod</dependency>
+      <dependency dep="fixed" dep_index="12" gov="live" gov_index="10">conj_and</dependency>
+      <dependency dep="fixed" dep_index="12" gov="Acanthamoeba" gov_index="13">amod</dependency>
+      <dependency dep="Acanthamoeba" dep_index="13" gov="used" gov_index="2">prep_of</dependency>
+      <dependency dep="to" dep_index="14" gov="determine" gov_index="15">aux</dependency>
+      <dependency dep="determine" dep_index="15" gov="used" gov_index="2">xcomp</dependency>
+      <dependency dep="how" dep_index="16" gov="much" gov_index="17">advmod</dependency>
+      <dependency dep="much" dep_index="17" gov="bound" gov_index="20">dep</dependency>
+      <dependency dep="profilin" dep_index="18" gov="bound" gov_index="20">nsubjpass</dependency>
+      <dependency dep="is" dep_index="19" gov="bound" gov_index="20">auxpass</dependency>
+      <dependency dep="bound" dep_index="20" gov="determine" gov_index="15">ccomp</dependency>
+      <dependency dep="its" dep_index="22" gov="ligands" gov_index="24">poss</dependency>
+      <dependency dep="known" dep_index="23" gov="ligands" gov_index="24">amod</dependency>
+      <dependency dep="ligands" dep_index="24" gov="bound" gov_index="20">prep_to</dependency>
+      <dependency dep="actin" dep_index="26" gov="ligands" gov_index="24">dep</dependency>
+      <dependency dep="membrane" dep_index="28" gov="PIP(2)" gov_index="29">nn</dependency>
+      <dependency dep="PIP(2)" dep_index="29" gov="ligands" gov_index="24">dep</dependency>
+      <dependency dep="PIP(2)" dep_index="29" gov="actin" gov_index="26">conj_and</dependency>
+      <dependency dep="Arp" dep_index="31" gov="complex" gov_index="33">nn</dependency>
+      <dependency dep="/3" dep_index="32" gov="complex" gov_index="33">num</dependency>
+      <dependency dep="complex" dep_index="33" gov="ligands" gov_index="24">dep</dependency>
+      <dependency dep="complex" dep_index="33" gov="actin" gov_index="26">conj_and</dependency>
+      <dependency dep="polyproline" dep_index="35" gov="sequences" gov_index="36">amod</dependency>
+      <dependency dep="sequences" dep_index="36" gov="ligands" gov_index="24">dep</dependency>
+      <dependency dep="sequences" dep_index="36" gov="actin" gov_index="26">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800026" relationship="true">18 20 24 26</relation>
+      <relation position="1800031" relationship="true">18 20 24 33 31</relation>
+      <relation position="2600031" relationship="false">26 24 33 31</relation>
+   </relations>
+   <pairs>
+      <pair>1800031</pair>
+      <pair>1800026</pair>
+   </pairs>
+</root>

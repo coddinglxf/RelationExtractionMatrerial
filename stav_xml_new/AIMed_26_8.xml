@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Meanwhile@,@a@considerable@number@of@the@tumor-bearing@patients@showed@a@decrease@in@the@number@of@circulating@NK@cells@,@and@a@correlation@between@impaired@granulysin@expression@and@reduced@circulating@NK@cells@was@observed@.@</sentence>
+   <tags>
+      <tag pos="26">granulysin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Meanwhile</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">considerable</taggedword>
+      <taggedword index="5" part-of-speech="NN">number</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">tumor-bearing</taggedword>
+      <taggedword index="9" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="10" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="NN">decrease</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">number</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="VBG">circulating</taggedword>
+      <taggedword index="18" part-of-speech="NNP">NK</taggedword>
+      <taggedword index="19" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="DT">a</taggedword>
+      <taggedword index="23" part-of-speech="NN">correlation</taggedword>
+      <taggedword index="24" part-of-speech="IN">between</taggedword>
+      <taggedword index="25" part-of-speech="VBN">impaired</taggedword>
+      <taggedword index="26" part-of-speech="NN">granulysin</taggedword>
+      <taggedword index="27" part-of-speech="NN">expression</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="VBN">reduced</taggedword>
+      <taggedword index="30" part-of-speech="NNP">circulating</taggedword>
+      <taggedword index="31" part-of-speech="NNP">NK</taggedword>
+      <taggedword index="32" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="33" part-of-speech="VBD">was</taggedword>
+      <taggedword index="34" part-of-speech="JJ">observed</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Meanwhile" dep_index="1" gov="showed" gov_index="10">advmod</dependency>
+      <dependency dep="a" dep_index="3" gov="number" gov_index="5">det</dependency>
+      <dependency dep="considerable" dep_index="4" gov="number" gov_index="5">amod</dependency>
+      <dependency dep="number" dep_index="5" gov="showed" gov_index="10">nsubj</dependency>
+      <dependency dep="the" dep_index="7" gov="patients" gov_index="9">det</dependency>
+      <dependency dep="tumor-bearing" dep_index="8" gov="patients" gov_index="9">amod</dependency>
+      <dependency dep="patients" dep_index="9" gov="number" gov_index="5">prep_of</dependency>
+      <dependency dep="showed" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="11" gov="decrease" gov_index="12">det</dependency>
+      <dependency dep="decrease" dep_index="12" gov="showed" gov_index="10">dobj</dependency>
+      <dependency dep="the" dep_index="14" gov="number" gov_index="15">det</dependency>
+      <dependency dep="number" dep_index="15" gov="decrease" gov_index="12">prep_in</dependency>
+      <dependency dep="circulating" dep_index="17" gov="number" gov_index="15">prepc_of</dependency>
+      <dependency dep="NK" dep_index="18" gov="cells" gov_index="19">nn</dependency>
+      <dependency dep="cells" dep_index="19" gov="circulating" gov_index="17">dobj</dependency>
+      <dependency dep="a" dep_index="22" gov="correlation" gov_index="23">det</dependency>
+      <dependency dep="correlation" dep_index="23" gov="observed" gov_index="34">nsubj</dependency>
+      <dependency dep="impaired" dep_index="25" gov="expression" gov_index="27">amod</dependency>
+      <dependency dep="granulysin" dep_index="26" gov="expression" gov_index="27">nn</dependency>
+      <dependency dep="expression" dep_index="27" gov="correlation" gov_index="23">prep_between</dependency>
+      <dependency dep="reduced" dep_index="29" gov="cells" gov_index="32">amod</dependency>
+      <dependency dep="circulating" dep_index="30" gov="cells" gov_index="32">nn</dependency>
+      <dependency dep="NK" dep_index="31" gov="cells" gov_index="32">nn</dependency>
+      <dependency dep="cells" dep_index="32" gov="correlation" gov_index="23">prep_between</dependency>
+      <dependency dep="cells" dep_index="32" gov="expression" gov_index="27">conj_and</dependency>
+      <dependency dep="was" dep_index="33" gov="observed" gov_index="34">cop</dependency>
+      <dependency dep="observed" dep_index="34" gov="showed" gov_index="10">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

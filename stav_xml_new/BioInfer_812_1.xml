@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@examined@the@level@of@cyclin E@,@a@G1 cyclin@,@and@p27kip@,@a@cyclin-dependent kinase inhibitor@,@in@BALB/c@3T3@cells@.@</sentence>
+   <tags>
+      <tag pos="13">p27kip</tag>
+      <tag pos="7">cyclin E</tag>
+      <tag pos="10">G1 cyclin</tag>
+      <tag pos="16">cyclin-dependent kinase inhibitor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">examined</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">level</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">cyclin E</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="NNS">G1 cyclin</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="CD">p27kip</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="NN">cyclin-dependent kinase inhibitor</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="NNP">BALB/c</taggedword>
+      <taggedword index="20" part-of-speech="CD">3T3</taggedword>
+      <taggedword index="21" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="examined" gov_index="3">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="examined" gov_index="3">aux</dependency>
+      <dependency dep="examined" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="level" gov_index="5">det</dependency>
+      <dependency dep="level" dep_index="5" gov="examined" gov_index="3">dobj</dependency>
+      <dependency dep="cyclin E" dep_index="7" gov="cells" gov_index="21">amod</dependency>
+      <dependency dep="a" dep_index="9" gov="G1 cyclin" gov_index="10">det</dependency>
+      <dependency dep="G1 cyclin" dep_index="10" gov="cyclin E" gov_index="7">conj_and</dependency>
+      <dependency dep="G1 cyclin" dep_index="10" gov="cells" gov_index="21">amod</dependency>
+      <dependency dep="p27kip" dep_index="13" gov="cyclin E" gov_index="7">conj_and</dependency>
+      <dependency dep="p27kip" dep_index="13" gov="cells" gov_index="21">amod</dependency>
+      <dependency dep="a" dep_index="15" gov="cyclin-dependent kinase inhibitor" gov_index="16">det</dependency>
+      <dependency dep="cyclin-dependent kinase inhibitor" dep_index="16" gov="cyclin E" gov_index="7">conj_and</dependency>
+      <dependency dep="cyclin-dependent kinase inhibitor" dep_index="16" gov="cells" gov_index="21">amod</dependency>
+      <dependency dep="in" dep_index="18" gov="cyclin E" gov_index="7">conj_and</dependency>
+      <dependency dep="in" dep_index="18" gov="cells" gov_index="21">amod</dependency>
+      <dependency dep="BALB/c" dep_index="19" gov="cyclin E" gov_index="7">prep_in</dependency>
+      <dependency dep="3T3" dep_index="20" gov="BALB/c" gov_index="19">num</dependency>
+      <dependency dep="cells" dep_index="21" gov="level" gov_index="5">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700013" relationship="false">7 21 13</relation>
+      <relation position="1000013" relationship="false">10 21 13</relation>
+      <relation position="1300016" relationship="true">13 21 16</relation>
+      <relation position="700010" relationship="true">7 21 10</relation>
+      <relation position="700016" relationship="false">7 21 16</relation>
+      <relation position="1000016" relationship="false">10 21 16</relation>
+   </relations>
+   <pairs>
+      <pair>700010</pair>
+      <pair>1300016</pair>
+   </pairs>
+</root>

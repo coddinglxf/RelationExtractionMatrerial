@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@conclusion@,@leptin@and@NPY@show@separate@permissive@effects@on@GnRH@secretion@in@the@adult@rat@hypothalamus@.@</sentence>
+   <tags>
+      <tag pos="4">leptin</tag>
+      <tag pos="6">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">conclusion</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">leptin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="7" part-of-speech="VBP">show</taggedword>
+      <taggedword index="8" part-of-speech="JJ">separate</taggedword>
+      <taggedword index="9" part-of-speech="JJ">permissive</taggedword>
+      <taggedword index="10" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="11" part-of-speech="IN">on</taggedword>
+      <taggedword index="12" part-of-speech="NNP">GnRH</taggedword>
+      <taggedword index="13" part-of-speech="NNP">secretion</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="JJ">adult</taggedword>
+      <taggedword index="17" part-of-speech="NN">rat</taggedword>
+      <taggedword index="18" part-of-speech="NNS">hypothalamus</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="conclusion" dep_index="2" gov="show" gov_index="7">prep_in</dependency>
+      <dependency dep="leptin" dep_index="4" gov="show" gov_index="7">nsubj</dependency>
+      <dependency dep="NPY" dep_index="6" gov="leptin" gov_index="4">conj_and</dependency>
+      <dependency dep="NPY" dep_index="6" gov="show" gov_index="7">nsubj</dependency>
+      <dependency dep="show" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="separate" dep_index="8" gov="effects" gov_index="10">amod</dependency>
+      <dependency dep="permissive" dep_index="9" gov="effects" gov_index="10">amod</dependency>
+      <dependency dep="effects" dep_index="10" gov="show" gov_index="7">dobj</dependency>
+      <dependency dep="GnRH" dep_index="12" gov="secretion" gov_index="13">nn</dependency>
+      <dependency dep="secretion" dep_index="13" gov="show" gov_index="7">prep_on</dependency>
+      <dependency dep="the" dep_index="15" gov="hypothalamus" gov_index="18">det</dependency>
+      <dependency dep="adult" dep_index="16" gov="hypothalamus" gov_index="18">amod</dependency>
+      <dependency dep="rat" dep_index="17" gov="hypothalamus" gov_index="18">nn</dependency>
+      <dependency dep="hypothalamus" dep_index="18" gov="secretion" gov_index="13">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 7 6</relation>
+   </relations>
+   <pairs/>
+</root>

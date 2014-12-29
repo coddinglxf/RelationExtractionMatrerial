@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>ADP-ribosylation@of@actin@at@Arg@177@by@Clostridium@perfringens@iota toxin@increased@the@nucleotide@dissociation@rate@from@2.2@x@10(-3)@s-1@to@4.5@x@10(-3)@s-1@without@affecting@the@profilin@-induced@stimulation@of@nucleotide@exchange@.@</sentence>
+   <tags>
+      <tag pos="3">actin</tag>
+      <tag pos="10">iota toxin</tag>
+      <tag pos="29">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">ADP-ribosylation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="4" part-of-speech="IN">at</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Arg</taggedword>
+      <taggedword index="6" part-of-speech="CD">177</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Clostridium</taggedword>
+      <taggedword index="9" part-of-speech="NNS">perfringens</taggedword>
+      <taggedword index="10" part-of-speech="NN">iota toxin</taggedword>
+      <taggedword index="11" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">nucleotide</taggedword>
+      <taggedword index="14" part-of-speech="NN">dissociation</taggedword>
+      <taggedword index="15" part-of-speech="NN">rate</taggedword>
+      <taggedword index="16" part-of-speech="IN">from</taggedword>
+      <taggedword index="17" part-of-speech="CD">2.2</taggedword>
+      <taggedword index="18" part-of-speech="SYM">x</taggedword>
+      <taggedword index="19" part-of-speech="CD">10(-3)</taggedword>
+      <taggedword index="20" part-of-speech="NNS">s-1</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="CD">4.5</taggedword>
+      <taggedword index="23" part-of-speech="SYM">x</taggedword>
+      <taggedword index="24" part-of-speech="CD">10(-3)</taggedword>
+      <taggedword index="25" part-of-speech="JJ">s-1</taggedword>
+      <taggedword index="26" part-of-speech="IN">without</taggedword>
+      <taggedword index="27" part-of-speech="VBG">affecting</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">profilin</taggedword>
+      <taggedword index="30" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="31" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="32" part-of-speech="IN">of</taggedword>
+      <taggedword index="33" part-of-speech="JJ">nucleotide</taggedword>
+      <taggedword index="34" part-of-speech="NN">exchange</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="ADP-ribosylation" dep_index="1" gov="increased" gov_index="11">nsubj</dependency>
+      <dependency dep="actin" dep_index="3" gov="iota toxin" gov_index="10">amod</dependency>
+      <dependency dep="Arg" dep_index="5" gov="actin" gov_index="3">prep_at</dependency>
+      <dependency dep="177" dep_index="6" gov="Arg" gov_index="5">num</dependency>
+      <dependency dep="Clostridium" dep_index="8" gov="perfringens" gov_index="9">nn</dependency>
+      <dependency dep="perfringens" dep_index="9" gov="actin" gov_index="3">prep_by</dependency>
+      <dependency dep="iota toxin" dep_index="10" gov="ADP-ribosylation" gov_index="1">prep_of</dependency>
+      <dependency dep="increased" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="rate" gov_index="15">det</dependency>
+      <dependency dep="nucleotide" dep_index="13" gov="rate" gov_index="15">amod</dependency>
+      <dependency dep="dissociation" dep_index="14" gov="rate" gov_index="15">nn</dependency>
+      <dependency dep="rate" dep_index="15" gov="s-1" gov_index="20">dep</dependency>
+      <dependency dep="2.2" dep_index="17" gov="rate" gov_index="15">prep_from</dependency>
+      <dependency dep="x" dep_index="18" gov="s-1" gov_index="20">dep</dependency>
+      <dependency dep="10(-3)" dep_index="19" gov="s-1" gov_index="20">num</dependency>
+      <dependency dep="s-1" dep_index="20" gov="x" gov_index="23">dep</dependency>
+      <dependency dep="4.5" dep_index="22" gov="s-1" gov_index="20">prep_to</dependency>
+      <dependency dep="x" dep_index="23" gov="10(-3)" gov_index="24">dep</dependency>
+      <dependency dep="10(-3)" dep_index="24" gov="s-1" gov_index="25">dep</dependency>
+      <dependency dep="s-1" dep_index="25" gov="increased" gov_index="11">dep</dependency>
+      <dependency dep="affecting" dep_index="27" gov="s-1" gov_index="25">prepc_without</dependency>
+      <dependency dep="the" dep_index="28" gov="stimulation" gov_index="31">det</dependency>
+      <dependency dep="profilin" dep_index="29" gov="stimulation" gov_index="31">amod</dependency>
+      <dependency dep="-induced" dep_index="30" gov="stimulation" gov_index="31">amod</dependency>
+      <dependency dep="stimulation" dep_index="31" gov="affecting" gov_index="27">dobj</dependency>
+      <dependency dep="nucleotide" dep_index="33" gov="exchange" gov_index="34">amod</dependency>
+      <dependency dep="exchange" dep_index="34" gov="stimulation" gov_index="31">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300010" relationship="true"></relation>
+      <relation position="300029" relationship="false">3 10 1 11 25 27 31 29</relation>
+      <relation position="1000029" relationship="true">10 1 11 25 27 31 29</relation>
+   </relations>
+   <pairs>
+      <pair>1000029</pair>
+      <pair>300010</pair>
+   </pairs>
+</root>

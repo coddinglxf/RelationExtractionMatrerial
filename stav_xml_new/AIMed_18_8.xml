@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Reorganization@of@nuclei@after@the@coagulation@test@was@observed@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Reorganization</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNS">nuclei</taggedword>
+      <taggedword index="4" part-of-speech="IN">after</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">coagulation</taggedword>
+      <taggedword index="7" part-of-speech="NN">test</taggedword>
+      <taggedword index="8" part-of-speech="VBD">was</taggedword>
+      <taggedword index="9" part-of-speech="JJ">observed</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Reorganization" dep_index="1" gov="observed" gov_index="9">nsubj</dependency>
+      <dependency dep="nuclei" dep_index="3" gov="Reorganization" gov_index="1">prep_of</dependency>
+      <dependency dep="the" dep_index="5" gov="test" gov_index="7">det</dependency>
+      <dependency dep="coagulation" dep_index="6" gov="test" gov_index="7">nn</dependency>
+      <dependency dep="test" dep_index="7" gov="nuclei" gov_index="3">prep_after</dependency>
+      <dependency dep="was" dep_index="8" gov="observed" gov_index="9">cop</dependency>
+      <dependency dep="observed" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Nerve growth factor@binds@independently@to@two@transmembrane@receptors@,@the@p75 neurotrophin receptor@and@the@p140trk (trkA) tyrosine kinase receptor@,@which@are@both@co-expressed@in@the@majority@of@neuronal@cells@that@respond@to@NGF@.@</sentence>
+   <tags>
+      <tag pos="1">Nerve growth factor</tag>
+      <tag pos="10">p75 neurotrophin receptor</tag>
+      <tag pos="13">p140trk (trkA) tyrosine kinase receptor</tag>
+      <tag pos="28">NGF</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Nerve growth factor</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="3" part-of-speech="RB">independently</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="CD">two</taggedword>
+      <taggedword index="6" part-of-speech="JJ">transmembrane</taggedword>
+      <taggedword index="7" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">p75 neurotrophin receptor</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">p140trk (trkA) tyrosine kinase receptor</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="WDT">which</taggedword>
+      <taggedword index="16" part-of-speech="VBP">are</taggedword>
+      <taggedword index="17" part-of-speech="DT">both</taggedword>
+      <taggedword index="18" part-of-speech="JJ">co-expressed</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">majority</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">neuronal</taggedword>
+      <taggedword index="24" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="25" part-of-speech="WDT">that</taggedword>
+      <taggedword index="26" part-of-speech="NN">respond</taggedword>
+      <taggedword index="27" part-of-speech="TO">to</taggedword>
+      <taggedword index="28" part-of-speech="NNP">NGF</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Nerve growth factor" dep_index="1" gov="binds" gov_index="2">nsubj</dependency>
+      <dependency dep="binds" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="independently" dep_index="3" gov="binds" gov_index="2">advmod</dependency>
+      <dependency dep="two" dep_index="5" gov="receptors" gov_index="7">num</dependency>
+      <dependency dep="transmembrane" dep_index="6" gov="receptors" gov_index="7">amod</dependency>
+      <dependency dep="receptors" dep_index="7" gov="binds" gov_index="2">prep_to</dependency>
+      <dependency dep="receptors" dep_index="7" gov="co-expressed" gov_index="18">nsubj</dependency>
+      <dependency dep="the" dep_index="9" gov="p75 neurotrophin receptor" gov_index="10">det</dependency>
+      <dependency dep="p75 neurotrophin receptor" dep_index="10" gov="binds" gov_index="2">prep_to</dependency>
+      <dependency dep="p75 neurotrophin receptor" dep_index="10" gov="receptors" gov_index="7">conj_and</dependency>
+      <dependency dep="p75 neurotrophin receptor" dep_index="10" gov="co-expressed" gov_index="18">nsubj</dependency>
+      <dependency dep="the" dep_index="12" gov="p140trk (trkA) tyrosine kinase receptor" gov_index="13">det</dependency>
+      <dependency dep="p140trk (trkA) tyrosine kinase receptor" dep_index="13" gov="binds" gov_index="2">prep_to</dependency>
+      <dependency dep="p140trk (trkA) tyrosine kinase receptor" dep_index="13" gov="receptors" gov_index="7">conj_and</dependency>
+      <dependency dep="p140trk (trkA) tyrosine kinase receptor" dep_index="13" gov="co-expressed" gov_index="18">nsubj</dependency>
+      <dependency dep="are" dep_index="16" gov="co-expressed" gov_index="18">cop</dependency>
+      <dependency dep="both" dep_index="17" gov="co-expressed" gov_index="18">dep</dependency>
+      <dependency dep="co-expressed" dep_index="18" gov="receptors" gov_index="7">rcmod</dependency>
+      <dependency dep="the" dep_index="20" gov="majority" gov_index="21">det</dependency>
+      <dependency dep="majority" dep_index="21" gov="co-expressed" gov_index="18">prep_in</dependency>
+      <dependency dep="majority" dep_index="21" gov="respond" gov_index="26">nsubj</dependency>
+      <dependency dep="neuronal" dep_index="23" gov="cells" gov_index="24">amod</dependency>
+      <dependency dep="cells" dep_index="24" gov="majority" gov_index="21">prep_of</dependency>
+      <dependency dep="respond" dep_index="26" gov="majority" gov_index="21">rcmod</dependency>
+      <dependency dep="NGF" dep_index="28" gov="respond" gov_index="26">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100010" relationship="true">1 2 10</relation>
+      <relation position="100013" relationship="true">1 2 13</relation>
+      <relation position="100028" relationship="false">1 2 7 18 21 26 28</relation>
+      <relation position="1000013" relationship="false">10 18 13</relation>
+      <relation position="1000028" relationship="false">10 18 21 26 28</relation>
+      <relation position="1300028" relationship="false">13 18 21 26 28</relation>
+   </relations>
+   <pairs>
+      <pair>100013</pair>
+      <pair>100010</pair>
+   </pairs>
+</root>

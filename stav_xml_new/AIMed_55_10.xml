@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>HepG2@,@a@human@hepatocarcinoma@cell@line@,@was@found@to@constitutively@express@LEC@.@</sentence>
+   <tags>
+      <tag pos="14">LEC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">HepG2</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">human</taggedword>
+      <taggedword index="5" part-of-speech="NN">hepatocarcinoma</taggedword>
+      <taggedword index="6" part-of-speech="NN">cell</taggedword>
+      <taggedword index="7" part-of-speech="NN">line</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="VBD">was</taggedword>
+      <taggedword index="10" part-of-speech="VBN">found</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="RB">constitutively</taggedword>
+      <taggedword index="13" part-of-speech="VB">express</taggedword>
+      <taggedword index="14" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="HepG2" dep_index="1" gov="found" gov_index="10">nsubjpass</dependency>
+      <dependency dep="HepG2" dep_index="1" gov="express" gov_index="13">xsubj</dependency>
+      <dependency dep="a" dep_index="3" gov="line" gov_index="7">det</dependency>
+      <dependency dep="human" dep_index="4" gov="line" gov_index="7">amod</dependency>
+      <dependency dep="hepatocarcinoma" dep_index="5" gov="line" gov_index="7">nn</dependency>
+      <dependency dep="cell" dep_index="6" gov="line" gov_index="7">nn</dependency>
+      <dependency dep="line" dep_index="7" gov="HepG2" gov_index="1">appos</dependency>
+      <dependency dep="was" dep_index="9" gov="found" gov_index="10">auxpass</dependency>
+      <dependency dep="found" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="11" gov="express" gov_index="13">aux</dependency>
+      <dependency dep="constitutively" dep_index="12" gov="express" gov_index="13">advmod</dependency>
+      <dependency dep="express" dep_index="13" gov="found" gov_index="10">xcomp</dependency>
+      <dependency dep="LEC" dep_index="14" gov="express" gov_index="13">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

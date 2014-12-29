@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@three@largest@hydrophobic@contacts@at@Phe93@,@Met150@,@and@Phe205@and@a@hydrogen@bonding@interaction@at@Thr151@were@examined@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="CD">three</taggedword>
+      <taggedword index="3" part-of-speech="JJS">largest</taggedword>
+      <taggedword index="4" part-of-speech="JJ">hydrophobic</taggedword>
+      <taggedword index="5" part-of-speech="NNS">contacts</taggedword>
+      <taggedword index="6" part-of-speech="IN">at</taggedword>
+      <taggedword index="7" part-of-speech="NNS">Phe93</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNS">Met150</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNS">Phe205</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="NN">hydrogen</taggedword>
+      <taggedword index="16" part-of-speech="NN">bonding</taggedword>
+      <taggedword index="17" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="18" part-of-speech="IN">at</taggedword>
+      <taggedword index="19" part-of-speech="NNS">Thr151</taggedword>
+      <taggedword index="20" part-of-speech="VBD">were</taggedword>
+      <taggedword index="21" part-of-speech="VBN">examined</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="contacts" gov_index="5">det</dependency>
+      <dependency dep="three" dep_index="2" gov="contacts" gov_index="5">num</dependency>
+      <dependency dep="largest" dep_index="3" gov="contacts" gov_index="5">amod</dependency>
+      <dependency dep="hydrophobic" dep_index="4" gov="contacts" gov_index="5">amod</dependency>
+      <dependency dep="contacts" dep_index="5" gov="examined" gov_index="21">nsubjpass</dependency>
+      <dependency dep="Phe93" dep_index="7" gov="contacts" gov_index="5">prep_at</dependency>
+      <dependency dep="Met150" dep_index="9" gov="contacts" gov_index="5">prep_at</dependency>
+      <dependency dep="Met150" dep_index="9" gov="Phe93" gov_index="7">conj_and</dependency>
+      <dependency dep="Phe205" dep_index="12" gov="contacts" gov_index="5">prep_at</dependency>
+      <dependency dep="Phe205" dep_index="12" gov="Phe93" gov_index="7">conj_and</dependency>
+      <dependency dep="a" dep_index="14" gov="interaction" gov_index="17">det</dependency>
+      <dependency dep="hydrogen" dep_index="15" gov="interaction" gov_index="17">nn</dependency>
+      <dependency dep="bonding" dep_index="16" gov="interaction" gov_index="17">nn</dependency>
+      <dependency dep="interaction" dep_index="17" gov="contacts" gov_index="5">conj_and</dependency>
+      <dependency dep="interaction" dep_index="17" gov="examined" gov_index="21">nsubjpass</dependency>
+      <dependency dep="Thr151" dep_index="19" gov="interaction" gov_index="17">prep_at</dependency>
+      <dependency dep="were" dep_index="20" gov="examined" gov_index="21">auxpass</dependency>
+      <dependency dep="examined" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

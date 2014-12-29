@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@highest@production@of@total@inositol phosphates@(d.p.m.)@was@found@in@cells@from@ovariectomized@gilts@given@in@vivo@estradiol@benzoate@and@progesterone@for@five@consecutive@days@and@treated@with@1000@mU@hCG@and@100@mU@hCG@plus@1@microM@oxytocin@(984@+/-@84@and@1063@+/-@131@vs@314@+/-@36@,@respectively)@</sentence>
+   <tags>
+      <tag pos="6">inositol phosphates</tag>
+      <tag pos="39">oxytocin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJS">highest</taggedword>
+      <taggedword index="3" part-of-speech="NN">production</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="JJ">total</taggedword>
+      <taggedword index="6" part-of-speech="NNS">inositol phosphates</taggedword>
+      <taggedword index="7" part-of-speech="NNS">(d.p.m.)</taggedword>
+      <taggedword index="8" part-of-speech="VBD">was</taggedword>
+      <taggedword index="9" part-of-speech="VBN">found</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="12" part-of-speech="IN">from</taggedword>
+      <taggedword index="13" part-of-speech="JJ">ovariectomized</taggedword>
+      <taggedword index="14" part-of-speech="NNS">gilts</taggedword>
+      <taggedword index="15" part-of-speech="VBN">given</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="JJ">vivo</taggedword>
+      <taggedword index="18" part-of-speech="JJ">estradiol</taggedword>
+      <taggedword index="19" part-of-speech="NN">benzoate</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="JJ">progesterone</taggedword>
+      <taggedword index="22" part-of-speech="IN">for</taggedword>
+      <taggedword index="23" part-of-speech="CD">five</taggedword>
+      <taggedword index="24" part-of-speech="JJ">consecutive</taggedword>
+      <taggedword index="25" part-of-speech="NNS">days</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="VBN">treated</taggedword>
+      <taggedword index="28" part-of-speech="IN">with</taggedword>
+      <taggedword index="29" part-of-speech="CD">1000</taggedword>
+      <taggedword index="30" part-of-speech="NN">mU</taggedword>
+      <taggedword index="31" part-of-speech="NN">hCG</taggedword>
+      <taggedword index="32" part-of-speech="CC">and</taggedword>
+      <taggedword index="33" part-of-speech="CD">100</taggedword>
+      <taggedword index="34" part-of-speech="NN">mU</taggedword>
+      <taggedword index="35" part-of-speech="NN">hCG</taggedword>
+      <taggedword index="36" part-of-speech="CC">plus</taggedword>
+      <taggedword index="37" part-of-speech="CD">1</taggedword>
+      <taggedword index="38" part-of-speech="NN">microM</taggedword>
+      <taggedword index="39" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="40" part-of-speech="CD">(984</taggedword>
+      <taggedword index="41" part-of-speech="VBD">+/-</taggedword>
+      <taggedword index="42" part-of-speech="CD">84</taggedword>
+      <taggedword index="43" part-of-speech="CC">and</taggedword>
+      <taggedword index="44" part-of-speech="CD">1063</taggedword>
+      <taggedword index="45" part-of-speech="CD">+/-</taggedword>
+      <taggedword index="46" part-of-speech="CD">131</taggedword>
+      <taggedword index="47" part-of-speech="CD">vs</taggedword>
+      <taggedword index="48" part-of-speech="CD">314</taggedword>
+      <taggedword index="49" part-of-speech="CD">+/-</taggedword>
+      <taggedword index="50" part-of-speech="CD">36</taggedword>
+      <taggedword index="51" part-of-speech=",">,</taggedword>
+      <taggedword index="52" part-of-speech="RB">respectively)</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="production" gov_index="3">det</dependency>
+      <dependency dep="highest" dep_index="2" gov="production" gov_index="3">amod</dependency>
+      <dependency dep="production" dep_index="3" gov="found" gov_index="9">nsubjpass</dependency>
+      <dependency dep="production" dep_index="3" gov="progesterone" gov_index="21">nsubj</dependency>
+      <dependency dep="total" dep_index="5" gov="(d.p.m.)" gov_index="7">amod</dependency>
+      <dependency dep="inositol phosphates" dep_index="6" gov="(d.p.m.)" gov_index="7">nn</dependency>
+      <dependency dep="(d.p.m.)" dep_index="7" gov="production" gov_index="3">prep_of</dependency>
+      <dependency dep="was" dep_index="8" gov="found" gov_index="9">auxpass</dependency>
+      <dependency dep="found" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cells" dep_index="11" gov="found" gov_index="9">prep_in</dependency>
+      <dependency dep="ovariectomized" dep_index="13" gov="gilts" gov_index="14">amod</dependency>
+      <dependency dep="gilts" dep_index="14" gov="cells" gov_index="11">prep_from</dependency>
+      <dependency dep="given" dep_index="15" gov="found" gov_index="9">prep</dependency>
+      <dependency dep="in" dep_index="16" gov="given" gov_index="15">pcomp</dependency>
+      <dependency dep="vivo" dep_index="17" gov="benzoate" gov_index="19">amod</dependency>
+      <dependency dep="estradiol" dep_index="18" gov="benzoate" gov_index="19">amod</dependency>
+      <dependency dep="benzoate" dep_index="19" gov="in" gov_index="16">pobj</dependency>
+      <dependency dep="progesterone" dep_index="21" gov="found" gov_index="9">conj_and</dependency>
+      <dependency dep="five" dep_index="23" gov="days" gov_index="25">num</dependency>
+      <dependency dep="consecutive" dep_index="24" gov="days" gov_index="25">amod</dependency>
+      <dependency dep="days" dep_index="25" gov="progesterone" gov_index="21">prep_for</dependency>
+      <dependency dep="treated" dep_index="27" gov="found" gov_index="9">conj_and</dependency>
+      <dependency dep="treated" dep_index="27" gov="progesterone" gov_index="21">conj_and</dependency>
+      <dependency dep="1000" dep_index="29" gov="hCG" gov_index="31">num</dependency>
+      <dependency dep="mU" dep_index="30" gov="hCG" gov_index="31">nn</dependency>
+      <dependency dep="hCG" dep_index="31" gov="treated" gov_index="27">prep_with</dependency>
+      <dependency dep="100" dep_index="33" gov="hCG" gov_index="35">num</dependency>
+      <dependency dep="mU" dep_index="34" gov="hCG" gov_index="35">nn</dependency>
+      <dependency dep="hCG" dep_index="35" gov="treated" gov_index="27">prep_with</dependency>
+      <dependency dep="hCG" dep_index="35" gov="hCG" gov_index="31">conj_and</dependency>
+      <dependency dep="plus" dep_index="36" gov="hCG" gov_index="35">prep</dependency>
+      <dependency dep="1" dep_index="37" gov="oxytocin" gov_index="39">num</dependency>
+      <dependency dep="microM" dep_index="38" gov="oxytocin" gov_index="39">nn</dependency>
+      <dependency dep="oxytocin" dep_index="39" gov="plus" gov_index="36">dep</dependency>
+      <dependency dep="(984" dep_index="40" gov="progesterone" gov_index="21">dobj</dependency>
+      <dependency dep="+/-" dep_index="41" gov="(984" gov_index="40">rcmod</dependency>
+      <dependency dep="84" dep_index="42" gov="+/-" gov_index="41">dobj</dependency>
+      <dependency dep="1063" dep_index="44" gov="36" gov_index="50">num</dependency>
+      <dependency dep="+/-" dep_index="45" gov="36" gov_index="50">num</dependency>
+      <dependency dep="131" dep_index="46" gov="36" gov_index="50">num</dependency>
+      <dependency dep="vs" dep_index="47" gov="36" gov_index="50">num</dependency>
+      <dependency dep="314" dep_index="48" gov="36" gov_index="50">num</dependency>
+      <dependency dep="+/-" dep_index="49" gov="36" gov_index="50">num</dependency>
+      <dependency dep="36" dep_index="50" gov="+/-" gov_index="41">dobj</dependency>
+      <dependency dep="36" dep_index="50" gov="84" gov_index="42">conj_and</dependency>
+      <dependency dep="respectively)" dep_index="52" gov="+/-" gov_index="41">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600039" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>600039</pair>
+   </pairs>
+</root>

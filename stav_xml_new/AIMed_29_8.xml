@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@study@demonstrates@that@IL-8@recognizes@and@activates@CXCR1@,@CXCR2@,@and@the@Duffy antigen@by@distinct@mechanisms@.@</sentence>
+   <tags>
+      <tag pos="5">IL-8</tag>
+      <tag pos="9">CXCR1</tag>
+      <tag pos="11">CXCR2</tag>
+      <tag pos="15">Duffy antigen</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">study</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">demonstrates</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">IL-8</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">recognizes</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">activates</taggedword>
+      <taggedword index="9" part-of-speech="NNP">CXCR1</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">CXCR2</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNP">Duffy antigen</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="18" part-of-speech="NNS">mechanisms</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="study" gov_index="2">det</dependency>
+      <dependency dep="study" dep_index="2" gov="demonstrates" gov_index="3">nsubj</dependency>
+      <dependency dep="demonstrates" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="recognizes" gov_index="6">mark</dependency>
+      <dependency dep="IL-8" dep_index="5" gov="recognizes" gov_index="6">nsubj</dependency>
+      <dependency dep="IL-8" dep_index="5" gov="activates" gov_index="8">nsubj</dependency>
+      <dependency dep="recognizes" dep_index="6" gov="demonstrates" gov_index="3">ccomp</dependency>
+      <dependency dep="activates" dep_index="8" gov="demonstrates" gov_index="3">ccomp</dependency>
+      <dependency dep="activates" dep_index="8" gov="recognizes" gov_index="6">conj_and</dependency>
+      <dependency dep="CXCR1" dep_index="9" gov="activates" gov_index="8">dobj</dependency>
+      <dependency dep="CXCR2" dep_index="11" gov="activates" gov_index="8">dobj</dependency>
+      <dependency dep="CXCR2" dep_index="11" gov="CXCR1" gov_index="9">conj_and</dependency>
+      <dependency dep="the" dep_index="14" gov="Duffy antigen" gov_index="15">det</dependency>
+      <dependency dep="Duffy antigen" dep_index="15" gov="activates" gov_index="8">dobj</dependency>
+      <dependency dep="Duffy antigen" dep_index="15" gov="CXCR1" gov_index="9">conj_and</dependency>
+      <dependency dep="distinct" dep_index="17" gov="mechanisms" gov_index="18">amod</dependency>
+      <dependency dep="mechanisms" dep_index="18" gov="activates" gov_index="8">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500009" relationship="true">5 8 9</relation>
+      <relation position="500011" relationship="true">5 8 11</relation>
+      <relation position="500015" relationship="true">5 8 15</relation>
+      <relation position="900011" relationship="false">9 8 11</relation>
+      <relation position="900015" relationship="false">9 8 15</relation>
+      <relation position="1100015" relationship="false">11 8 15</relation>
+   </relations>
+   <pairs>
+      <pair>500015</pair>
+      <pair>500009</pair>
+      <pair>500011</pair>
+   </pairs>
+</root>

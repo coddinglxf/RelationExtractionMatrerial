@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@the@origin@and@function@of@the@p90@and@p76@molecules@have@been@investigated@.@</sentence>
+   <tags>
+      <tag pos="10">p90</tag>
+      <tag pos="12">p76</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">origin</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">function</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">p90</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="JJ">p76</taggedword>
+      <taggedword index="13" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="14" part-of-speech="VBP">have</taggedword>
+      <taggedword index="15" part-of-speech="VBN">been</taggedword>
+      <taggedword index="16" part-of-speech="VBN">investigated</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="investigated" gov_index="16">prep_in</dependency>
+      <dependency dep="the" dep_index="4" gov="origin" gov_index="5">det</dependency>
+      <dependency dep="origin" dep_index="5" gov="investigated" gov_index="16">nsubjpass</dependency>
+      <dependency dep="function" dep_index="7" gov="origin" gov_index="5">conj_and</dependency>
+      <dependency dep="function" dep_index="7" gov="investigated" gov_index="16">nsubjpass</dependency>
+      <dependency dep="the" dep_index="9" gov="molecules" gov_index="13">det</dependency>
+      <dependency dep="p90" dep_index="10" gov="molecules" gov_index="13">amod</dependency>
+      <dependency dep="p76" dep_index="12" gov="p90" gov_index="10">conj_and</dependency>
+      <dependency dep="p76" dep_index="12" gov="molecules" gov_index="13">amod</dependency>
+      <dependency dep="molecules" dep_index="13" gov="origin" gov_index="5">prep_of</dependency>
+      <dependency dep="have" dep_index="14" gov="investigated" gov_index="16">aux</dependency>
+      <dependency dep="been" dep_index="15" gov="investigated" gov_index="16">auxpass</dependency>
+      <dependency dep="investigated" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000012" relationship="false">10 13 12</relation>
+   </relations>
+   <pairs/>
+</root>

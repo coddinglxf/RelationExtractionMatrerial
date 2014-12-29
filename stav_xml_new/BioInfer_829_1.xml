@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>When@a@lyophilized@Mf@and@AO@mixture@was@incubated@at@40@degrees@C@and@65%@relative@humidity@,@the@conjugation@of@AO@was@confirmed@at@myosin heavy chain@,@actin@,@and@tropomyosin@.@</sentence>
+   <tags>
+      <tag pos="31">tropomyosin</tag>
+      <tag pos="28">actin</tag>
+      <tag pos="26">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="WRB">When</taggedword>
+      <taggedword index="2" part-of-speech="DT">a</taggedword>
+      <taggedword index="3" part-of-speech="JJ">lyophilized</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Mf</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">AO</taggedword>
+      <taggedword index="7" part-of-speech="NN">mixture</taggedword>
+      <taggedword index="8" part-of-speech="VBD">was</taggedword>
+      <taggedword index="9" part-of-speech="VBN">incubated</taggedword>
+      <taggedword index="10" part-of-speech="IN">at</taggedword>
+      <taggedword index="11" part-of-speech="CD">40</taggedword>
+      <taggedword index="12" part-of-speech="NNS">degrees</taggedword>
+      <taggedword index="13" part-of-speech="NNP">C</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="CD">65%</taggedword>
+      <taggedword index="16" part-of-speech="JJ">relative</taggedword>
+      <taggedword index="17" part-of-speech="NN">humidity</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">conjugation</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNP">AO</taggedword>
+      <taggedword index="23" part-of-speech="VBD">was</taggedword>
+      <taggedword index="24" part-of-speech="VBN">confirmed</taggedword>
+      <taggedword index="25" part-of-speech="IN">at</taggedword>
+      <taggedword index="26" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NN">actin</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="NN">tropomyosin</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="When" dep_index="1" gov="incubated" gov_index="9">advmod</dependency>
+      <dependency dep="a" dep_index="2" gov="Mf" gov_index="4">det</dependency>
+      <dependency dep="lyophilized" dep_index="3" gov="Mf" gov_index="4">amod</dependency>
+      <dependency dep="Mf" dep_index="4" gov="incubated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="AO" dep_index="6" gov="mixture" gov_index="7">nn</dependency>
+      <dependency dep="mixture" dep_index="7" gov="Mf" gov_index="4">conj_and</dependency>
+      <dependency dep="mixture" dep_index="7" gov="incubated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="was" dep_index="8" gov="incubated" gov_index="9">auxpass</dependency>
+      <dependency dep="incubated" dep_index="9" gov="confirmed" gov_index="24">advcl</dependency>
+      <dependency dep="40" dep_index="11" gov="degrees" gov_index="12">num</dependency>
+      <dependency dep="degrees" dep_index="12" gov="incubated" gov_index="9">prep_at</dependency>
+      <dependency dep="C" dep_index="13" gov="degrees" gov_index="12">dep</dependency>
+      <dependency dep="65%" dep_index="15" gov="humidity" gov_index="17">num</dependency>
+      <dependency dep="relative" dep_index="16" gov="humidity" gov_index="17">amod</dependency>
+      <dependency dep="humidity" dep_index="17" gov="incubated" gov_index="9">prep_at</dependency>
+      <dependency dep="humidity" dep_index="17" gov="degrees" gov_index="12">conj_and</dependency>
+      <dependency dep="the" dep_index="19" gov="conjugation" gov_index="20">det</dependency>
+      <dependency dep="conjugation" dep_index="20" gov="confirmed" gov_index="24">nsubjpass</dependency>
+      <dependency dep="AO" dep_index="22" gov="conjugation" gov_index="20">prep_of</dependency>
+      <dependency dep="was" dep_index="23" gov="confirmed" gov_index="24">auxpass</dependency>
+      <dependency dep="confirmed" dep_index="24" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="myosin heavy chain" dep_index="26" gov="confirmed" gov_index="24">prep_at</dependency>
+      <dependency dep="actin" dep_index="28" gov="confirmed" gov_index="24">prep_at</dependency>
+      <dependency dep="actin" dep_index="28" gov="myosin heavy chain" gov_index="26">conj_and</dependency>
+      <dependency dep="tropomyosin" dep_index="31" gov="confirmed" gov_index="24">prep_at</dependency>
+      <dependency dep="tropomyosin" dep_index="31" gov="myosin heavy chain" gov_index="26">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2800031" relationship="false">28 24 31</relation>
+      <relation position="2600031" relationship="false">26 24 31</relation>
+      <relation position="2600028" relationship="false">26 24 28</relation>
+   </relations>
+   <pairs/>
+</root>

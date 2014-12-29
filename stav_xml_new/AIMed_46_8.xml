@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Mutations@in@both@epitopes@yielded@variants@with@reduced@biological@activity@in@C2C12@cells@;@however@,@only@epitope@2@variants@behaved@as@antagonists@partially@or@completely@inhibiting@BMP-2@activity@.@</sentence>
+   <tags>
+      <tag pos="28">BMP-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Mutations</taggedword>
+      <taggedword index="2" part-of-speech="IN">in</taggedword>
+      <taggedword index="3" part-of-speech="DT">both</taggedword>
+      <taggedword index="4" part-of-speech="NNS">epitopes</taggedword>
+      <taggedword index="5" part-of-speech="VBD">yielded</taggedword>
+      <taggedword index="6" part-of-speech="NNS">variants</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="VBN">reduced</taggedword>
+      <taggedword index="9" part-of-speech="JJ">biological</taggedword>
+      <taggedword index="10" part-of-speech="NN">activity</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="CD">C2C12</taggedword>
+      <taggedword index="13" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="14" part-of-speech=":">;</taggedword>
+      <taggedword index="15" part-of-speech="RB">however</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="JJ">only</taggedword>
+      <taggedword index="18" part-of-speech="JJ">epitope</taggedword>
+      <taggedword index="19" part-of-speech="CD">2</taggedword>
+      <taggedword index="20" part-of-speech="NNS">variants</taggedword>
+      <taggedword index="21" part-of-speech="VBD">behaved</taggedword>
+      <taggedword index="22" part-of-speech="IN">as</taggedword>
+      <taggedword index="23" part-of-speech="NNS">antagonists</taggedword>
+      <taggedword index="24" part-of-speech="RB">partially</taggedword>
+      <taggedword index="25" part-of-speech="CC">or</taggedword>
+      <taggedword index="26" part-of-speech="RB">completely</taggedword>
+      <taggedword index="27" part-of-speech="VBG">inhibiting</taggedword>
+      <taggedword index="28" part-of-speech="NN">BMP-2</taggedword>
+      <taggedword index="29" part-of-speech="NN">activity</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Mutations" dep_index="1" gov="yielded" gov_index="5">nsubj</dependency>
+      <dependency dep="both" dep_index="3" gov="epitopes" gov_index="4">det</dependency>
+      <dependency dep="epitopes" dep_index="4" gov="Mutations" gov_index="1">prep_in</dependency>
+      <dependency dep="yielded" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="variants" dep_index="6" gov="yielded" gov_index="5">dobj</dependency>
+      <dependency dep="reduced" dep_index="8" gov="activity" gov_index="10">amod</dependency>
+      <dependency dep="biological" dep_index="9" gov="activity" gov_index="10">amod</dependency>
+      <dependency dep="activity" dep_index="10" gov="yielded" gov_index="5">prep_with</dependency>
+      <dependency dep="C2C12" dep_index="12" gov="cells" gov_index="13">num</dependency>
+      <dependency dep="cells" dep_index="13" gov="activity" gov_index="10">prep_in</dependency>
+      <dependency dep="however" dep_index="15" gov="behaved" gov_index="21">advmod</dependency>
+      <dependency dep="only" dep_index="17" gov="variants" gov_index="20">amod</dependency>
+      <dependency dep="epitope" dep_index="18" gov="variants" gov_index="20">amod</dependency>
+      <dependency dep="2" dep_index="19" gov="variants" gov_index="20">num</dependency>
+      <dependency dep="variants" dep_index="20" gov="behaved" gov_index="21">nsubj</dependency>
+      <dependency dep="behaved" dep_index="21" gov="yielded" gov_index="5">parataxis</dependency>
+      <dependency dep="antagonists" dep_index="23" gov="behaved" gov_index="21">prep_as</dependency>
+      <dependency dep="partially" dep_index="24" gov="inhibiting" gov_index="27">advmod</dependency>
+      <dependency dep="completely" dep_index="26" gov="partially" gov_index="24">conj_or</dependency>
+      <dependency dep="completely" dep_index="26" gov="inhibiting" gov_index="27">advmod</dependency>
+      <dependency dep="inhibiting" dep_index="27" gov="antagonists" gov_index="23">partmod</dependency>
+      <dependency dep="BMP-2" dep_index="28" gov="activity" gov_index="29">nn</dependency>
+      <dependency dep="activity" dep_index="29" gov="inhibiting" gov_index="27">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

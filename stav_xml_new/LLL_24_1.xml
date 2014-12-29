@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@YtxH@and@YvyD@seemed@to@be@induced@after@phosphate@starvation@in@the@wild@type@in@a@sigma(B)@-dependent@manner@and@in@the@sigB@mutant@probably@via@sigma(H)@.@</sentence>
+   <tags>
+      <tag pos="19">sigma(B)</tag>
+      <tag pos="29">sigma(H)</tag>
+      <tag pos="3">YtxH</tag>
+      <tag pos="5">YvyD</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">YtxH</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="NNP">YvyD</taggedword>
+      <taggedword index="6" part-of-speech="VBD">seemed</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="VB">be</taggedword>
+      <taggedword index="9" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="10" part-of-speech="IN">after</taggedword>
+      <taggedword index="11" part-of-speech="JJ">phosphate</taggedword>
+      <taggedword index="12" part-of-speech="NN">starvation</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">wild</taggedword>
+      <taggedword index="16" part-of-speech="NN">type</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">sigma(B)</taggedword>
+      <taggedword index="20" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="21" part-of-speech="NN">manner</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">sigB</taggedword>
+      <taggedword index="26" part-of-speech="VBG">mutant</taggedword>
+      <taggedword index="27" part-of-speech="RB">probably</taggedword>
+      <taggedword index="28" part-of-speech="IN">via</taggedword>
+      <taggedword index="29" part-of-speech="NNP">sigma(H)</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="seemed" gov_index="6">advmod</dependency>
+      <dependency dep="YtxH" dep_index="3" gov="seemed" gov_index="6">nsubj</dependency>
+      <dependency dep="YtxH" dep_index="3" gov="induced" gov_index="9">xsubj</dependency>
+      <dependency dep="YvyD" dep_index="5" gov="YtxH" gov_index="3">conj_and</dependency>
+      <dependency dep="YvyD" dep_index="5" gov="seemed" gov_index="6">nsubj</dependency>
+      <dependency dep="YvyD" dep_index="5" gov="induced" gov_index="9">xsubj</dependency>
+      <dependency dep="seemed" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="7" gov="induced" gov_index="9">aux</dependency>
+      <dependency dep="be" dep_index="8" gov="induced" gov_index="9">auxpass</dependency>
+      <dependency dep="induced" dep_index="9" gov="seemed" gov_index="6">xcomp</dependency>
+      <dependency dep="phosphate" dep_index="11" gov="starvation" gov_index="12">amod</dependency>
+      <dependency dep="starvation" dep_index="12" gov="induced" gov_index="9">prep_after</dependency>
+      <dependency dep="the" dep_index="14" gov="type" gov_index="16">det</dependency>
+      <dependency dep="wild" dep_index="15" gov="type" gov_index="16">amod</dependency>
+      <dependency dep="type" dep_index="16" gov="induced" gov_index="9">prep_in</dependency>
+      <dependency dep="a" dep_index="18" gov="manner" gov_index="21">det</dependency>
+      <dependency dep="sigma(B)" dep_index="19" gov="manner" gov_index="21">amod</dependency>
+      <dependency dep="-dependent" dep_index="20" gov="manner" gov_index="21">amod</dependency>
+      <dependency dep="manner" dep_index="21" gov="type" gov_index="16">prep_in</dependency>
+      <dependency dep="the" dep_index="24" gov="sigB" gov_index="25">det</dependency>
+      <dependency dep="sigB" dep_index="25" gov="induced" gov_index="9">prep_in</dependency>
+      <dependency dep="sigB" dep_index="25" gov="type" gov_index="16">conj_and</dependency>
+      <dependency dep="mutant" dep_index="26" gov="sigB" gov_index="25">partmod</dependency>
+      <dependency dep="probably" dep_index="27" gov="mutant" gov_index="26">advmod</dependency>
+      <dependency dep="sigma(H)" dep_index="29" gov="mutant" gov_index="26">prep_via</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1900029" relationship="false">19 21 16 9 25 26 29</relation>
+      <relation position="300019" relationship="true">3 9 16 21 19</relation>
+      <relation position="500019" relationship="true">5 9 16 21 19</relation>
+      <relation position="300029" relationship="true">3 9 25 26 29</relation>
+      <relation position="500029" relationship="true">5 9 25 26 29</relation>
+      <relation position="300005" relationship="false">3 9 5</relation>
+   </relations>
+   <pairs>
+      <pair>500029</pair>
+      <pair>300019</pair>
+      <pair>300029</pair>
+      <pair>500019</pair>
+   </pairs>
+</root>

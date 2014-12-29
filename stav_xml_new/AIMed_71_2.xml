@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@proto-oncogene@c-jun@is@a@component@of@the@AP-1@transcription@factor@family@involved@in@the@mediation@of@nuclear@events@elicited@by@extracellular@stimuli@.@</sentence>
+   <tags>
+      <tag pos="3">c-jun</tag>
+      <tag pos="9">AP-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">proto-oncogene</taggedword>
+      <taggedword index="3" part-of-speech="NN">c-jun</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="NN">component</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNP">AP-1</taggedword>
+      <taggedword index="10" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="11" part-of-speech="NN">factor</taggedword>
+      <taggedword index="12" part-of-speech="NN">family</taggedword>
+      <taggedword index="13" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">mediation</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="JJ">nuclear</taggedword>
+      <taggedword index="19" part-of-speech="NNS">events</taggedword>
+      <taggedword index="20" part-of-speech="VBN">elicited</taggedword>
+      <taggedword index="21" part-of-speech="IN">by</taggedword>
+      <taggedword index="22" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="23" part-of-speech="NNS">stimuli</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="c-jun" gov_index="3">det</dependency>
+      <dependency dep="proto-oncogene" dep_index="2" gov="c-jun" gov_index="3">amod</dependency>
+      <dependency dep="c-jun" dep_index="3" gov="component" gov_index="6">nsubj</dependency>
+      <dependency dep="is" dep_index="4" gov="component" gov_index="6">cop</dependency>
+      <dependency dep="a" dep_index="5" gov="component" gov_index="6">det</dependency>
+      <dependency dep="component" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="family" gov_index="12">det</dependency>
+      <dependency dep="AP-1" dep_index="9" gov="family" gov_index="12">nn</dependency>
+      <dependency dep="transcription" dep_index="10" gov="family" gov_index="12">nn</dependency>
+      <dependency dep="factor" dep_index="11" gov="family" gov_index="12">nn</dependency>
+      <dependency dep="family" dep_index="12" gov="component" gov_index="6">prep_of</dependency>
+      <dependency dep="involved" dep_index="13" gov="family" gov_index="12">partmod</dependency>
+      <dependency dep="the" dep_index="15" gov="mediation" gov_index="16">det</dependency>
+      <dependency dep="mediation" dep_index="16" gov="involved" gov_index="13">prep_in</dependency>
+      <dependency dep="nuclear" dep_index="18" gov="events" gov_index="19">amod</dependency>
+      <dependency dep="events" dep_index="19" gov="mediation" gov_index="16">prep_of</dependency>
+      <dependency dep="elicited" dep_index="20" gov="events" gov_index="19">partmod</dependency>
+      <dependency dep="extracellular" dep_index="22" gov="stimuli" gov_index="23">nn</dependency>
+      <dependency dep="stimuli" dep_index="23" gov="elicited" gov_index="20">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300009" relationship="false">3 6 12 9</relation>
+   </relations>
+   <pairs/>
+</root>

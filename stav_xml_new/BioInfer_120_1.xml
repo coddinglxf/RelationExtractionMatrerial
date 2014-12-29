@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>By@the@use@of@HSV@mutants@for@the@UL9@gene@we@show@here@that@HSV@can@induce@DNA@amplification@in@the@absence@of@lytic@viral@growth@in@contrast@to@replication-negative@mutants@for@either@the@UL8@or@UL52@gene@used@as@control@.@</sentence>
+   <tags>
+      <tag pos="35">UL8</tag>
+      <tag pos="9">UL9</tag>
+      <tag pos="37">UL52</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">By</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="NN">use</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">HSV</taggedword>
+      <taggedword index="6" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNP">UL9</taggedword>
+      <taggedword index="10" part-of-speech="NN">gene</taggedword>
+      <taggedword index="11" part-of-speech="PRP">we</taggedword>
+      <taggedword index="12" part-of-speech="VBP">show</taggedword>
+      <taggedword index="13" part-of-speech="RB">here</taggedword>
+      <taggedword index="14" part-of-speech="IN">that</taggedword>
+      <taggedword index="15" part-of-speech="NNP">HSV</taggedword>
+      <taggedword index="16" part-of-speech="MD">can</taggedword>
+      <taggedword index="17" part-of-speech="VB">induce</taggedword>
+      <taggedword index="18" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="19" part-of-speech="NN">amplification</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">absence</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="JJ">lytic</taggedword>
+      <taggedword index="25" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="26" part-of-speech="NN">growth</taggedword>
+      <taggedword index="27" part-of-speech="IN">in</taggedword>
+      <taggedword index="28" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="29" part-of-speech="TO">to</taggedword>
+      <taggedword index="30" part-of-speech="JJ">replication-negative</taggedword>
+      <taggedword index="31" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="32" part-of-speech="IN">for</taggedword>
+      <taggedword index="33" part-of-speech="CC">either</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="JJ">UL8</taggedword>
+      <taggedword index="36" part-of-speech="CC">or</taggedword>
+      <taggedword index="37" part-of-speech="JJ">UL52</taggedword>
+      <taggedword index="38" part-of-speech="NN">gene</taggedword>
+      <taggedword index="39" part-of-speech="VBN">used</taggedword>
+      <taggedword index="40" part-of-speech="IN">as</taggedword>
+      <taggedword index="41" part-of-speech="NN">control</taggedword>
+      <taggedword index="42" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="use" gov_index="3">det</dependency>
+      <dependency dep="use" dep_index="3" gov="show" gov_index="12">prep_by</dependency>
+      <dependency dep="HSV" dep_index="5" gov="mutants" gov_index="6">nn</dependency>
+      <dependency dep="mutants" dep_index="6" gov="use" gov_index="3">prep_of</dependency>
+      <dependency dep="the" dep_index="8" gov="gene" gov_index="10">det</dependency>
+      <dependency dep="UL9" dep_index="9" gov="gene" gov_index="10">nn</dependency>
+      <dependency dep="gene" dep_index="10" gov="mutants" gov_index="6">prep_for</dependency>
+      <dependency dep="we" dep_index="11" gov="show" gov_index="12">nsubj</dependency>
+      <dependency dep="show" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="here" dep_index="13" gov="show" gov_index="12">advmod</dependency>
+      <dependency dep="that" dep_index="14" gov="induce" gov_index="17">mark</dependency>
+      <dependency dep="HSV" dep_index="15" gov="induce" gov_index="17">nsubj</dependency>
+      <dependency dep="can" dep_index="16" gov="induce" gov_index="17">aux</dependency>
+      <dependency dep="induce" dep_index="17" gov="show" gov_index="12">ccomp</dependency>
+      <dependency dep="DNA" dep_index="18" gov="amplification" gov_index="19">nn</dependency>
+      <dependency dep="amplification" dep_index="19" gov="induce" gov_index="17">dobj</dependency>
+      <dependency dep="the" dep_index="21" gov="absence" gov_index="22">det</dependency>
+      <dependency dep="absence" dep_index="22" gov="induce" gov_index="17">prep_in</dependency>
+      <dependency dep="lytic" dep_index="24" gov="growth" gov_index="26">amod</dependency>
+      <dependency dep="viral" dep_index="25" gov="growth" gov_index="26">amod</dependency>
+      <dependency dep="growth" dep_index="26" gov="absence" gov_index="22">prep_of</dependency>
+      <dependency dep="contrast" dep_index="28" gov="growth" gov_index="26">prep_in</dependency>
+      <dependency dep="replication-negative" dep_index="30" gov="mutants" gov_index="31">amod</dependency>
+      <dependency dep="mutants" dep_index="31" gov="induce" gov_index="17">prep_to</dependency>
+      <dependency dep="either" dep_index="33" gov="UL8" gov_index="35">preconj</dependency>
+      <dependency dep="the" dep_index="34" gov="UL8" gov_index="35">dep</dependency>
+      <dependency dep="UL8" dep_index="35" gov="mutants" gov_index="31">prep_for</dependency>
+      <dependency dep="UL52" dep_index="37" gov="gene" gov_index="38">amod</dependency>
+      <dependency dep="gene" dep_index="38" gov="mutants" gov_index="31">prep_for</dependency>
+      <dependency dep="gene" dep_index="38" gov="UL8" gov_index="35">conj_or</dependency>
+      <dependency dep="used" dep_index="39" gov="mutants" gov_index="31">partmod</dependency>
+      <dependency dep="control" dep_index="41" gov="used" gov_index="39">prep_as</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900035" relationship="false">9 10 6 3 12 17 31 35</relation>
+      <relation position="3500037" relationship="false">35 31 38 37</relation>
+      <relation position="900037" relationship="false">9 10 6 3 12 17 31 38 37</relation>
+   </relations>
+   <pairs/>
+</root>

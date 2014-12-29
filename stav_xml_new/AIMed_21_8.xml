@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@to@these@classical@receptor@activated@pathways@,@transporter@substrates@also@regulate@activity@and@cell@surface@expression@of@these@transporters@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="DT">these</taggedword>
+      <taggedword index="5" part-of-speech="JJ">classical</taggedword>
+      <taggedword index="6" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="7" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="8" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">transporter</taggedword>
+      <taggedword index="11" part-of-speech="NNS">substrates</taggedword>
+      <taggedword index="12" part-of-speech="RB">also</taggedword>
+      <taggedword index="13" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="14" part-of-speech="NN">activity</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">cell</taggedword>
+      <taggedword index="17" part-of-speech="NN">surface</taggedword>
+      <taggedword index="18" part-of-speech="NN">expression</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">these</taggedword>
+      <taggedword index="21" part-of-speech="NNS">transporters</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="these" dep_index="4" gov="receptor" gov_index="6">det</dependency>
+      <dependency dep="classical" dep_index="5" gov="receptor" gov_index="6">amod</dependency>
+      <dependency dep="receptor" dep_index="6" gov="regulate" gov_index="13">prep_in_addition_to</dependency>
+      <dependency dep="activated" dep_index="7" gov="receptor" gov_index="6">partmod</dependency>
+      <dependency dep="pathways" dep_index="8" gov="activated" gov_index="7">dobj</dependency>
+      <dependency dep="transporter" dep_index="10" gov="substrates" gov_index="11">nn</dependency>
+      <dependency dep="substrates" dep_index="11" gov="regulate" gov_index="13">nsubj</dependency>
+      <dependency dep="also" dep_index="12" gov="regulate" gov_index="13">advmod</dependency>
+      <dependency dep="regulate" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="activity" dep_index="14" gov="expression" gov_index="18">nn</dependency>
+      <dependency dep="cell" dep_index="16" gov="activity" gov_index="14">conj_and</dependency>
+      <dependency dep="cell" dep_index="16" gov="expression" gov_index="18">nn</dependency>
+      <dependency dep="surface" dep_index="17" gov="expression" gov_index="18">nn</dependency>
+      <dependency dep="expression" dep_index="18" gov="regulate" gov_index="13">dobj</dependency>
+      <dependency dep="these" dep_index="20" gov="transporters" gov_index="21">det</dependency>
+      <dependency dep="transporters" dep_index="21" gov="expression" gov_index="18">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

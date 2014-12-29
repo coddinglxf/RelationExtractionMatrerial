@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@portion@of@glucokinase@appeared@to@be@co-localized@with@actin@filaments@in@the@cytoplasm@of@cultured@rat@hepatocytes@incubated@with@25@mM@glucose@.@</sentence>
+   <tags>
+      <tag pos="4">glucokinase</tag>
+      <tag pos="10">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NN">portion</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">glucokinase</taggedword>
+      <taggedword index="5" part-of-speech="VBD">appeared</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">be</taggedword>
+      <taggedword index="8" part-of-speech="VBN">co-localized</taggedword>
+      <taggedword index="9" part-of-speech="IN">with</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">cytoplasm</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">cultured</taggedword>
+      <taggedword index="17" part-of-speech="NN">rat</taggedword>
+      <taggedword index="18" part-of-speech="NNS">hepatocytes</taggedword>
+      <taggedword index="19" part-of-speech="VBN">incubated</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="CD">25</taggedword>
+      <taggedword index="22" part-of-speech="NN">mM</taggedword>
+      <taggedword index="23" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="portion" gov_index="2">det</dependency>
+      <dependency dep="portion" dep_index="2" gov="appeared" gov_index="5">nsubj</dependency>
+      <dependency dep="portion" dep_index="2" gov="co-localized" gov_index="8">xsubj</dependency>
+      <dependency dep="glucokinase" dep_index="4" gov="portion" gov_index="2">prep_of</dependency>
+      <dependency dep="appeared" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="6" gov="co-localized" gov_index="8">aux</dependency>
+      <dependency dep="be" dep_index="7" gov="co-localized" gov_index="8">auxpass</dependency>
+      <dependency dep="co-localized" dep_index="8" gov="appeared" gov_index="5">xcomp</dependency>
+      <dependency dep="actin" dep_index="10" gov="filaments" gov_index="11">nn</dependency>
+      <dependency dep="filaments" dep_index="11" gov="co-localized" gov_index="8">prep_with</dependency>
+      <dependency dep="the" dep_index="13" gov="cytoplasm" gov_index="14">det</dependency>
+      <dependency dep="cytoplasm" dep_index="14" gov="co-localized" gov_index="8">prep_in</dependency>
+      <dependency dep="cultured" dep_index="16" gov="hepatocytes" gov_index="18">amod</dependency>
+      <dependency dep="rat" dep_index="17" gov="hepatocytes" gov_index="18">nn</dependency>
+      <dependency dep="hepatocytes" dep_index="18" gov="cytoplasm" gov_index="14">prep_of</dependency>
+      <dependency dep="incubated" dep_index="19" gov="hepatocytes" gov_index="18">partmod</dependency>
+      <dependency dep="25" dep_index="21" gov="glucose" gov_index="23">num</dependency>
+      <dependency dep="mM" dep_index="22" gov="glucose" gov_index="23">nn</dependency>
+      <dependency dep="glucose" dep_index="23" gov="incubated" gov_index="19">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400010" relationship="true">4 2 8 11 10</relation>
+   </relations>
+   <pairs>
+      <pair>400010</pair>
+   </pairs>
+</root>

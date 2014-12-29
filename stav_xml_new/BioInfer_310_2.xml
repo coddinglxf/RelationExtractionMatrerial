@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>So@far@,@three@ligands@for@profilin@have@been@well-characterized@in@vitro@:@actin@monomers@,@membrane@polyphosphoinositides@and@poly-L-proline@.@</sentence>
+   <tags>
+      <tag pos="14">actin</tag>
+      <tag pos="7">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">So</taggedword>
+      <taggedword index="2" part-of-speech="RB">far</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="CD">three</taggedword>
+      <taggedword index="5" part-of-speech="NNS">ligands</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="8" part-of-speech="VBP">have</taggedword>
+      <taggedword index="9" part-of-speech="VBN">been</taggedword>
+      <taggedword index="10" part-of-speech="VBN">well-characterized</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NNP">vitro</taggedword>
+      <taggedword index="13" part-of-speech=":">:</taggedword>
+      <taggedword index="14" part-of-speech="NN">actin</taggedword>
+      <taggedword index="15" part-of-speech="NNS">monomers</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="JJ">membrane</taggedword>
+      <taggedword index="18" part-of-speech="NNS">polyphosphoinositides</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">poly-L-proline</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="So" dep_index="1" gov="well-characterized" gov_index="10">advmod</dependency>
+      <dependency dep="far" dep_index="2" gov="So" gov_index="1">advmod</dependency>
+      <dependency dep="three" dep_index="4" gov="ligands" gov_index="5">num</dependency>
+      <dependency dep="ligands" dep_index="5" gov="well-characterized" gov_index="10">nsubjpass</dependency>
+      <dependency dep="profilin" dep_index="7" gov="ligands" gov_index="5">prep_for</dependency>
+      <dependency dep="have" dep_index="8" gov="well-characterized" gov_index="10">aux</dependency>
+      <dependency dep="been" dep_index="9" gov="well-characterized" gov_index="10">auxpass</dependency>
+      <dependency dep="well-characterized" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="vitro" dep_index="12" gov="well-characterized" gov_index="10">prep_in</dependency>
+      <dependency dep="actin" dep_index="14" gov="monomers" gov_index="15">nn</dependency>
+      <dependency dep="monomers" dep_index="15" gov="vitro" gov_index="12">dep</dependency>
+      <dependency dep="membrane" dep_index="17" gov="polyphosphoinositides" gov_index="18">amod</dependency>
+      <dependency dep="polyphosphoinositides" dep_index="18" gov="vitro" gov_index="12">dep</dependency>
+      <dependency dep="polyphosphoinositides" dep_index="18" gov="monomers" gov_index="15">conj_and</dependency>
+      <dependency dep="poly-L-proline" dep_index="20" gov="vitro" gov_index="12">dep</dependency>
+      <dependency dep="poly-L-proline" dep_index="20" gov="monomers" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700014" relationship="true">7 5 10 12 15 14</relation>
+   </relations>
+   <pairs>
+      <pair>700014</pair>
+   </pairs>
+</root>

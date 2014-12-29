@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@Bacillus@subtilis@PROTX0@operon@is@regulated@by@two@stress@induction@pathways@relying@on@either@sigmaB@or@a@class@III@stress@induction@mechanism@acting@at@a@sigmaA@-like@promoter@.@</sentence>
+   <tags>
+      <tag pos="16">sigmaB</tag>
+      <tag pos="27">sigmaA</tag>
+      <tag pos="4">clpC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">Bacillus</taggedword>
+      <taggedword index="3" part-of-speech="NNS">subtilis</taggedword>
+      <taggedword index="4" part-of-speech="JJ">clpC</taggedword>
+      <taggedword index="5" part-of-speech="NN">operon</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="CD">two</taggedword>
+      <taggedword index="10" part-of-speech="NN">stress</taggedword>
+      <taggedword index="11" part-of-speech="NN">induction</taggedword>
+      <taggedword index="12" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="13" part-of-speech="VBG">relying</taggedword>
+      <taggedword index="14" part-of-speech="IN">on</taggedword>
+      <taggedword index="15" part-of-speech="DT">either</taggedword>
+      <taggedword index="16" part-of-speech="NN">sigmaB</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="NN">class</taggedword>
+      <taggedword index="20" part-of-speech="NNP">III</taggedword>
+      <taggedword index="21" part-of-speech="NN">stress</taggedword>
+      <taggedword index="22" part-of-speech="NN">induction</taggedword>
+      <taggedword index="23" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="24" part-of-speech="VBG">acting</taggedword>
+      <taggedword index="25" part-of-speech="IN">at</taggedword>
+      <taggedword index="26" part-of-speech="DT">a</taggedword>
+      <taggedword index="27" part-of-speech="JJ">sigmaA</taggedword>
+      <taggedword index="28" part-of-speech="JJ">-like</taggedword>
+      <taggedword index="29" part-of-speech="NN">promoter</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="operon" gov_index="5">det</dependency>
+      <dependency dep="Bacillus" dep_index="2" gov="operon" gov_index="5">nn</dependency>
+      <dependency dep="subtilis" dep_index="3" gov="operon" gov_index="5">nn</dependency>
+      <dependency dep="clpC" dep_index="4" gov="operon" gov_index="5">amod</dependency>
+      <dependency dep="operon" dep_index="5" gov="regulated" gov_index="7">nsubjpass</dependency>
+      <dependency dep="is" dep_index="6" gov="regulated" gov_index="7">auxpass</dependency>
+      <dependency dep="regulated" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="two" dep_index="9" gov="pathways" gov_index="12">num</dependency>
+      <dependency dep="stress" dep_index="10" gov="pathways" gov_index="12">nn</dependency>
+      <dependency dep="induction" dep_index="11" gov="pathways" gov_index="12">nn</dependency>
+      <dependency dep="pathways" dep_index="12" gov="regulated" gov_index="7">agent</dependency>
+      <dependency dep="relying" dep_index="13" gov="regulated" gov_index="7">xcomp</dependency>
+      <dependency dep="either" dep_index="15" gov="sigmaB" gov_index="16">det</dependency>
+      <dependency dep="sigmaB" dep_index="16" gov="relying" gov_index="13">prep_on</dependency>
+      <dependency dep="a" dep_index="18" gov="class" gov_index="19">det</dependency>
+      <dependency dep="class" dep_index="19" gov="relying" gov_index="13">prep_on</dependency>
+      <dependency dep="class" dep_index="19" gov="sigmaB" gov_index="16">conj_or</dependency>
+      <dependency dep="III" dep_index="20" gov="mechanism" gov_index="23">nn</dependency>
+      <dependency dep="stress" dep_index="21" gov="mechanism" gov_index="23">nn</dependency>
+      <dependency dep="induction" dep_index="22" gov="mechanism" gov_index="23">nn</dependency>
+      <dependency dep="mechanism" dep_index="23" gov="relying" gov_index="13">dobj</dependency>
+      <dependency dep="acting" dep_index="24" gov="mechanism" gov_index="23">partmod</dependency>
+      <dependency dep="a" dep_index="26" gov="promoter" gov_index="29">det</dependency>
+      <dependency dep="sigmaA" dep_index="27" gov="promoter" gov_index="29">amod</dependency>
+      <dependency dep="-like" dep_index="28" gov="promoter" gov_index="29">amod</dependency>
+      <dependency dep="promoter" dep_index="29" gov="acting" gov_index="24">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600027" relationship="false">16 13 23 24 29 27</relation>
+      <relation position="400016" relationship="true">4 5 7 13 16</relation>
+      <relation position="400027" relationship="true">4 5 7 13 23 24 29 27</relation>
+   </relations>
+   <pairs>
+      <pair>400027</pair>
+      <pair>400016</pair>
+   </pairs>
+</root>

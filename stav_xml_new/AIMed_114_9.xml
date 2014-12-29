@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@found@a@COOH-terminal@37-kD@fragment@of@beta 1-syntrophin@sufficient@to@interact@with@translated@dystrophin@and@its@homologues@,@suggesting@that@the@dystrophin@binding@site@on@beta 1-syntrophin@occurs@on@a@region@that@is@conserved@among@the@three@syntrophin@homologues@.@</sentence>
+   <tags>
+      <tag pos="9">beta 1-syntrophin</tag>
+      <tag pos="15">dystrophin</tag>
+      <tag pos="23">dystrophin</tag>
+      <tag pos="27">beta 1-syntrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">found</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">COOH-terminal</taggedword>
+      <taggedword index="6" part-of-speech="JJ">37-kD</taggedword>
+      <taggedword index="7" part-of-speech="NN">fragment</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">beta 1-syntrophin</taggedword>
+      <taggedword index="10" part-of-speech="JJ">sufficient</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">interact</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="JJ">translated</taggedword>
+      <taggedword index="15" part-of-speech="NN">dystrophin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="18" part-of-speech="NNS">homologues</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="VBG">suggesting</taggedword>
+      <taggedword index="21" part-of-speech="IN">that</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">dystrophin</taggedword>
+      <taggedword index="24" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="25" part-of-speech="NN">site</taggedword>
+      <taggedword index="26" part-of-speech="IN">on</taggedword>
+      <taggedword index="27" part-of-speech="CD">beta 1-syntrophin</taggedword>
+      <taggedword index="28" part-of-speech="VBZ">occurs</taggedword>
+      <taggedword index="29" part-of-speech="IN">on</taggedword>
+      <taggedword index="30" part-of-speech="DT">a</taggedword>
+      <taggedword index="31" part-of-speech="NN">region</taggedword>
+      <taggedword index="32" part-of-speech="WDT">that</taggedword>
+      <taggedword index="33" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="34" part-of-speech="VBN">conserved</taggedword>
+      <taggedword index="35" part-of-speech="IN">among</taggedword>
+      <taggedword index="36" part-of-speech="DT">the</taggedword>
+      <taggedword index="37" part-of-speech="CD">three</taggedword>
+      <taggedword index="38" part-of-speech="NN">syntrophin</taggedword>
+      <taggedword index="39" part-of-speech="NNS">homologues</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="found" gov_index="3">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="found" gov_index="3">aux</dependency>
+      <dependency dep="found" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="fragment" gov_index="7">det</dependency>
+      <dependency dep="COOH-terminal" dep_index="5" gov="fragment" gov_index="7">amod</dependency>
+      <dependency dep="37-kD" dep_index="6" gov="fragment" gov_index="7">amod</dependency>
+      <dependency dep="fragment" dep_index="7" gov="found" gov_index="3">dobj</dependency>
+      <dependency dep="beta 1-syntrophin" dep_index="9" gov="homologues" gov_index="39">amod</dependency>
+      <dependency dep="sufficient" dep_index="10" gov="homologues" gov_index="39">amod</dependency>
+      <dependency dep="to" dep_index="11" gov="interact" gov_index="12">aux</dependency>
+      <dependency dep="interact" dep_index="12" gov="sufficient" gov_index="10">xcomp</dependency>
+      <dependency dep="translated" dep_index="14" gov="dystrophin" gov_index="15">amod</dependency>
+      <dependency dep="dystrophin" dep_index="15" gov="interact" gov_index="12">prep_with</dependency>
+      <dependency dep="its" dep_index="17" gov="homologues" gov_index="18">poss</dependency>
+      <dependency dep="homologues" dep_index="18" gov="interact" gov_index="12">prep_with</dependency>
+      <dependency dep="homologues" dep_index="18" gov="dystrophin" gov_index="15">conj_and</dependency>
+      <dependency dep="suggesting" dep_index="20" gov="interact" gov_index="12">xcomp</dependency>
+      <dependency dep="that" dep_index="21" gov="occurs" gov_index="28">mark</dependency>
+      <dependency dep="the" dep_index="22" gov="site" gov_index="25">det</dependency>
+      <dependency dep="dystrophin" dep_index="23" gov="site" gov_index="25">nn</dependency>
+      <dependency dep="binding" dep_index="24" gov="site" gov_index="25">amod</dependency>
+      <dependency dep="site" dep_index="25" gov="occurs" gov_index="28">nsubj</dependency>
+      <dependency dep="beta 1-syntrophin" dep_index="27" gov="site" gov_index="25">prep_on</dependency>
+      <dependency dep="occurs" dep_index="28" gov="suggesting" gov_index="20">ccomp</dependency>
+      <dependency dep="a" dep_index="30" gov="region" gov_index="31">det</dependency>
+      <dependency dep="region" dep_index="31" gov="occurs" gov_index="28">prep_on</dependency>
+      <dependency dep="region" dep_index="31" gov="conserved" gov_index="34">nsubjpass</dependency>
+      <dependency dep="is" dep_index="33" gov="conserved" gov_index="34">auxpass</dependency>
+      <dependency dep="conserved" dep_index="34" gov="region" gov_index="31">rcmod</dependency>
+      <dependency dep="the" dep_index="36" gov="syntrophin" gov_index="38">det</dependency>
+      <dependency dep="three" dep_index="37" gov="syntrophin" gov_index="38">num</dependency>
+      <dependency dep="syntrophin" dep_index="38" gov="conserved" gov_index="34">prep_among</dependency>
+      <dependency dep="homologues" dep_index="39" gov="fragment" gov_index="7">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900015" relationship="true">9 39 10 12 15</relation>
+      <relation position="900023" relationship="false">9 39 10 12 20 28 25 23</relation>
+      <relation position="900027" relationship="false">9 39 10 12 20 28 25 27</relation>
+      <relation position="1500023" relationship="false">15 12 20 28 25 23</relation>
+      <relation position="1500027" relationship="false">15 12 20 28 25 27</relation>
+      <relation position="2300027" relationship="true">23 25 27</relation>
+   </relations>
+   <pairs>
+      <pair>900015</pair>
+      <pair>2300027</pair>
+   </pairs>
+</root>

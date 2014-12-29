@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>[Molecular@functions@of@cofilin@which@regulates@reorganization@of@actin@cytoskeleton]@.@</sentence>
+   <tags>
+      <tag pos="9">actin</tag>
+      <tag pos="4">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">[Molecular</taggedword>
+      <taggedword index="2" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="5" part-of-speech="WDT">which</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">regulates</taggedword>
+      <taggedword index="7" part-of-speech="NN">reorganization</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cytoskeleton]</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="[Molecular" dep_index="1" gov="functions" gov_index="2">nn</dependency>
+      <dependency dep="functions" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cofilin" dep_index="4" gov="functions" gov_index="2">prep_of</dependency>
+      <dependency dep="cofilin" dep_index="4" gov="regulates" gov_index="6">nsubj</dependency>
+      <dependency dep="regulates" dep_index="6" gov="cofilin" gov_index="4">rcmod</dependency>
+      <dependency dep="reorganization" dep_index="7" gov="regulates" gov_index="6">dobj</dependency>
+      <dependency dep="actin" dep_index="9" gov="cytoskeleton]" gov_index="10">nn</dependency>
+      <dependency dep="cytoskeleton]" dep_index="10" gov="reorganization" gov_index="7">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400009" relationship="true">4 6 7 10 9</relation>
+   </relations>
+   <pairs>
+      <pair>400009</pair>
+   </pairs>
+</root>

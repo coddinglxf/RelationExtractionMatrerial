@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@region@of@amino@acid@similarity@between@cyclins@and@tyrosine@PTPases@has@been@detected@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NN">region</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="5" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="6" part-of-speech="NN">similarity</taggedword>
+      <taggedword index="7" part-of-speech="IN">between</taggedword>
+      <taggedword index="8" part-of-speech="NNS">cyclins</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="11" part-of-speech="NNS">PTPases</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="13" part-of-speech="VBN">been</taggedword>
+      <taggedword index="14" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="region" gov_index="2">det</dependency>
+      <dependency dep="region" dep_index="2" gov="detected" gov_index="14">nsubjpass</dependency>
+      <dependency dep="amino" dep_index="4" gov="similarity" gov_index="6">amod</dependency>
+      <dependency dep="acid" dep_index="5" gov="similarity" gov_index="6">amod</dependency>
+      <dependency dep="similarity" dep_index="6" gov="region" gov_index="2">prep_of</dependency>
+      <dependency dep="cyclins" dep_index="8" gov="similarity" gov_index="6">prep_between</dependency>
+      <dependency dep="tyrosine" dep_index="10" gov="PTPases" gov_index="11">nn</dependency>
+      <dependency dep="PTPases" dep_index="11" gov="similarity" gov_index="6">prep_between</dependency>
+      <dependency dep="PTPases" dep_index="11" gov="cyclins" gov_index="8">conj_and</dependency>
+      <dependency dep="has" dep_index="12" gov="detected" gov_index="14">aux</dependency>
+      <dependency dep="been" dep_index="13" gov="detected" gov_index="14">auxpass</dependency>
+      <dependency dep="detected" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

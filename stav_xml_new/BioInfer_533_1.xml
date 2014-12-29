@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Seventeen@embryonic@genes@were@identified@as@embryonic alpha-tubulin@,@embryonic beta-tubulin@,@hnRNP@,@protein L-isoaspartyl methyltransferase@(@PIMT@),@ferritin heavy chain@,@type IV collagen@,@actin-binding protein@cofilin@,@profilin@and@nine@novel@sequences@designated@as@A1-9@.@</sentence>
+   <tags>
+      <tag pos="17">ferritin heavy chain</tag>
+      <tag pos="21">actin-binding protein</tag>
+      <tag pos="19">type IV collagen</tag>
+      <tag pos="24">profilin</tag>
+      <tag pos="7">embryonic alpha-tubulin</tag>
+      <tag pos="11">hnRNP</tag>
+      <tag pos="9">embryonic beta-tubulin</tag>
+      <tag pos="22">cofilin</tag>
+      <tag pos="15">PIMT</tag>
+      <tag pos="13">protein L-isoaspartyl methyltransferase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Seventeen</taggedword>
+      <taggedword index="2" part-of-speech="JJ">embryonic</taggedword>
+      <taggedword index="3" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="4" part-of-speech="VBD">were</taggedword>
+      <taggedword index="5" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="6" part-of-speech="IN">as</taggedword>
+      <taggedword index="7" part-of-speech="JJ">embryonic alpha-tubulin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">embryonic beta-tubulin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">hnRNP</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="JJ">protein L-isoaspartyl methyltransferase</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">PIMT</taggedword>
+      <taggedword index="16" part-of-speech="NNP">),</taggedword>
+      <taggedword index="17" part-of-speech="NN">ferritin heavy chain</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="JJ">type IV collagen</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="JJ">actin-binding protein</taggedword>
+      <taggedword index="22" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="CD">nine</taggedword>
+      <taggedword index="27" part-of-speech="NN">novel</taggedword>
+      <taggedword index="28" part-of-speech="NNS">sequences</taggedword>
+      <taggedword index="29" part-of-speech="VBN">designated</taggedword>
+      <taggedword index="30" part-of-speech="IN">as</taggedword>
+      <taggedword index="31" part-of-speech="NN">A1-9</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Seventeen" dep_index="1" gov="genes" gov_index="3">num</dependency>
+      <dependency dep="embryonic" dep_index="2" gov="genes" gov_index="3">amod</dependency>
+      <dependency dep="genes" dep_index="3" gov="identified" gov_index="5">nsubjpass</dependency>
+      <dependency dep="were" dep_index="4" gov="identified" gov_index="5">auxpass</dependency>
+      <dependency dep="identified" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="embryonic alpha-tubulin" dep_index="7" gov="ferritin heavy chain" gov_index="17">amod</dependency>
+      <dependency dep="embryonic beta-tubulin" dep_index="9" gov="ferritin heavy chain" gov_index="17">dep</dependency>
+      <dependency dep="hnRNP" dep_index="11" gov="ferritin heavy chain" gov_index="17">dep</dependency>
+      <dependency dep="protein L-isoaspartyl methyltransferase" dep_index="13" gov="ferritin heavy chain" gov_index="17">amod</dependency>
+      <dependency dep="(" dep_index="14" gov="ferritin heavy chain" gov_index="17">nn</dependency>
+      <dependency dep="PIMT" dep_index="15" gov="ferritin heavy chain" gov_index="17">nn</dependency>
+      <dependency dep=")," dep_index="16" gov="ferritin heavy chain" gov_index="17">nn</dependency>
+      <dependency dep="ferritin heavy chain" dep_index="17" gov="identified" gov_index="5">prep_as</dependency>
+      <dependency dep="type IV collagen" dep_index="19" gov="sequences" gov_index="28">amod</dependency>
+      <dependency dep="actin-binding protein" dep_index="21" gov="sequences" gov_index="28">amod</dependency>
+      <dependency dep="cofilin" dep_index="22" gov="profilin" gov_index="24">nn</dependency>
+      <dependency dep="profilin" dep_index="24" gov="sequences" gov_index="28">nn</dependency>
+      <dependency dep="nine" dep_index="26" gov="profilin" gov_index="24">conj_and</dependency>
+      <dependency dep="nine" dep_index="26" gov="sequences" gov_index="28">nn</dependency>
+      <dependency dep="novel" dep_index="27" gov="sequences" gov_index="28">nn</dependency>
+      <dependency dep="sequences" dep_index="28" gov="ferritin heavy chain" gov_index="17">appos</dependency>
+      <dependency dep="designated" dep_index="29" gov="sequences" gov_index="28">partmod</dependency>
+      <dependency dep="A1-9" dep_index="31" gov="designated" gov_index="29">prep_as</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700021" relationship="false"></relation>
+      <relation position="1700019" relationship="false"></relation>
+      <relation position="1700024" relationship="false"></relation>
+      <relation position="700017" relationship="false"></relation>
+      <relation position="1100017" relationship="false"></relation>
+      <relation position="900017" relationship="false"></relation>
+      <relation position="1700022" relationship="false"></relation>
+      <relation position="1500017" relationship="false"></relation>
+      <relation position="1300017" relationship="false"></relation>
+      <relation position="1900021" relationship="false">19 28 21</relation>
+      <relation position="2100024" relationship="false">21 28 24</relation>
+      <relation position="700021" relationship="false">7 17 28 21</relation>
+      <relation position="1100021" relationship="false">11 17 28 21</relation>
+      <relation position="900021" relationship="false">9 17 28 21</relation>
+      <relation position="2100022" relationship="true">21 28 24 22</relation>
+      <relation position="1500021" relationship="false">15 17 28 21</relation>
+      <relation position="1300021" relationship="false">13 17 28 21</relation>
+      <relation position="1900024" relationship="false">19 28 24</relation>
+      <relation position="700019" relationship="false">7 17 28 19</relation>
+      <relation position="1100019" relationship="false">11 17 28 19</relation>
+      <relation position="900019" relationship="false">9 17 28 19</relation>
+      <relation position="1900022" relationship="false">19 28 24 22</relation>
+      <relation position="1500019" relationship="false">15 17 28 19</relation>
+      <relation position="1300019" relationship="false">13 17 28 19</relation>
+      <relation position="700024" relationship="false">7 17 28 24</relation>
+      <relation position="1100024" relationship="false">11 17 28 24</relation>
+      <relation position="900024" relationship="false">9 17 28 24</relation>
+      <relation position="2200024" relationship="false"></relation>
+      <relation position="1500024" relationship="false">15 17 28 24</relation>
+      <relation position="1300024" relationship="false">13 17 28 24</relation>
+      <relation position="700011" relationship="false">7 17 11</relation>
+      <relation position="700009" relationship="false">7 17 9</relation>
+      <relation position="700022" relationship="false">7 17 28 24 22</relation>
+      <relation position="700015" relationship="false">7 17 15</relation>
+      <relation position="700013" relationship="false">7 17 13</relation>
+      <relation position="900011" relationship="false">9 17 11</relation>
+      <relation position="1100022" relationship="false">11 17 28 24 22</relation>
+      <relation position="1100015" relationship="false">11 17 15</relation>
+      <relation position="1100013" relationship="false">11 17 13</relation>
+      <relation position="900022" relationship="false">9 17 28 24 22</relation>
+      <relation position="900015" relationship="false">9 17 15</relation>
+      <relation position="900013" relationship="false">9 17 13</relation>
+      <relation position="1500022" relationship="false">15 17 28 24 22</relation>
+      <relation position="1300022" relationship="false">13 17 28 24 22</relation>
+      <relation position="1300015" relationship="false">13 17 15</relation>
+   </relations>
+   <pairs>
+      <pair>2100022</pair>
+   </pairs>
+</root>

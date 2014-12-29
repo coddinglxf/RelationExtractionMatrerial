@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@binding@constants@of@Acanthamoeba@profilin@to@fluorescein-labeled@actin@from@Acanthamoeba@and@from@rabbit@skeletal@muscle@have@been@determined@by@measuring@the@reduction@in@the@actin@tracer@diffusion@coefficients@,@determined@by@fluorescence@photobleaching@recovery@,@as@a@function@of@added@profilin@concentration@.@</sentence>
+   <tags>
+      <tag pos="26">actin</tag>
+      <tag pos="6">profilin</tag>
+      <tag pos="9">actin</tag>
+      <tag pos="42">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="3" part-of-speech="NNS">constants</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Acanthamoeba</taggedword>
+      <taggedword index="6" part-of-speech="JJ">profilin</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="JJ">fluorescein-labeled</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="IN">from</taggedword>
+      <taggedword index="11" part-of-speech="NNP">Acanthamoeba</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="IN">from</taggedword>
+      <taggedword index="14" part-of-speech="NN">rabbit</taggedword>
+      <taggedword index="15" part-of-speech="JJ">skeletal</taggedword>
+      <taggedword index="16" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="17" part-of-speech="VBP">have</taggedword>
+      <taggedword index="18" part-of-speech="VBN">been</taggedword>
+      <taggedword index="19" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="VBG">measuring</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">reduction</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="27" part-of-speech="NN">tracer</taggedword>
+      <taggedword index="28" part-of-speech="NN">diffusion</taggedword>
+      <taggedword index="29" part-of-speech="NNS">coefficients</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="32" part-of-speech="IN">by</taggedword>
+      <taggedword index="33" part-of-speech="JJ">fluorescence</taggedword>
+      <taggedword index="34" part-of-speech="NN">photobleaching</taggedword>
+      <taggedword index="35" part-of-speech="NN">recovery</taggedword>
+      <taggedword index="36" part-of-speech=",">,</taggedword>
+      <taggedword index="37" part-of-speech="IN">as</taggedword>
+      <taggedword index="38" part-of-speech="DT">a</taggedword>
+      <taggedword index="39" part-of-speech="NN">function</taggedword>
+      <taggedword index="40" part-of-speech="IN">of</taggedword>
+      <taggedword index="41" part-of-speech="VBN">added</taggedword>
+      <taggedword index="42" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="43" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="44" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="constants" gov_index="3">det</dependency>
+      <dependency dep="binding" dep_index="2" gov="constants" gov_index="3">amod</dependency>
+      <dependency dep="constants" dep_index="3" gov="determined" gov_index="19">nsubjpass</dependency>
+      <dependency dep="Acanthamoeba" dep_index="5" gov="muscle" gov_index="16">nn</dependency>
+      <dependency dep="profilin" dep_index="6" gov="muscle" gov_index="16">amod</dependency>
+      <dependency dep="fluorescein-labeled" dep_index="8" gov="actin" gov_index="9">amod</dependency>
+      <dependency dep="actin" dep_index="9" gov="profilin" gov_index="6">prep_to</dependency>
+      <dependency dep="Acanthamoeba" dep_index="11" gov="actin" gov_index="9">prep_from</dependency>
+      <dependency dep="from" dep_index="13" gov="profilin" gov_index="6">conj_and</dependency>
+      <dependency dep="from" dep_index="13" gov="muscle" gov_index="16">amod</dependency>
+      <dependency dep="rabbit" dep_index="14" gov="from" gov_index="13">pobj</dependency>
+      <dependency dep="skeletal" dep_index="15" gov="muscle" gov_index="16">amod</dependency>
+      <dependency dep="muscle" dep_index="16" gov="constants" gov_index="3">prep_of</dependency>
+      <dependency dep="have" dep_index="17" gov="determined" gov_index="19">aux</dependency>
+      <dependency dep="been" dep_index="18" gov="determined" gov_index="19">auxpass</dependency>
+      <dependency dep="determined" dep_index="19" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="measuring" dep_index="21" gov="determined" gov_index="19">agent</dependency>
+      <dependency dep="the" dep_index="22" gov="reduction" gov_index="23">det</dependency>
+      <dependency dep="reduction" dep_index="23" gov="measuring" gov_index="21">dobj</dependency>
+      <dependency dep="the" dep_index="25" gov="coefficients" gov_index="29">det</dependency>
+      <dependency dep="actin" dep_index="26" gov="coefficients" gov_index="29">amod</dependency>
+      <dependency dep="tracer" dep_index="27" gov="coefficients" gov_index="29">nn</dependency>
+      <dependency dep="diffusion" dep_index="28" gov="coefficients" gov_index="29">nn</dependency>
+      <dependency dep="coefficients" dep_index="29" gov="reduction" gov_index="23">prep_in</dependency>
+      <dependency dep="determined" dep_index="31" gov="coefficients" gov_index="29">partmod</dependency>
+      <dependency dep="fluorescence" dep_index="33" gov="recovery" gov_index="35">amod</dependency>
+      <dependency dep="photobleaching" dep_index="34" gov="recovery" gov_index="35">nn</dependency>
+      <dependency dep="recovery" dep_index="35" gov="determined" gov_index="31">agent</dependency>
+      <dependency dep="a" dep_index="38" gov="function" gov_index="39">det</dependency>
+      <dependency dep="function" dep_index="39" gov="coefficients" gov_index="29">prep_as</dependency>
+      <dependency dep="added" dep_index="41" gov="concentration" gov_index="43">amod</dependency>
+      <dependency dep="profilin" dep_index="42" gov="concentration" gov_index="43">nn</dependency>
+      <dependency dep="concentration" dep_index="43" gov="function" gov_index="39">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600026" relationship="false">6 16 3 19 21 23 29 26</relation>
+      <relation position="900026" relationship="false">9 6 16 3 19 21 23 29 26</relation>
+      <relation position="2600042" relationship="false">26 29 39 43 42</relation>
+      <relation position="600009" relationship="true"></relation>
+      <relation position="600042" relationship="false">6 16 3 19 21 23 29 39 43 42</relation>
+      <relation position="900042" relationship="false">9 6 16 3 19 21 23 29 39 43 42</relation>
+   </relations>
+   <pairs>
+      <pair>600009</pair>
+   </pairs>
+</root>

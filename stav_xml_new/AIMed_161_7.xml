@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@demonstrate@that@Grb7@binds@to@SHPTP2@in@vitro@under@conditions@where@the@latter@is@tyrosine-phosphorylated@.@</sentence>
+   <tags>
+      <tag pos="4">Grb7</tag>
+      <tag pos="7">SHPTP2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NNS">Grb7</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">SHPTP2</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="10" part-of-speech="IN">under</taggedword>
+      <taggedword index="11" part-of-speech="NNS">conditions</taggedword>
+      <taggedword index="12" part-of-speech="WRB">where</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">latter</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="16" part-of-speech="JJ">tyrosine-phosphorylated</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="demonstrate" gov_index="2">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="binds" gov_index="5">mark</dependency>
+      <dependency dep="Grb7" dep_index="4" gov="binds" gov_index="5">nsubj</dependency>
+      <dependency dep="Grb7" dep_index="4" gov="SHPTP2" gov_index="7">xsubj</dependency>
+      <dependency dep="binds" dep_index="5" gov="demonstrate" gov_index="2">ccomp</dependency>
+      <dependency dep="to" dep_index="6" gov="SHPTP2" gov_index="7">aux</dependency>
+      <dependency dep="SHPTP2" dep_index="7" gov="binds" gov_index="5">xcomp</dependency>
+      <dependency dep="vitro" dep_index="9" gov="SHPTP2" gov_index="7">prep_in</dependency>
+      <dependency dep="conditions" dep_index="11" gov="vitro" gov_index="9">prep_under</dependency>
+      <dependency dep="where" dep_index="12" gov="tyrosine-phosphorylated" gov_index="16">advmod</dependency>
+      <dependency dep="the" dep_index="13" gov="latter" gov_index="14">det</dependency>
+      <dependency dep="latter" dep_index="14" gov="tyrosine-phosphorylated" gov_index="16">nsubj</dependency>
+      <dependency dep="is" dep_index="15" gov="tyrosine-phosphorylated" gov_index="16">cop</dependency>
+      <dependency dep="tyrosine-phosphorylated" dep_index="16" gov="SHPTP2" gov_index="7">advcl</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="true">4 5 7</relation>
+   </relations>
+   <pairs>
+      <pair>400007</pair>
+   </pairs>
+</root>

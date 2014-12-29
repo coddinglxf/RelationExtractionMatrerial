@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@used@this@assay@to@investiagate@whether@myogenin@forms@homomeric@or@heteromeric@complexes@in@vivo@and@to@determine@whether@growth@factors@and@oncogenes@that@inhibit@myogenesis@influence@myogenin's@ability@to@dimerize@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">used</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech="NN">assay</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">investiagate</taggedword>
+      <taggedword index="8" part-of-speech="IN">whether</taggedword>
+      <taggedword index="9" part-of-speech="NN">myogenin</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">forms</taggedword>
+      <taggedword index="11" part-of-speech="JJ">homomeric</taggedword>
+      <taggedword index="12" part-of-speech="CC">or</taggedword>
+      <taggedword index="13" part-of-speech="JJ">heteromeric</taggedword>
+      <taggedword index="14" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="VB">determine</taggedword>
+      <taggedword index="20" part-of-speech="IN">whether</taggedword>
+      <taggedword index="21" part-of-speech="NN">growth</taggedword>
+      <taggedword index="22" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NNS">oncogenes</taggedword>
+      <taggedword index="25" part-of-speech="WDT">that</taggedword>
+      <taggedword index="26" part-of-speech="VBP">inhibit</taggedword>
+      <taggedword index="27" part-of-speech="JJ">myogenesis</taggedword>
+      <taggedword index="28" part-of-speech="NN">influence</taggedword>
+      <taggedword index="29" part-of-speech="VBZ">myogenin's</taggedword>
+      <taggedword index="30" part-of-speech="NN">ability</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="VB">dimerize</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="used" gov_index="3">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="used" gov_index="3">aux</dependency>
+      <dependency dep="used" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="this" dep_index="4" gov="assay" gov_index="5">det</dependency>
+      <dependency dep="assay" dep_index="5" gov="used" gov_index="3">dobj</dependency>
+      <dependency dep="to" dep_index="6" gov="investiagate" gov_index="7">aux</dependency>
+      <dependency dep="investiagate" dep_index="7" gov="assay" gov_index="5">dep</dependency>
+      <dependency dep="whether" dep_index="8" gov="forms" gov_index="10">mark</dependency>
+      <dependency dep="myogenin" dep_index="9" gov="forms" gov_index="10">nsubj</dependency>
+      <dependency dep="forms" dep_index="10" gov="investiagate" gov_index="7">ccomp</dependency>
+      <dependency dep="homomeric" dep_index="11" gov="complexes" gov_index="14">amod</dependency>
+      <dependency dep="heteromeric" dep_index="13" gov="homomeric" gov_index="11">conj_or</dependency>
+      <dependency dep="heteromeric" dep_index="13" gov="complexes" gov_index="14">amod</dependency>
+      <dependency dep="complexes" dep_index="14" gov="forms" gov_index="10">dobj</dependency>
+      <dependency dep="vivo" dep_index="16" gov="complexes" gov_index="14">prep_in</dependency>
+      <dependency dep="to" dep_index="18" gov="determine" gov_index="19">aux</dependency>
+      <dependency dep="determine" dep_index="19" gov="assay" gov_index="5">dep</dependency>
+      <dependency dep="determine" dep_index="19" gov="investiagate" gov_index="7">conj_and</dependency>
+      <dependency dep="whether" dep_index="20" gov="myogenin's" gov_index="29">mark</dependency>
+      <dependency dep="growth" dep_index="21" gov="factors" gov_index="22">nn</dependency>
+      <dependency dep="factors" dep_index="22" gov="inhibit" gov_index="26">nsubj</dependency>
+      <dependency dep="factors" dep_index="22" gov="myogenin's" gov_index="29">nsubj</dependency>
+      <dependency dep="factors" dep_index="22" gov="dimerize" gov_index="32">xsubj</dependency>
+      <dependency dep="oncogenes" dep_index="24" gov="factors" gov_index="22">conj_and</dependency>
+      <dependency dep="oncogenes" dep_index="24" gov="inhibit" gov_index="26">nsubj</dependency>
+      <dependency dep="oncogenes" dep_index="24" gov="myogenin's" gov_index="29">nsubj</dependency>
+      <dependency dep="oncogenes" dep_index="24" gov="dimerize" gov_index="32">xsubj</dependency>
+      <dependency dep="inhibit" dep_index="26" gov="factors" gov_index="22">rcmod</dependency>
+      <dependency dep="myogenesis" dep_index="27" gov="influence" gov_index="28">amod</dependency>
+      <dependency dep="influence" dep_index="28" gov="inhibit" gov_index="26">dobj</dependency>
+      <dependency dep="myogenin's" dep_index="29" gov="determine" gov_index="19">ccomp</dependency>
+      <dependency dep="ability" dep_index="30" gov="myogenin's" gov_index="29">dobj</dependency>
+      <dependency dep="to" dep_index="31" gov="dimerize" gov_index="32">aux</dependency>
+      <dependency dep="dimerize" dep_index="32" gov="myogenin's" gov_index="29">xcomp</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Genetic@studies@on@the@role@of@proteinases@and@growth@factors@in@atherosclerosis@and@aneurysm@formation@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Genetic</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="IN">on</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">role</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNS">proteinases</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">growth</taggedword>
+      <taggedword index="10" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NNS">atherosclerosis</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">aneurysm</taggedword>
+      <taggedword index="15" part-of-speech="NN">formation</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Genetic" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="role" gov_index="5">det</dependency>
+      <dependency dep="role" dep_index="5" gov="studies" gov_index="2">prep_on</dependency>
+      <dependency dep="proteinases" dep_index="7" gov="role" gov_index="5">prep_of</dependency>
+      <dependency dep="growth" dep_index="9" gov="factors" gov_index="10">nn</dependency>
+      <dependency dep="factors" dep_index="10" gov="role" gov_index="5">prep_of</dependency>
+      <dependency dep="factors" dep_index="10" gov="proteinases" gov_index="7">conj_and</dependency>
+      <dependency dep="atherosclerosis" dep_index="12" gov="studies" gov_index="2">prep_in</dependency>
+      <dependency dep="aneurysm" dep_index="14" gov="formation" gov_index="15">nn</dependency>
+      <dependency dep="formation" dep_index="15" gov="studies" gov_index="2">prep_in</dependency>
+      <dependency dep="formation" dep_index="15" gov="atherosclerosis" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

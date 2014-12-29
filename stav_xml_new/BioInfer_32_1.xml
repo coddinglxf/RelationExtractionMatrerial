@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@further@outcome@of@this@study@is@that@the@actin@filament@core@bundles@in@microvilli@of@chicken@pigment@epithelial@cells@are@presumed@to@contain@a@crosslinking@protein@,@which@is@not@immunologically@related@to@either@villin@,@fimbrin@or@myosin I@of@the@intestinal@brush@border@.@</sentence>
+   <tags>
+      <tag pos="40">myosin I</tag>
+      <tag pos="38">fimbrin</tag>
+      <tag pos="10">actin</tag>
+      <tag pos="36">villin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">further</taggedword>
+      <taggedword index="3" part-of-speech="NN">outcome</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">this</taggedword>
+      <taggedword index="6" part-of-speech="NN">study</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="11" part-of-speech="JJ">filament</taggedword>
+      <taggedword index="12" part-of-speech="NN">core</taggedword>
+      <taggedword index="13" part-of-speech="NNS">bundles</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NNS">microvilli</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NN">chicken</taggedword>
+      <taggedword index="18" part-of-speech="NN">pigment</taggedword>
+      <taggedword index="19" part-of-speech="NN">epithelial</taggedword>
+      <taggedword index="20" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="21" part-of-speech="VBP">are</taggedword>
+      <taggedword index="22" part-of-speech="VBN">presumed</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="VB">contain</taggedword>
+      <taggedword index="25" part-of-speech="DT">a</taggedword>
+      <taggedword index="26" part-of-speech="JJ">crosslinking</taggedword>
+      <taggedword index="27" part-of-speech="NN">protein</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="WDT">which</taggedword>
+      <taggedword index="30" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="31" part-of-speech="RB">not</taggedword>
+      <taggedword index="32" part-of-speech="RB">immunologically</taggedword>
+      <taggedword index="33" part-of-speech="VBN">related</taggedword>
+      <taggedword index="34" part-of-speech="TO">to</taggedword>
+      <taggedword index="35" part-of-speech="DT">either</taggedword>
+      <taggedword index="36" part-of-speech="NN">villin</taggedword>
+      <taggedword index="37" part-of-speech=",">,</taggedword>
+      <taggedword index="38" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="39" part-of-speech="CC">or</taggedword>
+      <taggedword index="40" part-of-speech="NNS">myosin I</taggedword>
+      <taggedword index="41" part-of-speech="IN">of</taggedword>
+      <taggedword index="42" part-of-speech="DT">the</taggedword>
+      <taggedword index="43" part-of-speech="JJ">intestinal</taggedword>
+      <taggedword index="44" part-of-speech="NN">brush</taggedword>
+      <taggedword index="45" part-of-speech="NN">border</taggedword>
+      <taggedword index="46" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="outcome" gov_index="3">det</dependency>
+      <dependency dep="further" dep_index="2" gov="outcome" gov_index="3">amod</dependency>
+      <dependency dep="outcome" dep_index="3" gov="is" gov_index="7">nsubj</dependency>
+      <dependency dep="this" dep_index="5" gov="study" gov_index="6">det</dependency>
+      <dependency dep="study" dep_index="6" gov="outcome" gov_index="3">prep_of</dependency>
+      <dependency dep="is" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="presumed" gov_index="22">mark</dependency>
+      <dependency dep="the" dep_index="9" gov="bundles" gov_index="13">det</dependency>
+      <dependency dep="actin" dep_index="10" gov="bundles" gov_index="13">amod</dependency>
+      <dependency dep="filament" dep_index="11" gov="bundles" gov_index="13">amod</dependency>
+      <dependency dep="core" dep_index="12" gov="bundles" gov_index="13">nn</dependency>
+      <dependency dep="bundles" dep_index="13" gov="presumed" gov_index="22">nsubjpass</dependency>
+      <dependency dep="bundles" dep_index="13" gov="contain" gov_index="24">xsubj</dependency>
+      <dependency dep="microvilli" dep_index="15" gov="bundles" gov_index="13">prep_in</dependency>
+      <dependency dep="chicken" dep_index="17" gov="cells" gov_index="20">nn</dependency>
+      <dependency dep="pigment" dep_index="18" gov="cells" gov_index="20">nn</dependency>
+      <dependency dep="epithelial" dep_index="19" gov="cells" gov_index="20">nn</dependency>
+      <dependency dep="cells" dep_index="20" gov="microvilli" gov_index="15">prep_of</dependency>
+      <dependency dep="are" dep_index="21" gov="presumed" gov_index="22">auxpass</dependency>
+      <dependency dep="presumed" dep_index="22" gov="is" gov_index="7">ccomp</dependency>
+      <dependency dep="to" dep_index="23" gov="contain" gov_index="24">aux</dependency>
+      <dependency dep="contain" dep_index="24" gov="presumed" gov_index="22">xcomp</dependency>
+      <dependency dep="a" dep_index="25" gov="protein" gov_index="27">det</dependency>
+      <dependency dep="crosslinking" dep_index="26" gov="protein" gov_index="27">amod</dependency>
+      <dependency dep="protein" dep_index="27" gov="contain" gov_index="24">dobj</dependency>
+      <dependency dep="protein" dep_index="27" gov="related" gov_index="33">nsubjpass</dependency>
+      <dependency dep="is" dep_index="30" gov="related" gov_index="33">auxpass</dependency>
+      <dependency dep="not" dep_index="31" gov="related" gov_index="33">neg</dependency>
+      <dependency dep="immunologically" dep_index="32" gov="related" gov_index="33">advmod</dependency>
+      <dependency dep="related" dep_index="33" gov="protein" gov_index="27">rcmod</dependency>
+      <dependency dep="either" dep_index="35" gov="villin" gov_index="36">preconj</dependency>
+      <dependency dep="villin" dep_index="36" gov="related" gov_index="33">prep_to</dependency>
+      <dependency dep="fimbrin" dep_index="38" gov="related" gov_index="33">prep_to</dependency>
+      <dependency dep="fimbrin" dep_index="38" gov="villin" gov_index="36">conj_or</dependency>
+      <dependency dep="myosin I" dep_index="40" gov="related" gov_index="33">prep_to</dependency>
+      <dependency dep="myosin I" dep_index="40" gov="villin" gov_index="36">conj_or</dependency>
+      <dependency dep="the" dep_index="42" gov="border" gov_index="45">det</dependency>
+      <dependency dep="intestinal" dep_index="43" gov="border" gov_index="45">amod</dependency>
+      <dependency dep="brush" dep_index="44" gov="border" gov_index="45">nn</dependency>
+      <dependency dep="border" dep_index="45" gov="villin" gov_index="36">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3800040" relationship="false">38 36 40</relation>
+      <relation position="1000040" relationship="false">10 13 24 27 33 40</relation>
+      <relation position="3600040" relationship="false">36 33 40</relation>
+      <relation position="1000038" relationship="false">10 13 24 27 33 38</relation>
+      <relation position="3600038" relationship="false">36 33 38</relation>
+      <relation position="1000036" relationship="false">10 13 24 27 33 36</relation>
+   </relations>
+   <pairs/>
+</root>

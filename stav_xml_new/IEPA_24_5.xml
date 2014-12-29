@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Intracerebroventricular@injections@of@200@ng@oxytocin@caused@a@significant@rise@not@only@of@insulin@but@also@of@glucagon@and@glucose@levels@</sentence>
+   <tags>
+      <tag pos="6">oxytocin</tag>
+      <tag pos="14">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Intracerebroventricular</taggedword>
+      <taggedword index="2" part-of-speech="NNS">injections</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">200</taggedword>
+      <taggedword index="5" part-of-speech="NN">ng</taggedword>
+      <taggedword index="6" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="7" part-of-speech="VBD">caused</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="10" part-of-speech="NN">rise</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="JJ">only</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="15" part-of-speech="CC">but</taggedword>
+      <taggedword index="16" part-of-speech="RB">also</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">glucagon</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="21" part-of-speech="NNS">levels</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Intracerebroventricular" dep_index="1" gov="injections" gov_index="2">amod</dependency>
+      <dependency dep="injections" dep_index="2" gov="caused" gov_index="7">nsubj</dependency>
+      <dependency dep="200" dep_index="4" gov="oxytocin" gov_index="6">num</dependency>
+      <dependency dep="ng" dep_index="5" gov="oxytocin" gov_index="6">nn</dependency>
+      <dependency dep="oxytocin" dep_index="6" gov="injections" gov_index="2">prep_of</dependency>
+      <dependency dep="caused" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="8" gov="rise" gov_index="10">det</dependency>
+      <dependency dep="significant" dep_index="9" gov="rise" gov_index="10">amod</dependency>
+      <dependency dep="rise" dep_index="10" gov="caused" gov_index="7">dobj</dependency>
+      <dependency dep="not" dep_index="11" gov="only" gov_index="12">neg</dependency>
+      <dependency dep="only" dep_index="12" gov="rise" gov_index="10">dep</dependency>
+      <dependency dep="of" dep_index="13" gov="only" gov_index="12">dep</dependency>
+      <dependency dep="insulin" dep_index="14" gov="of" gov_index="13">pobj</dependency>
+      <dependency dep="also" dep_index="16" gov="rise" gov_index="10">dep</dependency>
+      <dependency dep="also" dep_index="16" gov="only" gov_index="12">conj_but</dependency>
+      <dependency dep="glucagon" dep_index="18" gov="levels" gov_index="21">nn</dependency>
+      <dependency dep="glucose" dep_index="20" gov="glucagon" gov_index="18">conj_and</dependency>
+      <dependency dep="glucose" dep_index="20" gov="levels" gov_index="21">nn</dependency>
+      <dependency dep="levels" dep_index="21" gov="caused" gov_index="7">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600014" relationship="true">6 2 7 10 12 13 14</relation>
+   </relations>
+   <pairs>
+      <pair>600014</pair>
+   </pairs>
+</root>

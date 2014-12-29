@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Apert@syndrome@(AS)@is@one@of@the@most@severe@craniosynostosis@syndromes@and@is@associated@with@severe@syndactyly@of@the@hands@and@feet@and@with@central@nervous@system@malformations@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Apert</taggedword>
+      <taggedword index="2" part-of-speech="NN">syndrome</taggedword>
+      <taggedword index="3" part-of-speech="NNS">(AS)</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="CD">one</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="RBS">most</taggedword>
+      <taggedword index="9" part-of-speech="JJ">severe</taggedword>
+      <taggedword index="10" part-of-speech="NNS">craniosynostosis</taggedword>
+      <taggedword index="11" part-of-speech="NNS">syndromes</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="JJ">severe</taggedword>
+      <taggedword index="17" part-of-speech="NN">syndactyly</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NNS">hands</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NNS">feet</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="IN">with</taggedword>
+      <taggedword index="25" part-of-speech="JJ">central</taggedword>
+      <taggedword index="26" part-of-speech="JJ">nervous</taggedword>
+      <taggedword index="27" part-of-speech="NN">system</taggedword>
+      <taggedword index="28" part-of-speech="NNS">malformations</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Apert" dep_index="1" gov="(AS)" gov_index="3">amod</dependency>
+      <dependency dep="syndrome" dep_index="2" gov="(AS)" gov_index="3">nn</dependency>
+      <dependency dep="(AS)" dep_index="3" gov="one" gov_index="5">nsubj</dependency>
+      <dependency dep="(AS)" dep_index="3" gov="associated" gov_index="14">nsubjpass</dependency>
+      <dependency dep="is" dep_index="4" gov="one" gov_index="5">cop</dependency>
+      <dependency dep="one" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="syndromes" gov_index="11">det</dependency>
+      <dependency dep="most" dep_index="8" gov="severe" gov_index="9">advmod</dependency>
+      <dependency dep="severe" dep_index="9" gov="syndromes" gov_index="11">amod</dependency>
+      <dependency dep="craniosynostosis" dep_index="10" gov="syndromes" gov_index="11">nn</dependency>
+      <dependency dep="syndromes" dep_index="11" gov="one" gov_index="5">prep_of</dependency>
+      <dependency dep="is" dep_index="13" gov="associated" gov_index="14">auxpass</dependency>
+      <dependency dep="associated" dep_index="14" gov="one" gov_index="5">conj_and</dependency>
+      <dependency dep="severe" dep_index="16" gov="syndactyly" gov_index="17">amod</dependency>
+      <dependency dep="syndactyly" dep_index="17" gov="associated" gov_index="14">prep_with</dependency>
+      <dependency dep="the" dep_index="19" gov="hands" gov_index="20">det</dependency>
+      <dependency dep="hands" dep_index="20" gov="syndactyly" gov_index="17">prep_of</dependency>
+      <dependency dep="feet" dep_index="22" gov="syndactyly" gov_index="17">prep_of</dependency>
+      <dependency dep="feet" dep_index="22" gov="hands" gov_index="20">conj_and</dependency>
+      <dependency dep="central" dep_index="25" gov="malformations" gov_index="28">amod</dependency>
+      <dependency dep="nervous" dep_index="26" gov="malformations" gov_index="28">amod</dependency>
+      <dependency dep="system" dep_index="27" gov="malformations" gov_index="28">nn</dependency>
+      <dependency dep="malformations" dep_index="28" gov="associated" gov_index="14">prep_with</dependency>
+      <dependency dep="malformations" dep_index="28" gov="syndactyly" gov_index="17">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

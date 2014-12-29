@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Assignment@of@Etfdh@,@Etfb@,@and@Etfa@to@chromosomes@3@,@7@,@and@13@:@the@mouse@homologs@of@genes@responsible@for@glutaric@acidemia@type@II@in@human@</sentence>
+   <tags>
+      <tag pos="3">Etfdh</tag>
+      <tag pos="5">Etfb</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Assignment</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Etfdh</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Etfb</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Etfa</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="NNP">chromosomes</taggedword>
+      <taggedword index="11" part-of-speech="CD">3</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="CD">7</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="CD">13</taggedword>
+      <taggedword index="17" part-of-speech=":">:</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="20" part-of-speech="NNS">homologs</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="23" part-of-speech="JJ">responsible</taggedword>
+      <taggedword index="24" part-of-speech="IN">for</taggedword>
+      <taggedword index="25" part-of-speech="JJ">glutaric</taggedword>
+      <taggedword index="26" part-of-speech="NN">acidemia</taggedword>
+      <taggedword index="27" part-of-speech="NN">type</taggedword>
+      <taggedword index="28" part-of-speech="NNP">II</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="NN">human</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Assignment" dep_index="1" gov="responsible" gov_index="23">dep</dependency>
+      <dependency dep="Etfdh" dep_index="3" gov="Assignment" gov_index="1">prep_of</dependency>
+      <dependency dep="Etfb" dep_index="5" gov="Assignment" gov_index="1">prep_of</dependency>
+      <dependency dep="Etfb" dep_index="5" gov="Etfdh" gov_index="3">conj_and</dependency>
+      <dependency dep="Etfa" dep_index="8" gov="Assignment" gov_index="1">prep_of</dependency>
+      <dependency dep="Etfa" dep_index="8" gov="Etfdh" gov_index="3">conj_and</dependency>
+      <dependency dep="chromosomes" dep_index="10" gov="Assignment" gov_index="1">prep_to</dependency>
+      <dependency dep="3" dep_index="11" gov="chromosomes" gov_index="10">num</dependency>
+      <dependency dep="7" dep_index="13" gov="chromosomes" gov_index="10">num</dependency>
+      <dependency dep="13" dep_index="16" gov="Assignment" gov_index="1">conj_and</dependency>
+      <dependency dep="13" dep_index="16" gov="responsible" gov_index="23">dep</dependency>
+      <dependency dep="the" dep_index="18" gov="homologs" gov_index="20">det</dependency>
+      <dependency dep="mouse" dep_index="19" gov="homologs" gov_index="20">nn</dependency>
+      <dependency dep="homologs" dep_index="20" gov="13" gov_index="16">dep</dependency>
+      <dependency dep="genes" dep_index="22" gov="homologs" gov_index="20">prep_of</dependency>
+      <dependency dep="responsible" dep_index="23" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="for" dep_index="24" gov="responsible" gov_index="23">dep</dependency>
+      <dependency dep="glutaric" dep_index="25" gov="II" gov_index="28">amod</dependency>
+      <dependency dep="acidemia" dep_index="26" gov="II" gov_index="28">nn</dependency>
+      <dependency dep="type" dep_index="27" gov="II" gov_index="28">nn</dependency>
+      <dependency dep="II" dep_index="28" gov="for" gov_index="24">pobj</dependency>
+      <dependency dep="human" dep_index="30" gov="II" gov_index="28">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="false">3 1 5</relation>
+   </relations>
+   <pairs/>
+</root>

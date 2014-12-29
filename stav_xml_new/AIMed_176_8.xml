@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Since@hsp90@and@hsp70@do@not@readily@associate@on@their@own@,@it@appears@that@p60@is@the@central@organizing@component@of@an@hsp90@-@p60@-@hsp70@complex@.@</sentence>
+   <tags>
+      <tag pos="2">hsp90</tag>
+      <tag pos="4">hsp70</tag>
+      <tag pos="16">p60</tag>
+      <tag pos="24">hsp90</tag>
+      <tag pos="26">p60</tag>
+      <tag pos="28">hsp70</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Since</taggedword>
+      <taggedword index="2" part-of-speech="NNS">hsp90</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NNS">hsp70</taggedword>
+      <taggedword index="5" part-of-speech="VBP">do</taggedword>
+      <taggedword index="6" part-of-speech="RB">not</taggedword>
+      <taggedword index="7" part-of-speech="RB">readily</taggedword>
+      <taggedword index="8" part-of-speech="VB">associate</taggedword>
+      <taggedword index="9" part-of-speech="IN">on</taggedword>
+      <taggedword index="10" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="11" part-of-speech="JJ">own</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="PRP">it</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">appears</taggedword>
+      <taggedword index="15" part-of-speech="IN">that</taggedword>
+      <taggedword index="16" part-of-speech="NNS">p60</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">central</taggedword>
+      <taggedword index="20" part-of-speech="VBG">organizing</taggedword>
+      <taggedword index="21" part-of-speech="NN">component</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="DT">an</taggedword>
+      <taggedword index="24" part-of-speech="JJ">hsp90</taggedword>
+      <taggedword index="25" part-of-speech=":">-</taggedword>
+      <taggedword index="26" part-of-speech="JJ">p60</taggedword>
+      <taggedword index="27" part-of-speech=":">-</taggedword>
+      <taggedword index="28" part-of-speech="JJ">hsp70</taggedword>
+      <taggedword index="29" part-of-speech="NN">complex</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Since" dep_index="1" gov="associate" gov_index="8">mark</dependency>
+      <dependency dep="hsp90" dep_index="2" gov="associate" gov_index="8">nsubj</dependency>
+      <dependency dep="hsp70" dep_index="4" gov="hsp90" gov_index="2">conj_and</dependency>
+      <dependency dep="hsp70" dep_index="4" gov="associate" gov_index="8">nsubj</dependency>
+      <dependency dep="do" dep_index="5" gov="associate" gov_index="8">aux</dependency>
+      <dependency dep="not" dep_index="6" gov="associate" gov_index="8">neg</dependency>
+      <dependency dep="readily" dep_index="7" gov="associate" gov_index="8">advmod</dependency>
+      <dependency dep="associate" dep_index="8" gov="appears" gov_index="14">advcl</dependency>
+      <dependency dep="their" dep_index="10" gov="own" gov_index="11">poss</dependency>
+      <dependency dep="own" dep_index="11" gov="associate" gov_index="8">prep_on</dependency>
+      <dependency dep="it" dep_index="13" gov="appears" gov_index="14">nsubj</dependency>
+      <dependency dep="appears" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="15" gov="component" gov_index="21">mark</dependency>
+      <dependency dep="p60" dep_index="16" gov="component" gov_index="21">nsubj</dependency>
+      <dependency dep="is" dep_index="17" gov="component" gov_index="21">cop</dependency>
+      <dependency dep="the" dep_index="18" gov="component" gov_index="21">det</dependency>
+      <dependency dep="central" dep_index="19" gov="component" gov_index="21">amod</dependency>
+      <dependency dep="organizing" dep_index="20" gov="component" gov_index="21">amod</dependency>
+      <dependency dep="component" dep_index="21" gov="appears" gov_index="14">ccomp</dependency>
+      <dependency dep="an" dep_index="23" gov="complex" gov_index="29">det</dependency>
+      <dependency dep="hsp90" dep_index="24" gov="complex" gov_index="29">amod</dependency>
+      <dependency dep="p60" dep_index="26" gov="complex" gov_index="29">dep</dependency>
+      <dependency dep="hsp70" dep_index="28" gov="complex" gov_index="29">amod</dependency>
+      <dependency dep="complex" dep_index="29" gov="component" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 8 4</relation>
+      <relation position="200016" relationship="false">2 8 14 21 16</relation>
+      <relation position="200024" relationship="false">2 8 14 21 29 24</relation>
+      <relation position="200026" relationship="false">2 8 14 21 29 26</relation>
+      <relation position="200028" relationship="false">2 8 14 21 29 28</relation>
+      <relation position="400016" relationship="false">4 8 14 21 16</relation>
+      <relation position="400024" relationship="false">4 8 14 21 29 24</relation>
+      <relation position="400026" relationship="false">4 8 14 21 29 26</relation>
+      <relation position="400028" relationship="false">4 8 14 21 29 28</relation>
+      <relation position="1600024" relationship="false">16 21 29 24</relation>
+      <relation position="1600026" relationship="false">16 21 29 26</relation>
+      <relation position="1600028" relationship="false">16 21 29 28</relation>
+      <relation position="2400026" relationship="true">24 29 26</relation>
+      <relation position="2400028" relationship="false">24 29 28</relation>
+      <relation position="2600028" relationship="false">26 29 28</relation>
+   </relations>
+   <pairs>
+      <pair>2400026</pair>
+   </pairs>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>New@structural@and@functional@aspects@of@the@type I interferon-receptor@interaction@revealed@by@comprehensive@mutational@analysis@of@the@binding@interface@.@</sentence>
+   <tags>
+      <tag pos="8">type I interferon-receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">New</taggedword>
+      <taggedword index="2" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="5" part-of-speech="NNS">aspects</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">type I interferon-receptor</taggedword>
+      <taggedword index="9" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="10" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="JJ">comprehensive</taggedword>
+      <taggedword index="13" part-of-speech="JJ">mutational</taggedword>
+      <taggedword index="14" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="18" part-of-speech="NN">interface</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="New" dep_index="1" gov="aspects" gov_index="5">nn</dependency>
+      <dependency dep="structural" dep_index="2" gov="aspects" gov_index="5">amod</dependency>
+      <dependency dep="functional" dep_index="4" gov="structural" gov_index="2">conj_and</dependency>
+      <dependency dep="functional" dep_index="4" gov="aspects" gov_index="5">amod</dependency>
+      <dependency dep="aspects" dep_index="5" gov="revealed" gov_index="10">nsubj</dependency>
+      <dependency dep="the" dep_index="7" gov="interaction" gov_index="9">det</dependency>
+      <dependency dep="type I interferon-receptor" dep_index="8" gov="interaction" gov_index="9">amod</dependency>
+      <dependency dep="interaction" dep_index="9" gov="aspects" gov_index="5">prep_of</dependency>
+      <dependency dep="revealed" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="comprehensive" dep_index="12" gov="analysis" gov_index="14">amod</dependency>
+      <dependency dep="mutational" dep_index="13" gov="analysis" gov_index="14">amod</dependency>
+      <dependency dep="analysis" dep_index="14" gov="revealed" gov_index="10">prep_by</dependency>
+      <dependency dep="the" dep_index="16" gov="interface" gov_index="18">det</dependency>
+      <dependency dep="binding" dep_index="17" gov="interface" gov_index="18">amod</dependency>
+      <dependency dep="interface" dep_index="18" gov="analysis" gov_index="14">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

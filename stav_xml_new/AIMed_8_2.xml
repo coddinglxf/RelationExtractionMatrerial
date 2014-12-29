@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@K-ras@,@p53@,@p16@and@DPC4@genes@are@among@those@most@frequently@altered@in@pancreatic@ductal@carcinoma@.@</sentence>
+   <tags>
+      <tag pos="2">K-ras</tag>
+      <tag pos="4">p53</tag>
+      <tag pos="6">p16</tag>
+      <tag pos="8">DPC4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">K-ras</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">p53</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NNP">p16</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NNP">DPC4</taggedword>
+      <taggedword index="9" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="IN">among</taggedword>
+      <taggedword index="12" part-of-speech="DT">those</taggedword>
+      <taggedword index="13" part-of-speech="JJS">most</taggedword>
+      <taggedword index="14" part-of-speech="RB">frequently</taggedword>
+      <taggedword index="15" part-of-speech="VBN">altered</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="JJ">pancreatic</taggedword>
+      <taggedword index="18" part-of-speech="JJ">ductal</taggedword>
+      <taggedword index="19" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="genes" gov_index="9">det</dependency>
+      <dependency dep="K-ras" dep_index="2" gov="genes" gov_index="9">nn</dependency>
+      <dependency dep="p53" dep_index="4" gov="K-ras" gov_index="2">conj_and</dependency>
+      <dependency dep="p53" dep_index="4" gov="genes" gov_index="9">nn</dependency>
+      <dependency dep="p16" dep_index="6" gov="K-ras" gov_index="2">conj_and</dependency>
+      <dependency dep="p16" dep_index="6" gov="genes" gov_index="9">nn</dependency>
+      <dependency dep="DPC4" dep_index="8" gov="K-ras" gov_index="2">conj_and</dependency>
+      <dependency dep="DPC4" dep_index="8" gov="genes" gov_index="9">nn</dependency>
+      <dependency dep="genes" dep_index="9" gov="are" gov_index="10">nsubj</dependency>
+      <dependency dep="are" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="those" dep_index="12" gov="most" gov_index="13">det</dependency>
+      <dependency dep="most" dep_index="13" gov="are" gov_index="10">prep_among</dependency>
+      <dependency dep="frequently" dep_index="14" gov="altered" gov_index="15">advmod</dependency>
+      <dependency dep="altered" dep_index="15" gov="most" gov_index="13">partmod</dependency>
+      <dependency dep="pancreatic" dep_index="17" gov="carcinoma" gov_index="19">amod</dependency>
+      <dependency dep="ductal" dep_index="18" gov="carcinoma" gov_index="19">amod</dependency>
+      <dependency dep="carcinoma" dep_index="19" gov="altered" gov_index="15">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 9 4</relation>
+      <relation position="200006" relationship="false">2 9 6</relation>
+      <relation position="200008" relationship="false">2 9 8</relation>
+      <relation position="400006" relationship="false">4 9 6</relation>
+      <relation position="400008" relationship="false">4 9 8</relation>
+      <relation position="600008" relationship="false">6 9 8</relation>
+   </relations>
+   <pairs/>
+</root>

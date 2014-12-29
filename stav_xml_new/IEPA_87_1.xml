@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@findings@led@us@to@conclude@that@inositol@trisphosphate@[corrected]@causes@Ca2+@mobilization@by@muscarinic@activation@of@PLC@,@leading@to@intracellular@translocation@of@insulin@granules@to@the@ready-releasable@pool@in@pancreatic@beta-cells@via@Ca2+/calmodulin-dependent@phosphorylation@of@myosin@light@chains@</sentence>
+   <tags>
+      <tag pos="18">PLC</tag>
+      <tag pos="25">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">findings</taggedword>
+      <taggedword index="3" part-of-speech="VBD">led</taggedword>
+      <taggedword index="4" part-of-speech="PRP">us</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="VB">conclude</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="JJ">inositol</taggedword>
+      <taggedword index="9" part-of-speech="NN">trisphosphate</taggedword>
+      <taggedword index="10" part-of-speech="NNS">[corrected]</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">causes</taggedword>
+      <taggedword index="12" part-of-speech="JJ">Ca2+</taggedword>
+      <taggedword index="13" part-of-speech="NN">mobilization</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="JJ">muscarinic</taggedword>
+      <taggedword index="16" part-of-speech="NN">activation</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="VBG">leading</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="VB">intracellular</taggedword>
+      <taggedword index="23" part-of-speech="NN">translocation</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="26" part-of-speech="NNS">granules</taggedword>
+      <taggedword index="27" part-of-speech="TO">to</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">ready-releasable</taggedword>
+      <taggedword index="30" part-of-speech="NN">pool</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="JJ">pancreatic</taggedword>
+      <taggedword index="33" part-of-speech="NNS">beta-cells</taggedword>
+      <taggedword index="34" part-of-speech="IN">via</taggedword>
+      <taggedword index="35" part-of-speech="NN">Ca2+/calmodulin-dependent</taggedword>
+      <taggedword index="36" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="37" part-of-speech="IN">of</taggedword>
+      <taggedword index="38" part-of-speech="JJ">myosin</taggedword>
+      <taggedword index="39" part-of-speech="NN">light</taggedword>
+      <taggedword index="40" part-of-speech="NNS">chains</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="findings" gov_index="2">det</dependency>
+      <dependency dep="findings" dep_index="2" gov="led" gov_index="3">nsubj</dependency>
+      <dependency dep="led" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="us" dep_index="4" gov="conclude" gov_index="6">nsubj</dependency>
+      <dependency dep="to" dep_index="5" gov="conclude" gov_index="6">aux</dependency>
+      <dependency dep="conclude" dep_index="6" gov="led" gov_index="3">xcomp</dependency>
+      <dependency dep="that" dep_index="7" gov="causes" gov_index="11">mark</dependency>
+      <dependency dep="inositol" dep_index="8" gov="[corrected]" gov_index="10">amod</dependency>
+      <dependency dep="trisphosphate" dep_index="9" gov="[corrected]" gov_index="10">nn</dependency>
+      <dependency dep="[corrected]" dep_index="10" gov="causes" gov_index="11">nsubj</dependency>
+      <dependency dep="causes" dep_index="11" gov="conclude" gov_index="6">ccomp</dependency>
+      <dependency dep="Ca2+" dep_index="12" gov="mobilization" gov_index="13">amod</dependency>
+      <dependency dep="mobilization" dep_index="13" gov="causes" gov_index="11">dobj</dependency>
+      <dependency dep="muscarinic" dep_index="15" gov="activation" gov_index="16">amod</dependency>
+      <dependency dep="activation" dep_index="16" gov="causes" gov_index="11">prep_by</dependency>
+      <dependency dep="PLC" dep_index="18" gov="activation" gov_index="16">prep_of</dependency>
+      <dependency dep="leading" dep_index="20" gov="causes" gov_index="11">partmod</dependency>
+      <dependency dep="to" dep_index="21" gov="intracellular" gov_index="22">aux</dependency>
+      <dependency dep="intracellular" dep_index="22" gov="leading" gov_index="20">xcomp</dependency>
+      <dependency dep="translocation" dep_index="23" gov="intracellular" gov_index="22">dobj</dependency>
+      <dependency dep="insulin" dep_index="25" gov="granules" gov_index="26">nn</dependency>
+      <dependency dep="granules" dep_index="26" gov="translocation" gov_index="23">prep_of</dependency>
+      <dependency dep="the" dep_index="28" gov="pool" gov_index="30">det</dependency>
+      <dependency dep="ready-releasable" dep_index="29" gov="pool" gov_index="30">amod</dependency>
+      <dependency dep="pool" dep_index="30" gov="intracellular" gov_index="22">prep_to</dependency>
+      <dependency dep="pancreatic" dep_index="32" gov="beta-cells" gov_index="33">amod</dependency>
+      <dependency dep="beta-cells" dep_index="33" gov="pool" gov_index="30">prep_in</dependency>
+      <dependency dep="Ca2+/calmodulin-dependent" dep_index="35" gov="phosphorylation" gov_index="36">nn</dependency>
+      <dependency dep="phosphorylation" dep_index="36" gov="beta-cells" gov_index="33">prep_via</dependency>
+      <dependency dep="myosin" dep_index="38" gov="chains" gov_index="40">amod</dependency>
+      <dependency dep="light" dep_index="39" gov="chains" gov_index="40">nn</dependency>
+      <dependency dep="chains" dep_index="40" gov="phosphorylation" gov_index="36">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800025" relationship="true">18 16 11 20 22 23 26 25</relation>
+   </relations>
+   <pairs>
+      <pair>1800025</pair>
+   </pairs>
+</root>

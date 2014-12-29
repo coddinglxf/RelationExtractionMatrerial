@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Calphostin@C@and@ET-18-OCH(3)@,@inhibitors@of@protein kinase C@,@reduced@the@phosphorylation@of@p38@MAP@kinase@by@AVP@</sentence>
+   <tags>
+      <tag pos="8">protein kinase C</tag>
+      <tag pos="18">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Calphostin</taggedword>
+      <taggedword index="2" part-of-speech="NNP">C</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NNP">ET-18-OCH(3)</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NNS">inhibitors</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">protein kinase C</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="VBD">reduced</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">p38</taggedword>
+      <taggedword index="15" part-of-speech="NNP">MAP</taggedword>
+      <taggedword index="16" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="NNP">AVP</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Calphostin" dep_index="1" gov="C" gov_index="2">nn</dependency>
+      <dependency dep="C" dep_index="2" gov="reduced" gov_index="10">nsubj</dependency>
+      <dependency dep="ET-18-OCH(3)" dep_index="4" gov="C" gov_index="2">conj_and</dependency>
+      <dependency dep="ET-18-OCH(3)" dep_index="4" gov="reduced" gov_index="10">nsubj</dependency>
+      <dependency dep="inhibitors" dep_index="6" gov="C" gov_index="2">appos</dependency>
+      <dependency dep="protein kinase C" dep_index="8" gov="inhibitors" gov_index="6">prep_of</dependency>
+      <dependency dep="reduced" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="phosphorylation" gov_index="12">det</dependency>
+      <dependency dep="phosphorylation" dep_index="12" gov="reduced" gov_index="10">dobj</dependency>
+      <dependency dep="p38" dep_index="14" gov="kinase" gov_index="16">amod</dependency>
+      <dependency dep="MAP" dep_index="15" gov="kinase" gov_index="16">nn</dependency>
+      <dependency dep="kinase" dep_index="16" gov="phosphorylation" gov_index="12">prep_of</dependency>
+      <dependency dep="AVP" dep_index="18" gov="reduced" gov_index="10">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800018" relationship="true">8 6 2 10 18</relation>
+   </relations>
+   <pairs>
+      <pair>800018</pair>
+   </pairs>
+</root>

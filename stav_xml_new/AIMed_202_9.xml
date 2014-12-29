@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@two@receptor-binding@regions@on@IL-1beta@identified@by@site-directed@mutagenesis@both@contact@the@receptor@:@one@binds@to@the@first@two@domains@of@the@receptor@,@while@the@other@binds@exclusively@to@the@third@domain@.@</sentence>
+   <tags>
+      <tag pos="6">IL-1beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="CD">two</taggedword>
+      <taggedword index="3" part-of-speech="JJ">receptor-binding</taggedword>
+      <taggedword index="4" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="5" part-of-speech="IN">on</taggedword>
+      <taggedword index="6" part-of-speech="NNS">IL-1beta</taggedword>
+      <taggedword index="7" part-of-speech="VBD">identified</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="JJ">site-directed</taggedword>
+      <taggedword index="10" part-of-speech="NNS">mutagenesis</taggedword>
+      <taggedword index="11" part-of-speech="DT">both</taggedword>
+      <taggedword index="12" part-of-speech="NN">contact</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="15" part-of-speech=":">:</taggedword>
+      <taggedword index="16" part-of-speech="CD">one</taggedword>
+      <taggedword index="17" part-of-speech="NNS">binds</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">first</taggedword>
+      <taggedword index="21" part-of-speech="CD">two</taggedword>
+      <taggedword index="22" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="IN">while</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">other</taggedword>
+      <taggedword index="30" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="31" part-of-speech="RB">exclusively</taggedword>
+      <taggedword index="32" part-of-speech="TO">to</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="JJ">third</taggedword>
+      <taggedword index="35" part-of-speech="NN">domain</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="regions" gov_index="4">det</dependency>
+      <dependency dep="two" dep_index="2" gov="regions" gov_index="4">num</dependency>
+      <dependency dep="receptor-binding" dep_index="3" gov="regions" gov_index="4">amod</dependency>
+      <dependency dep="regions" dep_index="4" gov="identified" gov_index="7">nsubj</dependency>
+      <dependency dep="IL-1beta" dep_index="6" gov="regions" gov_index="4">prep_on</dependency>
+      <dependency dep="identified" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="site-directed" dep_index="9" gov="mutagenesis" gov_index="10">amod</dependency>
+      <dependency dep="mutagenesis" dep_index="10" gov="identified" gov_index="7">prep_by</dependency>
+      <dependency dep="both" dep_index="11" gov="contact" gov_index="12">det</dependency>
+      <dependency dep="contact" dep_index="12" gov="identified" gov_index="7">dobj</dependency>
+      <dependency dep="the" dep_index="13" gov="receptor" gov_index="14">det</dependency>
+      <dependency dep="receptor" dep_index="14" gov="contact" gov_index="12">dep</dependency>
+      <dependency dep="one" dep_index="16" gov="binds" gov_index="17">num</dependency>
+      <dependency dep="binds" dep_index="17" gov="contact" gov_index="12">dep</dependency>
+      <dependency dep="the" dep_index="19" gov="domains" gov_index="22">det</dependency>
+      <dependency dep="first" dep_index="20" gov="domains" gov_index="22">amod</dependency>
+      <dependency dep="two" dep_index="21" gov="domains" gov_index="22">num</dependency>
+      <dependency dep="domains" dep_index="22" gov="binds" gov_index="17">prep_to</dependency>
+      <dependency dep="the" dep_index="24" gov="receptor" gov_index="25">det</dependency>
+      <dependency dep="receptor" dep_index="25" gov="binds" gov_index="17">prep_of</dependency>
+      <dependency dep="receptor" dep_index="25" gov="binds" gov_index="30">dobj</dependency>
+      <dependency dep="while" dep_index="27" gov="binds" gov_index="30">mark</dependency>
+      <dependency dep="the" dep_index="28" gov="other" gov_index="29">det</dependency>
+      <dependency dep="other" dep_index="29" gov="binds" gov_index="30">nsubj</dependency>
+      <dependency dep="binds" dep_index="30" gov="receptor" gov_index="25">dep</dependency>
+      <dependency dep="exclusively" dep_index="31" gov="binds" gov_index="30">advmod</dependency>
+      <dependency dep="the" dep_index="33" gov="domain" gov_index="35">det</dependency>
+      <dependency dep="third" dep_index="34" gov="domain" gov_index="35">amod</dependency>
+      <dependency dep="domain" dep_index="35" gov="binds" gov_index="30">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

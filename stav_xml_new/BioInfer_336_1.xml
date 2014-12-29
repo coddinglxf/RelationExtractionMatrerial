@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@growth@cones@,@myosin heavy chain B@was@most@concentrated@in@the@margin@bordering@the@thickened@,@organelle-rich@central@region@and@the@thin@,@actin@-rich@peripheral@region@.@</sentence>
+   <tags>
+      <tag pos="5">myosin heavy chain B</tag>
+      <tag pos="23">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">growth</taggedword>
+      <taggedword index="3" part-of-speech="NNS">cones</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NN">myosin heavy chain B</taggedword>
+      <taggedword index="6" part-of-speech="VBD">was</taggedword>
+      <taggedword index="7" part-of-speech="RBS">most</taggedword>
+      <taggedword index="8" part-of-speech="JJ">concentrated</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">margin</taggedword>
+      <taggedword index="12" part-of-speech="VBG">bordering</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">thickened</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="JJ">organelle-rich</taggedword>
+      <taggedword index="17" part-of-speech="JJ">central</taggedword>
+      <taggedword index="18" part-of-speech="NN">region</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">thin</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="24" part-of-speech="JJ">-rich</taggedword>
+      <taggedword index="25" part-of-speech="JJ">peripheral</taggedword>
+      <taggedword index="26" part-of-speech="NN">region</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="growth" dep_index="2" gov="cones" gov_index="3">nn</dependency>
+      <dependency dep="cones" dep_index="3" gov="concentrated" gov_index="8">prep_in</dependency>
+      <dependency dep="myosin heavy chain B" dep_index="5" gov="concentrated" gov_index="8">nsubj</dependency>
+      <dependency dep="was" dep_index="6" gov="concentrated" gov_index="8">cop</dependency>
+      <dependency dep="most" dep_index="7" gov="concentrated" gov_index="8">advmod</dependency>
+      <dependency dep="concentrated" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="margin" gov_index="11">det</dependency>
+      <dependency dep="margin" dep_index="11" gov="concentrated" gov_index="8">prep_in</dependency>
+      <dependency dep="bordering" dep_index="12" gov="margin" gov_index="11">partmod</dependency>
+      <dependency dep="the" dep_index="13" gov="region" gov_index="18">det</dependency>
+      <dependency dep="thickened" dep_index="14" gov="region" gov_index="18">amod</dependency>
+      <dependency dep="organelle-rich" dep_index="16" gov="region" gov_index="18">amod</dependency>
+      <dependency dep="central" dep_index="17" gov="region" gov_index="18">amod</dependency>
+      <dependency dep="region" dep_index="18" gov="bordering" gov_index="12">dobj</dependency>
+      <dependency dep="the" dep_index="20" gov="region" gov_index="26">det</dependency>
+      <dependency dep="thin" dep_index="21" gov="region" gov_index="26">amod</dependency>
+      <dependency dep="actin" dep_index="23" gov="region" gov_index="26">amod</dependency>
+      <dependency dep="-rich" dep_index="24" gov="region" gov_index="26">amod</dependency>
+      <dependency dep="peripheral" dep_index="25" gov="region" gov_index="26">amod</dependency>
+      <dependency dep="region" dep_index="26" gov="bordering" gov_index="12">dobj</dependency>
+      <dependency dep="region" dep_index="26" gov="region" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500023" relationship="false">5 8 11 12 26 23</relation>
+   </relations>
+   <pairs/>
+</root>

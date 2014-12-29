@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Class II profilins@had@higher@affinity@for@poly-l-proline@and@sequestered@more@monomeric@actin@than@did@class I profilins@.@</sentence>
+   <tags>
+      <tag pos="14">class I profilins</tag>
+      <tag pos="11">actin</tag>
+      <tag pos="1">Class II profilins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Class II profilins</taggedword>
+      <taggedword index="2" part-of-speech="VBD">had</taggedword>
+      <taggedword index="3" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="4" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="JJ">poly-l-proline</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">sequestered</taggedword>
+      <taggedword index="9" part-of-speech="RBR">more</taggedword>
+      <taggedword index="10" part-of-speech="JJ">monomeric</taggedword>
+      <taggedword index="11" part-of-speech="NN">actin</taggedword>
+      <taggedword index="12" part-of-speech="IN">than</taggedword>
+      <taggedword index="13" part-of-speech="VBD">did</taggedword>
+      <taggedword index="14" part-of-speech="NNS">class I profilins</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Class II profilins" dep_index="1" gov="had" gov_index="2">nsubj</dependency>
+      <dependency dep="had" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="higher" dep_index="3" gov="affinity" gov_index="4">amod</dependency>
+      <dependency dep="affinity" dep_index="4" gov="had" gov_index="2">dobj</dependency>
+      <dependency dep="poly-l-proline" dep_index="6" gov="actin" gov_index="11">amod</dependency>
+      <dependency dep="sequestered" dep_index="8" gov="poly-l-proline" gov_index="6">conj_and</dependency>
+      <dependency dep="sequestered" dep_index="8" gov="actin" gov_index="11">amod</dependency>
+      <dependency dep="more" dep_index="9" gov="monomeric" gov_index="10">advmod</dependency>
+      <dependency dep="monomeric" dep_index="10" gov="actin" gov_index="11">amod</dependency>
+      <dependency dep="actin" dep_index="11" gov="affinity" gov_index="4">prep_for</dependency>
+      <dependency dep="than" dep_index="12" gov="did" gov_index="13">mark</dependency>
+      <dependency dep="did" dep_index="13" gov="had" gov_index="2">advcl</dependency>
+      <dependency dep="class I profilins" dep_index="14" gov="did" gov_index="13">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100014" relationship="true">11 4 2 13 14</relation>
+      <relation position="100014" relationship="false">1 2 13 14</relation>
+      <relation position="100011" relationship="true">1 2 4 11</relation>
+   </relations>
+   <pairs>
+      <pair>100011</pair>
+      <pair>1100014</pair>
+   </pairs>
+</root>

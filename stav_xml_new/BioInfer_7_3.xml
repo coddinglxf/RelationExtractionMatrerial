@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Addition@of@profilin@to@polymerized@actin@causes@it@to@depolymerize@until@a@new@steady-state@,@dependent@on@profilin@concentration@,@is@achieved@.@</sentence>
+   <tags>
+      <tag pos="3">profilin</tag>
+      <tag pos="6">actin</tag>
+      <tag pos="18">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Addition</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="JJ">polymerized</taggedword>
+      <taggedword index="6" part-of-speech="NN">actin</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">causes</taggedword>
+      <taggedword index="8" part-of-speech="PRP">it</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="VB">depolymerize</taggedword>
+      <taggedword index="11" part-of-speech="IN">until</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">new</taggedword>
+      <taggedword index="14" part-of-speech="NN">steady-state</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="JJ">dependent</taggedword>
+      <taggedword index="17" part-of-speech="IN">on</taggedword>
+      <taggedword index="18" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="19" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="22" part-of-speech="VBN">achieved</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Addition" dep_index="1" gov="causes" gov_index="7">nsubj</dependency>
+      <dependency dep="profilin" dep_index="3" gov="Addition" gov_index="1">prep_of</dependency>
+      <dependency dep="polymerized" dep_index="5" gov="actin" gov_index="6">amod</dependency>
+      <dependency dep="actin" dep_index="6" gov="profilin" gov_index="3">prep_to</dependency>
+      <dependency dep="causes" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="it" dep_index="8" gov="depolymerize" gov_index="10">nsubj</dependency>
+      <dependency dep="to" dep_index="9" gov="depolymerize" gov_index="10">aux</dependency>
+      <dependency dep="depolymerize" dep_index="10" gov="causes" gov_index="7">xcomp</dependency>
+      <dependency dep="until" dep_index="11" gov="achieved" gov_index="22">mark</dependency>
+      <dependency dep="a" dep_index="12" gov="steady-state" gov_index="14">det</dependency>
+      <dependency dep="new" dep_index="13" gov="steady-state" gov_index="14">amod</dependency>
+      <dependency dep="steady-state" dep_index="14" gov="achieved" gov_index="22">nsubjpass</dependency>
+      <dependency dep="dependent" dep_index="16" gov="steady-state" gov_index="14">amod</dependency>
+      <dependency dep="profilin" dep_index="18" gov="concentration" gov_index="19">nn</dependency>
+      <dependency dep="concentration" dep_index="19" gov="dependent" gov_index="16">prep_on</dependency>
+      <dependency dep="is" dep_index="21" gov="achieved" gov_index="22">auxpass</dependency>
+      <dependency dep="achieved" dep_index="22" gov="depolymerize" gov_index="10">advcl</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300006" relationship="true"></relation>
+      <relation position="300018" relationship="false">3 1 7 10 22 14 16 19 18</relation>
+      <relation position="600018" relationship="false">6 3 1 7 10 22 14 16 19 18</relation>
+   </relations>
+   <pairs>
+      <pair>300006</pair>
+   </pairs>
+</root>

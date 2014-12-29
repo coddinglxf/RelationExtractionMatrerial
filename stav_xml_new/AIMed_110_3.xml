@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@TAFs@in@TFIID@are@essential@for@activator-dependent@transcription@.@</sentence>
+   <tags>
+      <tag pos="4">TFIID</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNPS">TAFs</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NNP">TFIID</taggedword>
+      <taggedword index="5" part-of-speech="VBP">are</taggedword>
+      <taggedword index="6" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="JJ">activator-dependent</taggedword>
+      <taggedword index="9" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="TAFs" gov_index="2">det</dependency>
+      <dependency dep="TAFs" dep_index="2" gov="essential" gov_index="6">nsubj</dependency>
+      <dependency dep="TFIID" dep_index="4" gov="TAFs" gov_index="2">prep_in</dependency>
+      <dependency dep="are" dep_index="5" gov="essential" gov_index="6">cop</dependency>
+      <dependency dep="essential" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="activator-dependent" dep_index="8" gov="transcription" gov_index="9">amod</dependency>
+      <dependency dep="transcription" dep_index="9" gov="essential" gov_index="6">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

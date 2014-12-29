@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@investigated@actin@filament@turnover@rates@,@length@,@number@,@barbed@end@exposure@,@and@binding@of@cofilin@in@bovine@arterial@endothelial@cells@moving@at@different@speeds@depending@on@their@position@in@a@confluent@monolayer@.@</sentence>
+   <tags>
+      <tag pos="19">cofilin</tag>
+      <tag pos="3">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">investigated</taggedword>
+      <taggedword index="3" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="4" part-of-speech="JJ">filament</taggedword>
+      <taggedword index="5" part-of-speech="NN">turnover</taggedword>
+      <taggedword index="6" part-of-speech="NNS">rates</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">length</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">number</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="JJ">barbed</taggedword>
+      <taggedword index="13" part-of-speech="NN">end</taggedword>
+      <taggedword index="14" part-of-speech="NN">exposure</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="JJ">bovine</taggedword>
+      <taggedword index="22" part-of-speech="JJ">arterial</taggedword>
+      <taggedword index="23" part-of-speech="JJ">endothelial</taggedword>
+      <taggedword index="24" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="25" part-of-speech="VBG">moving</taggedword>
+      <taggedword index="26" part-of-speech="IN">at</taggedword>
+      <taggedword index="27" part-of-speech="JJ">different</taggedword>
+      <taggedword index="28" part-of-speech="NNS">speeds</taggedword>
+      <taggedword index="29" part-of-speech="VBG">depending</taggedword>
+      <taggedword index="30" part-of-speech="IN">on</taggedword>
+      <taggedword index="31" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="32" part-of-speech="NN">position</taggedword>
+      <taggedword index="33" part-of-speech="IN">in</taggedword>
+      <taggedword index="34" part-of-speech="DT">a</taggedword>
+      <taggedword index="35" part-of-speech="JJ">confluent</taggedword>
+      <taggedword index="36" part-of-speech="NN">monolayer</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="investigated" gov_index="2">nsubj</dependency>
+      <dependency dep="investigated" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="actin" dep_index="3" gov="rates" gov_index="6">amod</dependency>
+      <dependency dep="filament" dep_index="4" gov="rates" gov_index="6">amod</dependency>
+      <dependency dep="turnover" dep_index="5" gov="rates" gov_index="6">nn</dependency>
+      <dependency dep="rates" dep_index="6" gov="investigated" gov_index="2">dobj</dependency>
+      <dependency dep="length" dep_index="8" gov="investigated" gov_index="2">dobj</dependency>
+      <dependency dep="length" dep_index="8" gov="rates" gov_index="6">conj_and</dependency>
+      <dependency dep="number" dep_index="10" gov="investigated" gov_index="2">dobj</dependency>
+      <dependency dep="number" dep_index="10" gov="rates" gov_index="6">conj_and</dependency>
+      <dependency dep="barbed" dep_index="12" gov="exposure" gov_index="14">amod</dependency>
+      <dependency dep="end" dep_index="13" gov="exposure" gov_index="14">nn</dependency>
+      <dependency dep="exposure" dep_index="14" gov="investigated" gov_index="2">dobj</dependency>
+      <dependency dep="exposure" dep_index="14" gov="rates" gov_index="6">conj_and</dependency>
+      <dependency dep="binding" dep_index="17" gov="investigated" gov_index="2">dobj</dependency>
+      <dependency dep="binding" dep_index="17" gov="rates" gov_index="6">conj_and</dependency>
+      <dependency dep="cofilin" dep_index="19" gov="binding" gov_index="17">prep_of</dependency>
+      <dependency dep="bovine" dep_index="21" gov="cells" gov_index="24">amod</dependency>
+      <dependency dep="arterial" dep_index="22" gov="cells" gov_index="24">amod</dependency>
+      <dependency dep="endothelial" dep_index="23" gov="cells" gov_index="24">amod</dependency>
+      <dependency dep="cells" dep_index="24" gov="investigated" gov_index="2">prep_in</dependency>
+      <dependency dep="moving" dep_index="25" gov="cells" gov_index="24">partmod</dependency>
+      <dependency dep="different" dep_index="27" gov="speeds" gov_index="28">amod</dependency>
+      <dependency dep="speeds" dep_index="28" gov="moving" gov_index="25">prep_at</dependency>
+      <dependency dep="on" dep_index="30" gov="moving" gov_index="25">prepc_depending_on</dependency>
+      <dependency dep="their" dep_index="31" gov="position" gov_index="32">poss</dependency>
+      <dependency dep="position" dep_index="32" gov="moving" gov_index="25">pobj</dependency>
+      <dependency dep="a" dep_index="34" gov="monolayer" gov_index="36">det</dependency>
+      <dependency dep="confluent" dep_index="35" gov="monolayer" gov_index="36">amod</dependency>
+      <dependency dep="monolayer" dep_index="36" gov="position" gov_index="32">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300019" relationship="true">3 6 2 17 19</relation>
+   </relations>
+   <pairs>
+      <pair>300019</pair>
+   </pairs>
+</root>

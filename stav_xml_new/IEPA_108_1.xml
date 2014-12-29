@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Long-term@changes@in@gastrin@,@cholecystokinin@and@insulin@in@response@to@oxytocin@treatment@</sentence>
+   <tags>
+      <tag pos="8">insulin</tag>
+      <tag pos="12">oxytocin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Long-term</taggedword>
+      <taggedword index="2" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NN">gastrin</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">cholecystokinin</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="NN">response</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="13" part-of-speech="NN">treatment</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Long-term" dep_index="1" gov="changes" gov_index="2">amod</dependency>
+      <dependency dep="changes" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="gastrin" dep_index="4" gov="changes" gov_index="2">prep_in</dependency>
+      <dependency dep="cholecystokinin" dep_index="6" gov="changes" gov_index="2">prep_in</dependency>
+      <dependency dep="cholecystokinin" dep_index="6" gov="gastrin" gov_index="4">conj_and</dependency>
+      <dependency dep="insulin" dep_index="8" gov="changes" gov_index="2">prep_in</dependency>
+      <dependency dep="insulin" dep_index="8" gov="gastrin" gov_index="4">conj_and</dependency>
+      <dependency dep="response" dep_index="10" gov="changes" gov_index="2">prep_in</dependency>
+      <dependency dep="oxytocin" dep_index="12" gov="treatment" gov_index="13">nn</dependency>
+      <dependency dep="treatment" dep_index="13" gov="changes" gov_index="2">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800012" relationship="true">8 2 13 12</relation>
+   </relations>
+   <pairs>
+      <pair>800012</pair>
+   </pairs>
+</root>

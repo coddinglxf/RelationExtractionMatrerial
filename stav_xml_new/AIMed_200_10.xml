@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interactions@with@human@PARP@and@mouse@replication factor 1a@were@confirmed@using@glutathione@transferase-tagged@cDNAs@.@</sentence>
+   <tags>
+      <tag pos="4">PARP</tag>
+      <tag pos="7">replication factor 1a</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Interactions</taggedword>
+      <taggedword index="2" part-of-speech="IN">with</taggedword>
+      <taggedword index="3" part-of-speech="JJ">human</taggedword>
+      <taggedword index="4" part-of-speech="NN">PARP</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="7" part-of-speech="NNS">replication factor 1a</taggedword>
+      <taggedword index="8" part-of-speech="VBD">were</taggedword>
+      <taggedword index="9" part-of-speech="VBN">confirmed</taggedword>
+      <taggedword index="10" part-of-speech="VBG">using</taggedword>
+      <taggedword index="11" part-of-speech="JJ">glutathione</taggedword>
+      <taggedword index="12" part-of-speech="JJ">transferase-tagged</taggedword>
+      <taggedword index="13" part-of-speech="NNS">cDNAs</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interactions" dep_index="1" gov="confirmed" gov_index="9">nsubjpass</dependency>
+      <dependency dep="human" dep_index="3" gov="PARP" gov_index="4">amod</dependency>
+      <dependency dep="PARP" dep_index="4" gov="Interactions" gov_index="1">prep_with</dependency>
+      <dependency dep="mouse" dep_index="6" gov="replication factor 1a" gov_index="7">nn</dependency>
+      <dependency dep="replication factor 1a" dep_index="7" gov="Interactions" gov_index="1">prep_with</dependency>
+      <dependency dep="replication factor 1a" dep_index="7" gov="PARP" gov_index="4">conj_and</dependency>
+      <dependency dep="were" dep_index="8" gov="confirmed" gov_index="9">auxpass</dependency>
+      <dependency dep="confirmed" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="10" gov="confirmed" gov_index="9">xcomp</dependency>
+      <dependency dep="glutathione" dep_index="11" gov="cDNAs" gov_index="13">amod</dependency>
+      <dependency dep="transferase-tagged" dep_index="12" gov="cDNAs" gov_index="13">amod</dependency>
+      <dependency dep="cDNAs" dep_index="13" gov="using" gov_index="10">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="false">4 1 7</relation>
+   </relations>
+   <pairs/>
+</root>

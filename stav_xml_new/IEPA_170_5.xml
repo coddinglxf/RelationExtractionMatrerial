@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Significantly@increased@leptin@and@galanin@levels@in@postmenopausal@obese@women@coupled@with@decreased@NPY@levels@revealed@some@changes@in@the@neuropeptides@regulating@eating@behavior@,@which@may@be@the@reason@for@the@onset@of@postmenopausal@obesity@</sentence>
+   <tags>
+      <tag pos="3">leptin</tag>
+      <tag pos="14">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Significantly</taggedword>
+      <taggedword index="2" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="3" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="NN">galanin</taggedword>
+      <taggedword index="6" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="JJ">postmenopausal</taggedword>
+      <taggedword index="9" part-of-speech="NN">obese</taggedword>
+      <taggedword index="10" part-of-speech="NNS">women</taggedword>
+      <taggedword index="11" part-of-speech="VBN">coupled</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="VBN">decreased</taggedword>
+      <taggedword index="14" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="15" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="16" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="17" part-of-speech="DT">some</taggedword>
+      <taggedword index="18" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NNS">neuropeptides</taggedword>
+      <taggedword index="22" part-of-speech="VBG">regulating</taggedword>
+      <taggedword index="23" part-of-speech="VBG">eating</taggedword>
+      <taggedword index="24" part-of-speech="NN">behavior</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="WDT">which</taggedword>
+      <taggedword index="27" part-of-speech="MD">may</taggedword>
+      <taggedword index="28" part-of-speech="VB">be</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="NN">reason</taggedword>
+      <taggedword index="31" part-of-speech="IN">for</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">onset</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="JJ">postmenopausal</taggedword>
+      <taggedword index="36" part-of-speech="NN">obesity</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Significantly" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="increased" dep_index="2" gov="leptin" gov_index="3">amod</dependency>
+      <dependency dep="leptin" dep_index="3" gov="Significantly" gov_index="1">dobj</dependency>
+      <dependency dep="galanin" dep_index="5" gov="levels" gov_index="6">nn</dependency>
+      <dependency dep="levels" dep_index="6" gov="Significantly" gov_index="1">dobj</dependency>
+      <dependency dep="levels" dep_index="6" gov="leptin" gov_index="3">conj_and</dependency>
+      <dependency dep="postmenopausal" dep_index="8" gov="women" gov_index="10">amod</dependency>
+      <dependency dep="obese" dep_index="9" gov="women" gov_index="10">nn</dependency>
+      <dependency dep="women" dep_index="10" gov="Significantly" gov_index="1">prep_in</dependency>
+      <dependency dep="coupled" dep_index="11" gov="women" gov_index="10">partmod</dependency>
+      <dependency dep="decreased" dep_index="13" gov="levels" gov_index="15">amod</dependency>
+      <dependency dep="NPY" dep_index="14" gov="levels" gov_index="15">nn</dependency>
+      <dependency dep="levels" dep_index="15" gov="coupled" gov_index="11">prep_with</dependency>
+      <dependency dep="revealed" dep_index="16" gov="Significantly" gov_index="1">dep</dependency>
+      <dependency dep="some" dep_index="17" gov="changes" gov_index="18">det</dependency>
+      <dependency dep="changes" dep_index="18" gov="Significantly" gov_index="1">nsubj</dependency>
+      <dependency dep="changes" dep_index="18" gov="reason" gov_index="30">nsubj</dependency>
+      <dependency dep="the" dep_index="20" gov="neuropeptides" gov_index="21">det</dependency>
+      <dependency dep="neuropeptides" dep_index="21" gov="changes" gov_index="18">prep_in</dependency>
+      <dependency dep="regulating" dep_index="22" gov="neuropeptides" gov_index="21">partmod</dependency>
+      <dependency dep="eating" dep_index="23" gov="regulating" gov_index="22">xcomp</dependency>
+      <dependency dep="behavior" dep_index="24" gov="eating" gov_index="23">dobj</dependency>
+      <dependency dep="may" dep_index="27" gov="reason" gov_index="30">aux</dependency>
+      <dependency dep="be" dep_index="28" gov="reason" gov_index="30">cop</dependency>
+      <dependency dep="the" dep_index="29" gov="reason" gov_index="30">det</dependency>
+      <dependency dep="reason" dep_index="30" gov="changes" gov_index="18">rcmod</dependency>
+      <dependency dep="the" dep_index="32" gov="onset" gov_index="33">det</dependency>
+      <dependency dep="onset" dep_index="33" gov="reason" gov_index="30">prep_for</dependency>
+      <dependency dep="postmenopausal" dep_index="35" gov="obesity" gov_index="36">amod</dependency>
+      <dependency dep="obesity" dep_index="36" gov="onset" gov_index="33">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300014" relationship="false">3 1 10 11 15 14</relation>
+   </relations>
+   <pairs/>
+</root>

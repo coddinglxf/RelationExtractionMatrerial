@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@formation@of@these@early@transcripts@seems@to@follow@entry@of@HIV-1@,@rather@than@binding@of@virions@that@contain@viral@DNA@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">formation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">these</taggedword>
+      <taggedword index="5" part-of-speech="JJ">early</taggedword>
+      <taggedword index="6" part-of-speech="NNS">transcripts</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">seems</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">follow</taggedword>
+      <taggedword index="10" part-of-speech="NN">entry</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">HIV-1</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="RB">rather</taggedword>
+      <taggedword index="15" part-of-speech="IN">than</taggedword>
+      <taggedword index="16" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNS">virions</taggedword>
+      <taggedword index="19" part-of-speech="WDT">that</taggedword>
+      <taggedword index="20" part-of-speech="VBP">contain</taggedword>
+      <taggedword index="21" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="22" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="formation" gov_index="2">det</dependency>
+      <dependency dep="formation" dep_index="2" gov="seems" gov_index="7">nsubj</dependency>
+      <dependency dep="formation" dep_index="2" gov="follow" gov_index="9">xsubj</dependency>
+      <dependency dep="these" dep_index="4" gov="transcripts" gov_index="6">det</dependency>
+      <dependency dep="early" dep_index="5" gov="transcripts" gov_index="6">amod</dependency>
+      <dependency dep="transcripts" dep_index="6" gov="formation" gov_index="2">prep_of</dependency>
+      <dependency dep="seems" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="8" gov="follow" gov_index="9">aux</dependency>
+      <dependency dep="follow" dep_index="9" gov="seems" gov_index="7">xcomp</dependency>
+      <dependency dep="entry" dep_index="10" gov="follow" gov_index="9">dobj</dependency>
+      <dependency dep="HIV-1" dep_index="12" gov="entry" gov_index="10">prep_of</dependency>
+      <dependency dep="binding" dep_index="16" gov="follow" gov_index="9">dobj</dependency>
+      <dependency dep="binding" dep_index="16" gov="entry" gov_index="10">conj_negcc</dependency>
+      <dependency dep="binding" dep_index="16" gov="contain" gov_index="20">nsubj</dependency>
+      <dependency dep="virions" dep_index="18" gov="binding" gov_index="16">prep_of</dependency>
+      <dependency dep="contain" dep_index="20" gov="binding" gov_index="16">rcmod</dependency>
+      <dependency dep="viral" dep_index="21" gov="DNA" gov_index="22">amod</dependency>
+      <dependency dep="DNA" dep_index="22" gov="contain" gov_index="20">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

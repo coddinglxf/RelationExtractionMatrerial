@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>By@contrast@the@Ras@exchanger@factor@(@Sos1@)@was@not@detected@in@anti-@c-Cbl@immunoprecipitates@suggesting@that@Grb2@/@Sos1@and@Grb2@/@c-Cbl@are@present@in@different@complexes@.@</sentence>
+   <tags>
+      <tag pos="4">Ras</tag>
+      <tag pos="8">Sos1</tag>
+      <tag pos="15">c-Cbl</tag>
+      <tag pos="19">Grb2</tag>
+      <tag pos="21">Sos1</tag>
+      <tag pos="23">Grb2</tag>
+      <tag pos="25">c-Cbl</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">By</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Ras</taggedword>
+      <taggedword index="5" part-of-speech="NN">exchanger</taggedword>
+      <taggedword index="6" part-of-speech="NN">factor</taggedword>
+      <taggedword index="7" part-of-speech="NNP">(</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Sos1</taggedword>
+      <taggedword index="9" part-of-speech="NNP">)</taggedword>
+      <taggedword index="10" part-of-speech="VBD">was</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="JJ">anti-</taggedword>
+      <taggedword index="15" part-of-speech="JJ">c-Cbl</taggedword>
+      <taggedword index="16" part-of-speech="NNS">immunoprecipitates</taggedword>
+      <taggedword index="17" part-of-speech="VBG">suggesting</taggedword>
+      <taggedword index="18" part-of-speech="IN">that</taggedword>
+      <taggedword index="19" part-of-speech="JJ">Grb2</taggedword>
+      <taggedword index="20" part-of-speech=":">/</taggedword>
+      <taggedword index="21" part-of-speech="NNS">Sos1</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NNS">Grb2</taggedword>
+      <taggedword index="24" part-of-speech=":">/</taggedword>
+      <taggedword index="25" part-of-speech="NNS">c-Cbl</taggedword>
+      <taggedword index="26" part-of-speech="VBP">are</taggedword>
+      <taggedword index="27" part-of-speech="JJ">present</taggedword>
+      <taggedword index="28" part-of-speech="IN">in</taggedword>
+      <taggedword index="29" part-of-speech="JJ">different</taggedword>
+      <taggedword index="30" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="detected" gov_index="12">agent</dependency>
+      <dependency dep="the" dep_index="3" gov=")" gov_index="9">det</dependency>
+      <dependency dep="Ras" dep_index="4" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="exchanger" dep_index="5" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="factor" dep_index="6" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="(" dep_index="7" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="Sos1" dep_index="8" gov=")" gov_index="9">nn</dependency>
+      <dependency dep=")" dep_index="9" gov="detected" gov_index="12">nsubjpass</dependency>
+      <dependency dep="was" dep_index="10" gov="detected" gov_index="12">auxpass</dependency>
+      <dependency dep="not" dep_index="11" gov="detected" gov_index="12">neg</dependency>
+      <dependency dep="detected" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="anti-" dep_index="14" gov="immunoprecipitates" gov_index="16">amod</dependency>
+      <dependency dep="c-Cbl" dep_index="15" gov="immunoprecipitates" gov_index="16">amod</dependency>
+      <dependency dep="immunoprecipitates" dep_index="16" gov="detected" gov_index="12">prep_in</dependency>
+      <dependency dep="suggesting" dep_index="17" gov="detected" gov_index="12">xcomp</dependency>
+      <dependency dep="that" dep_index="18" gov="present" gov_index="27">mark</dependency>
+      <dependency dep="Grb2" dep_index="19" gov="c-Cbl" gov_index="25">amod</dependency>
+      <dependency dep="/" dep_index="20" gov="Sos1" gov_index="21">punct</dependency>
+      <dependency dep="Sos1" dep_index="21" gov="c-Cbl" gov_index="25">dep</dependency>
+      <dependency dep="Grb2" dep_index="23" gov="Sos1" gov_index="21">conj_and</dependency>
+      <dependency dep="Grb2" dep_index="23" gov="c-Cbl" gov_index="25">dep</dependency>
+      <dependency dep="/" dep_index="24" gov="Sos1" gov_index="21">punct</dependency>
+      <dependency dep="c-Cbl" dep_index="25" gov="present" gov_index="27">nsubj</dependency>
+      <dependency dep="are" dep_index="26" gov="present" gov_index="27">cop</dependency>
+      <dependency dep="present" dep_index="27" gov="suggesting" gov_index="17">ccomp</dependency>
+      <dependency dep="different" dep_index="29" gov="complexes" gov_index="30">amod</dependency>
+      <dependency dep="complexes" dep_index="30" gov="present" gov_index="27">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400008" relationship="true">4 9 8</relation>
+      <relation position="400015" relationship="false">4 9 12 16 15</relation>
+      <relation position="400019" relationship="false">4 9 12 17 27 25 19</relation>
+      <relation position="400021" relationship="false">4 9 12 17 27 25 21</relation>
+      <relation position="400023" relationship="false">4 9 12 17 27 25 23</relation>
+      <relation position="400025" relationship="false">4 9 12 17 27 25</relation>
+      <relation position="800015" relationship="false">8 9 12 16 15</relation>
+      <relation position="800019" relationship="false">8 9 12 17 27 25 19</relation>
+      <relation position="800021" relationship="false">8 9 12 17 27 25 21</relation>
+      <relation position="800023" relationship="false">8 9 12 17 27 25 23</relation>
+      <relation position="800025" relationship="false">8 9 12 17 27 25</relation>
+      <relation position="1500019" relationship="false">15 16 12 17 27 25 19</relation>
+      <relation position="1500021" relationship="false">15 16 12 17 27 25 21</relation>
+      <relation position="1500023" relationship="false">15 16 12 17 27 25 23</relation>
+      <relation position="1500025" relationship="false">15 16 12 17 27 25</relation>
+      <relation position="1900021" relationship="false">19 25 21</relation>
+      <relation position="1900023" relationship="false">19 25 23</relation>
+      <relation position="1900025" relationship="false"></relation>
+      <relation position="2100023" relationship="false">21 25 23</relation>
+      <relation position="2100025" relationship="false"></relation>
+      <relation position="2300025" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>400008</pair>
+   </pairs>
+</root>

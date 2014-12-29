@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@products@of@the@RBP1@and@RBP2@genes@are@ubiquitously@expressed@,@large@(200@kDa@for@RBP1@and@195@kDa@for@RBP2@)@nuclear@phosphoproteins@with@structural@motifs@that@suggest@a@role@in@transcriptional@regulation@.@</sentence>
+   <tags>
+      <tag pos="5">RBP1</tag>
+      <tag pos="7">RBP2</tag>
+      <tag pos="17">RBP1</tag>
+      <tag pos="22">RBP2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">products</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNP">RBP1</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">RBP2</taggedword>
+      <taggedword index="8" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="9" part-of-speech="VBP">are</taggedword>
+      <taggedword index="10" part-of-speech="RB">ubiquitously</taggedword>
+      <taggedword index="11" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="JJ">large</taggedword>
+      <taggedword index="14" part-of-speech="CD">(200</taggedword>
+      <taggedword index="15" part-of-speech="NN">kDa</taggedword>
+      <taggedword index="16" part-of-speech="IN">for</taggedword>
+      <taggedword index="17" part-of-speech="CD">RBP1</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="CD">195</taggedword>
+      <taggedword index="20" part-of-speech="VBP">kDa</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="CD">RBP2</taggedword>
+      <taggedword index="23" part-of-speech="CD">)</taggedword>
+      <taggedword index="24" part-of-speech="JJ">nuclear</taggedword>
+      <taggedword index="25" part-of-speech="NNS">phosphoproteins</taggedword>
+      <taggedword index="26" part-of-speech="IN">with</taggedword>
+      <taggedword index="27" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="28" part-of-speech="NNS">motifs</taggedword>
+      <taggedword index="29" part-of-speech="WDT">that</taggedword>
+      <taggedword index="30" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="31" part-of-speech="DT">a</taggedword>
+      <taggedword index="32" part-of-speech="NN">role</taggedword>
+      <taggedword index="33" part-of-speech="IN">in</taggedword>
+      <taggedword index="34" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="35" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="products" gov_index="2">det</dependency>
+      <dependency dep="products" dep_index="2" gov="expressed" gov_index="11">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="genes" gov_index="8">det</dependency>
+      <dependency dep="RBP1" dep_index="5" gov="genes" gov_index="8">nn</dependency>
+      <dependency dep="RBP2" dep_index="7" gov="RBP1" gov_index="5">conj_and</dependency>
+      <dependency dep="RBP2" dep_index="7" gov="genes" gov_index="8">nn</dependency>
+      <dependency dep="genes" dep_index="8" gov="products" gov_index="2">prep_of</dependency>
+      <dependency dep="are" dep_index="9" gov="expressed" gov_index="11">auxpass</dependency>
+      <dependency dep="ubiquitously" dep_index="10" gov="expressed" gov_index="11">advmod</dependency>
+      <dependency dep="expressed" dep_index="11" gov="kDa" gov_index="20">ccomp</dependency>
+      <dependency dep="large" dep_index="13" gov="kDa" gov_index="15">amod</dependency>
+      <dependency dep="(200" dep_index="14" gov="large" gov_index="13">tmod</dependency>
+      <dependency dep="kDa" dep_index="15" gov="kDa" gov_index="20">nsubj</dependency>
+      <dependency dep="RBP1" dep_index="17" gov="kDa" gov_index="15">prep_for</dependency>
+      <dependency dep="195" dep_index="19" gov="kDa" gov_index="15">prep_for</dependency>
+      <dependency dep="195" dep_index="19" gov="RBP1" gov_index="17">conj_and</dependency>
+      <dependency dep="kDa" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="RBP2" dep_index="22" gov=")" gov_index="23">number</dependency>
+      <dependency dep=")" dep_index="23" gov="phosphoproteins" gov_index="25">num</dependency>
+      <dependency dep="nuclear" dep_index="24" gov="phosphoproteins" gov_index="25">amod</dependency>
+      <dependency dep="phosphoproteins" dep_index="25" gov="kDa" gov_index="20">prep_for</dependency>
+      <dependency dep="structural" dep_index="27" gov="motifs" gov_index="28">amod</dependency>
+      <dependency dep="motifs" dep_index="28" gov="phosphoproteins" gov_index="25">prep_with</dependency>
+      <dependency dep="motifs" dep_index="28" gov="suggest" gov_index="30">nsubj</dependency>
+      <dependency dep="suggest" dep_index="30" gov="motifs" gov_index="28">rcmod</dependency>
+      <dependency dep="a" dep_index="31" gov="role" gov_index="32">det</dependency>
+      <dependency dep="role" dep_index="32" gov="suggest" gov_index="30">dobj</dependency>
+      <dependency dep="transcriptional" dep_index="34" gov="regulation" gov_index="35">amod</dependency>
+      <dependency dep="regulation" dep_index="35" gov="role" gov_index="32">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 8 7</relation>
+      <relation position="500017" relationship="false">5 8 2 11 20 15 17</relation>
+      <relation position="500022" relationship="false">5 8 2 11 20 25 23 22</relation>
+      <relation position="700017" relationship="false">7 8 2 11 20 15 17</relation>
+      <relation position="700022" relationship="false">7 8 2 11 20 25 23 22</relation>
+      <relation position="1700022" relationship="false">17 15 20 25 23 22</relation>
+   </relations>
+   <pairs/>
+</root>

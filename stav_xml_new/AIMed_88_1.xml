@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interaction@of@the@protein@nucleobindin@with@G alpha i2@,@as@revealed@by@the@yeast@two-hybrid@system@.@</sentence>
+   <tags>
+      <tag pos="5">nucleobindin</tag>
+      <tag pos="7">G alpha i2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Interaction</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">protein</taggedword>
+      <taggedword index="5" part-of-speech="VBP">nucleobindin</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="NNS">G alpha i2</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="IN">as</taggedword>
+      <taggedword index="10" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="14" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="15" part-of-speech="NN">system</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interaction" dep_index="1" gov="nucleobindin" gov_index="5">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="protein" gov_index="4">det</dependency>
+      <dependency dep="protein" dep_index="4" gov="Interaction" gov_index="1">prep_of</dependency>
+      <dependency dep="nucleobindin" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="G alpha i2" dep_index="7" gov="nucleobindin" gov_index="5">prep_with</dependency>
+      <dependency dep="as" dep_index="9" gov="revealed" gov_index="10">mark</dependency>
+      <dependency dep="revealed" dep_index="10" gov="nucleobindin" gov_index="5">advcl</dependency>
+      <dependency dep="the" dep_index="12" gov="system" gov_index="15">det</dependency>
+      <dependency dep="yeast" dep_index="13" gov="system" gov_index="15">nn</dependency>
+      <dependency dep="two-hybrid" dep_index="14" gov="system" gov_index="15">amod</dependency>
+      <dependency dep="system" dep_index="15" gov="revealed" gov_index="10">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>500007</pair>
+   </pairs>
+</root>

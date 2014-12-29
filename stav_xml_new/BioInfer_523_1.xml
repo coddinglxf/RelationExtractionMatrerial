@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>RIPc@,@one@of@the@cleavage@products@,@enhanced@interaction@between@TRADD@and@FADD@/@MORT1@and@increased@cells'@sensitivity@to@TNF@.@</sentence>
+   <tags>
+      <tag pos="22">TNF</tag>
+      <tag pos="14">FADD</tag>
+      <tag pos="1">RIPc</tag>
+      <tag pos="16">MORT1</tag>
+      <tag pos="12">TRADD</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">RIPc</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="CD">one</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">cleavage</taggedword>
+      <taggedword index="7" part-of-speech="NNS">products</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="VBD">enhanced</taggedword>
+      <taggedword index="10" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="11" part-of-speech="IN">between</taggedword>
+      <taggedword index="12" part-of-speech="NNP">TRADD</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NNP">FADD</taggedword>
+      <taggedword index="15" part-of-speech="NNP">/</taggedword>
+      <taggedword index="16" part-of-speech="NNP">MORT1</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="19" part-of-speech="JJ">cells'</taggedword>
+      <taggedword index="20" part-of-speech="NN">sensitivity</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="NNP">TNF</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="RIPc" dep_index="1" gov="enhanced" gov_index="9">nsubj</dependency>
+      <dependency dep="RIPc" dep_index="1" gov="increased" gov_index="18">nsubj</dependency>
+      <dependency dep="one" dep_index="3" gov="RIPc" gov_index="1">appos</dependency>
+      <dependency dep="the" dep_index="5" gov="products" gov_index="7">det</dependency>
+      <dependency dep="cleavage" dep_index="6" gov="products" gov_index="7">amod</dependency>
+      <dependency dep="products" dep_index="7" gov="one" gov_index="3">prep_of</dependency>
+      <dependency dep="enhanced" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="interaction" dep_index="10" gov="enhanced" gov_index="9">dobj</dependency>
+      <dependency dep="TRADD" dep_index="12" gov="interaction" gov_index="10">prep_between</dependency>
+      <dependency dep="FADD" dep_index="14" gov="MORT1" gov_index="16">nn</dependency>
+      <dependency dep="/" dep_index="15" gov="MORT1" gov_index="16">nn</dependency>
+      <dependency dep="MORT1" dep_index="16" gov="interaction" gov_index="10">prep_between</dependency>
+      <dependency dep="MORT1" dep_index="16" gov="TRADD" gov_index="12">conj_and</dependency>
+      <dependency dep="increased" dep_index="18" gov="enhanced" gov_index="9">conj_and</dependency>
+      <dependency dep="cells'" dep_index="19" gov="sensitivity" gov_index="20">amod</dependency>
+      <dependency dep="sensitivity" dep_index="20" gov="increased" gov_index="18">dobj</dependency>
+      <dependency dep="TNF" dep_index="22" gov="increased" gov_index="18">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400022" relationship="false"></relation>
+      <relation position="100022" relationship="true">1 18 22</relation>
+      <relation position="1600022" relationship="false"></relation>
+      <relation position="1200022" relationship="false"></relation>
+      <relation position="100014" relationship="true">1 9 10 16 14</relation>
+      <relation position="1400016" relationship="false"></relation>
+      <relation position="1200014" relationship="true">12 10 16 14</relation>
+      <relation position="100016" relationship="true">1 9 10 16</relation>
+      <relation position="100012" relationship="true">1 9 10 12</relation>
+      <relation position="1200016" relationship="true">12 10 16</relation>
+   </relations>
+   <pairs>
+      <pair>100014</pair>
+      <pair>100012</pair>
+      <pair>1200016</pair>
+      <pair>100022</pair>
+      <pair>1200014</pair>
+      <pair>100016</pair>
+   </pairs>
+</root>

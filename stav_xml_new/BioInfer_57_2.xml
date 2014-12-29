@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interaction@between@calf@spleen profilin@and@actin@depends@critically@on@the@status@of@the@C-terminus@of@the@actin@,@and@in@the@case@of@profilin@,@the@C-terminus@is@of@great@importance@for@the@physiochemical@behaviour@of@the@protein@.@</sentence>
+   <tags>
+      <tag pos="25">profilin</tag>
+      <tag pos="18">actin</tag>
+      <tag pos="5">spleen profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">between</taggedword>
+      <taggedword index="4" part-of-speech="NN">calf</taggedword>
+      <taggedword index="5" part-of-speech="NN">spleen profilin</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">actin</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">depends</taggedword>
+      <taggedword index="9" part-of-speech="RB">critically</taggedword>
+      <taggedword index="10" part-of-speech="IN">on</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">status</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNP">C-terminus</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">actin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">case</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NNP">C-terminus</taggedword>
+      <taggedword index="29" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="JJ">great</taggedword>
+      <taggedword index="32" part-of-speech="NN">importance</taggedword>
+      <taggedword index="33" part-of-speech="IN">for</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="JJ">physiochemical</taggedword>
+      <taggedword index="36" part-of-speech="NN">behaviour</taggedword>
+      <taggedword index="37" part-of-speech="IN">of</taggedword>
+      <taggedword index="38" part-of-speech="DT">the</taggedword>
+      <taggedword index="39" part-of-speech="NN">protein</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interaction" gov_index="2">det</dependency>
+      <dependency dep="interaction" dep_index="2" gov="depends" gov_index="8">nsubj</dependency>
+      <dependency dep="calf" dep_index="4" gov="spleen profilin" gov_index="5">nn</dependency>
+      <dependency dep="spleen profilin" dep_index="5" gov="interaction" gov_index="2">prep_between</dependency>
+      <dependency dep="actin" dep_index="7" gov="interaction" gov_index="2">prep_between</dependency>
+      <dependency dep="actin" dep_index="7" gov="spleen profilin" gov_index="5">conj_and</dependency>
+      <dependency dep="depends" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="critically" dep_index="9" gov="depends" gov_index="8">acomp</dependency>
+      <dependency dep="the" dep_index="11" gov="status" gov_index="12">det</dependency>
+      <dependency dep="status" dep_index="12" gov="critically" gov_index="9">prep_on</dependency>
+      <dependency dep="the" dep_index="14" gov="C-terminus" gov_index="15">det</dependency>
+      <dependency dep="C-terminus" dep_index="15" gov="status" gov_index="12">prep_of</dependency>
+      <dependency dep="the" dep_index="17" gov="actin" gov_index="18">det</dependency>
+      <dependency dep="actin" dep_index="18" gov="C-terminus" gov_index="15">prep_of</dependency>
+      <dependency dep="the" dep_index="22" gov="case" gov_index="23">det</dependency>
+      <dependency dep="case" dep_index="23" gov="is" gov_index="29">prep_in</dependency>
+      <dependency dep="profilin" dep_index="25" gov="case" gov_index="23">prep_of</dependency>
+      <dependency dep="the" dep_index="27" gov="C-terminus" gov_index="28">det</dependency>
+      <dependency dep="C-terminus" dep_index="28" gov="is" gov_index="29">nsubj</dependency>
+      <dependency dep="is" dep_index="29" gov="depends" gov_index="8">conj_and</dependency>
+      <dependency dep="great" dep_index="31" gov="importance" gov_index="32">amod</dependency>
+      <dependency dep="importance" dep_index="32" gov="is" gov_index="29">prep_of</dependency>
+      <dependency dep="the" dep_index="34" gov="behaviour" gov_index="36">det</dependency>
+      <dependency dep="physiochemical" dep_index="35" gov="behaviour" gov_index="36">amod</dependency>
+      <dependency dep="behaviour" dep_index="36" gov="importance" gov_index="32">prep_for</dependency>
+      <dependency dep="the" dep_index="38" gov="protein" gov_index="39">det</dependency>
+      <dependency dep="protein" dep_index="39" gov="behaviour" gov_index="36">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800025" relationship="false"></relation>
+      <relation position="500025" relationship="false"></relation>
+      <relation position="500018" relationship="true">5 2 8 9 12 15 18</relation>
+   </relations>
+   <pairs>
+      <pair>500018</pair>
+   </pairs>
+</root>

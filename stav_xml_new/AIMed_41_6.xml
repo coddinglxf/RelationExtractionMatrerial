@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@structures@of@TfR@alone@and@complexed@with@HFE@differ@in@their@domain@arrangement@and@dimer@interfaces@,@providing@a@mechanism@for@communicating@binding@events@between@TfR@chains@.@</sentence>
+   <tags>
+      <tag pos="4">TfR</tag>
+      <tag pos="9">HFE</tag>
+      <tag pos="27">TfR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">structures</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">TfR</taggedword>
+      <taggedword index="5" part-of-speech="RB">alone</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="VBN">complexed</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NNP">HFE</taggedword>
+      <taggedword index="10" part-of-speech="VBP">differ</taggedword>
+      <taggedword index="11" part-of-speech="RP">in</taggedword>
+      <taggedword index="12" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="13" part-of-speech="NN">domain</taggedword>
+      <taggedword index="14" part-of-speech="NN">arrangement</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">dimer</taggedword>
+      <taggedword index="17" part-of-speech="NNS">interfaces</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="VBG">providing</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="22" part-of-speech="IN">for</taggedword>
+      <taggedword index="23" part-of-speech="VBG">communicating</taggedword>
+      <taggedword index="24" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="25" part-of-speech="NNS">events</taggedword>
+      <taggedword index="26" part-of-speech="IN">between</taggedword>
+      <taggedword index="27" part-of-speech="NNP">TfR</taggedword>
+      <taggedword index="28" part-of-speech="NNS">chains</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="structures" gov_index="2">det</dependency>
+      <dependency dep="structures" dep_index="2" gov="differ" gov_index="10">nsubj</dependency>
+      <dependency dep="TfR" dep_index="4" gov="structures" gov_index="2">prep_of</dependency>
+      <dependency dep="alone" dep_index="5" gov="TfR" gov_index="4">amod</dependency>
+      <dependency dep="complexed" dep_index="7" gov="TfR" gov_index="4">amod</dependency>
+      <dependency dep="complexed" dep_index="7" gov="alone" gov_index="5">conj_and</dependency>
+      <dependency dep="HFE" dep_index="9" gov="complexed" gov_index="7">prep_with</dependency>
+      <dependency dep="differ" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="in" dep_index="11" gov="differ" gov_index="10">prt</dependency>
+      <dependency dep="their" dep_index="12" gov="arrangement" gov_index="14">poss</dependency>
+      <dependency dep="domain" dep_index="13" gov="arrangement" gov_index="14">nn</dependency>
+      <dependency dep="arrangement" dep_index="14" gov="differ" gov_index="10">dobj</dependency>
+      <dependency dep="dimer" dep_index="16" gov="interfaces" gov_index="17">nn</dependency>
+      <dependency dep="interfaces" dep_index="17" gov="differ" gov_index="10">dobj</dependency>
+      <dependency dep="interfaces" dep_index="17" gov="arrangement" gov_index="14">conj_and</dependency>
+      <dependency dep="providing" dep_index="19" gov="differ" gov_index="10">partmod</dependency>
+      <dependency dep="a" dep_index="20" gov="mechanism" gov_index="21">det</dependency>
+      <dependency dep="mechanism" dep_index="21" gov="providing" gov_index="19">dobj</dependency>
+      <dependency dep="communicating" dep_index="23" gov="providing" gov_index="19">prepc_for</dependency>
+      <dependency dep="binding" dep_index="24" gov="events" gov_index="25">amod</dependency>
+      <dependency dep="events" dep_index="25" gov="communicating" gov_index="23">dobj</dependency>
+      <dependency dep="TfR" dep_index="27" gov="chains" gov_index="28">nn</dependency>
+      <dependency dep="chains" dep_index="28" gov="events" gov_index="25">prep_between</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400009" relationship="true"></relation>
+      <relation position="400027" relationship="false">4 2 10 19 23 25 28 27</relation>
+      <relation position="900027" relationship="false">9 7 4 2 10 19 23 25 28 27</relation>
+   </relations>
+   <pairs>
+      <pair>400009</pair>
+   </pairs>
+</root>

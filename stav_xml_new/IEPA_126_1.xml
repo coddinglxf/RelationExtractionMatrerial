@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@expression@of@uterine@UCP2@and@UCP3@were@up-regulated@by@3.2-@and@1.5-fold@,@respectively@,@during@the@late@stage@of@pregnancy@with@an@increase@of@WAT@leptin@mRNA@expression@and@exogenous@administration@of@leptin@resulted@in@induction@of@the@uterine@UCP2@and@UCP3@levels@</sentence>
+   <tags>
+      <tag pos="5">UCP2</tag>
+      <tag pos="7">UCP3</tag>
+      <tag pos="28">leptin</tag>
+      <tag pos="35">leptin</tag>
+      <tag pos="42">UCP2</tag>
+      <tag pos="44">UCP3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">uterine</taggedword>
+      <taggedword index="5" part-of-speech="NNP">UCP2</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">UCP3</taggedword>
+      <taggedword index="8" part-of-speech="VBD">were</taggedword>
+      <taggedword index="9" part-of-speech="JJ">up-regulated</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="CD">3.2-</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="CD">1.5-fold</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="IN">during</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">late</taggedword>
+      <taggedword index="20" part-of-speech="NN">stage</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NN">pregnancy</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="DT">an</taggedword>
+      <taggedword index="25" part-of-speech="NN">increase</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="NNP">WAT</taggedword>
+      <taggedword index="28" part-of-speech="NNP">leptin</taggedword>
+      <taggedword index="29" part-of-speech="NNP">mRNA</taggedword>
+      <taggedword index="30" part-of-speech="NN">expression</taggedword>
+      <taggedword index="31" part-of-speech="CC">and</taggedword>
+      <taggedword index="32" part-of-speech="NNS">exogenous</taggedword>
+      <taggedword index="33" part-of-speech="NN">administration</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="36" part-of-speech="VBN">resulted</taggedword>
+      <taggedword index="37" part-of-speech="IN">in</taggedword>
+      <taggedword index="38" part-of-speech="NN">induction</taggedword>
+      <taggedword index="39" part-of-speech="IN">of</taggedword>
+      <taggedword index="40" part-of-speech="DT">the</taggedword>
+      <taggedword index="41" part-of-speech="JJ">uterine</taggedword>
+      <taggedword index="42" part-of-speech="NNP">UCP2</taggedword>
+      <taggedword index="43" part-of-speech="CC">and</taggedword>
+      <taggedword index="44" part-of-speech="NNP">UCP3</taggedword>
+      <taggedword index="45" part-of-speech="NNS">levels</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="expression" gov_index="2">det</dependency>
+      <dependency dep="expression" dep_index="2" gov="up-regulated" gov_index="9">nsubj</dependency>
+      <dependency dep="uterine" dep_index="4" gov="UCP2" gov_index="5">amod</dependency>
+      <dependency dep="UCP2" dep_index="5" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="UCP3" dep_index="7" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="UCP3" dep_index="7" gov="UCP2" gov_index="5">conj_and</dependency>
+      <dependency dep="were" dep_index="8" gov="up-regulated" gov_index="9">cop</dependency>
+      <dependency dep="up-regulated" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="3.2-" dep_index="11" gov="up-regulated" gov_index="9">prep_by</dependency>
+      <dependency dep="1.5-fold" dep_index="13" gov="up-regulated" gov_index="9">prep_by</dependency>
+      <dependency dep="1.5-fold" dep_index="13" gov="3.2-" gov_index="11">conj_and</dependency>
+      <dependency dep="respectively" dep_index="15" gov="up-regulated" gov_index="9">advmod</dependency>
+      <dependency dep="the" dep_index="18" gov="stage" gov_index="20">det</dependency>
+      <dependency dep="late" dep_index="19" gov="stage" gov_index="20">amod</dependency>
+      <dependency dep="stage" dep_index="20" gov="up-regulated" gov_index="9">prep_during</dependency>
+      <dependency dep="pregnancy" dep_index="22" gov="stage" gov_index="20">prep_of</dependency>
+      <dependency dep="an" dep_index="24" gov="increase" gov_index="25">det</dependency>
+      <dependency dep="increase" dep_index="25" gov="pregnancy" gov_index="22">prep_with</dependency>
+      <dependency dep="WAT" dep_index="27" gov="expression" gov_index="30">nn</dependency>
+      <dependency dep="leptin" dep_index="28" gov="expression" gov_index="30">nn</dependency>
+      <dependency dep="mRNA" dep_index="29" gov="expression" gov_index="30">nn</dependency>
+      <dependency dep="expression" dep_index="30" gov="increase" gov_index="25">prep_of</dependency>
+      <dependency dep="exogenous" dep_index="32" gov="administration" gov_index="33">nn</dependency>
+      <dependency dep="administration" dep_index="33" gov="increase" gov_index="25">prep_of</dependency>
+      <dependency dep="administration" dep_index="33" gov="expression" gov_index="30">conj_and</dependency>
+      <dependency dep="leptin" dep_index="35" gov="expression" gov_index="30">prep_of</dependency>
+      <dependency dep="resulted" dep_index="36" gov="leptin" gov_index="35">partmod</dependency>
+      <dependency dep="induction" dep_index="38" gov="resulted" gov_index="36">prep_in</dependency>
+      <dependency dep="the" dep_index="40" gov="UCP2" gov_index="42">det</dependency>
+      <dependency dep="uterine" dep_index="41" gov="UCP2" gov_index="42">amod</dependency>
+      <dependency dep="UCP2" dep_index="42" gov="induction" gov_index="38">prep_of</dependency>
+      <dependency dep="UCP3" dep_index="44" gov="levels" gov_index="45">nn</dependency>
+      <dependency dep="levels" dep_index="45" gov="induction" gov_index="38">prep_of</dependency>
+      <dependency dep="levels" dep_index="45" gov="UCP2" gov_index="42">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 2 7</relation>
+      <relation position="500028" relationship="false">5 2 9 20 22 25 30 28</relation>
+      <relation position="500035" relationship="false">5 2 9 20 22 25 30 35</relation>
+      <relation position="500042" relationship="false">5 2 9 20 22 25 30 35 36 38 42</relation>
+      <relation position="500044" relationship="false">5 2 9 20 22 25 30 35 36 38 45 44</relation>
+      <relation position="700028" relationship="false">7 2 9 20 22 25 30 28</relation>
+      <relation position="700035" relationship="false">7 2 9 20 22 25 30 35</relation>
+      <relation position="700042" relationship="false">7 2 9 20 22 25 30 35 36 38 42</relation>
+      <relation position="700044" relationship="false">7 2 9 20 22 25 30 35 36 38 45 44</relation>
+      <relation position="2800035" relationship="false">28 30 35</relation>
+      <relation position="2800042" relationship="false">28 30 35 36 38 42</relation>
+      <relation position="2800044" relationship="false">28 30 35 36 38 45 44</relation>
+      <relation position="3500042" relationship="true"></relation>
+      <relation position="3500044" relationship="true"></relation>
+      <relation position="4200044" relationship="false">42 38 45 44</relation>
+   </relations>
+   <pairs>
+      <pair>3500044</pair>
+      <pair>3500042</pair>
+   </pairs>
+</root>

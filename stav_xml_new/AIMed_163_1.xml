@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Enhanced@degradation@of@EGF@receptors@by@a@sorting@nexin@,@SNX1@.@</sentence>
+   <tags>
+      <tag pos="4">EGF</tag>
+      <tag pos="9">nexin</tag>
+      <tag pos="11">SNX1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Enhanced</taggedword>
+      <taggedword index="2" part-of-speech="NN">degradation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">EGF</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">receptors</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="VBG">sorting</taggedword>
+      <taggedword index="9" part-of-speech="NN">nexin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">SNX1</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Enhanced" dep_index="1" gov="degradation" gov_index="2">amod</dependency>
+      <dependency dep="degradation" dep_index="2" gov="receptors" gov_index="5">nsubj</dependency>
+      <dependency dep="EGF" dep_index="4" gov="degradation" gov_index="2">prep_of</dependency>
+      <dependency dep="receptors" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="7" gov="nexin" gov_index="9">det</dependency>
+      <dependency dep="sorting" dep_index="8" gov="nexin" gov_index="9">amod</dependency>
+      <dependency dep="nexin" dep_index="9" gov="receptors" gov_index="5">prep_by</dependency>
+      <dependency dep="SNX1" dep_index="11" gov="nexin" gov_index="9">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400009" relationship="false">4 2 5 9</relation>
+      <relation position="400011" relationship="false">4 2 5 9 11</relation>
+      <relation position="900011" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Mammalian@LIM-kinases@(@LIMKs@)@phosphorylate@cofilin@and@induce@actin@cytoskeletal@reorganization@.@</sentence>
+   <tags>
+      <tag pos="10">actin</tag>
+      <tag pos="4">LIMKs</tag>
+      <tag pos="2">LIM-kinases</tag>
+      <tag pos="7">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Mammalian</taggedword>
+      <taggedword index="2" part-of-speech="NNP">LIM-kinases</taggedword>
+      <taggedword index="3" part-of-speech="NNP">(</taggedword>
+      <taggedword index="4" part-of-speech="NNP">LIMKs</taggedword>
+      <taggedword index="5" part-of-speech="NNP">)</taggedword>
+      <taggedword index="6" part-of-speech="VBP">phosphorylate</taggedword>
+      <taggedword index="7" part-of-speech="VB">cofilin</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="VB">induce</taggedword>
+      <taggedword index="10" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="11" part-of-speech="JJ">cytoskeletal</taggedword>
+      <taggedword index="12" part-of-speech="NN">reorganization</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Mammalian" dep_index="1" gov=")" gov_index="5">nn</dependency>
+      <dependency dep="LIM-kinases" dep_index="2" gov=")" gov_index="5">nn</dependency>
+      <dependency dep="(" dep_index="3" gov=")" gov_index="5">nn</dependency>
+      <dependency dep="LIMKs" dep_index="4" gov=")" gov_index="5">nn</dependency>
+      <dependency dep=")" dep_index="5" gov="phosphorylate" gov_index="6">nsubj</dependency>
+      <dependency dep="phosphorylate" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cofilin" dep_index="7" gov="phosphorylate" gov_index="6">xcomp</dependency>
+      <dependency dep="induce" dep_index="9" gov="phosphorylate" gov_index="6">xcomp</dependency>
+      <dependency dep="induce" dep_index="9" gov="cofilin" gov_index="7">conj_and</dependency>
+      <dependency dep="actin" dep_index="10" gov="reorganization" gov_index="12">amod</dependency>
+      <dependency dep="cytoskeletal" dep_index="11" gov="reorganization" gov_index="12">amod</dependency>
+      <dependency dep="reorganization" dep_index="12" gov="cofilin" gov_index="7">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400010" relationship="true">4 5 6 7 12 10</relation>
+      <relation position="200010" relationship="true">2 5 6 7 12 10</relation>
+      <relation position="700010" relationship="false"></relation>
+      <relation position="200004" relationship="false">2 5 4</relation>
+      <relation position="400007" relationship="true">4 5 6 7</relation>
+      <relation position="200007" relationship="true">2 5 6 7</relation>
+   </relations>
+   <pairs>
+      <pair>400010</pair>
+      <pair>200010</pair>
+      <pair>200007</pair>
+      <pair>400007</pair>
+   </pairs>
+</root>

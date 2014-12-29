@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>After@T@cell@activation@,@the@phosphorylation@of@Rb@results@in@the@release@of@Elf-1@,@which@is@correlated@temporally@with@the@activation@of@Elf-1@-mediated@transcription@.@</sentence>
+   <tags>
+      <tag pos="9">Rb</tag>
+      <tag pos="15">Elf-1</tag>
+      <tag pos="25">Elf-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">After</taggedword>
+      <taggedword index="2" part-of-speech="NNP">T</taggedword>
+      <taggedword index="3" part-of-speech="NN">cell</taggedword>
+      <taggedword index="4" part-of-speech="NN">activation</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Rb</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">results</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">release</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNS">Elf-1</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="WDT">which</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="19" part-of-speech="VBN">correlated</taggedword>
+      <taggedword index="20" part-of-speech="RB">temporally</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">activation</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="JJ">Elf-1</taggedword>
+      <taggedword index="26" part-of-speech="JJ">-mediated</taggedword>
+      <taggedword index="27" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="T" dep_index="2" gov="activation" gov_index="4">nn</dependency>
+      <dependency dep="cell" dep_index="3" gov="activation" gov_index="4">nn</dependency>
+      <dependency dep="activation" dep_index="4" gov="results" gov_index="10">prep_after</dependency>
+      <dependency dep="the" dep_index="6" gov="phosphorylation" gov_index="7">det</dependency>
+      <dependency dep="phosphorylation" dep_index="7" gov="results" gov_index="10">nsubj</dependency>
+      <dependency dep="Rb" dep_index="9" gov="phosphorylation" gov_index="7">prep_of</dependency>
+      <dependency dep="results" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="release" gov_index="13">det</dependency>
+      <dependency dep="release" dep_index="13" gov="results" gov_index="10">prep_in</dependency>
+      <dependency dep="Elf-1" dep_index="15" gov="release" gov_index="13">prep_of</dependency>
+      <dependency dep="Elf-1" dep_index="15" gov="correlated" gov_index="19">nsubjpass</dependency>
+      <dependency dep="is" dep_index="18" gov="correlated" gov_index="19">auxpass</dependency>
+      <dependency dep="correlated" dep_index="19" gov="Elf-1" gov_index="15">rcmod</dependency>
+      <dependency dep="temporally" dep_index="20" gov="correlated" gov_index="19">advmod</dependency>
+      <dependency dep="the" dep_index="22" gov="activation" gov_index="23">det</dependency>
+      <dependency dep="activation" dep_index="23" gov="correlated" gov_index="19">prep_with</dependency>
+      <dependency dep="Elf-1" dep_index="25" gov="transcription" gov_index="27">amod</dependency>
+      <dependency dep="-mediated" dep_index="26" gov="transcription" gov_index="27">amod</dependency>
+      <dependency dep="transcription" dep_index="27" gov="activation" gov_index="23">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900015" relationship="false">9 7 10 13 15</relation>
+      <relation position="900025" relationship="false">9 7 10 13 15 19 23 27 25</relation>
+      <relation position="1500025" relationship="false">15 19 23 27 25</relation>
+   </relations>
+   <pairs/>
+</root>

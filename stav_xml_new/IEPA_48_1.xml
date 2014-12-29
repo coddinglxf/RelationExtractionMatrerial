@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Leptin@increases@uncoupling protein@expression@and@energy@expenditure@</sentence>
+   <tags>
+      <tag pos="1">Leptin</tag>
+      <tag pos="3">uncoupling protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Leptin</taggedword>
+      <taggedword index="2" part-of-speech="NNS">increases</taggedword>
+      <taggedword index="3" part-of-speech="NN">uncoupling protein</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">energy</taggedword>
+      <taggedword index="7" part-of-speech="NN">expenditure</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Leptin" dep_index="1" gov="increases" gov_index="2">nn</dependency>
+      <dependency dep="increases" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="uncoupling protein" dep_index="3" gov="expression" gov_index="4">nn</dependency>
+      <dependency dep="expression" dep_index="4" gov="increases" gov_index="2">dep</dependency>
+      <dependency dep="energy" dep_index="6" gov="expenditure" gov_index="7">nn</dependency>
+      <dependency dep="expenditure" dep_index="7" gov="increases" gov_index="2">dep</dependency>
+      <dependency dep="expenditure" dep_index="7" gov="expression" gov_index="4">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="true">1 2 4 3</relation>
+   </relations>
+   <pairs>
+      <pair>100003</pair>
+   </pairs>
+</root>

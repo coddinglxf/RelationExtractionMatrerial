@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Our@results@indicate@that@this@helical@domain@must@play@direct@roles@in@the@alpha-beta@interdimer@interactions@that@form@the@self-association@site@of@the@tetramer@and@in@the@alpha-beta@intradimer@interactions@at@the@head@of@the@heterodimer@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP$">Our</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">this</taggedword>
+      <taggedword index="6" part-of-speech="JJ">helical</taggedword>
+      <taggedword index="7" part-of-speech="NN">domain</taggedword>
+      <taggedword index="8" part-of-speech="MD">must</taggedword>
+      <taggedword index="9" part-of-speech="VB">play</taggedword>
+      <taggedword index="10" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="11" part-of-speech="NNS">roles</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">alpha-beta</taggedword>
+      <taggedword index="15" part-of-speech="NN">interdimer</taggedword>
+      <taggedword index="16" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="17" part-of-speech="WDT">that</taggedword>
+      <taggedword index="18" part-of-speech="VBP">form</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">self-association</taggedword>
+      <taggedword index="21" part-of-speech="NN">site</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">tetramer</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="JJ">alpha-beta</taggedword>
+      <taggedword index="29" part-of-speech="NN">intradimer</taggedword>
+      <taggedword index="30" part-of-speech="VBN">interactions</taggedword>
+      <taggedword index="31" part-of-speech="IN">at</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">head</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="DT">the</taggedword>
+      <taggedword index="36" part-of-speech="NN">heterodimer</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Our" dep_index="1" gov="results" gov_index="2">poss</dependency>
+      <dependency dep="results" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="play" gov_index="9">mark</dependency>
+      <dependency dep="this" dep_index="5" gov="domain" gov_index="7">det</dependency>
+      <dependency dep="helical" dep_index="6" gov="domain" gov_index="7">amod</dependency>
+      <dependency dep="domain" dep_index="7" gov="play" gov_index="9">nsubj</dependency>
+      <dependency dep="must" dep_index="8" gov="play" gov_index="9">aux</dependency>
+      <dependency dep="play" dep_index="9" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="direct" dep_index="10" gov="roles" gov_index="11">amod</dependency>
+      <dependency dep="roles" dep_index="11" gov="play" gov_index="9">dobj</dependency>
+      <dependency dep="the" dep_index="13" gov="interactions" gov_index="16">det</dependency>
+      <dependency dep="alpha-beta" dep_index="14" gov="interactions" gov_index="16">amod</dependency>
+      <dependency dep="interdimer" dep_index="15" gov="interactions" gov_index="16">nn</dependency>
+      <dependency dep="interactions" dep_index="16" gov="play" gov_index="9">prep_in</dependency>
+      <dependency dep="interactions" dep_index="16" gov="form" gov_index="18">nsubj</dependency>
+      <dependency dep="form" dep_index="18" gov="interactions" gov_index="16">rcmod</dependency>
+      <dependency dep="the" dep_index="19" gov="site" gov_index="21">det</dependency>
+      <dependency dep="self-association" dep_index="20" gov="site" gov_index="21">amod</dependency>
+      <dependency dep="site" dep_index="21" gov="form" gov_index="18">dobj</dependency>
+      <dependency dep="the" dep_index="23" gov="tetramer" gov_index="24">det</dependency>
+      <dependency dep="tetramer" dep_index="24" gov="site" gov_index="21">prep_of</dependency>
+      <dependency dep="the" dep_index="27" gov="intradimer" gov_index="29">det</dependency>
+      <dependency dep="alpha-beta" dep_index="28" gov="intradimer" gov_index="29">amod</dependency>
+      <dependency dep="intradimer" dep_index="29" gov="play" gov_index="9">prep_in</dependency>
+      <dependency dep="intradimer" dep_index="29" gov="interactions" gov_index="16">conj_and</dependency>
+      <dependency dep="intradimer" dep_index="29" gov="form" gov_index="18">nsubj</dependency>
+      <dependency dep="interactions" dep_index="30" gov="intradimer" gov_index="29">partmod</dependency>
+      <dependency dep="the" dep_index="32" gov="head" gov_index="33">det</dependency>
+      <dependency dep="head" dep_index="33" gov="interactions" gov_index="30">prep_at</dependency>
+      <dependency dep="the" dep_index="35" gov="heterodimer" gov_index="36">det</dependency>
+      <dependency dep="heterodimer" dep_index="36" gov="head" gov_index="33">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

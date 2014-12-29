@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Leptin@infusion@diminished@hypothalamic@NPY@levels@by@nearly@50%@compared@with@pair-fed@young@rats@,@whereas@there@were@no@changes@in@the@hypothalamic@NPY@mRNA@levels@in@senescent@rats@</sentence>
+   <tags>
+      <tag pos="1">Leptin</tag>
+      <tag pos="5">NPY</tag>
+      <tag pos="24">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Leptin</taggedword>
+      <taggedword index="2" part-of-speech="NNP">infusion</taggedword>
+      <taggedword index="3" part-of-speech="VBD">diminished</taggedword>
+      <taggedword index="4" part-of-speech="JJ">hypothalamic</taggedword>
+      <taggedword index="5" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="6" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="RB">nearly</taggedword>
+      <taggedword index="9" part-of-speech="CD">50%</taggedword>
+      <taggedword index="10" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="JJ">pair-fed</taggedword>
+      <taggedword index="13" part-of-speech="JJ">young</taggedword>
+      <taggedword index="14" part-of-speech="NNS">rats</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="17" part-of-speech="EX">there</taggedword>
+      <taggedword index="18" part-of-speech="VBD">were</taggedword>
+      <taggedword index="19" part-of-speech="DT">no</taggedword>
+      <taggedword index="20" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">hypothalamic</taggedword>
+      <taggedword index="24" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="25" part-of-speech="NN">mRNA</taggedword>
+      <taggedword index="26" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="27" part-of-speech="IN">in</taggedword>
+      <taggedword index="28" part-of-speech="JJ">senescent</taggedword>
+      <taggedword index="29" part-of-speech="NNS">rats</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Leptin" dep_index="1" gov="infusion" gov_index="2">nn</dependency>
+      <dependency dep="infusion" dep_index="2" gov="diminished" gov_index="3">nsubj</dependency>
+      <dependency dep="diminished" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="hypothalamic" dep_index="4" gov="levels" gov_index="6">amod</dependency>
+      <dependency dep="NPY" dep_index="5" gov="levels" gov_index="6">nn</dependency>
+      <dependency dep="levels" dep_index="6" gov="diminished" gov_index="3">dobj</dependency>
+      <dependency dep="nearly" dep_index="8" gov="50%" gov_index="9">quantmod</dependency>
+      <dependency dep="50%" dep_index="9" gov="diminished" gov_index="3">prep_by</dependency>
+      <dependency dep="with" dep_index="11" gov="diminished" gov_index="3">prepc_compared_with</dependency>
+      <dependency dep="pair-fed" dep_index="12" gov="rats" gov_index="14">amod</dependency>
+      <dependency dep="young" dep_index="13" gov="rats" gov_index="14">amod</dependency>
+      <dependency dep="rats" dep_index="14" gov="diminished" gov_index="3">pobj</dependency>
+      <dependency dep="whereas" dep_index="16" gov="were" gov_index="18">mark</dependency>
+      <dependency dep="there" dep_index="17" gov="were" gov_index="18">expl</dependency>
+      <dependency dep="were" dep_index="18" gov="diminished" gov_index="3">advcl</dependency>
+      <dependency dep="no" dep_index="19" gov="changes" gov_index="20">det</dependency>
+      <dependency dep="changes" dep_index="20" gov="were" gov_index="18">nsubj</dependency>
+      <dependency dep="the" dep_index="22" gov="levels" gov_index="26">det</dependency>
+      <dependency dep="hypothalamic" dep_index="23" gov="levels" gov_index="26">amod</dependency>
+      <dependency dep="NPY" dep_index="24" gov="levels" gov_index="26">nn</dependency>
+      <dependency dep="mRNA" dep_index="25" gov="levels" gov_index="26">nn</dependency>
+      <dependency dep="levels" dep_index="26" gov="changes" gov_index="20">prep_in</dependency>
+      <dependency dep="senescent" dep_index="28" gov="rats" gov_index="29">amod</dependency>
+      <dependency dep="rats" dep_index="29" gov="levels" gov_index="26">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100005" relationship="true">1 2 3 6 5</relation>
+      <relation position="100024" relationship="false">1 2 3 18 20 26 24</relation>
+      <relation position="500024" relationship="false">5 6 3 18 20 26 24</relation>
+   </relations>
+   <pairs>
+      <pair>100005</pair>
+   </pairs>
+</root>

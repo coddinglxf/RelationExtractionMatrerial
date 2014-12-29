@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@immunocytochemical@studies@showed@the@A beta@-induced@neuronal@MAC@expression@on@the@SH-SY5Y@cells@after@CD59@was@removed@by@PIPLC@or@blocked@by@anti-CD59@antibody@</sentence>
+   <tags>
+      <tag pos="7">A beta</tag>
+      <tag pos="21">PIPLC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="JJ">immunocytochemical</taggedword>
+      <taggedword index="4" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="5" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NNP">A beta</taggedword>
+      <taggedword index="8" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="9" part-of-speech="JJ">neuronal</taggedword>
+      <taggedword index="10" part-of-speech="NN">MAC</taggedword>
+      <taggedword index="11" part-of-speech="NN">expression</taggedword>
+      <taggedword index="12" part-of-speech="IN">on</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">SH-SY5Y</taggedword>
+      <taggedword index="15" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="16" part-of-speech="IN">after</taggedword>
+      <taggedword index="17" part-of-speech="NNP">CD59</taggedword>
+      <taggedword index="18" part-of-speech="VBD">was</taggedword>
+      <taggedword index="19" part-of-speech="VBN">removed</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="NNP">PIPLC</taggedword>
+      <taggedword index="22" part-of-speech="CC">or</taggedword>
+      <taggedword index="23" part-of-speech="VBN">blocked</taggedword>
+      <taggedword index="24" part-of-speech="IN">by</taggedword>
+      <taggedword index="25" part-of-speech="JJ">anti-CD59</taggedword>
+      <taggedword index="26" part-of-speech="NN">antibody</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="showed" gov_index="5">advmod</dependency>
+      <dependency dep="immunocytochemical" dep_index="3" gov="studies" gov_index="4">amod</dependency>
+      <dependency dep="studies" dep_index="4" gov="showed" gov_index="5">nsubj</dependency>
+      <dependency dep="showed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="expression" gov_index="11">det</dependency>
+      <dependency dep="A beta" dep_index="7" gov="expression" gov_index="11">nn</dependency>
+      <dependency dep="-induced" dep_index="8" gov="expression" gov_index="11">amod</dependency>
+      <dependency dep="neuronal" dep_index="9" gov="expression" gov_index="11">amod</dependency>
+      <dependency dep="MAC" dep_index="10" gov="expression" gov_index="11">nn</dependency>
+      <dependency dep="expression" dep_index="11" gov="showed" gov_index="5">dobj</dependency>
+      <dependency dep="the" dep_index="13" gov="cells" gov_index="15">det</dependency>
+      <dependency dep="SH-SY5Y" dep_index="14" gov="cells" gov_index="15">nn</dependency>
+      <dependency dep="cells" dep_index="15" gov="expression" gov_index="11">prep_on</dependency>
+      <dependency dep="after" dep_index="16" gov="removed" gov_index="19">mark</dependency>
+      <dependency dep="CD59" dep_index="17" gov="removed" gov_index="19">nsubjpass</dependency>
+      <dependency dep="CD59" dep_index="17" gov="blocked" gov_index="23">nsubjpass</dependency>
+      <dependency dep="was" dep_index="18" gov="removed" gov_index="19">auxpass</dependency>
+      <dependency dep="removed" dep_index="19" gov="showed" gov_index="5">advcl</dependency>
+      <dependency dep="PIPLC" dep_index="21" gov="removed" gov_index="19">agent</dependency>
+      <dependency dep="blocked" dep_index="23" gov="showed" gov_index="5">advcl</dependency>
+      <dependency dep="blocked" dep_index="23" gov="removed" gov_index="19">conj_or</dependency>
+      <dependency dep="anti-CD59" dep_index="25" gov="antibody" gov_index="26">amod</dependency>
+      <dependency dep="antibody" dep_index="26" gov="blocked" gov_index="23">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700021" relationship="false">7 11 5 19 21</relation>
+   </relations>
+   <pairs/>
+</root>

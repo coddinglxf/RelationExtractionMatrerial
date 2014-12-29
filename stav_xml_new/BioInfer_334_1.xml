@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@extracts@from@mouse@brain@,@profilin I@and@profilin II@can@form@complexes@with@regulators@of@endocytosis@,@synaptic@vesicle@recycling@and@actin@assembly@.@</sentence>
+   <tags>
+      <tag pos="22">actin</tag>
+      <tag pos="7">profilin I</tag>
+      <tag pos="9">profilin II</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NNS">extracts</taggedword>
+      <taggedword index="3" part-of-speech="IN">from</taggedword>
+      <taggedword index="4" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="5" part-of-speech="NN">brain</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNS">profilin I</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNS">profilin II</taggedword>
+      <taggedword index="10" part-of-speech="MD">can</taggedword>
+      <taggedword index="11" part-of-speech="VB">form</taggedword>
+      <taggedword index="12" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="NNS">regulators</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NNS">endocytosis</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="JJ">synaptic</taggedword>
+      <taggedword index="19" part-of-speech="NN">vesicle</taggedword>
+      <taggedword index="20" part-of-speech="NN">recycling</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NN">actin</taggedword>
+      <taggedword index="23" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="extracts" dep_index="2" gov="form" gov_index="11">prep_in</dependency>
+      <dependency dep="mouse" dep_index="4" gov="brain" gov_index="5">nn</dependency>
+      <dependency dep="brain" dep_index="5" gov="extracts" gov_index="2">prep_from</dependency>
+      <dependency dep="profilin I" dep_index="7" gov="form" gov_index="11">nsubj</dependency>
+      <dependency dep="profilin II" dep_index="9" gov="profilin I" gov_index="7">conj_and</dependency>
+      <dependency dep="profilin II" dep_index="9" gov="form" gov_index="11">nsubj</dependency>
+      <dependency dep="can" dep_index="10" gov="form" gov_index="11">aux</dependency>
+      <dependency dep="form" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="complexes" dep_index="12" gov="form" gov_index="11">dobj</dependency>
+      <dependency dep="regulators" dep_index="14" gov="form" gov_index="11">prep_with</dependency>
+      <dependency dep="endocytosis" dep_index="16" gov="regulators" gov_index="14">prep_of</dependency>
+      <dependency dep="synaptic" dep_index="18" gov="recycling" gov_index="20">amod</dependency>
+      <dependency dep="vesicle" dep_index="19" gov="recycling" gov_index="20">nn</dependency>
+      <dependency dep="recycling" dep_index="20" gov="regulators" gov_index="14">prep_of</dependency>
+      <dependency dep="recycling" dep_index="20" gov="endocytosis" gov_index="16">conj_and</dependency>
+      <dependency dep="actin" dep_index="22" gov="assembly" gov_index="23">nn</dependency>
+      <dependency dep="assembly" dep_index="23" gov="regulators" gov_index="14">prep_of</dependency>
+      <dependency dep="assembly" dep_index="23" gov="endocytosis" gov_index="16">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700022" relationship="false">7 11 14 23 22</relation>
+      <relation position="900022" relationship="false">9 11 14 23 22</relation>
+      <relation position="700009" relationship="false">7 11 9</relation>
+   </relations>
+   <pairs/>
+</root>

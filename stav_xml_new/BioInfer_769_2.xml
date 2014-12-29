@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Various@immunological@assays@suggest@that@four@of@these@proteins@(@UL5@,@UL8@,@UL9@,@and@UL52@)@are@made@in@infected@cells@in@very@low@abundance@relative@to@the@other@three@.@</sentence>
+   <tags>
+      <tag pos="18">UL52</tag>
+      <tag pos="13">UL8</tag>
+      <tag pos="15">UL9</tag>
+      <tag pos="11">UL5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Various</taggedword>
+      <taggedword index="2" part-of-speech="JJ">immunological</taggedword>
+      <taggedword index="3" part-of-speech="NNS">assays</taggedword>
+      <taggedword index="4" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="CD">four</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">these</taggedword>
+      <taggedword index="9" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">UL5</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNP">UL8</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NNP">UL9</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNP">UL52</taggedword>
+      <taggedword index="19" part-of-speech="NNP">)</taggedword>
+      <taggedword index="20" part-of-speech="VBP">are</taggedword>
+      <taggedword index="21" part-of-speech="VBN">made</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="JJ">infected</taggedword>
+      <taggedword index="24" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="RB">very</taggedword>
+      <taggedword index="27" part-of-speech="JJ">low</taggedword>
+      <taggedword index="28" part-of-speech="NN">abundance</taggedword>
+      <taggedword index="29" part-of-speech="JJ">relative</taggedword>
+      <taggedword index="30" part-of-speech="TO">to</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="JJ">other</taggedword>
+      <taggedword index="33" part-of-speech="CD">three</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Various" dep_index="1" gov="assays" gov_index="3">amod</dependency>
+      <dependency dep="immunological" dep_index="2" gov="assays" gov_index="3">amod</dependency>
+      <dependency dep="assays" dep_index="3" gov="suggest" gov_index="4">nsubj</dependency>
+      <dependency dep="suggest" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="made" gov_index="21">mark</dependency>
+      <dependency dep="four" dep_index="6" gov="made" gov_index="21">nsubjpass</dependency>
+      <dependency dep="these" dep_index="8" gov="proteins" gov_index="9">det</dependency>
+      <dependency dep="proteins" dep_index="9" gov="four" gov_index="6">prep_of</dependency>
+      <dependency dep="(" dep_index="10" gov="UL9" gov_index="15">nn</dependency>
+      <dependency dep="UL5" dep_index="11" gov="UL9" gov_index="15">nn</dependency>
+      <dependency dep="UL8" dep_index="13" gov="UL9" gov_index="15">appos</dependency>
+      <dependency dep="UL9" dep_index="15" gov="proteins" gov_index="9">dep</dependency>
+      <dependency dep="UL52" dep_index="18" gov=")" gov_index="19">nn</dependency>
+      <dependency dep=")" dep_index="19" gov="proteins" gov_index="9">dep</dependency>
+      <dependency dep=")" dep_index="19" gov="UL9" gov_index="15">conj_and</dependency>
+      <dependency dep="are" dep_index="20" gov="made" gov_index="21">auxpass</dependency>
+      <dependency dep="made" dep_index="21" gov="suggest" gov_index="4">ccomp</dependency>
+      <dependency dep="infected" dep_index="23" gov="cells" gov_index="24">amod</dependency>
+      <dependency dep="cells" dep_index="24" gov="made" gov_index="21">prep_in</dependency>
+      <dependency dep="very" dep_index="26" gov="low" gov_index="27">advmod</dependency>
+      <dependency dep="low" dep_index="27" gov="abundance" gov_index="28">amod</dependency>
+      <dependency dep="abundance" dep_index="28" gov="cells" gov_index="24">prep_in</dependency>
+      <dependency dep="relative" dep_index="29" gov="abundance" gov_index="28">advmod</dependency>
+      <dependency dep="the" dep_index="31" gov="three" gov_index="33">det</dependency>
+      <dependency dep="other" dep_index="32" gov="three" gov_index="33">amod</dependency>
+      <dependency dep="three" dep_index="33" gov="relative" gov_index="29">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300018" relationship="false">13 15 9 19 18</relation>
+      <relation position="1500018" relationship="false">15 9 19 18</relation>
+      <relation position="1100018" relationship="false">11 15 9 19 18</relation>
+      <relation position="1300015" relationship="false"></relation>
+      <relation position="1100013" relationship="false">11 15 13</relation>
+      <relation position="1100015" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

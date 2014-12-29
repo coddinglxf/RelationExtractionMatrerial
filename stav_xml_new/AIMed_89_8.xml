@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Sequence@analysis@of@the@amino@terminus@of@this@protein@indicated@100%@homology@to@human@calreticulin@.@</sentence>
+   <tags>
+      <tag pos="15">calreticulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Sequence</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="6" part-of-speech="NNS">terminus</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">this</taggedword>
+      <taggedword index="9" part-of-speech="NN">protein</taggedword>
+      <taggedword index="10" part-of-speech="VBD">indicated</taggedword>
+      <taggedword index="11" part-of-speech="CD">100%</taggedword>
+      <taggedword index="12" part-of-speech="NN">homology</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="JJ">human</taggedword>
+      <taggedword index="15" part-of-speech="NN">calreticulin</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Sequence" dep_index="1" gov="analysis" gov_index="2">amod</dependency>
+      <dependency dep="analysis" dep_index="2" gov="indicated" gov_index="10">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="terminus" gov_index="6">det</dependency>
+      <dependency dep="amino" dep_index="5" gov="terminus" gov_index="6">amod</dependency>
+      <dependency dep="terminus" dep_index="6" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="this" dep_index="8" gov="protein" gov_index="9">det</dependency>
+      <dependency dep="protein" dep_index="9" gov="terminus" gov_index="6">prep_of</dependency>
+      <dependency dep="indicated" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="100%" dep_index="11" gov="homology" gov_index="12">num</dependency>
+      <dependency dep="homology" dep_index="12" gov="indicated" gov_index="10">dobj</dependency>
+      <dependency dep="human" dep_index="14" gov="calreticulin" gov_index="15">amod</dependency>
+      <dependency dep="calreticulin" dep_index="15" gov="indicated" gov_index="10">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

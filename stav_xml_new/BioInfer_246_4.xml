@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Regulation@of@actin@dynamics@through@phosphorylation@of@cofilin@by@LIM-kinase@.@</sentence>
+   <tags>
+      <tag pos="3">actin</tag>
+      <tag pos="8">cofilin</tag>
+      <tag pos="10">LIM-kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Regulation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">actin</taggedword>
+      <taggedword index="4" part-of-speech="VBD">dynamics</taggedword>
+      <taggedword index="5" part-of-speech="IN">through</taggedword>
+      <taggedword index="6" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="9" part-of-speech="IN">by</taggedword>
+      <taggedword index="10" part-of-speech="NNP">LIM-kinase</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Regulation" dep_index="1" gov="dynamics" gov_index="4">nsubj</dependency>
+      <dependency dep="actin" dep_index="3" gov="Regulation" gov_index="1">prep_of</dependency>
+      <dependency dep="dynamics" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="phosphorylation" dep_index="6" gov="dynamics" gov_index="4">prep_through</dependency>
+      <dependency dep="cofilin" dep_index="8" gov="phosphorylation" gov_index="6">prep_of</dependency>
+      <dependency dep="LIM-kinase" dep_index="10" gov="dynamics" gov_index="4">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300008" relationship="true">3 1 4 6 8</relation>
+      <relation position="300010" relationship="true">3 1 4 10</relation>
+      <relation position="800010" relationship="true">8 6 4 10</relation>
+   </relations>
+   <pairs>
+      <pair>300008</pair>
+      <pair>800010</pair>
+      <pair>300010</pair>
+   </pairs>
+</root>

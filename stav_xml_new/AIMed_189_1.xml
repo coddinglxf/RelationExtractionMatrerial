@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Associations@of@UBE2I@with@RAD52@,@UBL1@,@p53@,@and@RAD51@proteins@in@a@yeast@two-hybrid@system@.@</sentence>
+   <tags>
+      <tag pos="3">UBE2I</tag>
+      <tag pos="5">RAD52</tag>
+      <tag pos="7">UBL1</tag>
+      <tag pos="9">p53</tag>
+      <tag pos="12">RAD51</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Associations</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">UBE2I</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="NNP">RAD52</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="CD">UBL1</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CD">p53</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNP">RAD51</taggedword>
+      <taggedword index="13" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="17" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="18" part-of-speech="NN">system</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Associations" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="UBE2I" dep_index="3" gov="Associations" gov_index="1">prep_of</dependency>
+      <dependency dep="RAD52" dep_index="5" gov="Associations" gov_index="1">prep_with</dependency>
+      <dependency dep="UBL1" dep_index="7" gov="RAD52" gov_index="5">num</dependency>
+      <dependency dep="p53" dep_index="9" gov="RAD52" gov_index="5">num</dependency>
+      <dependency dep="RAD51" dep_index="12" gov="proteins" gov_index="13">nn</dependency>
+      <dependency dep="proteins" dep_index="13" gov="Associations" gov_index="1">prep_with</dependency>
+      <dependency dep="proteins" dep_index="13" gov="RAD52" gov_index="5">conj_and</dependency>
+      <dependency dep="a" dep_index="15" gov="system" gov_index="18">det</dependency>
+      <dependency dep="yeast" dep_index="16" gov="system" gov_index="18">nn</dependency>
+      <dependency dep="two-hybrid" dep_index="17" gov="system" gov_index="18">amod</dependency>
+      <dependency dep="system" dep_index="18" gov="Associations" gov_index="1">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="true">3 1 5</relation>
+      <relation position="300007" relationship="true">3 1 5 7</relation>
+      <relation position="300009" relationship="true">3 1 5 9</relation>
+      <relation position="300012" relationship="true">3 1 13 12</relation>
+      <relation position="500007" relationship="false"></relation>
+      <relation position="500009" relationship="false"></relation>
+      <relation position="500012" relationship="false">5 1 13 12</relation>
+      <relation position="700009" relationship="false">7 5 9</relation>
+      <relation position="700012" relationship="false">7 5 1 13 12</relation>
+      <relation position="900012" relationship="false">9 5 1 13 12</relation>
+   </relations>
+   <pairs>
+      <pair>300005</pair>
+      <pair>300007</pair>
+      <pair>300012</pair>
+      <pair>300009</pair>
+   </pairs>
+</root>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@qualitative@changes@involve@differential@expression@of@multigene@families@of@contractile@proteins@,@especially@myosin heavy chain@(@MHC@)@and@actin@.@</sentence>
+   <tags>
+      <tag pos="20">actin</tag>
+      <tag pos="17">MHC</tag>
+      <tag pos="15">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">qualitative</taggedword>
+      <taggedword index="3" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="4" part-of-speech="VBP">involve</taggedword>
+      <taggedword index="5" part-of-speech="NN">differential</taggedword>
+      <taggedword index="6" part-of-speech="NN">expression</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">multigene</taggedword>
+      <taggedword index="9" part-of-speech="NNS">families</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">contractile</taggedword>
+      <taggedword index="12" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="RB">especially</taggedword>
+      <taggedword index="15" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="16" part-of-speech="NN">(</taggedword>
+      <taggedword index="17" part-of-speech="NNP">MHC</taggedword>
+      <taggedword index="18" part-of-speech="NNP">)</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">actin</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="changes" gov_index="3">det</dependency>
+      <dependency dep="qualitative" dep_index="2" gov="changes" gov_index="3">amod</dependency>
+      <dependency dep="changes" dep_index="3" gov="involve" gov_index="4">nsubj</dependency>
+      <dependency dep="involve" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="differential" dep_index="5" gov="expression" gov_index="6">nn</dependency>
+      <dependency dep="expression" dep_index="6" gov="involve" gov_index="4">dobj</dependency>
+      <dependency dep="multigene" dep_index="8" gov="families" gov_index="9">amod</dependency>
+      <dependency dep="families" dep_index="9" gov="expression" gov_index="6">prep_of</dependency>
+      <dependency dep="contractile" dep_index="11" gov="proteins" gov_index="12">amod</dependency>
+      <dependency dep="proteins" dep_index="12" gov="families" gov_index="9">prep_of</dependency>
+      <dependency dep="especially" dep_index="14" gov=")" gov_index="18">advmod</dependency>
+      <dependency dep="myosin heavy chain" dep_index="15" gov=")" gov_index="18">nn</dependency>
+      <dependency dep="(" dep_index="16" gov=")" gov_index="18">nn</dependency>
+      <dependency dep="MHC" dep_index="17" gov=")" gov_index="18">nn</dependency>
+      <dependency dep=")" dep_index="18" gov="families" gov_index="9">prep_of</dependency>
+      <dependency dep=")" dep_index="18" gov="proteins" gov_index="12">conj_and</dependency>
+      <dependency dep="actin" dep_index="20" gov="families" gov_index="9">prep_of</dependency>
+      <dependency dep="actin" dep_index="20" gov="proteins" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700020" relationship="false">17 18 9 20</relation>
+      <relation position="1500020" relationship="false">15 18 9 20</relation>
+      <relation position="1500017" relationship="false">15 18 17</relation>
+   </relations>
+   <pairs/>
+</root>

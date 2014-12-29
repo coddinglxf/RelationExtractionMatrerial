@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Bone morphogenetic protein-2@(@BMP-2@)@induces@bone@formation@and@regeneration@in@adult@vertebrates@and@regulates@important@developmental@processes@in@all@animals@.@</sentence>
+   <tags>
+      <tag pos="1">Bone morphogenetic protein-2</tag>
+      <tag pos="3">BMP-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Bone morphogenetic protein-2</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">BMP-2</taggedword>
+      <taggedword index="4" part-of-speech="NNP">)</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">induces</taggedword>
+      <taggedword index="6" part-of-speech="NN">bone</taggedword>
+      <taggedword index="7" part-of-speech="NN">formation</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">regeneration</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="JJ">adult</taggedword>
+      <taggedword index="12" part-of-speech="NNS">vertebrates</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">regulates</taggedword>
+      <taggedword index="15" part-of-speech="JJ">important</taggedword>
+      <taggedword index="16" part-of-speech="JJ">developmental</taggedword>
+      <taggedword index="17" part-of-speech="NNS">processes</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">all</taggedword>
+      <taggedword index="20" part-of-speech="NNS">animals</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Bone morphogenetic protein-2" dep_index="1" gov=")" gov_index="4">nn</dependency>
+      <dependency dep="(" dep_index="2" gov=")" gov_index="4">nn</dependency>
+      <dependency dep="BMP-2" dep_index="3" gov=")" gov_index="4">nn</dependency>
+      <dependency dep=")" dep_index="4" gov="induces" gov_index="5">nsubj</dependency>
+      <dependency dep=")" dep_index="4" gov="regulates" gov_index="14">nsubj</dependency>
+      <dependency dep="induces" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="bone" dep_index="6" gov="formation" gov_index="7">nn</dependency>
+      <dependency dep="formation" dep_index="7" gov="induces" gov_index="5">dobj</dependency>
+      <dependency dep="regeneration" dep_index="9" gov="induces" gov_index="5">dobj</dependency>
+      <dependency dep="regeneration" dep_index="9" gov="formation" gov_index="7">conj_and</dependency>
+      <dependency dep="adult" dep_index="11" gov="vertebrates" gov_index="12">amod</dependency>
+      <dependency dep="vertebrates" dep_index="12" gov="formation" gov_index="7">prep_in</dependency>
+      <dependency dep="regulates" dep_index="14" gov="induces" gov_index="5">conj_and</dependency>
+      <dependency dep="important" dep_index="15" gov="processes" gov_index="17">amod</dependency>
+      <dependency dep="developmental" dep_index="16" gov="processes" gov_index="17">amod</dependency>
+      <dependency dep="processes" dep_index="17" gov="regulates" gov_index="14">dobj</dependency>
+      <dependency dep="all" dep_index="19" gov="animals" gov_index="20">det</dependency>
+      <dependency dep="animals" dep_index="20" gov="regulates" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false">1 4 3</relation>
+   </relations>
+   <pairs/>
+</root>

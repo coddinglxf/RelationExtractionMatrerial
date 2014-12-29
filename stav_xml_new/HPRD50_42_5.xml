@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Accordingly@,@Bcl3@coactivated@the@9-cis-RA-induced@transactivations@of@RXR@,@in@contrast@to@the@inhibitory@actions@of@IkappaBbeta@</sentence>
+   <tags>
+      <tag pos="3">Bcl3</tag>
+      <tag pos="18">IkappaBbeta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Accordingly</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNS">Bcl3</taggedword>
+      <taggedword index="4" part-of-speech="VBD">coactivated</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">9-cis-RA-induced</taggedword>
+      <taggedword index="7" part-of-speech="NNS">transactivations</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNP">RXR</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">inhibitory</taggedword>
+      <taggedword index="16" part-of-speech="NNS">actions</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">IkappaBbeta</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Accordingly" dep_index="1" gov="coactivated" gov_index="4">advmod</dependency>
+      <dependency dep="Bcl3" dep_index="3" gov="coactivated" gov_index="4">nsubj</dependency>
+      <dependency dep="coactivated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="transactivations" gov_index="7">det</dependency>
+      <dependency dep="9-cis-RA-induced" dep_index="6" gov="transactivations" gov_index="7">amod</dependency>
+      <dependency dep="transactivations" dep_index="7" gov="coactivated" gov_index="4">dobj</dependency>
+      <dependency dep="RXR" dep_index="9" gov="transactivations" gov_index="7">prep_of</dependency>
+      <dependency dep="contrast" dep_index="12" gov="coactivated" gov_index="4">prep_in</dependency>
+      <dependency dep="the" dep_index="14" gov="actions" gov_index="16">det</dependency>
+      <dependency dep="inhibitory" dep_index="15" gov="actions" gov_index="16">amod</dependency>
+      <dependency dep="actions" dep_index="16" gov="coactivated" gov_index="4">prep_to</dependency>
+      <dependency dep="IkappaBbeta" dep_index="18" gov="actions" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300018" relationship="false">3 4 16 18</relation>
+   </relations>
+   <pairs/>
+</root>

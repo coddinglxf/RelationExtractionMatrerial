@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Although@striated@myotubules@were@identified@within@the@urethra@by@hematoxylin@and@eosin@staining@starting@on@postnatal@day@1@,@striated muscle myosin heavy chain@protein@was@absent@in@the@embryonic@and@neonatal@development@of@the@sphincter@,@and@it@was@expressed@only@in@the@mature@myotubule@of@adults@.@</sentence>
+   <tags>
+      <tag pos="20">striated muscle myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Although</taggedword>
+      <taggedword index="2" part-of-speech="JJ">striated</taggedword>
+      <taggedword index="3" part-of-speech="NNS">myotubules</taggedword>
+      <taggedword index="4" part-of-speech="VBD">were</taggedword>
+      <taggedword index="5" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="6" part-of-speech="IN">within</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">urethra</taggedword>
+      <taggedword index="9" part-of-speech="IN">by</taggedword>
+      <taggedword index="10" part-of-speech="NN">hematoxylin</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">eosin</taggedword>
+      <taggedword index="13" part-of-speech="VBG">staining</taggedword>
+      <taggedword index="14" part-of-speech="VBG">starting</taggedword>
+      <taggedword index="15" part-of-speech="IN">on</taggedword>
+      <taggedword index="16" part-of-speech="NN">postnatal</taggedword>
+      <taggedword index="17" part-of-speech="NN">day</taggedword>
+      <taggedword index="18" part-of-speech="CD">1</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NN">striated muscle myosin heavy chain</taggedword>
+      <taggedword index="21" part-of-speech="NN">protein</taggedword>
+      <taggedword index="22" part-of-speech="VBD">was</taggedword>
+      <taggedword index="23" part-of-speech="JJ">absent</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="JJ">embryonic</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="JJ">neonatal</taggedword>
+      <taggedword index="29" part-of-speech="NN">development</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="NN">sphincter</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="PRP">it</taggedword>
+      <taggedword index="36" part-of-speech="VBD">was</taggedword>
+      <taggedword index="37" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="38" part-of-speech="RB">only</taggedword>
+      <taggedword index="39" part-of-speech="IN">in</taggedword>
+      <taggedword index="40" part-of-speech="DT">the</taggedword>
+      <taggedword index="41" part-of-speech="JJ">mature</taggedword>
+      <taggedword index="42" part-of-speech="NN">myotubule</taggedword>
+      <taggedword index="43" part-of-speech="IN">of</taggedword>
+      <taggedword index="44" part-of-speech="NNS">adults</taggedword>
+      <taggedword index="45" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Although" dep_index="1" gov="identified" gov_index="5">mark</dependency>
+      <dependency dep="striated" dep_index="2" gov="myotubules" gov_index="3">amod</dependency>
+      <dependency dep="myotubules" dep_index="3" gov="identified" gov_index="5">nsubjpass</dependency>
+      <dependency dep="were" dep_index="4" gov="identified" gov_index="5">auxpass</dependency>
+      <dependency dep="identified" dep_index="5" gov="absent" gov_index="23">advcl</dependency>
+      <dependency dep="the" dep_index="7" gov="urethra" gov_index="8">det</dependency>
+      <dependency dep="urethra" dep_index="8" gov="identified" gov_index="5">prep_within</dependency>
+      <dependency dep="hematoxylin" dep_index="10" gov="identified" gov_index="5">agent</dependency>
+      <dependency dep="eosin" dep_index="12" gov="identified" gov_index="5">agent</dependency>
+      <dependency dep="eosin" dep_index="12" gov="hematoxylin" gov_index="10">conj_and</dependency>
+      <dependency dep="staining" dep_index="13" gov="hematoxylin" gov_index="10">partmod</dependency>
+      <dependency dep="starting" dep_index="14" gov="staining" gov_index="13">prep</dependency>
+      <dependency dep="on" dep_index="15" gov="starting" gov_index="14">pcomp</dependency>
+      <dependency dep="postnatal" dep_index="16" gov="day" gov_index="17">nn</dependency>
+      <dependency dep="day" dep_index="17" gov="on" gov_index="15">pobj</dependency>
+      <dependency dep="1" dep_index="18" gov="day" gov_index="17">num</dependency>
+      <dependency dep="striated muscle myosin heavy chain" dep_index="20" gov="protein" gov_index="21">nn</dependency>
+      <dependency dep="protein" dep_index="21" gov="absent" gov_index="23">nsubj</dependency>
+      <dependency dep="was" dep_index="22" gov="absent" gov_index="23">cop</dependency>
+      <dependency dep="absent" dep_index="23" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="25" gov="development" gov_index="29">det</dependency>
+      <dependency dep="embryonic" dep_index="26" gov="development" gov_index="29">amod</dependency>
+      <dependency dep="neonatal" dep_index="28" gov="embryonic" gov_index="26">conj_and</dependency>
+      <dependency dep="neonatal" dep_index="28" gov="development" gov_index="29">amod</dependency>
+      <dependency dep="development" dep_index="29" gov="absent" gov_index="23">prep_in</dependency>
+      <dependency dep="the" dep_index="31" gov="sphincter" gov_index="32">det</dependency>
+      <dependency dep="sphincter" dep_index="32" gov="development" gov_index="29">prep_of</dependency>
+      <dependency dep="it" dep_index="35" gov="expressed" gov_index="37">nsubjpass</dependency>
+      <dependency dep="was" dep_index="36" gov="expressed" gov_index="37">auxpass</dependency>
+      <dependency dep="expressed" dep_index="37" gov="absent" gov_index="23">conj_and</dependency>
+      <dependency dep="only" dep_index="38" gov="expressed" gov_index="37">advmod</dependency>
+      <dependency dep="the" dep_index="40" gov="myotubule" gov_index="42">det</dependency>
+      <dependency dep="mature" dep_index="41" gov="myotubule" gov_index="42">amod</dependency>
+      <dependency dep="myotubule" dep_index="42" gov="expressed" gov_index="37">prep_in</dependency>
+      <dependency dep="adults" dep_index="44" gov="myotubule" gov_index="42">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

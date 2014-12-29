@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Molecular@packing@in@profilin@:@actin@crystals@and@its@implications@.@</sentence>
+   <tags>
+      <tag pos="4">profilin</tag>
+      <tag pos="6">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Molecular</taggedword>
+      <taggedword index="2" part-of-speech="NNP">packing</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="5" part-of-speech=":">:</taggedword>
+      <taggedword index="6" part-of-speech="NN">actin</taggedword>
+      <taggedword index="7" part-of-speech="NNS">crystals</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="10" part-of-speech="NNS">implications</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Molecular" dep_index="1" gov="packing" gov_index="2">nn</dependency>
+      <dependency dep="packing" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="profilin" dep_index="4" gov="packing" gov_index="2">prep_in</dependency>
+      <dependency dep="actin" dep_index="6" gov="crystals" gov_index="7">nn</dependency>
+      <dependency dep="crystals" dep_index="7" gov="packing" gov_index="2">dep</dependency>
+      <dependency dep="its" dep_index="9" gov="implications" gov_index="10">poss</dependency>
+      <dependency dep="implications" dep_index="10" gov="packing" gov_index="2">dep</dependency>
+      <dependency dep="implications" dep_index="10" gov="crystals" gov_index="7">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 7 6</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@transmembrane@receptor protein tyrosine phosphatase@DEP1@interacts@with@p120(ctn)@</sentence>
+   <tags>
+      <tag pos="3">receptor protein tyrosine phosphatase</tag>
+      <tag pos="4">DEP1</tag>
+      <tag pos="7">p120(ctn)</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">transmembrane</taggedword>
+      <taggedword index="3" part-of-speech="NN">receptor protein tyrosine phosphatase</taggedword>
+      <taggedword index="4" part-of-speech="CD">DEP1</taggedword>
+      <taggedword index="5" part-of-speech="NNS">interacts</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="CD">p120(ctn)</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="receptor protein tyrosine phosphatase" gov_index="3">det</dependency>
+      <dependency dep="transmembrane" dep_index="2" gov="receptor protein tyrosine phosphatase" gov_index="3">amod</dependency>
+      <dependency dep="receptor protein tyrosine phosphatase" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="DEP1" dep_index="4" gov="interacts" gov_index="5">num</dependency>
+      <dependency dep="interacts" dep_index="5" gov="receptor protein tyrosine phosphatase" gov_index="3">dep</dependency>
+      <dependency dep="p120(ctn)" dep_index="7" gov="interacts" gov_index="5">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300004" relationship="false"></relation>
+      <relation position="300007" relationship="true"></relation>
+      <relation position="400007" relationship="true">4 5 7</relation>
+   </relations>
+   <pairs>
+      <pair>300007</pair>
+      <pair>400007</pair>
+   </pairs>
+</root>

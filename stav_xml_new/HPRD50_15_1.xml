@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Physical@association@of@beta 2 integrin@with@GPI-80@,@a@novel@glycosylphosphatidylinositol-anchored@protein@with@potential@for@regulating@adhesion@and@migration@</sentence>
+   <tags>
+      <tag pos="4">beta 2 integrin</tag>
+      <tag pos="6">GPI-80</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Physical</taggedword>
+      <taggedword index="2" part-of-speech="NN">association</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">beta 2 integrin</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="NN">GPI-80</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">novel</taggedword>
+      <taggedword index="10" part-of-speech="JJ">glycosylphosphatidylinositol-anchored</taggedword>
+      <taggedword index="11" part-of-speech="NN">protein</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NN">potential</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="VBG">regulating</taggedword>
+      <taggedword index="16" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">migration</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Physical" dep_index="1" gov="association" gov_index="2">amod</dependency>
+      <dependency dep="association" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="beta 2 integrin" dep_index="4" gov="association" gov_index="2">prep_of</dependency>
+      <dependency dep="GPI-80" dep_index="6" gov="association" gov_index="2">prep_with</dependency>
+      <dependency dep="a" dep_index="8" gov="protein" gov_index="11">det</dependency>
+      <dependency dep="novel" dep_index="9" gov="protein" gov_index="11">amod</dependency>
+      <dependency dep="glycosylphosphatidylinositol-anchored" dep_index="10" gov="protein" gov_index="11">amod</dependency>
+      <dependency dep="protein" dep_index="11" gov="GPI-80" gov_index="6">appos</dependency>
+      <dependency dep="potential" dep_index="13" gov="protein" gov_index="11">prep_with</dependency>
+      <dependency dep="regulating" dep_index="15" gov="association" gov_index="2">prepc_for</dependency>
+      <dependency dep="adhesion" dep_index="16" gov="regulating" gov_index="15">dobj</dependency>
+      <dependency dep="migration" dep_index="18" gov="regulating" gov_index="15">dobj</dependency>
+      <dependency dep="migration" dep_index="18" gov="adhesion" gov_index="16">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 2 6</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CD5@associates@with@the@T-cell receptor zeta chain (TcR zeta)/CD3@complex@and@is@rapidly@phosphosphorylated@on@tyrosine@residues@as@a@result@of@TcR zeta@/@CD3@ligation@.@</sentence>
+   <tags>
+      <tag pos="1">CD5</tag>
+      <tag pos="5">T-cell receptor zeta chain (TcR zeta)/CD3</tag>
+      <tag pos="18">TcR zeta</tag>
+      <tag pos="20">CD3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">CD5</taggedword>
+      <taggedword index="2" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">T-cell receptor zeta chain (TcR zeta)/CD3</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">complex</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="RB">rapidly</taggedword>
+      <taggedword index="10" part-of-speech="VBN">phosphosphorylated</taggedword>
+      <taggedword index="11" part-of-speech="IN">on</taggedword>
+      <taggedword index="12" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="13" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="14" part-of-speech="IN">as</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="NN">result</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">TcR zeta</taggedword>
+      <taggedword index="19" part-of-speech="NNP">/</taggedword>
+      <taggedword index="20" part-of-speech="NNP">CD3</taggedword>
+      <taggedword index="21" part-of-speech="NN">ligation</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CD5" dep_index="1" gov="associates" gov_index="2">num</dependency>
+      <dependency dep="associates" dep_index="2" gov="complex" gov_index="6">nsubj</dependency>
+      <dependency dep="associates" dep_index="2" gov="phosphosphorylated" gov_index="10">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="T-cell receptor zeta chain (TcR zeta)/CD3" gov_index="5">det</dependency>
+      <dependency dep="T-cell receptor zeta chain (TcR zeta)/CD3" dep_index="5" gov="associates" gov_index="2">prep_with</dependency>
+      <dependency dep="complex" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="is" dep_index="8" gov="phosphosphorylated" gov_index="10">auxpass</dependency>
+      <dependency dep="rapidly" dep_index="9" gov="phosphosphorylated" gov_index="10">advmod</dependency>
+      <dependency dep="phosphosphorylated" dep_index="10" gov="complex" gov_index="6">conj_and</dependency>
+      <dependency dep="tyrosine" dep_index="12" gov="residues" gov_index="13">amod</dependency>
+      <dependency dep="residues" dep_index="13" gov="phosphosphorylated" gov_index="10">prep_on</dependency>
+      <dependency dep="a" dep_index="15" gov="result" gov_index="16">det</dependency>
+      <dependency dep="result" dep_index="16" gov="phosphosphorylated" gov_index="10">prep_as</dependency>
+      <dependency dep="TcR zeta" dep_index="18" gov="ligation" gov_index="21">nn</dependency>
+      <dependency dep="/" dep_index="19" gov="ligation" gov_index="21">nn</dependency>
+      <dependency dep="CD3" dep_index="20" gov="ligation" gov_index="21">nn</dependency>
+      <dependency dep="ligation" dep_index="21" gov="result" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100005" relationship="true">1 2 5</relation>
+      <relation position="100018" relationship="false">1 2 10 16 21 18</relation>
+      <relation position="100020" relationship="false">1 2 10 16 21 20</relation>
+      <relation position="500018" relationship="false">5 2 10 16 21 18</relation>
+      <relation position="500020" relationship="false">5 2 10 16 21 20</relation>
+      <relation position="1800020" relationship="false">18 21 20</relation>
+   </relations>
+   <pairs>
+      <pair>100005</pair>
+   </pairs>
+</root>

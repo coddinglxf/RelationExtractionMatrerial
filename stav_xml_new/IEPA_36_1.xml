@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Wortmannin@converts@insulin@but@not@oxytocin@from@an@antilipolytic@to@a@lipolytic@agent@in@the@presence@of@forskolin@</sentence>
+   <tags>
+      <tag pos="3">insulin</tag>
+      <tag pos="6">oxytocin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Wortmannin</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">converts</taggedword>
+      <taggedword index="3" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="4" part-of-speech="CC">but</taggedword>
+      <taggedword index="5" part-of-speech="RB">not</taggedword>
+      <taggedword index="6" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="7" part-of-speech="IN">from</taggedword>
+      <taggedword index="8" part-of-speech="DT">an</taggedword>
+      <taggedword index="9" part-of-speech="NN">antilipolytic</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">lipolytic</taggedword>
+      <taggedword index="13" part-of-speech="NN">agent</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">presence</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">forskolin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Wortmannin" dep_index="1" gov="converts" gov_index="2">nsubj</dependency>
+      <dependency dep="converts" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="insulin" dep_index="3" gov="converts" gov_index="2">dobj</dependency>
+      <dependency dep="oxytocin" dep_index="6" gov="converts" gov_index="2">dobj</dependency>
+      <dependency dep="oxytocin" dep_index="6" gov="insulin" gov_index="3">conj_negcc</dependency>
+      <dependency dep="an" dep_index="8" gov="antilipolytic" gov_index="9">det</dependency>
+      <dependency dep="antilipolytic" dep_index="9" gov="converts" gov_index="2">prep_from</dependency>
+      <dependency dep="a" dep_index="11" gov="agent" gov_index="13">det</dependency>
+      <dependency dep="lipolytic" dep_index="12" gov="agent" gov_index="13">amod</dependency>
+      <dependency dep="agent" dep_index="13" gov="antilipolytic" gov_index="9">prep_to</dependency>
+      <dependency dep="the" dep_index="15" gov="presence" gov_index="16">det</dependency>
+      <dependency dep="presence" dep_index="16" gov="agent" gov_index="13">prep_in</dependency>
+      <dependency dep="forskolin" dep_index="18" gov="presence" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300006" relationship="false">3 2 6</relation>
+   </relations>
+   <pairs/>
+</root>

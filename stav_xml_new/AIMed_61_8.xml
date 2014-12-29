@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cell@surface-bound@125I-TNF-alpha@was@slowly@internalized@by@the@293/@TNF-R2@cell@line@with@a@t1/2@=@25@min@.@</sentence>
+   <tags>
+      <tag pos="10">TNF-R2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Cell</taggedword>
+      <taggedword index="2" part-of-speech="JJ">surface-bound</taggedword>
+      <taggedword index="3" part-of-speech="NN">125I-TNF-alpha</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="RB">slowly</taggedword>
+      <taggedword index="6" part-of-speech="VBN">internalized</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="CD">293/</taggedword>
+      <taggedword index="10" part-of-speech="NN">TNF-R2</taggedword>
+      <taggedword index="11" part-of-speech="NN">cell</taggedword>
+      <taggedword index="12" part-of-speech="NN">line</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="JJ">t1/2</taggedword>
+      <taggedword index="16" part-of-speech="JJ">=</taggedword>
+      <taggedword index="17" part-of-speech="CD">25</taggedword>
+      <taggedword index="18" part-of-speech="NN">min</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cell" dep_index="1" gov="125I-TNF-alpha" gov_index="3">amod</dependency>
+      <dependency dep="surface-bound" dep_index="2" gov="125I-TNF-alpha" gov_index="3">amod</dependency>
+      <dependency dep="125I-TNF-alpha" dep_index="3" gov="internalized" gov_index="6">nsubjpass</dependency>
+      <dependency dep="was" dep_index="4" gov="internalized" gov_index="6">auxpass</dependency>
+      <dependency dep="slowly" dep_index="5" gov="internalized" gov_index="6">advmod</dependency>
+      <dependency dep="internalized" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="line" gov_index="12">det</dependency>
+      <dependency dep="293/" dep_index="9" gov="line" gov_index="12">num</dependency>
+      <dependency dep="TNF-R2" dep_index="10" gov="line" gov_index="12">nn</dependency>
+      <dependency dep="cell" dep_index="11" gov="line" gov_index="12">nn</dependency>
+      <dependency dep="line" dep_index="12" gov="internalized" gov_index="6">agent</dependency>
+      <dependency dep="a" dep_index="14" gov="min" gov_index="18">det</dependency>
+      <dependency dep="t1/2" dep_index="15" gov="min" gov_index="18">amod</dependency>
+      <dependency dep="=" dep_index="16" gov="min" gov_index="18">amod</dependency>
+      <dependency dep="25" dep_index="17" gov="min" gov_index="18">num</dependency>
+      <dependency dep="min" dep_index="18" gov="internalized" gov_index="6">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

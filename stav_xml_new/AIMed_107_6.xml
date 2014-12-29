@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@competition@experiments@,@the@carboxyl@terminus@of@beta-adrenergic receptor kinase@(@beta ARK@)@blocked@the@binding@of@G beta gamma@to@Raf/330@;@however@,@the@Raf-1@-binding@proteins@,@Ras@and@14-3-3@,@had@no@effect@.@</sentence>
+   <tags>
+      <tag pos="9">beta-adrenergic receptor kinase</tag>
+      <tag pos="11">beta ARK</tag>
+      <tag pos="17">G beta gamma</tag>
+      <tag pos="19">Raf/330</tag>
+      <tag pos="24">Raf-1</tag>
+      <tag pos="28">Ras</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">competition</taggedword>
+      <taggedword index="3" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">carboxyl</taggedword>
+      <taggedword index="7" part-of-speech="NNS">terminus</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">beta-adrenergic receptor kinase</taggedword>
+      <taggedword index="10" part-of-speech="JJ">(</taggedword>
+      <taggedword index="11" part-of-speech="NN">beta ARK</taggedword>
+      <taggedword index="12" part-of-speech="NNS">)</taggedword>
+      <taggedword index="13" part-of-speech="VBD">blocked</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">binding</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NNP">G beta gamma</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="NNS">Raf/330</taggedword>
+      <taggedword index="20" part-of-speech=":">;</taggedword>
+      <taggedword index="21" part-of-speech="RB">however</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="JJ">Raf-1</taggedword>
+      <taggedword index="25" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="26" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NNP">Ras</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="CD">14-3-3</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="VBD">had</taggedword>
+      <taggedword index="33" part-of-speech="DT">no</taggedword>
+      <taggedword index="34" part-of-speech="NN">effect</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="competition" dep_index="2" gov="experiments" gov_index="3">nn</dependency>
+      <dependency dep="experiments" dep_index="3" gov="blocked" gov_index="13">prep_in</dependency>
+      <dependency dep="the" dep_index="5" gov="terminus" gov_index="7">det</dependency>
+      <dependency dep="carboxyl" dep_index="6" gov="terminus" gov_index="7">amod</dependency>
+      <dependency dep="terminus" dep_index="7" gov="blocked" gov_index="13">nsubj</dependency>
+      <dependency dep="beta-adrenergic receptor kinase" dep_index="9" gov=")" gov_index="12">amod</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="12">amod</dependency>
+      <dependency dep="beta ARK" dep_index="11" gov=")" gov_index="12">nn</dependency>
+      <dependency dep=")" dep_index="12" gov="terminus" gov_index="7">prep_of</dependency>
+      <dependency dep="blocked" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="binding" gov_index="15">det</dependency>
+      <dependency dep="binding" dep_index="15" gov="blocked" gov_index="13">dobj</dependency>
+      <dependency dep="G beta gamma" dep_index="17" gov="binding" gov_index="15">prep_of</dependency>
+      <dependency dep="Raf/330" dep_index="19" gov="blocked" gov_index="13">prep_to</dependency>
+      <dependency dep="however" dep_index="21" gov="had" gov_index="32">advmod</dependency>
+      <dependency dep="the" dep_index="23" gov="proteins" gov_index="26">det</dependency>
+      <dependency dep="Raf-1" dep_index="24" gov="proteins" gov_index="26">amod</dependency>
+      <dependency dep="-binding" dep_index="25" gov="proteins" gov_index="26">amod</dependency>
+      <dependency dep="proteins" dep_index="26" gov="had" gov_index="32">nsubj</dependency>
+      <dependency dep="Ras" dep_index="28" gov="proteins" gov_index="26">appos</dependency>
+      <dependency dep="14-3-3" dep_index="30" gov="proteins" gov_index="26">appos</dependency>
+      <dependency dep="14-3-3" dep_index="30" gov="Ras" gov_index="28">conj_and</dependency>
+      <dependency dep="had" dep_index="32" gov="blocked" gov_index="13">parataxis</dependency>
+      <dependency dep="no" dep_index="33" gov="effect" gov_index="34">det</dependency>
+      <dependency dep="effect" dep_index="34" gov="had" gov_index="32">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="false">9 12 11</relation>
+      <relation position="900017" relationship="false">9 12 7 13 15 17</relation>
+      <relation position="900019" relationship="false">9 12 7 13 19</relation>
+      <relation position="900024" relationship="false">9 12 7 13 32 26 24</relation>
+      <relation position="900028" relationship="false">9 12 7 13 32 26 28</relation>
+      <relation position="1100017" relationship="false">11 12 7 13 15 17</relation>
+      <relation position="1100019" relationship="false">11 12 7 13 19</relation>
+      <relation position="1100024" relationship="false">11 12 7 13 32 26 24</relation>
+      <relation position="1100028" relationship="false">11 12 7 13 32 26 28</relation>
+      <relation position="1700019" relationship="true">17 15 13 19</relation>
+      <relation position="1700024" relationship="false">17 15 13 32 26 24</relation>
+      <relation position="1700028" relationship="false">17 15 13 32 26 28</relation>
+      <relation position="1900024" relationship="false">19 13 32 26 24</relation>
+      <relation position="1900028" relationship="false">19 13 32 26 28</relation>
+      <relation position="2400028" relationship="true">24 26 28</relation>
+   </relations>
+   <pairs>
+      <pair>2400028</pair>
+      <pair>1700019</pair>
+   </pairs>
+</root>

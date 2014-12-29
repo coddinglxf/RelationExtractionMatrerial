@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@to@the@Apc@(Min/+)@enterocytes@,@Apc@(Min/-)@adenomas@displayed@increased@expression@and@association@of@E-cadherin@,@beta-catenin@,@and@alpha-catenin@relative@to@Apc@(+/+)@controls@.@</sentence>
+   <tags>
+      <tag pos="26">Apc</tag>
+      <tag pos="9">Apc</tag>
+      <tag pos="5">Apc</tag>
+      <tag pos="20">beta-catenin</tag>
+      <tag pos="18">E-cadherin</tag>
+      <tag pos="23">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Apc</taggedword>
+      <taggedword index="6" part-of-speech="NNP">(Min/+)</taggedword>
+      <taggedword index="7" part-of-speech="NNS">enterocytes</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Apc</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(Min/-)</taggedword>
+      <taggedword index="11" part-of-speech="NNS">adenomas</taggedword>
+      <taggedword index="12" part-of-speech="VBD">displayed</taggedword>
+      <taggedword index="13" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="14" part-of-speech="NN">expression</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">association</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="24" part-of-speech="JJ">relative</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="NNP">Apc</taggedword>
+      <taggedword index="27" part-of-speech="NNP">(+/+)</taggedword>
+      <taggedword index="28" part-of-speech="NNS">controls</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="displayed" gov_index="12">prep_in</dependency>
+      <dependency dep="the" dep_index="4" gov="enterocytes" gov_index="7">det</dependency>
+      <dependency dep="Apc" dep_index="5" gov="enterocytes" gov_index="7">nn</dependency>
+      <dependency dep="(Min/+)" dep_index="6" gov="enterocytes" gov_index="7">nn</dependency>
+      <dependency dep="enterocytes" dep_index="7" gov="contrast" gov_index="2">prep_to</dependency>
+      <dependency dep="Apc" dep_index="9" gov="adenomas" gov_index="11">nn</dependency>
+      <dependency dep="(Min/-)" dep_index="10" gov="adenomas" gov_index="11">nn</dependency>
+      <dependency dep="adenomas" dep_index="11" gov="displayed" gov_index="12">nsubj</dependency>
+      <dependency dep="displayed" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="increased" dep_index="13" gov="expression" gov_index="14">amod</dependency>
+      <dependency dep="expression" dep_index="14" gov="displayed" gov_index="12">dobj</dependency>
+      <dependency dep="association" dep_index="16" gov="displayed" gov_index="12">dobj</dependency>
+      <dependency dep="association" dep_index="16" gov="expression" gov_index="14">conj_and</dependency>
+      <dependency dep="E-cadherin" dep_index="18" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="20" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="20" gov="E-cadherin" gov_index="18">conj_and</dependency>
+      <dependency dep="alpha-catenin" dep_index="23" gov="controls" gov_index="28">amod</dependency>
+      <dependency dep="relative" dep_index="24" gov="controls" gov_index="28">amod</dependency>
+      <dependency dep="Apc" dep_index="26" gov="(+/+)" gov_index="27">nn</dependency>
+      <dependency dep="(+/+)" dep_index="27" gov="relative" gov_index="24">prep_to</dependency>
+      <dependency dep="controls" dep_index="28" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="controls" dep_index="28" gov="E-cadherin" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900026" relationship="false">9 11 12 14 28 24 27 26</relation>
+      <relation position="500026" relationship="false">5 7 2 12 14 28 24 27 26</relation>
+      <relation position="2000026" relationship="false">20 14 28 24 27 26</relation>
+      <relation position="1800026" relationship="false">18 14 28 24 27 26</relation>
+      <relation position="2300026" relationship="false">23 28 24 27 26</relation>
+      <relation position="500009" relationship="false">5 7 2 12 11 9</relation>
+      <relation position="900020" relationship="false">9 11 12 14 20</relation>
+      <relation position="900018" relationship="false">9 11 12 14 18</relation>
+      <relation position="900023" relationship="false">9 11 12 14 28 23</relation>
+      <relation position="500020" relationship="false">5 7 2 12 14 20</relation>
+      <relation position="500018" relationship="false">5 7 2 12 14 18</relation>
+      <relation position="500023" relationship="false">5 7 2 12 14 28 23</relation>
+      <relation position="1800020" relationship="true">18 14 20</relation>
+      <relation position="2000023" relationship="true">20 14 28 23</relation>
+      <relation position="1800023" relationship="true">18 14 28 23</relation>
+   </relations>
+   <pairs>
+      <pair>1800020</pair>
+      <pair>1800023</pair>
+      <pair>2000023</pair>
+   </pairs>
+</root>

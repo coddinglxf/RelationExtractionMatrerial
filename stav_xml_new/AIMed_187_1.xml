@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interaction@of@transthyretin@with@amyloid beta-protein@:@binding@and@inhibition@of@amyloid@formation@.@</sentence>
+   <tags>
+      <tag pos="3">transthyretin</tag>
+      <tag pos="5">amyloid beta-protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Interaction</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">transthyretin</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="NN">amyloid beta-protein</taggedword>
+      <taggedword index="6" part-of-speech=":">:</taggedword>
+      <taggedword index="7" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">amyloid</taggedword>
+      <taggedword index="12" part-of-speech="NN">formation</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interaction" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="transthyretin" dep_index="3" gov="Interaction" gov_index="1">prep_of</dependency>
+      <dependency dep="amyloid beta-protein" dep_index="5" gov="transthyretin" gov_index="3">prep_with</dependency>
+      <dependency dep="binding" dep_index="7" gov="Interaction" gov_index="1">dep</dependency>
+      <dependency dep="inhibition" dep_index="9" gov="Interaction" gov_index="1">dep</dependency>
+      <dependency dep="inhibition" dep_index="9" gov="binding" gov_index="7">conj_and</dependency>
+      <dependency dep="amyloid" dep_index="11" gov="formation" gov_index="12">amod</dependency>
+      <dependency dep="formation" dep_index="12" gov="binding" gov_index="7">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>300005</pair>
+   </pairs>
+</root>

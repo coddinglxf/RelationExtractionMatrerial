@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Hypothalamic@neuropeptide Y@and@its@neuroendocrine@regulation@by@leptin@</sentence>
+   <tags>
+      <tag pos="2">neuropeptide Y</tag>
+      <tag pos="8">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Hypothalamic</taggedword>
+      <taggedword index="2" part-of-speech="NN">neuropeptide Y</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="5" part-of-speech="JJ">neuroendocrine</taggedword>
+      <taggedword index="6" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="NN">leptin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Hypothalamic" dep_index="1" gov="neuropeptide Y" gov_index="2">amod</dependency>
+      <dependency dep="neuropeptide Y" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="its" dep_index="4" gov="regulation" gov_index="6">poss</dependency>
+      <dependency dep="neuroendocrine" dep_index="5" gov="regulation" gov_index="6">amod</dependency>
+      <dependency dep="regulation" dep_index="6" gov="neuropeptide Y" gov_index="2">conj_and</dependency>
+      <dependency dep="leptin" dep_index="8" gov="neuropeptide Y" gov_index="2">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200008" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>200008</pair>
+   </pairs>
+</root>

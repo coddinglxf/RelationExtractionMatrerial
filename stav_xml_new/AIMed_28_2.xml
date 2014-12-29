@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@tumor@necrosis@factor@(TNF)@and@TNF@receptor@(TNFR)@gene@superfamilies@regulate@diverse@biological@functions@,@including@cell@proliferation@,@differentiation@,@and@survival@[1]@[2]@[3]@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">necrosis</taggedword>
+      <taggedword index="4" part-of-speech="NN">factor</taggedword>
+      <taggedword index="5" part-of-speech="NN">(TNF)</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">TNF</taggedword>
+      <taggedword index="8" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="9" part-of-speech="JJ">(TNFR)</taggedword>
+      <taggedword index="10" part-of-speech="NN">gene</taggedword>
+      <taggedword index="11" part-of-speech="NNS">superfamilies</taggedword>
+      <taggedword index="12" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="13" part-of-speech="JJ">diverse</taggedword>
+      <taggedword index="14" part-of-speech="JJ">biological</taggedword>
+      <taggedword index="15" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="VBG">including</taggedword>
+      <taggedword index="18" part-of-speech="NN">cell</taggedword>
+      <taggedword index="19" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="NN">differentiation</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NN">survival</taggedword>
+      <taggedword index="25" part-of-speech="CD">[1]</taggedword>
+      <taggedword index="26" part-of-speech="CD">[2]</taggedword>
+      <taggedword index="27" part-of-speech="CD">[3]</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="tumor" gov_index="2">det</dependency>
+      <dependency dep="tumor" dep_index="2" gov="necrosis" gov_index="3">nsubj</dependency>
+      <dependency dep="necrosis" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="factor" dep_index="4" gov="(TNF)" gov_index="5">nn</dependency>
+      <dependency dep="(TNF)" dep_index="5" gov="regulate" gov_index="12">nsubj</dependency>
+      <dependency dep="TNF" dep_index="7" gov="superfamilies" gov_index="11">nn</dependency>
+      <dependency dep="receptor" dep_index="8" gov="superfamilies" gov_index="11">nn</dependency>
+      <dependency dep="(TNFR)" dep_index="9" gov="superfamilies" gov_index="11">amod</dependency>
+      <dependency dep="gene" dep_index="10" gov="superfamilies" gov_index="11">nn</dependency>
+      <dependency dep="superfamilies" dep_index="11" gov="(TNF)" gov_index="5">conj_and</dependency>
+      <dependency dep="superfamilies" dep_index="11" gov="regulate" gov_index="12">nsubj</dependency>
+      <dependency dep="regulate" dep_index="12" gov="necrosis" gov_index="3">ccomp</dependency>
+      <dependency dep="diverse" dep_index="13" gov="functions" gov_index="15">amod</dependency>
+      <dependency dep="biological" dep_index="14" gov="functions" gov_index="15">amod</dependency>
+      <dependency dep="functions" dep_index="15" gov="regulate" gov_index="12">dobj</dependency>
+      <dependency dep="cell" dep_index="18" gov="proliferation" gov_index="19">nn</dependency>
+      <dependency dep="proliferation" dep_index="19" gov="functions" gov_index="15">prep_including</dependency>
+      <dependency dep="differentiation" dep_index="21" gov="functions" gov_index="15">prep_including</dependency>
+      <dependency dep="differentiation" dep_index="21" gov="proliferation" gov_index="19">conj_and</dependency>
+      <dependency dep="survival" dep_index="24" gov="functions" gov_index="15">prep_including</dependency>
+      <dependency dep="survival" dep_index="24" gov="proliferation" gov_index="19">conj_and</dependency>
+      <dependency dep="[1]" dep_index="25" gov="survival" gov_index="24">num</dependency>
+      <dependency dep="[2]" dep_index="26" gov="[3]" gov_index="27">number</dependency>
+      <dependency dep="[3]" dep_index="27" gov="survival" gov_index="24">dep</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

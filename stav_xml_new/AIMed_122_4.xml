@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@report@we@show@that@the@localization@and@dimerization@domains@of@RII alpha@are@contained@within@the@first@thirty@residues@of@each@RII@protomer@.@</sentence>
+   <tags>
+      <tag pos="13">RII alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">report</taggedword>
+      <taggedword index="4" part-of-speech="PRP">we</taggedword>
+      <taggedword index="5" part-of-speech="VBP">show</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">localization</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">dimerization</taggedword>
+      <taggedword index="11" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NNP">RII alpha</taggedword>
+      <taggedword index="14" part-of-speech="VBP">are</taggedword>
+      <taggedword index="15" part-of-speech="VBN">contained</taggedword>
+      <taggedword index="16" part-of-speech="IN">within</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">first</taggedword>
+      <taggedword index="19" part-of-speech="CD">thirty</taggedword>
+      <taggedword index="20" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="DT">each</taggedword>
+      <taggedword index="23" part-of-speech="NNP">RII</taggedword>
+      <taggedword index="24" part-of-speech="NN">protomer</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="report" gov_index="3">det</dependency>
+      <dependency dep="report" dep_index="3" gov="show" gov_index="5">prep_in</dependency>
+      <dependency dep="we" dep_index="4" gov="show" gov_index="5">nsubj</dependency>
+      <dependency dep="show" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="contained" gov_index="15">mark</dependency>
+      <dependency dep="the" dep_index="7" gov="domains" gov_index="11">det</dependency>
+      <dependency dep="localization" dep_index="8" gov="domains" gov_index="11">nn</dependency>
+      <dependency dep="dimerization" dep_index="10" gov="localization" gov_index="8">conj_and</dependency>
+      <dependency dep="dimerization" dep_index="10" gov="domains" gov_index="11">nn</dependency>
+      <dependency dep="domains" dep_index="11" gov="contained" gov_index="15">nsubjpass</dependency>
+      <dependency dep="RII alpha" dep_index="13" gov="domains" gov_index="11">prep_of</dependency>
+      <dependency dep="are" dep_index="14" gov="contained" gov_index="15">auxpass</dependency>
+      <dependency dep="contained" dep_index="15" gov="show" gov_index="5">ccomp</dependency>
+      <dependency dep="the" dep_index="17" gov="residues" gov_index="20">det</dependency>
+      <dependency dep="first" dep_index="18" gov="residues" gov_index="20">amod</dependency>
+      <dependency dep="thirty" dep_index="19" gov="residues" gov_index="20">num</dependency>
+      <dependency dep="residues" dep_index="20" gov="contained" gov_index="15">prep_within</dependency>
+      <dependency dep="each" dep_index="22" gov="protomer" gov_index="24">det</dependency>
+      <dependency dep="RII" dep_index="23" gov="protomer" gov_index="24">nn</dependency>
+      <dependency dep="protomer" dep_index="24" gov="residues" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Our@data@strongly@support@the@view@that@the@mobile@form@of@actin@in@slow@transport@is@soluble@and@that@a@substantial@amount@of@this@actin@may@travel@as@a@complex@with@actin depolymerizing factor@,@cofilin@,@and@profilin@.@</sentence>
+   <tags>
+      <tag pos="12">actin</tag>
+      <tag pos="32">actin depolymerizing factor</tag>
+      <tag pos="25">actin</tag>
+      <tag pos="34">cofilin</tag>
+      <tag pos="37">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP$">Our</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="RB">strongly</taggedword>
+      <taggedword index="4" part-of-speech="VBP">support</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">view</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">mobile</taggedword>
+      <taggedword index="10" part-of-speech="NN">form</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">actin</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="JJ">slow</taggedword>
+      <taggedword index="15" part-of-speech="NN">transport</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="17" part-of-speech="JJ">soluble</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="IN">that</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="JJ">substantial</taggedword>
+      <taggedword index="22" part-of-speech="NN">amount</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="DT">this</taggedword>
+      <taggedword index="25" part-of-speech="NN">actin</taggedword>
+      <taggedword index="26" part-of-speech="MD">may</taggedword>
+      <taggedword index="27" part-of-speech="VB">travel</taggedword>
+      <taggedword index="28" part-of-speech="IN">as</taggedword>
+      <taggedword index="29" part-of-speech="DT">a</taggedword>
+      <taggedword index="30" part-of-speech="NN">complex</taggedword>
+      <taggedword index="31" part-of-speech="IN">with</taggedword>
+      <taggedword index="32" part-of-speech="NN">actin depolymerizing factor</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="CC">and</taggedword>
+      <taggedword index="37" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Our" dep_index="1" gov="data" gov_index="2">poss</dependency>
+      <dependency dep="data" dep_index="2" gov="support" gov_index="4">nsubj</dependency>
+      <dependency dep="strongly" dep_index="3" gov="support" gov_index="4">advmod</dependency>
+      <dependency dep="support" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="view" gov_index="6">det</dependency>
+      <dependency dep="view" dep_index="6" gov="support" gov_index="4">dobj</dependency>
+      <dependency dep="that" dep_index="7" gov="soluble" gov_index="17">mark</dependency>
+      <dependency dep="the" dep_index="8" gov="form" gov_index="10">det</dependency>
+      <dependency dep="mobile" dep_index="9" gov="form" gov_index="10">amod</dependency>
+      <dependency dep="form" dep_index="10" gov="soluble" gov_index="17">nsubj</dependency>
+      <dependency dep="actin" dep_index="12" gov="form" gov_index="10">prep_of</dependency>
+      <dependency dep="slow" dep_index="14" gov="transport" gov_index="15">amod</dependency>
+      <dependency dep="transport" dep_index="15" gov="actin" gov_index="12">prep_in</dependency>
+      <dependency dep="is" dep_index="16" gov="soluble" gov_index="17">cop</dependency>
+      <dependency dep="soluble" dep_index="17" gov="support" gov_index="4">ccomp</dependency>
+      <dependency dep="that" dep_index="19" gov="travel" gov_index="27">mark</dependency>
+      <dependency dep="a" dep_index="20" gov="amount" gov_index="22">det</dependency>
+      <dependency dep="substantial" dep_index="21" gov="amount" gov_index="22">amod</dependency>
+      <dependency dep="amount" dep_index="22" gov="travel" gov_index="27">nsubj</dependency>
+      <dependency dep="this" dep_index="24" gov="actin" gov_index="25">det</dependency>
+      <dependency dep="actin" dep_index="25" gov="amount" gov_index="22">prep_of</dependency>
+      <dependency dep="may" dep_index="26" gov="travel" gov_index="27">aux</dependency>
+      <dependency dep="travel" dep_index="27" gov="support" gov_index="4">ccomp</dependency>
+      <dependency dep="travel" dep_index="27" gov="soluble" gov_index="17">conj_and</dependency>
+      <dependency dep="a" dep_index="29" gov="complex" gov_index="30">det</dependency>
+      <dependency dep="complex" dep_index="30" gov="travel" gov_index="27">prep_as</dependency>
+      <dependency dep="actin depolymerizing factor" dep_index="32" gov="complex" gov_index="30">prep_with</dependency>
+      <dependency dep="cofilin" dep_index="34" gov="complex" gov_index="30">prep_with</dependency>
+      <dependency dep="cofilin" dep_index="34" gov="actin depolymerizing factor" gov_index="32">conj_and</dependency>
+      <dependency dep="profilin" dep_index="37" gov="complex" gov_index="30">prep_with</dependency>
+      <dependency dep="profilin" dep_index="37" gov="actin depolymerizing factor" gov_index="32">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200032" relationship="false">12 10 17 4 27 30 32</relation>
+      <relation position="1200025" relationship="false">12 10 17 4 27 22 25</relation>
+      <relation position="1200034" relationship="false">12 10 17 4 27 30 34</relation>
+      <relation position="1200037" relationship="false">12 10 17 4 27 30 37</relation>
+      <relation position="2500032" relationship="true">25 22 27 30 32</relation>
+      <relation position="3200034" relationship="true">32 30 34</relation>
+      <relation position="3200037" relationship="true">32 30 37</relation>
+      <relation position="2500034" relationship="true">25 22 27 30 34</relation>
+      <relation position="2500037" relationship="true">25 22 27 30 37</relation>
+      <relation position="3400037" relationship="true">34 30 37</relation>
+   </relations>
+   <pairs>
+      <pair>2500037</pair>
+      <pair>3200034</pair>
+      <pair>2500032</pair>
+      <pair>2500034</pair>
+      <pair>3200037</pair>
+      <pair>3400037</pair>
+   </pairs>
+</root>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@two@cardiac myosin heavy chain@isoforms@,@alpha@and@beta@,@differ@functionally@,@alpha Myosin@exhibits@higher@actin@-activated@ATPase@than@does@beta myosin@,@and@hearts@expressing@alpha myosin@exhibit@increased@contractility@relative@to@hearts@expressing@beta myosin@.@</sentence>
+   <tags>
+      <tag pos="18">ATPase</tag>
+      <tag pos="21">beta myosin</tag>
+      <tag pos="13">alpha Myosin</tag>
+      <tag pos="26">alpha myosin</tag>
+      <tag pos="34">beta myosin</tag>
+      <tag pos="16">actin</tag>
+      <tag pos="3">cardiac myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="CD">two</taggedword>
+      <taggedword index="3" part-of-speech="NN">cardiac myosin heavy chain</taggedword>
+      <taggedword index="4" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">alpha</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">beta</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="VBP">differ</taggedword>
+      <taggedword index="11" part-of-speech="RB">functionally</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">alpha Myosin</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">exhibits</taggedword>
+      <taggedword index="15" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech="VBD">-activated</taggedword>
+      <taggedword index="18" part-of-speech="NNP">ATPase</taggedword>
+      <taggedword index="19" part-of-speech="IN">than</taggedword>
+      <taggedword index="20" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="21" part-of-speech="NN">beta myosin</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NNS">hearts</taggedword>
+      <taggedword index="25" part-of-speech="VBG">expressing</taggedword>
+      <taggedword index="26" part-of-speech="NN">alpha myosin</taggedword>
+      <taggedword index="27" part-of-speech="NN">exhibit</taggedword>
+      <taggedword index="28" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="29" part-of-speech="RB">contractility</taggedword>
+      <taggedword index="30" part-of-speech="JJ">relative</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="NNS">hearts</taggedword>
+      <taggedword index="33" part-of-speech="VBG">expressing</taggedword>
+      <taggedword index="34" part-of-speech="NN">beta myosin</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="isoforms" gov_index="4">det</dependency>
+      <dependency dep="two" dep_index="2" gov="isoforms" gov_index="4">num</dependency>
+      <dependency dep="cardiac myosin heavy chain" dep_index="3" gov="isoforms" gov_index="4">nn</dependency>
+      <dependency dep="isoforms" dep_index="4" gov="differ" gov_index="10">nsubj</dependency>
+      <dependency dep="alpha" dep_index="6" gov="isoforms" gov_index="4">amod</dependency>
+      <dependency dep="beta" dep_index="8" gov="isoforms" gov_index="4">amod</dependency>
+      <dependency dep="beta" dep_index="8" gov="alpha" gov_index="6">conj_and</dependency>
+      <dependency dep="differ" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="functionally" dep_index="11" gov="exhibits" gov_index="14">advmod</dependency>
+      <dependency dep="alpha Myosin" dep_index="13" gov="exhibits" gov_index="14">nsubj</dependency>
+      <dependency dep="exhibits" dep_index="14" gov="differ" gov_index="10">dep</dependency>
+      <dependency dep="higher" dep_index="15" gov="actin" gov_index="16">amod</dependency>
+      <dependency dep="actin" dep_index="16" gov="-activated" gov_index="17">nsubj</dependency>
+      <dependency dep="-activated" dep_index="17" gov="exhibits" gov_index="14">ccomp</dependency>
+      <dependency dep="ATPase" dep_index="18" gov="does" gov_index="20">nsubj</dependency>
+      <dependency dep="than" dep_index="19" gov="does" gov_index="20">advmod</dependency>
+      <dependency dep="does" dep_index="20" gov="-activated" gov_index="17">ccomp</dependency>
+      <dependency dep="beta myosin" dep_index="21" gov="does" gov_index="20">dobj</dependency>
+      <dependency dep="hearts" dep_index="24" gov="increased" gov_index="28">nsubj</dependency>
+      <dependency dep="expressing" dep_index="25" gov="hearts" gov_index="24">partmod</dependency>
+      <dependency dep="alpha myosin" dep_index="26" gov="exhibit" gov_index="27">nn</dependency>
+      <dependency dep="exhibit" dep_index="27" gov="expressing" gov_index="25">dobj</dependency>
+      <dependency dep="increased" dep_index="28" gov="differ" gov_index="10">dep</dependency>
+      <dependency dep="increased" dep_index="28" gov="exhibits" gov_index="14">conj_and</dependency>
+      <dependency dep="contractility" dep_index="29" gov="relative" gov_index="30">advmod</dependency>
+      <dependency dep="relative" dep_index="30" gov="increased" gov_index="28">acomp</dependency>
+      <dependency dep="hearts" dep_index="32" gov="relative" gov_index="30">prep_to</dependency>
+      <dependency dep="expressing" dep_index="33" gov="hearts" gov_index="32">partmod</dependency>
+      <dependency dep="beta myosin" dep_index="34" gov="expressing" gov_index="33">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800021" relationship="true">18 20 21</relation>
+      <relation position="1300018" relationship="true">13 14 17 20 18</relation>
+      <relation position="1800026" relationship="false">18 20 17 14 10 28 24 25 27 26</relation>
+      <relation position="1800034" relationship="false">18 20 17 14 10 28 30 32 33 34</relation>
+      <relation position="1600018" relationship="true">16 17 20 18</relation>
+      <relation position="300018" relationship="false">3 4 10 14 17 20 18</relation>
+      <relation position="1300021" relationship="false">13 14 17 20 21</relation>
+      <relation position="2100026" relationship="false">21 20 17 14 10 28 24 25 27 26</relation>
+      <relation position="2100034" relationship="false">21 20 17 14 10 28 30 32 33 34</relation>
+      <relation position="1600021" relationship="false">16 17 20 21</relation>
+      <relation position="300021" relationship="false">3 4 10 14 17 20 21</relation>
+      <relation position="1300026" relationship="false">13 14 10 28 24 25 27 26</relation>
+      <relation position="1300034" relationship="false">13 14 10 28 30 32 33 34</relation>
+      <relation position="1300016" relationship="false">13 14 17 16</relation>
+      <relation position="300013" relationship="false">3 4 10 14 13</relation>
+      <relation position="2600034" relationship="false">26 27 25 24 28 30 32 33 34</relation>
+      <relation position="1600026" relationship="false">16 17 14 10 28 24 25 27 26</relation>
+      <relation position="300026" relationship="false">3 4 10 28 24 25 27 26</relation>
+      <relation position="1600034" relationship="false">16 17 14 10 28 30 32 33 34</relation>
+      <relation position="300034" relationship="false">3 4 10 28 30 32 33 34</relation>
+      <relation position="300016" relationship="false">3 4 10 14 17 16</relation>
+   </relations>
+   <pairs>
+      <pair>1300018</pair>
+      <pair>1800021</pair>
+      <pair>1600018</pair>
+   </pairs>
+</root>

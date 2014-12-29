@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@in@vivo@and@in@vitro@properties@of@yeast@profilin@mutants@with@altered@poly-L-proline@and@actin@binding@sites@are@discussed@in@the@context@of@the@crystal@structure@.@</sentence>
+   <tags>
+      <tag pos="10">profilin</tag>
+      <tag pos="16">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="IN">in</taggedword>
+      <taggedword index="3" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="RB">in</taggedword>
+      <taggedword index="6" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="7" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="10" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="11" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="VBN">altered</taggedword>
+      <taggedword index="14" part-of-speech="NN">poly-L-proline</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="18" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="19" part-of-speech="VBP">are</taggedword>
+      <taggedword index="20" part-of-speech="VBN">discussed</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">context</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">crystal</taggedword>
+      <taggedword index="27" part-of-speech="NN">structure</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="properties" gov_index="7">det</dependency>
+      <dependency dep="in" dep_index="2" gov="properties" gov_index="7">KILL</dependency>
+      <dependency dep="vivo" dep_index="3" gov="in" gov_index="2">KILL</dependency>
+      <dependency dep="in" dep_index="5" gov="properties" gov_index="7">conj_and</dependency>
+      <dependency dep="in" dep_index="5" gov="properties" gov_index="7">prep</dependency>
+      <dependency dep="vitro" dep_index="6" gov="properties" gov_index="7">conj_and</dependency>
+      <dependency dep="vitro" dep_index="6" gov="properties" gov_index="7">prep</dependency>
+      <dependency dep="properties" dep_index="7" gov="discussed" gov_index="20">nsubjpass</dependency>
+      <dependency dep="yeast" dep_index="9" gov="mutants" gov_index="11">nn</dependency>
+      <dependency dep="profilin" dep_index="10" gov="mutants" gov_index="11">nn</dependency>
+      <dependency dep="mutants" dep_index="11" gov="properties" gov_index="7">prep_of</dependency>
+      <dependency dep="altered" dep_index="13" gov="poly-L-proline" gov_index="14">amod</dependency>
+      <dependency dep="poly-L-proline" dep_index="14" gov="mutants" gov_index="11">prep_with</dependency>
+      <dependency dep="actin" dep_index="16" gov="sites" gov_index="18">nn</dependency>
+      <dependency dep="binding" dep_index="17" gov="sites" gov_index="18">amod</dependency>
+      <dependency dep="sites" dep_index="18" gov="mutants" gov_index="11">prep_with</dependency>
+      <dependency dep="sites" dep_index="18" gov="poly-L-proline" gov_index="14">conj_and</dependency>
+      <dependency dep="are" dep_index="19" gov="discussed" gov_index="20">auxpass</dependency>
+      <dependency dep="discussed" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="22" gov="context" gov_index="23">det</dependency>
+      <dependency dep="context" dep_index="23" gov="discussed" gov_index="20">prep_in</dependency>
+      <dependency dep="the" dep_index="25" gov="structure" gov_index="27">det</dependency>
+      <dependency dep="crystal" dep_index="26" gov="structure" gov_index="27">nn</dependency>
+      <dependency dep="structure" dep_index="27" gov="context" gov_index="23">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000016" relationship="true">10 11 18 16</relation>
+   </relations>
+   <pairs>
+      <pair>1000016</pair>
+   </pairs>
+</root>

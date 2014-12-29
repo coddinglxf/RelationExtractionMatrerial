@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>alpha-SNAP@binds@to@predicted@alpha-helical@coiled-coil@regions@of@syntaxin@and@SNAP-25@,@shown@previously@to@be@engaged@in@their@direct@interaction@.@</sentence>
+   <tags>
+      <tag pos="9">syntaxin</tag>
+      <tag pos="1">alpha-SNAP</tag>
+      <tag pos="11">SNAP-25</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">alpha-SNAP</taggedword>
+      <taggedword index="2" part-of-speech="NNS">binds</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="VBD">predicted</taggedword>
+      <taggedword index="5" part-of-speech="JJ">alpha-helical</taggedword>
+      <taggedword index="6" part-of-speech="JJ">coiled-coil</taggedword>
+      <taggedword index="7" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">syntaxin</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">SNAP-25</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="14" part-of-speech="RB">previously</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="VB">be</taggedword>
+      <taggedword index="17" part-of-speech="VBN">engaged</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="20" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="21" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="alpha-SNAP" dep_index="1" gov="binds" gov_index="2">amod</dependency>
+      <dependency dep="binds" dep_index="2" gov="predicted" gov_index="4">nsubj</dependency>
+      <dependency dep="to" dep_index="3" gov="binds" gov_index="2">prep</dependency>
+      <dependency dep="predicted" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="alpha-helical" dep_index="5" gov="regions" gov_index="7">amod</dependency>
+      <dependency dep="coiled-coil" dep_index="6" gov="regions" gov_index="7">amod</dependency>
+      <dependency dep="regions" dep_index="7" gov="predicted" gov_index="4">dobj</dependency>
+      <dependency dep="syntaxin" dep_index="9" gov="regions" gov_index="7">prep_of</dependency>
+      <dependency dep="SNAP-25" dep_index="11" gov="regions" gov_index="7">prep_of</dependency>
+      <dependency dep="SNAP-25" dep_index="11" gov="syntaxin" gov_index="9">conj_and</dependency>
+      <dependency dep="shown" dep_index="13" gov="regions" gov_index="7">partmod</dependency>
+      <dependency dep="previously" dep_index="14" gov="shown" gov_index="13">advmod</dependency>
+      <dependency dep="to" dep_index="15" gov="engaged" gov_index="17">aux</dependency>
+      <dependency dep="be" dep_index="16" gov="engaged" gov_index="17">auxpass</dependency>
+      <dependency dep="engaged" dep_index="17" gov="shown" gov_index="13">xcomp</dependency>
+      <dependency dep="their" dep_index="19" gov="interaction" gov_index="21">poss</dependency>
+      <dependency dep="direct" dep_index="20" gov="interaction" gov_index="21">amod</dependency>
+      <dependency dep="interaction" dep_index="21" gov="engaged" gov_index="17">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100009" relationship="true">1 2 4 7 9</relation>
+      <relation position="900011" relationship="true">9 7 11</relation>
+      <relation position="100011" relationship="true">1 2 4 7 11</relation>
+   </relations>
+   <pairs>
+      <pair>900011</pair>
+      <pair>100011</pair>
+      <pair>100009</pair>
+   </pairs>
+</root>

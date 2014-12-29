@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@conclude@that@PKC@activation@is@a@necessary@step@in@the@signal@transduction@pathway@linking@low@concentrations@of@AVP@to@Ca2+@spiking@in@A7r5@cells@</sentence>
+   <tags>
+      <tag pos="4">PKC</tag>
+      <tag pos="19">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">conclude</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="5" part-of-speech="NNP">activation</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">necessary</taggedword>
+      <taggedword index="9" part-of-speech="NN">step</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">signal</taggedword>
+      <taggedword index="13" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="14" part-of-speech="RB">pathway</taggedword>
+      <taggedword index="15" part-of-speech="VBG">linking</taggedword>
+      <taggedword index="16" part-of-speech="JJ">low</taggedword>
+      <taggedword index="17" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="NNS">Ca2+</taggedword>
+      <taggedword index="22" part-of-speech="VBG">spiking</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="JJ">A7r5</taggedword>
+      <taggedword index="25" part-of-speech="NNS">cells</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="conclude" gov_index="2">nsubj</dependency>
+      <dependency dep="conclude" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="step" gov_index="9">mark</dependency>
+      <dependency dep="PKC" dep_index="4" gov="activation" gov_index="5">nn</dependency>
+      <dependency dep="activation" dep_index="5" gov="step" gov_index="9">nsubj</dependency>
+      <dependency dep="is" dep_index="6" gov="step" gov_index="9">cop</dependency>
+      <dependency dep="a" dep_index="7" gov="step" gov_index="9">det</dependency>
+      <dependency dep="necessary" dep_index="8" gov="step" gov_index="9">amod</dependency>
+      <dependency dep="step" dep_index="9" gov="conclude" gov_index="2">ccomp</dependency>
+      <dependency dep="the" dep_index="11" gov="transduction" gov_index="13">det</dependency>
+      <dependency dep="signal" dep_index="12" gov="transduction" gov_index="13">nn</dependency>
+      <dependency dep="transduction" dep_index="13" gov="step" gov_index="9">prep_in</dependency>
+      <dependency dep="pathway" dep_index="14" gov="linking" gov_index="15">advmod</dependency>
+      <dependency dep="linking" dep_index="15" gov="transduction" gov_index="13">partmod</dependency>
+      <dependency dep="low" dep_index="16" gov="concentrations" gov_index="17">amod</dependency>
+      <dependency dep="concentrations" dep_index="17" gov="linking" gov_index="15">dobj</dependency>
+      <dependency dep="AVP" dep_index="19" gov="concentrations" gov_index="17">prep_of</dependency>
+      <dependency dep="Ca2+" dep_index="21" gov="linking" gov_index="15">prep_to</dependency>
+      <dependency dep="spiking" dep_index="22" gov="Ca2+" gov_index="21">partmod</dependency>
+      <dependency dep="A7r5" dep_index="24" gov="cells" gov_index="25">amod</dependency>
+      <dependency dep="cells" dep_index="25" gov="spiking" gov_index="22">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400019" relationship="true">4 5 9 13 15 17 19</relation>
+   </relations>
+   <pairs>
+      <pair>400019</pair>
+   </pairs>
+</root>

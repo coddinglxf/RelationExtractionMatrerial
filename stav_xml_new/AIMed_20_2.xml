@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Inflammation@and@genetics@are@both@prominent@mechanisms@in@the@pathogenesis@of@atherosclerosis@and@arterial@thrombosis@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Inflammation</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NNP">genetics</taggedword>
+      <taggedword index="4" part-of-speech="VBP">are</taggedword>
+      <taggedword index="5" part-of-speech="DT">both</taggedword>
+      <taggedword index="6" part-of-speech="JJ">prominent</taggedword>
+      <taggedword index="7" part-of-speech="NNS">mechanisms</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NNS">pathogenesis</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNS">atherosclerosis</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">arterial</taggedword>
+      <taggedword index="15" part-of-speech="NNS">thrombosis</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Inflammation" dep_index="1" gov="mechanisms" gov_index="7">nsubj</dependency>
+      <dependency dep="genetics" dep_index="3" gov="Inflammation" gov_index="1">conj_and</dependency>
+      <dependency dep="genetics" dep_index="3" gov="mechanisms" gov_index="7">nsubj</dependency>
+      <dependency dep="are" dep_index="4" gov="mechanisms" gov_index="7">cop</dependency>
+      <dependency dep="both" dep_index="5" gov="mechanisms" gov_index="7">det</dependency>
+      <dependency dep="prominent" dep_index="6" gov="mechanisms" gov_index="7">amod</dependency>
+      <dependency dep="mechanisms" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="9" gov="pathogenesis" gov_index="10">det</dependency>
+      <dependency dep="pathogenesis" dep_index="10" gov="mechanisms" gov_index="7">prep_in</dependency>
+      <dependency dep="atherosclerosis" dep_index="12" gov="pathogenesis" gov_index="10">prep_of</dependency>
+      <dependency dep="arterial" dep_index="14" gov="thrombosis" gov_index="15">amod</dependency>
+      <dependency dep="thrombosis" dep_index="15" gov="pathogenesis" gov_index="10">prep_of</dependency>
+      <dependency dep="thrombosis" dep_index="15" gov="atherosclerosis" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

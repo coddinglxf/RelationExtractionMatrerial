@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>By@two-hybrid@screening@we@have@identified@two@partners@that@directly@associate@with@TIF34@:@PRT1@,@a@previously@characterized@eIF3@subunit@,@and@a@novel@protein@of@33@kDa@(@eIF3-p33@)@which@is@part@of@the@eIF3@complex@and@has@an@RNA@binding@domain@.@</sentence>
+   <tags>
+      <tag pos="38">eIF3</tag>
+      <tag pos="31">eIF3-p33</tag>
+      <tag pos="20">eIF3</tag>
+      <tag pos="15">PRT1</tag>
+      <tag pos="13">TIF34</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">By</taggedword>
+      <taggedword index="2" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="3" part-of-speech="NN">screening</taggedword>
+      <taggedword index="4" part-of-speech="PRP">we</taggedword>
+      <taggedword index="5" part-of-speech="VBP">have</taggedword>
+      <taggedword index="6" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="7" part-of-speech="CD">two</taggedword>
+      <taggedword index="8" part-of-speech="NNS">partners</taggedword>
+      <taggedword index="9" part-of-speech="WDT">that</taggedword>
+      <taggedword index="10" part-of-speech="RB">directly</taggedword>
+      <taggedword index="11" part-of-speech="VBP">associate</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NNP">TIF34</taggedword>
+      <taggedword index="14" part-of-speech=":">:</taggedword>
+      <taggedword index="15" part-of-speech="NNP">PRT1</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="RB">previously</taggedword>
+      <taggedword index="19" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="20" part-of-speech="JJ">eIF3</taggedword>
+      <taggedword index="21" part-of-speech="NN">subunit</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="DT">a</taggedword>
+      <taggedword index="25" part-of-speech="NN">novel</taggedword>
+      <taggedword index="26" part-of-speech="NN">protein</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="CD">33</taggedword>
+      <taggedword index="29" part-of-speech="JJ">kDa</taggedword>
+      <taggedword index="30" part-of-speech="JJ">(</taggedword>
+      <taggedword index="31" part-of-speech="JJ">eIF3-p33</taggedword>
+      <taggedword index="32" part-of-speech="NNS">)</taggedword>
+      <taggedword index="33" part-of-speech="WDT">which</taggedword>
+      <taggedword index="34" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="35" part-of-speech="NN">part</taggedword>
+      <taggedword index="36" part-of-speech="IN">of</taggedword>
+      <taggedword index="37" part-of-speech="DT">the</taggedword>
+      <taggedword index="38" part-of-speech="JJ">eIF3</taggedword>
+      <taggedword index="39" part-of-speech="NN">complex</taggedword>
+      <taggedword index="40" part-of-speech="CC">and</taggedword>
+      <taggedword index="41" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="42" part-of-speech="DT">an</taggedword>
+      <taggedword index="43" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="44" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="45" part-of-speech="NN">domain</taggedword>
+      <taggedword index="46" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="two-hybrid" dep_index="2" gov="screening" gov_index="3">amod</dependency>
+      <dependency dep="screening" dep_index="3" gov="identified" gov_index="6">prep_by</dependency>
+      <dependency dep="we" dep_index="4" gov="identified" gov_index="6">nsubj</dependency>
+      <dependency dep="have" dep_index="5" gov="identified" gov_index="6">aux</dependency>
+      <dependency dep="identified" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="two" dep_index="7" gov="partners" gov_index="8">num</dependency>
+      <dependency dep="partners" dep_index="8" gov="identified" gov_index="6">dobj</dependency>
+      <dependency dep="partners" dep_index="8" gov="associate" gov_index="11">nsubj</dependency>
+      <dependency dep="directly" dep_index="10" gov="associate" gov_index="11">advmod</dependency>
+      <dependency dep="associate" dep_index="11" gov="partners" gov_index="8">rcmod</dependency>
+      <dependency dep="TIF34" dep_index="13" gov="associate" gov_index="11">prep_with</dependency>
+      <dependency dep="PRT1" dep_index="15" gov="identified" gov_index="6">dobj</dependency>
+      <dependency dep="PRT1" dep_index="15" gov="partners" gov_index="8">conj_and</dependency>
+      <dependency dep="PRT1" dep_index="15" gov="associate" gov_index="11">nsubj</dependency>
+      <dependency dep="a" dep_index="17" gov="subunit" gov_index="21">det</dependency>
+      <dependency dep="previously" dep_index="18" gov="characterized" gov_index="19">advmod</dependency>
+      <dependency dep="characterized" dep_index="19" gov="subunit" gov_index="21">amod</dependency>
+      <dependency dep="eIF3" dep_index="20" gov="subunit" gov_index="21">amod</dependency>
+      <dependency dep="subunit" dep_index="21" gov="PRT1" gov_index="15">appos</dependency>
+      <dependency dep="a" dep_index="24" gov="protein" gov_index="26">det</dependency>
+      <dependency dep="novel" dep_index="25" gov="protein" gov_index="26">nn</dependency>
+      <dependency dep="protein" dep_index="26" gov="partners" gov_index="8">conj_and</dependency>
+      <dependency dep="protein" dep_index="26" gov="part" gov_index="35">nsubj</dependency>
+      <dependency dep="protein" dep_index="26" gov="has" gov_index="41">nsubj</dependency>
+      <dependency dep="33" dep_index="28" gov=")" gov_index="32">num</dependency>
+      <dependency dep="kDa" dep_index="29" gov=")" gov_index="32">amod</dependency>
+      <dependency dep="(" dep_index="30" gov=")" gov_index="32">amod</dependency>
+      <dependency dep="eIF3-p33" dep_index="31" gov=")" gov_index="32">amod</dependency>
+      <dependency dep=")" dep_index="32" gov="protein" gov_index="26">prep_of</dependency>
+      <dependency dep="is" dep_index="34" gov="part" gov_index="35">cop</dependency>
+      <dependency dep="part" dep_index="35" gov="protein" gov_index="26">rcmod</dependency>
+      <dependency dep="the" dep_index="37" gov="complex" gov_index="39">det</dependency>
+      <dependency dep="eIF3" dep_index="38" gov="complex" gov_index="39">amod</dependency>
+      <dependency dep="complex" dep_index="39" gov="part" gov_index="35">prep_of</dependency>
+      <dependency dep="has" dep_index="41" gov="protein" gov_index="26">rcmod</dependency>
+      <dependency dep="has" dep_index="41" gov="part" gov_index="35">conj_and</dependency>
+      <dependency dep="an" dep_index="42" gov="domain" gov_index="45">det</dependency>
+      <dependency dep="RNA" dep_index="43" gov="domain" gov_index="45">nn</dependency>
+      <dependency dep="binding" dep_index="44" gov="domain" gov_index="45">amod</dependency>
+      <dependency dep="domain" dep_index="45" gov="has" gov_index="41">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3100038" relationship="true">31 32 26 35 39 38</relation>
+      <relation position="2000038" relationship="false"></relation>
+      <relation position="1500038" relationship="false"></relation>
+      <relation position="1300038" relationship="false"></relation>
+      <relation position="2000031" relationship="false"></relation>
+      <relation position="1500031" relationship="false"></relation>
+      <relation position="1300031" relationship="true"></relation>
+      <relation position="1500020" relationship="true"></relation>
+      <relation position="1300020" relationship="false">13 11 15 21 20</relation>
+      <relation position="1300015" relationship="true">13 11 15</relation>
+   </relations>
+   <pairs>
+      <pair>3100038</pair>
+      <pair>1300015</pair>
+      <pair>1300031</pair>
+      <pair>1500020</pair>
+   </pairs>
+</root>

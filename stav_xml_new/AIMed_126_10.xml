@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@suggests@that@rhodanese@must@interact@with@groEL@throughout@most@of@its@folding@reaction@before@it@acquires@a@folding@competent@(groE@independent)@state@.@</sentence>
+   <tags>
+      <tag pos="4">rhodanese</tag>
+      <tag pos="8">groEL</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NN">rhodanese</taggedword>
+      <taggedword index="5" part-of-speech="MD">must</taggedword>
+      <taggedword index="6" part-of-speech="VB">interact</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="NN">groEL</taggedword>
+      <taggedword index="9" part-of-speech="IN">throughout</taggedword>
+      <taggedword index="10" part-of-speech="JJS">most</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="13" part-of-speech="JJ">folding</taggedword>
+      <taggedword index="14" part-of-speech="NN">reaction</taggedword>
+      <taggedword index="15" part-of-speech="IN">before</taggedword>
+      <taggedword index="16" part-of-speech="PRP">it</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">acquires</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">folding</taggedword>
+      <taggedword index="20" part-of-speech="JJ">competent</taggedword>
+      <taggedword index="21" part-of-speech="JJ">(groE</taggedword>
+      <taggedword index="22" part-of-speech="NNP">independent)</taggedword>
+      <taggedword index="23" part-of-speech="NN">state</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="suggests" gov_index="2">nsubj</dependency>
+      <dependency dep="suggests" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="interact" gov_index="6">mark</dependency>
+      <dependency dep="rhodanese" dep_index="4" gov="interact" gov_index="6">nsubj</dependency>
+      <dependency dep="must" dep_index="5" gov="interact" gov_index="6">aux</dependency>
+      <dependency dep="interact" dep_index="6" gov="suggests" gov_index="2">ccomp</dependency>
+      <dependency dep="groEL" dep_index="8" gov="interact" gov_index="6">prep_with</dependency>
+      <dependency dep="most" dep_index="10" gov="interact" gov_index="6">prep_throughout</dependency>
+      <dependency dep="its" dep_index="12" gov="reaction" gov_index="14">poss</dependency>
+      <dependency dep="folding" dep_index="13" gov="reaction" gov_index="14">amod</dependency>
+      <dependency dep="reaction" dep_index="14" gov="most" gov_index="10">prep_of</dependency>
+      <dependency dep="before" dep_index="15" gov="acquires" gov_index="17">mark</dependency>
+      <dependency dep="it" dep_index="16" gov="acquires" gov_index="17">nsubj</dependency>
+      <dependency dep="acquires" dep_index="17" gov="interact" gov_index="6">advcl</dependency>
+      <dependency dep="a" dep_index="18" gov="state" gov_index="23">det</dependency>
+      <dependency dep="folding" dep_index="19" gov="state" gov_index="23">amod</dependency>
+      <dependency dep="competent" dep_index="20" gov="(groE" gov_index="21">amod</dependency>
+      <dependency dep="(groE" dep_index="21" gov="state" gov_index="23">amod</dependency>
+      <dependency dep="independent)" dep_index="22" gov="state" gov_index="23">nn</dependency>
+      <dependency dep="state" dep_index="23" gov="acquires" gov_index="17">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400008" relationship="true">4 6 8</relation>
+   </relations>
+   <pairs>
+      <pair>400008</pair>
+   </pairs>
+</root>

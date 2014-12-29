@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>HvSPY@coexpression@largely@abolished@GA3@-induced@activity@of@an@alpha-amylase@promoter@.@</sentence>
+   <tags>
+      <tag pos="5">GA3</tag>
+      <tag pos="10">alpha-amylase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">HvSPY</taggedword>
+      <taggedword index="2" part-of-speech="NN">coexpression</taggedword>
+      <taggedword index="3" part-of-speech="RB">largely</taggedword>
+      <taggedword index="4" part-of-speech="VBD">abolished</taggedword>
+      <taggedword index="5" part-of-speech="JJ">GA3</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="7" part-of-speech="NN">activity</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">an</taggedword>
+      <taggedword index="10" part-of-speech="JJ">alpha-amylase</taggedword>
+      <taggedword index="11" part-of-speech="NN">promoter</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="HvSPY" dep_index="1" gov="coexpression" gov_index="2">amod</dependency>
+      <dependency dep="coexpression" dep_index="2" gov="abolished" gov_index="4">nsubj</dependency>
+      <dependency dep="largely" dep_index="3" gov="abolished" gov_index="4">advmod</dependency>
+      <dependency dep="abolished" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="GA3" dep_index="5" gov="activity" gov_index="7">amod</dependency>
+      <dependency dep="-induced" dep_index="6" gov="activity" gov_index="7">amod</dependency>
+      <dependency dep="activity" dep_index="7" gov="abolished" gov_index="4">dobj</dependency>
+      <dependency dep="an" dep_index="9" gov="promoter" gov_index="11">det</dependency>
+      <dependency dep="alpha-amylase" dep_index="10" gov="promoter" gov_index="11">amod</dependency>
+      <dependency dep="promoter" dep_index="11" gov="activity" gov_index="7">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500010" relationship="true">5 7 11 10</relation>
+   </relations>
+   <pairs>
+      <pair>500010</pair>
+   </pairs>
+</root>

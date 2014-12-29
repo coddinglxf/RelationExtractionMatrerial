@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Inhibition@of@the@interactions@of@cofilin@,@destrin@,@and@deoxyribonuclease I@with@actin@by@phosphoinositides@.@</sentence>
+   <tags>
+      <tag pos="6">cofilin</tag>
+      <tag pos="11">deoxyribonuclease I</tag>
+      <tag pos="13">actin</tag>
+      <tag pos="8">destrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Inhibition</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">destrin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">deoxyribonuclease I</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NN">actin</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="NNS">phosphoinositides</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Inhibition" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="interactions" gov_index="4">det</dependency>
+      <dependency dep="interactions" dep_index="4" gov="Inhibition" gov_index="1">prep_of</dependency>
+      <dependency dep="cofilin" dep_index="6" gov="interactions" gov_index="4">prep_of</dependency>
+      <dependency dep="destrin" dep_index="8" gov="interactions" gov_index="4">prep_of</dependency>
+      <dependency dep="destrin" dep_index="8" gov="cofilin" gov_index="6">conj_and</dependency>
+      <dependency dep="deoxyribonuclease I" dep_index="11" gov="interactions" gov_index="4">prep_of</dependency>
+      <dependency dep="deoxyribonuclease I" dep_index="11" gov="cofilin" gov_index="6">conj_and</dependency>
+      <dependency dep="actin" dep_index="13" gov="cofilin" gov_index="6">prep_with</dependency>
+      <dependency dep="phosphoinositides" dep_index="15" gov="Inhibition" gov_index="1">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600011" relationship="false">6 4 11</relation>
+      <relation position="600013" relationship="true"></relation>
+      <relation position="600008" relationship="false">6 4 8</relation>
+      <relation position="1100013" relationship="true">11 4 6 13</relation>
+      <relation position="800011" relationship="false">8 4 11</relation>
+      <relation position="800013" relationship="true">8 4 6 13</relation>
+   </relations>
+   <pairs>
+      <pair>600013</pair>
+      <pair>800013</pair>
+      <pair>1100013</pair>
+   </pairs>
+</root>

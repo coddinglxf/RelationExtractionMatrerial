@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Taken@together@,@these@data@suggest@that@the@effect@of@8-OH-DPAT@on@plasma@levels@of@insulin@,@somatostatin@and@CCK@may@be@mediated@by@oxytocin@</sentence>
+   <tags>
+      <tag pos="16">insulin</tag>
+      <tag pos="25">oxytocin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Taken</taggedword>
+      <taggedword index="2" part-of-speech="RB">together</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">these</taggedword>
+      <taggedword index="5" part-of-speech="NNS">data</taggedword>
+      <taggedword index="6" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">effect</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="CD">8-OH-DPAT</taggedword>
+      <taggedword index="12" part-of-speech="IN">on</taggedword>
+      <taggedword index="13" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="14" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NN">somatostatin</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">CCK</taggedword>
+      <taggedword index="21" part-of-speech="MD">may</taggedword>
+      <taggedword index="22" part-of-speech="VB">be</taggedword>
+      <taggedword index="23" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="24" part-of-speech="IN">by</taggedword>
+      <taggedword index="25" part-of-speech="NN">oxytocin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Taken" dep_index="1" gov="suggest" gov_index="6">partmod</dependency>
+      <dependency dep="together" dep_index="2" gov="Taken" gov_index="1">advmod</dependency>
+      <dependency dep="these" dep_index="4" gov="data" gov_index="5">det</dependency>
+      <dependency dep="data" dep_index="5" gov="suggest" gov_index="6">nsubj</dependency>
+      <dependency dep="suggest" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="mediated" gov_index="23">mark</dependency>
+      <dependency dep="the" dep_index="8" gov="effect" gov_index="9">det</dependency>
+      <dependency dep="effect" dep_index="9" gov="mediated" gov_index="23">nsubjpass</dependency>
+      <dependency dep="8-OH-DPAT" dep_index="11" gov="effect" gov_index="9">prep_of</dependency>
+      <dependency dep="plasma" dep_index="13" gov="levels" gov_index="14">nn</dependency>
+      <dependency dep="levels" dep_index="14" gov="8-OH-DPAT" gov_index="11">prep_on</dependency>
+      <dependency dep="insulin" dep_index="16" gov="levels" gov_index="14">prep_of</dependency>
+      <dependency dep="somatostatin" dep_index="18" gov="levels" gov_index="14">prep_of</dependency>
+      <dependency dep="somatostatin" dep_index="18" gov="insulin" gov_index="16">conj_and</dependency>
+      <dependency dep="CCK" dep_index="20" gov="levels" gov_index="14">prep_of</dependency>
+      <dependency dep="CCK" dep_index="20" gov="insulin" gov_index="16">conj_and</dependency>
+      <dependency dep="may" dep_index="21" gov="mediated" gov_index="23">aux</dependency>
+      <dependency dep="be" dep_index="22" gov="mediated" gov_index="23">auxpass</dependency>
+      <dependency dep="mediated" dep_index="23" gov="suggest" gov_index="6">ccomp</dependency>
+      <dependency dep="oxytocin" dep_index="25" gov="mediated" gov_index="23">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600025" relationship="true">16 14 11 9 23 25</relation>
+   </relations>
+   <pairs>
+      <pair>1600025</pair>
+   </pairs>
+</root>

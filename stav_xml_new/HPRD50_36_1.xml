@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CD22@associates@with@protein tyrosine phosphatase 1C@,@Syk@,@and@phospholipase@C-gamma(1)@upon@B@cell@activation@</sentence>
+   <tags>
+      <tag pos="1">CD22</tag>
+      <tag pos="4">protein tyrosine phosphatase 1C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">CD22</taggedword>
+      <taggedword index="2" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="CD">protein tyrosine phosphatase 1C</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NNP">Syk</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNP">phospholipase</taggedword>
+      <taggedword index="10" part-of-speech="JJ">C-gamma(1)</taggedword>
+      <taggedword index="11" part-of-speech="IN">upon</taggedword>
+      <taggedword index="12" part-of-speech="NNP">B</taggedword>
+      <taggedword index="13" part-of-speech="NN">cell</taggedword>
+      <taggedword index="14" part-of-speech="NN">activation</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CD22" dep_index="1" gov="associates" gov_index="2">num</dependency>
+      <dependency dep="associates" dep_index="2" gov="C-gamma(1)" gov_index="10">dep</dependency>
+      <dependency dep="protein tyrosine phosphatase 1C" dep_index="4" gov="associates" gov_index="2">prep_with</dependency>
+      <dependency dep="Syk" dep_index="6" gov="associates" gov_index="2">prep_with</dependency>
+      <dependency dep="Syk" dep_index="6" gov="protein tyrosine phosphatase 1C" gov_index="4">conj_and</dependency>
+      <dependency dep="phospholipase" dep_index="9" gov="associates" gov_index="2">prep_with</dependency>
+      <dependency dep="phospholipase" dep_index="9" gov="protein tyrosine phosphatase 1C" gov_index="4">conj_and</dependency>
+      <dependency dep="C-gamma(1)" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="B" dep_index="12" gov="activation" gov_index="14">nn</dependency>
+      <dependency dep="cell" dep_index="13" gov="activation" gov_index="14">nn</dependency>
+      <dependency dep="activation" dep_index="14" gov="C-gamma(1)" gov_index="10">prep_upon</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100004" relationship="true">1 2 4</relation>
+   </relations>
+   <pairs>
+      <pair>100004</pair>
+   </pairs>
+</root>

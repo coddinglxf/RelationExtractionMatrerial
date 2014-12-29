@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>MCP-3@could@compete@efficiently@for@gp120@binding@but@was@,@however@,@found@to@be@a@weak@inhibitor@of@HIV@infection@,@probably@as@a@consequence@of@its@inability@to@downregulate@the@receptor@.@</sentence>
+   <tags>
+      <tag pos="1">MCP-3</tag>
+      <tag pos="6">gp120</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">MCP-3</taggedword>
+      <taggedword index="2" part-of-speech="MD">could</taggedword>
+      <taggedword index="3" part-of-speech="VB">compete</taggedword>
+      <taggedword index="4" part-of-speech="RB">efficiently</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="JJ">gp120</taggedword>
+      <taggedword index="7" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="8" part-of-speech="CC">but</taggedword>
+      <taggedword index="9" part-of-speech="VBD">was</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="RB">however</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBD">found</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">be</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="JJ">weak</taggedword>
+      <taggedword index="18" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NN">HIV</taggedword>
+      <taggedword index="21" part-of-speech="NN">infection</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="RB">probably</taggedword>
+      <taggedword index="24" part-of-speech="IN">as</taggedword>
+      <taggedword index="25" part-of-speech="DT">a</taggedword>
+      <taggedword index="26" part-of-speech="NN">consequence</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="29" part-of-speech="NN">inability</taggedword>
+      <taggedword index="30" part-of-speech="TO">to</taggedword>
+      <taggedword index="31" part-of-speech="VB">downregulate</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="MCP-3" dep_index="1" gov="compete" gov_index="3">nsubj</dependency>
+      <dependency dep="MCP-3" dep_index="1" gov="was" gov_index="9">nsubj</dependency>
+      <dependency dep="could" dep_index="2" gov="compete" gov_index="3">aux</dependency>
+      <dependency dep="compete" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="efficiently" dep_index="4" gov="compete" gov_index="3">advmod</dependency>
+      <dependency dep="gp120" dep_index="6" gov="efficiently" gov_index="4">prep_for</dependency>
+      <dependency dep="binding" dep_index="7" gov="gp120" gov_index="6">amod</dependency>
+      <dependency dep="was" dep_index="9" gov="compete" gov_index="3">conj_but</dependency>
+      <dependency dep="however" dep_index="11" gov="compete" gov_index="3">advmod</dependency>
+      <dependency dep="found" dep_index="13" gov="compete" gov_index="3">dep</dependency>
+      <dependency dep="to" dep_index="14" gov="inhibitor" gov_index="18">aux</dependency>
+      <dependency dep="be" dep_index="15" gov="inhibitor" gov_index="18">cop</dependency>
+      <dependency dep="a" dep_index="16" gov="inhibitor" gov_index="18">det</dependency>
+      <dependency dep="weak" dep_index="17" gov="inhibitor" gov_index="18">amod</dependency>
+      <dependency dep="inhibitor" dep_index="18" gov="found" gov_index="13">xcomp</dependency>
+      <dependency dep="HIV" dep_index="20" gov="infection" gov_index="21">nn</dependency>
+      <dependency dep="infection" dep_index="21" gov="inhibitor" gov_index="18">prep_of</dependency>
+      <dependency dep="probably" dep_index="23" gov="compete" gov_index="3">advmod</dependency>
+      <dependency dep="a" dep_index="25" gov="consequence" gov_index="26">det</dependency>
+      <dependency dep="consequence" dep_index="26" gov="compete" gov_index="3">prep_as</dependency>
+      <dependency dep="its" dep_index="28" gov="inability" gov_index="29">poss</dependency>
+      <dependency dep="inability" dep_index="29" gov="consequence" gov_index="26">prep_of</dependency>
+      <dependency dep="to" dep_index="30" gov="downregulate" gov_index="31">aux</dependency>
+      <dependency dep="downregulate" dep_index="31" gov="inability" gov_index="29">infmod</dependency>
+      <dependency dep="the" dep_index="32" gov="receptor" gov_index="33">det</dependency>
+      <dependency dep="receptor" dep_index="33" gov="downregulate" gov_index="31">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100006" relationship="true">1 3 4 6</relation>
+   </relations>
+   <pairs>
+      <pair>100006</pair>
+   </pairs>
+</root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>TNF receptor@death@domain-associated@proteins@TRADD@and@FADD@signal@activation@of@acid sphingomyelinase@.@</sentence>
+   <tags>
+      <tag pos="5">TRADD</tag>
+      <tag pos="11">acid sphingomyelinase</tag>
+      <tag pos="7">FADD</tag>
+      <tag pos="1">TNF receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">TNF receptor</taggedword>
+      <taggedword index="2" part-of-speech="NN">death</taggedword>
+      <taggedword index="3" part-of-speech="JJ">domain-associated</taggedword>
+      <taggedword index="4" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="5" part-of-speech="VBD">TRADD</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="VBD">FADD</taggedword>
+      <taggedword index="8" part-of-speech="NN">signal</taggedword>
+      <taggedword index="9" part-of-speech="NN">activation</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">acid sphingomyelinase</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="TNF receptor" dep_index="1" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="death" dep_index="2" gov="proteins" gov_index="4">nn</dependency>
+      <dependency dep="domain-associated" dep_index="3" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="proteins" dep_index="4" gov="TRADD" gov_index="5">nsubj</dependency>
+      <dependency dep="proteins" dep_index="4" gov="FADD" gov_index="7">nsubj</dependency>
+      <dependency dep="TRADD" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="FADD" dep_index="7" gov="TRADD" gov_index="5">conj_and</dependency>
+      <dependency dep="signal" dep_index="8" gov="activation" gov_index="9">nn</dependency>
+      <dependency dep="activation" dep_index="9" gov="FADD" gov_index="7">dobj</dependency>
+      <dependency dep="acid sphingomyelinase" dep_index="11" gov="activation" gov_index="9">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500011" relationship="true"></relation>
+      <relation position="500007" relationship="false"></relation>
+      <relation position="100005" relationship="true"></relation>
+      <relation position="700011" relationship="true"></relation>
+      <relation position="100011" relationship="false">1 4 7 9 11</relation>
+      <relation position="100007" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>700011</pair>
+      <pair>500011</pair>
+      <pair>100007</pair>
+      <pair>100005</pair>
+   </pairs>
+</root>

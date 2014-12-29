@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Hence@,@we@conclude@that@in@its@dimeric@form@,@which@is@used@in@actin@and@lipid@binding@,@talin@is@a@dumbbell-shaped@molecule@built@of@two@antiparallel@subunits@.@</sentence>
+   <tags>
+      <tag pos="15">actin</tag>
+      <tag pos="20">talin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Hence</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">we</taggedword>
+      <taggedword index="4" part-of-speech="VBP">conclude</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="8" part-of-speech="JJ">dimeric</taggedword>
+      <taggedword index="9" part-of-speech="NN">form</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="WDT">which</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="VBN">used</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">actin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">lipid</taggedword>
+      <taggedword index="18" part-of-speech="NNS">binding</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NN">talin</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="22" part-of-speech="DT">a</taggedword>
+      <taggedword index="23" part-of-speech="JJ">dumbbell-shaped</taggedword>
+      <taggedword index="24" part-of-speech="NN">molecule</taggedword>
+      <taggedword index="25" part-of-speech="VBN">built</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="CD">two</taggedword>
+      <taggedword index="28" part-of-speech="JJ">antiparallel</taggedword>
+      <taggedword index="29" part-of-speech="NNS">subunits</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Hence" dep_index="1" gov="conclude" gov_index="4">advmod</dependency>
+      <dependency dep="we" dep_index="3" gov="conclude" gov_index="4">nsubj</dependency>
+      <dependency dep="conclude" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="molecule" gov_index="24">mark</dependency>
+      <dependency dep="its" dep_index="7" gov="form" gov_index="9">poss</dependency>
+      <dependency dep="dimeric" dep_index="8" gov="form" gov_index="9">amod</dependency>
+      <dependency dep="form" dep_index="9" gov="used" gov_index="13">nsubjpass</dependency>
+      <dependency dep="form" dep_index="9" gov="molecule" gov_index="24">prep_in</dependency>
+      <dependency dep="is" dep_index="12" gov="used" gov_index="13">auxpass</dependency>
+      <dependency dep="used" dep_index="13" gov="form" gov_index="9">rcmod</dependency>
+      <dependency dep="actin" dep_index="15" gov="binding" gov_index="18">nn</dependency>
+      <dependency dep="lipid" dep_index="17" gov="actin" gov_index="15">conj_and</dependency>
+      <dependency dep="lipid" dep_index="17" gov="binding" gov_index="18">nn</dependency>
+      <dependency dep="binding" dep_index="18" gov="used" gov_index="13">prep_in</dependency>
+      <dependency dep="talin" dep_index="20" gov="molecule" gov_index="24">nsubj</dependency>
+      <dependency dep="is" dep_index="21" gov="molecule" gov_index="24">cop</dependency>
+      <dependency dep="a" dep_index="22" gov="molecule" gov_index="24">det</dependency>
+      <dependency dep="dumbbell-shaped" dep_index="23" gov="molecule" gov_index="24">amod</dependency>
+      <dependency dep="molecule" dep_index="24" gov="conclude" gov_index="4">ccomp</dependency>
+      <dependency dep="built" dep_index="25" gov="molecule" gov_index="24">partmod</dependency>
+      <dependency dep="two" dep_index="27" gov="subunits" gov_index="29">num</dependency>
+      <dependency dep="antiparallel" dep_index="28" gov="subunits" gov_index="29">amod</dependency>
+      <dependency dep="subunits" dep_index="29" gov="built" gov_index="25">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500020" relationship="true">15 18 13 9 24 20</relation>
+   </relations>
+   <pairs>
+      <pair>1500020</pair>
+   </pairs>
+</root>

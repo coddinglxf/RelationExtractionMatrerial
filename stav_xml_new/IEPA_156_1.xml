@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Leptin@is@a@satiety@factor@which@acts@within@the@hypothalamus@to@decrease@the@levels@of@several@neuropeptides@stimulating@food@intake@(among@them@,@neuropeptide Y@[NPY])@,@while@increasing@those@that@inhibit@food@intake@</sentence>
+   <tags>
+      <tag pos="1">Leptin</tag>
+      <tag pos="24">neuropeptide Y</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Leptin</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">satiety</taggedword>
+      <taggedword index="5" part-of-speech="NN">factor</taggedword>
+      <taggedword index="6" part-of-speech="WDT">which</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">acts</taggedword>
+      <taggedword index="8" part-of-speech="IN">within</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">hypothalamus</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">decrease</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">several</taggedword>
+      <taggedword index="17" part-of-speech="NNS">neuropeptides</taggedword>
+      <taggedword index="18" part-of-speech="VBG">stimulating</taggedword>
+      <taggedword index="19" part-of-speech="NN">food</taggedword>
+      <taggedword index="20" part-of-speech="NN">intake</taggedword>
+      <taggedword index="21" part-of-speech="VBG">(among</taggedword>
+      <taggedword index="22" part-of-speech="PRP">them</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="RB">neuropeptide Y</taggedword>
+      <taggedword index="25" part-of-speech="JJ">[NPY])</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="IN">while</taggedword>
+      <taggedword index="28" part-of-speech="VBG">increasing</taggedword>
+      <taggedword index="29" part-of-speech="DT">those</taggedword>
+      <taggedword index="30" part-of-speech="WDT">that</taggedword>
+      <taggedword index="31" part-of-speech="VBP">inhibit</taggedword>
+      <taggedword index="32" part-of-speech="NN">food</taggedword>
+      <taggedword index="33" part-of-speech="NN">intake</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Leptin" dep_index="1" gov="factor" gov_index="5">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="factor" gov_index="5">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="factor" gov_index="5">det</dependency>
+      <dependency dep="satiety" dep_index="4" gov="factor" gov_index="5">amod</dependency>
+      <dependency dep="factor" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="factor" dep_index="5" gov="acts" gov_index="7">nsubj</dependency>
+      <dependency dep="acts" dep_index="7" gov="factor" gov_index="5">rcmod</dependency>
+      <dependency dep="the" dep_index="9" gov="intake" gov_index="33">det</dependency>
+      <dependency dep="hypothalamus" dep_index="10" gov="intake" gov_index="33">amod</dependency>
+      <dependency dep="to" dep_index="11" gov="decrease" gov_index="12">aux</dependency>
+      <dependency dep="decrease" dep_index="12" gov="hypothalamus" gov_index="10">xcomp</dependency>
+      <dependency dep="the" dep_index="13" gov="levels" gov_index="14">det</dependency>
+      <dependency dep="levels" dep_index="14" gov="decrease" gov_index="12">dobj</dependency>
+      <dependency dep="several" dep_index="16" gov="neuropeptides" gov_index="17">amod</dependency>
+      <dependency dep="neuropeptides" dep_index="17" gov="levels" gov_index="14">prep_of</dependency>
+      <dependency dep="stimulating" dep_index="18" gov="neuropeptides" gov_index="17">partmod</dependency>
+      <dependency dep="food" dep_index="19" gov="intake" gov_index="20">nn</dependency>
+      <dependency dep="intake" dep_index="20" gov="stimulating" gov_index="18">dobj</dependency>
+      <dependency dep="(among" dep_index="21" gov="stimulating" gov_index="18">xcomp</dependency>
+      <dependency dep="them" dep_index="22" gov="(among" gov_index="21">dobj</dependency>
+      <dependency dep="neuropeptide Y" dep_index="24" gov="[NPY])" gov_index="25">advmod</dependency>
+      <dependency dep="[NPY])" dep_index="25" gov="intake" gov_index="33">amod</dependency>
+      <dependency dep="while" dep_index="27" gov="increasing" gov_index="28">dep</dependency>
+      <dependency dep="increasing" dep_index="28" gov="[NPY])" gov_index="25">dep</dependency>
+      <dependency dep="those" dep_index="29" gov="increasing" gov_index="28">dobj</dependency>
+      <dependency dep="those" dep_index="29" gov="inhibit" gov_index="31">nsubj</dependency>
+      <dependency dep="inhibit" dep_index="31" gov="those" gov_index="29">rcmod</dependency>
+      <dependency dep="food" dep_index="32" gov="inhibit" gov_index="31">dobj</dependency>
+      <dependency dep="intake" dep_index="33" gov="acts" gov_index="7">prep_within</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100024" relationship="true">1 5 7 33 25 24</relation>
+   </relations>
+   <pairs>
+      <pair>100024</pair>
+   </pairs>
+</root>

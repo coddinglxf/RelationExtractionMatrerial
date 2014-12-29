@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Mean@numbers@of@AVP@-@and@protein kinase Calpha@-immunoreactive@neurons@were@determined@in@the@suprachiasmatic@nucleus@of@common@voles@,@entrained@to@a@12:12@h@light-dark@(LD)@cycle@,@at@the@beginning@of@the@light@period@(zeitgeber@time@zero)@and@6@h@later@(zeitgeber@time@six)@</sentence>
+   <tags>
+      <tag pos="4">AVP</tag>
+      <tag pos="7">protein kinase Calpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Mean</taggedword>
+      <taggedword index="2" part-of-speech="NNS">numbers</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="5" part-of-speech=":">-</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">protein kinase Calpha</taggedword>
+      <taggedword index="8" part-of-speech="JJ">-immunoreactive</taggedword>
+      <taggedword index="9" part-of-speech="NNS">neurons</taggedword>
+      <taggedword index="10" part-of-speech="VBD">were</taggedword>
+      <taggedword index="11" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">suprachiasmatic</taggedword>
+      <taggedword index="15" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">common</taggedword>
+      <taggedword index="18" part-of-speech="NNS">voles</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="VBD">entrained</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="DT">a</taggedword>
+      <taggedword index="23" part-of-speech="CD">12:12</taggedword>
+      <taggedword index="24" part-of-speech="CD">h</taggedword>
+      <taggedword index="25" part-of-speech="JJ">light-dark</taggedword>
+      <taggedword index="26" part-of-speech="JJ">(LD)</taggedword>
+      <taggedword index="27" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="IN">at</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="NN">beginning</taggedword>
+      <taggedword index="32" part-of-speech="IN">of</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="JJ">light</taggedword>
+      <taggedword index="35" part-of-speech="NN">period</taggedword>
+      <taggedword index="36" part-of-speech="NN">(zeitgeber</taggedword>
+      <taggedword index="37" part-of-speech="NN">time</taggedword>
+      <taggedword index="38" part-of-speech="NN">zero)</taggedword>
+      <taggedword index="39" part-of-speech="CC">and</taggedword>
+      <taggedword index="40" part-of-speech="CD">6</taggedword>
+      <taggedword index="41" part-of-speech="NN">h</taggedword>
+      <taggedword index="42" part-of-speech="JJ">later</taggedword>
+      <taggedword index="43" part-of-speech="NN">(zeitgeber</taggedword>
+      <taggedword index="44" part-of-speech="NN">time</taggedword>
+      <taggedword index="45" part-of-speech="NNS">six)</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Mean" dep_index="1" gov="numbers" gov_index="2">nn</dependency>
+      <dependency dep="numbers" dep_index="2" gov="entrained" gov_index="20">nsubj</dependency>
+      <dependency dep="AVP" dep_index="4" gov="numbers" gov_index="2">prep_of</dependency>
+      <dependency dep="protein kinase Calpha" dep_index="7" gov="numbers" gov_index="2">conj_and</dependency>
+      <dependency dep="protein kinase Calpha" dep_index="7" gov="entrained" gov_index="20">nsubj</dependency>
+      <dependency dep="-immunoreactive" dep_index="8" gov="neurons" gov_index="9">amod</dependency>
+      <dependency dep="neurons" dep_index="9" gov="determined" gov_index="11">nsubjpass</dependency>
+      <dependency dep="were" dep_index="10" gov="determined" gov_index="11">auxpass</dependency>
+      <dependency dep="determined" dep_index="11" gov="protein kinase Calpha" gov_index="7">rcmod</dependency>
+      <dependency dep="the" dep_index="13" gov="nucleus" gov_index="15">det</dependency>
+      <dependency dep="suprachiasmatic" dep_index="14" gov="nucleus" gov_index="15">amod</dependency>
+      <dependency dep="nucleus" dep_index="15" gov="determined" gov_index="11">prep_in</dependency>
+      <dependency dep="common" dep_index="17" gov="voles" gov_index="18">amod</dependency>
+      <dependency dep="voles" dep_index="18" gov="nucleus" gov_index="15">prep_of</dependency>
+      <dependency dep="entrained" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="22" gov="cycle" gov_index="27">det</dependency>
+      <dependency dep="12:12" dep_index="23" gov="h" gov_index="24">number</dependency>
+      <dependency dep="h" dep_index="24" gov="cycle" gov_index="27">num</dependency>
+      <dependency dep="light-dark" dep_index="25" gov="cycle" gov_index="27">amod</dependency>
+      <dependency dep="(LD)" dep_index="26" gov="cycle" gov_index="27">amod</dependency>
+      <dependency dep="cycle" dep_index="27" gov="entrained" gov_index="20">prep_to</dependency>
+      <dependency dep="the" dep_index="30" gov="beginning" gov_index="31">det</dependency>
+      <dependency dep="beginning" dep_index="31" gov="entrained" gov_index="20">prep_at</dependency>
+      <dependency dep="the" dep_index="33" gov="zero)" gov_index="38">det</dependency>
+      <dependency dep="light" dep_index="34" gov="zero)" gov_index="38">amod</dependency>
+      <dependency dep="period" dep_index="35" gov="zero)" gov_index="38">nn</dependency>
+      <dependency dep="(zeitgeber" dep_index="36" gov="zero)" gov_index="38">nn</dependency>
+      <dependency dep="time" dep_index="37" gov="zero)" gov_index="38">nn</dependency>
+      <dependency dep="zero)" dep_index="38" gov="beginning" gov_index="31">prep_of</dependency>
+      <dependency dep="6" dep_index="40" gov="six)" gov_index="45">num</dependency>
+      <dependency dep="h" dep_index="41" gov="six)" gov_index="45">nn</dependency>
+      <dependency dep="later" dep_index="42" gov="six)" gov_index="45">amod</dependency>
+      <dependency dep="(zeitgeber" dep_index="43" gov="six)" gov_index="45">nn</dependency>
+      <dependency dep="time" dep_index="44" gov="six)" gov_index="45">nn</dependency>
+      <dependency dep="six)" dep_index="45" gov="beginning" gov_index="31">prep_of</dependency>
+      <dependency dep="six)" dep_index="45" gov="zero)" gov_index="38">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="false">4 2 20 7</relation>
+   </relations>
+   <pairs/>
+</root>

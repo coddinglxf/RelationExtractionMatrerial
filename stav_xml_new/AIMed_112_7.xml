@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crosslinking@of@cell@surface@IgM@led@to@rapid@activation@of@both@tyrosine@and@serine/threonine@protein@kinase@activities@that@resulted@in@phosphorylation@in@vitro@of@proteins@coprecipitating@with@Syk@--in@particular@,@a@serine/threonine@phosphorylated@protein@120@kDa@in@size@(@pp120@).@</sentence>
+   <tags>
+      <tag pos="28">Syk</tag>
+      <tag pos="41">pp120</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Crosslinking</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">cell</taggedword>
+      <taggedword index="4" part-of-speech="NN">surface</taggedword>
+      <taggedword index="5" part-of-speech="NN">IgM</taggedword>
+      <taggedword index="6" part-of-speech="VBD">led</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="9" part-of-speech="NN">activation</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">both</taggedword>
+      <taggedword index="12" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">serine/threonine</taggedword>
+      <taggedword index="15" part-of-speech="NN">protein</taggedword>
+      <taggedword index="16" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="17" part-of-speech="NNS">activities</taggedword>
+      <taggedword index="18" part-of-speech="WDT">that</taggedword>
+      <taggedword index="19" part-of-speech="VBD">resulted</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="NNP">vitro</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="26" part-of-speech="VBG">coprecipitating</taggedword>
+      <taggedword index="27" part-of-speech="IN">with</taggedword>
+      <taggedword index="28" part-of-speech="NNP">Syk</taggedword>
+      <taggedword index="29" part-of-speech="JJ">--in</taggedword>
+      <taggedword index="30" part-of-speech="NN">particular</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="DT">a</taggedword>
+      <taggedword index="33" part-of-speech="JJ">serine/threonine</taggedword>
+      <taggedword index="34" part-of-speech="JJ">phosphorylated</taggedword>
+      <taggedword index="35" part-of-speech="NN">protein</taggedword>
+      <taggedword index="36" part-of-speech="CD">120</taggedword>
+      <taggedword index="37" part-of-speech="NN">kDa</taggedword>
+      <taggedword index="38" part-of-speech="IN">in</taggedword>
+      <taggedword index="39" part-of-speech="NN">size</taggedword>
+      <taggedword index="40" part-of-speech="NNP">(</taggedword>
+      <taggedword index="41" part-of-speech="JJ">pp120</taggedword>
+      <taggedword index="42" part-of-speech="NN">).</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crosslinking" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cell" dep_index="3" gov="IgM" gov_index="5">nn</dependency>
+      <dependency dep="surface" dep_index="4" gov="IgM" gov_index="5">nn</dependency>
+      <dependency dep="IgM" dep_index="5" gov="Crosslinking" gov_index="1">prep_of</dependency>
+      <dependency dep="led" dep_index="6" gov="Crosslinking" gov_index="1">dep</dependency>
+      <dependency dep="rapid" dep_index="8" gov="activation" gov_index="9">amod</dependency>
+      <dependency dep="activation" dep_index="9" gov="led" gov_index="6">prep_to</dependency>
+      <dependency dep="both" dep_index="11" gov="activities" gov_index="17">det</dependency>
+      <dependency dep="tyrosine" dep_index="12" gov="activities" gov_index="17">amod</dependency>
+      <dependency dep="serine/threonine" dep_index="14" gov="tyrosine" gov_index="12">conj_and</dependency>
+      <dependency dep="serine/threonine" dep_index="14" gov="activities" gov_index="17">amod</dependency>
+      <dependency dep="protein" dep_index="15" gov="activities" gov_index="17">nn</dependency>
+      <dependency dep="kinase" dep_index="16" gov="activities" gov_index="17">nn</dependency>
+      <dependency dep="activities" dep_index="17" gov="activation" gov_index="9">prep_of</dependency>
+      <dependency dep="activities" dep_index="17" gov="resulted" gov_index="19">nsubj</dependency>
+      <dependency dep="resulted" dep_index="19" gov="activities" gov_index="17">rcmod</dependency>
+      <dependency dep="phosphorylation" dep_index="21" gov="resulted" gov_index="19">prep_in</dependency>
+      <dependency dep="vitro" dep_index="23" gov="resulted" gov_index="19">prep_in</dependency>
+      <dependency dep="proteins" dep_index="25" gov="vitro" gov_index="23">prep_of</dependency>
+      <dependency dep="coprecipitating" dep_index="26" gov="proteins" gov_index="25">partmod</dependency>
+      <dependency dep="Syk" dep_index="28" gov="coprecipitating" gov_index="26">prep_with</dependency>
+      <dependency dep="--in" dep_index="29" gov="particular" gov_index="30">amod</dependency>
+      <dependency dep="particular" dep_index="30" gov="Crosslinking" gov_index="1">nsubj</dependency>
+      <dependency dep="a" dep_index="32" gov="kDa" gov_index="37">det</dependency>
+      <dependency dep="serine/threonine" dep_index="33" gov="phosphorylated" gov_index="34">amod</dependency>
+      <dependency dep="phosphorylated" dep_index="34" gov="kDa" gov_index="37">amod</dependency>
+      <dependency dep="protein" dep_index="35" gov="kDa" gov_index="37">nn</dependency>
+      <dependency dep="120" dep_index="36" gov="kDa" gov_index="37">num</dependency>
+      <dependency dep="kDa" dep_index="37" gov="particular" gov_index="30">appos</dependency>
+      <dependency dep="size" dep_index="39" gov=")." gov_index="42">nn</dependency>
+      <dependency dep="(" dep_index="40" gov=")." gov_index="42">nn</dependency>
+      <dependency dep="pp120" dep_index="41" gov=")." gov_index="42">amod</dependency>
+      <dependency dep=")." dep_index="42" gov="kDa" gov_index="37">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2800041" relationship="false">28 26 25 23 19 17 9 6 1 30 37 42 41</relation>
+   </relations>
+   <pairs/>
+</root>

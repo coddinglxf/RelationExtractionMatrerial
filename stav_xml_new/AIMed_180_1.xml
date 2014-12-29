@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Use@of@a@two-hybrid@system@to@investigate@molecular@interactions@of@GAP-43@.@</sentence>
+   <tags>
+      <tag pos="11">GAP-43</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VB">Use</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="5" part-of-speech="NN">system</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">investigate</taggedword>
+      <taggedword index="8" part-of-speech="JJ">molecular</taggedword>
+      <taggedword index="9" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">GAP-43</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Use" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="3" gov="system" gov_index="5">det</dependency>
+      <dependency dep="two-hybrid" dep_index="4" gov="system" gov_index="5">amod</dependency>
+      <dependency dep="system" dep_index="5" gov="Use" gov_index="1">prep_of</dependency>
+      <dependency dep="to" dep_index="6" gov="investigate" gov_index="7">aux</dependency>
+      <dependency dep="investigate" dep_index="7" gov="Use" gov_index="1">xcomp</dependency>
+      <dependency dep="molecular" dep_index="8" gov="interactions" gov_index="9">amod</dependency>
+      <dependency dep="interactions" dep_index="9" gov="investigate" gov_index="7">dobj</dependency>
+      <dependency dep="GAP-43" dep_index="11" gov="interactions" gov_index="9">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

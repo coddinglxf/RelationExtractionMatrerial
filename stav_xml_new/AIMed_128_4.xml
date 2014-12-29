@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@hGH@and@hPRL@receptors@(@hGHR@and@hPRLR@,@respectively)@are@single-pass@transmembrane@receptors@from@class@1@of@the@haematopoietic@receptor@superfamily@.@</sentence>
+   <tags>
+      <tag pos="2">hGH</tag>
+      <tag pos="4">hPRL</tag>
+      <tag pos="7">hGHR</tag>
+      <tag pos="9">hPRLR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">hGH</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">hPRL</taggedword>
+      <taggedword index="5" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">(</taggedword>
+      <taggedword index="7" part-of-speech="NN">hGHR</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">hPRLR</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">respectively)</taggedword>
+      <taggedword index="12" part-of-speech="VBP">are</taggedword>
+      <taggedword index="13" part-of-speech="JJ">single-pass</taggedword>
+      <taggedword index="14" part-of-speech="NN">transmembrane</taggedword>
+      <taggedword index="15" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="16" part-of-speech="IN">from</taggedword>
+      <taggedword index="17" part-of-speech="NN">class</taggedword>
+      <taggedword index="18" part-of-speech="CD">1</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">haematopoietic</taggedword>
+      <taggedword index="22" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="23" part-of-speech="RB">superfamily</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="hGH" gov_index="2">det</dependency>
+      <dependency dep="hGH" dep_index="2" gov="(" gov_index="6">nsubj</dependency>
+      <dependency dep="hPRL" dep_index="4" gov="receptors" gov_index="5">amod</dependency>
+      <dependency dep="receptors" dep_index="5" gov="hGH" gov_index="2">conj_and</dependency>
+      <dependency dep="receptors" dep_index="5" gov="(" gov_index="6">nsubj</dependency>
+      <dependency dep="(" dep_index="6" gov="receptors" gov_index="15">ccomp</dependency>
+      <dependency dep="hGHR" dep_index="7" gov="(" gov_index="6">dobj</dependency>
+      <dependency dep="hPRLR" dep_index="9" gov="(" gov_index="6">dobj</dependency>
+      <dependency dep="hPRLR" dep_index="9" gov="hGHR" gov_index="7">conj_and</dependency>
+      <dependency dep="respectively)" dep_index="11" gov="receptors" gov_index="15">nsubj</dependency>
+      <dependency dep="are" dep_index="12" gov="receptors" gov_index="15">cop</dependency>
+      <dependency dep="single-pass" dep_index="13" gov="receptors" gov_index="15">amod</dependency>
+      <dependency dep="transmembrane" dep_index="14" gov="receptors" gov_index="15">nn</dependency>
+      <dependency dep="receptors" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="class" dep_index="17" gov="receptors" gov_index="15">prep_from</dependency>
+      <dependency dep="1" dep_index="18" gov="class" gov_index="17">num</dependency>
+      <dependency dep="the" dep_index="20" gov="receptor" gov_index="22">det</dependency>
+      <dependency dep="haematopoietic" dep_index="21" gov="receptor" gov_index="22">amod</dependency>
+      <dependency dep="receptor" dep_index="22" gov="class" gov_index="17">prep_of</dependency>
+      <dependency dep="superfamily" dep_index="23" gov="receptors" gov_index="15">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 6 5 4</relation>
+      <relation position="200007" relationship="true">2 6 7</relation>
+      <relation position="200009" relationship="false">2 6 9</relation>
+      <relation position="400007" relationship="false">4 5 6 7</relation>
+      <relation position="400009" relationship="true">4 5 6 9</relation>
+      <relation position="700009" relationship="false">7 6 9</relation>
+   </relations>
+   <pairs>
+      <pair>400009</pair>
+      <pair>200007</pair>
+   </pairs>
+</root>

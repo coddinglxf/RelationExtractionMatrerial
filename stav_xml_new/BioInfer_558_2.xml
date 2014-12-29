@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>alpha-Sm actin@inhibition@also@led@to@the@formation@of@less@prominent@focal@adhesions@as@revealed@by@immunofluorescence@staining@against@vinculin@,@talin@,@and@beta1-integrin@.@</sentence>
+   <tags>
+      <tag pos="21">talin</tag>
+      <tag pos="1">alpha-Sm actin</tag>
+      <tag pos="24">beta1-integrin</tag>
+      <tag pos="19">vinculin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">alpha-Sm actin</taggedword>
+      <taggedword index="2" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="3" part-of-speech="RB">also</taggedword>
+      <taggedword index="4" part-of-speech="VBD">led</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">formation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="RBR">less</taggedword>
+      <taggedword index="10" part-of-speech="JJ">prominent</taggedword>
+      <taggedword index="11" part-of-speech="JJ">focal</taggedword>
+      <taggedword index="12" part-of-speech="NNS">adhesions</taggedword>
+      <taggedword index="13" part-of-speech="IN">as</taggedword>
+      <taggedword index="14" part-of-speech="VBN">revealed</taggedword>
+      <taggedword index="15" part-of-speech="IN">by</taggedword>
+      <taggedword index="16" part-of-speech="JJ">immunofluorescence</taggedword>
+      <taggedword index="17" part-of-speech="NN">staining</taggedword>
+      <taggedword index="18" part-of-speech="IN">against</taggedword>
+      <taggedword index="19" part-of-speech="NN">vinculin</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="NN">talin</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="JJ">beta1-integrin</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="alpha-Sm actin" dep_index="1" gov="inhibition" gov_index="2">amod</dependency>
+      <dependency dep="inhibition" dep_index="2" gov="led" gov_index="4">nsubj</dependency>
+      <dependency dep="also" dep_index="3" gov="led" gov_index="4">advmod</dependency>
+      <dependency dep="led" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="formation" gov_index="7">det</dependency>
+      <dependency dep="formation" dep_index="7" gov="led" gov_index="4">prep_to</dependency>
+      <dependency dep="less" dep_index="9" gov="prominent" gov_index="10">advmod</dependency>
+      <dependency dep="prominent" dep_index="10" gov="adhesions" gov_index="12">amod</dependency>
+      <dependency dep="focal" dep_index="11" gov="adhesions" gov_index="12">amod</dependency>
+      <dependency dep="adhesions" dep_index="12" gov="formation" gov_index="7">prep_of</dependency>
+      <dependency dep="as" dep_index="13" gov="led" gov_index="4">prep</dependency>
+      <dependency dep="revealed" dep_index="14" gov="as" gov_index="13">dep</dependency>
+      <dependency dep="immunofluorescence" dep_index="16" gov="staining" gov_index="17">amod</dependency>
+      <dependency dep="staining" dep_index="17" gov="revealed" gov_index="14">prep_by</dependency>
+      <dependency dep="vinculin" dep_index="19" gov="staining" gov_index="17">prep_against</dependency>
+      <dependency dep="talin" dep_index="21" gov="vinculin" gov_index="19">appos</dependency>
+      <dependency dep="beta1-integrin" dep_index="24" gov="as" gov_index="13">dep</dependency>
+      <dependency dep="beta1-integrin" dep_index="24" gov="revealed" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100021" relationship="false">1 2 4 13 14 17 19 21</relation>
+      <relation position="2100024" relationship="false">21 19 17 14 13 24</relation>
+      <relation position="1900021" relationship="false"></relation>
+      <relation position="100024" relationship="false">1 2 4 13 24</relation>
+      <relation position="100019" relationship="false">1 2 4 13 14 17 19</relation>
+      <relation position="1900024" relationship="false">19 17 14 13 24</relation>
+   </relations>
+   <pairs/>
+</root>

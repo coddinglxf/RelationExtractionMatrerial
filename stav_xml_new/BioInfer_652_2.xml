@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@Pro1176@to@Thr@substitution@found@in@talin@from@Wistar-Furth@rats@does@not@destroy@the@capacity@of@this@region@of@the@protein@to@bind@actin@or@vinculin@.@</sentence>
+   <tags>
+      <tag pos="25">actin</tag>
+      <tag pos="8">talin</tag>
+      <tag pos="27">vinculin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">Pro1176</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Thr</taggedword>
+      <taggedword index="5" part-of-speech="NNP">substitution</taggedword>
+      <taggedword index="6" part-of-speech="VBN">found</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="NN">talin</taggedword>
+      <taggedword index="9" part-of-speech="IN">from</taggedword>
+      <taggedword index="10" part-of-speech="JJ">Wistar-Furth</taggedword>
+      <taggedword index="11" part-of-speech="NNS">rats</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="13" part-of-speech="RB">not</taggedword>
+      <taggedword index="14" part-of-speech="VB">destroy</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">capacity</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">this</taggedword>
+      <taggedword index="19" part-of-speech="NN">region</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">protein</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="NN">bind</taggedword>
+      <taggedword index="25" part-of-speech="NN">actin</taggedword>
+      <taggedword index="26" part-of-speech="CC">or</taggedword>
+      <taggedword index="27" part-of-speech="NN">vinculin</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="Pro1176" gov_index="2">det</dependency>
+      <dependency dep="Pro1176" dep_index="2" gov="destroy" gov_index="14">nsubj</dependency>
+      <dependency dep="Thr" dep_index="4" gov="substitution" gov_index="5">nn</dependency>
+      <dependency dep="substitution" dep_index="5" gov="Pro1176" gov_index="2">prep_to</dependency>
+      <dependency dep="found" dep_index="6" gov="substitution" gov_index="5">partmod</dependency>
+      <dependency dep="talin" dep_index="8" gov="found" gov_index="6">prep_in</dependency>
+      <dependency dep="Wistar-Furth" dep_index="10" gov="rats" gov_index="11">amod</dependency>
+      <dependency dep="rats" dep_index="11" gov="found" gov_index="6">prep_from</dependency>
+      <dependency dep="does" dep_index="12" gov="destroy" gov_index="14">aux</dependency>
+      <dependency dep="not" dep_index="13" gov="destroy" gov_index="14">neg</dependency>
+      <dependency dep="destroy" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="15" gov="capacity" gov_index="16">det</dependency>
+      <dependency dep="capacity" dep_index="16" gov="destroy" gov_index="14">dobj</dependency>
+      <dependency dep="this" dep_index="18" gov="region" gov_index="19">det</dependency>
+      <dependency dep="region" dep_index="19" gov="capacity" gov_index="16">prep_of</dependency>
+      <dependency dep="the" dep_index="21" gov="protein" gov_index="22">det</dependency>
+      <dependency dep="protein" dep_index="22" gov="region" gov_index="19">prep_of</dependency>
+      <dependency dep="bind" dep_index="24" gov="actin" gov_index="25">nn</dependency>
+      <dependency dep="actin" dep_index="25" gov="destroy" gov_index="14">prep_to</dependency>
+      <dependency dep="vinculin" dep_index="27" gov="destroy" gov_index="14">prep_to</dependency>
+      <dependency dep="vinculin" dep_index="27" gov="actin" gov_index="25">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800025" relationship="true">8 6 5 2 14 25</relation>
+      <relation position="2500027" relationship="false">25 14 27</relation>
+      <relation position="800027" relationship="true">8 6 5 2 14 27</relation>
+   </relations>
+   <pairs>
+      <pair>800025</pair>
+      <pair>800027</pair>
+   </pairs>
+</root>

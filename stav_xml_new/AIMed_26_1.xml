@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Differential@expression@of@granulysin@and@perforin@by@NK@cells@in@cancer@patients@and@correlation@of@impaired@granulysin@expression@withprogression@of@cancer@.@</sentence>
+   <tags>
+      <tag pos="4">granulysin</tag>
+      <tag pos="6">perforin</tag>
+      <tag pos="17">granulysin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Differential</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">granulysin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">perforin</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="NNP">NK</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="12" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">correlation</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="VBN">impaired</taggedword>
+      <taggedword index="17" part-of-speech="JJ">granulysin</taggedword>
+      <taggedword index="18" part-of-speech="NN">expression</taggedword>
+      <taggedword index="19" part-of-speech="NN">withprogression</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Differential" dep_index="1" gov="expression" gov_index="2">amod</dependency>
+      <dependency dep="expression" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="granulysin" dep_index="4" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="perforin" dep_index="6" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="perforin" dep_index="6" gov="granulysin" gov_index="4">conj_and</dependency>
+      <dependency dep="NK" dep_index="8" gov="cells" gov_index="9">nn</dependency>
+      <dependency dep="cells" dep_index="9" gov="expression" gov_index="2">prep_by</dependency>
+      <dependency dep="cancer" dep_index="11" gov="patients" gov_index="12">nn</dependency>
+      <dependency dep="patients" dep_index="12" gov="expression" gov_index="2">prep_in</dependency>
+      <dependency dep="correlation" dep_index="14" gov="expression" gov_index="2">prep_in</dependency>
+      <dependency dep="correlation" dep_index="14" gov="patients" gov_index="12">conj_and</dependency>
+      <dependency dep="impaired" dep_index="16" gov="withprogression" gov_index="19">amod</dependency>
+      <dependency dep="granulysin" dep_index="17" gov="withprogression" gov_index="19">amod</dependency>
+      <dependency dep="expression" dep_index="18" gov="withprogression" gov_index="19">nn</dependency>
+      <dependency dep="withprogression" dep_index="19" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="cancer" dep_index="21" gov="withprogression" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 6</relation>
+      <relation position="400017" relationship="false">4 2 19 17</relation>
+      <relation position="600017" relationship="false">6 2 19 17</relation>
+   </relations>
+   <pairs/>
+</root>

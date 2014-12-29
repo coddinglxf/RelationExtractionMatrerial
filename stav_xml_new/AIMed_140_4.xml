@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@HeLa@cells@,@Cdi1@is@expressed@at@the@G1@to@S@transition@,@and@the@protein@forms@stable@complexes@with@Cdk2@.@</sentence>
+   <tags>
+      <tag pos="5">Cdi1</tag>
+      <tag pos="22">Cdk2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NNP">HeLa</taggedword>
+      <taggedword index="3" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NNS">Cdi1</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="8" part-of-speech="IN">at</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">G1</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="NNP">S</taggedword>
+      <taggedword index="13" part-of-speech="NN">transition</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">protein</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">forms</taggedword>
+      <taggedword index="19" part-of-speech="JJ">stable</taggedword>
+      <taggedword index="20" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="NNS">Cdk2</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="HeLa" dep_index="2" gov="cells" gov_index="3">nn</dependency>
+      <dependency dep="cells" dep_index="3" gov="expressed" gov_index="7">prep_in</dependency>
+      <dependency dep="Cdi1" dep_index="5" gov="expressed" gov_index="7">nsubjpass</dependency>
+      <dependency dep="is" dep_index="6" gov="expressed" gov_index="7">auxpass</dependency>
+      <dependency dep="expressed" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="9" gov="G1" gov_index="10">det</dependency>
+      <dependency dep="G1" dep_index="10" gov="expressed" gov_index="7">prep_at</dependency>
+      <dependency dep="S" dep_index="12" gov="transition" gov_index="13">nn</dependency>
+      <dependency dep="transition" dep_index="13" gov="expressed" gov_index="7">prep_to</dependency>
+      <dependency dep="the" dep_index="16" gov="protein" gov_index="17">det</dependency>
+      <dependency dep="protein" dep_index="17" gov="forms" gov_index="18">nsubj</dependency>
+      <dependency dep="forms" dep_index="18" gov="expressed" gov_index="7">conj_and</dependency>
+      <dependency dep="stable" dep_index="19" gov="complexes" gov_index="20">amod</dependency>
+      <dependency dep="complexes" dep_index="20" gov="forms" gov_index="18">dobj</dependency>
+      <dependency dep="Cdk2" dep_index="22" gov="forms" gov_index="18">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500022" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>500022</pair>
+   </pairs>
+</root>

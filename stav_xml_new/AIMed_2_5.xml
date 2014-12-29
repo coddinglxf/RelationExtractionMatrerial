@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>SETTING@:@Lwiro@pediatric@hospital@,@Province@of@South@Kivu@,@Democratic@Republic@of@Congo@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">SETTING</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Lwiro</taggedword>
+      <taggedword index="4" part-of-speech="JJ">pediatric</taggedword>
+      <taggedword index="5" part-of-speech="NN">hospital</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Province</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNP">South</taggedword>
+      <taggedword index="10" part-of-speech="NNP">Kivu</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NNP">Democratic</taggedword>
+      <taggedword index="13" part-of-speech="NNP">Republic</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNP">Congo</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="SETTING" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Lwiro" dep_index="3" gov="hospital" gov_index="5">nn</dependency>
+      <dependency dep="pediatric" dep_index="4" gov="hospital" gov_index="5">amod</dependency>
+      <dependency dep="hospital" dep_index="5" gov="SETTING" gov_index="1">dep</dependency>
+      <dependency dep="Province" dep_index="7" gov="SETTING" gov_index="1">appos</dependency>
+      <dependency dep="South" dep_index="9" gov="Kivu" gov_index="10">nn</dependency>
+      <dependency dep="Kivu" dep_index="10" gov="Province" gov_index="7">prep_of</dependency>
+      <dependency dep="Democratic" dep_index="12" gov="Republic" gov_index="13">nn</dependency>
+      <dependency dep="Republic" dep_index="13" gov="SETTING" gov_index="1">appos</dependency>
+      <dependency dep="Congo" dep_index="15" gov="Republic" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

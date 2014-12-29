@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Two@nanograms@oxytocin@given@ICV@had@no@effect@on@glucagon@and@glucose@levels@but@caused@a@significant@rise@in@insulin@levels@at@this@time@point@</sentence>
+   <tags>
+      <tag pos="3">oxytocin</tag>
+      <tag pos="20">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Two</taggedword>
+      <taggedword index="2" part-of-speech="NNS">nanograms</taggedword>
+      <taggedword index="3" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="4" part-of-speech="VBN">given</taggedword>
+      <taggedword index="5" part-of-speech="NNP">ICV</taggedword>
+      <taggedword index="6" part-of-speech="VBD">had</taggedword>
+      <taggedword index="7" part-of-speech="DT">no</taggedword>
+      <taggedword index="8" part-of-speech="NN">effect</taggedword>
+      <taggedword index="9" part-of-speech="IN">on</taggedword>
+      <taggedword index="10" part-of-speech="NN">glucagon</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="13" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="14" part-of-speech="CC">but</taggedword>
+      <taggedword index="15" part-of-speech="VBD">caused</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="18" part-of-speech="NN">rise</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="21" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="22" part-of-speech="IN">at</taggedword>
+      <taggedword index="23" part-of-speech="DT">this</taggedword>
+      <taggedword index="24" part-of-speech="NN">time</taggedword>
+      <taggedword index="25" part-of-speech="NN">point</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Two" dep_index="1" gov="oxytocin" gov_index="3">num</dependency>
+      <dependency dep="nanograms" dep_index="2" gov="oxytocin" gov_index="3">nn</dependency>
+      <dependency dep="oxytocin" dep_index="3" gov="given" gov_index="4">nsubj</dependency>
+      <dependency dep="given" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="ICV" dep_index="5" gov="had" gov_index="6">nsubj</dependency>
+      <dependency dep="ICV" dep_index="5" gov="caused" gov_index="15">nsubj</dependency>
+      <dependency dep="had" dep_index="6" gov="given" gov_index="4">ccomp</dependency>
+      <dependency dep="no" dep_index="7" gov="effect" gov_index="8">det</dependency>
+      <dependency dep="effect" dep_index="8" gov="had" gov_index="6">dobj</dependency>
+      <dependency dep="glucagon" dep_index="10" gov="levels" gov_index="13">nn</dependency>
+      <dependency dep="glucose" dep_index="12" gov="glucagon" gov_index="10">conj_and</dependency>
+      <dependency dep="glucose" dep_index="12" gov="levels" gov_index="13">nn</dependency>
+      <dependency dep="levels" dep_index="13" gov="effect" gov_index="8">prep_on</dependency>
+      <dependency dep="caused" dep_index="15" gov="given" gov_index="4">ccomp</dependency>
+      <dependency dep="caused" dep_index="15" gov="had" gov_index="6">conj_but</dependency>
+      <dependency dep="a" dep_index="16" gov="rise" gov_index="18">det</dependency>
+      <dependency dep="significant" dep_index="17" gov="rise" gov_index="18">amod</dependency>
+      <dependency dep="rise" dep_index="18" gov="caused" gov_index="15">dobj</dependency>
+      <dependency dep="insulin" dep_index="20" gov="levels" gov_index="21">nn</dependency>
+      <dependency dep="levels" dep_index="21" gov="caused" gov_index="15">prep_in</dependency>
+      <dependency dep="this" dep_index="23" gov="point" gov_index="25">det</dependency>
+      <dependency dep="time" dep_index="24" gov="point" gov_index="25">nn</dependency>
+      <dependency dep="point" dep_index="25" gov="caused" gov_index="15">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300020" relationship="true">3 4 15 21 20</relation>
+   </relations>
+   <pairs>
+      <pair>300020</pair>
+   </pairs>
+</root>

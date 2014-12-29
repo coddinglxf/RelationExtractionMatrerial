@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>However@,@the@AVP@-dependent@stimulation@required@activation@of@protein kinase C@(PKC)@,@whereas@the@inhibition@was@PKC@independent@,@indicating@that@the@NGF-induced@signaling@pathways@leading@to@inhibition@and@stimulation@of@HCO3-@absorption@are@distinct@</sentence>
+   <tags>
+      <tag pos="4">AVP</tag>
+      <tag pos="10">protein kinase C</tag>
+      <tag pos="17">PKC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">However</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="5" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="6" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="7" part-of-speech="VBD">required</taggedword>
+      <taggedword index="8" part-of-speech="NN">activation</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="11" part-of-speech="NNS">(PKC)</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="16" part-of-speech="VBD">was</taggedword>
+      <taggedword index="17" part-of-speech="RB">PKC</taggedword>
+      <taggedword index="18" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="VBG">indicating</taggedword>
+      <taggedword index="21" part-of-speech="IN">that</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">NGF-induced</taggedword>
+      <taggedword index="24" part-of-speech="CD">signaling</taggedword>
+      <taggedword index="25" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="26" part-of-speech="VBG">leading</taggedword>
+      <taggedword index="27" part-of-speech="TO">to</taggedword>
+      <taggedword index="28" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="NN">HCO3-</taggedword>
+      <taggedword index="33" part-of-speech="NN">absorption</taggedword>
+      <taggedword index="34" part-of-speech="VBP">are</taggedword>
+      <taggedword index="35" part-of-speech="JJ">distinct</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="However" dep_index="1" gov="required" gov_index="7">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="stimulation" gov_index="6">det</dependency>
+      <dependency dep="AVP" dep_index="4" gov="stimulation" gov_index="6">nn</dependency>
+      <dependency dep="-dependent" dep_index="5" gov="stimulation" gov_index="6">amod</dependency>
+      <dependency dep="stimulation" dep_index="6" gov="required" gov_index="7">nsubj</dependency>
+      <dependency dep="required" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="activation" dep_index="8" gov="required" gov_index="7">dobj</dependency>
+      <dependency dep="protein kinase C" dep_index="10" gov="(PKC)" gov_index="11">amod</dependency>
+      <dependency dep="(PKC)" dep_index="11" gov="activation" gov_index="8">prep_of</dependency>
+      <dependency dep="whereas" dep_index="13" gov="independent" gov_index="18">mark</dependency>
+      <dependency dep="the" dep_index="14" gov="inhibition" gov_index="15">det</dependency>
+      <dependency dep="inhibition" dep_index="15" gov="independent" gov_index="18">nsubj</dependency>
+      <dependency dep="was" dep_index="16" gov="independent" gov_index="18">cop</dependency>
+      <dependency dep="PKC" dep_index="17" gov="independent" gov_index="18">advmod</dependency>
+      <dependency dep="independent" dep_index="18" gov="required" gov_index="7">advcl</dependency>
+      <dependency dep="indicating" dep_index="20" gov="independent" gov_index="18">xcomp</dependency>
+      <dependency dep="that" dep_index="21" gov="distinct" gov_index="35">mark</dependency>
+      <dependency dep="the" dep_index="22" gov="pathways" gov_index="25">det</dependency>
+      <dependency dep="NGF-induced" dep_index="23" gov="pathways" gov_index="25">amod</dependency>
+      <dependency dep="signaling" dep_index="24" gov="pathways" gov_index="25">num</dependency>
+      <dependency dep="pathways" dep_index="25" gov="distinct" gov_index="35">nsubj</dependency>
+      <dependency dep="leading" dep_index="26" gov="pathways" gov_index="25">partmod</dependency>
+      <dependency dep="inhibition" dep_index="28" gov="leading" gov_index="26">prep_to</dependency>
+      <dependency dep="stimulation" dep_index="30" gov="leading" gov_index="26">prep_to</dependency>
+      <dependency dep="stimulation" dep_index="30" gov="inhibition" gov_index="28">conj_and</dependency>
+      <dependency dep="HCO3-" dep_index="32" gov="absorption" gov_index="33">nn</dependency>
+      <dependency dep="absorption" dep_index="33" gov="inhibition" gov_index="28">prep_of</dependency>
+      <dependency dep="are" dep_index="34" gov="distinct" gov_index="35">cop</dependency>
+      <dependency dep="distinct" dep_index="35" gov="indicating" gov_index="20">ccomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400010" relationship="true">4 6 7 8 11 10</relation>
+      <relation position="400017" relationship="false">4 6 7 18 17</relation>
+      <relation position="1000017" relationship="false">10 11 8 7 18 17</relation>
+   </relations>
+   <pairs>
+      <pair>400010</pair>
+   </pairs>
+</root>

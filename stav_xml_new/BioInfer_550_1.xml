@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Stable@transfection@of@mutant@plakoglobin@molecules@showed@that@deletion@of@the@N-cadherin@binding@domain@,@but@not@the@alpha-catenin@binding@domain@,@abolished@beta-catenin@downregulation@.@</sentence>
+   <tags>
+      <tag pos="12">N-cadherin</tag>
+      <tag pos="19">alpha-catenin</tag>
+      <tag pos="24">beta-catenin</tag>
+      <tag pos="5">plakoglobin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Stable</taggedword>
+      <taggedword index="2" part-of-speech="NN">transfection</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">mutant</taggedword>
+      <taggedword index="5" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="6" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="7" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="NN">deletion</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">N-cadherin</taggedword>
+      <taggedword index="13" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="14" part-of-speech="NN">domain</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">but</taggedword>
+      <taggedword index="17" part-of-speech="RB">not</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="20" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="21" part-of-speech="NN">domain</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="VBD">abolished</taggedword>
+      <taggedword index="24" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="25" part-of-speech="NN">downregulation</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Stable" dep_index="1" gov="transfection" gov_index="2">amod</dependency>
+      <dependency dep="transfection" dep_index="2" gov="showed" gov_index="7">nsubj</dependency>
+      <dependency dep="mutant" dep_index="4" gov="molecules" gov_index="6">amod</dependency>
+      <dependency dep="plakoglobin" dep_index="5" gov="molecules" gov_index="6">nn</dependency>
+      <dependency dep="molecules" dep_index="6" gov="transfection" gov_index="2">prep_of</dependency>
+      <dependency dep="showed" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="abolished" gov_index="23">mark</dependency>
+      <dependency dep="deletion" dep_index="9" gov="abolished" gov_index="23">nsubj</dependency>
+      <dependency dep="the" dep_index="11" gov="domain" gov_index="14">det</dependency>
+      <dependency dep="N-cadherin" dep_index="12" gov="domain" gov_index="14">amod</dependency>
+      <dependency dep="binding" dep_index="13" gov="domain" gov_index="14">amod</dependency>
+      <dependency dep="domain" dep_index="14" gov="deletion" gov_index="9">prep_of</dependency>
+      <dependency dep="the" dep_index="18" gov="domain" gov_index="21">det</dependency>
+      <dependency dep="alpha-catenin" dep_index="19" gov="domain" gov_index="21">amod</dependency>
+      <dependency dep="binding" dep_index="20" gov="domain" gov_index="21">amod</dependency>
+      <dependency dep="domain" dep_index="21" gov="deletion" gov_index="9">conj_negcc</dependency>
+      <dependency dep="domain" dep_index="21" gov="abolished" gov_index="23">nsubj</dependency>
+      <dependency dep="abolished" dep_index="23" gov="showed" gov_index="7">ccomp</dependency>
+      <dependency dep="beta-catenin" dep_index="24" gov="downregulation" gov_index="25">amod</dependency>
+      <dependency dep="downregulation" dep_index="25" gov="abolished" gov_index="23">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200019" relationship="false">12 14 9 21 19</relation>
+      <relation position="1200024" relationship="false">12 14 9 23 25 24</relation>
+      <relation position="500012" relationship="true">5 6 2 7 23 9 14 12</relation>
+      <relation position="1900024" relationship="false">19 21 23 25 24</relation>
+      <relation position="500019" relationship="true">5 6 2 7 23 21 19</relation>
+      <relation position="500024" relationship="true">5 6 2 7 23 25 24</relation>
+   </relations>
+   <pairs>
+      <pair>500012</pair>
+      <pair>500024</pair>
+      <pair>500019</pair>
+   </pairs>
+</root>

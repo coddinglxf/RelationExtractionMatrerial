@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>It@therefore@appears@that@myosin heavy chain@and@actin@multigene@families@are@both@expressed@in@a@species@specific@fashion@but@are@independently@regulated@within@a@species@.@</sentence>
+   <tags>
+      <tag pos="5">myosin heavy chain</tag>
+      <tag pos="7">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">It</taggedword>
+      <taggedword index="2" part-of-speech="RB">therefore</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">appears</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">actin</taggedword>
+      <taggedword index="8" part-of-speech="NN">multigene</taggedword>
+      <taggedword index="9" part-of-speech="NNS">families</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="DT">both</taggedword>
+      <taggedword index="12" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="NN">species</taggedword>
+      <taggedword index="16" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="17" part-of-speech="NN">fashion</taggedword>
+      <taggedword index="18" part-of-speech="CC">but</taggedword>
+      <taggedword index="19" part-of-speech="VBP">are</taggedword>
+      <taggedword index="20" part-of-speech="RB">independently</taggedword>
+      <taggedword index="21" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="22" part-of-speech="IN">within</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="NN">species</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="It" dep_index="1" gov="appears" gov_index="3">nsubj</dependency>
+      <dependency dep="It" dep_index="1" gov="regulated" gov_index="21">nsubjpass</dependency>
+      <dependency dep="therefore" dep_index="2" gov="appears" gov_index="3">advmod</dependency>
+      <dependency dep="appears" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="expressed" gov_index="12">mark</dependency>
+      <dependency dep="myosin heavy chain" dep_index="5" gov="families" gov_index="9">nn</dependency>
+      <dependency dep="actin" dep_index="7" gov="myosin heavy chain" gov_index="5">conj_and</dependency>
+      <dependency dep="actin" dep_index="7" gov="families" gov_index="9">nn</dependency>
+      <dependency dep="multigene" dep_index="8" gov="families" gov_index="9">nn</dependency>
+      <dependency dep="families" dep_index="9" gov="expressed" gov_index="12">nsubjpass</dependency>
+      <dependency dep="are" dep_index="10" gov="expressed" gov_index="12">auxpass</dependency>
+      <dependency dep="both" dep_index="11" gov="expressed" gov_index="12">advmod</dependency>
+      <dependency dep="expressed" dep_index="12" gov="appears" gov_index="3">ccomp</dependency>
+      <dependency dep="a" dep_index="14" gov="fashion" gov_index="17">det</dependency>
+      <dependency dep="species" dep_index="15" gov="fashion" gov_index="17">nn</dependency>
+      <dependency dep="specific" dep_index="16" gov="fashion" gov_index="17">amod</dependency>
+      <dependency dep="fashion" dep_index="17" gov="expressed" gov_index="12">prep_in</dependency>
+      <dependency dep="are" dep_index="19" gov="regulated" gov_index="21">auxpass</dependency>
+      <dependency dep="independently" dep_index="20" gov="regulated" gov_index="21">advmod</dependency>
+      <dependency dep="regulated" dep_index="21" gov="appears" gov_index="3">conj_but</dependency>
+      <dependency dep="a" dep_index="23" gov="species" gov_index="24">det</dependency>
+      <dependency dep="species" dep_index="24" gov="regulated" gov_index="21">prep_within</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="true">5 9 7</relation>
+   </relations>
+   <pairs>
+      <pair>500007</pair>
+   </pairs>
+</root>

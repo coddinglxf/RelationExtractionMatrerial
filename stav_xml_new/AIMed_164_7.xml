@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@U2AF35@functions@as@a@bridge@between@U2AF65@and@the@enhancer@complex@to@recruit@U2AF65@to@the@adjacent@intron@.@</sentence>
+   <tags>
+      <tag pos="3">U2AF35</tag>
+      <tag pos="9">U2AF65</tag>
+      <tag pos="16">U2AF65</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="CD">U2AF35</taggedword>
+      <taggedword index="4" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="5" part-of-speech="IN">as</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NN">bridge</taggedword>
+      <taggedword index="8" part-of-speech="IN">between</taggedword>
+      <taggedword index="9" part-of-speech="NNP">U2AF65</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">enhancer</taggedword>
+      <taggedword index="13" part-of-speech="NN">complex</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="NN">recruit</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">U2AF65</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">adjacent</taggedword>
+      <taggedword index="20" part-of-speech="NN">intron</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="U2AF65" gov_index="16">advmod</dependency>
+      <dependency dep="U2AF35" dep_index="3" gov="functions" gov_index="4">num</dependency>
+      <dependency dep="functions" dep_index="4" gov="U2AF65" gov_index="16">nsubj</dependency>
+      <dependency dep="a" dep_index="6" gov="bridge" gov_index="7">det</dependency>
+      <dependency dep="bridge" dep_index="7" gov="functions" gov_index="4">prep_as</dependency>
+      <dependency dep="U2AF65" dep_index="9" gov="bridge" gov_index="7">prep_between</dependency>
+      <dependency dep="the" dep_index="11" gov="complex" gov_index="13">det</dependency>
+      <dependency dep="enhancer" dep_index="12" gov="complex" gov_index="13">nn</dependency>
+      <dependency dep="complex" dep_index="13" gov="functions" gov_index="4">prep_as</dependency>
+      <dependency dep="complex" dep_index="13" gov="bridge" gov_index="7">conj_and</dependency>
+      <dependency dep="recruit" dep_index="15" gov="complex" gov_index="13">prep_to</dependency>
+      <dependency dep="U2AF65" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="18" gov="intron" gov_index="20">det</dependency>
+      <dependency dep="adjacent" dep_index="19" gov="intron" gov_index="20">amod</dependency>
+      <dependency dep="intron" dep_index="20" gov="U2AF65" gov_index="16">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300009" relationship="false">3 4 7 9</relation>
+      <relation position="300016" relationship="false"></relation>
+      <relation position="900016" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

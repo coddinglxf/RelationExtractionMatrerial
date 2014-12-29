@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@lack@of@multiple@proinflammatory@cytokines@in@ICE@-/-@mice@may@account@for@their@protection@from@septic@shock@.@</sentence>
+   <tags>
+      <tag pos="8">ICE</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">lack</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="5" part-of-speech="NN">proinflammatory</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cytokines</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="NNP">ICE</taggedword>
+      <taggedword index="9" part-of-speech="NNP">-/-</taggedword>
+      <taggedword index="10" part-of-speech="NNS">mice</taggedword>
+      <taggedword index="11" part-of-speech="MD">may</taggedword>
+      <taggedword index="12" part-of-speech="VB">account</taggedword>
+      <taggedword index="13" part-of-speech="IN">for</taggedword>
+      <taggedword index="14" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="15" part-of-speech="NN">protection</taggedword>
+      <taggedword index="16" part-of-speech="IN">from</taggedword>
+      <taggedword index="17" part-of-speech="JJ">septic</taggedword>
+      <taggedword index="18" part-of-speech="NN">shock</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="lack" gov_index="2">det</dependency>
+      <dependency dep="lack" dep_index="2" gov="account" gov_index="12">nsubj</dependency>
+      <dependency dep="multiple" dep_index="4" gov="cytokines" gov_index="6">amod</dependency>
+      <dependency dep="proinflammatory" dep_index="5" gov="cytokines" gov_index="6">nn</dependency>
+      <dependency dep="cytokines" dep_index="6" gov="lack" gov_index="2">prep_of</dependency>
+      <dependency dep="ICE" dep_index="8" gov="mice" gov_index="10">nn</dependency>
+      <dependency dep="-/-" dep_index="9" gov="mice" gov_index="10">nn</dependency>
+      <dependency dep="mice" dep_index="10" gov="cytokines" gov_index="6">prep_in</dependency>
+      <dependency dep="may" dep_index="11" gov="account" gov_index="12">aux</dependency>
+      <dependency dep="account" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="their" dep_index="14" gov="protection" gov_index="15">poss</dependency>
+      <dependency dep="protection" dep_index="15" gov="account" gov_index="12">prep_for</dependency>
+      <dependency dep="septic" dep_index="17" gov="shock" gov_index="18">amod</dependency>
+      <dependency dep="shock" dep_index="18" gov="account" gov_index="12">prep_from</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

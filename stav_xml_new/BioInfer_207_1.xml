@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Features@studied@were@actin@,@microtubules@,@vinculin@,@and@talin@,@using@immunofluorescence@,@sodium@dodecyl@sulfate-polyacrylamide@gel@electrophoresis@,@and@immunoblotting@;@permeability@of@the@cell@sheet@;@wound@healing@;@and@phagocytic@capacity@.@</sentence>
+   <tags>
+      <tag pos="11">talin</tag>
+      <tag pos="4">actin</tag>
+      <tag pos="8">vinculin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Features</taggedword>
+      <taggedword index="2" part-of-speech="VBN">studied</taggedword>
+      <taggedword index="3" part-of-speech="VBD">were</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">microtubules</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">vinculin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">talin</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBG">using</taggedword>
+      <taggedword index="14" part-of-speech="NN">immunofluorescence</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NN">sodium</taggedword>
+      <taggedword index="17" part-of-speech="JJ">dodecyl</taggedword>
+      <taggedword index="18" part-of-speech="JJ">sulfate-polyacrylamide</taggedword>
+      <taggedword index="19" part-of-speech="NN">gel</taggedword>
+      <taggedword index="20" part-of-speech="NNS">electrophoresis</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NN">immunoblotting</taggedword>
+      <taggedword index="24" part-of-speech=":">;</taggedword>
+      <taggedword index="25" part-of-speech="NN">permeability</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">cell</taggedword>
+      <taggedword index="29" part-of-speech="NN">sheet</taggedword>
+      <taggedword index="30" part-of-speech=":">;</taggedword>
+      <taggedword index="31" part-of-speech="NN">wound</taggedword>
+      <taggedword index="32" part-of-speech="NN">healing</taggedword>
+      <taggedword index="33" part-of-speech=":">;</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="JJ">phagocytic</taggedword>
+      <taggedword index="36" part-of-speech="NN">capacity</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Features" dep_index="1" gov="vinculin" gov_index="8">nsubj</dependency>
+      <dependency dep="studied" dep_index="2" gov="Features" gov_index="1">partmod</dependency>
+      <dependency dep="were" dep_index="3" gov="vinculin" gov_index="8">cop</dependency>
+      <dependency dep="actin" dep_index="4" gov="vinculin" gov_index="8">nn</dependency>
+      <dependency dep="microtubules" dep_index="6" gov="vinculin" gov_index="8">dep</dependency>
+      <dependency dep="vinculin" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="talin" dep_index="11" gov="vinculin" gov_index="8">conj_and</dependency>
+      <dependency dep="using" dep_index="13" gov="vinculin" gov_index="8">partmod</dependency>
+      <dependency dep="immunofluorescence" dep_index="14" gov="electrophoresis" gov_index="20">nn</dependency>
+      <dependency dep="sodium" dep_index="16" gov="electrophoresis" gov_index="20">nn</dependency>
+      <dependency dep="dodecyl" dep_index="17" gov="electrophoresis" gov_index="20">amod</dependency>
+      <dependency dep="sulfate-polyacrylamide" dep_index="18" gov="electrophoresis" gov_index="20">amod</dependency>
+      <dependency dep="gel" dep_index="19" gov="electrophoresis" gov_index="20">nn</dependency>
+      <dependency dep="electrophoresis" dep_index="20" gov="using" gov_index="13">dobj</dependency>
+      <dependency dep="immunoblotting" dep_index="23" gov="using" gov_index="13">dobj</dependency>
+      <dependency dep="immunoblotting" dep_index="23" gov="electrophoresis" gov_index="20">conj_and</dependency>
+      <dependency dep="permeability" dep_index="25" gov="using" gov_index="13">dobj</dependency>
+      <dependency dep="permeability" dep_index="25" gov="electrophoresis" gov_index="20">conj_and</dependency>
+      <dependency dep="the" dep_index="27" gov="sheet" gov_index="29">det</dependency>
+      <dependency dep="cell" dep_index="28" gov="sheet" gov_index="29">nn</dependency>
+      <dependency dep="sheet" dep_index="29" gov="permeability" gov_index="25">prep_of</dependency>
+      <dependency dep="wound" dep_index="31" gov="healing" gov_index="32">nn</dependency>
+      <dependency dep="healing" dep_index="32" gov="using" gov_index="13">dobj</dependency>
+      <dependency dep="healing" dep_index="32" gov="electrophoresis" gov_index="20">conj_and</dependency>
+      <dependency dep="phagocytic" dep_index="35" gov="capacity" gov_index="36">amod</dependency>
+      <dependency dep="capacity" dep_index="36" gov="using" gov_index="13">dobj</dependency>
+      <dependency dep="capacity" dep_index="36" gov="electrophoresis" gov_index="20">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400011" relationship="false"></relation>
+      <relation position="800011" relationship="false"></relation>
+      <relation position="400008" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

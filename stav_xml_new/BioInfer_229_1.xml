@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Gel@electrophoresis@was@used@to@measure@changes@in@the@relative@amounts@of@actin@or@myosin@and@of@myosin heavy chain@(@MHC@)@isoforms@.@</sentence>
+   <tags>
+      <tag pos="13">actin</tag>
+      <tag pos="18">myosin heavy chain</tag>
+      <tag pos="15">myosin</tag>
+      <tag pos="20">MHC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Gel</taggedword>
+      <taggedword index="2" part-of-speech="NNS">electrophoresis</taggedword>
+      <taggedword index="3" part-of-speech="VBD">was</taggedword>
+      <taggedword index="4" part-of-speech="VBN">used</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="VB">measure</taggedword>
+      <taggedword index="7" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">relative</taggedword>
+      <taggedword index="11" part-of-speech="NNS">amounts</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">actin</taggedword>
+      <taggedword index="14" part-of-speech="CC">or</taggedword>
+      <taggedword index="15" part-of-speech="NN">myosin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="JJ">myosin heavy chain</taggedword>
+      <taggedword index="19" part-of-speech="NNP">(</taggedword>
+      <taggedword index="20" part-of-speech="NNP">MHC</taggedword>
+      <taggedword index="21" part-of-speech="NNP">)</taggedword>
+      <taggedword index="22" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Gel" dep_index="1" gov="electrophoresis" gov_index="2">nn</dependency>
+      <dependency dep="electrophoresis" dep_index="2" gov="used" gov_index="4">nsubjpass</dependency>
+      <dependency dep="electrophoresis" dep_index="2" gov="measure" gov_index="6">xsubj</dependency>
+      <dependency dep="was" dep_index="3" gov="used" gov_index="4">auxpass</dependency>
+      <dependency dep="used" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="5" gov="measure" gov_index="6">aux</dependency>
+      <dependency dep="measure" dep_index="6" gov="used" gov_index="4">xcomp</dependency>
+      <dependency dep="measure" dep_index="6" gov="used" gov_index="4">xcomp</dependency>
+      <dependency dep="measure" dep_index="6" gov="measure" gov_index="6">conj_and</dependency>
+      <dependency dep="changes" dep_index="7" gov="measure" gov_index="6">dobj</dependency>
+      <dependency dep="the" dep_index="9" gov="amounts" gov_index="11">det</dependency>
+      <dependency dep="relative" dep_index="10" gov="amounts" gov_index="11">amod</dependency>
+      <dependency dep="amounts" dep_index="11" gov="measure" gov_index="6">prep_in</dependency>
+      <dependency dep="actin" dep_index="13" gov="amounts" gov_index="11">prep_of</dependency>
+      <dependency dep="myosin" dep_index="15" gov="amounts" gov_index="11">prep_of</dependency>
+      <dependency dep="myosin" dep_index="15" gov="actin" gov_index="13">conj_or</dependency>
+      <dependency dep="myosin heavy chain" dep_index="18" gov="isoforms" gov_index="22">amod</dependency>
+      <dependency dep="(" dep_index="19" gov="isoforms" gov_index="22">nn</dependency>
+      <dependency dep="MHC" dep_index="20" gov="isoforms" gov_index="22">nn</dependency>
+      <dependency dep=")" dep_index="21" gov="isoforms" gov_index="22">nn</dependency>
+      <dependency dep="isoforms" dep_index="22" gov="measure" gov_index="6">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300018" relationship="false">13 11 6 22 18</relation>
+      <relation position="1300015" relationship="false">13 11 15</relation>
+      <relation position="1300020" relationship="false">13 11 6 22 20</relation>
+      <relation position="1500018" relationship="false">15 11 6 22 18</relation>
+      <relation position="1800020" relationship="false">18 22 20</relation>
+      <relation position="1500020" relationship="false">15 11 6 22 20</relation>
+   </relations>
+   <pairs/>
+</root>

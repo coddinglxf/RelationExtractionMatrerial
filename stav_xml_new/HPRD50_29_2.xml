@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@we@show@that@Dnmt3a@interacts@with@multiple@components@of@the@sumoylation@machinery@,@namely@the@E2@sumo@conjugating@enzyme@Ubc9@and@the@E3@sumo@ligases@PIAS1@and@PIASxalpha@,@all@of@which@are@involved@in@conjugating@the@small@ubiquitin-like@modifier@polypeptide@,@SUMO-1@,@to@its@target@proteins@</sentence>
+   <tags>
+      <tag pos="5">Dnmt3a</tag>
+      <tag pos="21">Ubc9</tag>
+      <tag pos="27">PIAS1</tag>
+      <tag pos="29">PIASxalpha</tag>
+      <tag pos="44">SUMO-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech="PRP">we</taggedword>
+      <taggedword index="3" part-of-speech="VBP">show</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNS">Dnmt3a</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="9" part-of-speech="NNS">components</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">sumoylation</taggedword>
+      <taggedword index="13" part-of-speech="NN">machinery</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="RB">namely</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">E2</taggedword>
+      <taggedword index="18" part-of-speech="NN">sumo</taggedword>
+      <taggedword index="19" part-of-speech="VBG">conjugating</taggedword>
+      <taggedword index="20" part-of-speech="JJ">enzyme</taggedword>
+      <taggedword index="21" part-of-speech="NNS">Ubc9</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NNP">E3</taggedword>
+      <taggedword index="25" part-of-speech="NN">sumo</taggedword>
+      <taggedword index="26" part-of-speech="VBZ">ligases</taggedword>
+      <taggedword index="27" part-of-speech="NNP">PIAS1</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="NNP">PIASxalpha</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="DT">all</taggedword>
+      <taggedword index="32" part-of-speech="IN">of</taggedword>
+      <taggedword index="33" part-of-speech="WDT">which</taggedword>
+      <taggedword index="34" part-of-speech="VBP">are</taggedword>
+      <taggedword index="35" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="36" part-of-speech="IN">in</taggedword>
+      <taggedword index="37" part-of-speech="VBG">conjugating</taggedword>
+      <taggedword index="38" part-of-speech="DT">the</taggedword>
+      <taggedword index="39" part-of-speech="JJ">small</taggedword>
+      <taggedword index="40" part-of-speech="JJ">ubiquitin-like</taggedword>
+      <taggedword index="41" part-of-speech="NN">modifier</taggedword>
+      <taggedword index="42" part-of-speech="NN">polypeptide</taggedword>
+      <taggedword index="43" part-of-speech=",">,</taggedword>
+      <taggedword index="44" part-of-speech="NN">SUMO-1</taggedword>
+      <taggedword index="45" part-of-speech=",">,</taggedword>
+      <taggedword index="46" part-of-speech="TO">to</taggedword>
+      <taggedword index="47" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="48" part-of-speech="NN">target</taggedword>
+      <taggedword index="49" part-of-speech="NNS">proteins</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="show" gov_index="3">advmod</dependency>
+      <dependency dep="we" dep_index="2" gov="show" gov_index="3">nsubj</dependency>
+      <dependency dep="show" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="interacts" gov_index="6">mark</dependency>
+      <dependency dep="Dnmt3a" dep_index="5" gov="interacts" gov_index="6">nsubj</dependency>
+      <dependency dep="interacts" dep_index="6" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="multiple" dep_index="8" gov="components" gov_index="9">amod</dependency>
+      <dependency dep="components" dep_index="9" gov="interacts" gov_index="6">prep_with</dependency>
+      <dependency dep="the" dep_index="11" gov="machinery" gov_index="13">det</dependency>
+      <dependency dep="sumoylation" dep_index="12" gov="machinery" gov_index="13">nn</dependency>
+      <dependency dep="machinery" dep_index="13" gov="components" gov_index="9">prep_of</dependency>
+      <dependency dep="namely" dep_index="15" gov="sumo" gov_index="18">advmod</dependency>
+      <dependency dep="the" dep_index="16" gov="sumo" gov_index="18">det</dependency>
+      <dependency dep="E2" dep_index="17" gov="sumo" gov_index="18">amod</dependency>
+      <dependency dep="sumo" dep_index="18" gov="conjugating" gov_index="19">nsubj</dependency>
+      <dependency dep="conjugating" dep_index="19" gov="show" gov_index="3">conj_and</dependency>
+      <dependency dep="enzyme" dep_index="20" gov="Ubc9" gov_index="21">amod</dependency>
+      <dependency dep="Ubc9" dep_index="21" gov="conjugating" gov_index="19">dobj</dependency>
+      <dependency dep="the" dep_index="23" gov="sumo" gov_index="25">det</dependency>
+      <dependency dep="E3" dep_index="24" gov="sumo" gov_index="25">nn</dependency>
+      <dependency dep="sumo" dep_index="25" gov="ligases" gov_index="26">nsubj</dependency>
+      <dependency dep="ligases" dep_index="26" gov="show" gov_index="3">conj_and</dependency>
+      <dependency dep="PIAS1" dep_index="27" gov="ligases" gov_index="26">dobj</dependency>
+      <dependency dep="PIAS1" dep_index="27" gov="of" gov_index="32">pobj</dependency>
+      <dependency dep="PIASxalpha" dep_index="29" gov="ligases" gov_index="26">dobj</dependency>
+      <dependency dep="PIASxalpha" dep_index="29" gov="PIAS1" gov_index="27">conj_and</dependency>
+      <dependency dep="PIASxalpha" dep_index="29" gov="of" gov_index="32">pobj</dependency>
+      <dependency dep="all" dep_index="31" gov="of" gov_index="32">dep</dependency>
+      <dependency dep="of" dep_index="32" gov="involved" gov_index="35">nsubjpass</dependency>
+      <dependency dep="are" dep_index="34" gov="involved" gov_index="35">auxpass</dependency>
+      <dependency dep="involved" dep_index="35" gov="PIAS1" gov_index="27">rcmod</dependency>
+      <dependency dep="conjugating" dep_index="37" gov="involved" gov_index="35">prepc_in</dependency>
+      <dependency dep="the" dep_index="38" gov="polypeptide" gov_index="42">det</dependency>
+      <dependency dep="small" dep_index="39" gov="polypeptide" gov_index="42">amod</dependency>
+      <dependency dep="ubiquitin-like" dep_index="40" gov="polypeptide" gov_index="42">amod</dependency>
+      <dependency dep="modifier" dep_index="41" gov="polypeptide" gov_index="42">nn</dependency>
+      <dependency dep="polypeptide" dep_index="42" gov="conjugating" gov_index="37">dobj</dependency>
+      <dependency dep="SUMO-1" dep_index="44" gov="polypeptide" gov_index="42">appos</dependency>
+      <dependency dep="its" dep_index="47" gov="proteins" gov_index="49">poss</dependency>
+      <dependency dep="target" dep_index="48" gov="proteins" gov_index="49">nn</dependency>
+      <dependency dep="proteins" dep_index="49" gov="polypeptide" gov_index="42">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500021" relationship="true"></relation>
+      <relation position="500027" relationship="true"></relation>
+      <relation position="500029" relationship="true"></relation>
+      <relation position="500044" relationship="false"></relation>
+      <relation position="2100027" relationship="false"></relation>
+      <relation position="2100029" relationship="false"></relation>
+      <relation position="2100044" relationship="true"></relation>
+      <relation position="2700029" relationship="false">27 32 29</relation>
+      <relation position="2700044" relationship="true">27 32 35 37 42 44</relation>
+      <relation position="2900044" relationship="true">29 32 35 37 42 44</relation>
+   </relations>
+   <pairs>
+      <pair>500029</pair>
+      <pair>2900044</pair>
+      <pair>2700044</pair>
+      <pair>500027</pair>
+      <pair>2100044</pair>
+      <pair>500021</pair>
+   </pairs>
+</root>

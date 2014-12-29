@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>ORC1@,@ORC4@and@Cdc6@were@stable@(T1/2@&gt;2@h)@and@associated@with@a@chromatin-containing@fraction@throughout@the@cell@cycle@.@</sentence>
+   <tags>
+      <tag pos="3">ORC4</tag>
+      <tag pos="1">ORC1</tag>
+      <tag pos="5">Cdc6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">ORC1</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">ORC4</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="NNS">Cdc6</taggedword>
+      <taggedword index="6" part-of-speech="VBD">were</taggedword>
+      <taggedword index="7" part-of-speech="JJ">stable</taggedword>
+      <taggedword index="8" part-of-speech="CD">(T1/2</taggedword>
+      <taggedword index="9" part-of-speech="CD">&gt;2</taggedword>
+      <taggedword index="10" part-of-speech="NN">h)</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="JJ">associated</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="JJ">chromatin-containing</taggedword>
+      <taggedword index="16" part-of-speech="NN">fraction</taggedword>
+      <taggedword index="17" part-of-speech="IN">throughout</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">cell</taggedword>
+      <taggedword index="20" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="ORC1" dep_index="1" gov="stable" gov_index="7">nsubj</dependency>
+      <dependency dep="ORC1" dep_index="1" gov="associated" gov_index="12">nsubj</dependency>
+      <dependency dep="ORC4" dep_index="3" gov="ORC1" gov_index="1">conj_and</dependency>
+      <dependency dep="ORC4" dep_index="3" gov="stable" gov_index="7">nsubj</dependency>
+      <dependency dep="Cdc6" dep_index="5" gov="ORC1" gov_index="1">conj_and</dependency>
+      <dependency dep="Cdc6" dep_index="5" gov="stable" gov_index="7">nsubj</dependency>
+      <dependency dep="were" dep_index="6" gov="stable" gov_index="7">cop</dependency>
+      <dependency dep="stable" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="(T1/2" dep_index="8" gov="&gt;2" gov_index="9">number</dependency>
+      <dependency dep="&gt;2" dep_index="9" gov="h)" gov_index="10">num</dependency>
+      <dependency dep="h)" dep_index="10" gov="stable" gov_index="7">dep</dependency>
+      <dependency dep="associated" dep_index="12" gov="stable" gov_index="7">conj_and</dependency>
+      <dependency dep="a" dep_index="14" gov="fraction" gov_index="16">det</dependency>
+      <dependency dep="chromatin-containing" dep_index="15" gov="fraction" gov_index="16">amod</dependency>
+      <dependency dep="fraction" dep_index="16" gov="associated" gov_index="12">prep_with</dependency>
+      <dependency dep="the" dep_index="18" gov="cycle" gov_index="20">det</dependency>
+      <dependency dep="cell" dep_index="19" gov="cycle" gov_index="20">nn</dependency>
+      <dependency dep="cycle" dep_index="20" gov="fraction" gov_index="16">prep_throughout</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="true">1 7 3</relation>
+      <relation position="300005" relationship="true">3 7 5</relation>
+      <relation position="100005" relationship="true">1 7 5</relation>
+   </relations>
+   <pairs>
+      <pair>300005</pair>
+      <pair>100005</pair>
+      <pair>100003</pair>
+   </pairs>
+</root>

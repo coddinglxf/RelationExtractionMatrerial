@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>2)@IGF-1@,@IGF-2@,@and@insulin@also@induced@a@Ca2+@mobilization@from@the@endoplasmic@reticulum@:@phospholipase C@(PLC)@inhibitors@,@neomycin@,@or@U-73122@partially@blocked@the@intracellular@[Ca2+]i@increase@induced@by@IGF-1@and@insulin@and@totally@inhibited@the@effect@of@IGF-2@</sentence>
+   <tags>
+      <tag pos="7">insulin</tag>
+      <tag pos="18">phospholipase C</tag>
+      <tag pos="36">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">2)</taggedword>
+      <taggedword index="2" part-of-speech="NN">IGF-1</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">IGF-2</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="8" part-of-speech="RB">also</taggedword>
+      <taggedword index="9" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">Ca2+</taggedword>
+      <taggedword index="12" part-of-speech="NN">mobilization</taggedword>
+      <taggedword index="13" part-of-speech="IN">from</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">endoplasmic</taggedword>
+      <taggedword index="16" part-of-speech="NN">reticulum</taggedword>
+      <taggedword index="17" part-of-speech=":">:</taggedword>
+      <taggedword index="18" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="19" part-of-speech="JJ">(PLC)</taggedword>
+      <taggedword index="20" part-of-speech="NNS">inhibitors</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NN">neomycin</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CC">or</taggedword>
+      <taggedword index="25" part-of-speech="NN">U-73122</taggedword>
+      <taggedword index="26" part-of-speech="RB">partially</taggedword>
+      <taggedword index="27" part-of-speech="VBD">blocked</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">intracellular</taggedword>
+      <taggedword index="30" part-of-speech="JJ">[Ca2+]i</taggedword>
+      <taggedword index="31" part-of-speech="NN">increase</taggedword>
+      <taggedword index="32" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="33" part-of-speech="IN">by</taggedword>
+      <taggedword index="34" part-of-speech="NN">IGF-1</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="37" part-of-speech="CC">and</taggedword>
+      <taggedword index="38" part-of-speech="RB">totally</taggedword>
+      <taggedword index="39" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="40" part-of-speech="DT">the</taggedword>
+      <taggedword index="41" part-of-speech="NN">effect</taggedword>
+      <taggedword index="42" part-of-speech="IN">of</taggedword>
+      <taggedword index="43" part-of-speech="NN">IGF-2</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="2)" dep_index="1" gov="IGF-1" gov_index="2">num</dependency>
+      <dependency dep="IGF-1" dep_index="2" gov="blocked" gov_index="27">nsubj</dependency>
+      <dependency dep="IGF-1" dep_index="2" gov="inhibited" gov_index="39">nsubj</dependency>
+      <dependency dep="IGF-2" dep_index="4" gov="IGF-1" gov_index="2">conj_and</dependency>
+      <dependency dep="IGF-2" dep_index="4" gov="blocked" gov_index="27">nsubj</dependency>
+      <dependency dep="insulin" dep_index="7" gov="IGF-1" gov_index="2">conj_and</dependency>
+      <dependency dep="insulin" dep_index="7" gov="blocked" gov_index="27">nsubj</dependency>
+      <dependency dep="also" dep_index="8" gov="induced" gov_index="9">advmod</dependency>
+      <dependency dep="induced" dep_index="9" gov="insulin" gov_index="7">partmod</dependency>
+      <dependency dep="a" dep_index="10" gov="mobilization" gov_index="12">det</dependency>
+      <dependency dep="Ca2+" dep_index="11" gov="mobilization" gov_index="12">amod</dependency>
+      <dependency dep="mobilization" dep_index="12" gov="induced" gov_index="9">dobj</dependency>
+      <dependency dep="the" dep_index="14" gov="reticulum" gov_index="16">det</dependency>
+      <dependency dep="endoplasmic" dep_index="15" gov="reticulum" gov_index="16">amod</dependency>
+      <dependency dep="reticulum" dep_index="16" gov="induced" gov_index="9">prep_from</dependency>
+      <dependency dep="phospholipase C" dep_index="18" gov="inhibitors" gov_index="20">amod</dependency>
+      <dependency dep="(PLC)" dep_index="19" gov="inhibitors" gov_index="20">amod</dependency>
+      <dependency dep="inhibitors" dep_index="20" gov="insulin" gov_index="7">dep</dependency>
+      <dependency dep="neomycin" dep_index="22" gov="insulin" gov_index="7">dep</dependency>
+      <dependency dep="neomycin" dep_index="22" gov="inhibitors" gov_index="20">conj_or</dependency>
+      <dependency dep="U-73122" dep_index="25" gov="insulin" gov_index="7">dep</dependency>
+      <dependency dep="U-73122" dep_index="25" gov="inhibitors" gov_index="20">conj_or</dependency>
+      <dependency dep="partially" dep_index="26" gov="blocked" gov_index="27">advmod</dependency>
+      <dependency dep="blocked" dep_index="27" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="28" gov="increase" gov_index="31">det</dependency>
+      <dependency dep="intracellular" dep_index="29" gov="increase" gov_index="31">amod</dependency>
+      <dependency dep="[Ca2+]i" dep_index="30" gov="increase" gov_index="31">amod</dependency>
+      <dependency dep="increase" dep_index="31" gov="blocked" gov_index="27">dobj</dependency>
+      <dependency dep="induced" dep_index="32" gov="increase" gov_index="31">partmod</dependency>
+      <dependency dep="IGF-1" dep_index="34" gov="induced" gov_index="32">agent</dependency>
+      <dependency dep="insulin" dep_index="36" gov="induced" gov_index="32">agent</dependency>
+      <dependency dep="insulin" dep_index="36" gov="IGF-1" gov_index="34">conj_and</dependency>
+      <dependency dep="totally" dep_index="38" gov="inhibited" gov_index="39">advmod</dependency>
+      <dependency dep="inhibited" dep_index="39" gov="blocked" gov_index="27">conj_and</dependency>
+      <dependency dep="the" dep_index="40" gov="effect" gov_index="41">det</dependency>
+      <dependency dep="effect" dep_index="41" gov="inhibited" gov_index="39">dobj</dependency>
+      <dependency dep="IGF-2" dep_index="43" gov="effect" gov_index="41">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700018" relationship="false"></relation>
+      <relation position="700036" relationship="false">7 27 31 32 36</relation>
+      <relation position="1800036" relationship="true">18 20 7 27 31 32 36</relation>
+   </relations>
+   <pairs>
+      <pair>1800036</pair>
+   </pairs>
+</root>

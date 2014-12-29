@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@resulting@Trk@variant@recruited@binding@of@NGF@equivalent@to@TrkA@,@maintained@neurotrophin-3@binding@equivalent@to@TrkC@,@and@also@bound@brain-derived neurotrophin@,@although@with@lower@affinity@compared@with@TrkB@.@</sentence>
+   <tags>
+      <tag pos="8">NGF</tag>
+      <tag pos="11">TrkA</tag>
+      <tag pos="14">neurotrophin-3</tag>
+      <tag pos="18">TrkC</tag>
+      <tag pos="23">brain-derived neurotrophin</tag>
+      <tag pos="31">TrkB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="VBG">resulting</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Trk</taggedword>
+      <taggedword index="4" part-of-speech="NN">variant</taggedword>
+      <taggedword index="5" part-of-speech="VBD">recruited</taggedword>
+      <taggedword index="6" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNP">NGF</taggedword>
+      <taggedword index="9" part-of-speech="JJ">equivalent</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="NNP">TrkA</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBN">maintained</taggedword>
+      <taggedword index="14" part-of-speech="JJ">neurotrophin-3</taggedword>
+      <taggedword index="15" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="16" part-of-speech="NN">equivalent</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="NNP">TrkC</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="RB">also</taggedword>
+      <taggedword index="22" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="23" part-of-speech="NN">brain-derived neurotrophin</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="IN">although</taggedword>
+      <taggedword index="26" part-of-speech="IN">with</taggedword>
+      <taggedword index="27" part-of-speech="JJR">lower</taggedword>
+      <taggedword index="28" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="29" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="30" part-of-speech="IN">with</taggedword>
+      <taggedword index="31" part-of-speech="NNP">TrkB</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="variant" gov_index="4">det</dependency>
+      <dependency dep="resulting" dep_index="2" gov="variant" gov_index="4">amod</dependency>
+      <dependency dep="Trk" dep_index="3" gov="variant" gov_index="4">nn</dependency>
+      <dependency dep="variant" dep_index="4" gov="recruited" gov_index="5">nsubj</dependency>
+      <dependency dep="recruited" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="binding" dep_index="6" gov="recruited" gov_index="5">dobj</dependency>
+      <dependency dep="NGF" dep_index="8" gov="binding" gov_index="6">prep_of</dependency>
+      <dependency dep="equivalent" dep_index="9" gov="binding" gov_index="6">amod</dependency>
+      <dependency dep="TrkA" dep_index="11" gov="equivalent" gov_index="9">prep_to</dependency>
+      <dependency dep="maintained" dep_index="13" gov="binding" gov_index="6">partmod</dependency>
+      <dependency dep="neurotrophin-3" dep_index="14" gov="equivalent" gov_index="16">amod</dependency>
+      <dependency dep="binding" dep_index="15" gov="equivalent" gov_index="16">amod</dependency>
+      <dependency dep="equivalent" dep_index="16" gov="maintained" gov_index="13">dobj</dependency>
+      <dependency dep="TrkC" dep_index="18" gov="equivalent" gov_index="16">prep_to</dependency>
+      <dependency dep="also" dep_index="21" gov="bound" gov_index="22">advmod</dependency>
+      <dependency dep="bound" dep_index="22" gov="brain-derived neurotrophin" gov_index="23">amod</dependency>
+      <dependency dep="brain-derived neurotrophin" dep_index="23" gov="recruited" gov_index="5">dobj</dependency>
+      <dependency dep="brain-derived neurotrophin" dep_index="23" gov="binding" gov_index="6">conj_and</dependency>
+      <dependency dep="although" dep_index="25" gov="recruited" gov_index="5">dep</dependency>
+      <dependency dep="lower" dep_index="27" gov="affinity" gov_index="28">amod</dependency>
+      <dependency dep="affinity" dep_index="28" gov="recruited" gov_index="5">prep_with</dependency>
+      <dependency dep="with" dep_index="30" gov="affinity" gov_index="28">prepc_compared_with</dependency>
+      <dependency dep="TrkB" dep_index="31" gov="affinity" gov_index="28">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800011" relationship="true">8 6 9 11</relation>
+      <relation position="800014" relationship="false">8 6 13 16 14</relation>
+      <relation position="800018" relationship="false">8 6 13 16 18</relation>
+      <relation position="800023" relationship="false">8 6 5 23</relation>
+      <relation position="800031" relationship="false">8 6 5 28 31</relation>
+      <relation position="1100014" relationship="false">11 9 6 13 16 14</relation>
+      <relation position="1100018" relationship="false">11 9 6 13 16 18</relation>
+      <relation position="1100023" relationship="false">11 9 6 5 23</relation>
+      <relation position="1100031" relationship="false">11 9 6 5 28 31</relation>
+      <relation position="1400018" relationship="true">14 16 18</relation>
+      <relation position="1400023" relationship="false">14 16 13 6 5 23</relation>
+      <relation position="1400031" relationship="false">14 16 13 6 5 28 31</relation>
+      <relation position="1800023" relationship="false">18 16 13 6 5 23</relation>
+      <relation position="1800031" relationship="false">18 16 13 6 5 28 31</relation>
+      <relation position="2300031" relationship="true">23 5 28 31</relation>
+   </relations>
+   <pairs>
+      <pair>1400018</pair>
+      <pair>2300031</pair>
+      <pair>800011</pair>
+   </pairs>
+</root>

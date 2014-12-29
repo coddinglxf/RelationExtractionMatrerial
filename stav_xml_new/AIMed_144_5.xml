@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@vitro-binding@assays@demonstrated@that@PP-1 alpha@isoforms@preferentially@bind@the@hypophosphorylated@form@of@p110RB@.@</sentence>
+   <tags>
+      <tag pos="6">PP-1 alpha</tag>
+      <tag pos="14">p110RB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">vitro-binding</taggedword>
+      <taggedword index="3" part-of-speech="NNS">assays</taggedword>
+      <taggedword index="4" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="NNS">PP-1 alpha</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">isoforms</taggedword>
+      <taggedword index="8" part-of-speech="JJ">preferentially</taggedword>
+      <taggedword index="9" part-of-speech="NN">bind</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">hypophosphorylated</taggedword>
+      <taggedword index="12" part-of-speech="NN">form</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="CD">p110RB</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="vitro-binding" dep_index="2" gov="assays" gov_index="3">amod</dependency>
+      <dependency dep="assays" dep_index="3" gov="demonstrated" gov_index="4">prep_in</dependency>
+      <dependency dep="demonstrated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="isoforms" gov_index="7">mark</dependency>
+      <dependency dep="PP-1 alpha" dep_index="6" gov="isoforms" gov_index="7">nsubj</dependency>
+      <dependency dep="isoforms" dep_index="7" gov="demonstrated" gov_index="4">ccomp</dependency>
+      <dependency dep="preferentially" dep_index="8" gov="bind" gov_index="9">amod</dependency>
+      <dependency dep="bind" dep_index="9" gov="isoforms" gov_index="7">dobj</dependency>
+      <dependency dep="the" dep_index="10" gov="form" gov_index="12">det</dependency>
+      <dependency dep="hypophosphorylated" dep_index="11" gov="form" gov_index="12">amod</dependency>
+      <dependency dep="form" dep_index="12" gov="demonstrated" gov_index="4">dep</dependency>
+      <dependency dep="p110RB" dep_index="14" gov="form" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600014" relationship="true">6 7 4 12 14</relation>
+   </relations>
+   <pairs>
+      <pair>600014</pair>
+   </pairs>
+</root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Specific@TTR@immunoreactivity@was@detected@in@multiple@cortical@neurons@and@astrocytes@in@the@human@brain@.@</sentence>
+   <tags>
+      <tag pos="2">TTR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Specific</taggedword>
+      <taggedword index="2" part-of-speech="NNP">TTR</taggedword>
+      <taggedword index="3" part-of-speech="RB">immunoreactivity</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="8" part-of-speech="JJ">cortical</taggedword>
+      <taggedword index="9" part-of-speech="NNS">neurons</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNS">astrocytes</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">human</taggedword>
+      <taggedword index="15" part-of-speech="NN">brain</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Specific" dep_index="1" gov="TTR" gov_index="2">nn</dependency>
+      <dependency dep="TTR" dep_index="2" gov="detected" gov_index="5">nsubjpass</dependency>
+      <dependency dep="immunoreactivity" dep_index="3" gov="detected" gov_index="5">advmod</dependency>
+      <dependency dep="was" dep_index="4" gov="detected" gov_index="5">auxpass</dependency>
+      <dependency dep="detected" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="multiple" dep_index="7" gov="neurons" gov_index="9">amod</dependency>
+      <dependency dep="cortical" dep_index="8" gov="neurons" gov_index="9">amod</dependency>
+      <dependency dep="neurons" dep_index="9" gov="detected" gov_index="5">prep_in</dependency>
+      <dependency dep="astrocytes" dep_index="11" gov="detected" gov_index="5">prep_in</dependency>
+      <dependency dep="astrocytes" dep_index="11" gov="neurons" gov_index="9">conj_and</dependency>
+      <dependency dep="the" dep_index="13" gov="brain" gov_index="15">det</dependency>
+      <dependency dep="human" dep_index="14" gov="brain" gov_index="15">amod</dependency>
+      <dependency dep="brain" dep_index="15" gov="neurons" gov_index="9">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

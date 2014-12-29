@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>PU.1@is@a@transcription@factor@that@belongs@to@the@ets@family@of@DNA@binding@proteins@.@</sentence>
+   <tags>
+      <tag pos="1">PU.1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">PU.1</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="5" part-of-speech="NN">factor</taggedword>
+      <taggedword index="6" part-of-speech="WDT">that</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">belongs</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">ets</taggedword>
+      <taggedword index="11" part-of-speech="NN">family</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="14" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="15" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="PU.1" dep_index="1" gov="factor" gov_index="5">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="factor" gov_index="5">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="factor" gov_index="5">det</dependency>
+      <dependency dep="transcription" dep_index="4" gov="factor" gov_index="5">nn</dependency>
+      <dependency dep="factor" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="factor" dep_index="5" gov="belongs" gov_index="7">nsubj</dependency>
+      <dependency dep="belongs" dep_index="7" gov="factor" gov_index="5">rcmod</dependency>
+      <dependency dep="the" dep_index="9" gov="family" gov_index="11">det</dependency>
+      <dependency dep="ets" dep_index="10" gov="family" gov_index="11">nn</dependency>
+      <dependency dep="family" dep_index="11" gov="belongs" gov_index="7">prep_to</dependency>
+      <dependency dep="DNA" dep_index="13" gov="proteins" gov_index="15">nn</dependency>
+      <dependency dep="binding" dep_index="14" gov="proteins" gov_index="15">amod</dependency>
+      <dependency dep="proteins" dep_index="15" gov="family" gov_index="11">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

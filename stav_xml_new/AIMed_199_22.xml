@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Finally@,@activated@FGFR3@was@also@found@to@result@in@phosphorylation@of@phospholipase C-gamma@but@reduced@phosphorylation@of@c-Src@.@</sentence>
+   <tags>
+      <tag pos="4">FGFR3</tag>
+      <tag pos="13">phospholipase C-gamma</tag>
+      <tag pos="18">c-Src</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Finally</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">activated</taggedword>
+      <taggedword index="4" part-of-speech="NNP">FGFR3</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="RB">also</taggedword>
+      <taggedword index="7" part-of-speech="VBN">found</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">result</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">phospholipase C-gamma</taggedword>
+      <taggedword index="14" part-of-speech="CC">but</taggedword>
+      <taggedword index="15" part-of-speech="VBN">reduced</taggedword>
+      <taggedword index="16" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">c-Src</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Finally" dep_index="1" gov="found" gov_index="7">advmod</dependency>
+      <dependency dep="activated" dep_index="3" gov="FGFR3" gov_index="4">nn</dependency>
+      <dependency dep="FGFR3" dep_index="4" gov="found" gov_index="7">nsubjpass</dependency>
+      <dependency dep="FGFR3" dep_index="4" gov="result" gov_index="9">xsubj</dependency>
+      <dependency dep="FGFR3" dep_index="4" gov="reduced" gov_index="15">nsubjpass</dependency>
+      <dependency dep="was" dep_index="5" gov="found" gov_index="7">auxpass</dependency>
+      <dependency dep="also" dep_index="6" gov="found" gov_index="7">advmod</dependency>
+      <dependency dep="found" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="8" gov="result" gov_index="9">aux</dependency>
+      <dependency dep="result" dep_index="9" gov="found" gov_index="7">xcomp</dependency>
+      <dependency dep="phosphorylation" dep_index="11" gov="result" gov_index="9">prep_in</dependency>
+      <dependency dep="phospholipase C-gamma" dep_index="13" gov="phosphorylation" gov_index="11">prep_of</dependency>
+      <dependency dep="reduced" dep_index="15" gov="found" gov_index="7">conj_but</dependency>
+      <dependency dep="phosphorylation" dep_index="16" gov="reduced" gov_index="15">dobj</dependency>
+      <dependency dep="c-Src" dep_index="18" gov="phosphorylation" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400013" relationship="false">4 9 11 13</relation>
+      <relation position="400018" relationship="false">4 15 16 18</relation>
+      <relation position="1300018" relationship="false">13 11 9 7 15 16 18</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@novel@feature@in@the@oligomerization@mode@of@the@BMP@receptors@allows@higher@variety@and@flexibility@in@their@responses@to@various@ligands@as@compared@with@the@TGF-beta@receptors@.@</sentence>
+   <tags>
+      <tag pos="27">TGF-beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">novel</taggedword>
+      <taggedword index="3" part-of-speech="NN">feature</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">oligomerization</taggedword>
+      <taggedword index="7" part-of-speech="NN">mode</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">BMP</taggedword>
+      <taggedword index="11" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">allows</taggedword>
+      <taggedword index="13" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="14" part-of-speech="NN">variety</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">flexibility</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="19" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="JJ">various</taggedword>
+      <taggedword index="22" part-of-speech="NNS">ligands</taggedword>
+      <taggedword index="23" part-of-speech="IN">as</taggedword>
+      <taggedword index="24" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="25" part-of-speech="IN">with</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="JJ">TGF-beta</taggedword>
+      <taggedword index="28" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="feature" gov_index="3">det</dependency>
+      <dependency dep="novel" dep_index="2" gov="feature" gov_index="3">nn</dependency>
+      <dependency dep="feature" dep_index="3" gov="allows" gov_index="12">nsubj</dependency>
+      <dependency dep="the" dep_index="5" gov="mode" gov_index="7">det</dependency>
+      <dependency dep="oligomerization" dep_index="6" gov="mode" gov_index="7">nn</dependency>
+      <dependency dep="mode" dep_index="7" gov="feature" gov_index="3">prep_in</dependency>
+      <dependency dep="the" dep_index="9" gov="receptors" gov_index="11">det</dependency>
+      <dependency dep="BMP" dep_index="10" gov="receptors" gov_index="11">nn</dependency>
+      <dependency dep="receptors" dep_index="11" gov="mode" gov_index="7">prep_of</dependency>
+      <dependency dep="allows" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="higher" dep_index="13" gov="variety" gov_index="14">amod</dependency>
+      <dependency dep="variety" dep_index="14" gov="allows" gov_index="12">dobj</dependency>
+      <dependency dep="flexibility" dep_index="16" gov="allows" gov_index="12">dobj</dependency>
+      <dependency dep="flexibility" dep_index="16" gov="variety" gov_index="14">conj_and</dependency>
+      <dependency dep="their" dep_index="18" gov="responses" gov_index="19">poss</dependency>
+      <dependency dep="responses" dep_index="19" gov="variety" gov_index="14">prep_in</dependency>
+      <dependency dep="various" dep_index="21" gov="ligands" gov_index="22">amod</dependency>
+      <dependency dep="ligands" dep_index="22" gov="responses" gov_index="19">prep_to</dependency>
+      <dependency dep="compared" dep_index="24" gov="allows" gov_index="12">prepc_as</dependency>
+      <dependency dep="with" dep_index="25" gov="compared" gov_index="24">pcomp</dependency>
+      <dependency dep="the" dep_index="26" gov="receptors" gov_index="28">det</dependency>
+      <dependency dep="TGF-beta" dep_index="27" gov="receptors" gov_index="28">amod</dependency>
+      <dependency dep="receptors" dep_index="28" gov="with" gov_index="25">pobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

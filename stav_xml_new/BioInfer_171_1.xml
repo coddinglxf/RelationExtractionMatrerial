@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Detection@of@loss@of@heterozygosity@at@RAD51@,@RAD52@,@RAD54@and@BRCA1@and@BRCA2@loci@in@breast@cancer@:@pathological@correlations@.@</sentence>
+   <tags>
+      <tag pos="15">BRCA2</tag>
+      <tag pos="9">RAD52</tag>
+      <tag pos="11">RAD54</tag>
+      <tag pos="7">RAD51</tag>
+      <tag pos="13">BRCA1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Detection</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">loss</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NN">heterozygosity</taggedword>
+      <taggedword index="6" part-of-speech="IN">at</taggedword>
+      <taggedword index="7" part-of-speech="NNP">RAD51</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">RAD52</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">RAD54</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NNP">BRCA1</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="CD">BRCA2</taggedword>
+      <taggedword index="16" part-of-speech="NNS">loci</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="NN">breast</taggedword>
+      <taggedword index="19" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="20" part-of-speech=":">:</taggedword>
+      <taggedword index="21" part-of-speech="JJ">pathological</taggedword>
+      <taggedword index="22" part-of-speech="NNS">correlations</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Detection" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="loss" dep_index="3" gov="Detection" gov_index="1">prep_of</dependency>
+      <dependency dep="heterozygosity" dep_index="5" gov="loss" gov_index="3">prep_of</dependency>
+      <dependency dep="RAD51" dep_index="7" gov="heterozygosity" gov_index="5">prep_at</dependency>
+      <dependency dep="RAD52" dep_index="9" gov="heterozygosity" gov_index="5">prep_at</dependency>
+      <dependency dep="RAD52" dep_index="9" gov="RAD51" gov_index="7">conj_and</dependency>
+      <dependency dep="RAD54" dep_index="11" gov="heterozygosity" gov_index="5">prep_at</dependency>
+      <dependency dep="RAD54" dep_index="11" gov="RAD51" gov_index="7">conj_and</dependency>
+      <dependency dep="BRCA1" dep_index="13" gov="heterozygosity" gov_index="5">prep_at</dependency>
+      <dependency dep="BRCA1" dep_index="13" gov="RAD51" gov_index="7">conj_and</dependency>
+      <dependency dep="BRCA2" dep_index="15" gov="loci" gov_index="16">num</dependency>
+      <dependency dep="loci" dep_index="16" gov="loss" gov_index="3">prep_of</dependency>
+      <dependency dep="loci" dep_index="16" gov="heterozygosity" gov_index="5">conj_and</dependency>
+      <dependency dep="breast" dep_index="18" gov="cancer" gov_index="19">nn</dependency>
+      <dependency dep="cancer" dep_index="19" gov="loci" gov_index="16">prep_in</dependency>
+      <dependency dep="pathological" dep_index="21" gov="correlations" gov_index="22">amod</dependency>
+      <dependency dep="correlations" dep_index="22" gov="Detection" gov_index="1">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900015" relationship="false">9 5 3 16 15</relation>
+      <relation position="1100015" relationship="false">11 5 3 16 15</relation>
+      <relation position="700015" relationship="false">7 5 3 16 15</relation>
+      <relation position="1300015" relationship="false">13 5 3 16 15</relation>
+      <relation position="900011" relationship="false">9 5 11</relation>
+      <relation position="700009" relationship="false">7 5 9</relation>
+      <relation position="900013" relationship="false">9 5 13</relation>
+      <relation position="700011" relationship="false">7 5 11</relation>
+      <relation position="1100013" relationship="false">11 5 13</relation>
+      <relation position="700013" relationship="false">7 5 13</relation>
+   </relations>
+   <pairs/>
+</root>

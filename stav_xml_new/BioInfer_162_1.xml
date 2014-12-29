@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Data@is@presented@to@suggest@that@the@G1@cyclin D1@and@the@cyclin-dependent kinase inhibitor@p27KIP1@may@be@involved@in@subversion@of@the@G1/S@traverse@by@signaling@pathways@activated@by@HER-2@function@.@</sentence>
+   <tags>
+      <tag pos="9">cyclin D1</tag>
+      <tag pos="13">p27KIP1</tag>
+      <tag pos="28">HER-2</tag>
+      <tag pos="12">cyclin-dependent kinase inhibitor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Data</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="VBN">presented</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="VB">suggest</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">G1</taggedword>
+      <taggedword index="9" part-of-speech="NN">cyclin D1</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">cyclin-dependent kinase inhibitor</taggedword>
+      <taggedword index="13" part-of-speech="NN">p27KIP1</taggedword>
+      <taggedword index="14" part-of-speech="MD">may</taggedword>
+      <taggedword index="15" part-of-speech="VB">be</taggedword>
+      <taggedword index="16" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="NN">subversion</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NNP">G1/S</taggedword>
+      <taggedword index="22" part-of-speech="NN">traverse</taggedword>
+      <taggedword index="23" part-of-speech="IN">by</taggedword>
+      <taggedword index="24" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="25" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="26" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="NN">HER-2</taggedword>
+      <taggedword index="29" part-of-speech="NN">function</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Data" dep_index="1" gov="presented" gov_index="3">nsubjpass</dependency>
+      <dependency dep="Data" dep_index="1" gov="suggest" gov_index="5">xsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="presented" gov_index="3">auxpass</dependency>
+      <dependency dep="presented" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="4" gov="suggest" gov_index="5">aux</dependency>
+      <dependency dep="suggest" dep_index="5" gov="presented" gov_index="3">xcomp</dependency>
+      <dependency dep="that" dep_index="6" gov="involved" gov_index="16">mark</dependency>
+      <dependency dep="the" dep_index="7" gov="cyclin D1" gov_index="9">det</dependency>
+      <dependency dep="G1" dep_index="8" gov="cyclin D1" gov_index="9">amod</dependency>
+      <dependency dep="cyclin D1" dep_index="9" gov="involved" gov_index="16">nsubjpass</dependency>
+      <dependency dep="the" dep_index="11" gov="p27KIP1" gov_index="13">det</dependency>
+      <dependency dep="cyclin-dependent kinase inhibitor" dep_index="12" gov="p27KIP1" gov_index="13">amod</dependency>
+      <dependency dep="p27KIP1" dep_index="13" gov="cyclin D1" gov_index="9">conj_and</dependency>
+      <dependency dep="p27KIP1" dep_index="13" gov="involved" gov_index="16">nsubjpass</dependency>
+      <dependency dep="may" dep_index="14" gov="involved" gov_index="16">aux</dependency>
+      <dependency dep="be" dep_index="15" gov="involved" gov_index="16">auxpass</dependency>
+      <dependency dep="involved" dep_index="16" gov="suggest" gov_index="5">ccomp</dependency>
+      <dependency dep="subversion" dep_index="18" gov="involved" gov_index="16">prep_in</dependency>
+      <dependency dep="the" dep_index="20" gov="traverse" gov_index="22">det</dependency>
+      <dependency dep="G1/S" dep_index="21" gov="traverse" gov_index="22">nn</dependency>
+      <dependency dep="traverse" dep_index="22" gov="subversion" gov_index="18">prep_of</dependency>
+      <dependency dep="signaling" dep_index="24" gov="involved" gov_index="16">agent</dependency>
+      <dependency dep="pathways" dep_index="25" gov="signaling" gov_index="24">dobj</dependency>
+      <dependency dep="activated" dep_index="26" gov="pathways" gov_index="25">partmod</dependency>
+      <dependency dep="HER-2" dep_index="28" gov="function" gov_index="29">nn</dependency>
+      <dependency dep="function" dep_index="29" gov="activated" gov_index="26">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="false">9 16 13</relation>
+      <relation position="900028" relationship="true">9 16 24 25 26 29 28</relation>
+      <relation position="900012" relationship="false">9 16 13 12</relation>
+      <relation position="1300028" relationship="true">13 16 24 25 26 29 28</relation>
+      <relation position="1200013" relationship="true"></relation>
+      <relation position="1200028" relationship="false">12 13 16 24 25 26 29 28</relation>
+   </relations>
+   <pairs>
+      <pair>900028</pair>
+      <pair>1300028</pair>
+      <pair>1200013</pair>
+   </pairs>
+</root>

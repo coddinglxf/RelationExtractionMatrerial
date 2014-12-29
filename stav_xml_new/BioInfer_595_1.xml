@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@common@denominator@is@impaired@beta-catenin@association@with@either@E-cadherin@(PaTuII)@or@alpha-catenin@(BxPc3@and@T3M4)@.@</sentence>
+   <tags>
+      <tag pos="6">beta-catenin</tag>
+      <tag pos="10">E-cadherin</tag>
+      <tag pos="13">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">common</taggedword>
+      <taggedword index="3" part-of-speech="NN">denominator</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="VBN">impaired</taggedword>
+      <taggedword index="6" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="7" part-of-speech="NN">association</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="DT">either</taggedword>
+      <taggedword index="10" part-of-speech="JJ">E-cadherin</taggedword>
+      <taggedword index="11" part-of-speech="NNP">(PaTuII)</taggedword>
+      <taggedword index="12" part-of-speech="CC">or</taggedword>
+      <taggedword index="13" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="14" part-of-speech="NNS">(BxPc3</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">T3M4)</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="denominator" gov_index="3">det</dependency>
+      <dependency dep="common" dep_index="2" gov="denominator" gov_index="3">amod</dependency>
+      <dependency dep="denominator" dep_index="3" gov="association" gov_index="7">nsubj</dependency>
+      <dependency dep="is" dep_index="4" gov="association" gov_index="7">cop</dependency>
+      <dependency dep="impaired" dep_index="5" gov="association" gov_index="7">amod</dependency>
+      <dependency dep="beta-catenin" dep_index="6" gov="association" gov_index="7">amod</dependency>
+      <dependency dep="association" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="either" dep_index="9" gov="(PaTuII)" gov_index="11">preconj</dependency>
+      <dependency dep="E-cadherin" dep_index="10" gov="(PaTuII)" gov_index="11">amod</dependency>
+      <dependency dep="(PaTuII)" dep_index="11" gov="association" gov_index="7">prep_with</dependency>
+      <dependency dep="alpha-catenin" dep_index="13" gov="(BxPc3" gov_index="14">amod</dependency>
+      <dependency dep="(BxPc3" dep_index="14" gov="association" gov_index="7">prep_with</dependency>
+      <dependency dep="(BxPc3" dep_index="14" gov="(PaTuII)" gov_index="11">conj_or</dependency>
+      <dependency dep="T3M4)" dep_index="16" gov="association" gov_index="7">prep_with</dependency>
+      <dependency dep="T3M4)" dep_index="16" gov="(PaTuII)" gov_index="11">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="true">6 7 11 10</relation>
+      <relation position="600013" relationship="true">6 7 14 13</relation>
+      <relation position="1000013" relationship="false">10 11 14 13</relation>
+   </relations>
+   <pairs>
+      <pair>600010</pair>
+      <pair>600013</pair>
+   </pairs>
+</root>

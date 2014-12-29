@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Activation@of@protein kinase C@decreases@phosphorylation@of@c-Jun@at@sites@that@negatively@regulate@its@DNA-binding@activity@.@</sentence>
+   <tags>
+      <tag pos="3">protein kinase C</tag>
+      <tag pos="7">c-Jun</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Activation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">protein kinase C</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">decreases</taggedword>
+      <taggedword index="5" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">c-Jun</taggedword>
+      <taggedword index="8" part-of-speech="IN">at</taggedword>
+      <taggedword index="9" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="10" part-of-speech="WDT">that</taggedword>
+      <taggedword index="11" part-of-speech="RB">negatively</taggedword>
+      <taggedword index="12" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="13" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="14" part-of-speech="JJ">DNA-binding</taggedword>
+      <taggedword index="15" part-of-speech="NN">activity</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Activation" dep_index="1" gov="decreases" gov_index="4">nsubj</dependency>
+      <dependency dep="protein kinase C" dep_index="3" gov="Activation" gov_index="1">prep_of</dependency>
+      <dependency dep="decreases" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="phosphorylation" dep_index="5" gov="decreases" gov_index="4">dobj</dependency>
+      <dependency dep="c-Jun" dep_index="7" gov="phosphorylation" gov_index="5">prep_of</dependency>
+      <dependency dep="sites" dep_index="9" gov="decreases" gov_index="4">prep_at</dependency>
+      <dependency dep="sites" dep_index="9" gov="regulate" gov_index="12">nsubj</dependency>
+      <dependency dep="negatively" dep_index="11" gov="regulate" gov_index="12">advmod</dependency>
+      <dependency dep="regulate" dep_index="12" gov="sites" gov_index="9">rcmod</dependency>
+      <dependency dep="its" dep_index="13" gov="activity" gov_index="15">poss</dependency>
+      <dependency dep="DNA-binding" dep_index="14" gov="activity" gov_index="15">amod</dependency>
+      <dependency dep="activity" dep_index="15" gov="regulate" gov_index="12">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300007" relationship="true">3 1 4 5 7</relation>
+   </relations>
+   <pairs>
+      <pair>300007</pair>
+   </pairs>
+</root>

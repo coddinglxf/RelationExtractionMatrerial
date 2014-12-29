@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@vitro@,@purified@G beta gamma@subunits@specifically@bound@to@a@GST@fusion@protein@encoding@amino@acids@1-330@of@Raf-1@(@Raf/330@).@</sentence>
+   <tags>
+      <tag pos="5">G beta gamma</tag>
+      <tag pos="19">Raf-1</tag>
+      <tag pos="21">Raf/330</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">purified</taggedword>
+      <taggedword index="5" part-of-speech="NNP">G beta gamma</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">subunits</taggedword>
+      <taggedword index="7" part-of-speech="RB">specifically</taggedword>
+      <taggedword index="8" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="NNP">GST</taggedword>
+      <taggedword index="12" part-of-speech="NN">fusion</taggedword>
+      <taggedword index="13" part-of-speech="NN">protein</taggedword>
+      <taggedword index="14" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="15" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="16" part-of-speech="NNS">acids</taggedword>
+      <taggedword index="17" part-of-speech="NN">1-330</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NNP">Raf-1</taggedword>
+      <taggedword index="20" part-of-speech="NNP">(</taggedword>
+      <taggedword index="21" part-of-speech="NNP">Raf/330</taggedword>
+      <taggedword index="22" part-of-speech="NNP">).</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="vitro" dep_index="2" gov="subunits" gov_index="6">prep_in</dependency>
+      <dependency dep="purified" dep_index="4" gov="G beta gamma" gov_index="5">nn</dependency>
+      <dependency dep="G beta gamma" dep_index="5" gov="subunits" gov_index="6">nsubj</dependency>
+      <dependency dep="subunits" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="specifically" dep_index="7" gov="bound" gov_index="8">advmod</dependency>
+      <dependency dep="bound" dep_index="8" gov="subunits" gov_index="6">acomp</dependency>
+      <dependency dep="a" dep_index="10" gov="protein" gov_index="13">det</dependency>
+      <dependency dep="GST" dep_index="11" gov="protein" gov_index="13">nn</dependency>
+      <dependency dep="fusion" dep_index="12" gov="protein" gov_index="13">nn</dependency>
+      <dependency dep="protein" dep_index="13" gov="bound" gov_index="8">prep_to</dependency>
+      <dependency dep="encoding" dep_index="14" gov="protein" gov_index="13">partmod</dependency>
+      <dependency dep="amino" dep_index="15" gov="1-330" gov_index="17">amod</dependency>
+      <dependency dep="acids" dep_index="16" gov="1-330" gov_index="17">nn</dependency>
+      <dependency dep="1-330" dep_index="17" gov="encoding" gov_index="14">dobj</dependency>
+      <dependency dep="Raf-1" dep_index="19" gov=")." gov_index="22">nn</dependency>
+      <dependency dep="(" dep_index="20" gov=")." gov_index="22">nn</dependency>
+      <dependency dep="Raf/330" dep_index="21" gov=")." gov_index="22">nn</dependency>
+      <dependency dep=")." dep_index="22" gov="1-330" gov_index="17">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500019" relationship="true">5 6 8 13 14 17 22 19</relation>
+      <relation position="500021" relationship="true">5 6 8 13 14 17 22 21</relation>
+      <relation position="1900021" relationship="false">19 22 21</relation>
+   </relations>
+   <pairs>
+      <pair>500021</pair>
+      <pair>500019</pair>
+   </pairs>
+</root>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>PI-PLC@treatment@of@fetal@guinea@pig@brain@cultures@substantially@reduced@the@amount@of@Abeta40@and@Abeta42@in@the@medium@but@had@no@effect@on@sAPPalpha@</sentence>
+   <tags>
+      <tag pos="1">PI-PLC</tag>
+      <tag pos="14">Abeta40</tag>
+      <tag pos="16">Abeta42</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">PI-PLC</taggedword>
+      <taggedword index="2" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">fetal</taggedword>
+      <taggedword index="5" part-of-speech="NN">guinea</taggedword>
+      <taggedword index="6" part-of-speech="NN">pig</taggedword>
+      <taggedword index="7" part-of-speech="NN">brain</taggedword>
+      <taggedword index="8" part-of-speech="NNS">cultures</taggedword>
+      <taggedword index="9" part-of-speech="RB">substantially</taggedword>
+      <taggedword index="10" part-of-speech="VBD">reduced</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">amount</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NNS">Abeta40</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNS">Abeta42</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">medium</taggedword>
+      <taggedword index="20" part-of-speech="CC">but</taggedword>
+      <taggedword index="21" part-of-speech="VBD">had</taggedword>
+      <taggedword index="22" part-of-speech="DT">no</taggedword>
+      <taggedword index="23" part-of-speech="NN">effect</taggedword>
+      <taggedword index="24" part-of-speech="IN">on</taggedword>
+      <taggedword index="25" part-of-speech="NN">sAPPalpha</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="PI-PLC" dep_index="1" gov="treatment" gov_index="2">amod</dependency>
+      <dependency dep="treatment" dep_index="2" gov="reduced" gov_index="10">nsubj</dependency>
+      <dependency dep="treatment" dep_index="2" gov="had" gov_index="21">nsubj</dependency>
+      <dependency dep="fetal" dep_index="4" gov="cultures" gov_index="8">amod</dependency>
+      <dependency dep="guinea" dep_index="5" gov="cultures" gov_index="8">nn</dependency>
+      <dependency dep="pig" dep_index="6" gov="cultures" gov_index="8">nn</dependency>
+      <dependency dep="brain" dep_index="7" gov="cultures" gov_index="8">nn</dependency>
+      <dependency dep="cultures" dep_index="8" gov="treatment" gov_index="2">prep_of</dependency>
+      <dependency dep="substantially" dep_index="9" gov="reduced" gov_index="10">advmod</dependency>
+      <dependency dep="reduced" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="amount" gov_index="12">det</dependency>
+      <dependency dep="amount" dep_index="12" gov="reduced" gov_index="10">dobj</dependency>
+      <dependency dep="Abeta40" dep_index="14" gov="amount" gov_index="12">prep_of</dependency>
+      <dependency dep="Abeta42" dep_index="16" gov="amount" gov_index="12">prep_of</dependency>
+      <dependency dep="Abeta42" dep_index="16" gov="Abeta40" gov_index="14">conj_and</dependency>
+      <dependency dep="the" dep_index="18" gov="medium" gov_index="19">det</dependency>
+      <dependency dep="medium" dep_index="19" gov="reduced" gov_index="10">prep_in</dependency>
+      <dependency dep="had" dep_index="21" gov="reduced" gov_index="10">conj_but</dependency>
+      <dependency dep="no" dep_index="22" gov="effect" gov_index="23">det</dependency>
+      <dependency dep="effect" dep_index="23" gov="had" gov_index="21">dobj</dependency>
+      <dependency dep="sAPPalpha" dep_index="25" gov="effect" gov_index="23">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100014" relationship="true">1 2 10 12 14</relation>
+      <relation position="100016" relationship="true">1 2 10 12 16</relation>
+      <relation position="1400016" relationship="false">14 12 16</relation>
+   </relations>
+   <pairs>
+      <pair>100014</pair>
+      <pair>100016</pair>
+   </pairs>
+</root>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@p120cas@gene@encodes@a@protein tyrosine kinase@substrate@that@associates@with@the@cell-cell@adhesion@protein@complex@containing@E-cadherin@and@its@cytoplasmic@cofactors@alpha-catenin@,@beta-catenin@,@and@plakoglobin@.@</sentence>
+   <tags>
+      <tag pos="24">beta-catenin</tag>
+      <tag pos="27">plakoglobin</tag>
+      <tag pos="22">alpha-catenin</tag>
+      <tag pos="17">E-cadherin</tag>
+      <tag pos="2">p120cas</tag>
+      <tag pos="6">protein tyrosine kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">p120cas</taggedword>
+      <taggedword index="3" part-of-speech="NN">gene</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">encodes</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">protein tyrosine kinase</taggedword>
+      <taggedword index="7" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">cell-cell</taggedword>
+      <taggedword index="13" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="14" part-of-speech="NN">protein</taggedword>
+      <taggedword index="15" part-of-speech="NN">complex</taggedword>
+      <taggedword index="16" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="17" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="20" part-of-speech="NN">cytoplasmic</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">cofactors</taggedword>
+      <taggedword index="22" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="gene" gov_index="3">det</dependency>
+      <dependency dep="p120cas" dep_index="2" gov="gene" gov_index="3">amod</dependency>
+      <dependency dep="gene" dep_index="3" gov="encodes" gov_index="4">nsubj</dependency>
+      <dependency dep="encodes" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="substrate" gov_index="7">det</dependency>
+      <dependency dep="protein tyrosine kinase" dep_index="6" gov="substrate" gov_index="7">amod</dependency>
+      <dependency dep="substrate" dep_index="7" gov="encodes" gov_index="4">dobj</dependency>
+      <dependency dep="that" dep_index="8" gov="cofactors" gov_index="21">mark</dependency>
+      <dependency dep="associates" dep_index="9" gov="cofactors" gov_index="21">nsubj</dependency>
+      <dependency dep="the" dep_index="11" gov="complex" gov_index="15">det</dependency>
+      <dependency dep="cell-cell" dep_index="12" gov="complex" gov_index="15">amod</dependency>
+      <dependency dep="adhesion" dep_index="13" gov="complex" gov_index="15">nn</dependency>
+      <dependency dep="protein" dep_index="14" gov="complex" gov_index="15">nn</dependency>
+      <dependency dep="complex" dep_index="15" gov="associates" gov_index="9">prep_with</dependency>
+      <dependency dep="containing" dep_index="16" gov="complex" gov_index="15">partmod</dependency>
+      <dependency dep="E-cadherin" dep_index="17" gov="containing" gov_index="16">dobj</dependency>
+      <dependency dep="its" dep_index="19" gov="cytoplasmic" gov_index="20">poss</dependency>
+      <dependency dep="cytoplasmic" dep_index="20" gov="containing" gov_index="16">dobj</dependency>
+      <dependency dep="cytoplasmic" dep_index="20" gov="E-cadherin" gov_index="17">conj_and</dependency>
+      <dependency dep="cofactors" dep_index="21" gov="encodes" gov_index="4">ccomp</dependency>
+      <dependency dep="alpha-catenin" dep_index="22" gov="cofactors" gov_index="21">dobj</dependency>
+      <dependency dep="beta-catenin" dep_index="24" gov="cofactors" gov_index="21">dobj</dependency>
+      <dependency dep="beta-catenin" dep_index="24" gov="alpha-catenin" gov_index="22">conj_and</dependency>
+      <dependency dep="plakoglobin" dep_index="27" gov="cofactors" gov_index="21">dobj</dependency>
+      <dependency dep="plakoglobin" dep_index="27" gov="alpha-catenin" gov_index="22">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2400027" relationship="true">24 21 27</relation>
+      <relation position="2200024" relationship="true">22 21 24</relation>
+      <relation position="1700024" relationship="true">17 16 15 9 21 24</relation>
+      <relation position="200024" relationship="false">2 3 4 21 24</relation>
+      <relation position="600024" relationship="false">6 7 4 21 24</relation>
+      <relation position="2200027" relationship="true">22 21 27</relation>
+      <relation position="1700027" relationship="true">17 16 15 9 21 27</relation>
+      <relation position="200027" relationship="false">2 3 4 21 27</relation>
+      <relation position="600027" relationship="false">6 7 4 21 27</relation>
+      <relation position="1700022" relationship="true">17 16 15 9 21 22</relation>
+      <relation position="200022" relationship="false">2 3 4 21 22</relation>
+      <relation position="600022" relationship="false">6 7 4 21 22</relation>
+      <relation position="200017" relationship="false">2 3 4 21 9 15 16 17</relation>
+      <relation position="600017" relationship="false">6 7 4 21 9 15 16 17</relation>
+      <relation position="200006" relationship="false">2 3 4 7 6</relation>
+   </relations>
+   <pairs>
+      <pair>1700027</pair>
+      <pair>1700024</pair>
+      <pair>1700022</pair>
+      <pair>2200024</pair>
+      <pair>2200027</pair>
+      <pair>2400027</pair>
+   </pairs>
+</root>

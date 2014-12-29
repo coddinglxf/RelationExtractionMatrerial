@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Activity@and@expression@of@the@three@UCP@'s@are@stimulated@by@several@neuromediators@and@hormones@such@as@noradrenaline@,@tri-iodothyronine@and@leptin@</sentence>
+   <tags>
+      <tag pos="7">UCP</tag>
+      <tag pos="22">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Activity</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NN">expression</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="CD">three</taggedword>
+      <taggedword index="7" part-of-speech="NNP">UCP</taggedword>
+      <taggedword index="8" part-of-speech="POS">'s</taggedword>
+      <taggedword index="9" part-of-speech="VBP">are</taggedword>
+      <taggedword index="10" part-of-speech="VBN">stimulated</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="JJ">several</taggedword>
+      <taggedword index="13" part-of-speech="NNS">neuromediators</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NNS">hormones</taggedword>
+      <taggedword index="16" part-of-speech="JJ">such</taggedword>
+      <taggedword index="17" part-of-speech="IN">as</taggedword>
+      <taggedword index="18" part-of-speech="NN">noradrenaline</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NN">tri-iodothyronine</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NN">leptin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Activity" dep_index="1" gov="stimulated" gov_index="10">nsubjpass</dependency>
+      <dependency dep="expression" dep_index="3" gov="Activity" gov_index="1">conj_and</dependency>
+      <dependency dep="expression" dep_index="3" gov="stimulated" gov_index="10">nsubjpass</dependency>
+      <dependency dep="the" dep_index="5" gov="three" gov_index="6">det</dependency>
+      <dependency dep="three" dep_index="6" gov="Activity" gov_index="1">prep_of</dependency>
+      <dependency dep="UCP" dep_index="7" gov="three" gov_index="6">poss</dependency>
+      <dependency dep="are" dep_index="9" gov="stimulated" gov_index="10">auxpass</dependency>
+      <dependency dep="stimulated" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="several" dep_index="12" gov="neuromediators" gov_index="13">amod</dependency>
+      <dependency dep="neuromediators" dep_index="13" gov="stimulated" gov_index="10">agent</dependency>
+      <dependency dep="hormones" dep_index="15" gov="stimulated" gov_index="10">agent</dependency>
+      <dependency dep="hormones" dep_index="15" gov="neuromediators" gov_index="13">conj_and</dependency>
+      <dependency dep="noradrenaline" dep_index="18" gov="neuromediators" gov_index="13">prep_such_as</dependency>
+      <dependency dep="tri-iodothyronine" dep_index="20" gov="neuromediators" gov_index="13">prep_such_as</dependency>
+      <dependency dep="tri-iodothyronine" dep_index="20" gov="noradrenaline" gov_index="18">conj_and</dependency>
+      <dependency dep="leptin" dep_index="22" gov="neuromediators" gov_index="13">prep_such_as</dependency>
+      <dependency dep="leptin" dep_index="22" gov="noradrenaline" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700022" relationship="true">7 6 1 10 13 22</relation>
+   </relations>
+   <pairs>
+      <pair>700022</pair>
+   </pairs>
+</root>

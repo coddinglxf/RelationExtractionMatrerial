@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Evidence@suggests@that@this@differential@recognition@bears@functional@significance@concerning@the@intricate@roles@of@profilin@and@inositol@lipids@in@modulating@actin@polymerization@and@PtdIns(4,5)P2@turnover@.@</sentence>
+   <tags>
+      <tag pos="21">actin</tag>
+      <tag pos="15">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Evidence</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech="NN">differential</taggedword>
+      <taggedword index="6" part-of-speech="NN">recognition</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">bears</taggedword>
+      <taggedword index="8" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="9" part-of-speech="NN">significance</taggedword>
+      <taggedword index="10" part-of-speech="VBG">concerning</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">intricate</taggedword>
+      <taggedword index="13" part-of-speech="NNS">roles</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">inositol</taggedword>
+      <taggedword index="18" part-of-speech="NNS">lipids</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="JJ">modulating</taggedword>
+      <taggedword index="21" part-of-speech="NN">actin</taggedword>
+      <taggedword index="22" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NNS">PtdIns(4,5)P2</taggedword>
+      <taggedword index="25" part-of-speech="NN">turnover</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Evidence" dep_index="1" gov="suggests" gov_index="2">nsubj</dependency>
+      <dependency dep="suggests" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="bears" gov_index="7">mark</dependency>
+      <dependency dep="this" dep_index="4" gov="recognition" gov_index="6">det</dependency>
+      <dependency dep="differential" dep_index="5" gov="recognition" gov_index="6">nn</dependency>
+      <dependency dep="recognition" dep_index="6" gov="bears" gov_index="7">nsubj</dependency>
+      <dependency dep="bears" dep_index="7" gov="suggests" gov_index="2">ccomp</dependency>
+      <dependency dep="functional" dep_index="8" gov="significance" gov_index="9">amod</dependency>
+      <dependency dep="significance" dep_index="9" gov="bears" gov_index="7">dobj</dependency>
+      <dependency dep="the" dep_index="11" gov="roles" gov_index="13">det</dependency>
+      <dependency dep="intricate" dep_index="12" gov="roles" gov_index="13">amod</dependency>
+      <dependency dep="roles" dep_index="13" gov="significance" gov_index="9">prep_concerning</dependency>
+      <dependency dep="profilin" dep_index="15" gov="lipids" gov_index="18">nn</dependency>
+      <dependency dep="inositol" dep_index="17" gov="profilin" gov_index="15">conj_and</dependency>
+      <dependency dep="inositol" dep_index="17" gov="lipids" gov_index="18">nn</dependency>
+      <dependency dep="lipids" dep_index="18" gov="roles" gov_index="13">prep_of</dependency>
+      <dependency dep="modulating" dep_index="20" gov="polymerization" gov_index="22">amod</dependency>
+      <dependency dep="actin" dep_index="21" gov="polymerization" gov_index="22">nn</dependency>
+      <dependency dep="polymerization" dep_index="22" gov="lipids" gov_index="18">prep_in</dependency>
+      <dependency dep="PtdIns(4,5)P2" dep_index="24" gov="turnover" gov_index="25">nn</dependency>
+      <dependency dep="turnover" dep_index="25" gov="lipids" gov_index="18">prep_in</dependency>
+      <dependency dep="turnover" dep_index="25" gov="polymerization" gov_index="22">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500021" relationship="true">15 18 22 21</relation>
+   </relations>
+   <pairs>
+      <pair>1500021</pair>
+   </pairs>
+</root>

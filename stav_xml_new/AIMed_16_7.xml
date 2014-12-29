@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@the@coexpression@resulted@in@an@effectively@spontaneous@dopamine@production@in@cotransduced@cells@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">coexpression</taggedword>
+      <taggedword index="5" part-of-speech="VBD">resulted</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="DT">an</taggedword>
+      <taggedword index="8" part-of-speech="JJ">effectively</taggedword>
+      <taggedword index="9" part-of-speech="JJ">spontaneous</taggedword>
+      <taggedword index="10" part-of-speech="NN">dopamine</taggedword>
+      <taggedword index="11" part-of-speech="NN">production</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="JJ">cotransduced</taggedword>
+      <taggedword index="14" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="resulted" gov_index="5">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="coexpression" gov_index="4">det</dependency>
+      <dependency dep="coexpression" dep_index="4" gov="resulted" gov_index="5">nsubj</dependency>
+      <dependency dep="resulted" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="7" gov="production" gov_index="11">det</dependency>
+      <dependency dep="effectively" dep_index="8" gov="production" gov_index="11">amod</dependency>
+      <dependency dep="spontaneous" dep_index="9" gov="production" gov_index="11">amod</dependency>
+      <dependency dep="dopamine" dep_index="10" gov="production" gov_index="11">nn</dependency>
+      <dependency dep="production" dep_index="11" gov="resulted" gov_index="5">prep_in</dependency>
+      <dependency dep="cotransduced" dep_index="13" gov="cells" gov_index="14">amod</dependency>
+      <dependency dep="cells" dep_index="14" gov="production" gov_index="11">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

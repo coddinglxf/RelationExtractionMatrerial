@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@ability@of@WIP@to@replace@verprolin@is@dependent@on@its@WH2@actin@binding@domain@and@a@putative@profilin@binding@domain@.@</sentence>
+   <tags>
+      <tag pos="19">profilin</tag>
+      <tag pos="13">actin</tag>
+      <tag pos="4">WIP</tag>
+      <tag pos="7">verprolin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">ability</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">WIP</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="VB">replace</taggedword>
+      <taggedword index="7" part-of-speech="NN">verprolin</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="JJ">dependent</taggedword>
+      <taggedword index="10" part-of-speech="IN">on</taggedword>
+      <taggedword index="11" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="12" part-of-speech="JJ">WH2</taggedword>
+      <taggedword index="13" part-of-speech="NN">actin</taggedword>
+      <taggedword index="14" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="15" part-of-speech="NN">domain</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="19" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="20" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="21" part-of-speech="NN">domain</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="ability" gov_index="2">det</dependency>
+      <dependency dep="ability" dep_index="2" gov="dependent" gov_index="9">nsubj</dependency>
+      <dependency dep="WIP" dep_index="4" gov="ability" gov_index="2">prep_of</dependency>
+      <dependency dep="to" dep_index="5" gov="replace" gov_index="6">aux</dependency>
+      <dependency dep="replace" dep_index="6" gov="ability" gov_index="2">infmod</dependency>
+      <dependency dep="verprolin" dep_index="7" gov="replace" gov_index="6">dobj</dependency>
+      <dependency dep="is" dep_index="8" gov="dependent" gov_index="9">cop</dependency>
+      <dependency dep="dependent" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="its" dep_index="11" gov="domain" gov_index="15">poss</dependency>
+      <dependency dep="WH2" dep_index="12" gov="domain" gov_index="15">amod</dependency>
+      <dependency dep="actin" dep_index="13" gov="domain" gov_index="15">nn</dependency>
+      <dependency dep="binding" dep_index="14" gov="domain" gov_index="15">amod</dependency>
+      <dependency dep="domain" dep_index="15" gov="dependent" gov_index="9">prep_on</dependency>
+      <dependency dep="a" dep_index="17" gov="domain" gov_index="21">det</dependency>
+      <dependency dep="putative" dep_index="18" gov="domain" gov_index="21">amod</dependency>
+      <dependency dep="profilin" dep_index="19" gov="domain" gov_index="21">nn</dependency>
+      <dependency dep="binding" dep_index="20" gov="domain" gov_index="21">amod</dependency>
+      <dependency dep="domain" dep_index="21" gov="dependent" gov_index="9">prep_on</dependency>
+      <dependency dep="domain" dep_index="21" gov="domain" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300019" relationship="false">13 15 9 21 19</relation>
+      <relation position="400019" relationship="true">4 2 9 21 19</relation>
+      <relation position="700019" relationship="false">7 6 2 9 21 19</relation>
+      <relation position="400013" relationship="true">4 2 9 15 13</relation>
+      <relation position="700013" relationship="false">7 6 2 9 15 13</relation>
+      <relation position="400007" relationship="true">4 2 6 7</relation>
+   </relations>
+   <pairs>
+      <pair>400013</pair>
+      <pair>400019</pair>
+      <pair>400007</pair>
+   </pairs>
+</root>

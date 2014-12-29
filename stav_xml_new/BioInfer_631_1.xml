@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interaction@of@bovine@respiratory@syncytial@virus@(BRSV)@phosphoprotein@(@P@)@with@nucleocapsid@(@N@)@and@large polymerase@(@L@)@proteins@was@investigated@using@an@intracellular@BRSV-@CAT@minigenome@replication@system@.@</sentence>
+   <tags>
+      <tag pos="19">large polymerase</tag>
+      <tag pos="16">N</tag>
+      <tag pos="14">nucleocapsid</tag>
+      <tag pos="9">phosphoprotein</tag>
+      <tag pos="11">P</tag>
+      <tag pos="30">CAT</tag>
+      <tag pos="21">L</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">bovine</taggedword>
+      <taggedword index="5" part-of-speech="JJ">respiratory</taggedword>
+      <taggedword index="6" part-of-speech="NN">syncytial</taggedword>
+      <taggedword index="7" part-of-speech="NN">virus</taggedword>
+      <taggedword index="8" part-of-speech="NNS">(BRSV)</taggedword>
+      <taggedword index="9" part-of-speech="NN">phosphoprotein</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">P</taggedword>
+      <taggedword index="12" part-of-speech="NNP">)</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="JJ">nucleocapsid</taggedword>
+      <taggedword index="15" part-of-speech="NNP">(</taggedword>
+      <taggedword index="16" part-of-speech="NNP">N</taggedword>
+      <taggedword index="17" part-of-speech="NNP">)</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NNP">large polymerase</taggedword>
+      <taggedword index="20" part-of-speech="NNP">(</taggedword>
+      <taggedword index="21" part-of-speech="NNP">L</taggedword>
+      <taggedword index="22" part-of-speech="NNP">)</taggedword>
+      <taggedword index="23" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="24" part-of-speech="VBD">was</taggedword>
+      <taggedword index="25" part-of-speech="VBN">investigated</taggedword>
+      <taggedword index="26" part-of-speech="VBG">using</taggedword>
+      <taggedword index="27" part-of-speech="DT">an</taggedword>
+      <taggedword index="28" part-of-speech="JJ">intracellular</taggedword>
+      <taggedword index="29" part-of-speech="NNP">BRSV-</taggedword>
+      <taggedword index="30" part-of-speech="NNP">CAT</taggedword>
+      <taggedword index="31" part-of-speech="NN">minigenome</taggedword>
+      <taggedword index="32" part-of-speech="NN">replication</taggedword>
+      <taggedword index="33" part-of-speech="NN">system</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interaction" gov_index="2">det</dependency>
+      <dependency dep="interaction" dep_index="2" gov="investigated" gov_index="25">nsubjpass</dependency>
+      <dependency dep="bovine" dep_index="4" gov=")" gov_index="12">amod</dependency>
+      <dependency dep="respiratory" dep_index="5" gov=")" gov_index="12">amod</dependency>
+      <dependency dep="syncytial" dep_index="6" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="virus" dep_index="7" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="(BRSV)" dep_index="8" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="phosphoprotein" dep_index="9" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="P" dep_index="11" gov=")" gov_index="12">nn</dependency>
+      <dependency dep=")" dep_index="12" gov="interaction" gov_index="2">prep_of</dependency>
+      <dependency dep="nucleocapsid" dep_index="14" gov=")" gov_index="17">amod</dependency>
+      <dependency dep="(" dep_index="15" gov=")" gov_index="17">nn</dependency>
+      <dependency dep="N" dep_index="16" gov=")" gov_index="17">nn</dependency>
+      <dependency dep=")" dep_index="17" gov=")" gov_index="12">prep_with</dependency>
+      <dependency dep="large polymerase" dep_index="19" gov="proteins" gov_index="23">nn</dependency>
+      <dependency dep="(" dep_index="20" gov="proteins" gov_index="23">nn</dependency>
+      <dependency dep="L" dep_index="21" gov="proteins" gov_index="23">nn</dependency>
+      <dependency dep=")" dep_index="22" gov="proteins" gov_index="23">nn</dependency>
+      <dependency dep="proteins" dep_index="23" gov=")" gov_index="12">prep_with</dependency>
+      <dependency dep="proteins" dep_index="23" gov=")" gov_index="17">conj_and</dependency>
+      <dependency dep="was" dep_index="24" gov="investigated" gov_index="25">auxpass</dependency>
+      <dependency dep="investigated" dep_index="25" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="26" gov="investigated" gov_index="25">xcomp</dependency>
+      <dependency dep="an" dep_index="27" gov="system" gov_index="33">det</dependency>
+      <dependency dep="intracellular" dep_index="28" gov="system" gov_index="33">amod</dependency>
+      <dependency dep="BRSV-" dep_index="29" gov="system" gov_index="33">nn</dependency>
+      <dependency dep="CAT" dep_index="30" gov="system" gov_index="33">nn</dependency>
+      <dependency dep="minigenome" dep_index="31" gov="system" gov_index="33">nn</dependency>
+      <dependency dep="replication" dep_index="32" gov="system" gov_index="33">nn</dependency>
+      <dependency dep="system" dep_index="33" gov="using" gov_index="26">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600019" relationship="false">16 17 12 23 19</relation>
+      <relation position="1400019" relationship="false">14 17 12 23 19</relation>
+      <relation position="900019" relationship="true">9 12 23 19</relation>
+      <relation position="1100019" relationship="true">11 12 23 19</relation>
+      <relation position="1900030" relationship="false">19 23 12 2 25 26 33 30</relation>
+      <relation position="1900021" relationship="false">19 23 21</relation>
+      <relation position="1400016" relationship="false">14 17 16</relation>
+      <relation position="900016" relationship="true">9 12 17 16</relation>
+      <relation position="1100016" relationship="true">11 12 17 16</relation>
+      <relation position="1600030" relationship="false">16 17 12 2 25 26 33 30</relation>
+      <relation position="1600021" relationship="false">16 17 12 23 21</relation>
+      <relation position="900014" relationship="true">9 12 17 14</relation>
+      <relation position="1100014" relationship="true">11 12 17 14</relation>
+      <relation position="1400030" relationship="false">14 17 12 2 25 26 33 30</relation>
+      <relation position="1400021" relationship="false">14 17 12 23 21</relation>
+      <relation position="900011" relationship="false">9 12 11</relation>
+      <relation position="900030" relationship="false">9 12 2 25 26 33 30</relation>
+      <relation position="900021" relationship="true">9 12 23 21</relation>
+      <relation position="1100030" relationship="false">11 12 2 25 26 33 30</relation>
+      <relation position="1100021" relationship="true">11 12 23 21</relation>
+      <relation position="2100030" relationship="false">21 23 12 2 25 26 33 30</relation>
+   </relations>
+   <pairs>
+      <pair>1100016</pair>
+      <pair>1100019</pair>
+      <pair>1100021</pair>
+      <pair>900014</pair>
+      <pair>900019</pair>
+      <pair>900016</pair>
+      <pair>900021</pair>
+      <pair>1100014</pair>
+   </pairs>
+</root>

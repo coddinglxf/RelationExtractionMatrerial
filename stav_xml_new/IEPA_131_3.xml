@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@indicate@that@PKC@is@upstream@of@the@phosphorylation@,@a@motion@which@is@supported@by@the@fact@that@the@AVP@-stimulated@phosphorylation@was@downregulated@by@phorbol@esters@</sentence>
+   <tags>
+      <tag pos="5">PKC</tag>
+      <tag pos="22">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="RB">upstream</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="NN">motion</taggedword>
+      <taggedword index="14" part-of-speech="WDT">which</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="16" part-of-speech="VBN">supported</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">fact</taggedword>
+      <taggedword index="20" part-of-speech="IN">that</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="23" part-of-speech="JJ">-stimulated</taggedword>
+      <taggedword index="24" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="25" part-of-speech="VBD">was</taggedword>
+      <taggedword index="26" part-of-speech="VBN">downregulated</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="JJ">phorbol</taggedword>
+      <taggedword index="29" part-of-speech="NNS">esters</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="is" gov_index="6">mark</dependency>
+      <dependency dep="PKC" dep_index="5" gov="is" gov_index="6">nsubj</dependency>
+      <dependency dep="is" dep_index="6" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="upstream" dep_index="7" gov="is" gov_index="6">advmod</dependency>
+      <dependency dep="the" dep_index="9" gov="phosphorylation" gov_index="10">det</dependency>
+      <dependency dep="phosphorylation" dep_index="10" gov="upstream" gov_index="7">prep_of</dependency>
+      <dependency dep="a" dep_index="12" gov="motion" gov_index="13">det</dependency>
+      <dependency dep="motion" dep_index="13" gov="phosphorylation" gov_index="10">appos</dependency>
+      <dependency dep="motion" dep_index="13" gov="supported" gov_index="16">nsubjpass</dependency>
+      <dependency dep="is" dep_index="15" gov="supported" gov_index="16">auxpass</dependency>
+      <dependency dep="supported" dep_index="16" gov="motion" gov_index="13">rcmod</dependency>
+      <dependency dep="the" dep_index="18" gov="fact" gov_index="19">det</dependency>
+      <dependency dep="fact" dep_index="19" gov="supported" gov_index="16">agent</dependency>
+      <dependency dep="that" dep_index="20" gov="downregulated" gov_index="26">mark</dependency>
+      <dependency dep="the" dep_index="21" gov="phosphorylation" gov_index="24">det</dependency>
+      <dependency dep="AVP" dep_index="22" gov="phosphorylation" gov_index="24">nn</dependency>
+      <dependency dep="-stimulated" dep_index="23" gov="phosphorylation" gov_index="24">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="24" gov="downregulated" gov_index="26">nsubjpass</dependency>
+      <dependency dep="was" dep_index="25" gov="downregulated" gov_index="26">auxpass</dependency>
+      <dependency dep="downregulated" dep_index="26" gov="supported" gov_index="16">ccomp</dependency>
+      <dependency dep="phorbol" dep_index="28" gov="esters" gov_index="29">amod</dependency>
+      <dependency dep="esters" dep_index="29" gov="downregulated" gov_index="26">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500022" relationship="true">5 6 7 10 13 16 26 24 22</relation>
+   </relations>
+   <pairs>
+      <pair>500022</pair>
+   </pairs>
+</root>

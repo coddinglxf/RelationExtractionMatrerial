@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@OT@was@proposed@to@be@the@self@antigen@of@the@neurohypophysial@family@,@and@IGF-2@the@self@antigen@precursor@of@the@insulin@family@</sentence>
+   <tags>
+      <tag pos="3">OT</tag>
+      <tag pos="24">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="VBN">proposed</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">be</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">self</taggedword>
+      <taggedword index="10" part-of-speech="NN">antigen</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">neurohypophysial</taggedword>
+      <taggedword index="14" part-of-speech="NN">family</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="VB">IGF-2</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">self</taggedword>
+      <taggedword index="20" part-of-speech="NN">antigen</taggedword>
+      <taggedword index="21" part-of-speech="NN">precursor</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="25" part-of-speech="NN">family</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="proposed" gov_index="5">advmod</dependency>
+      <dependency dep="OT" dep_index="3" gov="proposed" gov_index="5">nsubjpass</dependency>
+      <dependency dep="OT" dep_index="3" gov="antigen" gov_index="10">xsubj</dependency>
+      <dependency dep="was" dep_index="4" gov="proposed" gov_index="5">auxpass</dependency>
+      <dependency dep="proposed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="6" gov="antigen" gov_index="10">aux</dependency>
+      <dependency dep="be" dep_index="7" gov="antigen" gov_index="10">cop</dependency>
+      <dependency dep="the" dep_index="8" gov="antigen" gov_index="10">det</dependency>
+      <dependency dep="self" dep_index="9" gov="antigen" gov_index="10">nn</dependency>
+      <dependency dep="antigen" dep_index="10" gov="proposed" gov_index="5">xcomp</dependency>
+      <dependency dep="the" dep_index="12" gov="family" gov_index="14">det</dependency>
+      <dependency dep="neurohypophysial" dep_index="13" gov="family" gov_index="14">amod</dependency>
+      <dependency dep="family" dep_index="14" gov="antigen" gov_index="10">prep_of</dependency>
+      <dependency dep="IGF-2" dep_index="17" gov="proposed" gov_index="5">xcomp</dependency>
+      <dependency dep="IGF-2" dep_index="17" gov="antigen" gov_index="10">conj_and</dependency>
+      <dependency dep="the" dep_index="18" gov="precursor" gov_index="21">det</dependency>
+      <dependency dep="self" dep_index="19" gov="precursor" gov_index="21">nn</dependency>
+      <dependency dep="antigen" dep_index="20" gov="precursor" gov_index="21">nn</dependency>
+      <dependency dep="precursor" dep_index="21" gov="IGF-2" gov_index="17">dobj</dependency>
+      <dependency dep="the" dep_index="23" gov="family" gov_index="25">det</dependency>
+      <dependency dep="insulin" dep_index="24" gov="family" gov_index="25">nn</dependency>
+      <dependency dep="family" dep_index="25" gov="precursor" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300024" relationship="false">3 5 17 21 25 24</relation>
+   </relations>
+   <pairs/>
+</root>

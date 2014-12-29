@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Reduced@expression@of@E-cadherin@and@alpha-catenin@,@as@well@as@mutations@in@the@E-cadherin@gene@,@have@been@found@in@various@carcinomas@,@whereas@mutations@in@the@alpha-@and@beta-catenin@genes@have@been@described@only@in@carcinoma@cell@lines@.@</sentence>
+   <tags>
+      <tag pos="28">alpha-</tag>
+      <tag pos="6">alpha-catenin</tag>
+      <tag pos="30">beta-catenin</tag>
+      <tag pos="4">E-cadherin</tag>
+      <tag pos="14">E-cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Reduced</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="RB">as</taggedword>
+      <taggedword index="9" part-of-speech="RB">well</taggedword>
+      <taggedword index="10" part-of-speech="IN">as</taggedword>
+      <taggedword index="11" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">E-cadherin</taggedword>
+      <taggedword index="15" part-of-speech="NN">gene</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="VBP">have</taggedword>
+      <taggedword index="18" part-of-speech="VBN">been</taggedword>
+      <taggedword index="19" part-of-speech="VBN">found</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="JJ">various</taggedword>
+      <taggedword index="22" part-of-speech="NNS">carcinomas</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="25" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">alpha-</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="31" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="32" part-of-speech="VBP">have</taggedword>
+      <taggedword index="33" part-of-speech="VBN">been</taggedword>
+      <taggedword index="34" part-of-speech="VBN">described</taggedword>
+      <taggedword index="35" part-of-speech="RB">only</taggedword>
+      <taggedword index="36" part-of-speech="IN">in</taggedword>
+      <taggedword index="37" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="38" part-of-speech="NN">cell</taggedword>
+      <taggedword index="39" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Reduced" dep_index="1" gov="expression" gov_index="2">amod</dependency>
+      <dependency dep="expression" dep_index="2" gov="found" gov_index="19">nsubjpass</dependency>
+      <dependency dep="E-cadherin" dep_index="4" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="6" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="6" gov="E-cadherin" gov_index="4">conj_and</dependency>
+      <dependency dep="mutations" dep_index="11" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="mutations" dep_index="11" gov="E-cadherin" gov_index="4">conj_and</dependency>
+      <dependency dep="the" dep_index="13" gov="gene" gov_index="15">det</dependency>
+      <dependency dep="E-cadherin" dep_index="14" gov="gene" gov_index="15">amod</dependency>
+      <dependency dep="gene" dep_index="15" gov="mutations" gov_index="11">prep_in</dependency>
+      <dependency dep="have" dep_index="17" gov="found" gov_index="19">aux</dependency>
+      <dependency dep="been" dep_index="18" gov="found" gov_index="19">auxpass</dependency>
+      <dependency dep="found" dep_index="19" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="various" dep_index="21" gov="carcinomas" gov_index="22">amod</dependency>
+      <dependency dep="carcinomas" dep_index="22" gov="found" gov_index="19">prep_in</dependency>
+      <dependency dep="whereas" dep_index="24" gov="described" gov_index="34">mark</dependency>
+      <dependency dep="mutations" dep_index="25" gov="described" gov_index="34">nsubjpass</dependency>
+      <dependency dep="the" dep_index="27" gov="alpha-" gov_index="28">det</dependency>
+      <dependency dep="alpha-" dep_index="28" gov="mutations" gov_index="25">prep_in</dependency>
+      <dependency dep="beta-catenin" dep_index="30" gov="genes" gov_index="31">amod</dependency>
+      <dependency dep="genes" dep_index="31" gov="mutations" gov_index="25">prep_in</dependency>
+      <dependency dep="genes" dep_index="31" gov="alpha-" gov_index="28">conj_and</dependency>
+      <dependency dep="have" dep_index="32" gov="described" gov_index="34">aux</dependency>
+      <dependency dep="been" dep_index="33" gov="described" gov_index="34">auxpass</dependency>
+      <dependency dep="described" dep_index="34" gov="found" gov_index="19">advcl</dependency>
+      <dependency dep="only" dep_index="35" gov="described" gov_index="34">advmod</dependency>
+      <dependency dep="carcinoma" dep_index="37" gov="lines" gov_index="39">nn</dependency>
+      <dependency dep="cell" dep_index="38" gov="lines" gov_index="39">nn</dependency>
+      <dependency dep="lines" dep_index="39" gov="described" gov_index="34">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600028" relationship="false">6 2 19 34 25 28</relation>
+      <relation position="2800030" relationship="false">28 25 31 30</relation>
+      <relation position="400028" relationship="false">4 2 19 34 25 28</relation>
+      <relation position="1400028" relationship="false">14 15 11 2 19 34 25 28</relation>
+      <relation position="600030" relationship="false">6 2 19 34 25 31 30</relation>
+      <relation position="400006" relationship="false">4 2 6</relation>
+      <relation position="600014" relationship="false">6 2 11 15 14</relation>
+      <relation position="400030" relationship="false">4 2 19 34 25 31 30</relation>
+      <relation position="1400030" relationship="false">14 15 11 2 19 34 25 31 30</relation>
+      <relation position="400014" relationship="false">4 2 11 15 14</relation>
+   </relations>
+   <pairs/>
+</root>

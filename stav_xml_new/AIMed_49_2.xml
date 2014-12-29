@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Fibroblast@growth@factors@(FGFs)@mediate@a@multitude@of@physiological@and@pathological@processes@by@activating@a@family@of@tyrosine@kinase@receptors@(FGFRs)@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Fibroblast</taggedword>
+      <taggedword index="2" part-of-speech="NN">growth</taggedword>
+      <taggedword index="3" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">(FGFs)</taggedword>
+      <taggedword index="5" part-of-speech="VB">mediate</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NN">multitude</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">physiological</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="JJ">pathological</taggedword>
+      <taggedword index="12" part-of-speech="NNS">processes</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="VBG">activating</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="NN">family</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="19" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="20" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="21" part-of-speech="NNS">(FGFRs)</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Fibroblast" dep_index="1" gov="factors" gov_index="3">amod</dependency>
+      <dependency dep="growth" dep_index="2" gov="factors" gov_index="3">nn</dependency>
+      <dependency dep="factors" dep_index="3" gov="(FGFs)" gov_index="4">nsubj</dependency>
+      <dependency dep="(FGFs)" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="mediate" dep_index="5" gov="(FGFs)" gov_index="4">xcomp</dependency>
+      <dependency dep="a" dep_index="6" gov="multitude" gov_index="7">det</dependency>
+      <dependency dep="multitude" dep_index="7" gov="mediate" gov_index="5">dobj</dependency>
+      <dependency dep="physiological" dep_index="9" gov="processes" gov_index="12">amod</dependency>
+      <dependency dep="pathological" dep_index="11" gov="physiological" gov_index="9">conj_and</dependency>
+      <dependency dep="pathological" dep_index="11" gov="processes" gov_index="12">amod</dependency>
+      <dependency dep="processes" dep_index="12" gov="multitude" gov_index="7">prep_of</dependency>
+      <dependency dep="activating" dep_index="14" gov="mediate" gov_index="5">prepc_by</dependency>
+      <dependency dep="a" dep_index="15" gov="family" gov_index="16">det</dependency>
+      <dependency dep="family" dep_index="16" gov="activating" gov_index="14">dobj</dependency>
+      <dependency dep="tyrosine" dep_index="18" gov="(FGFRs)" gov_index="21">amod</dependency>
+      <dependency dep="kinase" dep_index="19" gov="(FGFRs)" gov_index="21">amod</dependency>
+      <dependency dep="receptors" dep_index="20" gov="(FGFRs)" gov_index="21">nn</dependency>
+      <dependency dep="(FGFRs)" dep_index="21" gov="family" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

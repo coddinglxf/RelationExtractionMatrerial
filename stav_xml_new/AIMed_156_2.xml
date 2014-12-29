@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@pleiotropic@biological@activities@of@interleukin-1@(@IL-1@)@are@mediated@by@its@type@I@receptor@(@IL-1RI@).@</sentence>
+   <tags>
+      <tag pos="6">interleukin-1</tag>
+      <tag pos="8">IL-1</tag>
+      <tag pos="18">IL-1RI</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">pleiotropic</taggedword>
+      <taggedword index="3" part-of-speech="JJ">biological</taggedword>
+      <taggedword index="4" part-of-speech="NNS">activities</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="JJ">interleukin-1</taggedword>
+      <taggedword index="7" part-of-speech="NNP">(</taggedword>
+      <taggedword index="8" part-of-speech="NNP">IL-1</taggedword>
+      <taggedword index="9" part-of-speech="NNP">)</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="14" part-of-speech="NN">type</taggedword>
+      <taggedword index="15" part-of-speech="NN">I</taggedword>
+      <taggedword index="16" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="17" part-of-speech="NNP">(</taggedword>
+      <taggedword index="18" part-of-speech="NNP">IL-1RI</taggedword>
+      <taggedword index="19" part-of-speech="NNP">).</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="activities" gov_index="4">det</dependency>
+      <dependency dep="pleiotropic" dep_index="2" gov="activities" gov_index="4">amod</dependency>
+      <dependency dep="biological" dep_index="3" gov="activities" gov_index="4">amod</dependency>
+      <dependency dep="activities" dep_index="4" gov="mediated" gov_index="11">nsubjpass</dependency>
+      <dependency dep="interleukin-1" dep_index="6" gov=")" gov_index="9">amod</dependency>
+      <dependency dep="(" dep_index="7" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="IL-1" dep_index="8" gov=")" gov_index="9">nn</dependency>
+      <dependency dep=")" dep_index="9" gov="activities" gov_index="4">prep_of</dependency>
+      <dependency dep="are" dep_index="10" gov="mediated" gov_index="11">auxpass</dependency>
+      <dependency dep="mediated" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="its" dep_index="13" gov=")." gov_index="19">poss</dependency>
+      <dependency dep="type" dep_index="14" gov=")." gov_index="19">nn</dependency>
+      <dependency dep="I" dep_index="15" gov=")." gov_index="19">nn</dependency>
+      <dependency dep="receptor" dep_index="16" gov=")." gov_index="19">nn</dependency>
+      <dependency dep="(" dep_index="17" gov=")." gov_index="19">nn</dependency>
+      <dependency dep="IL-1RI" dep_index="18" gov=")." gov_index="19">nn</dependency>
+      <dependency dep=")." dep_index="19" gov="mediated" gov_index="11">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="false">6 9 8</relation>
+      <relation position="600018" relationship="true">6 9 4 11 19 18</relation>
+      <relation position="800018" relationship="true">8 9 4 11 19 18</relation>
+   </relations>
+   <pairs>
+      <pair>800018</pair>
+      <pair>600018</pair>
+   </pairs>
+</root>

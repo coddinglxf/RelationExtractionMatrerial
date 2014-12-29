@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@regard@,@the@Bcl-2@and@IAP@protein@families@have@evolved@as@highly@conserved@regulators@of@cell@death@.@</sentence>
+   <tags>
+      <tag pos="6">Bcl-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">regard</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">Bcl-2</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NNP">IAP</taggedword>
+      <taggedword index="9" part-of-speech="NN">protein</taggedword>
+      <taggedword index="10" part-of-speech="NNS">families</taggedword>
+      <taggedword index="11" part-of-speech="VBP">have</taggedword>
+      <taggedword index="12" part-of-speech="VBN">evolved</taggedword>
+      <taggedword index="13" part-of-speech="IN">as</taggedword>
+      <taggedword index="14" part-of-speech="RB">highly</taggedword>
+      <taggedword index="15" part-of-speech="JJ">conserved</taggedword>
+      <taggedword index="16" part-of-speech="NNS">regulators</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">cell</taggedword>
+      <taggedword index="19" part-of-speech="NN">death</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="regard" gov_index="3">det</dependency>
+      <dependency dep="regard" dep_index="3" gov="evolved" gov_index="12">prep_in</dependency>
+      <dependency dep="the" dep_index="5" gov="Bcl-2" gov_index="6">det</dependency>
+      <dependency dep="Bcl-2" dep_index="6" gov="evolved" gov_index="12">nsubj</dependency>
+      <dependency dep="IAP" dep_index="8" gov="families" gov_index="10">nn</dependency>
+      <dependency dep="protein" dep_index="9" gov="families" gov_index="10">nn</dependency>
+      <dependency dep="families" dep_index="10" gov="Bcl-2" gov_index="6">conj_and</dependency>
+      <dependency dep="families" dep_index="10" gov="evolved" gov_index="12">nsubj</dependency>
+      <dependency dep="have" dep_index="11" gov="evolved" gov_index="12">aux</dependency>
+      <dependency dep="evolved" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="highly" dep_index="14" gov="conserved" gov_index="15">advmod</dependency>
+      <dependency dep="conserved" dep_index="15" gov="regulators" gov_index="16">amod</dependency>
+      <dependency dep="regulators" dep_index="16" gov="evolved" gov_index="12">prep_as</dependency>
+      <dependency dep="cell" dep_index="18" gov="death" gov_index="19">nn</dependency>
+      <dependency dep="death" dep_index="19" gov="regulators" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

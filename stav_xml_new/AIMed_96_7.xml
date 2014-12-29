@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Greater@than@80%@of@the@cadherin@in@the@cell@is@cleared@from@Triton@X-100@lysates@of@MvLu@cells@after@immunoprecipitation@with@antibodies@to@PTPmu@;@however@,@the@complex@is@dissociated@when@lysates@are@prepared@in@more@stringent@,@SDS-containing@RIPA@buffer@.@</sentence>
+   <tags>
+      <tag pos="24">PTPmu</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Greater</taggedword>
+      <taggedword index="2" part-of-speech="IN">than</taggedword>
+      <taggedword index="3" part-of-speech="CD">80%</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">cadherin</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">cell</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">cleared</taggedword>
+      <taggedword index="12" part-of-speech="IN">from</taggedword>
+      <taggedword index="13" part-of-speech="NNP">Triton</taggedword>
+      <taggedword index="14" part-of-speech="NNP">X-100</taggedword>
+      <taggedword index="15" part-of-speech="NNS">lysates</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NNP">MvLu</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="19" part-of-speech="IN">after</taggedword>
+      <taggedword index="20" part-of-speech="NN">immunoprecipitation</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="NNP">PTPmu</taggedword>
+      <taggedword index="25" part-of-speech=":">;</taggedword>
+      <taggedword index="26" part-of-speech="RB">however</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="NN">complex</taggedword>
+      <taggedword index="30" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="31" part-of-speech="VBN">dissociated</taggedword>
+      <taggedword index="32" part-of-speech="WRB">when</taggedword>
+      <taggedword index="33" part-of-speech="NNS">lysates</taggedword>
+      <taggedword index="34" part-of-speech="VBP">are</taggedword>
+      <taggedword index="35" part-of-speech="VBN">prepared</taggedword>
+      <taggedword index="36" part-of-speech="RP">in</taggedword>
+      <taggedword index="37" part-of-speech="RBR">more</taggedword>
+      <taggedword index="38" part-of-speech="JJ">stringent</taggedword>
+      <taggedword index="39" part-of-speech=",">,</taggedword>
+      <taggedword index="40" part-of-speech="NNP">SDS-containing</taggedword>
+      <taggedword index="41" part-of-speech="NNP">RIPA</taggedword>
+      <taggedword index="42" part-of-speech="NN">buffer</taggedword>
+      <taggedword index="43" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Greater" dep_index="1" gov="80%" gov_index="3">number</dependency>
+      <dependency dep="than" dep_index="2" gov="80%" gov_index="3">quantmod</dependency>
+      <dependency dep="80%" dep_index="3" gov="cleared" gov_index="11">nsubjpass</dependency>
+      <dependency dep="the" dep_index="5" gov="cadherin" gov_index="6">det</dependency>
+      <dependency dep="cadherin" dep_index="6" gov="80%" gov_index="3">prep_of</dependency>
+      <dependency dep="the" dep_index="8" gov="cell" gov_index="9">det</dependency>
+      <dependency dep="cell" dep_index="9" gov="cadherin" gov_index="6">prep_in</dependency>
+      <dependency dep="is" dep_index="10" gov="cleared" gov_index="11">auxpass</dependency>
+      <dependency dep="cleared" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Triton" dep_index="13" gov="lysates" gov_index="15">nn</dependency>
+      <dependency dep="X-100" dep_index="14" gov="lysates" gov_index="15">nn</dependency>
+      <dependency dep="lysates" dep_index="15" gov="cleared" gov_index="11">prep_from</dependency>
+      <dependency dep="MvLu" dep_index="17" gov="cells" gov_index="18">nn</dependency>
+      <dependency dep="cells" dep_index="18" gov="lysates" gov_index="15">prep_of</dependency>
+      <dependency dep="immunoprecipitation" dep_index="20" gov="cleared" gov_index="11">prep_after</dependency>
+      <dependency dep="antibodies" dep_index="22" gov="cleared" gov_index="11">prep_with</dependency>
+      <dependency dep="PTPmu" dep_index="24" gov="antibodies" gov_index="22">prep_to</dependency>
+      <dependency dep="however" dep_index="26" gov="dissociated" gov_index="31">advmod</dependency>
+      <dependency dep="the" dep_index="28" gov="complex" gov_index="29">det</dependency>
+      <dependency dep="complex" dep_index="29" gov="dissociated" gov_index="31">nsubjpass</dependency>
+      <dependency dep="is" dep_index="30" gov="dissociated" gov_index="31">auxpass</dependency>
+      <dependency dep="dissociated" dep_index="31" gov="cleared" gov_index="11">parataxis</dependency>
+      <dependency dep="when" dep_index="32" gov="prepared" gov_index="35">advmod</dependency>
+      <dependency dep="lysates" dep_index="33" gov="prepared" gov_index="35">nsubjpass</dependency>
+      <dependency dep="are" dep_index="34" gov="prepared" gov_index="35">auxpass</dependency>
+      <dependency dep="prepared" dep_index="35" gov="dissociated" gov_index="31">advcl</dependency>
+      <dependency dep="in" dep_index="36" gov="prepared" gov_index="35">prt</dependency>
+      <dependency dep="more" dep_index="37" gov="stringent" gov_index="38">advmod</dependency>
+      <dependency dep="stringent" dep_index="38" gov="buffer" gov_index="42">amod</dependency>
+      <dependency dep="SDS-containing" dep_index="40" gov="RIPA" gov_index="41">nn</dependency>
+      <dependency dep="RIPA" dep_index="41" gov="buffer" gov_index="42">dep</dependency>
+      <dependency dep="buffer" dep_index="42" gov="prepared" gov_index="35">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

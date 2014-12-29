@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@multifunctional@protein@profilin@is@one@of@the@most@abundant@proteins@in@the@cytoplasm@and@is@thought@to@regulate@actin@assembly@and@the@phosphoinositide@signaling@pathway@.@</sentence>
+   <tags>
+      <tag pos="4">profilin</tag>
+      <tag pos="20">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">multifunctional</taggedword>
+      <taggedword index="3" part-of-speech="NN">protein</taggedword>
+      <taggedword index="4" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="CD">one</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="RBS">most</taggedword>
+      <taggedword index="10" part-of-speech="JJ">abundant</taggedword>
+      <taggedword index="11" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">cytoplasm</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="17" part-of-speech="VBN">thought</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="20" part-of-speech="NN">actin</taggedword>
+      <taggedword index="21" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">phosphoinositide</taggedword>
+      <taggedword index="25" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="26" part-of-speech="RB">pathway</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="profilin" gov_index="4">det</dependency>
+      <dependency dep="multifunctional" dep_index="2" gov="profilin" gov_index="4">amod</dependency>
+      <dependency dep="protein" dep_index="3" gov="profilin" gov_index="4">nn</dependency>
+      <dependency dep="profilin" dep_index="4" gov="one" gov_index="6">nsubj</dependency>
+      <dependency dep="profilin" dep_index="4" gov="thought" gov_index="17">nsubjpass</dependency>
+      <dependency dep="profilin" dep_index="4" gov="regulate" gov_index="19">xsubj</dependency>
+      <dependency dep="is" dep_index="5" gov="one" gov_index="6">cop</dependency>
+      <dependency dep="one" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="proteins" gov_index="11">det</dependency>
+      <dependency dep="most" dep_index="9" gov="abundant" gov_index="10">advmod</dependency>
+      <dependency dep="abundant" dep_index="10" gov="proteins" gov_index="11">amod</dependency>
+      <dependency dep="proteins" dep_index="11" gov="one" gov_index="6">prep_of</dependency>
+      <dependency dep="the" dep_index="13" gov="cytoplasm" gov_index="14">det</dependency>
+      <dependency dep="cytoplasm" dep_index="14" gov="proteins" gov_index="11">prep_in</dependency>
+      <dependency dep="is" dep_index="16" gov="thought" gov_index="17">auxpass</dependency>
+      <dependency dep="thought" dep_index="17" gov="one" gov_index="6">conj_and</dependency>
+      <dependency dep="to" dep_index="18" gov="regulate" gov_index="19">aux</dependency>
+      <dependency dep="regulate" dep_index="19" gov="thought" gov_index="17">xcomp</dependency>
+      <dependency dep="actin" dep_index="20" gov="assembly" gov_index="21">nn</dependency>
+      <dependency dep="assembly" dep_index="21" gov="regulate" gov_index="19">dobj</dependency>
+      <dependency dep="the" dep_index="23" gov="phosphoinositide" gov_index="24">det</dependency>
+      <dependency dep="phosphoinositide" dep_index="24" gov="regulate" gov_index="19">dobj</dependency>
+      <dependency dep="phosphoinositide" dep_index="24" gov="assembly" gov_index="21">conj_and</dependency>
+      <dependency dep="signaling" dep_index="25" gov="phosphoinositide" gov_index="24">partmod</dependency>
+      <dependency dep="pathway" dep_index="26" gov="signaling" gov_index="25">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400020" relationship="true">4 19 21 20</relation>
+   </relations>
+   <pairs>
+      <pair>400020</pair>
+   </pairs>
+</root>

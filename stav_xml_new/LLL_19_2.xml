@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@sspJ@is@transcribed@in@the@forespore@compartment@by@RNA@polymerase@with@the@forespore-specific@sigmaG@and@appears@to@give@a@monocistronic@transcript@.@</sentence>
+   <tags>
+      <tag pos="17">sigmaG</tag>
+      <tag pos="4">sspJ</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">sspJ</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="VBN">transcribed</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">forespore</taggedword>
+      <taggedword index="10" part-of-speech="NN">compartment</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="13" part-of-speech="NNP">polymerase</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="JJ">forespore-specific</taggedword>
+      <taggedword index="17" part-of-speech="NN">sigmaG</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">appears</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">give</taggedword>
+      <taggedword index="22" part-of-speech="DT">a</taggedword>
+      <taggedword index="23" part-of-speech="JJ">monocistronic</taggedword>
+      <taggedword index="24" part-of-speech="NN">transcript</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="transcribed" gov_index="6">prep_in</dependency>
+      <dependency dep="sspJ" dep_index="4" gov="transcribed" gov_index="6">nsubjpass</dependency>
+      <dependency dep="sspJ" dep_index="4" gov="appears" gov_index="19">nsubj</dependency>
+      <dependency dep="sspJ" dep_index="4" gov="give" gov_index="21">xsubj</dependency>
+      <dependency dep="is" dep_index="5" gov="transcribed" gov_index="6">auxpass</dependency>
+      <dependency dep="transcribed" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="compartment" gov_index="10">det</dependency>
+      <dependency dep="forespore" dep_index="9" gov="compartment" gov_index="10">amod</dependency>
+      <dependency dep="compartment" dep_index="10" gov="transcribed" gov_index="6">prep_in</dependency>
+      <dependency dep="RNA" dep_index="12" gov="polymerase" gov_index="13">nn</dependency>
+      <dependency dep="polymerase" dep_index="13" gov="transcribed" gov_index="6">agent</dependency>
+      <dependency dep="the" dep_index="15" gov="sigmaG" gov_index="17">det</dependency>
+      <dependency dep="forespore-specific" dep_index="16" gov="sigmaG" gov_index="17">amod</dependency>
+      <dependency dep="sigmaG" dep_index="17" gov="polymerase" gov_index="13">prep_with</dependency>
+      <dependency dep="appears" dep_index="19" gov="transcribed" gov_index="6">conj_and</dependency>
+      <dependency dep="to" dep_index="20" gov="give" gov_index="21">aux</dependency>
+      <dependency dep="give" dep_index="21" gov="appears" gov_index="19">xcomp</dependency>
+      <dependency dep="a" dep_index="22" gov="transcript" gov_index="24">det</dependency>
+      <dependency dep="monocistronic" dep_index="23" gov="transcript" gov_index="24">amod</dependency>
+      <dependency dep="transcript" dep_index="24" gov="give" gov_index="21">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400017" relationship="true">4 6 13 17</relation>
+   </relations>
+   <pairs>
+      <pair>400017</pair>
+   </pairs>
+</root>

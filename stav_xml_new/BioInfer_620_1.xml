@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@herpes@simplex@virus@type-1@DNA helicase-primase@is@a@heterotrimer@encoded@by@the@UL5@,@UL8@,@and@UL52@genes@.@</sentence>
+   <tags>
+      <tag pos="15">UL8</tag>
+      <tag pos="18">UL52</tag>
+      <tag pos="6">DNA helicase-primase</tag>
+      <tag pos="13">UL5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">herpes</taggedword>
+      <taggedword index="3" part-of-speech="NN">simplex</taggedword>
+      <taggedword index="4" part-of-speech="NN">virus</taggedword>
+      <taggedword index="5" part-of-speech="JJ">type-1</taggedword>
+      <taggedword index="6" part-of-speech="JJ">DNA helicase-primase</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="NN">heterotrimer</taggedword>
+      <taggedword index="10" part-of-speech="VBN">encoded</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="CD">UL5</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CD">UL8</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNP">UL52</taggedword>
+      <taggedword index="19" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="virus" gov_index="4">det</dependency>
+      <dependency dep="herpes" dep_index="2" gov="virus" gov_index="4">amod</dependency>
+      <dependency dep="simplex" dep_index="3" gov="virus" gov_index="4">nn</dependency>
+      <dependency dep="virus" dep_index="4" gov="heterotrimer" gov_index="9">nsubj</dependency>
+      <dependency dep="type-1" dep_index="5" gov="DNA helicase-primase" gov_index="6">amod</dependency>
+      <dependency dep="DNA helicase-primase" dep_index="6" gov="virus" gov_index="4">amod</dependency>
+      <dependency dep="is" dep_index="7" gov="heterotrimer" gov_index="9">cop</dependency>
+      <dependency dep="a" dep_index="8" gov="heterotrimer" gov_index="9">det</dependency>
+      <dependency dep="heterotrimer" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="encoded" dep_index="10" gov="heterotrimer" gov_index="9">partmod</dependency>
+      <dependency dep="the" dep_index="12" gov="UL8" gov_index="15">det</dependency>
+      <dependency dep="UL5" dep_index="13" gov="UL8" gov_index="15">num</dependency>
+      <dependency dep="UL8" dep_index="15" gov="encoded" gov_index="10">agent</dependency>
+      <dependency dep="UL52" dep_index="18" gov="genes" gov_index="19">nn</dependency>
+      <dependency dep="genes" dep_index="19" gov="encoded" gov_index="10">agent</dependency>
+      <dependency dep="genes" dep_index="19" gov="UL8" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500018" relationship="false">15 10 19 18</relation>
+      <relation position="600015" relationship="true">6 4 9 10 15</relation>
+      <relation position="1300015" relationship="false"></relation>
+      <relation position="600018" relationship="true">6 4 9 10 19 18</relation>
+      <relation position="1300018" relationship="false">13 15 10 19 18</relation>
+      <relation position="600013" relationship="true">6 4 9 10 15 13</relation>
+   </relations>
+   <pairs>
+      <pair>600013</pair>
+      <pair>600015</pair>
+      <pair>600018</pair>
+   </pairs>
+</root>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@determined@whether@short-term@weight-lifting@exercise@increases@the@synthesis@rate@of@the@major@contractile@proteins@,@myosin heavy chain@(@MHC@),@actin@,@and@mixed@muscle@proteins@in@nonfrail@elders@and@younger@women@and@men@.@</sentence>
+   <tags>
+      <tag pos="21">actin</tag>
+      <tag pos="17">myosin heavy chain</tag>
+      <tag pos="19">MHC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">determined</taggedword>
+      <taggedword index="3" part-of-speech="IN">whether</taggedword>
+      <taggedword index="4" part-of-speech="JJ">short-term</taggedword>
+      <taggedword index="5" part-of-speech="JJ">weight-lifting</taggedword>
+      <taggedword index="6" part-of-speech="NN">exercise</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">increases</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="10" part-of-speech="NN">rate</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">major</taggedword>
+      <taggedword index="14" part-of-speech="JJ">contractile</taggedword>
+      <taggedword index="15" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="JJ">myosin heavy chain</taggedword>
+      <taggedword index="18" part-of-speech="NNP">(</taggedword>
+      <taggedword index="19" part-of-speech="NNP">MHC</taggedword>
+      <taggedword index="20" part-of-speech="NNP">),</taggedword>
+      <taggedword index="21" part-of-speech="NN">actin</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="VBN">mixed</taggedword>
+      <taggedword index="25" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="26" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="27" part-of-speech="IN">in</taggedword>
+      <taggedword index="28" part-of-speech="JJ">nonfrail</taggedword>
+      <taggedword index="29" part-of-speech="NNS">elders</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="JJR">younger</taggedword>
+      <taggedword index="32" part-of-speech="NNS">women</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="NNS">men</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="determined" gov_index="2">nsubj</dependency>
+      <dependency dep="determined" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="whether" dep_index="3" gov="increases" gov_index="7">mark</dependency>
+      <dependency dep="short-term" dep_index="4" gov="exercise" gov_index="6">amod</dependency>
+      <dependency dep="weight-lifting" dep_index="5" gov="exercise" gov_index="6">amod</dependency>
+      <dependency dep="exercise" dep_index="6" gov="increases" gov_index="7">nsubj</dependency>
+      <dependency dep="increases" dep_index="7" gov="determined" gov_index="2">ccomp</dependency>
+      <dependency dep="the" dep_index="8" gov="rate" gov_index="10">det</dependency>
+      <dependency dep="synthesis" dep_index="9" gov="rate" gov_index="10">nn</dependency>
+      <dependency dep="rate" dep_index="10" gov="increases" gov_index="7">dobj</dependency>
+      <dependency dep="the" dep_index="12" gov="proteins" gov_index="15">det</dependency>
+      <dependency dep="major" dep_index="13" gov="proteins" gov_index="15">amod</dependency>
+      <dependency dep="contractile" dep_index="14" gov="proteins" gov_index="15">amod</dependency>
+      <dependency dep="proteins" dep_index="15" gov="rate" gov_index="10">prep_of</dependency>
+      <dependency dep="myosin heavy chain" dep_index="17" gov="actin" gov_index="21">amod</dependency>
+      <dependency dep="(" dep_index="18" gov="actin" gov_index="21">nn</dependency>
+      <dependency dep="MHC" dep_index="19" gov="actin" gov_index="21">nn</dependency>
+      <dependency dep=")," dep_index="20" gov="actin" gov_index="21">nn</dependency>
+      <dependency dep="actin" dep_index="21" gov="increases" gov_index="7">dobj</dependency>
+      <dependency dep="actin" dep_index="21" gov="rate" gov_index="10">conj_and</dependency>
+      <dependency dep="mixed" dep_index="24" gov="proteins" gov_index="26">amod</dependency>
+      <dependency dep="muscle" dep_index="25" gov="proteins" gov_index="26">nn</dependency>
+      <dependency dep="proteins" dep_index="26" gov="increases" gov_index="7">dobj</dependency>
+      <dependency dep="proteins" dep_index="26" gov="rate" gov_index="10">conj_and</dependency>
+      <dependency dep="nonfrail" dep_index="28" gov="elders" gov_index="29">amod</dependency>
+      <dependency dep="elders" dep_index="29" gov="proteins" gov_index="26">prep_in</dependency>
+      <dependency dep="younger" dep_index="31" gov="women" gov_index="32">amod</dependency>
+      <dependency dep="women" dep_index="32" gov="proteins" gov_index="26">prep_in</dependency>
+      <dependency dep="women" dep_index="32" gov="elders" gov_index="29">conj_and</dependency>
+      <dependency dep="men" dep_index="34" gov="elders" gov_index="29">conj_and</dependency>
+      <dependency dep="men" dep_index="34" gov="women" gov_index="32">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700021" relationship="false"></relation>
+      <relation position="1900021" relationship="false"></relation>
+      <relation position="1700019" relationship="false">17 21 19</relation>
+   </relations>
+   <pairs/>
+</root>

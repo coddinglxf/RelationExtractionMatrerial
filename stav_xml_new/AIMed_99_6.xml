@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Mutations@in@the@cDNA@have@been@identified@in@CS-A@cell@lines@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Mutations</taggedword>
+      <taggedword index="2" part-of-speech="IN">in</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="5" part-of-speech="VBP">have</taggedword>
+      <taggedword index="6" part-of-speech="VBN">been</taggedword>
+      <taggedword index="7" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">CS-A</taggedword>
+      <taggedword index="10" part-of-speech="NN">cell</taggedword>
+      <taggedword index="11" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Mutations" dep_index="1" gov="identified" gov_index="7">nsubjpass</dependency>
+      <dependency dep="the" dep_index="3" gov="cDNA" gov_index="4">det</dependency>
+      <dependency dep="cDNA" dep_index="4" gov="Mutations" gov_index="1">prep_in</dependency>
+      <dependency dep="have" dep_index="5" gov="identified" gov_index="7">aux</dependency>
+      <dependency dep="been" dep_index="6" gov="identified" gov_index="7">auxpass</dependency>
+      <dependency dep="identified" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="CS-A" dep_index="9" gov="lines" gov_index="11">amod</dependency>
+      <dependency dep="cell" dep_index="10" gov="lines" gov_index="11">nn</dependency>
+      <dependency dep="lines" dep_index="11" gov="identified" gov_index="7">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

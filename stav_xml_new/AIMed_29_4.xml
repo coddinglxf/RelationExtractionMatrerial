@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@Ala@mutants@triggered@neutrophil@degranulation@and@induced@calcium@responses@mediated@by@CXCR1@and@CXCR2@.@</sentence>
+   <tags>
+      <tag pos="13">CXCR1</tag>
+      <tag pos="15">CXCR2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNP">Ala</taggedword>
+      <taggedword index="3" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="4" part-of-speech="VBD">triggered</taggedword>
+      <taggedword index="5" part-of-speech="JJ">neutrophil</taggedword>
+      <taggedword index="6" part-of-speech="NN">degranulation</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">induced</taggedword>
+      <taggedword index="9" part-of-speech="NN">calcium</taggedword>
+      <taggedword index="10" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="11" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="NNP">CXCR1</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NNP">CXCR2</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="mutants" gov_index="3">det</dependency>
+      <dependency dep="Ala" dep_index="2" gov="mutants" gov_index="3">nn</dependency>
+      <dependency dep="mutants" dep_index="3" gov="triggered" gov_index="4">nsubj</dependency>
+      <dependency dep="triggered" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="neutrophil" dep_index="5" gov="degranulation" gov_index="6">amod</dependency>
+      <dependency dep="degranulation" dep_index="6" gov="triggered" gov_index="4">dobj</dependency>
+      <dependency dep="induced" dep_index="8" gov="responses" gov_index="10">amod</dependency>
+      <dependency dep="calcium" dep_index="9" gov="responses" gov_index="10">nn</dependency>
+      <dependency dep="responses" dep_index="10" gov="triggered" gov_index="4">dobj</dependency>
+      <dependency dep="responses" dep_index="10" gov="degranulation" gov_index="6">conj_and</dependency>
+      <dependency dep="mediated" dep_index="11" gov="degranulation" gov_index="6">partmod</dependency>
+      <dependency dep="CXCR1" dep_index="13" gov="mediated" gov_index="11">agent</dependency>
+      <dependency dep="CXCR2" dep_index="15" gov="mediated" gov_index="11">agent</dependency>
+      <dependency dep="CXCR2" dep_index="15" gov="CXCR1" gov_index="13">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="false">13 11 15</relation>
+   </relations>
+   <pairs/>
+</root>

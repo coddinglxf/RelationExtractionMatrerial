@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Data@also@has@been@obtained@that@Gadd45b@and@Gadd45g@,@as@well@as@GADD45a@,@interact@with@both@Cdk1@and@cyclinB1@,@resulting@in@inhibition@of@the@kinase@activity@of@the@Cdk1@/cyclinB1@complex@</sentence>
+   <tags>
+      <tag pos="7">Gadd45b</tag>
+      <tag pos="9">Gadd45g</tag>
+      <tag pos="14">GADD45a</tag>
+      <tag pos="19">Cdk1</tag>
+      <tag pos="32">Cdk1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Data</taggedword>
+      <taggedword index="2" part-of-speech="RB">also</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="4" part-of-speech="VBN">been</taggedword>
+      <taggedword index="5" part-of-speech="VBN">obtained</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="NNS">Gadd45b</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNS">Gadd45g</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="RB">as</taggedword>
+      <taggedword index="12" part-of-speech="RB">well</taggedword>
+      <taggedword index="13" part-of-speech="IN">as</taggedword>
+      <taggedword index="14" part-of-speech="NNS">GADD45a</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="VBD">interact</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="DT">both</taggedword>
+      <taggedword index="19" part-of-speech="NNS">Cdk1</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NNS">cyclinB1</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="VBG">resulting</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="29" part-of-speech="NN">activity</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="JJ">Cdk1</taggedword>
+      <taggedword index="33" part-of-speech="JJ">/cyclinB1</taggedword>
+      <taggedword index="34" part-of-speech="NN">complex</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Data" dep_index="1" gov="obtained" gov_index="5">nsubjpass</dependency>
+      <dependency dep="also" dep_index="2" gov="obtained" gov_index="5">advmod</dependency>
+      <dependency dep="has" dep_index="3" gov="obtained" gov_index="5">aux</dependency>
+      <dependency dep="been" dep_index="4" gov="obtained" gov_index="5">auxpass</dependency>
+      <dependency dep="obtained" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="interact" gov_index="16">mark</dependency>
+      <dependency dep="Gadd45b" dep_index="7" gov="interact" gov_index="16">nsubj</dependency>
+      <dependency dep="Gadd45g" dep_index="9" gov="Gadd45b" gov_index="7">conj_and</dependency>
+      <dependency dep="Gadd45g" dep_index="9" gov="interact" gov_index="16">nsubj</dependency>
+      <dependency dep="GADD45a" dep_index="14" gov="Gadd45b" gov_index="7">conj_and</dependency>
+      <dependency dep="GADD45a" dep_index="14" gov="interact" gov_index="16">nsubj</dependency>
+      <dependency dep="interact" dep_index="16" gov="obtained" gov_index="5">ccomp</dependency>
+      <dependency dep="both" dep_index="18" gov="Cdk1" gov_index="19">preconj</dependency>
+      <dependency dep="Cdk1" dep_index="19" gov="interact" gov_index="16">prep_with</dependency>
+      <dependency dep="cyclinB1" dep_index="21" gov="interact" gov_index="16">prep_with</dependency>
+      <dependency dep="cyclinB1" dep_index="21" gov="Cdk1" gov_index="19">conj_and</dependency>
+      <dependency dep="resulting" dep_index="23" gov="interact" gov_index="16">xcomp</dependency>
+      <dependency dep="inhibition" dep_index="25" gov="resulting" gov_index="23">prep_in</dependency>
+      <dependency dep="the" dep_index="27" gov="activity" gov_index="29">det</dependency>
+      <dependency dep="kinase" dep_index="28" gov="activity" gov_index="29">amod</dependency>
+      <dependency dep="activity" dep_index="29" gov="inhibition" gov_index="25">prep_of</dependency>
+      <dependency dep="the" dep_index="31" gov="complex" gov_index="34">det</dependency>
+      <dependency dep="Cdk1" dep_index="32" gov="complex" gov_index="34">amod</dependency>
+      <dependency dep="/cyclinB1" dep_index="33" gov="complex" gov_index="34">amod</dependency>
+      <dependency dep="complex" dep_index="34" gov="activity" gov_index="29">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 16 9</relation>
+      <relation position="700014" relationship="false">7 16 14</relation>
+      <relation position="700019" relationship="true">7 16 19</relation>
+      <relation position="700032" relationship="true">7 16 23 25 29 34 32</relation>
+      <relation position="900014" relationship="false">9 16 14</relation>
+      <relation position="900019" relationship="true">9 16 19</relation>
+      <relation position="900032" relationship="true">9 16 23 25 29 34 32</relation>
+      <relation position="1400019" relationship="true">14 16 19</relation>
+      <relation position="1400032" relationship="true">14 16 23 25 29 34 32</relation>
+      <relation position="1900032" relationship="false">19 16 23 25 29 34 32</relation>
+   </relations>
+   <pairs>
+      <pair>1400032</pair>
+      <pair>1400019</pair>
+      <pair>700032</pair>
+      <pair>900019</pair>
+      <pair>700019</pair>
+      <pair>900032</pair>
+   </pairs>
+</root>

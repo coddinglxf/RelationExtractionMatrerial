@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@measured@concentrations@of@NPY@and@CRH@in@specific@hypothalamic@regions@[i.e.@,@arcuate@nucleus@(ARC)@,@paraventricular@nucleus@(PVN)@,@ventromedial@nucleus@and@dorsomedial@nucleus]@of@7-@to@8-wk-old@lean@and@ob/ob@mice@at@1@or@3@h@after@intracerebroventricular@leptin@administration@</sentence>
+   <tags>
+      <tag pos="5">NPY</tag>
+      <tag pos="42">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">measured</taggedword>
+      <taggedword index="3" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">CRH</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="10" part-of-speech="JJ">hypothalamic</taggedword>
+      <taggedword index="11" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="12" part-of-speech="NN">[i.e.</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="JJ">arcuate</taggedword>
+      <taggedword index="15" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="16" part-of-speech="NNS">(ARC)</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NN">paraventricular</taggedword>
+      <taggedword index="19" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="20" part-of-speech="NNS">(PVN)</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="JJ">ventromedial</taggedword>
+      <taggedword index="23" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="JJ">dorsomedial</taggedword>
+      <taggedword index="26" part-of-speech="NNS">nucleus]</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="CD">7-</taggedword>
+      <taggedword index="29" part-of-speech="TO">to</taggedword>
+      <taggedword index="30" part-of-speech="JJ">8-wk-old</taggedword>
+      <taggedword index="31" part-of-speech="JJ">lean</taggedword>
+      <taggedword index="32" part-of-speech="CC">and</taggedword>
+      <taggedword index="33" part-of-speech="JJ">ob/ob</taggedword>
+      <taggedword index="34" part-of-speech="NNS">mice</taggedword>
+      <taggedword index="35" part-of-speech="IN">at</taggedword>
+      <taggedword index="36" part-of-speech="CD">1</taggedword>
+      <taggedword index="37" part-of-speech="CC">or</taggedword>
+      <taggedword index="38" part-of-speech="CD">3</taggedword>
+      <taggedword index="39" part-of-speech="NN">h</taggedword>
+      <taggedword index="40" part-of-speech="IN">after</taggedword>
+      <taggedword index="41" part-of-speech="NN">intracerebroventricular</taggedword>
+      <taggedword index="42" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="43" part-of-speech="NN">administration</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="measured" gov_index="2">nsubj</dependency>
+      <dependency dep="measured" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="concentrations" dep_index="3" gov="measured" gov_index="2">dobj</dependency>
+      <dependency dep="NPY" dep_index="5" gov="concentrations" gov_index="3">prep_of</dependency>
+      <dependency dep="CRH" dep_index="7" gov="concentrations" gov_index="3">prep_of</dependency>
+      <dependency dep="CRH" dep_index="7" gov="NPY" gov_index="5">conj_and</dependency>
+      <dependency dep="specific" dep_index="9" gov="[i.e." gov_index="12">amod</dependency>
+      <dependency dep="hypothalamic" dep_index="10" gov="[i.e." gov_index="12">amod</dependency>
+      <dependency dep="regions" dep_index="11" gov="[i.e." gov_index="12">nn</dependency>
+      <dependency dep="[i.e." dep_index="12" gov="measured" gov_index="2">prep_in</dependency>
+      <dependency dep="arcuate" dep_index="14" gov="(ARC)" gov_index="16">amod</dependency>
+      <dependency dep="nucleus" dep_index="15" gov="(ARC)" gov_index="16">nn</dependency>
+      <dependency dep="(ARC)" dep_index="16" gov="measured" gov_index="2">prep_in</dependency>
+      <dependency dep="(ARC)" dep_index="16" gov="[i.e." gov_index="12">conj_and</dependency>
+      <dependency dep="paraventricular" dep_index="18" gov="(PVN)" gov_index="20">nn</dependency>
+      <dependency dep="nucleus" dep_index="19" gov="(PVN)" gov_index="20">nn</dependency>
+      <dependency dep="(PVN)" dep_index="20" gov="measured" gov_index="2">prep_in</dependency>
+      <dependency dep="(PVN)" dep_index="20" gov="[i.e." gov_index="12">conj_and</dependency>
+      <dependency dep="ventromedial" dep_index="22" gov="nucleus" gov_index="23">amod</dependency>
+      <dependency dep="nucleus" dep_index="23" gov="measured" gov_index="2">prep_in</dependency>
+      <dependency dep="nucleus" dep_index="23" gov="[i.e." gov_index="12">conj_and</dependency>
+      <dependency dep="dorsomedial" dep_index="25" gov="nucleus]" gov_index="26">amod</dependency>
+      <dependency dep="nucleus]" dep_index="26" gov="measured" gov_index="2">prep_in</dependency>
+      <dependency dep="nucleus]" dep_index="26" gov="[i.e." gov_index="12">conj_and</dependency>
+      <dependency dep="7-" dep_index="28" gov="nucleus]" gov_index="26">prep_of</dependency>
+      <dependency dep="8-wk-old" dep_index="30" gov="mice" gov_index="34">amod</dependency>
+      <dependency dep="lean" dep_index="31" gov="mice" gov_index="34">amod</dependency>
+      <dependency dep="ob/ob" dep_index="33" gov="lean" gov_index="31">conj_and</dependency>
+      <dependency dep="ob/ob" dep_index="33" gov="mice" gov_index="34">amod</dependency>
+      <dependency dep="mice" dep_index="34" gov="measured" gov_index="2">prep_to</dependency>
+      <dependency dep="1" dep_index="36" gov="h" gov_index="39">num</dependency>
+      <dependency dep="3" dep_index="38" gov="1" gov_index="36">conj_or</dependency>
+      <dependency dep="3" dep_index="38" gov="h" gov_index="39">num</dependency>
+      <dependency dep="h" dep_index="39" gov="mice" gov_index="34">prep_at</dependency>
+      <dependency dep="intracerebroventricular" dep_index="41" gov="administration" gov_index="43">nn</dependency>
+      <dependency dep="leptin" dep_index="42" gov="administration" gov_index="43">nn</dependency>
+      <dependency dep="administration" dep_index="43" gov="measured" gov_index="2">prep_after</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500042" relationship="false">5 3 2 43 42</relation>
+   </relations>
+   <pairs/>
+</root>

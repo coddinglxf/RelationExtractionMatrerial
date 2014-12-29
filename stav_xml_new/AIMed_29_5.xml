@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Single@Asp@or@Ser@substitutions@,@H18D@,@F21D@,@F21S@,@and@double@substitutions@,@H18A/F21D@,@H18A/F21S@,@and@H18D/F21D@,@reduced@up@to@431-fold@the@binding@affinity@to@CXCR1@,@CXCR2@,@and@the@Duffy antigen@.@</sentence>
+   <tags>
+      <tag pos="32">CXCR1</tag>
+      <tag pos="34">CXCR2</tag>
+      <tag pos="38">Duffy antigen</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Single</taggedword>
+      <taggedword index="2" part-of-speech="NNP">Asp</taggedword>
+      <taggedword index="3" part-of-speech="CC">or</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Ser</taggedword>
+      <taggedword index="5" part-of-speech="NNS">substitutions</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNP">H18D</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">F21D</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">F21S</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">double</taggedword>
+      <taggedword index="15" part-of-speech="NNS">substitutions</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CD">H18A/F21D</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CD">H18A/F21S</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="CD">H18D/F21D</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="VBD">reduced</taggedword>
+      <taggedword index="25" part-of-speech="RP">up</taggedword>
+      <taggedword index="26" part-of-speech="TO">to</taggedword>
+      <taggedword index="27" part-of-speech="JJ">431-fold</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="30" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="NNP">CXCR1</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="NNP">CXCR2</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="CC">and</taggedword>
+      <taggedword index="37" part-of-speech="DT">the</taggedword>
+      <taggedword index="38" part-of-speech="NNP">Duffy antigen</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Single" dep_index="1" gov="Asp" gov_index="2">nn</dependency>
+      <dependency dep="Asp" dep_index="2" gov="reduced" gov_index="24">nsubj</dependency>
+      <dependency dep="Ser" dep_index="4" gov="substitutions" gov_index="5">nn</dependency>
+      <dependency dep="substitutions" dep_index="5" gov="Asp" gov_index="2">conj_or</dependency>
+      <dependency dep="substitutions" dep_index="5" gov="reduced" gov_index="24">nsubj</dependency>
+      <dependency dep="H18D" dep_index="7" gov="F21S" gov_index="11">nn</dependency>
+      <dependency dep="F21D" dep_index="9" gov="F21S" gov_index="11">appos</dependency>
+      <dependency dep="F21S" dep_index="11" gov="Asp" gov_index="2">conj_or</dependency>
+      <dependency dep="F21S" dep_index="11" gov="reduced" gov_index="24">nsubj</dependency>
+      <dependency dep="double" dep_index="14" gov="substitutions" gov_index="15">amod</dependency>
+      <dependency dep="substitutions" dep_index="15" gov="Asp" gov_index="2">conj_and</dependency>
+      <dependency dep="substitutions" dep_index="15" gov="reduced" gov_index="24">nsubj</dependency>
+      <dependency dep="H18A/F21D" dep_index="17" gov="Asp" gov_index="2">appos</dependency>
+      <dependency dep="H18A/F21S" dep_index="19" gov="H18A/F21D" gov_index="17">num</dependency>
+      <dependency dep="H18D/F21D" dep_index="22" gov="Asp" gov_index="2">appos</dependency>
+      <dependency dep="H18D/F21D" dep_index="22" gov="H18A/F21D" gov_index="17">conj_and</dependency>
+      <dependency dep="reduced" dep_index="24" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="up" dep_index="25" gov="reduced" gov_index="24">prt</dependency>
+      <dependency dep="431-fold" dep_index="27" gov="affinity" gov_index="30">amod</dependency>
+      <dependency dep="the" dep_index="28" gov="affinity" gov_index="30">det</dependency>
+      <dependency dep="binding" dep_index="29" gov="affinity" gov_index="30">amod</dependency>
+      <dependency dep="affinity" dep_index="30" gov="reduced" gov_index="24">prep_to</dependency>
+      <dependency dep="CXCR1" dep_index="32" gov="reduced" gov_index="24">prep_to</dependency>
+      <dependency dep="CXCR2" dep_index="34" gov="reduced" gov_index="24">prep_to</dependency>
+      <dependency dep="CXCR2" dep_index="34" gov="CXCR1" gov_index="32">conj_and</dependency>
+      <dependency dep="the" dep_index="37" gov="Duffy antigen" gov_index="38">det</dependency>
+      <dependency dep="Duffy antigen" dep_index="38" gov="reduced" gov_index="24">prep_to</dependency>
+      <dependency dep="Duffy antigen" dep_index="38" gov="CXCR1" gov_index="32">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3200034" relationship="false">32 24 34</relation>
+      <relation position="3200038" relationship="false">32 24 38</relation>
+      <relation position="3400038" relationship="false">34 24 38</relation>
+   </relations>
+   <pairs/>
+</root>

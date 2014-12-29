@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@SH2@and@SH3@domain-containing@protein@GRB2@links@receptor@tyrosine@kinases@to@ras@signaling@.@</sentence>
+   <tags>
+      <tag pos="7">GRB2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">SH2</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="CD">SH3</taggedword>
+      <taggedword index="5" part-of-speech="JJ">domain-containing</taggedword>
+      <taggedword index="6" part-of-speech="NN">protein</taggedword>
+      <taggedword index="7" part-of-speech="NN">GRB2</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">links</taggedword>
+      <taggedword index="9" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="10" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="11" part-of-speech="NNS">kinases</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">ras</taggedword>
+      <taggedword index="14" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="SH2" gov_index="2">det</dependency>
+      <dependency dep="SH2" dep_index="2" gov="links" gov_index="8">nsubj</dependency>
+      <dependency dep="SH3" dep_index="4" gov="GRB2" gov_index="7">num</dependency>
+      <dependency dep="domain-containing" dep_index="5" gov="GRB2" gov_index="7">amod</dependency>
+      <dependency dep="protein" dep_index="6" gov="GRB2" gov_index="7">nn</dependency>
+      <dependency dep="GRB2" dep_index="7" gov="SH2" gov_index="2">conj_and</dependency>
+      <dependency dep="GRB2" dep_index="7" gov="links" gov_index="8">nsubj</dependency>
+      <dependency dep="links" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="receptor" dep_index="9" gov="kinases" gov_index="11">nn</dependency>
+      <dependency dep="tyrosine" dep_index="10" gov="kinases" gov_index="11">nn</dependency>
+      <dependency dep="kinases" dep_index="11" gov="ras" gov_index="13">nsubj</dependency>
+      <dependency dep="to" dep_index="12" gov="ras" gov_index="13">aux</dependency>
+      <dependency dep="ras" dep_index="13" gov="links" gov_index="8">xcomp</dependency>
+      <dependency dep="signaling" dep_index="14" gov="ras" gov_index="13">xcomp</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

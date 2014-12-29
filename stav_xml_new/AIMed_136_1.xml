@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cloning@of@a@T@cell@growth@factor@that@interacts@with@the@beta@chain@of@the@interleukin-2 receptor@.@</sentence>
+   <tags>
+      <tag pos="16">interleukin-2 receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Cloning</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NNP">T</taggedword>
+      <taggedword index="5" part-of-speech="NN">cell</taggedword>
+      <taggedword index="6" part-of-speech="NN">growth</taggedword>
+      <taggedword index="7" part-of-speech="NN">factor</taggedword>
+      <taggedword index="8" part-of-speech="WDT">that</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="13" part-of-speech="NN">chain</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="JJ">interleukin-2 receptor</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cloning" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="3" gov="factor" gov_index="7">det</dependency>
+      <dependency dep="T" dep_index="4" gov="factor" gov_index="7">nn</dependency>
+      <dependency dep="cell" dep_index="5" gov="factor" gov_index="7">nn</dependency>
+      <dependency dep="growth" dep_index="6" gov="factor" gov_index="7">nn</dependency>
+      <dependency dep="factor" dep_index="7" gov="Cloning" gov_index="1">prep_of</dependency>
+      <dependency dep="factor" dep_index="7" gov="interacts" gov_index="9">nsubj</dependency>
+      <dependency dep="interacts" dep_index="9" gov="factor" gov_index="7">rcmod</dependency>
+      <dependency dep="the" dep_index="11" gov="chain" gov_index="13">det</dependency>
+      <dependency dep="beta" dep_index="12" gov="chain" gov_index="13">amod</dependency>
+      <dependency dep="chain" dep_index="13" gov="interacts" gov_index="9">prep_with</dependency>
+      <dependency dep="the" dep_index="15" gov="interleukin-2 receptor" gov_index="16">det</dependency>
+      <dependency dep="interleukin-2 receptor" dep_index="16" gov="chain" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

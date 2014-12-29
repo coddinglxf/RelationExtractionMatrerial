@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Aggregated@A(beta)@also@decreased@significantly@the@level@of@diacylglycerol@,@the@product@of@PLC@</sentence>
+   <tags>
+      <tag pos="2">A(beta)</tag>
+      <tag pos="14">PLC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Aggregated</taggedword>
+      <taggedword index="2" part-of-speech="NNP">A(beta)</taggedword>
+      <taggedword index="3" part-of-speech="RB">also</taggedword>
+      <taggedword index="4" part-of-speech="VBD">decreased</taggedword>
+      <taggedword index="5" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">level</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">diacylglycerol</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">product</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NNP">PLC</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Aggregated" dep_index="1" gov="A(beta)" gov_index="2">nn</dependency>
+      <dependency dep="A(beta)" dep_index="2" gov="decreased" gov_index="4">nsubj</dependency>
+      <dependency dep="also" dep_index="3" gov="decreased" gov_index="4">advmod</dependency>
+      <dependency dep="decreased" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="significantly" dep_index="5" gov="decreased" gov_index="4">advmod</dependency>
+      <dependency dep="the" dep_index="6" gov="level" gov_index="7">det</dependency>
+      <dependency dep="level" dep_index="7" gov="decreased" gov_index="4">dobj</dependency>
+      <dependency dep="diacylglycerol" dep_index="9" gov="level" gov_index="7">prep_of</dependency>
+      <dependency dep="the" dep_index="11" gov="product" gov_index="12">det</dependency>
+      <dependency dep="product" dep_index="12" gov="diacylglycerol" gov_index="9">appos</dependency>
+      <dependency dep="PLC" dep_index="14" gov="product" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200014" relationship="false">2 4 7 9 12 14</relation>
+   </relations>
+   <pairs/>
+</root>

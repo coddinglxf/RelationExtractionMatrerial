@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>One@hundred@forty-five@serous@effusions@of@various@origins@were@analyzed@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">One</taggedword>
+      <taggedword index="2" part-of-speech="CD">hundred</taggedword>
+      <taggedword index="3" part-of-speech="NN">forty-five</taggedword>
+      <taggedword index="4" part-of-speech="NNS">serous</taggedword>
+      <taggedword index="5" part-of-speech="NNS">effusions</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">various</taggedword>
+      <taggedword index="8" part-of-speech="NNS">origins</taggedword>
+      <taggedword index="9" part-of-speech="VBD">were</taggedword>
+      <taggedword index="10" part-of-speech="VBN">analyzed</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="One" dep_index="1" gov="effusions" gov_index="5">num</dependency>
+      <dependency dep="hundred" dep_index="2" gov="effusions" gov_index="5">num</dependency>
+      <dependency dep="forty-five" dep_index="3" gov="effusions" gov_index="5">nn</dependency>
+      <dependency dep="serous" dep_index="4" gov="effusions" gov_index="5">nn</dependency>
+      <dependency dep="effusions" dep_index="5" gov="analyzed" gov_index="10">nsubjpass</dependency>
+      <dependency dep="various" dep_index="7" gov="origins" gov_index="8">amod</dependency>
+      <dependency dep="origins" dep_index="8" gov="effusions" gov_index="5">prep_of</dependency>
+      <dependency dep="were" dep_index="9" gov="analyzed" gov_index="10">auxpass</dependency>
+      <dependency dep="analyzed" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@PCR@analysis@of@p76@-expressing@cells@could@not@detect@splicing@of@the@extracellular@domain@of@the@cloned@IL-7R@,@thereby@excluding@the@possibility@that@the@p76@IL-7R@is@a@previously@undescribed@splice@variant@of@the@cloned@IL-7R@.@</sentence>
+   <tags>
+      <tag pos="7">p76</tag>
+      <tag pos="21">IL-7R</tag>
+      <tag pos="29">p76</tag>
+      <tag pos="30">IL-7R</tag>
+      <tag pos="40">IL-7R</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">PCR</taggedword>
+      <taggedword index="5" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">p76</taggedword>
+      <taggedword index="8" part-of-speech="JJ">-expressing</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="10" part-of-speech="MD">could</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="VB">detect</taggedword>
+      <taggedword index="13" part-of-speech="NN">splicing</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="17" part-of-speech="NN">domain</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">cloned</taggedword>
+      <taggedword index="21" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="RB">thereby</taggedword>
+      <taggedword index="24" part-of-speech="VBG">excluding</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">possibility</taggedword>
+      <taggedword index="27" part-of-speech="IN">that</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">p76</taggedword>
+      <taggedword index="30" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="31" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="32" part-of-speech="DT">a</taggedword>
+      <taggedword index="33" part-of-speech="RB">previously</taggedword>
+      <taggedword index="34" part-of-speech="JJ">undescribed</taggedword>
+      <taggedword index="35" part-of-speech="NN">splice</taggedword>
+      <taggedword index="36" part-of-speech="NN">variant</taggedword>
+      <taggedword index="37" part-of-speech="IN">of</taggedword>
+      <taggedword index="38" part-of-speech="DT">the</taggedword>
+      <taggedword index="39" part-of-speech="JJ">cloned</taggedword>
+      <taggedword index="40" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="detect" gov_index="12">prep_in</dependency>
+      <dependency dep="PCR" dep_index="4" gov="analysis" gov_index="5">nn</dependency>
+      <dependency dep="analysis" dep_index="5" gov="detect" gov_index="12">nsubj</dependency>
+      <dependency dep="p76" dep_index="7" gov="cells" gov_index="9">amod</dependency>
+      <dependency dep="-expressing" dep_index="8" gov="cells" gov_index="9">amod</dependency>
+      <dependency dep="cells" dep_index="9" gov="analysis" gov_index="5">prep_of</dependency>
+      <dependency dep="could" dep_index="10" gov="detect" gov_index="12">aux</dependency>
+      <dependency dep="not" dep_index="11" gov="detect" gov_index="12">neg</dependency>
+      <dependency dep="detect" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="splicing" dep_index="13" gov="detect" gov_index="12">dobj</dependency>
+      <dependency dep="the" dep_index="15" gov="domain" gov_index="17">det</dependency>
+      <dependency dep="extracellular" dep_index="16" gov="domain" gov_index="17">nn</dependency>
+      <dependency dep="domain" dep_index="17" gov="splicing" gov_index="13">prep_of</dependency>
+      <dependency dep="the" dep_index="19" gov="IL-7R" gov_index="21">det</dependency>
+      <dependency dep="cloned" dep_index="20" gov="IL-7R" gov_index="21">amod</dependency>
+      <dependency dep="IL-7R" dep_index="21" gov="domain" gov_index="17">prep_of</dependency>
+      <dependency dep="thereby" dep_index="23" gov="detect" gov_index="12">advmod</dependency>
+      <dependency dep="the" dep_index="25" gov="possibility" gov_index="26">det</dependency>
+      <dependency dep="possibility" dep_index="26" gov="detect" gov_index="12">prep_excluding</dependency>
+      <dependency dep="that" dep_index="27" gov="variant" gov_index="36">mark</dependency>
+      <dependency dep="the" dep_index="28" gov="IL-7R" gov_index="30">det</dependency>
+      <dependency dep="p76" dep_index="29" gov="IL-7R" gov_index="30">amod</dependency>
+      <dependency dep="IL-7R" dep_index="30" gov="variant" gov_index="36">nsubj</dependency>
+      <dependency dep="is" dep_index="31" gov="variant" gov_index="36">cop</dependency>
+      <dependency dep="a" dep_index="32" gov="variant" gov_index="36">det</dependency>
+      <dependency dep="previously" dep_index="33" gov="undescribed" gov_index="34">advmod</dependency>
+      <dependency dep="undescribed" dep_index="34" gov="variant" gov_index="36">amod</dependency>
+      <dependency dep="splice" dep_index="35" gov="variant" gov_index="36">nn</dependency>
+      <dependency dep="variant" dep_index="36" gov="possibility" gov_index="26">dep</dependency>
+      <dependency dep="the" dep_index="38" gov="IL-7R" gov_index="40">det</dependency>
+      <dependency dep="cloned" dep_index="39" gov="IL-7R" gov_index="40">amod</dependency>
+      <dependency dep="IL-7R" dep_index="40" gov="variant" gov_index="36">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700021" relationship="false">7 9 5 12 13 17 21</relation>
+      <relation position="700029" relationship="false">7 9 5 12 26 36 30 29</relation>
+      <relation position="700030" relationship="false">7 9 5 12 26 36 30</relation>
+      <relation position="700040" relationship="false">7 9 5 12 26 36 40</relation>
+      <relation position="2100029" relationship="false">21 17 13 12 26 36 30 29</relation>
+      <relation position="2100030" relationship="false">21 17 13 12 26 36 30</relation>
+      <relation position="2100040" relationship="false">21 17 13 12 26 36 40</relation>
+      <relation position="2900030" relationship="false"></relation>
+      <relation position="2900040" relationship="false">29 30 36 40</relation>
+      <relation position="3000040" relationship="false">30 36 40</relation>
+   </relations>
+   <pairs/>
+</root>

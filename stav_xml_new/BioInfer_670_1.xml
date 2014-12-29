@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@products@of@the@yeast@mismatch@repair@genes@MSH2@and@MSH3@participate@in@the@inhibition@of@genetic@recombination@between@homeologous@(divergent)@DNA@sequences@.@</sentence>
+   <tags>
+      <tag pos="9">MSH2</tag>
+      <tag pos="11">MSH3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">products</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="6" part-of-speech="NN">mismatch</taggedword>
+      <taggedword index="7" part-of-speech="VBP">repair</taggedword>
+      <taggedword index="8" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="9" part-of-speech="NNP">MSH2</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNP">MSH3</taggedword>
+      <taggedword index="12" part-of-speech="VB">participate</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">genetic</taggedword>
+      <taggedword index="18" part-of-speech="NN">recombination</taggedword>
+      <taggedword index="19" part-of-speech="IN">between</taggedword>
+      <taggedword index="20" part-of-speech="JJ">homeologous</taggedword>
+      <taggedword index="21" part-of-speech="NNP">(divergent)</taggedword>
+      <taggedword index="22" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="23" part-of-speech="NNS">sequences</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="products" gov_index="2">det</dependency>
+      <dependency dep="products" dep_index="2" gov="repair" gov_index="7">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="mismatch" gov_index="6">det</dependency>
+      <dependency dep="yeast" dep_index="5" gov="mismatch" gov_index="6">nn</dependency>
+      <dependency dep="mismatch" dep_index="6" gov="products" gov_index="2">prep_of</dependency>
+      <dependency dep="repair" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="genes" dep_index="8" gov="MSH2" gov_index="9">nn</dependency>
+      <dependency dep="MSH2" dep_index="9" gov="participate" gov_index="12">nsubj</dependency>
+      <dependency dep="MSH3" dep_index="11" gov="MSH2" gov_index="9">conj_and</dependency>
+      <dependency dep="MSH3" dep_index="11" gov="participate" gov_index="12">nsubj</dependency>
+      <dependency dep="participate" dep_index="12" gov="repair" gov_index="7">ccomp</dependency>
+      <dependency dep="the" dep_index="14" gov="inhibition" gov_index="15">det</dependency>
+      <dependency dep="inhibition" dep_index="15" gov="participate" gov_index="12">prep_in</dependency>
+      <dependency dep="genetic" dep_index="17" gov="recombination" gov_index="18">amod</dependency>
+      <dependency dep="recombination" dep_index="18" gov="inhibition" gov_index="15">prep_of</dependency>
+      <dependency dep="homeologous" dep_index="20" gov="sequences" gov_index="23">amod</dependency>
+      <dependency dep="(divergent)" dep_index="21" gov="sequences" gov_index="23">nn</dependency>
+      <dependency dep="DNA" dep_index="22" gov="sequences" gov_index="23">nn</dependency>
+      <dependency dep="sequences" dep_index="23" gov="recombination" gov_index="18">prep_between</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="false">9 12 11</relation>
+   </relations>
+   <pairs/>
+</root>

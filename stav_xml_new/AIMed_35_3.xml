@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Subcellular@localization@of@the@endogenous@PS1@is@essential@for@understanding@its@function@,@interactions@with@proteins@,@and@role@in@Alzheimer's@disease@.@</sentence>
+   <tags>
+      <tag pos="6">PS1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Subcellular</taggedword>
+      <taggedword index="2" part-of-speech="NN">localization</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">endogenous</taggedword>
+      <taggedword index="6" part-of-speech="NN">PS1</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="8" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="9" part-of-speech="IN">for</taggedword>
+      <taggedword index="10" part-of-speech="VBG">understanding</taggedword>
+      <taggedword index="11" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="12" part-of-speech="NN">function</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">role</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="NNP">Alzheimer's</taggedword>
+      <taggedword index="22" part-of-speech="NN">disease</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Subcellular" dep_index="1" gov="localization" gov_index="2">amod</dependency>
+      <dependency dep="localization" dep_index="2" gov="essential" gov_index="8">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="PS1" gov_index="6">det</dependency>
+      <dependency dep="endogenous" dep_index="5" gov="PS1" gov_index="6">amod</dependency>
+      <dependency dep="PS1" dep_index="6" gov="localization" gov_index="2">prep_of</dependency>
+      <dependency dep="is" dep_index="7" gov="essential" gov_index="8">cop</dependency>
+      <dependency dep="essential" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="understanding" dep_index="10" gov="essential" gov_index="8">prepc_for</dependency>
+      <dependency dep="its" dep_index="11" gov="function" gov_index="12">poss</dependency>
+      <dependency dep="function" dep_index="12" gov="understanding" gov_index="10">dobj</dependency>
+      <dependency dep="interactions" dep_index="14" gov="understanding" gov_index="10">dobj</dependency>
+      <dependency dep="interactions" dep_index="14" gov="function" gov_index="12">conj_and</dependency>
+      <dependency dep="proteins" dep_index="16" gov="interactions" gov_index="14">prep_with</dependency>
+      <dependency dep="role" dep_index="19" gov="understanding" gov_index="10">dobj</dependency>
+      <dependency dep="role" dep_index="19" gov="function" gov_index="12">conj_and</dependency>
+      <dependency dep="Alzheimer's" dep_index="21" gov="disease" gov_index="22">nn</dependency>
+      <dependency dep="disease" dep_index="22" gov="role" gov_index="19">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

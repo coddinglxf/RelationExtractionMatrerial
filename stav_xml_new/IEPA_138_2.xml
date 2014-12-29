@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@glycosyl-phosphatidylinositol-specific phospholipase C@(GPI-PLC)@,@which@in@isolated@rat@adipocytes@is@activated@by@insulin@,@was@stimulated@to@up@to@5-fold@by@glucose@and@10-fold@by@glucose@plus@insulin@in@both@yeast@spheroplasts@and@intact@cells@leading@to@a@concentration-dependent@leftward@shift@of@the@glucose-response@curve@for@activation@of@the@GPI-PLC@</sentence>
+   <tags>
+      <tag pos="4">glycosyl-phosphatidylinositol-specific phospholipase C</tag>
+      <tag pos="15">insulin</tag>
+      <tag pos="30">insulin</tag>
+      <tag pos="52">GPI-PLC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">glycosyl-phosphatidylinositol-specific phospholipase C</taggedword>
+      <taggedword index="5" part-of-speech="NNS">(GPI-PLC)</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="WDT">which</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">isolated</taggedword>
+      <taggedword index="10" part-of-speech="NN">rat</taggedword>
+      <taggedword index="11" part-of-speech="NNS">adipocytes</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="VBD">was</taggedword>
+      <taggedword index="18" part-of-speech="VBN">stimulated</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="RB">up</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="JJ">5-fold</taggedword>
+      <taggedword index="23" part-of-speech="IN">by</taggedword>
+      <taggedword index="24" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="NN">10-fold</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="29" part-of-speech="NN">plus</taggedword>
+      <taggedword index="30" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="DT">both</taggedword>
+      <taggedword index="33" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="34" part-of-speech="NNS">spheroplasts</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="JJ">intact</taggedword>
+      <taggedword index="37" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="38" part-of-speech="VBG">leading</taggedword>
+      <taggedword index="39" part-of-speech="TO">to</taggedword>
+      <taggedword index="40" part-of-speech="DT">a</taggedword>
+      <taggedword index="41" part-of-speech="JJ">concentration-dependent</taggedword>
+      <taggedword index="42" part-of-speech="JJ">leftward</taggedword>
+      <taggedword index="43" part-of-speech="NN">shift</taggedword>
+      <taggedword index="44" part-of-speech="IN">of</taggedword>
+      <taggedword index="45" part-of-speech="DT">the</taggedword>
+      <taggedword index="46" part-of-speech="JJ">glucose-response</taggedword>
+      <taggedword index="47" part-of-speech="NN">curve</taggedword>
+      <taggedword index="48" part-of-speech="IN">for</taggedword>
+      <taggedword index="49" part-of-speech="NN">activation</taggedword>
+      <taggedword index="50" part-of-speech="IN">of</taggedword>
+      <taggedword index="51" part-of-speech="DT">the</taggedword>
+      <taggedword index="52" part-of-speech="NN">GPI-PLC</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="stimulated" gov_index="18">prep_in</dependency>
+      <dependency dep="glycosyl-phosphatidylinositol-specific phospholipase C" dep_index="4" gov="(GPI-PLC)" gov_index="5">amod</dependency>
+      <dependency dep="(GPI-PLC)" dep_index="5" gov="activated" gov_index="13">nsubjpass</dependency>
+      <dependency dep="(GPI-PLC)" dep_index="5" gov="stimulated" gov_index="18">nsubjpass</dependency>
+      <dependency dep="isolated" dep_index="9" gov="adipocytes" gov_index="11">amod</dependency>
+      <dependency dep="rat" dep_index="10" gov="adipocytes" gov_index="11">nn</dependency>
+      <dependency dep="adipocytes" dep_index="11" gov="activated" gov_index="13">prep_in</dependency>
+      <dependency dep="is" dep_index="12" gov="activated" gov_index="13">auxpass</dependency>
+      <dependency dep="activated" dep_index="13" gov="(GPI-PLC)" gov_index="5">rcmod</dependency>
+      <dependency dep="insulin" dep_index="15" gov="activated" gov_index="13">agent</dependency>
+      <dependency dep="was" dep_index="17" gov="stimulated" gov_index="18">auxpass</dependency>
+      <dependency dep="stimulated" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="up" dep_index="20" gov="cells" gov_index="37">dep</dependency>
+      <dependency dep="5-fold" dep_index="22" gov="spheroplasts" gov_index="34">amod</dependency>
+      <dependency dep="glucose" dep_index="24" gov="5-fold" gov_index="22">prep_by</dependency>
+      <dependency dep="10-fold" dep_index="26" gov="5-fold" gov_index="22">prep_by</dependency>
+      <dependency dep="10-fold" dep_index="26" gov="glucose" gov_index="24">conj_and</dependency>
+      <dependency dep="glucose" dep_index="28" gov="insulin" gov_index="30">nn</dependency>
+      <dependency dep="plus" dep_index="29" gov="insulin" gov_index="30">nn</dependency>
+      <dependency dep="insulin" dep_index="30" gov="5-fold" gov_index="22">prep_by</dependency>
+      <dependency dep="both" dep_index="32" gov="yeast" gov_index="33">det</dependency>
+      <dependency dep="yeast" dep_index="33" gov="insulin" gov_index="30">prep_in</dependency>
+      <dependency dep="spheroplasts" dep_index="34" gov="up" gov_index="20">prep_to</dependency>
+      <dependency dep="intact" dep_index="36" gov="up" gov_index="20">conj_and</dependency>
+      <dependency dep="intact" dep_index="36" gov="cells" gov_index="37">dep</dependency>
+      <dependency dep="cells" dep_index="37" gov="stimulated" gov_index="18">prep_to</dependency>
+      <dependency dep="leading" dep_index="38" gov="stimulated" gov_index="18">xcomp</dependency>
+      <dependency dep="a" dep_index="40" gov="shift" gov_index="43">det</dependency>
+      <dependency dep="concentration-dependent" dep_index="41" gov="shift" gov_index="43">amod</dependency>
+      <dependency dep="leftward" dep_index="42" gov="shift" gov_index="43">amod</dependency>
+      <dependency dep="shift" dep_index="43" gov="leading" gov_index="38">prep_to</dependency>
+      <dependency dep="the" dep_index="45" gov="curve" gov_index="47">det</dependency>
+      <dependency dep="glucose-response" dep_index="46" gov="curve" gov_index="47">amod</dependency>
+      <dependency dep="curve" dep_index="47" gov="shift" gov_index="43">prep_of</dependency>
+      <dependency dep="activation" dep_index="49" gov="curve" gov_index="47">prep_for</dependency>
+      <dependency dep="the" dep_index="51" gov="GPI-PLC" gov_index="52">det</dependency>
+      <dependency dep="GPI-PLC" dep_index="52" gov="activation" gov_index="49">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400015" relationship="true">4 5 13 15</relation>
+      <relation position="400030" relationship="true">4 5 18 37 20 34 22 30</relation>
+      <relation position="400052" relationship="false">4 5 18 38 43 47 49 52</relation>
+      <relation position="1500030" relationship="false">15 13 5 18 37 20 34 22 30</relation>
+      <relation position="1500052" relationship="false">15 13 5 18 38 43 47 49 52</relation>
+      <relation position="3000052" relationship="false">30 22 34 20 37 18 38 43 47 49 52</relation>
+   </relations>
+   <pairs>
+      <pair>400030</pair>
+      <pair>400015</pair>
+   </pairs>
+</root>

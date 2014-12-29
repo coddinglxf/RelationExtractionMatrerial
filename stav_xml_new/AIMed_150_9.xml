@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@demonstrate@that@Rb@interacts@specifically@with@a@lineage-restricted@Ets@transcription@factor@.@</sentence>
+   <tags>
+      <tag pos="5">Rb</tag>
+      <tag pos="11">Ets</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Rb</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="7" part-of-speech="RB">specifically</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="JJ">lineage-restricted</taggedword>
+      <taggedword index="11" part-of-speech="NNP">Ets</taggedword>
+      <taggedword index="12" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="13" part-of-speech="NN">factor</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="demonstrate" gov_index="3">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="interacts" gov_index="6">mark</dependency>
+      <dependency dep="Rb" dep_index="5" gov="interacts" gov_index="6">nsubj</dependency>
+      <dependency dep="interacts" dep_index="6" gov="demonstrate" gov_index="3">ccomp</dependency>
+      <dependency dep="specifically" dep_index="7" gov="interacts" gov_index="6">advmod</dependency>
+      <dependency dep="a" dep_index="9" gov="factor" gov_index="13">det</dependency>
+      <dependency dep="lineage-restricted" dep_index="10" gov="factor" gov_index="13">amod</dependency>
+      <dependency dep="Ets" dep_index="11" gov="factor" gov_index="13">nn</dependency>
+      <dependency dep="transcription" dep_index="12" gov="factor" gov_index="13">nn</dependency>
+      <dependency dep="factor" dep_index="13" gov="interacts" gov_index="6">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500011" relationship="false">5 6 13 11</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Plasma@concentrations@of@FSH@,@leptin@,@CCK@,@GAL@,@NPY@and@insulin@were@determined@using@commercial@RIA@kits@</sentence>
+   <tags>
+      <tag pos="6">leptin</tag>
+      <tag pos="12">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Plasma</taggedword>
+      <taggedword index="2" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">FSH</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NNP">leptin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CCK</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NNP">GAL</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NNP">insulin</taggedword>
+      <taggedword index="15" part-of-speech="VBD">were</taggedword>
+      <taggedword index="16" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="17" part-of-speech="VBG">using</taggedword>
+      <taggedword index="18" part-of-speech="JJ">commercial</taggedword>
+      <taggedword index="19" part-of-speech="NNP">RIA</taggedword>
+      <taggedword index="20" part-of-speech="NNS">kits</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Plasma" dep_index="1" gov="concentrations" gov_index="2">nn</dependency>
+      <dependency dep="concentrations" dep_index="2" gov="determined" gov_index="16">nsubjpass</dependency>
+      <dependency dep="FSH" dep_index="4" gov="concentrations" gov_index="2">prep_of</dependency>
+      <dependency dep="leptin" dep_index="6" gov="concentrations" gov_index="2">prep_of</dependency>
+      <dependency dep="leptin" dep_index="6" gov="FSH" gov_index="4">conj_and</dependency>
+      <dependency dep="CCK" dep_index="8" gov="concentrations" gov_index="2">prep_of</dependency>
+      <dependency dep="CCK" dep_index="8" gov="FSH" gov_index="4">conj_and</dependency>
+      <dependency dep="GAL" dep_index="10" gov="concentrations" gov_index="2">prep_of</dependency>
+      <dependency dep="GAL" dep_index="10" gov="FSH" gov_index="4">conj_and</dependency>
+      <dependency dep="NPY" dep_index="12" gov="concentrations" gov_index="2">prep_of</dependency>
+      <dependency dep="NPY" dep_index="12" gov="FSH" gov_index="4">conj_and</dependency>
+      <dependency dep="insulin" dep_index="14" gov="concentrations" gov_index="2">prep_of</dependency>
+      <dependency dep="insulin" dep_index="14" gov="FSH" gov_index="4">conj_and</dependency>
+      <dependency dep="were" dep_index="15" gov="determined" gov_index="16">auxpass</dependency>
+      <dependency dep="determined" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="17" gov="determined" gov_index="16">xcomp</dependency>
+      <dependency dep="commercial" dep_index="18" gov="kits" gov_index="20">amod</dependency>
+      <dependency dep="RIA" dep_index="19" gov="kits" gov_index="20">nn</dependency>
+      <dependency dep="kits" dep_index="20" gov="using" gov_index="17">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600012" relationship="false">6 2 12</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Peptide@sequencing@and@Western@blot@analysis@established@that@the@265-kD@protein@was@CBP@(@CREB-binding protein@),a@recently@identified@transcriptional@coactivator@.@</sentence>
+   <tags>
+      <tag pos="13">CBP</tag>
+      <tag pos="15">CREB-binding protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Peptide</taggedword>
+      <taggedword index="2" part-of-speech="NN">sequencing</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">Western</taggedword>
+      <taggedword index="5" part-of-speech="NN">blot</taggedword>
+      <taggedword index="6" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="7" part-of-speech="VBD">established</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">265-kD</taggedword>
+      <taggedword index="11" part-of-speech="NN">protein</taggedword>
+      <taggedword index="12" part-of-speech="VBD">was</taggedword>
+      <taggedword index="13" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">CREB-binding protein</taggedword>
+      <taggedword index="16" part-of-speech="NNP">),a</taggedword>
+      <taggedword index="17" part-of-speech="RB">recently</taggedword>
+      <taggedword index="18" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="19" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="20" part-of-speech="NN">coactivator</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Peptide" dep_index="1" gov="sequencing" gov_index="2">amod</dependency>
+      <dependency dep="sequencing" dep_index="2" gov="established" gov_index="7">nsubj</dependency>
+      <dependency dep="Western" dep_index="4" gov="analysis" gov_index="6">amod</dependency>
+      <dependency dep="blot" dep_index="5" gov="analysis" gov_index="6">nn</dependency>
+      <dependency dep="analysis" dep_index="6" gov="sequencing" gov_index="2">conj_and</dependency>
+      <dependency dep="analysis" dep_index="6" gov="established" gov_index="7">nsubj</dependency>
+      <dependency dep="established" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="),a" gov_index="16">mark</dependency>
+      <dependency dep="the" dep_index="9" gov="protein" gov_index="11">det</dependency>
+      <dependency dep="265-kD" dep_index="10" gov="protein" gov_index="11">amod</dependency>
+      <dependency dep="protein" dep_index="11" gov="),a" gov_index="16">nsubj</dependency>
+      <dependency dep="was" dep_index="12" gov="),a" gov_index="16">cop</dependency>
+      <dependency dep="CBP" dep_index="13" gov="),a" gov_index="16">nn</dependency>
+      <dependency dep="(" dep_index="14" gov="),a" gov_index="16">nn</dependency>
+      <dependency dep="CREB-binding protein" dep_index="15" gov="),a" gov_index="16">nn</dependency>
+      <dependency dep="),a" dep_index="16" gov="established" gov_index="7">ccomp</dependency>
+      <dependency dep="recently" dep_index="17" gov="identified" gov_index="18">advmod</dependency>
+      <dependency dep="identified" dep_index="18" gov="),a" gov_index="16">partmod</dependency>
+      <dependency dep="transcriptional" dep_index="19" gov="coactivator" gov_index="20">amod</dependency>
+      <dependency dep="coactivator" dep_index="20" gov="identified" gov_index="18">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="false">13 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

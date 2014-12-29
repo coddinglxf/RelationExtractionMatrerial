@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interaction@with@p120(ctn)@is@likely@to@be@direct@,@as@the@interaction@occurs@in@K562@cells@lacking@functional@adherens@junctions@and@E-cadherin@expression@</sentence>
+   <tags>
+      <tag pos="4">p120(ctn)</tag>
+      <tag pos="23">E-cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="CD">p120(ctn)</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="JJ">likely</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="VB">be</taggedword>
+      <taggedword index="9" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="IN">as</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">occurs</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="CD">K562</taggedword>
+      <taggedword index="17" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="18" part-of-speech="VBG">lacking</taggedword>
+      <taggedword index="19" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="20" part-of-speech="JJ">adherens</taggedword>
+      <taggedword index="21" part-of-speech="NNS">junctions</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="JJ">E-cadherin</taggedword>
+      <taggedword index="24" part-of-speech="NN">expression</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interaction" gov_index="2">det</dependency>
+      <dependency dep="interaction" dep_index="2" gov="likely" gov_index="6">nsubj</dependency>
+      <dependency dep="interaction" dep_index="2" gov="direct" gov_index="9">xsubj</dependency>
+      <dependency dep="p120(ctn)" dep_index="4" gov="interaction" gov_index="2">prep_with</dependency>
+      <dependency dep="is" dep_index="5" gov="likely" gov_index="6">cop</dependency>
+      <dependency dep="likely" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="7" gov="direct" gov_index="9">aux</dependency>
+      <dependency dep="be" dep_index="8" gov="direct" gov_index="9">cop</dependency>
+      <dependency dep="direct" dep_index="9" gov="likely" gov_index="6">xcomp</dependency>
+      <dependency dep="as" dep_index="11" gov="occurs" gov_index="14">mark</dependency>
+      <dependency dep="the" dep_index="12" gov="interaction" gov_index="13">det</dependency>
+      <dependency dep="interaction" dep_index="13" gov="occurs" gov_index="14">nsubj</dependency>
+      <dependency dep="occurs" dep_index="14" gov="direct" gov_index="9">advcl</dependency>
+      <dependency dep="K562" dep_index="16" gov="cells" gov_index="17">num</dependency>
+      <dependency dep="cells" dep_index="17" gov="occurs" gov_index="14">prep_in</dependency>
+      <dependency dep="lacking" dep_index="18" gov="cells" gov_index="17">partmod</dependency>
+      <dependency dep="functional" dep_index="19" gov="adherens" gov_index="20">amod</dependency>
+      <dependency dep="adherens" dep_index="20" gov="junctions" gov_index="21">amod</dependency>
+      <dependency dep="junctions" dep_index="21" gov="lacking" gov_index="18">dobj</dependency>
+      <dependency dep="E-cadherin" dep_index="23" gov="expression" gov_index="24">amod</dependency>
+      <dependency dep="expression" dep_index="24" gov="lacking" gov_index="18">dobj</dependency>
+      <dependency dep="expression" dep_index="24" gov="junctions" gov_index="21">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400023" relationship="false">4 2 9 14 17 18 24 23</relation>
+   </relations>
+   <pairs/>
+</root>

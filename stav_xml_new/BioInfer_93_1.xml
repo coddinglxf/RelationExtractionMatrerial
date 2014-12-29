@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Because@histone@H3@shares@many@structural@features@with@histone@H4@and@is@intimately@associated@with@H4@in@the@assembled@nucleosome@,@we@asked@whether@H3@has@similar@functions@.@</sentence>
+   <tags>
+      <tag pos="25">H3</tag>
+      <tag pos="10">H4</tag>
+      <tag pos="2">histone</tag>
+      <tag pos="16">H4</tag>
+      <tag pos="9">histone</tag>
+      <tag pos="3">H3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Because</taggedword>
+      <taggedword index="2" part-of-speech="NNP">histone</taggedword>
+      <taggedword index="3" part-of-speech="NNP">H3</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">shares</taggedword>
+      <taggedword index="5" part-of-speech="JJ">many</taggedword>
+      <taggedword index="6" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="7" part-of-speech="NNS">features</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="JJ">histone</taggedword>
+      <taggedword index="10" part-of-speech="NN">H4</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="RB">intimately</taggedword>
+      <taggedword index="14" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="NNP">H4</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="VBN">assembled</taggedword>
+      <taggedword index="20" part-of-speech="NN">nucleosome</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="PRP">we</taggedword>
+      <taggedword index="23" part-of-speech="VBD">asked</taggedword>
+      <taggedword index="24" part-of-speech="IN">whether</taggedword>
+      <taggedword index="25" part-of-speech="NNP">H3</taggedword>
+      <taggedword index="26" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="27" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="28" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Because" dep_index="1" gov="shares" gov_index="4">mark</dependency>
+      <dependency dep="histone" dep_index="2" gov="H3" gov_index="3">nn</dependency>
+      <dependency dep="H3" dep_index="3" gov="shares" gov_index="4">nsubj</dependency>
+      <dependency dep="H3" dep_index="3" gov="associated" gov_index="14">nsubjpass</dependency>
+      <dependency dep="shares" dep_index="4" gov="asked" gov_index="23">advcl</dependency>
+      <dependency dep="many" dep_index="5" gov="features" gov_index="7">amod</dependency>
+      <dependency dep="structural" dep_index="6" gov="features" gov_index="7">amod</dependency>
+      <dependency dep="features" dep_index="7" gov="shares" gov_index="4">dobj</dependency>
+      <dependency dep="histone" dep_index="9" gov="H4" gov_index="10">amod</dependency>
+      <dependency dep="H4" dep_index="10" gov="shares" gov_index="4">prep_with</dependency>
+      <dependency dep="is" dep_index="12" gov="associated" gov_index="14">auxpass</dependency>
+      <dependency dep="intimately" dep_index="13" gov="associated" gov_index="14">advmod</dependency>
+      <dependency dep="associated" dep_index="14" gov="shares" gov_index="4">conj_and</dependency>
+      <dependency dep="associated" dep_index="14" gov="asked" gov_index="23">advcl</dependency>
+      <dependency dep="H4" dep_index="16" gov="associated" gov_index="14">prep_with</dependency>
+      <dependency dep="the" dep_index="18" gov="nucleosome" gov_index="20">det</dependency>
+      <dependency dep="assembled" dep_index="19" gov="nucleosome" gov_index="20">amod</dependency>
+      <dependency dep="nucleosome" dep_index="20" gov="associated" gov_index="14">prep_in</dependency>
+      <dependency dep="we" dep_index="22" gov="asked" gov_index="23">nsubj</dependency>
+      <dependency dep="asked" dep_index="23" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="whether" dep_index="24" gov="has" gov_index="26">mark</dependency>
+      <dependency dep="H3" dep_index="25" gov="has" gov_index="26">nsubj</dependency>
+      <dependency dep="has" dep_index="26" gov="asked" gov_index="23">ccomp</dependency>
+      <dependency dep="similar" dep_index="27" gov="functions" gov_index="28">amod</dependency>
+      <dependency dep="functions" dep_index="28" gov="has" gov_index="26">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000025" relationship="false">10 4 23 26 25</relation>
+      <relation position="200025" relationship="false">2 3 4 23 26 25</relation>
+      <relation position="1600025" relationship="false">16 14 23 26 25</relation>
+      <relation position="900025" relationship="false">9 10 4 23 26 25</relation>
+      <relation position="300025" relationship="false">3 4 23 26 25</relation>
+      <relation position="200010" relationship="false">2 3 4 10</relation>
+      <relation position="1000016" relationship="false">10 4 23 14 16</relation>
+      <relation position="900010" relationship="true"></relation>
+      <relation position="300010" relationship="true">3 4 10</relation>
+      <relation position="200016" relationship="false">2 3 14 16</relation>
+      <relation position="200009" relationship="false">2 3 4 10 9</relation>
+      <relation position="200003" relationship="true"></relation>
+      <relation position="900016" relationship="false">9 10 4 23 14 16</relation>
+      <relation position="300016" relationship="true">3 14 16</relation>
+      <relation position="300009" relationship="false">3 4 10 9</relation>
+   </relations>
+   <pairs>
+      <pair>900010</pair>
+      <pair>300016</pair>
+      <pair>200003</pair>
+      <pair>300010</pair>
+   </pairs>
+</root>

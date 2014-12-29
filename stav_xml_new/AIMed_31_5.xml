@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@open@reading@frame@of@TR6@encodes@300@amino@acids@with@a@29-residue@signal@sequence@but@no@transmembrane@region@.@</sentence>
+   <tags>
+      <tag pos="6">TR6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">open</taggedword>
+      <taggedword index="3" part-of-speech="NN">reading</taggedword>
+      <taggedword index="4" part-of-speech="NN">frame</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">TR6</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">encodes</taggedword>
+      <taggedword index="8" part-of-speech="CD">300</taggedword>
+      <taggedword index="9" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="10" part-of-speech="NNS">acids</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">29-residue</taggedword>
+      <taggedword index="14" part-of-speech="NN">signal</taggedword>
+      <taggedword index="15" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="16" part-of-speech="CC">but</taggedword>
+      <taggedword index="17" part-of-speech="DT">no</taggedword>
+      <taggedword index="18" part-of-speech="JJ">transmembrane</taggedword>
+      <taggedword index="19" part-of-speech="NN">region</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="frame" gov_index="4">det</dependency>
+      <dependency dep="open" dep_index="2" gov="frame" gov_index="4">amod</dependency>
+      <dependency dep="reading" dep_index="3" gov="frame" gov_index="4">nn</dependency>
+      <dependency dep="frame" dep_index="4" gov="encodes" gov_index="7">nsubj</dependency>
+      <dependency dep="TR6" dep_index="6" gov="frame" gov_index="4">prep_of</dependency>
+      <dependency dep="encodes" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="300" dep_index="8" gov="acids" gov_index="10">num</dependency>
+      <dependency dep="amino" dep_index="9" gov="acids" gov_index="10">amod</dependency>
+      <dependency dep="acids" dep_index="10" gov="encodes" gov_index="7">dobj</dependency>
+      <dependency dep="a" dep_index="12" gov="sequence" gov_index="15">det</dependency>
+      <dependency dep="29-residue" dep_index="13" gov="sequence" gov_index="15">amod</dependency>
+      <dependency dep="signal" dep_index="14" gov="sequence" gov_index="15">nn</dependency>
+      <dependency dep="sequence" dep_index="15" gov="encodes" gov_index="7">prep_with</dependency>
+      <dependency dep="but" dep_index="16" gov="sequence" gov_index="15">prep</dependency>
+      <dependency dep="no" dep_index="17" gov="region" gov_index="19">det</dependency>
+      <dependency dep="transmembrane" dep_index="18" gov="region" gov_index="19">amod</dependency>
+      <dependency dep="region" dep_index="19" gov="but" gov_index="16">dep</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

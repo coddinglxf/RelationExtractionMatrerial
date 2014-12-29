@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Molecular@cloning@and@primary@structure@analysis@demonstrated@that@alpha-catenin@is@homologous@to@vinculin@and@the@beta-catenin@is@homologous@to@human@plakoglobin@and@the@Drosophila@gene@product@armadillo@.@</sentence>
+   <tags>
+      <tag pos="21">plakoglobin</tag>
+      <tag pos="27">armadillo</tag>
+      <tag pos="13">vinculin</tag>
+      <tag pos="16">beta-catenin</tag>
+      <tag pos="9">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Molecular</taggedword>
+      <taggedword index="2" part-of-speech="NN">cloning</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="5" part-of-speech="NN">structure</taggedword>
+      <taggedword index="6" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="7" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="JJ">homologous</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">vinculin</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="18" part-of-speech="JJ">homologous</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="JJ">human</taggedword>
+      <taggedword index="21" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NNP">Drosophila</taggedword>
+      <taggedword index="25" part-of-speech="NN">gene</taggedword>
+      <taggedword index="26" part-of-speech="NN">product</taggedword>
+      <taggedword index="27" part-of-speech="NN">armadillo</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Molecular" dep_index="1" gov="cloning" gov_index="2">amod</dependency>
+      <dependency dep="cloning" dep_index="2" gov="demonstrated" gov_index="7">nsubj</dependency>
+      <dependency dep="primary" dep_index="4" gov="analysis" gov_index="6">amod</dependency>
+      <dependency dep="structure" dep_index="5" gov="analysis" gov_index="6">nn</dependency>
+      <dependency dep="analysis" dep_index="6" gov="cloning" gov_index="2">conj_and</dependency>
+      <dependency dep="analysis" dep_index="6" gov="demonstrated" gov_index="7">nsubj</dependency>
+      <dependency dep="demonstrated" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="homologous" gov_index="11">mark</dependency>
+      <dependency dep="alpha-catenin" dep_index="9" gov="homologous" gov_index="11">nsubj</dependency>
+      <dependency dep="alpha-catenin" dep_index="9" gov="vinculin" gov_index="13">xsubj</dependency>
+      <dependency dep="is" dep_index="10" gov="homologous" gov_index="11">cop</dependency>
+      <dependency dep="homologous" dep_index="11" gov="demonstrated" gov_index="7">ccomp</dependency>
+      <dependency dep="to" dep_index="12" gov="vinculin" gov_index="13">aux</dependency>
+      <dependency dep="vinculin" dep_index="13" gov="homologous" gov_index="11">xcomp</dependency>
+      <dependency dep="the" dep_index="15" gov="beta-catenin" gov_index="16">det</dependency>
+      <dependency dep="beta-catenin" dep_index="16" gov="homologous" gov_index="18">nsubj</dependency>
+      <dependency dep="is" dep_index="17" gov="homologous" gov_index="18">cop</dependency>
+      <dependency dep="homologous" dep_index="18" gov="demonstrated" gov_index="7">ccomp</dependency>
+      <dependency dep="homologous" dep_index="18" gov="homologous" gov_index="11">conj_and</dependency>
+      <dependency dep="human" dep_index="20" gov="plakoglobin" gov_index="21">amod</dependency>
+      <dependency dep="plakoglobin" dep_index="21" gov="homologous" gov_index="18">prep_to</dependency>
+      <dependency dep="the" dep_index="23" gov="armadillo" gov_index="27">det</dependency>
+      <dependency dep="Drosophila" dep_index="24" gov="armadillo" gov_index="27">nn</dependency>
+      <dependency dep="gene" dep_index="25" gov="armadillo" gov_index="27">nn</dependency>
+      <dependency dep="product" dep_index="26" gov="armadillo" gov_index="27">nn</dependency>
+      <dependency dep="armadillo" dep_index="27" gov="homologous" gov_index="18">prep_to</dependency>
+      <dependency dep="armadillo" dep_index="27" gov="plakoglobin" gov_index="21">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2100027" relationship="false">21 18 27</relation>
+      <relation position="1300021" relationship="false">13 11 7 18 21</relation>
+      <relation position="1600021" relationship="true">16 18 21</relation>
+      <relation position="900021" relationship="false">9 11 7 18 21</relation>
+      <relation position="1300027" relationship="false">13 11 7 18 27</relation>
+      <relation position="1600027" relationship="true">16 18 27</relation>
+      <relation position="900027" relationship="false">9 11 7 18 27</relation>
+      <relation position="1300016" relationship="false">13 11 7 18 16</relation>
+      <relation position="900013" relationship="true">9 11 13</relation>
+      <relation position="900016" relationship="false">9 11 7 18 16</relation>
+   </relations>
+   <pairs>
+      <pair>1600027</pair>
+      <pair>900013</pair>
+      <pair>1600021</pair>
+   </pairs>
+</root>

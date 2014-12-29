@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@difference@in@potency@is@significantly@less@pronounced@when@measured@in@the@murine@7TD1@hybridoma@growth@factor@assay@and@the@human@hepatoma@HepG2@bioassay@due@to@time-dependent@dissociation@at@37@degrees@C@of@IL-6@dimers@into@active@monomers@.@</sentence>
+   <tags>
+      <tag pos="34">IL-6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">difference</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NN">potency</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="7" part-of-speech="RBR">less</taggedword>
+      <taggedword index="8" part-of-speech="JJ">pronounced</taggedword>
+      <taggedword index="9" part-of-speech="WRB">when</taggedword>
+      <taggedword index="10" part-of-speech="VBN">measured</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">murine</taggedword>
+      <taggedword index="14" part-of-speech="CD">7TD1</taggedword>
+      <taggedword index="15" part-of-speech="NN">hybridoma</taggedword>
+      <taggedword index="16" part-of-speech="NN">growth</taggedword>
+      <taggedword index="17" part-of-speech="NN">factor</taggedword>
+      <taggedword index="18" part-of-speech="NN">assay</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">human</taggedword>
+      <taggedword index="22" part-of-speech="NN">hepatoma</taggedword>
+      <taggedword index="23" part-of-speech="NNS">HepG2</taggedword>
+      <taggedword index="24" part-of-speech="RB">bioassay</taggedword>
+      <taggedword index="25" part-of-speech="JJ">due</taggedword>
+      <taggedword index="26" part-of-speech="TO">to</taggedword>
+      <taggedword index="27" part-of-speech="JJ">time-dependent</taggedword>
+      <taggedword index="28" part-of-speech="NN">dissociation</taggedword>
+      <taggedword index="29" part-of-speech="IN">at</taggedword>
+      <taggedword index="30" part-of-speech="CD">37</taggedword>
+      <taggedword index="31" part-of-speech="NNS">degrees</taggedword>
+      <taggedword index="32" part-of-speech="NNP">C</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="35" part-of-speech="NNS">dimers</taggedword>
+      <taggedword index="36" part-of-speech="IN">into</taggedword>
+      <taggedword index="37" part-of-speech="JJ">active</taggedword>
+      <taggedword index="38" part-of-speech="NNS">monomers</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="difference" gov_index="2">det</dependency>
+      <dependency dep="difference" dep_index="2" gov="pronounced" gov_index="8">nsubj</dependency>
+      <dependency dep="potency" dep_index="4" gov="difference" gov_index="2">prep_in</dependency>
+      <dependency dep="is" dep_index="5" gov="pronounced" gov_index="8">cop</dependency>
+      <dependency dep="significantly" dep_index="6" gov="pronounced" gov_index="8">advmod</dependency>
+      <dependency dep="less" dep_index="7" gov="pronounced" gov_index="8">advmod</dependency>
+      <dependency dep="pronounced" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="when" dep_index="9" gov="measured" gov_index="10">advmod</dependency>
+      <dependency dep="measured" dep_index="10" gov="pronounced" gov_index="8">advcl</dependency>
+      <dependency dep="the" dep_index="12" gov="assay" gov_index="18">det</dependency>
+      <dependency dep="murine" dep_index="13" gov="assay" gov_index="18">amod</dependency>
+      <dependency dep="7TD1" dep_index="14" gov="murine" gov_index="13">tmod</dependency>
+      <dependency dep="hybridoma" dep_index="15" gov="assay" gov_index="18">nn</dependency>
+      <dependency dep="growth" dep_index="16" gov="assay" gov_index="18">nn</dependency>
+      <dependency dep="factor" dep_index="17" gov="assay" gov_index="18">nn</dependency>
+      <dependency dep="assay" dep_index="18" gov="measured" gov_index="10">prep_in</dependency>
+      <dependency dep="the" dep_index="20" gov="HepG2" gov_index="23">det</dependency>
+      <dependency dep="human" dep_index="21" gov="HepG2" gov_index="23">amod</dependency>
+      <dependency dep="hepatoma" dep_index="22" gov="HepG2" gov_index="23">nn</dependency>
+      <dependency dep="HepG2" dep_index="23" gov="measured" gov_index="10">prep_in</dependency>
+      <dependency dep="HepG2" dep_index="23" gov="assay" gov_index="18">conj_and</dependency>
+      <dependency dep="bioassay" dep_index="24" gov="HepG2" gov_index="23">advmod</dependency>
+      <dependency dep="time-dependent" dep_index="27" gov="dissociation" gov_index="28">amod</dependency>
+      <dependency dep="dissociation" dep_index="28" gov="HepG2" gov_index="23">prep_due_to</dependency>
+      <dependency dep="at" dep_index="29" gov="HepG2" gov_index="23">advmod</dependency>
+      <dependency dep="37" dep_index="30" gov="degrees" gov_index="31">num</dependency>
+      <dependency dep="degrees" dep_index="31" gov="at" gov_index="29">pobj</dependency>
+      <dependency dep="C" dep_index="32" gov="HepG2" gov_index="23">dep</dependency>
+      <dependency dep="IL-6" dep_index="34" gov="dimers" gov_index="35">nn</dependency>
+      <dependency dep="dimers" dep_index="35" gov="C" gov_index="32">prep_of</dependency>
+      <dependency dep="active" dep_index="37" gov="monomers" gov_index="38">amod</dependency>
+      <dependency dep="monomers" dep_index="38" gov="measured" gov_index="10">prep_into</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Aip1p@interacts@with@cofilin@to@disassemble@actin@filaments@.@</sentence>
+   <tags>
+      <tag pos="1">Aip1p</tag>
+      <tag pos="7">actin</tag>
+      <tag pos="4">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Aip1p</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="VB">disassemble</taggedword>
+      <taggedword index="7" part-of-speech="NN">actin</taggedword>
+      <taggedword index="8" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="9" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Aip1p" dep_index="1" gov="interacts" gov_index="2">nsubj</dependency>
+      <dependency dep="Aip1p" dep_index="1" gov="disassemble" gov_index="6">xsubj</dependency>
+      <dependency dep="interacts" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cofilin" dep_index="4" gov="interacts" gov_index="2">prep_with</dependency>
+      <dependency dep="to" dep_index="5" gov="disassemble" gov_index="6">aux</dependency>
+      <dependency dep="disassemble" dep_index="6" gov="interacts" gov_index="2">xcomp</dependency>
+      <dependency dep="actin" dep_index="7" gov="disassemble" gov_index="6">iobj</dependency>
+      <dependency dep="filaments" dep_index="8" gov="disassemble" gov_index="6">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="true">1 6 7</relation>
+      <relation position="100004" relationship="true">1 2 4</relation>
+      <relation position="400007" relationship="true">4 2 6 7</relation>
+   </relations>
+   <pairs>
+      <pair>100007</pair>
+      <pair>100004</pair>
+      <pair>400007</pair>
+   </pairs>
+</root>

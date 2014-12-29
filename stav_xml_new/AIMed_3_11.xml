@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Analysis@of@p53@,@p21@(@CIP1@),@p15@(@INK4b@),@p16@(@INK4a@),@and@p57@(@KIP2@)@reveals@altered@expression@in@immortalized@,@non-tumorigenic@HPV16@E6@and@E7@prostate@lines@and@in@tumorigenic@prostate@cancer@cells@.@</sentence>
+   <tags>
+      <tag pos="3">p53</tag>
+      <tag pos="5">p21</tag>
+      <tag pos="7">CIP1</tag>
+      <tag pos="9">p15</tag>
+      <tag pos="11">INK4b</tag>
+      <tag pos="13">p16</tag>
+      <tag pos="15">INK4a</tag>
+      <tag pos="18">p57</tag>
+      <tag pos="20">KIP2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Analysis</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">p53</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="JJ">p21</taggedword>
+      <taggedword index="6" part-of-speech="NNP">(</taggedword>
+      <taggedword index="7" part-of-speech="NNP">CIP1</taggedword>
+      <taggedword index="8" part-of-speech="NNP">),</taggedword>
+      <taggedword index="9" part-of-speech="JJ">p15</taggedword>
+      <taggedword index="10" part-of-speech="NN">(</taggedword>
+      <taggedword index="11" part-of-speech="NNS">INK4b</taggedword>
+      <taggedword index="12" part-of-speech="NNP">),</taggedword>
+      <taggedword index="13" part-of-speech="NNPS">p16</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">INK4a</taggedword>
+      <taggedword index="16" part-of-speech="NNP">),</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNP">p57</taggedword>
+      <taggedword index="19" part-of-speech="NNP">(</taggedword>
+      <taggedword index="20" part-of-speech="NNP">KIP2</taggedword>
+      <taggedword index="21" part-of-speech="NNP">)</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">reveals</taggedword>
+      <taggedword index="23" part-of-speech="JJ">altered</taggedword>
+      <taggedword index="24" part-of-speech="NN">expression</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="JJ">immortalized</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="JJ">non-tumorigenic</taggedword>
+      <taggedword index="29" part-of-speech="NN">HPV16</taggedword>
+      <taggedword index="30" part-of-speech="NNP">E6</taggedword>
+      <taggedword index="31" part-of-speech="CC">and</taggedword>
+      <taggedword index="32" part-of-speech="NNP">E7</taggedword>
+      <taggedword index="33" part-of-speech="NN">prostate</taggedword>
+      <taggedword index="34" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="IN">in</taggedword>
+      <taggedword index="37" part-of-speech="JJ">tumorigenic</taggedword>
+      <taggedword index="38" part-of-speech="NN">prostate</taggedword>
+      <taggedword index="39" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="40" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Analysis" dep_index="1" gov="reveals" gov_index="22">nsubj</dependency>
+      <dependency dep="p53" dep_index="3" gov="Analysis" gov_index="1">prep_of</dependency>
+      <dependency dep="p21" dep_index="5" gov=")," gov_index="16">amod</dependency>
+      <dependency dep="(" dep_index="6" gov=")," gov_index="16">nn</dependency>
+      <dependency dep="CIP1" dep_index="7" gov=")," gov_index="16">nn</dependency>
+      <dependency dep=")," dep_index="8" gov=")," gov_index="16">nn</dependency>
+      <dependency dep="p15" dep_index="9" gov=")," gov_index="16">amod</dependency>
+      <dependency dep="(" dep_index="10" gov=")," gov_index="16">nn</dependency>
+      <dependency dep="INK4b" dep_index="11" gov=")," gov_index="16">nn</dependency>
+      <dependency dep=")," dep_index="12" gov=")," gov_index="16">nn</dependency>
+      <dependency dep="p16" dep_index="13" gov=")," gov_index="16">nn</dependency>
+      <dependency dep="(" dep_index="14" gov=")," gov_index="16">nn</dependency>
+      <dependency dep="INK4a" dep_index="15" gov=")," gov_index="16">nn</dependency>
+      <dependency dep=")," dep_index="16" gov="Analysis" gov_index="1">prep_of</dependency>
+      <dependency dep=")," dep_index="16" gov="p53" gov_index="3">conj_and</dependency>
+      <dependency dep="p57" dep_index="18" gov=")" gov_index="21">nn</dependency>
+      <dependency dep="(" dep_index="19" gov=")" gov_index="21">nn</dependency>
+      <dependency dep="KIP2" dep_index="20" gov=")" gov_index="21">nn</dependency>
+      <dependency dep=")" dep_index="21" gov="Analysis" gov_index="1">prep_of</dependency>
+      <dependency dep=")" dep_index="21" gov="p53" gov_index="3">conj_and</dependency>
+      <dependency dep="reveals" dep_index="22" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="altered" dep_index="23" gov="expression" gov_index="24">amod</dependency>
+      <dependency dep="expression" dep_index="24" gov="reveals" gov_index="22">dobj</dependency>
+      <dependency dep="immortalized" dep_index="26" gov="E6" gov_index="30">amod</dependency>
+      <dependency dep="non-tumorigenic" dep_index="28" gov="E6" gov_index="30">amod</dependency>
+      <dependency dep="HPV16" dep_index="29" gov="E6" gov_index="30">nn</dependency>
+      <dependency dep="E6" dep_index="30" gov="reveals" gov_index="22">prep_in</dependency>
+      <dependency dep="E7" dep_index="32" gov="lines" gov_index="34">nn</dependency>
+      <dependency dep="prostate" dep_index="33" gov="lines" gov_index="34">nn</dependency>
+      <dependency dep="lines" dep_index="34" gov="reveals" gov_index="22">prep_in</dependency>
+      <dependency dep="lines" dep_index="34" gov="E6" gov_index="30">conj_and</dependency>
+      <dependency dep="tumorigenic" dep_index="37" gov="cells" gov_index="40">amod</dependency>
+      <dependency dep="prostate" dep_index="38" gov="cells" gov_index="40">nn</dependency>
+      <dependency dep="cancer" dep_index="39" gov="cells" gov_index="40">nn</dependency>
+      <dependency dep="cells" dep_index="40" gov="reveals" gov_index="22">prep_in</dependency>
+      <dependency dep="cells" dep_index="40" gov="E6" gov_index="30">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="false">3 1 16 5</relation>
+      <relation position="300007" relationship="false">3 1 16 7</relation>
+      <relation position="300009" relationship="false">3 1 16 9</relation>
+      <relation position="300011" relationship="false">3 1 16 11</relation>
+      <relation position="300013" relationship="false">3 1 16 13</relation>
+      <relation position="300015" relationship="false">3 1 16 15</relation>
+      <relation position="300018" relationship="false">3 1 21 18</relation>
+      <relation position="300020" relationship="false">3 1 21 20</relation>
+      <relation position="500007" relationship="false">5 16 7</relation>
+      <relation position="500009" relationship="false">5 16 9</relation>
+      <relation position="500011" relationship="false">5 16 11</relation>
+      <relation position="500013" relationship="false">5 16 13</relation>
+      <relation position="500015" relationship="false">5 16 15</relation>
+      <relation position="500018" relationship="false">5 16 1 21 18</relation>
+      <relation position="500020" relationship="false">5 16 1 21 20</relation>
+      <relation position="700009" relationship="false">7 16 9</relation>
+      <relation position="700011" relationship="false">7 16 11</relation>
+      <relation position="700013" relationship="false">7 16 13</relation>
+      <relation position="700015" relationship="false">7 16 15</relation>
+      <relation position="700018" relationship="false">7 16 1 21 18</relation>
+      <relation position="700020" relationship="false">7 16 1 21 20</relation>
+      <relation position="900011" relationship="false">9 16 11</relation>
+      <relation position="900013" relationship="false">9 16 13</relation>
+      <relation position="900015" relationship="false">9 16 15</relation>
+      <relation position="900018" relationship="false">9 16 1 21 18</relation>
+      <relation position="900020" relationship="false">9 16 1 21 20</relation>
+      <relation position="1100013" relationship="false">11 16 13</relation>
+      <relation position="1100015" relationship="false">11 16 15</relation>
+      <relation position="1100018" relationship="false">11 16 1 21 18</relation>
+      <relation position="1100020" relationship="false">11 16 1 21 20</relation>
+      <relation position="1300015" relationship="false">13 16 15</relation>
+      <relation position="1300018" relationship="false">13 16 1 21 18</relation>
+      <relation position="1300020" relationship="false">13 16 1 21 20</relation>
+      <relation position="1500018" relationship="false">15 16 1 21 18</relation>
+      <relation position="1500020" relationship="false">15 16 1 21 20</relation>
+      <relation position="1800020" relationship="false">18 21 20</relation>
+   </relations>
+   <pairs/>
+</root>

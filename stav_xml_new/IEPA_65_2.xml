@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>AVP@induced@a@biphasic@increase@in@diacylglycerol@generation@,@characterized@by@an@initial@rapid@rise@and@then@a@sustained@elevation@,@and@PKC@activation@,@reflected@by@phosphorylation@of@a@specific@80@kDa@myristoylated@alanine-rich@PKC@substrate@(MARCKS)@</sentence>
+   <tags>
+      <tag pos="1">AVP</tag>
+      <tag pos="23">PKC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="2" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">biphasic</taggedword>
+      <taggedword index="5" part-of-speech="NN">increase</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">diacylglycerol</taggedword>
+      <taggedword index="8" part-of-speech="NN">generation</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="DT">an</taggedword>
+      <taggedword index="13" part-of-speech="JJ">initial</taggedword>
+      <taggedword index="14" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="15" part-of-speech="NN">rise</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="RB">then</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">sustained</taggedword>
+      <taggedword index="20" part-of-speech="NN">elevation</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="24" part-of-speech="NNP">activation</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="VBN">reflected</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="DT">a</taggedword>
+      <taggedword index="31" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="32" part-of-speech="CD">80</taggedword>
+      <taggedword index="33" part-of-speech="NNS">kDa</taggedword>
+      <taggedword index="34" part-of-speech="VBD">myristoylated</taggedword>
+      <taggedword index="35" part-of-speech="JJ">alanine-rich</taggedword>
+      <taggedword index="36" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="37" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="38" part-of-speech="NNS">(MARCKS)</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="AVP" dep_index="1" gov="myristoylated" gov_index="34">nsubj</dependency>
+      <dependency dep="induced" dep_index="2" gov="AVP" gov_index="1">dep</dependency>
+      <dependency dep="a" dep_index="3" gov="increase" gov_index="5">det</dependency>
+      <dependency dep="biphasic" dep_index="4" gov="increase" gov_index="5">amod</dependency>
+      <dependency dep="increase" dep_index="5" gov="induced" gov_index="2">dobj</dependency>
+      <dependency dep="diacylglycerol" dep_index="7" gov="generation" gov_index="8">amod</dependency>
+      <dependency dep="generation" dep_index="8" gov="increase" gov_index="5">prep_in</dependency>
+      <dependency dep="characterized" dep_index="10" gov="AVP" gov_index="1">dep</dependency>
+      <dependency dep="characterized" dep_index="10" gov="induced" gov_index="2">conj_and</dependency>
+      <dependency dep="an" dep_index="12" gov="rise" gov_index="15">det</dependency>
+      <dependency dep="initial" dep_index="13" gov="rise" gov_index="15">amod</dependency>
+      <dependency dep="rapid" dep_index="14" gov="rise" gov_index="15">amod</dependency>
+      <dependency dep="rise" dep_index="15" gov="characterized" gov_index="10">prep_by</dependency>
+      <dependency dep="then" dep_index="17" gov="reflected" gov_index="26">advmod</dependency>
+      <dependency dep="a" dep_index="18" gov="elevation" gov_index="20">det</dependency>
+      <dependency dep="sustained" dep_index="19" gov="elevation" gov_index="20">amod</dependency>
+      <dependency dep="elevation" dep_index="20" gov="then" gov_index="17">pobj</dependency>
+      <dependency dep="PKC" dep_index="23" gov="activation" gov_index="24">nn</dependency>
+      <dependency dep="activation" dep_index="24" gov="then" gov_index="17">pobj</dependency>
+      <dependency dep="activation" dep_index="24" gov="elevation" gov_index="20">conj_and</dependency>
+      <dependency dep="reflected" dep_index="26" gov="AVP" gov_index="1">dep</dependency>
+      <dependency dep="reflected" dep_index="26" gov="induced" gov_index="2">conj_and</dependency>
+      <dependency dep="phosphorylation" dep_index="28" gov="reflected" gov_index="26">prep_by</dependency>
+      <dependency dep="a" dep_index="30" gov="kDa" gov_index="33">det</dependency>
+      <dependency dep="specific" dep_index="31" gov="kDa" gov_index="33">amod</dependency>
+      <dependency dep="80" dep_index="32" gov="kDa" gov_index="33">num</dependency>
+      <dependency dep="kDa" dep_index="33" gov="phosphorylation" gov_index="28">prep_of</dependency>
+      <dependency dep="myristoylated" dep_index="34" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="alanine-rich" dep_index="35" gov="(MARCKS)" gov_index="38">amod</dependency>
+      <dependency dep="PKC" dep_index="36" gov="(MARCKS)" gov_index="38">nn</dependency>
+      <dependency dep="substrate" dep_index="37" gov="(MARCKS)" gov_index="38">nn</dependency>
+      <dependency dep="(MARCKS)" dep_index="38" gov="myristoylated" gov_index="34">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100023" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>100023</pair>
+   </pairs>
+</root>

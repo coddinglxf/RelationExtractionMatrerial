@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Subsequent@high@performance@liquid@chromatography@and@SDS-polyacrylamide@gel@electrophoresis@analysis@indicated@fibrinogen B beta chain@bound@specifically@to@a@60-kDa@surface@protein@.@</sentence>
+   <tags>
+      <tag pos="12">fibrinogen B beta chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Subsequent</taggedword>
+      <taggedword index="2" part-of-speech="JJ">high</taggedword>
+      <taggedword index="3" part-of-speech="NN">performance</taggedword>
+      <taggedword index="4" part-of-speech="JJ">liquid</taggedword>
+      <taggedword index="5" part-of-speech="NN">chromatography</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="JJ">SDS-polyacrylamide</taggedword>
+      <taggedword index="8" part-of-speech="NN">gel</taggedword>
+      <taggedword index="9" part-of-speech="NNS">electrophoresis</taggedword>
+      <taggedword index="10" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="11" part-of-speech="VBD">indicated</taggedword>
+      <taggedword index="12" part-of-speech="NN">fibrinogen B beta chain</taggedword>
+      <taggedword index="13" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="14" part-of-speech="RB">specifically</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="JJ">60-kDa</taggedword>
+      <taggedword index="18" part-of-speech="NN">surface</taggedword>
+      <taggedword index="19" part-of-speech="NN">protein</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Subsequent" dep_index="1" gov="chromatography" gov_index="5">amod</dependency>
+      <dependency dep="high" dep_index="2" gov="chromatography" gov_index="5">amod</dependency>
+      <dependency dep="performance" dep_index="3" gov="chromatography" gov_index="5">nn</dependency>
+      <dependency dep="liquid" dep_index="4" gov="chromatography" gov_index="5">amod</dependency>
+      <dependency dep="chromatography" dep_index="5" gov="indicated" gov_index="11">nsubj</dependency>
+      <dependency dep="SDS-polyacrylamide" dep_index="7" gov="electrophoresis" gov_index="9">amod</dependency>
+      <dependency dep="gel" dep_index="8" gov="electrophoresis" gov_index="9">nn</dependency>
+      <dependency dep="electrophoresis" dep_index="9" gov="chromatography" gov_index="5">conj_and</dependency>
+      <dependency dep="electrophoresis" dep_index="9" gov="indicated" gov_index="11">nsubj</dependency>
+      <dependency dep="analysis" dep_index="10" gov="chromatography" gov_index="5">dep</dependency>
+      <dependency dep="indicated" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="fibrinogen B beta chain" dep_index="12" gov="indicated" gov_index="11">dobj</dependency>
+      <dependency dep="bound" dep_index="13" gov="fibrinogen B beta chain" gov_index="12">partmod</dependency>
+      <dependency dep="specifically" dep_index="14" gov="bound" gov_index="13">advmod</dependency>
+      <dependency dep="a" dep_index="16" gov="protein" gov_index="19">det</dependency>
+      <dependency dep="60-kDa" dep_index="17" gov="protein" gov_index="19">amod</dependency>
+      <dependency dep="surface" dep_index="18" gov="protein" gov_index="19">nn</dependency>
+      <dependency dep="protein" dep_index="19" gov="bound" gov_index="13">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@show@that@the@C-terminal@actin@-binding@site@is@distinct@from@the@region@recognized@by@the@anti-functional@antibody@TD77@,@raising@the@possibility@that@it@binds@to@a@novel@functionally@important@ligand-binding@site@in@the@talin@molecule@.@</sentence>
+   <tags>
+      <tag pos="37">talin</tag>
+      <tag pos="20">TD77</tag>
+      <tag pos="7">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">show</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NNP">C-terminal</taggedword>
+      <taggedword index="7" part-of-speech="NN">actin</taggedword>
+      <taggedword index="8" part-of-speech="NN">-binding</taggedword>
+      <taggedword index="9" part-of-speech="NN">site</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="12" part-of-speech="IN">from</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">region</taggedword>
+      <taggedword index="15" part-of-speech="VBN">recognized</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">anti-functional</taggedword>
+      <taggedword index="19" part-of-speech="NN">antibody</taggedword>
+      <taggedword index="20" part-of-speech="NN">TD77</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="VBG">raising</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">possibility</taggedword>
+      <taggedword index="25" part-of-speech="IN">that</taggedword>
+      <taggedword index="26" part-of-speech="PRP">it</taggedword>
+      <taggedword index="27" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="DT">a</taggedword>
+      <taggedword index="30" part-of-speech="JJ">novel</taggedword>
+      <taggedword index="31" part-of-speech="RB">functionally</taggedword>
+      <taggedword index="32" part-of-speech="JJ">important</taggedword>
+      <taggedword index="33" part-of-speech="JJ">ligand-binding</taggedword>
+      <taggedword index="34" part-of-speech="NN">site</taggedword>
+      <taggedword index="35" part-of-speech="IN">in</taggedword>
+      <taggedword index="36" part-of-speech="DT">the</taggedword>
+      <taggedword index="37" part-of-speech="NN">talin</taggedword>
+      <taggedword index="38" part-of-speech="NN">molecule</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="show" gov_index="3">nsubj</dependency>
+      <dependency dep="show" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="distinct" gov_index="11">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="site" gov_index="9">det</dependency>
+      <dependency dep="C-terminal" dep_index="6" gov="site" gov_index="9">nn</dependency>
+      <dependency dep="actin" dep_index="7" gov="site" gov_index="9">nn</dependency>
+      <dependency dep="-binding" dep_index="8" gov="site" gov_index="9">nn</dependency>
+      <dependency dep="site" dep_index="9" gov="distinct" gov_index="11">nsubj</dependency>
+      <dependency dep="is" dep_index="10" gov="distinct" gov_index="11">cop</dependency>
+      <dependency dep="distinct" dep_index="11" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="13" gov="region" gov_index="14">det</dependency>
+      <dependency dep="region" dep_index="14" gov="distinct" gov_index="11">prep_from</dependency>
+      <dependency dep="recognized" dep_index="15" gov="region" gov_index="14">partmod</dependency>
+      <dependency dep="the" dep_index="17" gov="TD77" gov_index="20">det</dependency>
+      <dependency dep="anti-functional" dep_index="18" gov="TD77" gov_index="20">amod</dependency>
+      <dependency dep="antibody" dep_index="19" gov="TD77" gov_index="20">nn</dependency>
+      <dependency dep="TD77" dep_index="20" gov="recognized" gov_index="15">agent</dependency>
+      <dependency dep="raising" dep_index="22" gov="recognized" gov_index="15">xcomp</dependency>
+      <dependency dep="the" dep_index="23" gov="possibility" gov_index="24">det</dependency>
+      <dependency dep="possibility" dep_index="24" gov="raising" gov_index="22">dobj</dependency>
+      <dependency dep="that" dep_index="25" gov="binds" gov_index="27">mark</dependency>
+      <dependency dep="it" dep_index="26" gov="binds" gov_index="27">nsubj</dependency>
+      <dependency dep="binds" dep_index="27" gov="raising" gov_index="22">ccomp</dependency>
+      <dependency dep="a" dep_index="29" gov="site" gov_index="34">det</dependency>
+      <dependency dep="novel" dep_index="30" gov="site" gov_index="34">amod</dependency>
+      <dependency dep="functionally" dep_index="31" gov="important" gov_index="32">advmod</dependency>
+      <dependency dep="important" dep_index="32" gov="site" gov_index="34">amod</dependency>
+      <dependency dep="ligand-binding" dep_index="33" gov="site" gov_index="34">amod</dependency>
+      <dependency dep="site" dep_index="34" gov="binds" gov_index="27">prep_to</dependency>
+      <dependency dep="the" dep_index="36" gov="molecule" gov_index="38">det</dependency>
+      <dependency dep="talin" dep_index="37" gov="molecule" gov_index="38">nn</dependency>
+      <dependency dep="molecule" dep_index="38" gov="binds" gov_index="27">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000037" relationship="true">20 15 22 27 38 37</relation>
+      <relation position="700037" relationship="true">7 9 11 14 15 22 27 38 37</relation>
+      <relation position="700020" relationship="false">7 9 11 14 15 20</relation>
+   </relations>
+   <pairs>
+      <pair>700037</pair>
+      <pair>2000037</pair>
+   </pairs>
+</root>

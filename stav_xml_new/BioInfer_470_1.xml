@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>p53@-mediated@cell@injury@exhibited@proteolysis@of@the@caspase@protein@substrate@lamin B@without@appreciable@breakdown@of@TnI@.@</sentence>
+   <tags>
+      <tag pos="1">p53</tag>
+      <tag pos="9">caspase</tag>
+      <tag pos="17">TnI</tag>
+      <tag pos="12">lamin B</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">p53</taggedword>
+      <taggedword index="2" part-of-speech="JJ">-mediated</taggedword>
+      <taggedword index="3" part-of-speech="NN">cell</taggedword>
+      <taggedword index="4" part-of-speech="NN">injury</taggedword>
+      <taggedword index="5" part-of-speech="VBD">exhibited</taggedword>
+      <taggedword index="6" part-of-speech="NNS">proteolysis</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">caspase</taggedword>
+      <taggedword index="10" part-of-speech="NN">protein</taggedword>
+      <taggedword index="11" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="12" part-of-speech="NN">lamin B</taggedword>
+      <taggedword index="13" part-of-speech="IN">without</taggedword>
+      <taggedword index="14" part-of-speech="JJ">appreciable</taggedword>
+      <taggedword index="15" part-of-speech="NN">breakdown</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NNP">TnI</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="p53" dep_index="1" gov="injury" gov_index="4">num</dependency>
+      <dependency dep="-mediated" dep_index="2" gov="injury" gov_index="4">amod</dependency>
+      <dependency dep="cell" dep_index="3" gov="injury" gov_index="4">nn</dependency>
+      <dependency dep="injury" dep_index="4" gov="exhibited" gov_index="5">nsubj</dependency>
+      <dependency dep="exhibited" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="proteolysis" dep_index="6" gov="exhibited" gov_index="5">dobj</dependency>
+      <dependency dep="the" dep_index="8" gov="lamin B" gov_index="12">det</dependency>
+      <dependency dep="caspase" dep_index="9" gov="lamin B" gov_index="12">amod</dependency>
+      <dependency dep="protein" dep_index="10" gov="lamin B" gov_index="12">nn</dependency>
+      <dependency dep="substrate" dep_index="11" gov="lamin B" gov_index="12">nn</dependency>
+      <dependency dep="lamin B" dep_index="12" gov="proteolysis" gov_index="6">prep_of</dependency>
+      <dependency dep="appreciable" dep_index="14" gov="breakdown" gov_index="15">amod</dependency>
+      <dependency dep="breakdown" dep_index="15" gov="exhibited" gov_index="5">prep_without</dependency>
+      <dependency dep="TnI" dep_index="17" gov="breakdown" gov_index="15">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100009" relationship="false">1 4 5 6 12 9</relation>
+      <relation position="100017" relationship="false">1 4 5 15 17</relation>
+      <relation position="100012" relationship="false">1 4 5 6 12</relation>
+      <relation position="900017" relationship="false">9 12 6 5 15 17</relation>
+      <relation position="900012" relationship="false"></relation>
+      <relation position="1200017" relationship="false">12 6 5 15 17</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@structure@of@the@complex@shows@that@the@53BP2@binding@site@on@the@p53@core@domain@consists@of@evolutionarily@conserved@regions@that@are@frequently@mutated@in@cancer@and@that@it@overlaps@the@site@of@DNA@binding@.@</sentence>
+   <tags>
+      <tag pos="9">53BP2</tag>
+      <tag pos="14">p53</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">complex</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">shows</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="CD">53BP2</taggedword>
+      <taggedword index="10" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="11" part-of-speech="NN">site</taggedword>
+      <taggedword index="12" part-of-speech="IN">on</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">p53</taggedword>
+      <taggedword index="15" part-of-speech="NN">core</taggedword>
+      <taggedword index="16" part-of-speech="NN">domain</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">consists</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="RB">evolutionarily</taggedword>
+      <taggedword index="20" part-of-speech="JJ">conserved</taggedword>
+      <taggedword index="21" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="22" part-of-speech="WDT">that</taggedword>
+      <taggedword index="23" part-of-speech="VBP">are</taggedword>
+      <taggedword index="24" part-of-speech="RB">frequently</taggedword>
+      <taggedword index="25" part-of-speech="VBN">mutated</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="IN">that</taggedword>
+      <taggedword index="30" part-of-speech="PRP">it</taggedword>
+      <taggedword index="31" part-of-speech="VBZ">overlaps</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">site</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="36" part-of-speech="NNP">binding</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="structure" gov_index="2">det</dependency>
+      <dependency dep="structure" dep_index="2" gov="shows" gov_index="6">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="complex" gov_index="5">det</dependency>
+      <dependency dep="complex" dep_index="5" gov="structure" gov_index="2">prep_of</dependency>
+      <dependency dep="shows" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="consists" gov_index="17">mark</dependency>
+      <dependency dep="the" dep_index="8" gov="site" gov_index="11">det</dependency>
+      <dependency dep="53BP2" dep_index="9" gov="site" gov_index="11">num</dependency>
+      <dependency dep="binding" dep_index="10" gov="site" gov_index="11">amod</dependency>
+      <dependency dep="site" dep_index="11" gov="consists" gov_index="17">nsubj</dependency>
+      <dependency dep="the" dep_index="13" gov="domain" gov_index="16">det</dependency>
+      <dependency dep="p53" dep_index="14" gov="domain" gov_index="16">nn</dependency>
+      <dependency dep="core" dep_index="15" gov="domain" gov_index="16">nn</dependency>
+      <dependency dep="domain" dep_index="16" gov="site" gov_index="11">prep_on</dependency>
+      <dependency dep="consists" dep_index="17" gov="shows" gov_index="6">ccomp</dependency>
+      <dependency dep="evolutionarily" dep_index="19" gov="conserved" gov_index="20">advmod</dependency>
+      <dependency dep="conserved" dep_index="20" gov="regions" gov_index="21">amod</dependency>
+      <dependency dep="regions" dep_index="21" gov="consists" gov_index="17">prep_of</dependency>
+      <dependency dep="regions" dep_index="21" gov="mutated" gov_index="25">nsubjpass</dependency>
+      <dependency dep="are" dep_index="23" gov="mutated" gov_index="25">auxpass</dependency>
+      <dependency dep="frequently" dep_index="24" gov="mutated" gov_index="25">advmod</dependency>
+      <dependency dep="mutated" dep_index="25" gov="regions" gov_index="21">rcmod</dependency>
+      <dependency dep="cancer" dep_index="27" gov="mutated" gov_index="25">prep_in</dependency>
+      <dependency dep="that" dep_index="29" gov="overlaps" gov_index="31">mark</dependency>
+      <dependency dep="it" dep_index="30" gov="overlaps" gov_index="31">nsubj</dependency>
+      <dependency dep="overlaps" dep_index="31" gov="shows" gov_index="6">ccomp</dependency>
+      <dependency dep="overlaps" dep_index="31" gov="consists" gov_index="17">conj_and</dependency>
+      <dependency dep="the" dep_index="32" gov="site" gov_index="33">det</dependency>
+      <dependency dep="site" dep_index="33" gov="overlaps" gov_index="31">dobj</dependency>
+      <dependency dep="DNA" dep_index="35" gov="binding" gov_index="36">nn</dependency>
+      <dependency dep="binding" dep_index="36" gov="site" gov_index="33">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900014" relationship="true">9 11 16 14</relation>
+   </relations>
+   <pairs>
+      <pair>900014</pair>
+   </pairs>
+</root>

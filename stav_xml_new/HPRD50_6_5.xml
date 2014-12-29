@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunoprecipitation@experiments@revealed@a@physical@association@of@Jak2@with@p125FAK@via@STAT3@in@vivo@</sentence>
+   <tags>
+      <tag pos="8">Jak2</tag>
+      <tag pos="12">STAT3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Immunoprecipitation</taggedword>
+      <taggedword index="2" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="3" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">physical</taggedword>
+      <taggedword index="6" part-of-speech="NN">association</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNS">Jak2</taggedword>
+      <taggedword index="9" part-of-speech="IN">with</taggedword>
+      <taggedword index="10" part-of-speech="NNS">p125FAK</taggedword>
+      <taggedword index="11" part-of-speech="IN">via</taggedword>
+      <taggedword index="12" part-of-speech="NNP">STAT3</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">vivo</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunoprecipitation" dep_index="1" gov="experiments" gov_index="2">nn</dependency>
+      <dependency dep="experiments" dep_index="2" gov="revealed" gov_index="3">nsubj</dependency>
+      <dependency dep="revealed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="association" gov_index="6">det</dependency>
+      <dependency dep="physical" dep_index="5" gov="association" gov_index="6">amod</dependency>
+      <dependency dep="association" dep_index="6" gov="revealed" gov_index="3">dobj</dependency>
+      <dependency dep="Jak2" dep_index="8" gov="association" gov_index="6">prep_of</dependency>
+      <dependency dep="p125FAK" dep_index="10" gov="revealed" gov_index="3">prep_with</dependency>
+      <dependency dep="STAT3" dep_index="12" gov="p125FAK" gov_index="10">prep_via</dependency>
+      <dependency dep="vivo" dep_index="14" gov="revealed" gov_index="3">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800012" relationship="true">8 6 3 10 12</relation>
+   </relations>
+   <pairs>
+      <pair>800012</pair>
+   </pairs>
+</root>

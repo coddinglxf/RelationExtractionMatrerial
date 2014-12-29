@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@diminished@responses@to@leptin@were@associated@with@and@may@be@the@result@of@an@impaired@suppression@of@hypothalamic@NPY@mRNA@levels@</sentence>
+   <tags>
+      <tag pos="5">leptin</tag>
+      <tag pos="20">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="JJ">diminished</taggedword>
+      <taggedword index="3" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="6" part-of-speech="VBD">were</taggedword>
+      <taggedword index="7" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="MD">may</taggedword>
+      <taggedword index="11" part-of-speech="VB">be</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">result</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">an</taggedword>
+      <taggedword index="16" part-of-speech="VBN">impaired</taggedword>
+      <taggedword index="17" part-of-speech="NN">suppression</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">hypothalamic</taggedword>
+      <taggedword index="20" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="21" part-of-speech="NN">mRNA</taggedword>
+      <taggedword index="22" part-of-speech="NNS">levels</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="responses" gov_index="3">det</dependency>
+      <dependency dep="diminished" dep_index="2" gov="responses" gov_index="3">amod</dependency>
+      <dependency dep="responses" dep_index="3" gov="associated" gov_index="7">nsubjpass</dependency>
+      <dependency dep="leptin" dep_index="5" gov="responses" gov_index="3">prep_to</dependency>
+      <dependency dep="were" dep_index="6" gov="associated" gov_index="7">auxpass</dependency>
+      <dependency dep="associated" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="with" dep_index="8" gov="associated" gov_index="7">prep</dependency>
+      <dependency dep="may" dep_index="10" gov="result" gov_index="13">aux</dependency>
+      <dependency dep="be" dep_index="11" gov="result" gov_index="13">cop</dependency>
+      <dependency dep="the" dep_index="12" gov="result" gov_index="13">det</dependency>
+      <dependency dep="result" dep_index="13" gov="associated" gov_index="7">conj_and</dependency>
+      <dependency dep="an" dep_index="15" gov="suppression" gov_index="17">det</dependency>
+      <dependency dep="impaired" dep_index="16" gov="suppression" gov_index="17">amod</dependency>
+      <dependency dep="suppression" dep_index="17" gov="result" gov_index="13">prep_of</dependency>
+      <dependency dep="hypothalamic" dep_index="19" gov="levels" gov_index="22">amod</dependency>
+      <dependency dep="NPY" dep_index="20" gov="levels" gov_index="22">nn</dependency>
+      <dependency dep="mRNA" dep_index="21" gov="levels" gov_index="22">nn</dependency>
+      <dependency dep="levels" dep_index="22" gov="suppression" gov_index="17">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500020" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@SH2/SH3@domain-containing@protein@GRB2@interacts@with@tyrosine-phosphorylated@IRS1@and@Shc@:@implications@for@insulin@control@of@ras@signalling@.@</sentence>
+   <tags>
+      <tag pos="5">GRB2</tag>
+      <tag pos="9">IRS1</tag>
+      <tag pos="11">Shc</tag>
+      <tag pos="18">ras</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="CD">SH2/SH3</taggedword>
+      <taggedword index="3" part-of-speech="JJ">domain-containing</taggedword>
+      <taggedword index="4" part-of-speech="NN">protein</taggedword>
+      <taggedword index="5" part-of-speech="NN">GRB2</taggedword>
+      <taggedword index="6" part-of-speech="NNS">interacts</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="JJ">tyrosine-phosphorylated</taggedword>
+      <taggedword index="9" part-of-speech="NNP">IRS1</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNP">Shc</taggedword>
+      <taggedword index="12" part-of-speech=":">:</taggedword>
+      <taggedword index="13" part-of-speech="NNS">implications</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="16" part-of-speech="NN">control</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">ras</taggedword>
+      <taggedword index="19" part-of-speech="NN">signalling</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interacts" gov_index="6">det</dependency>
+      <dependency dep="SH2/SH3" dep_index="2" gov="interacts" gov_index="6">num</dependency>
+      <dependency dep="domain-containing" dep_index="3" gov="interacts" gov_index="6">amod</dependency>
+      <dependency dep="protein" dep_index="4" gov="interacts" gov_index="6">nn</dependency>
+      <dependency dep="GRB2" dep_index="5" gov="interacts" gov_index="6">nn</dependency>
+      <dependency dep="interacts" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="tyrosine-phosphorylated" dep_index="8" gov="IRS1" gov_index="9">amod</dependency>
+      <dependency dep="IRS1" dep_index="9" gov="interacts" gov_index="6">prep_with</dependency>
+      <dependency dep="Shc" dep_index="11" gov="interacts" gov_index="6">prep_with</dependency>
+      <dependency dep="Shc" dep_index="11" gov="IRS1" gov_index="9">conj_and</dependency>
+      <dependency dep="implications" dep_index="13" gov="interacts" gov_index="6">dep</dependency>
+      <dependency dep="insulin" dep_index="15" gov="control" gov_index="16">nn</dependency>
+      <dependency dep="control" dep_index="16" gov="implications" gov_index="13">prep_for</dependency>
+      <dependency dep="ras" dep_index="18" gov="signalling" gov_index="19">nn</dependency>
+      <dependency dep="signalling" dep_index="19" gov="control" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500009" relationship="true">5 6 9</relation>
+      <relation position="500011" relationship="true">5 6 11</relation>
+      <relation position="500018" relationship="false">5 6 13 16 19 18</relation>
+      <relation position="900011" relationship="false">9 6 11</relation>
+      <relation position="900018" relationship="false">9 6 13 16 19 18</relation>
+      <relation position="1100018" relationship="false">11 6 13 16 19 18</relation>
+   </relations>
+   <pairs>
+      <pair>500009</pair>
+      <pair>500011</pair>
+   </pairs>
+</root>

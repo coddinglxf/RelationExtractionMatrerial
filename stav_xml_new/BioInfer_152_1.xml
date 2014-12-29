@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CONCLUSION@:@The@results@show@that@Munc-18-2@and@syntaxin 3@form@a@complex@in@vivo@and@suggest@that@they@participate@in@epithelial@cell@differentiation@and@targeted@vesicle@transport@processes@in@the@developing@kidney@.@</sentence>
+   <tags>
+      <tag pos="7">Munc-18-2</tag>
+      <tag pos="9">syntaxin 3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CONCLUSION</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="DT">The</taggedword>
+      <taggedword index="4" part-of-speech="NNS">results</taggedword>
+      <taggedword index="5" part-of-speech="VBP">show</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="NNS">Munc-18-2</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNS">syntaxin 3</taggedword>
+      <taggedword index="10" part-of-speech="VBP">form</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="NN">complex</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="17" part-of-speech="IN">that</taggedword>
+      <taggedword index="18" part-of-speech="PRP">they</taggedword>
+      <taggedword index="19" part-of-speech="VBP">participate</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="JJ">epithelial</taggedword>
+      <taggedword index="22" part-of-speech="NN">cell</taggedword>
+      <taggedword index="23" part-of-speech="NN">differentiation</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="JJ">targeted</taggedword>
+      <taggedword index="26" part-of-speech="JJ">vesicle</taggedword>
+      <taggedword index="27" part-of-speech="NN">transport</taggedword>
+      <taggedword index="28" part-of-speech="NNS">processes</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="VBG">developing</taggedword>
+      <taggedword index="32" part-of-speech="NN">kidney</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CONCLUSION" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="The" dep_index="3" gov="results" gov_index="4">det</dependency>
+      <dependency dep="results" dep_index="4" gov="show" gov_index="5">nsubj</dependency>
+      <dependency dep="show" dep_index="5" gov="CONCLUSION" gov_index="1">dep</dependency>
+      <dependency dep="that" dep_index="6" gov="form" gov_index="10">mark</dependency>
+      <dependency dep="Munc-18-2" dep_index="7" gov="form" gov_index="10">nsubj</dependency>
+      <dependency dep="Munc-18-2" dep_index="7" gov="suggest" gov_index="16">nsubj</dependency>
+      <dependency dep="syntaxin 3" dep_index="9" gov="Munc-18-2" gov_index="7">conj_and</dependency>
+      <dependency dep="syntaxin 3" dep_index="9" gov="form" gov_index="10">nsubj</dependency>
+      <dependency dep="form" dep_index="10" gov="show" gov_index="5">ccomp</dependency>
+      <dependency dep="a" dep_index="11" gov="complex" gov_index="12">det</dependency>
+      <dependency dep="complex" dep_index="12" gov="form" gov_index="10">dobj</dependency>
+      <dependency dep="vivo" dep_index="14" gov="complex" gov_index="12">prep_in</dependency>
+      <dependency dep="suggest" dep_index="16" gov="show" gov_index="5">ccomp</dependency>
+      <dependency dep="suggest" dep_index="16" gov="form" gov_index="10">conj_and</dependency>
+      <dependency dep="that" dep_index="17" gov="participate" gov_index="19">mark</dependency>
+      <dependency dep="they" dep_index="18" gov="participate" gov_index="19">nsubj</dependency>
+      <dependency dep="participate" dep_index="19" gov="suggest" gov_index="16">ccomp</dependency>
+      <dependency dep="epithelial" dep_index="21" gov="differentiation" gov_index="23">amod</dependency>
+      <dependency dep="cell" dep_index="22" gov="differentiation" gov_index="23">nn</dependency>
+      <dependency dep="differentiation" dep_index="23" gov="participate" gov_index="19">prep_in</dependency>
+      <dependency dep="targeted" dep_index="25" gov="processes" gov_index="28">amod</dependency>
+      <dependency dep="vesicle" dep_index="26" gov="processes" gov_index="28">amod</dependency>
+      <dependency dep="transport" dep_index="27" gov="processes" gov_index="28">nn</dependency>
+      <dependency dep="processes" dep_index="28" gov="participate" gov_index="19">prep_in</dependency>
+      <dependency dep="processes" dep_index="28" gov="differentiation" gov_index="23">conj_and</dependency>
+      <dependency dep="the" dep_index="30" gov="kidney" gov_index="32">det</dependency>
+      <dependency dep="developing" dep_index="31" gov="kidney" gov_index="32">amod</dependency>
+      <dependency dep="kidney" dep_index="32" gov="differentiation" gov_index="23">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true">7 10 9</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

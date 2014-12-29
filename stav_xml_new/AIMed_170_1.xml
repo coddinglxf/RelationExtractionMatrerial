@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Elimination@of@false@negative@results@in@the@two-hybrid@system@in@the@phagocyte@NADPH oxidase@.@</sentence>
+   <tags>
+      <tag pos="13">NADPH oxidase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Elimination</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">false</taggedword>
+      <taggedword index="4" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="5" part-of-speech="NNS">results</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="9" part-of-speech="NN">system</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">phagocyte</taggedword>
+      <taggedword index="13" part-of-speech="NN">NADPH oxidase</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Elimination" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="false" dep_index="3" gov="results" gov_index="5">amod</dependency>
+      <dependency dep="negative" dep_index="4" gov="results" gov_index="5">amod</dependency>
+      <dependency dep="results" dep_index="5" gov="Elimination" gov_index="1">prep_of</dependency>
+      <dependency dep="the" dep_index="7" gov="system" gov_index="9">det</dependency>
+      <dependency dep="two-hybrid" dep_index="8" gov="system" gov_index="9">amod</dependency>
+      <dependency dep="system" dep_index="9" gov="Elimination" gov_index="1">prep_in</dependency>
+      <dependency dep="the" dep_index="11" gov="NADPH oxidase" gov_index="13">det</dependency>
+      <dependency dep="phagocyte" dep_index="12" gov="NADPH oxidase" gov_index="13">amod</dependency>
+      <dependency dep="NADPH oxidase" dep_index="13" gov="system" gov_index="9">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

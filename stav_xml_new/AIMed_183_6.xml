@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@in@the@absence@of@p21ras@,@coexpression@of@JAK2@and@Raf-1@resulted@in@an@overall@decrease@in@the@Raf-1@kinase@activity@.@</sentence>
+   <tags>
+      <tag pos="8">p21ras</tag>
+      <tag pos="12">JAK2</tag>
+      <tag pos="14">Raf-1</tag>
+      <tag pos="22">Raf-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">absence</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="CD">p21ras</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">coexpression</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">JAK2</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">Raf-1</taggedword>
+      <taggedword index="15" part-of-speech="VBN">resulted</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">an</taggedword>
+      <taggedword index="18" part-of-speech="JJ">overall</taggedword>
+      <taggedword index="19" part-of-speech="NN">decrease</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">Raf-1</taggedword>
+      <taggedword index="23" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="24" part-of-speech="NN">activity</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="resulted" gov_index="15">prep_in</dependency>
+      <dependency dep="the" dep_index="5" gov="absence" gov_index="6">det</dependency>
+      <dependency dep="absence" dep_index="6" gov="resulted" gov_index="15">prep_in</dependency>
+      <dependency dep="p21ras" dep_index="8" gov="absence" gov_index="6">prep_of</dependency>
+      <dependency dep="coexpression" dep_index="10" gov="resulted" gov_index="15">nsubj</dependency>
+      <dependency dep="JAK2" dep_index="12" gov="coexpression" gov_index="10">prep_of</dependency>
+      <dependency dep="Raf-1" dep_index="14" gov="coexpression" gov_index="10">prep_of</dependency>
+      <dependency dep="Raf-1" dep_index="14" gov="JAK2" gov_index="12">conj_and</dependency>
+      <dependency dep="resulted" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="17" gov="decrease" gov_index="19">det</dependency>
+      <dependency dep="overall" dep_index="18" gov="decrease" gov_index="19">amod</dependency>
+      <dependency dep="decrease" dep_index="19" gov="resulted" gov_index="15">prep_in</dependency>
+      <dependency dep="the" dep_index="21" gov="activity" gov_index="24">det</dependency>
+      <dependency dep="Raf-1" dep_index="22" gov="activity" gov_index="24">nn</dependency>
+      <dependency dep="kinase" dep_index="23" gov="activity" gov_index="24">nn</dependency>
+      <dependency dep="activity" dep_index="24" gov="decrease" gov_index="19">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800012" relationship="false">8 6 15 10 12</relation>
+      <relation position="800014" relationship="false">8 6 15 10 14</relation>
+      <relation position="800022" relationship="false">8 6 15 19 24 22</relation>
+      <relation position="1200014" relationship="false">12 10 14</relation>
+      <relation position="1200022" relationship="false">12 10 15 19 24 22</relation>
+      <relation position="1400022" relationship="false">14 10 15 19 24 22</relation>
+   </relations>
+   <pairs/>
+</root>

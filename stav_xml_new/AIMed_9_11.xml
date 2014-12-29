@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Our@results@demonstrated@that@CaR@was@expressed@in@human@gastrinoma@cells@and@could@be@involved@in@the@mechanism@of@calcium-evoked@gastrin@release@.@</sentence>
+   <tags>
+      <tag pos="5">CaR</tag>
+      <tag pos="21">gastrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP$">Our</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">CaR</taggedword>
+      <taggedword index="6" part-of-speech="VBD">was</taggedword>
+      <taggedword index="7" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">human</taggedword>
+      <taggedword index="10" part-of-speech="NN">gastrinoma</taggedword>
+      <taggedword index="11" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="MD">could</taggedword>
+      <taggedword index="14" part-of-speech="VB">be</taggedword>
+      <taggedword index="15" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="JJ">calcium-evoked</taggedword>
+      <taggedword index="21" part-of-speech="NN">gastrin</taggedword>
+      <taggedword index="22" part-of-speech="NN">release</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Our" dep_index="1" gov="results" gov_index="2">poss</dependency>
+      <dependency dep="results" dep_index="2" gov="demonstrated" gov_index="3">nsubj</dependency>
+      <dependency dep="results" dep_index="2" gov="involved" gov_index="15">nsubjpass</dependency>
+      <dependency dep="demonstrated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="expressed" gov_index="7">mark</dependency>
+      <dependency dep="CaR" dep_index="5" gov="expressed" gov_index="7">nsubjpass</dependency>
+      <dependency dep="was" dep_index="6" gov="expressed" gov_index="7">auxpass</dependency>
+      <dependency dep="expressed" dep_index="7" gov="demonstrated" gov_index="3">ccomp</dependency>
+      <dependency dep="human" dep_index="9" gov="cells" gov_index="11">amod</dependency>
+      <dependency dep="gastrinoma" dep_index="10" gov="cells" gov_index="11">nn</dependency>
+      <dependency dep="cells" dep_index="11" gov="expressed" gov_index="7">prep_in</dependency>
+      <dependency dep="could" dep_index="13" gov="involved" gov_index="15">aux</dependency>
+      <dependency dep="be" dep_index="14" gov="involved" gov_index="15">auxpass</dependency>
+      <dependency dep="involved" dep_index="15" gov="demonstrated" gov_index="3">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="mechanism" gov_index="18">det</dependency>
+      <dependency dep="mechanism" dep_index="18" gov="involved" gov_index="15">prep_in</dependency>
+      <dependency dep="calcium-evoked" dep_index="20" gov="release" gov_index="22">amod</dependency>
+      <dependency dep="gastrin" dep_index="21" gov="release" gov_index="22">nn</dependency>
+      <dependency dep="release" dep_index="22" gov="mechanism" gov_index="18">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500021" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

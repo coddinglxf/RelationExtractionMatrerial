@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Herpes@simplex@virus@type@1@(HSV-1)@encodes@a@heterotrimeric@helicase-primase@composed@of@the@products@of@the@three@DNA@replication-specific@genes@UL5@,@UL8@,@and@UL52@(Crute@,@J@.@J.@,@and@Lehman@,@I@.@R@.@(1991)@J@.@Biol@.@Chem@.@266@,@4484-4488)@.@</sentence>
+   <tags>
+      <tag pos="23">UL8</tag>
+      <tag pos="10">helicase-primase</tag>
+      <tag pos="21">UL5</tag>
+      <tag pos="26">UL52</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Herpes</taggedword>
+      <taggedword index="2" part-of-speech="NN">simplex</taggedword>
+      <taggedword index="3" part-of-speech="NN">virus</taggedword>
+      <taggedword index="4" part-of-speech="NN">type</taggedword>
+      <taggedword index="5" part-of-speech="CD">1</taggedword>
+      <taggedword index="6" part-of-speech="CD">(HSV-1)</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">encodes</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">heterotrimeric</taggedword>
+      <taggedword index="10" part-of-speech="NN">helicase-primase</taggedword>
+      <taggedword index="11" part-of-speech="VBN">composed</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NNS">products</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="CD">three</taggedword>
+      <taggedword index="18" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="19" part-of-speech="JJ">replication-specific</taggedword>
+      <taggedword index="20" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="21" part-of-speech="NNP">UL5</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="NNP">UL8</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="NNP">UL52</taggedword>
+      <taggedword index="27" part-of-speech="VBP">(Crute</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="NNP">J</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+      <taggedword index="31" part-of-speech="NNP">J.</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="NNP">Lehman</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="PRP">I</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+      <taggedword index="38" part-of-speech="NN">R</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+      <taggedword index="40" part-of-speech="CD">(1991)</taggedword>
+      <taggedword index="41" part-of-speech="NNS">J</taggedword>
+      <taggedword index="42" part-of-speech=".">.</taggedword>
+      <taggedword index="43" part-of-speech="NNP">Biol</taggedword>
+      <taggedword index="44" part-of-speech=".">.</taggedword>
+      <taggedword index="45" part-of-speech="NNP">Chem</taggedword>
+      <taggedword index="46" part-of-speech=".">.</taggedword>
+      <taggedword index="47" part-of-speech="CD">266</taggedword>
+      <taggedword index="48" part-of-speech=",">,</taggedword>
+      <taggedword index="49" part-of-speech="RB">4484-4488)</taggedword>
+      <taggedword index="50" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Herpes" dep_index="1" gov="type" gov_index="4">amod</dependency>
+      <dependency dep="simplex" dep_index="2" gov="type" gov_index="4">nn</dependency>
+      <dependency dep="virus" dep_index="3" gov="type" gov_index="4">nn</dependency>
+      <dependency dep="type" dep_index="4" gov="encodes" gov_index="7">nsubj</dependency>
+      <dependency dep="1" dep_index="5" gov="(HSV-1)" gov_index="6">num</dependency>
+      <dependency dep="(HSV-1)" dep_index="6" gov="type" gov_index="4">dep</dependency>
+      <dependency dep="encodes" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="8" gov="helicase-primase" gov_index="10">det</dependency>
+      <dependency dep="heterotrimeric" dep_index="9" gov="helicase-primase" gov_index="10">amod</dependency>
+      <dependency dep="helicase-primase" dep_index="10" gov="encodes" gov_index="7">dobj</dependency>
+      <dependency dep="composed" dep_index="11" gov="helicase-primase" gov_index="10">partmod</dependency>
+      <dependency dep="the" dep_index="13" gov="products" gov_index="14">det</dependency>
+      <dependency dep="products" dep_index="14" gov="composed" gov_index="11">prep_of</dependency>
+      <dependency dep="products" dep_index="14" gov="(Crute" gov_index="27">dobj</dependency>
+      <dependency dep="the" dep_index="16" gov="genes" gov_index="20">det</dependency>
+      <dependency dep="three" dep_index="17" gov="genes" gov_index="20">num</dependency>
+      <dependency dep="DNA" dep_index="18" gov="genes" gov_index="20">nn</dependency>
+      <dependency dep="replication-specific" dep_index="19" gov="genes" gov_index="20">amod</dependency>
+      <dependency dep="genes" dep_index="20" gov="products" gov_index="14">prep_of</dependency>
+      <dependency dep="UL5" dep_index="21" gov="(Crute" gov_index="27">nsubj</dependency>
+      <dependency dep="UL8" dep_index="23" gov="UL5" gov_index="21">conj_and</dependency>
+      <dependency dep="UL8" dep_index="23" gov="(Crute" gov_index="27">nsubj</dependency>
+      <dependency dep="UL52" dep_index="26" gov="UL5" gov_index="21">conj_and</dependency>
+      <dependency dep="UL52" dep_index="26" gov="(Crute" gov_index="27">nsubj</dependency>
+      <dependency dep="(Crute" dep_index="27" gov="products" gov_index="14">rcmod</dependency>
+      <dependency dep="J" dep_index="29" gov="composed" gov_index="11">prep_of</dependency>
+      <dependency dep="J" dep_index="29" gov="products" gov_index="14">conj_and</dependency>
+      <dependency dep="J" dep_index="29" gov="(Crute" gov_index="27">dobj</dependency>
+      <dependency dep="J." dep_index="31" gov="J" gov_index="29">dep</dependency>
+      <dependency dep="Lehman" dep_index="34" gov="composed" gov_index="11">prep_of</dependency>
+      <dependency dep="Lehman" dep_index="34" gov="products" gov_index="14">conj_and</dependency>
+      <dependency dep="Lehman" dep_index="34" gov="(Crute" gov_index="27">dobj</dependency>
+      <dependency dep="I" dep_index="36" gov="helicase-primase" gov_index="10">appos</dependency>
+      <dependency dep="R" dep_index="38" gov="helicase-primase" gov_index="10">dep</dependency>
+      <dependency dep="(1991)" dep_index="40" gov="J" gov_index="41">num</dependency>
+      <dependency dep="J" dep_index="41" gov="helicase-primase" gov_index="10">dep</dependency>
+      <dependency dep="Biol" dep_index="43" gov="helicase-primase" gov_index="10">dep</dependency>
+      <dependency dep="Chem" dep_index="45" gov="helicase-primase" gov_index="10">dep</dependency>
+      <dependency dep="266" dep_index="47" gov="helicase-primase" gov_index="10">dep</dependency>
+      <dependency dep="4484-4488)" dep_index="49" gov="helicase-primase" gov_index="10">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000023" relationship="true"></relation>
+      <relation position="2100023" relationship="true">21 27 23</relation>
+      <relation position="2300026" relationship="true">23 27 26</relation>
+      <relation position="1000021" relationship="true"></relation>
+      <relation position="1000026" relationship="true"></relation>
+      <relation position="2100026" relationship="true">21 27 26</relation>
+   </relations>
+   <pairs>
+      <pair>1000026</pair>
+      <pair>2100023</pair>
+      <pair>2100026</pair>
+      <pair>2300026</pair>
+      <pair>1000023</pair>
+      <pair>1000021</pair>
+   </pairs>
+</root>

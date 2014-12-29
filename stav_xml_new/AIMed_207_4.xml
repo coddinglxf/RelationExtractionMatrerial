@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@analysed@by@EMSA@the@composition@of@E2F@complexes@in@cycling@,@quiescent@undifferentiated@and@differentiated@C2C12@skeletal@muscle@cells@.@</sentence>
+   <tags>
+      <tag pos="8">E2F</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">analysed</taggedword>
+      <taggedword index="3" part-of-speech="IN">by</taggedword>
+      <taggedword index="4" part-of-speech="NNP">EMSA</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">composition</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="CD">E2F</taggedword>
+      <taggedword index="9" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">cycling</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBD">quiescent</taggedword>
+      <taggedword index="14" part-of-speech="JJ">undifferentiated</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">differentiated</taggedword>
+      <taggedword index="17" part-of-speech="JJ">C2C12</taggedword>
+      <taggedword index="18" part-of-speech="JJ">skeletal</taggedword>
+      <taggedword index="19" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="20" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="analysed" gov_index="2">nsubj</dependency>
+      <dependency dep="analysed" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="EMSA" dep_index="4" gov="analysed" gov_index="2">prep_by</dependency>
+      <dependency dep="the" dep_index="5" gov="composition" gov_index="6">det</dependency>
+      <dependency dep="composition" dep_index="6" gov="analysed" gov_index="2">dobj</dependency>
+      <dependency dep="E2F" dep_index="8" gov="complexes" gov_index="9">num</dependency>
+      <dependency dep="complexes" dep_index="9" gov="composition" gov_index="6">prep_of</dependency>
+      <dependency dep="cycling" dep_index="11" gov="complexes" gov_index="9">prep_in</dependency>
+      <dependency dep="quiescent" dep_index="13" gov="cells" gov_index="20">amod</dependency>
+      <dependency dep="undifferentiated" dep_index="14" gov="cells" gov_index="20">amod</dependency>
+      <dependency dep="differentiated" dep_index="16" gov="undifferentiated" gov_index="14">conj_and</dependency>
+      <dependency dep="differentiated" dep_index="16" gov="cells" gov_index="20">amod</dependency>
+      <dependency dep="C2C12" dep_index="17" gov="cells" gov_index="20">amod</dependency>
+      <dependency dep="skeletal" dep_index="18" gov="cells" gov_index="20">amod</dependency>
+      <dependency dep="muscle" dep_index="19" gov="cells" gov_index="20">nn</dependency>
+      <dependency dep="cells" dep_index="20" gov="cycling" gov_index="11">appos</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

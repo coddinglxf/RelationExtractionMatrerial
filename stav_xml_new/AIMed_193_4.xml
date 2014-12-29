@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>As@expected@,@overexpression@of@either@Id3@/@HLH462@or@ITF-2b@effectively@inhibited@the@activation@of@the@muscle-specific@creatine kinase@promoter@by@the@myogenic@transcription@factor@MyoD@.@</sentence>
+   <tags>
+      <tag pos="7">Id3</tag>
+      <tag pos="9">HLH462</tag>
+      <tag pos="11">ITF-2b</tag>
+      <tag pos="19">creatine kinase</tag>
+      <tag pos="26">MyoD</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">As</taggedword>
+      <taggedword index="2" part-of-speech="VBN">expected</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">overexpression</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="CC">either</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Id3</taggedword>
+      <taggedword index="8" part-of-speech="NNP">/</taggedword>
+      <taggedword index="9" part-of-speech="NNP">HLH462</taggedword>
+      <taggedword index="10" part-of-speech="CC">or</taggedword>
+      <taggedword index="11" part-of-speech="NNS">ITF-2b</taggedword>
+      <taggedword index="12" part-of-speech="RB">effectively</taggedword>
+      <taggedword index="13" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">activation</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">muscle-specific</taggedword>
+      <taggedword index="19" part-of-speech="NN">creatine kinase</taggedword>
+      <taggedword index="20" part-of-speech="NN">promoter</taggedword>
+      <taggedword index="21" part-of-speech="IN">by</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">myogenic</taggedword>
+      <taggedword index="24" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="25" part-of-speech="NN">factor</taggedword>
+      <taggedword index="26" part-of-speech="NN">MyoD</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="As" dep_index="1" gov="expected" gov_index="2">mark</dependency>
+      <dependency dep="expected" dep_index="2" gov="inhibited" gov_index="13">advcl</dependency>
+      <dependency dep="overexpression" dep_index="4" gov="inhibited" gov_index="13">nsubj</dependency>
+      <dependency dep="either" dep_index="6" gov="HLH462" gov_index="9">preconj</dependency>
+      <dependency dep="Id3" dep_index="7" gov="HLH462" gov_index="9">nn</dependency>
+      <dependency dep="/" dep_index="8" gov="HLH462" gov_index="9">nn</dependency>
+      <dependency dep="HLH462" dep_index="9" gov="overexpression" gov_index="4">prep_of</dependency>
+      <dependency dep="ITF-2b" dep_index="11" gov="overexpression" gov_index="4">prep_of</dependency>
+      <dependency dep="ITF-2b" dep_index="11" gov="HLH462" gov_index="9">conj_or</dependency>
+      <dependency dep="effectively" dep_index="12" gov="inhibited" gov_index="13">advmod</dependency>
+      <dependency dep="inhibited" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="activation" gov_index="15">det</dependency>
+      <dependency dep="activation" dep_index="15" gov="inhibited" gov_index="13">dobj</dependency>
+      <dependency dep="the" dep_index="17" gov="promoter" gov_index="20">det</dependency>
+      <dependency dep="muscle-specific" dep_index="18" gov="promoter" gov_index="20">amod</dependency>
+      <dependency dep="creatine kinase" dep_index="19" gov="promoter" gov_index="20">nn</dependency>
+      <dependency dep="promoter" dep_index="20" gov="activation" gov_index="15">prep_of</dependency>
+      <dependency dep="the" dep_index="22" gov="MyoD" gov_index="26">det</dependency>
+      <dependency dep="myogenic" dep_index="23" gov="MyoD" gov_index="26">amod</dependency>
+      <dependency dep="transcription" dep_index="24" gov="MyoD" gov_index="26">nn</dependency>
+      <dependency dep="factor" dep_index="25" gov="MyoD" gov_index="26">nn</dependency>
+      <dependency dep="MyoD" dep_index="26" gov="inhibited" gov_index="13">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false"></relation>
+      <relation position="700011" relationship="false">7 9 11</relation>
+      <relation position="700019" relationship="false">7 9 4 13 15 20 19</relation>
+      <relation position="700026" relationship="false">7 9 4 13 26</relation>
+      <relation position="900011" relationship="false">9 4 11</relation>
+      <relation position="900019" relationship="false">9 4 13 15 20 19</relation>
+      <relation position="900026" relationship="false">9 4 13 26</relation>
+      <relation position="1100019" relationship="false">11 4 13 15 20 19</relation>
+      <relation position="1100026" relationship="false">11 4 13 26</relation>
+      <relation position="1900026" relationship="false">19 20 15 13 26</relation>
+   </relations>
+   <pairs/>
+</root>

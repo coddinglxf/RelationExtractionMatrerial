@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@NH2-terminal@16kD@of@Abp1p@,@a@65-kD@yeast@protein@identified@by@its@ability@to@bind@to@actin@filaments@,@is@23%@identical@to@yeast@cofilin@.@</sentence>
+   <tags>
+      <tag pos="5">Abp1p</tag>
+      <tag pos="26">cofilin</tag>
+      <tag pos="18">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">NH2-terminal</taggedword>
+      <taggedword index="3" part-of-speech="NN">16kD</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNS">Abp1p</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">65-kD</taggedword>
+      <taggedword index="9" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="10" part-of-speech="NN">protein</taggedword>
+      <taggedword index="11" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="14" part-of-speech="NN">ability</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="NN">bind</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="NN">actin</taggedword>
+      <taggedword index="19" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="22" part-of-speech="CD">23%</taggedword>
+      <taggedword index="23" part-of-speech="JJ">identical</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="26" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="16kD" gov_index="3">det</dependency>
+      <dependency dep="NH2-terminal" dep_index="2" gov="16kD" gov_index="3">nn</dependency>
+      <dependency dep="16kD" dep_index="3" gov="identical" gov_index="23">nsubj</dependency>
+      <dependency dep="Abp1p" dep_index="5" gov="16kD" gov_index="3">prep_of</dependency>
+      <dependency dep="a" dep_index="7" gov="protein" gov_index="10">det</dependency>
+      <dependency dep="65-kD" dep_index="8" gov="protein" gov_index="10">amod</dependency>
+      <dependency dep="yeast" dep_index="9" gov="protein" gov_index="10">nn</dependency>
+      <dependency dep="protein" dep_index="10" gov="16kD" gov_index="3">appos</dependency>
+      <dependency dep="identified" dep_index="11" gov="protein" gov_index="10">partmod</dependency>
+      <dependency dep="its" dep_index="13" gov="ability" gov_index="14">poss</dependency>
+      <dependency dep="ability" dep_index="14" gov="identified" gov_index="11">agent</dependency>
+      <dependency dep="bind" dep_index="16" gov="identified" gov_index="11">prep_to</dependency>
+      <dependency dep="actin" dep_index="18" gov="filaments" gov_index="19">nn</dependency>
+      <dependency dep="filaments" dep_index="19" gov="identified" gov_index="11">prep_to</dependency>
+      <dependency dep="is" dep_index="21" gov="identical" gov_index="23">cop</dependency>
+      <dependency dep="23%" dep_index="22" gov="identical" gov_index="23">npadvmod</dependency>
+      <dependency dep="identical" dep_index="23" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="yeast" dep_index="25" gov="cofilin" gov_index="26">nn</dependency>
+      <dependency dep="cofilin" dep_index="26" gov="identical" gov_index="23">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500026" relationship="true">5 3 23 26</relation>
+      <relation position="500018" relationship="true">5 3 10 11 19 18</relation>
+      <relation position="1800026" relationship="false">18 19 11 10 3 23 26</relation>
+   </relations>
+   <pairs>
+      <pair>500026</pair>
+      <pair>500018</pair>
+   </pairs>
+</root>

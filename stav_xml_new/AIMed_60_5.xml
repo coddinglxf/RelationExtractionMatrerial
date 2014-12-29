@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@a@bacterially@expressed@v-Raf@fusion@protein@(glutathione@S-transferase-p3722W)@also@activated@MAP kinase kinase@in@vitro@.@</sentence>
+   <tags>
+      <tag pos="6">v-Raf</tag>
+      <tag pos="13">MAP kinase kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">bacterially</taggedword>
+      <taggedword index="5" part-of-speech="VBD">expressed</taggedword>
+      <taggedword index="6" part-of-speech="JJ">v-Raf</taggedword>
+      <taggedword index="7" part-of-speech="NN">fusion</taggedword>
+      <taggedword index="8" part-of-speech="NN">protein</taggedword>
+      <taggedword index="9" part-of-speech="NN">(glutathione</taggedword>
+      <taggedword index="10" part-of-speech="NNS">S-transferase-p3722W)</taggedword>
+      <taggedword index="11" part-of-speech="RB">also</taggedword>
+      <taggedword index="12" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="13" part-of-speech="NNP">MAP kinase kinase</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="expressed" gov_index="5">advmod</dependency>
+      <dependency dep="a" dep_index="3" gov="bacterially" gov_index="4">det</dependency>
+      <dependency dep="bacterially" dep_index="4" gov="expressed" gov_index="5">nsubj</dependency>
+      <dependency dep="expressed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="v-Raf" dep_index="6" gov="S-transferase-p3722W)" gov_index="10">amod</dependency>
+      <dependency dep="fusion" dep_index="7" gov="S-transferase-p3722W)" gov_index="10">nn</dependency>
+      <dependency dep="protein" dep_index="8" gov="S-transferase-p3722W)" gov_index="10">nn</dependency>
+      <dependency dep="(glutathione" dep_index="9" gov="S-transferase-p3722W)" gov_index="10">nn</dependency>
+      <dependency dep="S-transferase-p3722W)" dep_index="10" gov="expressed" gov_index="5">dobj</dependency>
+      <dependency dep="also" dep_index="11" gov="activated" gov_index="12">advmod</dependency>
+      <dependency dep="activated" dep_index="12" gov="S-transferase-p3722W)" gov_index="10">partmod</dependency>
+      <dependency dep="MAP kinase kinase" dep_index="13" gov="activated" gov_index="12">dep</dependency>
+      <dependency dep="vitro" dep_index="15" gov="activated" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600013" relationship="false">6 10 12 13</relation>
+   </relations>
+   <pairs/>
+</root>

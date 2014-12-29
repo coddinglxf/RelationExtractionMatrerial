@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>At@the@periphery@of@the@interscapular@brown@adipose@tissue@depot@,@unilocular@,@UCP@-negative@adipocytes@(mean@diameter@:@41.55@microns)@with@white-type@mitochondria@were@observed@,@and@these@cells@were@leptin@-positive@</sentence>
+   <tags>
+      <tag pos="14">UCP</tag>
+      <tag pos="32">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">At</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="NN">periphery</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">interscapular</taggedword>
+      <taggedword index="7" part-of-speech="JJ">brown</taggedword>
+      <taggedword index="8" part-of-speech="JJ">adipose</taggedword>
+      <taggedword index="9" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="10" part-of-speech="NN">depot</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NN">unilocular</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="VBP">UCP</taggedword>
+      <taggedword index="15" part-of-speech="JJ">-negative</taggedword>
+      <taggedword index="16" part-of-speech="NNS">adipocytes</taggedword>
+      <taggedword index="17" part-of-speech="JJ">(mean</taggedword>
+      <taggedword index="18" part-of-speech="NN">diameter</taggedword>
+      <taggedword index="19" part-of-speech=":">:</taggedword>
+      <taggedword index="20" part-of-speech="CD">41.55</taggedword>
+      <taggedword index="21" part-of-speech="NNS">microns)</taggedword>
+      <taggedword index="22" part-of-speech="IN">with</taggedword>
+      <taggedword index="23" part-of-speech="JJ">white-type</taggedword>
+      <taggedword index="24" part-of-speech="NN">mitochondria</taggedword>
+      <taggedword index="25" part-of-speech="VBD">were</taggedword>
+      <taggedword index="26" part-of-speech="JJ">observed</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="DT">these</taggedword>
+      <taggedword index="30" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="31" part-of-speech="VBD">were</taggedword>
+      <taggedword index="32" part-of-speech="VBN">leptin</taggedword>
+      <taggedword index="33" part-of-speech="JJ">-positive</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="periphery" gov_index="3">det</dependency>
+      <dependency dep="periphery" dep_index="3" gov="UCP" gov_index="14">prep_at</dependency>
+      <dependency dep="the" dep_index="5" gov="interscapular" gov_index="6">det</dependency>
+      <dependency dep="interscapular" dep_index="6" gov="periphery" gov_index="3">prep_of</dependency>
+      <dependency dep="brown" dep_index="7" gov="depot" gov_index="10">amod</dependency>
+      <dependency dep="adipose" dep_index="8" gov="depot" gov_index="10">amod</dependency>
+      <dependency dep="tissue" dep_index="9" gov="depot" gov_index="10">nn</dependency>
+      <dependency dep="depot" dep_index="10" gov="UCP" gov_index="14">nsubj</dependency>
+      <dependency dep="unilocular" dep_index="12" gov="depot" gov_index="10">appos</dependency>
+      <dependency dep="UCP" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="-negative" dep_index="15" gov="adipocytes" gov_index="16">amod</dependency>
+      <dependency dep="adipocytes" dep_index="16" gov="diameter" gov_index="18">nsubj</dependency>
+      <dependency dep="(mean" dep_index="17" gov="diameter" gov_index="18">dep</dependency>
+      <dependency dep="diameter" dep_index="18" gov="UCP" gov_index="14">xcomp</dependency>
+      <dependency dep="41.55" dep_index="20" gov="microns)" gov_index="21">num</dependency>
+      <dependency dep="microns)" dep_index="21" gov="observed" gov_index="26">nsubj</dependency>
+      <dependency dep="white-type" dep_index="23" gov="mitochondria" gov_index="24">amod</dependency>
+      <dependency dep="mitochondria" dep_index="24" gov="microns)" gov_index="21">prep_with</dependency>
+      <dependency dep="were" dep_index="25" gov="observed" gov_index="26">cop</dependency>
+      <dependency dep="observed" dep_index="26" gov="UCP" gov_index="14">conj_and</dependency>
+      <dependency dep="these" dep_index="29" gov="cells" gov_index="30">det</dependency>
+      <dependency dep="cells" dep_index="30" gov="leptin" gov_index="32">nsubjpass</dependency>
+      <dependency dep="were" dep_index="31" gov="leptin" gov_index="32">auxpass</dependency>
+      <dependency dep="leptin" dep_index="32" gov="UCP" gov_index="14">conj_and</dependency>
+      <dependency dep="-positive" dep_index="33" gov="leptin" gov_index="32">acomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400032" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

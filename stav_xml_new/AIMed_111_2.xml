@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@neurons@cAMP-dependent protein kinase II beta@(@PKAII beta@)@is@sequestered@in@the@dendritic@cytoskeleton@because@the@regulatory@subunit@(@RII beta@)@of@the@enzyme@is@tightly@bound@by@A@Kinase@Anchor@Proteins@(AKAPs)@.@</sentence>
+   <tags>
+      <tag pos="3">cAMP-dependent protein kinase II beta</tag>
+      <tag pos="5">PKAII beta</tag>
+      <tag pos="18">RII beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NNS">neurons</taggedword>
+      <taggedword index="3" part-of-speech="NNP">cAMP-dependent protein kinase II beta</taggedword>
+      <taggedword index="4" part-of-speech="NNP">(</taggedword>
+      <taggedword index="5" part-of-speech="NNP">PKAII beta</taggedword>
+      <taggedword index="6" part-of-speech="NNP">)</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="8" part-of-speech="VBN">sequestered</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">dendritic</taggedword>
+      <taggedword index="12" part-of-speech="NN">cytoskeleton</taggedword>
+      <taggedword index="13" part-of-speech="IN">because</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="16" part-of-speech="NN">subunit</taggedword>
+      <taggedword index="17" part-of-speech="VBD">(</taggedword>
+      <taggedword index="18" part-of-speech="NNP">RII beta</taggedword>
+      <taggedword index="19" part-of-speech="NNP">)</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">enzyme</taggedword>
+      <taggedword index="23" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="24" part-of-speech="RB">tightly</taggedword>
+      <taggedword index="25" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="26" part-of-speech="IN">by</taggedword>
+      <taggedword index="27" part-of-speech="DT">A</taggedword>
+      <taggedword index="28" part-of-speech="NNP">Kinase</taggedword>
+      <taggedword index="29" part-of-speech="NNP">Anchor</taggedword>
+      <taggedword index="30" part-of-speech="NNPS">Proteins</taggedword>
+      <taggedword index="31" part-of-speech="NNP">(AKAPs)</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="neurons" dep_index="2" gov="sequestered" gov_index="8">prep_in</dependency>
+      <dependency dep="cAMP-dependent protein kinase II beta" dep_index="3" gov=")" gov_index="6">nn</dependency>
+      <dependency dep="(" dep_index="4" gov=")" gov_index="6">nn</dependency>
+      <dependency dep="PKAII beta" dep_index="5" gov=")" gov_index="6">nn</dependency>
+      <dependency dep=")" dep_index="6" gov="sequestered" gov_index="8">nsubjpass</dependency>
+      <dependency dep="is" dep_index="7" gov="sequestered" gov_index="8">auxpass</dependency>
+      <dependency dep="sequestered" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="cytoskeleton" gov_index="12">det</dependency>
+      <dependency dep="dendritic" dep_index="11" gov="cytoskeleton" gov_index="12">amod</dependency>
+      <dependency dep="cytoskeleton" dep_index="12" gov="sequestered" gov_index="8">prep_in</dependency>
+      <dependency dep="because" dep_index="13" gov="(" gov_index="17">mark</dependency>
+      <dependency dep="the" dep_index="14" gov="subunit" gov_index="16">det</dependency>
+      <dependency dep="regulatory" dep_index="15" gov="subunit" gov_index="16">amod</dependency>
+      <dependency dep="subunit" dep_index="16" gov="(" gov_index="17">nsubj</dependency>
+      <dependency dep="(" dep_index="17" gov="sequestered" gov_index="8">advcl</dependency>
+      <dependency dep="RII beta" dep_index="18" gov=")" gov_index="19">nn</dependency>
+      <dependency dep=")" dep_index="19" gov="bound" gov_index="25">nsubjpass</dependency>
+      <dependency dep="the" dep_index="21" gov="enzyme" gov_index="22">det</dependency>
+      <dependency dep="enzyme" dep_index="22" gov=")" gov_index="19">prep_of</dependency>
+      <dependency dep="is" dep_index="23" gov="bound" gov_index="25">auxpass</dependency>
+      <dependency dep="tightly" dep_index="24" gov="bound" gov_index="25">advmod</dependency>
+      <dependency dep="bound" dep_index="25" gov="(" gov_index="17">ccomp</dependency>
+      <dependency dep="A" dep_index="27" gov="(AKAPs)" gov_index="31">det</dependency>
+      <dependency dep="Kinase" dep_index="28" gov="(AKAPs)" gov_index="31">nn</dependency>
+      <dependency dep="Anchor" dep_index="29" gov="(AKAPs)" gov_index="31">nn</dependency>
+      <dependency dep="Proteins" dep_index="30" gov="(AKAPs)" gov_index="31">nn</dependency>
+      <dependency dep="(AKAPs)" dep_index="31" gov="bound" gov_index="25">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="false">3 6 5</relation>
+      <relation position="300018" relationship="false">3 6 8 17 25 19 18</relation>
+      <relation position="500018" relationship="false">5 6 8 17 25 19 18</relation>
+   </relations>
+   <pairs/>
+</root>

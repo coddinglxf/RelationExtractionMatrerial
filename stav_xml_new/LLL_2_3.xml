@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Both@SigK@and@GerE@were@essential@for@ykvP@expression@,@and@this@gene@was@transcribed@from@T5@of@sporulation@.@</sentence>
+   <tags>
+      <tag pos="2">SigK</tag>
+      <tag pos="4">GerE</tag>
+      <tag pos="8">ykvP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">Both</taggedword>
+      <taggedword index="2" part-of-speech="NNP">SigK</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NNP">GerE</taggedword>
+      <taggedword index="5" part-of-speech="VBD">were</taggedword>
+      <taggedword index="6" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="NN">ykvP</taggedword>
+      <taggedword index="9" part-of-speech="NN">expression</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="DT">this</taggedword>
+      <taggedword index="13" part-of-speech="NN">gene</taggedword>
+      <taggedword index="14" part-of-speech="VBD">was</taggedword>
+      <taggedword index="15" part-of-speech="VBN">transcribed</taggedword>
+      <taggedword index="16" part-of-speech="IN">from</taggedword>
+      <taggedword index="17" part-of-speech="NNP">T5</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NN">sporulation</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Both" dep_index="1" gov="SigK" gov_index="2">preconj</dependency>
+      <dependency dep="SigK" dep_index="2" gov="essential" gov_index="6">nsubj</dependency>
+      <dependency dep="GerE" dep_index="4" gov="SigK" gov_index="2">conj_and</dependency>
+      <dependency dep="GerE" dep_index="4" gov="essential" gov_index="6">nsubj</dependency>
+      <dependency dep="were" dep_index="5" gov="essential" gov_index="6">cop</dependency>
+      <dependency dep="essential" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="ykvP" dep_index="8" gov="expression" gov_index="9">nn</dependency>
+      <dependency dep="expression" dep_index="9" gov="essential" gov_index="6">prep_for</dependency>
+      <dependency dep="this" dep_index="12" gov="gene" gov_index="13">det</dependency>
+      <dependency dep="gene" dep_index="13" gov="transcribed" gov_index="15">nsubjpass</dependency>
+      <dependency dep="was" dep_index="14" gov="transcribed" gov_index="15">auxpass</dependency>
+      <dependency dep="transcribed" dep_index="15" gov="essential" gov_index="6">conj_and</dependency>
+      <dependency dep="T5" dep_index="17" gov="transcribed" gov_index="15">prep_from</dependency>
+      <dependency dep="sporulation" dep_index="19" gov="T5" gov_index="17">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 6 4</relation>
+      <relation position="200008" relationship="true">2 6 9 8</relation>
+      <relation position="400008" relationship="true">4 6 9 8</relation>
+   </relations>
+   <pairs>
+      <pair>400008</pair>
+      <pair>200008</pair>
+   </pairs>
+</root>

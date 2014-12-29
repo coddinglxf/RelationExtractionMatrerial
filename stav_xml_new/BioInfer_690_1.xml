@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@Saccharomyces@cerevisiae@DDC1@gene@belongs@to@the@RAD17@,@MEC3@and@RAD24@epistasis@group@which@,@together@with@RAD9@,@is@proposed@to@act@at@the@beginning@of@the@DNA@damage@checkpoint@pathway@.@</sentence>
+   <tags>
+      <tag pos="11">MEC3</tag>
+      <tag pos="13">RAD24</tag>
+      <tag pos="4">DDC1</tag>
+      <tag pos="20">RAD9</tag>
+      <tag pos="9">RAD17</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">Saccharomyces</taggedword>
+      <taggedword index="3" part-of-speech="NN">cerevisiae</taggedword>
+      <taggedword index="4" part-of-speech="NN">DDC1</taggedword>
+      <taggedword index="5" part-of-speech="NN">gene</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">belongs</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">RAD17</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">MEC3</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NN">RAD24</taggedword>
+      <taggedword index="14" part-of-speech="NNS">epistasis</taggedword>
+      <taggedword index="15" part-of-speech="NN">group</taggedword>
+      <taggedword index="16" part-of-speech="WDT">which</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="RB">together</taggedword>
+      <taggedword index="19" part-of-speech="IN">with</taggedword>
+      <taggedword index="20" part-of-speech="NNP">RAD9</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="23" part-of-speech="VBN">proposed</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="VB">act</taggedword>
+      <taggedword index="26" part-of-speech="IN">at</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">beginning</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="32" part-of-speech="NN">damage</taggedword>
+      <taggedword index="33" part-of-speech="NN">checkpoint</taggedword>
+      <taggedword index="34" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="gene" gov_index="5">det</dependency>
+      <dependency dep="Saccharomyces" dep_index="2" gov="gene" gov_index="5">nn</dependency>
+      <dependency dep="cerevisiae" dep_index="3" gov="gene" gov_index="5">nn</dependency>
+      <dependency dep="DDC1" dep_index="4" gov="gene" gov_index="5">nn</dependency>
+      <dependency dep="gene" dep_index="5" gov="belongs" gov_index="6">nsubj</dependency>
+      <dependency dep="belongs" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="group" gov_index="15">det</dependency>
+      <dependency dep="RAD17" dep_index="9" gov="group" gov_index="15">nn</dependency>
+      <dependency dep="MEC3" dep_index="11" gov="RAD17" gov_index="9">conj_and</dependency>
+      <dependency dep="MEC3" dep_index="11" gov="group" gov_index="15">nn</dependency>
+      <dependency dep="RAD24" dep_index="13" gov="RAD17" gov_index="9">conj_and</dependency>
+      <dependency dep="RAD24" dep_index="13" gov="group" gov_index="15">nn</dependency>
+      <dependency dep="epistasis" dep_index="14" gov="group" gov_index="15">nn</dependency>
+      <dependency dep="group" dep_index="15" gov="belongs" gov_index="6">prep_to</dependency>
+      <dependency dep="group" dep_index="15" gov="proposed" gov_index="23">nsubjpass</dependency>
+      <dependency dep="group" dep_index="15" gov="act" gov_index="25">xsubj</dependency>
+      <dependency dep="RAD9" dep_index="20" gov="proposed" gov_index="23">prep_together_with</dependency>
+      <dependency dep="is" dep_index="22" gov="proposed" gov_index="23">auxpass</dependency>
+      <dependency dep="proposed" dep_index="23" gov="group" gov_index="15">rcmod</dependency>
+      <dependency dep="to" dep_index="24" gov="act" gov_index="25">aux</dependency>
+      <dependency dep="act" dep_index="25" gov="proposed" gov_index="23">xcomp</dependency>
+      <dependency dep="the" dep_index="27" gov="beginning" gov_index="28">det</dependency>
+      <dependency dep="beginning" dep_index="28" gov="act" gov_index="25">prep_at</dependency>
+      <dependency dep="the" dep_index="30" gov="pathway" gov_index="34">det</dependency>
+      <dependency dep="DNA" dep_index="31" gov="pathway" gov_index="34">nn</dependency>
+      <dependency dep="damage" dep_index="32" gov="pathway" gov_index="34">nn</dependency>
+      <dependency dep="checkpoint" dep_index="33" gov="pathway" gov_index="34">nn</dependency>
+      <dependency dep="pathway" dep_index="34" gov="beginning" gov_index="28">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100013" relationship="true">11 15 13</relation>
+      <relation position="400011" relationship="true">4 5 6 15 11</relation>
+      <relation position="1100020" relationship="false">11 15 23 20</relation>
+      <relation position="900011" relationship="true">9 15 11</relation>
+      <relation position="400013" relationship="true">4 5 6 15 13</relation>
+      <relation position="1300020" relationship="false">13 15 23 20</relation>
+      <relation position="900013" relationship="true">9 15 13</relation>
+      <relation position="400020" relationship="false">4 5 6 15 23 20</relation>
+      <relation position="400009" relationship="true">4 5 6 15 9</relation>
+      <relation position="900020" relationship="false">9 15 23 20</relation>
+   </relations>
+   <pairs>
+      <pair>900011</pair>
+      <pair>400011</pair>
+      <pair>400009</pair>
+      <pair>900013</pair>
+      <pair>400013</pair>
+      <pair>1100013</pair>
+   </pairs>
+</root>

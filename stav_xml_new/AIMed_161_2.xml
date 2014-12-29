@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>SHPTP2@is@a@ubiquitously-expressed@SH2-containing@tyrosine@phosphatase@that@is@tyrosine@phosphorylated@in@response@to@activation@of@various@receptor@and@nonreceptor@tyrosine@kinases@.@</sentence>
+   <tags>
+      <tag pos="1">SHPTP2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">SHPTP2</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">ubiquitously-expressed</taggedword>
+      <taggedword index="5" part-of-speech="NN">SH2-containing</taggedword>
+      <taggedword index="6" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="7" part-of-speech="NN">phosphatase</taggedword>
+      <taggedword index="8" part-of-speech="WDT">that</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="RB">tyrosine</taggedword>
+      <taggedword index="11" part-of-speech="VBN">phosphorylated</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NN">response</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="NN">activation</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">various</taggedword>
+      <taggedword index="18" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">nonreceptor</taggedword>
+      <taggedword index="21" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="22" part-of-speech="NNS">kinases</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="SHPTP2" dep_index="1" gov="phosphatase" gov_index="7">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="phosphatase" gov_index="7">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="phosphatase" gov_index="7">det</dependency>
+      <dependency dep="ubiquitously-expressed" dep_index="4" gov="phosphatase" gov_index="7">amod</dependency>
+      <dependency dep="SH2-containing" dep_index="5" gov="phosphatase" gov_index="7">nn</dependency>
+      <dependency dep="tyrosine" dep_index="6" gov="phosphatase" gov_index="7">nn</dependency>
+      <dependency dep="phosphatase" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="phosphatase" dep_index="7" gov="phosphorylated" gov_index="11">nsubjpass</dependency>
+      <dependency dep="is" dep_index="9" gov="phosphorylated" gov_index="11">auxpass</dependency>
+      <dependency dep="tyrosine" dep_index="10" gov="phosphorylated" gov_index="11">advmod</dependency>
+      <dependency dep="phosphorylated" dep_index="11" gov="phosphatase" gov_index="7">rcmod</dependency>
+      <dependency dep="response" dep_index="13" gov="phosphorylated" gov_index="11">prep_in</dependency>
+      <dependency dep="activation" dep_index="15" gov="phosphorylated" gov_index="11">prep_to</dependency>
+      <dependency dep="various" dep_index="17" gov="receptor" gov_index="18">amod</dependency>
+      <dependency dep="receptor" dep_index="18" gov="activation" gov_index="15">prep_of</dependency>
+      <dependency dep="nonreceptor" dep_index="20" gov="kinases" gov_index="22">nn</dependency>
+      <dependency dep="tyrosine" dep_index="21" gov="kinases" gov_index="22">nn</dependency>
+      <dependency dep="kinases" dep_index="22" gov="activation" gov_index="15">prep_of</dependency>
+      <dependency dep="kinases" dep_index="22" gov="receptor" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

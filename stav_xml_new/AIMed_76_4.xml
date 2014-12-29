@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>However@,@despite@this@,@the@mechanism@by@which@CD5@generates@intracellular@signals@is@unclear@.@</sentence>
+   <tags>
+      <tag pos="10">CD5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">However</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">despite</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="WDT">which</taggedword>
+      <taggedword index="10" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">generates</taggedword>
+      <taggedword index="12" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="13" part-of-speech="NNS">signals</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="JJ">unclear</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="However" dep_index="1" gov="unclear" gov_index="15">advmod</dependency>
+      <dependency dep="this" dep_index="4" gov="unclear" gov_index="15">prep_despite</dependency>
+      <dependency dep="the" dep_index="6" gov="mechanism" gov_index="7">det</dependency>
+      <dependency dep="mechanism" dep_index="7" gov="generates" gov_index="11">prep_by</dependency>
+      <dependency dep="mechanism" dep_index="7" gov="unclear" gov_index="15">nsubj</dependency>
+      <dependency dep="CD5" dep_index="10" gov="generates" gov_index="11">nsubj</dependency>
+      <dependency dep="generates" dep_index="11" gov="mechanism" gov_index="7">rcmod</dependency>
+      <dependency dep="intracellular" dep_index="12" gov="signals" gov_index="13">nn</dependency>
+      <dependency dep="signals" dep_index="13" gov="generates" gov_index="11">dobj</dependency>
+      <dependency dep="is" dep_index="14" gov="unclear" gov_index="15">cop</dependency>
+      <dependency dep="unclear" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

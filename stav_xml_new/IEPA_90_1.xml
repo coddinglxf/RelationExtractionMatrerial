@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>DNase1@footprints@suggest@the@involvement@of@at@least@three@types@of@transcription@factors@in@the@regulation@of@alpha-Amy2/A@by@gibberellin@</sentence>
+   <tags>
+      <tag pos="18">alpha-Amy2/A</tag>
+      <tag pos="20">gibberellin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">DNase1</taggedword>
+      <taggedword index="2" part-of-speech="NNS">footprints</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">involvement</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="IN">at</taggedword>
+      <taggedword index="8" part-of-speech="JJS">least</taggedword>
+      <taggedword index="9" part-of-speech="CD">three</taggedword>
+      <taggedword index="10" part-of-speech="NNS">types</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="13" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="CD">alpha-Amy2/A</taggedword>
+      <taggedword index="19" part-of-speech="IN">by</taggedword>
+      <taggedword index="20" part-of-speech="NN">gibberellin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="DNase1" dep_index="1" gov="footprints" gov_index="2">amod</dependency>
+      <dependency dep="footprints" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="involvement" gov_index="5">det</dependency>
+      <dependency dep="involvement" dep_index="5" gov="suggest" gov_index="3">dobj</dependency>
+      <dependency dep="at" dep_index="7" gov="three" gov_index="9">quantmod</dependency>
+      <dependency dep="least" dep_index="8" gov="at" gov_index="7">mwe</dependency>
+      <dependency dep="least" dep_index="8" gov="at" gov_index="7">pobj</dependency>
+      <dependency dep="three" dep_index="9" gov="types" gov_index="10">num</dependency>
+      <dependency dep="types" dep_index="10" gov="involvement" gov_index="5">prep_of</dependency>
+      <dependency dep="transcription" dep_index="12" gov="factors" gov_index="13">nn</dependency>
+      <dependency dep="factors" dep_index="13" gov="types" gov_index="10">prep_of</dependency>
+      <dependency dep="the" dep_index="15" gov="regulation" gov_index="16">det</dependency>
+      <dependency dep="regulation" dep_index="16" gov="factors" gov_index="13">prep_in</dependency>
+      <dependency dep="alpha-Amy2/A" dep_index="18" gov="regulation" gov_index="16">prep_of</dependency>
+      <dependency dep="gibberellin" dep_index="20" gov="suggest" gov_index="3">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800020" relationship="true">18 16 13 10 5 3 20</relation>
+   </relations>
+   <pairs>
+      <pair>1800020</pair>
+   </pairs>
+</root>

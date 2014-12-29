@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@actin@bundle@formation@induced@by@overexpression@of@cofilin@is@accompanied@with@an@increase@in@cell@motility@of@Dictyostelium@cells@.@4@.@</sentence>
+   <tags>
+      <tag pos="2">actin</tag>
+      <tag pos="9">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="3" part-of-speech="NN">bundle</taggedword>
+      <taggedword index="4" part-of-speech="NN">formation</taggedword>
+      <taggedword index="5" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="NN">overexpression</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">accompanied</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="DT">an</taggedword>
+      <taggedword index="14" part-of-speech="NN">increase</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="NN">cell</taggedword>
+      <taggedword index="17" part-of-speech="NN">motility</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NNP">Dictyostelium</taggedword>
+      <taggedword index="20" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+      <taggedword index="22" part-of-speech="CD">4</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="formation" gov_index="4">det</dependency>
+      <dependency dep="actin" dep_index="2" gov="formation" gov_index="4">amod</dependency>
+      <dependency dep="bundle" dep_index="3" gov="formation" gov_index="4">nn</dependency>
+      <dependency dep="formation" dep_index="4" gov="accompanied" gov_index="11">nsubjpass</dependency>
+      <dependency dep="induced" dep_index="5" gov="formation" gov_index="4">partmod</dependency>
+      <dependency dep="overexpression" dep_index="7" gov="induced" gov_index="5">agent</dependency>
+      <dependency dep="cofilin" dep_index="9" gov="overexpression" gov_index="7">prep_of</dependency>
+      <dependency dep="is" dep_index="10" gov="accompanied" gov_index="11">auxpass</dependency>
+      <dependency dep="accompanied" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="13" gov="increase" gov_index="14">det</dependency>
+      <dependency dep="increase" dep_index="14" gov="accompanied" gov_index="11">prep_with</dependency>
+      <dependency dep="cell" dep_index="16" gov="motility" gov_index="17">nn</dependency>
+      <dependency dep="motility" dep_index="17" gov="4" gov_index="22">prep_in</dependency>
+      <dependency dep="Dictyostelium" dep_index="19" gov="cells" gov_index="20">nn</dependency>
+      <dependency dep="cells" dep_index="20" gov="motility" gov_index="17">prep_of</dependency>
+      <dependency dep="4" dep_index="22" gov="increase" gov_index="14">rcmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200009" relationship="true">2 4 5 7 9</relation>
+   </relations>
+   <pairs>
+      <pair>200009</pair>
+   </pairs>
+</root>

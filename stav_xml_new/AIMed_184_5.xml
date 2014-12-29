@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Additionally@,@in@the@absence@of@gp120@,@an@interaction@between@a@two-domain@CD4@fragment@and@CCR-5@was@observed@.@</sentence>
+   <tags>
+      <tag pos="7">gp120</tag>
+      <tag pos="14">CD4</tag>
+      <tag pos="17">CCR-5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Additionally</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">absence</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="CD">gp120</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">an</taggedword>
+      <taggedword index="10" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="11" part-of-speech="IN">between</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">two-domain</taggedword>
+      <taggedword index="14" part-of-speech="NN">CD4</taggedword>
+      <taggedword index="15" part-of-speech="NN">fragment</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">CCR-5</taggedword>
+      <taggedword index="18" part-of-speech="VBD">was</taggedword>
+      <taggedword index="19" part-of-speech="JJ">observed</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Additionally" dep_index="1" gov="observed" gov_index="19">advmod</dependency>
+      <dependency dep="the" dep_index="4" gov="absence" gov_index="5">det</dependency>
+      <dependency dep="absence" dep_index="5" gov="observed" gov_index="19">prep_in</dependency>
+      <dependency dep="gp120" dep_index="7" gov="absence" gov_index="5">prep_of</dependency>
+      <dependency dep="an" dep_index="9" gov="interaction" gov_index="10">det</dependency>
+      <dependency dep="interaction" dep_index="10" gov="observed" gov_index="19">nsubj</dependency>
+      <dependency dep="a" dep_index="12" gov="fragment" gov_index="15">det</dependency>
+      <dependency dep="two-domain" dep_index="13" gov="fragment" gov_index="15">amod</dependency>
+      <dependency dep="CD4" dep_index="14" gov="fragment" gov_index="15">nn</dependency>
+      <dependency dep="fragment" dep_index="15" gov="interaction" gov_index="10">prep_between</dependency>
+      <dependency dep="CCR-5" dep_index="17" gov="interaction" gov_index="10">prep_between</dependency>
+      <dependency dep="CCR-5" dep_index="17" gov="fragment" gov_index="15">conj_and</dependency>
+      <dependency dep="was" dep_index="18" gov="observed" gov_index="19">cop</dependency>
+      <dependency dep="observed" dep_index="19" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700014" relationship="false">7 5 19 10 15 14</relation>
+      <relation position="700017" relationship="false">7 5 19 10 17</relation>
+      <relation position="1400017" relationship="true">14 15 10 17</relation>
+   </relations>
+   <pairs>
+      <pair>1400017</pair>
+   </pairs>
+</root>

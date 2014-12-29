@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crystal@structure@of@the@hereditary@haemochromatosis@protein@HFE@complexed@with@transferrin receptor@.@</sentence>
+   <tags>
+      <tag pos="8">HFE</tag>
+      <tag pos="11">transferrin receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Crystal</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">hereditary</taggedword>
+      <taggedword index="6" part-of-speech="JJ">haemochromatosis</taggedword>
+      <taggedword index="7" part-of-speech="NN">protein</taggedword>
+      <taggedword index="8" part-of-speech="NN">HFE</taggedword>
+      <taggedword index="9" part-of-speech="VBD">complexed</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="NN">transferrin receptor</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crystal" dep_index="1" gov="structure" gov_index="2">nn</dependency>
+      <dependency dep="structure" dep_index="2" gov="complexed" gov_index="9">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="HFE" gov_index="8">det</dependency>
+      <dependency dep="hereditary" dep_index="5" gov="HFE" gov_index="8">amod</dependency>
+      <dependency dep="haemochromatosis" dep_index="6" gov="HFE" gov_index="8">amod</dependency>
+      <dependency dep="protein" dep_index="7" gov="HFE" gov_index="8">nn</dependency>
+      <dependency dep="HFE" dep_index="8" gov="structure" gov_index="2">prep_of</dependency>
+      <dependency dep="complexed" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="transferrin receptor" dep_index="11" gov="complexed" gov_index="9">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800011" relationship="true">8 2 9 11</relation>
+   </relations>
+   <pairs>
+      <pair>800011</pair>
+   </pairs>
+</root>

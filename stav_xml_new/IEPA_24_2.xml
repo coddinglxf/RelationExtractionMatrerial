@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Subcutaneous@injections@of@oxytocin@increased@insulin@,@glucagon@and@glucose@levels@significantly@</sentence>
+   <tags>
+      <tag pos="4">oxytocin</tag>
+      <tag pos="6">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Subcutaneous</taggedword>
+      <taggedword index="2" part-of-speech="NNS">injections</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="5" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="6" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">glucagon</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="11" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="12" part-of-speech="RB">significantly</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Subcutaneous" dep_index="1" gov="injections" gov_index="2">amod</dependency>
+      <dependency dep="injections" dep_index="2" gov="increased" gov_index="5">nsubj</dependency>
+      <dependency dep="oxytocin" dep_index="4" gov="injections" gov_index="2">prep_of</dependency>
+      <dependency dep="increased" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="insulin" dep_index="6" gov="levels" gov_index="11">nn</dependency>
+      <dependency dep="glucagon" dep_index="8" gov="insulin" gov_index="6">conj_and</dependency>
+      <dependency dep="glucagon" dep_index="8" gov="levels" gov_index="11">nn</dependency>
+      <dependency dep="glucose" dep_index="10" gov="insulin" gov_index="6">conj_and</dependency>
+      <dependency dep="glucose" dep_index="10" gov="levels" gov_index="11">nn</dependency>
+      <dependency dep="levels" dep_index="11" gov="increased" gov_index="5">dobj</dependency>
+      <dependency dep="significantly" dep_index="12" gov="increased" gov_index="5">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 2 5 11 6</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

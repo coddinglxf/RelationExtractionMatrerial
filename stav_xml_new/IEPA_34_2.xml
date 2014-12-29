@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>To@establish@the@cell@type@expressing@leptin@,@we@also@assessed@the@size@and@organization@of@lipid@droplets@,@the@ultrastructural@features@of@mitochondria@,@and@the@presence@or@absence@of@uncoupling protein@,@a@brown@fat-specific@marker@</sentence>
+   <tags>
+      <tag pos="7">leptin</tag>
+      <tag pos="32">uncoupling protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="TO">To</taggedword>
+      <taggedword index="2" part-of-speech="VB">establish</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">cell</taggedword>
+      <taggedword index="5" part-of-speech="NN">type</taggedword>
+      <taggedword index="6" part-of-speech="VBG">expressing</taggedword>
+      <taggedword index="7" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="PRP">we</taggedword>
+      <taggedword index="10" part-of-speech="RB">also</taggedword>
+      <taggedword index="11" part-of-speech="VBD">assessed</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">size</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">organization</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NN">lipid</taggedword>
+      <taggedword index="18" part-of-speech="NNS">droplets</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">ultrastructural</taggedword>
+      <taggedword index="22" part-of-speech="NNS">features</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">mitochondria</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">presence</taggedword>
+      <taggedword index="29" part-of-speech="CC">or</taggedword>
+      <taggedword index="30" part-of-speech="NN">absence</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="NN">uncoupling protein</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="DT">a</taggedword>
+      <taggedword index="35" part-of-speech="JJ">brown</taggedword>
+      <taggedword index="36" part-of-speech="JJ">fat-specific</taggedword>
+      <taggedword index="37" part-of-speech="NN">marker</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="To" dep_index="1" gov="establish" gov_index="2">aux</dependency>
+      <dependency dep="establish" dep_index="2" gov="assessed" gov_index="11">advcl</dependency>
+      <dependency dep="the" dep_index="3" gov="type" gov_index="5">det</dependency>
+      <dependency dep="cell" dep_index="4" gov="type" gov_index="5">nn</dependency>
+      <dependency dep="type" dep_index="5" gov="establish" gov_index="2">dobj</dependency>
+      <dependency dep="expressing" dep_index="6" gov="establish" gov_index="2">xcomp</dependency>
+      <dependency dep="leptin" dep_index="7" gov="expressing" gov_index="6">dobj</dependency>
+      <dependency dep="we" dep_index="9" gov="assessed" gov_index="11">nsubj</dependency>
+      <dependency dep="also" dep_index="10" gov="assessed" gov_index="11">advmod</dependency>
+      <dependency dep="assessed" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="size" gov_index="13">det</dependency>
+      <dependency dep="size" dep_index="13" gov="assessed" gov_index="11">dobj</dependency>
+      <dependency dep="organization" dep_index="15" gov="assessed" gov_index="11">dobj</dependency>
+      <dependency dep="organization" dep_index="15" gov="size" gov_index="13">conj_and</dependency>
+      <dependency dep="lipid" dep_index="17" gov="droplets" gov_index="18">nn</dependency>
+      <dependency dep="droplets" dep_index="18" gov="size" gov_index="13">prep_of</dependency>
+      <dependency dep="the" dep_index="20" gov="features" gov_index="22">det</dependency>
+      <dependency dep="ultrastructural" dep_index="21" gov="features" gov_index="22">amod</dependency>
+      <dependency dep="features" dep_index="22" gov="assessed" gov_index="11">dobj</dependency>
+      <dependency dep="features" dep_index="22" gov="size" gov_index="13">conj_and</dependency>
+      <dependency dep="mitochondria" dep_index="24" gov="features" gov_index="22">prep_of</dependency>
+      <dependency dep="the" dep_index="27" gov="presence" gov_index="28">det</dependency>
+      <dependency dep="presence" dep_index="28" gov="assessed" gov_index="11">dobj</dependency>
+      <dependency dep="presence" dep_index="28" gov="size" gov_index="13">conj_and</dependency>
+      <dependency dep="absence" dep_index="30" gov="size" gov_index="13">conj_and</dependency>
+      <dependency dep="absence" dep_index="30" gov="presence" gov_index="28">conj_or</dependency>
+      <dependency dep="uncoupling protein" dep_index="32" gov="presence" gov_index="28">prep_of</dependency>
+      <dependency dep="a" dep_index="34" gov="marker" gov_index="37">det</dependency>
+      <dependency dep="brown" dep_index="35" gov="marker" gov_index="37">amod</dependency>
+      <dependency dep="fat-specific" dep_index="36" gov="marker" gov_index="37">amod</dependency>
+      <dependency dep="marker" dep_index="37" gov="assessed" gov_index="11">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700032" relationship="false">7 6 2 11 28 32</relation>
+   </relations>
+   <pairs/>
+</root>

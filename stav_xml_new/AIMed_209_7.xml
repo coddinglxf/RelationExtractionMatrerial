@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@amino-terminal@domain@of@RIN1@contains@a@proline-rich@sequence@similar@to@consensus@Src@homology@3@(SH3)@binding@regions@.@</sentence>
+   <tags>
+      <tag pos="5">RIN1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="3" part-of-speech="NN">domain</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">RIN1</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">contains</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">proline-rich</taggedword>
+      <taggedword index="9" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="10" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="NN">consensus</taggedword>
+      <taggedword index="13" part-of-speech="NN">Src</taggedword>
+      <taggedword index="14" part-of-speech="VB">homology</taggedword>
+      <taggedword index="15" part-of-speech="CD">3</taggedword>
+      <taggedword index="16" part-of-speech="CD">(SH3)</taggedword>
+      <taggedword index="17" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="18" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="domain" gov_index="3">det</dependency>
+      <dependency dep="amino-terminal" dep_index="2" gov="domain" gov_index="3">amod</dependency>
+      <dependency dep="domain" dep_index="3" gov="contains" gov_index="6">nsubj</dependency>
+      <dependency dep="RIN1" dep_index="5" gov="domain" gov_index="3">prep_of</dependency>
+      <dependency dep="contains" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="7" gov="sequence" gov_index="9">det</dependency>
+      <dependency dep="proline-rich" dep_index="8" gov="sequence" gov_index="9">amod</dependency>
+      <dependency dep="sequence" dep_index="9" gov="homology" gov_index="14">nsubj</dependency>
+      <dependency dep="similar" dep_index="10" gov="homology" gov_index="14">dep</dependency>
+      <dependency dep="consensus" dep_index="12" gov="Src" gov_index="13">nn</dependency>
+      <dependency dep="Src" dep_index="13" gov="similar" gov_index="10">prep_to</dependency>
+      <dependency dep="homology" dep_index="14" gov="contains" gov_index="6">xcomp</dependency>
+      <dependency dep="3" dep_index="15" gov="(SH3)" gov_index="16">number</dependency>
+      <dependency dep="(SH3)" dep_index="16" gov="regions" gov_index="18">num</dependency>
+      <dependency dep="binding" dep_index="17" gov="regions" gov_index="18">amod</dependency>
+      <dependency dep="regions" dep_index="18" gov="homology" gov_index="14">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

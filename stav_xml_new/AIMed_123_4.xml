@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@,@we@used@the@two-hybrid@assay@of@protein-protein@interaction@in@the@yeast@Saccharomyces@cerevisiae@to@study@the@interaction@between@human@IRS-1@and@the@insulin receptor@.@</sentence>
+   <tags>
+      <tag pos="24">IRS-1</tag>
+      <tag pos="27">insulin receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBD">used</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="9" part-of-speech="NN">assay</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">protein-protein</taggedword>
+      <taggedword index="12" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="16" part-of-speech="NNS">Saccharomyces</taggedword>
+      <taggedword index="17" part-of-speech="NN">cerevisiae</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="VB">study</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="22" part-of-speech="IN">between</taggedword>
+      <taggedword index="23" part-of-speech="JJ">human</taggedword>
+      <taggedword index="24" part-of-speech="NN">IRS-1</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">insulin receptor</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="used" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="used" gov_index="6">nsubj</dependency>
+      <dependency dep="we" dep_index="5" gov="study" gov_index="19">xsubj</dependency>
+      <dependency dep="used" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="assay" gov_index="9">det</dependency>
+      <dependency dep="two-hybrid" dep_index="8" gov="assay" gov_index="9">amod</dependency>
+      <dependency dep="assay" dep_index="9" gov="used" gov_index="6">dobj</dependency>
+      <dependency dep="protein-protein" dep_index="11" gov="interaction" gov_index="12">amod</dependency>
+      <dependency dep="interaction" dep_index="12" gov="assay" gov_index="9">prep_of</dependency>
+      <dependency dep="the" dep_index="14" gov="cerevisiae" gov_index="17">det</dependency>
+      <dependency dep="yeast" dep_index="15" gov="cerevisiae" gov_index="17">nn</dependency>
+      <dependency dep="Saccharomyces" dep_index="16" gov="cerevisiae" gov_index="17">nn</dependency>
+      <dependency dep="cerevisiae" dep_index="17" gov="used" gov_index="6">prep_in</dependency>
+      <dependency dep="to" dep_index="18" gov="study" gov_index="19">aux</dependency>
+      <dependency dep="study" dep_index="19" gov="used" gov_index="6">xcomp</dependency>
+      <dependency dep="the" dep_index="20" gov="interaction" gov_index="21">det</dependency>
+      <dependency dep="interaction" dep_index="21" gov="study" gov_index="19">dobj</dependency>
+      <dependency dep="human" dep_index="23" gov="IRS-1" gov_index="24">amod</dependency>
+      <dependency dep="IRS-1" dep_index="24" gov="interaction" gov_index="21">prep_between</dependency>
+      <dependency dep="the" dep_index="26" gov="insulin receptor" gov_index="27">det</dependency>
+      <dependency dep="insulin receptor" dep_index="27" gov="interaction" gov_index="21">prep_between</dependency>
+      <dependency dep="insulin receptor" dep_index="27" gov="IRS-1" gov_index="24">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2400027" relationship="true">24 21 27</relation>
+   </relations>
+   <pairs>
+      <pair>2400027</pair>
+   </pairs>
+</root>

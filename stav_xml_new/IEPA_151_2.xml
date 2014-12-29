@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>OBJECTIVE@:@To@determine@whether@hormonal@status@may@affect@neuropeptide Y@(NPY)@,@galanin@,@and@leptin@release@in@postmenopausal@women@and@in@young@women@</sentence>
+   <tags>
+      <tag pos="10">neuropeptide Y</tag>
+      <tag pos="16">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">OBJECTIVE</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="TO">To</taggedword>
+      <taggedword index="4" part-of-speech="VB">determine</taggedword>
+      <taggedword index="5" part-of-speech="IN">whether</taggedword>
+      <taggedword index="6" part-of-speech="JJ">hormonal</taggedword>
+      <taggedword index="7" part-of-speech="NN">status</taggedword>
+      <taggedword index="8" part-of-speech="MD">may</taggedword>
+      <taggedword index="9" part-of-speech="VB">affect</taggedword>
+      <taggedword index="10" part-of-speech="RB">neuropeptide Y</taggedword>
+      <taggedword index="11" part-of-speech="JJ">(NPY)</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNS">galanin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="17" part-of-speech="NN">release</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="JJ">postmenopausal</taggedword>
+      <taggedword index="20" part-of-speech="NNS">women</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="JJ">young</taggedword>
+      <taggedword index="24" part-of-speech="NNS">women</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="OBJECTIVE" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="To" dep_index="3" gov="determine" gov_index="4">aux</dependency>
+      <dependency dep="determine" dep_index="4" gov="OBJECTIVE" gov_index="1">infmod</dependency>
+      <dependency dep="whether" dep_index="5" gov="affect" gov_index="9">mark</dependency>
+      <dependency dep="hormonal" dep_index="6" gov="status" gov_index="7">amod</dependency>
+      <dependency dep="status" dep_index="7" gov="affect" gov_index="9">nsubj</dependency>
+      <dependency dep="may" dep_index="8" gov="affect" gov_index="9">aux</dependency>
+      <dependency dep="affect" dep_index="9" gov="determine" gov_index="4">ccomp</dependency>
+      <dependency dep="neuropeptide Y" dep_index="10" gov="(NPY)" gov_index="11">advmod</dependency>
+      <dependency dep="(NPY)" dep_index="11" gov="galanin" gov_index="13">amod</dependency>
+      <dependency dep="galanin" dep_index="13" gov="affect" gov_index="9">dobj</dependency>
+      <dependency dep="leptin" dep_index="16" gov="release" gov_index="17">nn</dependency>
+      <dependency dep="release" dep_index="17" gov="affect" gov_index="9">dobj</dependency>
+      <dependency dep="release" dep_index="17" gov="galanin" gov_index="13">conj_and</dependency>
+      <dependency dep="postmenopausal" dep_index="19" gov="women" gov_index="20">amod</dependency>
+      <dependency dep="women" dep_index="20" gov="affect" gov_index="9">prep_in</dependency>
+      <dependency dep="young" dep_index="23" gov="women" gov_index="24">amod</dependency>
+      <dependency dep="women" dep_index="24" gov="affect" gov_index="9">prep_in</dependency>
+      <dependency dep="women" dep_index="24" gov="women" gov_index="20">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000016" relationship="false">10 11 13 9 17 16</relation>
+   </relations>
+   <pairs/>
+</root>

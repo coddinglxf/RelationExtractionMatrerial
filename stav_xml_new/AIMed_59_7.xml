@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Peptide@growth@factors@,@as@well@as@the@immediate@early@gene@products@c-Jun@,@v-Fos@,@and@c-Myc@,@inhibit@the@activity@of@myogenin@through@a@mechanism@independent@of@its@association@with@E2A@products@.@</sentence>
+   <tags>
+      <tag pos="13">c-Jun</tag>
+      <tag pos="15">v-Fos</tag>
+      <tag pos="18">c-Myc</tag>
+      <tag pos="33">E2A</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Peptide</taggedword>
+      <taggedword index="2" part-of-speech="NN">growth</taggedword>
+      <taggedword index="3" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="RB">as</taggedword>
+      <taggedword index="6" part-of-speech="RB">well</taggedword>
+      <taggedword index="7" part-of-speech="IN">as</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">immediate</taggedword>
+      <taggedword index="10" part-of-speech="JJ">early</taggedword>
+      <taggedword index="11" part-of-speech="NN">gene</taggedword>
+      <taggedword index="12" part-of-speech="NNS">products</taggedword>
+      <taggedword index="13" part-of-speech="NN">c-Jun</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="JJ">v-Fos</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="JJ">c-Myc</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="VBP">inhibit</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">activity</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">myogenin</taggedword>
+      <taggedword index="25" part-of-speech="IN">through</taggedword>
+      <taggedword index="26" part-of-speech="DT">a</taggedword>
+      <taggedword index="27" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="28" part-of-speech="NN">independent</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="31" part-of-speech="NN">association</taggedword>
+      <taggedword index="32" part-of-speech="IN">with</taggedword>
+      <taggedword index="33" part-of-speech="CD">E2A</taggedword>
+      <taggedword index="34" part-of-speech="NNS">products</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Peptide" dep_index="1" gov="factors" gov_index="3">amod</dependency>
+      <dependency dep="growth" dep_index="2" gov="factors" gov_index="3">nn</dependency>
+      <dependency dep="factors" dep_index="3" gov="inhibit" gov_index="20">nsubj</dependency>
+      <dependency dep="the" dep_index="8" gov="c-Jun" gov_index="13">det</dependency>
+      <dependency dep="immediate" dep_index="9" gov="c-Jun" gov_index="13">amod</dependency>
+      <dependency dep="early" dep_index="10" gov="c-Jun" gov_index="13">amod</dependency>
+      <dependency dep="gene" dep_index="11" gov="c-Jun" gov_index="13">nn</dependency>
+      <dependency dep="products" dep_index="12" gov="c-Jun" gov_index="13">nn</dependency>
+      <dependency dep="c-Jun" dep_index="13" gov="factors" gov_index="3">conj_and</dependency>
+      <dependency dep="c-Jun" dep_index="13" gov="inhibit" gov_index="20">nsubj</dependency>
+      <dependency dep="v-Fos" dep_index="15" gov="factors" gov_index="3">amod</dependency>
+      <dependency dep="c-Myc" dep_index="18" gov="factors" gov_index="3">amod</dependency>
+      <dependency dep="c-Myc" dep_index="18" gov="v-Fos" gov_index="15">conj_and</dependency>
+      <dependency dep="inhibit" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="21" gov="activity" gov_index="22">det</dependency>
+      <dependency dep="activity" dep_index="22" gov="inhibit" gov_index="20">dobj</dependency>
+      <dependency dep="myogenin" dep_index="24" gov="activity" gov_index="22">prep_of</dependency>
+      <dependency dep="a" dep_index="26" gov="independent" gov_index="28">det</dependency>
+      <dependency dep="mechanism" dep_index="27" gov="independent" gov_index="28">nn</dependency>
+      <dependency dep="independent" dep_index="28" gov="inhibit" gov_index="20">prep_through</dependency>
+      <dependency dep="its" dep_index="30" gov="association" gov_index="31">poss</dependency>
+      <dependency dep="association" dep_index="31" gov="independent" gov_index="28">prep_of</dependency>
+      <dependency dep="E2A" dep_index="33" gov="products" gov_index="34">num</dependency>
+      <dependency dep="products" dep_index="34" gov="association" gov_index="31">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="false">13 20 3 15</relation>
+      <relation position="1300018" relationship="false">13 20 3 18</relation>
+      <relation position="1300033" relationship="false">13 20 28 31 34 33</relation>
+      <relation position="1500018" relationship="false">15 3 18</relation>
+      <relation position="1500033" relationship="false">15 3 20 28 31 34 33</relation>
+      <relation position="1800033" relationship="false">18 3 20 28 31 34 33</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Additionally@we@have@examined@interactions@between@TFIIH@components@,@the@human@NER@protein@XPG@,@and@the@CSB@protein@which@is@implicated@in@Cockayne@syndrome@(CS)@.@</sentence>
+   <tags>
+      <tag pos="7">TFIIH</tag>
+      <tag pos="14">XPG</tag>
+      <tag pos="18">CSB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Additionally</taggedword>
+      <taggedword index="2" part-of-speech="PRP">we</taggedword>
+      <taggedword index="3" part-of-speech="VBP">have</taggedword>
+      <taggedword index="4" part-of-speech="VBN">examined</taggedword>
+      <taggedword index="5" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="6" part-of-speech="IN">between</taggedword>
+      <taggedword index="7" part-of-speech="NNP">TFIIH</taggedword>
+      <taggedword index="8" part-of-speech="NNS">components</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">human</taggedword>
+      <taggedword index="12" part-of-speech="NNP">NER</taggedword>
+      <taggedword index="13" part-of-speech="NN">protein</taggedword>
+      <taggedword index="14" part-of-speech="NN">XPG</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NNP">CSB</taggedword>
+      <taggedword index="19" part-of-speech="NN">protein</taggedword>
+      <taggedword index="20" part-of-speech="WDT">which</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="22" part-of-speech="VBN">implicated</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="NNP">Cockayne</taggedword>
+      <taggedword index="25" part-of-speech="NN">syndrome</taggedword>
+      <taggedword index="26" part-of-speech="NNS">(CS)</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Additionally" dep_index="1" gov="examined" gov_index="4">advmod</dependency>
+      <dependency dep="we" dep_index="2" gov="examined" gov_index="4">nsubj</dependency>
+      <dependency dep="have" dep_index="3" gov="examined" gov_index="4">aux</dependency>
+      <dependency dep="examined" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="interactions" dep_index="5" gov="examined" gov_index="4">dobj</dependency>
+      <dependency dep="TFIIH" dep_index="7" gov="components" gov_index="8">nn</dependency>
+      <dependency dep="components" dep_index="8" gov="interactions" gov_index="5">prep_between</dependency>
+      <dependency dep="the" dep_index="10" gov="XPG" gov_index="14">det</dependency>
+      <dependency dep="human" dep_index="11" gov="XPG" gov_index="14">amod</dependency>
+      <dependency dep="NER" dep_index="12" gov="XPG" gov_index="14">nn</dependency>
+      <dependency dep="protein" dep_index="13" gov="XPG" gov_index="14">nn</dependency>
+      <dependency dep="XPG" dep_index="14" gov="examined" gov_index="4">dobj</dependency>
+      <dependency dep="XPG" dep_index="14" gov="interactions" gov_index="5">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="protein" gov_index="19">det</dependency>
+      <dependency dep="CSB" dep_index="18" gov="protein" gov_index="19">nn</dependency>
+      <dependency dep="protein" dep_index="19" gov="examined" gov_index="4">dobj</dependency>
+      <dependency dep="protein" dep_index="19" gov="interactions" gov_index="5">conj_and</dependency>
+      <dependency dep="protein" dep_index="19" gov="implicated" gov_index="22">nsubjpass</dependency>
+      <dependency dep="is" dep_index="21" gov="implicated" gov_index="22">auxpass</dependency>
+      <dependency dep="implicated" dep_index="22" gov="protein" gov_index="19">rcmod</dependency>
+      <dependency dep="Cockayne" dep_index="24" gov="(CS)" gov_index="26">nn</dependency>
+      <dependency dep="syndrome" dep_index="25" gov="(CS)" gov_index="26">nn</dependency>
+      <dependency dep="(CS)" dep_index="26" gov="implicated" gov_index="22">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700014" relationship="false">7 8 5 4 14</relation>
+      <relation position="700018" relationship="false">7 8 5 4 19 18</relation>
+      <relation position="1400018" relationship="false">14 4 19 18</relation>
+   </relations>
+   <pairs/>
+</root>

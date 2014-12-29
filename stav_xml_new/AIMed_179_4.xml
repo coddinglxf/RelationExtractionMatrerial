@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@the@present@study@,@we@demonstrate@that@gastrin@stimulates@tyrosine@phosphorylation@of@insulin receptor substrate 1@(@IRS-1@),@the@major@cytoplasmic@substrate@of@the@insulin receptor@.@</sentence>
+   <tags>
+      <tag pos="9">gastrin</tag>
+      <tag pos="14">insulin receptor substrate 1</tag>
+      <tag pos="16">IRS-1</tag>
+      <tag pos="24">insulin receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">present</taggedword>
+      <taggedword index="4" part-of-speech="NN">study</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="PRP">we</taggedword>
+      <taggedword index="7" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="NN">gastrin</taggedword>
+      <taggedword index="10" part-of-speech="NNS">stimulates</taggedword>
+      <taggedword index="11" part-of-speech="VBP">tyrosine</taggedword>
+      <taggedword index="12" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">insulin receptor substrate 1</taggedword>
+      <taggedword index="15" part-of-speech="JJ">(</taggedword>
+      <taggedword index="16" part-of-speech="NN">IRS-1</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">),</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">major</taggedword>
+      <taggedword index="20" part-of-speech="JJ">cytoplasmic</taggedword>
+      <taggedword index="21" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">insulin receptor</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="study" gov_index="4">det</dependency>
+      <dependency dep="present" dep_index="3" gov="study" gov_index="4">amod</dependency>
+      <dependency dep="study" dep_index="4" gov="demonstrate" gov_index="7">prep_in</dependency>
+      <dependency dep="we" dep_index="6" gov="demonstrate" gov_index="7">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="tyrosine" gov_index="11">mark</dependency>
+      <dependency dep="gastrin" dep_index="9" gov="stimulates" gov_index="10">nn</dependency>
+      <dependency dep="stimulates" dep_index="10" gov="tyrosine" gov_index="11">nsubj</dependency>
+      <dependency dep="tyrosine" dep_index="11" gov="demonstrate" gov_index="7">ccomp</dependency>
+      <dependency dep="phosphorylation" dep_index="12" gov=")," gov_index="17">nsubj</dependency>
+      <dependency dep="insulin receptor substrate 1" dep_index="14" gov="IRS-1" gov_index="16">amod</dependency>
+      <dependency dep="(" dep_index="15" gov="IRS-1" gov_index="16">amod</dependency>
+      <dependency dep="IRS-1" dep_index="16" gov="phosphorylation" gov_index="12">prep_of</dependency>
+      <dependency dep=")," dep_index="17" gov="tyrosine" gov_index="11">ccomp</dependency>
+      <dependency dep="the" dep_index="18" gov="substrate" gov_index="21">det</dependency>
+      <dependency dep="major" dep_index="19" gov="substrate" gov_index="21">amod</dependency>
+      <dependency dep="cytoplasmic" dep_index="20" gov="substrate" gov_index="21">amod</dependency>
+      <dependency dep="substrate" dep_index="21" gov=")," gov_index="17">dobj</dependency>
+      <dependency dep="the" dep_index="23" gov="insulin receptor" gov_index="24">det</dependency>
+      <dependency dep="insulin receptor" dep_index="24" gov="substrate" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900014" relationship="true">9 10 11 17 12 16 14</relation>
+      <relation position="900016" relationship="true">9 10 11 17 12 16</relation>
+      <relation position="900024" relationship="false">9 10 11 17 21 24</relation>
+      <relation position="1400016" relationship="false"></relation>
+      <relation position="1400024" relationship="false">14 16 12 17 21 24</relation>
+      <relation position="1600024" relationship="false">16 12 17 21 24</relation>
+   </relations>
+   <pairs>
+      <pair>900014</pair>
+      <pair>900016</pair>
+   </pairs>
+</root>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>IL-7@-driven@proliferation@is@mediated@via@high@affinity@IL-7R@,@and@accordingly@,@Scatchard@analysis@revealed@that@,@like@the@p90@IL-7R@,@the@p76@IL-7R@bound@IL-7@with@dual@(high@;@Kd@38@pM@and@low@;@Kd@360@pM)@affinity@.@</sentence>
+   <tags>
+      <tag pos="1">IL-7</tag>
+      <tag pos="9">IL-7R</tag>
+      <tag pos="21">p90</tag>
+      <tag pos="22">IL-7R</tag>
+      <tag pos="25">p76</tag>
+      <tag pos="26">IL-7R</tag>
+      <tag pos="28">IL-7</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">IL-7</taggedword>
+      <taggedword index="2" part-of-speech="JJ">-driven</taggedword>
+      <taggedword index="3" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="6" part-of-speech="IN">via</taggedword>
+      <taggedword index="7" part-of-speech="JJ">high</taggedword>
+      <taggedword index="8" part-of-speech="JJ">affinity</taggedword>
+      <taggedword index="9" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="RB">accordingly</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NNP">Scatchard</taggedword>
+      <taggedword index="15" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="16" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="17" part-of-speech="IN">that</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="IN">like</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">p90</taggedword>
+      <taggedword index="22" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="JJ">p76</taggedword>
+      <taggedword index="26" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="27" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="28" part-of-speech="JJ">IL-7</taggedword>
+      <taggedword index="29" part-of-speech="IN">with</taggedword>
+      <taggedword index="30" part-of-speech="JJ">dual</taggedword>
+      <taggedword index="31" part-of-speech="NN">(high</taggedword>
+      <taggedword index="32" part-of-speech=":">;</taggedword>
+      <taggedword index="33" part-of-speech="NNP">Kd</taggedword>
+      <taggedword index="34" part-of-speech="CD">38</taggedword>
+      <taggedword index="35" part-of-speech="JJ">pM</taggedword>
+      <taggedword index="36" part-of-speech="CC">and</taggedword>
+      <taggedword index="37" part-of-speech="JJ">low</taggedword>
+      <taggedword index="38" part-of-speech=":">;</taggedword>
+      <taggedword index="39" part-of-speech="NNP">Kd</taggedword>
+      <taggedword index="40" part-of-speech="CD">360</taggedword>
+      <taggedword index="41" part-of-speech="VBP">pM)</taggedword>
+      <taggedword index="42" part-of-speech="RB">affinity</taggedword>
+      <taggedword index="43" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="IL-7" dep_index="1" gov="proliferation" gov_index="3">nn</dependency>
+      <dependency dep="-driven" dep_index="2" gov="proliferation" gov_index="3">amod</dependency>
+      <dependency dep="proliferation" dep_index="3" gov="mediated" gov_index="5">nsubjpass</dependency>
+      <dependency dep="is" dep_index="4" gov="mediated" gov_index="5">auxpass</dependency>
+      <dependency dep="mediated" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="high" dep_index="7" gov="IL-7R" gov_index="9">amod</dependency>
+      <dependency dep="affinity" dep_index="8" gov="IL-7R" gov_index="9">amod</dependency>
+      <dependency dep="IL-7R" dep_index="9" gov="mediated" gov_index="5">prep_via</dependency>
+      <dependency dep="accordingly" dep_index="12" gov="revealed" gov_index="16">advmod</dependency>
+      <dependency dep="Scatchard" dep_index="14" gov="analysis" gov_index="15">nn</dependency>
+      <dependency dep="analysis" dep_index="15" gov="revealed" gov_index="16">nsubj</dependency>
+      <dependency dep="revealed" dep_index="16" gov="mediated" gov_index="5">conj_and</dependency>
+      <dependency dep="that" dep_index="17" gov="pM)" gov_index="41">mark</dependency>
+      <dependency dep="the" dep_index="20" gov="IL-7R" gov_index="22">det</dependency>
+      <dependency dep="p90" dep_index="21" gov="IL-7R" gov_index="22">amod</dependency>
+      <dependency dep="IL-7R" dep_index="22" gov="pM)" gov_index="41">prep_like</dependency>
+      <dependency dep="the" dep_index="24" gov="IL-7R" gov_index="26">det</dependency>
+      <dependency dep="p76" dep_index="25" gov="IL-7R" gov_index="26">amod</dependency>
+      <dependency dep="IL-7R" dep_index="26" gov="pM)" gov_index="41">nsubj</dependency>
+      <dependency dep="bound" dep_index="27" gov="IL-7R" gov_index="26">partmod</dependency>
+      <dependency dep="IL-7" dep_index="28" gov="bound" gov_index="27">acomp</dependency>
+      <dependency dep="dual" dep_index="30" gov="(high" gov_index="31">amod</dependency>
+      <dependency dep="(high" dep_index="31" gov="bound" gov_index="27">prep_with</dependency>
+      <dependency dep="Kd" dep_index="33" gov="(high" gov_index="31">dep</dependency>
+      <dependency dep="38" dep_index="34" gov="Kd" gov_index="33">num</dependency>
+      <dependency dep="pM" dep_index="35" gov="Kd" gov_index="33">amod</dependency>
+      <dependency dep="low" dep_index="37" gov="Kd" gov_index="33">amod</dependency>
+      <dependency dep="low" dep_index="37" gov="pM" gov_index="35">conj_and</dependency>
+      <dependency dep="Kd" dep_index="39" gov="(high" gov_index="31">dep</dependency>
+      <dependency dep="360" dep_index="40" gov="Kd" gov_index="39">num</dependency>
+      <dependency dep="pM)" dep_index="41" gov="revealed" gov_index="16">ccomp</dependency>
+      <dependency dep="affinity" dep_index="42" gov="pM)" gov_index="41">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100009" relationship="false">1 3 5 9</relation>
+      <relation position="100021" relationship="false"></relation>
+      <relation position="100022" relationship="false"></relation>
+      <relation position="100025" relationship="false"></relation>
+      <relation position="100026" relationship="false"></relation>
+      <relation position="100028" relationship="false"></relation>
+      <relation position="900021" relationship="false"></relation>
+      <relation position="900022" relationship="false"></relation>
+      <relation position="900025" relationship="false"></relation>
+      <relation position="900026" relationship="false"></relation>
+      <relation position="900028" relationship="false"></relation>
+      <relation position="2100022" relationship="false"></relation>
+      <relation position="2100025" relationship="false">21 22 41 26 25</relation>
+      <relation position="2100026" relationship="false">21 22 41 26</relation>
+      <relation position="2100028" relationship="false">21 22 41 26 27 28</relation>
+      <relation position="2200025" relationship="false">22 41 26 25</relation>
+      <relation position="2200026" relationship="false">22 41 26</relation>
+      <relation position="2200028" relationship="false">22 41 26 27 28</relation>
+      <relation position="2500026" relationship="false"></relation>
+      <relation position="2500028" relationship="false">25 26 27 28</relation>
+      <relation position="2600028" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

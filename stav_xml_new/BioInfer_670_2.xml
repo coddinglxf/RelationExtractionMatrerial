@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@suggest@that@MSH2@and@MSH3@can@function@differentially@to@control@homeologous@exchanges@.@</sentence>
+   <tags>
+      <tag pos="5">MSH2</tag>
+      <tag pos="7">MSH3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">MSH2</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">MSH3</taggedword>
+      <taggedword index="8" part-of-speech="MD">can</taggedword>
+      <taggedword index="9" part-of-speech="VB">function</taggedword>
+      <taggedword index="10" part-of-speech="RB">differentially</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">control</taggedword>
+      <taggedword index="13" part-of-speech="JJ">homeologous</taggedword>
+      <taggedword index="14" part-of-speech="NNS">exchanges</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="function" gov_index="9">mark</dependency>
+      <dependency dep="MSH2" dep_index="5" gov="function" gov_index="9">nsubj</dependency>
+      <dependency dep="MSH2" dep_index="5" gov="control" gov_index="12">xsubj</dependency>
+      <dependency dep="MSH3" dep_index="7" gov="MSH2" gov_index="5">conj_and</dependency>
+      <dependency dep="MSH3" dep_index="7" gov="function" gov_index="9">nsubj</dependency>
+      <dependency dep="MSH3" dep_index="7" gov="control" gov_index="12">xsubj</dependency>
+      <dependency dep="can" dep_index="8" gov="function" gov_index="9">aux</dependency>
+      <dependency dep="function" dep_index="9" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="differentially" dep_index="10" gov="function" gov_index="9">advmod</dependency>
+      <dependency dep="to" dep_index="11" gov="control" gov_index="12">aux</dependency>
+      <dependency dep="control" dep_index="12" gov="function" gov_index="9">xcomp</dependency>
+      <dependency dep="homeologous" dep_index="13" gov="exchanges" gov_index="14">amod</dependency>
+      <dependency dep="exchanges" dep_index="14" gov="control" gov_index="12">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 12 7</relation>
+   </relations>
+   <pairs/>
+</root>

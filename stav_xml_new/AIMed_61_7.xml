@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>TNF-alpha@treatment@of@293/@TNF-R2@cells@did@not@significantly@affect@the@degree@or@pattern@of@phosphorylation@.@</sentence>
+   <tags>
+      <tag pos="1">TNF-alpha</tag>
+      <tag pos="5">TNF-R2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">TNF-alpha</taggedword>
+      <taggedword index="2" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">293/</taggedword>
+      <taggedword index="5" part-of-speech="NN">TNF-R2</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech="VBD">did</taggedword>
+      <taggedword index="8" part-of-speech="RB">not</taggedword>
+      <taggedword index="9" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="10" part-of-speech="VB">affect</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">degree</taggedword>
+      <taggedword index="13" part-of-speech="CC">or</taggedword>
+      <taggedword index="14" part-of-speech="NN">pattern</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="TNF-alpha" dep_index="1" gov="treatment" gov_index="2">amod</dependency>
+      <dependency dep="treatment" dep_index="2" gov="affect" gov_index="10">nsubj</dependency>
+      <dependency dep="293/" dep_index="4" gov="cells" gov_index="6">num</dependency>
+      <dependency dep="TNF-R2" dep_index="5" gov="cells" gov_index="6">nn</dependency>
+      <dependency dep="cells" dep_index="6" gov="treatment" gov_index="2">prep_of</dependency>
+      <dependency dep="did" dep_index="7" gov="affect" gov_index="10">aux</dependency>
+      <dependency dep="not" dep_index="8" gov="affect" gov_index="10">neg</dependency>
+      <dependency dep="significantly" dep_index="9" gov="affect" gov_index="10">advmod</dependency>
+      <dependency dep="affect" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="degree" gov_index="12">det</dependency>
+      <dependency dep="degree" dep_index="12" gov="affect" gov_index="10">dobj</dependency>
+      <dependency dep="pattern" dep_index="14" gov="affect" gov_index="10">dobj</dependency>
+      <dependency dep="pattern" dep_index="14" gov="degree" gov_index="12">conj_or</dependency>
+      <dependency dep="phosphorylation" dep_index="16" gov="degree" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100005" relationship="false">1 2 6 5</relation>
+   </relations>
+   <pairs/>
+</root>

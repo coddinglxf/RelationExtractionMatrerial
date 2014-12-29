@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crystal@structure@of@the@BMP-2@-@BRIA@ectodomain@complex@.@</sentence>
+   <tags>
+      <tag pos="5">BMP-2</tag>
+      <tag pos="7">BRIA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Crystal</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">BMP-2</taggedword>
+      <taggedword index="6" part-of-speech=":">-</taggedword>
+      <taggedword index="7" part-of-speech="NNP">BRIA</taggedword>
+      <taggedword index="8" part-of-speech="VBN">ectodomain</taggedword>
+      <taggedword index="9" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crystal" dep_index="1" gov="structure" gov_index="2">nn</dependency>
+      <dependency dep="structure" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="BMP-2" gov_index="5">det</dependency>
+      <dependency dep="BMP-2" dep_index="5" gov="structure" gov_index="2">prep_of</dependency>
+      <dependency dep="BRIA" dep_index="7" gov="structure" gov_index="2">dep</dependency>
+      <dependency dep="ectodomain" dep_index="8" gov="BRIA" gov_index="7">partmod</dependency>
+      <dependency dep="complex" dep_index="9" gov="ectodomain" gov_index="8">acomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="true">5 2 7</relation>
+   </relations>
+   <pairs>
+      <pair>500007</pair>
+   </pairs>
+</root>

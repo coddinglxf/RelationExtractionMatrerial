@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Two@cDNAs@,@isolated@from@a@Xenopus@laevis@embryonic@library@,@encode@proteins@of@168@amino@acids@,@both@of@which@are@77%@identical@to@chick@cofilin@and@66%@identical@to@chick@actin-depolymerizing factor@(@ADF@),@two@structurally@and@functionally@related@proteins@.@</sentence>
+   <tags>
+      <tag pos="33">actin-depolymerizing factor</tag>
+      <tag pos="35">ADF</tag>
+      <tag pos="27">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Two</taggedword>
+      <taggedword index="2" part-of-speech="NNS">cDNAs</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="VBN">isolated</taggedword>
+      <taggedword index="5" part-of-speech="IN">from</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Xenopus</taggedword>
+      <taggedword index="8" part-of-speech="NNP">laevis</taggedword>
+      <taggedword index="9" part-of-speech="JJ">embryonic</taggedword>
+      <taggedword index="10" part-of-speech="NN">library</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="VBP">encode</taggedword>
+      <taggedword index="13" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="CD">168</taggedword>
+      <taggedword index="16" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="17" part-of-speech="NNS">acids</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="DT">both</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="WDT">which</taggedword>
+      <taggedword index="22" part-of-speech="VBP">are</taggedword>
+      <taggedword index="23" part-of-speech="RB">77%</taggedword>
+      <taggedword index="24" part-of-speech="JJ">identical</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="VB">chick</taggedword>
+      <taggedword index="27" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="CD">66%</taggedword>
+      <taggedword index="30" part-of-speech="JJ">identical</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="VB">chick</taggedword>
+      <taggedword index="33" part-of-speech="JJ">actin-depolymerizing factor</taggedword>
+      <taggedword index="34" part-of-speech="JJ">(</taggedword>
+      <taggedword index="35" part-of-speech="NN">ADF</taggedword>
+      <taggedword index="36" part-of-speech="NNS">),</taggedword>
+      <taggedword index="37" part-of-speech="CD">two</taggedword>
+      <taggedword index="38" part-of-speech="NN">structurally</taggedword>
+      <taggedword index="39" part-of-speech="CC">and</taggedword>
+      <taggedword index="40" part-of-speech="RB">functionally</taggedword>
+      <taggedword index="41" part-of-speech="VBN">related</taggedword>
+      <taggedword index="42" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="43" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Two" dep_index="1" gov="cDNAs" gov_index="2">num</dependency>
+      <dependency dep="cDNAs" dep_index="2" gov="encode" gov_index="12">nsubj</dependency>
+      <dependency dep="isolated" dep_index="4" gov="cDNAs" gov_index="2">partmod</dependency>
+      <dependency dep="a" dep_index="6" gov="library" gov_index="10">det</dependency>
+      <dependency dep="Xenopus" dep_index="7" gov="library" gov_index="10">nn</dependency>
+      <dependency dep="laevis" dep_index="8" gov="library" gov_index="10">nn</dependency>
+      <dependency dep="embryonic" dep_index="9" gov="library" gov_index="10">amod</dependency>
+      <dependency dep="library" dep_index="10" gov="isolated" gov_index="4">prep_from</dependency>
+      <dependency dep="encode" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="proteins" dep_index="13" gov="encode" gov_index="12">dobj</dependency>
+      <dependency dep="168" dep_index="15" gov="acids" gov_index="17">num</dependency>
+      <dependency dep="amino" dep_index="16" gov="acids" gov_index="17">amod</dependency>
+      <dependency dep="acids" dep_index="17" gov="proteins" gov_index="13">prep_of</dependency>
+      <dependency dep="acids" dep_index="17" gov="of" gov_index="20">pobj</dependency>
+      <dependency dep="both" dep_index="19" gov="of" gov_index="20">dep</dependency>
+      <dependency dep="of" dep_index="20" gov="identical" gov_index="24">nsubj</dependency>
+      <dependency dep="of" dep_index="20" gov="chick" gov_index="26">xsubj</dependency>
+      <dependency dep="are" dep_index="22" gov="identical" gov_index="24">cop</dependency>
+      <dependency dep="77%" dep_index="23" gov="identical" gov_index="24">advmod</dependency>
+      <dependency dep="identical" dep_index="24" gov="acids" gov_index="17">rcmod</dependency>
+      <dependency dep="to" dep_index="25" gov="chick" gov_index="26">aux</dependency>
+      <dependency dep="chick" dep_index="26" gov="identical" gov_index="24">xcomp</dependency>
+      <dependency dep="cofilin" dep_index="27" gov="chick" gov_index="26">dobj</dependency>
+      <dependency dep="66%" dep_index="29" gov=")," gov_index="36">num</dependency>
+      <dependency dep="identical" dep_index="30" gov=")," gov_index="36">amod</dependency>
+      <dependency dep="to" dep_index="31" gov="chick" gov_index="32">aux</dependency>
+      <dependency dep="chick" dep_index="32" gov="identical" gov_index="30">xcomp</dependency>
+      <dependency dep="actin-depolymerizing factor" dep_index="33" gov=")," gov_index="36">amod</dependency>
+      <dependency dep="(" dep_index="34" gov=")," gov_index="36">amod</dependency>
+      <dependency dep="ADF" dep_index="35" gov=")," gov_index="36">nn</dependency>
+      <dependency dep=")," dep_index="36" gov="encode" gov_index="12">dobj</dependency>
+      <dependency dep=")," dep_index="36" gov="proteins" gov_index="13">conj_and</dependency>
+      <dependency dep="two" dep_index="37" gov="structurally" gov_index="38">num</dependency>
+      <dependency dep="structurally" dep_index="38" gov="proteins" gov_index="13">dep</dependency>
+      <dependency dep="functionally" dep_index="40" gov="related" gov_index="41">advmod</dependency>
+      <dependency dep="related" dep_index="41" gov="proteins" gov_index="42">amod</dependency>
+      <dependency dep="proteins" dep_index="42" gov="encode" gov_index="12">dobj</dependency>
+      <dependency dep="proteins" dep_index="42" gov="proteins" gov_index="13">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3300035" relationship="false">33 36 35</relation>
+      <relation position="2700033" relationship="true">27 26 24 17 13 12 36 33</relation>
+      <relation position="2700035" relationship="true">27 26 24 17 13 12 36 35</relation>
+   </relations>
+   <pairs>
+      <pair>2700035</pair>
+      <pair>2700033</pair>
+   </pairs>
+</root>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@find@that@p53@,@p21@(@CIP1@)@and@p15@(@INK4b@)@are@transiently@elevated@in@HPECs@and@HUCs@at@the@pre-senescent@growth@arrest@,@then@return@to@low@proliferating@levels@at@terminal@senescence@.@</sentence>
+   <tags>
+      <tag pos="4">p53</tag>
+      <tag pos="6">p21</tag>
+      <tag pos="8">CIP1</tag>
+      <tag pos="11">p15</tag>
+      <tag pos="13">INK4b</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">find</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NN">p53</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NNP">p21</taggedword>
+      <taggedword index="7" part-of-speech="NNP">(</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CIP1</taggedword>
+      <taggedword index="9" part-of-speech="NNP">)</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="JJ">p15</taggedword>
+      <taggedword index="12" part-of-speech="JJ">(</taggedword>
+      <taggedword index="13" part-of-speech="JJ">INK4b</taggedword>
+      <taggedword index="14" part-of-speech="NNS">)</taggedword>
+      <taggedword index="15" part-of-speech="VBP">are</taggedword>
+      <taggedword index="16" part-of-speech="RB">transiently</taggedword>
+      <taggedword index="17" part-of-speech="JJ">elevated</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="NNPS">HPECs</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NNPS">HUCs</taggedword>
+      <taggedword index="22" part-of-speech="IN">at</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="JJ">pre-senescent</taggedword>
+      <taggedword index="25" part-of-speech="NN">growth</taggedword>
+      <taggedword index="26" part-of-speech="NN">arrest</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="RB">then</taggedword>
+      <taggedword index="29" part-of-speech="VB">return</taggedword>
+      <taggedword index="30" part-of-speech="TO">to</taggedword>
+      <taggedword index="31" part-of-speech="JJ">low</taggedword>
+      <taggedword index="32" part-of-speech="VBG">proliferating</taggedword>
+      <taggedword index="33" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="34" part-of-speech="IN">at</taggedword>
+      <taggedword index="35" part-of-speech="NN">terminal</taggedword>
+      <taggedword index="36" part-of-speech="NN">senescence</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="find" gov_index="2">nsubj</dependency>
+      <dependency dep="find" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="elevated" gov_index="17">mark</dependency>
+      <dependency dep="p53" dep_index="4" gov="elevated" gov_index="17">nsubj</dependency>
+      <dependency dep="p21" dep_index="6" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="(" dep_index="7" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="CIP1" dep_index="8" gov=")" gov_index="9">nn</dependency>
+      <dependency dep=")" dep_index="9" gov="p53" gov_index="4">conj_and</dependency>
+      <dependency dep=")" dep_index="9" gov="elevated" gov_index="17">nsubj</dependency>
+      <dependency dep="p15" dep_index="11" gov=")" gov_index="14">amod</dependency>
+      <dependency dep="(" dep_index="12" gov=")" gov_index="14">amod</dependency>
+      <dependency dep="INK4b" dep_index="13" gov=")" gov_index="14">amod</dependency>
+      <dependency dep=")" dep_index="14" gov="p53" gov_index="4">conj_and</dependency>
+      <dependency dep=")" dep_index="14" gov="elevated" gov_index="17">nsubj</dependency>
+      <dependency dep="are" dep_index="15" gov="elevated" gov_index="17">cop</dependency>
+      <dependency dep="transiently" dep_index="16" gov="elevated" gov_index="17">advmod</dependency>
+      <dependency dep="elevated" dep_index="17" gov="find" gov_index="2">ccomp</dependency>
+      <dependency dep="HPECs" dep_index="19" gov="elevated" gov_index="17">prep_in</dependency>
+      <dependency dep="HUCs" dep_index="21" gov="elevated" gov_index="17">prep_in</dependency>
+      <dependency dep="HUCs" dep_index="21" gov="HPECs" gov_index="19">conj_and</dependency>
+      <dependency dep="the" dep_index="23" gov="arrest" gov_index="26">det</dependency>
+      <dependency dep="pre-senescent" dep_index="24" gov="arrest" gov_index="26">amod</dependency>
+      <dependency dep="growth" dep_index="25" gov="arrest" gov_index="26">nn</dependency>
+      <dependency dep="arrest" dep_index="26" gov="HPECs" gov_index="19">prep_at</dependency>
+      <dependency dep="then" dep_index="28" gov="return" gov_index="29">advmod</dependency>
+      <dependency dep="return" dep_index="29" gov="elevated" gov_index="17">ccomp</dependency>
+      <dependency dep="low" dep_index="31" gov="levels" gov_index="33">amod</dependency>
+      <dependency dep="proliferating" dep_index="32" gov="levels" gov_index="33">amod</dependency>
+      <dependency dep="levels" dep_index="33" gov="return" gov_index="29">prep_to</dependency>
+      <dependency dep="terminal" dep_index="35" gov="senescence" gov_index="36">nn</dependency>
+      <dependency dep="senescence" dep_index="36" gov="levels" gov_index="33">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 17 9 6</relation>
+      <relation position="400008" relationship="false">4 17 9 8</relation>
+      <relation position="400011" relationship="false">4 17 14 11</relation>
+      <relation position="400013" relationship="false">4 17 14 13</relation>
+      <relation position="600008" relationship="false">6 9 8</relation>
+      <relation position="600011" relationship="false">6 9 17 14 11</relation>
+      <relation position="600013" relationship="false">6 9 17 14 13</relation>
+      <relation position="800011" relationship="false">8 9 17 14 11</relation>
+      <relation position="800013" relationship="false">8 9 17 14 13</relation>
+      <relation position="1100013" relationship="false">11 14 13</relation>
+   </relations>
+   <pairs/>
+</root>

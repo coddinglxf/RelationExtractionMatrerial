@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunocytochemical@localisation@of@actin@and@profilin@in@the@generative@cell@of@angiosperm@pollen@:@TEM@studies@on@high-pressure@frozen@and@freeze-substituted@Ledebouria@socialis@Roth@(Hyacinthaceae)@.@</sentence>
+   <tags>
+      <tag pos="4">actin</tag>
+      <tag pos="6">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Immunocytochemical</taggedword>
+      <taggedword index="2" part-of-speech="NN">localisation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">generative</taggedword>
+      <taggedword index="10" part-of-speech="NN">cell</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">angiosperm</taggedword>
+      <taggedword index="13" part-of-speech="NN">pollen</taggedword>
+      <taggedword index="14" part-of-speech=":">:</taggedword>
+      <taggedword index="15" part-of-speech="NNP">TEM</taggedword>
+      <taggedword index="16" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="17" part-of-speech="IN">on</taggedword>
+      <taggedword index="18" part-of-speech="JJ">high-pressure</taggedword>
+      <taggedword index="19" part-of-speech="JJ">frozen</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="JJ">freeze-substituted</taggedword>
+      <taggedword index="22" part-of-speech="NN">Ledebouria</taggedword>
+      <taggedword index="23" part-of-speech="NNS">socialis</taggedword>
+      <taggedword index="24" part-of-speech="NNP">Roth</taggedword>
+      <taggedword index="25" part-of-speech="NNP">(Hyacinthaceae)</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunocytochemical" dep_index="1" gov="localisation" gov_index="2">amod</dependency>
+      <dependency dep="localisation" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="actin" dep_index="4" gov="localisation" gov_index="2">prep_of</dependency>
+      <dependency dep="profilin" dep_index="6" gov="localisation" gov_index="2">prep_of</dependency>
+      <dependency dep="profilin" dep_index="6" gov="actin" gov_index="4">conj_and</dependency>
+      <dependency dep="the" dep_index="8" gov="cell" gov_index="10">det</dependency>
+      <dependency dep="generative" dep_index="9" gov="cell" gov_index="10">amod</dependency>
+      <dependency dep="cell" dep_index="10" gov="localisation" gov_index="2">prep_in</dependency>
+      <dependency dep="angiosperm" dep_index="12" gov="pollen" gov_index="13">nn</dependency>
+      <dependency dep="pollen" dep_index="13" gov="cell" gov_index="10">prep_of</dependency>
+      <dependency dep="TEM" dep_index="15" gov="studies" gov_index="16">nn</dependency>
+      <dependency dep="studies" dep_index="16" gov="localisation" gov_index="2">dep</dependency>
+      <dependency dep="high-pressure" dep_index="18" gov="frozen" gov_index="19">amod</dependency>
+      <dependency dep="frozen" dep_index="19" gov="studies" gov_index="16">prep_on</dependency>
+      <dependency dep="freeze-substituted" dep_index="21" gov="socialis" gov_index="23">amod</dependency>
+      <dependency dep="Ledebouria" dep_index="22" gov="socialis" gov_index="23">nn</dependency>
+      <dependency dep="socialis" dep_index="23" gov="studies" gov_index="16">prep_on</dependency>
+      <dependency dep="socialis" dep_index="23" gov="frozen" gov_index="19">conj_and</dependency>
+      <dependency dep="Roth" dep_index="24" gov="(Hyacinthaceae)" gov_index="25">nn</dependency>
+      <dependency dep="(Hyacinthaceae)" dep_index="25" gov="studies" gov_index="16">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 6</relation>
+   </relations>
+   <pairs/>
+</root>

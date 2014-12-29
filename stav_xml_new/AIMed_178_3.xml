@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@vitro@and@in@nonproliferating@cells@,@p27@associates@with@and@inhibits@cyclin/cycin-dependent@kinase@(CDK)@holoenzymes@containing@either@CDK4@,@CDK6@,@or@CDK2@.@</sentence>
+   <tags>
+      <tag pos="8">p27</tag>
+      <tag pos="19">CDK4</tag>
+      <tag pos="21">CDK6</tag>
+      <tag pos="24">CDK2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="NN">nonproliferating</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="JJ">p27</taggedword>
+      <taggedword index="9" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="NNP">and</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">inhibits</taggedword>
+      <taggedword index="13" part-of-speech="JJ">cyclin/cycin-dependent</taggedword>
+      <taggedword index="14" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="15" part-of-speech="JJ">(CDK)</taggedword>
+      <taggedword index="16" part-of-speech="NNS">holoenzymes</taggedword>
+      <taggedword index="17" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="18" part-of-speech="CC">either</taggedword>
+      <taggedword index="19" part-of-speech="NNP">CDK4</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="NNP">CDK6</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">or</taggedword>
+      <taggedword index="24" part-of-speech="NNP">CDK2</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="vitro" dep_index="2" gov="cells" gov_index="6">amod</dependency>
+      <dependency dep="in" dep_index="4" gov="vitro" gov_index="2">conj_and</dependency>
+      <dependency dep="in" dep_index="4" gov="cells" gov_index="6">amod</dependency>
+      <dependency dep="nonproliferating" dep_index="5" gov="in" gov_index="4">pobj</dependency>
+      <dependency dep="cells" dep_index="6" gov="inhibits" gov_index="12">prep_in</dependency>
+      <dependency dep="p27" dep_index="8" gov="associates" gov_index="9">amod</dependency>
+      <dependency dep="associates" dep_index="9" gov="inhibits" gov_index="12">nsubj</dependency>
+      <dependency dep="and" dep_index="11" gov="associates" gov_index="9">prep_with</dependency>
+      <dependency dep="inhibits" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cyclin/cycin-dependent" dep_index="13" gov="holoenzymes" gov_index="16">amod</dependency>
+      <dependency dep="kinase" dep_index="14" gov="holoenzymes" gov_index="16">amod</dependency>
+      <dependency dep="(CDK)" dep_index="15" gov="holoenzymes" gov_index="16">amod</dependency>
+      <dependency dep="holoenzymes" dep_index="16" gov="inhibits" gov_index="12">dobj</dependency>
+      <dependency dep="containing" dep_index="17" gov="holoenzymes" gov_index="16">partmod</dependency>
+      <dependency dep="either" dep_index="18" gov="containing" gov_index="17">prep</dependency>
+      <dependency dep="CDK4" dep_index="19" gov="either" gov_index="18">dep</dependency>
+      <dependency dep="CDK6" dep_index="21" gov="either" gov_index="18">dep</dependency>
+      <dependency dep="CDK6" dep_index="21" gov="CDK4" gov_index="19">conj_or</dependency>
+      <dependency dep="CDK2" dep_index="24" gov="either" gov_index="18">dep</dependency>
+      <dependency dep="CDK2" dep_index="24" gov="CDK4" gov_index="19">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800019" relationship="true">8 9 12 16 17 18 19</relation>
+      <relation position="800021" relationship="true">8 9 12 16 17 18 21</relation>
+      <relation position="800024" relationship="true">8 9 12 16 17 18 24</relation>
+      <relation position="1900021" relationship="false">19 18 21</relation>
+      <relation position="1900024" relationship="false">19 18 24</relation>
+      <relation position="2100024" relationship="false">21 19 24</relation>
+   </relations>
+   <pairs>
+      <pair>800021</pair>
+      <pair>800019</pair>
+      <pair>800024</pair>
+   </pairs>
+</root>

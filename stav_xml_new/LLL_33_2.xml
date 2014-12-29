@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>GerE@binds@to@a@site@on@one@of@these@promoters@,@cotX@,@that@overlaps@its@-35@region@.@</sentence>
+   <tags>
+      <tag pos="1">GerE</tag>
+      <tag pos="12">cotX</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">GerE</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="NN">site</taggedword>
+      <taggedword index="6" part-of-speech="IN">on</taggedword>
+      <taggedword index="7" part-of-speech="CD">one</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">these</taggedword>
+      <taggedword index="10" part-of-speech="NNS">promoters</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NN">cotX</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="WDT">that</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">overlaps</taggedword>
+      <taggedword index="16" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="17" part-of-speech="JJ">-35</taggedword>
+      <taggedword index="18" part-of-speech="NN">region</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="GerE" dep_index="1" gov="binds" gov_index="2">nsubj</dependency>
+      <dependency dep="binds" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="site" gov_index="5">det</dependency>
+      <dependency dep="site" dep_index="5" gov="binds" gov_index="2">prep_to</dependency>
+      <dependency dep="one" dep_index="7" gov="site" gov_index="5">prep_on</dependency>
+      <dependency dep="these" dep_index="9" gov="promoters" gov_index="10">det</dependency>
+      <dependency dep="promoters" dep_index="10" gov="one" gov_index="7">prep_of</dependency>
+      <dependency dep="promoters" dep_index="10" gov="overlaps" gov_index="15">nsubj</dependency>
+      <dependency dep="cotX" dep_index="12" gov="promoters" gov_index="10">appos</dependency>
+      <dependency dep="overlaps" dep_index="15" gov="promoters" gov_index="10">rcmod</dependency>
+      <dependency dep="its" dep_index="16" gov="region" gov_index="18">poss</dependency>
+      <dependency dep="-35" dep_index="17" gov="region" gov_index="18">amod</dependency>
+      <dependency dep="region" dep_index="18" gov="overlaps" gov_index="15">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100012" relationship="true">1 2 5 7 10 12</relation>
+   </relations>
+   <pairs>
+      <pair>100012</pair>
+   </pairs>
+</root>

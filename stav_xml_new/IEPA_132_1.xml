@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@effects@of@the@fluorinated@analogues@were@evaluated@on@inhibition@of@cress@seed@germination@and@inhibition@of@gibberellin@-inducible@alpha-amylase@induction@in@embryoless@barley@half-seeds@</sentence>
+   <tags>
+      <tag pos="18">gibberellin</tag>
+      <tag pos="20">alpha-amylase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">fluorinated</taggedword>
+      <taggedword index="6" part-of-speech="NNS">analogues</taggedword>
+      <taggedword index="7" part-of-speech="VBD">were</taggedword>
+      <taggedword index="8" part-of-speech="VBN">evaluated</taggedword>
+      <taggedword index="9" part-of-speech="IN">on</taggedword>
+      <taggedword index="10" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cress</taggedword>
+      <taggedword index="13" part-of-speech="NN">seed</taggedword>
+      <taggedword index="14" part-of-speech="NN">germination</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="JJ">gibberellin</taggedword>
+      <taggedword index="19" part-of-speech="JJ">-inducible</taggedword>
+      <taggedword index="20" part-of-speech="JJ">alpha-amylase</taggedword>
+      <taggedword index="21" part-of-speech="NN">induction</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="JJ">embryoless</taggedword>
+      <taggedword index="24" part-of-speech="NN">barley</taggedword>
+      <taggedword index="25" part-of-speech="NNS">half-seeds</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="effects" gov_index="2">det</dependency>
+      <dependency dep="effects" dep_index="2" gov="evaluated" gov_index="8">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="analogues" gov_index="6">det</dependency>
+      <dependency dep="fluorinated" dep_index="5" gov="analogues" gov_index="6">amod</dependency>
+      <dependency dep="analogues" dep_index="6" gov="effects" gov_index="2">prep_of</dependency>
+      <dependency dep="were" dep_index="7" gov="evaluated" gov_index="8">auxpass</dependency>
+      <dependency dep="evaluated" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="inhibition" dep_index="10" gov="evaluated" gov_index="8">prep_on</dependency>
+      <dependency dep="cress" dep_index="12" gov="germination" gov_index="14">nn</dependency>
+      <dependency dep="seed" dep_index="13" gov="germination" gov_index="14">nn</dependency>
+      <dependency dep="germination" dep_index="14" gov="inhibition" gov_index="10">prep_of</dependency>
+      <dependency dep="inhibition" dep_index="16" gov="inhibition" gov_index="10">prep_of</dependency>
+      <dependency dep="inhibition" dep_index="16" gov="germination" gov_index="14">conj_and</dependency>
+      <dependency dep="gibberellin" dep_index="18" gov="induction" gov_index="21">amod</dependency>
+      <dependency dep="-inducible" dep_index="19" gov="induction" gov_index="21">amod</dependency>
+      <dependency dep="alpha-amylase" dep_index="20" gov="induction" gov_index="21">amod</dependency>
+      <dependency dep="induction" dep_index="21" gov="germination" gov_index="14">prep_of</dependency>
+      <dependency dep="embryoless" dep_index="23" gov="half-seeds" gov_index="25">amod</dependency>
+      <dependency dep="barley" dep_index="24" gov="half-seeds" gov_index="25">nn</dependency>
+      <dependency dep="half-seeds" dep_index="25" gov="induction" gov_index="21">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800020" relationship="true">18 21 20</relation>
+   </relations>
+   <pairs>
+      <pair>1800020</pair>
+   </pairs>
+</root>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Unlike@fimbrin@,@L-plastin@'s@actin@-bundling@action@was@strictly@calcium-dependent@:@the@bundles@were@formed@at@pCa@7@,@but@not@at@pCa@6@.@</sentence>
+   <tags>
+      <tag pos="4">L-plastin</tag>
+      <tag pos="2">fimbrin</tag>
+      <tag pos="6">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Unlike</taggedword>
+      <taggedword index="2" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">L-plastin</taggedword>
+      <taggedword index="5" part-of-speech="POS">'s</taggedword>
+      <taggedword index="6" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="7" part-of-speech="JJ">-bundling</taggedword>
+      <taggedword index="8" part-of-speech="NN">action</taggedword>
+      <taggedword index="9" part-of-speech="VBD">was</taggedword>
+      <taggedword index="10" part-of-speech="RB">strictly</taggedword>
+      <taggedword index="11" part-of-speech="JJ">calcium-dependent</taggedword>
+      <taggedword index="12" part-of-speech=":">:</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NNS">bundles</taggedword>
+      <taggedword index="15" part-of-speech="VBD">were</taggedword>
+      <taggedword index="16" part-of-speech="VBN">formed</taggedword>
+      <taggedword index="17" part-of-speech="IN">at</taggedword>
+      <taggedword index="18" part-of-speech="NN">pCa</taggedword>
+      <taggedword index="19" part-of-speech="CD">7</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">but</taggedword>
+      <taggedword index="22" part-of-speech="RB">not</taggedword>
+      <taggedword index="23" part-of-speech="IN">at</taggedword>
+      <taggedword index="24" part-of-speech="NN">pCa</taggedword>
+      <taggedword index="25" part-of-speech="CD">6</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="fimbrin" dep_index="2" gov="calcium-dependent" gov_index="11">prep_unlike</dependency>
+      <dependency dep="L-plastin" dep_index="4" gov="action" gov_index="8">poss</dependency>
+      <dependency dep="actin" dep_index="6" gov="action" gov_index="8">amod</dependency>
+      <dependency dep="-bundling" dep_index="7" gov="action" gov_index="8">amod</dependency>
+      <dependency dep="action" dep_index="8" gov="calcium-dependent" gov_index="11">nsubj</dependency>
+      <dependency dep="was" dep_index="9" gov="calcium-dependent" gov_index="11">cop</dependency>
+      <dependency dep="strictly" dep_index="10" gov="calcium-dependent" gov_index="11">advmod</dependency>
+      <dependency dep="calcium-dependent" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="13" gov="bundles" gov_index="14">det</dependency>
+      <dependency dep="bundles" dep_index="14" gov="formed" gov_index="16">nsubjpass</dependency>
+      <dependency dep="were" dep_index="15" gov="formed" gov_index="16">auxpass</dependency>
+      <dependency dep="formed" dep_index="16" gov="calcium-dependent" gov_index="11">parataxis</dependency>
+      <dependency dep="at" dep_index="17" gov="formed" gov_index="16">KILL</dependency>
+      <dependency dep="pCa" dep_index="18" gov="at" gov_index="17">KILL</dependency>
+      <dependency dep="7" dep_index="19" gov="pCa" gov_index="18">num</dependency>
+      <dependency dep="not" dep_index="22" gov="formed" gov_index="16">prep</dependency>
+      <dependency dep="not" dep_index="22" gov="formed" gov_index="16">conj_but</dependency>
+      <dependency dep="not" dep_index="22" gov="at" gov_index="17">neg</dependency>
+      <dependency dep="at" dep_index="23" gov="formed" gov_index="16">dep</dependency>
+      <dependency dep="pCa" dep_index="24" gov="at" gov_index="23">pobj</dependency>
+      <dependency dep="6" dep_index="25" gov="pCa" gov_index="24">num</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 11 8 4</relation>
+      <relation position="400006" relationship="true">4 8 6</relation>
+      <relation position="200006" relationship="true">2 11 8 6</relation>
+   </relations>
+   <pairs>
+      <pair>200006</pair>
+      <pair>400006</pair>
+   </pairs>
+</root>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@formation@of@native@heterotrimeric@G alpha beta gamma@complexes@,@as@measured@by@pertussis@toxin@ADP-ribosylation@of@G@alpha@,@could@be@disrupted@by@increasing@amounts@of@Raf/330@,@with@an@EC50@of@approximately@200@nM@,@in@close@agreement@with@the@estimated@binding@affinity@.@</sentence>
+   <tags>
+      <tag pos="6">G alpha beta gamma</tag>
+      <tag pos="26">Raf/330</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">formation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">native</taggedword>
+      <taggedword index="5" part-of-speech="JJ">heterotrimeric</taggedword>
+      <taggedword index="6" part-of-speech="NNP">G alpha beta gamma</taggedword>
+      <taggedword index="7" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="IN">as</taggedword>
+      <taggedword index="10" part-of-speech="VBN">measured</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="NN">pertussis</taggedword>
+      <taggedword index="13" part-of-speech="NN">toxin</taggedword>
+      <taggedword index="14" part-of-speech="NN">ADP-ribosylation</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NNP">G</taggedword>
+      <taggedword index="17" part-of-speech="NNP">alpha</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="MD">could</taggedword>
+      <taggedword index="20" part-of-speech="VB">be</taggedword>
+      <taggedword index="21" part-of-speech="VBN">disrupted</taggedword>
+      <taggedword index="22" part-of-speech="IN">by</taggedword>
+      <taggedword index="23" part-of-speech="VBG">increasing</taggedword>
+      <taggedword index="24" part-of-speech="NNS">amounts</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NNS">Raf/330</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="IN">with</taggedword>
+      <taggedword index="29" part-of-speech="DT">an</taggedword>
+      <taggedword index="30" part-of-speech="NN">EC50</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="RB">approximately</taggedword>
+      <taggedword index="33" part-of-speech="CD">200</taggedword>
+      <taggedword index="34" part-of-speech="NN">nM</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="IN">in</taggedword>
+      <taggedword index="37" part-of-speech="JJ">close</taggedword>
+      <taggedword index="38" part-of-speech="NN">agreement</taggedword>
+      <taggedword index="39" part-of-speech="IN">with</taggedword>
+      <taggedword index="40" part-of-speech="DT">the</taggedword>
+      <taggedword index="41" part-of-speech="JJ">estimated</taggedword>
+      <taggedword index="42" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="43" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="44" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="formation" gov_index="2">det</dependency>
+      <dependency dep="formation" dep_index="2" gov="disrupted" gov_index="21">nsubjpass</dependency>
+      <dependency dep="native" dep_index="4" gov="complexes" gov_index="7">amod</dependency>
+      <dependency dep="heterotrimeric" dep_index="5" gov="complexes" gov_index="7">amod</dependency>
+      <dependency dep="G alpha beta gamma" dep_index="6" gov="complexes" gov_index="7">nn</dependency>
+      <dependency dep="complexes" dep_index="7" gov="formation" gov_index="2">prep_of</dependency>
+      <dependency dep="as" dep_index="9" gov="measured" gov_index="10">mark</dependency>
+      <dependency dep="measured" dep_index="10" gov="formation" gov_index="2">dep</dependency>
+      <dependency dep="pertussis" dep_index="12" gov="ADP-ribosylation" gov_index="14">nn</dependency>
+      <dependency dep="toxin" dep_index="13" gov="ADP-ribosylation" gov_index="14">nn</dependency>
+      <dependency dep="ADP-ribosylation" dep_index="14" gov="measured" gov_index="10">prep_by</dependency>
+      <dependency dep="G" dep_index="16" gov="alpha" gov_index="17">nn</dependency>
+      <dependency dep="alpha" dep_index="17" gov="ADP-ribosylation" gov_index="14">prep_of</dependency>
+      <dependency dep="could" dep_index="19" gov="disrupted" gov_index="21">aux</dependency>
+      <dependency dep="be" dep_index="20" gov="disrupted" gov_index="21">auxpass</dependency>
+      <dependency dep="disrupted" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="increasing" dep_index="23" gov="amounts" gov_index="24">amod</dependency>
+      <dependency dep="amounts" dep_index="24" gov="disrupted" gov_index="21">agent</dependency>
+      <dependency dep="Raf/330" dep_index="26" gov="amounts" gov_index="24">prep_of</dependency>
+      <dependency dep="an" dep_index="29" gov="EC50" gov_index="30">det</dependency>
+      <dependency dep="EC50" dep_index="30" gov="amounts" gov_index="24">prep_with</dependency>
+      <dependency dep="approximately" dep_index="32" gov="200" gov_index="33">quantmod</dependency>
+      <dependency dep="200" dep_index="33" gov="nM" gov_index="34">num</dependency>
+      <dependency dep="nM" dep_index="34" gov="EC50" gov_index="30">prep_of</dependency>
+      <dependency dep="close" dep_index="37" gov="agreement" gov_index="38">amod</dependency>
+      <dependency dep="agreement" dep_index="38" gov="amounts" gov_index="24">prep_in</dependency>
+      <dependency dep="the" dep_index="40" gov="affinity" gov_index="43">det</dependency>
+      <dependency dep="estimated" dep_index="41" gov="affinity" gov_index="43">amod</dependency>
+      <dependency dep="binding" dep_index="42" gov="affinity" gov_index="43">amod</dependency>
+      <dependency dep="affinity" dep_index="43" gov="amounts" gov_index="24">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600026" relationship="false">6 7 2 21 24 26</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Mutation@of@serine@243@to@phenylalanine@blocks@phosphorylation@of@all@three@sites@in@vivo@and@increases@the@inherent@trans-activation@ability@of@c-Jun@at@least@10-fold@.@</sentence>
+   <tags>
+      <tag pos="22">c-Jun</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Mutation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">serine</taggedword>
+      <taggedword index="4" part-of-speech="CD">243</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="CD">phenylalanine</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">blocks</taggedword>
+      <taggedword index="8" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="DT">all</taggedword>
+      <taggedword index="11" part-of-speech="CD">three</taggedword>
+      <taggedword index="12" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">increases</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">inherent</taggedword>
+      <taggedword index="19" part-of-speech="JJ">trans-activation</taggedword>
+      <taggedword index="20" part-of-speech="NN">ability</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NN">c-Jun</taggedword>
+      <taggedword index="23" part-of-speech="IN">at</taggedword>
+      <taggedword index="24" part-of-speech="JJS">least</taggedword>
+      <taggedword index="25" part-of-speech="CD">10-fold</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Mutation" dep_index="1" gov="blocks" gov_index="7">nsubj</dependency>
+      <dependency dep="Mutation" dep_index="1" gov="increases" gov_index="16">nsubj</dependency>
+      <dependency dep="serine" dep_index="3" gov="Mutation" gov_index="1">prep_of</dependency>
+      <dependency dep="243" dep_index="4" gov="phenylalanine" gov_index="6">dep</dependency>
+      <dependency dep="to" dep_index="5" gov="phenylalanine" gov_index="6">dep</dependency>
+      <dependency dep="phenylalanine" dep_index="6" gov="blocks" gov_index="7">advmod</dependency>
+      <dependency dep="blocks" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="phosphorylation" dep_index="8" gov="blocks" gov_index="7">dobj</dependency>
+      <dependency dep="all" dep_index="10" gov="sites" gov_index="12">det</dependency>
+      <dependency dep="three" dep_index="11" gov="sites" gov_index="12">num</dependency>
+      <dependency dep="sites" dep_index="12" gov="phosphorylation" gov_index="8">prep_of</dependency>
+      <dependency dep="vivo" dep_index="14" gov="sites" gov_index="12">prep_in</dependency>
+      <dependency dep="increases" dep_index="16" gov="blocks" gov_index="7">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="ability" gov_index="20">det</dependency>
+      <dependency dep="inherent" dep_index="18" gov="ability" gov_index="20">amod</dependency>
+      <dependency dep="trans-activation" dep_index="19" gov="ability" gov_index="20">amod</dependency>
+      <dependency dep="ability" dep_index="20" gov="increases" gov_index="16">dobj</dependency>
+      <dependency dep="c-Jun" dep_index="22" gov="ability" gov_index="20">prep_of</dependency>
+      <dependency dep="at" dep_index="23" gov="10-fold" gov_index="25">quantmod</dependency>
+      <dependency dep="least" dep_index="24" gov="at" gov_index="23">mwe</dependency>
+      <dependency dep="least" dep_index="24" gov="at" gov_index="23">pobj</dependency>
+      <dependency dep="10-fold" dep_index="25" gov="c-Jun" gov_index="22">num</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

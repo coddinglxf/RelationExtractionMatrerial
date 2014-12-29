@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Transient@overexpression@of@RIP@causes@transfected@cells@to@undergo@the@morphological@changes@characteristic@of@apoptosis@.@</sentence>
+   <tags>
+      <tag pos="4">RIP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Transient</taggedword>
+      <taggedword index="2" part-of-speech="NN">overexpression</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">RIP</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">causes</taggedword>
+      <taggedword index="6" part-of-speech="JJ">transfected</taggedword>
+      <taggedword index="7" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">undergo</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">morphological</taggedword>
+      <taggedword index="12" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="13" part-of-speech="NN">characteristic</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNS">apoptosis</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Transient" dep_index="1" gov="overexpression" gov_index="2">amod</dependency>
+      <dependency dep="overexpression" dep_index="2" gov="causes" gov_index="5">nsubj</dependency>
+      <dependency dep="RIP" dep_index="4" gov="overexpression" gov_index="2">prep_of</dependency>
+      <dependency dep="causes" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="transfected" dep_index="6" gov="cells" gov_index="7">amod</dependency>
+      <dependency dep="cells" dep_index="7" gov="undergo" gov_index="9">nsubj</dependency>
+      <dependency dep="to" dep_index="8" gov="undergo" gov_index="9">aux</dependency>
+      <dependency dep="undergo" dep_index="9" gov="causes" gov_index="5">xcomp</dependency>
+      <dependency dep="the" dep_index="10" gov="characteristic" gov_index="13">det</dependency>
+      <dependency dep="morphological" dep_index="11" gov="characteristic" gov_index="13">amod</dependency>
+      <dependency dep="changes" dep_index="12" gov="characteristic" gov_index="13">nn</dependency>
+      <dependency dep="characteristic" dep_index="13" gov="undergo" gov_index="9">dobj</dependency>
+      <dependency dep="apoptosis" dep_index="15" gov="characteristic" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

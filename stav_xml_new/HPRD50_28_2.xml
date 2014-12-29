@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@found@that@phosphorylation@of@Chk1@by@ATR@also@requires@checkpoint@proteins@Rad17@and@replication@protein@A@</sentence>
+   <tags>
+      <tag pos="6">Chk1</tag>
+      <tag pos="13">Rad17</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">found</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNS">Chk1</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="NNP">ATR</taggedword>
+      <taggedword index="9" part-of-speech="RB">also</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">requires</taggedword>
+      <taggedword index="11" part-of-speech="JJ">checkpoint</taggedword>
+      <taggedword index="12" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Rad17</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">replication</taggedword>
+      <taggedword index="16" part-of-speech="NN">protein</taggedword>
+      <taggedword index="17" part-of-speech="NN">A</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="found" gov_index="2">nsubj</dependency>
+      <dependency dep="found" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="requires" gov_index="10">mark</dependency>
+      <dependency dep="phosphorylation" dep_index="4" gov="requires" gov_index="10">nsubj</dependency>
+      <dependency dep="Chk1" dep_index="6" gov="phosphorylation" gov_index="4">prep_of</dependency>
+      <dependency dep="ATR" dep_index="8" gov="Chk1" gov_index="6">prep_by</dependency>
+      <dependency dep="also" dep_index="9" gov="requires" gov_index="10">advmod</dependency>
+      <dependency dep="requires" dep_index="10" gov="found" gov_index="2">ccomp</dependency>
+      <dependency dep="checkpoint" dep_index="11" gov="Rad17" gov_index="13">amod</dependency>
+      <dependency dep="proteins" dep_index="12" gov="Rad17" gov_index="13">nn</dependency>
+      <dependency dep="Rad17" dep_index="13" gov="requires" gov_index="10">dobj</dependency>
+      <dependency dep="replication" dep_index="15" gov="A" gov_index="17">nn</dependency>
+      <dependency dep="protein" dep_index="16" gov="A" gov_index="17">nn</dependency>
+      <dependency dep="A" dep_index="17" gov="requires" gov_index="10">dobj</dependency>
+      <dependency dep="A" dep_index="17" gov="Rad17" gov_index="13">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600013" relationship="true">6 4 10 13</relation>
+   </relations>
+   <pairs>
+      <pair>600013</pair>
+   </pairs>
+</root>

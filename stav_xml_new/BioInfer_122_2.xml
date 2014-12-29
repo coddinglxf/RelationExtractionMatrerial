@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Our@results@provide@support@for@both@physical@and@functional@interactions@between@three@subunits@,@TIF34@,@PRT1@and@p33@,@in@the@eIF3@complex@.@</sentence>
+   <tags>
+      <tag pos="17">PRT1</tag>
+      <tag pos="19">p33</tag>
+      <tag pos="23">eIF3</tag>
+      <tag pos="15">TIF34</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP$">Our</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">provide</taggedword>
+      <taggedword index="4" part-of-speech="NN">support</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="DT">both</taggedword>
+      <taggedword index="7" part-of-speech="JJ">physical</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="10" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="11" part-of-speech="IN">between</taggedword>
+      <taggedword index="12" part-of-speech="CD">three</taggedword>
+      <taggedword index="13" part-of-speech="NNS">subunits</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NN">TIF34</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="NN">PRT1</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NNS">p33</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">eIF3</taggedword>
+      <taggedword index="24" part-of-speech="NN">complex</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Our" dep_index="1" gov="results" gov_index="2">poss</dependency>
+      <dependency dep="results" dep_index="2" gov="provide" gov_index="3">nsubj</dependency>
+      <dependency dep="provide" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="support" dep_index="4" gov="provide" gov_index="3">dobj</dependency>
+      <dependency dep="both" dep_index="6" gov="physical" gov_index="7">preconj</dependency>
+      <dependency dep="physical" dep_index="7" gov="interactions" gov_index="10">amod</dependency>
+      <dependency dep="functional" dep_index="9" gov="physical" gov_index="7">conj_and</dependency>
+      <dependency dep="functional" dep_index="9" gov="interactions" gov_index="10">amod</dependency>
+      <dependency dep="interactions" dep_index="10" gov="provide" gov_index="3">prep_for</dependency>
+      <dependency dep="three" dep_index="12" gov="subunits" gov_index="13">num</dependency>
+      <dependency dep="subunits" dep_index="13" gov="interactions" gov_index="10">prep_between</dependency>
+      <dependency dep="TIF34" dep_index="15" gov="interactions" gov_index="10">prep_between</dependency>
+      <dependency dep="TIF34" dep_index="15" gov="subunits" gov_index="13">conj_and</dependency>
+      <dependency dep="PRT1" dep_index="17" gov="interactions" gov_index="10">prep_between</dependency>
+      <dependency dep="PRT1" dep_index="17" gov="subunits" gov_index="13">conj_and</dependency>
+      <dependency dep="p33" dep_index="19" gov="interactions" gov_index="10">prep_between</dependency>
+      <dependency dep="p33" dep_index="19" gov="subunits" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="22" gov="complex" gov_index="24">det</dependency>
+      <dependency dep="eIF3" dep_index="23" gov="complex" gov_index="24">amod</dependency>
+      <dependency dep="complex" dep_index="24" gov="provide" gov_index="3">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700019" relationship="true">17 10 19</relation>
+      <relation position="1700023" relationship="true">17 10 3 24 23</relation>
+      <relation position="1500017" relationship="true">15 10 17</relation>
+      <relation position="1900023" relationship="true">19 10 3 24 23</relation>
+      <relation position="1500019" relationship="true">15 10 19</relation>
+      <relation position="1500023" relationship="true">15 10 3 24 23</relation>
+   </relations>
+   <pairs>
+      <pair>1900023</pair>
+      <pair>1500019</pair>
+      <pair>1700023</pair>
+      <pair>1500017</pair>
+      <pair>1500023</pair>
+      <pair>1700019</pair>
+   </pairs>
+</root>

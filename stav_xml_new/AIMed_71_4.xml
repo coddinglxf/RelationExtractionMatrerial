@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@we@identify@two@serine@residues@in@the@amino@terminal@A1@transactivation@domain@which@are@phosphorylated@in@response@to@a@variety@of@mitogens@,@phorbol@esters@and@activated@ras@.@</sentence>
+   <tags>
+      <tag pos="29">ras</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech="PRP">we</taggedword>
+      <taggedword index="3" part-of-speech="VBP">identify</taggedword>
+      <taggedword index="4" part-of-speech="CD">two</taggedword>
+      <taggedword index="5" part-of-speech="JJ">serine</taggedword>
+      <taggedword index="6" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="10" part-of-speech="NN">terminal</taggedword>
+      <taggedword index="11" part-of-speech="CD">A1</taggedword>
+      <taggedword index="12" part-of-speech="NN">transactivation</taggedword>
+      <taggedword index="13" part-of-speech="NN">domain</taggedword>
+      <taggedword index="14" part-of-speech="WDT">which</taggedword>
+      <taggedword index="15" part-of-speech="VBP">are</taggedword>
+      <taggedword index="16" part-of-speech="VBN">phosphorylated</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="NN">response</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="NN">variety</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="NNS">mitogens</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="JJ">phorbol</taggedword>
+      <taggedword index="26" part-of-speech="NNS">esters</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="29" part-of-speech="NN">ras</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="identify" gov_index="3">advmod</dependency>
+      <dependency dep="we" dep_index="2" gov="identify" gov_index="3">nsubj</dependency>
+      <dependency dep="identify" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="two" dep_index="4" gov="residues" gov_index="6">num</dependency>
+      <dependency dep="serine" dep_index="5" gov="residues" gov_index="6">amod</dependency>
+      <dependency dep="residues" dep_index="6" gov="identify" gov_index="3">dobj</dependency>
+      <dependency dep="the" dep_index="8" gov="domain" gov_index="13">det</dependency>
+      <dependency dep="amino" dep_index="9" gov="domain" gov_index="13">amod</dependency>
+      <dependency dep="terminal" dep_index="10" gov="domain" gov_index="13">nn</dependency>
+      <dependency dep="A1" dep_index="11" gov="domain" gov_index="13">num</dependency>
+      <dependency dep="transactivation" dep_index="12" gov="domain" gov_index="13">nn</dependency>
+      <dependency dep="domain" dep_index="13" gov="residues" gov_index="6">prep_in</dependency>
+      <dependency dep="domain" dep_index="13" gov="phosphorylated" gov_index="16">nsubjpass</dependency>
+      <dependency dep="are" dep_index="15" gov="phosphorylated" gov_index="16">auxpass</dependency>
+      <dependency dep="phosphorylated" dep_index="16" gov="domain" gov_index="13">rcmod</dependency>
+      <dependency dep="response" dep_index="18" gov="phosphorylated" gov_index="16">prep_in</dependency>
+      <dependency dep="a" dep_index="20" gov="variety" gov_index="21">det</dependency>
+      <dependency dep="variety" dep_index="21" gov="phosphorylated" gov_index="16">prep_to</dependency>
+      <dependency dep="mitogens" dep_index="23" gov="variety" gov_index="21">prep_of</dependency>
+      <dependency dep="phorbol" dep_index="25" gov="esters" gov_index="26">amod</dependency>
+      <dependency dep="esters" dep_index="26" gov="mitogens" gov_index="23">appos</dependency>
+      <dependency dep="activated" dep_index="28" gov="ras" gov_index="29">amod</dependency>
+      <dependency dep="ras" dep_index="29" gov="mitogens" gov_index="23">appos</dependency>
+      <dependency dep="ras" dep_index="29" gov="esters" gov_index="26">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

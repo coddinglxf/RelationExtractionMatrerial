@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@describe@a@method@for@detection@of@protein-protein@interactions@among@HLH@proteins@in@vivo@in@which@dimerization@through@the@HLH@motif@reconstructs@a@hybrid@transcription@factor@containing@the@DNA-binding@domain@of@yeast@GAL4@linked@to@one@HLH@motif@and@the@activation@domain@of@VP-16@linked@to@another@.@</sentence>
+   <tags>
+      <tag pos="44">VP-16</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">describe</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">method</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="NN">detection</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">protein-protein</taggedword>
+      <taggedword index="9" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="10" part-of-speech="IN">among</taggedword>
+      <taggedword index="11" part-of-speech="NNP">HLH</taggedword>
+      <taggedword index="12" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="WDT">which</taggedword>
+      <taggedword index="17" part-of-speech="NN">dimerization</taggedword>
+      <taggedword index="18" part-of-speech="IN">through</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NNP">HLH</taggedword>
+      <taggedword index="21" part-of-speech="NN">motif</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">reconstructs</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="JJ">hybrid</taggedword>
+      <taggedword index="25" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="26" part-of-speech="NN">factor</taggedword>
+      <taggedword index="27" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">DNA-binding</taggedword>
+      <taggedword index="30" part-of-speech="NN">domain</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="33" part-of-speech="NN">GAL4</taggedword>
+      <taggedword index="34" part-of-speech="VBN">linked</taggedword>
+      <taggedword index="35" part-of-speech="TO">to</taggedword>
+      <taggedword index="36" part-of-speech="CD">one</taggedword>
+      <taggedword index="37" part-of-speech="NNP">HLH</taggedword>
+      <taggedword index="38" part-of-speech="NN">motif</taggedword>
+      <taggedword index="39" part-of-speech="CC">and</taggedword>
+      <taggedword index="40" part-of-speech="DT">the</taggedword>
+      <taggedword index="41" part-of-speech="NN">activation</taggedword>
+      <taggedword index="42" part-of-speech="NN">domain</taggedword>
+      <taggedword index="43" part-of-speech="IN">of</taggedword>
+      <taggedword index="44" part-of-speech="NN">VP-16</taggedword>
+      <taggedword index="45" part-of-speech="VBN">linked</taggedword>
+      <taggedword index="46" part-of-speech="TO">to</taggedword>
+      <taggedword index="47" part-of-speech="DT">another</taggedword>
+      <taggedword index="48" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="describe" gov_index="2">nsubj</dependency>
+      <dependency dep="describe" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="3" gov="method" gov_index="4">det</dependency>
+      <dependency dep="method" dep_index="4" gov="describe" gov_index="2">dobj</dependency>
+      <dependency dep="detection" dep_index="6" gov="method" gov_index="4">prep_for</dependency>
+      <dependency dep="protein-protein" dep_index="8" gov="interactions" gov_index="9">amod</dependency>
+      <dependency dep="interactions" dep_index="9" gov="detection" gov_index="6">prep_of</dependency>
+      <dependency dep="HLH" dep_index="11" gov="proteins" gov_index="12">nn</dependency>
+      <dependency dep="proteins" dep_index="12" gov="interactions" gov_index="9">prep_among</dependency>
+      <dependency dep="vivo" dep_index="14" gov="describe" gov_index="2">prep_in</dependency>
+      <dependency dep="vivo" dep_index="14" gov="reconstructs" gov_index="22">prep_in</dependency>
+      <dependency dep="dimerization" dep_index="17" gov="reconstructs" gov_index="22">nsubj</dependency>
+      <dependency dep="the" dep_index="19" gov="motif" gov_index="21">det</dependency>
+      <dependency dep="HLH" dep_index="20" gov="motif" gov_index="21">nn</dependency>
+      <dependency dep="motif" dep_index="21" gov="dimerization" gov_index="17">prep_through</dependency>
+      <dependency dep="reconstructs" dep_index="22" gov="vivo" gov_index="14">rcmod</dependency>
+      <dependency dep="a" dep_index="23" gov="factor" gov_index="26">det</dependency>
+      <dependency dep="hybrid" dep_index="24" gov="factor" gov_index="26">amod</dependency>
+      <dependency dep="transcription" dep_index="25" gov="factor" gov_index="26">nn</dependency>
+      <dependency dep="factor" dep_index="26" gov="reconstructs" gov_index="22">dobj</dependency>
+      <dependency dep="containing" dep_index="27" gov="factor" gov_index="26">partmod</dependency>
+      <dependency dep="the" dep_index="28" gov="domain" gov_index="30">det</dependency>
+      <dependency dep="DNA-binding" dep_index="29" gov="domain" gov_index="30">amod</dependency>
+      <dependency dep="domain" dep_index="30" gov="containing" gov_index="27">dobj</dependency>
+      <dependency dep="yeast" dep_index="32" gov="GAL4" gov_index="33">nn</dependency>
+      <dependency dep="GAL4" dep_index="33" gov="domain" gov_index="30">prep_of</dependency>
+      <dependency dep="linked" dep_index="34" gov="GAL4" gov_index="33">partmod</dependency>
+      <dependency dep="one" dep_index="36" gov="motif" gov_index="38">num</dependency>
+      <dependency dep="HLH" dep_index="37" gov="motif" gov_index="38">nn</dependency>
+      <dependency dep="motif" dep_index="38" gov="linked" gov_index="34">prep_to</dependency>
+      <dependency dep="the" dep_index="40" gov="domain" gov_index="42">det</dependency>
+      <dependency dep="activation" dep_index="41" gov="domain" gov_index="42">nn</dependency>
+      <dependency dep="domain" dep_index="42" gov="linked" gov_index="34">prep_to</dependency>
+      <dependency dep="domain" dep_index="42" gov="motif" gov_index="38">conj_and</dependency>
+      <dependency dep="VP-16" dep_index="44" gov="domain" gov_index="42">prep_of</dependency>
+      <dependency dep="linked" dep_index="45" gov="VP-16" gov_index="44">partmod</dependency>
+      <dependency dep="another" dep_index="47" gov="linked" gov_index="45">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

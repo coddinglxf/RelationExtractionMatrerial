@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Molecular@cloning@of@a@novel@human@CC@chemokine@(@Eotaxin-3@)@that@is@a@functional@ligand@of@CC chemokine receptor 3@.@</sentence>
+   <tags>
+      <tag pos="10">Eotaxin-3</tag>
+      <tag pos="18">CC chemokine receptor 3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Molecular</taggedword>
+      <taggedword index="2" part-of-speech="NN">cloning</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">novel</taggedword>
+      <taggedword index="6" part-of-speech="JJ">human</taggedword>
+      <taggedword index="7" part-of-speech="NN">CC</taggedword>
+      <taggedword index="8" part-of-speech="VBP">chemokine</taggedword>
+      <taggedword index="9" part-of-speech="NNP">(</taggedword>
+      <taggedword index="10" part-of-speech="NNP">Eotaxin-3</taggedword>
+      <taggedword index="11" part-of-speech="NNP">)</taggedword>
+      <taggedword index="12" part-of-speech="WDT">that</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="16" part-of-speech="NN">ligand</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNS">CC chemokine receptor 3</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Molecular" dep_index="1" gov="cloning" gov_index="2">amod</dependency>
+      <dependency dep="cloning" dep_index="2" gov="chemokine" gov_index="8">nsubj</dependency>
+      <dependency dep="a" dep_index="4" gov="CC" gov_index="7">det</dependency>
+      <dependency dep="novel" dep_index="5" gov="CC" gov_index="7">amod</dependency>
+      <dependency dep="human" dep_index="6" gov="CC" gov_index="7">amod</dependency>
+      <dependency dep="CC" dep_index="7" gov="cloning" gov_index="2">prep_of</dependency>
+      <dependency dep="chemokine" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="(" dep_index="9" gov=")" gov_index="11">nn</dependency>
+      <dependency dep="Eotaxin-3" dep_index="10" gov=")" gov_index="11">nn</dependency>
+      <dependency dep=")" dep_index="11" gov="chemokine" gov_index="8">dobj</dependency>
+      <dependency dep=")" dep_index="11" gov="ligand" gov_index="16">nsubj</dependency>
+      <dependency dep="is" dep_index="13" gov="ligand" gov_index="16">cop</dependency>
+      <dependency dep="a" dep_index="14" gov="ligand" gov_index="16">det</dependency>
+      <dependency dep="functional" dep_index="15" gov="ligand" gov_index="16">amod</dependency>
+      <dependency dep="ligand" dep_index="16" gov=")" gov_index="11">rcmod</dependency>
+      <dependency dep="CC chemokine receptor 3" dep_index="18" gov="ligand" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000018" relationship="true">10 11 16 18</relation>
+   </relations>
+   <pairs>
+      <pair>1000018</pair>
+   </pairs>
+</root>

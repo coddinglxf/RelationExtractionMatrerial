@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>BAG@-transfected@3T3@fibroblasts@also@exhibited@prolonged@cell@survival@in@response@to@an@apoptotic@stimulus@.@</sentence>
+   <tags>
+      <tag pos="1">BAG</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">BAG</taggedword>
+      <taggedword index="2" part-of-speech="VBD">-transfected</taggedword>
+      <taggedword index="3" part-of-speech="CD">3T3</taggedword>
+      <taggedword index="4" part-of-speech="NNS">fibroblasts</taggedword>
+      <taggedword index="5" part-of-speech="RB">also</taggedword>
+      <taggedword index="6" part-of-speech="VBD">exhibited</taggedword>
+      <taggedword index="7" part-of-speech="JJ">prolonged</taggedword>
+      <taggedword index="8" part-of-speech="NN">cell</taggedword>
+      <taggedword index="9" part-of-speech="NN">survival</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">response</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="DT">an</taggedword>
+      <taggedword index="14" part-of-speech="JJ">apoptotic</taggedword>
+      <taggedword index="15" part-of-speech="NN">stimulus</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="BAG" dep_index="1" gov="-transfected" gov_index="2">nsubj</dependency>
+      <dependency dep="-transfected" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="3T3" dep_index="3" gov="fibroblasts" gov_index="4">num</dependency>
+      <dependency dep="fibroblasts" dep_index="4" gov="exhibited" gov_index="6">nsubj</dependency>
+      <dependency dep="also" dep_index="5" gov="exhibited" gov_index="6">advmod</dependency>
+      <dependency dep="exhibited" dep_index="6" gov="-transfected" gov_index="2">ccomp</dependency>
+      <dependency dep="prolonged" dep_index="7" gov="survival" gov_index="9">amod</dependency>
+      <dependency dep="cell" dep_index="8" gov="survival" gov_index="9">nn</dependency>
+      <dependency dep="survival" dep_index="9" gov="exhibited" gov_index="6">dobj</dependency>
+      <dependency dep="response" dep_index="11" gov="exhibited" gov_index="6">prep_in</dependency>
+      <dependency dep="an" dep_index="13" gov="stimulus" gov_index="15">det</dependency>
+      <dependency dep="apoptotic" dep_index="14" gov="stimulus" gov_index="15">amod</dependency>
+      <dependency dep="stimulus" dep_index="15" gov="exhibited" gov_index="6">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@association@of@PTP-1C@with@CD22@was@mediated@by@the@NH2-terminal@Src@homology@2@(SH2)@domain@of@PTP-1C@</sentence>
+   <tags>
+      <tag pos="4">PTP-1C</tag>
+      <tag pos="6">CD22</tag>
+      <tag pos="18">PTP-1C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">association</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">PTP-1C</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="NNP">CD22</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="9" part-of-speech="IN">by</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">NH2-terminal</taggedword>
+      <taggedword index="12" part-of-speech="JJ">Src</taggedword>
+      <taggedword index="13" part-of-speech="NN">homology</taggedword>
+      <taggedword index="14" part-of-speech="CD">2</taggedword>
+      <taggedword index="15" part-of-speech="CD">(SH2)</taggedword>
+      <taggedword index="16" part-of-speech="NN">domain</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">PTP-1C</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="association" gov_index="2">det</dependency>
+      <dependency dep="association" dep_index="2" gov="mediated" gov_index="8">nsubjpass</dependency>
+      <dependency dep="PTP-1C" dep_index="4" gov="association" gov_index="2">prep_of</dependency>
+      <dependency dep="CD22" dep_index="6" gov="PTP-1C" gov_index="4">prep_with</dependency>
+      <dependency dep="was" dep_index="7" gov="mediated" gov_index="8">auxpass</dependency>
+      <dependency dep="mediated" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="domain" gov_index="16">det</dependency>
+      <dependency dep="NH2-terminal" dep_index="11" gov="Src" gov_index="12">amod</dependency>
+      <dependency dep="Src" dep_index="12" gov="domain" gov_index="16">amod</dependency>
+      <dependency dep="homology" dep_index="13" gov="domain" gov_index="16">nn</dependency>
+      <dependency dep="2" dep_index="14" gov="(SH2)" gov_index="15">number</dependency>
+      <dependency dep="(SH2)" dep_index="15" gov="domain" gov_index="16">num</dependency>
+      <dependency dep="domain" dep_index="16" gov="mediated" gov_index="8">agent</dependency>
+      <dependency dep="PTP-1C" dep_index="18" gov="domain" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true"></relation>
+      <relation position="400018" relationship="false">4 2 8 16 18</relation>
+      <relation position="600018" relationship="true">6 4 2 8 16 18</relation>
+   </relations>
+   <pairs>
+      <pair>600018</pair>
+      <pair>400006</pair>
+   </pairs>
+</root>

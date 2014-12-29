@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@examined@the@axonal@transport@of@actin@and@its@monomer@binding@proteins@,@actin depolymerizing factor@,@cofilin@,@and@profilin@,@in@the@chicken@sciatic@nerve@following@injection@of@[35S]methionine@into@the@lumbar@spinal@cord@.@</sentence>
+   <tags>
+      <tag pos="19">profilin</tag>
+      <tag pos="7">actin</tag>
+      <tag pos="14">actin depolymerizing factor</tag>
+      <tag pos="16">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">examined</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">axonal</taggedword>
+      <taggedword index="5" part-of-speech="NN">transport</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">actin</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="10" part-of-speech="NN">monomer</taggedword>
+      <taggedword index="11" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="12" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NN">actin depolymerizing factor</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">chicken</taggedword>
+      <taggedword index="24" part-of-speech="JJ">sciatic</taggedword>
+      <taggedword index="25" part-of-speech="NN">nerve</taggedword>
+      <taggedword index="26" part-of-speech="VBG">following</taggedword>
+      <taggedword index="27" part-of-speech="NN">injection</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="CD">[35S]methionine</taggedword>
+      <taggedword index="30" part-of-speech="IN">into</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="JJ">lumbar</taggedword>
+      <taggedword index="33" part-of-speech="JJ">spinal</taggedword>
+      <taggedword index="34" part-of-speech="NN">cord</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="examined" gov_index="2">nsubj</dependency>
+      <dependency dep="examined" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="transport" gov_index="5">det</dependency>
+      <dependency dep="axonal" dep_index="4" gov="transport" gov_index="5">amod</dependency>
+      <dependency dep="transport" dep_index="5" gov="examined" gov_index="2">dobj</dependency>
+      <dependency dep="actin" dep_index="7" gov="transport" gov_index="5">prep_of</dependency>
+      <dependency dep="its" dep_index="9" gov="proteins" gov_index="12">poss</dependency>
+      <dependency dep="monomer" dep_index="10" gov="proteins" gov_index="12">nn</dependency>
+      <dependency dep="binding" dep_index="11" gov="proteins" gov_index="12">amod</dependency>
+      <dependency dep="proteins" dep_index="12" gov="transport" gov_index="5">prep_of</dependency>
+      <dependency dep="proteins" dep_index="12" gov="actin" gov_index="7">conj_and</dependency>
+      <dependency dep="actin depolymerizing factor" dep_index="14" gov="cofilin" gov_index="16">nn</dependency>
+      <dependency dep="cofilin" dep_index="16" gov="actin" gov_index="7">appos</dependency>
+      <dependency dep="profilin" dep_index="19" gov="actin" gov_index="7">appos</dependency>
+      <dependency dep="profilin" dep_index="19" gov="cofilin" gov_index="16">conj_and</dependency>
+      <dependency dep="the" dep_index="22" gov="nerve" gov_index="25">det</dependency>
+      <dependency dep="chicken" dep_index="23" gov="nerve" gov_index="25">nn</dependency>
+      <dependency dep="sciatic" dep_index="24" gov="nerve" gov_index="25">amod</dependency>
+      <dependency dep="nerve" dep_index="25" gov="cofilin" gov_index="16">prep_in</dependency>
+      <dependency dep="injection" dep_index="27" gov="nerve" gov_index="25">prep_following</dependency>
+      <dependency dep="[35S]methionine" dep_index="29" gov="injection" gov_index="27">prep_of</dependency>
+      <dependency dep="the" dep_index="31" gov="cord" gov_index="34">det</dependency>
+      <dependency dep="lumbar" dep_index="32" gov="cord" gov_index="34">amod</dependency>
+      <dependency dep="spinal" dep_index="33" gov="cord" gov_index="34">amod</dependency>
+      <dependency dep="cord" dep_index="34" gov="examined" gov_index="2">prep_into</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700019" relationship="true"></relation>
+      <relation position="1400019" relationship="false">14 16 7 19</relation>
+      <relation position="1600019" relationship="false">16 7 19</relation>
+      <relation position="700014" relationship="true"></relation>
+      <relation position="700016" relationship="true"></relation>
+      <relation position="1400016" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>700014</pair>
+      <pair>700019</pair>
+      <pair>700016</pair>
+   </pairs>
+</root>

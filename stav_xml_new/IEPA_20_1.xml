@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@propose@that@OT@binds@to@specific@OT@receptors@(OTR)@on@the@endometrium@to@stimulate@phosphoinositide@(PI)@hydrolysis@,@thereby@activating@the@inositol@trisphosphate@(@IP3@)-diacylglycerol@(DAG)@second-messenger@system@to@promote@pulsatile@PGF2@alpha@secretion@</sentence>
+   <tags>
+      <tag pos="4">OT</tag>
+      <tag pos="26">IP3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">propose</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="8" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="9" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="10" part-of-speech="VBN">(OTR)</taggedword>
+      <taggedword index="11" part-of-speech="IN">on</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">endometrium</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">stimulate</taggedword>
+      <taggedword index="16" part-of-speech="JJ">phosphoinositide</taggedword>
+      <taggedword index="17" part-of-speech="JJ">(PI)</taggedword>
+      <taggedword index="18" part-of-speech="NNS">hydrolysis</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="RB">thereby</taggedword>
+      <taggedword index="21" part-of-speech="VBG">activating</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">inositol</taggedword>
+      <taggedword index="24" part-of-speech="JJ">trisphosphate</taggedword>
+      <taggedword index="25" part-of-speech="NNP">(</taggedword>
+      <taggedword index="26" part-of-speech="NNP">IP3</taggedword>
+      <taggedword index="27" part-of-speech="JJ">)-diacylglycerol</taggedword>
+      <taggedword index="28" part-of-speech="NN">(DAG)</taggedword>
+      <taggedword index="29" part-of-speech="NN">second-messenger</taggedword>
+      <taggedword index="30" part-of-speech="NN">system</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="VB">promote</taggedword>
+      <taggedword index="33" part-of-speech="JJ">pulsatile</taggedword>
+      <taggedword index="34" part-of-speech="JJ">PGF2</taggedword>
+      <taggedword index="35" part-of-speech="NN">alpha</taggedword>
+      <taggedword index="36" part-of-speech="NN">secretion</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="propose" gov_index="2">nsubj</dependency>
+      <dependency dep="propose" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="binds" gov_index="5">mark</dependency>
+      <dependency dep="OT" dep_index="4" gov="binds" gov_index="5">nsubj</dependency>
+      <dependency dep="binds" dep_index="5" gov="propose" gov_index="2">ccomp</dependency>
+      <dependency dep="specific" dep_index="7" gov="receptors" gov_index="9">amod</dependency>
+      <dependency dep="OT" dep_index="8" gov="receptors" gov_index="9">nn</dependency>
+      <dependency dep="receptors" dep_index="9" gov="binds" gov_index="5">prep_to</dependency>
+      <dependency dep="(OTR)" dep_index="10" gov="receptors" gov_index="9">partmod</dependency>
+      <dependency dep="the" dep_index="12" gov="endometrium" gov_index="13">det</dependency>
+      <dependency dep="endometrium" dep_index="13" gov="(OTR)" gov_index="10">prep_on</dependency>
+      <dependency dep="to" dep_index="14" gov="stimulate" gov_index="15">aux</dependency>
+      <dependency dep="stimulate" dep_index="15" gov="(OTR)" gov_index="10">xcomp</dependency>
+      <dependency dep="phosphoinositide" dep_index="16" gov="hydrolysis" gov_index="18">amod</dependency>
+      <dependency dep="(PI)" dep_index="17" gov="hydrolysis" gov_index="18">amod</dependency>
+      <dependency dep="hydrolysis" dep_index="18" gov="stimulate" gov_index="15">dobj</dependency>
+      <dependency dep="thereby" dep_index="20" gov="activating" gov_index="21">advmod</dependency>
+      <dependency dep="activating" dep_index="21" gov="(OTR)" gov_index="10">xcomp</dependency>
+      <dependency dep="the" dep_index="22" gov="system" gov_index="30">det</dependency>
+      <dependency dep="inositol" dep_index="23" gov="system" gov_index="30">amod</dependency>
+      <dependency dep="trisphosphate" dep_index="24" gov="system" gov_index="30">amod</dependency>
+      <dependency dep="(" dep_index="25" gov="system" gov_index="30">nn</dependency>
+      <dependency dep="IP3" dep_index="26" gov="system" gov_index="30">nn</dependency>
+      <dependency dep=")-diacylglycerol" dep_index="27" gov="system" gov_index="30">amod</dependency>
+      <dependency dep="(DAG)" dep_index="28" gov="system" gov_index="30">nn</dependency>
+      <dependency dep="second-messenger" dep_index="29" gov="system" gov_index="30">nn</dependency>
+      <dependency dep="system" dep_index="30" gov="activating" gov_index="21">dobj</dependency>
+      <dependency dep="to" dep_index="31" gov="promote" gov_index="32">aux</dependency>
+      <dependency dep="promote" dep_index="32" gov="activating" gov_index="21">xcomp</dependency>
+      <dependency dep="pulsatile" dep_index="33" gov="alpha" gov_index="35">amod</dependency>
+      <dependency dep="PGF2" dep_index="34" gov="alpha" gov_index="35">amod</dependency>
+      <dependency dep="alpha" dep_index="35" gov="secretion" gov_index="36">amod</dependency>
+      <dependency dep="secretion" dep_index="36" gov="promote" gov_index="32">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400026" relationship="true">4 5 9 10 21 30 26</relation>
+   </relations>
+   <pairs>
+      <pair>400026</pair>
+   </pairs>
+</root>

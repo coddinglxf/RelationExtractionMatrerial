@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Moreover@,@A beta@25-35@had@no@effect@on@basal@PIP2-PLC@activity@and@cytosolic@PI-PLC@and@PIP2-PLC@</sentence>
+   <tags>
+      <tag pos="3">A beta</tag>
+      <tag pos="10">PIP2-PLC</tag>
+      <tag pos="14">PI-PLC</tag>
+      <tag pos="16">PIP2-PLC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Moreover</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">A beta</taggedword>
+      <taggedword index="4" part-of-speech="NNP">25-35</taggedword>
+      <taggedword index="5" part-of-speech="VBD">had</taggedword>
+      <taggedword index="6" part-of-speech="DT">no</taggedword>
+      <taggedword index="7" part-of-speech="NN">effect</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="JJ">basal</taggedword>
+      <taggedword index="10" part-of-speech="NN">PIP2-PLC</taggedword>
+      <taggedword index="11" part-of-speech="NN">activity</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="JJ">cytosolic</taggedword>
+      <taggedword index="14" part-of-speech="NNS">PI-PLC</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">PIP2-PLC</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Moreover" dep_index="1" gov="had" gov_index="5">advmod</dependency>
+      <dependency dep="A beta" dep_index="3" gov="25-35" gov_index="4">nn</dependency>
+      <dependency dep="25-35" dep_index="4" gov="had" gov_index="5">nsubj</dependency>
+      <dependency dep="had" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="no" dep_index="6" gov="effect" gov_index="7">det</dependency>
+      <dependency dep="effect" dep_index="7" gov="had" gov_index="5">dobj</dependency>
+      <dependency dep="basal" dep_index="9" gov="activity" gov_index="11">amod</dependency>
+      <dependency dep="PIP2-PLC" dep_index="10" gov="activity" gov_index="11">nn</dependency>
+      <dependency dep="activity" dep_index="11" gov="effect" gov_index="7">prep_on</dependency>
+      <dependency dep="cytosolic" dep_index="13" gov="PI-PLC" gov_index="14">amod</dependency>
+      <dependency dep="PI-PLC" dep_index="14" gov="effect" gov_index="7">prep_on</dependency>
+      <dependency dep="PI-PLC" dep_index="14" gov="activity" gov_index="11">conj_and</dependency>
+      <dependency dep="PIP2-PLC" dep_index="16" gov="effect" gov_index="7">prep_on</dependency>
+      <dependency dep="PIP2-PLC" dep_index="16" gov="activity" gov_index="11">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300010" relationship="false">3 4 5 7 11 10</relation>
+      <relation position="300014" relationship="false">3 4 5 7 14</relation>
+      <relation position="300016" relationship="false">3 4 5 7 16</relation>
+      <relation position="1000014" relationship="false">10 11 7 14</relation>
+      <relation position="1000016" relationship="false">10 11 7 16</relation>
+      <relation position="1400016" relationship="false">14 7 16</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Coimmunoprecipitation@studies@detected@the@formation@of@heteromeric@and@homomeric@complexes@among@all@the@BMP@receptor@types@even@in@the@absence@of@ligand@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Coimmunoprecipitation</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="VBD">detected</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">formation</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">heteromeric</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">homomeric</taggedword>
+      <taggedword index="10" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="11" part-of-speech="IN">among</taggedword>
+      <taggedword index="12" part-of-speech="PDT">all</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="VBN">BMP</taggedword>
+      <taggedword index="15" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="16" part-of-speech="NNS">types</taggedword>
+      <taggedword index="17" part-of-speech="RB">even</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">absence</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NN">ligand</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Coimmunoprecipitation" dep_index="1" gov="studies" gov_index="2">nn</dependency>
+      <dependency dep="studies" dep_index="2" gov="detected" gov_index="3">nsubj</dependency>
+      <dependency dep="detected" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="formation" gov_index="5">det</dependency>
+      <dependency dep="formation" dep_index="5" gov="detected" gov_index="3">dobj</dependency>
+      <dependency dep="heteromeric" dep_index="7" gov="complexes" gov_index="10">amod</dependency>
+      <dependency dep="homomeric" dep_index="9" gov="heteromeric" gov_index="7">conj_and</dependency>
+      <dependency dep="homomeric" dep_index="9" gov="complexes" gov_index="10">amod</dependency>
+      <dependency dep="complexes" dep_index="10" gov="formation" gov_index="5">prep_of</dependency>
+      <dependency dep="all" dep_index="12" gov="types" gov_index="16">predet</dependency>
+      <dependency dep="the" dep_index="13" gov="types" gov_index="16">det</dependency>
+      <dependency dep="BMP" dep_index="14" gov="types" gov_index="16">amod</dependency>
+      <dependency dep="receptor" dep_index="15" gov="types" gov_index="16">nn</dependency>
+      <dependency dep="types" dep_index="16" gov="detected" gov_index="3">prep_among</dependency>
+      <dependency dep="even" dep_index="17" gov="types" gov_index="16">advmod</dependency>
+      <dependency dep="the" dep_index="19" gov="absence" gov_index="20">det</dependency>
+      <dependency dep="absence" dep_index="20" gov="types" gov_index="16">prep_in</dependency>
+      <dependency dep="ligand" dep_index="22" gov="absence" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

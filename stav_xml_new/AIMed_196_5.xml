@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@observed@that@the@protein@HOX11@interacted@with@protein@serine-threonine phosphatase 2A catalytic subunit@(@PP2AC@),@as@well@as@protein phosphatase 1@(@PP1C@)@in@mammalian@cells@.@</sentence>
+   <tags>
+      <tag pos="6">HOX11</tag>
+      <tag pos="10">serine-threonine phosphatase 2A catalytic subunit</tag>
+      <tag pos="12">PP2AC</tag>
+      <tag pos="17">protein phosphatase 1</tag>
+      <tag pos="19">PP1C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">observed</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">protein</taggedword>
+      <taggedword index="6" part-of-speech="NN">HOX11</taggedword>
+      <taggedword index="7" part-of-speech="VBD">interacted</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NN">protein</taggedword>
+      <taggedword index="10" part-of-speech="NN">serine-threonine phosphatase 2A catalytic subunit</taggedword>
+      <taggedword index="11" part-of-speech="NNP">(</taggedword>
+      <taggedword index="12" part-of-speech="NNP">PP2AC</taggedword>
+      <taggedword index="13" part-of-speech="NNP">),</taggedword>
+      <taggedword index="14" part-of-speech="RB">as</taggedword>
+      <taggedword index="15" part-of-speech="RB">well</taggedword>
+      <taggedword index="16" part-of-speech="IN">as</taggedword>
+      <taggedword index="17" part-of-speech="NNP">protein phosphatase 1</taggedword>
+      <taggedword index="18" part-of-speech="NNP">(</taggedword>
+      <taggedword index="19" part-of-speech="NNP">PP1C</taggedword>
+      <taggedword index="20" part-of-speech="NNP">)</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="23" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="observed" gov_index="2">nsubj</dependency>
+      <dependency dep="observed" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="interacted" gov_index="7">mark</dependency>
+      <dependency dep="the" dep_index="4" gov="HOX11" gov_index="6">det</dependency>
+      <dependency dep="protein" dep_index="5" gov="HOX11" gov_index="6">nn</dependency>
+      <dependency dep="HOX11" dep_index="6" gov="interacted" gov_index="7">nsubj</dependency>
+      <dependency dep="interacted" dep_index="7" gov="observed" gov_index="2">ccomp</dependency>
+      <dependency dep="protein" dep_index="9" gov=")," gov_index="13">nn</dependency>
+      <dependency dep="serine-threonine phosphatase 2A catalytic subunit" dep_index="10" gov=")," gov_index="13">nn</dependency>
+      <dependency dep="(" dep_index="11" gov=")," gov_index="13">nn</dependency>
+      <dependency dep="PP2AC" dep_index="12" gov=")," gov_index="13">nn</dependency>
+      <dependency dep=")," dep_index="13" gov="interacted" gov_index="7">prep_with</dependency>
+      <dependency dep="protein phosphatase 1" dep_index="17" gov=")" gov_index="20">nn</dependency>
+      <dependency dep="(" dep_index="18" gov=")" gov_index="20">nn</dependency>
+      <dependency dep="PP1C" dep_index="19" gov=")" gov_index="20">nn</dependency>
+      <dependency dep=")" dep_index="20" gov="interacted" gov_index="7">prep_with</dependency>
+      <dependency dep=")" dep_index="20" gov=")," gov_index="13">conj_and</dependency>
+      <dependency dep="mammalian" dep_index="22" gov="cells" gov_index="23">amod</dependency>
+      <dependency dep="cells" dep_index="23" gov="interacted" gov_index="7">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="true">6 7 13 10</relation>
+      <relation position="600012" relationship="true">6 7 13 12</relation>
+      <relation position="600017" relationship="true">6 7 20 17</relation>
+      <relation position="600019" relationship="true">6 7 20 19</relation>
+      <relation position="1000012" relationship="false">10 13 12</relation>
+      <relation position="1000017" relationship="false">10 13 7 20 17</relation>
+      <relation position="1000019" relationship="false">10 13 7 20 19</relation>
+      <relation position="1200017" relationship="false">12 13 7 20 17</relation>
+      <relation position="1200019" relationship="false">12 13 7 20 19</relation>
+      <relation position="1700019" relationship="false">17 20 19</relation>
+   </relations>
+   <pairs>
+      <pair>600010</pair>
+      <pair>600012</pair>
+      <pair>600017</pair>
+      <pair>600019</pair>
+   </pairs>
+</root>

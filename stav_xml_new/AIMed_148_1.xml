@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Two@potentially@oncogenic@cyclins@,@cyclin A@and@cyclin D1@,@share@common@properties@of@subunit@configuration@,@tyrosine@phosphorylation@and@physical@association@with@the@Rb@protein@</sentence>
+   <tags>
+      <tag pos="6">cyclin A</tag>
+      <tag pos="8">cyclin D1</tag>
+      <tag pos="24">Rb</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Two</taggedword>
+      <taggedword index="2" part-of-speech="RB">potentially</taggedword>
+      <taggedword index="3" part-of-speech="JJ">oncogenic</taggedword>
+      <taggedword index="4" part-of-speech="NNS">cyclins</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">cyclin A</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">cyclin D1</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="VBP">share</taggedword>
+      <taggedword index="11" part-of-speech="JJ">common</taggedword>
+      <taggedword index="12" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">subunit</taggedword>
+      <taggedword index="15" part-of-speech="NN">configuration</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="18" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="JJ">physical</taggedword>
+      <taggedword index="21" part-of-speech="NN">association</taggedword>
+      <taggedword index="22" part-of-speech="IN">with</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NNP">Rb</taggedword>
+      <taggedword index="25" part-of-speech="NN">protein</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Two" dep_index="1" gov="cyclins" gov_index="4">num</dependency>
+      <dependency dep="potentially" dep_index="2" gov="oncogenic" gov_index="3">advmod</dependency>
+      <dependency dep="oncogenic" dep_index="3" gov="cyclins" gov_index="4">amod</dependency>
+      <dependency dep="cyclins" dep_index="4" gov="share" gov_index="10">nsubj</dependency>
+      <dependency dep="cyclin A" dep_index="6" gov="cyclins" gov_index="4">appos</dependency>
+      <dependency dep="cyclin D1" dep_index="8" gov="cyclins" gov_index="4">appos</dependency>
+      <dependency dep="cyclin D1" dep_index="8" gov="cyclin A" gov_index="6">conj_and</dependency>
+      <dependency dep="share" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="common" dep_index="11" gov="properties" gov_index="12">amod</dependency>
+      <dependency dep="properties" dep_index="12" gov="share" gov_index="10">dobj</dependency>
+      <dependency dep="subunit" dep_index="14" gov="configuration" gov_index="15">amod</dependency>
+      <dependency dep="configuration" dep_index="15" gov="properties" gov_index="12">prep_of</dependency>
+      <dependency dep="tyrosine" dep_index="17" gov="phosphorylation" gov_index="18">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="18" gov="properties" gov_index="12">prep_of</dependency>
+      <dependency dep="phosphorylation" dep_index="18" gov="configuration" gov_index="15">conj_and</dependency>
+      <dependency dep="physical" dep_index="20" gov="association" gov_index="21">amod</dependency>
+      <dependency dep="association" dep_index="21" gov="properties" gov_index="12">prep_of</dependency>
+      <dependency dep="association" dep_index="21" gov="configuration" gov_index="15">conj_and</dependency>
+      <dependency dep="the" dep_index="23" gov="protein" gov_index="25">det</dependency>
+      <dependency dep="Rb" dep_index="24" gov="protein" gov_index="25">nn</dependency>
+      <dependency dep="protein" dep_index="25" gov="share" gov_index="10">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="false">6 4 8</relation>
+      <relation position="600024" relationship="true">6 4 10 25 24</relation>
+      <relation position="800024" relationship="true">8 4 10 25 24</relation>
+   </relations>
+   <pairs>
+      <pair>600024</pair>
+      <pair>800024</pair>
+   </pairs>
+</root>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cadherins@are@essential@for@embryonic@morphogenesis@since@they@mediate@calcium-dependent@cell-cell@adhesion@and@can@modulate@beta-catenin@signaling@.@</sentence>
+   <tags>
+      <tag pos="16">beta-catenin</tag>
+      <tag pos="1">Cadherins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Cadherins</taggedword>
+      <taggedword index="2" part-of-speech="VBP">are</taggedword>
+      <taggedword index="3" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="4" part-of-speech="IN">for</taggedword>
+      <taggedword index="5" part-of-speech="JJ">embryonic</taggedword>
+      <taggedword index="6" part-of-speech="NNS">morphogenesis</taggedword>
+      <taggedword index="7" part-of-speech="IN">since</taggedword>
+      <taggedword index="8" part-of-speech="PRP">they</taggedword>
+      <taggedword index="9" part-of-speech="VB">mediate</taggedword>
+      <taggedword index="10" part-of-speech="JJ">calcium-dependent</taggedword>
+      <taggedword index="11" part-of-speech="JJ">cell-cell</taggedword>
+      <taggedword index="12" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="MD">can</taggedword>
+      <taggedword index="15" part-of-speech="VB">modulate</taggedword>
+      <taggedword index="16" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="17" part-of-speech="NNS">signaling</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cadherins" dep_index="1" gov="essential" gov_index="3">nsubj</dependency>
+      <dependency dep="Cadherins" dep_index="1" gov="modulate" gov_index="15">nsubj</dependency>
+      <dependency dep="are" dep_index="2" gov="essential" gov_index="3">cop</dependency>
+      <dependency dep="essential" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="embryonic" dep_index="5" gov="morphogenesis" gov_index="6">amod</dependency>
+      <dependency dep="morphogenesis" dep_index="6" gov="essential" gov_index="3">prep_for</dependency>
+      <dependency dep="since" dep_index="7" gov="mediate" gov_index="9">mark</dependency>
+      <dependency dep="they" dep_index="8" gov="mediate" gov_index="9">nsubj</dependency>
+      <dependency dep="mediate" dep_index="9" gov="essential" gov_index="3">advcl</dependency>
+      <dependency dep="calcium-dependent" dep_index="10" gov="adhesion" gov_index="12">amod</dependency>
+      <dependency dep="cell-cell" dep_index="11" gov="adhesion" gov_index="12">amod</dependency>
+      <dependency dep="adhesion" dep_index="12" gov="mediate" gov_index="9">dobj</dependency>
+      <dependency dep="can" dep_index="14" gov="modulate" gov_index="15">aux</dependency>
+      <dependency dep="modulate" dep_index="15" gov="essential" gov_index="3">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="16" gov="signaling" gov_index="17">amod</dependency>
+      <dependency dep="signaling" dep_index="17" gov="modulate" gov_index="15">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100016" relationship="true">1 15 17 16</relation>
+   </relations>
+   <pairs>
+      <pair>100016</pair>
+   </pairs>
+</root>

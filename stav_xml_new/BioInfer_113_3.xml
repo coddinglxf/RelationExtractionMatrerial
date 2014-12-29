@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Tyrosine@phosphorylation@of@beta-catenin@was@concomitantly@induced@with@association@of@beta-catenin@with@EGF receptor@(@EGFR@)@when@quiescent@cells@at@confluence@were@dissociated@into@single@cells@by@tryptic@digestion@,@being@accompanied@by@dissociation@of@alpha-catenin@from@E-cadherin@.@</sentence>
+   <tags>
+      <tag pos="38">E-cadherin</tag>
+      <tag pos="15">EGFR</tag>
+      <tag pos="11">beta-catenin</tag>
+      <tag pos="4">beta-catenin</tag>
+      <tag pos="13">EGF receptor</tag>
+      <tag pos="36">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Tyrosine</taggedword>
+      <taggedword index="2" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="RB">concomitantly</taggedword>
+      <taggedword index="7" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NN">association</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NNP">EGF receptor</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">EGFR</taggedword>
+      <taggedword index="16" part-of-speech="NNP">)</taggedword>
+      <taggedword index="17" part-of-speech="WRB">when</taggedword>
+      <taggedword index="18" part-of-speech="JJ">quiescent</taggedword>
+      <taggedword index="19" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="20" part-of-speech="IN">at</taggedword>
+      <taggedword index="21" part-of-speech="NN">confluence</taggedword>
+      <taggedword index="22" part-of-speech="VBD">were</taggedword>
+      <taggedword index="23" part-of-speech="VBN">dissociated</taggedword>
+      <taggedword index="24" part-of-speech="IN">into</taggedword>
+      <taggedword index="25" part-of-speech="JJ">single</taggedword>
+      <taggedword index="26" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="JJ">tryptic</taggedword>
+      <taggedword index="29" part-of-speech="NN">digestion</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="VBG">being</taggedword>
+      <taggedword index="32" part-of-speech="VBN">accompanied</taggedword>
+      <taggedword index="33" part-of-speech="IN">by</taggedword>
+      <taggedword index="34" part-of-speech="NN">dissociation</taggedword>
+      <taggedword index="35" part-of-speech="IN">of</taggedword>
+      <taggedword index="36" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="37" part-of-speech="IN">from</taggedword>
+      <taggedword index="38" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Tyrosine" dep_index="1" gov="phosphorylation" gov_index="2">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="2" gov="induced" gov_index="7">nsubjpass</dependency>
+      <dependency dep="beta-catenin" dep_index="4" gov="phosphorylation" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="5" gov="induced" gov_index="7">auxpass</dependency>
+      <dependency dep="concomitantly" dep_index="6" gov="induced" gov_index="7">advmod</dependency>
+      <dependency dep="induced" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="association" dep_index="9" gov="induced" gov_index="7">prep_with</dependency>
+      <dependency dep="beta-catenin" dep_index="11" gov="association" gov_index="9">prep_of</dependency>
+      <dependency dep="EGF receptor" dep_index="13" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="(" dep_index="14" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="EGFR" dep_index="15" gov=")" gov_index="16">nn</dependency>
+      <dependency dep=")" dep_index="16" gov="induced" gov_index="7">prep_with</dependency>
+      <dependency dep=")" dep_index="16" gov="dissociated" gov_index="23">tmod</dependency>
+      <dependency dep="when" dep_index="17" gov="dissociated" gov_index="23">advmod</dependency>
+      <dependency dep="quiescent" dep_index="18" gov="cells" gov_index="19">amod</dependency>
+      <dependency dep="cells" dep_index="19" gov="dissociated" gov_index="23">nsubjpass</dependency>
+      <dependency dep="confluence" dep_index="21" gov="cells" gov_index="19">prep_at</dependency>
+      <dependency dep="were" dep_index="22" gov="dissociated" gov_index="23">auxpass</dependency>
+      <dependency dep="dissociated" dep_index="23" gov=")" gov_index="16">rcmod</dependency>
+      <dependency dep="single" dep_index="25" gov="cells" gov_index="26">amod</dependency>
+      <dependency dep="cells" dep_index="26" gov="dissociated" gov_index="23">prep_into</dependency>
+      <dependency dep="tryptic" dep_index="28" gov="digestion" gov_index="29">amod</dependency>
+      <dependency dep="digestion" dep_index="29" gov="dissociated" gov_index="23">agent</dependency>
+      <dependency dep="being" dep_index="31" gov="accompanied" gov_index="32">auxpass</dependency>
+      <dependency dep="accompanied" dep_index="32" gov="dissociated" gov_index="23">xcomp</dependency>
+      <dependency dep="dissociation" dep_index="34" gov="accompanied" gov_index="32">agent</dependency>
+      <dependency dep="alpha-catenin" dep_index="36" gov="dissociation" gov_index="34">prep_of</dependency>
+      <dependency dep="E-cadherin" dep_index="38" gov="accompanied" gov_index="32">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500038" relationship="false">15 16 23 32 38</relation>
+      <relation position="1100038" relationship="false">11 9 7 16 23 32 38</relation>
+      <relation position="400038" relationship="false">4 2 7 16 23 32 38</relation>
+      <relation position="1300038" relationship="false">13 16 23 32 38</relation>
+      <relation position="3600038" relationship="true">36 34 32 38</relation>
+      <relation position="1100015" relationship="true">11 9 7 16 15</relation>
+      <relation position="400015" relationship="true">4 2 7 16 15</relation>
+      <relation position="1300015" relationship="false">13 16 15</relation>
+      <relation position="1500036" relationship="false">15 16 23 32 34 36</relation>
+      <relation position="400011" relationship="true">4 2 7 9 11</relation>
+      <relation position="1100013" relationship="true">11 9 7 16 13</relation>
+      <relation position="1100036" relationship="false">11 9 7 16 23 32 34 36</relation>
+      <relation position="400013" relationship="true">4 2 7 16 13</relation>
+      <relation position="400036" relationship="false">4 2 7 16 23 32 34 36</relation>
+      <relation position="1300036" relationship="false">13 16 23 32 34 36</relation>
+   </relations>
+   <pairs>
+      <pair>400011</pair>
+      <pair>400015</pair>
+      <pair>400013</pair>
+      <pair>3600038</pair>
+      <pair>1100013</pair>
+      <pair>1100015</pair>
+   </pairs>
+</root>

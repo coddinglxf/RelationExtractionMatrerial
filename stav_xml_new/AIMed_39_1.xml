@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Presenilin 1@suppresses@the@function@of@c-Jun@homodimers@via@interaction@with@QM@/@Jif-1@.@</sentence>
+   <tags>
+      <tag pos="1">Presenilin 1</tag>
+      <tag pos="6">c-Jun</tag>
+      <tag pos="11">QM</tag>
+      <tag pos="13">Jif-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Presenilin 1</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">suppresses</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">function</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="JJ">c-Jun</taggedword>
+      <taggedword index="7" part-of-speech="NNS">homodimers</taggedword>
+      <taggedword index="8" part-of-speech="IN">via</taggedword>
+      <taggedword index="9" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="NNP">QM</taggedword>
+      <taggedword index="12" part-of-speech="NNP">/</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Jif-1</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Presenilin 1" dep_index="1" gov="suppresses" gov_index="2">nsubj</dependency>
+      <dependency dep="suppresses" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="function" gov_index="4">det</dependency>
+      <dependency dep="function" dep_index="4" gov="suppresses" gov_index="2">dobj</dependency>
+      <dependency dep="c-Jun" dep_index="6" gov="homodimers" gov_index="7">amod</dependency>
+      <dependency dep="homodimers" dep_index="7" gov="function" gov_index="4">prep_of</dependency>
+      <dependency dep="interaction" dep_index="9" gov="homodimers" gov_index="7">prep_via</dependency>
+      <dependency dep="QM" dep_index="11" gov="Jif-1" gov_index="13">nn</dependency>
+      <dependency dep="/" dep_index="12" gov="Jif-1" gov_index="13">nn</dependency>
+      <dependency dep="Jif-1" dep_index="13" gov="suppresses" gov_index="2">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100006" relationship="false">1 2 4 7 6</relation>
+      <relation position="100011" relationship="true">1 2 13 11</relation>
+      <relation position="100013" relationship="true">1 2 13</relation>
+      <relation position="600011" relationship="false">6 7 4 2 13 11</relation>
+      <relation position="600013" relationship="false">6 7 4 2 13</relation>
+      <relation position="1100013" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>100013</pair>
+      <pair>100011</pair>
+   </pairs>
+</root>

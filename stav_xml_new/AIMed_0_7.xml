@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Levels@of@IFN-gamma@were@slightly@increased@following@IFN-alpha@treatment@(P@=@0.09)@.@</sentence>
+   <tags>
+      <tag pos="3">IFN-gamma</tag>
+      <tag pos="8">IFN-alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Levels</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">IFN-gamma</taggedword>
+      <taggedword index="4" part-of-speech="VBD">were</taggedword>
+      <taggedword index="5" part-of-speech="RB">slightly</taggedword>
+      <taggedword index="6" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="7" part-of-speech="VBG">following</taggedword>
+      <taggedword index="8" part-of-speech="JJ">IFN-alpha</taggedword>
+      <taggedword index="9" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="10" part-of-speech="NNS">(P</taggedword>
+      <taggedword index="11" part-of-speech="SYM">=</taggedword>
+      <taggedword index="12" part-of-speech="CD">0.09)</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Levels" dep_index="1" gov="increased" gov_index="6">nsubjpass</dependency>
+      <dependency dep="IFN-gamma" dep_index="3" gov="Levels" gov_index="1">prep_of</dependency>
+      <dependency dep="were" dep_index="4" gov="increased" gov_index="6">auxpass</dependency>
+      <dependency dep="slightly" dep_index="5" gov="increased" gov_index="6">advmod</dependency>
+      <dependency dep="increased" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="following" dep_index="7" gov="increased" gov_index="6">xcomp</dependency>
+      <dependency dep="IFN-alpha" dep_index="8" gov="(P" gov_index="10">amod</dependency>
+      <dependency dep="treatment" dep_index="9" gov="(P" gov_index="10">nn</dependency>
+      <dependency dep="(P" dep_index="10" gov="0.09)" gov_index="12">nsubj</dependency>
+      <dependency dep="=" dep_index="11" gov="0.09)" gov_index="12">dep</dependency>
+      <dependency dep="0.09)" dep_index="12" gov="following" gov_index="7">ccomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300008" relationship="false">3 1 6 7 12 10 8</relation>
+   </relations>
+   <pairs/>
+</root>

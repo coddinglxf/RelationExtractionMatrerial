@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Eight@cell@lines@(36%)@had@an@alteration@of@DPC4@,@including@one@mutation@and@seven@homozygous@deletions@.@</sentence>
+   <tags>
+      <tag pos="9">DPC4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Eight</taggedword>
+      <taggedword index="2" part-of-speech="NN">cell</taggedword>
+      <taggedword index="3" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="4" part-of-speech="CD">(36%)</taggedword>
+      <taggedword index="5" part-of-speech="VBD">had</taggedword>
+      <taggedword index="6" part-of-speech="DT">an</taggedword>
+      <taggedword index="7" part-of-speech="NN">alteration</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNP">DPC4</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="VBG">including</taggedword>
+      <taggedword index="12" part-of-speech="CD">one</taggedword>
+      <taggedword index="13" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="CD">seven</taggedword>
+      <taggedword index="16" part-of-speech="JJ">homozygous</taggedword>
+      <taggedword index="17" part-of-speech="NNS">deletions</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Eight" dep_index="1" gov="lines" gov_index="3">num</dependency>
+      <dependency dep="cell" dep_index="2" gov="lines" gov_index="3">nn</dependency>
+      <dependency dep="lines" dep_index="3" gov="had" gov_index="5">nsubj</dependency>
+      <dependency dep="(36%)" dep_index="4" gov="lines" gov_index="3">dep</dependency>
+      <dependency dep="had" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="6" gov="alteration" gov_index="7">det</dependency>
+      <dependency dep="alteration" dep_index="7" gov="had" gov_index="5">dobj</dependency>
+      <dependency dep="DPC4" dep_index="9" gov="alteration" gov_index="7">prep_of</dependency>
+      <dependency dep="one" dep_index="12" gov="mutation" gov_index="13">num</dependency>
+      <dependency dep="mutation" dep_index="13" gov="had" gov_index="5">prep_including</dependency>
+      <dependency dep="seven" dep_index="15" gov="deletions" gov_index="17">num</dependency>
+      <dependency dep="homozygous" dep_index="16" gov="deletions" gov_index="17">amod</dependency>
+      <dependency dep="deletions" dep_index="17" gov="had" gov_index="5">prep_including</dependency>
+      <dependency dep="deletions" dep_index="17" gov="mutation" gov_index="13">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

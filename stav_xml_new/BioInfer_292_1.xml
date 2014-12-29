@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunohistochemical@investigation@of@actin@-anchoring@proteins@vinculin@,@talin@and@paxillin@in@rat@brain@following@lesion@:@a@moderate@reaction@,@confined@to@the@astroglia@of@brain@tracts@.@</sentence>
+   <tags>
+      <tag pos="4">actin</tag>
+      <tag pos="11">paxillin</tag>
+      <tag pos="9">talin</tag>
+      <tag pos="7">vinculin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Immunohistochemical</taggedword>
+      <taggedword index="2" part-of-speech="NN">investigation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech="JJ">-anchoring</taggedword>
+      <taggedword index="6" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="7" part-of-speech="NN">vinculin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">talin</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">paxillin</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NN">rat</taggedword>
+      <taggedword index="14" part-of-speech="NN">brain</taggedword>
+      <taggedword index="15" part-of-speech="JJ">following</taggedword>
+      <taggedword index="16" part-of-speech="NN">lesion</taggedword>
+      <taggedword index="17" part-of-speech=":">:</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">moderate</taggedword>
+      <taggedword index="20" part-of-speech="NN">reaction</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="VBN">confined</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">astroglia</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="NN">brain</taggedword>
+      <taggedword index="28" part-of-speech="NNS">tracts</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunohistochemical" dep_index="1" gov="investigation" gov_index="2">amod</dependency>
+      <dependency dep="investigation" dep_index="2" gov="vinculin" gov_index="7">dep</dependency>
+      <dependency dep="actin" dep_index="4" gov="investigation" gov_index="2">prep_of</dependency>
+      <dependency dep="-anchoring" dep_index="5" gov="proteins" gov_index="6">amod</dependency>
+      <dependency dep="proteins" dep_index="6" gov="vinculin" gov_index="7">dep</dependency>
+      <dependency dep="vinculin" dep_index="7" gov="reaction" gov_index="20">dep</dependency>
+      <dependency dep="talin" dep_index="9" gov="vinculin" gov_index="7">conj_and</dependency>
+      <dependency dep="talin" dep_index="9" gov="reaction" gov_index="20">dep</dependency>
+      <dependency dep="paxillin" dep_index="11" gov="vinculin" gov_index="7">conj_and</dependency>
+      <dependency dep="paxillin" dep_index="11" gov="reaction" gov_index="20">dep</dependency>
+      <dependency dep="rat" dep_index="13" gov="lesion" gov_index="16">nn</dependency>
+      <dependency dep="brain" dep_index="14" gov="lesion" gov_index="16">nn</dependency>
+      <dependency dep="following" dep_index="15" gov="lesion" gov_index="16">amod</dependency>
+      <dependency dep="lesion" dep_index="16" gov="vinculin" gov_index="7">prep_in</dependency>
+      <dependency dep="a" dep_index="18" gov="reaction" gov_index="20">det</dependency>
+      <dependency dep="moderate" dep_index="19" gov="reaction" gov_index="20">amod</dependency>
+      <dependency dep="reaction" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="confined" dep_index="22" gov="reaction" gov_index="20">partmod</dependency>
+      <dependency dep="the" dep_index="24" gov="astroglia" gov_index="25">det</dependency>
+      <dependency dep="astroglia" dep_index="25" gov="confined" gov_index="22">prep_to</dependency>
+      <dependency dep="brain" dep_index="27" gov="tracts" gov_index="28">nn</dependency>
+      <dependency dep="tracts" dep_index="28" gov="astroglia" gov_index="25">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400011" relationship="true">4 2 7 20 11</relation>
+      <relation position="400009" relationship="true">4 2 7 20 9</relation>
+      <relation position="400007" relationship="true"></relation>
+      <relation position="900011" relationship="false">9 20 11</relation>
+      <relation position="700011" relationship="false">7 20 11</relation>
+      <relation position="700009" relationship="false">7 20 9</relation>
+   </relations>
+   <pairs>
+      <pair>400011</pair>
+      <pair>400009</pair>
+      <pair>400007</pair>
+   </pairs>
+</root>

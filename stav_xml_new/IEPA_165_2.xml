@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@aim@of@the@current@investigations@was@focused@on@the@study@of@the@involvement@of@leptin@and@neuropeptide Y@in@lipid@mobilization@</sentence>
+   <tags>
+      <tag pos="16">leptin</tag>
+      <tag pos="18">neuropeptide Y</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">aim</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">current</taggedword>
+      <taggedword index="6" part-of-speech="NNS">investigations</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="VBN">focused</taggedword>
+      <taggedword index="9" part-of-speech="IN">on</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">study</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">involvement</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">neuropeptide Y</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="NN">lipid</taggedword>
+      <taggedword index="21" part-of-speech="NN">mobilization</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="aim" gov_index="2">det</dependency>
+      <dependency dep="aim" dep_index="2" gov="focused" gov_index="8">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="investigations" gov_index="6">det</dependency>
+      <dependency dep="current" dep_index="5" gov="investigations" gov_index="6">amod</dependency>
+      <dependency dep="investigations" dep_index="6" gov="aim" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="7" gov="focused" gov_index="8">auxpass</dependency>
+      <dependency dep="focused" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="study" gov_index="11">det</dependency>
+      <dependency dep="study" dep_index="11" gov="focused" gov_index="8">prep_on</dependency>
+      <dependency dep="the" dep_index="13" gov="involvement" gov_index="14">det</dependency>
+      <dependency dep="involvement" dep_index="14" gov="study" gov_index="11">prep_of</dependency>
+      <dependency dep="leptin" dep_index="16" gov="involvement" gov_index="14">prep_of</dependency>
+      <dependency dep="neuropeptide Y" dep_index="18" gov="involvement" gov_index="14">prep_of</dependency>
+      <dependency dep="neuropeptide Y" dep_index="18" gov="leptin" gov_index="16">conj_and</dependency>
+      <dependency dep="lipid" dep_index="20" gov="mobilization" gov_index="21">nn</dependency>
+      <dependency dep="mobilization" dep_index="21" gov="focused" gov_index="8">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600018" relationship="false">16 14 18</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Despite@binding@to@only@one@IFN-gamma R alpha@,@IFN-gamma SC1@is@biologically@active@in@cell@proliferation@,@MHC@class@I@induction@,@and@anti-viral@assays@.@</sentence>
+   <tags>
+      <tag pos="6">IFN-gamma R alpha</tag>
+      <tag pos="8">IFN-gamma SC1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Despite</taggedword>
+      <taggedword index="2" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="RB">only</taggedword>
+      <taggedword index="5" part-of-speech="CD">one</taggedword>
+      <taggedword index="6" part-of-speech="NNP">IFN-gamma R alpha</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NNS">IFN-gamma SC1</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="RB">biologically</taggedword>
+      <taggedword index="11" part-of-speech="JJ">active</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NN">cell</taggedword>
+      <taggedword index="14" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NNP">MHC</taggedword>
+      <taggedword index="17" part-of-speech="NN">class</taggedword>
+      <taggedword index="18" part-of-speech="NN">I</taggedword>
+      <taggedword index="19" part-of-speech="NN">induction</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="JJ">anti-viral</taggedword>
+      <taggedword index="23" part-of-speech="NNS">assays</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="binding" dep_index="2" gov="IFN-gamma R alpha" gov_index="6">amod</dependency>
+      <dependency dep="only" dep_index="4" gov="one" gov_index="5">advmod</dependency>
+      <dependency dep="one" dep_index="5" gov="binding" gov_index="2">prep_to</dependency>
+      <dependency dep="IFN-gamma R alpha" dep_index="6" gov="active" gov_index="11">prep_despite</dependency>
+      <dependency dep="IFN-gamma SC1" dep_index="8" gov="active" gov_index="11">nsubj</dependency>
+      <dependency dep="is" dep_index="9" gov="active" gov_index="11">cop</dependency>
+      <dependency dep="biologically" dep_index="10" gov="active" gov_index="11">advmod</dependency>
+      <dependency dep="active" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cell" dep_index="13" gov="proliferation" gov_index="14">nn</dependency>
+      <dependency dep="proliferation" dep_index="14" gov="active" gov_index="11">prep_in</dependency>
+      <dependency dep="MHC" dep_index="16" gov="induction" gov_index="19">nn</dependency>
+      <dependency dep="class" dep_index="17" gov="induction" gov_index="19">nn</dependency>
+      <dependency dep="I" dep_index="18" gov="induction" gov_index="19">nn</dependency>
+      <dependency dep="induction" dep_index="19" gov="active" gov_index="11">prep_in</dependency>
+      <dependency dep="induction" dep_index="19" gov="proliferation" gov_index="14">conj_and</dependency>
+      <dependency dep="anti-viral" dep_index="22" gov="assays" gov_index="23">amod</dependency>
+      <dependency dep="assays" dep_index="23" gov="active" gov_index="11">prep_in</dependency>
+      <dependency dep="assays" dep_index="23" gov="proliferation" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="true">6 11 8</relation>
+   </relations>
+   <pairs>
+      <pair>600008</pair>
+   </pairs>
+</root>

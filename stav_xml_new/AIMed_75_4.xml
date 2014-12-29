@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@comparison@of@the@subunit@fold@with@that@of@other@proteins@reveals@a@remarkable@similarity@to@the@'jelly-roll'@structural@motif@characteristic@of@viral@coat@proteins@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NN">comparison</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">subunit</taggedword>
+      <taggedword index="6" part-of-speech="VBP">fold</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="DT">that</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="JJ">other</taggedword>
+      <taggedword index="11" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">reveals</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="JJ">remarkable</taggedword>
+      <taggedword index="15" part-of-speech="NN">similarity</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">'jelly-roll'</taggedword>
+      <taggedword index="19" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="20" part-of-speech="NN">motif</taggedword>
+      <taggedword index="21" part-of-speech="NN">characteristic</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="24" part-of-speech="NN">coat</taggedword>
+      <taggedword index="25" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="comparison" gov_index="2">det</dependency>
+      <dependency dep="comparison" dep_index="2" gov="fold" gov_index="6">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="subunit" gov_index="5">det</dependency>
+      <dependency dep="subunit" dep_index="5" gov="comparison" gov_index="2">prep_of</dependency>
+      <dependency dep="fold" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="with" dep_index="7" gov="reveals" gov_index="12">mark</dependency>
+      <dependency dep="that" dep_index="8" gov="reveals" gov_index="12">nsubj</dependency>
+      <dependency dep="other" dep_index="10" gov="proteins" gov_index="11">amod</dependency>
+      <dependency dep="proteins" dep_index="11" gov="that" gov_index="8">prep_of</dependency>
+      <dependency dep="reveals" dep_index="12" gov="fold" gov_index="6">advcl</dependency>
+      <dependency dep="a" dep_index="13" gov="similarity" gov_index="15">det</dependency>
+      <dependency dep="remarkable" dep_index="14" gov="similarity" gov_index="15">amod</dependency>
+      <dependency dep="similarity" dep_index="15" gov="reveals" gov_index="12">dobj</dependency>
+      <dependency dep="the" dep_index="17" gov="characteristic" gov_index="21">det</dependency>
+      <dependency dep="'jelly-roll'" dep_index="18" gov="characteristic" gov_index="21">amod</dependency>
+      <dependency dep="structural" dep_index="19" gov="characteristic" gov_index="21">amod</dependency>
+      <dependency dep="motif" dep_index="20" gov="characteristic" gov_index="21">nn</dependency>
+      <dependency dep="characteristic" dep_index="21" gov="reveals" gov_index="12">prep_to</dependency>
+      <dependency dep="viral" dep_index="23" gov="proteins" gov_index="25">amod</dependency>
+      <dependency dep="coat" dep_index="24" gov="proteins" gov_index="25">nn</dependency>
+      <dependency dep="proteins" dep_index="25" gov="characteristic" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

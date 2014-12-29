@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@rates@of@commitment@to@renaturation@of@rhodanese@and@glutamine synthetase@in@the@presence@of@the@groE@chaperonins@.@</sentence>
+   <tags>
+      <tag pos="8">rhodanese</tag>
+      <tag pos="10">glutamine synthetase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">rates</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">commitment</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="NN">renaturation</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">rhodanese</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">glutamine synthetase</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">presence</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">groE</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">chaperonins</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="rates" gov_index="2">det</dependency>
+      <dependency dep="rates" dep_index="2" gov="chaperonins" gov_index="17">nsubj</dependency>
+      <dependency dep="commitment" dep_index="4" gov="rates" gov_index="2">prep_of</dependency>
+      <dependency dep="renaturation" dep_index="6" gov="commitment" gov_index="4">prep_to</dependency>
+      <dependency dep="rhodanese" dep_index="8" gov="renaturation" gov_index="6">prep_of</dependency>
+      <dependency dep="glutamine synthetase" dep_index="10" gov="renaturation" gov_index="6">prep_of</dependency>
+      <dependency dep="glutamine synthetase" dep_index="10" gov="rhodanese" gov_index="8">conj_and</dependency>
+      <dependency dep="the" dep_index="12" gov="presence" gov_index="13">det</dependency>
+      <dependency dep="presence" dep_index="13" gov="rhodanese" gov_index="8">prep_in</dependency>
+      <dependency dep="the" dep_index="15" gov="groE" gov_index="16">det</dependency>
+      <dependency dep="groE" dep_index="16" gov="presence" gov_index="13">prep_of</dependency>
+      <dependency dep="chaperonins" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 6 10</relation>
+   </relations>
+   <pairs/>
+</root>

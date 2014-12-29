@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@cDNA@encoding@part@of@the@nucleolin@protein@sequence@interacted@with@the@E47@basic-helix-loop-helix@only@when@fused@to@a@beta-galactosidase@tag@.@</sentence>
+   <tags>
+      <tag pos="7">nucleolin</tag>
+      <tag pos="13">E47</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="3" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="4" part-of-speech="NN">part</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">nucleolin</taggedword>
+      <taggedword index="8" part-of-speech="NN">protein</taggedword>
+      <taggedword index="9" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="10" part-of-speech="VBD">interacted</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NNP">E47</taggedword>
+      <taggedword index="14" part-of-speech="NNP">basic-helix-loop-helix</taggedword>
+      <taggedword index="15" part-of-speech="RB">only</taggedword>
+      <taggedword index="16" part-of-speech="WRB">when</taggedword>
+      <taggedword index="17" part-of-speech="VBN">fused</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="DT">a</taggedword>
+      <taggedword index="20" part-of-speech="JJ">beta-galactosidase</taggedword>
+      <taggedword index="21" part-of-speech="NN">tag</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="part" gov_index="4">det</dependency>
+      <dependency dep="cDNA" dep_index="2" gov="part" gov_index="4">nn</dependency>
+      <dependency dep="encoding" dep_index="3" gov="part" gov_index="4">amod</dependency>
+      <dependency dep="part" dep_index="4" gov="interacted" gov_index="10">nsubj</dependency>
+      <dependency dep="the" dep_index="6" gov="sequence" gov_index="9">det</dependency>
+      <dependency dep="nucleolin" dep_index="7" gov="sequence" gov_index="9">nn</dependency>
+      <dependency dep="protein" dep_index="8" gov="sequence" gov_index="9">nn</dependency>
+      <dependency dep="sequence" dep_index="9" gov="part" gov_index="4">prep_of</dependency>
+      <dependency dep="interacted" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="basic-helix-loop-helix" gov_index="14">det</dependency>
+      <dependency dep="E47" dep_index="13" gov="basic-helix-loop-helix" gov_index="14">nn</dependency>
+      <dependency dep="basic-helix-loop-helix" dep_index="14" gov="interacted" gov_index="10">prep_with</dependency>
+      <dependency dep="only" dep_index="15" gov="fused" gov_index="17">advmod</dependency>
+      <dependency dep="when" dep_index="16" gov="fused" gov_index="17">advmod</dependency>
+      <dependency dep="fused" dep_index="17" gov="interacted" gov_index="10">advcl</dependency>
+      <dependency dep="a" dep_index="19" gov="tag" gov_index="21">det</dependency>
+      <dependency dep="beta-galactosidase" dep_index="20" gov="tag" gov_index="21">amod</dependency>
+      <dependency dep="tag" dep_index="21" gov="fused" gov_index="17">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700013" relationship="true">7 9 4 10 14 13</relation>
+   </relations>
+   <pairs>
+      <pair>700013</pair>
+   </pairs>
+</root>

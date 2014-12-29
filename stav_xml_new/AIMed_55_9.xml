@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@human@liver@sections@,@hepatocytes@were@strongly@stained@by@anti-LEC@antibody@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">human</taggedword>
+      <taggedword index="3" part-of-speech="NN">liver</taggedword>
+      <taggedword index="4" part-of-speech="NNS">sections</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NNS">hepatocytes</taggedword>
+      <taggedword index="7" part-of-speech="VBD">were</taggedword>
+      <taggedword index="8" part-of-speech="RB">strongly</taggedword>
+      <taggedword index="9" part-of-speech="VBN">stained</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="JJ">anti-LEC</taggedword>
+      <taggedword index="12" part-of-speech="NN">antibody</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="human" dep_index="2" gov="sections" gov_index="4">amod</dependency>
+      <dependency dep="liver" dep_index="3" gov="sections" gov_index="4">nn</dependency>
+      <dependency dep="sections" dep_index="4" gov="stained" gov_index="9">prep_in</dependency>
+      <dependency dep="hepatocytes" dep_index="6" gov="stained" gov_index="9">nsubjpass</dependency>
+      <dependency dep="were" dep_index="7" gov="stained" gov_index="9">auxpass</dependency>
+      <dependency dep="strongly" dep_index="8" gov="stained" gov_index="9">advmod</dependency>
+      <dependency dep="stained" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="anti-LEC" dep_index="11" gov="antibody" gov_index="12">amod</dependency>
+      <dependency dep="antibody" dep_index="12" gov="stained" gov_index="9">agent</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

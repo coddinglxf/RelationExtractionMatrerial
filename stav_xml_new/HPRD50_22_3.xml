@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@GC-GAP@contains@several@classic@proline-rich@motifs@,@and@it@interacts@with@the@first@SH3@domain@of@Crk@and@full-length@Nck@in@vitro@</sentence>
+   <tags>
+      <tag pos="4">GC-GAP</tag>
+      <tag pos="23">Nck</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">GC-GAP</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">contains</taggedword>
+      <taggedword index="6" part-of-speech="JJ">several</taggedword>
+      <taggedword index="7" part-of-speech="JJ">classic</taggedword>
+      <taggedword index="8" part-of-speech="JJ">proline-rich</taggedword>
+      <taggedword index="9" part-of-speech="NNS">motifs</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="PRP">it</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="JJ">first</taggedword>
+      <taggedword index="17" part-of-speech="NN">SH3</taggedword>
+      <taggedword index="18" part-of-speech="NN">domain</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NNP">Crk</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="JJ">full-length</taggedword>
+      <taggedword index="23" part-of-speech="NN">Nck</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="NNP">vitro</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="contains" gov_index="5">prep_in</dependency>
+      <dependency dep="GC-GAP" dep_index="4" gov="contains" gov_index="5">nsubj</dependency>
+      <dependency dep="contains" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="several" dep_index="6" gov="motifs" gov_index="9">amod</dependency>
+      <dependency dep="classic" dep_index="7" gov="motifs" gov_index="9">amod</dependency>
+      <dependency dep="proline-rich" dep_index="8" gov="motifs" gov_index="9">amod</dependency>
+      <dependency dep="motifs" dep_index="9" gov="contains" gov_index="5">dobj</dependency>
+      <dependency dep="it" dep_index="12" gov="interacts" gov_index="13">nsubj</dependency>
+      <dependency dep="interacts" dep_index="13" gov="contains" gov_index="5">conj_and</dependency>
+      <dependency dep="the" dep_index="15" gov="domain" gov_index="18">det</dependency>
+      <dependency dep="first" dep_index="16" gov="domain" gov_index="18">amod</dependency>
+      <dependency dep="SH3" dep_index="17" gov="domain" gov_index="18">nn</dependency>
+      <dependency dep="domain" dep_index="18" gov="interacts" gov_index="13">prep_with</dependency>
+      <dependency dep="Crk" dep_index="20" gov="domain" gov_index="18">prep_of</dependency>
+      <dependency dep="full-length" dep_index="22" gov="Nck" gov_index="23">amod</dependency>
+      <dependency dep="Nck" dep_index="23" gov="interacts" gov_index="13">prep_with</dependency>
+      <dependency dep="Nck" dep_index="23" gov="domain" gov_index="18">conj_and</dependency>
+      <dependency dep="vitro" dep_index="25" gov="Nck" gov_index="23">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400023" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>400023</pair>
+   </pairs>
+</root>

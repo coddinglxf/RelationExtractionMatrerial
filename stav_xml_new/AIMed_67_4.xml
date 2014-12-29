@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@results@in@the@phosphorylation@of@cdc2@which@allows@binding@to@cyclins@.@</sentence>
+   <tags>
+      <tag pos="7">cdc2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">results</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="CD">cdc2</taggedword>
+      <taggedword index="8" part-of-speech="WDT">which</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">allows</taggedword>
+      <taggedword index="10" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cyclins</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="results" gov_index="2">nsubj</dependency>
+      <dependency dep="results" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="phosphorylation" gov_index="5">det</dependency>
+      <dependency dep="phosphorylation" dep_index="5" gov="results" gov_index="2">prep_in</dependency>
+      <dependency dep="phosphorylation" dep_index="5" gov="allows" gov_index="9">nsubj</dependency>
+      <dependency dep="cdc2" dep_index="7" gov="phosphorylation" gov_index="5">prep_of</dependency>
+      <dependency dep="allows" dep_index="9" gov="phosphorylation" gov_index="5">rcmod</dependency>
+      <dependency dep="binding" dep_index="10" gov="allows" gov_index="9">acomp</dependency>
+      <dependency dep="cyclins" dep_index="12" gov="binding" gov_index="10">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

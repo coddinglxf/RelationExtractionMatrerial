@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>There@exists@a@crucial@need@to@provide@new@tools@for@studying@voice@biology@,@and@one@of@the@first@steps@is@the@development@of@a@human@primary@laryngeal@cell@culture@bank@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="EX">There</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">exists</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">crucial</taggedword>
+      <taggedword index="5" part-of-speech="NN">need</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">provide</taggedword>
+      <taggedword index="8" part-of-speech="JJ">new</taggedword>
+      <taggedword index="9" part-of-speech="NNS">tools</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="VBG">studying</taggedword>
+      <taggedword index="12" part-of-speech="NN">voice</taggedword>
+      <taggedword index="13" part-of-speech="NN">biology</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="CD">one</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">first</taggedword>
+      <taggedword index="20" part-of-speech="NNS">steps</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">development</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="DT">a</taggedword>
+      <taggedword index="26" part-of-speech="JJ">human</taggedword>
+      <taggedword index="27" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="28" part-of-speech="JJ">laryngeal</taggedword>
+      <taggedword index="29" part-of-speech="NN">cell</taggedword>
+      <taggedword index="30" part-of-speech="NN">culture</taggedword>
+      <taggedword index="31" part-of-speech="NN">bank</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="There" dep_index="1" gov="exists" gov_index="2">expl</dependency>
+      <dependency dep="exists" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="3" gov="need" gov_index="5">det</dependency>
+      <dependency dep="crucial" dep_index="4" gov="need" gov_index="5">amod</dependency>
+      <dependency dep="need" dep_index="5" gov="exists" gov_index="2">dobj</dependency>
+      <dependency dep="need" dep_index="5" gov="exists" gov_index="2">nsubj</dependency>
+      <dependency dep="to" dep_index="6" gov="provide" gov_index="7">aux</dependency>
+      <dependency dep="provide" dep_index="7" gov="need" gov_index="5">infmod</dependency>
+      <dependency dep="new" dep_index="8" gov="tools" gov_index="9">amod</dependency>
+      <dependency dep="tools" dep_index="9" gov="provide" gov_index="7">dobj</dependency>
+      <dependency dep="studying" dep_index="11" gov="provide" gov_index="7">prepc_for</dependency>
+      <dependency dep="voice" dep_index="12" gov="biology" gov_index="13">nn</dependency>
+      <dependency dep="biology" dep_index="13" gov="studying" gov_index="11">dobj</dependency>
+      <dependency dep="one" dep_index="16" gov="development" gov_index="23">nsubj</dependency>
+      <dependency dep="the" dep_index="18" gov="steps" gov_index="20">det</dependency>
+      <dependency dep="first" dep_index="19" gov="steps" gov_index="20">amod</dependency>
+      <dependency dep="steps" dep_index="20" gov="one" gov_index="16">prep_of</dependency>
+      <dependency dep="is" dep_index="21" gov="development" gov_index="23">cop</dependency>
+      <dependency dep="the" dep_index="22" gov="development" gov_index="23">det</dependency>
+      <dependency dep="development" dep_index="23" gov="exists" gov_index="2">conj_and</dependency>
+      <dependency dep="a" dep_index="25" gov="bank" gov_index="31">det</dependency>
+      <dependency dep="human" dep_index="26" gov="bank" gov_index="31">amod</dependency>
+      <dependency dep="primary" dep_index="27" gov="bank" gov_index="31">amod</dependency>
+      <dependency dep="laryngeal" dep_index="28" gov="bank" gov_index="31">amod</dependency>
+      <dependency dep="cell" dep_index="29" gov="bank" gov_index="31">nn</dependency>
+      <dependency dep="culture" dep_index="30" gov="bank" gov_index="31">nn</dependency>
+      <dependency dep="bank" dep_index="31" gov="development" gov_index="23">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

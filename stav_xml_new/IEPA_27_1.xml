@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>8-OH-DPAT@also@increased@insulin@and@decreased@CCK@and@somatostatin@levels@,@effects@that@were@blocked@by@pretreatment@with@the@oxytocin@antagonist@</sentence>
+   <tags>
+      <tag pos="4">insulin</tag>
+      <tag pos="20">oxytocin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">8-OH-DPAT</taggedword>
+      <taggedword index="2" part-of-speech="RB">also</taggedword>
+      <taggedword index="3" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="4" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="VBN">decreased</taggedword>
+      <taggedword index="7" part-of-speech="NNP">CCK</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">somatostatin</taggedword>
+      <taggedword index="10" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="13" part-of-speech="WDT">that</taggedword>
+      <taggedword index="14" part-of-speech="VBD">were</taggedword>
+      <taggedword index="15" part-of-speech="VBN">blocked</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="NN">pretreatment</taggedword>
+      <taggedword index="18" part-of-speech="IN">with</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="21" part-of-speech="NN">antagonist</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="8-OH-DPAT" dep_index="1" gov="increased" gov_index="3">nsubj</dependency>
+      <dependency dep="also" dep_index="2" gov="increased" gov_index="3">advmod</dependency>
+      <dependency dep="increased" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="insulin" dep_index="4" gov="increased" gov_index="3">dobj</dependency>
+      <dependency dep="decreased" dep_index="6" gov="CCK" gov_index="7">amod</dependency>
+      <dependency dep="CCK" dep_index="7" gov="increased" gov_index="3">dobj</dependency>
+      <dependency dep="CCK" dep_index="7" gov="insulin" gov_index="4">conj_and</dependency>
+      <dependency dep="somatostatin" dep_index="9" gov="levels" gov_index="10">nn</dependency>
+      <dependency dep="levels" dep_index="10" gov="insulin" gov_index="4">conj_and</dependency>
+      <dependency dep="levels" dep_index="10" gov="CCK" gov_index="7">conj_and</dependency>
+      <dependency dep="effects" dep_index="12" gov="insulin" gov_index="4">appos</dependency>
+      <dependency dep="effects" dep_index="12" gov="blocked" gov_index="15">nsubjpass</dependency>
+      <dependency dep="were" dep_index="14" gov="blocked" gov_index="15">auxpass</dependency>
+      <dependency dep="blocked" dep_index="15" gov="effects" gov_index="12">rcmod</dependency>
+      <dependency dep="pretreatment" dep_index="17" gov="blocked" gov_index="15">agent</dependency>
+      <dependency dep="the" dep_index="19" gov="antagonist" gov_index="21">det</dependency>
+      <dependency dep="oxytocin" dep_index="20" gov="antagonist" gov_index="21">nn</dependency>
+      <dependency dep="antagonist" dep_index="21" gov="blocked" gov_index="15">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400020" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>400020</pair>
+   </pairs>
+</root>

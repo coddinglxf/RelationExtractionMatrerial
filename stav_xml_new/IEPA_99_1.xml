@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Enhanced@phosphoinositide@hydrolysis@via@overexpression@of@phospholipase C@beta1@or@delta1@inhibits@stimulus-induced@insulin@release@in@insulinoma@MIN6@cells@.@</sentence>
+   <tags>
+      <tag pos="7">phospholipase C</tag>
+      <tag pos="13">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Enhanced</taggedword>
+      <taggedword index="2" part-of-speech="NN">phosphoinositide</taggedword>
+      <taggedword index="3" part-of-speech="NNS">hydrolysis</taggedword>
+      <taggedword index="4" part-of-speech="IN">via</taggedword>
+      <taggedword index="5" part-of-speech="NN">overexpression</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="8" part-of-speech="NNS">beta1</taggedword>
+      <taggedword index="9" part-of-speech="CC">or</taggedword>
+      <taggedword index="10" part-of-speech="NNS">delta1</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">inhibits</taggedword>
+      <taggedword index="12" part-of-speech="JJ">stimulus-induced</taggedword>
+      <taggedword index="13" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="14" part-of-speech="NN">release</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="NN">insulinoma</taggedword>
+      <taggedword index="17" part-of-speech="NN">MIN6</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Enhanced" dep_index="1" gov="hydrolysis" gov_index="3">amod</dependency>
+      <dependency dep="phosphoinositide" dep_index="2" gov="hydrolysis" gov_index="3">nn</dependency>
+      <dependency dep="hydrolysis" dep_index="3" gov="inhibits" gov_index="11">nsubj</dependency>
+      <dependency dep="overexpression" dep_index="5" gov="hydrolysis" gov_index="3">prep_via</dependency>
+      <dependency dep="phospholipase C" dep_index="7" gov="beta1" gov_index="8">amod</dependency>
+      <dependency dep="beta1" dep_index="8" gov="overexpression" gov_index="5">prep_of</dependency>
+      <dependency dep="delta1" dep_index="10" gov="overexpression" gov_index="5">prep_of</dependency>
+      <dependency dep="delta1" dep_index="10" gov="beta1" gov_index="8">conj_or</dependency>
+      <dependency dep="inhibits" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="stimulus-induced" dep_index="12" gov="release" gov_index="14">amod</dependency>
+      <dependency dep="insulin" dep_index="13" gov="release" gov_index="14">nn</dependency>
+      <dependency dep="release" dep_index="14" gov="inhibits" gov_index="11">dobj</dependency>
+      <dependency dep="insulinoma" dep_index="16" gov="cells" gov_index="18">nn</dependency>
+      <dependency dep="MIN6" dep_index="17" gov="cells" gov_index="18">nn</dependency>
+      <dependency dep="cells" dep_index="18" gov="release" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700013" relationship="true">7 8 5 3 11 14 13</relation>
+   </relations>
+   <pairs>
+      <pair>700013</pair>
+   </pairs>
+</root>

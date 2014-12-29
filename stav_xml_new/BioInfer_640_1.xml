@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@majority@of@cortical@thymomas@showed@diffuse@and@homogenous@membrane@immunoreactivity@for@these@molecules@(88@per@cent@for@E-CD@;@86@per@cent@for@alpha-catenin@;@91@per@cent@for@beta-catenin@)@and@the@remaining@cases@showed@heterogeneous@immunoreactivity@,@whereas@almost@all@mixed@and@medullary@thymomas@revealed@decreased@expression@or@were@negative@.@</sentence>
+   <tags>
+      <tag pos="25">alpha-catenin</tag>
+      <tag pos="19">E-CD</tag>
+      <tag pos="31">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">majority</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">cortical</taggedword>
+      <taggedword index="5" part-of-speech="NNS">thymomas</taggedword>
+      <taggedword index="6" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="7" part-of-speech="JJ">diffuse</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">homogenous</taggedword>
+      <taggedword index="10" part-of-speech="JJ">membrane</taggedword>
+      <taggedword index="11" part-of-speech="NN">immunoreactivity</taggedword>
+      <taggedword index="12" part-of-speech="IN">for</taggedword>
+      <taggedword index="13" part-of-speech="DT">these</taggedword>
+      <taggedword index="14" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="15" part-of-speech="CD">(88</taggedword>
+      <taggedword index="16" part-of-speech="IN">per</taggedword>
+      <taggedword index="17" part-of-speech="NN">cent</taggedword>
+      <taggedword index="18" part-of-speech="IN">for</taggedword>
+      <taggedword index="19" part-of-speech="NNP">E-CD</taggedword>
+      <taggedword index="20" part-of-speech=":">;</taggedword>
+      <taggedword index="21" part-of-speech="CD">86</taggedword>
+      <taggedword index="22" part-of-speech="IN">per</taggedword>
+      <taggedword index="23" part-of-speech="NN">cent</taggedword>
+      <taggedword index="24" part-of-speech="IN">for</taggedword>
+      <taggedword index="25" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="26" part-of-speech=":">;</taggedword>
+      <taggedword index="27" part-of-speech="CD">91</taggedword>
+      <taggedword index="28" part-of-speech="IN">per</taggedword>
+      <taggedword index="29" part-of-speech="NN">cent</taggedword>
+      <taggedword index="30" part-of-speech="IN">for</taggedword>
+      <taggedword index="31" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="32" part-of-speech="NNS">)</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="VBG">remaining</taggedword>
+      <taggedword index="36" part-of-speech="NNS">cases</taggedword>
+      <taggedword index="37" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="38" part-of-speech="JJ">heterogeneous</taggedword>
+      <taggedword index="39" part-of-speech="NN">immunoreactivity</taggedword>
+      <taggedword index="40" part-of-speech=",">,</taggedword>
+      <taggedword index="41" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="42" part-of-speech="RB">almost</taggedword>
+      <taggedword index="43" part-of-speech="DT">all</taggedword>
+      <taggedword index="44" part-of-speech="JJ">mixed</taggedword>
+      <taggedword index="45" part-of-speech="CC">and</taggedword>
+      <taggedword index="46" part-of-speech="JJ">medullary</taggedword>
+      <taggedword index="47" part-of-speech="NN">thymomas</taggedword>
+      <taggedword index="48" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="49" part-of-speech="VBN">decreased</taggedword>
+      <taggedword index="50" part-of-speech="NN">expression</taggedword>
+      <taggedword index="51" part-of-speech="CC">or</taggedword>
+      <taggedword index="52" part-of-speech="VBD">were</taggedword>
+      <taggedword index="53" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="54" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="majority" gov_index="2">det</dependency>
+      <dependency dep="majority" dep_index="2" gov="showed" gov_index="6">nsubj</dependency>
+      <dependency dep="cortical" dep_index="4" gov="thymomas" gov_index="5">amod</dependency>
+      <dependency dep="thymomas" dep_index="5" gov="majority" gov_index="2">prep_of</dependency>
+      <dependency dep="showed" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="diffuse" dep_index="7" gov="immunoreactivity" gov_index="11">amod</dependency>
+      <dependency dep="homogenous" dep_index="9" gov="diffuse" gov_index="7">conj_and</dependency>
+      <dependency dep="homogenous" dep_index="9" gov="immunoreactivity" gov_index="11">amod</dependency>
+      <dependency dep="membrane" dep_index="10" gov="immunoreactivity" gov_index="11">amod</dependency>
+      <dependency dep="immunoreactivity" dep_index="11" gov="showed" gov_index="6">dobj</dependency>
+      <dependency dep="these" dep_index="13" gov="molecules" gov_index="14">det</dependency>
+      <dependency dep="molecules" dep_index="14" gov="showed" gov_index="6">prep_for</dependency>
+      <dependency dep="(88" dep_index="15" gov="showed" gov_index="37">nsubj</dependency>
+      <dependency dep="cent" dep_index="17" gov="(88" gov_index="15">prep_per</dependency>
+      <dependency dep="E-CD" dep_index="19" gov="cent" gov_index="17">prep_for</dependency>
+      <dependency dep="86" dep_index="21" gov="cent" gov_index="17">dep</dependency>
+      <dependency dep="cent" dep_index="23" gov="86" gov_index="21">prep_per</dependency>
+      <dependency dep="alpha-catenin" dep_index="25" gov="cent" gov_index="23">prep_for</dependency>
+      <dependency dep="91" dep_index="27" gov="cent" gov_index="17">dep</dependency>
+      <dependency dep="cent" dep_index="29" gov="91" gov_index="27">prep_per</dependency>
+      <dependency dep="beta-catenin" dep_index="31" gov=")" gov_index="32">amod</dependency>
+      <dependency dep=")" dep_index="32" gov="cent" gov_index="29">prep_for</dependency>
+      <dependency dep="the" dep_index="34" gov="cases" gov_index="36">det</dependency>
+      <dependency dep="remaining" dep_index="35" gov="cases" gov_index="36">amod</dependency>
+      <dependency dep="cases" dep_index="36" gov="(88" gov_index="15">prep_per</dependency>
+      <dependency dep="cases" dep_index="36" gov="cent" gov_index="17">conj_and</dependency>
+      <dependency dep="showed" dep_index="37" gov="showed" gov_index="6">dep</dependency>
+      <dependency dep="heterogeneous" dep_index="38" gov="immunoreactivity" gov_index="39">amod</dependency>
+      <dependency dep="immunoreactivity" dep_index="39" gov="showed" gov_index="37">dobj</dependency>
+      <dependency dep="whereas" dep_index="41" gov="revealed" gov_index="48">mark</dependency>
+      <dependency dep="almost" dep_index="42" gov="thymomas" gov_index="47">advmod</dependency>
+      <dependency dep="all" dep_index="43" gov="thymomas" gov_index="47">det</dependency>
+      <dependency dep="mixed" dep_index="44" gov="thymomas" gov_index="47">amod</dependency>
+      <dependency dep="medullary" dep_index="46" gov="mixed" gov_index="44">conj_and</dependency>
+      <dependency dep="medullary" dep_index="46" gov="thymomas" gov_index="47">amod</dependency>
+      <dependency dep="thymomas" dep_index="47" gov="revealed" gov_index="48">nsubj</dependency>
+      <dependency dep="thymomas" dep_index="47" gov="negative" gov_index="53">nsubj</dependency>
+      <dependency dep="revealed" dep_index="48" gov="showed" gov_index="6">advcl</dependency>
+      <dependency dep="decreased" dep_index="49" gov="expression" gov_index="50">amod</dependency>
+      <dependency dep="expression" dep_index="50" gov="revealed" gov_index="48">dobj</dependency>
+      <dependency dep="were" dep_index="52" gov="negative" gov_index="53">cop</dependency>
+      <dependency dep="negative" dep_index="53" gov="showed" gov_index="6">advcl</dependency>
+      <dependency dep="negative" dep_index="53" gov="revealed" gov_index="48">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1900025" relationship="false">19 17 21 23 25</relation>
+      <relation position="2500031" relationship="false">25 23 21 17 27 29 32 31</relation>
+      <relation position="1900031" relationship="false">19 17 27 29 32 31</relation>
+   </relations>
+   <pairs/>
+</root>

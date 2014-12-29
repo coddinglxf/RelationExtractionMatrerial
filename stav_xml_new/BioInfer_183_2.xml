@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@distribution@of@actin@filaments@is@altered@by@profilin@overexpression@.@</sentence>
+   <tags>
+      <tag pos="4">actin</tag>
+      <tag pos="9">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">distribution</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="VBN">altered</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="10" part-of-speech="NN">overexpression</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="distribution" gov_index="2">det</dependency>
+      <dependency dep="distribution" dep_index="2" gov="altered" gov_index="7">nsubjpass</dependency>
+      <dependency dep="actin" dep_index="4" gov="filaments" gov_index="5">nn</dependency>
+      <dependency dep="filaments" dep_index="5" gov="distribution" gov_index="2">prep_of</dependency>
+      <dependency dep="is" dep_index="6" gov="altered" gov_index="7">auxpass</dependency>
+      <dependency dep="altered" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="profilin" dep_index="9" gov="overexpression" gov_index="10">nn</dependency>
+      <dependency dep="overexpression" dep_index="10" gov="altered" gov_index="7">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400009" relationship="true">4 5 2 7 10 9</relation>
+   </relations>
+   <pairs>
+      <pair>400009</pair>
+   </pairs>
+</root>

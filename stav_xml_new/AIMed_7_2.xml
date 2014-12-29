@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>An@apparent@exception@to@the@colorectal@adenoma-carcinoma@carcinogenetic@pathway@is@the@so-called@"de@novo"@carcinoma@which@has@no@evidence@of@adenoma@in@its@vicinity@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">An</taggedword>
+      <taggedword index="2" part-of-speech="JJ">apparent</taggedword>
+      <taggedword index="3" part-of-speech="NN">exception</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">colorectal</taggedword>
+      <taggedword index="7" part-of-speech="JJ">adenoma-carcinoma</taggedword>
+      <taggedword index="8" part-of-speech="JJ">carcinogenetic</taggedword>
+      <taggedword index="9" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">so-called</taggedword>
+      <taggedword index="13" part-of-speech="NN">"de</taggedword>
+      <taggedword index="14" part-of-speech="NN">novo"</taggedword>
+      <taggedword index="15" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="16" part-of-speech="WDT">which</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="18" part-of-speech="DT">no</taggedword>
+      <taggedword index="19" part-of-speech="NN">evidence</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NN">adenoma</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="24" part-of-speech="NN">vicinity</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="An" dep_index="1" gov="exception" gov_index="3">det</dependency>
+      <dependency dep="apparent" dep_index="2" gov="exception" gov_index="3">amod</dependency>
+      <dependency dep="exception" dep_index="3" gov="carcinoma" gov_index="15">nsubj</dependency>
+      <dependency dep="the" dep_index="5" gov="pathway" gov_index="9">det</dependency>
+      <dependency dep="colorectal" dep_index="6" gov="pathway" gov_index="9">amod</dependency>
+      <dependency dep="adenoma-carcinoma" dep_index="7" gov="pathway" gov_index="9">amod</dependency>
+      <dependency dep="carcinogenetic" dep_index="8" gov="pathway" gov_index="9">amod</dependency>
+      <dependency dep="pathway" dep_index="9" gov="exception" gov_index="3">prep_to</dependency>
+      <dependency dep="is" dep_index="10" gov="carcinoma" gov_index="15">cop</dependency>
+      <dependency dep="the" dep_index="11" gov="carcinoma" gov_index="15">det</dependency>
+      <dependency dep="so-called" dep_index="12" gov="carcinoma" gov_index="15">amod</dependency>
+      <dependency dep="&quot;de" dep_index="13" gov="carcinoma" gov_index="15">nn</dependency>
+      <dependency dep="novo&quot;" dep_index="14" gov="carcinoma" gov_index="15">nn</dependency>
+      <dependency dep="carcinoma" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="carcinoma" dep_index="15" gov="has" gov_index="17">nsubj</dependency>
+      <dependency dep="has" dep_index="17" gov="carcinoma" gov_index="15">rcmod</dependency>
+      <dependency dep="no" dep_index="18" gov="evidence" gov_index="19">det</dependency>
+      <dependency dep="evidence" dep_index="19" gov="has" gov_index="17">dobj</dependency>
+      <dependency dep="adenoma" dep_index="21" gov="evidence" gov_index="19">prep_of</dependency>
+      <dependency dep="its" dep_index="23" gov="vicinity" gov_index="24">poss</dependency>
+      <dependency dep="vicinity" dep_index="24" gov="adenoma" gov_index="21">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

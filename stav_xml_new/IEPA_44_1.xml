@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Further@,@the@oxytocin@-induced@activation@of@IK(sl)@was@effectively@antagonized@by@5@x@10(-8)@mol/l@U-73122@or@5@x@10(-6)@mol/l@2-nitro-4-carboxyphenyl@N,N-diphenylcarbamate@(inhibitors@of@the@cell@membrane@phospholipase@C)@,@as@well@as@by@intracellularly@applied@heparin@(selective@inhibitor@of@inositol-1,4,5-trisphosphate@(IP3)-induced@Ca2+@release@channels)@</sentence>
+   <tags>
+      <tag pos="4">oxytocin</tag>
+      <tag pos="43">inositol-1,4,5-trisphosphate</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Further</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">oxytocin</taggedword>
+      <taggedword index="5" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="6" part-of-speech="NN">activation</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNP">IK(sl)</taggedword>
+      <taggedword index="9" part-of-speech="VBD">was</taggedword>
+      <taggedword index="10" part-of-speech="RB">effectively</taggedword>
+      <taggedword index="11" part-of-speech="VBN">antagonized</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="CD">5</taggedword>
+      <taggedword index="14" part-of-speech="JJ">x</taggedword>
+      <taggedword index="15" part-of-speech="JJ">10(-8)</taggedword>
+      <taggedword index="16" part-of-speech="NN">mol/l</taggedword>
+      <taggedword index="17" part-of-speech="NN">U-73122</taggedword>
+      <taggedword index="18" part-of-speech="CC">or</taggedword>
+      <taggedword index="19" part-of-speech="CD">5</taggedword>
+      <taggedword index="20" part-of-speech="SYM">x</taggedword>
+      <taggedword index="21" part-of-speech="CD">10(-6)</taggedword>
+      <taggedword index="22" part-of-speech="JJ">mol/l</taggedword>
+      <taggedword index="23" part-of-speech="JJ">2-nitro-4-carboxyphenyl</taggedword>
+      <taggedword index="24" part-of-speech="JJ">N,N-diphenylcarbamate</taggedword>
+      <taggedword index="25" part-of-speech="NNS">(inhibitors</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">cell</taggedword>
+      <taggedword index="29" part-of-speech="NNP">membrane</taggedword>
+      <taggedword index="30" part-of-speech="NNP">phospholipase</taggedword>
+      <taggedword index="31" part-of-speech="NNP">C)</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="RB">as</taggedword>
+      <taggedword index="34" part-of-speech="RB">well</taggedword>
+      <taggedword index="35" part-of-speech="IN">as</taggedword>
+      <taggedword index="36" part-of-speech="IN">by</taggedword>
+      <taggedword index="37" part-of-speech="NN">intracellularly</taggedword>
+      <taggedword index="38" part-of-speech="VBD">applied</taggedword>
+      <taggedword index="39" part-of-speech="NN">heparin</taggedword>
+      <taggedword index="40" part-of-speech="NN">(selective</taggedword>
+      <taggedword index="41" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="42" part-of-speech="IN">of</taggedword>
+      <taggedword index="43" part-of-speech="JJ">inositol-1,4,5-trisphosphate</taggedword>
+      <taggedword index="44" part-of-speech="JJ">(IP3)-induced</taggedword>
+      <taggedword index="45" part-of-speech="NNS">Ca2+</taggedword>
+      <taggedword index="46" part-of-speech="NN">release</taggedword>
+      <taggedword index="47" part-of-speech="NNS">channels)</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Further" dep_index="1" gov="antagonized" gov_index="11">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="activation" gov_index="6">det</dependency>
+      <dependency dep="oxytocin" dep_index="4" gov="activation" gov_index="6">amod</dependency>
+      <dependency dep="-induced" dep_index="5" gov="activation" gov_index="6">amod</dependency>
+      <dependency dep="activation" dep_index="6" gov="antagonized" gov_index="11">nsubjpass</dependency>
+      <dependency dep="IK(sl)" dep_index="8" gov="activation" gov_index="6">prep_of</dependency>
+      <dependency dep="was" dep_index="9" gov="antagonized" gov_index="11">auxpass</dependency>
+      <dependency dep="effectively" dep_index="10" gov="antagonized" gov_index="11">advmod</dependency>
+      <dependency dep="antagonized" dep_index="11" gov="applied" gov_index="38">dep</dependency>
+      <dependency dep="5" dep_index="13" gov="U-73122" gov_index="17">num</dependency>
+      <dependency dep="x" dep_index="14" gov="U-73122" gov_index="17">amod</dependency>
+      <dependency dep="10(-8)" dep_index="15" gov="U-73122" gov_index="17">amod</dependency>
+      <dependency dep="mol/l" dep_index="16" gov="U-73122" gov_index="17">nn</dependency>
+      <dependency dep="U-73122" dep_index="17" gov="(inhibitors" gov_index="25">dep</dependency>
+      <dependency dep="5" dep_index="19" gov="U-73122" gov_index="17">conj_or</dependency>
+      <dependency dep="5" dep_index="19" gov="(inhibitors" gov_index="25">dep</dependency>
+      <dependency dep="x" dep_index="20" gov="(inhibitors" gov_index="25">dep</dependency>
+      <dependency dep="10(-6)" dep_index="21" gov="(inhibitors" gov_index="25">num</dependency>
+      <dependency dep="mol/l" dep_index="22" gov="(inhibitors" gov_index="25">amod</dependency>
+      <dependency dep="2-nitro-4-carboxyphenyl" dep_index="23" gov="(inhibitors" gov_index="25">amod</dependency>
+      <dependency dep="N,N-diphenylcarbamate" dep_index="24" gov="(inhibitors" gov_index="25">amod</dependency>
+      <dependency dep="(inhibitors" dep_index="25" gov="C)" gov_index="31">dep</dependency>
+      <dependency dep="the" dep_index="27" gov="cell" gov_index="28">det</dependency>
+      <dependency dep="cell" dep_index="28" gov="(inhibitors" gov_index="25">prep_of</dependency>
+      <dependency dep="membrane" dep_index="29" gov="C)" gov_index="31">nn</dependency>
+      <dependency dep="phospholipase" dep_index="30" gov="C)" gov_index="31">nn</dependency>
+      <dependency dep="C)" dep_index="31" gov="antagonized" gov_index="11">agent</dependency>
+      <dependency dep="intracellularly" dep_index="37" gov="antagonized" gov_index="11">agent</dependency>
+      <dependency dep="intracellularly" dep_index="37" gov="C)" gov_index="31">conj_and</dependency>
+      <dependency dep="applied" dep_index="38" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="heparin" dep_index="39" gov="inhibitor" gov_index="41">nn</dependency>
+      <dependency dep="(selective" dep_index="40" gov="inhibitor" gov_index="41">nn</dependency>
+      <dependency dep="inhibitor" dep_index="41" gov="applied" gov_index="38">dobj</dependency>
+      <dependency dep="inositol-1,4,5-trisphosphate" dep_index="43" gov="Ca2+" gov_index="45">amod</dependency>
+      <dependency dep="(IP3)-induced" dep_index="44" gov="Ca2+" gov_index="45">amod</dependency>
+      <dependency dep="Ca2+" dep_index="45" gov="inhibitor" gov_index="41">prep_of</dependency>
+      <dependency dep="release" dep_index="46" gov="channels)" gov_index="47">nn</dependency>
+      <dependency dep="channels)" dep_index="47" gov="applied" gov_index="38">nsubj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400043" relationship="false">4 6 11 38 41 45 43</relation>
+   </relations>
+   <pairs/>
+</root>

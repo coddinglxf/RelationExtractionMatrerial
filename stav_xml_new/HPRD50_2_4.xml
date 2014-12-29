@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Previously@,@we@showed@that@the@CG beta@or@FSH beta@subunit@genes@can@be@genetically@fused@to@the@alpha@gene@to@produce@biologically@active@single@chains@,@CG beta alpha@and@F@beta@alpha@,@respectively@</sentence>
+   <tags>
+      <tag pos="7">CG beta</tag>
+      <tag pos="9">FSH beta</tag>
+      <tag pos="27">CG beta alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Previously</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">we</taggedword>
+      <taggedword index="4" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NNP">CG beta</taggedword>
+      <taggedword index="8" part-of-speech="CC">or</taggedword>
+      <taggedword index="9" part-of-speech="NNP">FSH beta</taggedword>
+      <taggedword index="10" part-of-speech="NNP">subunit</taggedword>
+      <taggedword index="11" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="12" part-of-speech="MD">can</taggedword>
+      <taggedword index="13" part-of-speech="VB">be</taggedword>
+      <taggedword index="14" part-of-speech="RB">genetically</taggedword>
+      <taggedword index="15" part-of-speech="JJ">fused</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">alpha</taggedword>
+      <taggedword index="19" part-of-speech="NN">gene</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">produce</taggedword>
+      <taggedword index="22" part-of-speech="JJ">biologically</taggedword>
+      <taggedword index="23" part-of-speech="JJ">active</taggedword>
+      <taggedword index="24" part-of-speech="JJ">single</taggedword>
+      <taggedword index="25" part-of-speech="NNS">chains</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="NNP">CG beta alpha</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="NN">F</taggedword>
+      <taggedword index="30" part-of-speech="NN">beta</taggedword>
+      <taggedword index="31" part-of-speech="NN">alpha</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="RB">respectively</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Previously" dep_index="1" gov="showed" gov_index="4">advmod</dependency>
+      <dependency dep="we" dep_index="3" gov="showed" gov_index="4">nsubj</dependency>
+      <dependency dep="showed" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="fused" gov_index="15">mark</dependency>
+      <dependency dep="the" dep_index="6" gov="CG beta" gov_index="7">det</dependency>
+      <dependency dep="CG beta" dep_index="7" gov="fused" gov_index="15">nsubj</dependency>
+      <dependency dep="CG beta" dep_index="7" gov="produce" gov_index="21">xsubj</dependency>
+      <dependency dep="FSH beta" dep_index="9" gov="genes" gov_index="11">nn</dependency>
+      <dependency dep="subunit" dep_index="10" gov="genes" gov_index="11">nn</dependency>
+      <dependency dep="genes" dep_index="11" gov="CG beta" gov_index="7">conj_or</dependency>
+      <dependency dep="genes" dep_index="11" gov="fused" gov_index="15">nsubj</dependency>
+      <dependency dep="genes" dep_index="11" gov="produce" gov_index="21">xsubj</dependency>
+      <dependency dep="can" dep_index="12" gov="fused" gov_index="15">aux</dependency>
+      <dependency dep="be" dep_index="13" gov="fused" gov_index="15">cop</dependency>
+      <dependency dep="genetically" dep_index="14" gov="fused" gov_index="15">advmod</dependency>
+      <dependency dep="fused" dep_index="15" gov="showed" gov_index="4">ccomp</dependency>
+      <dependency dep="the" dep_index="17" gov="gene" gov_index="19">det</dependency>
+      <dependency dep="alpha" dep_index="18" gov="gene" gov_index="19">amod</dependency>
+      <dependency dep="gene" dep_index="19" gov="fused" gov_index="15">prep_to</dependency>
+      <dependency dep="to" dep_index="20" gov="produce" gov_index="21">aux</dependency>
+      <dependency dep="produce" dep_index="21" gov="fused" gov_index="15">xcomp</dependency>
+      <dependency dep="biologically" dep_index="22" gov="chains" gov_index="25">amod</dependency>
+      <dependency dep="active" dep_index="23" gov="chains" gov_index="25">amod</dependency>
+      <dependency dep="single" dep_index="24" gov="chains" gov_index="25">amod</dependency>
+      <dependency dep="chains" dep_index="25" gov="alpha" gov_index="31">nsubj</dependency>
+      <dependency dep="CG beta alpha" dep_index="27" gov="chains" gov_index="25">conj_and</dependency>
+      <dependency dep="CG beta alpha" dep_index="27" gov="alpha" gov_index="31">nsubj</dependency>
+      <dependency dep="F" dep_index="29" gov="beta" gov_index="30">nn</dependency>
+      <dependency dep="beta" dep_index="30" gov="chains" gov_index="25">conj_and</dependency>
+      <dependency dep="beta" dep_index="30" gov="alpha" gov_index="31">nsubj</dependency>
+      <dependency dep="alpha" dep_index="31" gov="produce" gov_index="21">xcomp</dependency>
+      <dependency dep="respectively" dep_index="33" gov="fused" gov_index="15">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 21 11 9</relation>
+      <relation position="700027" relationship="false">7 21 31 27</relation>
+      <relation position="900027" relationship="false">9 11 21 31 27</relation>
+   </relations>
+   <pairs/>
+</root>

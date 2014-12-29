@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@cytokine-activated@tyrosine@kinase@JAK2@activates@Raf-1@in@a@p21ras@-dependent@manner@.@</sentence>
+   <tags>
+      <tag pos="5">JAK2</tag>
+      <tag pos="7">Raf-1</tag>
+      <tag pos="10">p21ras</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">cytokine-activated</taggedword>
+      <taggedword index="3" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="4" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="5" part-of-speech="NN">JAK2</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">activates</taggedword>
+      <taggedword index="7" part-of-speech="NNS">Raf-1</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="JJ">p21ras</taggedword>
+      <taggedword index="11" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="12" part-of-speech="NN">manner</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="JAK2" gov_index="5">det</dependency>
+      <dependency dep="cytokine-activated" dep_index="2" gov="JAK2" gov_index="5">amod</dependency>
+      <dependency dep="tyrosine" dep_index="3" gov="JAK2" gov_index="5">amod</dependency>
+      <dependency dep="kinase" dep_index="4" gov="JAK2" gov_index="5">nn</dependency>
+      <dependency dep="JAK2" dep_index="5" gov="activates" gov_index="6">nsubj</dependency>
+      <dependency dep="activates" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Raf-1" dep_index="7" gov="activates" gov_index="6">dobj</dependency>
+      <dependency dep="a" dep_index="9" gov="manner" gov_index="12">det</dependency>
+      <dependency dep="p21ras" dep_index="10" gov="manner" gov_index="12">amod</dependency>
+      <dependency dep="-dependent" dep_index="11" gov="manner" gov_index="12">amod</dependency>
+      <dependency dep="manner" dep_index="12" gov="Raf-1" gov_index="7">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="true">5 6 7</relation>
+      <relation position="500010" relationship="false">5 6 7 12 10</relation>
+      <relation position="700010" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>500007</pair>
+   </pairs>
+</root>

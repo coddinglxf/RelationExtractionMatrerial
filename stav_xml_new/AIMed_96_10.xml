@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>After@pervanadate@treatment@of@MvLu@cells@,@which@inhibits@cellular@tyrosine@phosphatase@activity@including@PTPmu@,@the@cadherins@associated@with@PTPmu@are@now@found@in@a@tyrosine-phosphorylated@form@,@indicating@that@the@cadherins@may@be@an@endogenous@substrate@for@PTPmu@.@</sentence>
+   <tags>
+      <tag pos="15">PTPmu</tag>
+      <tag pos="21">PTPmu</tag>
+      <tag pos="40">PTPmu</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">After</taggedword>
+      <taggedword index="2" part-of-speech="JJ">pervanadate</taggedword>
+      <taggedword index="3" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">MvLu</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="WDT">which</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">inhibits</taggedword>
+      <taggedword index="10" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="11" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="12" part-of-speech="NN">phosphatase</taggedword>
+      <taggedword index="13" part-of-speech="NN">activity</taggedword>
+      <taggedword index="14" part-of-speech="VBG">including</taggedword>
+      <taggedword index="15" part-of-speech="NNP">PTPmu</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cadherins</taggedword>
+      <taggedword index="19" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="NNP">PTPmu</taggedword>
+      <taggedword index="22" part-of-speech="VBP">are</taggedword>
+      <taggedword index="23" part-of-speech="RB">now</taggedword>
+      <taggedword index="24" part-of-speech="VBN">found</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="DT">a</taggedword>
+      <taggedword index="27" part-of-speech="JJ">tyrosine-phosphorylated</taggedword>
+      <taggedword index="28" part-of-speech="NN">form</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="VBG">indicating</taggedword>
+      <taggedword index="31" part-of-speech="IN">that</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NNS">cadherins</taggedword>
+      <taggedword index="34" part-of-speech="MD">may</taggedword>
+      <taggedword index="35" part-of-speech="VB">be</taggedword>
+      <taggedword index="36" part-of-speech="DT">an</taggedword>
+      <taggedword index="37" part-of-speech="JJ">endogenous</taggedword>
+      <taggedword index="38" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="39" part-of-speech="IN">for</taggedword>
+      <taggedword index="40" part-of-speech="NNP">PTPmu</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="pervanadate" dep_index="2" gov="treatment" gov_index="3">amod</dependency>
+      <dependency dep="treatment" dep_index="3" gov="inhibits" gov_index="9">nsubj</dependency>
+      <dependency dep="treatment" dep_index="3" gov="found" gov_index="24">prep_after</dependency>
+      <dependency dep="MvLu" dep_index="5" gov="cells" gov_index="6">nn</dependency>
+      <dependency dep="cells" dep_index="6" gov="treatment" gov_index="3">prep_of</dependency>
+      <dependency dep="inhibits" dep_index="9" gov="treatment" gov_index="3">rcmod</dependency>
+      <dependency dep="cellular" dep_index="10" gov="activity" gov_index="13">amod</dependency>
+      <dependency dep="tyrosine" dep_index="11" gov="activity" gov_index="13">amod</dependency>
+      <dependency dep="phosphatase" dep_index="12" gov="activity" gov_index="13">nn</dependency>
+      <dependency dep="activity" dep_index="13" gov="inhibits" gov_index="9">dobj</dependency>
+      <dependency dep="PTPmu" dep_index="15" gov="activity" gov_index="13">prep_including</dependency>
+      <dependency dep="the" dep_index="17" gov="cadherins" gov_index="18">det</dependency>
+      <dependency dep="cadherins" dep_index="18" gov="found" gov_index="24">nsubjpass</dependency>
+      <dependency dep="associated" dep_index="19" gov="cadherins" gov_index="18">partmod</dependency>
+      <dependency dep="PTPmu" dep_index="21" gov="associated" gov_index="19">prep_with</dependency>
+      <dependency dep="are" dep_index="22" gov="found" gov_index="24">auxpass</dependency>
+      <dependency dep="now" dep_index="23" gov="found" gov_index="24">advmod</dependency>
+      <dependency dep="found" dep_index="24" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="26" gov="form" gov_index="28">det</dependency>
+      <dependency dep="tyrosine-phosphorylated" dep_index="27" gov="form" gov_index="28">amod</dependency>
+      <dependency dep="form" dep_index="28" gov="found" gov_index="24">prep_in</dependency>
+      <dependency dep="indicating" dep_index="30" gov="found" gov_index="24">xcomp</dependency>
+      <dependency dep="that" dep_index="31" gov="substrate" gov_index="38">mark</dependency>
+      <dependency dep="the" dep_index="32" gov="cadherins" gov_index="33">det</dependency>
+      <dependency dep="cadherins" dep_index="33" gov="substrate" gov_index="38">nsubj</dependency>
+      <dependency dep="may" dep_index="34" gov="substrate" gov_index="38">aux</dependency>
+      <dependency dep="be" dep_index="35" gov="substrate" gov_index="38">cop</dependency>
+      <dependency dep="an" dep_index="36" gov="substrate" gov_index="38">det</dependency>
+      <dependency dep="endogenous" dep_index="37" gov="substrate" gov_index="38">amod</dependency>
+      <dependency dep="substrate" dep_index="38" gov="indicating" gov_index="30">ccomp</dependency>
+      <dependency dep="PTPmu" dep_index="40" gov="substrate" gov_index="38">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500021" relationship="false">15 13 9 3 24 18 19 21</relation>
+      <relation position="1500040" relationship="false">15 13 9 3 24 30 38 40</relation>
+      <relation position="2100040" relationship="false">21 19 18 24 30 38 40</relation>
+   </relations>
+   <pairs/>
+</root>

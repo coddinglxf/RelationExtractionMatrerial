@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@,@profilin@is@identified@as@an@actin-binding protein@in@higher@plants@which@is@present@in@monocot@and@dicot@angiosperms@.@</sentence>
+   <tags>
+      <tag pos="5">profilin</tag>
+      <tag pos="10">actin-binding protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="8" part-of-speech="IN">as</taggedword>
+      <taggedword index="9" part-of-speech="DT">an</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin-binding protein</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="13" part-of-speech="NNS">plants</taggedword>
+      <taggedword index="14" part-of-speech="WDT">which</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="16" part-of-speech="JJ">present</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="NN">monocot</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">dicot</taggedword>
+      <taggedword index="21" part-of-speech="NNS">angiosperms</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="identified" gov_index="7">prep_in</dependency>
+      <dependency dep="profilin" dep_index="5" gov="identified" gov_index="7">nsubjpass</dependency>
+      <dependency dep="is" dep_index="6" gov="identified" gov_index="7">auxpass</dependency>
+      <dependency dep="identified" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="9" gov="actin-binding protein" gov_index="10">det</dependency>
+      <dependency dep="actin-binding protein" dep_index="10" gov="identified" gov_index="7">prep_as</dependency>
+      <dependency dep="higher" dep_index="12" gov="plants" gov_index="13">amod</dependency>
+      <dependency dep="plants" dep_index="13" gov="actin-binding protein" gov_index="10">prep_in</dependency>
+      <dependency dep="plants" dep_index="13" gov="present" gov_index="16">nsubj</dependency>
+      <dependency dep="is" dep_index="15" gov="present" gov_index="16">cop</dependency>
+      <dependency dep="present" dep_index="16" gov="plants" gov_index="13">rcmod</dependency>
+      <dependency dep="monocot" dep_index="18" gov="angiosperms" gov_index="21">nn</dependency>
+      <dependency dep="dicot" dep_index="20" gov="monocot" gov_index="18">conj_and</dependency>
+      <dependency dep="dicot" dep_index="20" gov="angiosperms" gov_index="21">nn</dependency>
+      <dependency dep="angiosperms" dep_index="21" gov="present" gov_index="16">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500010" relationship="true">5 7 10</relation>
+   </relations>
+   <pairs>
+      <pair>500010</pair>
+   </pairs>
+</root>

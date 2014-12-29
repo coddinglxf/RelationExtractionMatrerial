@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@redistribution@of@PS1@in@adhered@cells@was@strikingly@similar@to@that@of@the@well@characterized@adhesion@protein@CD44@.@</sentence>
+   <tags>
+      <tag pos="4">PS1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">redistribution</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">PS1</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="JJ">adhered</taggedword>
+      <taggedword index="7" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="8" part-of-speech="VBD">was</taggedword>
+      <taggedword index="9" part-of-speech="RB">strikingly</taggedword>
+      <taggedword index="10" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="DT">that</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="RB">well</taggedword>
+      <taggedword index="16" part-of-speech="JJ">characterized</taggedword>
+      <taggedword index="17" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="18" part-of-speech="NN">protein</taggedword>
+      <taggedword index="19" part-of-speech="NN">CD44</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="redistribution" gov_index="2">det</dependency>
+      <dependency dep="redistribution" dep_index="2" gov="similar" gov_index="10">nsubj</dependency>
+      <dependency dep="PS1" dep_index="4" gov="redistribution" gov_index="2">prep_of</dependency>
+      <dependency dep="adhered" dep_index="6" gov="cells" gov_index="7">amod</dependency>
+      <dependency dep="cells" dep_index="7" gov="PS1" gov_index="4">prep_in</dependency>
+      <dependency dep="was" dep_index="8" gov="similar" gov_index="10">cop</dependency>
+      <dependency dep="strikingly" dep_index="9" gov="similar" gov_index="10">advmod</dependency>
+      <dependency dep="similar" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="12" gov="similar" gov_index="10">prep_to</dependency>
+      <dependency dep="the" dep_index="14" gov="CD44" gov_index="19">det</dependency>
+      <dependency dep="well" dep_index="15" gov="characterized" gov_index="16">advmod</dependency>
+      <dependency dep="characterized" dep_index="16" gov="CD44" gov_index="19">amod</dependency>
+      <dependency dep="adhesion" dep_index="17" gov="CD44" gov_index="19">nn</dependency>
+      <dependency dep="protein" dep_index="18" gov="CD44" gov_index="19">nn</dependency>
+      <dependency dep="CD44" dep_index="19" gov="that" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

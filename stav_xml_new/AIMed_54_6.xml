@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>PDGF-CC@exhibits@greater@mitogenic@potency@than@PDGF-AA@and@comparable@or@greater@mitogenic@activity@than@PDGF-AB@and@PDGF-BB@on@several@mesenchymal@cell@types@.@</sentence>
+   <tags>
+      <tag pos="1">PDGF-CC</tag>
+      <tag pos="7">PDGF-AA</tag>
+      <tag pos="15">PDGF-AB</tag>
+      <tag pos="17">PDGF-BB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">PDGF-CC</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">exhibits</taggedword>
+      <taggedword index="3" part-of-speech="JJR">greater</taggedword>
+      <taggedword index="4" part-of-speech="JJ">mitogenic</taggedword>
+      <taggedword index="5" part-of-speech="NN">potency</taggedword>
+      <taggedword index="6" part-of-speech="IN">than</taggedword>
+      <taggedword index="7" part-of-speech="JJ">PDGF-AA</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">comparable</taggedword>
+      <taggedword index="10" part-of-speech="CC">or</taggedword>
+      <taggedword index="11" part-of-speech="JJR">greater</taggedword>
+      <taggedword index="12" part-of-speech="JJ">mitogenic</taggedword>
+      <taggedword index="13" part-of-speech="NN">activity</taggedword>
+      <taggedword index="14" part-of-speech="IN">than</taggedword>
+      <taggedword index="15" part-of-speech="CD">PDGF-AB</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="CD">PDGF-BB</taggedword>
+      <taggedword index="18" part-of-speech="IN">on</taggedword>
+      <taggedword index="19" part-of-speech="JJ">several</taggedword>
+      <taggedword index="20" part-of-speech="JJ">mesenchymal</taggedword>
+      <taggedword index="21" part-of-speech="NN">cell</taggedword>
+      <taggedword index="22" part-of-speech="NNS">types</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="PDGF-CC" dep_index="1" gov="exhibits" gov_index="2">nsubj</dependency>
+      <dependency dep="exhibits" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="greater" dep_index="3" gov="potency" gov_index="5">amod</dependency>
+      <dependency dep="mitogenic" dep_index="4" gov="potency" gov_index="5">amod</dependency>
+      <dependency dep="potency" dep_index="5" gov="exhibits" gov_index="2">dobj</dependency>
+      <dependency dep="PDGF-AA" dep_index="7" gov="activity" gov_index="13">amod</dependency>
+      <dependency dep="comparable" dep_index="9" gov="PDGF-AA" gov_index="7">conj_and</dependency>
+      <dependency dep="comparable" dep_index="9" gov="activity" gov_index="13">amod</dependency>
+      <dependency dep="greater" dep_index="11" gov="PDGF-AA" gov_index="7">conj_or</dependency>
+      <dependency dep="greater" dep_index="11" gov="activity" gov_index="13">amod</dependency>
+      <dependency dep="mitogenic" dep_index="12" gov="activity" gov_index="13">amod</dependency>
+      <dependency dep="activity" dep_index="13" gov="potency" gov_index="5">prep_than</dependency>
+      <dependency dep="than" dep_index="14" gov="PDGF-AB" gov_index="15">amod</dependency>
+      <dependency dep="PDGF-AB" dep_index="15" gov="activity" gov_index="13">num</dependency>
+      <dependency dep="PDGF-BB" dep_index="17" gov="activity" gov_index="13">num</dependency>
+      <dependency dep="PDGF-BB" dep_index="17" gov="PDGF-AB" gov_index="15">conj_and</dependency>
+      <dependency dep="several" dep_index="19" gov="types" gov_index="22">amod</dependency>
+      <dependency dep="mesenchymal" dep_index="20" gov="types" gov_index="22">amod</dependency>
+      <dependency dep="cell" dep_index="21" gov="types" gov_index="22">nn</dependency>
+      <dependency dep="types" dep_index="22" gov="exhibits" gov_index="2">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="false">1 2 5 13 7</relation>
+      <relation position="100015" relationship="false">1 2 5 13 15</relation>
+      <relation position="100017" relationship="false">1 2 5 13 17</relation>
+      <relation position="700015" relationship="false">7 13 15</relation>
+      <relation position="700017" relationship="false">7 13 17</relation>
+      <relation position="1500017" relationship="false">15 13 17</relation>
+   </relations>
+   <pairs/>
+</root>

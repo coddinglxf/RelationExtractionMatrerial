@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@protein@pVHL@functions@in@a@multi-subunit@E3@ubiquitin@ligase@that@targets@the@hypoxia-inducible@transcription@factor@Hif1 alpha@for@proteasomal@degradation@during@normoxia@</sentence>
+   <tags>
+      <tag pos="3">pVHL</tag>
+      <tag pos="17">Hif1 alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">protein</taggedword>
+      <taggedword index="3" part-of-speech="VBP">pVHL</taggedword>
+      <taggedword index="4" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="JJ">multi-subunit</taggedword>
+      <taggedword index="8" part-of-speech="NNP">E3</taggedword>
+      <taggedword index="9" part-of-speech="NN">ubiquitin</taggedword>
+      <taggedword index="10" part-of-speech="NN">ligase</taggedword>
+      <taggedword index="11" part-of-speech="WDT">that</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">targets</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">hypoxia-inducible</taggedword>
+      <taggedword index="15" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="16" part-of-speech="NN">factor</taggedword>
+      <taggedword index="17" part-of-speech="NNS">Hif1 alpha</taggedword>
+      <taggedword index="18" part-of-speech="IN">for</taggedword>
+      <taggedword index="19" part-of-speech="JJ">proteasomal</taggedword>
+      <taggedword index="20" part-of-speech="NN">degradation</taggedword>
+      <taggedword index="21" part-of-speech="IN">during</taggedword>
+      <taggedword index="22" part-of-speech="NN">normoxia</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="protein" gov_index="2">det</dependency>
+      <dependency dep="protein" dep_index="2" gov="pVHL" gov_index="3">nsubj</dependency>
+      <dependency dep="pVHL" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="functions" dep_index="4" gov="pVHL" gov_index="3">dobj</dependency>
+      <dependency dep="functions" dep_index="4" gov="targets" gov_index="12">nsubj</dependency>
+      <dependency dep="a" dep_index="6" gov="ligase" gov_index="10">det</dependency>
+      <dependency dep="multi-subunit" dep_index="7" gov="ligase" gov_index="10">amod</dependency>
+      <dependency dep="E3" dep_index="8" gov="ligase" gov_index="10">nn</dependency>
+      <dependency dep="ubiquitin" dep_index="9" gov="ligase" gov_index="10">nn</dependency>
+      <dependency dep="ligase" dep_index="10" gov="functions" gov_index="4">prep_in</dependency>
+      <dependency dep="targets" dep_index="12" gov="functions" gov_index="4">rcmod</dependency>
+      <dependency dep="the" dep_index="13" gov="Hif1 alpha" gov_index="17">det</dependency>
+      <dependency dep="hypoxia-inducible" dep_index="14" gov="Hif1 alpha" gov_index="17">amod</dependency>
+      <dependency dep="transcription" dep_index="15" gov="Hif1 alpha" gov_index="17">nn</dependency>
+      <dependency dep="factor" dep_index="16" gov="Hif1 alpha" gov_index="17">nn</dependency>
+      <dependency dep="Hif1 alpha" dep_index="17" gov="targets" gov_index="12">dobj</dependency>
+      <dependency dep="proteasomal" dep_index="19" gov="degradation" gov_index="20">amod</dependency>
+      <dependency dep="degradation" dep_index="20" gov="Hif1 alpha" gov_index="17">prep_for</dependency>
+      <dependency dep="normoxia" dep_index="22" gov="targets" gov_index="12">prep_during</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300017" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>300017</pair>
+   </pairs>
+</root>

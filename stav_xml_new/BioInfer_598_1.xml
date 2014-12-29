@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@contents@of@myosin heavy chain@,@myosin light chain 2@,@actin@,@troponin-I@in@125-week-old@rats@decreased@compared@with@those@of@12-week-old@rats@.@</sentence>
+   <tags>
+      <tag pos="10">troponin-I</tag>
+      <tag pos="6">myosin light chain 2</tag>
+      <tag pos="8">actin</tag>
+      <tag pos="4">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">contents</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">myosin light chain 2</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">actin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">troponin-I</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJ">125-week-old</taggedword>
+      <taggedword index="13" part-of-speech="NNS">rats</taggedword>
+      <taggedword index="14" part-of-speech="VBD">decreased</taggedword>
+      <taggedword index="15" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="DT">those</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">12-week-old</taggedword>
+      <taggedword index="20" part-of-speech="NNS">rats</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="contents" gov_index="2">det</dependency>
+      <dependency dep="contents" dep_index="2" gov="decreased" gov_index="14">nsubj</dependency>
+      <dependency dep="myosin heavy chain" dep_index="4" gov="troponin-I" gov_index="10">nn</dependency>
+      <dependency dep="myosin light chain 2" dep_index="6" gov="troponin-I" gov_index="10">dep</dependency>
+      <dependency dep="actin" dep_index="8" gov="troponin-I" gov_index="10">dep</dependency>
+      <dependency dep="troponin-I" dep_index="10" gov="contents" gov_index="2">prep_of</dependency>
+      <dependency dep="125-week-old" dep_index="12" gov="rats" gov_index="13">amod</dependency>
+      <dependency dep="rats" dep_index="13" gov="contents" gov_index="2">prep_in</dependency>
+      <dependency dep="decreased" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="with" dep_index="16" gov="decreased" gov_index="14">prepc_compared_with</dependency>
+      <dependency dep="those" dep_index="17" gov="decreased" gov_index="14">pobj</dependency>
+      <dependency dep="12-week-old" dep_index="19" gov="rats" gov_index="20">amod</dependency>
+      <dependency dep="rats" dep_index="20" gov="those" gov_index="17">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="false"></relation>
+      <relation position="800010" relationship="false"></relation>
+      <relation position="400010" relationship="false"></relation>
+      <relation position="600008" relationship="false">6 10 8</relation>
+      <relation position="400006" relationship="false">4 10 6</relation>
+      <relation position="400008" relationship="false">4 10 8</relation>
+   </relations>
+   <pairs/>
+</root>

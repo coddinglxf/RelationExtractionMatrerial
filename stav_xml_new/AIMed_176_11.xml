@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interactions@of@hsp70@and@hsp90@in@intermediate@PR@complexes@are@shown@to@be@distinct@from@their@separate@interactions@in@early@PR@complexes@(@hsp70@)@or@in@mature@PR@complexes@(hsp90)@.@</sentence>
+   <tags>
+      <tag pos="4">hsp70</tag>
+      <tag pos="6">hsp90</tag>
+      <tag pos="9">PR</tag>
+      <tag pos="22">PR</tag>
+      <tag pos="25">hsp70</tag>
+      <tag pos="30">PR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">hsp70</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="CD">hsp90</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="JJ">intermediate</taggedword>
+      <taggedword index="9" part-of-speech="NNP">PR</taggedword>
+      <taggedword index="10" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="11" part-of-speech="VBP">are</taggedword>
+      <taggedword index="12" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="VB">be</taggedword>
+      <taggedword index="15" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="16" part-of-speech="IN">from</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="18" part-of-speech="JJ">separate</taggedword>
+      <taggedword index="19" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="JJ">early</taggedword>
+      <taggedword index="22" part-of-speech="NNP">PR</taggedword>
+      <taggedword index="23" part-of-speech="NNP">complexes</taggedword>
+      <taggedword index="24" part-of-speech="NNP">(</taggedword>
+      <taggedword index="25" part-of-speech="NNPS">hsp70</taggedword>
+      <taggedword index="26" part-of-speech="NNP">)</taggedword>
+      <taggedword index="27" part-of-speech="CC">or</taggedword>
+      <taggedword index="28" part-of-speech="IN">in</taggedword>
+      <taggedword index="29" part-of-speech="JJ">mature</taggedword>
+      <taggedword index="30" part-of-speech="NNP">PR</taggedword>
+      <taggedword index="31" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="32" part-of-speech="CD">(hsp90)</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interactions" gov_index="2">det</dependency>
+      <dependency dep="interactions" dep_index="2" gov="shown" gov_index="12">nsubjpass</dependency>
+      <dependency dep="interactions" dep_index="2" gov="distinct" gov_index="15">xsubj</dependency>
+      <dependency dep="hsp70" dep_index="4" gov="interactions" gov_index="2">prep_of</dependency>
+      <dependency dep="hsp90" dep_index="6" gov="interactions" gov_index="2">prep_of</dependency>
+      <dependency dep="hsp90" dep_index="6" gov="hsp70" gov_index="4">conj_and</dependency>
+      <dependency dep="intermediate" dep_index="8" gov="complexes" gov_index="10">amod</dependency>
+      <dependency dep="PR" dep_index="9" gov="complexes" gov_index="10">nn</dependency>
+      <dependency dep="complexes" dep_index="10" gov="interactions" gov_index="2">prep_in</dependency>
+      <dependency dep="are" dep_index="11" gov="shown" gov_index="12">auxpass</dependency>
+      <dependency dep="shown" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="13" gov="distinct" gov_index="15">aux</dependency>
+      <dependency dep="be" dep_index="14" gov="distinct" gov_index="15">cop</dependency>
+      <dependency dep="distinct" dep_index="15" gov="shown" gov_index="12">xcomp</dependency>
+      <dependency dep="their" dep_index="17" gov="interactions" gov_index="19">poss</dependency>
+      <dependency dep="separate" dep_index="18" gov="interactions" gov_index="19">amod</dependency>
+      <dependency dep="interactions" dep_index="19" gov="distinct" gov_index="15">prep_from</dependency>
+      <dependency dep="early" dep_index="21" gov=")" gov_index="26">amod</dependency>
+      <dependency dep="PR" dep_index="22" gov=")" gov_index="26">nn</dependency>
+      <dependency dep="complexes" dep_index="23" gov=")" gov_index="26">nn</dependency>
+      <dependency dep="(" dep_index="24" gov=")" gov_index="26">nn</dependency>
+      <dependency dep="hsp70" dep_index="25" gov=")" gov_index="26">nn</dependency>
+      <dependency dep=")" dep_index="26" gov="distinct" gov_index="15">prep_in</dependency>
+      <dependency dep="mature" dep_index="29" gov="complexes" gov_index="31">amod</dependency>
+      <dependency dep="PR" dep_index="30" gov="complexes" gov_index="31">nn</dependency>
+      <dependency dep="complexes" dep_index="31" gov="distinct" gov_index="15">prep_in</dependency>
+      <dependency dep="complexes" dep_index="31" gov=")" gov_index="26">conj_or</dependency>
+      <dependency dep="(hsp90)" dep_index="32" gov="distinct" gov_index="15">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 2 6</relation>
+      <relation position="400009" relationship="false">4 2 10 9</relation>
+      <relation position="400022" relationship="false">4 2 15 26 22</relation>
+      <relation position="400025" relationship="false">4 2 15 26 25</relation>
+      <relation position="400030" relationship="false">4 2 15 31 30</relation>
+      <relation position="600009" relationship="false">6 2 10 9</relation>
+      <relation position="600022" relationship="false">6 2 15 26 22</relation>
+      <relation position="600025" relationship="false">6 2 15 26 25</relation>
+      <relation position="600030" relationship="false">6 2 15 31 30</relation>
+      <relation position="900022" relationship="false">9 10 2 15 26 22</relation>
+      <relation position="900025" relationship="false">9 10 2 15 26 25</relation>
+      <relation position="900030" relationship="false">9 10 2 15 31 30</relation>
+      <relation position="2200025" relationship="false">22 26 25</relation>
+      <relation position="2200030" relationship="false">22 26 31 30</relation>
+      <relation position="2500030" relationship="false">25 26 31 30</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@previously@reported@that@tyrosine@phosphorylation@of@Shc@and@its@association@with@the@Grb2@-@Sos@complex@may@contribute@to@the@activation@of@the@mitogen-activated protein kinase@pathway@by@gastrin@.@</sentence>
+   <tags>
+      <tag pos="9">Shc</tag>
+      <tag pos="15">Grb2</tag>
+      <tag pos="17">Sos</tag>
+      <tag pos="26">mitogen-activated protein kinase</tag>
+      <tag pos="29">gastrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="RB">previously</taggedword>
+      <taggedword index="4" part-of-speech="VBN">reported</taggedword>
+      <taggedword index="5" part-of-speech="DT">that</taggedword>
+      <taggedword index="6" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="7" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Shc</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="12" part-of-speech="NN">association</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNS">Grb2</taggedword>
+      <taggedword index="16" part-of-speech=":">-</taggedword>
+      <taggedword index="17" part-of-speech="NNP">Sos</taggedword>
+      <taggedword index="18" part-of-speech="NN">complex</taggedword>
+      <taggedword index="19" part-of-speech="MD">may</taggedword>
+      <taggedword index="20" part-of-speech="VB">contribute</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">activation</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="JJ">mitogen-activated protein kinase</taggedword>
+      <taggedword index="27" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="28" part-of-speech="IN">by</taggedword>
+      <taggedword index="29" part-of-speech="NN">gastrin</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="reported" gov_index="4">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="reported" gov_index="4">aux</dependency>
+      <dependency dep="previously" dep_index="3" gov="reported" gov_index="4">advmod</dependency>
+      <dependency dep="reported" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="phosphorylation" gov_index="7">det</dependency>
+      <dependency dep="tyrosine" dep_index="6" gov="phosphorylation" gov_index="7">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="7" gov="reported" gov_index="4">dobj</dependency>
+      <dependency dep="Shc" dep_index="9" gov="phosphorylation" gov_index="7">prep_of</dependency>
+      <dependency dep="its" dep_index="11" gov="association" gov_index="12">poss</dependency>
+      <dependency dep="association" dep_index="12" gov="reported" gov_index="4">dobj</dependency>
+      <dependency dep="association" dep_index="12" gov="phosphorylation" gov_index="7">conj_and</dependency>
+      <dependency dep="the" dep_index="14" gov="Grb2" gov_index="15">det</dependency>
+      <dependency dep="Grb2" dep_index="15" gov="association" gov_index="12">prep_with</dependency>
+      <dependency dep="Sos" dep_index="17" gov="complex" gov_index="18">nn</dependency>
+      <dependency dep="complex" dep_index="18" gov="contribute" gov_index="20">nsubj</dependency>
+      <dependency dep="may" dep_index="19" gov="contribute" gov_index="20">aux</dependency>
+      <dependency dep="contribute" dep_index="20" gov="reported" gov_index="4">parataxis</dependency>
+      <dependency dep="the" dep_index="22" gov="activation" gov_index="23">det</dependency>
+      <dependency dep="activation" dep_index="23" gov="contribute" gov_index="20">prep_to</dependency>
+      <dependency dep="the" dep_index="25" gov="pathway" gov_index="27">det</dependency>
+      <dependency dep="mitogen-activated protein kinase" dep_index="26" gov="pathway" gov_index="27">amod</dependency>
+      <dependency dep="pathway" dep_index="27" gov="activation" gov_index="23">prep_of</dependency>
+      <dependency dep="gastrin" dep_index="29" gov="contribute" gov_index="20">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900015" relationship="true">9 7 4 12 15</relation>
+      <relation position="900017" relationship="true">9 7 4 20 18 17</relation>
+      <relation position="900026" relationship="false">9 7 4 20 23 27 26</relation>
+      <relation position="900029" relationship="false">9 7 4 20 29</relation>
+      <relation position="1500017" relationship="true">15 12 4 20 18 17</relation>
+      <relation position="1500026" relationship="false">15 12 4 20 23 27 26</relation>
+      <relation position="1500029" relationship="false">15 12 4 20 29</relation>
+      <relation position="1700026" relationship="false">17 18 20 23 27 26</relation>
+      <relation position="1700029" relationship="false">17 18 20 29</relation>
+      <relation position="2600029" relationship="false">26 27 23 20 29</relation>
+   </relations>
+   <pairs>
+      <pair>900015</pair>
+      <pair>900017</pair>
+      <pair>1500017</pair>
+   </pairs>
+</root>

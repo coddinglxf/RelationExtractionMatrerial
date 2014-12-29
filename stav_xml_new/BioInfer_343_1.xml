@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@higher@plants@,@a@large@number@of@isoforms@for@the@actin@monomer-binding@protein@profilin@have@been@identified@,@whereas@other@organisms@express@only@few@profilins@.@</sentence>
+   <tags>
+      <tag pos="12">actin</tag>
+      <tag pos="26">profilins</tag>
+      <tag pos="15">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="3" part-of-speech="NNS">plants</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">large</taggedword>
+      <taggedword index="7" part-of-speech="NN">number</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="13" part-of-speech="JJ">monomer-binding</taggedword>
+      <taggedword index="14" part-of-speech="NN">protein</taggedword>
+      <taggedword index="15" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="16" part-of-speech="VBP">have</taggedword>
+      <taggedword index="17" part-of-speech="VBN">been</taggedword>
+      <taggedword index="18" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="21" part-of-speech="JJ">other</taggedword>
+      <taggedword index="22" part-of-speech="NNS">organisms</taggedword>
+      <taggedword index="23" part-of-speech="VBP">express</taggedword>
+      <taggedword index="24" part-of-speech="RB">only</taggedword>
+      <taggedword index="25" part-of-speech="JJ">few</taggedword>
+      <taggedword index="26" part-of-speech="NNS">profilins</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="higher" dep_index="2" gov="plants" gov_index="3">amod</dependency>
+      <dependency dep="plants" dep_index="3" gov="identified" gov_index="18">prep_in</dependency>
+      <dependency dep="a" dep_index="5" gov="number" gov_index="7">det</dependency>
+      <dependency dep="large" dep_index="6" gov="number" gov_index="7">amod</dependency>
+      <dependency dep="number" dep_index="7" gov="identified" gov_index="18">nsubjpass</dependency>
+      <dependency dep="isoforms" dep_index="9" gov="number" gov_index="7">prep_of</dependency>
+      <dependency dep="the" dep_index="11" gov="profilin" gov_index="15">det</dependency>
+      <dependency dep="actin" dep_index="12" gov="profilin" gov_index="15">amod</dependency>
+      <dependency dep="monomer-binding" dep_index="13" gov="profilin" gov_index="15">amod</dependency>
+      <dependency dep="protein" dep_index="14" gov="profilin" gov_index="15">nn</dependency>
+      <dependency dep="profilin" dep_index="15" gov="isoforms" gov_index="9">prep_for</dependency>
+      <dependency dep="have" dep_index="16" gov="identified" gov_index="18">aux</dependency>
+      <dependency dep="been" dep_index="17" gov="identified" gov_index="18">auxpass</dependency>
+      <dependency dep="identified" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="whereas" dep_index="20" gov="express" gov_index="23">mark</dependency>
+      <dependency dep="other" dep_index="21" gov="organisms" gov_index="22">amod</dependency>
+      <dependency dep="organisms" dep_index="22" gov="express" gov_index="23">nsubj</dependency>
+      <dependency dep="express" dep_index="23" gov="identified" gov_index="18">advcl</dependency>
+      <dependency dep="only" dep_index="24" gov="profilins" gov_index="26">advmod</dependency>
+      <dependency dep="few" dep_index="25" gov="profilins" gov_index="26">amod</dependency>
+      <dependency dep="profilins" dep_index="26" gov="express" gov_index="23">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200026" relationship="false">12 15 9 7 18 23 26</relation>
+      <relation position="1200015" relationship="true"></relation>
+      <relation position="1500026" relationship="false">15 9 7 18 23 26</relation>
+   </relations>
+   <pairs>
+      <pair>1200015</pair>
+   </pairs>
+</root>

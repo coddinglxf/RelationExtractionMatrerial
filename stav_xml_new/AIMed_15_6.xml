@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Results@were@correlated@with@health@related@quality@of@life@,@as@measured@by@the@Multidimensional@Pain@Inventory@,@McGill@pain@questionnaire@and@International@Prostate@Symptom@Score@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Results</taggedword>
+      <taggedword index="2" part-of-speech="VBD">were</taggedword>
+      <taggedword index="3" part-of-speech="VBN">correlated</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="NN">health</taggedword>
+      <taggedword index="6" part-of-speech="JJ">related</taggedword>
+      <taggedword index="7" part-of-speech="NN">quality</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">life</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="IN">as</taggedword>
+      <taggedword index="12" part-of-speech="VBN">measured</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNP">Multidimensional</taggedword>
+      <taggedword index="16" part-of-speech="NNP">Pain</taggedword>
+      <taggedword index="17" part-of-speech="NNP">Inventory</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="NNP">McGill</taggedword>
+      <taggedword index="20" part-of-speech="NN">pain</taggedword>
+      <taggedword index="21" part-of-speech="NN">questionnaire</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NNP">International</taggedword>
+      <taggedword index="24" part-of-speech="NNP">Prostate</taggedword>
+      <taggedword index="25" part-of-speech="NNP">Symptom</taggedword>
+      <taggedword index="26" part-of-speech="NNP">Score</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Results" dep_index="1" gov="correlated" gov_index="3">nsubjpass</dependency>
+      <dependency dep="were" dep_index="2" gov="correlated" gov_index="3">auxpass</dependency>
+      <dependency dep="correlated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="health" dep_index="5" gov="quality" gov_index="7">nn</dependency>
+      <dependency dep="related" dep_index="6" gov="quality" gov_index="7">amod</dependency>
+      <dependency dep="quality" dep_index="7" gov="correlated" gov_index="3">prep_with</dependency>
+      <dependency dep="life" dep_index="9" gov="quality" gov_index="7">prep_of</dependency>
+      <dependency dep="as" dep_index="11" gov="measured" gov_index="12">mark</dependency>
+      <dependency dep="measured" dep_index="12" gov="correlated" gov_index="3">advcl</dependency>
+      <dependency dep="the" dep_index="14" gov="Inventory" gov_index="17">det</dependency>
+      <dependency dep="Multidimensional" dep_index="15" gov="Inventory" gov_index="17">nn</dependency>
+      <dependency dep="Pain" dep_index="16" gov="Inventory" gov_index="17">nn</dependency>
+      <dependency dep="Inventory" dep_index="17" gov="measured" gov_index="12">prep_by</dependency>
+      <dependency dep="McGill" dep_index="19" gov="questionnaire" gov_index="21">nn</dependency>
+      <dependency dep="pain" dep_index="20" gov="questionnaire" gov_index="21">nn</dependency>
+      <dependency dep="questionnaire" dep_index="21" gov="measured" gov_index="12">prep_by</dependency>
+      <dependency dep="questionnaire" dep_index="21" gov="Inventory" gov_index="17">conj_and</dependency>
+      <dependency dep="International" dep_index="23" gov="Score" gov_index="26">nn</dependency>
+      <dependency dep="Prostate" dep_index="24" gov="Score" gov_index="26">nn</dependency>
+      <dependency dep="Symptom" dep_index="25" gov="Score" gov_index="26">nn</dependency>
+      <dependency dep="Score" dep_index="26" gov="measured" gov_index="12">prep_by</dependency>
+      <dependency dep="Score" dep_index="26" gov="Inventory" gov_index="17">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

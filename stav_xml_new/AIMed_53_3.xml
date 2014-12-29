@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Kaposi's@sarcoma-associated@herpesvirus@encodes@a@functional@homolog@of@human@interleukin-6@(@IL-6@)@that@activates@human@gp130@.@</sentence>
+   <tags>
+      <tag pos="10">interleukin-6</tag>
+      <tag pos="12">IL-6</tag>
+      <tag pos="17">gp130</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Kaposi's</taggedword>
+      <taggedword index="2" part-of-speech="JJ">sarcoma-associated</taggedword>
+      <taggedword index="3" part-of-speech="NNS">herpesvirus</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">encodes</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="7" part-of-speech="NN">homolog</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">human</taggedword>
+      <taggedword index="10" part-of-speech="JJ">interleukin-6</taggedword>
+      <taggedword index="11" part-of-speech="JJ">(</taggedword>
+      <taggedword index="12" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="13" part-of-speech="NNS">)</taggedword>
+      <taggedword index="14" part-of-speech="WDT">that</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">activates</taggedword>
+      <taggedword index="16" part-of-speech="JJ">human</taggedword>
+      <taggedword index="17" part-of-speech="NNS">gp130</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Kaposi's" dep_index="1" gov="herpesvirus" gov_index="3">amod</dependency>
+      <dependency dep="sarcoma-associated" dep_index="2" gov="herpesvirus" gov_index="3">amod</dependency>
+      <dependency dep="herpesvirus" dep_index="3" gov="encodes" gov_index="4">nsubj</dependency>
+      <dependency dep="encodes" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="homolog" gov_index="7">det</dependency>
+      <dependency dep="functional" dep_index="6" gov="homolog" gov_index="7">amod</dependency>
+      <dependency dep="homolog" dep_index="7" gov="encodes" gov_index="4">dobj</dependency>
+      <dependency dep="human" dep_index="9" gov=")" gov_index="13">amod</dependency>
+      <dependency dep="interleukin-6" dep_index="10" gov=")" gov_index="13">amod</dependency>
+      <dependency dep="(" dep_index="11" gov=")" gov_index="13">amod</dependency>
+      <dependency dep="IL-6" dep_index="12" gov=")" gov_index="13">nn</dependency>
+      <dependency dep=")" dep_index="13" gov="homolog" gov_index="7">prep_of</dependency>
+      <dependency dep=")" dep_index="13" gov="activates" gov_index="15">nsubj</dependency>
+      <dependency dep="activates" dep_index="15" gov=")" gov_index="13">rcmod</dependency>
+      <dependency dep="human" dep_index="16" gov="gp130" gov_index="17">amod</dependency>
+      <dependency dep="gp130" dep_index="17" gov="activates" gov_index="15">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000012" relationship="false">10 13 12</relation>
+      <relation position="1000017" relationship="true">10 13 15 17</relation>
+      <relation position="1200017" relationship="true">12 13 15 17</relation>
+   </relations>
+   <pairs>
+      <pair>1200017</pair>
+      <pair>1000017</pair>
+   </pairs>
+</root>

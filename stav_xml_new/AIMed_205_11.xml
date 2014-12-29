@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@conclude@that@stimulation@of@thymocytes@with@pervanadate@induces@the@recruitment@of@PI 3-kinase@and@pp120@to@CD5@.@</sentence>
+   <tags>
+      <tag pos="13">PI 3-kinase</tag>
+      <tag pos="15">pp120</tag>
+      <tag pos="17">CD5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">conclude</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNS">thymocytes</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="NN">pervanadate</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">induces</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">recruitment</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NNS">PI 3-kinase</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NNS">pp120</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="conclude" gov_index="2">nsubj</dependency>
+      <dependency dep="conclude" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="induces" gov_index="9">mark</dependency>
+      <dependency dep="stimulation" dep_index="4" gov="induces" gov_index="9">nsubj</dependency>
+      <dependency dep="thymocytes" dep_index="6" gov="stimulation" gov_index="4">prep_of</dependency>
+      <dependency dep="pervanadate" dep_index="8" gov="thymocytes" gov_index="6">prep_with</dependency>
+      <dependency dep="induces" dep_index="9" gov="conclude" gov_index="2">ccomp</dependency>
+      <dependency dep="the" dep_index="10" gov="recruitment" gov_index="11">det</dependency>
+      <dependency dep="recruitment" dep_index="11" gov="induces" gov_index="9">dobj</dependency>
+      <dependency dep="PI 3-kinase" dep_index="13" gov="recruitment" gov_index="11">prep_of</dependency>
+      <dependency dep="pp120" dep_index="15" gov="recruitment" gov_index="11">prep_of</dependency>
+      <dependency dep="pp120" dep_index="15" gov="PI 3-kinase" gov_index="13">conj_and</dependency>
+      <dependency dep="CD5" dep_index="17" gov="induces" gov_index="9">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="false">13 11 15</relation>
+      <relation position="1300017" relationship="true">13 11 9 17</relation>
+      <relation position="1500017" relationship="true">15 11 9 17</relation>
+   </relations>
+   <pairs>
+      <pair>1300017</pair>
+      <pair>1500017</pair>
+   </pairs>
+</root>

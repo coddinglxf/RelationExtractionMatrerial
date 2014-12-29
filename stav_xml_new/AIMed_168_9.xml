@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@was@not@a@result@of@processing@or@transport@defects@,@since@mutant@receptor@was@present@on@the@surface@of@the@cells@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="RB">not</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="NN">result</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">processing</taggedword>
+      <taggedword index="8" part-of-speech="CC">or</taggedword>
+      <taggedword index="9" part-of-speech="NN">transport</taggedword>
+      <taggedword index="10" part-of-speech="NNS">defects</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="IN">since</taggedword>
+      <taggedword index="13" part-of-speech="JJ">mutant</taggedword>
+      <taggedword index="14" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="15" part-of-speech="VBD">was</taggedword>
+      <taggedword index="16" part-of-speech="JJ">present</taggedword>
+      <taggedword index="17" part-of-speech="IN">on</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">surface</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="result" gov_index="5">nsubj</dependency>
+      <dependency dep="was" dep_index="2" gov="result" gov_index="5">cop</dependency>
+      <dependency dep="not" dep_index="3" gov="result" gov_index="5">neg</dependency>
+      <dependency dep="a" dep_index="4" gov="result" gov_index="5">det</dependency>
+      <dependency dep="result" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="processing" dep_index="7" gov="defects" gov_index="10">nn</dependency>
+      <dependency dep="transport" dep_index="9" gov="processing" gov_index="7">conj_or</dependency>
+      <dependency dep="transport" dep_index="9" gov="defects" gov_index="10">nn</dependency>
+      <dependency dep="defects" dep_index="10" gov="result" gov_index="5">prep_of</dependency>
+      <dependency dep="since" dep_index="12" gov="present" gov_index="16">mark</dependency>
+      <dependency dep="mutant" dep_index="13" gov="receptor" gov_index="14">amod</dependency>
+      <dependency dep="receptor" dep_index="14" gov="present" gov_index="16">nsubj</dependency>
+      <dependency dep="was" dep_index="15" gov="present" gov_index="16">cop</dependency>
+      <dependency dep="present" dep_index="16" gov="result" gov_index="5">advcl</dependency>
+      <dependency dep="the" dep_index="18" gov="surface" gov_index="19">det</dependency>
+      <dependency dep="surface" dep_index="19" gov="present" gov_index="16">prep_on</dependency>
+      <dependency dep="the" dep_index="21" gov="cells" gov_index="22">det</dependency>
+      <dependency dep="cells" dep_index="22" gov="surface" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

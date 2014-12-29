@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Both@hDP-1@and@hDP-2@bind@to@all@E2F@family@members@in@vivo@,@and@each@complex@is@capable@of@activating@transcription@.@</sentence>
+   <tags>
+      <tag pos="2">hDP-1</tag>
+      <tag pos="4">hDP-2</tag>
+      <tag pos="8">E2F</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">Both</taggedword>
+      <taggedword index="2" part-of-speech="JJ">hDP-1</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">hDP-2</taggedword>
+      <taggedword index="5" part-of-speech="NN">bind</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="DT">all</taggedword>
+      <taggedword index="8" part-of-speech="JJ">E2F</taggedword>
+      <taggedword index="9" part-of-speech="NN">family</taggedword>
+      <taggedword index="10" part-of-speech="NNS">members</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="DT">each</taggedword>
+      <taggedword index="16" part-of-speech="NN">complex</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="18" part-of-speech="JJ">capable</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="VBG">activating</taggedword>
+      <taggedword index="21" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Both" dep_index="1" gov="bind" gov_index="5">det</dependency>
+      <dependency dep="hDP-1" dep_index="2" gov="bind" gov_index="5">amod</dependency>
+      <dependency dep="hDP-2" dep_index="4" gov="hDP-1" gov_index="2">conj_and</dependency>
+      <dependency dep="hDP-2" dep_index="4" gov="bind" gov_index="5">amod</dependency>
+      <dependency dep="bind" dep_index="5" gov="capable" gov_index="18">nsubj</dependency>
+      <dependency dep="all" dep_index="7" gov="members" gov_index="10">det</dependency>
+      <dependency dep="E2F" dep_index="8" gov="members" gov_index="10">amod</dependency>
+      <dependency dep="family" dep_index="9" gov="members" gov_index="10">nn</dependency>
+      <dependency dep="members" dep_index="10" gov="bind" gov_index="5">prep_to</dependency>
+      <dependency dep="vivo" dep_index="12" gov="members" gov_index="10">prep_in</dependency>
+      <dependency dep="each" dep_index="15" gov="complex" gov_index="16">det</dependency>
+      <dependency dep="complex" dep_index="16" gov="bind" gov_index="5">prep_to</dependency>
+      <dependency dep="complex" dep_index="16" gov="members" gov_index="10">conj_and</dependency>
+      <dependency dep="is" dep_index="17" gov="capable" gov_index="18">cop</dependency>
+      <dependency dep="capable" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="activating" dep_index="20" gov="capable" gov_index="18">prepc_of</dependency>
+      <dependency dep="transcription" dep_index="21" gov="activating" gov_index="20">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 5 4</relation>
+      <relation position="200008" relationship="false">2 5 10 8</relation>
+      <relation position="400008" relationship="false">4 5 10 8</relation>
+   </relations>
+   <pairs/>
+</root>

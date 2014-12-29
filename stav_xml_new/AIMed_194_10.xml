@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Together@,@these@data@suggest@that@Bcl-xL@may@maintain@cell@survival@by@regulating@the@permeability@of@the@intracellular@membranes@to@which@it@is@distributed@.@</sentence>
+   <tags>
+      <tag pos="7">Bcl-xL</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Together</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">these</taggedword>
+      <taggedword index="4" part-of-speech="NNS">data</taggedword>
+      <taggedword index="5" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Bcl-xL</taggedword>
+      <taggedword index="8" part-of-speech="MD">may</taggedword>
+      <taggedword index="9" part-of-speech="VB">maintain</taggedword>
+      <taggedword index="10" part-of-speech="NN">cell</taggedword>
+      <taggedword index="11" part-of-speech="NN">survival</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="VBG">regulating</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">permeability</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="19" part-of-speech="NNS">membranes</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="WDT">which</taggedword>
+      <taggedword index="22" part-of-speech="PRP">it</taggedword>
+      <taggedword index="23" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="24" part-of-speech="VBN">distributed</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Together" dep_index="1" gov="suggest" gov_index="5">advmod</dependency>
+      <dependency dep="these" dep_index="3" gov="data" gov_index="4">det</dependency>
+      <dependency dep="data" dep_index="4" gov="suggest" gov_index="5">nsubj</dependency>
+      <dependency dep="suggest" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="maintain" gov_index="9">mark</dependency>
+      <dependency dep="Bcl-xL" dep_index="7" gov="maintain" gov_index="9">nsubj</dependency>
+      <dependency dep="may" dep_index="8" gov="maintain" gov_index="9">aux</dependency>
+      <dependency dep="maintain" dep_index="9" gov="suggest" gov_index="5">ccomp</dependency>
+      <dependency dep="cell" dep_index="10" gov="survival" gov_index="11">nn</dependency>
+      <dependency dep="survival" dep_index="11" gov="maintain" gov_index="9">dobj</dependency>
+      <dependency dep="regulating" dep_index="13" gov="maintain" gov_index="9">prepc_by</dependency>
+      <dependency dep="the" dep_index="14" gov="permeability" gov_index="15">det</dependency>
+      <dependency dep="permeability" dep_index="15" gov="regulating" gov_index="13">dobj</dependency>
+      <dependency dep="permeability" dep_index="15" gov="distributed" gov_index="24">prep_to</dependency>
+      <dependency dep="the" dep_index="17" gov="membranes" gov_index="19">det</dependency>
+      <dependency dep="intracellular" dep_index="18" gov="membranes" gov_index="19">nn</dependency>
+      <dependency dep="membranes" dep_index="19" gov="permeability" gov_index="15">prep_of</dependency>
+      <dependency dep="it" dep_index="22" gov="distributed" gov_index="24">nsubjpass</dependency>
+      <dependency dep="is" dep_index="23" gov="distributed" gov_index="24">auxpass</dependency>
+      <dependency dep="distributed" dep_index="24" gov="permeability" gov_index="15">rcmod</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

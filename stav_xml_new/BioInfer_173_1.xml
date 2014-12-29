@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Digestion@of@isolated@myofibrils@with@alkaline proteinase@resulted@in@the@degradation@of@myosin heavy chain@and@actin@.@</sentence>
+   <tags>
+      <tag pos="12">myosin heavy chain</tag>
+      <tag pos="14">actin</tag>
+      <tag pos="6">alkaline proteinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Digestion</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="VBN">isolated</taggedword>
+      <taggedword index="4" part-of-speech="NNS">myofibrils</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="NN">alkaline proteinase</taggedword>
+      <taggedword index="7" part-of-speech="VBD">resulted</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">degradation</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">actin</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Digestion" dep_index="1" gov="resulted" gov_index="7">nsubj</dependency>
+      <dependency dep="isolated" dep_index="3" gov="myofibrils" gov_index="4">amod</dependency>
+      <dependency dep="myofibrils" dep_index="4" gov="Digestion" gov_index="1">prep_of</dependency>
+      <dependency dep="alkaline proteinase" dep_index="6" gov="myofibrils" gov_index="4">prep_with</dependency>
+      <dependency dep="resulted" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="9" gov="degradation" gov_index="10">det</dependency>
+      <dependency dep="degradation" dep_index="10" gov="resulted" gov_index="7">prep_in</dependency>
+      <dependency dep="myosin heavy chain" dep_index="12" gov="degradation" gov_index="10">prep_of</dependency>
+      <dependency dep="actin" dep_index="14" gov="degradation" gov_index="10">prep_of</dependency>
+      <dependency dep="actin" dep_index="14" gov="myosin heavy chain" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200014" relationship="false">12 10 14</relation>
+      <relation position="600012" relationship="true">6 4 1 7 10 12</relation>
+      <relation position="600014" relationship="true">6 4 1 7 10 14</relation>
+   </relations>
+   <pairs>
+      <pair>600012</pair>
+      <pair>600014</pair>
+   </pairs>
+</root>

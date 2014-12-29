@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@like@verprolin@,@WIP@functions@in@yeast@to@link@the@polarity@development@pathway@and@the@actin@cytoskeleton@to@generate@cytoskeletal@asymmetry@.@</sentence>
+   <tags>
+      <tag pos="4">verprolin</tag>
+      <tag pos="18">actin</tag>
+      <tag pos="6">WIP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">like</taggedword>
+      <taggedword index="4" part-of-speech="NN">verprolin</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="VBP">WIP</taggedword>
+      <taggedword index="7" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="VB">link</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">polarity</taggedword>
+      <taggedword index="14" part-of-speech="NN">development</taggedword>
+      <taggedword index="15" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">actin</taggedword>
+      <taggedword index="19" part-of-speech="NN">cytoskeleton</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">generate</taggedword>
+      <taggedword index="22" part-of-speech="JJ">cytoskeletal</taggedword>
+      <taggedword index="23" part-of-speech="NN">asymmetry</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="WIP" gov_index="6">advmod</dependency>
+      <dependency dep="verprolin" dep_index="4" gov="WIP" gov_index="6">prep_like</dependency>
+      <dependency dep="WIP" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="functions" dep_index="7" gov="link" gov_index="11">nsubj</dependency>
+      <dependency dep="yeast" dep_index="9" gov="functions" gov_index="7">prep_in</dependency>
+      <dependency dep="to" dep_index="10" gov="link" gov_index="11">aux</dependency>
+      <dependency dep="link" dep_index="11" gov="WIP" gov_index="6">xcomp</dependency>
+      <dependency dep="the" dep_index="12" gov="pathway" gov_index="15">det</dependency>
+      <dependency dep="polarity" dep_index="13" gov="pathway" gov_index="15">amod</dependency>
+      <dependency dep="development" dep_index="14" gov="pathway" gov_index="15">nn</dependency>
+      <dependency dep="pathway" dep_index="15" gov="generate" gov_index="21">nsubj</dependency>
+      <dependency dep="the" dep_index="17" gov="cytoskeleton" gov_index="19">det</dependency>
+      <dependency dep="actin" dep_index="18" gov="cytoskeleton" gov_index="19">nn</dependency>
+      <dependency dep="cytoskeleton" dep_index="19" gov="pathway" gov_index="15">conj_and</dependency>
+      <dependency dep="cytoskeleton" dep_index="19" gov="generate" gov_index="21">nsubj</dependency>
+      <dependency dep="to" dep_index="20" gov="generate" gov_index="21">aux</dependency>
+      <dependency dep="generate" dep_index="21" gov="link" gov_index="11">xcomp</dependency>
+      <dependency dep="cytoskeletal" dep_index="22" gov="asymmetry" gov_index="23">amod</dependency>
+      <dependency dep="asymmetry" dep_index="23" gov="generate" gov_index="21">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400018" relationship="true">4 6 11 21 19 18</relation>
+      <relation position="400006" relationship="false"></relation>
+      <relation position="600018" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>400018</pair>
+      <pair>600018</pair>
+   </pairs>
+</root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Endogenous@TTR@-@A beta@complexes@were@detected@in@human@CSF@by@immunoprecipitation@.@</sentence>
+   <tags>
+      <tag pos="2">TTR</tag>
+      <tag pos="4">A beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Endogenous</taggedword>
+      <taggedword index="2" part-of-speech="NNP">TTR</taggedword>
+      <taggedword index="3" part-of-speech=":">-</taggedword>
+      <taggedword index="4" part-of-speech="NNP">A beta</taggedword>
+      <taggedword index="5" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="6" part-of-speech="VBD">were</taggedword>
+      <taggedword index="7" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">human</taggedword>
+      <taggedword index="10" part-of-speech="NNP">CSF</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="NN">immunoprecipitation</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Endogenous" dep_index="1" gov="TTR" gov_index="2">nn</dependency>
+      <dependency dep="TTR" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="A beta" dep_index="4" gov="complexes" gov_index="5">nn</dependency>
+      <dependency dep="complexes" dep_index="5" gov="detected" gov_index="7">nsubjpass</dependency>
+      <dependency dep="were" dep_index="6" gov="detected" gov_index="7">auxpass</dependency>
+      <dependency dep="detected" dep_index="7" gov="TTR" gov_index="2">dep</dependency>
+      <dependency dep="human" dep_index="9" gov="CSF" gov_index="10">amod</dependency>
+      <dependency dep="CSF" dep_index="10" gov="detected" gov_index="7">prep_in</dependency>
+      <dependency dep="immunoprecipitation" dep_index="12" gov="detected" gov_index="7">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>200004</pair>
+   </pairs>
+</root>

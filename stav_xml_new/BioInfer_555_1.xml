@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Such@motifs@are@known@to@bind@to@profilins@(@PFNs@),@small@proteins@engaged@in@the@control@of@actin@dynamics@.@</sentence>
+   <tags>
+      <tag pos="10">PFNs</tag>
+      <tag pos="8">profilins</tag>
+      <tag pos="19">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Such</taggedword>
+      <taggedword index="2" part-of-speech="NNS">motifs</taggedword>
+      <taggedword index="3" part-of-speech="VBP">are</taggedword>
+      <taggedword index="4" part-of-speech="VBN">known</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="NN">bind</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="JJ">profilins</taggedword>
+      <taggedword index="9" part-of-speech="JJ">(</taggedword>
+      <taggedword index="10" part-of-speech="NNP">PFNs</taggedword>
+      <taggedword index="11" part-of-speech="NNP">),</taggedword>
+      <taggedword index="12" part-of-speech="JJ">small</taggedword>
+      <taggedword index="13" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="14" part-of-speech="VBN">engaged</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">control</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NN">actin</taggedword>
+      <taggedword index="20" part-of-speech="NNS">dynamics</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Such" dep_index="1" gov="motifs" gov_index="2">amod</dependency>
+      <dependency dep="motifs" dep_index="2" gov="known" gov_index="4">nsubjpass</dependency>
+      <dependency dep="are" dep_index="3" gov="known" gov_index="4">auxpass</dependency>
+      <dependency dep="known" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="bind" dep_index="6" gov="known" gov_index="4">prep_to</dependency>
+      <dependency dep="profilins" dep_index="8" gov="proteins" gov_index="13">amod</dependency>
+      <dependency dep="(" dep_index="9" gov="proteins" gov_index="13">amod</dependency>
+      <dependency dep="PFNs" dep_index="10" gov="proteins" gov_index="13">nn</dependency>
+      <dependency dep=")," dep_index="11" gov="proteins" gov_index="13">nn</dependency>
+      <dependency dep="small" dep_index="12" gov="proteins" gov_index="13">amod</dependency>
+      <dependency dep="proteins" dep_index="13" gov="known" gov_index="4">prep_to</dependency>
+      <dependency dep="engaged" dep_index="14" gov="proteins" gov_index="13">partmod</dependency>
+      <dependency dep="the" dep_index="16" gov="control" gov_index="17">det</dependency>
+      <dependency dep="control" dep_index="17" gov="engaged" gov_index="14">prep_in</dependency>
+      <dependency dep="actin" dep_index="19" gov="dynamics" gov_index="20">nn</dependency>
+      <dependency dep="dynamics" dep_index="20" gov="control" gov_index="17">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 13 10</relation>
+      <relation position="1000019" relationship="true">10 13 14 17 20 19</relation>
+      <relation position="800019" relationship="true">8 13 14 17 20 19</relation>
+   </relations>
+   <pairs>
+      <pair>800019</pair>
+      <pair>1000019</pair>
+   </pairs>
+</root>

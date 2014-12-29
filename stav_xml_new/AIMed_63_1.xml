@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Coassociation@of@CD26@(@dipeptidyl peptidase IV@)@with@CD45@on@the@surface@of@human@T@lymphocytes@.@</sentence>
+   <tags>
+      <tag pos="3">CD26</tag>
+      <tag pos="5">dipeptidyl peptidase IV</tag>
+      <tag pos="8">CD45</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Coassociation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">CD26</taggedword>
+      <taggedword index="4" part-of-speech="NNP">(</taggedword>
+      <taggedword index="5" part-of-speech="NNP">dipeptidyl peptidase IV</taggedword>
+      <taggedword index="6" part-of-speech="VBD">)</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CD45</taggedword>
+      <taggedword index="9" part-of-speech="IN">on</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">surface</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="JJ">human</taggedword>
+      <taggedword index="14" part-of-speech="NNP">T</taggedword>
+      <taggedword index="15" part-of-speech="NNS">lymphocytes</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Coassociation" dep_index="1" gov=")" gov_index="6">nsubj</dependency>
+      <dependency dep="CD26" dep_index="3" gov="dipeptidyl peptidase IV" gov_index="5">nn</dependency>
+      <dependency dep="(" dep_index="4" gov="dipeptidyl peptidase IV" gov_index="5">nn</dependency>
+      <dependency dep="dipeptidyl peptidase IV" dep_index="5" gov="Coassociation" gov_index="1">prep_of</dependency>
+      <dependency dep=")" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="CD45" dep_index="8" gov=")" gov_index="6">prep_with</dependency>
+      <dependency dep="the" dep_index="10" gov="surface" gov_index="11">det</dependency>
+      <dependency dep="surface" dep_index="11" gov=")" gov_index="6">prep_on</dependency>
+      <dependency dep="human" dep_index="13" gov="lymphocytes" gov_index="15">amod</dependency>
+      <dependency dep="T" dep_index="14" gov="lymphocytes" gov_index="15">nn</dependency>
+      <dependency dep="lymphocytes" dep_index="15" gov="surface" gov_index="11">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="false"></relation>
+      <relation position="300008" relationship="true">3 5 1 6 8</relation>
+      <relation position="500008" relationship="true">5 1 6 8</relation>
+   </relations>
+   <pairs>
+      <pair>500008</pair>
+      <pair>300008</pair>
+   </pairs>
+</root>

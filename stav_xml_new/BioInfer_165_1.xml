@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Deletion@and@overexpression@studies@demonstrate@that@SIR2@,@but@not@SIR1@,@SIR3@or@SIR4@,@is@required@for@this@rDNA@position@effect@.@</sentence>
+   <tags>
+      <tag pos="7">SIR2</tag>
+      <tag pos="13">SIR3</tag>
+      <tag pos="11">SIR1</tag>
+      <tag pos="15">SIR4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Deletion</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NN">overexpression</taggedword>
+      <taggedword index="4" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="5" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="NNP">SIR2</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">but</taggedword>
+      <taggedword index="10" part-of-speech="RB">not</taggedword>
+      <taggedword index="11" part-of-speech="NNP">SIR1</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNP">SIR3</taggedword>
+      <taggedword index="14" part-of-speech="CC">or</taggedword>
+      <taggedword index="15" part-of-speech="NNP">SIR4</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="18" part-of-speech="VBN">required</taggedword>
+      <taggedword index="19" part-of-speech="IN">for</taggedword>
+      <taggedword index="20" part-of-speech="DT">this</taggedword>
+      <taggedword index="21" part-of-speech="NN">rDNA</taggedword>
+      <taggedword index="22" part-of-speech="NN">position</taggedword>
+      <taggedword index="23" part-of-speech="NN">effect</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Deletion" dep_index="1" gov="studies" gov_index="4">nn</dependency>
+      <dependency dep="overexpression" dep_index="3" gov="Deletion" gov_index="1">conj_and</dependency>
+      <dependency dep="overexpression" dep_index="3" gov="studies" gov_index="4">nn</dependency>
+      <dependency dep="studies" dep_index="4" gov="demonstrate" gov_index="5">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="required" gov_index="18">mark</dependency>
+      <dependency dep="SIR2" dep_index="7" gov="required" gov_index="18">nsubjpass</dependency>
+      <dependency dep="SIR1" dep_index="11" gov="SIR2" gov_index="7">conj_negcc</dependency>
+      <dependency dep="SIR1" dep_index="11" gov="required" gov_index="18">nsubjpass</dependency>
+      <dependency dep="SIR3" dep_index="13" gov="SIR2" gov_index="7">conj_negcc</dependency>
+      <dependency dep="SIR3" dep_index="13" gov="SIR1" gov_index="11">conj_or</dependency>
+      <dependency dep="SIR4" dep_index="15" gov="SIR2" gov_index="7">conj_negcc</dependency>
+      <dependency dep="SIR4" dep_index="15" gov="SIR1" gov_index="11">conj_or</dependency>
+      <dependency dep="is" dep_index="17" gov="required" gov_index="18">auxpass</dependency>
+      <dependency dep="required" dep_index="18" gov="demonstrate" gov_index="5">ccomp</dependency>
+      <dependency dep="this" dep_index="20" gov="effect" gov_index="23">det</dependency>
+      <dependency dep="rDNA" dep_index="21" gov="effect" gov_index="23">nn</dependency>
+      <dependency dep="position" dep_index="22" gov="effect" gov_index="23">nn</dependency>
+      <dependency dep="effect" dep_index="23" gov="required" gov_index="18">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700013" relationship="false"></relation>
+      <relation position="700011" relationship="false">7 18 11</relation>
+      <relation position="700015" relationship="false"></relation>
+      <relation position="1100013" relationship="false">11 7 13</relation>
+      <relation position="1300015" relationship="false">13 11 15</relation>
+      <relation position="1100015" relationship="false">11 7 15</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@to@its@presence@in@cell-cell@adhesion@sites@,@we@have@found@beta-catenin@,@but@not@alpha-catenin@,@in@the@Z-discs@of@heart@and@skeletal@striated@muscles@.@</sentence>
+   <tags>
+      <tag pos="14">beta-catenin</tag>
+      <tag pos="18">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="5" part-of-speech="NN">presence</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">cell-cell</taggedword>
+      <taggedword index="8" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="9" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="PRP">we</taggedword>
+      <taggedword index="12" part-of-speech="VBP">have</taggedword>
+      <taggedword index="13" part-of-speech="VBN">found</taggedword>
+      <taggedword index="14" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">but</taggedword>
+      <taggedword index="17" part-of-speech="RB">not</taggedword>
+      <taggedword index="18" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NNP">Z-discs</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">heart</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="JJ">skeletal</taggedword>
+      <taggedword index="27" part-of-speech="NN">striated</taggedword>
+      <taggedword index="28" part-of-speech="NNS">muscles</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="its" dep_index="4" gov="presence" gov_index="5">poss</dependency>
+      <dependency dep="presence" dep_index="5" gov="found" gov_index="13">prep_in_addition_to</dependency>
+      <dependency dep="cell-cell" dep_index="7" gov="sites" gov_index="9">amod</dependency>
+      <dependency dep="adhesion" dep_index="8" gov="sites" gov_index="9">nn</dependency>
+      <dependency dep="sites" dep_index="9" gov="presence" gov_index="5">prep_in</dependency>
+      <dependency dep="we" dep_index="11" gov="found" gov_index="13">nsubj</dependency>
+      <dependency dep="have" dep_index="12" gov="found" gov_index="13">aux</dependency>
+      <dependency dep="found" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="beta-catenin" dep_index="14" gov="found" gov_index="13">acomp</dependency>
+      <dependency dep="not" dep_index="17" gov="alpha-catenin" gov_index="18">neg</dependency>
+      <dependency dep="alpha-catenin" dep_index="18" gov="found" gov_index="13">acomp</dependency>
+      <dependency dep="alpha-catenin" dep_index="18" gov="beta-catenin" gov_index="14">conj_but</dependency>
+      <dependency dep="the" dep_index="21" gov="Z-discs" gov_index="22">det</dependency>
+      <dependency dep="Z-discs" dep_index="22" gov="found" gov_index="13">prep_in</dependency>
+      <dependency dep="heart" dep_index="24" gov="muscles" gov_index="28">nn</dependency>
+      <dependency dep="skeletal" dep_index="26" gov="heart" gov_index="24">conj_and</dependency>
+      <dependency dep="skeletal" dep_index="26" gov="muscles" gov_index="28">nn</dependency>
+      <dependency dep="striated" dep_index="27" gov="muscles" gov_index="28">nn</dependency>
+      <dependency dep="muscles" dep_index="28" gov="Z-discs" gov_index="22">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400018" relationship="true">14 13 18</relation>
+   </relations>
+   <pairs>
+      <pair>1400018</pair>
+   </pairs>
+</root>

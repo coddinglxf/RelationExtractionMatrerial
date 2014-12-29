@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>To@further@investigate@neural@effects@on@leptin@and@uncoupling proteins@(UCPs)@,@we@studied@in@vivo@perturbations@intended@to@block@adrenergic@input@to@peripheral@tissues@</sentence>
+   <tags>
+      <tag pos="7">leptin</tag>
+      <tag pos="9">uncoupling proteins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="TO">To</taggedword>
+      <taggedword index="2" part-of-speech="RBR">further</taggedword>
+      <taggedword index="3" part-of-speech="VB">investigate</taggedword>
+      <taggedword index="4" part-of-speech="JJ">neural</taggedword>
+      <taggedword index="5" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="6" part-of-speech="IN">on</taggedword>
+      <taggedword index="7" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">uncoupling proteins</taggedword>
+      <taggedword index="10" part-of-speech="NNS">(UCPs)</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="PRP">we</taggedword>
+      <taggedword index="13" part-of-speech="VBD">studied</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="16" part-of-speech="NNS">perturbations</taggedword>
+      <taggedword index="17" part-of-speech="VBN">intended</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="VB">block</taggedword>
+      <taggedword index="20" part-of-speech="JJ">adrenergic</taggedword>
+      <taggedword index="21" part-of-speech="NN">input</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="JJ">peripheral</taggedword>
+      <taggedword index="24" part-of-speech="NNS">tissues</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="To" dep_index="1" gov="investigate" gov_index="3">aux</dependency>
+      <dependency dep="further" dep_index="2" gov="investigate" gov_index="3">advmod</dependency>
+      <dependency dep="investigate" dep_index="3" gov="studied" gov_index="13">advcl</dependency>
+      <dependency dep="neural" dep_index="4" gov="effects" gov_index="5">amod</dependency>
+      <dependency dep="effects" dep_index="5" gov="investigate" gov_index="3">dobj</dependency>
+      <dependency dep="leptin" dep_index="7" gov="(UCPs)" gov_index="10">nn</dependency>
+      <dependency dep="uncoupling proteins" dep_index="9" gov="leptin" gov_index="7">conj_and</dependency>
+      <dependency dep="uncoupling proteins" dep_index="9" gov="(UCPs)" gov_index="10">nn</dependency>
+      <dependency dep="(UCPs)" dep_index="10" gov="investigate" gov_index="3">prep_on</dependency>
+      <dependency dep="we" dep_index="12" gov="studied" gov_index="13">nsubj</dependency>
+      <dependency dep="studied" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="vivo" dep_index="15" gov="perturbations" gov_index="16">nn</dependency>
+      <dependency dep="perturbations" dep_index="16" gov="studied" gov_index="13">prep_in</dependency>
+      <dependency dep="intended" dep_index="17" gov="perturbations" gov_index="16">partmod</dependency>
+      <dependency dep="to" dep_index="18" gov="block" gov_index="19">aux</dependency>
+      <dependency dep="block" dep_index="19" gov="intended" gov_index="17">xcomp</dependency>
+      <dependency dep="adrenergic" dep_index="20" gov="input" gov_index="21">amod</dependency>
+      <dependency dep="input" dep_index="21" gov="block" gov_index="19">dobj</dependency>
+      <dependency dep="peripheral" dep_index="23" gov="tissues" gov_index="24">amod</dependency>
+      <dependency dep="tissues" dep_index="24" gov="block" gov_index="19">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 10 9</relation>
+   </relations>
+   <pairs/>
+</root>

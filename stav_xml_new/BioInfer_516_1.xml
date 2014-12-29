@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Reinvestigation@of@the@inhibition@of@actin@polymerization@by@profilin@.@</sentence>
+   <tags>
+      <tag pos="6">actin</tag>
+      <tag pos="9">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Reinvestigation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">actin</taggedword>
+      <taggedword index="7" part-of-speech="VBN">polymerization</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Reinvestigation" dep_index="1" gov="polymerization" gov_index="7">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="inhibition" gov_index="4">det</dependency>
+      <dependency dep="inhibition" dep_index="4" gov="Reinvestigation" gov_index="1">prep_of</dependency>
+      <dependency dep="actin" dep_index="6" gov="inhibition" gov_index="4">prep_of</dependency>
+      <dependency dep="polymerization" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="profilin" dep_index="9" gov="polymerization" gov_index="7">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600009" relationship="true">6 4 1 7 9</relation>
+   </relations>
+   <pairs>
+      <pair>600009</pair>
+   </pairs>
+</root>

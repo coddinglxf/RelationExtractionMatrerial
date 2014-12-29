@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Mouse@IL-10@does@not@bind@to@hIL-10R@,@and@hIL-10R@-expressing@Ba/F3@cells@do@not@respond@to@the@mouse@cytokine@,@observations@consistent@with@the@known@species@specificity@of@IL-10@.@</sentence>
+   <tags>
+      <tag pos="2">IL-10</tag>
+      <tag pos="7">hIL-10R</tag>
+      <tag pos="10">hIL-10R</tag>
+      <tag pos="30">IL-10</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Mouse</taggedword>
+      <taggedword index="2" part-of-speech="NNP">IL-10</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="4" part-of-speech="RB">not</taggedword>
+      <taggedword index="5" part-of-speech="VB">bind</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="CD">hIL-10R</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="JJ">hIL-10R</taggedword>
+      <taggedword index="11" part-of-speech="JJ">-expressing</taggedword>
+      <taggedword index="12" part-of-speech="JJ">Ba/F3</taggedword>
+      <taggedword index="13" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="14" part-of-speech="VBP">do</taggedword>
+      <taggedword index="15" part-of-speech="RB">not</taggedword>
+      <taggedword index="16" part-of-speech="VB">respond</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="20" part-of-speech="NN">cytokine</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NNS">observations</taggedword>
+      <taggedword index="23" part-of-speech="JJ">consistent</taggedword>
+      <taggedword index="24" part-of-speech="IN">with</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="VBN">known</taggedword>
+      <taggedword index="27" part-of-speech="NN">species</taggedword>
+      <taggedword index="28" part-of-speech="NN">specificity</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NN">IL-10</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Mouse" dep_index="1" gov="IL-10" gov_index="2">nn</dependency>
+      <dependency dep="IL-10" dep_index="2" gov="bind" gov_index="5">nsubj</dependency>
+      <dependency dep="does" dep_index="3" gov="bind" gov_index="5">aux</dependency>
+      <dependency dep="not" dep_index="4" gov="bind" gov_index="5">neg</dependency>
+      <dependency dep="bind" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="hIL-10R" dep_index="7" gov="bind" gov_index="5">prep_to</dependency>
+      <dependency dep="hIL-10R" dep_index="10" gov="cells" gov_index="13">amod</dependency>
+      <dependency dep="-expressing" dep_index="11" gov="cells" gov_index="13">amod</dependency>
+      <dependency dep="Ba/F3" dep_index="12" gov="cells" gov_index="13">amod</dependency>
+      <dependency dep="cells" dep_index="13" gov="respond" gov_index="16">nsubj</dependency>
+      <dependency dep="do" dep_index="14" gov="respond" gov_index="16">aux</dependency>
+      <dependency dep="not" dep_index="15" gov="respond" gov_index="16">neg</dependency>
+      <dependency dep="respond" dep_index="16" gov="bind" gov_index="5">conj_and</dependency>
+      <dependency dep="the" dep_index="18" gov="cytokine" gov_index="20">det</dependency>
+      <dependency dep="mouse" dep_index="19" gov="cytokine" gov_index="20">nn</dependency>
+      <dependency dep="cytokine" dep_index="20" gov="respond" gov_index="16">prep_to</dependency>
+      <dependency dep="observations" dep_index="22" gov="consistent" gov_index="23">nsubj</dependency>
+      <dependency dep="consistent" dep_index="23" gov="respond" gov_index="16">xcomp</dependency>
+      <dependency dep="the" dep_index="25" gov="specificity" gov_index="28">det</dependency>
+      <dependency dep="known" dep_index="26" gov="specificity" gov_index="28">amod</dependency>
+      <dependency dep="species" dep_index="27" gov="specificity" gov_index="28">nn</dependency>
+      <dependency dep="specificity" dep_index="28" gov="consistent" gov_index="23">prep_with</dependency>
+      <dependency dep="IL-10" dep_index="30" gov="specificity" gov_index="28">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200007" relationship="false">2 5 7</relation>
+      <relation position="200010" relationship="false"></relation>
+      <relation position="200030" relationship="false"></relation>
+      <relation position="700010" relationship="false"></relation>
+      <relation position="700030" relationship="false"></relation>
+      <relation position="1000030" relationship="false">10 13 16 23 28 30</relation>
+   </relations>
+   <pairs/>
+</root>

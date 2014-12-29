@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Design@,@characterization@,@and@structure@of@a@biologically@active@single-chain@mutant@of@human@IFN-gamma@.@</sentence>
+   <tags>
+      <tag pos="15">IFN-gamma</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Design</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">characterization</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">structure</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="RB">biologically</taggedword>
+      <taggedword index="10" part-of-speech="JJ">active</taggedword>
+      <taggedword index="11" part-of-speech="JJ">single-chain</taggedword>
+      <taggedword index="12" part-of-speech="NN">mutant</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">human</taggedword>
+      <taggedword index="15" part-of-speech="NNP">IFN-gamma</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Design" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="characterization" dep_index="3" gov="Design" gov_index="1">conj_and</dependency>
+      <dependency dep="structure" dep_index="6" gov="Design" gov_index="1">conj_and</dependency>
+      <dependency dep="a" dep_index="8" gov="mutant" gov_index="12">det</dependency>
+      <dependency dep="biologically" dep_index="9" gov="active" gov_index="10">advmod</dependency>
+      <dependency dep="active" dep_index="10" gov="mutant" gov_index="12">amod</dependency>
+      <dependency dep="single-chain" dep_index="11" gov="mutant" gov_index="12">amod</dependency>
+      <dependency dep="mutant" dep_index="12" gov="Design" gov_index="1">prep_of</dependency>
+      <dependency dep="human" dep_index="14" gov="IFN-gamma" gov_index="15">amod</dependency>
+      <dependency dep="IFN-gamma" dep_index="15" gov="Design" gov_index="1">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@found@that@ADA@was@associated@with@CD26@on@T@cell@lines@lacking@either@ADA@or@dipeptidyl peptidase IV@enzymatic@activity@,@indicating@that@the@association@between@dipeptidyl peptidase IV@and@ADA@did@not@require@enzymatic@activity@.@</sentence>
+   <tags>
+      <tag pos="4">ADA</tag>
+      <tag pos="8">CD26</tag>
+      <tag pos="15">ADA</tag>
+      <tag pos="17">dipeptidyl peptidase IV</tag>
+      <tag pos="26">dipeptidyl peptidase IV</tag>
+      <tag pos="28">ADA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">found</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NNP">ADA</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CD26</taggedword>
+      <taggedword index="9" part-of-speech="IN">on</taggedword>
+      <taggedword index="10" part-of-speech="NNP">T</taggedword>
+      <taggedword index="11" part-of-speech="NN">cell</taggedword>
+      <taggedword index="12" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="13" part-of-speech="NNP">lacking</taggedword>
+      <taggedword index="14" part-of-speech="CC">either</taggedword>
+      <taggedword index="15" part-of-speech="NNP">ADA</taggedword>
+      <taggedword index="16" part-of-speech="CC">or</taggedword>
+      <taggedword index="17" part-of-speech="JJ">dipeptidyl peptidase IV</taggedword>
+      <taggedword index="18" part-of-speech="JJ">enzymatic</taggedword>
+      <taggedword index="19" part-of-speech="NN">activity</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="VBG">indicating</taggedword>
+      <taggedword index="22" part-of-speech="IN">that</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">association</taggedword>
+      <taggedword index="25" part-of-speech="IN">between</taggedword>
+      <taggedword index="26" part-of-speech="NNP">dipeptidyl peptidase IV</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="NNP">ADA</taggedword>
+      <taggedword index="29" part-of-speech="VBD">did</taggedword>
+      <taggedword index="30" part-of-speech="RB">not</taggedword>
+      <taggedword index="31" part-of-speech="VB">require</taggedword>
+      <taggedword index="32" part-of-speech="JJ">enzymatic</taggedword>
+      <taggedword index="33" part-of-speech="NN">activity</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="found" gov_index="2">nsubj</dependency>
+      <dependency dep="found" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="associated" gov_index="6">mark</dependency>
+      <dependency dep="ADA" dep_index="4" gov="associated" gov_index="6">nsubjpass</dependency>
+      <dependency dep="was" dep_index="5" gov="associated" gov_index="6">auxpass</dependency>
+      <dependency dep="associated" dep_index="6" gov="found" gov_index="2">ccomp</dependency>
+      <dependency dep="CD26" dep_index="8" gov="associated" gov_index="6">prep_with</dependency>
+      <dependency dep="T" dep_index="10" gov="lacking" gov_index="13">nn</dependency>
+      <dependency dep="cell" dep_index="11" gov="lacking" gov_index="13">nn</dependency>
+      <dependency dep="lines" dep_index="12" gov="lacking" gov_index="13">nn</dependency>
+      <dependency dep="lacking" dep_index="13" gov="associated" gov_index="6">prep_on</dependency>
+      <dependency dep="either" dep_index="14" gov="lacking" gov_index="13">dep</dependency>
+      <dependency dep="ADA" dep_index="15" gov="associated" gov_index="6">prep_on</dependency>
+      <dependency dep="ADA" dep_index="15" gov="lacking" gov_index="13">conj_or</dependency>
+      <dependency dep="dipeptidyl peptidase IV" dep_index="17" gov="activity" gov_index="19">amod</dependency>
+      <dependency dep="enzymatic" dep_index="18" gov="activity" gov_index="19">amod</dependency>
+      <dependency dep="activity" dep_index="19" gov="associated" gov_index="6">prep_on</dependency>
+      <dependency dep="activity" dep_index="19" gov="lacking" gov_index="13">conj_or</dependency>
+      <dependency dep="indicating" dep_index="21" gov="associated" gov_index="6">xcomp</dependency>
+      <dependency dep="that" dep_index="22" gov="require" gov_index="31">mark</dependency>
+      <dependency dep="the" dep_index="23" gov="association" gov_index="24">det</dependency>
+      <dependency dep="association" dep_index="24" gov="require" gov_index="31">nsubj</dependency>
+      <dependency dep="dipeptidyl peptidase IV" dep_index="26" gov="association" gov_index="24">prep_between</dependency>
+      <dependency dep="ADA" dep_index="28" gov="association" gov_index="24">prep_between</dependency>
+      <dependency dep="ADA" dep_index="28" gov="dipeptidyl peptidase IV" gov_index="26">conj_and</dependency>
+      <dependency dep="did" dep_index="29" gov="require" gov_index="31">aux</dependency>
+      <dependency dep="not" dep_index="30" gov="require" gov_index="31">neg</dependency>
+      <dependency dep="require" dep_index="31" gov="indicating" gov_index="21">ccomp</dependency>
+      <dependency dep="enzymatic" dep_index="32" gov="activity" gov_index="33">amod</dependency>
+      <dependency dep="activity" dep_index="33" gov="require" gov_index="31">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400008" relationship="true">4 6 8</relation>
+      <relation position="400015" relationship="false">4 6 15</relation>
+      <relation position="400017" relationship="false">4 6 19 17</relation>
+      <relation position="400026" relationship="false">4 6 21 31 24 26</relation>
+      <relation position="400028" relationship="false">4 6 21 31 24 28</relation>
+      <relation position="800015" relationship="false">8 6 15</relation>
+      <relation position="800017" relationship="false">8 6 19 17</relation>
+      <relation position="800026" relationship="false">8 6 21 31 24 26</relation>
+      <relation position="800028" relationship="false">8 6 21 31 24 28</relation>
+      <relation position="1500017" relationship="false">15 13 19 17</relation>
+      <relation position="1500026" relationship="false">15 6 21 31 24 26</relation>
+      <relation position="1500028" relationship="false">15 6 21 31 24 28</relation>
+      <relation position="1700026" relationship="false">17 19 6 21 31 24 26</relation>
+      <relation position="1700028" relationship="false">17 19 6 21 31 24 28</relation>
+      <relation position="2600028" relationship="true">26 24 28</relation>
+   </relations>
+   <pairs>
+      <pair>400008</pair>
+      <pair>2600028</pair>
+   </pairs>
+</root>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@the@present@investigation@,@the@differential@binding@of@previously@characterized@endothelial@cell@(EC)-@and@smooth@muscle@cell@(@SMC@)-derived@PGs@to@A@beta@was@examined@to@determine@whether@the@accumulation@of@A@beta@in@cerebrovascular@amyloid@deposits@may@be@due@to@its@interactions@with@perlecan@</sentence>
+   <tags>
+      <tag pos="20">SMC</tag>
+      <tag pos="22">PGs</tag>
+      <tag pos="38">amyloid</tag>
+      <tag pos="47">perlecan</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">present</taggedword>
+      <taggedword index="4" part-of-speech="NN">investigation</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">differential</taggedword>
+      <taggedword index="8" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="RB">previously</taggedword>
+      <taggedword index="11" part-of-speech="VBD">characterized</taggedword>
+      <taggedword index="12" part-of-speech="JJ">endothelial</taggedword>
+      <taggedword index="13" part-of-speech="NN">cell</taggedword>
+      <taggedword index="14" part-of-speech="NNS">(EC)-</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">smooth</taggedword>
+      <taggedword index="17" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="18" part-of-speech="NN">cell</taggedword>
+      <taggedword index="19" part-of-speech="NNP">(</taggedword>
+      <taggedword index="20" part-of-speech="NNP">SMC</taggedword>
+      <taggedword index="21" part-of-speech="VBD">)-derived</taggedword>
+      <taggedword index="22" part-of-speech="NNP">PGs</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="DT">A</taggedword>
+      <taggedword index="25" part-of-speech="NN">beta</taggedword>
+      <taggedword index="26" part-of-speech="VBD">was</taggedword>
+      <taggedword index="27" part-of-speech="VBN">examined</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="VB">determine</taggedword>
+      <taggedword index="30" part-of-speech="IN">whether</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="NN">accumulation</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="DT">A</taggedword>
+      <taggedword index="35" part-of-speech="NN">beta</taggedword>
+      <taggedword index="36" part-of-speech="IN">in</taggedword>
+      <taggedword index="37" part-of-speech="NN">cerebrovascular</taggedword>
+      <taggedword index="38" part-of-speech="VBD">amyloid</taggedword>
+      <taggedword index="39" part-of-speech="NNS">deposits</taggedword>
+      <taggedword index="40" part-of-speech="MD">may</taggedword>
+      <taggedword index="41" part-of-speech="VB">be</taggedword>
+      <taggedword index="42" part-of-speech="JJ">due</taggedword>
+      <taggedword index="43" part-of-speech="TO">to</taggedword>
+      <taggedword index="44" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="45" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="46" part-of-speech="IN">with</taggedword>
+      <taggedword index="47" part-of-speech="NN">perlecan</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="investigation" gov_index="4">det</dependency>
+      <dependency dep="present" dep_index="3" gov="investigation" gov_index="4">amod</dependency>
+      <dependency dep="investigation" dep_index="4" gov="characterized" gov_index="11">prep_in</dependency>
+      <dependency dep="the" dep_index="6" gov="differential" gov_index="7">det</dependency>
+      <dependency dep="differential" dep_index="7" gov="characterized" gov_index="11">nsubj</dependency>
+      <dependency dep="binding" dep_index="8" gov="differential" gov_index="7">amod</dependency>
+      <dependency dep="of" dep_index="9" gov="differential" gov_index="7">prep</dependency>
+      <dependency dep="previously" dep_index="10" gov="of" gov_index="9">pcomp</dependency>
+      <dependency dep="characterized" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="endothelial" dep_index="12" gov="(EC)-" gov_index="14">amod</dependency>
+      <dependency dep="cell" dep_index="13" gov="(EC)-" gov_index="14">nn</dependency>
+      <dependency dep="(EC)-" dep_index="14" gov=")-derived" gov_index="21">nsubj</dependency>
+      <dependency dep="smooth" dep_index="16" gov="SMC" gov_index="20">amod</dependency>
+      <dependency dep="muscle" dep_index="17" gov="SMC" gov_index="20">nn</dependency>
+      <dependency dep="cell" dep_index="18" gov="SMC" gov_index="20">nn</dependency>
+      <dependency dep="(" dep_index="19" gov="SMC" gov_index="20">nn</dependency>
+      <dependency dep="SMC" dep_index="20" gov="(EC)-" gov_index="14">conj_and</dependency>
+      <dependency dep="SMC" dep_index="20" gov=")-derived" gov_index="21">nsubj</dependency>
+      <dependency dep=")-derived" dep_index="21" gov="characterized" gov_index="11">ccomp</dependency>
+      <dependency dep="PGs" dep_index="22" gov="examined" gov_index="27">nsubjpass</dependency>
+      <dependency dep="PGs" dep_index="22" gov="determine" gov_index="29">xsubj</dependency>
+      <dependency dep="A" dep_index="24" gov="beta" gov_index="25">det</dependency>
+      <dependency dep="beta" dep_index="25" gov="PGs" gov_index="22">prep_to</dependency>
+      <dependency dep="was" dep_index="26" gov="examined" gov_index="27">auxpass</dependency>
+      <dependency dep="examined" dep_index="27" gov=")-derived" gov_index="21">ccomp</dependency>
+      <dependency dep="to" dep_index="28" gov="determine" gov_index="29">aux</dependency>
+      <dependency dep="determine" dep_index="29" gov="examined" gov_index="27">xcomp</dependency>
+      <dependency dep="whether" dep_index="30" gov="amyloid" gov_index="38">mark</dependency>
+      <dependency dep="the" dep_index="31" gov="accumulation" gov_index="32">det</dependency>
+      <dependency dep="accumulation" dep_index="32" gov="amyloid" gov_index="38">nsubj</dependency>
+      <dependency dep="A" dep_index="34" gov="beta" gov_index="35">det</dependency>
+      <dependency dep="beta" dep_index="35" gov="accumulation" gov_index="32">prep_of</dependency>
+      <dependency dep="cerebrovascular" dep_index="37" gov="beta" gov_index="35">prep_in</dependency>
+      <dependency dep="amyloid" dep_index="38" gov="determine" gov_index="29">ccomp</dependency>
+      <dependency dep="deposits" dep_index="39" gov="due" gov_index="42">nsubj</dependency>
+      <dependency dep="may" dep_index="40" gov="due" gov_index="42">aux</dependency>
+      <dependency dep="be" dep_index="41" gov="due" gov_index="42">cop</dependency>
+      <dependency dep="due" dep_index="42" gov="amyloid" gov_index="38">ccomp</dependency>
+      <dependency dep="its" dep_index="44" gov="interactions" gov_index="45">poss</dependency>
+      <dependency dep="interactions" dep_index="45" gov="due" gov_index="42">prep_to</dependency>
+      <dependency dep="perlecan" dep_index="47" gov="due" gov_index="42">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000022" relationship="false">20 21 27 22</relation>
+      <relation position="2000038" relationship="false">20 21 27 29 38</relation>
+      <relation position="2000047" relationship="false">20 21 27 29 38 42 47</relation>
+      <relation position="2200038" relationship="false">22 29 38</relation>
+      <relation position="2200047" relationship="false">22 29 38 42 47</relation>
+      <relation position="3800047" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

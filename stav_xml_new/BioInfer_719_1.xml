@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@were@identified@as@myosin light chain 1@,@tropomyosin@,@actin@,@heat shock protein@(@HSP@)-60,@an@unidentified@protein@and@myosin heavy chain@,@respectively@.@</sentence>
+   <tags>
+      <tag pos="7">tropomyosin</tag>
+      <tag pos="19">myosin heavy chain</tag>
+      <tag pos="5">myosin light chain 1</tag>
+      <tag pos="9">actin</tag>
+      <tag pos="11">heat shock protein</tag>
+      <tag pos="13">HSP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="VBD">were</taggedword>
+      <taggedword index="3" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="4" part-of-speech="IN">as</taggedword>
+      <taggedword index="5" part-of-speech="JJ">myosin light chain 1</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NN">tropomyosin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">heat shock protein</taggedword>
+      <taggedword index="12" part-of-speech="NNP">(</taggedword>
+      <taggedword index="13" part-of-speech="NNP">HSP</taggedword>
+      <taggedword index="14" part-of-speech="NN">)-60,</taggedword>
+      <taggedword index="15" part-of-speech="DT">an</taggedword>
+      <taggedword index="16" part-of-speech="JJ">unidentified</taggedword>
+      <taggedword index="17" part-of-speech="NN">protein</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="identified" gov_index="3">nsubjpass</dependency>
+      <dependency dep="were" dep_index="2" gov="identified" gov_index="3">auxpass</dependency>
+      <dependency dep="identified" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="myosin light chain 1" dep_index="5" gov=")-60," gov_index="14">amod</dependency>
+      <dependency dep="tropomyosin" dep_index="7" gov=")-60," gov_index="14">dep</dependency>
+      <dependency dep="actin" dep_index="9" gov=")-60," gov_index="14">dep</dependency>
+      <dependency dep="heat shock protein" dep_index="11" gov=")-60," gov_index="14">dep</dependency>
+      <dependency dep="(" dep_index="12" gov=")-60," gov_index="14">nn</dependency>
+      <dependency dep="HSP" dep_index="13" gov=")-60," gov_index="14">nn</dependency>
+      <dependency dep=")-60," dep_index="14" gov="identified" gov_index="3">prep_as</dependency>
+      <dependency dep="an" dep_index="15" gov="protein" gov_index="17">det</dependency>
+      <dependency dep="unidentified" dep_index="16" gov="protein" gov_index="17">amod</dependency>
+      <dependency dep="protein" dep_index="17" gov=")-60," gov_index="14">dep</dependency>
+      <dependency dep="myosin heavy chain" dep_index="19" gov=")-60," gov_index="14">dep</dependency>
+      <dependency dep="myosin heavy chain" dep_index="19" gov="protein" gov_index="17">conj_and</dependency>
+      <dependency dep="respectively" dep_index="21" gov="identified" gov_index="3">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700019" relationship="false">7 14 19</relation>
+      <relation position="500007" relationship="false">5 14 7</relation>
+      <relation position="700009" relationship="false">7 14 9</relation>
+      <relation position="700011" relationship="false">7 14 11</relation>
+      <relation position="700013" relationship="false">7 14 13</relation>
+      <relation position="500019" relationship="false">5 14 19</relation>
+      <relation position="900019" relationship="false">9 14 19</relation>
+      <relation position="1100019" relationship="false">11 14 19</relation>
+      <relation position="1300019" relationship="false">13 14 19</relation>
+      <relation position="500009" relationship="false">5 14 9</relation>
+      <relation position="500011" relationship="false">5 14 11</relation>
+      <relation position="500013" relationship="false">5 14 13</relation>
+      <relation position="900011" relationship="false">9 14 11</relation>
+      <relation position="900013" relationship="false">9 14 13</relation>
+      <relation position="1100013" relationship="false">11 14 13</relation>
+   </relations>
+   <pairs/>
+</root>

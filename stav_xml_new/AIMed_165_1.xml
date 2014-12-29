@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interactions@involving@the@human@RNA@polymerase@II@transcription/nucleotide@excision@repair@complex@TFIIH@,@the@nucleotide@excision@repair@protein@XPG@,@and@Cockayne syndrome group B (CSB) protein@.@</sentence>
+   <tags>
+      <tag pos="12">TFIIH</tag>
+      <tag pos="19">XPG</tag>
+      <tag pos="22">Cockayne syndrome group B (CSB) protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Interactions</taggedword>
+      <taggedword index="2" part-of-speech="VBG">involving</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">human</taggedword>
+      <taggedword index="5" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="6" part-of-speech="NNP">polymerase</taggedword>
+      <taggedword index="7" part-of-speech="NNP">II</taggedword>
+      <taggedword index="8" part-of-speech="JJ">transcription/nucleotide</taggedword>
+      <taggedword index="9" part-of-speech="NN">excision</taggedword>
+      <taggedword index="10" part-of-speech="VBP">repair</taggedword>
+      <taggedword index="11" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="12" part-of-speech="NNS">TFIIH</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">nucleotide</taggedword>
+      <taggedword index="16" part-of-speech="NN">excision</taggedword>
+      <taggedword index="17" part-of-speech="NN">repair</taggedword>
+      <taggedword index="18" part-of-speech="NN">protein</taggedword>
+      <taggedword index="19" part-of-speech="NN">XPG</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NNP">Cockayne syndrome group B (CSB) protein</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interactions" dep_index="1" gov="repair" gov_index="10">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="excision" gov_index="9">det</dependency>
+      <dependency dep="human" dep_index="4" gov="excision" gov_index="9">amod</dependency>
+      <dependency dep="RNA" dep_index="5" gov="excision" gov_index="9">nn</dependency>
+      <dependency dep="polymerase" dep_index="6" gov="excision" gov_index="9">nn</dependency>
+      <dependency dep="II" dep_index="7" gov="excision" gov_index="9">nn</dependency>
+      <dependency dep="transcription/nucleotide" dep_index="8" gov="excision" gov_index="9">amod</dependency>
+      <dependency dep="excision" dep_index="9" gov="Interactions" gov_index="1">prep_involving</dependency>
+      <dependency dep="repair" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="complex" dep_index="11" gov="TFIIH" gov_index="12">amod</dependency>
+      <dependency dep="TFIIH" dep_index="12" gov="repair" gov_index="10">dobj</dependency>
+      <dependency dep="the" dep_index="14" gov="XPG" gov_index="19">det</dependency>
+      <dependency dep="nucleotide" dep_index="15" gov="XPG" gov_index="19">amod</dependency>
+      <dependency dep="excision" dep_index="16" gov="XPG" gov_index="19">nn</dependency>
+      <dependency dep="repair" dep_index="17" gov="XPG" gov_index="19">nn</dependency>
+      <dependency dep="protein" dep_index="18" gov="XPG" gov_index="19">nn</dependency>
+      <dependency dep="XPG" dep_index="19" gov="repair" gov_index="10">dobj</dependency>
+      <dependency dep="XPG" dep_index="19" gov="TFIIH" gov_index="12">conj_and</dependency>
+      <dependency dep="Cockayne syndrome group B (CSB) protein" dep_index="22" gov="repair" gov_index="10">dobj</dependency>
+      <dependency dep="Cockayne syndrome group B (CSB) protein" dep_index="22" gov="TFIIH" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200019" relationship="false">12 10 19</relation>
+      <relation position="1200022" relationship="false">12 10 22</relation>
+      <relation position="1900022" relationship="false">19 10 22</relation>
+   </relations>
+   <pairs/>
+</root>

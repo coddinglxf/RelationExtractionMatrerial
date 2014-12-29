@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@mHip1R@contains@an@NH(2)-terminal@domain@homologous@to@that@implicated@in@Sla2p@'s@endocytic@function@,@three@predicted@coiled-coils@,@a@leucine@zipper@,@and@a@talin@-like@actin@-binding@domain@at@the@COOH@terminus@.@</sentence>
+   <tags>
+      <tag pos="30">actin</tag>
+      <tag pos="13">Sla2p</tag>
+      <tag pos="28">talin</tag>
+      <tag pos="3">mHip1R</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNS">mHip1R</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">contains</taggedword>
+      <taggedword index="5" part-of-speech="DT">an</taggedword>
+      <taggedword index="6" part-of-speech="NN">NH(2)-terminal</taggedword>
+      <taggedword index="7" part-of-speech="NN">domain</taggedword>
+      <taggedword index="8" part-of-speech="RB">homologous</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="DT">that</taggedword>
+      <taggedword index="11" part-of-speech="VBN">implicated</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NNP">Sla2p</taggedword>
+      <taggedword index="14" part-of-speech="POS">'s</taggedword>
+      <taggedword index="15" part-of-speech="JJ">endocytic</taggedword>
+      <taggedword index="16" part-of-speech="NN">function</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CD">three</taggedword>
+      <taggedword index="19" part-of-speech="VBD">predicted</taggedword>
+      <taggedword index="20" part-of-speech="NNS">coiled-coils</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="DT">a</taggedword>
+      <taggedword index="23" part-of-speech="JJ">leucine</taggedword>
+      <taggedword index="24" part-of-speech="NN">zipper</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="DT">a</taggedword>
+      <taggedword index="28" part-of-speech="JJ">talin</taggedword>
+      <taggedword index="29" part-of-speech="JJ">-like</taggedword>
+      <taggedword index="30" part-of-speech="NN">actin</taggedword>
+      <taggedword index="31" part-of-speech="NN">-binding</taggedword>
+      <taggedword index="32" part-of-speech="NN">domain</taggedword>
+      <taggedword index="33" part-of-speech="IN">at</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="NNP">COOH</taggedword>
+      <taggedword index="36" part-of-speech="NNS">terminus</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="predicted" gov_index="19">advmod</dependency>
+      <dependency dep="mHip1R" dep_index="3" gov="contains" gov_index="4">nsubj</dependency>
+      <dependency dep="contains" dep_index="4" gov="predicted" gov_index="19">parataxis</dependency>
+      <dependency dep="an" dep_index="5" gov="domain" gov_index="7">det</dependency>
+      <dependency dep="NH(2)-terminal" dep_index="6" gov="domain" gov_index="7">nn</dependency>
+      <dependency dep="domain" dep_index="7" gov="contains" gov_index="4">dobj</dependency>
+      <dependency dep="homologous" dep_index="8" gov="domain" gov_index="7">advmod</dependency>
+      <dependency dep="that" dep_index="10" gov="domain" gov_index="7">prep_to</dependency>
+      <dependency dep="implicated" dep_index="11" gov="that" gov_index="10">partmod</dependency>
+      <dependency dep="Sla2p" dep_index="13" gov="function" gov_index="16">poss</dependency>
+      <dependency dep="endocytic" dep_index="15" gov="function" gov_index="16">amod</dependency>
+      <dependency dep="function" dep_index="16" gov="implicated" gov_index="11">prep_in</dependency>
+      <dependency dep="three" dep_index="18" gov="predicted" gov_index="19">nsubj</dependency>
+      <dependency dep="predicted" dep_index="19" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="coiled-coils" dep_index="20" gov="predicted" gov_index="19">dobj</dependency>
+      <dependency dep="a" dep_index="22" gov="zipper" gov_index="24">det</dependency>
+      <dependency dep="leucine" dep_index="23" gov="zipper" gov_index="24">amod</dependency>
+      <dependency dep="zipper" dep_index="24" gov="predicted" gov_index="19">dobj</dependency>
+      <dependency dep="zipper" dep_index="24" gov="coiled-coils" gov_index="20">conj_and</dependency>
+      <dependency dep="a" dep_index="27" gov="domain" gov_index="32">det</dependency>
+      <dependency dep="talin" dep_index="28" gov="domain" gov_index="32">amod</dependency>
+      <dependency dep="-like" dep_index="29" gov="domain" gov_index="32">amod</dependency>
+      <dependency dep="actin" dep_index="30" gov="domain" gov_index="32">nn</dependency>
+      <dependency dep="-binding" dep_index="31" gov="domain" gov_index="32">nn</dependency>
+      <dependency dep="domain" dep_index="32" gov="predicted" gov_index="19">dobj</dependency>
+      <dependency dep="domain" dep_index="32" gov="coiled-coils" gov_index="20">conj_and</dependency>
+      <dependency dep="the" dep_index="34" gov="terminus" gov_index="36">det</dependency>
+      <dependency dep="COOH" dep_index="35" gov="terminus" gov_index="36">nn</dependency>
+      <dependency dep="terminus" dep_index="36" gov="predicted" gov_index="19">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300030" relationship="false">13 16 11 10 7 4 19 32 30</relation>
+      <relation position="2800030" relationship="false">28 32 30</relation>
+      <relation position="300030" relationship="true">3 4 19 32 30</relation>
+      <relation position="1300028" relationship="false">13 16 11 10 7 4 19 32 28</relation>
+      <relation position="300013" relationship="true">3 4 7 10 11 16 13</relation>
+      <relation position="300028" relationship="true">3 4 19 32 28</relation>
+   </relations>
+   <pairs>
+      <pair>300028</pair>
+      <pair>300013</pair>
+      <pair>300030</pair>
+   </pairs>
+</root>

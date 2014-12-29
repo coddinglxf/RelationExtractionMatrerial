@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@p27@associates@with@three@different@CDKs@:@CDK2@,@CDK4@,@and@CDK6@.@</sentence>
+   <tags>
+      <tag pos="4">p27</tag>
+      <tag pos="11">CDK2</tag>
+      <tag pos="13">CDK4</tag>
+      <tag pos="16">CDK6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">p27</taggedword>
+      <taggedword index="5" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="CD">three</taggedword>
+      <taggedword index="8" part-of-speech="JJ">different</taggedword>
+      <taggedword index="9" part-of-speech="NNS">CDKs</taggedword>
+      <taggedword index="10" part-of-speech=":">:</taggedword>
+      <taggedword index="11" part-of-speech="NNP">CDK2</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNP">CDK4</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNP">CDK6</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="CDK2" gov_index="11">prep_in</dependency>
+      <dependency dep="p27" dep_index="4" gov="associates" gov_index="5">amod</dependency>
+      <dependency dep="associates" dep_index="5" gov="addition" gov_index="2">appos</dependency>
+      <dependency dep="three" dep_index="7" gov="CDKs" gov_index="9">num</dependency>
+      <dependency dep="different" dep_index="8" gov="CDKs" gov_index="9">amod</dependency>
+      <dependency dep="CDKs" dep_index="9" gov="associates" gov_index="5">prep_with</dependency>
+      <dependency dep="CDK2" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="CDK4" dep_index="13" gov="CDK2" gov_index="11">conj_and</dependency>
+      <dependency dep="CDK6" dep_index="16" gov="CDK2" gov_index="11">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400011" relationship="true"></relation>
+      <relation position="400013" relationship="true"></relation>
+      <relation position="400016" relationship="true"></relation>
+      <relation position="1100013" relationship="false"></relation>
+      <relation position="1100016" relationship="false"></relation>
+      <relation position="1300016" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>400011</pair>
+      <pair>400013</pair>
+      <pair>400016</pair>
+   </pairs>
+</root>

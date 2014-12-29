@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@chromatin@of@lymphocyte@nuclei@was@studied@using@the@computer@TV@morphodensitometry@system@DiaMorph@(Russia)@and@smears@dyed@specifically@for@DNA@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">chromatin</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">lymphocyte</taggedword>
+      <taggedword index="5" part-of-speech="NNS">nuclei</taggedword>
+      <taggedword index="6" part-of-speech="VBD">was</taggedword>
+      <taggedword index="7" part-of-speech="VBN">studied</taggedword>
+      <taggedword index="8" part-of-speech="VBG">using</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">computer</taggedword>
+      <taggedword index="11" part-of-speech="NN">TV</taggedword>
+      <taggedword index="12" part-of-speech="NN">morphodensitometry</taggedword>
+      <taggedword index="13" part-of-speech="NN">system</taggedword>
+      <taggedword index="14" part-of-speech="NNP">DiaMorph</taggedword>
+      <taggedword index="15" part-of-speech="NNP">(Russia)</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">smears</taggedword>
+      <taggedword index="18" part-of-speech="VBN">dyed</taggedword>
+      <taggedword index="19" part-of-speech="NNS">specifically</taggedword>
+      <taggedword index="20" part-of-speech="IN">for</taggedword>
+      <taggedword index="21" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="chromatin" gov_index="2">det</dependency>
+      <dependency dep="chromatin" dep_index="2" gov="studied" gov_index="7">nsubjpass</dependency>
+      <dependency dep="chromatin" dep_index="2" gov="smears" gov_index="17">nsubj</dependency>
+      <dependency dep="lymphocyte" dep_index="4" gov="nuclei" gov_index="5">amod</dependency>
+      <dependency dep="nuclei" dep_index="5" gov="chromatin" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="6" gov="studied" gov_index="7">auxpass</dependency>
+      <dependency dep="studied" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="8" gov="studied" gov_index="7">xcomp</dependency>
+      <dependency dep="the" dep_index="9" gov="(Russia)" gov_index="15">det</dependency>
+      <dependency dep="computer" dep_index="10" gov="(Russia)" gov_index="15">nn</dependency>
+      <dependency dep="TV" dep_index="11" gov="(Russia)" gov_index="15">nn</dependency>
+      <dependency dep="morphodensitometry" dep_index="12" gov="(Russia)" gov_index="15">nn</dependency>
+      <dependency dep="system" dep_index="13" gov="(Russia)" gov_index="15">nn</dependency>
+      <dependency dep="DiaMorph" dep_index="14" gov="(Russia)" gov_index="15">nn</dependency>
+      <dependency dep="(Russia)" dep_index="15" gov="using" gov_index="8">dobj</dependency>
+      <dependency dep="smears" dep_index="17" gov="studied" gov_index="7">conj_and</dependency>
+      <dependency dep="dyed" dep_index="18" gov="specifically" gov_index="19">amod</dependency>
+      <dependency dep="specifically" dep_index="19" gov="smears" gov_index="17">dobj</dependency>
+      <dependency dep="DNA" dep_index="21" gov="smears" gov_index="17">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

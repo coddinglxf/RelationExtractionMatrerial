@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>All@ligands@in@class@1@activate@their@respective@receptors@by@clustering@mechanisms@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">All</taggedword>
+      <taggedword index="2" part-of-speech="NNS">ligands</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NN">class</taggedword>
+      <taggedword index="5" part-of-speech="CD">1</taggedword>
+      <taggedword index="6" part-of-speech="VBP">activate</taggedword>
+      <taggedword index="7" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="8" part-of-speech="JJ">respective</taggedword>
+      <taggedword index="9" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="VBG">clustering</taggedword>
+      <taggedword index="12" part-of-speech="NNS">mechanisms</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="All" dep_index="1" gov="ligands" gov_index="2">det</dependency>
+      <dependency dep="ligands" dep_index="2" gov="activate" gov_index="6">nsubj</dependency>
+      <dependency dep="class" dep_index="4" gov="ligands" gov_index="2">prep_in</dependency>
+      <dependency dep="1" dep_index="5" gov="class" gov_index="4">num</dependency>
+      <dependency dep="activate" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="their" dep_index="7" gov="receptors" gov_index="9">poss</dependency>
+      <dependency dep="respective" dep_index="8" gov="receptors" gov_index="9">amod</dependency>
+      <dependency dep="receptors" dep_index="9" gov="activate" gov_index="6">dobj</dependency>
+      <dependency dep="clustering" dep_index="11" gov="mechanisms" gov_index="12">amod</dependency>
+      <dependency dep="mechanisms" dep_index="12" gov="activate" gov_index="6">prep_by</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

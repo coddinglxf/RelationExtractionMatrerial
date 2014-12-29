@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@this@mutational@analysis@implicates@KDR@,@but@not@FLT-1@,@in@VEGF@induction@of@endothelial@cell@proliferation@.@</sentence>
+   <tags>
+      <tag pos="7">KDR</tag>
+      <tag pos="11">FLT-1</tag>
+      <tag pos="14">VEGF</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">this</taggedword>
+      <taggedword index="4" part-of-speech="JJ">mutational</taggedword>
+      <taggedword index="5" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">implicates</taggedword>
+      <taggedword index="7" part-of-speech="NNP">KDR</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">but</taggedword>
+      <taggedword index="10" part-of-speech="RB">not</taggedword>
+      <taggedword index="11" part-of-speech="JJ">FLT-1</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NNP">VEGF</taggedword>
+      <taggedword index="15" part-of-speech="NNP">induction</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">endothelial</taggedword>
+      <taggedword index="18" part-of-speech="NN">cell</taggedword>
+      <taggedword index="19" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="implicates" gov_index="6">advmod</dependency>
+      <dependency dep="this" dep_index="3" gov="analysis" gov_index="5">det</dependency>
+      <dependency dep="mutational" dep_index="4" gov="analysis" gov_index="5">amod</dependency>
+      <dependency dep="analysis" dep_index="5" gov="implicates" gov_index="6">nsubj</dependency>
+      <dependency dep="implicates" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="KDR" dep_index="7" gov="implicates" gov_index="6">dobj</dependency>
+      <dependency dep="not" dep_index="10" gov="FLT-1" gov_index="11">cc</dependency>
+      <dependency dep="FLT-1" dep_index="11" gov="implicates" gov_index="6">dep</dependency>
+      <dependency dep="VEGF" dep_index="14" gov="induction" gov_index="15">nn</dependency>
+      <dependency dep="induction" dep_index="15" gov="implicates" gov_index="6">prep_in</dependency>
+      <dependency dep="endothelial" dep_index="17" gov="proliferation" gov_index="19">amod</dependency>
+      <dependency dep="cell" dep_index="18" gov="proliferation" gov_index="19">nn</dependency>
+      <dependency dep="proliferation" dep_index="19" gov="induction" gov_index="15">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700011" relationship="false">7 6 11</relation>
+      <relation position="700014" relationship="false">7 6 15 14</relation>
+      <relation position="1100014" relationship="false">11 6 15 14</relation>
+   </relations>
+   <pairs/>
+</root>

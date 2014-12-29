@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>p27@binds@to@and@inhibits@complexes@formed@by@cyclin E@-@cdk2@,@cyclin A@-@cdk2@,@and@cyclin D@-@cdk4@.@</sentence>
+   <tags>
+      <tag pos="9">cyclin E</tag>
+      <tag pos="13">cyclin A</tag>
+      <tag pos="18">cyclin D</tag>
+      <tag pos="15">cdk2</tag>
+      <tag pos="20">cdk4</tag>
+      <tag pos="11">cdk2</tag>
+      <tag pos="1">p27</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">p27</taggedword>
+      <taggedword index="2" part-of-speech="NNS">binds</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="CD">inhibits</taggedword>
+      <taggedword index="6" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="7" part-of-speech="VBD">formed</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="JJ">cyclin E</taggedword>
+      <taggedword index="10" part-of-speech=":">-</taggedword>
+      <taggedword index="11" part-of-speech="NNS">cdk2</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">cyclin A</taggedword>
+      <taggedword index="14" part-of-speech=":">-</taggedword>
+      <taggedword index="15" part-of-speech="JJ">cdk2</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">cyclin D</taggedword>
+      <taggedword index="19" part-of-speech=",">-</taggedword>
+      <taggedword index="20" part-of-speech="NNS">cdk4</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="p27" dep_index="1" gov="binds" gov_index="2">amod</dependency>
+      <dependency dep="binds" dep_index="2" gov="formed" gov_index="7">nsubj</dependency>
+      <dependency dep="and" dep_index="4" gov="inhibits" gov_index="5">cc</dependency>
+      <dependency dep="inhibits" dep_index="5" gov="complexes" gov_index="6">num</dependency>
+      <dependency dep="complexes" dep_index="6" gov="binds" gov_index="2">prep_to</dependency>
+      <dependency dep="formed" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cyclin E" dep_index="9" gov="cdk4" gov_index="20">amod</dependency>
+      <dependency dep="cdk2" dep_index="11" gov="cdk4" gov_index="20">dep</dependency>
+      <dependency dep="cyclin A" dep_index="13" gov="cdk2" gov_index="11">appos</dependency>
+      <dependency dep="cdk2" dep_index="15" gov="cdk4" gov_index="20">amod</dependency>
+      <dependency dep="and" dep_index="17" gov="cyclin D" gov_index="18">cc</dependency>
+      <dependency dep="cyclin D" dep_index="18" gov="cdk4" gov_index="20">dep</dependency>
+      <dependency dep="cdk4" dep_index="20" gov="formed" gov_index="7">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="false">9 20 11 13</relation>
+      <relation position="900018" relationship="false">9 20 18</relation>
+      <relation position="900015" relationship="false">9 20 15</relation>
+      <relation position="900020" relationship="false"></relation>
+      <relation position="900011" relationship="true">9 20 11</relation>
+      <relation position="100009" relationship="true">1 2 7 20 9</relation>
+      <relation position="1300018" relationship="false">13 11 20 18</relation>
+      <relation position="1300015" relationship="true">13 11 20 15</relation>
+      <relation position="1300020" relationship="false"></relation>
+      <relation position="1100013" relationship="false"></relation>
+      <relation position="100013" relationship="true">1 2 7 20 11 13</relation>
+      <relation position="1500018" relationship="false">15 20 18</relation>
+      <relation position="1800020" relationship="true"></relation>
+      <relation position="1100018" relationship="false">11 20 18</relation>
+      <relation position="100018" relationship="true">1 2 7 20 18</relation>
+      <relation position="1500020" relationship="false"></relation>
+      <relation position="1100015" relationship="false">11 20 15</relation>
+      <relation position="100015" relationship="true">1 2 7 20 15</relation>
+      <relation position="1100020" relationship="false"></relation>
+      <relation position="100020" relationship="true">1 2 7 20</relation>
+      <relation position="100011" relationship="true">1 2 7 20 11</relation>
+   </relations>
+   <pairs>
+      <pair>100015</pair>
+      <pair>1800020</pair>
+      <pair>900011</pair>
+      <pair>100013</pair>
+      <pair>100011</pair>
+      <pair>100009</pair>
+      <pair>100020</pair>
+      <pair>1300015</pair>
+      <pair>100018</pair>
+   </pairs>
+</root>

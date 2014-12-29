@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@shows@that@structural@changes@in@the@poly(L-proline)-binding@region@of@profilin@can@affect@the@distantly@located@actin@-binding@site@.@</sentence>
+   <tags>
+      <tag pos="17">actin</tag>
+      <tag pos="11">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">shows</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="5" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">poly(L-proline)-binding</taggedword>
+      <taggedword index="9" part-of-speech="NN">region</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="12" part-of-speech="MD">can</taggedword>
+      <taggedword index="13" part-of-speech="VB">affect</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="RB">distantly</taggedword>
+      <taggedword index="16" part-of-speech="VBN">located</taggedword>
+      <taggedword index="17" part-of-speech="NN">actin</taggedword>
+      <taggedword index="18" part-of-speech="NN">-binding</taggedword>
+      <taggedword index="19" part-of-speech="NN">site</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="shows" gov_index="2">nsubj</dependency>
+      <dependency dep="shows" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="affect" gov_index="13">mark</dependency>
+      <dependency dep="structural" dep_index="4" gov="changes" gov_index="5">amod</dependency>
+      <dependency dep="changes" dep_index="5" gov="affect" gov_index="13">nsubj</dependency>
+      <dependency dep="the" dep_index="7" gov="region" gov_index="9">det</dependency>
+      <dependency dep="poly(L-proline)-binding" dep_index="8" gov="region" gov_index="9">amod</dependency>
+      <dependency dep="region" dep_index="9" gov="changes" gov_index="5">prep_in</dependency>
+      <dependency dep="profilin" dep_index="11" gov="region" gov_index="9">prep_of</dependency>
+      <dependency dep="can" dep_index="12" gov="affect" gov_index="13">aux</dependency>
+      <dependency dep="affect" dep_index="13" gov="shows" gov_index="2">ccomp</dependency>
+      <dependency dep="the" dep_index="14" gov="site" gov_index="19">det</dependency>
+      <dependency dep="distantly" dep_index="15" gov="located" gov_index="16">advmod</dependency>
+      <dependency dep="located" dep_index="16" gov="site" gov_index="19">amod</dependency>
+      <dependency dep="actin" dep_index="17" gov="site" gov_index="19">nn</dependency>
+      <dependency dep="-binding" dep_index="18" gov="site" gov_index="19">nn</dependency>
+      <dependency dep="site" dep_index="19" gov="affect" gov_index="13">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100017" relationship="true">11 9 5 13 19 17</relation>
+   </relations>
+   <pairs>
+      <pair>1100017</pair>
+   </pairs>
+</root>

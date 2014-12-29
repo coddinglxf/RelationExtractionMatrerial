@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>With@regard@to@CK2@,@phosphorylation@occurs@at@Ser@154@with@a@stoichiometry@of@about@0.1@mol@phosphate/mol@rbPrP@,@which@is@doubled@by@mild@heat@treatment@of@rbPrP@</sentence>
+   <tags>
+      <tag pos="4">CK2</tag>
+      <tag pos="19">rbPrP</tag>
+      <tag pos="29">rbPrP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">With</taggedword>
+      <taggedword index="2" part-of-speech="NN">regard</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="NNP">CK2</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">occurs</taggedword>
+      <taggedword index="8" part-of-speech="IN">at</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Ser</taggedword>
+      <taggedword index="10" part-of-speech="CD">154</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="NN">stoichiometry</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="RB">about</taggedword>
+      <taggedword index="16" part-of-speech="CD">0.1</taggedword>
+      <taggedword index="17" part-of-speech="JJ">mol</taggedword>
+      <taggedword index="18" part-of-speech="NN">phosphate/mol</taggedword>
+      <taggedword index="19" part-of-speech="NN">rbPrP</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="WDT">which</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="23" part-of-speech="VBN">doubled</taggedword>
+      <taggedword index="24" part-of-speech="IN">by</taggedword>
+      <taggedword index="25" part-of-speech="JJ">mild</taggedword>
+      <taggedword index="26" part-of-speech="NN">heat</taggedword>
+      <taggedword index="27" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="NN">rbPrP</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CK2" dep_index="4" gov="occurs" gov_index="7">prep_with_regard_to</dependency>
+      <dependency dep="phosphorylation" dep_index="6" gov="occurs" gov_index="7">nsubj</dependency>
+      <dependency dep="occurs" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Ser" dep_index="9" gov="occurs" gov_index="7">prep_at</dependency>
+      <dependency dep="154" dep_index="10" gov="Ser" gov_index="9">num</dependency>
+      <dependency dep="a" dep_index="12" gov="stoichiometry" gov_index="13">det</dependency>
+      <dependency dep="stoichiometry" dep_index="13" gov="occurs" gov_index="7">prep_with</dependency>
+      <dependency dep="about" dep_index="15" gov="0.1" gov_index="16">quantmod</dependency>
+      <dependency dep="0.1" dep_index="16" gov="rbPrP" gov_index="19">num</dependency>
+      <dependency dep="mol" dep_index="17" gov="rbPrP" gov_index="19">amod</dependency>
+      <dependency dep="phosphate/mol" dep_index="18" gov="rbPrP" gov_index="19">nn</dependency>
+      <dependency dep="rbPrP" dep_index="19" gov="stoichiometry" gov_index="13">prep_of</dependency>
+      <dependency dep="rbPrP" dep_index="19" gov="doubled" gov_index="23">nsubjpass</dependency>
+      <dependency dep="is" dep_index="22" gov="doubled" gov_index="23">auxpass</dependency>
+      <dependency dep="doubled" dep_index="23" gov="rbPrP" gov_index="19">rcmod</dependency>
+      <dependency dep="mild" dep_index="25" gov="treatment" gov_index="27">amod</dependency>
+      <dependency dep="heat" dep_index="26" gov="treatment" gov_index="27">nn</dependency>
+      <dependency dep="treatment" dep_index="27" gov="doubled" gov_index="23">agent</dependency>
+      <dependency dep="rbPrP" dep_index="29" gov="treatment" gov_index="27">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400019" relationship="true">4 7 13 19</relation>
+      <relation position="400029" relationship="false">4 7 13 19 23 27 29</relation>
+      <relation position="1900029" relationship="false">19 23 27 29</relation>
+   </relations>
+   <pairs>
+      <pair>400019</pair>
+   </pairs>
+</root>

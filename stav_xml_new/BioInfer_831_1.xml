@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>While@levels@of@most@of@these@proteins@decrease@,@accumulation@of@cyclin D1@and@the@cyclin-dependent kinase inhibitor@p21@Cip1@/@WAF1@is@observed@.@</sentence>
+   <tags>
+      <tag pos="19">WAF1</tag>
+      <tag pos="16">p21</tag>
+      <tag pos="12">cyclin D1</tag>
+      <tag pos="15">cyclin-dependent kinase inhibitor</tag>
+      <tag pos="17">Cip1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">While</taggedword>
+      <taggedword index="2" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJS">most</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">these</taggedword>
+      <taggedword index="7" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="8" part-of-speech="VB">decrease</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">accumulation</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cyclin D1</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">cyclin-dependent kinase inhibitor</taggedword>
+      <taggedword index="16" part-of-speech="JJ">p21</taggedword>
+      <taggedword index="17" part-of-speech="NNS">Cip1</taggedword>
+      <taggedword index="18" part-of-speech="NN">/</taggedword>
+      <taggedword index="19" part-of-speech="NN">WAF1</taggedword>
+      <taggedword index="20" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="21" part-of-speech="JJ">observed</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="While" dep_index="1" gov="decrease" gov_index="8">mark</dependency>
+      <dependency dep="levels" dep_index="2" gov="decrease" gov_index="8">nsubj</dependency>
+      <dependency dep="most" dep_index="4" gov="levels" gov_index="2">prep_of</dependency>
+      <dependency dep="these" dep_index="6" gov="proteins" gov_index="7">det</dependency>
+      <dependency dep="proteins" dep_index="7" gov="most" gov_index="4">prep_of</dependency>
+      <dependency dep="decrease" dep_index="8" gov="observed" gov_index="21">advcl</dependency>
+      <dependency dep="accumulation" dep_index="10" gov="observed" gov_index="21">nsubj</dependency>
+      <dependency dep="cyclin D1" dep_index="12" gov="accumulation" gov_index="10">prep_of</dependency>
+      <dependency dep="the" dep_index="14" gov="WAF1" gov_index="19">det</dependency>
+      <dependency dep="cyclin-dependent kinase inhibitor" dep_index="15" gov="WAF1" gov_index="19">amod</dependency>
+      <dependency dep="p21" dep_index="16" gov="WAF1" gov_index="19">amod</dependency>
+      <dependency dep="Cip1" dep_index="17" gov="WAF1" gov_index="19">nn</dependency>
+      <dependency dep="/" dep_index="18" gov="WAF1" gov_index="19">nn</dependency>
+      <dependency dep="WAF1" dep_index="19" gov="accumulation" gov_index="10">prep_of</dependency>
+      <dependency dep="WAF1" dep_index="19" gov="cyclin D1" gov_index="12">conj_and</dependency>
+      <dependency dep="is" dep_index="20" gov="observed" gov_index="21">cop</dependency>
+      <dependency dep="observed" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600019" relationship="false"></relation>
+      <relation position="1200019" relationship="false">12 10 19</relation>
+      <relation position="1500019" relationship="true"></relation>
+      <relation position="1700019" relationship="false"></relation>
+      <relation position="1200016" relationship="false">12 10 19 16</relation>
+      <relation position="1500016" relationship="true">15 19 16</relation>
+      <relation position="1600017" relationship="false">16 19 17</relation>
+      <relation position="1200015" relationship="false">12 10 19 15</relation>
+      <relation position="1200017" relationship="false">12 10 19 17</relation>
+      <relation position="1500017" relationship="true">15 19 17</relation>
+   </relations>
+   <pairs>
+      <pair>1500019</pair>
+      <pair>1500016</pair>
+      <pair>1500017</pair>
+   </pairs>
+</root>

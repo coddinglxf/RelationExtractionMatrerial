@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Opposite@effects@of@cofilin@and@profilin@from@porcine@brain@on@rate@of@exchange@of@actin@-bound@adenosine@5'-triphosphate@.@</sentence>
+   <tags>
+      <tag pos="6">profilin</tag>
+      <tag pos="15">actin</tag>
+      <tag pos="4">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Opposite</taggedword>
+      <taggedword index="2" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="7" part-of-speech="IN">from</taggedword>
+      <taggedword index="8" part-of-speech="JJ">porcine</taggedword>
+      <taggedword index="9" part-of-speech="NN">brain</taggedword>
+      <taggedword index="10" part-of-speech="IN">on</taggedword>
+      <taggedword index="11" part-of-speech="NN">rate</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">exchange</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="16" part-of-speech="JJ">-bound</taggedword>
+      <taggedword index="17" part-of-speech="NN">adenosine</taggedword>
+      <taggedword index="18" part-of-speech="NNS">5'-triphosphate</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Opposite" dep_index="1" gov="effects" gov_index="2">amod</dependency>
+      <dependency dep="effects" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cofilin" dep_index="4" gov="effects" gov_index="2">prep_of</dependency>
+      <dependency dep="profilin" dep_index="6" gov="effects" gov_index="2">prep_of</dependency>
+      <dependency dep="profilin" dep_index="6" gov="cofilin" gov_index="4">conj_and</dependency>
+      <dependency dep="porcine" dep_index="8" gov="brain" gov_index="9">amod</dependency>
+      <dependency dep="brain" dep_index="9" gov="effects" gov_index="2">prep_from</dependency>
+      <dependency dep="rate" dep_index="11" gov="brain" gov_index="9">prep_on</dependency>
+      <dependency dep="exchange" dep_index="13" gov="effects" gov_index="2">prep_of</dependency>
+      <dependency dep="actin" dep_index="15" gov="5'-triphosphate" gov_index="18">amod</dependency>
+      <dependency dep="-bound" dep_index="16" gov="5'-triphosphate" gov_index="18">amod</dependency>
+      <dependency dep="adenosine" dep_index="17" gov="5'-triphosphate" gov_index="18">nn</dependency>
+      <dependency dep="5'-triphosphate" dep_index="18" gov="exchange" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600015" relationship="false">6 2 13 18 15</relation>
+      <relation position="400006" relationship="false">4 2 6</relation>
+      <relation position="400015" relationship="false">4 2 13 18 15</relation>
+   </relations>
+   <pairs/>
+</root>

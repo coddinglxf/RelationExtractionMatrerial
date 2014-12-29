@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@analysis@of@the@viral@proteins@by@electrophoresis@indicates@molecular@weight@differences@between@CDV@and@PDV@in@the@fusion@(@F@),@phosphoprotein@(@P@),@H@,@nucleocapsid@(@N@)@and@matrix@(@M@)@proteins@.@</sentence>
+   <tags>
+      <tag pos="36">M</tag>
+      <tag pos="21">F</tag>
+      <tag pos="29">nucleocapsid</tag>
+      <tag pos="25">P</tag>
+      <tag pos="31">N</tag>
+      <tag pos="27">H</tag>
+      <tag pos="19">fusion</tag>
+      <tag pos="34">matrix</tag>
+      <tag pos="23">phosphoprotein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="6" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="NNS">electrophoresis</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">indicates</taggedword>
+      <taggedword index="10" part-of-speech="JJ">molecular</taggedword>
+      <taggedword index="11" part-of-speech="NN">weight</taggedword>
+      <taggedword index="12" part-of-speech="NNS">differences</taggedword>
+      <taggedword index="13" part-of-speech="IN">between</taggedword>
+      <taggedword index="14" part-of-speech="NNP">CDV</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNP">PDV</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">fusion</taggedword>
+      <taggedword index="20" part-of-speech="JJ">(</taggedword>
+      <taggedword index="21" part-of-speech="NN">F</taggedword>
+      <taggedword index="22" part-of-speech="NN">),</taggedword>
+      <taggedword index="23" part-of-speech="NN">phosphoprotein</taggedword>
+      <taggedword index="24" part-of-speech="NNP">(</taggedword>
+      <taggedword index="25" part-of-speech="NNP">P</taggedword>
+      <taggedword index="26" part-of-speech="NNP">),</taggedword>
+      <taggedword index="27" part-of-speech="NNP">H</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="VBN">nucleocapsid</taggedword>
+      <taggedword index="30" part-of-speech="CD">(</taggedword>
+      <taggedword index="31" part-of-speech="NNP">N</taggedword>
+      <taggedword index="32" part-of-speech="NNP">)</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="NNP">matrix</taggedword>
+      <taggedword index="35" part-of-speech="NNP">(</taggedword>
+      <taggedword index="36" part-of-speech="NNP">M</taggedword>
+      <taggedword index="37" part-of-speech="NNP">)</taggedword>
+      <taggedword index="38" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="analysis" gov_index="2">det</dependency>
+      <dependency dep="analysis" dep_index="2" gov="indicates" gov_index="9">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="proteins" gov_index="6">det</dependency>
+      <dependency dep="viral" dep_index="5" gov="proteins" gov_index="6">amod</dependency>
+      <dependency dep="proteins" dep_index="6" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="electrophoresis" dep_index="8" gov="proteins" gov_index="6">prep_by</dependency>
+      <dependency dep="indicates" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="molecular" dep_index="10" gov="differences" gov_index="12">amod</dependency>
+      <dependency dep="weight" dep_index="11" gov="differences" gov_index="12">nn</dependency>
+      <dependency dep="differences" dep_index="12" gov="indicates" gov_index="9">dobj</dependency>
+      <dependency dep="CDV" dep_index="14" gov="differences" gov_index="12">prep_between</dependency>
+      <dependency dep="PDV" dep_index="16" gov="differences" gov_index="12">prep_between</dependency>
+      <dependency dep="PDV" dep_index="16" gov="CDV" gov_index="14">conj_and</dependency>
+      <dependency dep="the" dep_index="18" gov="H" gov_index="27">det</dependency>
+      <dependency dep="fusion" dep_index="19" gov="H" gov_index="27">nn</dependency>
+      <dependency dep="(" dep_index="20" gov="H" gov_index="27">amod</dependency>
+      <dependency dep="F" dep_index="21" gov="H" gov_index="27">nn</dependency>
+      <dependency dep=")," dep_index="22" gov="H" gov_index="27">nn</dependency>
+      <dependency dep="phosphoprotein" dep_index="23" gov="H" gov_index="27">nn</dependency>
+      <dependency dep="(" dep_index="24" gov="H" gov_index="27">nn</dependency>
+      <dependency dep="P" dep_index="25" gov="H" gov_index="27">nn</dependency>
+      <dependency dep=")," dep_index="26" gov="H" gov_index="27">nn</dependency>
+      <dependency dep="H" dep_index="27" gov="differences" gov_index="12">prep_in</dependency>
+      <dependency dep="nucleocapsid" dep_index="29" gov="differences" gov_index="12">partmod</dependency>
+      <dependency dep="(" dep_index="30" gov=")" gov_index="32">num</dependency>
+      <dependency dep="N" dep_index="31" gov=")" gov_index="32">nn</dependency>
+      <dependency dep=")" dep_index="32" gov="nucleocapsid" gov_index="29">dobj</dependency>
+      <dependency dep="matrix" dep_index="34" gov="proteins" gov_index="38">nn</dependency>
+      <dependency dep="(" dep_index="35" gov="proteins" gov_index="38">nn</dependency>
+      <dependency dep="M" dep_index="36" gov="proteins" gov_index="38">nn</dependency>
+      <dependency dep=")" dep_index="37" gov="proteins" gov_index="38">nn</dependency>
+      <dependency dep="proteins" dep_index="38" gov="nucleocapsid" gov_index="29">dobj</dependency>
+      <dependency dep="proteins" dep_index="38" gov=")" gov_index="32">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2100036" relationship="false">21 27 12 29 38 36</relation>
+      <relation position="2900036" relationship="false"></relation>
+      <relation position="2500036" relationship="false">25 27 12 29 38 36</relation>
+      <relation position="3100036" relationship="false">31 32 29 38 36</relation>
+      <relation position="2700036" relationship="false">27 12 29 38 36</relation>
+      <relation position="1900036" relationship="false">19 27 12 29 38 36</relation>
+      <relation position="3400036" relationship="false">34 38 36</relation>
+      <relation position="2300036" relationship="false">23 27 12 29 38 36</relation>
+      <relation position="2100029" relationship="false">21 27 12 29</relation>
+      <relation position="2100025" relationship="false">21 27 25</relation>
+      <relation position="2100031" relationship="false">21 27 12 29 32 31</relation>
+      <relation position="2100027" relationship="false"></relation>
+      <relation position="1900021" relationship="false">19 27 21</relation>
+      <relation position="2100034" relationship="false">21 27 12 29 38 34</relation>
+      <relation position="2100023" relationship="false">21 27 23</relation>
+      <relation position="2500029" relationship="false">25 27 12 29</relation>
+      <relation position="2900031" relationship="false"></relation>
+      <relation position="2700029" relationship="false">27 12 29</relation>
+      <relation position="1900029" relationship="false">19 27 12 29</relation>
+      <relation position="2900034" relationship="false"></relation>
+      <relation position="2300029" relationship="false">23 27 12 29</relation>
+      <relation position="2500031" relationship="false">25 27 12 29 32 31</relation>
+      <relation position="2500027" relationship="false"></relation>
+      <relation position="1900025" relationship="false">19 27 25</relation>
+      <relation position="2500034" relationship="false">25 27 12 29 38 34</relation>
+      <relation position="2300025" relationship="false">23 27 25</relation>
+      <relation position="2700031" relationship="false">27 12 29 32 31</relation>
+      <relation position="1900031" relationship="false">19 27 12 29 32 31</relation>
+      <relation position="3100034" relationship="false">31 32 29 38 34</relation>
+      <relation position="2300031" relationship="false">23 27 12 29 32 31</relation>
+      <relation position="1900027" relationship="false"></relation>
+      <relation position="2700034" relationship="false">27 12 29 38 34</relation>
+      <relation position="2300027" relationship="false"></relation>
+      <relation position="1900034" relationship="false">19 27 12 29 38 34</relation>
+      <relation position="1900023" relationship="false">19 27 23</relation>
+      <relation position="2300034" relationship="false">23 27 12 29 38 34</relation>
+   </relations>
+   <pairs/>
+</root>

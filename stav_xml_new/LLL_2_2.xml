@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>ykuD@was@transcribed@by@SigK@RNA@polymerase@from@T4@of@sporulation@.@</sentence>
+   <tags>
+      <tag pos="5">SigK</tag>
+      <tag pos="1">ykuD</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">ykuD</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="VBN">transcribed</taggedword>
+      <taggedword index="4" part-of-speech="IN">by</taggedword>
+      <taggedword index="5" part-of-speech="NNP">SigK</taggedword>
+      <taggedword index="6" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="7" part-of-speech="NNP">polymerase</taggedword>
+      <taggedword index="8" part-of-speech="IN">from</taggedword>
+      <taggedword index="9" part-of-speech="NNP">T4</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">sporulation</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="ykuD" dep_index="1" gov="transcribed" gov_index="3">nsubjpass</dependency>
+      <dependency dep="was" dep_index="2" gov="transcribed" gov_index="3">auxpass</dependency>
+      <dependency dep="transcribed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="SigK" dep_index="5" gov="polymerase" gov_index="7">nn</dependency>
+      <dependency dep="RNA" dep_index="6" gov="polymerase" gov_index="7">nn</dependency>
+      <dependency dep="polymerase" dep_index="7" gov="transcribed" gov_index="3">agent</dependency>
+      <dependency dep="T4" dep_index="9" gov="polymerase" gov_index="7">prep_from</dependency>
+      <dependency dep="sporulation" dep_index="11" gov="T4" gov_index="9">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100005" relationship="true">1 3 7 5</relation>
+   </relations>
+   <pairs>
+      <pair>100005</pair>
+   </pairs>
+</root>

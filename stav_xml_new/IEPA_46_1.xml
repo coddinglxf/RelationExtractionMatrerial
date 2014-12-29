@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Amyloid@beta@protein@(25-35)@stimulation@of@phospholipase C@in@LA-N-2@cells@</sentence>
+   <tags>
+      <tag pos="1">Amyloid</tag>
+      <tag pos="7">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Amyloid</taggedword>
+      <taggedword index="2" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="3" part-of-speech="NN">protein</taggedword>
+      <taggedword index="4" part-of-speech="CD">(25-35)</taggedword>
+      <taggedword index="5" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NN">LA-N-2</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cells</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Amyloid" dep_index="1" gov="protein" gov_index="3">amod</dependency>
+      <dependency dep="beta" dep_index="2" gov="protein" gov_index="3">amod</dependency>
+      <dependency dep="protein" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="(25-35)" dep_index="4" gov="stimulation" gov_index="5">num</dependency>
+      <dependency dep="stimulation" dep_index="5" gov="protein" gov_index="3">dep</dependency>
+      <dependency dep="phospholipase C" dep_index="7" gov="cells" gov_index="10">amod</dependency>
+      <dependency dep="LA-N-2" dep_index="9" gov="phospholipase C" gov_index="7">prep_in</dependency>
+      <dependency dep="cells" dep_index="10" gov="stimulation" gov_index="5">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="true">1 3 5 10 7</relation>
+   </relations>
+   <pairs>
+      <pair>100007</pair>
+   </pairs>
+</root>

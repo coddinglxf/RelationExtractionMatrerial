@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Recently@,@proteinases@of@the@plasminogen@and@matrix@metalloproteinase@(MMP)@systems@as@well@as@their@inhibitors@have@received@much@attention@,@and@these@studies@together@have@emphasized@the@complexity@of@their@role@in@vascular@disease@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Recently</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNS">proteinases</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">plasminogen</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">matrix</taggedword>
+      <taggedword index="9" part-of-speech="NN">metalloproteinase</taggedword>
+      <taggedword index="10" part-of-speech="JJ">(MMP)</taggedword>
+      <taggedword index="11" part-of-speech="NNS">systems</taggedword>
+      <taggedword index="12" part-of-speech="RB">as</taggedword>
+      <taggedword index="13" part-of-speech="RB">well</taggedword>
+      <taggedword index="14" part-of-speech="IN">as</taggedword>
+      <taggedword index="15" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="16" part-of-speech="NNS">inhibitors</taggedword>
+      <taggedword index="17" part-of-speech="VBP">have</taggedword>
+      <taggedword index="18" part-of-speech="VBN">received</taggedword>
+      <taggedword index="19" part-of-speech="JJ">much</taggedword>
+      <taggedword index="20" part-of-speech="NN">attention</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="DT">these</taggedword>
+      <taggedword index="24" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="25" part-of-speech="RB">together</taggedword>
+      <taggedword index="26" part-of-speech="VBP">have</taggedword>
+      <taggedword index="27" part-of-speech="VBN">emphasized</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="NN">complexity</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="32" part-of-speech="NN">role</taggedword>
+      <taggedword index="33" part-of-speech="IN">in</taggedword>
+      <taggedword index="34" part-of-speech="NN">vascular</taggedword>
+      <taggedword index="35" part-of-speech="NN">disease</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Recently" dep_index="1" gov="received" gov_index="18">advmod</dependency>
+      <dependency dep="proteinases" dep_index="3" gov="received" gov_index="18">nsubj</dependency>
+      <dependency dep="the" dep_index="5" gov="plasminogen" gov_index="6">det</dependency>
+      <dependency dep="plasminogen" dep_index="6" gov="proteinases" gov_index="3">prep_of</dependency>
+      <dependency dep="matrix" dep_index="8" gov="systems" gov_index="11">nn</dependency>
+      <dependency dep="metalloproteinase" dep_index="9" gov="systems" gov_index="11">nn</dependency>
+      <dependency dep="(MMP)" dep_index="10" gov="systems" gov_index="11">amod</dependency>
+      <dependency dep="systems" dep_index="11" gov="proteinases" gov_index="3">prep_of</dependency>
+      <dependency dep="systems" dep_index="11" gov="plasminogen" gov_index="6">conj_and</dependency>
+      <dependency dep="their" dep_index="15" gov="inhibitors" gov_index="16">poss</dependency>
+      <dependency dep="inhibitors" dep_index="16" gov="proteinases" gov_index="3">conj_and</dependency>
+      <dependency dep="inhibitors" dep_index="16" gov="received" gov_index="18">nsubj</dependency>
+      <dependency dep="have" dep_index="17" gov="received" gov_index="18">aux</dependency>
+      <dependency dep="received" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="much" dep_index="19" gov="attention" gov_index="20">amod</dependency>
+      <dependency dep="attention" dep_index="20" gov="received" gov_index="18">dobj</dependency>
+      <dependency dep="these" dep_index="23" gov="studies" gov_index="24">det</dependency>
+      <dependency dep="studies" dep_index="24" gov="emphasized" gov_index="27">nsubj</dependency>
+      <dependency dep="together" dep_index="25" gov="emphasized" gov_index="27">advmod</dependency>
+      <dependency dep="have" dep_index="26" gov="emphasized" gov_index="27">aux</dependency>
+      <dependency dep="emphasized" dep_index="27" gov="received" gov_index="18">conj_and</dependency>
+      <dependency dep="the" dep_index="28" gov="complexity" gov_index="29">det</dependency>
+      <dependency dep="complexity" dep_index="29" gov="emphasized" gov_index="27">dobj</dependency>
+      <dependency dep="their" dep_index="31" gov="role" gov_index="32">poss</dependency>
+      <dependency dep="role" dep_index="32" gov="complexity" gov_index="29">prep_of</dependency>
+      <dependency dep="vascular" dep_index="34" gov="disease" gov_index="35">nn</dependency>
+      <dependency dep="disease" dep_index="35" gov="emphasized" gov_index="27">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

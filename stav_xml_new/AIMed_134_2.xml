@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@protein@ligand@for@the@ECK receptor protein-tyrosine kinase@has@been@isolated@by@using@the@extracellular@domain@(@ECK@-X)@of@the@receptor@as@an@affinity@reagent@.@</sentence>
+   <tags>
+      <tag pos="6">ECK receptor protein-tyrosine kinase</tag>
+      <tag pos="16">ECK</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NN">protein</taggedword>
+      <taggedword index="3" part-of-speech="VBD">ligand</taggedword>
+      <taggedword index="4" part-of-speech="IN">for</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">ECK receptor protein-tyrosine kinase</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="8" part-of-speech="VBN">been</taggedword>
+      <taggedword index="9" part-of-speech="VBN">isolated</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="VBG">using</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="14" part-of-speech="NN">domain</taggedword>
+      <taggedword index="15" part-of-speech="NNP">(</taggedword>
+      <taggedword index="16" part-of-speech="NNP">ECK</taggedword>
+      <taggedword index="17" part-of-speech="NNP">-X)</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="21" part-of-speech="IN">as</taggedword>
+      <taggedword index="22" part-of-speech="DT">an</taggedword>
+      <taggedword index="23" part-of-speech="JJ">affinity</taggedword>
+      <taggedword index="24" part-of-speech="NN">reagent</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="protein" gov_index="2">det</dependency>
+      <dependency dep="protein" dep_index="2" gov="ligand" gov_index="3">nsubj</dependency>
+      <dependency dep="ligand" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="for" dep_index="4" gov="isolated" gov_index="9">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="ECK receptor protein-tyrosine kinase" gov_index="6">det</dependency>
+      <dependency dep="ECK receptor protein-tyrosine kinase" dep_index="6" gov="isolated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="has" dep_index="7" gov="isolated" gov_index="9">aux</dependency>
+      <dependency dep="been" dep_index="8" gov="isolated" gov_index="9">auxpass</dependency>
+      <dependency dep="isolated" dep_index="9" gov="ligand" gov_index="3">advcl</dependency>
+      <dependency dep="using" dep_index="11" gov="isolated" gov_index="9">agent</dependency>
+      <dependency dep="the" dep_index="12" gov="domain" gov_index="14">det</dependency>
+      <dependency dep="extracellular" dep_index="13" gov="domain" gov_index="14">nn</dependency>
+      <dependency dep="domain" dep_index="14" gov="-X)" gov_index="17">nsubj</dependency>
+      <dependency dep="(" dep_index="15" gov="-X)" gov_index="17">nn</dependency>
+      <dependency dep="ECK" dep_index="16" gov="-X)" gov_index="17">nn</dependency>
+      <dependency dep="-X)" dep_index="17" gov="using" gov_index="11">xcomp</dependency>
+      <dependency dep="the" dep_index="19" gov="receptor" gov_index="20">det</dependency>
+      <dependency dep="receptor" dep_index="20" gov="-X)" gov_index="17">prep_of</dependency>
+      <dependency dep="an" dep_index="22" gov="reagent" gov_index="24">det</dependency>
+      <dependency dep="affinity" dep_index="23" gov="reagent" gov_index="24">amod</dependency>
+      <dependency dep="reagent" dep_index="24" gov="receptor" gov_index="20">prep_as</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600016" relationship="false">6 9 11 17 16</relation>
+   </relations>
+   <pairs/>
+</root>

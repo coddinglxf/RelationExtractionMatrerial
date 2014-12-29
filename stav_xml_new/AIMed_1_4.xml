@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>BMP-2@was@detected@in@mesenchymal@cells@in@the@outer@fibrous@layer@and@chondrocytes@in@the@inner@cartilaginous@matrix@,@positive@for@Col III@and@Col II@,@respectively@.@</sentence>
+   <tags>
+      <tag pos="1">BMP-2</tag>
+      <tag pos="22">Col III</tag>
+      <tag pos="24">Col II</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">BMP-2</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="JJ">mesenchymal</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">outer</taggedword>
+      <taggedword index="10" part-of-speech="NNS">fibrous</taggedword>
+      <taggedword index="11" part-of-speech="NN">layer</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NNS">chondrocytes</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="JJ">inner</taggedword>
+      <taggedword index="17" part-of-speech="NNS">cartilaginous</taggedword>
+      <taggedword index="18" part-of-speech="NN">matrix</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="JJ">positive</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="NNP">Col III</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NNP">Col II</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="BMP-2" dep_index="1" gov="detected" gov_index="3">nsubjpass</dependency>
+      <dependency dep="was" dep_index="2" gov="detected" gov_index="3">auxpass</dependency>
+      <dependency dep="detected" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="mesenchymal" dep_index="5" gov="cells" gov_index="6">amod</dependency>
+      <dependency dep="cells" dep_index="6" gov="detected" gov_index="3">prep_in</dependency>
+      <dependency dep="the" dep_index="8" gov="layer" gov_index="11">det</dependency>
+      <dependency dep="outer" dep_index="9" gov="layer" gov_index="11">amod</dependency>
+      <dependency dep="fibrous" dep_index="10" gov="layer" gov_index="11">nn</dependency>
+      <dependency dep="layer" dep_index="11" gov="cells" gov_index="6">prep_in</dependency>
+      <dependency dep="chondrocytes" dep_index="13" gov="detected" gov_index="3">prep_in</dependency>
+      <dependency dep="chondrocytes" dep_index="13" gov="cells" gov_index="6">conj_and</dependency>
+      <dependency dep="the" dep_index="15" gov="matrix" gov_index="18">det</dependency>
+      <dependency dep="inner" dep_index="16" gov="matrix" gov_index="18">amod</dependency>
+      <dependency dep="cartilaginous" dep_index="17" gov="matrix" gov_index="18">nn</dependency>
+      <dependency dep="matrix" dep_index="18" gov="chondrocytes" gov_index="13">prep_in</dependency>
+      <dependency dep="positive" dep_index="20" gov="matrix" gov_index="18">amod</dependency>
+      <dependency dep="Col III" dep_index="22" gov="positive" gov_index="20">prep_for</dependency>
+      <dependency dep="Col II" dep_index="24" gov="positive" gov_index="20">prep_for</dependency>
+      <dependency dep="Col II" dep_index="24" gov="Col III" gov_index="22">conj_and</dependency>
+      <dependency dep="respectively" dep_index="26" gov="detected" gov_index="3">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100022" relationship="false">1 3 13 18 20 22</relation>
+      <relation position="100024" relationship="false">1 3 13 18 20 24</relation>
+      <relation position="2200024" relationship="false">22 20 24</relation>
+   </relations>
+   <pairs/>
+</root>

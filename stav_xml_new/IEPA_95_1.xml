@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@distribution@of@arginine-vasopressin@(AVP)@cells@in@the@SCN@overlapped@with@that@of@PKC@in@both@species@</sentence>
+   <tags>
+      <tag pos="4">arginine-vasopressin</tag>
+      <tag pos="14">PKC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">distribution</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">arginine-vasopressin</taggedword>
+      <taggedword index="5" part-of-speech="JJ">(AVP)</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNP">SCN</taggedword>
+      <taggedword index="10" part-of-speech="VBD">overlapped</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="DT">that</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">both</taggedword>
+      <taggedword index="17" part-of-speech="NN">species</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="distribution" gov_index="2">det</dependency>
+      <dependency dep="distribution" dep_index="2" gov="overlapped" gov_index="10">nsubj</dependency>
+      <dependency dep="arginine-vasopressin" dep_index="4" gov="cells" gov_index="6">amod</dependency>
+      <dependency dep="(AVP)" dep_index="5" gov="cells" gov_index="6">amod</dependency>
+      <dependency dep="cells" dep_index="6" gov="distribution" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="8" gov="SCN" gov_index="9">det</dependency>
+      <dependency dep="SCN" dep_index="9" gov="cells" gov_index="6">prep_in</dependency>
+      <dependency dep="overlapped" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="12" gov="overlapped" gov_index="10">prep_with</dependency>
+      <dependency dep="PKC" dep_index="14" gov="that" gov_index="12">prep_of</dependency>
+      <dependency dep="both" dep_index="16" gov="species" gov_index="17">det</dependency>
+      <dependency dep="species" dep_index="17" gov="overlapped" gov_index="10">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400014" relationship="true">4 6 2 10 12 14</relation>
+   </relations>
+   <pairs>
+      <pair>400014</pair>
+   </pairs>
+</root>

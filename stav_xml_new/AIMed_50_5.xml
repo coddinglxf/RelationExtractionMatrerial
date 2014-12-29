@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@contribution@of@residues@of@the@D-helix@,@which@have@been@previously@implicated@in@binding@,@proved@to@be@marginal@for@the@interaction@with@the@extracellular@domain@of@ifnar2@.@</sentence>
+   <tags>
+      <tag pos="29">ifnar2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">contribution</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">D-helix</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="WDT">which</taggedword>
+      <taggedword index="10" part-of-speech="VBP">have</taggedword>
+      <taggedword index="11" part-of-speech="VBN">been</taggedword>
+      <taggedword index="12" part-of-speech="RB">previously</taggedword>
+      <taggedword index="13" part-of-speech="VBN">implicated</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="VBD">proved</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="VB">be</taggedword>
+      <taggedword index="20" part-of-speech="JJ">marginal</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="24" part-of-speech="IN">with</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="27" part-of-speech="NN">domain</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="CD">ifnar2</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="contribution" gov_index="2">det</dependency>
+      <dependency dep="contribution" dep_index="2" gov="implicated" gov_index="13">nsubjpass</dependency>
+      <dependency dep="contribution" dep_index="2" gov="proved" gov_index="17">nsubj</dependency>
+      <dependency dep="contribution" dep_index="2" gov="marginal" gov_index="20">xsubj</dependency>
+      <dependency dep="residues" dep_index="4" gov="contribution" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="6" gov="D-helix" gov_index="7">det</dependency>
+      <dependency dep="D-helix" dep_index="7" gov="residues" gov_index="4">prep_of</dependency>
+      <dependency dep="have" dep_index="10" gov="implicated" gov_index="13">aux</dependency>
+      <dependency dep="been" dep_index="11" gov="implicated" gov_index="13">auxpass</dependency>
+      <dependency dep="previously" dep_index="12" gov="implicated" gov_index="13">advmod</dependency>
+      <dependency dep="implicated" dep_index="13" gov="contribution" gov_index="2">rcmod</dependency>
+      <dependency dep="binding" dep_index="15" gov="implicated" gov_index="13">prep_in</dependency>
+      <dependency dep="proved" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="18" gov="marginal" gov_index="20">aux</dependency>
+      <dependency dep="be" dep_index="19" gov="marginal" gov_index="20">cop</dependency>
+      <dependency dep="marginal" dep_index="20" gov="proved" gov_index="17">xcomp</dependency>
+      <dependency dep="the" dep_index="22" gov="interaction" gov_index="23">det</dependency>
+      <dependency dep="interaction" dep_index="23" gov="marginal" gov_index="20">prep_for</dependency>
+      <dependency dep="the" dep_index="25" gov="domain" gov_index="27">det</dependency>
+      <dependency dep="extracellular" dep_index="26" gov="domain" gov_index="27">nn</dependency>
+      <dependency dep="domain" dep_index="27" gov="marginal" gov_index="20">prep_with</dependency>
+      <dependency dep="ifnar2" dep_index="29" gov="domain" gov_index="27">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

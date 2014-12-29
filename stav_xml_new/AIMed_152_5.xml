@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@TRAF2@mutant@lacking@its@N-terminal@RING@finger@domain@is@a@dominant-negative@inhibitor@of@TNF-mediated@NF-kappa B@activation@,@but@does@not@affect@TNF-induced@apoptosis@.@</sentence>
+   <tags>
+      <tag pos="2">TRAF2</tag>
+      <tag pos="16">NF-kappa B</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NNP">TRAF2</taggedword>
+      <taggedword index="3" part-of-speech="NNP">mutant</taggedword>
+      <taggedword index="4" part-of-speech="VBG">lacking</taggedword>
+      <taggedword index="5" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="6" part-of-speech="NNP">N-terminal</taggedword>
+      <taggedword index="7" part-of-speech="NNP">RING</taggedword>
+      <taggedword index="8" part-of-speech="NN">finger</taggedword>
+      <taggedword index="9" part-of-speech="NN">domain</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">dominant-negative</taggedword>
+      <taggedword index="13" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">TNF-mediated</taggedword>
+      <taggedword index="16" part-of-speech="JJ">NF-kappa B</taggedword>
+      <taggedword index="17" part-of-speech="NN">activation</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">but</taggedword>
+      <taggedword index="20" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="21" part-of-speech="RB">not</taggedword>
+      <taggedword index="22" part-of-speech="VB">affect</taggedword>
+      <taggedword index="23" part-of-speech="JJ">TNF-induced</taggedword>
+      <taggedword index="24" part-of-speech="NNS">apoptosis</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="mutant" gov_index="3">det</dependency>
+      <dependency dep="TRAF2" dep_index="2" gov="mutant" gov_index="3">nn</dependency>
+      <dependency dep="mutant" dep_index="3" gov="inhibitor" gov_index="13">nsubj</dependency>
+      <dependency dep="mutant" dep_index="3" gov="affect" gov_index="22">nsubj</dependency>
+      <dependency dep="lacking" dep_index="4" gov="mutant" gov_index="3">partmod</dependency>
+      <dependency dep="its" dep_index="5" gov="domain" gov_index="9">poss</dependency>
+      <dependency dep="N-terminal" dep_index="6" gov="domain" gov_index="9">nn</dependency>
+      <dependency dep="RING" dep_index="7" gov="domain" gov_index="9">nn</dependency>
+      <dependency dep="finger" dep_index="8" gov="domain" gov_index="9">nn</dependency>
+      <dependency dep="domain" dep_index="9" gov="lacking" gov_index="4">dobj</dependency>
+      <dependency dep="is" dep_index="10" gov="inhibitor" gov_index="13">cop</dependency>
+      <dependency dep="a" dep_index="11" gov="inhibitor" gov_index="13">det</dependency>
+      <dependency dep="dominant-negative" dep_index="12" gov="inhibitor" gov_index="13">amod</dependency>
+      <dependency dep="inhibitor" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="TNF-mediated" dep_index="15" gov="activation" gov_index="17">amod</dependency>
+      <dependency dep="NF-kappa B" dep_index="16" gov="activation" gov_index="17">amod</dependency>
+      <dependency dep="activation" dep_index="17" gov="inhibitor" gov_index="13">prep_of</dependency>
+      <dependency dep="does" dep_index="20" gov="affect" gov_index="22">aux</dependency>
+      <dependency dep="not" dep_index="21" gov="affect" gov_index="22">neg</dependency>
+      <dependency dep="affect" dep_index="22" gov="inhibitor" gov_index="13">conj_but</dependency>
+      <dependency dep="TNF-induced" dep_index="23" gov="apoptosis" gov_index="24">amod</dependency>
+      <dependency dep="apoptosis" dep_index="24" gov="affect" gov_index="22">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200016" relationship="false">2 3 13 17 16</relation>
+   </relations>
+   <pairs/>
+</root>

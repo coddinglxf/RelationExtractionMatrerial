@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Strikingly@,@in@adipocytes@subjected@to@combined@trypsin/salt@treatment@,@PIG-P@,@PI-specific@PLC@,@and@glimepiride@failed@completely@to@provoke@insulin@-mimetic@effects@</sentence>
+   <tags>
+      <tag pos="14">PLC</tag>
+      <tag pos="22">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Strikingly</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NNS">adipocytes</taggedword>
+      <taggedword index="5" part-of-speech="VBN">subjected</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VBN">combined</taggedword>
+      <taggedword index="8" part-of-speech="NN">trypsin/salt</taggedword>
+      <taggedword index="9" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">PIG-P</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNP">PI-specific</taggedword>
+      <taggedword index="14" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">glimepiride</taggedword>
+      <taggedword index="18" part-of-speech="VBD">failed</taggedword>
+      <taggedword index="19" part-of-speech="RB">completely</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">provoke</taggedword>
+      <taggedword index="22" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="23" part-of-speech="JJ">-mimetic</taggedword>
+      <taggedword index="24" part-of-speech="NNS">effects</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Strikingly" dep_index="1" gov="failed" gov_index="18">advmod</dependency>
+      <dependency dep="adipocytes" dep_index="4" gov="failed" gov_index="18">prep_in</dependency>
+      <dependency dep="subjected" dep_index="5" gov="adipocytes" gov_index="4">partmod</dependency>
+      <dependency dep="combined" dep_index="7" gov="treatment" gov_index="9">amod</dependency>
+      <dependency dep="trypsin/salt" dep_index="8" gov="treatment" gov_index="9">nn</dependency>
+      <dependency dep="treatment" dep_index="9" gov="subjected" gov_index="5">prep_to</dependency>
+      <dependency dep="PIG-P" dep_index="11" gov="failed" gov_index="18">nsubj</dependency>
+      <dependency dep="PIG-P" dep_index="11" gov="provoke" gov_index="21">xsubj</dependency>
+      <dependency dep="PI-specific" dep_index="13" gov="PLC" gov_index="14">nn</dependency>
+      <dependency dep="PLC" dep_index="14" gov="failed" gov_index="18">nsubj</dependency>
+      <dependency dep="PLC" dep_index="14" gov="provoke" gov_index="21">xsubj</dependency>
+      <dependency dep="glimepiride" dep_index="17" gov="PLC" gov_index="14">conj_and</dependency>
+      <dependency dep="glimepiride" dep_index="17" gov="failed" gov_index="18">nsubj</dependency>
+      <dependency dep="glimepiride" dep_index="17" gov="provoke" gov_index="21">xsubj</dependency>
+      <dependency dep="failed" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="completely" dep_index="19" gov="failed" gov_index="18">advmod</dependency>
+      <dependency dep="to" dep_index="20" gov="provoke" gov_index="21">aux</dependency>
+      <dependency dep="provoke" dep_index="21" gov="failed" gov_index="18">xcomp</dependency>
+      <dependency dep="insulin" dep_index="22" gov="effects" gov_index="24">nn</dependency>
+      <dependency dep="-mimetic" dep_index="23" gov="effects" gov_index="24">amod</dependency>
+      <dependency dep="effects" dep_index="24" gov="provoke" gov_index="21">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400022" relationship="false">14 21 24 22</relation>
+   </relations>
+   <pairs/>
+</root>

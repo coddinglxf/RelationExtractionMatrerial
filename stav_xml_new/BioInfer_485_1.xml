@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>PF4@-dependent@downregulation@of@cyclin E@-@cdk2@activity@was@associated@with@increased@binding@of@the@cyclin-dependent kinase inhibitor@,@p21@(@Cip1@/@WAF1@),@to@the@cyclin E@-@cdk2@complex@.@</sentence>
+   <tags>
+      <tag pos="16">cyclin-dependent kinase inhibitor</tag>
+      <tag pos="20">Cip1</tag>
+      <tag pos="7">cdk2</tag>
+      <tag pos="26">cyclin E</tag>
+      <tag pos="22">WAF1</tag>
+      <tag pos="28">cdk2</tag>
+      <tag pos="1">PF4</tag>
+      <tag pos="5">cyclin E</tag>
+      <tag pos="18">p21</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">PF4</taggedword>
+      <taggedword index="2" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="3" part-of-speech="NN">downregulation</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NN">cyclin E</taggedword>
+      <taggedword index="6" part-of-speech=":">-</taggedword>
+      <taggedword index="7" part-of-speech="JJ">cdk2</taggedword>
+      <taggedword index="8" part-of-speech="NN">activity</taggedword>
+      <taggedword index="9" part-of-speech="VBD">was</taggedword>
+      <taggedword index="10" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="13" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">cyclin-dependent kinase inhibitor</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="JJ">p21</taggedword>
+      <taggedword index="19" part-of-speech="JJ">(</taggedword>
+      <taggedword index="20" part-of-speech="NNS">Cip1</taggedword>
+      <taggedword index="21" part-of-speech=":">/</taggedword>
+      <taggedword index="22" part-of-speech="NNP">WAF1</taggedword>
+      <taggedword index="23" part-of-speech="NNP">),</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">cyclin E</taggedword>
+      <taggedword index="27" part-of-speech=":">-</taggedword>
+      <taggedword index="28" part-of-speech="JJ">cdk2</taggedword>
+      <taggedword index="29" part-of-speech="NN">complex</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="PF4" dep_index="1" gov="downregulation" gov_index="3">amod</dependency>
+      <dependency dep="-dependent" dep_index="2" gov="downregulation" gov_index="3">amod</dependency>
+      <dependency dep="downregulation" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cyclin E" dep_index="5" gov="downregulation" gov_index="3">prep_of</dependency>
+      <dependency dep="cdk2" dep_index="7" gov="activity" gov_index="8">amod</dependency>
+      <dependency dep="activity" dep_index="8" gov="associated" gov_index="10">nsubjpass</dependency>
+      <dependency dep="was" dep_index="9" gov="associated" gov_index="10">auxpass</dependency>
+      <dependency dep="associated" dep_index="10" gov="downregulation" gov_index="3">dep</dependency>
+      <dependency dep="increased" dep_index="12" gov="associated" gov_index="10">prep_with</dependency>
+      <dependency dep="binding" dep_index="13" gov="increased" gov_index="12">amod</dependency>
+      <dependency dep="the" dep_index="15" gov="cyclin-dependent kinase inhibitor" gov_index="16">det</dependency>
+      <dependency dep="cyclin-dependent kinase inhibitor" dep_index="16" gov="increased" gov_index="12">prep_of</dependency>
+      <dependency dep="p21" dep_index="18" gov="Cip1" gov_index="20">amod</dependency>
+      <dependency dep="(" dep_index="19" gov="Cip1" gov_index="20">amod</dependency>
+      <dependency dep="Cip1" dep_index="20" gov="cyclin-dependent kinase inhibitor" gov_index="16">appos</dependency>
+      <dependency dep="/" dep_index="21" gov=")," gov_index="23">punct</dependency>
+      <dependency dep="WAF1" dep_index="22" gov=")," gov_index="23">nn</dependency>
+      <dependency dep=")," dep_index="23" gov="cyclin-dependent kinase inhibitor" gov_index="16">dep</dependency>
+      <dependency dep="the" dep_index="25" gov="cyclin E" gov_index="26">det</dependency>
+      <dependency dep="cyclin E" dep_index="26" gov=")," gov_index="23">prep_to</dependency>
+      <dependency dep="cdk2" dep_index="28" gov="complex" gov_index="29">amod</dependency>
+      <dependency dep="complex" dep_index="29" gov="cyclin-dependent kinase inhibitor" gov_index="16">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600020" relationship="true"></relation>
+      <relation position="700016" relationship="false">7 8 10 12 16</relation>
+      <relation position="1600026" relationship="false"></relation>
+      <relation position="1600022" relationship="true"></relation>
+      <relation position="1600028" relationship="false"></relation>
+      <relation position="100016" relationship="false">1 3 10 12 16</relation>
+      <relation position="500016" relationship="false">5 3 10 12 16</relation>
+      <relation position="1600018" relationship="true"></relation>
+      <relation position="700020" relationship="true">7 8 10 12 16 20</relation>
+      <relation position="2000026" relationship="true">20 16 23 26</relation>
+      <relation position="2000022" relationship="false">20 16 23 22</relation>
+      <relation position="2000028" relationship="true">20 16 29 28</relation>
+      <relation position="100020" relationship="false">1 3 10 12 16 20</relation>
+      <relation position="500020" relationship="true">5 3 10 12 16 20</relation>
+      <relation position="1800020" relationship="false"></relation>
+      <relation position="700026" relationship="true">7 8 10 12 16 23 26</relation>
+      <relation position="700022" relationship="true">7 8 10 12 16 23 22</relation>
+      <relation position="700028" relationship="true">7 8 10 12 16 29 28</relation>
+      <relation position="100007" relationship="true">1 3 10 8 7</relation>
+      <relation position="500007" relationship="true">5 3 10 8 7</relation>
+      <relation position="700018" relationship="true">7 8 10 12 16 20 18</relation>
+      <relation position="2200026" relationship="true">22 23 26</relation>
+      <relation position="2600028" relationship="true">26 23 16 29 28</relation>
+      <relation position="100026" relationship="false">1 3 10 12 16 23 26</relation>
+      <relation position="500026" relationship="true">5 3 10 12 16 23 26</relation>
+      <relation position="1800026" relationship="true">18 20 16 23 26</relation>
+      <relation position="2200028" relationship="true">22 23 16 29 28</relation>
+      <relation position="100022" relationship="false">1 3 10 12 16 23 22</relation>
+      <relation position="500022" relationship="true">5 3 10 12 16 23 22</relation>
+      <relation position="1800022" relationship="false">18 20 16 23 22</relation>
+      <relation position="100028" relationship="false">1 3 10 12 16 29 28</relation>
+      <relation position="500028" relationship="true">5 3 10 12 16 29 28</relation>
+      <relation position="1800028" relationship="true">18 20 16 29 28</relation>
+      <relation position="100005" relationship="true">1 3 5</relation>
+      <relation position="100018" relationship="false">1 3 10 12 16 20 18</relation>
+      <relation position="500018" relationship="true">5 3 10 12 16 20 18</relation>
+   </relations>
+   <pairs>
+      <pair>700026</pair>
+      <pair>700028</pair>
+      <pair>2000028</pair>
+      <pair>700018</pair>
+      <pair>1800028</pair>
+      <pair>500007</pair>
+      <pair>700022</pair>
+      <pair>700020</pair>
+      <pair>2000026</pair>
+      <pair>1800026</pair>
+      <pair>500028</pair>
+      <pair>500026</pair>
+      <pair>500020</pair>
+      <pair>100007</pair>
+      <pair>500022</pair>
+      <pair>2600028</pair>
+      <pair>2200026</pair>
+      <pair>100005</pair>
+      <pair>1600018</pair>
+      <pair>2200028</pair>
+      <pair>1600020</pair>
+      <pair>500018</pair>
+      <pair>1600022</pair>
+   </pairs>
+</root>

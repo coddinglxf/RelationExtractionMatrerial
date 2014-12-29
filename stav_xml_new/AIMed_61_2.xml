@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>An@expression@plasmid@encoding@the@human@75-kDa@tumor necrosis factor (TNF) type 2 receptor@(@TNF-R2@)@was@constructed@and@used@to@generate@a@stable@human@cell@line@(293/@TNF-R2@)@overexpressing@TNF-R2@.@</sentence>
+   <tags>
+      <tag pos="8">tumor necrosis factor (TNF) type 2 receptor</tag>
+      <tag pos="10">TNF-R2</tag>
+      <tag pos="24">TNF-R2</tag>
+      <tag pos="27">TNF-R2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">An</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="VBD">plasmid</taggedword>
+      <taggedword index="4" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">human</taggedword>
+      <taggedword index="7" part-of-speech="JJ">75-kDa</taggedword>
+      <taggedword index="8" part-of-speech="JJ">tumor necrosis factor (TNF) type 2 receptor</taggedword>
+      <taggedword index="9" part-of-speech="NN">(</taggedword>
+      <taggedword index="10" part-of-speech="NNP">TNF-R2</taggedword>
+      <taggedword index="11" part-of-speech="NNP">)</taggedword>
+      <taggedword index="12" part-of-speech="VBD">was</taggedword>
+      <taggedword index="13" part-of-speech="VBN">constructed</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="VBN">used</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="VB">generate</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">stable</taggedword>
+      <taggedword index="20" part-of-speech="JJ">human</taggedword>
+      <taggedword index="21" part-of-speech="NN">cell</taggedword>
+      <taggedword index="22" part-of-speech="NN">line</taggedword>
+      <taggedword index="23" part-of-speech="CD">(293/</taggedword>
+      <taggedword index="24" part-of-speech="NN">TNF-R2</taggedword>
+      <taggedword index="25" part-of-speech="NN">)</taggedword>
+      <taggedword index="26" part-of-speech="VBG">overexpressing</taggedword>
+      <taggedword index="27" part-of-speech="NN">TNF-R2</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="An" dep_index="1" gov="expression" gov_index="2">det</dependency>
+      <dependency dep="expression" dep_index="2" gov="plasmid" gov_index="3">nsubj</dependency>
+      <dependency dep="plasmid" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="encoding" dep_index="4" gov="plasmid" gov_index="3">xcomp</dependency>
+      <dependency dep="the" dep_index="5" gov="(" gov_index="9">det</dependency>
+      <dependency dep="human" dep_index="6" gov="(" gov_index="9">amod</dependency>
+      <dependency dep="75-kDa" dep_index="7" gov="(" gov_index="9">amod</dependency>
+      <dependency dep="tumor necrosis factor (TNF) type 2 receptor" dep_index="8" gov="(" gov_index="9">amod</dependency>
+      <dependency dep="(" dep_index="9" gov="encoding" gov_index="4">dobj</dependency>
+      <dependency dep="TNF-R2" dep_index="10" gov=")" gov_index="11">nn</dependency>
+      <dependency dep=")" dep_index="11" gov="constructed" gov_index="13">nsubjpass</dependency>
+      <dependency dep=")" dep_index="11" gov="used" gov_index="15">nsubjpass</dependency>
+      <dependency dep=")" dep_index="11" gov="generate" gov_index="17">xsubj</dependency>
+      <dependency dep="was" dep_index="12" gov="constructed" gov_index="13">auxpass</dependency>
+      <dependency dep="constructed" dep_index="13" gov="(" gov_index="9">rcmod</dependency>
+      <dependency dep="used" dep_index="15" gov="(" gov_index="9">rcmod</dependency>
+      <dependency dep="used" dep_index="15" gov="constructed" gov_index="13">conj_and</dependency>
+      <dependency dep="to" dep_index="16" gov="generate" gov_index="17">aux</dependency>
+      <dependency dep="generate" dep_index="17" gov="constructed" gov_index="13">xcomp</dependency>
+      <dependency dep="a" dep_index="18" gov=")" gov_index="25">det</dependency>
+      <dependency dep="stable" dep_index="19" gov=")" gov_index="25">amod</dependency>
+      <dependency dep="human" dep_index="20" gov=")" gov_index="25">amod</dependency>
+      <dependency dep="cell" dep_index="21" gov=")" gov_index="25">nn</dependency>
+      <dependency dep="line" dep_index="22" gov=")" gov_index="25">nn</dependency>
+      <dependency dep="(293/" dep_index="23" gov=")" gov_index="25">num</dependency>
+      <dependency dep="TNF-R2" dep_index="24" gov=")" gov_index="25">nn</dependency>
+      <dependency dep=")" dep_index="25" gov="generate" gov_index="17">dobj</dependency>
+      <dependency dep="overexpressing" dep_index="26" gov=")" gov_index="25">partmod</dependency>
+      <dependency dep="TNF-R2" dep_index="27" gov="overexpressing" gov_index="26">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 9 13 11 10</relation>
+      <relation position="800024" relationship="false">8 9 13 17 25 24</relation>
+      <relation position="800027" relationship="false">8 9 13 17 25 26 27</relation>
+      <relation position="1000024" relationship="false">10 11 17 25 24</relation>
+      <relation position="1000027" relationship="false">10 11 17 25 26 27</relation>
+      <relation position="2400027" relationship="false">24 25 26 27</relation>
+   </relations>
+   <pairs/>
+</root>

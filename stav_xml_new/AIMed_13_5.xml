@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>More@than@400@genes@were@differentially@expressed@more@than@two-fold@following@HHV8@infection@of@primary@bone@marrow@derived@CD34@+@cells@.@</sentence>
+   <tags>
+      <tag pos="19">CD34</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJR">More</taggedword>
+      <taggedword index="2" part-of-speech="IN">than</taggedword>
+      <taggedword index="3" part-of-speech="CD">400</taggedword>
+      <taggedword index="4" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="5" part-of-speech="VBD">were</taggedword>
+      <taggedword index="6" part-of-speech="RB">differentially</taggedword>
+      <taggedword index="7" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="8" part-of-speech="JJR">more</taggedword>
+      <taggedword index="9" part-of-speech="IN">than</taggedword>
+      <taggedword index="10" part-of-speech="CD">two-fold</taggedword>
+      <taggedword index="11" part-of-speech="VBG">following</taggedword>
+      <taggedword index="12" part-of-speech="JJ">HHV8</taggedword>
+      <taggedword index="13" part-of-speech="NN">infection</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="16" part-of-speech="NN">bone</taggedword>
+      <taggedword index="17" part-of-speech="NN">marrow</taggedword>
+      <taggedword index="18" part-of-speech="VBN">derived</taggedword>
+      <taggedword index="19" part-of-speech="CD">CD34</taggedword>
+      <taggedword index="20" part-of-speech="CD">+</taggedword>
+      <taggedword index="21" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="More" dep_index="1" gov="than" gov_index="2">mwe</dependency>
+      <dependency dep="than" dep_index="2" gov="400" gov_index="3">quantmod</dependency>
+      <dependency dep="400" dep_index="3" gov="genes" gov_index="4">num</dependency>
+      <dependency dep="genes" dep_index="4" gov="expressed" gov_index="7">nsubjpass</dependency>
+      <dependency dep="were" dep_index="5" gov="expressed" gov_index="7">auxpass</dependency>
+      <dependency dep="differentially" dep_index="6" gov="expressed" gov_index="7">advmod</dependency>
+      <dependency dep="expressed" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="more" dep_index="8" gov="than" gov_index="9">mwe</dependency>
+      <dependency dep="than" dep_index="9" gov="two-fold" gov_index="10">quantmod</dependency>
+      <dependency dep="two-fold" dep_index="10" gov="expressed" gov_index="7">dobj</dependency>
+      <dependency dep="HHV8" dep_index="12" gov="infection" gov_index="13">amod</dependency>
+      <dependency dep="infection" dep_index="13" gov="two-fold" gov_index="10">prep_following</dependency>
+      <dependency dep="primary" dep_index="15" gov="marrow" gov_index="17">amod</dependency>
+      <dependency dep="bone" dep_index="16" gov="marrow" gov_index="17">nn</dependency>
+      <dependency dep="marrow" dep_index="17" gov="infection" gov_index="13">prep_of</dependency>
+      <dependency dep="derived" dep_index="18" gov="marrow" gov_index="17">partmod</dependency>
+      <dependency dep="CD34" dep_index="19" gov="+" gov_index="20">number</dependency>
+      <dependency dep="+" dep_index="20" gov="cells" gov_index="21">num</dependency>
+      <dependency dep="cells" dep_index="21" gov="derived" gov_index="18">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@hydrophobic@residues@Leu-14@and@Phe-19@are@crucial@for@the@interactions@between@p53@and@human@mdm-2@(@hdm-2@).@</sentence>
+   <tags>
+      <tag pos="15">p53</tag>
+      <tag pos="18">mdm-2</tag>
+      <tag pos="20">hdm-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">hydrophobic</taggedword>
+      <taggedword index="5" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="6" part-of-speech="JJ">Leu-14</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">Phe-19</taggedword>
+      <taggedword index="9" part-of-speech="VBP">are</taggedword>
+      <taggedword index="10" part-of-speech="JJ">crucial</taggedword>
+      <taggedword index="11" part-of-speech="IN">for</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="14" part-of-speech="IN">between</taggedword>
+      <taggedword index="15" part-of-speech="NN">p53</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="JJ">human</taggedword>
+      <taggedword index="18" part-of-speech="JJ">mdm-2</taggedword>
+      <taggedword index="19" part-of-speech="JJ">(</taggedword>
+      <taggedword index="20" part-of-speech="JJ">hdm-2</taggedword>
+      <taggedword index="21" part-of-speech="NNS">).</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="crucial" gov_index="10">prep_in</dependency>
+      <dependency dep="hydrophobic" dep_index="4" gov="residues" gov_index="5">amod</dependency>
+      <dependency dep="residues" dep_index="5" gov="crucial" gov_index="10">nsubj</dependency>
+      <dependency dep="Leu-14" dep_index="6" gov="residues" gov_index="5">amod</dependency>
+      <dependency dep="Phe-19" dep_index="8" gov="residues" gov_index="5">amod</dependency>
+      <dependency dep="Phe-19" dep_index="8" gov="Leu-14" gov_index="6">conj_and</dependency>
+      <dependency dep="are" dep_index="9" gov="crucial" gov_index="10">cop</dependency>
+      <dependency dep="crucial" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="interactions" gov_index="13">det</dependency>
+      <dependency dep="interactions" dep_index="13" gov="crucial" gov_index="10">prep_for</dependency>
+      <dependency dep="p53" dep_index="15" gov="interactions" gov_index="13">prep_between</dependency>
+      <dependency dep="human" dep_index="17" gov=")." gov_index="21">amod</dependency>
+      <dependency dep="mdm-2" dep_index="18" gov=")." gov_index="21">amod</dependency>
+      <dependency dep="(" dep_index="19" gov=")." gov_index="21">amod</dependency>
+      <dependency dep="hdm-2" dep_index="20" gov=")." gov_index="21">amod</dependency>
+      <dependency dep=")." dep_index="21" gov="interactions" gov_index="13">prep_between</dependency>
+      <dependency dep=")." dep_index="21" gov="p53" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500018" relationship="true">15 13 21 18</relation>
+      <relation position="1500020" relationship="true">15 13 21 20</relation>
+      <relation position="1800020" relationship="false">18 21 20</relation>
+   </relations>
+   <pairs>
+      <pair>1500018</pair>
+      <pair>1500020</pair>
+   </pairs>
+</root>

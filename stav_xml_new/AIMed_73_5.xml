@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@extracellular@cysteine-rich@domain@of@the@TNF-R@is@homologous@to@the@nerve@growth@factor@receptor@and@the@B cell activation protein@Bp50@.@</sentence>
+   <tags>
+      <tag pos="18">B cell activation protein</tag>
+      <tag pos="19">Bp50</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">extracellular</taggedword>
+      <taggedword index="3" part-of-speech="JJ">cysteine-rich</taggedword>
+      <taggedword index="4" part-of-speech="NN">domain</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">TNF-R</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="JJ">homologous</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">nerve</taggedword>
+      <taggedword index="13" part-of-speech="NN">growth</taggedword>
+      <taggedword index="14" part-of-speech="NN">factor</taggedword>
+      <taggedword index="15" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">B cell activation protein</taggedword>
+      <taggedword index="19" part-of-speech="NNS">Bp50</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="domain" gov_index="4">det</dependency>
+      <dependency dep="extracellular" dep_index="2" gov="domain" gov_index="4">amod</dependency>
+      <dependency dep="cysteine-rich" dep_index="3" gov="domain" gov_index="4">amod</dependency>
+      <dependency dep="domain" dep_index="4" gov="homologous" gov_index="9">nsubj</dependency>
+      <dependency dep="the" dep_index="6" gov="TNF-R" gov_index="7">det</dependency>
+      <dependency dep="TNF-R" dep_index="7" gov="domain" gov_index="4">prep_of</dependency>
+      <dependency dep="is" dep_index="8" gov="homologous" gov_index="9">cop</dependency>
+      <dependency dep="homologous" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="receptor" gov_index="15">det</dependency>
+      <dependency dep="nerve" dep_index="12" gov="receptor" gov_index="15">nn</dependency>
+      <dependency dep="growth" dep_index="13" gov="receptor" gov_index="15">nn</dependency>
+      <dependency dep="factor" dep_index="14" gov="receptor" gov_index="15">nn</dependency>
+      <dependency dep="receptor" dep_index="15" gov="homologous" gov_index="9">prep_to</dependency>
+      <dependency dep="the" dep_index="17" gov="Bp50" gov_index="19">det</dependency>
+      <dependency dep="B cell activation protein" dep_index="18" gov="Bp50" gov_index="19">amod</dependency>
+      <dependency dep="Bp50" dep_index="19" gov="homologous" gov_index="9">prep_to</dependency>
+      <dependency dep="Bp50" dep_index="19" gov="receptor" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800019" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

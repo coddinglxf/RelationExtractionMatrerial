@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@analyses@showed@that@the@ability@of@PBMC@to@proliferate@to@IL-7@correlated@with@expression@of@the@p76@IL-7R@,@and@not@with@expression@of@the@p90@IL-7R@.@</sentence>
+   <tags>
+      <tag pos="12">IL-7</tag>
+      <tag pos="18">p76</tag>
+      <tag pos="19">IL-7R</tag>
+      <tag pos="27">p90</tag>
+      <tag pos="28">IL-7R</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">analyses</taggedword>
+      <taggedword index="3" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">ability</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNP">PBMC</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="VB">proliferate</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="NN">IL-7</taggedword>
+      <taggedword index="13" part-of-speech="VBN">correlated</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="NN">expression</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">p76</taggedword>
+      <taggedword index="19" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="RB">not</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="NN">expression</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="JJ">p90</taggedword>
+      <taggedword index="28" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="analyses" gov_index="2">det</dependency>
+      <dependency dep="analyses" dep_index="2" gov="showed" gov_index="3">nsubj</dependency>
+      <dependency dep="showed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="proliferate" gov_index="10">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="ability" gov_index="6">det</dependency>
+      <dependency dep="ability" dep_index="6" gov="proliferate" gov_index="10">nsubj</dependency>
+      <dependency dep="PBMC" dep_index="8" gov="ability" gov_index="6">prep_of</dependency>
+      <dependency dep="to" dep_index="9" gov="proliferate" gov_index="10">aux</dependency>
+      <dependency dep="proliferate" dep_index="10" gov="showed" gov_index="3">ccomp</dependency>
+      <dependency dep="proliferate" dep_index="10" gov="showed" gov_index="3">xcomp</dependency>
+      <dependency dep="IL-7" dep_index="12" gov="proliferate" gov_index="10">prep_to</dependency>
+      <dependency dep="correlated" dep_index="13" gov="IL-7" gov_index="12">partmod</dependency>
+      <dependency dep="with" dep_index="14" gov="correlated" gov_index="13">KILL</dependency>
+      <dependency dep="expression" dep_index="15" gov="with" gov_index="14">KILL</dependency>
+      <dependency dep="the" dep_index="17" gov="IL-7R" gov_index="19">det</dependency>
+      <dependency dep="p76" dep_index="18" gov="IL-7R" gov_index="19">amod</dependency>
+      <dependency dep="IL-7R" dep_index="19" gov="expression" gov_index="15">prep_of</dependency>
+      <dependency dep="not" dep_index="22" gov="correlated" gov_index="13">prep</dependency>
+      <dependency dep="not" dep_index="22" gov="correlated" gov_index="13">conj_and</dependency>
+      <dependency dep="not" dep_index="22" gov="with" gov_index="14">neg</dependency>
+      <dependency dep="with" dep_index="23" gov="correlated" gov_index="13">dep</dependency>
+      <dependency dep="expression" dep_index="24" gov="with" gov_index="23">pobj</dependency>
+      <dependency dep="the" dep_index="26" gov="IL-7R" gov_index="28">det</dependency>
+      <dependency dep="p90" dep_index="27" gov="IL-7R" gov_index="28">amod</dependency>
+      <dependency dep="IL-7R" dep_index="28" gov="expression" gov_index="24">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200018" relationship="false"></relation>
+      <relation position="1200019" relationship="false"></relation>
+      <relation position="1200027" relationship="false"></relation>
+      <relation position="1200028" relationship="false"></relation>
+      <relation position="1800019" relationship="false"></relation>
+      <relation position="1800027" relationship="false">18 19 15 14 13 23 24 28 27</relation>
+      <relation position="1800028" relationship="false">18 19 15 14 13 23 24 28</relation>
+      <relation position="1900027" relationship="false">19 15 14 13 23 24 28 27</relation>
+      <relation position="1900028" relationship="false">19 15 14 13 23 24 28</relation>
+      <relation position="2700028" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

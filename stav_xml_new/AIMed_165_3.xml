@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>TFIIH@is@an@obligatory@component@of@the@RNA@polymerase@II@(RNAP@II)@transcription@initiation@complex@.@</sentence>
+   <tags>
+      <tag pos="1">TFIIH</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">TFIIH</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">an</taggedword>
+      <taggedword index="4" part-of-speech="JJ">obligatory</taggedword>
+      <taggedword index="5" part-of-speech="NN">component</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="9" part-of-speech="NNP">polymerase</taggedword>
+      <taggedword index="10" part-of-speech="NNP">II</taggedword>
+      <taggedword index="11" part-of-speech="NNP">(RNAP</taggedword>
+      <taggedword index="12" part-of-speech="NNP">II)</taggedword>
+      <taggedword index="13" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="14" part-of-speech="NN">initiation</taggedword>
+      <taggedword index="15" part-of-speech="NN">complex</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="TFIIH" dep_index="1" gov="component" gov_index="5">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="component" gov_index="5">cop</dependency>
+      <dependency dep="an" dep_index="3" gov="component" gov_index="5">det</dependency>
+      <dependency dep="obligatory" dep_index="4" gov="component" gov_index="5">amod</dependency>
+      <dependency dep="component" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="complex" gov_index="15">det</dependency>
+      <dependency dep="RNA" dep_index="8" gov="complex" gov_index="15">nn</dependency>
+      <dependency dep="polymerase" dep_index="9" gov="complex" gov_index="15">nn</dependency>
+      <dependency dep="II" dep_index="10" gov="complex" gov_index="15">nn</dependency>
+      <dependency dep="(RNAP" dep_index="11" gov="complex" gov_index="15">nn</dependency>
+      <dependency dep="II)" dep_index="12" gov="complex" gov_index="15">nn</dependency>
+      <dependency dep="transcription" dep_index="13" gov="complex" gov_index="15">nn</dependency>
+      <dependency dep="initiation" dep_index="14" gov="complex" gov_index="15">nn</dependency>
+      <dependency dep="complex" dep_index="15" gov="component" gov_index="5">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

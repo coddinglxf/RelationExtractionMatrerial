@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Rhodanese@and@glutamine synthetase@were@chosen@as@substrates@because@they@exhibit@different@solution@requirements@for@the@chaperonin@system@and@they@form@stable@"folding@arrested"@complexes@with@groEL@.@</sentence>
+   <tags>
+      <tag pos="1">Rhodanese</tag>
+      <tag pos="3">glutamine synthetase</tag>
+      <tag pos="26">groEL</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Rhodanese</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NN">glutamine synthetase</taggedword>
+      <taggedword index="4" part-of-speech="VBD">were</taggedword>
+      <taggedword index="5" part-of-speech="VBN">chosen</taggedword>
+      <taggedword index="6" part-of-speech="IN">as</taggedword>
+      <taggedword index="7" part-of-speech="NNS">substrates</taggedword>
+      <taggedword index="8" part-of-speech="IN">because</taggedword>
+      <taggedword index="9" part-of-speech="PRP">they</taggedword>
+      <taggedword index="10" part-of-speech="VB">exhibit</taggedword>
+      <taggedword index="11" part-of-speech="JJ">different</taggedword>
+      <taggedword index="12" part-of-speech="NN">solution</taggedword>
+      <taggedword index="13" part-of-speech="NNS">requirements</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">chaperonin</taggedword>
+      <taggedword index="17" part-of-speech="NN">system</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="PRP">they</taggedword>
+      <taggedword index="20" part-of-speech="VBP">form</taggedword>
+      <taggedword index="21" part-of-speech="JJ">stable</taggedword>
+      <taggedword index="22" part-of-speech="VBG">"folding</taggedword>
+      <taggedword index="23" part-of-speech="JJ">arrested"</taggedword>
+      <taggedword index="24" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="25" part-of-speech="IN">with</taggedword>
+      <taggedword index="26" part-of-speech="NN">groEL</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Rhodanese" dep_index="1" gov="chosen" gov_index="5">nsubjpass</dependency>
+      <dependency dep="glutamine synthetase" dep_index="3" gov="Rhodanese" gov_index="1">conj_and</dependency>
+      <dependency dep="glutamine synthetase" dep_index="3" gov="chosen" gov_index="5">nsubjpass</dependency>
+      <dependency dep="were" dep_index="4" gov="chosen" gov_index="5">auxpass</dependency>
+      <dependency dep="chosen" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="substrates" dep_index="7" gov="chosen" gov_index="5">prep_as</dependency>
+      <dependency dep="because" dep_index="8" gov="exhibit" gov_index="10">mark</dependency>
+      <dependency dep="they" dep_index="9" gov="exhibit" gov_index="10">nsubj</dependency>
+      <dependency dep="exhibit" dep_index="10" gov="chosen" gov_index="5">advcl</dependency>
+      <dependency dep="different" dep_index="11" gov="requirements" gov_index="13">amod</dependency>
+      <dependency dep="solution" dep_index="12" gov="requirements" gov_index="13">nn</dependency>
+      <dependency dep="requirements" dep_index="13" gov="exhibit" gov_index="10">dobj</dependency>
+      <dependency dep="the" dep_index="15" gov="system" gov_index="17">det</dependency>
+      <dependency dep="chaperonin" dep_index="16" gov="system" gov_index="17">nn</dependency>
+      <dependency dep="system" dep_index="17" gov="exhibit" gov_index="10">prep_for</dependency>
+      <dependency dep="they" dep_index="19" gov="form" gov_index="20">nsubj</dependency>
+      <dependency dep="form" dep_index="20" gov="chosen" gov_index="5">conj_and</dependency>
+      <dependency dep="stable" dep_index="21" gov="form" gov_index="20">acomp</dependency>
+      <dependency dep="&quot;folding" dep_index="22" gov="stable" gov_index="21">dep</dependency>
+      <dependency dep="arrested&quot;" dep_index="23" gov="complexes" gov_index="24">amod</dependency>
+      <dependency dep="complexes" dep_index="24" gov="&quot;folding" gov_index="22">dobj</dependency>
+      <dependency dep="groEL" dep_index="26" gov="&quot;folding" gov_index="22">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false">1 5 3</relation>
+      <relation position="100026" relationship="true"></relation>
+      <relation position="300026" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>100026</pair>
+      <pair>300026</pair>
+   </pairs>
+</root>

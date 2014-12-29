@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Actin-depolymerizing factor@(@ADF@)@and@cofilin@define@a@family@of@actin-binding proteins@essential@for@the@rapid@turnover@of@filamentous@actin@in@vivo@.@</sentence>
+   <tags>
+      <tag pos="3">ADF</tag>
+      <tag pos="1">Actin-depolymerizing factor</tag>
+      <tag pos="6">cofilin</tag>
+      <tag pos="19">actin</tag>
+      <tag pos="11">actin-binding proteins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Actin-depolymerizing factor</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">ADF</taggedword>
+      <taggedword index="4" part-of-speech="NNP">)</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="7" part-of-speech="VB">define</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="NN">family</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">actin-binding proteins</taggedword>
+      <taggedword index="12" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="13" part-of-speech="IN">for</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="16" part-of-speech="NN">turnover</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNS">filamentous</taggedword>
+      <taggedword index="19" part-of-speech="NN">actin</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Actin-depolymerizing factor" dep_index="1" gov=")" gov_index="4">nn</dependency>
+      <dependency dep="(" dep_index="2" gov=")" gov_index="4">nn</dependency>
+      <dependency dep="ADF" dep_index="3" gov=")" gov_index="4">nn</dependency>
+      <dependency dep=")" dep_index="4" gov="define" gov_index="7">nsubj</dependency>
+      <dependency dep="cofilin" dep_index="6" gov=")" gov_index="4">conj_and</dependency>
+      <dependency dep="cofilin" dep_index="6" gov="define" gov_index="7">nsubj</dependency>
+      <dependency dep="define" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="8" gov="family" gov_index="9">det</dependency>
+      <dependency dep="family" dep_index="9" gov="define" gov_index="7">dobj</dependency>
+      <dependency dep="actin-binding proteins" dep_index="11" gov="actin" gov_index="19">amod</dependency>
+      <dependency dep="essential" dep_index="12" gov="actin" gov_index="19">amod</dependency>
+      <dependency dep="the" dep_index="14" gov="turnover" gov_index="16">det</dependency>
+      <dependency dep="rapid" dep_index="15" gov="turnover" gov_index="16">amod</dependency>
+      <dependency dep="turnover" dep_index="16" gov="essential" gov_index="12">prep_for</dependency>
+      <dependency dep="filamentous" dep_index="18" gov="turnover" gov_index="16">prep_of</dependency>
+      <dependency dep="actin" dep_index="19" gov="family" gov_index="9">prep_of</dependency>
+      <dependency dep="vivo" dep_index="21" gov="actin" gov_index="19">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false">1 4 3</relation>
+      <relation position="300006" relationship="false">3 4 7 6</relation>
+      <relation position="300019" relationship="false">3 4 7 9 19</relation>
+      <relation position="300011" relationship="true">3 4 7 9 19 11</relation>
+      <relation position="100006" relationship="false">1 4 7 6</relation>
+      <relation position="100019" relationship="false">1 4 7 9 19</relation>
+      <relation position="100011" relationship="true">1 4 7 9 19 11</relation>
+      <relation position="600019" relationship="false">6 7 9 19</relation>
+      <relation position="600011" relationship="true">6 7 9 19 11</relation>
+      <relation position="1100019" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>1100019</pair>
+      <pair>600011</pair>
+      <pair>100011</pair>
+      <pair>300011</pair>
+   </pairs>
+</root>

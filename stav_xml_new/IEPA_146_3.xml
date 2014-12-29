@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@PKC inhibitors@Ro-31-8220@(1@microM)@and@calphostin@C@(250@nM)@completely@blocked@the@stimulation@of@Ca2+@spiking@by@either@PMA@or@AVP@</sentence>
+   <tags>
+      <tag pos="2">PKC inhibitors</tag>
+      <tag pos="22">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">PKC inhibitors</taggedword>
+      <taggedword index="3" part-of-speech="NN">Ro-31-8220</taggedword>
+      <taggedword index="4" part-of-speech="CD">(1</taggedword>
+      <taggedword index="5" part-of-speech="NNP">microM)</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">calphostin</taggedword>
+      <taggedword index="8" part-of-speech="NNP">C</taggedword>
+      <taggedword index="9" part-of-speech="CD">(250</taggedword>
+      <taggedword index="10" part-of-speech="NN">nM)</taggedword>
+      <taggedword index="11" part-of-speech="RB">completely</taggedword>
+      <taggedword index="12" part-of-speech="VBD">blocked</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NNS">Ca2+</taggedword>
+      <taggedword index="17" part-of-speech="VBG">spiking</taggedword>
+      <taggedword index="18" part-of-speech="IN">by</taggedword>
+      <taggedword index="19" part-of-speech="DT">either</taggedword>
+      <taggedword index="20" part-of-speech="NNP">PMA</taggedword>
+      <taggedword index="21" part-of-speech="CC">or</taggedword>
+      <taggedword index="22" part-of-speech="NNP">AVP</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="microM)" gov_index="5">det</dependency>
+      <dependency dep="PKC inhibitors" dep_index="2" gov="microM)" gov_index="5">nn</dependency>
+      <dependency dep="Ro-31-8220" dep_index="3" gov="microM)" gov_index="5">nn</dependency>
+      <dependency dep="(1" dep_index="4" gov="microM)" gov_index="5">num</dependency>
+      <dependency dep="microM)" dep_index="5" gov="blocked" gov_index="12">nsubj</dependency>
+      <dependency dep="calphostin" dep_index="7" gov="nM)" gov_index="10">nn</dependency>
+      <dependency dep="C" dep_index="8" gov="nM)" gov_index="10">nn</dependency>
+      <dependency dep="(250" dep_index="9" gov="nM)" gov_index="10">num</dependency>
+      <dependency dep="nM)" dep_index="10" gov="microM)" gov_index="5">conj_and</dependency>
+      <dependency dep="nM)" dep_index="10" gov="blocked" gov_index="12">nsubj</dependency>
+      <dependency dep="completely" dep_index="11" gov="blocked" gov_index="12">advmod</dependency>
+      <dependency dep="blocked" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="13" gov="stimulation" gov_index="14">det</dependency>
+      <dependency dep="stimulation" dep_index="14" gov="blocked" gov_index="12">dobj</dependency>
+      <dependency dep="Ca2+" dep_index="16" gov="stimulation" gov_index="14">prep_of</dependency>
+      <dependency dep="spiking" dep_index="17" gov="Ca2+" gov_index="16">partmod</dependency>
+      <dependency dep="either" dep_index="19" gov="PMA" gov_index="20">preconj</dependency>
+      <dependency dep="PMA" dep_index="20" gov="spiking" gov_index="17">agent</dependency>
+      <dependency dep="AVP" dep_index="22" gov="spiking" gov_index="17">agent</dependency>
+      <dependency dep="AVP" dep_index="22" gov="PMA" gov_index="20">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200022" relationship="true">2 5 12 14 16 17 22</relation>
+   </relations>
+   <pairs>
+      <pair>200022</pair>
+   </pairs>
+</root>

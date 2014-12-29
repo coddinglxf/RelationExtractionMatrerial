@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interaction@of@talin@with@actin@:@sensitive@modulation@of@filament@crosslinking@activity@.@</sentence>
+   <tags>
+      <tag pos="3">talin</tag>
+      <tag pos="5">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Interaction</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">talin</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="NN">actin</taggedword>
+      <taggedword index="6" part-of-speech=":">:</taggedword>
+      <taggedword index="7" part-of-speech="JJ">sensitive</taggedword>
+      <taggedword index="8" part-of-speech="NN">modulation</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="JJ">filament</taggedword>
+      <taggedword index="11" part-of-speech="NN">crosslinking</taggedword>
+      <taggedword index="12" part-of-speech="NN">activity</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interaction" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="talin" dep_index="3" gov="Interaction" gov_index="1">prep_of</dependency>
+      <dependency dep="actin" dep_index="5" gov="talin" gov_index="3">prep_with</dependency>
+      <dependency dep="sensitive" dep_index="7" gov="modulation" gov_index="8">amod</dependency>
+      <dependency dep="modulation" dep_index="8" gov="Interaction" gov_index="1">dep</dependency>
+      <dependency dep="filament" dep_index="10" gov="activity" gov_index="12">amod</dependency>
+      <dependency dep="crosslinking" dep_index="11" gov="activity" gov_index="12">nn</dependency>
+      <dependency dep="activity" dep_index="12" gov="modulation" gov_index="8">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>300005</pair>
+   </pairs>
+</root>

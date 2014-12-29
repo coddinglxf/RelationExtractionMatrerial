@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@findings@provide@a@framework@for@the@molecular@description@of@receptor@recognition@and@activation@in@the@BMP/@TGF-beta@superfamily@.@</sentence>
+   <tags>
+      <tag pos="18">TGF-beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">findings</taggedword>
+      <taggedword index="3" part-of-speech="VBP">provide</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="NN">framework</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">molecular</taggedword>
+      <taggedword index="9" part-of-speech="NN">description</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="12" part-of-speech="NN">recognition</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">activation</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">BMP/</taggedword>
+      <taggedword index="18" part-of-speech="JJ">TGF-beta</taggedword>
+      <taggedword index="19" part-of-speech="NN">superfamily</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="findings" gov_index="2">det</dependency>
+      <dependency dep="findings" dep_index="2" gov="provide" gov_index="3">nsubj</dependency>
+      <dependency dep="provide" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="framework" gov_index="5">det</dependency>
+      <dependency dep="framework" dep_index="5" gov="provide" gov_index="3">dobj</dependency>
+      <dependency dep="the" dep_index="7" gov="description" gov_index="9">det</dependency>
+      <dependency dep="molecular" dep_index="8" gov="description" gov_index="9">amod</dependency>
+      <dependency dep="description" dep_index="9" gov="framework" gov_index="5">prep_for</dependency>
+      <dependency dep="receptor" dep_index="11" gov="recognition" gov_index="12">nn</dependency>
+      <dependency dep="recognition" dep_index="12" gov="description" gov_index="9">prep_of</dependency>
+      <dependency dep="activation" dep_index="14" gov="description" gov_index="9">prep_of</dependency>
+      <dependency dep="activation" dep_index="14" gov="recognition" gov_index="12">conj_and</dependency>
+      <dependency dep="the" dep_index="16" gov="superfamily" gov_index="19">det</dependency>
+      <dependency dep="BMP/" dep_index="17" gov="superfamily" gov_index="19">amod</dependency>
+      <dependency dep="TGF-beta" dep_index="18" gov="superfamily" gov_index="19">amod</dependency>
+      <dependency dep="superfamily" dep_index="19" gov="provide" gov_index="3">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

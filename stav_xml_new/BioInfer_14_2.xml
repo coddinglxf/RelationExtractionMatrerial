@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@studies@suggest@that@profilin@and@gelsolin@may@control@the@generation@of@3-OH@phosphorylated@phosphoinositides@,@which@in@turn@may@regulate@the@actin@polymerization@.@</sentence>
+   <tags>
+      <tag pos="5">profilin</tag>
+      <tag pos="23">actin</tag>
+      <tag pos="7">gelsolin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">gelsolin</taggedword>
+      <taggedword index="8" part-of-speech="MD">may</taggedword>
+      <taggedword index="9" part-of-speech="VB">control</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">generation</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="CD">3-OH</taggedword>
+      <taggedword index="14" part-of-speech="JJ">phosphorylated</taggedword>
+      <taggedword index="15" part-of-speech="NNS">phosphoinositides</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="WDT">which</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="NN">turn</taggedword>
+      <taggedword index="20" part-of-speech="MD">may</taggedword>
+      <taggedword index="21" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">actin</taggedword>
+      <taggedword index="24" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="studies" gov_index="2">det</dependency>
+      <dependency dep="studies" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="control" gov_index="9">mark</dependency>
+      <dependency dep="profilin" dep_index="5" gov="control" gov_index="9">nsubj</dependency>
+      <dependency dep="gelsolin" dep_index="7" gov="profilin" gov_index="5">conj_and</dependency>
+      <dependency dep="gelsolin" dep_index="7" gov="control" gov_index="9">nsubj</dependency>
+      <dependency dep="may" dep_index="8" gov="control" gov_index="9">aux</dependency>
+      <dependency dep="control" dep_index="9" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="10" gov="generation" gov_index="11">det</dependency>
+      <dependency dep="generation" dep_index="11" gov="control" gov_index="9">dobj</dependency>
+      <dependency dep="3-OH" dep_index="13" gov="phosphoinositides" gov_index="15">num</dependency>
+      <dependency dep="phosphorylated" dep_index="14" gov="phosphoinositides" gov_index="15">amod</dependency>
+      <dependency dep="phosphoinositides" dep_index="15" gov="generation" gov_index="11">prep_of</dependency>
+      <dependency dep="phosphoinositides" dep_index="15" gov="regulate" gov_index="21">nsubj</dependency>
+      <dependency dep="turn" dep_index="19" gov="regulate" gov_index="21">prep_in</dependency>
+      <dependency dep="may" dep_index="20" gov="regulate" gov_index="21">aux</dependency>
+      <dependency dep="regulate" dep_index="21" gov="phosphoinositides" gov_index="15">rcmod</dependency>
+      <dependency dep="the" dep_index="22" gov="polymerization" gov_index="24">det</dependency>
+      <dependency dep="actin" dep_index="23" gov="polymerization" gov_index="24">nn</dependency>
+      <dependency dep="polymerization" dep_index="24" gov="regulate" gov_index="21">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500023" relationship="false">5 9 11 15 21 24 23</relation>
+      <relation position="500007" relationship="false">5 9 7</relation>
+      <relation position="700023" relationship="false">7 9 11 15 21 24 23</relation>
+   </relations>
+   <pairs/>
+</root>

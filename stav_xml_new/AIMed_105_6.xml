@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@demonstrate@here@that@both@the@site@2@and@site@3@IL-6@variants@complexed@with@IL-6R alpha@bind@a@single@gp130@molecule@but@are@unable@to@dimerize@it@,@whereas@the@combined@site@2/3@variants@lose@the@ability@to@interact@with@gp130@.@</sentence>
+   <tags>
+      <tag pos="12">IL-6</tag>
+      <tag pos="16">IL-6R alpha</tag>
+      <tag pos="20">gp130</tag>
+      <tag pos="41">gp130</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="3" part-of-speech="RB">here</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="PDT">both</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">site</taggedword>
+      <taggedword index="8" part-of-speech="CD">2</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">site</taggedword>
+      <taggedword index="11" part-of-speech="CD">3</taggedword>
+      <taggedword index="12" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="13" part-of-speech="NNS">variants</taggedword>
+      <taggedword index="14" part-of-speech="VBD">complexed</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="NNS">IL-6R alpha</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">bind</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">single</taggedword>
+      <taggedword index="20" part-of-speech="JJ">gp130</taggedword>
+      <taggedword index="21" part-of-speech="NN">molecule</taggedword>
+      <taggedword index="22" part-of-speech="CC">but</taggedword>
+      <taggedword index="23" part-of-speech="VBP">are</taggedword>
+      <taggedword index="24" part-of-speech="JJ">unable</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="VB">dimerize</taggedword>
+      <taggedword index="27" part-of-speech="PRP">it</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="JJ">combined</taggedword>
+      <taggedword index="32" part-of-speech="NN">site</taggedword>
+      <taggedword index="33" part-of-speech="CD">2/3</taggedword>
+      <taggedword index="34" part-of-speech="NNS">variants</taggedword>
+      <taggedword index="35" part-of-speech="VBP">lose</taggedword>
+      <taggedword index="36" part-of-speech="DT">the</taggedword>
+      <taggedword index="37" part-of-speech="NN">ability</taggedword>
+      <taggedword index="38" part-of-speech="TO">to</taggedword>
+      <taggedword index="39" part-of-speech="VB">interact</taggedword>
+      <taggedword index="40" part-of-speech="IN">with</taggedword>
+      <taggedword index="41" part-of-speech="CD">gp130</taggedword>
+      <taggedword index="42" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="demonstrate" gov_index="2">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="here" dep_index="3" gov="demonstrate" gov_index="2">advmod</dependency>
+      <dependency dep="that" dep_index="4" gov="bind" gov_index="17">mark</dependency>
+      <dependency dep="both" dep_index="5" gov="site" gov_index="7">predet</dependency>
+      <dependency dep="the" dep_index="6" gov="site" gov_index="7">det</dependency>
+      <dependency dep="site" dep_index="7" gov="complexed" gov_index="14">dobj</dependency>
+      <dependency dep="site" dep_index="7" gov="bind" gov_index="17">nsubj</dependency>
+      <dependency dep="site" dep_index="7" gov="unable" gov_index="24">nsubj</dependency>
+      <dependency dep="site" dep_index="7" gov="dimerize" gov_index="26">xsubj</dependency>
+      <dependency dep="2" dep_index="8" gov="variants" gov_index="13">nn</dependency>
+      <dependency dep="site" dep_index="10" gov="2" gov_index="8">conj_and</dependency>
+      <dependency dep="site" dep_index="10" gov="variants" gov_index="13">nn</dependency>
+      <dependency dep="3" dep_index="11" gov="variants" gov_index="13">num</dependency>
+      <dependency dep="IL-6" dep_index="12" gov="variants" gov_index="13">nn</dependency>
+      <dependency dep="variants" dep_index="13" gov="complexed" gov_index="14">nsubj</dependency>
+      <dependency dep="complexed" dep_index="14" gov="site" gov_index="7">rcmod</dependency>
+      <dependency dep="IL-6R alpha" dep_index="16" gov="complexed" gov_index="14">prep_with</dependency>
+      <dependency dep="bind" dep_index="17" gov="demonstrate" gov_index="2">ccomp</dependency>
+      <dependency dep="a" dep_index="18" gov="molecule" gov_index="21">det</dependency>
+      <dependency dep="single" dep_index="19" gov="molecule" gov_index="21">amod</dependency>
+      <dependency dep="gp130" dep_index="20" gov="molecule" gov_index="21">amod</dependency>
+      <dependency dep="molecule" dep_index="21" gov="bind" gov_index="17">dobj</dependency>
+      <dependency dep="are" dep_index="23" gov="unable" gov_index="24">cop</dependency>
+      <dependency dep="unable" dep_index="24" gov="demonstrate" gov_index="2">ccomp</dependency>
+      <dependency dep="unable" dep_index="24" gov="bind" gov_index="17">conj_but</dependency>
+      <dependency dep="to" dep_index="25" gov="dimerize" gov_index="26">aux</dependency>
+      <dependency dep="dimerize" dep_index="26" gov="unable" gov_index="24">xcomp</dependency>
+      <dependency dep="it" dep_index="27" gov="dimerize" gov_index="26">dobj</dependency>
+      <dependency dep="whereas" dep_index="29" gov="lose" gov_index="35">mark</dependency>
+      <dependency dep="the" dep_index="30" gov="site" gov_index="32">det</dependency>
+      <dependency dep="combined" dep_index="31" gov="site" gov_index="32">amod</dependency>
+      <dependency dep="site" dep_index="32" gov="lose" gov_index="35">nsubj</dependency>
+      <dependency dep="2/3" dep_index="33" gov="variants" gov_index="34">num</dependency>
+      <dependency dep="variants" dep_index="34" gov="site" gov_index="32">dep</dependency>
+      <dependency dep="lose" dep_index="35" gov="dimerize" gov_index="26">advcl</dependency>
+      <dependency dep="the" dep_index="36" gov="ability" gov_index="37">det</dependency>
+      <dependency dep="ability" dep_index="37" gov="interact" gov_index="39">nsubj</dependency>
+      <dependency dep="to" dep_index="38" gov="interact" gov_index="39">aux</dependency>
+      <dependency dep="interact" dep_index="39" gov="lose" gov_index="35">xcomp</dependency>
+      <dependency dep="gp130" dep_index="41" gov="interact" gov_index="39">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200016" relationship="true">12 13 14 16</relation>
+      <relation position="1200020" relationship="true">12 13 14 7 17 21 20</relation>
+      <relation position="1200041" relationship="false">12 13 14 7 26 35 39 41</relation>
+      <relation position="1600020" relationship="true">16 14 7 17 21 20</relation>
+      <relation position="1600041" relationship="false">16 14 7 26 35 39 41</relation>
+      <relation position="2000041" relationship="false">20 21 17 24 26 35 39 41</relation>
+   </relations>
+   <pairs>
+      <pair>1200016</pair>
+      <pair>1200020</pair>
+      <pair>1600020</pair>
+   </pairs>
+</root>

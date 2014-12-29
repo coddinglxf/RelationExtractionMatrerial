@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>To@characterize@these@pathways@,@we@focused@on@changes@in@the@cyclin-dependent@kinase@inhibitors@and@their@binding@partners@that@underlie@the@cell@cycle@arrest@at@senescence@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="TO">To</taggedword>
+      <taggedword index="2" part-of-speech="VB">characterize</taggedword>
+      <taggedword index="3" part-of-speech="DT">these</taggedword>
+      <taggedword index="4" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="PRP">we</taggedword>
+      <taggedword index="7" part-of-speech="VBD">focused</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">cyclin-dependent</taggedword>
+      <taggedword index="13" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="14" part-of-speech="NNS">inhibitors</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="17" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="18" part-of-speech="NNS">partners</taggedword>
+      <taggedword index="19" part-of-speech="WDT">that</taggedword>
+      <taggedword index="20" part-of-speech="VB">underlie</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">cell</taggedword>
+      <taggedword index="23" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="24" part-of-speech="NN">arrest</taggedword>
+      <taggedword index="25" part-of-speech="IN">at</taggedword>
+      <taggedword index="26" part-of-speech="NN">senescence</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="To" dep_index="1" gov="characterize" gov_index="2">aux</dependency>
+      <dependency dep="characterize" dep_index="2" gov="focused" gov_index="7">advcl</dependency>
+      <dependency dep="these" dep_index="3" gov="pathways" gov_index="4">det</dependency>
+      <dependency dep="pathways" dep_index="4" gov="characterize" gov_index="2">dobj</dependency>
+      <dependency dep="we" dep_index="6" gov="focused" gov_index="7">nsubj</dependency>
+      <dependency dep="focused" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="changes" dep_index="9" gov="focused" gov_index="7">prep_on</dependency>
+      <dependency dep="the" dep_index="11" gov="inhibitors" gov_index="14">det</dependency>
+      <dependency dep="cyclin-dependent" dep_index="12" gov="inhibitors" gov_index="14">amod</dependency>
+      <dependency dep="kinase" dep_index="13" gov="inhibitors" gov_index="14">amod</dependency>
+      <dependency dep="inhibitors" dep_index="14" gov="changes" gov_index="9">prep_in</dependency>
+      <dependency dep="their" dep_index="16" gov="partners" gov_index="18">poss</dependency>
+      <dependency dep="binding" dep_index="17" gov="partners" gov_index="18">amod</dependency>
+      <dependency dep="partners" dep_index="18" gov="focused" gov_index="7">prep_on</dependency>
+      <dependency dep="partners" dep_index="18" gov="changes" gov_index="9">conj_and</dependency>
+      <dependency dep="partners" dep_index="18" gov="underlie" gov_index="20">nsubj</dependency>
+      <dependency dep="underlie" dep_index="20" gov="partners" gov_index="18">rcmod</dependency>
+      <dependency dep="the" dep_index="21" gov="arrest" gov_index="24">det</dependency>
+      <dependency dep="cell" dep_index="22" gov="arrest" gov_index="24">nn</dependency>
+      <dependency dep="cycle" dep_index="23" gov="arrest" gov_index="24">nn</dependency>
+      <dependency dep="arrest" dep_index="24" gov="underlie" gov_index="20">dobj</dependency>
+      <dependency dep="senescence" dep_index="26" gov="underlie" gov_index="20">prep_at</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

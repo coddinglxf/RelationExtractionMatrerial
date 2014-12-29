@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@particular@,@both@profilin@and@free@filament@barbed@ends@have@been@shown@to@play@major@roles@in@the@processing@of@ATP@by@actin@.@</sentence>
+   <tags>
+      <tag pos="5">profilin</tag>
+      <tag pos="24">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">particular</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">both</taggedword>
+      <taggedword index="5" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="JJ">free</taggedword>
+      <taggedword index="8" part-of-speech="JJ">filament</taggedword>
+      <taggedword index="9" part-of-speech="JJ">barbed</taggedword>
+      <taggedword index="10" part-of-speech="NNS">ends</taggedword>
+      <taggedword index="11" part-of-speech="VBP">have</taggedword>
+      <taggedword index="12" part-of-speech="VBN">been</taggedword>
+      <taggedword index="13" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">play</taggedword>
+      <taggedword index="16" part-of-speech="JJ">major</taggedword>
+      <taggedword index="17" part-of-speech="NNS">roles</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">processing</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNP">ATP</taggedword>
+      <taggedword index="23" part-of-speech="IN">by</taggedword>
+      <taggedword index="24" part-of-speech="NN">actin</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="particular" dep_index="2" gov="shown" gov_index="13">prep_in</dependency>
+      <dependency dep="both" dep_index="4" gov="profilin" gov_index="5">det</dependency>
+      <dependency dep="profilin" dep_index="5" gov="shown" gov_index="13">nsubjpass</dependency>
+      <dependency dep="profilin" dep_index="5" gov="play" gov_index="15">xsubj</dependency>
+      <dependency dep="free" dep_index="7" gov="ends" gov_index="10">amod</dependency>
+      <dependency dep="filament" dep_index="8" gov="ends" gov_index="10">amod</dependency>
+      <dependency dep="barbed" dep_index="9" gov="ends" gov_index="10">amod</dependency>
+      <dependency dep="ends" dep_index="10" gov="profilin" gov_index="5">conj_and</dependency>
+      <dependency dep="ends" dep_index="10" gov="shown" gov_index="13">nsubjpass</dependency>
+      <dependency dep="ends" dep_index="10" gov="play" gov_index="15">xsubj</dependency>
+      <dependency dep="have" dep_index="11" gov="shown" gov_index="13">aux</dependency>
+      <dependency dep="been" dep_index="12" gov="shown" gov_index="13">auxpass</dependency>
+      <dependency dep="shown" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="14" gov="play" gov_index="15">aux</dependency>
+      <dependency dep="play" dep_index="15" gov="shown" gov_index="13">xcomp</dependency>
+      <dependency dep="major" dep_index="16" gov="roles" gov_index="17">amod</dependency>
+      <dependency dep="roles" dep_index="17" gov="play" gov_index="15">dobj</dependency>
+      <dependency dep="the" dep_index="19" gov="processing" gov_index="20">det</dependency>
+      <dependency dep="processing" dep_index="20" gov="play" gov_index="15">prep_in</dependency>
+      <dependency dep="ATP" dep_index="22" gov="processing" gov_index="20">prep_of</dependency>
+      <dependency dep="actin" dep_index="24" gov="play" gov_index="15">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500024" relationship="false">5 15 24</relation>
+   </relations>
+   <pairs/>
+</root>

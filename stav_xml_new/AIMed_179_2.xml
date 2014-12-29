@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@growth-promoting@effects@of@gastrin@on@normal@and@neoplastic@gastrointestinal@tissues@have@been@shown@to@be@mediated@by@the@gastrin@/@CCKB receptor@,@which@belongs@to@the@family@of@G@protein-coupled@receptors@.@</sentence>
+   <tags>
+      <tag pos="5">gastrin</tag>
+      <tag pos="20">gastrin</tag>
+      <tag pos="22">CCKB receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">growth-promoting</taggedword>
+      <taggedword index="3" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NN">gastrin</taggedword>
+      <taggedword index="6" part-of-speech="IN">on</taggedword>
+      <taggedword index="7" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">neoplastic</taggedword>
+      <taggedword index="10" part-of-speech="NN">gastrointestinal</taggedword>
+      <taggedword index="11" part-of-speech="NNS">tissues</taggedword>
+      <taggedword index="12" part-of-speech="VBP">have</taggedword>
+      <taggedword index="13" part-of-speech="VBN">been</taggedword>
+      <taggedword index="14" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="VB">be</taggedword>
+      <taggedword index="17" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="18" part-of-speech="IN">by</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">gastrin</taggedword>
+      <taggedword index="21" part-of-speech=":">/</taggedword>
+      <taggedword index="22" part-of-speech="NNP">CCKB receptor</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="WDT">which</taggedword>
+      <taggedword index="25" part-of-speech="VBZ">belongs</taggedword>
+      <taggedword index="26" part-of-speech="TO">to</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">family</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NNP">G</taggedword>
+      <taggedword index="31" part-of-speech="JJ">protein-coupled</taggedword>
+      <taggedword index="32" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="effects" gov_index="3">det</dependency>
+      <dependency dep="growth-promoting" dep_index="2" gov="effects" gov_index="3">amod</dependency>
+      <dependency dep="effects" dep_index="3" gov="shown" gov_index="14">nsubjpass</dependency>
+      <dependency dep="effects" dep_index="3" gov="mediated" gov_index="17">xsubj</dependency>
+      <dependency dep="gastrin" dep_index="5" gov="effects" gov_index="3">prep_of</dependency>
+      <dependency dep="normal" dep_index="7" gov="tissues" gov_index="11">amod</dependency>
+      <dependency dep="neoplastic" dep_index="9" gov="normal" gov_index="7">conj_and</dependency>
+      <dependency dep="neoplastic" dep_index="9" gov="tissues" gov_index="11">amod</dependency>
+      <dependency dep="gastrointestinal" dep_index="10" gov="tissues" gov_index="11">nn</dependency>
+      <dependency dep="tissues" dep_index="11" gov="gastrin" gov_index="5">prep_on</dependency>
+      <dependency dep="have" dep_index="12" gov="shown" gov_index="14">aux</dependency>
+      <dependency dep="been" dep_index="13" gov="shown" gov_index="14">auxpass</dependency>
+      <dependency dep="shown" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="15" gov="mediated" gov_index="17">aux</dependency>
+      <dependency dep="be" dep_index="16" gov="mediated" gov_index="17">auxpass</dependency>
+      <dependency dep="mediated" dep_index="17" gov="shown" gov_index="14">xcomp</dependency>
+      <dependency dep="the" dep_index="19" gov="gastrin" gov_index="20">det</dependency>
+      <dependency dep="gastrin" dep_index="20" gov="mediated" gov_index="17">agent</dependency>
+      <dependency dep="gastrin" dep_index="20" gov="belongs" gov_index="25">nsubj</dependency>
+      <dependency dep="/" dep_index="21" gov="CCKB receptor" gov_index="22">punct</dependency>
+      <dependency dep="CCKB receptor" dep_index="22" gov="gastrin" gov_index="20">dep</dependency>
+      <dependency dep="belongs" dep_index="25" gov="gastrin" gov_index="20">rcmod</dependency>
+      <dependency dep="the" dep_index="27" gov="family" gov_index="28">det</dependency>
+      <dependency dep="family" dep_index="28" gov="belongs" gov_index="25">prep_to</dependency>
+      <dependency dep="G" dep_index="30" gov="receptors" gov_index="32">nn</dependency>
+      <dependency dep="protein-coupled" dep_index="31" gov="receptors" gov_index="32">amod</dependency>
+      <dependency dep="receptors" dep_index="32" gov="family" gov_index="28">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500020" relationship="false">5 3 17 20</relation>
+      <relation position="500022" relationship="false">5 3 17 20 22</relation>
+      <relation position="2000022" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

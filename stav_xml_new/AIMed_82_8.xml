@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@now@show@that@the@FRAP@Ser2035--&gt;Ala@mutant@displays@similar@binding@affinity@when@compared@with@the@wild-type@protein@,@whereas@all@other@mutations@at@this@site@,@including@mimics@of@phosphoserine@,@abolish@binding@,@presumably@due@to@either@unfavorable@steric@interactions@or@induced@conformational@changes@.@</sentence>
+   <tags>
+      <tag pos="6">FRAP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="RB">now</taggedword>
+      <taggedword index="3" part-of-speech="VBP">show</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NNP">FRAP</taggedword>
+      <taggedword index="7" part-of-speech="VBP">Ser2035--&gt;Ala</taggedword>
+      <taggedword index="8" part-of-speech="JJ">mutant</taggedword>
+      <taggedword index="9" part-of-speech="NNS">displays</taggedword>
+      <taggedword index="10" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="11" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="12" part-of-speech="RB">affinity</taggedword>
+      <taggedword index="13" part-of-speech="WRB">when</taggedword>
+      <taggedword index="14" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">wild-type</taggedword>
+      <taggedword index="18" part-of-speech="NN">protein</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="21" part-of-speech="DT">all</taggedword>
+      <taggedword index="22" part-of-speech="JJ">other</taggedword>
+      <taggedword index="23" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="24" part-of-speech="IN">at</taggedword>
+      <taggedword index="25" part-of-speech="DT">this</taggedword>
+      <taggedword index="26" part-of-speech="NN">site</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="VBG">including</taggedword>
+      <taggedword index="29" part-of-speech="NNP">mimics</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="NN">phosphoserine</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="VB">abolish</taggedword>
+      <taggedword index="34" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="RB">presumably</taggedword>
+      <taggedword index="37" part-of-speech="JJ">due</taggedword>
+      <taggedword index="38" part-of-speech="TO">to</taggedword>
+      <taggedword index="39" part-of-speech="DT">either</taggedword>
+      <taggedword index="40" part-of-speech="JJ">unfavorable</taggedword>
+      <taggedword index="41" part-of-speech="JJ">steric</taggedword>
+      <taggedword index="42" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="43" part-of-speech="CC">or</taggedword>
+      <taggedword index="44" part-of-speech="VBG">induced</taggedword>
+      <taggedword index="45" part-of-speech="JJ">conformational</taggedword>
+      <taggedword index="46" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="47" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="show" gov_index="3">nsubj</dependency>
+      <dependency dep="now" dep_index="2" gov="show" gov_index="3">advmod</dependency>
+      <dependency dep="show" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="Ser2035--&gt;Ala" gov_index="7">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="FRAP" gov_index="6">det</dependency>
+      <dependency dep="FRAP" dep_index="6" gov="Ser2035--&gt;Ala" gov_index="7">nsubj</dependency>
+      <dependency dep="Ser2035--&gt;Ala" dep_index="7" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="mutant" dep_index="8" gov="displays" gov_index="9">amod</dependency>
+      <dependency dep="displays" dep_index="9" gov="binding" gov_index="11">nsubj</dependency>
+      <dependency dep="similar" dep_index="10" gov="binding" gov_index="11">dep</dependency>
+      <dependency dep="binding" dep_index="11" gov="Ser2035--&gt;Ala" gov_index="7">xcomp</dependency>
+      <dependency dep="affinity" dep_index="12" gov="binding" gov_index="11">advmod</dependency>
+      <dependency dep="when" dep_index="13" gov="compared" gov_index="14">advmod</dependency>
+      <dependency dep="compared" dep_index="14" gov="binding" gov_index="11">ccomp</dependency>
+      <dependency dep="the" dep_index="16" gov="protein" gov_index="18">det</dependency>
+      <dependency dep="wild-type" dep_index="17" gov="protein" gov_index="18">amod</dependency>
+      <dependency dep="protein" dep_index="18" gov="compared" gov_index="14">prep_with</dependency>
+      <dependency dep="whereas" dep_index="20" gov="abolish" gov_index="33">mark</dependency>
+      <dependency dep="all" dep_index="21" gov="mutations" gov_index="23">det</dependency>
+      <dependency dep="other" dep_index="22" gov="mutations" gov_index="23">amod</dependency>
+      <dependency dep="mutations" dep_index="23" gov="abolish" gov_index="33">nsubj</dependency>
+      <dependency dep="this" dep_index="25" gov="site" gov_index="26">det</dependency>
+      <dependency dep="site" dep_index="26" gov="mutations" gov_index="23">prep_at</dependency>
+      <dependency dep="mimics" dep_index="29" gov="mutations" gov_index="23">prep_including</dependency>
+      <dependency dep="phosphoserine" dep_index="31" gov="mimics" gov_index="29">prep_of</dependency>
+      <dependency dep="abolish" dep_index="33" gov="Ser2035--&gt;Ala" gov_index="7">advcl</dependency>
+      <dependency dep="binding" dep_index="34" gov="abolish" gov_index="33">acomp</dependency>
+      <dependency dep="presumably" dep_index="36" gov="due" gov_index="37">advmod</dependency>
+      <dependency dep="due" dep_index="37" gov="abolish" gov_index="33">acomp</dependency>
+      <dependency dep="due" dep_index="37" gov="binding" gov_index="34">conj_or</dependency>
+      <dependency dep="either" dep_index="39" gov="interactions" gov_index="42">det</dependency>
+      <dependency dep="unfavorable" dep_index="40" gov="interactions" gov_index="42">amod</dependency>
+      <dependency dep="steric" dep_index="41" gov="interactions" gov_index="42">amod</dependency>
+      <dependency dep="interactions" dep_index="42" gov="due" gov_index="37">prep_to</dependency>
+      <dependency dep="induced" dep_index="44" gov="abolish" gov_index="33">acomp</dependency>
+      <dependency dep="induced" dep_index="44" gov="binding" gov_index="34">conj_or</dependency>
+      <dependency dep="conformational" dep_index="45" gov="changes" gov_index="46">amod</dependency>
+      <dependency dep="changes" dep_index="46" gov="induced" gov_index="44">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

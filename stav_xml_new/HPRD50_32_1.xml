@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Differential@binding@of@vascular@cell-derived@proteoglycans@(@perlecan@,@biglycan@,@decorin@,@and@versican@)@to@the@beta-amyloid@protein@of@Alzheimer's@disease@</sentence>
+   <tags>
+      <tag pos="8">perlecan</tag>
+      <tag pos="10">biglycan</tag>
+      <tag pos="12">decorin</tag>
+      <tag pos="15">versican</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Differential</taggedword>
+      <taggedword index="2" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">vascular</taggedword>
+      <taggedword index="5" part-of-speech="JJ">cell-derived</taggedword>
+      <taggedword index="6" part-of-speech="NNS">proteoglycans</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">(</taggedword>
+      <taggedword index="8" part-of-speech="NN">perlecan</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">biglycan</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NN">decorin</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">versican</taggedword>
+      <taggedword index="16" part-of-speech="VBN">)</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">beta-amyloid</taggedword>
+      <taggedword index="20" part-of-speech="NN">protein</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNP">Alzheimer's</taggedword>
+      <taggedword index="23" part-of-speech="NN">disease</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Differential" dep_index="1" gov="(" gov_index="7">nsubj</dependency>
+      <dependency dep="binding" dep_index="2" gov="Differential" gov_index="1">amod</dependency>
+      <dependency dep="vascular" dep_index="4" gov="proteoglycans" gov_index="6">amod</dependency>
+      <dependency dep="cell-derived" dep_index="5" gov="proteoglycans" gov_index="6">amod</dependency>
+      <dependency dep="proteoglycans" dep_index="6" gov="Differential" gov_index="1">prep_of</dependency>
+      <dependency dep="(" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="perlecan" dep_index="8" gov="(" gov_index="7">dobj</dependency>
+      <dependency dep="biglycan" dep_index="10" gov="(" gov_index="7">dobj</dependency>
+      <dependency dep="biglycan" dep_index="10" gov="perlecan" gov_index="8">conj_and</dependency>
+      <dependency dep="decorin" dep_index="12" gov="(" gov_index="7">dobj</dependency>
+      <dependency dep="decorin" dep_index="12" gov="perlecan" gov_index="8">conj_and</dependency>
+      <dependency dep="versican" dep_index="15" gov="(" gov_index="7">dobj</dependency>
+      <dependency dep="versican" dep_index="15" gov="perlecan" gov_index="8">conj_and</dependency>
+      <dependency dep=")" dep_index="16" gov="perlecan" gov_index="8">partmod</dependency>
+      <dependency dep="the" dep_index="18" gov="protein" gov_index="20">det</dependency>
+      <dependency dep="beta-amyloid" dep_index="19" gov="protein" gov_index="20">amod</dependency>
+      <dependency dep="protein" dep_index="20" gov=")" gov_index="16">prep_to</dependency>
+      <dependency dep="Alzheimer's" dep_index="22" gov="disease" gov_index="23">nn</dependency>
+      <dependency dep="disease" dep_index="23" gov="protein" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 7 10</relation>
+      <relation position="800012" relationship="false">8 7 12</relation>
+      <relation position="800015" relationship="false">8 7 15</relation>
+      <relation position="1000012" relationship="false">10 7 12</relation>
+      <relation position="1000015" relationship="false">10 7 15</relation>
+      <relation position="1200015" relationship="false">12 7 15</relation>
+   </relations>
+   <pairs/>
+</root>

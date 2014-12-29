@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>To@check@its@applicability@,@well@characterized@,@commercially@available@antibodies@(against@E-cadherin@,@alpha-catenin@,@and@beta-catenin@)@were@used@on@sections@of@human@small@intestine@.@</sentence>
+   <tags>
+      <tag pos="15">alpha-catenin</tag>
+      <tag pos="18">beta-catenin</tag>
+      <tag pos="13">E-cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="TO">To</taggedword>
+      <taggedword index="2" part-of-speech="VB">check</taggedword>
+      <taggedword index="3" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="4" part-of-speech="NN">applicability</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="RB">well</taggedword>
+      <taggedword index="7" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="RB">commercially</taggedword>
+      <taggedword index="10" part-of-speech="JJ">available</taggedword>
+      <taggedword index="11" part-of-speech="JJ">antibodies</taggedword>
+      <taggedword index="12" part-of-speech="NN">(against</taggedword>
+      <taggedword index="13" part-of-speech="JJ">E-cadherin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="19" part-of-speech="JJ">)</taggedword>
+      <taggedword index="20" part-of-speech="VBD">were</taggedword>
+      <taggedword index="21" part-of-speech="VBN">used</taggedword>
+      <taggedword index="22" part-of-speech="IN">on</taggedword>
+      <taggedword index="23" part-of-speech="NNS">sections</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="JJ">human</taggedword>
+      <taggedword index="26" part-of-speech="JJ">small</taggedword>
+      <taggedword index="27" part-of-speech="NN">intestine</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="To" dep_index="1" gov="check" gov_index="2">aux</dependency>
+      <dependency dep="check" dep_index="2" gov="used" gov_index="21">advcl</dependency>
+      <dependency dep="its" dep_index="3" gov="applicability" gov_index="4">poss</dependency>
+      <dependency dep="applicability" dep_index="4" gov="check" gov_index="2">dobj</dependency>
+      <dependency dep="well" dep_index="6" gov="characterized" gov_index="7">advmod</dependency>
+      <dependency dep="characterized" dep_index="7" gov="applicability" gov_index="4">partmod</dependency>
+      <dependency dep="commercially" dep_index="9" gov="available" gov_index="10">advmod</dependency>
+      <dependency dep="available" dep_index="10" gov="(against" gov_index="12">amod</dependency>
+      <dependency dep="antibodies" dep_index="11" gov="(against" gov_index="12">amod</dependency>
+      <dependency dep="(against" dep_index="12" gov="used" gov_index="21">nsubjpass</dependency>
+      <dependency dep="E-cadherin" dep_index="13" gov=")" gov_index="19">dep</dependency>
+      <dependency dep="alpha-catenin" dep_index="15" gov="(against" gov_index="12">amod</dependency>
+      <dependency dep="alpha-catenin" dep_index="15" gov=")" gov_index="19">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="18" gov="(against" gov_index="12">amod</dependency>
+      <dependency dep="beta-catenin" dep_index="18" gov=")" gov_index="19">conj_and</dependency>
+      <dependency dep=")" dep_index="19" gov="(against" gov_index="12">amod</dependency>
+      <dependency dep="were" dep_index="20" gov="used" gov_index="21">auxpass</dependency>
+      <dependency dep="used" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="sections" dep_index="23" gov="used" gov_index="21">prep_on</dependency>
+      <dependency dep="human" dep_index="25" gov="intestine" gov_index="27">amod</dependency>
+      <dependency dep="small" dep_index="26" gov="intestine" gov_index="27">amod</dependency>
+      <dependency dep="intestine" dep_index="27" gov="sections" gov_index="23">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500018" relationship="false">15 12 18</relation>
+      <relation position="1300015" relationship="false">13 19 12 15</relation>
+      <relation position="1300018" relationship="false">13 19 12 18</relation>
+   </relations>
+   <pairs/>
+</root>

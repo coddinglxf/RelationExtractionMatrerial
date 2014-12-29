@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@inability@to@activate@a@nutrient-@and@calcium-regulated@phospholipase C@isozyme@in@mouse@islets@to@the@same@extent@as@in@rat@islets@appears@to@account@,@at@least@in@part@,@for@these@different@insulin@secretory@responses@under@these@unique@conditions@</sentence>
+   <tags>
+      <tag pos="9">phospholipase C</tag>
+      <tag pos="34">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">inability</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="VB">activate</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">nutrient-</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">calcium-regulated</taggedword>
+      <taggedword index="9" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="10" part-of-speech="NN">isozyme</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="13" part-of-speech="NNS">islets</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="JJ">same</taggedword>
+      <taggedword index="17" part-of-speech="NN">extent</taggedword>
+      <taggedword index="18" part-of-speech="RB">as</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="NN">rat</taggedword>
+      <taggedword index="21" part-of-speech="NNS">islets</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">appears</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="VB">account</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="IN">at</taggedword>
+      <taggedword index="27" part-of-speech="JJS">least</taggedword>
+      <taggedword index="28" part-of-speech="IN">in</taggedword>
+      <taggedword index="29" part-of-speech="NN">part</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="IN">for</taggedword>
+      <taggedword index="32" part-of-speech="DT">these</taggedword>
+      <taggedword index="33" part-of-speech="JJ">different</taggedword>
+      <taggedword index="34" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="35" part-of-speech="NN">secretory</taggedword>
+      <taggedword index="36" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="37" part-of-speech="IN">under</taggedword>
+      <taggedword index="38" part-of-speech="DT">these</taggedword>
+      <taggedword index="39" part-of-speech="JJ">unique</taggedword>
+      <taggedword index="40" part-of-speech="NNS">conditions</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="inability" gov_index="2">det</dependency>
+      <dependency dep="inability" dep_index="2" gov="appears" gov_index="22">nsubj</dependency>
+      <dependency dep="inability" dep_index="2" gov="account" gov_index="24">xsubj</dependency>
+      <dependency dep="to" dep_index="3" gov="activate" gov_index="4">aux</dependency>
+      <dependency dep="activate" dep_index="4" gov="inability" gov_index="2">infmod</dependency>
+      <dependency dep="a" dep_index="5" gov="isozyme" gov_index="10">det</dependency>
+      <dependency dep="nutrient-" dep_index="6" gov="isozyme" gov_index="10">amod</dependency>
+      <dependency dep="calcium-regulated" dep_index="8" gov="nutrient-" gov_index="6">conj_and</dependency>
+      <dependency dep="calcium-regulated" dep_index="8" gov="isozyme" gov_index="10">amod</dependency>
+      <dependency dep="phospholipase C" dep_index="9" gov="isozyme" gov_index="10">amod</dependency>
+      <dependency dep="isozyme" dep_index="10" gov="activate" gov_index="4">dobj</dependency>
+      <dependency dep="mouse" dep_index="12" gov="islets" gov_index="13">nn</dependency>
+      <dependency dep="islets" dep_index="13" gov="activate" gov_index="4">prep_in</dependency>
+      <dependency dep="the" dep_index="15" gov="extent" gov_index="17">det</dependency>
+      <dependency dep="same" dep_index="16" gov="extent" gov_index="17">amod</dependency>
+      <dependency dep="extent" dep_index="17" gov="activate" gov_index="4">prep_to</dependency>
+      <dependency dep="as" dep_index="18" gov="extent" gov_index="17">advmod</dependency>
+      <dependency dep="rat" dep_index="20" gov="islets" gov_index="21">nn</dependency>
+      <dependency dep="islets" dep_index="21" gov="extent" gov_index="17">prep_in</dependency>
+      <dependency dep="appears" dep_index="22" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="23" gov="account" gov_index="24">aux</dependency>
+      <dependency dep="account" dep_index="24" gov="appears" gov_index="22">xcomp</dependency>
+      <dependency dep="at" dep_index="26" gov="account" gov_index="24">advmod</dependency>
+      <dependency dep="least" dep_index="27" gov="at" gov_index="26">pobj</dependency>
+      <dependency dep="part" dep_index="29" gov="at" gov_index="26">prep_in</dependency>
+      <dependency dep="these" dep_index="32" gov="responses" gov_index="36">det</dependency>
+      <dependency dep="different" dep_index="33" gov="responses" gov_index="36">amod</dependency>
+      <dependency dep="insulin" dep_index="34" gov="responses" gov_index="36">nn</dependency>
+      <dependency dep="secretory" dep_index="35" gov="responses" gov_index="36">nn</dependency>
+      <dependency dep="responses" dep_index="36" gov="account" gov_index="24">prep_for</dependency>
+      <dependency dep="these" dep_index="38" gov="conditions" gov_index="40">det</dependency>
+      <dependency dep="unique" dep_index="39" gov="conditions" gov_index="40">amod</dependency>
+      <dependency dep="conditions" dep_index="40" gov="responses" gov_index="36">prep_under</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900034" relationship="true">9 10 4 2 24 36 34</relation>
+   </relations>
+   <pairs>
+      <pair>900034</pair>
+   </pairs>
+</root>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@results@provide@two@independent@lines@of@evidence@about@the@binding@sites@for@actin@and@poly-L-proline@on@the@profilin@molecule@.@</sentence>
+   <tags>
+      <tag pos="14">actin</tag>
+      <tag pos="19">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">provide</taggedword>
+      <taggedword index="4" part-of-speech="CD">two</taggedword>
+      <taggedword index="5" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="6" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">evidence</taggedword>
+      <taggedword index="9" part-of-speech="IN">about</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="12" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="13" part-of-speech="IN">for</taggedword>
+      <taggedword index="14" part-of-speech="NN">actin</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">poly-L-proline</taggedword>
+      <taggedword index="17" part-of-speech="IN">on</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="20" part-of-speech="NN">molecule</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="provide" gov_index="3">nsubj</dependency>
+      <dependency dep="provide" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="two" dep_index="4" gov="lines" gov_index="6">num</dependency>
+      <dependency dep="independent" dep_index="5" gov="lines" gov_index="6">amod</dependency>
+      <dependency dep="lines" dep_index="6" gov="provide" gov_index="3">dobj</dependency>
+      <dependency dep="evidence" dep_index="8" gov="lines" gov_index="6">prep_of</dependency>
+      <dependency dep="the" dep_index="10" gov="sites" gov_index="12">det</dependency>
+      <dependency dep="binding" dep_index="11" gov="sites" gov_index="12">amod</dependency>
+      <dependency dep="sites" dep_index="12" gov="provide" gov_index="3">prep_about</dependency>
+      <dependency dep="actin" dep_index="14" gov="sites" gov_index="12">prep_for</dependency>
+      <dependency dep="poly-L-proline" dep_index="16" gov="sites" gov_index="12">prep_for</dependency>
+      <dependency dep="poly-L-proline" dep_index="16" gov="actin" gov_index="14">conj_and</dependency>
+      <dependency dep="the" dep_index="18" gov="molecule" gov_index="20">det</dependency>
+      <dependency dep="profilin" dep_index="19" gov="molecule" gov_index="20">nn</dependency>
+      <dependency dep="molecule" dep_index="20" gov="sites" gov_index="12">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400019" relationship="true">14 12 20 19</relation>
+   </relations>
+   <pairs>
+      <pair>1400019</pair>
+   </pairs>
+</root>

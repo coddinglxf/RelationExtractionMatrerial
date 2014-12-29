@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Phosphorylation@of@the@headpiece@domain@could@regulate@the@actin@binding@and@bundling@properties@of@fimbrin@,@or@it@could@regulate@the@interaction@of@fimbrin@with@other@proteins@.@</sentence>
+   <tags>
+      <tag pos="9">actin</tag>
+      <tag pos="15">fimbrin</tag>
+      <tag pos="24">fimbrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Phosphorylation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">headpiece</taggedword>
+      <taggedword index="5" part-of-speech="NN">domain</taggedword>
+      <taggedword index="6" part-of-speech="MD">could</taggedword>
+      <taggedword index="7" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="VBG">bundling</taggedword>
+      <taggedword index="13" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="PRP">it</taggedword>
+      <taggedword index="19" part-of-speech="MD">could</taggedword>
+      <taggedword index="20" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="25" part-of-speech="IN">with</taggedword>
+      <taggedword index="26" part-of-speech="JJ">other</taggedword>
+      <taggedword index="27" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Phosphorylation" dep_index="1" gov="regulate" gov_index="7">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="domain" gov_index="5">det</dependency>
+      <dependency dep="headpiece" dep_index="4" gov="domain" gov_index="5">amod</dependency>
+      <dependency dep="domain" dep_index="5" gov="Phosphorylation" gov_index="1">prep_of</dependency>
+      <dependency dep="could" dep_index="6" gov="regulate" gov_index="7">aux</dependency>
+      <dependency dep="regulate" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="actin" gov_index="9">det</dependency>
+      <dependency dep="actin" dep_index="9" gov="regulate" gov_index="7">dobj</dependency>
+      <dependency dep="binding" dep_index="10" gov="actin" gov_index="9">amod</dependency>
+      <dependency dep="bundling" dep_index="12" gov="properties" gov_index="13">amod</dependency>
+      <dependency dep="properties" dep_index="13" gov="regulate" gov_index="7">dobj</dependency>
+      <dependency dep="properties" dep_index="13" gov="actin" gov_index="9">conj_and</dependency>
+      <dependency dep="fimbrin" dep_index="15" gov="actin" gov_index="9">prep_of</dependency>
+      <dependency dep="it" dep_index="18" gov="regulate" gov_index="20">nsubj</dependency>
+      <dependency dep="could" dep_index="19" gov="regulate" gov_index="20">aux</dependency>
+      <dependency dep="regulate" dep_index="20" gov="regulate" gov_index="7">conj_or</dependency>
+      <dependency dep="the" dep_index="21" gov="interaction" gov_index="22">det</dependency>
+      <dependency dep="interaction" dep_index="22" gov="regulate" gov_index="20">dobj</dependency>
+      <dependency dep="fimbrin" dep_index="24" gov="interaction" gov_index="22">prep_of</dependency>
+      <dependency dep="other" dep_index="26" gov="proteins" gov_index="27">amod</dependency>
+      <dependency dep="proteins" dep_index="27" gov="regulate" gov_index="20">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900015" relationship="true"></relation>
+      <relation position="900024" relationship="false">9 7 20 22 24</relation>
+      <relation position="1500024" relationship="true">15 9 7 20 22 24</relation>
+   </relations>
+   <pairs>
+      <pair>1500024</pair>
+      <pair>900015</pair>
+   </pairs>
+</root>

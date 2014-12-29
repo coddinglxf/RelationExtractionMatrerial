@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Therefore@,@it@is@suggested@that@the@insulin@-induced@coclustering@of@the@EGF@receptor@with@phospholipase Cgamma1@at@the@actin@arc@may@allow@for@greater@efficiency@of@signal@transduction@,@resulting@in@the@synergy@observed@for@these@two@hormones@in@stimulation@of@DNA@synthesis@.@</sentence>
+   <tags>
+      <tag pos="8">insulin</tag>
+      <tag pos="16">phospholipase Cgamma1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Therefore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">it</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="VBN">suggested</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="9" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="10" part-of-speech="NN">coclustering</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NNP">EGF</taggedword>
+      <taggedword index="14" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="NNS">phospholipase Cgamma1</taggedword>
+      <taggedword index="17" part-of-speech="IN">at</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">actin</taggedword>
+      <taggedword index="20" part-of-speech="NN">arc</taggedword>
+      <taggedword index="21" part-of-speech="MD">may</taggedword>
+      <taggedword index="22" part-of-speech="VB">allow</taggedword>
+      <taggedword index="23" part-of-speech="IN">for</taggedword>
+      <taggedword index="24" part-of-speech="JJR">greater</taggedword>
+      <taggedword index="25" part-of-speech="NN">efficiency</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="NN">signal</taggedword>
+      <taggedword index="28" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="VBG">resulting</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">synergy</taggedword>
+      <taggedword index="34" part-of-speech="VBN">observed</taggedword>
+      <taggedword index="35" part-of-speech="IN">for</taggedword>
+      <taggedword index="36" part-of-speech="DT">these</taggedword>
+      <taggedword index="37" part-of-speech="CD">two</taggedword>
+      <taggedword index="38" part-of-speech="NNS">hormones</taggedword>
+      <taggedword index="39" part-of-speech="IN">in</taggedword>
+      <taggedword index="40" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="41" part-of-speech="IN">of</taggedword>
+      <taggedword index="42" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="43" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="44" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Therefore" dep_index="1" gov="suggested" gov_index="5">advmod</dependency>
+      <dependency dep="it" dep_index="3" gov="suggested" gov_index="5">nsubjpass</dependency>
+      <dependency dep="is" dep_index="4" gov="suggested" gov_index="5">auxpass</dependency>
+      <dependency dep="suggested" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="allow" gov_index="22">mark</dependency>
+      <dependency dep="the" dep_index="7" gov="coclustering" gov_index="10">det</dependency>
+      <dependency dep="insulin" dep_index="8" gov="coclustering" gov_index="10">nn</dependency>
+      <dependency dep="-induced" dep_index="9" gov="coclustering" gov_index="10">amod</dependency>
+      <dependency dep="coclustering" dep_index="10" gov="allow" gov_index="22">nsubj</dependency>
+      <dependency dep="the" dep_index="12" gov="receptor" gov_index="14">det</dependency>
+      <dependency dep="EGF" dep_index="13" gov="receptor" gov_index="14">nn</dependency>
+      <dependency dep="receptor" dep_index="14" gov="coclustering" gov_index="10">prep_of</dependency>
+      <dependency dep="phospholipase Cgamma1" dep_index="16" gov="receptor" gov_index="14">prep_with</dependency>
+      <dependency dep="the" dep_index="18" gov="arc" gov_index="20">det</dependency>
+      <dependency dep="actin" dep_index="19" gov="arc" gov_index="20">nn</dependency>
+      <dependency dep="arc" dep_index="20" gov="phospholipase Cgamma1" gov_index="16">prep_at</dependency>
+      <dependency dep="may" dep_index="21" gov="allow" gov_index="22">aux</dependency>
+      <dependency dep="allow" dep_index="22" gov="suggested" gov_index="5">ccomp</dependency>
+      <dependency dep="greater" dep_index="24" gov="efficiency" gov_index="25">amod</dependency>
+      <dependency dep="efficiency" dep_index="25" gov="allow" gov_index="22">prep_for</dependency>
+      <dependency dep="signal" dep_index="27" gov="transduction" gov_index="28">nn</dependency>
+      <dependency dep="transduction" dep_index="28" gov="efficiency" gov_index="25">prep_of</dependency>
+      <dependency dep="resulting" dep_index="30" gov="allow" gov_index="22">xcomp</dependency>
+      <dependency dep="the" dep_index="32" gov="synergy" gov_index="33">det</dependency>
+      <dependency dep="synergy" dep_index="33" gov="resulting" gov_index="30">prep_in</dependency>
+      <dependency dep="observed" dep_index="34" gov="synergy" gov_index="33">partmod</dependency>
+      <dependency dep="these" dep_index="36" gov="hormones" gov_index="38">det</dependency>
+      <dependency dep="two" dep_index="37" gov="hormones" gov_index="38">num</dependency>
+      <dependency dep="hormones" dep_index="38" gov="observed" gov_index="34">prep_for</dependency>
+      <dependency dep="stimulation" dep_index="40" gov="observed" gov_index="34">prep_in</dependency>
+      <dependency dep="DNA" dep_index="42" gov="synthesis" gov_index="43">nn</dependency>
+      <dependency dep="synthesis" dep_index="43" gov="stimulation" gov_index="40">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800016" relationship="true">8 10 14 16</relation>
+   </relations>
+   <pairs>
+      <pair>800016</pair>
+   </pairs>
+</root>

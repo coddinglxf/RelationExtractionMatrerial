@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Expression@of@alpha-catenin@was@generally@weak@and@did@not@correlate@with@the@expression@of@either@beta-catenin@or@E-cadherin@.@</sentence>
+   <tags>
+      <tag pos="18">E-cadherin</tag>
+      <tag pos="3">alpha-catenin</tag>
+      <tag pos="16">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Expression</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="RB">generally</taggedword>
+      <taggedword index="6" part-of-speech="JJ">weak</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="VBD">did</taggedword>
+      <taggedword index="9" part-of-speech="RB">not</taggedword>
+      <taggedword index="10" part-of-speech="VB">correlate</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">expression</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">either</taggedword>
+      <taggedword index="16" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Expression" dep_index="1" gov="weak" gov_index="6">nsubj</dependency>
+      <dependency dep="Expression" dep_index="1" gov="correlate" gov_index="10">nsubj</dependency>
+      <dependency dep="alpha-catenin" dep_index="3" gov="Expression" gov_index="1">prep_of</dependency>
+      <dependency dep="was" dep_index="4" gov="weak" gov_index="6">cop</dependency>
+      <dependency dep="generally" dep_index="5" gov="weak" gov_index="6">advmod</dependency>
+      <dependency dep="weak" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="did" dep_index="8" gov="correlate" gov_index="10">aux</dependency>
+      <dependency dep="not" dep_index="9" gov="correlate" gov_index="10">neg</dependency>
+      <dependency dep="correlate" dep_index="10" gov="weak" gov_index="6">conj_and</dependency>
+      <dependency dep="the" dep_index="12" gov="expression" gov_index="13">det</dependency>
+      <dependency dep="expression" dep_index="13" gov="correlate" gov_index="10">prep_with</dependency>
+      <dependency dep="either" dep_index="15" gov="beta-catenin" gov_index="16">det</dependency>
+      <dependency dep="beta-catenin" dep_index="16" gov="expression" gov_index="13">prep_of</dependency>
+      <dependency dep="E-cadherin" dep_index="18" gov="expression" gov_index="13">prep_of</dependency>
+      <dependency dep="E-cadherin" dep_index="18" gov="beta-catenin" gov_index="16">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300018" relationship="true">3 1 10 13 18</relation>
+      <relation position="1600018" relationship="false">16 13 18</relation>
+      <relation position="300016" relationship="true">3 1 10 13 16</relation>
+   </relations>
+   <pairs>
+      <pair>300016</pair>
+      <pair>300018</pair>
+   </pairs>
+</root>

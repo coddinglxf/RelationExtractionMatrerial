@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@insulin@concentrations@effective@in@modulating@PP2A@,@PKA@,@cAMP-PDE@,@and@GPI-PLC@activities@correlate@well@with@those@required@for@half-saturation@of@the@specific@binding@sites@as@well@as@for@stimulation@of@protein@phosphorylation@and@glycogen@accumulation@</sentence>
+   <tags>
+      <tag pos="2">insulin</tag>
+      <tag pos="14">GPI-PLC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="3" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="4" part-of-speech="JJ">effective</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="VBG">modulating</taggedword>
+      <taggedword index="7" part-of-speech="NNP">PP2A</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">PKA</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">cAMP-PDE</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">GPI-PLC</taggedword>
+      <taggedword index="15" part-of-speech="NNS">activities</taggedword>
+      <taggedword index="16" part-of-speech="NN">correlate</taggedword>
+      <taggedword index="17" part-of-speech="RB">well</taggedword>
+      <taggedword index="18" part-of-speech="IN">with</taggedword>
+      <taggedword index="19" part-of-speech="DT">those</taggedword>
+      <taggedword index="20" part-of-speech="VBN">required</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="NN">half-saturation</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="26" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="27" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="28" part-of-speech="RB">as</taggedword>
+      <taggedword index="29" part-of-speech="RB">well</taggedword>
+      <taggedword index="30" part-of-speech="IN">as</taggedword>
+      <taggedword index="31" part-of-speech="IN">for</taggedword>
+      <taggedword index="32" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="NN">protein</taggedword>
+      <taggedword index="35" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="36" part-of-speech="CC">and</taggedword>
+      <taggedword index="37" part-of-speech="NN">glycogen</taggedword>
+      <taggedword index="38" part-of-speech="NNS">accumulation</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="concentrations" gov_index="3">det</dependency>
+      <dependency dep="insulin" dep_index="2" gov="concentrations" gov_index="3">nn</dependency>
+      <dependency dep="concentrations" dep_index="3" gov="effective" gov_index="4">dep</dependency>
+      <dependency dep="effective" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="modulating" dep_index="6" gov="effective" gov_index="4">prepc_in</dependency>
+      <dependency dep="modulating" dep_index="6" gov="effective" gov_index="4">prepc_in</dependency>
+      <dependency dep="modulating" dep_index="6" gov="modulating" gov_index="6">conj_and</dependency>
+      <dependency dep="PP2A" dep_index="7" gov="modulating" gov_index="6">dobj</dependency>
+      <dependency dep="PKA" dep_index="9" gov="modulating" gov_index="6">dobj</dependency>
+      <dependency dep="PKA" dep_index="9" gov="PP2A" gov_index="7">conj_and</dependency>
+      <dependency dep="cAMP-PDE" dep_index="11" gov="modulating" gov_index="6">dobj</dependency>
+      <dependency dep="cAMP-PDE" dep_index="11" gov="PP2A" gov_index="7">conj_and</dependency>
+      <dependency dep="GPI-PLC" dep_index="14" gov="correlate" gov_index="16">amod</dependency>
+      <dependency dep="activities" dep_index="15" gov="correlate" gov_index="16">nn</dependency>
+      <dependency dep="correlate" dep_index="16" gov="modulating" gov_index="6">dobj</dependency>
+      <dependency dep="correlate" dep_index="16" gov="PP2A" gov_index="7">conj_and</dependency>
+      <dependency dep="well" dep_index="17" gov="modulating" gov_index="6">advmod</dependency>
+      <dependency dep="those" dep_index="19" gov="modulating" gov_index="6">prep_with</dependency>
+      <dependency dep="required" dep_index="20" gov="those" gov_index="19">partmod</dependency>
+      <dependency dep="half-saturation" dep_index="22" gov="required" gov_index="20">prep_for</dependency>
+      <dependency dep="the" dep_index="24" gov="sites" gov_index="27">det</dependency>
+      <dependency dep="specific" dep_index="25" gov="sites" gov_index="27">amod</dependency>
+      <dependency dep="binding" dep_index="26" gov="sites" gov_index="27">amod</dependency>
+      <dependency dep="sites" dep_index="27" gov="half-saturation" gov_index="22">prep_of</dependency>
+      <dependency dep="stimulation" dep_index="32" gov="modulating" gov_index="6">prep_for</dependency>
+      <dependency dep="protein" dep_index="34" gov="phosphorylation" gov_index="35">nn</dependency>
+      <dependency dep="phosphorylation" dep_index="35" gov="stimulation" gov_index="32">prep_of</dependency>
+      <dependency dep="glycogen" dep_index="37" gov="accumulation" gov_index="38">nn</dependency>
+      <dependency dep="accumulation" dep_index="38" gov="stimulation" gov_index="32">prep_of</dependency>
+      <dependency dep="accumulation" dep_index="38" gov="phosphorylation" gov_index="35">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200014" relationship="true">2 3 4 6 16 14</relation>
+   </relations>
+   <pairs>
+      <pair>200014</pair>
+   </pairs>
+</root>

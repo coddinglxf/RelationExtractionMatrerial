@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@specific@protein kinase C@(PKC)@inhibitor@chelerythrine@(5@micrometers)@inhibited@PTH-@,@AVP@-,@PGE2-@,@and@adenosine-stimulated@Ca2+@reabsorption@by@77%@,@67%@,@79%@,@and@100%@,@respectively@</sentence>
+   <tags>
+      <tag pos="3">protein kinase C</tag>
+      <tag pos="12">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="3" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="4" part-of-speech="JJ">(PKC)</taggedword>
+      <taggedword index="5" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="6" part-of-speech="NN">chelerythrine</taggedword>
+      <taggedword index="7" part-of-speech="CD">(5</taggedword>
+      <taggedword index="8" part-of-speech="NNP">micrometers)</taggedword>
+      <taggedword index="9" part-of-speech="NNP">inhibited</taggedword>
+      <taggedword index="10" part-of-speech="NN">PTH-</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="13" part-of-speech="NNP">-,</taggedword>
+      <taggedword index="14" part-of-speech="NNP">PGE2-</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="JJ">adenosine-stimulated</taggedword>
+      <taggedword index="18" part-of-speech="JJ">Ca2+</taggedword>
+      <taggedword index="19" part-of-speech="NN">reabsorption</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="CD">77%</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CD">67%</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="CD">79%</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="CD">100%</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="RB">respectively</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="PTH-" gov_index="10">det</dependency>
+      <dependency dep="specific" dep_index="2" gov="PTH-" gov_index="10">amod</dependency>
+      <dependency dep="protein kinase C" dep_index="3" gov="PTH-" gov_index="10">amod</dependency>
+      <dependency dep="(PKC)" dep_index="4" gov="PTH-" gov_index="10">amod</dependency>
+      <dependency dep="inhibitor" dep_index="5" gov="PTH-" gov_index="10">nn</dependency>
+      <dependency dep="chelerythrine" dep_index="6" gov="PTH-" gov_index="10">nn</dependency>
+      <dependency dep="(5" dep_index="7" gov="PTH-" gov_index="10">num</dependency>
+      <dependency dep="micrometers)" dep_index="8" gov="PTH-" gov_index="10">nn</dependency>
+      <dependency dep="inhibited" dep_index="9" gov="PTH-" gov_index="10">nn</dependency>
+      <dependency dep="PTH-" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="AVP" dep_index="12" gov="PGE2-" gov_index="14">nn</dependency>
+      <dependency dep="-," dep_index="13" gov="PGE2-" gov_index="14">nn</dependency>
+      <dependency dep="PGE2-" dep_index="14" gov="PTH-" gov_index="10">conj_and</dependency>
+      <dependency dep="adenosine-stimulated" dep_index="17" gov="reabsorption" gov_index="19">amod</dependency>
+      <dependency dep="Ca2+" dep_index="18" gov="reabsorption" gov_index="19">amod</dependency>
+      <dependency dep="reabsorption" dep_index="19" gov="PTH-" gov_index="10">conj_and</dependency>
+      <dependency dep="77%" dep_index="21" gov="reabsorption" gov_index="19">prep_by</dependency>
+      <dependency dep="67%" dep_index="23" gov="PTH-" gov_index="10">conj_and</dependency>
+      <dependency dep="79%" dep_index="25" gov="67%" gov_index="23">num</dependency>
+      <dependency dep="100%" dep_index="28" gov="PTH-" gov_index="10">conj_and</dependency>
+      <dependency dep="100%" dep_index="28" gov="67%" gov_index="23">conj_and</dependency>
+      <dependency dep="respectively" dep_index="30" gov="PTH-" gov_index="10">advmod</dependency>
+      <dependency dep="respectively" dep_index="30" gov="PTH-" gov_index="10">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300012" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>300012</pair>
+   </pairs>
+</root>

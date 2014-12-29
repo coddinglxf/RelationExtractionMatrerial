@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@amount@of@CDK4@and@CDK6@associated@with@p27@does@not@change@in@a@cell@cycle-dependent@fashion@;@in@contrast@,@the@amount@of@CDK2@associated@with@p27@is@lowest@in@early@G1@cells@and@increases@to@a@maximum@in@mid-G1@phase@,@reaching@a@steady-state@level@in@late@G1-phase@cells@.@</sentence>
+   <tags>
+      <tag pos="4">CDK4</tag>
+      <tag pos="6">CDK6</tag>
+      <tag pos="9">p27</tag>
+      <tag pos="25">CDK2</tag>
+      <tag pos="28">p27</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">amount</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">CDK4</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">CDK6</taggedword>
+      <taggedword index="7" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="CD">p27</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="VB">change</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="NN">cell</taggedword>
+      <taggedword index="16" part-of-speech="NN">cycle-dependent</taggedword>
+      <taggedword index="17" part-of-speech="NN">fashion</taggedword>
+      <taggedword index="18" part-of-speech=":">;</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">amount</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="NNP">CDK2</taggedword>
+      <taggedword index="26" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="27" part-of-speech="IN">with</taggedword>
+      <taggedword index="28" part-of-speech="CD">p27</taggedword>
+      <taggedword index="29" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="30" part-of-speech="JJS">lowest</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="JJ">early</taggedword>
+      <taggedword index="33" part-of-speech="NN">G1</taggedword>
+      <taggedword index="34" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="NNS">increases</taggedword>
+      <taggedword index="37" part-of-speech="TO">to</taggedword>
+      <taggedword index="38" part-of-speech="DT">a</taggedword>
+      <taggedword index="39" part-of-speech="NN">maximum</taggedword>
+      <taggedword index="40" part-of-speech="IN">in</taggedword>
+      <taggedword index="41" part-of-speech="JJ">mid-G1</taggedword>
+      <taggedword index="42" part-of-speech="NN">phase</taggedword>
+      <taggedword index="43" part-of-speech=",">,</taggedword>
+      <taggedword index="44" part-of-speech="VBG">reaching</taggedword>
+      <taggedword index="45" part-of-speech="DT">a</taggedword>
+      <taggedword index="46" part-of-speech="JJ">steady-state</taggedword>
+      <taggedword index="47" part-of-speech="NN">level</taggedword>
+      <taggedword index="48" part-of-speech="IN">in</taggedword>
+      <taggedword index="49" part-of-speech="JJ">late</taggedword>
+      <taggedword index="50" part-of-speech="NN">G1-phase</taggedword>
+      <taggedword index="51" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="52" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="amount" gov_index="2">det</dependency>
+      <dependency dep="amount" dep_index="2" gov="change" gov_index="12">nsubj</dependency>
+      <dependency dep="CDK4" dep_index="4" gov="amount" gov_index="2">prep_of</dependency>
+      <dependency dep="CDK6" dep_index="6" gov="amount" gov_index="2">prep_of</dependency>
+      <dependency dep="CDK6" dep_index="6" gov="CDK4" gov_index="4">conj_and</dependency>
+      <dependency dep="associated" dep_index="7" gov="amount" gov_index="2">partmod</dependency>
+      <dependency dep="p27" dep_index="9" gov="associated" gov_index="7">prep_with</dependency>
+      <dependency dep="does" dep_index="10" gov="change" gov_index="12">aux</dependency>
+      <dependency dep="not" dep_index="11" gov="change" gov_index="12">neg</dependency>
+      <dependency dep="change" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="14" gov="fashion" gov_index="17">det</dependency>
+      <dependency dep="cell" dep_index="15" gov="fashion" gov_index="17">nn</dependency>
+      <dependency dep="cycle-dependent" dep_index="16" gov="fashion" gov_index="17">nn</dependency>
+      <dependency dep="fashion" dep_index="17" gov="change" gov_index="12">prep_in</dependency>
+      <dependency dep="contrast" dep_index="20" gov="lowest" gov_index="30">prep_in</dependency>
+      <dependency dep="the" dep_index="22" gov="amount" gov_index="23">det</dependency>
+      <dependency dep="amount" dep_index="23" gov="lowest" gov_index="30">nsubj</dependency>
+      <dependency dep="CDK2" dep_index="25" gov="amount" gov_index="23">prep_of</dependency>
+      <dependency dep="associated" dep_index="26" gov="CDK2" gov_index="25">partmod</dependency>
+      <dependency dep="p27" dep_index="28" gov="associated" gov_index="26">prep_with</dependency>
+      <dependency dep="is" dep_index="29" gov="lowest" gov_index="30">cop</dependency>
+      <dependency dep="lowest" dep_index="30" gov="change" gov_index="12">parataxis</dependency>
+      <dependency dep="early" dep_index="32" gov="cells" gov_index="34">amod</dependency>
+      <dependency dep="G1" dep_index="33" gov="cells" gov_index="34">nn</dependency>
+      <dependency dep="cells" dep_index="34" gov="lowest" gov_index="30">prep_in</dependency>
+      <dependency dep="increases" dep_index="36" gov="lowest" gov_index="30">prep_in</dependency>
+      <dependency dep="increases" dep_index="36" gov="cells" gov_index="34">conj_and</dependency>
+      <dependency dep="a" dep_index="38" gov="maximum" gov_index="39">det</dependency>
+      <dependency dep="maximum" dep_index="39" gov="cells" gov_index="34">prep_to</dependency>
+      <dependency dep="mid-G1" dep_index="41" gov="phase" gov_index="42">amod</dependency>
+      <dependency dep="phase" dep_index="42" gov="maximum" gov_index="39">prep_in</dependency>
+      <dependency dep="reaching" dep_index="44" gov="lowest" gov_index="30">partmod</dependency>
+      <dependency dep="a" dep_index="45" gov="level" gov_index="47">det</dependency>
+      <dependency dep="steady-state" dep_index="46" gov="level" gov_index="47">amod</dependency>
+      <dependency dep="level" dep_index="47" gov="reaching" gov_index="44">dobj</dependency>
+      <dependency dep="late" dep_index="49" gov="cells" gov_index="51">amod</dependency>
+      <dependency dep="G1-phase" dep_index="50" gov="cells" gov_index="51">nn</dependency>
+      <dependency dep="cells" dep_index="51" gov="reaching" gov_index="44">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 6</relation>
+      <relation position="400009" relationship="true">4 2 7 9</relation>
+      <relation position="400025" relationship="false">4 2 12 30 23 25</relation>
+      <relation position="400028" relationship="false">4 2 12 30 23 25 26 28</relation>
+      <relation position="600009" relationship="true">6 2 7 9</relation>
+      <relation position="600025" relationship="false">6 2 12 30 23 25</relation>
+      <relation position="600028" relationship="false">6 2 12 30 23 25 26 28</relation>
+      <relation position="900025" relationship="false">9 7 2 12 30 23 25</relation>
+      <relation position="900028" relationship="false">9 7 2 12 30 23 25 26 28</relation>
+      <relation position="2500028" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>600009</pair>
+      <pair>400009</pair>
+      <pair>2500028</pair>
+   </pairs>
+</root>

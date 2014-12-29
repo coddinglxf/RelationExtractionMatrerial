@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>ECK@is@a@member@of@a@large@orphan@receptor@protein-tyrosine@kinase@family@headed@by@EPH@,@and@we@suggest@that@ligands@for@other@members@of@this@family@will@be@related@to@B61@,@and@can@be@isolated@in@the@same@way@.@</sentence>
+   <tags>
+      <tag pos="1">ECK</tag>
+      <tag pos="32">B61</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">ECK</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">member</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="JJ">large</taggedword>
+      <taggedword index="8" part-of-speech="JJ">orphan</taggedword>
+      <taggedword index="9" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="10" part-of-speech="JJ">protein-tyrosine</taggedword>
+      <taggedword index="11" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="12" part-of-speech="NN">family</taggedword>
+      <taggedword index="13" part-of-speech="VBN">headed</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="NNP">EPH</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="PRP">we</taggedword>
+      <taggedword index="19" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="20" part-of-speech="IN">that</taggedword>
+      <taggedword index="21" part-of-speech="NNS">ligands</taggedword>
+      <taggedword index="22" part-of-speech="IN">for</taggedword>
+      <taggedword index="23" part-of-speech="JJ">other</taggedword>
+      <taggedword index="24" part-of-speech="NNS">members</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="DT">this</taggedword>
+      <taggedword index="27" part-of-speech="NN">family</taggedword>
+      <taggedword index="28" part-of-speech="MD">will</taggedword>
+      <taggedword index="29" part-of-speech="VB">be</taggedword>
+      <taggedword index="30" part-of-speech="VBN">related</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="NNP">B61</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="MD">can</taggedword>
+      <taggedword index="36" part-of-speech="VB">be</taggedword>
+      <taggedword index="37" part-of-speech="VBN">isolated</taggedword>
+      <taggedword index="38" part-of-speech="IN">in</taggedword>
+      <taggedword index="39" part-of-speech="DT">the</taggedword>
+      <taggedword index="40" part-of-speech="JJ">same</taggedword>
+      <taggedword index="41" part-of-speech="NN">way</taggedword>
+      <taggedword index="42" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="ECK" dep_index="1" gov="member" gov_index="4">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="member" gov_index="4">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="member" gov_index="4">det</dependency>
+      <dependency dep="member" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="6" gov="family" gov_index="12">det</dependency>
+      <dependency dep="large" dep_index="7" gov="family" gov_index="12">amod</dependency>
+      <dependency dep="orphan" dep_index="8" gov="family" gov_index="12">amod</dependency>
+      <dependency dep="receptor" dep_index="9" gov="family" gov_index="12">nn</dependency>
+      <dependency dep="protein-tyrosine" dep_index="10" gov="family" gov_index="12">amod</dependency>
+      <dependency dep="kinase" dep_index="11" gov="family" gov_index="12">nn</dependency>
+      <dependency dep="family" dep_index="12" gov="member" gov_index="4">prep_of</dependency>
+      <dependency dep="headed" dep_index="13" gov="family" gov_index="12">partmod</dependency>
+      <dependency dep="EPH" dep_index="15" gov="headed" gov_index="13">agent</dependency>
+      <dependency dep="we" dep_index="18" gov="suggest" gov_index="19">nsubj</dependency>
+      <dependency dep="we" dep_index="18" gov="isolated" gov_index="37">nsubjpass</dependency>
+      <dependency dep="suggest" dep_index="19" gov="member" gov_index="4">conj_and</dependency>
+      <dependency dep="that" dep_index="20" gov="related" gov_index="30">mark</dependency>
+      <dependency dep="ligands" dep_index="21" gov="related" gov_index="30">nsubjpass</dependency>
+      <dependency dep="other" dep_index="23" gov="members" gov_index="24">amod</dependency>
+      <dependency dep="members" dep_index="24" gov="ligands" gov_index="21">prep_for</dependency>
+      <dependency dep="this" dep_index="26" gov="family" gov_index="27">det</dependency>
+      <dependency dep="family" dep_index="27" gov="members" gov_index="24">prep_of</dependency>
+      <dependency dep="will" dep_index="28" gov="related" gov_index="30">aux</dependency>
+      <dependency dep="be" dep_index="29" gov="related" gov_index="30">auxpass</dependency>
+      <dependency dep="related" dep_index="30" gov="suggest" gov_index="19">ccomp</dependency>
+      <dependency dep="B61" dep_index="32" gov="related" gov_index="30">prep_to</dependency>
+      <dependency dep="can" dep_index="35" gov="isolated" gov_index="37">aux</dependency>
+      <dependency dep="be" dep_index="36" gov="isolated" gov_index="37">auxpass</dependency>
+      <dependency dep="isolated" dep_index="37" gov="member" gov_index="4">conj_and</dependency>
+      <dependency dep="isolated" dep_index="37" gov="suggest" gov_index="19">conj_and</dependency>
+      <dependency dep="the" dep_index="39" gov="way" gov_index="41">det</dependency>
+      <dependency dep="same" dep_index="40" gov="way" gov_index="41">amod</dependency>
+      <dependency dep="way" dep_index="41" gov="isolated" gov_index="37">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100032" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Taken@together@,@our@results@provide@a@cautionary@framework@for@interpreting@affinities@from@two-hybrid@experiments@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Taken</taggedword>
+      <taggedword index="2" part-of-speech="RB">together</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="PRP$">our</taggedword>
+      <taggedword index="5" part-of-speech="NNS">results</taggedword>
+      <taggedword index="6" part-of-speech="VBP">provide</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">cautionary</taggedword>
+      <taggedword index="9" part-of-speech="NN">framework</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="VBG">interpreting</taggedword>
+      <taggedword index="12" part-of-speech="NNS">affinities</taggedword>
+      <taggedword index="13" part-of-speech="IN">from</taggedword>
+      <taggedword index="14" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="15" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Taken" dep_index="1" gov="provide" gov_index="6">partmod</dependency>
+      <dependency dep="together" dep_index="2" gov="Taken" gov_index="1">advmod</dependency>
+      <dependency dep="our" dep_index="4" gov="results" gov_index="5">poss</dependency>
+      <dependency dep="results" dep_index="5" gov="provide" gov_index="6">nsubj</dependency>
+      <dependency dep="provide" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="7" gov="framework" gov_index="9">det</dependency>
+      <dependency dep="cautionary" dep_index="8" gov="framework" gov_index="9">amod</dependency>
+      <dependency dep="framework" dep_index="9" gov="provide" gov_index="6">dobj</dependency>
+      <dependency dep="interpreting" dep_index="11" gov="provide" gov_index="6">prepc_for</dependency>
+      <dependency dep="affinities" dep_index="12" gov="interpreting" gov_index="11">dobj</dependency>
+      <dependency dep="two-hybrid" dep_index="14" gov="experiments" gov_index="15">amod</dependency>
+      <dependency dep="experiments" dep_index="15" gov="interpreting" gov_index="11">prep_from</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

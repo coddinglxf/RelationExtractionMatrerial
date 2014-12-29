@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@predicted@amino@acid@sequence@of@hIL-10R@is@60%@identical@and@73%@similar@to@mouse@IL-10R@(@mIL-10R@).@rIL-10R@expressed@in@an@IL-3@-dependent@mouse@pro-B@cell@line@(Ba/F3)@binds@hIL-10@with@high@affinity@(200@to@250@pM)@,@and@the@transfected@cells@exhibit@a@proliferative@response@to@hIL-10@.@</sentence>
+   <tags>
+      <tag pos="7">hIL-10R</tag>
+      <tag pos="16">IL-10R</tag>
+      <tag pos="18">mIL-10R</tag>
+      <tag pos="20">rIL-10R</tag>
+      <tag pos="24">IL-3</tag>
+      <tag pos="32">hIL-10</tag>
+      <tag pos="50">hIL-10</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">predicted</taggedword>
+      <taggedword index="3" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="4" part-of-speech="NN">acid</taggedword>
+      <taggedword index="5" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="CD">hIL-10R</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="CD">60%</taggedword>
+      <taggedword index="10" part-of-speech="JJ">identical</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="CD">73%</taggedword>
+      <taggedword index="13" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="16" part-of-speech="NN">IL-10R</taggedword>
+      <taggedword index="17" part-of-speech="NNS">(</taggedword>
+      <taggedword index="18" part-of-speech="JJ">mIL-10R</taggedword>
+      <taggedword index="19" part-of-speech="NN">).</taggedword>
+      <taggedword index="20" part-of-speech="JJ">rIL-10R</taggedword>
+      <taggedword index="21" part-of-speech="VBD">expressed</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="DT">an</taggedword>
+      <taggedword index="24" part-of-speech="JJ">IL-3</taggedword>
+      <taggedword index="25" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="26" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="27" part-of-speech="JJ">pro-B</taggedword>
+      <taggedword index="28" part-of-speech="NN">cell</taggedword>
+      <taggedword index="29" part-of-speech="NN">line</taggedword>
+      <taggedword index="30" part-of-speech="CD">(Ba/F3)</taggedword>
+      <taggedword index="31" part-of-speech="NNS">binds</taggedword>
+      <taggedword index="32" part-of-speech="JJ">hIL-10</taggedword>
+      <taggedword index="33" part-of-speech="IN">with</taggedword>
+      <taggedword index="34" part-of-speech="JJ">high</taggedword>
+      <taggedword index="35" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="36" part-of-speech="CD">(200</taggedword>
+      <taggedword index="37" part-of-speech="TO">to</taggedword>
+      <taggedword index="38" part-of-speech="CD">250</taggedword>
+      <taggedword index="39" part-of-speech="NN">pM)</taggedword>
+      <taggedword index="40" part-of-speech=",">,</taggedword>
+      <taggedword index="41" part-of-speech="CC">and</taggedword>
+      <taggedword index="42" part-of-speech="DT">the</taggedword>
+      <taggedword index="43" part-of-speech="JJ">transfected</taggedword>
+      <taggedword index="44" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="45" part-of-speech="VB">exhibit</taggedword>
+      <taggedword index="46" part-of-speech="DT">a</taggedword>
+      <taggedword index="47" part-of-speech="JJ">proliferative</taggedword>
+      <taggedword index="48" part-of-speech="NN">response</taggedword>
+      <taggedword index="49" part-of-speech="TO">to</taggedword>
+      <taggedword index="50" part-of-speech="CD">hIL-10</taggedword>
+      <taggedword index="51" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="sequence" gov_index="5">det</dependency>
+      <dependency dep="predicted" dep_index="2" gov="sequence" gov_index="5">amod</dependency>
+      <dependency dep="amino" dep_index="3" gov="sequence" gov_index="5">amod</dependency>
+      <dependency dep="acid" dep_index="4" gov="sequence" gov_index="5">nn</dependency>
+      <dependency dep="sequence" dep_index="5" gov="identical" gov_index="10">nsubj</dependency>
+      <dependency dep="hIL-10R" dep_index="7" gov="sequence" gov_index="5">prep_of</dependency>
+      <dependency dep="is" dep_index="8" gov="identical" gov_index="10">cop</dependency>
+      <dependency dep="60%" dep_index="9" gov="identical" gov_index="10">npadvmod</dependency>
+      <dependency dep="identical" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="73%" dep_index="12" gov=")." gov_index="19">num</dependency>
+      <dependency dep="similar" dep_index="13" gov=")." gov_index="19">amod</dependency>
+      <dependency dep="mouse" dep_index="15" gov="(" gov_index="17">nn</dependency>
+      <dependency dep="IL-10R" dep_index="16" gov="(" gov_index="17">nn</dependency>
+      <dependency dep="(" dep_index="17" gov="similar" gov_index="13">prep_to</dependency>
+      <dependency dep="mIL-10R" dep_index="18" gov=")." gov_index="19">amod</dependency>
+      <dependency dep=")." dep_index="19" gov="expressed" gov_index="21">nsubj</dependency>
+      <dependency dep="rIL-10R" dep_index="20" gov=")." gov_index="19">amod</dependency>
+      <dependency dep="expressed" dep_index="21" gov="identical" gov_index="10">conj_and</dependency>
+      <dependency dep="an" dep_index="23" gov="line" gov_index="29">det</dependency>
+      <dependency dep="IL-3" dep_index="24" gov="line" gov_index="29">amod</dependency>
+      <dependency dep="-dependent" dep_index="25" gov="line" gov_index="29">amod</dependency>
+      <dependency dep="mouse" dep_index="26" gov="line" gov_index="29">nn</dependency>
+      <dependency dep="pro-B" dep_index="27" gov="line" gov_index="29">amod</dependency>
+      <dependency dep="cell" dep_index="28" gov="line" gov_index="29">nn</dependency>
+      <dependency dep="line" dep_index="29" gov="expressed" gov_index="21">prep_in</dependency>
+      <dependency dep="(Ba/F3)" dep_index="30" gov="binds" gov_index="31">num</dependency>
+      <dependency dep="binds" dep_index="31" gov="hIL-10" gov_index="32">npadvmod</dependency>
+      <dependency dep="hIL-10" dep_index="32" gov="line" gov_index="29">amod</dependency>
+      <dependency dep="high" dep_index="34" gov="affinity" gov_index="35">amod</dependency>
+      <dependency dep="affinity" dep_index="35" gov="expressed" gov_index="21">prep_with</dependency>
+      <dependency dep="(200" dep_index="36" gov="250" gov_index="38">number</dependency>
+      <dependency dep="to" dep_index="37" gov="250" gov_index="38">dep</dependency>
+      <dependency dep="250" dep_index="38" gov="pM)" gov_index="39">num</dependency>
+      <dependency dep="pM)" dep_index="39" gov="expressed" gov_index="21">dep</dependency>
+      <dependency dep="the" dep_index="42" gov="cells" gov_index="44">det</dependency>
+      <dependency dep="transfected" dep_index="43" gov="cells" gov_index="44">amod</dependency>
+      <dependency dep="cells" dep_index="44" gov="exhibit" gov_index="45">nsubj</dependency>
+      <dependency dep="exhibit" dep_index="45" gov="identical" gov_index="10">conj_and</dependency>
+      <dependency dep="a" dep_index="46" gov="response" gov_index="48">det</dependency>
+      <dependency dep="proliferative" dep_index="47" gov="response" gov_index="48">amod</dependency>
+      <dependency dep="response" dep_index="48" gov="exhibit" gov_index="45">dobj</dependency>
+      <dependency dep="hIL-10" dep_index="50" gov="exhibit" gov_index="45">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700016" relationship="false"></relation>
+      <relation position="700018" relationship="false"></relation>
+      <relation position="700020" relationship="false"></relation>
+      <relation position="700024" relationship="false"></relation>
+      <relation position="700032" relationship="false"></relation>
+      <relation position="700050" relationship="false"></relation>
+      <relation position="1600018" relationship="false">16 17 13 19 18</relation>
+      <relation position="1600020" relationship="false">16 17 13 19 20</relation>
+      <relation position="1600024" relationship="false">16 17 13 19 21 29 24</relation>
+      <relation position="1600032" relationship="false">16 17 13 19 21 29 32</relation>
+      <relation position="1600050" relationship="false"></relation>
+      <relation position="1800020" relationship="false">18 19 20</relation>
+      <relation position="1800024" relationship="false">18 19 21 29 24</relation>
+      <relation position="1800032" relationship="false">18 19 21 29 32</relation>
+      <relation position="1800050" relationship="false"></relation>
+      <relation position="2000024" relationship="false">20 19 21 29 24</relation>
+      <relation position="2000032" relationship="true">20 19 21 29 32</relation>
+      <relation position="2000050" relationship="false"></relation>
+      <relation position="2400032" relationship="false">24 29 32</relation>
+      <relation position="2400050" relationship="false"></relation>
+      <relation position="3200050" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>2000032</pair>
+   </pairs>
+</root>

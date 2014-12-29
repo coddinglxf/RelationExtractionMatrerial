@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>PKC@was@necessary@in@AVP@-@but@not@in@LPA-induced@activation@of@p70@S6K@</sentence>
+   <tags>
+      <tag pos="1">PKC</tag>
+      <tag pos="5">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="JJ">necessary</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="6" part-of-speech=":">-</taggedword>
+      <taggedword index="7" part-of-speech="CC">but</taggedword>
+      <taggedword index="8" part-of-speech="RB">not</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="JJ">LPA-induced</taggedword>
+      <taggedword index="11" part-of-speech="NN">activation</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="JJ">p70</taggedword>
+      <taggedword index="14" part-of-speech="NN">S6K</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="PKC" dep_index="1" gov="necessary" gov_index="3">nsubj</dependency>
+      <dependency dep="was" dep_index="2" gov="necessary" gov_index="3">cop</dependency>
+      <dependency dep="necessary" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="AVP" dep_index="5" gov="necessary" gov_index="3">prep_in</dependency>
+      <dependency dep="not" dep_index="8" gov="necessary" gov_index="3">neg</dependency>
+      <dependency dep="LPA-induced" dep_index="10" gov="activation" gov_index="11">amod</dependency>
+      <dependency dep="activation" dep_index="11" gov="necessary" gov_index="3">prep_in</dependency>
+      <dependency dep="activation" dep_index="11" gov="AVP" gov_index="5">conj_but</dependency>
+      <dependency dep="p70" dep_index="13" gov="S6K" gov_index="14">amod</dependency>
+      <dependency dep="S6K" dep_index="14" gov="activation" gov_index="11">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100005" relationship="true">1 3 5</relation>
+   </relations>
+   <pairs>
+      <pair>100005</pair>
+   </pairs>
+</root>

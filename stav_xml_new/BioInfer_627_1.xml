@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@influence@of@these@collagens@on@cell@morphology@and@the@distribution@pattern@of@actin@,@vimentin@,@talin@,@and@vinculin@was@analyzed@by@light@microscopy@,@conventional@electron@microscopy@,@immunofluorescence@,@and@immunogold@labeling@after@lysis-squirting@.@</sentence>
+   <tags>
+      <tag pos="5">collagens</tag>
+      <tag pos="16">vimentin</tag>
+      <tag pos="14">actin</tag>
+      <tag pos="21">vinculin</tag>
+      <tag pos="18">talin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">influence</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">these</taggedword>
+      <taggedword index="5" part-of-speech="NNS">collagens</taggedword>
+      <taggedword index="6" part-of-speech="IN">on</taggedword>
+      <taggedword index="7" part-of-speech="NN">cell</taggedword>
+      <taggedword index="8" part-of-speech="NN">morphology</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">distribution</taggedword>
+      <taggedword index="12" part-of-speech="NN">pattern</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">actin</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NN">vimentin</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NN">talin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NN">vinculin</taggedword>
+      <taggedword index="22" part-of-speech="VBD">was</taggedword>
+      <taggedword index="23" part-of-speech="VBN">analyzed</taggedword>
+      <taggedword index="24" part-of-speech="IN">by</taggedword>
+      <taggedword index="25" part-of-speech="JJ">light</taggedword>
+      <taggedword index="26" part-of-speech="JJ">microscopy</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="JJ">conventional</taggedword>
+      <taggedword index="29" part-of-speech="NN">electron</taggedword>
+      <taggedword index="30" part-of-speech="NN">microscopy</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="NN">immunofluorescence</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="VBN">immunogold</taggedword>
+      <taggedword index="36" part-of-speech="VBG">labeling</taggedword>
+      <taggedword index="37" part-of-speech="IN">after</taggedword>
+      <taggedword index="38" part-of-speech="NN">lysis-squirting</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="influence" gov_index="2">det</dependency>
+      <dependency dep="influence" dep_index="2" gov="analyzed" gov_index="23">nsubjpass</dependency>
+      <dependency dep="influence" dep_index="2" gov="immunogold" gov_index="35">nsubjpass</dependency>
+      <dependency dep="these" dep_index="4" gov="collagens" gov_index="5">det</dependency>
+      <dependency dep="collagens" dep_index="5" gov="influence" gov_index="2">prep_of</dependency>
+      <dependency dep="cell" dep_index="7" gov="morphology" gov_index="8">nn</dependency>
+      <dependency dep="morphology" dep_index="8" gov="collagens" gov_index="5">prep_on</dependency>
+      <dependency dep="the" dep_index="10" gov="pattern" gov_index="12">det</dependency>
+      <dependency dep="distribution" dep_index="11" gov="pattern" gov_index="12">nn</dependency>
+      <dependency dep="pattern" dep_index="12" gov="influence" gov_index="2">prep_of</dependency>
+      <dependency dep="pattern" dep_index="12" gov="collagens" gov_index="5">conj_and</dependency>
+      <dependency dep="actin" dep_index="14" gov="pattern" gov_index="12">prep_of</dependency>
+      <dependency dep="vimentin" dep_index="16" gov="actin" gov_index="14">appos</dependency>
+      <dependency dep="talin" dep_index="18" gov="actin" gov_index="14">appos</dependency>
+      <dependency dep="talin" dep_index="18" gov="vimentin" gov_index="16">conj_and</dependency>
+      <dependency dep="vinculin" dep_index="21" gov="actin" gov_index="14">appos</dependency>
+      <dependency dep="vinculin" dep_index="21" gov="vimentin" gov_index="16">conj_and</dependency>
+      <dependency dep="was" dep_index="22" gov="analyzed" gov_index="23">auxpass</dependency>
+      <dependency dep="analyzed" dep_index="23" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="light" dep_index="25" gov="microscopy" gov_index="30">amod</dependency>
+      <dependency dep="microscopy" dep_index="26" gov="microscopy" gov_index="30">amod</dependency>
+      <dependency dep="conventional" dep_index="28" gov="microscopy" gov_index="30">amod</dependency>
+      <dependency dep="electron" dep_index="29" gov="microscopy" gov_index="30">nn</dependency>
+      <dependency dep="microscopy" dep_index="30" gov="analyzed" gov_index="23">agent</dependency>
+      <dependency dep="immunofluorescence" dep_index="32" gov="microscopy" gov_index="30">appos</dependency>
+      <dependency dep="immunogold" dep_index="35" gov="analyzed" gov_index="23">conj_and</dependency>
+      <dependency dep="labeling" dep_index="36" gov="immunogold" gov_index="35">xcomp</dependency>
+      <dependency dep="lysis-squirting" dep_index="38" gov="labeling" gov_index="36">prep_after</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500016" relationship="true">5 2 12 14 16</relation>
+      <relation position="500014" relationship="true">5 2 12 14</relation>
+      <relation position="500021" relationship="true">5 2 12 14 21</relation>
+      <relation position="500018" relationship="true">5 2 12 14 18</relation>
+      <relation position="1400016" relationship="false"></relation>
+      <relation position="1600021" relationship="false">16 14 21</relation>
+      <relation position="1600018" relationship="false">16 14 18</relation>
+      <relation position="1400021" relationship="false"></relation>
+      <relation position="1400018" relationship="false"></relation>
+      <relation position="1800021" relationship="false">18 14 21</relation>
+   </relations>
+   <pairs>
+      <pair>500014</pair>
+      <pair>500021</pair>
+      <pair>500016</pair>
+      <pair>500018</pair>
+   </pairs>
+</root>

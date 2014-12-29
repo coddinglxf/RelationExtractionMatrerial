@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@vitro@and@in@vivo@experiments@support@the@hypothesis@that@Grb2@mediates@the@association@of@c-Kit@with@c-Cbl@.@</sentence>
+   <tags>
+      <tag pos="11">Grb2</tag>
+      <tag pos="16">c-Kit</tag>
+      <tag pos="18">c-Cbl</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="6" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="7" part-of-speech="VBP">support</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNS">hypothesis</taggedword>
+      <taggedword index="10" part-of-speech="IN">that</taggedword>
+      <taggedword index="11" part-of-speech="NNS">Grb2</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">mediates</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">association</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NN">c-Kit</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="NN">c-Cbl</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="vitro" dep_index="2" gov="support" gov_index="7">prep_in</dependency>
+      <dependency dep="in" dep_index="4" gov="vitro" gov_index="2">conj_and</dependency>
+      <dependency dep="in" dep_index="4" gov="support" gov_index="7">prep_in</dependency>
+      <dependency dep="vivo" dep_index="5" gov="in" gov_index="4">pobj</dependency>
+      <dependency dep="experiments" dep_index="6" gov="support" gov_index="7">nsubj</dependency>
+      <dependency dep="support" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="hypothesis" gov_index="9">det</dependency>
+      <dependency dep="hypothesis" dep_index="9" gov="support" gov_index="7">dobj</dependency>
+      <dependency dep="that" dep_index="10" gov="mediates" gov_index="12">mark</dependency>
+      <dependency dep="Grb2" dep_index="11" gov="mediates" gov_index="12">nsubj</dependency>
+      <dependency dep="mediates" dep_index="12" gov="support" gov_index="7">ccomp</dependency>
+      <dependency dep="the" dep_index="13" gov="association" gov_index="14">det</dependency>
+      <dependency dep="association" dep_index="14" gov="mediates" gov_index="12">dobj</dependency>
+      <dependency dep="c-Kit" dep_index="16" gov="association" gov_index="14">prep_of</dependency>
+      <dependency dep="c-Cbl" dep_index="18" gov="mediates" gov_index="12">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100016" relationship="false">11 12 14 16</relation>
+      <relation position="1100018" relationship="false">11 12 18</relation>
+      <relation position="1600018" relationship="true">16 14 12 18</relation>
+   </relations>
+   <pairs>
+      <pair>1600018</pair>
+   </pairs>
+</root>

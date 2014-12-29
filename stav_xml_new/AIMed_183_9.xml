@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Taken@together@,@these@data@suggest@that@JAK2@and@p21ras@cooperate@to@activate@Raf-1@.@</sentence>
+   <tags>
+      <tag pos="8">JAK2</tag>
+      <tag pos="10">p21ras</tag>
+      <tag pos="14">Raf-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Taken</taggedword>
+      <taggedword index="2" part-of-speech="RB">together</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">these</taggedword>
+      <taggedword index="5" part-of-speech="NNS">data</taggedword>
+      <taggedword index="6" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="NNP">JAK2</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NNP">p21ras</taggedword>
+      <taggedword index="11" part-of-speech="VBP">cooperate</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">activate</taggedword>
+      <taggedword index="14" part-of-speech="NNS">Raf-1</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Taken" dep_index="1" gov="suggest" gov_index="6">partmod</dependency>
+      <dependency dep="together" dep_index="2" gov="Taken" gov_index="1">advmod</dependency>
+      <dependency dep="these" dep_index="4" gov="data" gov_index="5">det</dependency>
+      <dependency dep="data" dep_index="5" gov="suggest" gov_index="6">nsubj</dependency>
+      <dependency dep="suggest" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="cooperate" gov_index="11">mark</dependency>
+      <dependency dep="JAK2" dep_index="8" gov="cooperate" gov_index="11">nsubj</dependency>
+      <dependency dep="JAK2" dep_index="8" gov="activate" gov_index="13">xsubj</dependency>
+      <dependency dep="p21ras" dep_index="10" gov="JAK2" gov_index="8">conj_and</dependency>
+      <dependency dep="p21ras" dep_index="10" gov="cooperate" gov_index="11">nsubj</dependency>
+      <dependency dep="p21ras" dep_index="10" gov="activate" gov_index="13">xsubj</dependency>
+      <dependency dep="cooperate" dep_index="11" gov="suggest" gov_index="6">ccomp</dependency>
+      <dependency dep="to" dep_index="12" gov="activate" gov_index="13">aux</dependency>
+      <dependency dep="activate" dep_index="13" gov="cooperate" gov_index="11">xcomp</dependency>
+      <dependency dep="Raf-1" dep_index="14" gov="activate" gov_index="13">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="true">8 13 10</relation>
+      <relation position="800014" relationship="false">8 13 14</relation>
+      <relation position="1000014" relationship="false">10 13 14</relation>
+   </relations>
+   <pairs>
+      <pair>800010</pair>
+   </pairs>
+</root>

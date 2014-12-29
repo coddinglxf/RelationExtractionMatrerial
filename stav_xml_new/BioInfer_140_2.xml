@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@we@have@used@the@yeast@two-hybrid@system@to@map@the@domains@on@alpha-catenin@that@allow@it@to@associate@with@beta-catenin@/@plakoglobin@and@with@alpha-actinin@.@</sentence>
+   <tags>
+      <tag pos="25">plakoglobin</tag>
+      <tag pos="16">alpha-catenin</tag>
+      <tag pos="23">beta-catenin</tag>
+      <tag pos="28">alpha-actinin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech="PRP">we</taggedword>
+      <taggedword index="5" part-of-speech="VBP">have</taggedword>
+      <taggedword index="6" part-of-speech="VBN">used</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="9" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="10" part-of-speech="NN">system</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">map</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="15" part-of-speech="IN">on</taggedword>
+      <taggedword index="16" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="17" part-of-speech="WDT">that</taggedword>
+      <taggedword index="18" part-of-speech="VBP">allow</taggedword>
+      <taggedword index="19" part-of-speech="PRP">it</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="NN">associate</taggedword>
+      <taggedword index="22" part-of-speech="IN">with</taggedword>
+      <taggedword index="23" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="24" part-of-speech="JJ">/</taggedword>
+      <taggedword index="25" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="IN">with</taggedword>
+      <taggedword index="28" part-of-speech="NN">alpha-actinin</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="used" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="4" gov="used" gov_index="6">nsubj</dependency>
+      <dependency dep="have" dep_index="5" gov="used" gov_index="6">aux</dependency>
+      <dependency dep="used" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="system" gov_index="10">det</dependency>
+      <dependency dep="yeast" dep_index="8" gov="system" gov_index="10">nn</dependency>
+      <dependency dep="two-hybrid" dep_index="9" gov="system" gov_index="10">amod</dependency>
+      <dependency dep="system" dep_index="10" gov="map" gov_index="12">nsubj</dependency>
+      <dependency dep="to" dep_index="11" gov="map" gov_index="12">aux</dependency>
+      <dependency dep="map" dep_index="12" gov="used" gov_index="6">xcomp</dependency>
+      <dependency dep="the" dep_index="13" gov="domains" gov_index="14">det</dependency>
+      <dependency dep="domains" dep_index="14" gov="map" gov_index="12">dobj</dependency>
+      <dependency dep="alpha-catenin" dep_index="16" gov="map" gov_index="12">prep_on</dependency>
+      <dependency dep="alpha-catenin" dep_index="16" gov="allow" gov_index="18">nsubj</dependency>
+      <dependency dep="alpha-catenin" dep_index="16" gov="allow" gov_index="18">nsubj</dependency>
+      <dependency dep="allow" dep_index="18" gov="alpha-catenin" gov_index="16">rcmod</dependency>
+      <dependency dep="allow" dep_index="18" gov="alpha-catenin" gov_index="16">rcmod</dependency>
+      <dependency dep="allow" dep_index="18" gov="allow" gov_index="18">conj_and</dependency>
+      <dependency dep="it" dep_index="19" gov="allow" gov_index="18">dobj</dependency>
+      <dependency dep="associate" dep_index="21" gov="allow" gov_index="18">prep_to</dependency>
+      <dependency dep="beta-catenin" dep_index="23" gov="plakoglobin" gov_index="25">amod</dependency>
+      <dependency dep="/" dep_index="24" gov="plakoglobin" gov_index="25">amod</dependency>
+      <dependency dep="plakoglobin" dep_index="25" gov="associate" gov_index="21">prep_with</dependency>
+      <dependency dep="alpha-actinin" dep_index="28" gov="allow" gov_index="18">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600025" relationship="true">16 18 21 25</relation>
+      <relation position="2300025" relationship="false"></relation>
+      <relation position="2500028" relationship="false">25 21 18 28</relation>
+      <relation position="1600023" relationship="true">16 18 21 25 23</relation>
+      <relation position="1600028" relationship="true">16 18 28</relation>
+      <relation position="2300028" relationship="false">23 25 21 18 28</relation>
+   </relations>
+   <pairs>
+      <pair>1600025</pair>
+      <pair>1600028</pair>
+      <pair>1600023</pair>
+   </pairs>
+</root>

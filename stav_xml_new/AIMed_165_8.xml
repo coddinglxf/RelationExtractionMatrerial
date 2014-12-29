@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Our@analyses@demonstrate@that@the@XPB@,@XPD@,@p44@,@and@p62@proteins@interact@with@each@other@.@</sentence>
+   <tags>
+      <tag pos="6">XPB</tag>
+      <tag pos="8">XPD</tag>
+      <tag pos="10">p44</tag>
+      <tag pos="13">p62</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP$">Our</taggedword>
+      <taggedword index="2" part-of-speech="NNS">analyses</taggedword>
+      <taggedword index="3" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NNP">XPB</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NNP">XPD</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NNS">p44</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="JJ">p62</taggedword>
+      <taggedword index="14" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="15" part-of-speech="VBP">interact</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="DT">each</taggedword>
+      <taggedword index="18" part-of-speech="JJ">other</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Our" dep_index="1" gov="analyses" gov_index="2">poss</dependency>
+      <dependency dep="analyses" dep_index="2" gov="demonstrate" gov_index="3">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="interact" gov_index="15">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="XPB" gov_index="6">det</dependency>
+      <dependency dep="XPB" dep_index="6" gov="interact" gov_index="15">nsubj</dependency>
+      <dependency dep="XPD" dep_index="8" gov="XPB" gov_index="6">conj_and</dependency>
+      <dependency dep="XPD" dep_index="8" gov="interact" gov_index="15">nsubj</dependency>
+      <dependency dep="p44" dep_index="10" gov="XPB" gov_index="6">conj_and</dependency>
+      <dependency dep="p44" dep_index="10" gov="interact" gov_index="15">nsubj</dependency>
+      <dependency dep="p62" dep_index="13" gov="proteins" gov_index="14">amod</dependency>
+      <dependency dep="proteins" dep_index="14" gov="XPB" gov_index="6">conj_and</dependency>
+      <dependency dep="proteins" dep_index="14" gov="interact" gov_index="15">nsubj</dependency>
+      <dependency dep="interact" dep_index="15" gov="demonstrate" gov_index="3">ccomp</dependency>
+      <dependency dep="each" dep_index="17" gov="other" gov_index="18">det</dependency>
+      <dependency dep="other" dep_index="18" gov="interact" gov_index="15">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="true">6 15 8</relation>
+      <relation position="600010" relationship="false">6 15 10</relation>
+      <relation position="600013" relationship="false">6 15 14 13</relation>
+      <relation position="800010" relationship="false">8 15 10</relation>
+      <relation position="800013" relationship="false">8 15 14 13</relation>
+      <relation position="1000013" relationship="false">10 15 14 13</relation>
+   </relations>
+   <pairs>
+      <pair>600008</pair>
+   </pairs>
+</root>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@effects@of@full-length@amyloid@beta@protein@,@A(beta)@(1-40)@,@on@phosphoinositide-specific@phospholipase C@(PLC)@were@investigated@in@synaptic@plasma@membranes@(SPM)@and@cytosol@prepared@from@the@cerebral@cortex@of@adult@rats@</sentence>
+   <tags>
+      <tag pos="5">amyloid</tag>
+      <tag pos="14">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">full-length</taggedword>
+      <taggedword index="5" part-of-speech="JJ">amyloid</taggedword>
+      <taggedword index="6" part-of-speech="NN">beta</taggedword>
+      <taggedword index="7" part-of-speech="NN">protein</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">A(beta)</taggedword>
+      <taggedword index="10" part-of-speech="CD">(1-40)</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="IN">on</taggedword>
+      <taggedword index="13" part-of-speech="JJ">phosphoinositide-specific</taggedword>
+      <taggedword index="14" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="15" part-of-speech="NNS">(PLC)</taggedword>
+      <taggedword index="16" part-of-speech="VBD">were</taggedword>
+      <taggedword index="17" part-of-speech="VBN">investigated</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="JJ">synaptic</taggedword>
+      <taggedword index="20" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="21" part-of-speech="NNS">membranes</taggedword>
+      <taggedword index="22" part-of-speech="JJ">(SPM)</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="JJ">cytosol</taggedword>
+      <taggedword index="25" part-of-speech="VBN">prepared</taggedword>
+      <taggedword index="26" part-of-speech="IN">from</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="JJ">cerebral</taggedword>
+      <taggedword index="29" part-of-speech="NN">cortex</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="JJ">adult</taggedword>
+      <taggedword index="32" part-of-speech="NNS">rats</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="effects" gov_index="2">det</dependency>
+      <dependency dep="effects" dep_index="2" gov="investigated" gov_index="17">nsubjpass</dependency>
+      <dependency dep="full-length" dep_index="4" gov="protein" gov_index="7">amod</dependency>
+      <dependency dep="amyloid" dep_index="5" gov="protein" gov_index="7">amod</dependency>
+      <dependency dep="beta" dep_index="6" gov="protein" gov_index="7">nn</dependency>
+      <dependency dep="protein" dep_index="7" gov="effects" gov_index="2">prep_of</dependency>
+      <dependency dep="A(beta)" dep_index="9" gov="protein" gov_index="7">appos</dependency>
+      <dependency dep="(1-40)" dep_index="10" gov="A(beta)" gov_index="9">num</dependency>
+      <dependency dep="phosphoinositide-specific" dep_index="13" gov="(PLC)" gov_index="15">amod</dependency>
+      <dependency dep="phospholipase C" dep_index="14" gov="(PLC)" gov_index="15">amod</dependency>
+      <dependency dep="(PLC)" dep_index="15" gov="protein" gov_index="7">prep_on</dependency>
+      <dependency dep="were" dep_index="16" gov="investigated" gov_index="17">auxpass</dependency>
+      <dependency dep="investigated" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="synaptic" dep_index="19" gov="membranes" gov_index="21">amod</dependency>
+      <dependency dep="plasma" dep_index="20" gov="membranes" gov_index="21">nn</dependency>
+      <dependency dep="membranes" dep_index="21" gov="investigated" gov_index="17">prep_in</dependency>
+      <dependency dep="(SPM)" dep_index="22" gov="membranes" gov_index="21">amod</dependency>
+      <dependency dep="cytosol" dep_index="24" gov="membranes" gov_index="21">amod</dependency>
+      <dependency dep="cytosol" dep_index="24" gov="(SPM)" gov_index="22">conj_and</dependency>
+      <dependency dep="prepared" dep_index="25" gov="membranes" gov_index="21">partmod</dependency>
+      <dependency dep="the" dep_index="27" gov="cortex" gov_index="29">det</dependency>
+      <dependency dep="cerebral" dep_index="28" gov="cortex" gov_index="29">amod</dependency>
+      <dependency dep="cortex" dep_index="29" gov="prepared" gov_index="25">prep_from</dependency>
+      <dependency dep="adult" dep_index="31" gov="rats" gov_index="32">amod</dependency>
+      <dependency dep="rats" dep_index="32" gov="cortex" gov_index="29">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500014" relationship="false">5 7 15 14</relation>
+   </relations>
+   <pairs/>
+</root>

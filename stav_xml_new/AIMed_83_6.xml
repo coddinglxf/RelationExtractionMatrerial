@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Further@comparison@with@proposed@binding@sites@for@alpha-@and@beta-receptors@on@interleukin-6@and@leukemia@inhibitory@factor@indicated@that@this@epitope@topology@is@conserved@among@helical@cytokines@.@</sentence>
+   <tags>
+      <tag pos="12">interleukin-6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Further</taggedword>
+      <taggedword index="2" part-of-speech="NN">comparison</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="VBN">proposed</taggedword>
+      <taggedword index="5" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="6" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="NNS">alpha-</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NNS">beta-receptors</taggedword>
+      <taggedword index="11" part-of-speech="IN">on</taggedword>
+      <taggedword index="12" part-of-speech="NN">interleukin-6</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">leukemia</taggedword>
+      <taggedword index="15" part-of-speech="NN">inhibitory</taggedword>
+      <taggedword index="16" part-of-speech="NN">factor</taggedword>
+      <taggedword index="17" part-of-speech="VBD">indicated</taggedword>
+      <taggedword index="18" part-of-speech="IN">that</taggedword>
+      <taggedword index="19" part-of-speech="DT">this</taggedword>
+      <taggedword index="20" part-of-speech="JJ">epitope</taggedword>
+      <taggedword index="21" part-of-speech="NN">topology</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="23" part-of-speech="VBN">conserved</taggedword>
+      <taggedword index="24" part-of-speech="IN">among</taggedword>
+      <taggedword index="25" part-of-speech="JJ">helical</taggedword>
+      <taggedword index="26" part-of-speech="NNS">cytokines</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Further" dep_index="1" gov="comparison" gov_index="2">amod</dependency>
+      <dependency dep="comparison" dep_index="2" gov="indicated" gov_index="17">nsubj</dependency>
+      <dependency dep="proposed" dep_index="4" gov="sites" gov_index="6">amod</dependency>
+      <dependency dep="binding" dep_index="5" gov="sites" gov_index="6">amod</dependency>
+      <dependency dep="sites" dep_index="6" gov="comparison" gov_index="2">prep_with</dependency>
+      <dependency dep="alpha-" dep_index="8" gov="sites" gov_index="6">prep_for</dependency>
+      <dependency dep="beta-receptors" dep_index="10" gov="sites" gov_index="6">prep_for</dependency>
+      <dependency dep="beta-receptors" dep_index="10" gov="alpha-" gov_index="8">conj_and</dependency>
+      <dependency dep="interleukin-6" dep_index="12" gov="factor" gov_index="16">nn</dependency>
+      <dependency dep="leukemia" dep_index="14" gov="interleukin-6" gov_index="12">conj_and</dependency>
+      <dependency dep="leukemia" dep_index="14" gov="factor" gov_index="16">nn</dependency>
+      <dependency dep="inhibitory" dep_index="15" gov="factor" gov_index="16">nn</dependency>
+      <dependency dep="factor" dep_index="16" gov="sites" gov_index="6">prep_on</dependency>
+      <dependency dep="indicated" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="18" gov="conserved" gov_index="23">mark</dependency>
+      <dependency dep="this" dep_index="19" gov="topology" gov_index="21">det</dependency>
+      <dependency dep="epitope" dep_index="20" gov="topology" gov_index="21">amod</dependency>
+      <dependency dep="topology" dep_index="21" gov="conserved" gov_index="23">nsubjpass</dependency>
+      <dependency dep="is" dep_index="22" gov="conserved" gov_index="23">auxpass</dependency>
+      <dependency dep="conserved" dep_index="23" gov="indicated" gov_index="17">ccomp</dependency>
+      <dependency dep="helical" dep_index="25" gov="cytokines" gov_index="26">amod</dependency>
+      <dependency dep="cytokines" dep_index="26" gov="conserved" gov_index="23">prep_among</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

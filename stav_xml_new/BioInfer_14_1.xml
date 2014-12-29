@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Actin-binding proteins@such@as@profilin@and@gelsolin@bind@to@phosphatidylinositol@(PI)@4,5-bisphosphate@(PI@4,5-P2)@and@regulate@the@concentration@of@monomeric@actin@.@</sentence>
+   <tags>
+      <tag pos="6">gelsolin</tag>
+      <tag pos="20">actin</tag>
+      <tag pos="1">Actin-binding proteins</tag>
+      <tag pos="4">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Actin-binding proteins</taggedword>
+      <taggedword index="2" part-of-speech="JJ">such</taggedword>
+      <taggedword index="3" part-of-speech="IN">as</taggedword>
+      <taggedword index="4" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">gelsolin</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">bind</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">phosphatidylinositol</taggedword>
+      <taggedword index="10" part-of-speech="JJ">(PI)</taggedword>
+      <taggedword index="11" part-of-speech="JJ">4,5-bisphosphate</taggedword>
+      <taggedword index="12" part-of-speech="NN">(PI</taggedword>
+      <taggedword index="13" part-of-speech="CD">4,5-P2)</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">monomeric</taggedword>
+      <taggedword index="20" part-of-speech="NN">actin</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Actin-binding proteins" dep_index="1" gov="bind" gov_index="7">nsubj</dependency>
+      <dependency dep="Actin-binding proteins" dep_index="1" gov="phosphatidylinositol" gov_index="9">xsubj</dependency>
+      <dependency dep="profilin" dep_index="4" gov="Actin-binding proteins" gov_index="1">prep_such_as</dependency>
+      <dependency dep="gelsolin" dep_index="6" gov="Actin-binding proteins" gov_index="1">prep_such_as</dependency>
+      <dependency dep="gelsolin" dep_index="6" gov="profilin" gov_index="4">conj_and</dependency>
+      <dependency dep="bind" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="8" gov="phosphatidylinositol" gov_index="9">aux</dependency>
+      <dependency dep="phosphatidylinositol" dep_index="9" gov="bind" gov_index="7">xcomp</dependency>
+      <dependency dep="(PI)" dep_index="10" gov="(PI" gov_index="12">amod</dependency>
+      <dependency dep="4,5-bisphosphate" dep_index="11" gov="(PI" gov_index="12">amod</dependency>
+      <dependency dep="(PI" dep_index="12" gov="phosphatidylinositol" gov_index="9">dobj</dependency>
+      <dependency dep="4,5-P2)" dep_index="13" gov="(PI" gov_index="12">num</dependency>
+      <dependency dep="regulate" dep_index="15" gov="bind" gov_index="7">xcomp</dependency>
+      <dependency dep="regulate" dep_index="15" gov="phosphatidylinositol" gov_index="9">conj_and</dependency>
+      <dependency dep="the" dep_index="16" gov="concentration" gov_index="17">det</dependency>
+      <dependency dep="concentration" dep_index="17" gov="regulate" gov_index="15">dobj</dependency>
+      <dependency dep="monomeric" dep_index="19" gov="actin" gov_index="20">amod</dependency>
+      <dependency dep="actin" dep_index="20" gov="concentration" gov_index="17">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600020" relationship="false">6 1 7 15 17 20</relation>
+      <relation position="100006" relationship="true"></relation>
+      <relation position="400006" relationship="false">4 1 6</relation>
+      <relation position="100020" relationship="true">1 7 15 17 20</relation>
+      <relation position="400020" relationship="false">4 1 7 15 17 20</relation>
+      <relation position="100004" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>100006</pair>
+      <pair>100004</pair>
+      <pair>100020</pair>
+   </pairs>
+</root>

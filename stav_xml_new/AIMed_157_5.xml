@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@subcellular@distributions@of@PKC@and@AKAP79@were@similar@in@neurons@.@</sentence>
+   <tags>
+      <tag pos="5">PKC</tag>
+      <tag pos="7">AKAP79</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">subcellular</taggedword>
+      <taggedword index="3" part-of-speech="NNS">distributions</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">AKAP79</taggedword>
+      <taggedword index="8" part-of-speech="VBD">were</taggedword>
+      <taggedword index="9" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NNS">neurons</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="distributions" gov_index="3">det</dependency>
+      <dependency dep="subcellular" dep_index="2" gov="distributions" gov_index="3">nn</dependency>
+      <dependency dep="distributions" dep_index="3" gov="similar" gov_index="9">nsubj</dependency>
+      <dependency dep="PKC" dep_index="5" gov="distributions" gov_index="3">prep_of</dependency>
+      <dependency dep="AKAP79" dep_index="7" gov="distributions" gov_index="3">prep_of</dependency>
+      <dependency dep="AKAP79" dep_index="7" gov="PKC" gov_index="5">conj_and</dependency>
+      <dependency dep="were" dep_index="8" gov="similar" gov_index="9">cop</dependency>
+      <dependency dep="similar" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="neurons" dep_index="11" gov="similar" gov_index="9">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 3 7</relation>
+   </relations>
+   <pairs/>
+</root>

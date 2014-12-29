@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@mechanism@of@how@Inr@elements@work@is@poorly@understood@,@partly@because@very@few@proteins@that@bind@to@Inr@elements@have@been@identified@and@isolated@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="WRB">how</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Inr</taggedword>
+      <taggedword index="6" part-of-speech="NNS">elements</taggedword>
+      <taggedword index="7" part-of-speech="VBP">work</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="RB">poorly</taggedword>
+      <taggedword index="10" part-of-speech="VBN">understood</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="RB">partly</taggedword>
+      <taggedword index="13" part-of-speech="IN">because</taggedword>
+      <taggedword index="14" part-of-speech="RB">very</taggedword>
+      <taggedword index="15" part-of-speech="JJ">few</taggedword>
+      <taggedword index="16" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="17" part-of-speech="IN">that</taggedword>
+      <taggedword index="18" part-of-speech="NN">bind</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="VB">Inr</taggedword>
+      <taggedword index="21" part-of-speech="NNS">elements</taggedword>
+      <taggedword index="22" part-of-speech="VBP">have</taggedword>
+      <taggedword index="23" part-of-speech="VBN">been</taggedword>
+      <taggedword index="24" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="VBN">isolated</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="mechanism" gov_index="2">det</dependency>
+      <dependency dep="mechanism" dep_index="2" gov="understood" gov_index="10">nsubjpass</dependency>
+      <dependency dep="how" dep_index="4" gov="work" gov_index="7">advmod</dependency>
+      <dependency dep="Inr" dep_index="5" gov="elements" gov_index="6">nn</dependency>
+      <dependency dep="elements" dep_index="6" gov="work" gov_index="7">nsubj</dependency>
+      <dependency dep="work" dep_index="7" gov="mechanism" gov_index="2">prepc_of</dependency>
+      <dependency dep="is" dep_index="8" gov="understood" gov_index="10">auxpass</dependency>
+      <dependency dep="poorly" dep_index="9" gov="understood" gov_index="10">advmod</dependency>
+      <dependency dep="understood" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="partly" dep_index="12" gov="identified" gov_index="24">advmod</dependency>
+      <dependency dep="because" dep_index="13" gov="identified" gov_index="24">mark</dependency>
+      <dependency dep="very" dep_index="14" gov="proteins" gov_index="16">advmod</dependency>
+      <dependency dep="few" dep_index="15" gov="proteins" gov_index="16">amod</dependency>
+      <dependency dep="proteins" dep_index="16" gov="identified" gov_index="24">nsubjpass</dependency>
+      <dependency dep="proteins" dep_index="16" gov="isolated" gov_index="26">nsubjpass</dependency>
+      <dependency dep="that" dep_index="17" gov="Inr" gov_index="20">mark</dependency>
+      <dependency dep="bind" dep_index="18" gov="Inr" gov_index="20">nsubj</dependency>
+      <dependency dep="to" dep_index="19" gov="Inr" gov_index="20">aux</dependency>
+      <dependency dep="Inr" dep_index="20" gov="proteins" gov_index="16">infmod</dependency>
+      <dependency dep="elements" dep_index="21" gov="Inr" gov_index="20">dobj</dependency>
+      <dependency dep="have" dep_index="22" gov="identified" gov_index="24">aux</dependency>
+      <dependency dep="been" dep_index="23" gov="identified" gov_index="24">auxpass</dependency>
+      <dependency dep="identified" dep_index="24" gov="understood" gov_index="10">advcl</dependency>
+      <dependency dep="isolated" dep_index="26" gov="understood" gov_index="10">advcl</dependency>
+      <dependency dep="isolated" dep_index="26" gov="identified" gov_index="24">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

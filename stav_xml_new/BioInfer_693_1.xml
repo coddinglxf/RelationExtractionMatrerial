@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@cells@have@both@alpha-catenin@and@beta-catenin@,@display@unusual@expression@of@N-cadherin@,@and@have@the@typical@fibroblastic@phenotype@of@transformed@cells@.@</sentence>
+   <tags>
+      <tag pos="7">beta-catenin</tag>
+      <tag pos="5">alpha-catenin</tag>
+      <tag pos="13">N-cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="3" part-of-speech="VBP">have</taggedword>
+      <taggedword index="4" part-of-speech="DT">both</taggedword>
+      <taggedword index="5" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="VBP">display</taggedword>
+      <taggedword index="10" part-of-speech="JJ">unusual</taggedword>
+      <taggedword index="11" part-of-speech="NN">expression</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NNP">N-cadherin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="VBP">have</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">typical</taggedword>
+      <taggedword index="19" part-of-speech="JJ">fibroblastic</taggedword>
+      <taggedword index="20" part-of-speech="NN">phenotype</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="JJ">transformed</taggedword>
+      <taggedword index="23" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="cells" gov_index="2">det</dependency>
+      <dependency dep="cells" dep_index="2" gov="have" gov_index="3">nsubj</dependency>
+      <dependency dep="cells" dep_index="2" gov="display" gov_index="9">nsubj</dependency>
+      <dependency dep="cells" dep_index="2" gov="have" gov_index="16">nsubj</dependency>
+      <dependency dep="have" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="both" dep_index="4" gov="alpha-catenin" gov_index="5">preconj</dependency>
+      <dependency dep="alpha-catenin" dep_index="5" gov="have" gov_index="3">dobj</dependency>
+      <dependency dep="beta-catenin" dep_index="7" gov="have" gov_index="3">dobj</dependency>
+      <dependency dep="beta-catenin" dep_index="7" gov="alpha-catenin" gov_index="5">conj_and</dependency>
+      <dependency dep="display" dep_index="9" gov="have" gov_index="3">conj_and</dependency>
+      <dependency dep="unusual" dep_index="10" gov="expression" gov_index="11">amod</dependency>
+      <dependency dep="expression" dep_index="11" gov="display" gov_index="9">dobj</dependency>
+      <dependency dep="N-cadherin" dep_index="13" gov="expression" gov_index="11">prep_of</dependency>
+      <dependency dep="have" dep_index="16" gov="have" gov_index="3">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="phenotype" gov_index="20">det</dependency>
+      <dependency dep="typical" dep_index="18" gov="phenotype" gov_index="20">amod</dependency>
+      <dependency dep="fibroblastic" dep_index="19" gov="phenotype" gov_index="20">amod</dependency>
+      <dependency dep="phenotype" dep_index="20" gov="have" gov_index="16">dobj</dependency>
+      <dependency dep="transformed" dep_index="22" gov="cells" gov_index="23">amod</dependency>
+      <dependency dep="cells" dep_index="23" gov="phenotype" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 3 7</relation>
+      <relation position="700013" relationship="false"></relation>
+      <relation position="500013" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

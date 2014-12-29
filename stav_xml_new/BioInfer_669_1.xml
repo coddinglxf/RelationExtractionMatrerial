@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@product@of@UL38@has@been@shown@to@be@essential@for@capsid@assembly@,@but@no@role@has@previously@been@assigned@to@the@product@of@UL18@.@</sentence>
+   <tags>
+      <tag pos="4">UL38</tag>
+      <tag pos="26">UL18</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">product</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">UL38</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="6" part-of-speech="VBN">been</taggedword>
+      <taggedword index="7" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">be</taggedword>
+      <taggedword index="10" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="11" part-of-speech="IN">for</taggedword>
+      <taggedword index="12" part-of-speech="JJ">capsid</taggedword>
+      <taggedword index="13" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">but</taggedword>
+      <taggedword index="16" part-of-speech="DT">no</taggedword>
+      <taggedword index="17" part-of-speech="NN">role</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="19" part-of-speech="RB">previously</taggedword>
+      <taggedword index="20" part-of-speech="VBN">been</taggedword>
+      <taggedword index="21" part-of-speech="VBN">assigned</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">product</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NNP">UL18</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="product" gov_index="2">det</dependency>
+      <dependency dep="product" dep_index="2" gov="shown" gov_index="7">nsubjpass</dependency>
+      <dependency dep="product" dep_index="2" gov="essential" gov_index="10">xsubj</dependency>
+      <dependency dep="UL38" dep_index="4" gov="product" gov_index="2">prep_of</dependency>
+      <dependency dep="has" dep_index="5" gov="shown" gov_index="7">aux</dependency>
+      <dependency dep="been" dep_index="6" gov="shown" gov_index="7">auxpass</dependency>
+      <dependency dep="shown" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="8" gov="essential" gov_index="10">aux</dependency>
+      <dependency dep="be" dep_index="9" gov="essential" gov_index="10">cop</dependency>
+      <dependency dep="essential" dep_index="10" gov="shown" gov_index="7">xcomp</dependency>
+      <dependency dep="capsid" dep_index="12" gov="assembly" gov_index="13">amod</dependency>
+      <dependency dep="assembly" dep_index="13" gov="essential" gov_index="10">prep_for</dependency>
+      <dependency dep="no" dep_index="16" gov="role" gov_index="17">det</dependency>
+      <dependency dep="role" dep_index="17" gov="assigned" gov_index="21">nsubjpass</dependency>
+      <dependency dep="has" dep_index="18" gov="assigned" gov_index="21">aux</dependency>
+      <dependency dep="previously" dep_index="19" gov="assigned" gov_index="21">advmod</dependency>
+      <dependency dep="been" dep_index="20" gov="assigned" gov_index="21">auxpass</dependency>
+      <dependency dep="assigned" dep_index="21" gov="shown" gov_index="7">conj_but</dependency>
+      <dependency dep="the" dep_index="23" gov="product" gov_index="24">det</dependency>
+      <dependency dep="product" dep_index="24" gov="assigned" gov_index="21">prep_to</dependency>
+      <dependency dep="UL18" dep_index="26" gov="product" gov_index="24">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400026" relationship="false">4 2 7 21 24 26</relation>
+   </relations>
+   <pairs/>
+</root>

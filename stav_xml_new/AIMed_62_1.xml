@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crystal@structure@of@human@platelet-derived growth factor BB@.@</sentence>
+   <tags>
+      <tag pos="5">platelet-derived growth factor BB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Crystal</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">human</taggedword>
+      <taggedword index="5" part-of-speech="NN">platelet-derived growth factor BB</taggedword>
+      <taggedword index="6" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crystal" dep_index="1" gov="structure" gov_index="2">nn</dependency>
+      <dependency dep="structure" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="human" dep_index="4" gov="platelet-derived growth factor BB" gov_index="5">amod</dependency>
+      <dependency dep="platelet-derived growth factor BB" dep_index="5" gov="structure" gov_index="2">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

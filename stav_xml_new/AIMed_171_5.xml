@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>On@Cdk2@,@it@binds@and@rearranges@the@amino-terminal@lobe@and@also@inserts@into@the@catalytic@cleft@,@mimicking@ATP@.@</sentence>
+   <tags>
+      <tag pos="2">Cdk2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">On</taggedword>
+      <taggedword index="2" part-of-speech="NNS">Cdk2</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="PRP">it</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">rearranges</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="10" part-of-speech="NN">lobe</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="RB">also</taggedword>
+      <taggedword index="13" part-of-speech="NNS">inserts</taggedword>
+      <taggedword index="14" part-of-speech="IN">into</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="JJ">catalytic</taggedword>
+      <taggedword index="17" part-of-speech="NN">cleft</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="VBG">mimicking</taggedword>
+      <taggedword index="20" part-of-speech="NNP">ATP</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cdk2" dep_index="2" gov="binds" gov_index="5">prep_on</dependency>
+      <dependency dep="it" dep_index="4" gov="binds" gov_index="5">nsubj</dependency>
+      <dependency dep="it" dep_index="4" gov="rearranges" gov_index="7">nsubj</dependency>
+      <dependency dep="binds" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="rearranges" dep_index="7" gov="binds" gov_index="5">conj_and</dependency>
+      <dependency dep="the" dep_index="8" gov="lobe" gov_index="10">det</dependency>
+      <dependency dep="amino-terminal" dep_index="9" gov="lobe" gov_index="10">amod</dependency>
+      <dependency dep="lobe" dep_index="10" gov="inserts" gov_index="13">nn</dependency>
+      <dependency dep="also" dep_index="12" gov="lobe" gov_index="10">advmod</dependency>
+      <dependency dep="also" dep_index="12" gov="lobe" gov_index="10">conj_and</dependency>
+      <dependency dep="also" dep_index="12" gov="inserts" gov_index="13">nn</dependency>
+      <dependency dep="inserts" dep_index="13" gov="rearranges" gov_index="7">dobj</dependency>
+      <dependency dep="the" dep_index="15" gov="cleft" gov_index="17">det</dependency>
+      <dependency dep="catalytic" dep_index="16" gov="cleft" gov_index="17">amod</dependency>
+      <dependency dep="cleft" dep_index="17" gov="rearranges" gov_index="7">prep_into</dependency>
+      <dependency dep="mimicking" dep_index="19" gov="rearranges" gov_index="7">partmod</dependency>
+      <dependency dep="ATP" dep_index="20" gov="mimicking" gov_index="19">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

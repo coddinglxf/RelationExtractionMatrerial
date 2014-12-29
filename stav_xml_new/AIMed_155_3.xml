@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Molecular@studies@of@the@multiprotein@TFIID@complex@have@identified@a@primary@TATA binding subunit@(@TBP@),@TBP-associated@factors@(TAFs)@that@interact@with@and@mediate@the@function@of@activators@and@intersubunit@interactions@but@have@yielded@relatively@little@insight@into@the@structural@organization@of@the@complex@or@the@actual@mechanism@of@transcriptional@activation@.@</sentence>
+   <tags>
+      <tag pos="6">TFIID</tag>
+      <tag pos="12">TATA binding subunit</tag>
+      <tag pos="14">TBP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Molecular</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">multiprotein</taggedword>
+      <taggedword index="6" part-of-speech="JJ">TFIID</taggedword>
+      <taggedword index="7" part-of-speech="NN">complex</taggedword>
+      <taggedword index="8" part-of-speech="VBP">have</taggedword>
+      <taggedword index="9" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="12" part-of-speech="NNP">TATA binding subunit</taggedword>
+      <taggedword index="13" part-of-speech="NNP">(</taggedword>
+      <taggedword index="14" part-of-speech="NNP">TBP</taggedword>
+      <taggedword index="15" part-of-speech="NNP">),</taggedword>
+      <taggedword index="16" part-of-speech="JJ">TBP-associated</taggedword>
+      <taggedword index="17" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="18" part-of-speech="NN">(TAFs)</taggedword>
+      <taggedword index="19" part-of-speech="IN">that</taggedword>
+      <taggedword index="20" part-of-speech="VBN">interact</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="VB">mediate</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">function</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="NNS">activators</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="NN">intersubunit</taggedword>
+      <taggedword index="30" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="31" part-of-speech="CC">but</taggedword>
+      <taggedword index="32" part-of-speech="VB">have</taggedword>
+      <taggedword index="33" part-of-speech="VBN">yielded</taggedword>
+      <taggedword index="34" part-of-speech="RB">relatively</taggedword>
+      <taggedword index="35" part-of-speech="RB">little</taggedword>
+      <taggedword index="36" part-of-speech="JJ">insight</taggedword>
+      <taggedword index="37" part-of-speech="IN">into</taggedword>
+      <taggedword index="38" part-of-speech="DT">the</taggedword>
+      <taggedword index="39" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="40" part-of-speech="NN">organization</taggedword>
+      <taggedword index="41" part-of-speech="IN">of</taggedword>
+      <taggedword index="42" part-of-speech="DT">the</taggedword>
+      <taggedword index="43" part-of-speech="NN">complex</taggedword>
+      <taggedword index="44" part-of-speech="CC">or</taggedword>
+      <taggedword index="45" part-of-speech="DT">the</taggedword>
+      <taggedword index="46" part-of-speech="JJ">actual</taggedword>
+      <taggedword index="47" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="48" part-of-speech="IN">of</taggedword>
+      <taggedword index="49" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="50" part-of-speech="NN">activation</taggedword>
+      <taggedword index="51" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Molecular" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="identified" gov_index="9">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="complex" gov_index="7">det</dependency>
+      <dependency dep="multiprotein" dep_index="5" gov="complex" gov_index="7">amod</dependency>
+      <dependency dep="TFIID" dep_index="6" gov="complex" gov_index="7">amod</dependency>
+      <dependency dep="complex" dep_index="7" gov="studies" gov_index="2">prep_of</dependency>
+      <dependency dep="have" dep_index="8" gov="identified" gov_index="9">aux</dependency>
+      <dependency dep="identified" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="10" gov="(TAFs)" gov_index="18">det</dependency>
+      <dependency dep="primary" dep_index="11" gov="(TAFs)" gov_index="18">amod</dependency>
+      <dependency dep="TATA binding subunit" dep_index="12" gov="(TAFs)" gov_index="18">nn</dependency>
+      <dependency dep="(" dep_index="13" gov="(TAFs)" gov_index="18">nn</dependency>
+      <dependency dep="TBP" dep_index="14" gov="(TAFs)" gov_index="18">nn</dependency>
+      <dependency dep=")," dep_index="15" gov="(TAFs)" gov_index="18">nn</dependency>
+      <dependency dep="TBP-associated" dep_index="16" gov="(TAFs)" gov_index="18">amod</dependency>
+      <dependency dep="factors" dep_index="17" gov="(TAFs)" gov_index="18">nn</dependency>
+      <dependency dep="(TAFs)" dep_index="18" gov="identified" gov_index="9">dobj</dependency>
+      <dependency dep="that" dep_index="19" gov="interact" gov_index="20">mark</dependency>
+      <dependency dep="interact" dep_index="20" gov="identified" gov_index="9">ccomp</dependency>
+      <dependency dep="with" dep_index="21" gov="interact" gov_index="20">prep</dependency>
+      <dependency dep="mediate" dep_index="23" gov="identified" gov_index="9">ccomp</dependency>
+      <dependency dep="mediate" dep_index="23" gov="interact" gov_index="20">conj_and</dependency>
+      <dependency dep="the" dep_index="24" gov="function" gov_index="25">det</dependency>
+      <dependency dep="function" dep_index="25" gov="mediate" gov_index="23">dobj</dependency>
+      <dependency dep="activators" dep_index="27" gov="function" gov_index="25">prep_of</dependency>
+      <dependency dep="intersubunit" dep_index="29" gov="interactions" gov_index="30">nn</dependency>
+      <dependency dep="interactions" dep_index="30" gov="function" gov_index="25">prep_of</dependency>
+      <dependency dep="interactions" dep_index="30" gov="activators" gov_index="27">conj_and</dependency>
+      <dependency dep="have" dep_index="32" gov="yielded" gov_index="33">aux</dependency>
+      <dependency dep="yielded" dep_index="33" gov="interact" gov_index="20">conj_and</dependency>
+      <dependency dep="yielded" dep_index="33" gov="mediate" gov_index="23">conj_but</dependency>
+      <dependency dep="relatively" dep_index="34" gov="insight" gov_index="36">advmod</dependency>
+      <dependency dep="little" dep_index="35" gov="insight" gov_index="36">advmod</dependency>
+      <dependency dep="insight" dep_index="36" gov="yielded" gov_index="33">acomp</dependency>
+      <dependency dep="the" dep_index="38" gov="organization" gov_index="40">det</dependency>
+      <dependency dep="structural" dep_index="39" gov="organization" gov_index="40">amod</dependency>
+      <dependency dep="organization" dep_index="40" gov="yielded" gov_index="33">prep_into</dependency>
+      <dependency dep="the" dep_index="42" gov="complex" gov_index="43">det</dependency>
+      <dependency dep="complex" dep_index="43" gov="organization" gov_index="40">prep_of</dependency>
+      <dependency dep="the" dep_index="45" gov="mechanism" gov_index="47">det</dependency>
+      <dependency dep="actual" dep_index="46" gov="mechanism" gov_index="47">amod</dependency>
+      <dependency dep="mechanism" dep_index="47" gov="yielded" gov_index="33">prep_into</dependency>
+      <dependency dep="mechanism" dep_index="47" gov="organization" gov_index="40">conj_or</dependency>
+      <dependency dep="transcriptional" dep_index="49" gov="activation" gov_index="50">amod</dependency>
+      <dependency dep="activation" dep_index="50" gov="mechanism" gov_index="47">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600012" relationship="false">6 7 2 9 18 12</relation>
+      <relation position="600014" relationship="false">6 7 2 9 18 14</relation>
+      <relation position="1200014" relationship="false">12 18 14</relation>
+   </relations>
+   <pairs/>
+</root>

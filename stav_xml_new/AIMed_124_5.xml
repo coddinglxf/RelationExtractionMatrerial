@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@proteins@,@14-3-3 zeta@(@PLA2@)@and@14-3-3 beta@(@HS1@),@are@members@of@the@14-3-3@family@of@proteins@.@</sentence>
+   <tags>
+      <tag pos="4">14-3-3 zeta</tag>
+      <tag pos="6">PLA2</tag>
+      <tag pos="9">14-3-3 beta</tag>
+      <tag pos="11">HS1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">14-3-3 zeta</taggedword>
+      <taggedword index="5" part-of-speech="NNP">(</taggedword>
+      <taggedword index="6" part-of-speech="NNP">PLA2</taggedword>
+      <taggedword index="7" part-of-speech="NNP">)</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">14-3-3 beta</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">HS1</taggedword>
+      <taggedword index="12" part-of-speech="NNP">),</taggedword>
+      <taggedword index="13" part-of-speech="VBP">are</taggedword>
+      <taggedword index="14" part-of-speech="NNS">members</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">14-3-3</taggedword>
+      <taggedword index="18" part-of-speech="NN">family</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="proteins" gov_index="2">det</dependency>
+      <dependency dep="proteins" dep_index="2" gov="members" gov_index="14">nsubj</dependency>
+      <dependency dep="14-3-3 zeta" dep_index="4" gov=")" gov_index="7">amod</dependency>
+      <dependency dep="(" dep_index="5" gov=")" gov_index="7">nn</dependency>
+      <dependency dep="PLA2" dep_index="6" gov=")" gov_index="7">nn</dependency>
+      <dependency dep=")" dep_index="7" gov="proteins" gov_index="2">conj_and</dependency>
+      <dependency dep=")" dep_index="7" gov="members" gov_index="14">nsubj</dependency>
+      <dependency dep="14-3-3 beta" dep_index="9" gov=")," gov_index="12">amod</dependency>
+      <dependency dep="(" dep_index="10" gov=")," gov_index="12">nn</dependency>
+      <dependency dep="HS1" dep_index="11" gov=")," gov_index="12">nn</dependency>
+      <dependency dep=")," dep_index="12" gov="proteins" gov_index="2">conj_and</dependency>
+      <dependency dep=")," dep_index="12" gov="members" gov_index="14">nsubj</dependency>
+      <dependency dep="are" dep_index="13" gov="members" gov_index="14">cop</dependency>
+      <dependency dep="members" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="16" gov="family" gov_index="18">det</dependency>
+      <dependency dep="14-3-3" dep_index="17" gov="family" gov_index="18">amod</dependency>
+      <dependency dep="family" dep_index="18" gov="members" gov_index="14">prep_of</dependency>
+      <dependency dep="proteins" dep_index="20" gov="family" gov_index="18">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 7 6</relation>
+      <relation position="400009" relationship="false">4 7 14 12 9</relation>
+      <relation position="400011" relationship="false">4 7 14 12 11</relation>
+      <relation position="600009" relationship="false">6 7 14 12 9</relation>
+      <relation position="600011" relationship="false">6 7 14 12 11</relation>
+      <relation position="900011" relationship="false">9 12 11</relation>
+   </relations>
+   <pairs/>
+</root>

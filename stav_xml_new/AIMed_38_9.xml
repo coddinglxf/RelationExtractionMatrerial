@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Eotaxin-3@competed@the@binding@of@(125)@I-eotaxin@to@CCR3@-expressing@L1.2@cells@with@an@IC(50)@of@13@nM@.@</sentence>
+   <tags>
+      <tag pos="1">Eotaxin-3</tag>
+      <tag pos="7">I-eotaxin</tag>
+      <tag pos="9">CCR3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Eotaxin-3</taggedword>
+      <taggedword index="2" part-of-speech="VBD">competed</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="CD">(125)</taggedword>
+      <taggedword index="7" part-of-speech="NN">I-eotaxin</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="CD">CCR3</taggedword>
+      <taggedword index="10" part-of-speech="JJ">-expressing</taggedword>
+      <taggedword index="11" part-of-speech="NN">L1.2</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="DT">an</taggedword>
+      <taggedword index="15" part-of-speech="NN">IC(50)</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="CD">13</taggedword>
+      <taggedword index="18" part-of-speech="NN">nM</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Eotaxin-3" dep_index="1" gov="competed" gov_index="2">nsubj</dependency>
+      <dependency dep="competed" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="I-eotaxin" gov_index="7">det</dependency>
+      <dependency dep="binding" dep_index="4" gov="I-eotaxin" gov_index="7">amod</dependency>
+      <dependency dep="(125)" dep_index="6" gov="binding" gov_index="4">prep_of</dependency>
+      <dependency dep="I-eotaxin" dep_index="7" gov="competed" gov_index="2">dobj</dependency>
+      <dependency dep="CCR3" dep_index="9" gov="cells" gov_index="12">num</dependency>
+      <dependency dep="-expressing" dep_index="10" gov="cells" gov_index="12">amod</dependency>
+      <dependency dep="L1.2" dep_index="11" gov="cells" gov_index="12">nn</dependency>
+      <dependency dep="cells" dep_index="12" gov="competed" gov_index="2">prep_to</dependency>
+      <dependency dep="an" dep_index="14" gov="IC(50)" gov_index="15">det</dependency>
+      <dependency dep="IC(50)" dep_index="15" gov="competed" gov_index="2">prep_with</dependency>
+      <dependency dep="13" dep_index="17" gov="nM" gov_index="18">num</dependency>
+      <dependency dep="nM" dep_index="18" gov="IC(50)" gov_index="15">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="false">1 2 7</relation>
+      <relation position="100009" relationship="true">1 2 12 9</relation>
+      <relation position="700009" relationship="true">7 2 12 9</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+      <pair>100009</pair>
+   </pairs>
+</root>

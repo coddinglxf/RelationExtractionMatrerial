@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@aim@of@the@present@study@was@to@investigate@how@oxytocin@given@subcutaneously@(SC)@and@intracerebroventricularly@(ICV)@influences@the@secretion@of@insulin@,@glucagon@and@glucose@and@to@investigate@whether@the@effect@on@these@variables@of@suckling@in@lactating@rats@is@mediated@by@oxytocinergic@mechanisms@</sentence>
+   <tags>
+      <tag pos="11">oxytocin</tag>
+      <tag pos="22">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">aim</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">present</taggedword>
+      <taggedword index="6" part-of-speech="NN">study</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">investigate</taggedword>
+      <taggedword index="10" part-of-speech="WRB">how</taggedword>
+      <taggedword index="11" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="12" part-of-speech="VBN">given</taggedword>
+      <taggedword index="13" part-of-speech="RB">subcutaneously</taggedword>
+      <taggedword index="14" part-of-speech="JJ">(SC)</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="RB">intracerebroventricularly</taggedword>
+      <taggedword index="17" part-of-speech="JJ">(ICV)</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">influences</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="NN">glucagon</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="VB">investigate</taggedword>
+      <taggedword index="30" part-of-speech="IN">whether</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="NN">effect</taggedword>
+      <taggedword index="33" part-of-speech="IN">on</taggedword>
+      <taggedword index="34" part-of-speech="DT">these</taggedword>
+      <taggedword index="35" part-of-speech="NNS">variables</taggedword>
+      <taggedword index="36" part-of-speech="IN">of</taggedword>
+      <taggedword index="37" part-of-speech="VBG">suckling</taggedword>
+      <taggedword index="38" part-of-speech="IN">in</taggedword>
+      <taggedword index="39" part-of-speech="VBG">lactating</taggedword>
+      <taggedword index="40" part-of-speech="NNS">rats</taggedword>
+      <taggedword index="41" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="42" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="43" part-of-speech="IN">by</taggedword>
+      <taggedword index="44" part-of-speech="JJ">oxytocinergic</taggedword>
+      <taggedword index="45" part-of-speech="NNS">mechanisms</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="aim" gov_index="2">det</dependency>
+      <dependency dep="aim" dep_index="2" gov="was" gov_index="7">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="study" gov_index="6">det</dependency>
+      <dependency dep="present" dep_index="5" gov="study" gov_index="6">amod</dependency>
+      <dependency dep="study" dep_index="6" gov="aim" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="8" gov="investigate" gov_index="9">aux</dependency>
+      <dependency dep="investigate" dep_index="9" gov="was" gov_index="7">ccomp</dependency>
+      <dependency dep="how" dep_index="10" gov="influences" gov_index="18">advmod</dependency>
+      <dependency dep="oxytocin" dep_index="11" gov="influences" gov_index="18">nsubj</dependency>
+      <dependency dep="given" dep_index="12" gov="oxytocin" gov_index="11">partmod</dependency>
+      <dependency dep="subcutaneously" dep_index="13" gov="(SC)" gov_index="14">advmod</dependency>
+      <dependency dep="(SC)" dep_index="14" gov="given" gov_index="12">dep</dependency>
+      <dependency dep="intracerebroventricularly" dep_index="16" gov="(ICV)" gov_index="17">advmod</dependency>
+      <dependency dep="(ICV)" dep_index="17" gov="given" gov_index="12">dep</dependency>
+      <dependency dep="(ICV)" dep_index="17" gov="(SC)" gov_index="14">conj_and</dependency>
+      <dependency dep="influences" dep_index="18" gov="investigate" gov_index="9">ccomp</dependency>
+      <dependency dep="the" dep_index="19" gov="secretion" gov_index="20">det</dependency>
+      <dependency dep="secretion" dep_index="20" gov="influences" gov_index="18">dobj</dependency>
+      <dependency dep="insulin" dep_index="22" gov="secretion" gov_index="20">prep_of</dependency>
+      <dependency dep="glucagon" dep_index="24" gov="secretion" gov_index="20">prep_of</dependency>
+      <dependency dep="glucagon" dep_index="24" gov="insulin" gov_index="22">conj_and</dependency>
+      <dependency dep="glucose" dep_index="26" gov="secretion" gov_index="20">prep_of</dependency>
+      <dependency dep="glucose" dep_index="26" gov="insulin" gov_index="22">conj_and</dependency>
+      <dependency dep="to" dep_index="28" gov="investigate" gov_index="29">aux</dependency>
+      <dependency dep="investigate" dep_index="29" gov="was" gov_index="7">ccomp</dependency>
+      <dependency dep="investigate" dep_index="29" gov="investigate" gov_index="9">conj_and</dependency>
+      <dependency dep="whether" dep_index="30" gov="mediated" gov_index="42">mark</dependency>
+      <dependency dep="the" dep_index="31" gov="effect" gov_index="32">det</dependency>
+      <dependency dep="effect" dep_index="32" gov="mediated" gov_index="42">nsubjpass</dependency>
+      <dependency dep="these" dep_index="34" gov="variables" gov_index="35">det</dependency>
+      <dependency dep="variables" dep_index="35" gov="effect" gov_index="32">prep_on</dependency>
+      <dependency dep="suckling" dep_index="37" gov="variables" gov_index="35">prepc_of</dependency>
+      <dependency dep="lactating" dep_index="39" gov="rats" gov_index="40">amod</dependency>
+      <dependency dep="rats" dep_index="40" gov="suckling" gov_index="37">prep_in</dependency>
+      <dependency dep="is" dep_index="41" gov="mediated" gov_index="42">auxpass</dependency>
+      <dependency dep="mediated" dep_index="42" gov="investigate" gov_index="29">ccomp</dependency>
+      <dependency dep="oxytocinergic" dep_index="44" gov="mechanisms" gov_index="45">amod</dependency>
+      <dependency dep="mechanisms" dep_index="45" gov="mediated" gov_index="42">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100022" relationship="true">11 18 20 22</relation>
+   </relations>
+   <pairs>
+      <pair>1100022</pair>
+   </pairs>
+</root>

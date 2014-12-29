@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@phagocyte@NADPH oxidase@is@a@complex@of@membrane@cytochrome b558@(comprised@of@subunits@p22-phox@and@gp91-phox@)@and@three@cytosol@proteins@(@p47-phox@,@p67-phox@,@and@p21rac@)@that@translocate@to@membrane@and@bind@to@cytochrome b558@.@</sentence>
+   <tags>
+      <tag pos="3">NADPH oxidase</tag>
+      <tag pos="9">cytochrome b558</tag>
+      <tag pos="13">p22-phox</tag>
+      <tag pos="15">gp91-phox</tag>
+      <tag pos="22">p47-phox</tag>
+      <tag pos="24">p67-phox</tag>
+      <tag pos="27">p21rac</tag>
+      <tag pos="36">cytochrome b558</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">phagocyte</taggedword>
+      <taggedword index="3" part-of-speech="NN">NADPH oxidase</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="NN">complex</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">membrane</taggedword>
+      <taggedword index="9" part-of-speech="JJ">cytochrome b558</taggedword>
+      <taggedword index="10" part-of-speech="NN">(comprised</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="JJ">subunits</taggedword>
+      <taggedword index="13" part-of-speech="JJ">p22-phox</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="JJ">gp91-phox</taggedword>
+      <taggedword index="16" part-of-speech="NNS">)</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="CD">three</taggedword>
+      <taggedword index="19" part-of-speech="JJ">cytosol</taggedword>
+      <taggedword index="20" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="21" part-of-speech="RB">(</taggedword>
+      <taggedword index="22" part-of-speech="JJ">p47-phox</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="JJ">p67-phox</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="JJ">p21rac</taggedword>
+      <taggedword index="28" part-of-speech="NNS">)</taggedword>
+      <taggedword index="29" part-of-speech="WDT">that</taggedword>
+      <taggedword index="30" part-of-speech="VBP">translocate</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="NN">membrane</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="NN">bind</taggedword>
+      <taggedword index="35" part-of-speech="TO">to</taggedword>
+      <taggedword index="36" part-of-speech="CD">cytochrome b558</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="NADPH oxidase" gov_index="3">det</dependency>
+      <dependency dep="phagocyte" dep_index="2" gov="NADPH oxidase" gov_index="3">amod</dependency>
+      <dependency dep="NADPH oxidase" dep_index="3" gov="complex" gov_index="6">nsubj</dependency>
+      <dependency dep="is" dep_index="4" gov="complex" gov_index="6">cop</dependency>
+      <dependency dep="a" dep_index="5" gov="complex" gov_index="6">det</dependency>
+      <dependency dep="complex" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="membrane" dep_index="8" gov="(comprised" gov_index="10">amod</dependency>
+      <dependency dep="cytochrome b558" dep_index="9" gov="(comprised" gov_index="10">amod</dependency>
+      <dependency dep="(comprised" dep_index="10" gov="complex" gov_index="6">prep_of</dependency>
+      <dependency dep="subunits" dep_index="12" gov=")" gov_index="16">amod</dependency>
+      <dependency dep="p22-phox" dep_index="13" gov=")" gov_index="16">amod</dependency>
+      <dependency dep="gp91-phox" dep_index="15" gov="p22-phox" gov_index="13">conj_and</dependency>
+      <dependency dep="gp91-phox" dep_index="15" gov=")" gov_index="16">amod</dependency>
+      <dependency dep=")" dep_index="16" gov="(comprised" gov_index="10">prep_of</dependency>
+      <dependency dep="three" dep_index="18" gov="proteins" gov_index="20">num</dependency>
+      <dependency dep="cytosol" dep_index="19" gov="proteins" gov_index="20">amod</dependency>
+      <dependency dep="proteins" dep_index="20" gov="complex" gov_index="6">conj_and</dependency>
+      <dependency dep="(" dep_index="21" gov="p67-phox" gov_index="24">advmod</dependency>
+      <dependency dep="p47-phox" dep_index="22" gov="p67-phox" gov_index="24">amod</dependency>
+      <dependency dep="p67-phox" dep_index="24" gov="proteins" gov_index="20">amod</dependency>
+      <dependency dep="p21rac" dep_index="27" gov=")" gov_index="28">amod</dependency>
+      <dependency dep=")" dep_index="28" gov="complex" gov_index="6">conj_and</dependency>
+      <dependency dep=")" dep_index="28" gov="translocate" gov_index="30">nsubj</dependency>
+      <dependency dep="translocate" dep_index="30" gov=")" gov_index="28">rcmod</dependency>
+      <dependency dep="membrane" dep_index="32" gov="translocate" gov_index="30">prep_to</dependency>
+      <dependency dep="bind" dep_index="34" gov="translocate" gov_index="30">prep_to</dependency>
+      <dependency dep="bind" dep_index="34" gov="membrane" gov_index="32">conj_and</dependency>
+      <dependency dep="cytochrome b558" dep_index="36" gov="translocate" gov_index="30">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300009" relationship="false">3 6 10 9</relation>
+      <relation position="300013" relationship="false">3 6 10 16 13</relation>
+      <relation position="300015" relationship="false">3 6 10 16 15</relation>
+      <relation position="300022" relationship="false"></relation>
+      <relation position="300024" relationship="false"></relation>
+      <relation position="300027" relationship="false"></relation>
+      <relation position="300036" relationship="false"></relation>
+      <relation position="900013" relationship="false">9 10 16 13</relation>
+      <relation position="900015" relationship="false">9 10 16 15</relation>
+      <relation position="900022" relationship="false"></relation>
+      <relation position="900024" relationship="false"></relation>
+      <relation position="900027" relationship="false"></relation>
+      <relation position="900036" relationship="false"></relation>
+      <relation position="1300015" relationship="true">13 16 15</relation>
+      <relation position="1300022" relationship="false"></relation>
+      <relation position="1300024" relationship="false"></relation>
+      <relation position="1300027" relationship="false"></relation>
+      <relation position="1300036" relationship="false"></relation>
+      <relation position="1500022" relationship="false"></relation>
+      <relation position="1500024" relationship="false"></relation>
+      <relation position="1500027" relationship="false"></relation>
+      <relation position="1500036" relationship="false"></relation>
+      <relation position="2200024" relationship="true"></relation>
+      <relation position="2200027" relationship="false"></relation>
+      <relation position="2200036" relationship="true"></relation>
+      <relation position="2400027" relationship="false"></relation>
+      <relation position="2400036" relationship="true"></relation>
+      <relation position="2700036" relationship="true">27 28 30 36</relation>
+   </relations>
+   <pairs>
+      <pair>2400036</pair>
+      <pair>2200036</pair>
+      <pair>2200024</pair>
+      <pair>1300015</pair>
+      <pair>2700036</pair>
+   </pairs>
+</root>

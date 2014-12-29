@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Soluble@interleukin 2 receptor@and@interleukin 1alpha@in@toxic@epidermal@necrolysis@:@a@comparative@analysis@of@serum@and@blister@fluid@samples@.@</sentence>
+   <tags>
+      <tag pos="2">interleukin 2 receptor</tag>
+      <tag pos="4">interleukin 1alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Soluble</taggedword>
+      <taggedword index="2" part-of-speech="NNPS">interleukin 2 receptor</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NNPS">interleukin 1alpha</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="JJ">toxic</taggedword>
+      <taggedword index="7" part-of-speech="JJ">epidermal</taggedword>
+      <taggedword index="8" part-of-speech="NNS">necrolysis</taggedword>
+      <taggedword index="9" part-of-speech=":">:</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">comparative</taggedword>
+      <taggedword index="12" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">serum</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">blister</taggedword>
+      <taggedword index="17" part-of-speech="NN">fluid</taggedword>
+      <taggedword index="18" part-of-speech="NNS">samples</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Soluble" dep_index="1" gov="interleukin 2 receptor" gov_index="2">nn</dependency>
+      <dependency dep="interleukin 2 receptor" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="interleukin 1alpha" dep_index="4" gov="interleukin 2 receptor" gov_index="2">conj_and</dependency>
+      <dependency dep="toxic" dep_index="6" gov="necrolysis" gov_index="8">amod</dependency>
+      <dependency dep="epidermal" dep_index="7" gov="necrolysis" gov_index="8">amod</dependency>
+      <dependency dep="necrolysis" dep_index="8" gov="interleukin 2 receptor" gov_index="2">prep_in</dependency>
+      <dependency dep="a" dep_index="10" gov="analysis" gov_index="12">det</dependency>
+      <dependency dep="comparative" dep_index="11" gov="analysis" gov_index="12">amod</dependency>
+      <dependency dep="analysis" dep_index="12" gov="interleukin 2 receptor" gov_index="2">dep</dependency>
+      <dependency dep="serum" dep_index="14" gov="samples" gov_index="18">nn</dependency>
+      <dependency dep="blister" dep_index="16" gov="serum" gov_index="14">conj_and</dependency>
+      <dependency dep="blister" dep_index="16" gov="samples" gov_index="18">nn</dependency>
+      <dependency dep="fluid" dep_index="17" gov="samples" gov_index="18">nn</dependency>
+      <dependency dep="samples" dep_index="18" gov="analysis" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

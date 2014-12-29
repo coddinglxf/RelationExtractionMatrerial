@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Early@studies@suggested@that@the@activity@of@these@transporters@can@be@fine@tuned@by@a@number@of@different@signaling@pathways@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Early</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="VBD">suggested</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">activity</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">these</taggedword>
+      <taggedword index="9" part-of-speech="NNS">transporters</taggedword>
+      <taggedword index="10" part-of-speech="MD">can</taggedword>
+      <taggedword index="11" part-of-speech="VB">be</taggedword>
+      <taggedword index="12" part-of-speech="JJ">fine</taggedword>
+      <taggedword index="13" part-of-speech="VBN">tuned</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="NN">number</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="JJ">different</taggedword>
+      <taggedword index="19" part-of-speech="JJ">signaling</taggedword>
+      <taggedword index="20" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Early" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="suggested" gov_index="3">nsubj</dependency>
+      <dependency dep="suggested" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="fine" gov_index="12">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="activity" gov_index="6">det</dependency>
+      <dependency dep="activity" dep_index="6" gov="fine" gov_index="12">nsubj</dependency>
+      <dependency dep="these" dep_index="8" gov="transporters" gov_index="9">det</dependency>
+      <dependency dep="transporters" dep_index="9" gov="activity" gov_index="6">prep_of</dependency>
+      <dependency dep="can" dep_index="10" gov="fine" gov_index="12">aux</dependency>
+      <dependency dep="be" dep_index="11" gov="fine" gov_index="12">cop</dependency>
+      <dependency dep="fine" dep_index="12" gov="suggested" gov_index="3">ccomp</dependency>
+      <dependency dep="tuned" dep_index="13" gov="fine" gov_index="12">dep</dependency>
+      <dependency dep="a" dep_index="15" gov="number" gov_index="16">det</dependency>
+      <dependency dep="number" dep_index="16" gov="tuned" gov_index="13">prep_by</dependency>
+      <dependency dep="different" dep_index="18" gov="pathways" gov_index="20">amod</dependency>
+      <dependency dep="signaling" dep_index="19" gov="pathways" gov_index="20">amod</dependency>
+      <dependency dep="pathways" dep_index="20" gov="number" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

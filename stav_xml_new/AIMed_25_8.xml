@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Their@order@of@selection@was@alpha1AT@effusion@,@C4@serum@,@TNFalpha@-effusion,@and@C3@effusion@.@</sentence>
+   <tags>
+      <tag pos="6">alpha1AT</tag>
+      <tag pos="9">C4</tag>
+      <tag pos="12">TNFalpha</tag>
+      <tag pos="15">C3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP$">Their</taggedword>
+      <taggedword index="2" part-of-speech="NN">order</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">selection</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="JJ">alpha1AT</taggedword>
+      <taggedword index="7" part-of-speech="NN">effusion</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">C4</taggedword>
+      <taggedword index="10" part-of-speech="NNP">serum</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NNP">TNFalpha</taggedword>
+      <taggedword index="13" part-of-speech="NNP">-effusion,</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="JJ">C3</taggedword>
+      <taggedword index="16" part-of-speech="NN">effusion</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Their" dep_index="1" gov="order" gov_index="2">poss</dependency>
+      <dependency dep="order" dep_index="2" gov="effusion" gov_index="7">nsubj</dependency>
+      <dependency dep="selection" dep_index="4" gov="order" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="5" gov="effusion" gov_index="7">cop</dependency>
+      <dependency dep="alpha1AT" dep_index="6" gov="effusion" gov_index="7">amod</dependency>
+      <dependency dep="effusion" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="C4" dep_index="9" gov="serum" gov_index="10">nn</dependency>
+      <dependency dep="serum" dep_index="10" gov="effusion" gov_index="7">conj_and</dependency>
+      <dependency dep="TNFalpha" dep_index="12" gov="-effusion," gov_index="13">nn</dependency>
+      <dependency dep="-effusion," dep_index="13" gov="effusion" gov_index="7">conj_and</dependency>
+      <dependency dep="C3" dep_index="15" gov="effusion" gov_index="16">amod</dependency>
+      <dependency dep="effusion" dep_index="16" gov="effusion" gov_index="7">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600009" relationship="false"></relation>
+      <relation position="600012" relationship="false"></relation>
+      <relation position="600015" relationship="false"></relation>
+      <relation position="900012" relationship="false"></relation>
+      <relation position="900015" relationship="false"></relation>
+      <relation position="1200015" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

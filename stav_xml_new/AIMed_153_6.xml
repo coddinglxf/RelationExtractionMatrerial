@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@keeping@with@this@observation@,@we@showed@that@human@CD26@-transfected@murine@pre-B@cell@lines@lacking@human@ADA@acquired@ADA@from@an@extracellular@source@.@</sentence>
+   <tags>
+      <tag pos="11">CD26</tag>
+      <tag pos="19">ADA</tag>
+      <tag pos="21">ADA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="VBG">keeping</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech="NN">observation</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="PRP">we</taggedword>
+      <taggedword index="8" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="9" part-of-speech="IN">that</taggedword>
+      <taggedword index="10" part-of-speech="JJ">human</taggedword>
+      <taggedword index="11" part-of-speech="JJ">CD26</taggedword>
+      <taggedword index="12" part-of-speech="JJ">-transfected</taggedword>
+      <taggedword index="13" part-of-speech="JJ">murine</taggedword>
+      <taggedword index="14" part-of-speech="JJ">pre-B</taggedword>
+      <taggedword index="15" part-of-speech="NN">cell</taggedword>
+      <taggedword index="16" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="17" part-of-speech="VBG">lacking</taggedword>
+      <taggedword index="18" part-of-speech="JJ">human</taggedword>
+      <taggedword index="19" part-of-speech="NN">ADA</taggedword>
+      <taggedword index="20" part-of-speech="VBD">acquired</taggedword>
+      <taggedword index="21" part-of-speech="NNP">ADA</taggedword>
+      <taggedword index="22" part-of-speech="IN">from</taggedword>
+      <taggedword index="23" part-of-speech="DT">an</taggedword>
+      <taggedword index="24" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="25" part-of-speech="NN">source</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="keeping" dep_index="2" gov="showed" gov_index="8">prepc_in</dependency>
+      <dependency dep="this" dep_index="4" gov="observation" gov_index="5">det</dependency>
+      <dependency dep="observation" dep_index="5" gov="keeping" gov_index="2">prep_with</dependency>
+      <dependency dep="we" dep_index="7" gov="showed" gov_index="8">nsubj</dependency>
+      <dependency dep="showed" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="9" gov="acquired" gov_index="20">mark</dependency>
+      <dependency dep="human" dep_index="10" gov="lines" gov_index="16">amod</dependency>
+      <dependency dep="CD26" dep_index="11" gov="lines" gov_index="16">amod</dependency>
+      <dependency dep="-transfected" dep_index="12" gov="lines" gov_index="16">amod</dependency>
+      <dependency dep="murine" dep_index="13" gov="lines" gov_index="16">amod</dependency>
+      <dependency dep="pre-B" dep_index="14" gov="lines" gov_index="16">amod</dependency>
+      <dependency dep="cell" dep_index="15" gov="lines" gov_index="16">nn</dependency>
+      <dependency dep="lines" dep_index="16" gov="acquired" gov_index="20">nsubj</dependency>
+      <dependency dep="lacking" dep_index="17" gov="lines" gov_index="16">partmod</dependency>
+      <dependency dep="human" dep_index="18" gov="ADA" gov_index="19">amod</dependency>
+      <dependency dep="ADA" dep_index="19" gov="lacking" gov_index="17">dobj</dependency>
+      <dependency dep="acquired" dep_index="20" gov="showed" gov_index="8">ccomp</dependency>
+      <dependency dep="ADA" dep_index="21" gov="acquired" gov_index="20">dobj</dependency>
+      <dependency dep="an" dep_index="23" gov="source" gov_index="25">det</dependency>
+      <dependency dep="extracellular" dep_index="24" gov="source" gov_index="25">nn</dependency>
+      <dependency dep="source" dep_index="25" gov="acquired" gov_index="20">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100019" relationship="false">11 16 17 19</relation>
+      <relation position="1100021" relationship="false">11 16 20 21</relation>
+      <relation position="1900021" relationship="false">19 17 16 20 21</relation>
+   </relations>
+   <pairs/>
+</root>

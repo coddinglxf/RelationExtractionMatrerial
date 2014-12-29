@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>alpha-@and@beta-catenin@were@present@in@most@ovarian@cells@at@all@stages@of@folliculogenesis@.@</sentence>
+   <tags>
+      <tag pos="3">beta-catenin</tag>
+      <tag pos="1">alpha-</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">alpha-</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="4" part-of-speech="VBD">were</taggedword>
+      <taggedword index="5" part-of-speech="JJ">present</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJS">most</taggedword>
+      <taggedword index="8" part-of-speech="NN">ovarian</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="10" part-of-speech="IN">at</taggedword>
+      <taggedword index="11" part-of-speech="DT">all</taggedword>
+      <taggedword index="12" part-of-speech="NNS">stages</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NNS">folliculogenesis</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="alpha-" dep_index="1" gov="present" gov_index="5">nsubj</dependency>
+      <dependency dep="beta-catenin" dep_index="3" gov="alpha-" gov_index="1">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="3" gov="present" gov_index="5">nsubj</dependency>
+      <dependency dep="were" dep_index="4" gov="present" gov_index="5">cop</dependency>
+      <dependency dep="present" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="most" dep_index="7" gov="cells" gov_index="9">amod</dependency>
+      <dependency dep="ovarian" dep_index="8" gov="cells" gov_index="9">nn</dependency>
+      <dependency dep="cells" dep_index="9" gov="present" gov_index="5">prep_in</dependency>
+      <dependency dep="all" dep_index="11" gov="stages" gov_index="12">det</dependency>
+      <dependency dep="stages" dep_index="12" gov="present" gov_index="5">prep_at</dependency>
+      <dependency dep="folliculogenesis" dep_index="14" gov="stages" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false">1 5 3</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@Thr161Val@mutation@causes@a@lethal@phenotype@in@the@fission@yeast@Schizosaccharomyces@pombe@,@while@replacement@of@Thr161@with@glutamic@acid@,@potentially@mimicking@phosphorylation@,@causes@uncoordination@of@mitosis@and@multiple@cytokinesis@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">Thr161Val</taggedword>
+      <taggedword index="3" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">causes</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">lethal</taggedword>
+      <taggedword index="7" part-of-speech="NN">phenotype</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">fission</taggedword>
+      <taggedword index="11" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="12" part-of-speech="NNS">Schizosaccharomyces</taggedword>
+      <taggedword index="13" part-of-speech="NN">pombe</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="IN">while</taggedword>
+      <taggedword index="16" part-of-speech="NN">replacement</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNS">Thr161</taggedword>
+      <taggedword index="19" part-of-speech="IN">with</taggedword>
+      <taggedword index="20" part-of-speech="JJ">glutamic</taggedword>
+      <taggedword index="21" part-of-speech="NN">acid</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="RB">potentially</taggedword>
+      <taggedword index="24" part-of-speech="JJ">mimicking</taggedword>
+      <taggedword index="25" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="VBZ">causes</taggedword>
+      <taggedword index="28" part-of-speech="NN">uncoordination</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NNS">mitosis</taggedword>
+      <taggedword index="31" part-of-speech="CC">and</taggedword>
+      <taggedword index="32" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="33" part-of-speech="NNS">cytokinesis</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="mutation" gov_index="3">det</dependency>
+      <dependency dep="Thr161Val" dep_index="2" gov="mutation" gov_index="3">amod</dependency>
+      <dependency dep="mutation" dep_index="3" gov="causes" gov_index="4">nsubj</dependency>
+      <dependency dep="causes" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="phenotype" gov_index="7">det</dependency>
+      <dependency dep="lethal" dep_index="6" gov="phenotype" gov_index="7">amod</dependency>
+      <dependency dep="phenotype" dep_index="7" gov="causes" gov_index="4">dobj</dependency>
+      <dependency dep="the" dep_index="9" gov="pombe" gov_index="13">det</dependency>
+      <dependency dep="fission" dep_index="10" gov="pombe" gov_index="13">amod</dependency>
+      <dependency dep="yeast" dep_index="11" gov="pombe" gov_index="13">nn</dependency>
+      <dependency dep="Schizosaccharomyces" dep_index="12" gov="pombe" gov_index="13">nn</dependency>
+      <dependency dep="pombe" dep_index="13" gov="phenotype" gov_index="7">prep_in</dependency>
+      <dependency dep="while" dep_index="15" gov="causes" gov_index="27">mark</dependency>
+      <dependency dep="replacement" dep_index="16" gov="causes" gov_index="27">nsubj</dependency>
+      <dependency dep="Thr161" dep_index="18" gov="replacement" gov_index="16">prep_of</dependency>
+      <dependency dep="glutamic" dep_index="20" gov="acid" gov_index="21">amod</dependency>
+      <dependency dep="acid" dep_index="21" gov="Thr161" gov_index="18">prep_with</dependency>
+      <dependency dep="potentially" dep_index="23" gov="mimicking" gov_index="24">advmod</dependency>
+      <dependency dep="mimicking" dep_index="24" gov="phosphorylation" gov_index="25">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="25" gov="replacement" gov_index="16">appos</dependency>
+      <dependency dep="causes" dep_index="27" gov="causes" gov_index="4">advcl</dependency>
+      <dependency dep="uncoordination" dep_index="28" gov="causes" gov_index="27">dobj</dependency>
+      <dependency dep="mitosis" dep_index="30" gov="uncoordination" gov_index="28">prep_of</dependency>
+      <dependency dep="multiple" dep_index="32" gov="cytokinesis" gov_index="33">amod</dependency>
+      <dependency dep="cytokinesis" dep_index="33" gov="uncoordination" gov_index="28">prep_of</dependency>
+      <dependency dep="cytokinesis" dep_index="33" gov="mitosis" gov_index="30">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

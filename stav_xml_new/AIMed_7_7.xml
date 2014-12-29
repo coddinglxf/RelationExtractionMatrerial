@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@differences@highlight@the@more@aggressive@phenotype@of@the@de@novo@colorectal@carcinoma@and@fit@with@their@greater@invasive@potential@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">differences</taggedword>
+      <taggedword index="3" part-of-speech="VB">highlight</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="RBR">more</taggedword>
+      <taggedword index="6" part-of-speech="JJ">aggressive</taggedword>
+      <taggedword index="7" part-of-speech="NN">phenotype</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NNP">de</taggedword>
+      <taggedword index="11" part-of-speech="NN">novo</taggedword>
+      <taggedword index="12" part-of-speech="NN">colorectal</taggedword>
+      <taggedword index="13" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="VB">fit</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="18" part-of-speech="JJR">greater</taggedword>
+      <taggedword index="19" part-of-speech="NN">invasive</taggedword>
+      <taggedword index="20" part-of-speech="NN">potential</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="differences" gov_index="2">det</dependency>
+      <dependency dep="differences" dep_index="2" gov="highlight" gov_index="3">nsubj</dependency>
+      <dependency dep="differences" dep_index="2" gov="fit" gov_index="15">nsubj</dependency>
+      <dependency dep="highlight" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="phenotype" gov_index="7">det</dependency>
+      <dependency dep="more" dep_index="5" gov="aggressive" gov_index="6">advmod</dependency>
+      <dependency dep="aggressive" dep_index="6" gov="phenotype" gov_index="7">amod</dependency>
+      <dependency dep="phenotype" dep_index="7" gov="highlight" gov_index="3">dobj</dependency>
+      <dependency dep="the" dep_index="9" gov="carcinoma" gov_index="13">det</dependency>
+      <dependency dep="de" dep_index="10" gov="carcinoma" gov_index="13">nn</dependency>
+      <dependency dep="novo" dep_index="11" gov="carcinoma" gov_index="13">nn</dependency>
+      <dependency dep="colorectal" dep_index="12" gov="carcinoma" gov_index="13">nn</dependency>
+      <dependency dep="carcinoma" dep_index="13" gov="phenotype" gov_index="7">prep_of</dependency>
+      <dependency dep="fit" dep_index="15" gov="highlight" gov_index="3">conj_and</dependency>
+      <dependency dep="their" dep_index="17" gov="potential" gov_index="20">poss</dependency>
+      <dependency dep="greater" dep_index="18" gov="potential" gov_index="20">amod</dependency>
+      <dependency dep="invasive" dep_index="19" gov="potential" gov_index="20">nn</dependency>
+      <dependency dep="potential" dep_index="20" gov="fit" gov_index="15">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

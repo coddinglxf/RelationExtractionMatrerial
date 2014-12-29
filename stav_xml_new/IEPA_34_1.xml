@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunohistochemical@localization@of@leptin@and@uncoupling protein@in@white@and@brown@adipose@tissue@</sentence>
+   <tags>
+      <tag pos="4">leptin</tag>
+      <tag pos="6">uncoupling protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Immunohistochemical</taggedword>
+      <taggedword index="2" part-of-speech="NN">localization</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">uncoupling protein</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="JJ">white</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="JJ">brown</taggedword>
+      <taggedword index="11" part-of-speech="NN">adipose</taggedword>
+      <taggedword index="12" part-of-speech="NN">tissue</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunohistochemical" dep_index="1" gov="localization" gov_index="2">amod</dependency>
+      <dependency dep="localization" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="leptin" dep_index="4" gov="localization" gov_index="2">prep_of</dependency>
+      <dependency dep="uncoupling protein" dep_index="6" gov="localization" gov_index="2">prep_of</dependency>
+      <dependency dep="uncoupling protein" dep_index="6" gov="leptin" gov_index="4">conj_and</dependency>
+      <dependency dep="white" dep_index="8" gov="localization" gov_index="2">prep_in</dependency>
+      <dependency dep="brown" dep_index="10" gov="tissue" gov_index="12">amod</dependency>
+      <dependency dep="adipose" dep_index="11" gov="tissue" gov_index="12">nn</dependency>
+      <dependency dep="tissue" dep_index="12" gov="localization" gov_index="2">prep_in</dependency>
+      <dependency dep="tissue" dep_index="12" gov="white" gov_index="8">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 6</relation>
+   </relations>
+   <pairs/>
+</root>

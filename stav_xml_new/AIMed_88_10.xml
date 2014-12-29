@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Our@results@indicate@that@the@yeast@two-hybrid@system@provides@a@means@to@identify@novel@proteins@that@interact@with@G@alpha@proteins@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP$">Our</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="7" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="8" part-of-speech="NN">system</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">provides</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="NNS">means</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">identify</taggedword>
+      <taggedword index="14" part-of-speech="NN">novel</taggedword>
+      <taggedword index="15" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="16" part-of-speech="WDT">that</taggedword>
+      <taggedword index="17" part-of-speech="VBP">interact</taggedword>
+      <taggedword index="18" part-of-speech="IN">with</taggedword>
+      <taggedword index="19" part-of-speech="NNP">G</taggedword>
+      <taggedword index="20" part-of-speech="NNP">alpha</taggedword>
+      <taggedword index="21" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Our" dep_index="1" gov="results" gov_index="2">poss</dependency>
+      <dependency dep="results" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="provides" gov_index="9">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="system" gov_index="8">det</dependency>
+      <dependency dep="yeast" dep_index="6" gov="system" gov_index="8">nn</dependency>
+      <dependency dep="two-hybrid" dep_index="7" gov="system" gov_index="8">amod</dependency>
+      <dependency dep="system" dep_index="8" gov="provides" gov_index="9">nsubj</dependency>
+      <dependency dep="provides" dep_index="9" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="a" dep_index="10" gov="means" gov_index="11">det</dependency>
+      <dependency dep="means" dep_index="11" gov="identify" gov_index="13">nsubj</dependency>
+      <dependency dep="to" dep_index="12" gov="identify" gov_index="13">aux</dependency>
+      <dependency dep="identify" dep_index="13" gov="provides" gov_index="9">xcomp</dependency>
+      <dependency dep="novel" dep_index="14" gov="proteins" gov_index="15">nn</dependency>
+      <dependency dep="proteins" dep_index="15" gov="identify" gov_index="13">dobj</dependency>
+      <dependency dep="proteins" dep_index="15" gov="interact" gov_index="17">nsubj</dependency>
+      <dependency dep="interact" dep_index="17" gov="proteins" gov_index="15">rcmod</dependency>
+      <dependency dep="G" dep_index="19" gov="proteins" gov_index="21">nn</dependency>
+      <dependency dep="alpha" dep_index="20" gov="proteins" gov_index="21">nn</dependency>
+      <dependency dep="proteins" dep_index="21" gov="interact" gov_index="17">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

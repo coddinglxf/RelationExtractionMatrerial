@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Overexpression@of@G11alpha@enhances@IP@accumulation@,@an@effect@@slightly@potentiated@by@co-overexpression@of@PLC@-beta1@or@-beta3@,@but@@these@maneuvers@do@not@affect@glucose@or@carbachol-stimulated@insulin@@secretion@.@</sentence>
+   <tags>
+      <tag pos="16">PLC</tag>
+      <tag pos="31">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Overexpression</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNS">G11alpha</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">enhances</taggedword>
+      <taggedword index="5" part-of-speech="NNP">IP</taggedword>
+      <taggedword index="6" part-of-speech="NN">accumulation</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="DT">an</taggedword>
+      <taggedword index="9" part-of-speech="NN">effect</taggedword>
+      <taggedword index="10" part-of-speech="NN"></taggedword>
+      <taggedword index="11" part-of-speech="RB">slightly</taggedword>
+      <taggedword index="12" part-of-speech="VBD">potentiated</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="NN">co-overexpression</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="17" part-of-speech="JJ">-beta1</taggedword>
+      <taggedword index="18" part-of-speech="CC">or</taggedword>
+      <taggedword index="19" part-of-speech="JJ">-beta3</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">but</taggedword>
+      <taggedword index="22" part-of-speech="VBD"></taggedword>
+      <taggedword index="23" part-of-speech="DT">these</taggedword>
+      <taggedword index="24" part-of-speech="NNS">maneuvers</taggedword>
+      <taggedword index="25" part-of-speech="VBP">do</taggedword>
+      <taggedword index="26" part-of-speech="RB">not</taggedword>
+      <taggedword index="27" part-of-speech="VB">affect</taggedword>
+      <taggedword index="28" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="29" part-of-speech="CC">or</taggedword>
+      <taggedword index="30" part-of-speech="JJ">carbachol-stimulated</taggedword>
+      <taggedword index="31" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="32" part-of-speech="NN"></taggedword>
+      <taggedword index="33" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Overexpression" dep_index="1" gov="enhances" gov_index="4">nsubj</dependency>
+      <dependency dep="G11alpha" dep_index="3" gov="Overexpression" gov_index="1">prep_of</dependency>
+      <dependency dep="enhances" dep_index="4" gov="potentiated" gov_index="12">ccomp</dependency>
+      <dependency dep="IP" dep_index="5" gov="accumulation" gov_index="6">nn</dependency>
+      <dependency dep="accumulation" dep_index="6" gov="enhances" gov_index="4">dobj</dependency>
+      <dependency dep="an" dep_index="8" gov="" gov_index="10">det</dependency>
+      <dependency dep="effect" dep_index="9" gov="" gov_index="10">nn</dependency>
+      <dependency dep="" dep_index="10" gov="potentiated" gov_index="12">nsubj</dependency>
+      <dependency dep="" dep_index="10" gov="" gov_index="22">nsubj</dependency>
+      <dependency dep="slightly" dep_index="11" gov="potentiated" gov_index="12">advmod</dependency>
+      <dependency dep="potentiated" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="co-overexpression" dep_index="14" gov="potentiated" gov_index="12">prep_by</dependency>
+      <dependency dep="PLC" dep_index="16" gov="co-overexpression" gov_index="14">prep_of</dependency>
+      <dependency dep="-beta1" dep_index="17" gov="PLC" gov_index="16">amod</dependency>
+      <dependency dep="-beta3" dep_index="19" gov="PLC" gov_index="16">amod</dependency>
+      <dependency dep="-beta3" dep_index="19" gov="-beta1" gov_index="17">conj_or</dependency>
+      <dependency dep="" dep_index="22" gov="potentiated" gov_index="12">conj_but</dependency>
+      <dependency dep="these" dep_index="23" gov="maneuvers" gov_index="24">det</dependency>
+      <dependency dep="maneuvers" dep_index="24" gov="affect" gov_index="27">nsubj</dependency>
+      <dependency dep="do" dep_index="25" gov="affect" gov_index="27">aux</dependency>
+      <dependency dep="not" dep_index="26" gov="affect" gov_index="27">neg</dependency>
+      <dependency dep="affect" dep_index="27" gov="" gov_index="22">ccomp</dependency>
+      <dependency dep="glucose" dep_index="28" gov="affect" gov_index="27">dobj</dependency>
+      <dependency dep="carbachol-stimulated" dep_index="30" gov="secretion" gov_index="33">amod</dependency>
+      <dependency dep="insulin" dep_index="31" gov="secretion" gov_index="33">nn</dependency>
+      <dependency dep="" dep_index="32" gov="secretion" gov_index="33">nn</dependency>
+      <dependency dep="secretion" dep_index="33" gov="affect" gov_index="27">dobj</dependency>
+      <dependency dep="secretion" dep_index="33" gov="glucose" gov_index="28">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600031" relationship="false">16 14 12 22 27 33 31</relation>
+   </relations>
+   <pairs/>
+</root>

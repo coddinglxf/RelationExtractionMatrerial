@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@solution@,@FGFR4ed@formed@complexes@with@acidic FGF (FGF-1)@and@basic FGF (FGF-2)@,@both@in@the@presence@and@absence@of@heparin@</sentence>
+   <tags>
+      <tag pos="8">acidic FGF (FGF-1)</tag>
+      <tag pos="10">basic FGF (FGF-2)</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">solution</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNS">FGFR4ed</taggedword>
+      <taggedword index="5" part-of-speech="VBD">formed</taggedword>
+      <taggedword index="6" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="JJ">acidic FGF (FGF-1)</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="JJ">basic FGF (FGF-2)</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="DT">both</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">presence</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">absence</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NN">heparin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="solution" dep_index="2" gov="formed" gov_index="5">prep_in</dependency>
+      <dependency dep="FGFR4ed" dep_index="4" gov="formed" gov_index="5">nsubj</dependency>
+      <dependency dep="formed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="complexes" dep_index="6" gov="formed" gov_index="5">dobj</dependency>
+      <dependency dep="acidic FGF (FGF-1)" dep_index="8" gov="formed" gov_index="5">prep_with</dependency>
+      <dependency dep="basic FGF (FGF-2)" dep_index="10" gov="formed" gov_index="5">prep_with</dependency>
+      <dependency dep="basic FGF (FGF-2)" dep_index="10" gov="acidic FGF (FGF-1)" gov_index="8">conj_and</dependency>
+      <dependency dep="both" dep_index="12" gov="formed" gov_index="5">dep</dependency>
+      <dependency dep="the" dep_index="14" gov="presence" gov_index="15">det</dependency>
+      <dependency dep="presence" dep_index="15" gov="formed" gov_index="5">prep_in</dependency>
+      <dependency dep="absence" dep_index="17" gov="formed" gov_index="5">prep_in</dependency>
+      <dependency dep="absence" dep_index="17" gov="presence" gov_index="15">conj_and</dependency>
+      <dependency dep="heparin" dep_index="19" gov="presence" gov_index="15">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 5 10</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Neuropilin 1@(@NP-1@)@is@a@receptor@for@vascular endothelial growth factor@(@VEGF@)@165@(@VEGF165@)@and@acts@as@a@coreceptor@that@enhances@VEGF165@function@through@tyrosine kinase@VEGF receptor 2@(@VEGFR-2@).@</sentence>
+   <tags>
+      <tag pos="3">NP-1</tag>
+      <tag pos="1">Neuropilin 1</tag>
+      <tag pos="30">VEGFR-2</tag>
+      <tag pos="9">vascular endothelial growth factor</tag>
+      <tag pos="15">VEGF165</tag>
+      <tag pos="24">VEGF165</tag>
+      <tag pos="11">VEGF</tag>
+      <tag pos="27">tyrosine kinase</tag>
+      <tag pos="28">VEGF receptor 2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Neuropilin 1</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">NP-1</taggedword>
+      <taggedword index="4" part-of-speech="NNP">)</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="8" part-of-speech="IN">for</taggedword>
+      <taggedword index="9" part-of-speech="JJ">vascular endothelial growth factor</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">VEGF</taggedword>
+      <taggedword index="12" part-of-speech="NNP">)</taggedword>
+      <taggedword index="13" part-of-speech="CD">165</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">VEGF165</taggedword>
+      <taggedword index="16" part-of-speech="NNS">)</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNS">acts</taggedword>
+      <taggedword index="19" part-of-speech="IN">as</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="NN">coreceptor</taggedword>
+      <taggedword index="22" part-of-speech="WDT">that</taggedword>
+      <taggedword index="23" part-of-speech="VBZ">enhances</taggedword>
+      <taggedword index="24" part-of-speech="JJ">VEGF165</taggedword>
+      <taggedword index="25" part-of-speech="NN">function</taggedword>
+      <taggedword index="26" part-of-speech="IN">through</taggedword>
+      <taggedword index="27" part-of-speech="JJ">tyrosine kinase</taggedword>
+      <taggedword index="28" part-of-speech="NNP">VEGF receptor 2</taggedword>
+      <taggedword index="29" part-of-speech="NNP">(</taggedword>
+      <taggedword index="30" part-of-speech="NNP">VEGFR-2</taggedword>
+      <taggedword index="31" part-of-speech="NNP">).</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Neuropilin 1" dep_index="1" gov=")" gov_index="4">nn</dependency>
+      <dependency dep="(" dep_index="2" gov=")" gov_index="4">nn</dependency>
+      <dependency dep="NP-1" dep_index="3" gov=")" gov_index="4">nn</dependency>
+      <dependency dep=")" dep_index="4" gov="receptor" gov_index="7">nsubj</dependency>
+      <dependency dep="is" dep_index="5" gov="receptor" gov_index="7">cop</dependency>
+      <dependency dep="a" dep_index="6" gov="receptor" gov_index="7">det</dependency>
+      <dependency dep="receptor" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="vascular endothelial growth factor" dep_index="9" gov=")" gov_index="16">amod</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="VEGF" dep_index="11" gov=")" gov_index="16">nn</dependency>
+      <dependency dep=")" dep_index="12" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="165" dep_index="13" gov=")" gov_index="16">num</dependency>
+      <dependency dep="(" dep_index="14" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="VEGF165" dep_index="15" gov=")" gov_index="16">nn</dependency>
+      <dependency dep=")" dep_index="16" gov="receptor" gov_index="7">prep_for</dependency>
+      <dependency dep="acts" dep_index="18" gov="receptor" gov_index="7">prep_for</dependency>
+      <dependency dep="acts" dep_index="18" gov=")" gov_index="16">conj_and</dependency>
+      <dependency dep="a" dep_index="20" gov="coreceptor" gov_index="21">det</dependency>
+      <dependency dep="coreceptor" dep_index="21" gov="receptor" gov_index="7">prep_as</dependency>
+      <dependency dep="coreceptor" dep_index="21" gov="enhances" gov_index="23">nsubj</dependency>
+      <dependency dep="enhances" dep_index="23" gov="coreceptor" gov_index="21">rcmod</dependency>
+      <dependency dep="VEGF165" dep_index="24" gov="function" gov_index="25">amod</dependency>
+      <dependency dep="function" dep_index="25" gov="enhances" gov_index="23">dobj</dependency>
+      <dependency dep="tyrosine kinase" dep_index="27" gov=")." gov_index="31">amod</dependency>
+      <dependency dep="VEGF receptor 2" dep_index="28" gov=")." gov_index="31">nn</dependency>
+      <dependency dep="(" dep_index="29" gov=")." gov_index="31">nn</dependency>
+      <dependency dep="VEGFR-2" dep_index="30" gov=")." gov_index="31">nn</dependency>
+      <dependency dep=")." dep_index="31" gov="enhances" gov_index="23">prep_through</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false">1 4 3</relation>
+      <relation position="300030" relationship="true">3 4 7 21 23 31 30</relation>
+      <relation position="300009" relationship="true">3 4 7 16 9</relation>
+      <relation position="300015" relationship="true">3 4 7 16 15</relation>
+      <relation position="300024" relationship="true">3 4 7 21 23 25 24</relation>
+      <relation position="300011" relationship="false">3 4 7 16 11</relation>
+      <relation position="300027" relationship="false">3 4 7 21 23 31 27</relation>
+      <relation position="300028" relationship="true">3 4 7 21 23 31 28</relation>
+      <relation position="100030" relationship="true">1 4 7 21 23 31 30</relation>
+      <relation position="100009" relationship="true">1 4 7 16 9</relation>
+      <relation position="100015" relationship="true">1 4 7 16 15</relation>
+      <relation position="100024" relationship="true">1 4 7 21 23 25 24</relation>
+      <relation position="100011" relationship="false">1 4 7 16 11</relation>
+      <relation position="100027" relationship="false">1 4 7 21 23 31 27</relation>
+      <relation position="100028" relationship="true">1 4 7 21 23 31 28</relation>
+      <relation position="900030" relationship="false">9 16 7 21 23 31 30</relation>
+      <relation position="1500030" relationship="false">15 16 7 21 23 31 30</relation>
+      <relation position="2400030" relationship="true">24 25 23 31 30</relation>
+      <relation position="1100030" relationship="false">11 16 7 21 23 31 30</relation>
+      <relation position="2700030" relationship="true">27 31 30</relation>
+      <relation position="2800030" relationship="false">28 31 30</relation>
+      <relation position="900015" relationship="false">9 16 15</relation>
+      <relation position="900024" relationship="false">9 16 7 21 23 25 24</relation>
+      <relation position="900011" relationship="false">9 16 11</relation>
+      <relation position="900027" relationship="false">9 16 7 21 23 31 27</relation>
+      <relation position="900028" relationship="false">9 16 7 21 23 31 28</relation>
+      <relation position="1500024" relationship="false">15 16 7 21 23 25 24</relation>
+      <relation position="1100015" relationship="false">11 16 15</relation>
+      <relation position="1500027" relationship="false">15 16 7 21 23 31 27</relation>
+      <relation position="1500028" relationship="false">15 16 7 21 23 31 28</relation>
+      <relation position="1100024" relationship="false">11 16 7 21 23 25 24</relation>
+      <relation position="2400027" relationship="false">24 25 23 31 27</relation>
+      <relation position="2400028" relationship="true">24 25 23 31 28</relation>
+      <relation position="1100027" relationship="false">11 16 7 21 23 31 27</relation>
+      <relation position="1100028" relationship="false">11 16 7 21 23 31 28</relation>
+      <relation position="2700028" relationship="true">27 31 28</relation>
+   </relations>
+   <pairs>
+      <pair>100030</pair>
+      <pair>100028</pair>
+      <pair>100024</pair>
+      <pair>300028</pair>
+      <pair>2700030</pair>
+      <pair>2700028</pair>
+      <pair>300030</pair>
+      <pair>300024</pair>
+      <pair>100015</pair>
+      <pair>100009</pair>
+      <pair>2400028</pair>
+      <pair>2400030</pair>
+      <pair>300015</pair>
+      <pair>300009</pair>
+   </pairs>
+</root>

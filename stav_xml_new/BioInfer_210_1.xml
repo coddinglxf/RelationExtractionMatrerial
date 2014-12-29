@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Finally@,@we@evaluated@the@acetylation@of@three@putative@PCAF@substrates@,@histones@H3@and@H4@and@the@transcription@factor@p53@,@and@have@determined@that@histone@H3@is@significantly@preferred@over@the@histone@H4@and@p53@substrates@.@</sentence>
+   <tags>
+      <tag pos="21">p53</tag>
+      <tag pos="28">H3</tag>
+      <tag pos="35">H4</tag>
+      <tag pos="27">histone</tag>
+      <tag pos="16">H4</tag>
+      <tag pos="10">PCAF</tag>
+      <tag pos="14">H3</tag>
+      <tag pos="13">histones</tag>
+      <tag pos="34">histone</tag>
+      <tag pos="37">p53</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Finally</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">we</taggedword>
+      <taggedword index="4" part-of-speech="VBN">evaluated</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">acetylation</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="CD">three</taggedword>
+      <taggedword index="9" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="10" part-of-speech="NNP">PCAF</taggedword>
+      <taggedword index="11" part-of-speech="NNS">substrates</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNS">histones</taggedword>
+      <taggedword index="14" part-of-speech="CD">H3</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="CD">H4</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">transcription</taggedword>
+      <taggedword index="20" part-of-speech="NN">factor</taggedword>
+      <taggedword index="21" part-of-speech="NN">p53</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="VBP">have</taggedword>
+      <taggedword index="25" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="26" part-of-speech="IN">that</taggedword>
+      <taggedword index="27" part-of-speech="NNP">histone</taggedword>
+      <taggedword index="28" part-of-speech="NNP">H3</taggedword>
+      <taggedword index="29" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="30" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="31" part-of-speech="VBN">preferred</taggedword>
+      <taggedword index="32" part-of-speech="IN">over</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="JJ">histone</taggedword>
+      <taggedword index="35" part-of-speech="NN">H4</taggedword>
+      <taggedword index="36" part-of-speech="CC">and</taggedword>
+      <taggedword index="37" part-of-speech="NN">p53</taggedword>
+      <taggedword index="38" part-of-speech="NNS">substrates</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Finally" dep_index="1" gov="evaluated" gov_index="4">advmod</dependency>
+      <dependency dep="we" dep_index="3" gov="evaluated" gov_index="4">nsubj</dependency>
+      <dependency dep="we" dep_index="3" gov="determined" gov_index="25">nsubj</dependency>
+      <dependency dep="evaluated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="acetylation" gov_index="6">det</dependency>
+      <dependency dep="acetylation" dep_index="6" gov="evaluated" gov_index="4">dobj</dependency>
+      <dependency dep="three" dep_index="8" gov="substrates" gov_index="11">num</dependency>
+      <dependency dep="putative" dep_index="9" gov="substrates" gov_index="11">amod</dependency>
+      <dependency dep="PCAF" dep_index="10" gov="substrates" gov_index="11">nn</dependency>
+      <dependency dep="substrates" dep_index="11" gov="acetylation" gov_index="6">prep_of</dependency>
+      <dependency dep="histones" dep_index="13" gov="acetylation" gov_index="6">prep_of</dependency>
+      <dependency dep="histones" dep_index="13" gov="substrates" gov_index="11">conj_and</dependency>
+      <dependency dep="H3" dep_index="14" gov="histones" gov_index="13">num</dependency>
+      <dependency dep="H4" dep_index="16" gov="substrates" gov_index="11">conj_and</dependency>
+      <dependency dep="H4" dep_index="16" gov="histones" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="18" gov="p53" gov_index="21">det</dependency>
+      <dependency dep="transcription" dep_index="19" gov="p53" gov_index="21">amod</dependency>
+      <dependency dep="factor" dep_index="20" gov="p53" gov_index="21">nn</dependency>
+      <dependency dep="p53" dep_index="21" gov="acetylation" gov_index="6">prep_of</dependency>
+      <dependency dep="p53" dep_index="21" gov="substrates" gov_index="11">conj_and</dependency>
+      <dependency dep="have" dep_index="24" gov="determined" gov_index="25">aux</dependency>
+      <dependency dep="determined" dep_index="25" gov="evaluated" gov_index="4">conj_and</dependency>
+      <dependency dep="that" dep_index="26" gov="preferred" gov_index="31">mark</dependency>
+      <dependency dep="histone" dep_index="27" gov="H3" gov_index="28">nn</dependency>
+      <dependency dep="H3" dep_index="28" gov="preferred" gov_index="31">nsubjpass</dependency>
+      <dependency dep="is" dep_index="29" gov="preferred" gov_index="31">auxpass</dependency>
+      <dependency dep="significantly" dep_index="30" gov="preferred" gov_index="31">advmod</dependency>
+      <dependency dep="preferred" dep_index="31" gov="determined" gov_index="25">ccomp</dependency>
+      <dependency dep="the" dep_index="33" gov="H4" gov_index="35">det</dependency>
+      <dependency dep="histone" dep_index="34" gov="H4" gov_index="35">amod</dependency>
+      <dependency dep="H4" dep_index="35" gov="preferred" gov_index="31">prep_over</dependency>
+      <dependency dep="p53" dep_index="37" gov="substrates" gov_index="38">nn</dependency>
+      <dependency dep="substrates" dep_index="38" gov="preferred" gov_index="31">prep_over</dependency>
+      <dependency dep="substrates" dep_index="38" gov="H4" gov_index="35">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2100028" relationship="false"></relation>
+      <relation position="2100035" relationship="false"></relation>
+      <relation position="2100027" relationship="false"></relation>
+      <relation position="1600021" relationship="false"></relation>
+      <relation position="1000021" relationship="true">10 11 6 21</relation>
+      <relation position="1400021" relationship="false">14 13 6 21</relation>
+      <relation position="1300021" relationship="false">13 6 21</relation>
+      <relation position="2100034" relationship="false"></relation>
+      <relation position="2100037" relationship="false"></relation>
+      <relation position="2800035" relationship="false">28 31 35</relation>
+      <relation position="2700028" relationship="true"></relation>
+      <relation position="1600028" relationship="false"></relation>
+      <relation position="1000028" relationship="false"></relation>
+      <relation position="1400028" relationship="false"></relation>
+      <relation position="1300028" relationship="false"></relation>
+      <relation position="2800034" relationship="false">28 31 35 34</relation>
+      <relation position="2800037" relationship="false">28 31 38 37</relation>
+      <relation position="2700035" relationship="false">27 28 31 35</relation>
+      <relation position="1600035" relationship="false"></relation>
+      <relation position="1000035" relationship="false"></relation>
+      <relation position="1400035" relationship="false"></relation>
+      <relation position="1300035" relationship="false"></relation>
+      <relation position="3400035" relationship="true"></relation>
+      <relation position="3500037" relationship="false">35 31 38 37</relation>
+      <relation position="1600027" relationship="false"></relation>
+      <relation position="1000027" relationship="false"></relation>
+      <relation position="1400027" relationship="false"></relation>
+      <relation position="1300027" relationship="false"></relation>
+      <relation position="2700034" relationship="false">27 28 31 35 34</relation>
+      <relation position="2700037" relationship="false">27 28 31 38 37</relation>
+      <relation position="1000016" relationship="true"></relation>
+      <relation position="1400016" relationship="false"></relation>
+      <relation position="1300016" relationship="true"></relation>
+      <relation position="1600034" relationship="false"></relation>
+      <relation position="1600037" relationship="false"></relation>
+      <relation position="1000014" relationship="true">10 11 6 13 14</relation>
+      <relation position="1000013" relationship="false">10 11 6 13</relation>
+      <relation position="1000034" relationship="false"></relation>
+      <relation position="1000037" relationship="false"></relation>
+      <relation position="1300014" relationship="true"></relation>
+      <relation position="1400034" relationship="false"></relation>
+      <relation position="1400037" relationship="false"></relation>
+      <relation position="1300034" relationship="false"></relation>
+      <relation position="1300037" relationship="false"></relation>
+      <relation position="3400037" relationship="false">34 35 31 38 37</relation>
+   </relations>
+   <pairs>
+      <pair>1300016</pair>
+      <pair>1000014</pair>
+      <pair>1000016</pair>
+      <pair>2700028</pair>
+      <pair>1300014</pair>
+      <pair>1000021</pair>
+      <pair>3400035</pair>
+   </pairs>
+</root>

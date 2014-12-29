@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@found@that@in@addition@to@MIP-1beta@,@MIP-1alpha@,@and@RANTES@,@five@other@CC-chemokines@could@compete@for@[(125)I]-@MIP-1beta@binding@:@MCP-2@,@MCP-3@,@MCP-4@,@MCP-1@,@and@eotaxin@binding@was@characterized@by@IC(50)@values@of@0.22@,@2.14@,@5.89@,@29.9@,@and@21.7@nmol/L@,@respectively@.@</sentence>
+   <tags>
+      <tag pos="7">MIP-1beta</tag>
+      <tag pos="9">MIP-1alpha</tag>
+      <tag pos="12">RANTES</tag>
+      <tag pos="21">MIP-1beta</tag>
+      <tag pos="24">MCP-2</tag>
+      <tag pos="26">MCP-3</tag>
+      <tag pos="28">MCP-4</tag>
+      <tag pos="30">MCP-1</tag>
+      <tag pos="33">eotaxin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">found</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="NN">addition</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="NNS">MIP-1beta</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNS">MIP-1alpha</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNS">RANTES</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CD">five</taggedword>
+      <taggedword index="15" part-of-speech="JJ">other</taggedword>
+      <taggedword index="16" part-of-speech="NNS">CC-chemokines</taggedword>
+      <taggedword index="17" part-of-speech="MD">could</taggedword>
+      <taggedword index="18" part-of-speech="VB">compete</taggedword>
+      <taggedword index="19" part-of-speech="IN">for</taggedword>
+      <taggedword index="20" part-of-speech="JJ">[(125)I]-</taggedword>
+      <taggedword index="21" part-of-speech="NN">MIP-1beta</taggedword>
+      <taggedword index="22" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="23" part-of-speech=":">:</taggedword>
+      <taggedword index="24" part-of-speech="NN">MCP-2</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="NN">MCP-3</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NN">MCP-4</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="NN">MCP-1</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="CC">and</taggedword>
+      <taggedword index="33" part-of-speech="NN">eotaxin</taggedword>
+      <taggedword index="34" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="35" part-of-speech="VBD">was</taggedword>
+      <taggedword index="36" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="37" part-of-speech="IN">by</taggedword>
+      <taggedword index="38" part-of-speech="CD">IC(50)</taggedword>
+      <taggedword index="39" part-of-speech="NNS">values</taggedword>
+      <taggedword index="40" part-of-speech="IN">of</taggedword>
+      <taggedword index="41" part-of-speech="CD">0.22</taggedword>
+      <taggedword index="42" part-of-speech=",">,</taggedword>
+      <taggedword index="43" part-of-speech="CD">2.14</taggedword>
+      <taggedword index="44" part-of-speech=",">,</taggedword>
+      <taggedword index="45" part-of-speech="CD">5.89</taggedword>
+      <taggedword index="46" part-of-speech=",">,</taggedword>
+      <taggedword index="47" part-of-speech="NNP">29.9</taggedword>
+      <taggedword index="48" part-of-speech=",">,</taggedword>
+      <taggedword index="49" part-of-speech="CC">and</taggedword>
+      <taggedword index="50" part-of-speech="CD">21.7</taggedword>
+      <taggedword index="51" part-of-speech="NN">nmol/L</taggedword>
+      <taggedword index="52" part-of-speech=",">,</taggedword>
+      <taggedword index="53" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="54" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="found" gov_index="2">nsubj</dependency>
+      <dependency dep="found" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="compete" gov_index="18">mark</dependency>
+      <dependency dep="MIP-1beta" dep_index="7" gov="compete" gov_index="18">prep_in_addition_to</dependency>
+      <dependency dep="MIP-1alpha" dep_index="9" gov="MIP-1beta" gov_index="7">conj_and</dependency>
+      <dependency dep="MIP-1alpha" dep_index="9" gov="compete" gov_index="18">prep_in_addition_to</dependency>
+      <dependency dep="RANTES" dep_index="12" gov="MIP-1beta" gov_index="7">conj_and</dependency>
+      <dependency dep="RANTES" dep_index="12" gov="compete" gov_index="18">prep_in_addition_to</dependency>
+      <dependency dep="five" dep_index="14" gov="CC-chemokines" gov_index="16">num</dependency>
+      <dependency dep="other" dep_index="15" gov="CC-chemokines" gov_index="16">amod</dependency>
+      <dependency dep="CC-chemokines" dep_index="16" gov="compete" gov_index="18">nsubj</dependency>
+      <dependency dep="could" dep_index="17" gov="compete" gov_index="18">aux</dependency>
+      <dependency dep="compete" dep_index="18" gov="found" gov_index="2">ccomp</dependency>
+      <dependency dep="[(125)I]-" dep_index="20" gov="MIP-1beta" gov_index="21">amod</dependency>
+      <dependency dep="MIP-1beta" dep_index="21" gov="compete" gov_index="18">prep_for</dependency>
+      <dependency dep="binding" dep_index="22" gov="MIP-1beta" gov_index="21">amod</dependency>
+      <dependency dep="MCP-2" dep_index="24" gov="characterized" gov_index="36">nsubjpass</dependency>
+      <dependency dep="MCP-3" dep_index="26" gov="MCP-2" gov_index="24">conj_and</dependency>
+      <dependency dep="MCP-3" dep_index="26" gov="characterized" gov_index="36">nsubjpass</dependency>
+      <dependency dep="MCP-4" dep_index="28" gov="MCP-2" gov_index="24">conj_and</dependency>
+      <dependency dep="MCP-4" dep_index="28" gov="characterized" gov_index="36">nsubjpass</dependency>
+      <dependency dep="MCP-1" dep_index="30" gov="MCP-2" gov_index="24">conj_and</dependency>
+      <dependency dep="MCP-1" dep_index="30" gov="characterized" gov_index="36">nsubjpass</dependency>
+      <dependency dep="eotaxin" dep_index="33" gov="MCP-2" gov_index="24">conj_and</dependency>
+      <dependency dep="eotaxin" dep_index="33" gov="characterized" gov_index="36">nsubjpass</dependency>
+      <dependency dep="binding" dep_index="34" gov="MCP-2" gov_index="24">amod</dependency>
+      <dependency dep="was" dep_index="35" gov="characterized" gov_index="36">auxpass</dependency>
+      <dependency dep="characterized" dep_index="36" gov="found" gov_index="2">parataxis</dependency>
+      <dependency dep="IC(50)" dep_index="38" gov="values" gov_index="39">num</dependency>
+      <dependency dep="values" dep_index="39" gov="characterized" gov_index="36">agent</dependency>
+      <dependency dep="0.22" dep_index="41" gov="values" gov_index="39">prep_of</dependency>
+      <dependency dep="2.14" dep_index="43" gov="values" gov_index="39">prep_of</dependency>
+      <dependency dep="2.14" dep_index="43" gov="0.22" gov_index="41">conj_and</dependency>
+      <dependency dep="5.89" dep_index="45" gov="values" gov_index="39">prep_of</dependency>
+      <dependency dep="5.89" dep_index="45" gov="0.22" gov_index="41">conj_and</dependency>
+      <dependency dep="29.9" dep_index="47" gov="values" gov_index="39">prep_of</dependency>
+      <dependency dep="29.9" dep_index="47" gov="0.22" gov_index="41">conj_and</dependency>
+      <dependency dep="21.7" dep_index="50" gov="nmol/L" gov_index="51">num</dependency>
+      <dependency dep="nmol/L" dep_index="51" gov="values" gov_index="39">prep_of</dependency>
+      <dependency dep="nmol/L" dep_index="51" gov="0.22" gov_index="41">conj_and</dependency>
+      <dependency dep="respectively" dep_index="53" gov="characterized" gov_index="36">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 18 9</relation>
+      <relation position="700012" relationship="false">7 18 12</relation>
+      <relation position="700021" relationship="true">7 18 21</relation>
+      <relation position="700024" relationship="false">7 18 2 36 24</relation>
+      <relation position="700026" relationship="false">7 18 2 36 26</relation>
+      <relation position="700028" relationship="false">7 18 2 36 28</relation>
+      <relation position="700030" relationship="false">7 18 2 36 30</relation>
+      <relation position="700033" relationship="false">7 18 2 36 33</relation>
+      <relation position="900012" relationship="false">9 18 12</relation>
+      <relation position="900021" relationship="true">9 18 21</relation>
+      <relation position="900024" relationship="false">9 18 2 36 24</relation>
+      <relation position="900026" relationship="false">9 18 2 36 26</relation>
+      <relation position="900028" relationship="false">9 18 2 36 28</relation>
+      <relation position="900030" relationship="false">9 18 2 36 30</relation>
+      <relation position="900033" relationship="false">9 18 2 36 33</relation>
+      <relation position="1200021" relationship="true">12 18 21</relation>
+      <relation position="1200024" relationship="false">12 18 2 36 24</relation>
+      <relation position="1200026" relationship="false">12 18 2 36 26</relation>
+      <relation position="1200028" relationship="false">12 18 2 36 28</relation>
+      <relation position="1200030" relationship="false">12 18 2 36 30</relation>
+      <relation position="1200033" relationship="false">12 18 2 36 33</relation>
+      <relation position="2100024" relationship="true">21 18 2 36 24</relation>
+      <relation position="2100026" relationship="true">21 18 2 36 26</relation>
+      <relation position="2100028" relationship="true">21 18 2 36 28</relation>
+      <relation position="2100030" relationship="true">21 18 2 36 30</relation>
+      <relation position="2100033" relationship="true">21 18 2 36 33</relation>
+      <relation position="2400026" relationship="false">24 36 26</relation>
+      <relation position="2400028" relationship="false">24 36 28</relation>
+      <relation position="2400030" relationship="false">24 36 30</relation>
+      <relation position="2400033" relationship="false">24 36 33</relation>
+      <relation position="2600028" relationship="false">26 36 28</relation>
+      <relation position="2600030" relationship="false">26 36 30</relation>
+      <relation position="2600033" relationship="false">26 36 33</relation>
+      <relation position="2800030" relationship="false">28 36 30</relation>
+      <relation position="2800033" relationship="false">28 36 33</relation>
+      <relation position="3000033" relationship="false">30 36 33</relation>
+   </relations>
+   <pairs>
+      <pair>2100033</pair>
+      <pair>1200021</pair>
+      <pair>2100026</pair>
+      <pair>2100024</pair>
+      <pair>2100030</pair>
+      <pair>900021</pair>
+      <pair>2100028</pair>
+      <pair>700021</pair>
+   </pairs>
+</root>

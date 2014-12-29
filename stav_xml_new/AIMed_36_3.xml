@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@further@demonstrated@that@apolipoprotein E2@and@E3@but@not@apolipoprotein E4@can@decrease@the@fusogenic@activity@of@Abeta@(29-42)@via@a@direct@interaction@.@</sentence>
+   <tags>
+      <tag pos="5">apolipoprotein E2</tag>
+      <tag pos="10">apolipoprotein E4</tag>
+      <tag pos="17">Abeta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="RB">further</taggedword>
+      <taggedword index="3" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNS">apolipoprotein E2</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">E3</taggedword>
+      <taggedword index="8" part-of-speech="CC">but</taggedword>
+      <taggedword index="9" part-of-speech="RB">not</taggedword>
+      <taggedword index="10" part-of-speech="NNS">apolipoprotein E4</taggedword>
+      <taggedword index="11" part-of-speech="MD">can</taggedword>
+      <taggedword index="12" part-of-speech="VB">decrease</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">fusogenic</taggedword>
+      <taggedword index="15" part-of-speech="NN">activity</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NNP">Abeta</taggedword>
+      <taggedword index="18" part-of-speech="CD">(29-42)</taggedword>
+      <taggedword index="19" part-of-speech="IN">via</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="22" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="demonstrated" gov_index="3">nsubj</dependency>
+      <dependency dep="further" dep_index="2" gov="demonstrated" gov_index="3">advmod</dependency>
+      <dependency dep="demonstrated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="decrease" gov_index="12">mark</dependency>
+      <dependency dep="apolipoprotein E2" dep_index="5" gov="decrease" gov_index="12">nsubj</dependency>
+      <dependency dep="E3" dep_index="7" gov="apolipoprotein E2" gov_index="5">conj_and</dependency>
+      <dependency dep="E3" dep_index="7" gov="decrease" gov_index="12">nsubj</dependency>
+      <dependency dep="apolipoprotein E4" dep_index="10" gov="apolipoprotein E2" gov_index="5">conj_negcc</dependency>
+      <dependency dep="apolipoprotein E4" dep_index="10" gov="decrease" gov_index="12">nsubj</dependency>
+      <dependency dep="can" dep_index="11" gov="decrease" gov_index="12">aux</dependency>
+      <dependency dep="decrease" dep_index="12" gov="demonstrated" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="13" gov="activity" gov_index="15">det</dependency>
+      <dependency dep="fusogenic" dep_index="14" gov="activity" gov_index="15">amod</dependency>
+      <dependency dep="activity" dep_index="15" gov="decrease" gov_index="12">dobj</dependency>
+      <dependency dep="Abeta" dep_index="17" gov="activity" gov_index="15">prep_of</dependency>
+      <dependency dep="(29-42)" dep_index="18" gov="Abeta" gov_index="17">num</dependency>
+      <dependency dep="a" dep_index="20" gov="interaction" gov_index="22">det</dependency>
+      <dependency dep="direct" dep_index="21" gov="interaction" gov_index="22">amod</dependency>
+      <dependency dep="interaction" dep_index="22" gov="activity" gov_index="15">prep_via</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500010" relationship="false">5 12 10</relation>
+      <relation position="500017" relationship="true">5 12 15 17</relation>
+      <relation position="1000017" relationship="false">10 12 15 17</relation>
+   </relations>
+   <pairs>
+      <pair>500017</pair>
+   </pairs>
+</root>

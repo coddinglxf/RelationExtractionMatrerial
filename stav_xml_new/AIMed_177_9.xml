@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@selected@such@mutations@in@the@transcription@factor@E2F1@that@affect@its@ability@to@heterodimerize@with@DP1@.@</sentence>
+   <tags>
+      <tag pos="10">E2F1</tag>
+      <tag pos="18">DP1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">selected</taggedword>
+      <taggedword index="4" part-of-speech="JJ">such</taggedword>
+      <taggedword index="5" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">transcription</taggedword>
+      <taggedword index="9" part-of-speech="NN">factor</taggedword>
+      <taggedword index="10" part-of-speech="NN">E2F1</taggedword>
+      <taggedword index="11" part-of-speech="WDT">that</taggedword>
+      <taggedword index="12" part-of-speech="VBP">affect</taggedword>
+      <taggedword index="13" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="14" part-of-speech="NN">ability</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="VB">heterodimerize</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="NNP">DP1</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="selected" gov_index="3">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="selected" gov_index="3">aux</dependency>
+      <dependency dep="selected" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="such" dep_index="4" gov="mutations" gov_index="5">amod</dependency>
+      <dependency dep="mutations" dep_index="5" gov="selected" gov_index="3">dobj</dependency>
+      <dependency dep="the" dep_index="7" gov="E2F1" gov_index="10">det</dependency>
+      <dependency dep="transcription" dep_index="8" gov="E2F1" gov_index="10">amod</dependency>
+      <dependency dep="factor" dep_index="9" gov="E2F1" gov_index="10">nn</dependency>
+      <dependency dep="E2F1" dep_index="10" gov="selected" gov_index="3">prep_in</dependency>
+      <dependency dep="E2F1" dep_index="10" gov="affect" gov_index="12">nsubj</dependency>
+      <dependency dep="affect" dep_index="12" gov="E2F1" gov_index="10">rcmod</dependency>
+      <dependency dep="its" dep_index="13" gov="ability" gov_index="14">poss</dependency>
+      <dependency dep="ability" dep_index="14" gov="affect" gov_index="12">dobj</dependency>
+      <dependency dep="to" dep_index="15" gov="heterodimerize" gov_index="16">aux</dependency>
+      <dependency dep="heterodimerize" dep_index="16" gov="ability" gov_index="14">infmod</dependency>
+      <dependency dep="DP1" dep_index="18" gov="heterodimerize" gov_index="16">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000018" relationship="true">10 12 14 16 18</relation>
+   </relations>
+   <pairs>
+      <pair>1000018</pair>
+   </pairs>
+</root>

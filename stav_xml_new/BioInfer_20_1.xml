@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Active@,@Ser133-phosphorylated@CREB@effects@transcription@of@CRE-dependent@genes@via@interaction@with@the@265-kDa@co-activator@protein@CREB-binding-protein@,@CBP@,@which@bridges@the@CRE/@CREB@complex@to@components@of@the@basal@transcriptional@apparatus@.@</sentence>
+   <tags>
+      <tag pos="17">CREB-binding-protein</tag>
+      <tag pos="25">CREB</tag>
+      <tag pos="4">CREB</tag>
+      <tag pos="19">CBP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Active</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Ser133-phosphorylated</taggedword>
+      <taggedword index="4" part-of-speech="NNP">CREB</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">effects</taggedword>
+      <taggedword index="6" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">CRE-dependent</taggedword>
+      <taggedword index="9" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="10" part-of-speech="IN">via</taggedword>
+      <taggedword index="11" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">265-kDa</taggedword>
+      <taggedword index="15" part-of-speech="JJ">co-activator</taggedword>
+      <taggedword index="16" part-of-speech="NN">protein</taggedword>
+      <taggedword index="17" part-of-speech="NN">CREB-binding-protein</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="WDT">which</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">bridges</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NNP">CRE/</taggedword>
+      <taggedword index="25" part-of-speech="NNP">CREB</taggedword>
+      <taggedword index="26" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="27" part-of-speech="TO">to</taggedword>
+      <taggedword index="28" part-of-speech="NNS">components</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="JJ">basal</taggedword>
+      <taggedword index="32" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="33" part-of-speech="NN">apparatus</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Active" dep_index="1" gov="effects" gov_index="5">advmod</dependency>
+      <dependency dep="Ser133-phosphorylated" dep_index="3" gov="CREB" gov_index="4">nn</dependency>
+      <dependency dep="CREB" dep_index="4" gov="effects" gov_index="5">nsubj</dependency>
+      <dependency dep="effects" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="transcription" dep_index="6" gov="effects" gov_index="5">dobj</dependency>
+      <dependency dep="CRE-dependent" dep_index="8" gov="genes" gov_index="9">amod</dependency>
+      <dependency dep="genes" dep_index="9" gov="transcription" gov_index="6">prep_of</dependency>
+      <dependency dep="interaction" dep_index="11" gov="genes" gov_index="9">prep_via</dependency>
+      <dependency dep="the" dep_index="13" gov="CREB-binding-protein" gov_index="17">det</dependency>
+      <dependency dep="265-kDa" dep_index="14" gov="CREB-binding-protein" gov_index="17">amod</dependency>
+      <dependency dep="co-activator" dep_index="15" gov="CREB-binding-protein" gov_index="17">amod</dependency>
+      <dependency dep="protein" dep_index="16" gov="CREB-binding-protein" gov_index="17">nn</dependency>
+      <dependency dep="CREB-binding-protein" dep_index="17" gov="effects" gov_index="5">prep_with</dependency>
+      <dependency dep="CREB-binding-protein" dep_index="17" gov="bridges" gov_index="22">nsubj</dependency>
+      <dependency dep="CBP" dep_index="19" gov="CREB-binding-protein" gov_index="17">appos</dependency>
+      <dependency dep="bridges" dep_index="22" gov="CREB-binding-protein" gov_index="17">rcmod</dependency>
+      <dependency dep="the" dep_index="23" gov="CREB" gov_index="25">det</dependency>
+      <dependency dep="CRE/" dep_index="24" gov="CREB" gov_index="25">nn</dependency>
+      <dependency dep="CREB" dep_index="25" gov="complex" gov_index="26">nsubj</dependency>
+      <dependency dep="complex" dep_index="26" gov="bridges" gov_index="22">xcomp</dependency>
+      <dependency dep="components" dep_index="28" gov="complex" gov_index="26">prep_to</dependency>
+      <dependency dep="the" dep_index="30" gov="apparatus" gov_index="33">det</dependency>
+      <dependency dep="basal" dep_index="31" gov="apparatus" gov_index="33">amod</dependency>
+      <dependency dep="transcriptional" dep_index="32" gov="apparatus" gov_index="33">amod</dependency>
+      <dependency dep="apparatus" dep_index="33" gov="components" gov_index="28">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700025" relationship="true">17 22 26 25</relation>
+      <relation position="400017" relationship="true">4 5 17</relation>
+      <relation position="1700019" relationship="false"></relation>
+      <relation position="400025" relationship="false">4 5 17 22 26 25</relation>
+      <relation position="1900025" relationship="true">19 17 22 26 25</relation>
+      <relation position="400019" relationship="true">4 5 17 19</relation>
+   </relations>
+   <pairs>
+      <pair>1700025</pair>
+      <pair>400019</pair>
+      <pair>400017</pair>
+      <pair>1900025</pair>
+   </pairs>
+</root>

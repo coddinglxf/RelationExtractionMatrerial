@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@present@study@demonstrates@that@hCG@and@oxytocin@can@increase@the@accumulation@of@inositol phosphates@in@porcine@myometrial@cells@</sentence>
+   <tags>
+      <tag pos="8">oxytocin</tag>
+      <tag pos="14">inositol phosphates</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">present</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">demonstrates</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="NN">hCG</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="9" part-of-speech="MD">can</taggedword>
+      <taggedword index="10" part-of-speech="VB">increase</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">accumulation</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NNS">inositol phosphates</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="JJ">porcine</taggedword>
+      <taggedword index="17" part-of-speech="JJ">myometrial</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cells</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="study" gov_index="3">det</dependency>
+      <dependency dep="present" dep_index="2" gov="study" gov_index="3">amod</dependency>
+      <dependency dep="study" dep_index="3" gov="demonstrates" gov_index="4">nsubj</dependency>
+      <dependency dep="demonstrates" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="increase" gov_index="10">mark</dependency>
+      <dependency dep="hCG" dep_index="6" gov="increase" gov_index="10">nsubj</dependency>
+      <dependency dep="oxytocin" dep_index="8" gov="hCG" gov_index="6">conj_and</dependency>
+      <dependency dep="oxytocin" dep_index="8" gov="increase" gov_index="10">nsubj</dependency>
+      <dependency dep="can" dep_index="9" gov="increase" gov_index="10">aux</dependency>
+      <dependency dep="increase" dep_index="10" gov="demonstrates" gov_index="4">ccomp</dependency>
+      <dependency dep="the" dep_index="11" gov="accumulation" gov_index="12">det</dependency>
+      <dependency dep="accumulation" dep_index="12" gov="increase" gov_index="10">dobj</dependency>
+      <dependency dep="inositol phosphates" dep_index="14" gov="accumulation" gov_index="12">prep_of</dependency>
+      <dependency dep="porcine" dep_index="16" gov="cells" gov_index="18">amod</dependency>
+      <dependency dep="myometrial" dep_index="17" gov="cells" gov_index="18">amod</dependency>
+      <dependency dep="cells" dep_index="18" gov="inositol phosphates" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800014" relationship="true">8 10 12 14</relation>
+   </relations>
+   <pairs>
+      <pair>800014</pair>
+   </pairs>
+</root>

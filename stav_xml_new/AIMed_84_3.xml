@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@also@mapped@the@specific@domains@of@the@IGF-IR@and@p52Shc@participating@in@these@interactions@.@</sentence>
+   <tags>
+      <tag pos="9">IGF-IR</tag>
+      <tag pos="11">p52Shc</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="RB">also</taggedword>
+      <taggedword index="3" part-of-speech="VBD">mapped</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="6" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">IGF-IR</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">p52Shc</taggedword>
+      <taggedword index="12" part-of-speech="VBG">participating</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">these</taggedword>
+      <taggedword index="15" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="mapped" gov_index="3">nsubj</dependency>
+      <dependency dep="also" dep_index="2" gov="mapped" gov_index="3">advmod</dependency>
+      <dependency dep="mapped" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="domains" gov_index="6">det</dependency>
+      <dependency dep="specific" dep_index="5" gov="domains" gov_index="6">amod</dependency>
+      <dependency dep="domains" dep_index="6" gov="mapped" gov_index="3">dobj</dependency>
+      <dependency dep="the" dep_index="8" gov="IGF-IR" gov_index="9">det</dependency>
+      <dependency dep="IGF-IR" dep_index="9" gov="domains" gov_index="6">prep_of</dependency>
+      <dependency dep="p52Shc" dep_index="11" gov="domains" gov_index="6">prep_of</dependency>
+      <dependency dep="p52Shc" dep_index="11" gov="IGF-IR" gov_index="9">conj_and</dependency>
+      <dependency dep="participating" dep_index="12" gov="IGF-IR" gov_index="9">partmod</dependency>
+      <dependency dep="these" dep_index="14" gov="interactions" gov_index="15">det</dependency>
+      <dependency dep="interactions" dep_index="15" gov="participating" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="false">9 6 11</relation>
+   </relations>
+   <pairs/>
+</root>

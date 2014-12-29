@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Therefore@,@it@was@examined@whether@stimulation@of@Swiss@3T3@cells@with@insulin@causes@changes@in@the@subcellular@distribution@of@EGF@receptors@and@phospholipase Cgamma1@that@could@potentially@explain@the@observed@synergy@or@costimulation@.@</sentence>
+   <tags>
+      <tag pos="13">insulin</tag>
+      <tag pos="24">phospholipase Cgamma1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Therefore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">it</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="VBN">examined</taggedword>
+      <taggedword index="6" part-of-speech="IN">whether</taggedword>
+      <taggedword index="7" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">Swiss</taggedword>
+      <taggedword index="10" part-of-speech="CD">3T3</taggedword>
+      <taggedword index="11" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">causes</taggedword>
+      <taggedword index="15" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">subcellular</taggedword>
+      <taggedword index="19" part-of-speech="NN">distribution</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NNP">EGF</taggedword>
+      <taggedword index="22" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NNS">phospholipase Cgamma1</taggedword>
+      <taggedword index="25" part-of-speech="WDT">that</taggedword>
+      <taggedword index="26" part-of-speech="MD">could</taggedword>
+      <taggedword index="27" part-of-speech="RB">potentially</taggedword>
+      <taggedword index="28" part-of-speech="VB">explain</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="JJ">observed</taggedword>
+      <taggedword index="31" part-of-speech="NN">synergy</taggedword>
+      <taggedword index="32" part-of-speech="CC">or</taggedword>
+      <taggedword index="33" part-of-speech="NN">costimulation</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Therefore" dep_index="1" gov="examined" gov_index="5">advmod</dependency>
+      <dependency dep="it" dep_index="3" gov="examined" gov_index="5">nsubjpass</dependency>
+      <dependency dep="was" dep_index="4" gov="examined" gov_index="5">auxpass</dependency>
+      <dependency dep="examined" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="whether" dep_index="6" gov="causes" gov_index="14">mark</dependency>
+      <dependency dep="stimulation" dep_index="7" gov="causes" gov_index="14">nsubj</dependency>
+      <dependency dep="Swiss" dep_index="9" gov="cells" gov_index="11">amod</dependency>
+      <dependency dep="3T3" dep_index="10" gov="cells" gov_index="11">num</dependency>
+      <dependency dep="cells" dep_index="11" gov="stimulation" gov_index="7">prep_of</dependency>
+      <dependency dep="insulin" dep_index="13" gov="stimulation" gov_index="7">prep_with</dependency>
+      <dependency dep="causes" dep_index="14" gov="examined" gov_index="5">ccomp</dependency>
+      <dependency dep="changes" dep_index="15" gov="causes" gov_index="14">dobj</dependency>
+      <dependency dep="changes" dep_index="15" gov="explain" gov_index="28">nsubj</dependency>
+      <dependency dep="the" dep_index="17" gov="distribution" gov_index="19">det</dependency>
+      <dependency dep="subcellular" dep_index="18" gov="distribution" gov_index="19">nn</dependency>
+      <dependency dep="distribution" dep_index="19" gov="changes" gov_index="15">prep_in</dependency>
+      <dependency dep="EGF" dep_index="21" gov="receptors" gov_index="22">nn</dependency>
+      <dependency dep="receptors" dep_index="22" gov="distribution" gov_index="19">prep_of</dependency>
+      <dependency dep="phospholipase Cgamma1" dep_index="24" gov="distribution" gov_index="19">prep_of</dependency>
+      <dependency dep="phospholipase Cgamma1" dep_index="24" gov="receptors" gov_index="22">conj_and</dependency>
+      <dependency dep="could" dep_index="26" gov="explain" gov_index="28">aux</dependency>
+      <dependency dep="potentially" dep_index="27" gov="explain" gov_index="28">advmod</dependency>
+      <dependency dep="explain" dep_index="28" gov="changes" gov_index="15">rcmod</dependency>
+      <dependency dep="the" dep_index="29" gov="synergy" gov_index="31">det</dependency>
+      <dependency dep="observed" dep_index="30" gov="synergy" gov_index="31">amod</dependency>
+      <dependency dep="synergy" dep_index="31" gov="explain" gov_index="28">dobj</dependency>
+      <dependency dep="costimulation" dep_index="33" gov="explain" gov_index="28">dobj</dependency>
+      <dependency dep="costimulation" dep_index="33" gov="synergy" gov_index="31">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300024" relationship="true">13 7 14 15 19 24</relation>
+   </relations>
+   <pairs>
+      <pair>1300024</pair>
+   </pairs>
+</root>

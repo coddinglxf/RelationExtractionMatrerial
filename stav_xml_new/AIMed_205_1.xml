@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thymocyte@activation@induces@the@association@of@phosphatidylinositol 3-kinase@and@pp120@with@CD5@.@</sentence>
+   <tags>
+      <tag pos="7">phosphatidylinositol 3-kinase</tag>
+      <tag pos="9">pp120</tag>
+      <tag pos="11">CD5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Thymocyte</taggedword>
+      <taggedword index="2" part-of-speech="NN">activation</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">induces</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">association</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="CD">phosphatidylinositol 3-kinase</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="CD">pp120</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thymocyte" dep_index="1" gov="activation" gov_index="2">amod</dependency>
+      <dependency dep="activation" dep_index="2" gov="induces" gov_index="3">nsubj</dependency>
+      <dependency dep="induces" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="association" gov_index="5">det</dependency>
+      <dependency dep="association" dep_index="5" gov="induces" gov_index="3">dobj</dependency>
+      <dependency dep="phosphatidylinositol 3-kinase" dep_index="7" gov="association" gov_index="5">prep_of</dependency>
+      <dependency dep="pp120" dep_index="9" gov="association" gov_index="5">prep_of</dependency>
+      <dependency dep="pp120" dep_index="9" gov="phosphatidylinositol 3-kinase" gov_index="7">conj_and</dependency>
+      <dependency dep="CD5" dep_index="11" gov="induces" gov_index="3">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 5 9</relation>
+      <relation position="700011" relationship="true">7 5 3 11</relation>
+      <relation position="900011" relationship="true">9 5 3 11</relation>
+   </relations>
+   <pairs>
+      <pair>700011</pair>
+      <pair>900011</pair>
+   </pairs>
+</root>

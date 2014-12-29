@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Myosin heavy chain A@staining@was@dimmer@and@its@colocalization@with@filamentous@actin@bundles@in@growth@cones@was@less@striking@than@that@of@myosin heavy chain B@.@</sentence>
+   <tags>
+      <tag pos="10">actin</tag>
+      <tag pos="1">Myosin heavy chain A</tag>
+      <tag pos="21">myosin heavy chain B</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Myosin heavy chain A</taggedword>
+      <taggedword index="2" part-of-speech="NNP">staining</taggedword>
+      <taggedword index="3" part-of-speech="VBD">was</taggedword>
+      <taggedword index="4" part-of-speech="JJ">dimmer</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="7" part-of-speech="NN">colocalization</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="JJ">filamentous</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="NNS">bundles</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NN">growth</taggedword>
+      <taggedword index="14" part-of-speech="NNS">cones</taggedword>
+      <taggedword index="15" part-of-speech="VBD">was</taggedword>
+      <taggedword index="16" part-of-speech="RBR">less</taggedword>
+      <taggedword index="17" part-of-speech="JJ">striking</taggedword>
+      <taggedword index="18" part-of-speech="IN">than</taggedword>
+      <taggedword index="19" part-of-speech="DT">that</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NN">myosin heavy chain B</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Myosin heavy chain A" dep_index="1" gov="staining" gov_index="2">nn</dependency>
+      <dependency dep="staining" dep_index="2" gov="dimmer" gov_index="4">nsubj</dependency>
+      <dependency dep="was" dep_index="3" gov="dimmer" gov_index="4">cop</dependency>
+      <dependency dep="dimmer" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="its" dep_index="6" gov="colocalization" gov_index="7">poss</dependency>
+      <dependency dep="colocalization" dep_index="7" gov="striking" gov_index="17">nsubj</dependency>
+      <dependency dep="filamentous" dep_index="9" gov="bundles" gov_index="11">amod</dependency>
+      <dependency dep="actin" dep_index="10" gov="bundles" gov_index="11">nn</dependency>
+      <dependency dep="bundles" dep_index="11" gov="colocalization" gov_index="7">prep_with</dependency>
+      <dependency dep="growth" dep_index="13" gov="cones" gov_index="14">nn</dependency>
+      <dependency dep="cones" dep_index="14" gov="bundles" gov_index="11">prep_in</dependency>
+      <dependency dep="was" dep_index="15" gov="striking" gov_index="17">cop</dependency>
+      <dependency dep="less" dep_index="16" gov="striking" gov_index="17">advmod</dependency>
+      <dependency dep="striking" dep_index="17" gov="dimmer" gov_index="4">conj_and</dependency>
+      <dependency dep="that" dep_index="19" gov="striking" gov_index="17">prep_than</dependency>
+      <dependency dep="myosin heavy chain B" dep_index="21" gov="that" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100010" relationship="true"></relation>
+      <relation position="1000021" relationship="true">10 11 7 17 19 21</relation>
+      <relation position="100021" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>100010</pair>
+      <pair>1000021</pair>
+   </pairs>
+</root>

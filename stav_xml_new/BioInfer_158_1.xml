@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crystallization@and@preliminary@crystallographic@analysis@of@the@N-terminal@actin@binding@domain@of@human@fimbrin@.@</sentence>
+   <tags>
+      <tag pos="14">fimbrin</tag>
+      <tag pos="9">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Crystallization</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="JJ">preliminary</taggedword>
+      <taggedword index="4" part-of-speech="JJ">crystallographic</taggedword>
+      <taggedword index="5" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">N-terminal</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="11" part-of-speech="NN">domain</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="JJ">human</taggedword>
+      <taggedword index="14" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crystallization" dep_index="1" gov="analysis" gov_index="5">nn</dependency>
+      <dependency dep="preliminary" dep_index="3" gov="Crystallization" gov_index="1">conj_and</dependency>
+      <dependency dep="preliminary" dep_index="3" gov="analysis" gov_index="5">nn</dependency>
+      <dependency dep="crystallographic" dep_index="4" gov="analysis" gov_index="5">amod</dependency>
+      <dependency dep="analysis" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="domain" gov_index="11">det</dependency>
+      <dependency dep="N-terminal" dep_index="8" gov="domain" gov_index="11">nn</dependency>
+      <dependency dep="actin" dep_index="9" gov="domain" gov_index="11">nn</dependency>
+      <dependency dep="binding" dep_index="10" gov="domain" gov_index="11">amod</dependency>
+      <dependency dep="domain" dep_index="11" gov="analysis" gov_index="5">prep_of</dependency>
+      <dependency dep="human" dep_index="13" gov="fimbrin" gov_index="14">amod</dependency>
+      <dependency dep="fimbrin" dep_index="14" gov="domain" gov_index="11">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900014" relationship="true">9 11 14</relation>
+   </relations>
+   <pairs>
+      <pair>900014</pair>
+   </pairs>
+</root>

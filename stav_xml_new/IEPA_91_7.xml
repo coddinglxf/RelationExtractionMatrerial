@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>RESULTS@:@Oxy@increased@insulin@release@and@[Ca2+]i@in@a@concentration-dependent@manner@</sentence>
+   <tags>
+      <tag pos="3">Oxy</tag>
+      <tag pos="5">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">RESULTS</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Oxy</taggedword>
+      <taggedword index="4" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="5" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="6" part-of-speech="NN">release</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">[Ca2+]i</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">concentration-dependent</taggedword>
+      <taggedword index="12" part-of-speech="NN">manner</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="RESULTS" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Oxy" dep_index="3" gov="increased" gov_index="4">nsubj</dependency>
+      <dependency dep="increased" dep_index="4" gov="RESULTS" gov_index="1">dep</dependency>
+      <dependency dep="insulin" dep_index="5" gov="release" gov_index="6">nn</dependency>
+      <dependency dep="release" dep_index="6" gov="increased" gov_index="4">dobj</dependency>
+      <dependency dep="[Ca2+]i" dep_index="8" gov="increased" gov_index="4">dobj</dependency>
+      <dependency dep="[Ca2+]i" dep_index="8" gov="release" gov_index="6">conj_and</dependency>
+      <dependency dep="a" dep_index="10" gov="manner" gov_index="12">det</dependency>
+      <dependency dep="concentration-dependent" dep_index="11" gov="manner" gov_index="12">amod</dependency>
+      <dependency dep="manner" dep_index="12" gov="release" gov_index="6">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="true">3 4 6 5</relation>
+   </relations>
+   <pairs>
+      <pair>300005</pair>
+   </pairs>
+</root>

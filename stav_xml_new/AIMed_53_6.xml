@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@cross-reactivity@of@gp130@is@apparently@due@to@a@chemical@plasticity@evident@in@the@amphipathic@gp130@cytokine-binding@sites@.@</sentence>
+   <tags>
+      <tag pos="4">gp130</tag>
+      <tag pos="16">gp130</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">cross-reactivity</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">gp130</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="RB">apparently</taggedword>
+      <taggedword index="7" part-of-speech="JJ">due</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="NN">chemical</taggedword>
+      <taggedword index="11" part-of-speech="RB">plasticity</taggedword>
+      <taggedword index="12" part-of-speech="JJ">evident</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">amphipathic</taggedword>
+      <taggedword index="16" part-of-speech="JJ">gp130</taggedword>
+      <taggedword index="17" part-of-speech="JJ">cytokine-binding</taggedword>
+      <taggedword index="18" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="cross-reactivity" gov_index="2">det</dependency>
+      <dependency dep="cross-reactivity" dep_index="2" gov="due" gov_index="7">nsubj</dependency>
+      <dependency dep="gp130" dep_index="4" gov="cross-reactivity" gov_index="2">prep_of</dependency>
+      <dependency dep="is" dep_index="5" gov="due" gov_index="7">cop</dependency>
+      <dependency dep="apparently" dep_index="6" gov="due" gov_index="7">advmod</dependency>
+      <dependency dep="due" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="9" gov="chemical" gov_index="10">det</dependency>
+      <dependency dep="chemical" dep_index="10" gov="due" gov_index="7">prep_to</dependency>
+      <dependency dep="plasticity" dep_index="11" gov="evident" gov_index="12">advmod</dependency>
+      <dependency dep="evident" dep_index="12" gov="chemical" gov_index="10">amod</dependency>
+      <dependency dep="the" dep_index="14" gov="sites" gov_index="18">det</dependency>
+      <dependency dep="amphipathic" dep_index="15" gov="sites" gov_index="18">amod</dependency>
+      <dependency dep="gp130" dep_index="16" gov="sites" gov_index="18">amod</dependency>
+      <dependency dep="cytokine-binding" dep_index="17" gov="sites" gov_index="18">amod</dependency>
+      <dependency dep="sites" dep_index="18" gov="chemical" gov_index="10">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400016" relationship="false">4 2 7 10 18 16</relation>
+   </relations>
+   <pairs/>
+</root>

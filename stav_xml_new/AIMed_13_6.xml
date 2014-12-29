@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Of@these@400@,@interferon regulatory factor 4@(@IRF4@),@cyclin B2@,@TBP-associated@factor@,@eukaryotic@elongation@factor@and@pim 2@were@up-regulated@more@than@3.5@fold@.@</sentence>
+   <tags>
+      <tag pos="5">interferon regulatory factor 4</tag>
+      <tag pos="7">IRF4</tag>
+      <tag pos="9">cyclin B2</tag>
+      <tag pos="18">pim 2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Of</taggedword>
+      <taggedword index="2" part-of-speech="DT">these</taggedword>
+      <taggedword index="3" part-of-speech="CD">400</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="CD">interferon regulatory factor 4</taggedword>
+      <taggedword index="6" part-of-speech="NNP">(</taggedword>
+      <taggedword index="7" part-of-speech="NNP">IRF4</taggedword>
+      <taggedword index="8" part-of-speech="NNP">),</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cyclin B2</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="JJ">TBP-associated</taggedword>
+      <taggedword index="12" part-of-speech="NN">factor</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="JJ">eukaryotic</taggedword>
+      <taggedword index="15" part-of-speech="NN">elongation</taggedword>
+      <taggedword index="16" part-of-speech="NN">factor</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNS">pim 2</taggedword>
+      <taggedword index="19" part-of-speech="VBD">were</taggedword>
+      <taggedword index="20" part-of-speech="VBN">up-regulated</taggedword>
+      <taggedword index="21" part-of-speech="JJR">more</taggedword>
+      <taggedword index="22" part-of-speech="IN">than</taggedword>
+      <taggedword index="23" part-of-speech="CD">3.5</taggedword>
+      <taggedword index="24" part-of-speech="NNS">fold</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="these" dep_index="2" gov="cyclin B2" gov_index="9">det</dependency>
+      <dependency dep="400" dep_index="3" gov="cyclin B2" gov_index="9">num</dependency>
+      <dependency dep="interferon regulatory factor 4" dep_index="5" gov="cyclin B2" gov_index="9">num</dependency>
+      <dependency dep="(" dep_index="6" gov="cyclin B2" gov_index="9">nn</dependency>
+      <dependency dep="IRF4" dep_index="7" gov="cyclin B2" gov_index="9">nn</dependency>
+      <dependency dep=")," dep_index="8" gov="cyclin B2" gov_index="9">nn</dependency>
+      <dependency dep="cyclin B2" dep_index="9" gov="up-regulated" gov_index="20">prep_of</dependency>
+      <dependency dep="TBP-associated" dep_index="11" gov="factor" gov_index="12">amod</dependency>
+      <dependency dep="factor" dep_index="12" gov="up-regulated" gov_index="20">nsubjpass</dependency>
+      <dependency dep="eukaryotic" dep_index="14" gov="factor" gov_index="16">amod</dependency>
+      <dependency dep="elongation" dep_index="15" gov="factor" gov_index="16">nn</dependency>
+      <dependency dep="factor" dep_index="16" gov="factor" gov_index="12">conj_and</dependency>
+      <dependency dep="factor" dep_index="16" gov="up-regulated" gov_index="20">nsubjpass</dependency>
+      <dependency dep="pim 2" dep_index="18" gov="factor" gov_index="12">conj_and</dependency>
+      <dependency dep="pim 2" dep_index="18" gov="up-regulated" gov_index="20">nsubjpass</dependency>
+      <dependency dep="were" dep_index="19" gov="up-regulated" gov_index="20">auxpass</dependency>
+      <dependency dep="up-regulated" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="more" dep_index="21" gov="than" gov_index="22">mwe</dependency>
+      <dependency dep="than" dep_index="22" gov="3.5" gov_index="23">quantmod</dependency>
+      <dependency dep="3.5" dep_index="23" gov="fold" gov_index="24">num</dependency>
+      <dependency dep="fold" dep_index="24" gov="up-regulated" gov_index="20">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 9 7</relation>
+      <relation position="500009" relationship="false"></relation>
+      <relation position="500018" relationship="false">5 9 20 18</relation>
+      <relation position="700009" relationship="false"></relation>
+      <relation position="700018" relationship="false">7 9 20 18</relation>
+      <relation position="900018" relationship="false">9 20 18</relation>
+   </relations>
+   <pairs/>
+</root>

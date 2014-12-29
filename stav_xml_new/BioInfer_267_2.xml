@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>NLS-less@S.cerevisiae@proteins@include@both@RAD51@and@RAD52@that@function@in@the@recombination@and@in@the@repair@of@double-strand@breaks@as@well@as@the@RAD23@and@HRR25@molecules@.@</sentence>
+   <tags>
+      <tag pos="27">HRR25</tag>
+      <tag pos="8">RAD52</tag>
+      <tag pos="25">RAD23</tag>
+      <tag pos="6">RAD51</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">NLS-less</taggedword>
+      <taggedword index="2" part-of-speech="NNP">S.cerevisiae</taggedword>
+      <taggedword index="3" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="4" part-of-speech="VBP">include</taggedword>
+      <taggedword index="5" part-of-speech="CC">both</taggedword>
+      <taggedword index="6" part-of-speech="CD">RAD51</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="CD">RAD52</taggedword>
+      <taggedword index="9" part-of-speech="WDT">that</taggedword>
+      <taggedword index="10" part-of-speech="VBP">function</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">recombination</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">repair</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">double-strand</taggedword>
+      <taggedword index="20" part-of-speech="NNS">breaks</taggedword>
+      <taggedword index="21" part-of-speech="RB">as</taggedword>
+      <taggedword index="22" part-of-speech="RB">well</taggedword>
+      <taggedword index="23" part-of-speech="IN">as</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">RAD23</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="CD">HRR25</taggedword>
+      <taggedword index="28" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="NLS-less" dep_index="1" gov="proteins" gov_index="3">amod</dependency>
+      <dependency dep="S.cerevisiae" dep_index="2" gov="proteins" gov_index="3">nn</dependency>
+      <dependency dep="proteins" dep_index="3" gov="include" gov_index="4">nsubj</dependency>
+      <dependency dep="include" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="both" dep_index="5" gov="RAD51" gov_index="6">preconj</dependency>
+      <dependency dep="RAD51" dep_index="6" gov="include" gov_index="4">dobj</dependency>
+      <dependency dep="RAD51" dep_index="6" gov="function" gov_index="10">nsubj</dependency>
+      <dependency dep="RAD52" dep_index="8" gov="include" gov_index="4">dobj</dependency>
+      <dependency dep="RAD52" dep_index="8" gov="RAD51" gov_index="6">conj_and</dependency>
+      <dependency dep="RAD52" dep_index="8" gov="function" gov_index="10">nsubj</dependency>
+      <dependency dep="function" dep_index="10" gov="RAD51" gov_index="6">rcmod</dependency>
+      <dependency dep="the" dep_index="12" gov="recombination" gov_index="13">det</dependency>
+      <dependency dep="recombination" dep_index="13" gov="function" gov_index="10">prep_in</dependency>
+      <dependency dep="the" dep_index="16" gov="repair" gov_index="17">det</dependency>
+      <dependency dep="repair" dep_index="17" gov="function" gov_index="10">prep_in</dependency>
+      <dependency dep="repair" dep_index="17" gov="recombination" gov_index="13">conj_and</dependency>
+      <dependency dep="double-strand" dep_index="19" gov="breaks" gov_index="20">amod</dependency>
+      <dependency dep="breaks" dep_index="20" gov="repair" gov_index="17">prep_of</dependency>
+      <dependency dep="the" dep_index="24" gov="RAD23" gov_index="25">det</dependency>
+      <dependency dep="RAD23" dep_index="25" gov="include" gov_index="4">dobj</dependency>
+      <dependency dep="RAD23" dep_index="25" gov="RAD51" gov_index="6">conj_and</dependency>
+      <dependency dep="RAD23" dep_index="25" gov="function" gov_index="10">nsubj</dependency>
+      <dependency dep="HRR25" dep_index="27" gov="molecules" gov_index="28">num</dependency>
+      <dependency dep="molecules" dep_index="28" gov="RAD51" gov_index="6">conj_and</dependency>
+      <dependency dep="molecules" dep_index="28" gov="RAD23" gov_index="25">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800027" relationship="false"></relation>
+      <relation position="2500027" relationship="false"></relation>
+      <relation position="600027" relationship="false"></relation>
+      <relation position="800025" relationship="false">8 10 25</relation>
+      <relation position="600008" relationship="false">6 10 8</relation>
+      <relation position="600025" relationship="false">6 10 25</relation>
+   </relations>
+   <pairs/>
+</root>

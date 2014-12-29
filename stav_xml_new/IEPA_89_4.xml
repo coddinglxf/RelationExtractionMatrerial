@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@present@study@indicates@that@leptin@increases@the@gene@expression@of@UCP2@in@EWAT@and@that@of@UCP1@,@UCP3@and@LPL@in@BAT@,@whereas@reduced@food@consumption@but@not@leptin@,@decreases@LPL@expression@in@WAT@</sentence>
+   <tags>
+      <tag pos="6">leptin</tag>
+      <tag pos="12">UCP2</tag>
+      <tag pos="18">UCP1</tag>
+      <tag pos="20">UCP3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">present</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">indicates</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">increases</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">gene</taggedword>
+      <taggedword index="10" part-of-speech="NN">expression</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">UCP2</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NNP">EWAT</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="DT">that</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">UCP1</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NNP">UCP3</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NNP">LPL</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="NNP">BAT</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="27" part-of-speech="JJ">reduced</taggedword>
+      <taggedword index="28" part-of-speech="NN">food</taggedword>
+      <taggedword index="29" part-of-speech="NN">consumption</taggedword>
+      <taggedword index="30" part-of-speech="CC">but</taggedword>
+      <taggedword index="31" part-of-speech="RB">not</taggedword>
+      <taggedword index="32" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="NNS">decreases</taggedword>
+      <taggedword index="35" part-of-speech="VBP">LPL</taggedword>
+      <taggedword index="36" part-of-speech="NN">expression</taggedword>
+      <taggedword index="37" part-of-speech="IN">in</taggedword>
+      <taggedword index="38" part-of-speech="NNP">WAT</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="study" gov_index="3">det</dependency>
+      <dependency dep="present" dep_index="2" gov="study" gov_index="3">amod</dependency>
+      <dependency dep="study" dep_index="3" gov="indicates" gov_index="4">nsubj</dependency>
+      <dependency dep="indicates" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="increases" gov_index="7">mark</dependency>
+      <dependency dep="leptin" dep_index="6" gov="increases" gov_index="7">nsubj</dependency>
+      <dependency dep="increases" dep_index="7" gov="indicates" gov_index="4">ccomp</dependency>
+      <dependency dep="the" dep_index="8" gov="expression" gov_index="10">det</dependency>
+      <dependency dep="gene" dep_index="9" gov="expression" gov_index="10">nn</dependency>
+      <dependency dep="expression" dep_index="10" gov="increases" gov_index="7">dobj</dependency>
+      <dependency dep="UCP2" dep_index="12" gov="expression" gov_index="10">prep_of</dependency>
+      <dependency dep="EWAT" dep_index="14" gov="UCP2" gov_index="12">prep_in</dependency>
+      <dependency dep="that" dep_index="16" gov="expression" gov_index="10">prep_of</dependency>
+      <dependency dep="that" dep_index="16" gov="UCP2" gov_index="12">conj_and</dependency>
+      <dependency dep="UCP1" dep_index="18" gov="that" gov_index="16">prep_of</dependency>
+      <dependency dep="UCP3" dep_index="20" gov="that" gov_index="16">prep_of</dependency>
+      <dependency dep="UCP3" dep_index="20" gov="UCP1" gov_index="18">conj_and</dependency>
+      <dependency dep="LPL" dep_index="22" gov="that" gov_index="16">prep_of</dependency>
+      <dependency dep="LPL" dep_index="22" gov="UCP1" gov_index="18">conj_and</dependency>
+      <dependency dep="BAT" dep_index="24" gov="expression" gov_index="10">prep_in</dependency>
+      <dependency dep="whereas" dep_index="26" gov="LPL" gov_index="35">mark</dependency>
+      <dependency dep="reduced" dep_index="27" gov="consumption" gov_index="29">amod</dependency>
+      <dependency dep="food" dep_index="28" gov="consumption" gov_index="29">nn</dependency>
+      <dependency dep="consumption" dep_index="29" gov="LPL" gov_index="35">nsubj</dependency>
+      <dependency dep="leptin" dep_index="32" gov="consumption" gov_index="29">conj_negcc</dependency>
+      <dependency dep="leptin" dep_index="32" gov="LPL" gov_index="35">nsubj</dependency>
+      <dependency dep="decreases" dep_index="34" gov="leptin" gov_index="32">appos</dependency>
+      <dependency dep="LPL" dep_index="35" gov="increases" gov_index="7">advcl</dependency>
+      <dependency dep="expression" dep_index="36" gov="LPL" gov_index="35">dobj</dependency>
+      <dependency dep="WAT" dep_index="38" gov="expression" gov_index="36">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600012" relationship="true">6 7 10 12</relation>
+      <relation position="600018" relationship="true">6 7 10 16 18</relation>
+      <relation position="600020" relationship="true">6 7 10 16 20</relation>
+      <relation position="1200018" relationship="false">12 10 16 18</relation>
+      <relation position="1200020" relationship="false">12 10 16 20</relation>
+      <relation position="1800020" relationship="false">18 16 20</relation>
+   </relations>
+   <pairs>
+      <pair>600012</pair>
+      <pair>600018</pair>
+      <pair>600020</pair>
+   </pairs>
+</root>

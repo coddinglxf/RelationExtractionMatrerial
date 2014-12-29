@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Signal@transduction@of@arginine vasopressin@-induced@arachidonic@acid@release@in@H9c2@cardiac@myoblasts@:@role@of@Ca2+@and@the@protein kinase C@-dependent@activation@of@p42@mitogen-activated@protein@kinase@</sentence>
+   <tags>
+      <tag pos="4">arginine vasopressin</tag>
+      <tag pos="19">protein kinase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Signal</taggedword>
+      <taggedword index="2" part-of-speech="NNP">transduction</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">arginine vasopressin</taggedword>
+      <taggedword index="5" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="6" part-of-speech="JJ">arachidonic</taggedword>
+      <taggedword index="7" part-of-speech="NN">acid</taggedword>
+      <taggedword index="8" part-of-speech="NN">release</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="JJ">H9c2</taggedword>
+      <taggedword index="11" part-of-speech="JJ">cardiac</taggedword>
+      <taggedword index="12" part-of-speech="NNS">myoblasts</taggedword>
+      <taggedword index="13" part-of-speech=":">:</taggedword>
+      <taggedword index="14" part-of-speech="NN">role</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NNS">Ca2+</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="20" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="21" part-of-speech="NN">activation</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">p42</taggedword>
+      <taggedword index="24" part-of-speech="JJ">mitogen-activated</taggedword>
+      <taggedword index="25" part-of-speech="NN">protein</taggedword>
+      <taggedword index="26" part-of-speech="NN">kinase</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Signal" dep_index="1" gov="transduction" gov_index="2">nn</dependency>
+      <dependency dep="transduction" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="arginine vasopressin" dep_index="4" gov="release" gov_index="8">nn</dependency>
+      <dependency dep="-induced" dep_index="5" gov="release" gov_index="8">amod</dependency>
+      <dependency dep="arachidonic" dep_index="6" gov="release" gov_index="8">amod</dependency>
+      <dependency dep="acid" dep_index="7" gov="release" gov_index="8">nn</dependency>
+      <dependency dep="release" dep_index="8" gov="transduction" gov_index="2">prep_of</dependency>
+      <dependency dep="H9c2" dep_index="10" gov="myoblasts" gov_index="12">amod</dependency>
+      <dependency dep="cardiac" dep_index="11" gov="myoblasts" gov_index="12">amod</dependency>
+      <dependency dep="myoblasts" dep_index="12" gov="release" gov_index="8">prep_in</dependency>
+      <dependency dep="role" dep_index="14" gov="transduction" gov_index="2">dep</dependency>
+      <dependency dep="Ca2+" dep_index="16" gov="role" gov_index="14">prep_of</dependency>
+      <dependency dep="the" dep_index="18" gov="activation" gov_index="21">det</dependency>
+      <dependency dep="protein kinase C" dep_index="19" gov="activation" gov_index="21">amod</dependency>
+      <dependency dep="-dependent" dep_index="20" gov="activation" gov_index="21">amod</dependency>
+      <dependency dep="activation" dep_index="21" gov="transduction" gov_index="2">dep</dependency>
+      <dependency dep="activation" dep_index="21" gov="role" gov_index="14">conj_and</dependency>
+      <dependency dep="p42" dep_index="23" gov="kinase" gov_index="26">amod</dependency>
+      <dependency dep="mitogen-activated" dep_index="24" gov="kinase" gov_index="26">amod</dependency>
+      <dependency dep="protein" dep_index="25" gov="kinase" gov_index="26">nn</dependency>
+      <dependency dep="kinase" dep_index="26" gov="activation" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400019" relationship="true">4 8 2 21 19</relation>
+   </relations>
+   <pairs>
+      <pair>400019</pair>
+   </pairs>
+</root>

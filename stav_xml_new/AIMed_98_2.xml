@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@cdc25@phosphatases@play@key@roles@in@cell@cycle@progression@by@activating@cyclin-dependent@kinases@.@</sentence>
+   <tags>
+      <tag pos="2">cdc25</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">cdc25</taggedword>
+      <taggedword index="3" part-of-speech="NNS">phosphatases</taggedword>
+      <taggedword index="4" part-of-speech="VBP">play</taggedword>
+      <taggedword index="5" part-of-speech="JJ">key</taggedword>
+      <taggedword index="6" part-of-speech="NNS">roles</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="NN">cell</taggedword>
+      <taggedword index="9" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="10" part-of-speech="NN">progression</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="VBG">activating</taggedword>
+      <taggedword index="13" part-of-speech="JJ">cyclin-dependent</taggedword>
+      <taggedword index="14" part-of-speech="NNS">kinases</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="phosphatases" gov_index="3">det</dependency>
+      <dependency dep="cdc25" dep_index="2" gov="phosphatases" gov_index="3">amod</dependency>
+      <dependency dep="phosphatases" dep_index="3" gov="play" gov_index="4">nsubj</dependency>
+      <dependency dep="play" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="key" dep_index="5" gov="roles" gov_index="6">amod</dependency>
+      <dependency dep="roles" dep_index="6" gov="play" gov_index="4">dobj</dependency>
+      <dependency dep="cell" dep_index="8" gov="progression" gov_index="10">nn</dependency>
+      <dependency dep="cycle" dep_index="9" gov="progression" gov_index="10">nn</dependency>
+      <dependency dep="progression" dep_index="10" gov="roles" gov_index="6">prep_in</dependency>
+      <dependency dep="activating" dep_index="12" gov="play" gov_index="4">prepc_by</dependency>
+      <dependency dep="cyclin-dependent" dep_index="13" gov="kinases" gov_index="14">amod</dependency>
+      <dependency dep="kinases" dep_index="14" gov="activating" gov_index="12">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

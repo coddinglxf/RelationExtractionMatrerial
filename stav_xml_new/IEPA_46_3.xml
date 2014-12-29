@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>It@is@possible@that@this@phospholipase C@stimulation@by@amyloid@beta@protein@is@a@receptor-mediated@process@</sentence>
+   <tags>
+      <tag pos="6">phospholipase C</tag>
+      <tag pos="9">amyloid</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">It</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="JJ">possible</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">this</taggedword>
+      <taggedword index="6" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="7" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="JJ">amyloid</taggedword>
+      <taggedword index="10" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="11" part-of-speech="NN">protein</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="JJ">receptor-mediated</taggedword>
+      <taggedword index="15" part-of-speech="NN">process</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="It" dep_index="1" gov="possible" gov_index="3">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="possible" gov_index="3">cop</dependency>
+      <dependency dep="possible" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="process" gov_index="15">mark</dependency>
+      <dependency dep="this" dep_index="5" gov="stimulation" gov_index="7">det</dependency>
+      <dependency dep="phospholipase C" dep_index="6" gov="stimulation" gov_index="7">amod</dependency>
+      <dependency dep="stimulation" dep_index="7" gov="process" gov_index="15">nsubj</dependency>
+      <dependency dep="amyloid" dep_index="9" gov="protein" gov_index="11">amod</dependency>
+      <dependency dep="beta" dep_index="10" gov="protein" gov_index="11">amod</dependency>
+      <dependency dep="protein" dep_index="11" gov="stimulation" gov_index="7">prep_by</dependency>
+      <dependency dep="is" dep_index="12" gov="process" gov_index="15">cop</dependency>
+      <dependency dep="a" dep_index="13" gov="process" gov_index="15">det</dependency>
+      <dependency dep="receptor-mediated" dep_index="14" gov="process" gov_index="15">amod</dependency>
+      <dependency dep="process" dep_index="15" gov="possible" gov_index="3">ccomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600009" relationship="true">6 7 11 9</relation>
+   </relations>
+   <pairs>
+      <pair>600009</pair>
+   </pairs>
+</root>

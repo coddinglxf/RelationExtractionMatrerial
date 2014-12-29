@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Mutations@that@alter@putative@RNA-binding@residues@of@either@HSH49@RRM@are@lethal@in@vivo@,@but@do@not@prevent@binding@to@CUS1@in@vitro@,@suggesting@that@the@predicted@RNA-binding@surfaces@of@HSH49@are@not@required@for@interaction@with@CUS1@.@</sentence>
+   <tags>
+      <tag pos="40">CUS1</tag>
+      <tag pos="33">HSH49</tag>
+      <tag pos="22">CUS1</tag>
+      <tag pos="9">HSH49</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Mutations</taggedword>
+      <taggedword index="2" part-of-speech="WDT">that</taggedword>
+      <taggedword index="3" part-of-speech="VBP">alter</taggedword>
+      <taggedword index="4" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="5" part-of-speech="JJ">RNA-binding</taggedword>
+      <taggedword index="6" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">either</taggedword>
+      <taggedword index="9" part-of-speech="NNP">HSH49</taggedword>
+      <taggedword index="10" part-of-speech="NNP">RRM</taggedword>
+      <taggedword index="11" part-of-speech="VBP">are</taggedword>
+      <taggedword index="12" part-of-speech="JJ">lethal</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">but</taggedword>
+      <taggedword index="17" part-of-speech="VBP">do</taggedword>
+      <taggedword index="18" part-of-speech="RB">not</taggedword>
+      <taggedword index="19" part-of-speech="VB">prevent</taggedword>
+      <taggedword index="20" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="NNP">CUS1</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="VBG">suggesting</taggedword>
+      <taggedword index="27" part-of-speech="IN">that</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">predicted</taggedword>
+      <taggedword index="30" part-of-speech="JJ">RNA-binding</taggedword>
+      <taggedword index="31" part-of-speech="NNS">surfaces</taggedword>
+      <taggedword index="32" part-of-speech="IN">of</taggedword>
+      <taggedword index="33" part-of-speech="NNP">HSH49</taggedword>
+      <taggedword index="34" part-of-speech="VBP">are</taggedword>
+      <taggedword index="35" part-of-speech="RB">not</taggedword>
+      <taggedword index="36" part-of-speech="VBN">required</taggedword>
+      <taggedword index="37" part-of-speech="IN">for</taggedword>
+      <taggedword index="38" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="39" part-of-speech="IN">with</taggedword>
+      <taggedword index="40" part-of-speech="NNP">CUS1</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Mutations" dep_index="1" gov="alter" gov_index="3">nsubj</dependency>
+      <dependency dep="Mutations" dep_index="1" gov="lethal" gov_index="12">nsubj</dependency>
+      <dependency dep="Mutations" dep_index="1" gov="prevent" gov_index="19">nsubj</dependency>
+      <dependency dep="alter" dep_index="3" gov="Mutations" gov_index="1">rcmod</dependency>
+      <dependency dep="putative" dep_index="4" gov="residues" gov_index="6">amod</dependency>
+      <dependency dep="RNA-binding" dep_index="5" gov="residues" gov_index="6">amod</dependency>
+      <dependency dep="residues" dep_index="6" gov="alter" gov_index="3">dobj</dependency>
+      <dependency dep="either" dep_index="8" gov="RRM" gov_index="10">det</dependency>
+      <dependency dep="HSH49" dep_index="9" gov="RRM" gov_index="10">nn</dependency>
+      <dependency dep="RRM" dep_index="10" gov="residues" gov_index="6">prep_of</dependency>
+      <dependency dep="are" dep_index="11" gov="lethal" gov_index="12">cop</dependency>
+      <dependency dep="lethal" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="vivo" dep_index="14" gov="lethal" gov_index="12">prep_in</dependency>
+      <dependency dep="do" dep_index="17" gov="prevent" gov_index="19">aux</dependency>
+      <dependency dep="not" dep_index="18" gov="prevent" gov_index="19">neg</dependency>
+      <dependency dep="prevent" dep_index="19" gov="lethal" gov_index="12">conj_but</dependency>
+      <dependency dep="binding" dep_index="20" gov="prevent" gov_index="19">acomp</dependency>
+      <dependency dep="CUS1" dep_index="22" gov="binding" gov_index="20">prep_to</dependency>
+      <dependency dep="vitro" dep_index="24" gov="prevent" gov_index="19">prep_in</dependency>
+      <dependency dep="suggesting" dep_index="26" gov="prevent" gov_index="19">xcomp</dependency>
+      <dependency dep="that" dep_index="27" gov="required" gov_index="36">mark</dependency>
+      <dependency dep="the" dep_index="28" gov="surfaces" gov_index="31">det</dependency>
+      <dependency dep="predicted" dep_index="29" gov="surfaces" gov_index="31">amod</dependency>
+      <dependency dep="RNA-binding" dep_index="30" gov="surfaces" gov_index="31">amod</dependency>
+      <dependency dep="surfaces" dep_index="31" gov="required" gov_index="36">nsubjpass</dependency>
+      <dependency dep="HSH49" dep_index="33" gov="surfaces" gov_index="31">prep_of</dependency>
+      <dependency dep="are" dep_index="34" gov="required" gov_index="36">auxpass</dependency>
+      <dependency dep="not" dep_index="35" gov="required" gov_index="36">neg</dependency>
+      <dependency dep="required" dep_index="36" gov="suggesting" gov_index="26">ccomp</dependency>
+      <dependency dep="interaction" dep_index="38" gov="required" gov_index="36">prep_for</dependency>
+      <dependency dep="CUS1" dep_index="40" gov="required" gov_index="36">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3300040" relationship="true">33 31 36 40</relation>
+      <relation position="2200040" relationship="false">22 20 19 26 36 40</relation>
+      <relation position="900040" relationship="false">9 10 6 3 1 19 26 36 40</relation>
+      <relation position="2200033" relationship="false">22 20 19 26 36 31 33</relation>
+      <relation position="900033" relationship="false">9 10 6 3 1 19 26 36 31 33</relation>
+      <relation position="900022" relationship="true">9 10 6 3 1 19 20 22</relation>
+   </relations>
+   <pairs>
+      <pair>3300040</pair>
+      <pair>900022</pair>
+   </pairs>
+</root>

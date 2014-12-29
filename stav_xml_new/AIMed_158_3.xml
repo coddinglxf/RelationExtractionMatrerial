@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@,@we@show@that@TRADD@interacts@strongly@with@RIP@,@another@death@domain@protein@that@was@shown@previously@to@associate@with@Fas@antigen@.@</sentence>
+   <tags>
+      <tag pos="6">TRADD</tag>
+      <tag pos="10">RIP</tag>
+      <tag pos="23">Fas</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">we</taggedword>
+      <taggedword index="4" part-of-speech="VBP">show</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="NNP">TRADD</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="8" part-of-speech="RB">strongly</taggedword>
+      <taggedword index="9" part-of-speech="IN">with</taggedword>
+      <taggedword index="10" part-of-speech="NNP">RIP</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="DT">another</taggedword>
+      <taggedword index="13" part-of-speech="NN">death</taggedword>
+      <taggedword index="14" part-of-speech="NN">domain</taggedword>
+      <taggedword index="15" part-of-speech="NN">protein</taggedword>
+      <taggedword index="16" part-of-speech="WDT">that</taggedword>
+      <taggedword index="17" part-of-speech="VBD">was</taggedword>
+      <taggedword index="18" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="19" part-of-speech="RB">previously</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="NN">associate</taggedword>
+      <taggedword index="22" part-of-speech="IN">with</taggedword>
+      <taggedword index="23" part-of-speech="NNP">Fas</taggedword>
+      <taggedword index="24" part-of-speech="NN">antigen</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="show" gov_index="4">advmod</dependency>
+      <dependency dep="we" dep_index="3" gov="show" gov_index="4">nsubj</dependency>
+      <dependency dep="show" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="interacts" gov_index="7">mark</dependency>
+      <dependency dep="TRADD" dep_index="6" gov="interacts" gov_index="7">nsubj</dependency>
+      <dependency dep="interacts" dep_index="7" gov="show" gov_index="4">ccomp</dependency>
+      <dependency dep="strongly" dep_index="8" gov="interacts" gov_index="7">advmod</dependency>
+      <dependency dep="RIP" dep_index="10" gov="interacts" gov_index="7">prep_with</dependency>
+      <dependency dep="another" dep_index="12" gov="protein" gov_index="15">det</dependency>
+      <dependency dep="death" dep_index="13" gov="protein" gov_index="15">nn</dependency>
+      <dependency dep="domain" dep_index="14" gov="protein" gov_index="15">nn</dependency>
+      <dependency dep="protein" dep_index="15" gov="RIP" gov_index="10">appos</dependency>
+      <dependency dep="protein" dep_index="15" gov="shown" gov_index="18">nsubjpass</dependency>
+      <dependency dep="was" dep_index="17" gov="shown" gov_index="18">auxpass</dependency>
+      <dependency dep="shown" dep_index="18" gov="protein" gov_index="15">rcmod</dependency>
+      <dependency dep="previously" dep_index="19" gov="shown" gov_index="18">advmod</dependency>
+      <dependency dep="associate" dep_index="21" gov="shown" gov_index="18">prep_to</dependency>
+      <dependency dep="Fas" dep_index="23" gov="antigen" gov_index="24">nn</dependency>
+      <dependency dep="antigen" dep_index="24" gov="shown" gov_index="18">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="true">6 7 10</relation>
+      <relation position="600023" relationship="false">6 7 10 15 18 24 23</relation>
+      <relation position="1000023" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>600010</pair>
+      <pair>1000023</pair>
+   </pairs>
+</root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Smooth muscle@and@myosin@heavy@chain@expression@in@the@vascular@smooth@muscle@cells@surrounding@human@endometrial@arterioles@.@</sentence>
+   <tags>
+      <tag pos="1">Smooth muscle</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VB">Smooth muscle</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="VB">myosin</taggedword>
+      <taggedword index="4" part-of-speech="JJ">heavy</taggedword>
+      <taggedword index="5" part-of-speech="NN">chain</taggedword>
+      <taggedword index="6" part-of-speech="NN">expression</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">vascular</taggedword>
+      <taggedword index="10" part-of-speech="JJ">smooth</taggedword>
+      <taggedword index="11" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="13" part-of-speech="VBG">surrounding</taggedword>
+      <taggedword index="14" part-of-speech="JJ">human</taggedword>
+      <taggedword index="15" part-of-speech="JJ">endometrial</taggedword>
+      <taggedword index="16" part-of-speech="NNS">arterioles</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Smooth muscle" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="myosin" dep_index="3" gov="Smooth muscle" gov_index="1">conj_and</dependency>
+      <dependency dep="heavy" dep_index="4" gov="expression" gov_index="6">amod</dependency>
+      <dependency dep="chain" dep_index="5" gov="expression" gov_index="6">nn</dependency>
+      <dependency dep="expression" dep_index="6" gov="myosin" gov_index="3">dobj</dependency>
+      <dependency dep="the" dep_index="8" gov="cells" gov_index="12">det</dependency>
+      <dependency dep="vascular" dep_index="9" gov="cells" gov_index="12">amod</dependency>
+      <dependency dep="smooth" dep_index="10" gov="cells" gov_index="12">amod</dependency>
+      <dependency dep="muscle" dep_index="11" gov="cells" gov_index="12">nn</dependency>
+      <dependency dep="cells" dep_index="12" gov="myosin" gov_index="3">prep_in</dependency>
+      <dependency dep="surrounding" dep_index="13" gov="cells" gov_index="12">partmod</dependency>
+      <dependency dep="human" dep_index="14" gov="arterioles" gov_index="16">amod</dependency>
+      <dependency dep="endometrial" dep_index="15" gov="arterioles" gov_index="16">amod</dependency>
+      <dependency dep="arterioles" dep_index="16" gov="surrounding" gov_index="13">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

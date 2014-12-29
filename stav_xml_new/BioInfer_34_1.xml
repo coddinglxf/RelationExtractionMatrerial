@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>AIMS@:@To@investigate@the@disturbance@of@intercellular@adhesion@in@adenoid@cystic@carcinoma@(ACC)@,@we@examined@the@ultrastructural@localization@of@E-cadherin@(@E-cad@),@alpha-catenin@(@alpha-cat@)@and@beta-catenin@(@beta-cat@)@in@ACC@,@and@compared@it@with@that@in@the@normal@labial@gland@.@</sentence>
+   <tags>
+      <tag pos="22">E-cadherin</tag>
+      <tag pos="31">beta-catenin</tag>
+      <tag pos="26">alpha-catenin</tag>
+      <tag pos="33">beta-cat</tag>
+      <tag pos="28">alpha-cat</tag>
+      <tag pos="24">E-cad</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">AIMS</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="TO">To</taggedword>
+      <taggedword index="4" part-of-speech="VB">investigate</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">disturbance</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">intercellular</taggedword>
+      <taggedword index="9" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="JJ">adenoid</taggedword>
+      <taggedword index="12" part-of-speech="JJ">cystic</taggedword>
+      <taggedword index="13" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="14" part-of-speech="NNS">(ACC)</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="PRP">we</taggedword>
+      <taggedword index="17" part-of-speech="VBD">examined</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">ultrastructural</taggedword>
+      <taggedword index="20" part-of-speech="NN">localization</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="23" part-of-speech="NNP">(</taggedword>
+      <taggedword index="24" part-of-speech="JJ">E-cad</taggedword>
+      <taggedword index="25" part-of-speech="JJ">),</taggedword>
+      <taggedword index="26" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="27" part-of-speech="JJ">(</taggedword>
+      <taggedword index="28" part-of-speech="NN">alpha-cat</taggedword>
+      <taggedword index="29" part-of-speech="NNS">)</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="32" part-of-speech="JJ">(</taggedword>
+      <taggedword index="33" part-of-speech="JJ">beta-cat</taggedword>
+      <taggedword index="34" part-of-speech="NNS">)</taggedword>
+      <taggedword index="35" part-of-speech="IN">in</taggedword>
+      <taggedword index="36" part-of-speech="NNP">ACC</taggedword>
+      <taggedword index="37" part-of-speech=",">,</taggedword>
+      <taggedword index="38" part-of-speech="CC">and</taggedword>
+      <taggedword index="39" part-of-speech="VBD">compared</taggedword>
+      <taggedword index="40" part-of-speech="PRP">it</taggedword>
+      <taggedword index="41" part-of-speech="IN">with</taggedword>
+      <taggedword index="42" part-of-speech="DT">that</taggedword>
+      <taggedword index="43" part-of-speech="IN">in</taggedword>
+      <taggedword index="44" part-of-speech="DT">the</taggedword>
+      <taggedword index="45" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="46" part-of-speech="JJ">labial</taggedword>
+      <taggedword index="47" part-of-speech="NN">gland</taggedword>
+      <taggedword index="48" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="AIMS" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="To" dep_index="3" gov="investigate" gov_index="4">aux</dependency>
+      <dependency dep="investigate" dep_index="4" gov="examined" gov_index="17">advcl</dependency>
+      <dependency dep="the" dep_index="5" gov="disturbance" gov_index="6">det</dependency>
+      <dependency dep="disturbance" dep_index="6" gov="investigate" gov_index="4">dobj</dependency>
+      <dependency dep="intercellular" dep_index="8" gov="adhesion" gov_index="9">nn</dependency>
+      <dependency dep="adhesion" dep_index="9" gov="disturbance" gov_index="6">prep_of</dependency>
+      <dependency dep="adenoid" dep_index="11" gov="(ACC)" gov_index="14">amod</dependency>
+      <dependency dep="cystic" dep_index="12" gov="(ACC)" gov_index="14">amod</dependency>
+      <dependency dep="carcinoma" dep_index="13" gov="(ACC)" gov_index="14">nn</dependency>
+      <dependency dep="(ACC)" dep_index="14" gov="investigate" gov_index="4">prep_in</dependency>
+      <dependency dep="we" dep_index="16" gov="examined" gov_index="17">nsubj</dependency>
+      <dependency dep="we" dep_index="16" gov="compared" gov_index="39">nsubj</dependency>
+      <dependency dep="examined" dep_index="17" gov="AIMS" gov_index="1">dep</dependency>
+      <dependency dep="the" dep_index="18" gov="localization" gov_index="20">det</dependency>
+      <dependency dep="ultrastructural" dep_index="19" gov="localization" gov_index="20">amod</dependency>
+      <dependency dep="localization" dep_index="20" gov="examined" gov_index="17">dobj</dependency>
+      <dependency dep="E-cadherin" dep_index="22" gov=")" gov_index="29">nn</dependency>
+      <dependency dep="(" dep_index="23" gov=")" gov_index="29">nn</dependency>
+      <dependency dep="E-cad" dep_index="24" gov=")," gov_index="25">amod</dependency>
+      <dependency dep=")," dep_index="25" gov=")" gov_index="29">amod</dependency>
+      <dependency dep="alpha-catenin" dep_index="26" gov=")" gov_index="29">amod</dependency>
+      <dependency dep="(" dep_index="27" gov=")" gov_index="29">amod</dependency>
+      <dependency dep="alpha-cat" dep_index="28" gov=")" gov_index="29">nn</dependency>
+      <dependency dep=")" dep_index="29" gov="localization" gov_index="20">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="31" gov=")" gov_index="34">amod</dependency>
+      <dependency dep="(" dep_index="32" gov=")" gov_index="34">amod</dependency>
+      <dependency dep="beta-cat" dep_index="33" gov=")" gov_index="34">amod</dependency>
+      <dependency dep=")" dep_index="34" gov="localization" gov_index="20">prep_of</dependency>
+      <dependency dep=")" dep_index="34" gov=")" gov_index="29">conj_and</dependency>
+      <dependency dep="ACC" dep_index="36" gov=")" gov_index="34">prep_in</dependency>
+      <dependency dep="compared" dep_index="39" gov="AIMS" gov_index="1">dep</dependency>
+      <dependency dep="compared" dep_index="39" gov="examined" gov_index="17">conj_and</dependency>
+      <dependency dep="it" dep_index="40" gov="compared" gov_index="39">dobj</dependency>
+      <dependency dep="that" dep_index="42" gov="compared" gov_index="39">prep_with</dependency>
+      <dependency dep="the" dep_index="44" gov="gland" gov_index="47">det</dependency>
+      <dependency dep="normal" dep_index="45" gov="gland" gov_index="47">amod</dependency>
+      <dependency dep="labial" dep_index="46" gov="gland" gov_index="47">amod</dependency>
+      <dependency dep="gland" dep_index="47" gov="that" gov_index="42">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2200031" relationship="false">22 29 20 34 31</relation>
+      <relation position="2200026" relationship="false">22 29 26</relation>
+      <relation position="2200033" relationship="false">22 29 20 34 33</relation>
+      <relation position="2200028" relationship="false">22 29 28</relation>
+      <relation position="2200024" relationship="false">22 29 25 24</relation>
+      <relation position="2600031" relationship="false">26 29 20 34 31</relation>
+      <relation position="3100033" relationship="false">31 34 33</relation>
+      <relation position="2800031" relationship="false">28 29 20 34 31</relation>
+      <relation position="2400031" relationship="false">24 25 29 20 34 31</relation>
+      <relation position="2600033" relationship="false">26 29 20 34 33</relation>
+      <relation position="2600028" relationship="false">26 29 28</relation>
+      <relation position="2400026" relationship="false">24 25 29 26</relation>
+      <relation position="2800033" relationship="false">28 29 20 34 33</relation>
+      <relation position="2400033" relationship="false">24 25 29 20 34 33</relation>
+      <relation position="2400028" relationship="false">24 25 29 28</relation>
+   </relations>
+   <pairs/>
+</root>

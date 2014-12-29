@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@specificity@of@intehraction@between@G alpha i2@and@nucleobindin@was@confirmed@by@an@in@vitro@binding@assay@using@recombinant@proteins@.@</sentence>
+   <tags>
+      <tag pos="6">G alpha i2</tag>
+      <tag pos="8">nucleobindin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">specificity</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">intehraction</taggedword>
+      <taggedword index="5" part-of-speech="IN">between</taggedword>
+      <taggedword index="6" part-of-speech="NNS">G alpha i2</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">nucleobindin</taggedword>
+      <taggedword index="9" part-of-speech="VBD">was</taggedword>
+      <taggedword index="10" part-of-speech="VBN">confirmed</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="DT">an</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="15" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="16" part-of-speech="NN">assay</taggedword>
+      <taggedword index="17" part-of-speech="VBG">using</taggedword>
+      <taggedword index="18" part-of-speech="JJ">recombinant</taggedword>
+      <taggedword index="19" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="specificity" gov_index="2">det</dependency>
+      <dependency dep="specificity" dep_index="2" gov="confirmed" gov_index="10">nsubjpass</dependency>
+      <dependency dep="intehraction" dep_index="4" gov="specificity" gov_index="2">prep_of</dependency>
+      <dependency dep="G alpha i2" dep_index="6" gov="intehraction" gov_index="4">prep_between</dependency>
+      <dependency dep="nucleobindin" dep_index="8" gov="intehraction" gov_index="4">prep_between</dependency>
+      <dependency dep="nucleobindin" dep_index="8" gov="G alpha i2" gov_index="6">conj_and</dependency>
+      <dependency dep="was" dep_index="9" gov="confirmed" gov_index="10">auxpass</dependency>
+      <dependency dep="confirmed" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="12" gov="assay" gov_index="16">det</dependency>
+      <dependency dep="in" dep_index="13" gov="vitro" gov_index="14">dep</dependency>
+      <dependency dep="vitro" dep_index="14" gov="assay" gov_index="16">amod</dependency>
+      <dependency dep="binding" dep_index="15" gov="assay" gov_index="16">amod</dependency>
+      <dependency dep="assay" dep_index="16" gov="confirmed" gov_index="10">agent</dependency>
+      <dependency dep="using" dep_index="17" gov="assay" gov_index="16">partmod</dependency>
+      <dependency dep="recombinant" dep_index="18" gov="proteins" gov_index="19">amod</dependency>
+      <dependency dep="proteins" dep_index="19" gov="using" gov_index="17">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="true">6 4 8</relation>
+   </relations>
+   <pairs>
+      <pair>600008</pair>
+   </pairs>
+</root>

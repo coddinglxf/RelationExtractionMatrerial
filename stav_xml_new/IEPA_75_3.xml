@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>At@zeitgeber@time@zero@,@mean@numbers@of@AVP@-@and@protein kinase Calpha@-@immunoreactive@neurons@were@2194@and@9897@,@respectively@</sentence>
+   <tags>
+      <tag pos="9">AVP</tag>
+      <tag pos="12">protein kinase Calpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">At</taggedword>
+      <taggedword index="2" part-of-speech="NN">zeitgeber</taggedword>
+      <taggedword index="3" part-of-speech="NN">time</taggedword>
+      <taggedword index="4" part-of-speech="CD">zero</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="VB">mean</taggedword>
+      <taggedword index="7" part-of-speech="NNS">numbers</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">AVP</taggedword>
+      <taggedword index="10" part-of-speech=":">-</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">protein kinase Calpha</taggedword>
+      <taggedword index="13" part-of-speech=":">-</taggedword>
+      <taggedword index="14" part-of-speech="JJ">immunoreactive</taggedword>
+      <taggedword index="15" part-of-speech="NNS">neurons</taggedword>
+      <taggedword index="16" part-of-speech="VBD">were</taggedword>
+      <taggedword index="17" part-of-speech="CD">2194</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="CD">9897</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="RB">respectively</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="zeitgeber" dep_index="2" gov="time" gov_index="3">nn</dependency>
+      <dependency dep="time" dep_index="3" gov="mean" gov_index="6">prep_at</dependency>
+      <dependency dep="zero" dep_index="4" gov="time" gov_index="3">num</dependency>
+      <dependency dep="mean" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="numbers" dep_index="7" gov="mean" gov_index="6">dobj</dependency>
+      <dependency dep="AVP" dep_index="9" gov="numbers" gov_index="7">prep_of</dependency>
+      <dependency dep="protein kinase Calpha" dep_index="12" gov="numbers" gov_index="7">prep_of</dependency>
+      <dependency dep="protein kinase Calpha" dep_index="12" gov="AVP" gov_index="9">conj_and</dependency>
+      <dependency dep="immunoreactive" dep_index="14" gov="neurons" gov_index="15">amod</dependency>
+      <dependency dep="neurons" dep_index="15" gov="2194" gov_index="17">nsubj</dependency>
+      <dependency dep="were" dep_index="16" gov="2194" gov_index="17">cop</dependency>
+      <dependency dep="2194" dep_index="17" gov="numbers" gov_index="7">dep</dependency>
+      <dependency dep="9897" dep_index="19" gov="numbers" gov_index="7">dep</dependency>
+      <dependency dep="9897" dep_index="19" gov="2194" gov_index="17">conj_and</dependency>
+      <dependency dep="respectively" dep_index="21" gov="2194" gov_index="17">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900012" relationship="false">9 7 12</relation>
+   </relations>
+   <pairs/>
+</root>

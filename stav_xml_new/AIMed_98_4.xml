@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Genes@encoding@the@human@homolog@of@the@14-3-3@epsilon@protein@and@the@previously@described@14-3-3@beta@protein@have@been@isolated@in@this@screening@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Genes</taggedword>
+      <taggedword index="2" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">human</taggedword>
+      <taggedword index="5" part-of-speech="NN">homolog</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="CD">14-3-3</taggedword>
+      <taggedword index="9" part-of-speech="NN">epsilon</taggedword>
+      <taggedword index="10" part-of-speech="NN">protein</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="RB">previously</taggedword>
+      <taggedword index="14" part-of-speech="JJ">described</taggedword>
+      <taggedword index="15" part-of-speech="JJ">14-3-3</taggedword>
+      <taggedword index="16" part-of-speech="NN">beta</taggedword>
+      <taggedword index="17" part-of-speech="NN">protein</taggedword>
+      <taggedword index="18" part-of-speech="VBP">have</taggedword>
+      <taggedword index="19" part-of-speech="VBN">been</taggedword>
+      <taggedword index="20" part-of-speech="VBN">isolated</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="DT">this</taggedword>
+      <taggedword index="23" part-of-speech="NN">screening</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Genes" dep_index="1" gov="isolated" gov_index="20">nsubjpass</dependency>
+      <dependency dep="encoding" dep_index="2" gov="Genes" gov_index="1">partmod</dependency>
+      <dependency dep="the" dep_index="3" gov="homolog" gov_index="5">det</dependency>
+      <dependency dep="human" dep_index="4" gov="homolog" gov_index="5">amod</dependency>
+      <dependency dep="homolog" dep_index="5" gov="encoding" gov_index="2">dobj</dependency>
+      <dependency dep="the" dep_index="7" gov="protein" gov_index="10">det</dependency>
+      <dependency dep="14-3-3" dep_index="8" gov="protein" gov_index="10">num</dependency>
+      <dependency dep="epsilon" dep_index="9" gov="protein" gov_index="10">nn</dependency>
+      <dependency dep="protein" dep_index="10" gov="homolog" gov_index="5">prep_of</dependency>
+      <dependency dep="the" dep_index="12" gov="protein" gov_index="17">det</dependency>
+      <dependency dep="previously" dep_index="13" gov="described" gov_index="14">advmod</dependency>
+      <dependency dep="described" dep_index="14" gov="protein" gov_index="17">amod</dependency>
+      <dependency dep="14-3-3" dep_index="15" gov="protein" gov_index="17">amod</dependency>
+      <dependency dep="beta" dep_index="16" gov="protein" gov_index="17">nn</dependency>
+      <dependency dep="protein" dep_index="17" gov="encoding" gov_index="2">dobj</dependency>
+      <dependency dep="protein" dep_index="17" gov="homolog" gov_index="5">conj_and</dependency>
+      <dependency dep="have" dep_index="18" gov="isolated" gov_index="20">aux</dependency>
+      <dependency dep="been" dep_index="19" gov="isolated" gov_index="20">auxpass</dependency>
+      <dependency dep="isolated" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="this" dep_index="22" gov="screening" gov_index="23">det</dependency>
+      <dependency dep="screening" dep_index="23" gov="isolated" gov_index="20">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

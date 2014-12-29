@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@aimed@at@studying@the@effects@of@leptin@,@CART@and@NPY@on@the@hypothalamic@control@of@the@pituitary-gonadal@system@.@</sentence>
+   <tags>
+      <tag pos="8">leptin</tag>
+      <tag pos="12">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBN">aimed</taggedword>
+      <taggedword index="3" part-of-speech="IN">at</taggedword>
+      <taggedword index="4" part-of-speech="VBG">studying</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNP">leptin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NNP">CART</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="13" part-of-speech="IN">on</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">hypothalamic</taggedword>
+      <taggedword index="16" part-of-speech="NN">control</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">pituitary-gonadal</taggedword>
+      <taggedword index="20" part-of-speech="NN">system</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="aimed" gov_index="2">nsubj</dependency>
+      <dependency dep="aimed" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="studying" dep_index="4" gov="aimed" gov_index="2">prepc_at</dependency>
+      <dependency dep="the" dep_index="5" gov="effects" gov_index="6">det</dependency>
+      <dependency dep="effects" dep_index="6" gov="studying" gov_index="4">dobj</dependency>
+      <dependency dep="leptin" dep_index="8" gov="effects" gov_index="6">prep_of</dependency>
+      <dependency dep="CART" dep_index="10" gov="effects" gov_index="6">prep_of</dependency>
+      <dependency dep="CART" dep_index="10" gov="leptin" gov_index="8">conj_and</dependency>
+      <dependency dep="NPY" dep_index="12" gov="effects" gov_index="6">prep_of</dependency>
+      <dependency dep="NPY" dep_index="12" gov="leptin" gov_index="8">conj_and</dependency>
+      <dependency dep="the" dep_index="14" gov="control" gov_index="16">det</dependency>
+      <dependency dep="hypothalamic" dep_index="15" gov="control" gov_index="16">amod</dependency>
+      <dependency dep="control" dep_index="16" gov="studying" gov_index="4">prep_on</dependency>
+      <dependency dep="the" dep_index="18" gov="system" gov_index="20">det</dependency>
+      <dependency dep="pituitary-gonadal" dep_index="19" gov="system" gov_index="20">amod</dependency>
+      <dependency dep="system" dep_index="20" gov="control" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800012" relationship="false">8 6 12</relation>
+   </relations>
+   <pairs/>
+</root>

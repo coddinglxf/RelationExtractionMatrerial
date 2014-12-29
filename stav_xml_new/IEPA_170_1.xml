@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Influence@of@obesity@and@menopausal@status@on@serum@leptin@,@cholecystokinin@,@galanin@and@neuropeptide Y@levels@</sentence>
+   <tags>
+      <tag pos="9">leptin</tag>
+      <tag pos="15">neuropeptide Y</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Influence</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">obesity</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="JJ">menopausal</taggedword>
+      <taggedword index="6" part-of-speech="NN">status</taggedword>
+      <taggedword index="7" part-of-speech="IN">on</taggedword>
+      <taggedword index="8" part-of-speech="JJ">serum</taggedword>
+      <taggedword index="9" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">cholecystokinin</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">galanin</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">neuropeptide Y</taggedword>
+      <taggedword index="16" part-of-speech="NNS">levels</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Influence" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="obesity" dep_index="3" gov="status" gov_index="6">amod</dependency>
+      <dependency dep="menopausal" dep_index="5" gov="obesity" gov_index="3">conj_and</dependency>
+      <dependency dep="menopausal" dep_index="5" gov="status" gov_index="6">amod</dependency>
+      <dependency dep="status" dep_index="6" gov="Influence" gov_index="1">prep_of</dependency>
+      <dependency dep="serum" dep_index="8" gov="levels" gov_index="16">amod</dependency>
+      <dependency dep="leptin" dep_index="9" gov="levels" gov_index="16">nn</dependency>
+      <dependency dep="cholecystokinin" dep_index="11" gov="leptin" gov_index="9">conj_and</dependency>
+      <dependency dep="cholecystokinin" dep_index="11" gov="levels" gov_index="16">nn</dependency>
+      <dependency dep="galanin" dep_index="13" gov="leptin" gov_index="9">conj_and</dependency>
+      <dependency dep="galanin" dep_index="13" gov="levels" gov_index="16">nn</dependency>
+      <dependency dep="neuropeptide Y" dep_index="15" gov="leptin" gov_index="9">conj_and</dependency>
+      <dependency dep="neuropeptide Y" dep_index="15" gov="levels" gov_index="16">nn</dependency>
+      <dependency dep="levels" dep_index="16" gov="Influence" gov_index="1">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900015" relationship="false">9 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

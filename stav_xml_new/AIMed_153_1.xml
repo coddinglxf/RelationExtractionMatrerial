@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Characterization@of@adenosine deaminase@binding@to@human@CD26@on@T@cells@and@its@biologic@role@in@immune@response@.@</sentence>
+   <tags>
+      <tag pos="3">adenosine deaminase</tag>
+      <tag pos="7">CD26</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Characterization</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">adenosine deaminase</taggedword>
+      <taggedword index="4" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="JJ">human</taggedword>
+      <taggedword index="7" part-of-speech="NN">CD26</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="NNP">T</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="13" part-of-speech="JJ">biologic</taggedword>
+      <taggedword index="14" part-of-speech="NN">role</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="JJ">immune</taggedword>
+      <taggedword index="17" part-of-speech="NN">response</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Characterization" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="adenosine deaminase" dep_index="3" gov="cells" gov_index="10">amod</dependency>
+      <dependency dep="binding" dep_index="4" gov="cells" gov_index="10">amod</dependency>
+      <dependency dep="human" dep_index="6" gov="CD26" gov_index="7">amod</dependency>
+      <dependency dep="CD26" dep_index="7" gov="binding" gov_index="4">prep_to</dependency>
+      <dependency dep="T" dep_index="9" gov="CD26" gov_index="7">prep_on</dependency>
+      <dependency dep="cells" dep_index="10" gov="Characterization" gov_index="1">prep_of</dependency>
+      <dependency dep="its" dep_index="12" gov="role" gov_index="14">poss</dependency>
+      <dependency dep="biologic" dep_index="13" gov="role" gov_index="14">amod</dependency>
+      <dependency dep="role" dep_index="14" gov="Characterization" gov_index="1">prep_of</dependency>
+      <dependency dep="role" dep_index="14" gov="cells" gov_index="10">conj_and</dependency>
+      <dependency dep="immune" dep_index="16" gov="response" gov_index="17">amod</dependency>
+      <dependency dep="response" dep_index="17" gov="role" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300007" relationship="true">3 10 4 7</relation>
+   </relations>
+   <pairs>
+      <pair>300007</pair>
+   </pairs>
+</root>

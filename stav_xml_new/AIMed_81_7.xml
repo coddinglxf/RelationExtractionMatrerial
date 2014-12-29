@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Taken@together@,@these@properties@indicate@that@RIP@is@a@novel@form@of@apoptosis-inducing@protein@.@</sentence>
+   <tags>
+      <tag pos="8">RIP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Taken</taggedword>
+      <taggedword index="2" part-of-speech="RB">together</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">these</taggedword>
+      <taggedword index="5" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="6" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="NNP">RIP</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="NN">novel</taggedword>
+      <taggedword index="12" part-of-speech="NN">form</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">apoptosis-inducing</taggedword>
+      <taggedword index="15" part-of-speech="NN">protein</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Taken" dep_index="1" gov="indicate" gov_index="6">partmod</dependency>
+      <dependency dep="together" dep_index="2" gov="Taken" gov_index="1">advmod</dependency>
+      <dependency dep="these" dep_index="4" gov="properties" gov_index="5">det</dependency>
+      <dependency dep="properties" dep_index="5" gov="indicate" gov_index="6">nsubj</dependency>
+      <dependency dep="indicate" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="form" gov_index="12">mark</dependency>
+      <dependency dep="RIP" dep_index="8" gov="form" gov_index="12">nsubj</dependency>
+      <dependency dep="is" dep_index="9" gov="form" gov_index="12">cop</dependency>
+      <dependency dep="a" dep_index="10" gov="form" gov_index="12">det</dependency>
+      <dependency dep="novel" dep_index="11" gov="form" gov_index="12">nn</dependency>
+      <dependency dep="form" dep_index="12" gov="indicate" gov_index="6">ccomp</dependency>
+      <dependency dep="apoptosis-inducing" dep_index="14" gov="protein" gov_index="15">amod</dependency>
+      <dependency dep="protein" dep_index="15" gov="form" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

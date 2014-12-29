@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Mutational@analysis@of@p60@indicates@that@the@N@terminus@is@required@for@hsp70@binding@,@and@a@central@region@containing@tetratricopeptide@repeat@motifs@is@necessary@for@binding@hsp90@and@hsp70@.@</sentence>
+   <tags>
+      <tag pos="4">p60</tag>
+      <tag pos="13">hsp70</tag>
+      <tag pos="28">hsp90</tag>
+      <tag pos="30">hsp70</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Mutational</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">p60</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">indicates</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">N</taggedword>
+      <taggedword index="9" part-of-speech="NNS">terminus</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">required</taggedword>
+      <taggedword index="12" part-of-speech="IN">for</taggedword>
+      <taggedword index="13" part-of-speech="JJ">hsp70</taggedword>
+      <taggedword index="14" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">central</taggedword>
+      <taggedword index="19" part-of-speech="NN">region</taggedword>
+      <taggedword index="20" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="21" part-of-speech="JJ">tetratricopeptide</taggedword>
+      <taggedword index="22" part-of-speech="NN">repeat</taggedword>
+      <taggedword index="23" part-of-speech="NNS">motifs</taggedword>
+      <taggedword index="24" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="25" part-of-speech="JJ">necessary</taggedword>
+      <taggedword index="26" part-of-speech="IN">for</taggedword>
+      <taggedword index="27" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="28" part-of-speech="NNS">hsp90</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="NNS">hsp70</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Mutational" dep_index="1" gov="analysis" gov_index="2">amod</dependency>
+      <dependency dep="analysis" dep_index="2" gov="indicates" gov_index="5">nsubj</dependency>
+      <dependency dep="p60" dep_index="4" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="indicates" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="required" gov_index="11">mark</dependency>
+      <dependency dep="the" dep_index="7" gov="terminus" gov_index="9">det</dependency>
+      <dependency dep="N" dep_index="8" gov="terminus" gov_index="9">nn</dependency>
+      <dependency dep="terminus" dep_index="9" gov="required" gov_index="11">nsubjpass</dependency>
+      <dependency dep="is" dep_index="10" gov="required" gov_index="11">auxpass</dependency>
+      <dependency dep="required" dep_index="11" gov="indicates" gov_index="5">ccomp</dependency>
+      <dependency dep="hsp70" dep_index="13" gov="required" gov_index="11">prep_for</dependency>
+      <dependency dep="binding" dep_index="14" gov="hsp70" gov_index="13">amod</dependency>
+      <dependency dep="a" dep_index="17" gov="region" gov_index="19">det</dependency>
+      <dependency dep="central" dep_index="18" gov="region" gov_index="19">amod</dependency>
+      <dependency dep="region" dep_index="19" gov="necessary" gov_index="25">nsubj</dependency>
+      <dependency dep="containing" dep_index="20" gov="region" gov_index="19">partmod</dependency>
+      <dependency dep="tetratricopeptide" dep_index="21" gov="motifs" gov_index="23">amod</dependency>
+      <dependency dep="repeat" dep_index="22" gov="motifs" gov_index="23">nn</dependency>
+      <dependency dep="motifs" dep_index="23" gov="containing" gov_index="20">dobj</dependency>
+      <dependency dep="is" dep_index="24" gov="necessary" gov_index="25">cop</dependency>
+      <dependency dep="necessary" dep_index="25" gov="indicates" gov_index="5">conj_and</dependency>
+      <dependency dep="binding" dep_index="27" gov="hsp90" gov_index="28">amod</dependency>
+      <dependency dep="hsp90" dep_index="28" gov="necessary" gov_index="25">prep_for</dependency>
+      <dependency dep="hsp70" dep_index="30" gov="necessary" gov_index="25">prep_for</dependency>
+      <dependency dep="hsp70" dep_index="30" gov="hsp90" gov_index="28">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400013" relationship="true">4 2 5 11 13</relation>
+      <relation position="400028" relationship="true"></relation>
+      <relation position="400030" relationship="true"></relation>
+      <relation position="1300028" relationship="false"></relation>
+      <relation position="1300030" relationship="false"></relation>
+      <relation position="2800030" relationship="false">28 25 30</relation>
+   </relations>
+   <pairs>
+      <pair>400030</pair>
+      <pair>400028</pair>
+      <pair>400013</pair>
+   </pairs>
+</root>

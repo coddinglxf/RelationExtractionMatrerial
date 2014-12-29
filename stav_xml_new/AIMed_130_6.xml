@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@expressed@human@protein@inhibited@both@native@and@bacterially@expressed@PP1@,@with@the@same@Ki@(1@nM)@as@inhibitor 2@purified@from@skeletal@muscle@.@</sentence>
+   <tags>
+      <tag pos="20">inhibitor 2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">expressed</taggedword>
+      <taggedword index="3" part-of-speech="JJ">human</taggedword>
+      <taggedword index="4" part-of-speech="NN">protein</taggedword>
+      <taggedword index="5" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="6" part-of-speech="DT">both</taggedword>
+      <taggedword index="7" part-of-speech="NN">native</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="RB">bacterially</taggedword>
+      <taggedword index="10" part-of-speech="VBD">expressed</taggedword>
+      <taggedword index="11" part-of-speech="NNP">PP1</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">same</taggedword>
+      <taggedword index="16" part-of-speech="NNP">Ki</taggedword>
+      <taggedword index="17" part-of-speech="CD">(1</taggedword>
+      <taggedword index="18" part-of-speech="NN">nM)</taggedword>
+      <taggedword index="19" part-of-speech="IN">as</taggedword>
+      <taggedword index="20" part-of-speech="NNS">inhibitor 2</taggedword>
+      <taggedword index="21" part-of-speech="VBN">purified</taggedword>
+      <taggedword index="22" part-of-speech="IN">from</taggedword>
+      <taggedword index="23" part-of-speech="JJ">skeletal</taggedword>
+      <taggedword index="24" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="protein" gov_index="4">det</dependency>
+      <dependency dep="expressed" dep_index="2" gov="protein" gov_index="4">amod</dependency>
+      <dependency dep="human" dep_index="3" gov="protein" gov_index="4">amod</dependency>
+      <dependency dep="protein" dep_index="4" gov="inhibited" gov_index="5">nsubj</dependency>
+      <dependency dep="protein" dep_index="4" gov="expressed" gov_index="10">nsubj</dependency>
+      <dependency dep="inhibited" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="both" dep_index="6" gov="native" gov_index="7">det</dependency>
+      <dependency dep="native" dep_index="7" gov="inhibited" gov_index="5">dobj</dependency>
+      <dependency dep="bacterially" dep_index="9" gov="expressed" gov_index="10">advmod</dependency>
+      <dependency dep="expressed" dep_index="10" gov="inhibited" gov_index="5">conj_and</dependency>
+      <dependency dep="PP1" dep_index="11" gov="expressed" gov_index="10">dobj</dependency>
+      <dependency dep="the" dep_index="14" gov="nM)" gov_index="18">det</dependency>
+      <dependency dep="same" dep_index="15" gov="nM)" gov_index="18">amod</dependency>
+      <dependency dep="Ki" dep_index="16" gov="nM)" gov_index="18">nn</dependency>
+      <dependency dep="(1" dep_index="17" gov="nM)" gov_index="18">num</dependency>
+      <dependency dep="nM)" dep_index="18" gov="inhibited" gov_index="5">prep_with</dependency>
+      <dependency dep="inhibitor 2" dep_index="20" gov="nM)" gov_index="18">prep_as</dependency>
+      <dependency dep="purified" dep_index="21" gov="inhibitor 2" gov_index="20">partmod</dependency>
+      <dependency dep="skeletal" dep_index="23" gov="muscle" gov_index="24">amod</dependency>
+      <dependency dep="muscle" dep_index="24" gov="purified" gov_index="21">prep_from</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

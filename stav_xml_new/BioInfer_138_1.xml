@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Characterization@of@MLH1@and@MSH2@DNA@mismatch@repair@proteins@in@cell@lines@of@the@NCI@anticancer@drug@screen@.@</sentence>
+   <tags>
+      <tag pos="5">MSH2</tag>
+      <tag pos="3">MLH1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Characterization</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">MLH1</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="NNP">MSH2</taggedword>
+      <taggedword index="6" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="7" part-of-speech="NN">mismatch</taggedword>
+      <taggedword index="8" part-of-speech="NN">repair</taggedword>
+      <taggedword index="9" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">cell</taggedword>
+      <taggedword index="12" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNP">NCI</taggedword>
+      <taggedword index="16" part-of-speech="JJ">anticancer</taggedword>
+      <taggedword index="17" part-of-speech="NN">drug</taggedword>
+      <taggedword index="18" part-of-speech="NN">screen</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Characterization" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="MLH1" dep_index="3" gov="proteins" gov_index="9">nn</dependency>
+      <dependency dep="MSH2" dep_index="5" gov="MLH1" gov_index="3">conj_and</dependency>
+      <dependency dep="MSH2" dep_index="5" gov="proteins" gov_index="9">nn</dependency>
+      <dependency dep="DNA" dep_index="6" gov="proteins" gov_index="9">nn</dependency>
+      <dependency dep="mismatch" dep_index="7" gov="proteins" gov_index="9">nn</dependency>
+      <dependency dep="repair" dep_index="8" gov="proteins" gov_index="9">nn</dependency>
+      <dependency dep="proteins" dep_index="9" gov="Characterization" gov_index="1">prep_of</dependency>
+      <dependency dep="cell" dep_index="11" gov="lines" gov_index="12">nn</dependency>
+      <dependency dep="lines" dep_index="12" gov="Characterization" gov_index="1">prep_in</dependency>
+      <dependency dep="the" dep_index="14" gov="screen" gov_index="18">det</dependency>
+      <dependency dep="NCI" dep_index="15" gov="screen" gov_index="18">nn</dependency>
+      <dependency dep="anticancer" dep_index="16" gov="screen" gov_index="18">amod</dependency>
+      <dependency dep="drug" dep_index="17" gov="screen" gov_index="18">nn</dependency>
+      <dependency dep="screen" dep_index="18" gov="Characterization" gov_index="1">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="false">3 9 5</relation>
+   </relations>
+   <pairs/>
+</root>

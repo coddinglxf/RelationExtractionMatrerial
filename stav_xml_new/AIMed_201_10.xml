@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@indicated@that@HBx@is@a@novel@virus@modulator@that@facilitates@transcriptional@initiation@by@stabilizing@the@association@between@RNA@polymerase@and@TFIIB@through@communication@with@RPB5@and@TFIIB@.@</sentence>
+   <tags>
+      <tag pos="5">HBx</tag>
+      <tag pos="23">TFIIB</tag>
+      <tag pos="27">RPB5</tag>
+      <tag pos="29">TFIIB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBD">indicated</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">HBx</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="NN">novel</taggedword>
+      <taggedword index="9" part-of-speech="NN">virus</taggedword>
+      <taggedword index="10" part-of-speech="NN">modulator</taggedword>
+      <taggedword index="11" part-of-speech="WDT">that</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">facilitates</taggedword>
+      <taggedword index="13" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="14" part-of-speech="NN">initiation</taggedword>
+      <taggedword index="15" part-of-speech="IN">by</taggedword>
+      <taggedword index="16" part-of-speech="VBG">stabilizing</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">association</taggedword>
+      <taggedword index="19" part-of-speech="IN">between</taggedword>
+      <taggedword index="20" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="21" part-of-speech="NNP">polymerase</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NNP">TFIIB</taggedword>
+      <taggedword index="24" part-of-speech="IN">through</taggedword>
+      <taggedword index="25" part-of-speech="NN">communication</taggedword>
+      <taggedword index="26" part-of-speech="IN">with</taggedword>
+      <taggedword index="27" part-of-speech="NNP">RPB5</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="NNP">TFIIB</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="indicated" gov_index="3">nsubj</dependency>
+      <dependency dep="indicated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="modulator" gov_index="10">mark</dependency>
+      <dependency dep="HBx" dep_index="5" gov="modulator" gov_index="10">nsubj</dependency>
+      <dependency dep="is" dep_index="6" gov="modulator" gov_index="10">cop</dependency>
+      <dependency dep="a" dep_index="7" gov="modulator" gov_index="10">det</dependency>
+      <dependency dep="novel" dep_index="8" gov="modulator" gov_index="10">nn</dependency>
+      <dependency dep="virus" dep_index="9" gov="modulator" gov_index="10">nn</dependency>
+      <dependency dep="modulator" dep_index="10" gov="indicated" gov_index="3">ccomp</dependency>
+      <dependency dep="modulator" dep_index="10" gov="facilitates" gov_index="12">nsubj</dependency>
+      <dependency dep="facilitates" dep_index="12" gov="modulator" gov_index="10">rcmod</dependency>
+      <dependency dep="transcriptional" dep_index="13" gov="initiation" gov_index="14">amod</dependency>
+      <dependency dep="initiation" dep_index="14" gov="facilitates" gov_index="12">dobj</dependency>
+      <dependency dep="stabilizing" dep_index="16" gov="facilitates" gov_index="12">prepc_by</dependency>
+      <dependency dep="the" dep_index="17" gov="association" gov_index="18">det</dependency>
+      <dependency dep="association" dep_index="18" gov="stabilizing" gov_index="16">dobj</dependency>
+      <dependency dep="RNA" dep_index="20" gov="polymerase" gov_index="21">nn</dependency>
+      <dependency dep="polymerase" dep_index="21" gov="association" gov_index="18">prep_between</dependency>
+      <dependency dep="TFIIB" dep_index="23" gov="association" gov_index="18">prep_between</dependency>
+      <dependency dep="TFIIB" dep_index="23" gov="polymerase" gov_index="21">conj_and</dependency>
+      <dependency dep="communication" dep_index="25" gov="stabilizing" gov_index="16">prep_through</dependency>
+      <dependency dep="RPB5" dep_index="27" gov="stabilizing" gov_index="16">prep_with</dependency>
+      <dependency dep="TFIIB" dep_index="29" gov="stabilizing" gov_index="16">prep_with</dependency>
+      <dependency dep="TFIIB" dep_index="29" gov="RPB5" gov_index="27">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500023" relationship="false">5 10 12 16 18 23</relation>
+      <relation position="500027" relationship="false">5 10 12 16 27</relation>
+      <relation position="500029" relationship="false">5 10 12 16 29</relation>
+      <relation position="2300027" relationship="false">23 18 16 27</relation>
+      <relation position="2300029" relationship="false">23 18 16 29</relation>
+      <relation position="2700029" relationship="false">27 16 29</relation>
+   </relations>
+   <pairs/>
+</root>

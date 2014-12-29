@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@indicate@that@OT@induces@endometrial@IP3@production@in@a@rapid@manner@indicative@of@a@second-messenger@system@</sentence>
+   <tags>
+      <tag pos="5">OT</tag>
+      <tag pos="8">IP3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">induces</taggedword>
+      <taggedword index="7" part-of-speech="JJ">endometrial</taggedword>
+      <taggedword index="8" part-of-speech="NN">IP3</taggedword>
+      <taggedword index="9" part-of-speech="NN">production</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="13" part-of-speech="NN">manner</taggedword>
+      <taggedword index="14" part-of-speech="NN">indicative</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="JJ">second-messenger</taggedword>
+      <taggedword index="18" part-of-speech="NN">system</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="induces" gov_index="6">mark</dependency>
+      <dependency dep="OT" dep_index="5" gov="induces" gov_index="6">nsubj</dependency>
+      <dependency dep="induces" dep_index="6" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="endometrial" dep_index="7" gov="production" gov_index="9">amod</dependency>
+      <dependency dep="IP3" dep_index="8" gov="production" gov_index="9">nn</dependency>
+      <dependency dep="production" dep_index="9" gov="induces" gov_index="6">dobj</dependency>
+      <dependency dep="a" dep_index="11" gov="indicative" gov_index="14">det</dependency>
+      <dependency dep="rapid" dep_index="12" gov="indicative" gov_index="14">amod</dependency>
+      <dependency dep="manner" dep_index="13" gov="indicative" gov_index="14">nn</dependency>
+      <dependency dep="indicative" dep_index="14" gov="production" gov_index="9">prep_in</dependency>
+      <dependency dep="a" dep_index="16" gov="system" gov_index="18">det</dependency>
+      <dependency dep="second-messenger" dep_index="17" gov="system" gov_index="18">amod</dependency>
+      <dependency dep="system" dep_index="18" gov="indicative" gov_index="14">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500008" relationship="true">5 6 9 8</relation>
+   </relations>
+   <pairs>
+      <pair>500008</pair>
+   </pairs>
+</root>

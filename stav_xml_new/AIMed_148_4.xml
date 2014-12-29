@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>However@,@the@specific@enzymatic@activities@and@,@hence@,@the@precise@biochemical@mechanisms@through@which@cyclins@function@to@govern@cell@cycle@progression@remain@unresolved@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">However</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="5" part-of-speech="JJ">enzymatic</taggedword>
+      <taggedword index="6" part-of-speech="NNS">activities</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="RB">hence</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">precise</taggedword>
+      <taggedword index="13" part-of-speech="JJ">biochemical</taggedword>
+      <taggedword index="14" part-of-speech="NNS">mechanisms</taggedword>
+      <taggedword index="15" part-of-speech="IN">through</taggedword>
+      <taggedword index="16" part-of-speech="WDT">which</taggedword>
+      <taggedword index="17" part-of-speech="NNS">cyclins</taggedword>
+      <taggedword index="18" part-of-speech="VBP">function</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="VB">govern</taggedword>
+      <taggedword index="21" part-of-speech="NN">cell</taggedword>
+      <taggedword index="22" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="23" part-of-speech="NN">progression</taggedword>
+      <taggedword index="24" part-of-speech="VBP">remain</taggedword>
+      <taggedword index="25" part-of-speech="JJ">unresolved</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="However" dep_index="1" gov="unresolved" gov_index="25">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="activities" gov_index="6">det</dependency>
+      <dependency dep="specific" dep_index="4" gov="activities" gov_index="6">amod</dependency>
+      <dependency dep="enzymatic" dep_index="5" gov="activities" gov_index="6">amod</dependency>
+      <dependency dep="activities" dep_index="6" gov="unresolved" gov_index="25">nsubj</dependency>
+      <dependency dep="and" dep_index="7" gov="activities" gov_index="6">cc</dependency>
+      <dependency dep="hence" dep_index="9" gov="unresolved" gov_index="25">advmod</dependency>
+      <dependency dep="the" dep_index="11" gov="mechanisms" gov_index="14">det</dependency>
+      <dependency dep="precise" dep_index="12" gov="mechanisms" gov_index="14">amod</dependency>
+      <dependency dep="biochemical" dep_index="13" gov="mechanisms" gov_index="14">amod</dependency>
+      <dependency dep="mechanisms" dep_index="14" gov="function" gov_index="18">prep_through</dependency>
+      <dependency dep="mechanisms" dep_index="14" gov="unresolved" gov_index="25">nsubj</dependency>
+      <dependency dep="cyclins" dep_index="17" gov="function" gov_index="18">nsubj</dependency>
+      <dependency dep="cyclins" dep_index="17" gov="govern" gov_index="20">xsubj</dependency>
+      <dependency dep="function" dep_index="18" gov="mechanisms" gov_index="14">rcmod</dependency>
+      <dependency dep="to" dep_index="19" gov="govern" gov_index="20">aux</dependency>
+      <dependency dep="govern" dep_index="20" gov="function" gov_index="18">xcomp</dependency>
+      <dependency dep="cell" dep_index="21" gov="progression" gov_index="23">nn</dependency>
+      <dependency dep="cycle" dep_index="22" gov="progression" gov_index="23">nn</dependency>
+      <dependency dep="progression" dep_index="23" gov="govern" gov_index="20">dobj</dependency>
+      <dependency dep="remain" dep_index="24" gov="unresolved" gov_index="25">cop</dependency>
+      <dependency dep="unresolved" dep_index="25" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

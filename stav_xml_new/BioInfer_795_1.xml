@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>WASp@contains@a@binding@motif@for@the@Rho GTPase@CDC42Hs@as@well@as@verprolin@/@cofilin@-like@actin@-regulatory@domains@,@but@no@specific@actin@structure@regulated@by@CDC42Hs@-@WASp@has@been@identified@.@</sentence>
+   <tags>
+      <tag pos="13">verprolin</tag>
+      <tag pos="15">cofilin</tag>
+      <tag pos="9">CDC42Hs</tag>
+      <tag pos="1">WASp</tag>
+      <tag pos="28">CDC42Hs</tag>
+      <tag pos="30">WASp</tag>
+      <tag pos="17">actin</tag>
+      <tag pos="24">actin</tag>
+      <tag pos="8">Rho GTPase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">WASp</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">contains</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="5" part-of-speech="NN">motif</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Rho GTPase</taggedword>
+      <taggedword index="9" part-of-speech="NNP">CDC42Hs</taggedword>
+      <taggedword index="10" part-of-speech="RB">as</taggedword>
+      <taggedword index="11" part-of-speech="RB">well</taggedword>
+      <taggedword index="12" part-of-speech="IN">as</taggedword>
+      <taggedword index="13" part-of-speech="JJ">verprolin</taggedword>
+      <taggedword index="14" part-of-speech="JJ">/</taggedword>
+      <taggedword index="15" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="16" part-of-speech="JJ">-like</taggedword>
+      <taggedword index="17" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="18" part-of-speech="JJ">-regulatory</taggedword>
+      <taggedword index="19" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">but</taggedword>
+      <taggedword index="22" part-of-speech="DT">no</taggedword>
+      <taggedword index="23" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="24" part-of-speech="NN">actin</taggedword>
+      <taggedword index="25" part-of-speech="NN">structure</taggedword>
+      <taggedword index="26" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="NNS">CDC42Hs</taggedword>
+      <taggedword index="29" part-of-speech=":">-</taggedword>
+      <taggedword index="30" part-of-speech="NNP">WASp</taggedword>
+      <taggedword index="31" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="32" part-of-speech="VBN">been</taggedword>
+      <taggedword index="33" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="WASp" dep_index="1" gov="contains" gov_index="2">nsubj</dependency>
+      <dependency dep="contains" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="3" gov="motif" gov_index="5">det</dependency>
+      <dependency dep="binding" dep_index="4" gov="motif" gov_index="5">amod</dependency>
+      <dependency dep="motif" dep_index="5" gov="contains" gov_index="2">dobj</dependency>
+      <dependency dep="the" dep_index="7" gov="CDC42Hs" gov_index="9">det</dependency>
+      <dependency dep="Rho GTPase" dep_index="8" gov="CDC42Hs" gov_index="9">nn</dependency>
+      <dependency dep="CDC42Hs" dep_index="9" gov="motif" gov_index="5">prep_for</dependency>
+      <dependency dep="verprolin" dep_index="13" gov="cofilin" gov_index="15">amod</dependency>
+      <dependency dep="/" dep_index="14" gov="cofilin" gov_index="15">amod</dependency>
+      <dependency dep="cofilin" dep_index="15" gov="contains" gov_index="2">dobj</dependency>
+      <dependency dep="cofilin" dep_index="15" gov="motif" gov_index="5">conj_and</dependency>
+      <dependency dep="-like" dep_index="16" gov="domains" gov_index="19">amod</dependency>
+      <dependency dep="actin" dep_index="17" gov="domains" gov_index="19">amod</dependency>
+      <dependency dep="-regulatory" dep_index="18" gov="domains" gov_index="19">amod</dependency>
+      <dependency dep="domains" dep_index="19" gov="cofilin" gov_index="15">dep</dependency>
+      <dependency dep="no" dep_index="22" gov="structure" gov_index="25">det</dependency>
+      <dependency dep="specific" dep_index="23" gov="structure" gov_index="25">amod</dependency>
+      <dependency dep="actin" dep_index="24" gov="structure" gov_index="25">nn</dependency>
+      <dependency dep="structure" dep_index="25" gov="regulated" gov_index="26">nsubj</dependency>
+      <dependency dep="regulated" dep_index="26" gov="contains" gov_index="2">conj_but</dependency>
+      <dependency dep="CDC42Hs" dep_index="28" gov="regulated" gov_index="26">prep_by</dependency>
+      <dependency dep="WASp" dep_index="30" gov="identified" gov_index="33">nsubjpass</dependency>
+      <dependency dep="has" dep_index="31" gov="identified" gov_index="33">aux</dependency>
+      <dependency dep="been" dep_index="32" gov="identified" gov_index="33">auxpass</dependency>
+      <dependency dep="identified" dep_index="33" gov="contains" gov_index="2">parataxis</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="false"></relation>
+      <relation position="900013" relationship="false">9 5 2 15 13</relation>
+      <relation position="100013" relationship="true">1 2 15 13</relation>
+      <relation position="1300028" relationship="false">13 15 2 26 28</relation>
+      <relation position="1300030" relationship="false">13 15 2 33 30</relation>
+      <relation position="1300017" relationship="false">13 15 19 17</relation>
+      <relation position="1300024" relationship="false">13 15 2 26 25 24</relation>
+      <relation position="800013" relationship="false">8 9 5 2 15 13</relation>
+      <relation position="900015" relationship="false">9 5 2 15</relation>
+      <relation position="100015" relationship="true">1 2 15</relation>
+      <relation position="1500028" relationship="false">15 2 26 28</relation>
+      <relation position="1500030" relationship="false">15 2 33 30</relation>
+      <relation position="1500017" relationship="false"></relation>
+      <relation position="1500024" relationship="false">15 2 26 25 24</relation>
+      <relation position="800015" relationship="false">8 9 5 2 15</relation>
+      <relation position="100009" relationship="true">1 2 5 9</relation>
+      <relation position="900028" relationship="false">9 5 2 26 28</relation>
+      <relation position="900030" relationship="false">9 5 2 33 30</relation>
+      <relation position="900017" relationship="false">9 5 2 15 19 17</relation>
+      <relation position="900024" relationship="false">9 5 2 26 25 24</relation>
+      <relation position="800009" relationship="true"></relation>
+      <relation position="100028" relationship="false">1 2 26 28</relation>
+      <relation position="100030" relationship="false">1 2 33 30</relation>
+      <relation position="100017" relationship="true">1 2 15 19 17</relation>
+      <relation position="100024" relationship="false">1 2 26 25 24</relation>
+      <relation position="100008" relationship="false">1 2 5 9 8</relation>
+      <relation position="2800030" relationship="true">28 26 2 33 30</relation>
+      <relation position="1700028" relationship="false">17 19 15 2 26 28</relation>
+      <relation position="2400028" relationship="true">24 25 26 28</relation>
+      <relation position="800028" relationship="false">8 9 5 2 26 28</relation>
+      <relation position="1700030" relationship="false">17 19 15 2 33 30</relation>
+      <relation position="2400030" relationship="true">24 25 26 2 33 30</relation>
+      <relation position="800030" relationship="false">8 9 5 2 33 30</relation>
+      <relation position="1700024" relationship="false">17 19 15 2 26 25 24</relation>
+      <relation position="800017" relationship="false">8 9 5 2 15 19 17</relation>
+      <relation position="800024" relationship="false">8 9 5 2 26 25 24</relation>
+   </relations>
+   <pairs>
+      <pair>100015</pair>
+      <pair>2800030</pair>
+      <pair>100013</pair>
+      <pair>100009</pair>
+      <pair>2400028</pair>
+      <pair>2400030</pair>
+      <pair>800009</pair>
+      <pair>100017</pair>
+   </pairs>
+</root>

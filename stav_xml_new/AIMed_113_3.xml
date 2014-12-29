@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@BAG-1@protein@shares@no@significant@homology@with@Bcl-2@or@other@Bcl-2@family@proteins@,@which@can@form@homo-@and@heterodimers@.@</sentence>
+   <tags>
+      <tag pos="2">BAG-1</tag>
+      <tag pos="9">Bcl-2</tag>
+      <tag pos="12">Bcl-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">BAG-1</taggedword>
+      <taggedword index="3" part-of-speech="NN">protein</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">shares</taggedword>
+      <taggedword index="5" part-of-speech="DT">no</taggedword>
+      <taggedword index="6" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="7" part-of-speech="NN">homology</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NN">Bcl-2</taggedword>
+      <taggedword index="10" part-of-speech="CC">or</taggedword>
+      <taggedword index="11" part-of-speech="JJ">other</taggedword>
+      <taggedword index="12" part-of-speech="NN">Bcl-2</taggedword>
+      <taggedword index="13" part-of-speech="NN">family</taggedword>
+      <taggedword index="14" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="WDT">which</taggedword>
+      <taggedword index="17" part-of-speech="MD">can</taggedword>
+      <taggedword index="18" part-of-speech="VB">form</taggedword>
+      <taggedword index="19" part-of-speech="NNS">homo-</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NNS">heterodimers</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="protein" gov_index="3">det</dependency>
+      <dependency dep="BAG-1" dep_index="2" gov="protein" gov_index="3">nn</dependency>
+      <dependency dep="protein" dep_index="3" gov="shares" gov_index="4">nsubj</dependency>
+      <dependency dep="shares" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="no" dep_index="5" gov="homology" gov_index="7">det</dependency>
+      <dependency dep="significant" dep_index="6" gov="homology" gov_index="7">amod</dependency>
+      <dependency dep="homology" dep_index="7" gov="shares" gov_index="4">dobj</dependency>
+      <dependency dep="homology" dep_index="7" gov="form" gov_index="18">nsubj</dependency>
+      <dependency dep="Bcl-2" dep_index="9" gov="proteins" gov_index="14">nn</dependency>
+      <dependency dep="other" dep_index="11" gov="Bcl-2" gov_index="9">conj_or</dependency>
+      <dependency dep="other" dep_index="11" gov="proteins" gov_index="14">nn</dependency>
+      <dependency dep="Bcl-2" dep_index="12" gov="proteins" gov_index="14">nn</dependency>
+      <dependency dep="family" dep_index="13" gov="proteins" gov_index="14">nn</dependency>
+      <dependency dep="proteins" dep_index="14" gov="homology" gov_index="7">prep_with</dependency>
+      <dependency dep="can" dep_index="17" gov="form" gov_index="18">aux</dependency>
+      <dependency dep="form" dep_index="18" gov="homology" gov_index="7">rcmod</dependency>
+      <dependency dep="homo-" dep_index="19" gov="form" gov_index="18">dobj</dependency>
+      <dependency dep="heterodimers" dep_index="21" gov="form" gov_index="18">dobj</dependency>
+      <dependency dep="heterodimers" dep_index="21" gov="homo-" gov_index="19">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200009" relationship="false">2 3 4 7 14 9</relation>
+      <relation position="200012" relationship="false">2 3 4 7 14 12</relation>
+      <relation position="900012" relationship="false">9 14 12</relation>
+   </relations>
+   <pairs/>
+</root>

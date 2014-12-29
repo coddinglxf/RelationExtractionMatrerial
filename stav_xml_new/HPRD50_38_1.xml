@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Subsequent@amino@acid@sequencing@revealed@many@peptides@involving@involucrin@cross-linked@either@to@itself@or@to@a@variety@of@other@known@CE@protein@components@,@including@cystatin alpha@,@desmoplakin@,@elafin@,@keratins@,@members@of@the@small@proline-rich@superfamily@,@loricrin@,@and@unknown@proteins@related@to@the@desmoplakin@family@</sentence>
+   <tags>
+      <tag pos="9">involucrin</tag>
+      <tag pos="26">cystatin alpha</tag>
+      <tag pos="28">desmoplakin</tag>
+      <tag pos="30">elafin</tag>
+      <tag pos="41">loricrin</tag>
+      <tag pos="49">desmoplakin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Subsequent</taggedword>
+      <taggedword index="2" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="3" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="4" part-of-speech="NN">sequencing</taggedword>
+      <taggedword index="5" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="6" part-of-speech="JJ">many</taggedword>
+      <taggedword index="7" part-of-speech="NNS">peptides</taggedword>
+      <taggedword index="8" part-of-speech="VBG">involving</taggedword>
+      <taggedword index="9" part-of-speech="NN">involucrin</taggedword>
+      <taggedword index="10" part-of-speech="NN">cross-linked</taggedword>
+      <taggedword index="11" part-of-speech="DT">either</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="PRP">itself</taggedword>
+      <taggedword index="14" part-of-speech="CC">or</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="NN">variety</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">other</taggedword>
+      <taggedword index="20" part-of-speech="VBN">known</taggedword>
+      <taggedword index="21" part-of-speech="NNP">CE</taggedword>
+      <taggedword index="22" part-of-speech="NN">protein</taggedword>
+      <taggedword index="23" part-of-speech="NNS">components</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="VBG">including</taggedword>
+      <taggedword index="26" part-of-speech="NN">cystatin alpha</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NN">desmoplakin</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="NN">elafin</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="NNS">keratins</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="NNS">members</taggedword>
+      <taggedword index="35" part-of-speech="IN">of</taggedword>
+      <taggedword index="36" part-of-speech="DT">the</taggedword>
+      <taggedword index="37" part-of-speech="JJ">small</taggedword>
+      <taggedword index="38" part-of-speech="JJ">proline-rich</taggedword>
+      <taggedword index="39" part-of-speech="NN">superfamily</taggedword>
+      <taggedword index="40" part-of-speech=",">,</taggedword>
+      <taggedword index="41" part-of-speech="NN">loricrin</taggedword>
+      <taggedword index="42" part-of-speech=",">,</taggedword>
+      <taggedword index="43" part-of-speech="CC">and</taggedword>
+      <taggedword index="44" part-of-speech="JJ">unknown</taggedword>
+      <taggedword index="45" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="46" part-of-speech="VBN">related</taggedword>
+      <taggedword index="47" part-of-speech="TO">to</taggedword>
+      <taggedword index="48" part-of-speech="DT">the</taggedword>
+      <taggedword index="49" part-of-speech="NN">desmoplakin</taggedword>
+      <taggedword index="50" part-of-speech="NN">family</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Subsequent" dep_index="1" gov="sequencing" gov_index="4">amod</dependency>
+      <dependency dep="amino" dep_index="2" gov="sequencing" gov_index="4">amod</dependency>
+      <dependency dep="acid" dep_index="3" gov="sequencing" gov_index="4">amod</dependency>
+      <dependency dep="sequencing" dep_index="4" gov="revealed" gov_index="5">nsubj</dependency>
+      <dependency dep="revealed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="many" dep_index="6" gov="peptides" gov_index="7">amod</dependency>
+      <dependency dep="peptides" dep_index="7" gov="revealed" gov_index="5">dobj</dependency>
+      <dependency dep="involucrin" dep_index="9" gov="cross-linked" gov_index="10">nn</dependency>
+      <dependency dep="cross-linked" dep_index="10" gov="peptides" gov_index="7">prep_involving</dependency>
+      <dependency dep="either" dep_index="11" gov="cross-linked" gov_index="10">preconj</dependency>
+      <dependency dep="itself" dep_index="13" gov="cross-linked" gov_index="10">prep_to</dependency>
+      <dependency dep="a" dep_index="16" gov="variety" gov_index="17">det</dependency>
+      <dependency dep="variety" dep_index="17" gov="cross-linked" gov_index="10">prep_to</dependency>
+      <dependency dep="variety" dep_index="17" gov="itself" gov_index="13">conj_or</dependency>
+      <dependency dep="other" dep_index="19" gov="components" gov_index="23">amod</dependency>
+      <dependency dep="known" dep_index="20" gov="components" gov_index="23">amod</dependency>
+      <dependency dep="CE" dep_index="21" gov="components" gov_index="23">nn</dependency>
+      <dependency dep="protein" dep_index="22" gov="components" gov_index="23">nn</dependency>
+      <dependency dep="components" dep_index="23" gov="variety" gov_index="17">prep_of</dependency>
+      <dependency dep="cystatin alpha" dep_index="26" gov="proteins" gov_index="45">nn</dependency>
+      <dependency dep="desmoplakin" dep_index="28" gov="cystatin alpha" gov_index="26">appos</dependency>
+      <dependency dep="elafin" dep_index="30" gov="cystatin alpha" gov_index="26">appos</dependency>
+      <dependency dep="keratins" dep_index="32" gov="cystatin alpha" gov_index="26">appos</dependency>
+      <dependency dep="members" dep_index="34" gov="cystatin alpha" gov_index="26">appos</dependency>
+      <dependency dep="the" dep_index="36" gov="superfamily" gov_index="39">det</dependency>
+      <dependency dep="small" dep_index="37" gov="superfamily" gov_index="39">amod</dependency>
+      <dependency dep="proline-rich" dep_index="38" gov="superfamily" gov_index="39">amod</dependency>
+      <dependency dep="superfamily" dep_index="39" gov="members" gov_index="34">prep_of</dependency>
+      <dependency dep="loricrin" dep_index="41" gov="cystatin alpha" gov_index="26">appos</dependency>
+      <dependency dep="unknown" dep_index="44" gov="cystatin alpha" gov_index="26">conj_and</dependency>
+      <dependency dep="unknown" dep_index="44" gov="proteins" gov_index="45">nn</dependency>
+      <dependency dep="proteins" dep_index="45" gov="revealed" gov_index="5">prep_including</dependency>
+      <dependency dep="related" dep_index="46" gov="proteins" gov_index="45">partmod</dependency>
+      <dependency dep="the" dep_index="48" gov="family" gov_index="50">det</dependency>
+      <dependency dep="desmoplakin" dep_index="49" gov="family" gov_index="50">nn</dependency>
+      <dependency dep="family" dep_index="50" gov="related" gov_index="46">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900026" relationship="true">9 10 7 5 45 26</relation>
+      <relation position="900028" relationship="true">9 10 7 5 45 26 28</relation>
+      <relation position="900030" relationship="true">9 10 7 5 45 26 30</relation>
+      <relation position="900041" relationship="true">9 10 7 5 45 26 41</relation>
+      <relation position="900049" relationship="true">9 10 7 5 45 46 50 49</relation>
+      <relation position="2600028" relationship="false"></relation>
+      <relation position="2600030" relationship="false"></relation>
+      <relation position="2600041" relationship="false"></relation>
+      <relation position="2600049" relationship="false">26 45 46 50 49</relation>
+      <relation position="2800030" relationship="false">28 26 30</relation>
+      <relation position="2800041" relationship="false">28 26 41</relation>
+      <relation position="2800049" relationship="false">28 26 45 46 50 49</relation>
+      <relation position="3000041" relationship="false">30 26 41</relation>
+      <relation position="3000049" relationship="false">30 26 45 46 50 49</relation>
+      <relation position="4100049" relationship="false">41 26 45 46 50 49</relation>
+   </relations>
+   <pairs>
+      <pair>900026</pair>
+      <pair>900041</pair>
+      <pair>900030</pair>
+      <pair>900028</pair>
+      <pair>900049</pair>
+   </pairs>
+</root>

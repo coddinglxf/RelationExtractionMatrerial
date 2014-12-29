@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@vitro@,@Cdi1@removes@phosphate@from@tyrosine@residues@in@model@substrates@,@but@a@mutant@protein@that@bears@a@lesion@in@the@putative@active@site@cysteine@does@not@.@</sentence>
+   <tags>
+      <tag pos="4">Cdi1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNS">Cdi1</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">removes</taggedword>
+      <taggedword index="6" part-of-speech="NN">phosphate</taggedword>
+      <taggedword index="7" part-of-speech="IN">from</taggedword>
+      <taggedword index="8" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="9" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">model</taggedword>
+      <taggedword index="12" part-of-speech="NNS">substrates</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CC">but</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="JJ">mutant</taggedword>
+      <taggedword index="17" part-of-speech="NN">protein</taggedword>
+      <taggedword index="18" part-of-speech="WDT">that</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">bears</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="NN">lesion</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="25" part-of-speech="JJ">active</taggedword>
+      <taggedword index="26" part-of-speech="NN">site</taggedword>
+      <taggedword index="27" part-of-speech="NN">cysteine</taggedword>
+      <taggedword index="28" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="29" part-of-speech="RB">not</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="vitro" dep_index="2" gov="removes" gov_index="5">prep_in</dependency>
+      <dependency dep="Cdi1" dep_index="4" gov="removes" gov_index="5">nsubj</dependency>
+      <dependency dep="removes" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="phosphate" dep_index="6" gov="removes" gov_index="5">dobj</dependency>
+      <dependency dep="tyrosine" dep_index="8" gov="residues" gov_index="9">amod</dependency>
+      <dependency dep="residues" dep_index="9" gov="removes" gov_index="5">prep_from</dependency>
+      <dependency dep="model" dep_index="11" gov="substrates" gov_index="12">nn</dependency>
+      <dependency dep="substrates" dep_index="12" gov="residues" gov_index="9">prep_in</dependency>
+      <dependency dep="a" dep_index="15" gov="protein" gov_index="17">det</dependency>
+      <dependency dep="mutant" dep_index="16" gov="protein" gov_index="17">amod</dependency>
+      <dependency dep="protein" dep_index="17" gov="bears" gov_index="19">nsubj</dependency>
+      <dependency dep="protein" dep_index="17" gov="does" gov_index="28">nsubj</dependency>
+      <dependency dep="bears" dep_index="19" gov="protein" gov_index="17">rcmod</dependency>
+      <dependency dep="a" dep_index="20" gov="lesion" gov_index="21">det</dependency>
+      <dependency dep="lesion" dep_index="21" gov="bears" gov_index="19">dobj</dependency>
+      <dependency dep="the" dep_index="23" gov="cysteine" gov_index="27">det</dependency>
+      <dependency dep="putative" dep_index="24" gov="cysteine" gov_index="27">amod</dependency>
+      <dependency dep="active" dep_index="25" gov="cysteine" gov_index="27">amod</dependency>
+      <dependency dep="site" dep_index="26" gov="cysteine" gov_index="27">nn</dependency>
+      <dependency dep="cysteine" dep_index="27" gov="lesion" gov_index="21">prep_in</dependency>
+      <dependency dep="does" dep_index="28" gov="removes" gov_index="5">conj_but</dependency>
+      <dependency dep="not" dep_index="29" gov="does" gov_index="28">neg</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

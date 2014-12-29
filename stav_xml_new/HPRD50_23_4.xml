@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@suggest@that@Plk1@phosphorylation@of@NudC@may@influence@cytokinesis@</sentence>
+   <tags>
+      <tag pos="5">Plk1</tag>
+      <tag pos="8">NudC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="JJ">Plk1</taggedword>
+      <taggedword index="6" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNP">NudC</taggedword>
+      <taggedword index="9" part-of-speech="MD">may</taggedword>
+      <taggedword index="10" part-of-speech="VB">influence</taggedword>
+      <taggedword index="11" part-of-speech="NNS">cytokinesis</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="influence" gov_index="10">mark</dependency>
+      <dependency dep="Plk1" dep_index="5" gov="phosphorylation" gov_index="6">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="6" gov="influence" gov_index="10">nsubj</dependency>
+      <dependency dep="NudC" dep_index="8" gov="phosphorylation" gov_index="6">prep_of</dependency>
+      <dependency dep="may" dep_index="9" gov="influence" gov_index="10">aux</dependency>
+      <dependency dep="influence" dep_index="10" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="cytokinesis" dep_index="11" gov="influence" gov_index="10">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500008" relationship="true">5 6 8</relation>
+   </relations>
+   <pairs>
+      <pair>500008</pair>
+   </pairs>
+</root>

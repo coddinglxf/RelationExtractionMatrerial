@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@structure@of@the@FGF1@-@FGFR2@-heparin@ternary@complex@provides@a@structural@basis@for@the@essential@role@of@heparan@sulphate@in@FGF@signalling@.@</sentence>
+   <tags>
+      <tag pos="5">FGF1</tag>
+      <tag pos="7">FGFR2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">FGF1</taggedword>
+      <taggedword index="6" part-of-speech=":">-</taggedword>
+      <taggedword index="7" part-of-speech="JJ">FGFR2</taggedword>
+      <taggedword index="8" part-of-speech="NN">-heparin</taggedword>
+      <taggedword index="9" part-of-speech="RB">ternary</taggedword>
+      <taggedword index="10" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">provides</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="14" part-of-speech="NN">basis</taggedword>
+      <taggedword index="15" part-of-speech="IN">for</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="18" part-of-speech="NN">role</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NN">heparan</taggedword>
+      <taggedword index="21" part-of-speech="NN">sulphate</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="NNP">FGF</taggedword>
+      <taggedword index="24" part-of-speech="NN">signalling</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="structure" gov_index="2">det</dependency>
+      <dependency dep="structure" dep_index="2" gov="provides" gov_index="11">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="FGF1" gov_index="5">det</dependency>
+      <dependency dep="FGF1" dep_index="5" gov="structure" gov_index="2">prep_of</dependency>
+      <dependency dep="FGFR2" dep_index="7" gov="-heparin" gov_index="8">amod</dependency>
+      <dependency dep="-heparin" dep_index="8" gov="FGF1" gov_index="5">dep</dependency>
+      <dependency dep="ternary" dep_index="9" gov="complex" gov_index="10">advmod</dependency>
+      <dependency dep="complex" dep_index="10" gov="-heparin" gov_index="8">amod</dependency>
+      <dependency dep="provides" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="12" gov="basis" gov_index="14">det</dependency>
+      <dependency dep="structural" dep_index="13" gov="basis" gov_index="14">amod</dependency>
+      <dependency dep="basis" dep_index="14" gov="provides" gov_index="11">dobj</dependency>
+      <dependency dep="the" dep_index="16" gov="role" gov_index="18">det</dependency>
+      <dependency dep="essential" dep_index="17" gov="role" gov_index="18">amod</dependency>
+      <dependency dep="role" dep_index="18" gov="basis" gov_index="14">prep_for</dependency>
+      <dependency dep="heparan" dep_index="20" gov="sulphate" gov_index="21">nn</dependency>
+      <dependency dep="sulphate" dep_index="21" gov="role" gov_index="18">prep_of</dependency>
+      <dependency dep="FGF" dep_index="23" gov="signalling" gov_index="24">nn</dependency>
+      <dependency dep="signalling" dep_index="24" gov="sulphate" gov_index="21">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>500007</pair>
+   </pairs>
+</root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunoreactive@E-cadherin@,@alpha-catenin@,@beta-catenin@,@and@gamma-catenin@proteins@in@hepatocellular@carcinoma@:@relationships@with@tumor@grade@,@clinicopathologic@parameters@,@and@patients'@survival@.@</sentence>
+   <tags>
+      <tag pos="2">E-cadherin</tag>
+      <tag pos="6">beta-catenin</tag>
+      <tag pos="4">alpha-catenin</tag>
+      <tag pos="9">gamma-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Immunoreactive</taggedword>
+      <taggedword index="2" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">gamma-catenin</taggedword>
+      <taggedword index="10" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">hepatocellular</taggedword>
+      <taggedword index="13" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="14" part-of-speech=":">:</taggedword>
+      <taggedword index="15" part-of-speech="NNS">relationships</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="18" part-of-speech="NN">grade</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="JJ">clinicopathologic</taggedword>
+      <taggedword index="21" part-of-speech="NNS">parameters</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="JJ">patients'</taggedword>
+      <taggedword index="25" part-of-speech="NN">survival</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunoreactive" dep_index="1" gov="E-cadherin" gov_index="2">nn</dependency>
+      <dependency dep="E-cadherin" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="alpha-catenin" dep_index="4" gov="E-cadherin" gov_index="2">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="6" gov="E-cadherin" gov_index="2">conj_and</dependency>
+      <dependency dep="gamma-catenin" dep_index="9" gov="proteins" gov_index="10">amod</dependency>
+      <dependency dep="proteins" dep_index="10" gov="E-cadherin" gov_index="2">conj_and</dependency>
+      <dependency dep="hepatocellular" dep_index="12" gov="carcinoma" gov_index="13">nn</dependency>
+      <dependency dep="carcinoma" dep_index="13" gov="proteins" gov_index="10">prep_in</dependency>
+      <dependency dep="relationships" dep_index="15" gov="E-cadherin" gov_index="2">dep</dependency>
+      <dependency dep="tumor" dep_index="17" gov="grade" gov_index="18">nn</dependency>
+      <dependency dep="grade" dep_index="18" gov="relationships" gov_index="15">prep_with</dependency>
+      <dependency dep="clinicopathologic" dep_index="20" gov="parameters" gov_index="21">amod</dependency>
+      <dependency dep="parameters" dep_index="21" gov="relationships" gov_index="15">prep_with</dependency>
+      <dependency dep="parameters" dep_index="21" gov="grade" gov_index="18">conj_and</dependency>
+      <dependency dep="patients'" dep_index="24" gov="survival" gov_index="25">amod</dependency>
+      <dependency dep="survival" dep_index="25" gov="relationships" gov_index="15">prep_with</dependency>
+      <dependency dep="survival" dep_index="25" gov="grade" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200006" relationship="false"></relation>
+      <relation position="200004" relationship="false"></relation>
+      <relation position="200009" relationship="false"></relation>
+      <relation position="400006" relationship="false"></relation>
+      <relation position="600009" relationship="false"></relation>
+      <relation position="400009" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Acanthamoeba@profilin@has@similar@but@weaker@effects@on@muscle actin@,@requiring@5@to@10@times@more@profilin@than@with@amoeba@actin@.@</sentence>
+   <tags>
+      <tag pos="17">profilin</tag>
+      <tag pos="9">muscle actin</tag>
+      <tag pos="21">actin</tag>
+      <tag pos="2">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Acanthamoeba</taggedword>
+      <taggedword index="2" part-of-speech="NNP">profilin</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="4" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="5" part-of-speech="CC">but</taggedword>
+      <taggedword index="6" part-of-speech="JJR">weaker</taggedword>
+      <taggedword index="7" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="NN">muscle actin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="VBG">requiring</taggedword>
+      <taggedword index="12" part-of-speech="CD">5</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="CD">10</taggedword>
+      <taggedword index="15" part-of-speech="NNS">times</taggedword>
+      <taggedword index="16" part-of-speech="RBR">more</taggedword>
+      <taggedword index="17" part-of-speech="JJ">profilin</taggedword>
+      <taggedword index="18" part-of-speech="IN">than</taggedword>
+      <taggedword index="19" part-of-speech="IN">with</taggedword>
+      <taggedword index="20" part-of-speech="NN">amoeba</taggedword>
+      <taggedword index="21" part-of-speech="NN">actin</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Acanthamoeba" dep_index="1" gov="profilin" gov_index="2">nn</dependency>
+      <dependency dep="profilin" dep_index="2" gov="has" gov_index="3">nsubj</dependency>
+      <dependency dep="has" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="similar" dep_index="4" gov="effects" gov_index="7">amod</dependency>
+      <dependency dep="weaker" dep_index="6" gov="similar" gov_index="4">conj_but</dependency>
+      <dependency dep="weaker" dep_index="6" gov="effects" gov_index="7">amod</dependency>
+      <dependency dep="effects" dep_index="7" gov="has" gov_index="3">dobj</dependency>
+      <dependency dep="muscle actin" dep_index="9" gov="effects" gov_index="7">prep_on</dependency>
+      <dependency dep="requiring" dep_index="11" gov="effects" gov_index="7">partmod</dependency>
+      <dependency dep="5" dep_index="12" gov="times" gov_index="15">number</dependency>
+      <dependency dep="to" dep_index="13" gov="times" gov_index="15">dep</dependency>
+      <dependency dep="10" dep_index="14" gov="times" gov_index="15">number</dependency>
+      <dependency dep="times" dep_index="15" gov="profilin" gov_index="17">dep</dependency>
+      <dependency dep="more" dep_index="16" gov="profilin" gov_index="17">advmod</dependency>
+      <dependency dep="profilin" dep_index="17" gov="requiring" gov_index="11">acomp</dependency>
+      <dependency dep="than" dep_index="18" gov="profilin" gov_index="17">prep</dependency>
+      <dependency dep="with" dep_index="19" gov="than" gov_index="18">pcomp</dependency>
+      <dependency dep="amoeba" dep_index="20" gov="actin" gov_index="21">nn</dependency>
+      <dependency dep="actin" dep_index="21" gov="with" gov_index="19">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900017" relationship="false">9 7 11 17</relation>
+      <relation position="1700021" relationship="false"></relation>
+      <relation position="200017" relationship="false">2 3 7 11 17</relation>
+      <relation position="900021" relationship="false">9 7 11 17 18 19 21</relation>
+      <relation position="200009" relationship="true">2 3 7 9</relation>
+      <relation position="200021" relationship="false">2 3 7 11 17 18 19 21</relation>
+   </relations>
+   <pairs>
+      <pair>200009</pair>
+   </pairs>
+</root>

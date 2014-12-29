@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@proteins@each@have@a@verprolin@-homology@(V)@domain@,@cofilin@-homology@(C)@domain@and@an@acidic@(A)@region@at@the@C-terminus@,@through@which@they@activate@the@Arp@/3@complex@,@leading@to@rapid@actin@polymerization@.@</sentence>
+   <tags>
+      <tag pos="6">verprolin</tag>
+      <tag pos="36">actin</tag>
+      <tag pos="11">cofilin</tag>
+      <tag pos="29">Arp</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="3" part-of-speech="DT">each</taggedword>
+      <taggedword index="4" part-of-speech="VBP">have</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">verprolin</taggedword>
+      <taggedword index="7" part-of-speech="JJ">-homology</taggedword>
+      <taggedword index="8" part-of-speech="NN">(V)</taggedword>
+      <taggedword index="9" part-of-speech="NN">domain</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="JJ">cofilin</taggedword>
+      <taggedword index="12" part-of-speech="JJ">-homology</taggedword>
+      <taggedword index="13" part-of-speech="NN">(C)</taggedword>
+      <taggedword index="14" part-of-speech="NN">domain</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="DT">an</taggedword>
+      <taggedword index="17" part-of-speech="JJ">acidic</taggedword>
+      <taggedword index="18" part-of-speech="JJ">(A)</taggedword>
+      <taggedword index="19" part-of-speech="NN">region</taggedword>
+      <taggedword index="20" part-of-speech="IN">at</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NNP">C-terminus</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="IN">through</taggedword>
+      <taggedword index="25" part-of-speech="WDT">which</taggedword>
+      <taggedword index="26" part-of-speech="PRP">they</taggedword>
+      <taggedword index="27" part-of-speech="VBP">activate</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="NNP">Arp</taggedword>
+      <taggedword index="30" part-of-speech="CD">/3</taggedword>
+      <taggedword index="31" part-of-speech="NN">complex</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="VBG">leading</taggedword>
+      <taggedword index="34" part-of-speech="TO">to</taggedword>
+      <taggedword index="35" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="36" part-of-speech="NN">actin</taggedword>
+      <taggedword index="37" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="proteins" gov_index="2">det</dependency>
+      <dependency dep="proteins" dep_index="2" gov="have" gov_index="4">nsubj</dependency>
+      <dependency dep="each" dep_index="3" gov="have" gov_index="4">dep</dependency>
+      <dependency dep="have" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="domain" gov_index="9">det</dependency>
+      <dependency dep="verprolin" dep_index="6" gov="domain" gov_index="9">amod</dependency>
+      <dependency dep="-homology" dep_index="7" gov="domain" gov_index="9">amod</dependency>
+      <dependency dep="(V)" dep_index="8" gov="domain" gov_index="9">nn</dependency>
+      <dependency dep="domain" dep_index="9" gov="have" gov_index="4">dobj</dependency>
+      <dependency dep="cofilin" dep_index="11" gov="domain" gov_index="14">amod</dependency>
+      <dependency dep="-homology" dep_index="12" gov="domain" gov_index="14">amod</dependency>
+      <dependency dep="(C)" dep_index="13" gov="domain" gov_index="14">nn</dependency>
+      <dependency dep="domain" dep_index="14" gov="have" gov_index="4">dobj</dependency>
+      <dependency dep="domain" dep_index="14" gov="domain" gov_index="9">conj_and</dependency>
+      <dependency dep="an" dep_index="16" gov="region" gov_index="19">det</dependency>
+      <dependency dep="acidic" dep_index="17" gov="region" gov_index="19">amod</dependency>
+      <dependency dep="(A)" dep_index="18" gov="region" gov_index="19">amod</dependency>
+      <dependency dep="region" dep_index="19" gov="have" gov_index="4">dobj</dependency>
+      <dependency dep="region" dep_index="19" gov="domain" gov_index="9">conj_and</dependency>
+      <dependency dep="the" dep_index="21" gov="C-terminus" gov_index="22">det</dependency>
+      <dependency dep="C-terminus" dep_index="22" gov="have" gov_index="4">prep_at</dependency>
+      <dependency dep="C-terminus" dep_index="22" gov="activate" gov_index="27">prep_through</dependency>
+      <dependency dep="they" dep_index="26" gov="activate" gov_index="27">nsubj</dependency>
+      <dependency dep="activate" dep_index="27" gov="C-terminus" gov_index="22">rcmod</dependency>
+      <dependency dep="the" dep_index="28" gov="complex" gov_index="31">det</dependency>
+      <dependency dep="Arp" dep_index="29" gov="complex" gov_index="31">nn</dependency>
+      <dependency dep="/3" dep_index="30" gov="complex" gov_index="31">num</dependency>
+      <dependency dep="complex" dep_index="31" gov="activate" gov_index="27">dobj</dependency>
+      <dependency dep="leading" dep_index="33" gov="complex" gov_index="31">appos</dependency>
+      <dependency dep="rapid" dep_index="35" gov="polymerization" gov_index="37">amod</dependency>
+      <dependency dep="actin" dep_index="36" gov="polymerization" gov_index="37">nn</dependency>
+      <dependency dep="polymerization" dep_index="37" gov="leading" gov_index="33">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600036" relationship="false">6 9 4 22 27 31 33 37 36</relation>
+      <relation position="600011" relationship="false">6 9 4 14 11</relation>
+      <relation position="600029" relationship="false">6 9 4 22 27 31 29</relation>
+      <relation position="1100036" relationship="false">11 14 4 22 27 31 33 37 36</relation>
+      <relation position="2900036" relationship="true">29 31 33 37 36</relation>
+      <relation position="1100029" relationship="false">11 14 4 22 27 31 29</relation>
+   </relations>
+   <pairs>
+      <pair>2900036</pair>
+   </pairs>
+</root>

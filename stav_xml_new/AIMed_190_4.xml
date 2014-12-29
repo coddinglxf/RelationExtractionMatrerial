@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>By@using@the@growth@factor@dependent@M-07e@cell@line@,@we@found@that@both@c-Mpl@and@c-Kit@ligands@,@namely@:@SCF@and@TPO@,@induce@c-Cbl@tyrosine@phosphorylation@.@</sentence>
+   <tags>
+      <tag pos="15">c-Mpl</tag>
+      <tag pos="17">c-Kit</tag>
+      <tag pos="22">SCF</tag>
+      <tag pos="24">TPO</tag>
+      <tag pos="27">c-Cbl</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">By</taggedword>
+      <taggedword index="2" part-of-speech="VBG">using</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">growth</taggedword>
+      <taggedword index="5" part-of-speech="NN">factor</taggedword>
+      <taggedword index="6" part-of-speech="JJ">dependent</taggedword>
+      <taggedword index="7" part-of-speech="NNS">M-07e</taggedword>
+      <taggedword index="8" part-of-speech="NN">cell</taggedword>
+      <taggedword index="9" part-of-speech="NN">line</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="PRP">we</taggedword>
+      <taggedword index="12" part-of-speech="VBD">found</taggedword>
+      <taggedword index="13" part-of-speech="IN">that</taggedword>
+      <taggedword index="14" part-of-speech="DT">both</taggedword>
+      <taggedword index="15" part-of-speech="JJ">c-Mpl</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="JJ">c-Kit</taggedword>
+      <taggedword index="18" part-of-speech="NNS">ligands</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="RB">namely</taggedword>
+      <taggedword index="21" part-of-speech=":">:</taggedword>
+      <taggedword index="22" part-of-speech="NNP">SCF</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NNP">TPO</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="VB">induce</taggedword>
+      <taggedword index="27" part-of-speech="JJ">c-Cbl</taggedword>
+      <taggedword index="28" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="29" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="using" dep_index="2" gov="found" gov_index="12">prepc_by</dependency>
+      <dependency dep="the" dep_index="3" gov="line" gov_index="9">det</dependency>
+      <dependency dep="growth" dep_index="4" gov="line" gov_index="9">nn</dependency>
+      <dependency dep="factor" dep_index="5" gov="line" gov_index="9">nn</dependency>
+      <dependency dep="dependent" dep_index="6" gov="line" gov_index="9">amod</dependency>
+      <dependency dep="M-07e" dep_index="7" gov="line" gov_index="9">nn</dependency>
+      <dependency dep="cell" dep_index="8" gov="line" gov_index="9">nn</dependency>
+      <dependency dep="line" dep_index="9" gov="using" gov_index="2">dobj</dependency>
+      <dependency dep="we" dep_index="11" gov="found" gov_index="12">nsubj</dependency>
+      <dependency dep="found" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="13" gov="induce" gov_index="26">mark</dependency>
+      <dependency dep="both" dep_index="14" gov="ligands" gov_index="18">det</dependency>
+      <dependency dep="c-Mpl" dep_index="15" gov="ligands" gov_index="18">amod</dependency>
+      <dependency dep="c-Kit" dep_index="17" gov="c-Mpl" gov_index="15">conj_and</dependency>
+      <dependency dep="c-Kit" dep_index="17" gov="ligands" gov_index="18">amod</dependency>
+      <dependency dep="ligands" dep_index="18" gov="induce" gov_index="26">nsubj</dependency>
+      <dependency dep="namely" dep_index="20" gov="ligands" gov_index="18">advmod</dependency>
+      <dependency dep="SCF" dep_index="22" gov="ligands" gov_index="18">dep</dependency>
+      <dependency dep="TPO" dep_index="24" gov="ligands" gov_index="18">dep</dependency>
+      <dependency dep="TPO" dep_index="24" gov="SCF" gov_index="22">conj_and</dependency>
+      <dependency dep="induce" dep_index="26" gov="found" gov_index="12">ccomp</dependency>
+      <dependency dep="c-Cbl" dep_index="27" gov="phosphorylation" gov_index="29">amod</dependency>
+      <dependency dep="tyrosine" dep_index="28" gov="phosphorylation" gov_index="29">nn</dependency>
+      <dependency dep="phosphorylation" dep_index="29" gov="induce" gov_index="26">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500017" relationship="false">15 18 17</relation>
+      <relation position="1500022" relationship="false">15 18 22</relation>
+      <relation position="1500024" relationship="false">15 18 24</relation>
+      <relation position="1500027" relationship="false">15 18 26 29 27</relation>
+      <relation position="1700022" relationship="false">17 18 22</relation>
+      <relation position="1700024" relationship="false">17 18 24</relation>
+      <relation position="1700027" relationship="false">17 18 26 29 27</relation>
+      <relation position="2200024" relationship="false">22 18 24</relation>
+      <relation position="2200027" relationship="true">22 18 26 29 27</relation>
+      <relation position="2400027" relationship="true">24 18 26 29 27</relation>
+   </relations>
+   <pairs>
+      <pair>2200027</pair>
+      <pair>2400027</pair>
+   </pairs>
+</root>

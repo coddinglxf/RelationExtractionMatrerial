@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@existence@of@this@pathway@helps@to@explain@some@of@the@effects@of@LIM kinase@and@cofilin@in@the@control@of@actin@dynamics@.@</sentence>
+   <tags>
+      <tag pos="14">LIM kinase</tag>
+      <tag pos="16">cofilin</tag>
+      <tag pos="21">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">existence</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">helps</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="VB">explain</taggedword>
+      <taggedword index="9" part-of-speech="DT">some</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">LIM kinase</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">control</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NN">actin</taggedword>
+      <taggedword index="22" part-of-speech="NNS">dynamics</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="existence" gov_index="2">det</dependency>
+      <dependency dep="existence" dep_index="2" gov="helps" gov_index="6">nsubj</dependency>
+      <dependency dep="existence" dep_index="2" gov="explain" gov_index="8">xsubj</dependency>
+      <dependency dep="this" dep_index="4" gov="pathway" gov_index="5">det</dependency>
+      <dependency dep="pathway" dep_index="5" gov="existence" gov_index="2">prep_of</dependency>
+      <dependency dep="helps" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="7" gov="explain" gov_index="8">aux</dependency>
+      <dependency dep="explain" dep_index="8" gov="helps" gov_index="6">xcomp</dependency>
+      <dependency dep="some" dep_index="9" gov="explain" gov_index="8">dobj</dependency>
+      <dependency dep="the" dep_index="11" gov="effects" gov_index="12">det</dependency>
+      <dependency dep="effects" dep_index="12" gov="some" gov_index="9">prep_of</dependency>
+      <dependency dep="LIM kinase" dep_index="14" gov="effects" gov_index="12">prep_of</dependency>
+      <dependency dep="cofilin" dep_index="16" gov="effects" gov_index="12">prep_of</dependency>
+      <dependency dep="cofilin" dep_index="16" gov="LIM kinase" gov_index="14">conj_and</dependency>
+      <dependency dep="the" dep_index="18" gov="control" gov_index="19">det</dependency>
+      <dependency dep="control" dep_index="19" gov="explain" gov_index="8">prep_in</dependency>
+      <dependency dep="actin" dep_index="21" gov="dynamics" gov_index="22">nn</dependency>
+      <dependency dep="dynamics" dep_index="22" gov="control" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400016" relationship="false">14 12 16</relation>
+      <relation position="1400021" relationship="true">14 12 9 8 19 22 21</relation>
+      <relation position="1600021" relationship="true">16 12 9 8 19 22 21</relation>
+   </relations>
+   <pairs>
+      <pair>1400021</pair>
+      <pair>1600021</pair>
+   </pairs>
+</root>

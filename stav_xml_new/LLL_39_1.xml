@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@addition@of@ClpX@to@in@vitro@transcription@reactions@resulted@in@the@stimulation@of@RNAP@holoenzyme@activity@,@but@sigmaH@-RNAP@was@observed@to@be@more@sensitive@to@ClpX@-dependent@stimulation@than@sigmaA@-RNAP.@</sentence>
+   <tags>
+      <tag pos="29">ClpX</tag>
+      <tag pos="4">ClpX</tag>
+      <tag pos="20">sigmaH</tag>
+      <tag pos="33">sigmaA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">ClpX</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="8" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="9" part-of-speech="NNS">reactions</taggedword>
+      <taggedword index="10" part-of-speech="VBD">resulted</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNP">RNAP</taggedword>
+      <taggedword index="16" part-of-speech="JJ">holoenzyme</taggedword>
+      <taggedword index="17" part-of-speech="NN">activity</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">but</taggedword>
+      <taggedword index="20" part-of-speech="VBP">sigmaH</taggedword>
+      <taggedword index="21" part-of-speech="NNP">-RNAP</taggedword>
+      <taggedword index="22" part-of-speech="VBD">was</taggedword>
+      <taggedword index="23" part-of-speech="JJ">observed</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="VB">be</taggedword>
+      <taggedword index="26" part-of-speech="RBR">more</taggedword>
+      <taggedword index="27" part-of-speech="JJ">sensitive</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="VB">ClpX</taggedword>
+      <taggedword index="30" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="31" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="32" part-of-speech="IN">than</taggedword>
+      <taggedword index="33" part-of-speech="NN">sigmaA</taggedword>
+      <taggedword index="34" part-of-speech="NNS">-RNAP.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="addition" gov_index="2">det</dependency>
+      <dependency dep="addition" dep_index="2" gov="resulted" gov_index="10">nsubj</dependency>
+      <dependency dep="addition" dep_index="2" gov="sigmaH" gov_index="20">nsubj</dependency>
+      <dependency dep="ClpX" dep_index="4" gov="addition" gov_index="2">prep_of</dependency>
+      <dependency dep="in" dep_index="6" gov="vitro" gov_index="7">dep</dependency>
+      <dependency dep="vitro" dep_index="7" gov="reactions" gov_index="9">amod</dependency>
+      <dependency dep="transcription" dep_index="8" gov="reactions" gov_index="9">nn</dependency>
+      <dependency dep="reactions" dep_index="9" gov="ClpX" gov_index="4">prep_to</dependency>
+      <dependency dep="resulted" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="stimulation" gov_index="13">det</dependency>
+      <dependency dep="stimulation" dep_index="13" gov="resulted" gov_index="10">prep_in</dependency>
+      <dependency dep="RNAP" dep_index="15" gov="activity" gov_index="17">nn</dependency>
+      <dependency dep="holoenzyme" dep_index="16" gov="activity" gov_index="17">amod</dependency>
+      <dependency dep="activity" dep_index="17" gov="stimulation" gov_index="13">prep_of</dependency>
+      <dependency dep="sigmaH" dep_index="20" gov="resulted" gov_index="10">conj_but</dependency>
+      <dependency dep="-RNAP" dep_index="21" gov="observed" gov_index="23">nsubj</dependency>
+      <dependency dep="-RNAP" dep_index="21" gov="sensitive" gov_index="27">xsubj</dependency>
+      <dependency dep="was" dep_index="22" gov="observed" gov_index="23">cop</dependency>
+      <dependency dep="observed" dep_index="23" gov="sigmaH" gov_index="20">ccomp</dependency>
+      <dependency dep="to" dep_index="24" gov="sensitive" gov_index="27">aux</dependency>
+      <dependency dep="be" dep_index="25" gov="sensitive" gov_index="27">cop</dependency>
+      <dependency dep="more" dep_index="26" gov="sensitive" gov_index="27">advmod</dependency>
+      <dependency dep="sensitive" dep_index="27" gov="observed" gov_index="23">xcomp</dependency>
+      <dependency dep="to" dep_index="28" gov="ClpX" gov_index="29">aux</dependency>
+      <dependency dep="ClpX" dep_index="29" gov="sensitive" gov_index="27">xcomp</dependency>
+      <dependency dep="-dependent" dep_index="30" gov="stimulation" gov_index="31">amod</dependency>
+      <dependency dep="stimulation" dep_index="31" gov="ClpX" gov_index="29">dobj</dependency>
+      <dependency dep="sigmaA" dep_index="33" gov="-RNAP." gov_index="34">nn</dependency>
+      <dependency dep="-RNAP." dep_index="34" gov="ClpX" gov_index="29">prep_than</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400029" relationship="false">4 2 20 23 27 29</relation>
+      <relation position="2000029" relationship="true"></relation>
+      <relation position="2900033" relationship="true"></relation>
+      <relation position="400020" relationship="true">4 2 10 20</relation>
+      <relation position="400033" relationship="true">4 2 20 23 27 29 34 33</relation>
+      <relation position="2000033" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>400033</pair>
+      <pair>2000029</pair>
+      <pair>2900033</pair>
+      <pair>400020</pair>
+   </pairs>
+</root>

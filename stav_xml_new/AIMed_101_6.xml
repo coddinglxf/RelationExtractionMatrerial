@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@51-residue@region@from@the@conserved@C-terminal@region@of@TBP@,@previously@shown@to@be@the@binding@site@for@the@viral@activator@protein@E1A@,@interacts@with@c-Fos@and@c-Jun@proteins@.@</sentence>
+   <tags>
+      <tag pos="10">TBP</tag>
+      <tag pos="24">E1A</tag>
+      <tag pos="28">c-Fos</tag>
+      <tag pos="30">c-Jun</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">51-residue</taggedword>
+      <taggedword index="3" part-of-speech="NN">region</taggedword>
+      <taggedword index="4" part-of-speech="IN">from</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">conserved</taggedword>
+      <taggedword index="7" part-of-speech="JJ">C-terminal</taggedword>
+      <taggedword index="8" part-of-speech="NN">region</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NNP">TBP</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="RB">previously</taggedword>
+      <taggedword index="13" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">be</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="18" part-of-speech="NN">site</taggedword>
+      <taggedword index="19" part-of-speech="IN">for</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="22" part-of-speech="NN">activator</taggedword>
+      <taggedword index="23" part-of-speech="NN">protein</taggedword>
+      <taggedword index="24" part-of-speech="NN">E1A</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="27" part-of-speech="IN">with</taggedword>
+      <taggedword index="28" part-of-speech="JJ">c-Fos</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="JJ">c-Jun</taggedword>
+      <taggedword index="31" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="region" gov_index="3">det</dependency>
+      <dependency dep="51-residue" dep_index="2" gov="region" gov_index="3">amod</dependency>
+      <dependency dep="region" dep_index="3" gov="interacts" gov_index="26">nsubj</dependency>
+      <dependency dep="the" dep_index="5" gov="region" gov_index="8">det</dependency>
+      <dependency dep="conserved" dep_index="6" gov="region" gov_index="8">amod</dependency>
+      <dependency dep="C-terminal" dep_index="7" gov="region" gov_index="8">amod</dependency>
+      <dependency dep="region" dep_index="8" gov="region" gov_index="3">prep_from</dependency>
+      <dependency dep="TBP" dep_index="10" gov="region" gov_index="8">prep_of</dependency>
+      <dependency dep="previously" dep_index="12" gov="shown" gov_index="13">advmod</dependency>
+      <dependency dep="shown" dep_index="13" gov="region" gov_index="3">partmod</dependency>
+      <dependency dep="to" dep_index="14" gov="site" gov_index="18">aux</dependency>
+      <dependency dep="be" dep_index="15" gov="site" gov_index="18">cop</dependency>
+      <dependency dep="the" dep_index="16" gov="site" gov_index="18">det</dependency>
+      <dependency dep="binding" dep_index="17" gov="site" gov_index="18">amod</dependency>
+      <dependency dep="site" dep_index="18" gov="shown" gov_index="13">xcomp</dependency>
+      <dependency dep="the" dep_index="20" gov="E1A" gov_index="24">det</dependency>
+      <dependency dep="viral" dep_index="21" gov="E1A" gov_index="24">amod</dependency>
+      <dependency dep="activator" dep_index="22" gov="E1A" gov_index="24">nn</dependency>
+      <dependency dep="protein" dep_index="23" gov="E1A" gov_index="24">nn</dependency>
+      <dependency dep="E1A" dep_index="24" gov="site" gov_index="18">prep_for</dependency>
+      <dependency dep="interacts" dep_index="26" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="c-Fos" dep_index="28" gov="proteins" gov_index="31">amod</dependency>
+      <dependency dep="c-Jun" dep_index="30" gov="c-Fos" gov_index="28">conj_and</dependency>
+      <dependency dep="c-Jun" dep_index="30" gov="proteins" gov_index="31">amod</dependency>
+      <dependency dep="proteins" dep_index="31" gov="interacts" gov_index="26">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000024" relationship="true">10 8 3 13 18 24</relation>
+      <relation position="1000028" relationship="true">10 8 3 26 31 28</relation>
+      <relation position="1000030" relationship="true">10 8 3 26 31 30</relation>
+      <relation position="2400028" relationship="false">24 18 13 3 26 31 28</relation>
+      <relation position="2400030" relationship="false">24 18 13 3 26 31 30</relation>
+      <relation position="2800030" relationship="false">28 31 30</relation>
+   </relations>
+   <pairs>
+      <pair>1000024</pair>
+      <pair>1000030</pair>
+      <pair>1000028</pair>
+   </pairs>
+</root>

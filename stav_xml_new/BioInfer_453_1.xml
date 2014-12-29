@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>No@evidence@for@the@surface@expression@of@the@phosphoprotein@(@P@),@matrix@(@M@)@or@nucleocapsid@(@N@)@proteins@was@found@.@</sentence>
+   <tags>
+      <tag pos="11">P</tag>
+      <tag pos="20">N</tag>
+      <tag pos="18">nucleocapsid</tag>
+      <tag pos="9">phosphoprotein</tag>
+      <tag pos="15">M</tag>
+      <tag pos="13">matrix</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">No</taggedword>
+      <taggedword index="2" part-of-speech="NN">evidence</taggedword>
+      <taggedword index="3" part-of-speech="IN">for</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">surface</taggedword>
+      <taggedword index="6" part-of-speech="NN">expression</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">phosphoprotein</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">P</taggedword>
+      <taggedword index="12" part-of-speech="NNP">),</taggedword>
+      <taggedword index="13" part-of-speech="NN">matrix</taggedword>
+      <taggedword index="14" part-of-speech="VBD">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">M</taggedword>
+      <taggedword index="16" part-of-speech="NNPS">)</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="JJ">nucleocapsid</taggedword>
+      <taggedword index="19" part-of-speech="JJ">(</taggedword>
+      <taggedword index="20" part-of-speech="NNP">N</taggedword>
+      <taggedword index="21" part-of-speech="NNP">)</taggedword>
+      <taggedword index="22" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="23" part-of-speech="VBD">was</taggedword>
+      <taggedword index="24" part-of-speech="VBN">found</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="No" dep_index="1" gov="evidence" gov_index="2">det</dependency>
+      <dependency dep="evidence" dep_index="2" gov="(" gov_index="14">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="expression" gov_index="6">det</dependency>
+      <dependency dep="surface" dep_index="5" gov="expression" gov_index="6">nn</dependency>
+      <dependency dep="expression" dep_index="6" gov="evidence" gov_index="2">prep_for</dependency>
+      <dependency dep="the" dep_index="8" gov="matrix" gov_index="13">det</dependency>
+      <dependency dep="phosphoprotein" dep_index="9" gov="matrix" gov_index="13">amod</dependency>
+      <dependency dep="(" dep_index="10" gov="matrix" gov_index="13">nn</dependency>
+      <dependency dep="P" dep_index="11" gov="matrix" gov_index="13">nn</dependency>
+      <dependency dep=")," dep_index="12" gov="matrix" gov_index="13">nn</dependency>
+      <dependency dep="matrix" dep_index="13" gov="expression" gov_index="6">prep_of</dependency>
+      <dependency dep="(" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="M" dep_index="15" gov=")" gov_index="16">nn</dependency>
+      <dependency dep=")" dep_index="16" gov="found" gov_index="24">nsubjpass</dependency>
+      <dependency dep="nucleocapsid" dep_index="18" gov="proteins" gov_index="22">amod</dependency>
+      <dependency dep="(" dep_index="19" gov="proteins" gov_index="22">amod</dependency>
+      <dependency dep="N" dep_index="20" gov="proteins" gov_index="22">nn</dependency>
+      <dependency dep=")" dep_index="21" gov="proteins" gov_index="22">nn</dependency>
+      <dependency dep="proteins" dep_index="22" gov=")" gov_index="16">conj_or</dependency>
+      <dependency dep="proteins" dep_index="22" gov="found" gov_index="24">nsubjpass</dependency>
+      <dependency dep="was" dep_index="23" gov="found" gov_index="24">auxpass</dependency>
+      <dependency dep="found" dep_index="24" gov="(" gov_index="14">ccomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100020" relationship="false">11 13 6 2 14 24 22 20</relation>
+      <relation position="1100018" relationship="false">11 13 6 2 14 24 22 18</relation>
+      <relation position="900011" relationship="false">9 13 11</relation>
+      <relation position="1100015" relationship="false">11 13 6 2 14 24 16 15</relation>
+      <relation position="1100013" relationship="false"></relation>
+      <relation position="1800020" relationship="false">18 22 20</relation>
+      <relation position="900020" relationship="false">9 13 6 2 14 24 22 20</relation>
+      <relation position="1500020" relationship="false">15 16 22 20</relation>
+      <relation position="1300020" relationship="false">13 6 2 14 24 22 20</relation>
+      <relation position="900018" relationship="false">9 13 6 2 14 24 22 18</relation>
+      <relation position="1500018" relationship="false">15 16 22 18</relation>
+      <relation position="1300018" relationship="false">13 6 2 14 24 22 18</relation>
+      <relation position="900015" relationship="false">9 13 6 2 14 24 16 15</relation>
+      <relation position="900013" relationship="false"></relation>
+      <relation position="1300015" relationship="false">13 6 2 14 24 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

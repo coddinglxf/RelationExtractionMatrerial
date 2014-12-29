@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Co-immunoprecipitation@experiments@demonstrated@an@association@between@Elf-1@and@Rb@in@resting@normal@human@T@cells@.@</sentence>
+   <tags>
+      <tag pos="7">Elf-1</tag>
+      <tag pos="9">Rb</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Co-immunoprecipitation</taggedword>
+      <taggedword index="2" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="3" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="4" part-of-speech="DT">an</taggedword>
+      <taggedword index="5" part-of-speech="NN">association</taggedword>
+      <taggedword index="6" part-of-speech="IN">between</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Elf-1</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Rb</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="JJ">resting</taggedword>
+      <taggedword index="12" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="13" part-of-speech="JJ">human</taggedword>
+      <taggedword index="14" part-of-speech="NNP">T</taggedword>
+      <taggedword index="15" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Co-immunoprecipitation" dep_index="1" gov="experiments" gov_index="2">amod</dependency>
+      <dependency dep="experiments" dep_index="2" gov="demonstrated" gov_index="3">nsubj</dependency>
+      <dependency dep="demonstrated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="4" gov="association" gov_index="5">det</dependency>
+      <dependency dep="association" dep_index="5" gov="demonstrated" gov_index="3">dobj</dependency>
+      <dependency dep="Elf-1" dep_index="7" gov="association" gov_index="5">prep_between</dependency>
+      <dependency dep="Rb" dep_index="9" gov="association" gov_index="5">prep_between</dependency>
+      <dependency dep="Rb" dep_index="9" gov="Elf-1" gov_index="7">conj_and</dependency>
+      <dependency dep="resting" dep_index="11" gov="cells" gov_index="15">amod</dependency>
+      <dependency dep="normal" dep_index="12" gov="cells" gov_index="15">amod</dependency>
+      <dependency dep="human" dep_index="13" gov="cells" gov_index="15">amod</dependency>
+      <dependency dep="T" dep_index="14" gov="cells" gov_index="15">nn</dependency>
+      <dependency dep="cells" dep_index="15" gov="demonstrated" gov_index="3">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true">7 5 9</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

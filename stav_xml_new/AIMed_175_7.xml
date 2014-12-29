@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Association@of@CDK4@with@both@CDC37@and@HSP90@may@also@imply@a@mechanistic@link@between@the@functions@of@CDC37@and@HSP90@.@</sentence>
+   <tags>
+      <tag pos="3">CDK4</tag>
+      <tag pos="6">CDC37</tag>
+      <tag pos="8">HSP90</tag>
+      <tag pos="19">CDC37</tag>
+      <tag pos="21">HSP90</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Association</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">CDK4</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="DT">both</taggedword>
+      <taggedword index="6" part-of-speech="NNP">CDC37</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NNP">HSP90</taggedword>
+      <taggedword index="9" part-of-speech="MD">may</taggedword>
+      <taggedword index="10" part-of-speech="RB">also</taggedword>
+      <taggedword index="11" part-of-speech="VB">imply</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">mechanistic</taggedword>
+      <taggedword index="14" part-of-speech="NN">link</taggedword>
+      <taggedword index="15" part-of-speech="IN">between</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NNP">CDC37</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NNP">HSP90</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Association" dep_index="1" gov="imply" gov_index="11">nsubj</dependency>
+      <dependency dep="CDK4" dep_index="3" gov="Association" gov_index="1">prep_of</dependency>
+      <dependency dep="both" dep_index="5" gov="CDC37" gov_index="6">preconj</dependency>
+      <dependency dep="CDC37" dep_index="6" gov="CDK4" gov_index="3">prep_with</dependency>
+      <dependency dep="HSP90" dep_index="8" gov="CDK4" gov_index="3">prep_with</dependency>
+      <dependency dep="HSP90" dep_index="8" gov="CDC37" gov_index="6">conj_and</dependency>
+      <dependency dep="may" dep_index="9" gov="imply" gov_index="11">aux</dependency>
+      <dependency dep="also" dep_index="10" gov="imply" gov_index="11">advmod</dependency>
+      <dependency dep="imply" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="12" gov="link" gov_index="14">det</dependency>
+      <dependency dep="mechanistic" dep_index="13" gov="link" gov_index="14">amod</dependency>
+      <dependency dep="link" dep_index="14" gov="imply" gov_index="11">dobj</dependency>
+      <dependency dep="the" dep_index="16" gov="functions" gov_index="17">det</dependency>
+      <dependency dep="functions" dep_index="17" gov="link" gov_index="14">prep_between</dependency>
+      <dependency dep="CDC37" dep_index="19" gov="functions" gov_index="17">prep_of</dependency>
+      <dependency dep="HSP90" dep_index="21" gov="functions" gov_index="17">prep_of</dependency>
+      <dependency dep="HSP90" dep_index="21" gov="CDC37" gov_index="19">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300006" relationship="true"></relation>
+      <relation position="300008" relationship="true"></relation>
+      <relation position="300019" relationship="false">3 1 11 14 17 19</relation>
+      <relation position="300021" relationship="false">3 1 11 14 17 21</relation>
+      <relation position="600008" relationship="false">6 3 8</relation>
+      <relation position="600019" relationship="false">6 3 1 11 14 17 19</relation>
+      <relation position="600021" relationship="false">6 3 1 11 14 17 21</relation>
+      <relation position="800019" relationship="false">8 3 1 11 14 17 19</relation>
+      <relation position="800021" relationship="false">8 3 1 11 14 17 21</relation>
+      <relation position="1900021" relationship="false">19 17 21</relation>
+   </relations>
+   <pairs>
+      <pair>300006</pair>
+      <pair>300008</pair>
+   </pairs>
+</root>

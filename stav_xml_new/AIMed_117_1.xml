@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Inhibin@antagonizes@inhibition@of@liver@cell@growth@by@activin@by@a@dominant-negative@mechanism@.@</sentence>
+   <tags>
+      <tag pos="1">Inhibin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Inhibin</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">antagonizes</taggedword>
+      <taggedword index="3" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NN">liver</taggedword>
+      <taggedword index="6" part-of-speech="NN">cell</taggedword>
+      <taggedword index="7" part-of-speech="NN">growth</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="NN">activin</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">dominant-negative</taggedword>
+      <taggedword index="13" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Inhibin" dep_index="1" gov="antagonizes" gov_index="2">nsubj</dependency>
+      <dependency dep="antagonizes" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="inhibition" dep_index="3" gov="antagonizes" gov_index="2">dobj</dependency>
+      <dependency dep="liver" dep_index="5" gov="growth" gov_index="7">nn</dependency>
+      <dependency dep="cell" dep_index="6" gov="growth" gov_index="7">nn</dependency>
+      <dependency dep="growth" dep_index="7" gov="inhibition" gov_index="3">prep_of</dependency>
+      <dependency dep="activin" dep_index="9" gov="growth" gov_index="7">prep_by</dependency>
+      <dependency dep="a" dep_index="11" gov="mechanism" gov_index="13">det</dependency>
+      <dependency dep="dominant-negative" dep_index="12" gov="mechanism" gov_index="13">amod</dependency>
+      <dependency dep="mechanism" dep_index="13" gov="antagonizes" gov_index="2">prep_by</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

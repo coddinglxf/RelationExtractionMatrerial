@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@was@proved@by@the@use@of@specific@immunohistochemical@reaction@and@Western@blots@of@conditioned@culture@medium@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="VBN">proved</taggedword>
+      <taggedword index="4" part-of-speech="IN">by</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">use</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="9" part-of-speech="JJ">immunohistochemical</taggedword>
+      <taggedword index="10" part-of-speech="NN">reaction</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="JJ">Western</taggedword>
+      <taggedword index="13" part-of-speech="NNS">blots</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">conditioned</taggedword>
+      <taggedword index="16" part-of-speech="NN">culture</taggedword>
+      <taggedword index="17" part-of-speech="NN">medium</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="proved" gov_index="3">nsubjpass</dependency>
+      <dependency dep="was" dep_index="2" gov="proved" gov_index="3">auxpass</dependency>
+      <dependency dep="proved" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="use" gov_index="6">det</dependency>
+      <dependency dep="use" dep_index="6" gov="proved" gov_index="3">agent</dependency>
+      <dependency dep="specific" dep_index="8" gov="reaction" gov_index="10">amod</dependency>
+      <dependency dep="immunohistochemical" dep_index="9" gov="reaction" gov_index="10">amod</dependency>
+      <dependency dep="reaction" dep_index="10" gov="use" gov_index="6">prep_of</dependency>
+      <dependency dep="Western" dep_index="12" gov="blots" gov_index="13">amod</dependency>
+      <dependency dep="blots" dep_index="13" gov="proved" gov_index="3">agent</dependency>
+      <dependency dep="blots" dep_index="13" gov="use" gov_index="6">conj_and</dependency>
+      <dependency dep="conditioned" dep_index="15" gov="medium" gov_index="17">amod</dependency>
+      <dependency dep="culture" dep_index="16" gov="medium" gov_index="17">nn</dependency>
+      <dependency dep="medium" dep_index="17" gov="blots" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

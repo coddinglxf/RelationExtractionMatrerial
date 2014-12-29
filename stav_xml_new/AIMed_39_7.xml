@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Chloramphenicol@acetyltransferase@assays@in@F9@cells@showed@that@PS1@suppresses@transactivation@by@c-Jun@/@c-Jun@but@not@by@c-Jun@/@c-Fos@heterodimers@,@consistent@with@the@reported@function@of@QM@/@Jif-1@.@</sentence>
+   <tags>
+      <tag pos="9">PS1</tag>
+      <tag pos="13">c-Jun</tag>
+      <tag pos="15">c-Jun</tag>
+      <tag pos="19">c-Jun</tag>
+      <tag pos="21">c-Fos</tag>
+      <tag pos="30">QM</tag>
+      <tag pos="32">Jif-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Chloramphenicol</taggedword>
+      <taggedword index="2" part-of-speech="NN">acetyltransferase</taggedword>
+      <taggedword index="3" part-of-speech="NNS">assays</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="CD">F9</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="NNP">PS1</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">suppresses</taggedword>
+      <taggedword index="11" part-of-speech="NN">transactivation</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="JJ">c-Jun</taggedword>
+      <taggedword index="14" part-of-speech=":">/</taggedword>
+      <taggedword index="15" part-of-speech="JJ">c-Jun</taggedword>
+      <taggedword index="16" part-of-speech="CC">but</taggedword>
+      <taggedword index="17" part-of-speech="RB">not</taggedword>
+      <taggedword index="18" part-of-speech="IN">by</taggedword>
+      <taggedword index="19" part-of-speech="NN">c-Jun</taggedword>
+      <taggedword index="20" part-of-speech=":">/</taggedword>
+      <taggedword index="21" part-of-speech="JJ">c-Fos</taggedword>
+      <taggedword index="22" part-of-speech="NNS">heterodimers</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="JJ">consistent</taggedword>
+      <taggedword index="25" part-of-speech="IN">with</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="JJ">reported</taggedword>
+      <taggedword index="28" part-of-speech="NN">function</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NNP">QM</taggedword>
+      <taggedword index="31" part-of-speech="NNP">/</taggedword>
+      <taggedword index="32" part-of-speech="NNS">Jif-1</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Chloramphenicol" dep_index="1" gov="assays" gov_index="3">amod</dependency>
+      <dependency dep="acetyltransferase" dep_index="2" gov="assays" gov_index="3">nn</dependency>
+      <dependency dep="assays" dep_index="3" gov="showed" gov_index="7">nsubj</dependency>
+      <dependency dep="F9" dep_index="5" gov="cells" gov_index="6">num</dependency>
+      <dependency dep="cells" dep_index="6" gov="assays" gov_index="3">prep_in</dependency>
+      <dependency dep="showed" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="suppresses" gov_index="10">mark</dependency>
+      <dependency dep="PS1" dep_index="9" gov="suppresses" gov_index="10">nsubj</dependency>
+      <dependency dep="suppresses" dep_index="10" gov="showed" gov_index="7">ccomp</dependency>
+      <dependency dep="transactivation" dep_index="11" gov="suppresses" gov_index="10">dobj</dependency>
+      <dependency dep="c-Jun" dep_index="13" gov="Jif-1" gov_index="32">amod</dependency>
+      <dependency dep="/" dep_index="14" gov="c-Jun" gov_index="15">punct</dependency>
+      <dependency dep="c-Jun" dep_index="15" gov="Jif-1" gov_index="32">dep</dependency>
+      <dependency dep="not" dep_index="17" gov="by" gov_index="18">neg</dependency>
+      <dependency dep="by" dep_index="18" gov="c-Jun" gov_index="15">conj_but</dependency>
+      <dependency dep="by" dep_index="18" gov="Jif-1" gov_index="32">dep</dependency>
+      <dependency dep="c-Jun" dep_index="19" gov="by" gov_index="18">pobj</dependency>
+      <dependency dep="/" dep_index="20" gov="c-Jun" gov_index="15">punct</dependency>
+      <dependency dep="c-Fos" dep_index="21" gov="Jif-1" gov_index="32">amod</dependency>
+      <dependency dep="heterodimers" dep_index="22" gov="Jif-1" gov_index="32">nn</dependency>
+      <dependency dep="consistent" dep_index="24" gov="Jif-1" gov_index="32">amod</dependency>
+      <dependency dep="the" dep_index="26" gov="function" gov_index="28">det</dependency>
+      <dependency dep="reported" dep_index="27" gov="function" gov_index="28">amod</dependency>
+      <dependency dep="function" dep_index="28" gov="consistent" gov_index="24">prep_with</dependency>
+      <dependency dep="QM" dep_index="30" gov="/" gov_index="31">nn</dependency>
+      <dependency dep="/" dep_index="31" gov="function" gov_index="28">prep_of</dependency>
+      <dependency dep="Jif-1" dep_index="32" gov="suppresses" gov_index="10">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="false">9 10 32 13</relation>
+      <relation position="900015" relationship="false">9 10 32 15</relation>
+      <relation position="900019" relationship="false">9 10 32 18 19</relation>
+      <relation position="900021" relationship="false">9 10 32 21</relation>
+      <relation position="900030" relationship="false">9 10 32 24 28 31 30</relation>
+      <relation position="900032" relationship="false">9 10 32</relation>
+      <relation position="1300015" relationship="true">13 32 15</relation>
+      <relation position="1300019" relationship="false">13 32 18 19</relation>
+      <relation position="1300021" relationship="false">13 32 21</relation>
+      <relation position="1300030" relationship="false">13 32 24 28 31 30</relation>
+      <relation position="1300032" relationship="false"></relation>
+      <relation position="1500019" relationship="false">15 32 18 19</relation>
+      <relation position="1500021" relationship="false">15 32 21</relation>
+      <relation position="1500030" relationship="false">15 32 24 28 31 30</relation>
+      <relation position="1500032" relationship="false"></relation>
+      <relation position="1900021" relationship="true">19 18 32 21</relation>
+      <relation position="1900030" relationship="false">19 18 32 24 28 31 30</relation>
+      <relation position="1900032" relationship="false"></relation>
+      <relation position="2100030" relationship="false">21 32 24 28 31 30</relation>
+      <relation position="2100032" relationship="false"></relation>
+      <relation position="3000032" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>1900021</pair>
+      <pair>1300015</pair>
+   </pairs>
+</root>

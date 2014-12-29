@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@technique@was@employed@to@quantify@changes@caused@by@the@lack@of@talin@,@a@protein@that@couples@the@actin@network@to@the@plasma@membrane@,@or@by@the@lack@of@cortexillin@or@II@,@two@isoforms@of@the@actin@-bundling@protein@cortexillin@.@</sentence>
+   <tags>
+      <tag pos="43">cortexillin</tag>
+      <tag pos="13">talin</tag>
+      <tag pos="32">cortexillin</tag>
+      <tag pos="40">actin</tag>
+      <tag pos="20">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">technique</taggedword>
+      <taggedword index="3" part-of-speech="VBD">was</taggedword>
+      <taggedword index="4" part-of-speech="VBN">employed</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="VB">quantify</taggedword>
+      <taggedword index="7" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="8" part-of-speech="VBN">caused</taggedword>
+      <taggedword index="9" part-of-speech="IN">by</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">lack</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">talin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="NN">protein</taggedword>
+      <taggedword index="17" part-of-speech="WDT">that</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">couples</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">actin</taggedword>
+      <taggedword index="21" part-of-speech="NN">network</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="25" part-of-speech="NN">membrane</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="CC">or</taggedword>
+      <taggedword index="28" part-of-speech="IN">by</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="NN">lack</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="NN">cortexillin</taggedword>
+      <taggedword index="33" part-of-speech="CC">or</taggedword>
+      <taggedword index="34" part-of-speech="NNP">II</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="CD">two</taggedword>
+      <taggedword index="37" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="38" part-of-speech="IN">of</taggedword>
+      <taggedword index="39" part-of-speech="DT">the</taggedword>
+      <taggedword index="40" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="41" part-of-speech="JJ">-bundling</taggedword>
+      <taggedword index="42" part-of-speech="NN">protein</taggedword>
+      <taggedword index="43" part-of-speech="NN">cortexillin</taggedword>
+      <taggedword index="44" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="technique" gov_index="2">det</dependency>
+      <dependency dep="technique" dep_index="2" gov="employed" gov_index="4">nsubjpass</dependency>
+      <dependency dep="technique" dep_index="2" gov="quantify" gov_index="6">xsubj</dependency>
+      <dependency dep="was" dep_index="3" gov="employed" gov_index="4">auxpass</dependency>
+      <dependency dep="employed" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="5" gov="quantify" gov_index="6">aux</dependency>
+      <dependency dep="quantify" dep_index="6" gov="employed" gov_index="4">xcomp</dependency>
+      <dependency dep="changes" dep_index="7" gov="quantify" gov_index="6">dobj</dependency>
+      <dependency dep="caused" dep_index="8" gov="changes" gov_index="7">partmod</dependency>
+      <dependency dep="the" dep_index="10" gov="lack" gov_index="11">det</dependency>
+      <dependency dep="lack" dep_index="11" gov="caused" gov_index="8">agent</dependency>
+      <dependency dep="talin" dep_index="13" gov="lack" gov_index="11">prep_of</dependency>
+      <dependency dep="a" dep_index="15" gov="protein" gov_index="16">det</dependency>
+      <dependency dep="protein" dep_index="16" gov="quantify" gov_index="6">dobj</dependency>
+      <dependency dep="protein" dep_index="16" gov="changes" gov_index="7">conj_or</dependency>
+      <dependency dep="protein" dep_index="16" gov="couples" gov_index="18">nsubj</dependency>
+      <dependency dep="protein" dep_index="16" gov="couples" gov_index="18">nsubj</dependency>
+      <dependency dep="couples" dep_index="18" gov="protein" gov_index="16">rcmod</dependency>
+      <dependency dep="couples" dep_index="18" gov="protein" gov_index="16">rcmod</dependency>
+      <dependency dep="couples" dep_index="18" gov="couples" gov_index="18">conj_or</dependency>
+      <dependency dep="the" dep_index="19" gov="network" gov_index="21">det</dependency>
+      <dependency dep="actin" dep_index="20" gov="network" gov_index="21">nn</dependency>
+      <dependency dep="network" dep_index="21" gov="couples" gov_index="18">dobj</dependency>
+      <dependency dep="the" dep_index="23" gov="membrane" gov_index="25">det</dependency>
+      <dependency dep="plasma" dep_index="24" gov="membrane" gov_index="25">nn</dependency>
+      <dependency dep="membrane" dep_index="25" gov="couples" gov_index="18">prep_to</dependency>
+      <dependency dep="the" dep_index="29" gov="lack" gov_index="30">det</dependency>
+      <dependency dep="lack" dep_index="30" gov="couples" gov_index="18">prep_by</dependency>
+      <dependency dep="cortexillin" dep_index="32" gov="lack" gov_index="30">prep_of</dependency>
+      <dependency dep="II" dep_index="34" gov="quantify" gov_index="6">dobj</dependency>
+      <dependency dep="II" dep_index="34" gov="changes" gov_index="7">conj_or</dependency>
+      <dependency dep="two" dep_index="36" gov="isoforms" gov_index="37">num</dependency>
+      <dependency dep="isoforms" dep_index="37" gov="II" gov_index="34">appos</dependency>
+      <dependency dep="the" dep_index="39" gov="cortexillin" gov_index="43">det</dependency>
+      <dependency dep="actin" dep_index="40" gov="cortexillin" gov_index="43">amod</dependency>
+      <dependency dep="-bundling" dep_index="41" gov="cortexillin" gov_index="43">amod</dependency>
+      <dependency dep="protein" dep_index="42" gov="cortexillin" gov_index="43">nn</dependency>
+      <dependency dep="cortexillin" dep_index="43" gov="isoforms" gov_index="37">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300043" relationship="false">13 11 8 7 34 37 43</relation>
+      <relation position="3200043" relationship="true">32 30 18 16 7 34 37 43</relation>
+      <relation position="4000043" relationship="true"></relation>
+      <relation position="2000043" relationship="false">20 21 18 16 7 34 37 43</relation>
+      <relation position="1300032" relationship="false">13 11 8 7 16 18 30 32</relation>
+      <relation position="1300040" relationship="false">13 11 8 7 34 37 43 40</relation>
+      <relation position="1300020" relationship="true">13 11 8 7 16 18 21 20</relation>
+      <relation position="3200040" relationship="false">32 30 18 16 7 34 37 43 40</relation>
+      <relation position="2000032" relationship="false">20 21 18 30 32</relation>
+      <relation position="2000040" relationship="false">20 21 18 16 7 34 37 43 40</relation>
+   </relations>
+   <pairs>
+      <pair>4000043</pair>
+      <pair>1300020</pair>
+      <pair>3200043</pair>
+   </pairs>
+</root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Most@cot@genes@,@and@the@gerE@gene@,@are@transcribed@by@sigmaK@RNA@polymerase@.@</sentence>
+   <tags>
+      <tag pos="13">sigmaK</tag>
+      <tag pos="2">cot</tag>
+      <tag pos="7">gerE</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJS">Most</taggedword>
+      <taggedword index="2" part-of-speech="NN">cot</taggedword>
+      <taggedword index="3" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">gerE</taggedword>
+      <taggedword index="8" part-of-speech="NN">gene</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="VBN">transcribed</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="NN">sigmaK</taggedword>
+      <taggedword index="14" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="15" part-of-speech="NNP">polymerase</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Most" dep_index="1" gov="genes" gov_index="3">amod</dependency>
+      <dependency dep="cot" dep_index="2" gov="genes" gov_index="3">nn</dependency>
+      <dependency dep="genes" dep_index="3" gov="transcribed" gov_index="11">nsubjpass</dependency>
+      <dependency dep="the" dep_index="6" gov="gene" gov_index="8">det</dependency>
+      <dependency dep="gerE" dep_index="7" gov="gene" gov_index="8">amod</dependency>
+      <dependency dep="gene" dep_index="8" gov="genes" gov_index="3">conj_and</dependency>
+      <dependency dep="gene" dep_index="8" gov="transcribed" gov_index="11">nsubjpass</dependency>
+      <dependency dep="are" dep_index="10" gov="transcribed" gov_index="11">auxpass</dependency>
+      <dependency dep="transcribed" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="sigmaK" dep_index="13" gov="polymerase" gov_index="15">nn</dependency>
+      <dependency dep="RNA" dep_index="14" gov="polymerase" gov_index="15">nn</dependency>
+      <dependency dep="polymerase" dep_index="15" gov="transcribed" gov_index="11">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200013" relationship="true">2 3 11 15 13</relation>
+      <relation position="700013" relationship="true">7 8 11 15 13</relation>
+      <relation position="200007" relationship="false">2 3 11 8 7</relation>
+   </relations>
+   <pairs>
+      <pair>200013</pair>
+      <pair>700013</pair>
+   </pairs>
+</root>

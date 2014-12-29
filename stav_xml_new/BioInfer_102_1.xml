@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Birch@pollen profilin@and@actin@can@be@copurified@as@a@complex@,@and@purified@recombinant@birch@profilin@can@be@used@as@an@affinity@matrix@to@obtain@birch@pollen actin@.@</sentence>
+   <tags>
+      <tag pos="4">actin</tag>
+      <tag pos="27">pollen actin</tag>
+      <tag pos="16">profilin</tag>
+      <tag pos="2">pollen profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Birch</taggedword>
+      <taggedword index="2" part-of-speech="NN">pollen profilin</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech="MD">can</taggedword>
+      <taggedword index="6" part-of-speech="VB">be</taggedword>
+      <taggedword index="7" part-of-speech="VBN">copurified</taggedword>
+      <taggedword index="8" part-of-speech="IN">as</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="NN">complex</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="CD">purified</taggedword>
+      <taggedword index="14" part-of-speech="JJ">recombinant</taggedword>
+      <taggedword index="15" part-of-speech="NN">birch</taggedword>
+      <taggedword index="16" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="17" part-of-speech="MD">can</taggedword>
+      <taggedword index="18" part-of-speech="VB">be</taggedword>
+      <taggedword index="19" part-of-speech="VBN">used</taggedword>
+      <taggedword index="20" part-of-speech="IN">as</taggedword>
+      <taggedword index="21" part-of-speech="DT">an</taggedword>
+      <taggedword index="22" part-of-speech="JJ">affinity</taggedword>
+      <taggedword index="23" part-of-speech="NN">matrix</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="VB">obtain</taggedword>
+      <taggedword index="26" part-of-speech="JJ">birch</taggedword>
+      <taggedword index="27" part-of-speech="NN">pollen actin</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Birch" dep_index="1" gov="pollen profilin" gov_index="2">nn</dependency>
+      <dependency dep="pollen profilin" dep_index="2" gov="copurified" gov_index="7">nsubjpass</dependency>
+      <dependency dep="actin" dep_index="4" gov="pollen profilin" gov_index="2">conj_and</dependency>
+      <dependency dep="actin" dep_index="4" gov="copurified" gov_index="7">nsubjpass</dependency>
+      <dependency dep="can" dep_index="5" gov="copurified" gov_index="7">aux</dependency>
+      <dependency dep="be" dep_index="6" gov="copurified" gov_index="7">auxpass</dependency>
+      <dependency dep="copurified" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="9" gov="complex" gov_index="10">det</dependency>
+      <dependency dep="complex" dep_index="10" gov="copurified" gov_index="7">prep_as</dependency>
+      <dependency dep="purified" dep_index="13" gov="profilin" gov_index="16">num</dependency>
+      <dependency dep="recombinant" dep_index="14" gov="profilin" gov_index="16">amod</dependency>
+      <dependency dep="birch" dep_index="15" gov="profilin" gov_index="16">nn</dependency>
+      <dependency dep="profilin" dep_index="16" gov="used" gov_index="19">nsubjpass</dependency>
+      <dependency dep="profilin" dep_index="16" gov="obtain" gov_index="25">xsubj</dependency>
+      <dependency dep="can" dep_index="17" gov="used" gov_index="19">aux</dependency>
+      <dependency dep="be" dep_index="18" gov="used" gov_index="19">auxpass</dependency>
+      <dependency dep="used" dep_index="19" gov="copurified" gov_index="7">conj_and</dependency>
+      <dependency dep="an" dep_index="21" gov="matrix" gov_index="23">det</dependency>
+      <dependency dep="affinity" dep_index="22" gov="matrix" gov_index="23">amod</dependency>
+      <dependency dep="matrix" dep_index="23" gov="used" gov_index="19">prep_as</dependency>
+      <dependency dep="to" dep_index="24" gov="obtain" gov_index="25">aux</dependency>
+      <dependency dep="obtain" dep_index="25" gov="used" gov_index="19">xcomp</dependency>
+      <dependency dep="birch" dep_index="26" gov="pollen actin" gov_index="27">amod</dependency>
+      <dependency dep="pollen actin" dep_index="27" gov="obtain" gov_index="25">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400027" relationship="false"></relation>
+      <relation position="400016" relationship="false"></relation>
+      <relation position="200004" relationship="true">2 7 4</relation>
+      <relation position="1600027" relationship="true">16 25 27</relation>
+      <relation position="200027" relationship="false"></relation>
+      <relation position="200016" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>1600027</pair>
+      <pair>200004</pair>
+   </pairs>
+</root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>All@four@agonists@caused@a@biphasic@release@of@45Ca2+@from@non-mitochondrial@pool(s)@,@with@the@rank@order@of@potency@:@oxytocin@&gt;@PGF2@alpha@&gt;@ET-1@&gt;@IP3@</sentence>
+   <tags>
+      <tag pos="21">oxytocin</tag>
+      <tag pos="28">IP3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">All</taggedword>
+      <taggedword index="2" part-of-speech="CD">four</taggedword>
+      <taggedword index="3" part-of-speech="NNS">agonists</taggedword>
+      <taggedword index="4" part-of-speech="VBN">caused</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">biphasic</taggedword>
+      <taggedword index="7" part-of-speech="NN">release</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="CD">45Ca2+</taggedword>
+      <taggedword index="10" part-of-speech="IN">from</taggedword>
+      <taggedword index="11" part-of-speech="JJ">non-mitochondrial</taggedword>
+      <taggedword index="12" part-of-speech="NNS">pool(s)</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="JJ">rank</taggedword>
+      <taggedword index="17" part-of-speech="NN">order</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NN">potency</taggedword>
+      <taggedword index="20" part-of-speech=":">:</taggedword>
+      <taggedword index="21" part-of-speech="JJ">oxytocin</taggedword>
+      <taggedword index="22" part-of-speech="NNP">&gt;</taggedword>
+      <taggedword index="23" part-of-speech="NNP">PGF2</taggedword>
+      <taggedword index="24" part-of-speech="NNP">alpha</taggedword>
+      <taggedword index="25" part-of-speech="NNP">&gt;</taggedword>
+      <taggedword index="26" part-of-speech="NNP">ET-1</taggedword>
+      <taggedword index="27" part-of-speech="NNP">&gt;</taggedword>
+      <taggedword index="28" part-of-speech="NNP">IP3</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="All" dep_index="1" gov="caused" gov_index="4">advmod</dependency>
+      <dependency dep="four" dep_index="2" gov="agonists" gov_index="3">num</dependency>
+      <dependency dep="agonists" dep_index="3" gov="All" gov_index="1">pobj</dependency>
+      <dependency dep="caused" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="release" gov_index="7">det</dependency>
+      <dependency dep="biphasic" dep_index="6" gov="release" gov_index="7">amod</dependency>
+      <dependency dep="release" dep_index="7" gov="caused" gov_index="4">dobj</dependency>
+      <dependency dep="45Ca2+" dep_index="9" gov="release" gov_index="7">prep_of</dependency>
+      <dependency dep="non-mitochondrial" dep_index="11" gov="pool(s)" gov_index="12">amod</dependency>
+      <dependency dep="pool(s)" dep_index="12" gov="caused" gov_index="4">prep_from</dependency>
+      <dependency dep="the" dep_index="15" gov="order" gov_index="17">det</dependency>
+      <dependency dep="rank" dep_index="16" gov="order" gov_index="17">amod</dependency>
+      <dependency dep="order" dep_index="17" gov="caused" gov_index="4">prep_with</dependency>
+      <dependency dep="potency" dep_index="19" gov="order" gov_index="17">prep_of</dependency>
+      <dependency dep="oxytocin" dep_index="21" gov="IP3" gov_index="28">amod</dependency>
+      <dependency dep="&gt;" dep_index="22" gov="IP3" gov_index="28">nn</dependency>
+      <dependency dep="PGF2" dep_index="23" gov="IP3" gov_index="28">nn</dependency>
+      <dependency dep="alpha" dep_index="24" gov="IP3" gov_index="28">nn</dependency>
+      <dependency dep="&gt;" dep_index="25" gov="IP3" gov_index="28">nn</dependency>
+      <dependency dep="ET-1" dep_index="26" gov="IP3" gov_index="28">nn</dependency>
+      <dependency dep="&gt;" dep_index="27" gov="IP3" gov_index="28">nn</dependency>
+      <dependency dep="IP3" dep_index="28" gov="caused" gov_index="4">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2100028" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

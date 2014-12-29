@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@comparative@study@of@E-cadherin@and@stromelysin-3@expression@in@de@novo@and@ex@adenoma@carcinoma@of@the@colorectum@.@</sentence>
+   <tags>
+      <tag pos="5">E-cadherin</tag>
+      <tag pos="7">stromelysin-3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">comparative</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="JJ">E-cadherin</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="JJ">stromelysin-3</taggedword>
+      <taggedword index="8" part-of-speech="NN">expression</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="NNP">de</taggedword>
+      <taggedword index="11" part-of-speech="NN">novo</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="JJ">ex</taggedword>
+      <taggedword index="14" part-of-speech="NN">adenoma</taggedword>
+      <taggedword index="15" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">colorectum</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="study" gov_index="3">det</dependency>
+      <dependency dep="comparative" dep_index="2" gov="study" gov_index="3">amod</dependency>
+      <dependency dep="study" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="E-cadherin" dep_index="5" gov="expression" gov_index="8">amod</dependency>
+      <dependency dep="stromelysin-3" dep_index="7" gov="E-cadherin" gov_index="5">conj_and</dependency>
+      <dependency dep="stromelysin-3" dep_index="7" gov="expression" gov_index="8">amod</dependency>
+      <dependency dep="expression" dep_index="8" gov="study" gov_index="3">prep_of</dependency>
+      <dependency dep="de" dep_index="10" gov="novo" gov_index="11">nn</dependency>
+      <dependency dep="novo" dep_index="11" gov="study" gov_index="3">prep_in</dependency>
+      <dependency dep="ex" dep_index="13" gov="carcinoma" gov_index="15">amod</dependency>
+      <dependency dep="adenoma" dep_index="14" gov="carcinoma" gov_index="15">nn</dependency>
+      <dependency dep="carcinoma" dep_index="15" gov="study" gov_index="3">prep_in</dependency>
+      <dependency dep="carcinoma" dep_index="15" gov="novo" gov_index="11">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="colorectum" gov_index="18">det</dependency>
+      <dependency dep="colorectum" dep_index="18" gov="novo" gov_index="11">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 8 7</relation>
+   </relations>
+   <pairs/>
+</root>

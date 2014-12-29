@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunoprecipitation@of@unactivated@avian@progesterone@receptor@results@in@the@copurification@of@hsp90@,@hsp70@,@and@three@additional@proteins@,@p54@,@p50@,@and@p23@.@</sentence>
+   <tags>
+      <tag pos="12">hsp90</tag>
+      <tag pos="14">hsp70</tag>
+      <tag pos="21">p54</tag>
+      <tag pos="23">p50</tag>
+      <tag pos="26">p23</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Immunoprecipitation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">unactivated</taggedword>
+      <taggedword index="4" part-of-speech="NN">avian</taggedword>
+      <taggedword index="5" part-of-speech="VBP">progesterone</taggedword>
+      <taggedword index="6" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="7" part-of-speech="NNS">results</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">copurification</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNS">hsp90</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NNS">hsp70</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="CD">three</taggedword>
+      <taggedword index="18" part-of-speech="JJ">additional</taggedword>
+      <taggedword index="19" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CD">p54</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CD">p50</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="CD">p23</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunoprecipitation" dep_index="1" gov="progesterone" gov_index="5">nsubj</dependency>
+      <dependency dep="unactivated" dep_index="3" gov="avian" gov_index="4">amod</dependency>
+      <dependency dep="avian" dep_index="4" gov="Immunoprecipitation" gov_index="1">prep_of</dependency>
+      <dependency dep="progesterone" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="receptor" dep_index="6" gov="results" gov_index="7">nn</dependency>
+      <dependency dep="results" dep_index="7" gov="progesterone" gov_index="5">dobj</dependency>
+      <dependency dep="the" dep_index="9" gov="copurification" gov_index="10">det</dependency>
+      <dependency dep="copurification" dep_index="10" gov="progesterone" gov_index="5">prep_in</dependency>
+      <dependency dep="hsp90" dep_index="12" gov="copurification" gov_index="10">prep_of</dependency>
+      <dependency dep="hsp70" dep_index="14" gov="copurification" gov_index="10">prep_of</dependency>
+      <dependency dep="hsp70" dep_index="14" gov="hsp90" gov_index="12">conj_and</dependency>
+      <dependency dep="three" dep_index="17" gov="proteins" gov_index="19">num</dependency>
+      <dependency dep="additional" dep_index="18" gov="proteins" gov_index="19">amod</dependency>
+      <dependency dep="proteins" dep_index="19" gov="copurification" gov_index="10">prep_of</dependency>
+      <dependency dep="proteins" dep_index="19" gov="hsp90" gov_index="12">conj_and</dependency>
+      <dependency dep="p54" dep_index="21" gov="proteins" gov_index="19">appos</dependency>
+      <dependency dep="p50" dep_index="23" gov="p54" gov_index="21">num</dependency>
+      <dependency dep="p23" dep_index="26" gov="proteins" gov_index="19">appos</dependency>
+      <dependency dep="p23" dep_index="26" gov="p54" gov_index="21">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200014" relationship="false">12 10 14</relation>
+      <relation position="1200021" relationship="false">12 10 19 21</relation>
+      <relation position="1200023" relationship="false">12 10 19 21 23</relation>
+      <relation position="1200026" relationship="false">12 10 19 26</relation>
+      <relation position="1400021" relationship="false">14 10 19 21</relation>
+      <relation position="1400023" relationship="false">14 10 19 21 23</relation>
+      <relation position="1400026" relationship="false">14 10 19 26</relation>
+      <relation position="2100023" relationship="false"></relation>
+      <relation position="2100026" relationship="false">21 19 26</relation>
+      <relation position="2300026" relationship="false">23 21 19 26</relation>
+   </relations>
+   <pairs/>
+</root>

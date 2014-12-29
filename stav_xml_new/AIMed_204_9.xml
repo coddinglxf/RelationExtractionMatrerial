@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@demonstrates@that@the@C-terminal@hemopexin@domain@of@MMP-1@,@in@contrast@to@the@corresponding@regions@of@gelatinase A@and@gelatinase B@,@does@not@interact@with@TIMP-1@.@</sentence>
+   <tags>
+      <tag pos="9">MMP-1</tag>
+      <tag pos="18">gelatinase A</tag>
+      <tag pos="20">gelatinase B</tag>
+      <tag pos="26">TIMP-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">demonstrates</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">C-terminal</taggedword>
+      <taggedword index="6" part-of-speech="NN">hemopexin</taggedword>
+      <taggedword index="7" part-of-speech="NN">domain</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">MMP-1</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">corresponding</taggedword>
+      <taggedword index="16" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">gelatinase A</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">gelatinase B</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="23" part-of-speech="RB">not</taggedword>
+      <taggedword index="24" part-of-speech="VB">interact</taggedword>
+      <taggedword index="25" part-of-speech="IN">with</taggedword>
+      <taggedword index="26" part-of-speech="NN">TIMP-1</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="demonstrates" gov_index="2">nsubj</dependency>
+      <dependency dep="demonstrates" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="interact" gov_index="24">mark</dependency>
+      <dependency dep="the" dep_index="4" gov="domain" gov_index="7">det</dependency>
+      <dependency dep="C-terminal" dep_index="5" gov="domain" gov_index="7">amod</dependency>
+      <dependency dep="hemopexin" dep_index="6" gov="domain" gov_index="7">nn</dependency>
+      <dependency dep="domain" dep_index="7" gov="interact" gov_index="24">nsubj</dependency>
+      <dependency dep="MMP-1" dep_index="9" gov="domain" gov_index="7">prep_of</dependency>
+      <dependency dep="contrast" dep_index="12" gov="interact" gov_index="24">prep_in</dependency>
+      <dependency dep="the" dep_index="14" gov="regions" gov_index="16">det</dependency>
+      <dependency dep="corresponding" dep_index="15" gov="regions" gov_index="16">amod</dependency>
+      <dependency dep="regions" dep_index="16" gov="contrast" gov_index="12">prep_to</dependency>
+      <dependency dep="gelatinase A" dep_index="18" gov="regions" gov_index="16">prep_of</dependency>
+      <dependency dep="gelatinase B" dep_index="20" gov="regions" gov_index="16">prep_of</dependency>
+      <dependency dep="gelatinase B" dep_index="20" gov="gelatinase A" gov_index="18">conj_and</dependency>
+      <dependency dep="does" dep_index="22" gov="interact" gov_index="24">aux</dependency>
+      <dependency dep="not" dep_index="23" gov="interact" gov_index="24">neg</dependency>
+      <dependency dep="interact" dep_index="24" gov="demonstrates" gov_index="2">ccomp</dependency>
+      <dependency dep="TIMP-1" dep_index="26" gov="interact" gov_index="24">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900018" relationship="false">9 7 24 12 16 18</relation>
+      <relation position="900020" relationship="false">9 7 24 12 16 20</relation>
+      <relation position="900026" relationship="false">9 7 24 26</relation>
+      <relation position="1800020" relationship="false">18 16 20</relation>
+      <relation position="1800026" relationship="true">18 16 12 24 26</relation>
+      <relation position="2000026" relationship="true">20 16 12 24 26</relation>
+   </relations>
+   <pairs>
+      <pair>2000026</pair>
+      <pair>1800026</pair>
+   </pairs>
+</root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@ion-conducting@channel(s)@formed@by@Bcl-xL@display@multiple@conductance@states@that@have@identical@ion@selectivity@.@</sentence>
+   <tags>
+      <tag pos="6">Bcl-xL</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">ion-conducting</taggedword>
+      <taggedword index="3" part-of-speech="NN">channel(s)</taggedword>
+      <taggedword index="4" part-of-speech="VBN">formed</taggedword>
+      <taggedword index="5" part-of-speech="IN">by</taggedword>
+      <taggedword index="6" part-of-speech="NNP">Bcl-xL</taggedword>
+      <taggedword index="7" part-of-speech="VBP">display</taggedword>
+      <taggedword index="8" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="9" part-of-speech="NN">conductance</taggedword>
+      <taggedword index="10" part-of-speech="NNS">states</taggedword>
+      <taggedword index="11" part-of-speech="WDT">that</taggedword>
+      <taggedword index="12" part-of-speech="VBP">have</taggedword>
+      <taggedword index="13" part-of-speech="JJ">identical</taggedword>
+      <taggedword index="14" part-of-speech="NN">ion</taggedword>
+      <taggedword index="15" part-of-speech="NN">selectivity</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="channel(s)" gov_index="3">det</dependency>
+      <dependency dep="ion-conducting" dep_index="2" gov="channel(s)" gov_index="3">amod</dependency>
+      <dependency dep="channel(s)" dep_index="3" gov="display" gov_index="7">nsubj</dependency>
+      <dependency dep="formed" dep_index="4" gov="channel(s)" gov_index="3">partmod</dependency>
+      <dependency dep="Bcl-xL" dep_index="6" gov="formed" gov_index="4">agent</dependency>
+      <dependency dep="display" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="multiple" dep_index="8" gov="states" gov_index="10">amod</dependency>
+      <dependency dep="conductance" dep_index="9" gov="states" gov_index="10">nn</dependency>
+      <dependency dep="states" dep_index="10" gov="display" gov_index="7">dobj</dependency>
+      <dependency dep="states" dep_index="10" gov="have" gov_index="12">nsubj</dependency>
+      <dependency dep="have" dep_index="12" gov="states" gov_index="10">rcmod</dependency>
+      <dependency dep="identical" dep_index="13" gov="selectivity" gov_index="15">amod</dependency>
+      <dependency dep="ion" dep_index="14" gov="selectivity" gov_index="15">nn</dependency>
+      <dependency dep="selectivity" dep_index="15" gov="have" gov_index="12">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

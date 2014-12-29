@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@,@we@demonstrate@that@CD5@is@coupled@to@the@protein-tyrosine@kinase@p56lck@and@can@act@as@a@substrate@for@p56lck@.@</sentence>
+   <tags>
+      <tag pos="8">CD5</tag>
+      <tag pos="15">p56lck</tag>
+      <tag pos="23">p56lck</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="VBN">coupled</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">protein-tyrosine</taggedword>
+      <taggedword index="14" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="15" part-of-speech="NNS">p56lck</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="MD">can</taggedword>
+      <taggedword index="18" part-of-speech="VB">act</taggedword>
+      <taggedword index="19" part-of-speech="IN">as</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="22" part-of-speech="IN">for</taggedword>
+      <taggedword index="23" part-of-speech="CD">p56lck</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="demonstrate" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="demonstrate" gov_index="6">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="coupled" gov_index="10">mark</dependency>
+      <dependency dep="CD5" dep_index="8" gov="coupled" gov_index="10">nsubjpass</dependency>
+      <dependency dep="CD5" dep_index="8" gov="act" gov_index="18">nsubj</dependency>
+      <dependency dep="is" dep_index="9" gov="coupled" gov_index="10">auxpass</dependency>
+      <dependency dep="coupled" dep_index="10" gov="demonstrate" gov_index="6">ccomp</dependency>
+      <dependency dep="the" dep_index="12" gov="p56lck" gov_index="15">det</dependency>
+      <dependency dep="protein-tyrosine" dep_index="13" gov="p56lck" gov_index="15">amod</dependency>
+      <dependency dep="kinase" dep_index="14" gov="p56lck" gov_index="15">amod</dependency>
+      <dependency dep="p56lck" dep_index="15" gov="coupled" gov_index="10">prep_to</dependency>
+      <dependency dep="can" dep_index="17" gov="act" gov_index="18">aux</dependency>
+      <dependency dep="act" dep_index="18" gov="demonstrate" gov_index="6">ccomp</dependency>
+      <dependency dep="act" dep_index="18" gov="coupled" gov_index="10">conj_and</dependency>
+      <dependency dep="a" dep_index="20" gov="substrate" gov_index="21">det</dependency>
+      <dependency dep="substrate" dep_index="21" gov="act" gov_index="18">prep_as</dependency>
+      <dependency dep="p56lck" dep_index="23" gov="substrate" gov_index="21">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800015" relationship="true">8 10 15</relation>
+      <relation position="800023" relationship="true">8 18 21 23</relation>
+      <relation position="1500023" relationship="false">15 10 6 18 21 23</relation>
+   </relations>
+   <pairs>
+      <pair>800023</pair>
+      <pair>800015</pair>
+   </pairs>
+</root>

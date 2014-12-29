@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Isolation@of@profilin@from@embryonic@chicken@skeletal@muscle@and@evaluation@of@its@interaction@with@different@actin@isoforms@.@</sentence>
+   <tags>
+      <tag pos="16">actin</tag>
+      <tag pos="3">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Isolation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="4" part-of-speech="IN">from</taggedword>
+      <taggedword index="5" part-of-speech="JJ">embryonic</taggedword>
+      <taggedword index="6" part-of-speech="NN">chicken</taggedword>
+      <taggedword index="7" part-of-speech="VBP">skeletal</taggedword>
+      <taggedword index="8" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">evaluation</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="13" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="JJ">different</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Isolation" dep_index="1" gov="skeletal" gov_index="7">nsubj</dependency>
+      <dependency dep="profilin" dep_index="3" gov="Isolation" gov_index="1">prep_of</dependency>
+      <dependency dep="embryonic" dep_index="5" gov="chicken" gov_index="6">amod</dependency>
+      <dependency dep="chicken" dep_index="6" gov="profilin" gov_index="3">prep_from</dependency>
+      <dependency dep="skeletal" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="muscle" dep_index="8" gov="skeletal" gov_index="7">dobj</dependency>
+      <dependency dep="evaluation" dep_index="10" gov="skeletal" gov_index="7">dobj</dependency>
+      <dependency dep="evaluation" dep_index="10" gov="muscle" gov_index="8">conj_and</dependency>
+      <dependency dep="its" dep_index="12" gov="interaction" gov_index="13">poss</dependency>
+      <dependency dep="interaction" dep_index="13" gov="muscle" gov_index="8">prep_of</dependency>
+      <dependency dep="different" dep_index="15" gov="isoforms" gov_index="17">amod</dependency>
+      <dependency dep="actin" dep_index="16" gov="isoforms" gov_index="17">nn</dependency>
+      <dependency dep="isoforms" dep_index="17" gov="skeletal" gov_index="7">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300016" relationship="true">3 1 7 17 16</relation>
+   </relations>
+   <pairs>
+      <pair>300016</pair>
+   </pairs>
+</root>

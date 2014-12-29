@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@three@of@the@cell@lines@with@CTNNB1@mutations@,@complexes@of@beta-catenin@with@alpha-catenin@and@APC@were@detectable@.@</sentence>
+   <tags>
+      <tag pos="17">APC</tag>
+      <tag pos="15">alpha-catenin</tag>
+      <tag pos="13">beta-catenin</tag>
+      <tag pos="8">CTNNB1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="CD">three</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">cell</taggedword>
+      <taggedword index="6" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="CD">CTNNB1</taggedword>
+      <taggedword index="9" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">APC</taggedword>
+      <taggedword index="18" part-of-speech="VBD">were</taggedword>
+      <taggedword index="19" part-of-speech="JJ">detectable</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="three" dep_index="2" gov="detectable" gov_index="19">prep_in</dependency>
+      <dependency dep="the" dep_index="4" gov="lines" gov_index="6">det</dependency>
+      <dependency dep="cell" dep_index="5" gov="lines" gov_index="6">nn</dependency>
+      <dependency dep="lines" dep_index="6" gov="three" gov_index="2">prep_of</dependency>
+      <dependency dep="CTNNB1" dep_index="8" gov="mutations" gov_index="9">num</dependency>
+      <dependency dep="mutations" dep_index="9" gov="lines" gov_index="6">prep_with</dependency>
+      <dependency dep="complexes" dep_index="11" gov="detectable" gov_index="19">nsubj</dependency>
+      <dependency dep="beta-catenin" dep_index="13" gov="complexes" gov_index="11">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="15" gov="beta-catenin" gov_index="13">prep_with</dependency>
+      <dependency dep="APC" dep_index="17" gov="beta-catenin" gov_index="13">prep_with</dependency>
+      <dependency dep="APC" dep_index="17" gov="alpha-catenin" gov_index="15">conj_and</dependency>
+      <dependency dep="were" dep_index="18" gov="detectable" gov_index="19">cop</dependency>
+      <dependency dep="detectable" dep_index="19" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500017" relationship="false">15 13 17</relation>
+      <relation position="1300017" relationship="true"></relation>
+      <relation position="800017" relationship="false">8 9 6 2 19 11 13 17</relation>
+      <relation position="1300015" relationship="true"></relation>
+      <relation position="800015" relationship="false">8 9 6 2 19 11 13 15</relation>
+      <relation position="800013" relationship="false">8 9 6 2 19 11 13</relation>
+   </relations>
+   <pairs>
+      <pair>1300017</pair>
+      <pair>1300015</pair>
+   </pairs>
+</root>

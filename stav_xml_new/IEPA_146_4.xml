@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Time-dependent@redistribution@of@PKC-alpha@,@-delta@and@-epsilon@isoforms@between@the@membrane@and@cytosolic@fractions@occurred@in@response@to@100@pM@AVP@</sentence>
+   <tags>
+      <tag pos="4">PKC-alpha</tag>
+      <tag pos="22">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Time-dependent</taggedword>
+      <taggedword index="2" part-of-speech="NN">redistribution</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">PKC-alpha</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-delta</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">-epsilon</taggedword>
+      <taggedword index="9" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="10" part-of-speech="IN">between</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">membrane</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">cytosolic</taggedword>
+      <taggedword index="15" part-of-speech="NNS">fractions</taggedword>
+      <taggedword index="16" part-of-speech="VBD">occurred</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="NN">response</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="CD">100</taggedword>
+      <taggedword index="21" part-of-speech="NNP">pM</taggedword>
+      <taggedword index="22" part-of-speech="NNP">AVP</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Time-dependent" dep_index="1" gov="redistribution" gov_index="2">amod</dependency>
+      <dependency dep="redistribution" dep_index="2" gov="occurred" gov_index="16">dep</dependency>
+      <dependency dep="PKC-alpha" dep_index="4" gov="isoforms" gov_index="9">amod</dependency>
+      <dependency dep="-delta" dep_index="6" gov="PKC-alpha" gov_index="4">conj_and</dependency>
+      <dependency dep="-delta" dep_index="6" gov="isoforms" gov_index="9">amod</dependency>
+      <dependency dep="-epsilon" dep_index="8" gov="PKC-alpha" gov_index="4">conj_and</dependency>
+      <dependency dep="-epsilon" dep_index="8" gov="isoforms" gov_index="9">amod</dependency>
+      <dependency dep="isoforms" dep_index="9" gov="redistribution" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="11" gov="fractions" gov_index="15">det</dependency>
+      <dependency dep="membrane" dep_index="12" gov="fractions" gov_index="15">amod</dependency>
+      <dependency dep="cytosolic" dep_index="14" gov="membrane" gov_index="12">conj_and</dependency>
+      <dependency dep="cytosolic" dep_index="14" gov="fractions" gov_index="15">amod</dependency>
+      <dependency dep="fractions" dep_index="15" gov="redistribution" gov_index="2">prep_between</dependency>
+      <dependency dep="occurred" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="response" dep_index="18" gov="occurred" gov_index="16">prep_in</dependency>
+      <dependency dep="100" dep_index="20" gov="occurred" gov_index="16">prep_to</dependency>
+      <dependency dep="pM" dep_index="21" gov="AVP" gov_index="22">nn</dependency>
+      <dependency dep="AVP" dep_index="22" gov="occurred" gov_index="16">nsubj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400022" relationship="true">4 9 2 16 22</relation>
+   </relations>
+   <pairs>
+      <pair>400022</pair>
+   </pairs>
+</root>

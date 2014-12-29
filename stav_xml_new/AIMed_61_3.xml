@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Ligand@binding@analysis@revealed@high@affinity@binding@(Kd@=@0.2@nM)@with@approximately@94,000@+/-@7,500@sites/cell@for@125I-@TNF-alpha@and@approximately@5-fold@lower@affinity@for@TNF-beta@(Kd@=@1.1@nM)@with@264,000@+/-@2,000@sites/cell@.@</sentence>
+   <tags>
+      <tag pos="20">TNF-alpha</tag>
+      <tag pos="27">TNF-beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Ligand</taggedword>
+      <taggedword index="2" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="3" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="4" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="5" part-of-speech="JJ">high</taggedword>
+      <taggedword index="6" part-of-speech="RB">affinity</taggedword>
+      <taggedword index="7" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="8" part-of-speech="NN">(Kd</taggedword>
+      <taggedword index="9" part-of-speech="NN">=</taggedword>
+      <taggedword index="10" part-of-speech="CD">0.2</taggedword>
+      <taggedword index="11" part-of-speech="NN">nM)</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="RB">approximately</taggedword>
+      <taggedword index="14" part-of-speech="CD">94,000</taggedword>
+      <taggedword index="15" part-of-speech="NNP">+/-</taggedword>
+      <taggedword index="16" part-of-speech="CD">7,500</taggedword>
+      <taggedword index="17" part-of-speech="JJ">sites/cell</taggedword>
+      <taggedword index="18" part-of-speech="IN">for</taggedword>
+      <taggedword index="19" part-of-speech="NNP">125I-</taggedword>
+      <taggedword index="20" part-of-speech="NNP">TNF-alpha</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="RB">approximately</taggedword>
+      <taggedword index="23" part-of-speech="JJ">5-fold</taggedword>
+      <taggedword index="24" part-of-speech="JJR">lower</taggedword>
+      <taggedword index="25" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="26" part-of-speech="IN">for</taggedword>
+      <taggedword index="27" part-of-speech="JJ">TNF-beta</taggedword>
+      <taggedword index="28" part-of-speech="NN">(Kd</taggedword>
+      <taggedword index="29" part-of-speech="SYM">=</taggedword>
+      <taggedword index="30" part-of-speech="CD">1.1</taggedword>
+      <taggedword index="31" part-of-speech="NN">nM)</taggedword>
+      <taggedword index="32" part-of-speech="IN">with</taggedword>
+      <taggedword index="33" part-of-speech="CD">264,000</taggedword>
+      <taggedword index="34" part-of-speech="NNS">+/-</taggedword>
+      <taggedword index="35" part-of-speech="CD">2,000</taggedword>
+      <taggedword index="36" part-of-speech="JJ">sites/cell</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Ligand" dep_index="1" gov="analysis" gov_index="3">amod</dependency>
+      <dependency dep="binding" dep_index="2" gov="analysis" gov_index="3">amod</dependency>
+      <dependency dep="analysis" dep_index="3" gov="revealed" gov_index="4">nsubj</dependency>
+      <dependency dep="revealed" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="high" dep_index="5" gov="nM)" gov_index="11">amod</dependency>
+      <dependency dep="affinity" dep_index="6" gov="binding" gov_index="7">advmod</dependency>
+      <dependency dep="binding" dep_index="7" gov="nM)" gov_index="11">amod</dependency>
+      <dependency dep="(Kd" dep_index="8" gov="nM)" gov_index="11">nn</dependency>
+      <dependency dep="=" dep_index="9" gov="nM)" gov_index="11">nn</dependency>
+      <dependency dep="0.2" dep_index="10" gov="nM)" gov_index="11">num</dependency>
+      <dependency dep="nM)" dep_index="11" gov="revealed" gov_index="4">dobj</dependency>
+      <dependency dep="approximately" dep_index="13" gov="94,000" gov_index="14">quantmod</dependency>
+      <dependency dep="94,000" dep_index="14" gov="affinity" gov_index="25">num</dependency>
+      <dependency dep="+/-" dep_index="15" gov="affinity" gov_index="25">nn</dependency>
+      <dependency dep="7,500" dep_index="16" gov="affinity" gov_index="25">num</dependency>
+      <dependency dep="sites/cell" dep_index="17" gov="affinity" gov_index="25">amod</dependency>
+      <dependency dep="125I-" dep_index="19" gov="TNF-alpha" gov_index="20">nn</dependency>
+      <dependency dep="TNF-alpha" dep_index="20" gov="sites/cell" gov_index="17">prep_for</dependency>
+      <dependency dep="approximately" dep_index="22" gov="5-fold" gov_index="23">advmod</dependency>
+      <dependency dep="5-fold" dep_index="23" gov="sites/cell" gov_index="17">conj_and</dependency>
+      <dependency dep="5-fold" dep_index="23" gov="affinity" gov_index="25">amod</dependency>
+      <dependency dep="lower" dep_index="24" gov="5-fold" gov_index="23">dep</dependency>
+      <dependency dep="affinity" dep_index="25" gov="nM)" gov_index="11">prep_with</dependency>
+      <dependency dep="TNF-beta" dep_index="27" gov="(Kd" gov_index="28">amod</dependency>
+      <dependency dep="(Kd" dep_index="28" gov="affinity" gov_index="25">prep_for</dependency>
+      <dependency dep="=" dep_index="29" gov="nM)" gov_index="31">dep</dependency>
+      <dependency dep="1.1" dep_index="30" gov="nM)" gov_index="31">num</dependency>
+      <dependency dep="nM)" dep_index="31" gov="nM)" gov_index="11">rcmod</dependency>
+      <dependency dep="264,000" dep_index="33" gov="+/-" gov_index="34">num</dependency>
+      <dependency dep="+/-" dep_index="34" gov="revealed" gov_index="4">prep_with</dependency>
+      <dependency dep="2,000" dep_index="35" gov="sites/cell" gov_index="36">number</dependency>
+      <dependency dep="sites/cell" dep_index="36" gov="+/-" gov_index="34">amod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000027" relationship="false">20 17 25 28 27</relation>
+   </relations>
+   <pairs/>
+</root>

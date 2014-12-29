@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interactions@of@the@Bcl-2@protein@with@itself@and@other@members@of@the@Bcl-2@family@,@including@Bcl-X-L@,@Bcl-X-S@,@Mcl-1@,@and@Bax@,@were@explored@with@a@yeast@two-hybrid@system@.@</sentence>
+   <tags>
+      <tag pos="4">Bcl-2</tag>
+      <tag pos="13">Bcl-2</tag>
+      <tag pos="17">Bcl-X-L</tag>
+      <tag pos="19">Bcl-X-S</tag>
+      <tag pos="21">Mcl-1</tag>
+      <tag pos="24">Bax</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Interactions</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">Bcl-2</taggedword>
+      <taggedword index="5" part-of-speech="NN">protein</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="PRP">itself</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">other</taggedword>
+      <taggedword index="10" part-of-speech="NNS">members</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">Bcl-2</taggedword>
+      <taggedword index="14" part-of-speech="NN">family</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="VBG">including</taggedword>
+      <taggedword index="17" part-of-speech="NNP">Bcl-X-L</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="NNS">Bcl-X-S</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="NNP">Mcl-1</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NNP">Bax</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="VBD">were</taggedword>
+      <taggedword index="27" part-of-speech="VBN">explored</taggedword>
+      <taggedword index="28" part-of-speech="IN">with</taggedword>
+      <taggedword index="29" part-of-speech="DT">a</taggedword>
+      <taggedword index="30" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="31" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="32" part-of-speech="NN">system</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interactions" dep_index="1" gov="explored" gov_index="27">nsubjpass</dependency>
+      <dependency dep="the" dep_index="3" gov="protein" gov_index="5">det</dependency>
+      <dependency dep="Bcl-2" dep_index="4" gov="protein" gov_index="5">nn</dependency>
+      <dependency dep="protein" dep_index="5" gov="Interactions" gov_index="1">prep_of</dependency>
+      <dependency dep="itself" dep_index="7" gov="protein" gov_index="5">prep_with</dependency>
+      <dependency dep="other" dep_index="9" gov="members" gov_index="10">amod</dependency>
+      <dependency dep="members" dep_index="10" gov="Interactions" gov_index="1">prep_of</dependency>
+      <dependency dep="members" dep_index="10" gov="protein" gov_index="5">conj_and</dependency>
+      <dependency dep="the" dep_index="12" gov="family" gov_index="14">det</dependency>
+      <dependency dep="Bcl-2" dep_index="13" gov="family" gov_index="14">nn</dependency>
+      <dependency dep="family" dep_index="14" gov="members" gov_index="10">prep_of</dependency>
+      <dependency dep="Bcl-X-L" dep_index="17" gov="Interactions" gov_index="1">prep_including</dependency>
+      <dependency dep="Bcl-X-S" dep_index="19" gov="Interactions" gov_index="1">prep_including</dependency>
+      <dependency dep="Bcl-X-S" dep_index="19" gov="Bcl-X-L" gov_index="17">conj_and</dependency>
+      <dependency dep="Mcl-1" dep_index="21" gov="Interactions" gov_index="1">prep_including</dependency>
+      <dependency dep="Mcl-1" dep_index="21" gov="Bcl-X-L" gov_index="17">conj_and</dependency>
+      <dependency dep="Bax" dep_index="24" gov="Interactions" gov_index="1">prep_including</dependency>
+      <dependency dep="Bax" dep_index="24" gov="Bcl-X-L" gov_index="17">conj_and</dependency>
+      <dependency dep="were" dep_index="26" gov="explored" gov_index="27">auxpass</dependency>
+      <dependency dep="explored" dep_index="27" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="29" gov="system" gov_index="32">det</dependency>
+      <dependency dep="yeast" dep_index="30" gov="system" gov_index="32">nn</dependency>
+      <dependency dep="two-hybrid" dep_index="31" gov="system" gov_index="32">amod</dependency>
+      <dependency dep="system" dep_index="32" gov="explored" gov_index="27">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400013" relationship="false">4 5 1 10 14 13</relation>
+      <relation position="400017" relationship="true">4 5 1 17</relation>
+      <relation position="400019" relationship="true">4 5 1 19</relation>
+      <relation position="400021" relationship="true">4 5 1 21</relation>
+      <relation position="400024" relationship="true">4 5 1 24</relation>
+      <relation position="1300017" relationship="false">13 14 10 1 17</relation>
+      <relation position="1300019" relationship="false">13 14 10 1 19</relation>
+      <relation position="1300021" relationship="false">13 14 10 1 21</relation>
+      <relation position="1300024" relationship="false">13 14 10 1 24</relation>
+      <relation position="1700019" relationship="false">17 1 19</relation>
+      <relation position="1700021" relationship="false">17 1 21</relation>
+      <relation position="1700024" relationship="false">17 1 24</relation>
+      <relation position="1900021" relationship="false">19 1 21</relation>
+      <relation position="1900024" relationship="false">19 1 24</relation>
+      <relation position="2100024" relationship="false">21 1 24</relation>
+   </relations>
+   <pairs>
+      <pair>400024</pair>
+      <pair>400019</pair>
+      <pair>400017</pair>
+      <pair>400021</pair>
+   </pairs>
+</root>

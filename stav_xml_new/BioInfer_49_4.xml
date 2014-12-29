@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@role@of@profilin@in@the@regulation@of@actin@assembly@has@been@reexamined@.@</sentence>
+   <tags>
+      <tag pos="9">actin</tag>
+      <tag pos="4">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">role</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="12" part-of-speech="VBN">been</taggedword>
+      <taggedword index="13" part-of-speech="VBN">reexamined</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="role" gov_index="2">det</dependency>
+      <dependency dep="role" dep_index="2" gov="reexamined" gov_index="13">nsubjpass</dependency>
+      <dependency dep="profilin" dep_index="4" gov="role" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="6" gov="regulation" gov_index="7">det</dependency>
+      <dependency dep="regulation" dep_index="7" gov="profilin" gov_index="4">prep_in</dependency>
+      <dependency dep="actin" dep_index="9" gov="assembly" gov_index="10">nn</dependency>
+      <dependency dep="assembly" dep_index="10" gov="regulation" gov_index="7">prep_of</dependency>
+      <dependency dep="has" dep_index="11" gov="reexamined" gov_index="13">aux</dependency>
+      <dependency dep="been" dep_index="12" gov="reexamined" gov_index="13">auxpass</dependency>
+      <dependency dep="reexamined" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400009" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>400009</pair>
+   </pairs>
+</root>

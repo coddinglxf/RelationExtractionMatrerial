@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Although@much@has@been@learned@about@these@families@of@proteins@,@future@studies@of@the@Bcl-2@and@IAP@families@are@sure@to@hold@more@exciting@discoveries@and@will@continue@to@reveal@new@strategies@for@combating@human@diseases@.@</sentence>
+   <tags>
+      <tag pos="16">Bcl-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Although</taggedword>
+      <taggedword index="2" part-of-speech="RB">much</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="4" part-of-speech="VBN">been</taggedword>
+      <taggedword index="5" part-of-speech="VBN">learned</taggedword>
+      <taggedword index="6" part-of-speech="IN">about</taggedword>
+      <taggedword index="7" part-of-speech="DT">these</taggedword>
+      <taggedword index="8" part-of-speech="NNS">families</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="JJ">future</taggedword>
+      <taggedword index="13" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NNP">Bcl-2</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNP">IAP</taggedword>
+      <taggedword index="19" part-of-speech="NNS">families</taggedword>
+      <taggedword index="20" part-of-speech="VBP">are</taggedword>
+      <taggedword index="21" part-of-speech="JJ">sure</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="VB">hold</taggedword>
+      <taggedword index="24" part-of-speech="RBR">more</taggedword>
+      <taggedword index="25" part-of-speech="JJ">exciting</taggedword>
+      <taggedword index="26" part-of-speech="NNS">discoveries</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="MD">will</taggedword>
+      <taggedword index="29" part-of-speech="VB">continue</taggedword>
+      <taggedword index="30" part-of-speech="TO">to</taggedword>
+      <taggedword index="31" part-of-speech="VB">reveal</taggedword>
+      <taggedword index="32" part-of-speech="JJ">new</taggedword>
+      <taggedword index="33" part-of-speech="NNS">strategies</taggedword>
+      <taggedword index="34" part-of-speech="IN">for</taggedword>
+      <taggedword index="35" part-of-speech="VBG">combating</taggedword>
+      <taggedword index="36" part-of-speech="JJ">human</taggedword>
+      <taggedword index="37" part-of-speech="NNS">diseases</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Although" dep_index="1" gov="learned" gov_index="5">mark</dependency>
+      <dependency dep="much" dep_index="2" gov="learned" gov_index="5">nsubjpass</dependency>
+      <dependency dep="has" dep_index="3" gov="learned" gov_index="5">aux</dependency>
+      <dependency dep="been" dep_index="4" gov="learned" gov_index="5">auxpass</dependency>
+      <dependency dep="learned" dep_index="5" gov="sure" gov_index="21">advcl</dependency>
+      <dependency dep="these" dep_index="7" gov="families" gov_index="8">det</dependency>
+      <dependency dep="families" dep_index="8" gov="learned" gov_index="5">prep_about</dependency>
+      <dependency dep="proteins" dep_index="10" gov="families" gov_index="8">prep_of</dependency>
+      <dependency dep="future" dep_index="12" gov="studies" gov_index="13">amod</dependency>
+      <dependency dep="studies" dep_index="13" gov="sure" gov_index="21">nsubj</dependency>
+      <dependency dep="studies" dep_index="13" gov="hold" gov_index="23">xsubj</dependency>
+      <dependency dep="studies" dep_index="13" gov="continue" gov_index="29">nsubj</dependency>
+      <dependency dep="studies" dep_index="13" gov="reveal" gov_index="31">xsubj</dependency>
+      <dependency dep="the" dep_index="15" gov="families" gov_index="19">det</dependency>
+      <dependency dep="Bcl-2" dep_index="16" gov="families" gov_index="19">nn</dependency>
+      <dependency dep="IAP" dep_index="18" gov="Bcl-2" gov_index="16">conj_and</dependency>
+      <dependency dep="IAP" dep_index="18" gov="families" gov_index="19">nn</dependency>
+      <dependency dep="families" dep_index="19" gov="studies" gov_index="13">prep_of</dependency>
+      <dependency dep="are" dep_index="20" gov="sure" gov_index="21">cop</dependency>
+      <dependency dep="sure" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="22" gov="hold" gov_index="23">aux</dependency>
+      <dependency dep="hold" dep_index="23" gov="sure" gov_index="21">xcomp</dependency>
+      <dependency dep="more" dep_index="24" gov="exciting" gov_index="25">advmod</dependency>
+      <dependency dep="exciting" dep_index="25" gov="discoveries" gov_index="26">amod</dependency>
+      <dependency dep="discoveries" dep_index="26" gov="hold" gov_index="23">dobj</dependency>
+      <dependency dep="will" dep_index="28" gov="continue" gov_index="29">aux</dependency>
+      <dependency dep="continue" dep_index="29" gov="sure" gov_index="21">conj_and</dependency>
+      <dependency dep="to" dep_index="30" gov="reveal" gov_index="31">aux</dependency>
+      <dependency dep="reveal" dep_index="31" gov="continue" gov_index="29">xcomp</dependency>
+      <dependency dep="new" dep_index="32" gov="strategies" gov_index="33">amod</dependency>
+      <dependency dep="strategies" dep_index="33" gov="reveal" gov_index="31">dobj</dependency>
+      <dependency dep="combating" dep_index="35" gov="reveal" gov_index="31">prepc_for</dependency>
+      <dependency dep="human" dep_index="36" gov="diseases" gov_index="37">amod</dependency>
+      <dependency dep="diseases" dep_index="37" gov="combating" gov_index="35">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

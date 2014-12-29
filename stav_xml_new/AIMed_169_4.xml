@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Two@proteins@have@been@described@as@constituents@of@the@IL-4@receptor@,@a@approximately@140-kDa@glycoprotein@(@IL-4R@)@and@the@gamma@chain@(gammac)@of@the@IL-2 receptor@,@but@neither@of@these@proteins@binds@IL-13@.@</sentence>
+   <tags>
+      <tag pos="10">IL-4</tag>
+      <tag pos="18">IL-4R</tag>
+      <tag pos="27">IL-2 receptor</tag>
+      <tag pos="35">IL-13</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Two</taggedword>
+      <taggedword index="2" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="3" part-of-speech="VBP">have</taggedword>
+      <taggedword index="4" part-of-speech="VBN">been</taggedword>
+      <taggedword index="5" part-of-speech="VBN">described</taggedword>
+      <taggedword index="6" part-of-speech="IN">as</taggedword>
+      <taggedword index="7" part-of-speech="NNS">constituents</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">IL-4</taggedword>
+      <taggedword index="11" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="RB">approximately</taggedword>
+      <taggedword index="15" part-of-speech="JJ">140-kDa</taggedword>
+      <taggedword index="16" part-of-speech="NN">glycoprotein</taggedword>
+      <taggedword index="17" part-of-speech="NNP">(</taggedword>
+      <taggedword index="18" part-of-speech="NNP">IL-4R</taggedword>
+      <taggedword index="19" part-of-speech="NNP">)</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">gamma</taggedword>
+      <taggedword index="23" part-of-speech="NN">chain</taggedword>
+      <taggedword index="24" part-of-speech="NN">(gammac)</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">IL-2 receptor</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="CC">but</taggedword>
+      <taggedword index="30" part-of-speech="DT">neither</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="DT">these</taggedword>
+      <taggedword index="33" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="34" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="35" part-of-speech="JJ">IL-13</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Two" dep_index="1" gov="proteins" gov_index="2">num</dependency>
+      <dependency dep="proteins" dep_index="2" gov="described" gov_index="5">nsubjpass</dependency>
+      <dependency dep="have" dep_index="3" gov="described" gov_index="5">aux</dependency>
+      <dependency dep="been" dep_index="4" gov="described" gov_index="5">auxpass</dependency>
+      <dependency dep="described" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="constituents" dep_index="7" gov="described" gov_index="5">prep_as</dependency>
+      <dependency dep="the" dep_index="9" gov="receptor" gov_index="11">det</dependency>
+      <dependency dep="IL-4" dep_index="10" gov="receptor" gov_index="11">nn</dependency>
+      <dependency dep="receptor" dep_index="11" gov="constituents" gov_index="7">prep_of</dependency>
+      <dependency dep="a" dep_index="13" gov="glycoprotein" gov_index="16">det</dependency>
+      <dependency dep="approximately" dep_index="14" gov="140-kDa" gov_index="15">advmod</dependency>
+      <dependency dep="140-kDa" dep_index="15" gov="glycoprotein" gov_index="16">amod</dependency>
+      <dependency dep="glycoprotein" dep_index="16" gov="described" gov_index="5">prep_as</dependency>
+      <dependency dep="glycoprotein" dep_index="16" gov="constituents" gov_index="7">conj_and</dependency>
+      <dependency dep="(" dep_index="17" gov=")" gov_index="19">nn</dependency>
+      <dependency dep="IL-4R" dep_index="18" gov=")" gov_index="19">nn</dependency>
+      <dependency dep=")" dep_index="19" gov="glycoprotein" gov_index="16">dep</dependency>
+      <dependency dep="the" dep_index="21" gov="(gammac)" gov_index="24">det</dependency>
+      <dependency dep="gamma" dep_index="22" gov="(gammac)" gov_index="24">nn</dependency>
+      <dependency dep="chain" dep_index="23" gov="(gammac)" gov_index="24">nn</dependency>
+      <dependency dep="(gammac)" dep_index="24" gov="described" gov_index="5">prep_as</dependency>
+      <dependency dep="(gammac)" dep_index="24" gov="constituents" gov_index="7">conj_and</dependency>
+      <dependency dep="the" dep_index="26" gov="IL-2 receptor" gov_index="27">det</dependency>
+      <dependency dep="IL-2 receptor" dep_index="27" gov="(gammac)" gov_index="24">prep_of</dependency>
+      <dependency dep="neither" dep_index="30" gov="binds" gov_index="34">nsubj</dependency>
+      <dependency dep="these" dep_index="32" gov="proteins" gov_index="33">det</dependency>
+      <dependency dep="proteins" dep_index="33" gov="neither" gov_index="30">prep_of</dependency>
+      <dependency dep="binds" dep_index="34" gov="described" gov_index="5">conj_but</dependency>
+      <dependency dep="IL-13" dep_index="35" gov="binds" gov_index="34">acomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000018" relationship="false">10 11 7 5 16 19 18</relation>
+      <relation position="1000027" relationship="false">10 11 7 5 24 27</relation>
+      <relation position="1000035" relationship="false">10 11 7 5 34 35</relation>
+      <relation position="1800027" relationship="false">18 19 16 5 24 27</relation>
+      <relation position="1800035" relationship="false">18 19 16 5 34 35</relation>
+      <relation position="2700035" relationship="false">27 24 5 34 35</relation>
+   </relations>
+   <pairs/>
+</root>

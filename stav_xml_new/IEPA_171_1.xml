@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Phospholipase C@(PLC)@activity@was@investigated@by@stimulation@of@membrane@preparations@obtained@from@insulin@(beta-TC3)-@,@somatostatin@(Rin@1027-B2)-@,@and@glucagon@(INR1-G9)-producing@pancreatic@cell@lines@using@the@non-hydrolyzable@GTP@analogue@GTPgammaS@alone@,@the@C-terminal@octapeptide@cholecystokinin@(CCK-8)@,@or@gastrin@</sentence>
+   <tags>
+      <tag pos="1">Phospholipase C</tag>
+      <tag pos="13">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Phospholipase C</taggedword>
+      <taggedword index="2" part-of-speech="JJ">(PLC)</taggedword>
+      <taggedword index="3" part-of-speech="NN">activity</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="VBN">investigated</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">membrane</taggedword>
+      <taggedword index="10" part-of-speech="NNS">preparations</taggedword>
+      <taggedword index="11" part-of-speech="VBN">obtained</taggedword>
+      <taggedword index="12" part-of-speech="IN">from</taggedword>
+      <taggedword index="13" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="14" part-of-speech="JJ">(beta-TC3)-</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NN">somatostatin</taggedword>
+      <taggedword index="17" part-of-speech="NN">(Rin</taggedword>
+      <taggedword index="18" part-of-speech="CD">1027-B2)-</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="JJ">glucagon</taggedword>
+      <taggedword index="22" part-of-speech="JJ">(INR1-G9)-producing</taggedword>
+      <taggedword index="23" part-of-speech="JJ">pancreatic</taggedword>
+      <taggedword index="24" part-of-speech="NN">cell</taggedword>
+      <taggedword index="25" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="26" part-of-speech="VBG">using</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="JJ">non-hydrolyzable</taggedword>
+      <taggedword index="29" part-of-speech="NNP">GTP</taggedword>
+      <taggedword index="30" part-of-speech="NN">analogue</taggedword>
+      <taggedword index="31" part-of-speech="NNS">GTPgammaS</taggedword>
+      <taggedword index="32" part-of-speech="RB">alone</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="JJ">C-terminal</taggedword>
+      <taggedword index="36" part-of-speech="NN">octapeptide</taggedword>
+      <taggedword index="37" part-of-speech="NN">cholecystokinin</taggedword>
+      <taggedword index="38" part-of-speech="CD">(CCK-8)</taggedword>
+      <taggedword index="39" part-of-speech=",">,</taggedword>
+      <taggedword index="40" part-of-speech="CC">or</taggedword>
+      <taggedword index="41" part-of-speech="NN">gastrin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Phospholipase C" dep_index="1" gov="activity" gov_index="3">amod</dependency>
+      <dependency dep="(PLC)" dep_index="2" gov="activity" gov_index="3">amod</dependency>
+      <dependency dep="activity" dep_index="3" gov="investigated" gov_index="5">nsubjpass</dependency>
+      <dependency dep="was" dep_index="4" gov="investigated" gov_index="5">auxpass</dependency>
+      <dependency dep="investigated" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="stimulation" dep_index="7" gov="investigated" gov_index="5">agent</dependency>
+      <dependency dep="membrane" dep_index="9" gov="preparations" gov_index="10">amod</dependency>
+      <dependency dep="preparations" dep_index="10" gov="stimulation" gov_index="7">prep_of</dependency>
+      <dependency dep="obtained" dep_index="11" gov="preparations" gov_index="10">partmod</dependency>
+      <dependency dep="insulin" dep_index="13" gov="obtained" gov_index="11">prep_from</dependency>
+      <dependency dep="(beta-TC3)-" dep_index="14" gov="stimulation" gov_index="7">amod</dependency>
+      <dependency dep="somatostatin" dep_index="16" gov="(Rin" gov_index="17">nn</dependency>
+      <dependency dep="(Rin" dep_index="17" gov="investigated" gov_index="5">agent</dependency>
+      <dependency dep="(Rin" dep_index="17" gov="stimulation" gov_index="7">conj_and</dependency>
+      <dependency dep="1027-B2)-" dep_index="18" gov="(Rin" gov_index="17">dep</dependency>
+      <dependency dep="glucagon" dep_index="21" gov="lines" gov_index="25">amod</dependency>
+      <dependency dep="(INR1-G9)-producing" dep_index="22" gov="lines" gov_index="25">amod</dependency>
+      <dependency dep="pancreatic" dep_index="23" gov="lines" gov_index="25">amod</dependency>
+      <dependency dep="cell" dep_index="24" gov="lines" gov_index="25">nn</dependency>
+      <dependency dep="lines" dep_index="25" gov="investigated" gov_index="5">agent</dependency>
+      <dependency dep="lines" dep_index="25" gov="stimulation" gov_index="7">conj_and</dependency>
+      <dependency dep="using" dep_index="26" gov="lines" gov_index="25">partmod</dependency>
+      <dependency dep="the" dep_index="27" gov="GTPgammaS" gov_index="31">det</dependency>
+      <dependency dep="non-hydrolyzable" dep_index="28" gov="GTPgammaS" gov_index="31">amod</dependency>
+      <dependency dep="GTP" dep_index="29" gov="GTPgammaS" gov_index="31">nn</dependency>
+      <dependency dep="analogue" dep_index="30" gov="GTPgammaS" gov_index="31">nn</dependency>
+      <dependency dep="GTPgammaS" dep_index="31" gov="using" gov_index="26">dobj</dependency>
+      <dependency dep="alone" dep_index="32" gov="using" gov_index="26">advmod</dependency>
+      <dependency dep="the" dep_index="34" gov="cholecystokinin" gov_index="37">det</dependency>
+      <dependency dep="C-terminal" dep_index="35" gov="cholecystokinin" gov_index="37">amod</dependency>
+      <dependency dep="octapeptide" dep_index="36" gov="cholecystokinin" gov_index="37">nn</dependency>
+      <dependency dep="cholecystokinin" dep_index="37" gov="investigated" gov_index="5">agent</dependency>
+      <dependency dep="cholecystokinin" dep_index="37" gov="stimulation" gov_index="7">conj_and</dependency>
+      <dependency dep="(CCK-8)" dep_index="38" gov="cholecystokinin" gov_index="37">dep</dependency>
+      <dependency dep="gastrin" dep_index="41" gov="investigated" gov_index="5">agent</dependency>
+      <dependency dep="gastrin" dep_index="41" gov="stimulation" gov_index="7">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100013" relationship="false">1 3 5 7 10 11 13</relation>
+   </relations>
+   <pairs/>
+</root>

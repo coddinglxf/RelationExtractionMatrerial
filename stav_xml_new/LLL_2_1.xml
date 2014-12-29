@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Transcription@of@ydhD@was@dependent@on@SigE@,@and@the@mRNA@was@detectable@from@2@h@after@the@cessation@of@logarithmic@growth@(T2@of@sporulation)@.@</sentence>
+   <tags>
+      <tag pos="7">SigE</tag>
+      <tag pos="3">ydhD</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Transcription</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">ydhD</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="JJ">dependent</taggedword>
+      <taggedword index="6" part-of-speech="IN">on</taggedword>
+      <taggedword index="7" part-of-speech="NNP">SigE</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">mRNA</taggedword>
+      <taggedword index="12" part-of-speech="VBD">was</taggedword>
+      <taggedword index="13" part-of-speech="JJ">detectable</taggedword>
+      <taggedword index="14" part-of-speech="IN">from</taggedword>
+      <taggedword index="15" part-of-speech="CD">2</taggedword>
+      <taggedword index="16" part-of-speech="NN">h</taggedword>
+      <taggedword index="17" part-of-speech="IN">after</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">cessation</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="JJ">logarithmic</taggedword>
+      <taggedword index="22" part-of-speech="NN">growth</taggedword>
+      <taggedword index="23" part-of-speech="CD">(T2</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="NNP">sporulation)</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Transcription" dep_index="1" gov="dependent" gov_index="5">nsubj</dependency>
+      <dependency dep="ydhD" dep_index="3" gov="Transcription" gov_index="1">prep_of</dependency>
+      <dependency dep="was" dep_index="4" gov="dependent" gov_index="5">cop</dependency>
+      <dependency dep="dependent" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="SigE" dep_index="7" gov="dependent" gov_index="5">prep_on</dependency>
+      <dependency dep="the" dep_index="10" gov="mRNA" gov_index="11">det</dependency>
+      <dependency dep="mRNA" dep_index="11" gov="detectable" gov_index="13">nsubj</dependency>
+      <dependency dep="was" dep_index="12" gov="detectable" gov_index="13">cop</dependency>
+      <dependency dep="detectable" dep_index="13" gov="dependent" gov_index="5">conj_and</dependency>
+      <dependency dep="2" dep_index="15" gov="h" gov_index="16">num</dependency>
+      <dependency dep="h" dep_index="16" gov="detectable" gov_index="13">prep_from</dependency>
+      <dependency dep="the" dep_index="18" gov="cessation" gov_index="19">det</dependency>
+      <dependency dep="cessation" dep_index="19" gov="detectable" gov_index="13">prep_after</dependency>
+      <dependency dep="logarithmic" dep_index="21" gov="growth" gov_index="22">amod</dependency>
+      <dependency dep="growth" dep_index="22" gov="cessation" gov_index="19">prep_of</dependency>
+      <dependency dep="(T2" dep_index="23" gov="growth" gov_index="22">num</dependency>
+      <dependency dep="sporulation)" dep_index="25" gov="growth" gov_index="22">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300007" relationship="true">3 1 5 7</relation>
+   </relations>
+   <pairs>
+      <pair>300007</pair>
+   </pairs>
+</root>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@Syk@-@Lyn@interaction@may@be@dependent@on@the@stage@of@B-cell@differentiation@,@since@Syk@-@Lyn@associations@were@not@detected@in@pre-B@and@myeloma@cell@lines@and@Syk@from@an@immature@B-cell@line@did@not@reassociate@with@Lyn@in@vitro@.@</sentence>
+   <tags>
+      <tag pos="2">Syk</tag>
+      <tag pos="4">Lyn</tag>
+      <tag pos="17">Syk</tag>
+      <tag pos="19">Lyn</tag>
+      <tag pos="31">Syk</tag>
+      <tag pos="41">Lyn</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NNP">Syk</taggedword>
+      <taggedword index="3" part-of-speech="NNP">-</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Lyn</taggedword>
+      <taggedword index="5" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="6" part-of-speech="MD">may</taggedword>
+      <taggedword index="7" part-of-speech="VB">be</taggedword>
+      <taggedword index="8" part-of-speech="JJ">dependent</taggedword>
+      <taggedword index="9" part-of-speech="IN">on</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">stage</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="JJ">B-cell</taggedword>
+      <taggedword index="14" part-of-speech="NN">differentiation</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="IN">since</taggedword>
+      <taggedword index="17" part-of-speech="NNP">Syk</taggedword>
+      <taggedword index="18" part-of-speech=":">-</taggedword>
+      <taggedword index="19" part-of-speech="NNP">Lyn</taggedword>
+      <taggedword index="20" part-of-speech="NNS">associations</taggedword>
+      <taggedword index="21" part-of-speech="VBD">were</taggedword>
+      <taggedword index="22" part-of-speech="RB">not</taggedword>
+      <taggedword index="23" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="JJ">pre-B</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="JJ">myeloma</taggedword>
+      <taggedword index="28" part-of-speech="NN">cell</taggedword>
+      <taggedword index="29" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="NNP">Syk</taggedword>
+      <taggedword index="32" part-of-speech="IN">from</taggedword>
+      <taggedword index="33" part-of-speech="DT">an</taggedword>
+      <taggedword index="34" part-of-speech="JJ">immature</taggedword>
+      <taggedword index="35" part-of-speech="JJ">B-cell</taggedword>
+      <taggedword index="36" part-of-speech="NN">line</taggedword>
+      <taggedword index="37" part-of-speech="VBD">did</taggedword>
+      <taggedword index="38" part-of-speech="RB">not</taggedword>
+      <taggedword index="39" part-of-speech="VB">reassociate</taggedword>
+      <taggedword index="40" part-of-speech="IN">with</taggedword>
+      <taggedword index="41" part-of-speech="NNP">Lyn</taggedword>
+      <taggedword index="42" part-of-speech="IN">in</taggedword>
+      <taggedword index="43" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="44" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="interaction" gov_index="5">det</dependency>
+      <dependency dep="Syk" dep_index="2" gov="interaction" gov_index="5">nn</dependency>
+      <dependency dep="Lyn" dep_index="4" gov="interaction" gov_index="5">nn</dependency>
+      <dependency dep="interaction" dep_index="5" gov="dependent" gov_index="8">nsubj</dependency>
+      <dependency dep="may" dep_index="6" gov="dependent" gov_index="8">aux</dependency>
+      <dependency dep="be" dep_index="7" gov="dependent" gov_index="8">cop</dependency>
+      <dependency dep="dependent" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="stage" gov_index="11">det</dependency>
+      <dependency dep="stage" dep_index="11" gov="dependent" gov_index="8">prep_on</dependency>
+      <dependency dep="B-cell" dep_index="13" gov="differentiation" gov_index="14">amod</dependency>
+      <dependency dep="differentiation" dep_index="14" gov="stage" gov_index="11">prep_of</dependency>
+      <dependency dep="Syk" dep_index="17" gov="dependent" gov_index="8">prep_since</dependency>
+      <dependency dep="Lyn" dep_index="19" gov="associations" gov_index="20">nn</dependency>
+      <dependency dep="associations" dep_index="20" gov="detected" gov_index="23">nsubjpass</dependency>
+      <dependency dep="were" dep_index="21" gov="detected" gov_index="23">auxpass</dependency>
+      <dependency dep="not" dep_index="22" gov="detected" gov_index="23">neg</dependency>
+      <dependency dep="detected" dep_index="23" gov="dependent" gov_index="8">parataxis</dependency>
+      <dependency dep="pre-B" dep_index="25" gov="lines" gov_index="29">amod</dependency>
+      <dependency dep="myeloma" dep_index="27" gov="pre-B" gov_index="25">conj_and</dependency>
+      <dependency dep="myeloma" dep_index="27" gov="lines" gov_index="29">amod</dependency>
+      <dependency dep="cell" dep_index="28" gov="lines" gov_index="29">nn</dependency>
+      <dependency dep="lines" dep_index="29" gov="detected" gov_index="23">prep_in</dependency>
+      <dependency dep="Syk" dep_index="31" gov="reassociate" gov_index="39">nsubj</dependency>
+      <dependency dep="an" dep_index="33" gov="line" gov_index="36">det</dependency>
+      <dependency dep="immature" dep_index="34" gov="line" gov_index="36">amod</dependency>
+      <dependency dep="B-cell" dep_index="35" gov="line" gov_index="36">amod</dependency>
+      <dependency dep="line" dep_index="36" gov="Syk" gov_index="31">prep_from</dependency>
+      <dependency dep="did" dep_index="37" gov="reassociate" gov_index="39">aux</dependency>
+      <dependency dep="not" dep_index="38" gov="reassociate" gov_index="39">neg</dependency>
+      <dependency dep="reassociate" dep_index="39" gov="dependent" gov_index="8">parataxis</dependency>
+      <dependency dep="reassociate" dep_index="39" gov="detected" gov_index="23">conj_and</dependency>
+      <dependency dep="Lyn" dep_index="41" gov="reassociate" gov_index="39">prep_with</dependency>
+      <dependency dep="vitro" dep_index="43" gov="reassociate" gov_index="39">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="true">2 5 4</relation>
+      <relation position="200017" relationship="false">2 5 8 17</relation>
+      <relation position="200019" relationship="false">2 5 8 23 20 19</relation>
+      <relation position="200031" relationship="false">2 5 8 39 31</relation>
+      <relation position="200041" relationship="false">2 5 8 39 41</relation>
+      <relation position="400017" relationship="false">4 5 8 17</relation>
+      <relation position="400019" relationship="false">4 5 8 23 20 19</relation>
+      <relation position="400031" relationship="false">4 5 8 39 31</relation>
+      <relation position="400041" relationship="false">4 5 8 39 41</relation>
+      <relation position="1700019" relationship="true">17 8 23 20 19</relation>
+      <relation position="1700031" relationship="false">17 8 39 31</relation>
+      <relation position="1700041" relationship="false">17 8 39 41</relation>
+      <relation position="1900031" relationship="false">19 20 23 8 39 31</relation>
+      <relation position="1900041" relationship="false">19 20 23 8 39 41</relation>
+      <relation position="3100041" relationship="false">31 39 41</relation>
+   </relations>
+   <pairs>
+      <pair>200004</pair>
+      <pair>1700019</pair>
+   </pairs>
+</root>

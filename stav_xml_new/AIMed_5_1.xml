@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Antiapoptotic@proteins@.@The@bcl-2@and@inhibitor@of@apoptosis@protein@families@.@</sentence>
+   <tags>
+      <tag pos="5">bcl-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Antiapoptotic</taggedword>
+      <taggedword index="2" part-of-speech="NNP">proteins</taggedword>
+      <taggedword index="3" part-of-speech=".">.</taggedword>
+      <taggedword index="4" part-of-speech="DT">The</taggedword>
+      <taggedword index="5" part-of-speech="NN">bcl-2</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">apoptosis</taggedword>
+      <taggedword index="10" part-of-speech="NN">protein</taggedword>
+      <taggedword index="11" part-of-speech="NNS">families</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Antiapoptotic" dep_index="1" gov="proteins" gov_index="2">nn</dependency>
+      <dependency dep="proteins" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="The" dep_index="4" gov="bcl-2" gov_index="5">det</dependency>
+      <dependency dep="bcl-2" dep_index="5" gov="proteins" gov_index="2">dep</dependency>
+      <dependency dep="inhibitor" dep_index="7" gov="proteins" gov_index="2">dep</dependency>
+      <dependency dep="inhibitor" dep_index="7" gov="bcl-2" gov_index="5">conj_and</dependency>
+      <dependency dep="apoptosis" dep_index="9" gov="families" gov_index="11">amod</dependency>
+      <dependency dep="protein" dep_index="10" gov="families" gov_index="11">nn</dependency>
+      <dependency dep="families" dep_index="11" gov="bcl-2" gov_index="5">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

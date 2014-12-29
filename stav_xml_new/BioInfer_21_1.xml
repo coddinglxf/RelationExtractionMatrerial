@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Actophorin@and@profilin@have@opposite@effects@on@the@rate@of@exchange@of@nucleotide@bound@to@actin@monomers@.@</sentence>
+   <tags>
+      <tag pos="16">actin</tag>
+      <tag pos="3">profilin</tag>
+      <tag pos="1">Actophorin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Actophorin</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="4" part-of-speech="VBP">have</taggedword>
+      <taggedword index="5" part-of-speech="JJ">opposite</taggedword>
+      <taggedword index="6" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="7" part-of-speech="IN">on</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">rate</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">exchange</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">nucleotide</taggedword>
+      <taggedword index="14" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech="NNS">monomers</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Actophorin" dep_index="1" gov="have" gov_index="4">nsubj</dependency>
+      <dependency dep="profilin" dep_index="3" gov="Actophorin" gov_index="1">conj_and</dependency>
+      <dependency dep="profilin" dep_index="3" gov="have" gov_index="4">nsubj</dependency>
+      <dependency dep="have" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="opposite" dep_index="5" gov="effects" gov_index="6">amod</dependency>
+      <dependency dep="effects" dep_index="6" gov="have" gov_index="4">dobj</dependency>
+      <dependency dep="the" dep_index="8" gov="rate" gov_index="9">det</dependency>
+      <dependency dep="rate" dep_index="9" gov="effects" gov_index="6">prep_on</dependency>
+      <dependency dep="exchange" dep_index="11" gov="rate" gov_index="9">prep_of</dependency>
+      <dependency dep="nucleotide" dep_index="13" gov="exchange" gov_index="11">prep_of</dependency>
+      <dependency dep="bound" dep_index="14" gov="nucleotide" gov_index="13">partmod</dependency>
+      <dependency dep="actin" dep_index="16" gov="monomers" gov_index="17">nn</dependency>
+      <dependency dep="monomers" dep_index="17" gov="bound" gov_index="14">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300016" relationship="false">3 4 6 9 11 13 14 17 16</relation>
+      <relation position="100016" relationship="false">1 4 6 9 11 13 14 17 16</relation>
+      <relation position="100003" relationship="false">1 4 3</relation>
+   </relations>
+   <pairs/>
+</root>

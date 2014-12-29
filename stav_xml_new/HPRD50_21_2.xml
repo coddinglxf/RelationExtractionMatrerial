@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@to@OX1R@,@the@potency@of@direct@activation@of@CB1@was@not@affected@by@co-expression@with@OX1R@</sentence>
+   <tags>
+      <tag pos="4">OX1R</tag>
+      <tag pos="12">CB1</tag>
+      <tag pos="19">OX1R</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="NNP">OX1R</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">potency</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="10" part-of-speech="NN">activation</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">CB1</taggedword>
+      <taggedword index="13" part-of-speech="VBD">was</taggedword>
+      <taggedword index="14" part-of-speech="RB">not</taggedword>
+      <taggedword index="15" part-of-speech="VBN">affected</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="NN">co-expression</taggedword>
+      <taggedword index="18" part-of-speech="IN">with</taggedword>
+      <taggedword index="19" part-of-speech="NNP">OX1R</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="affected" gov_index="15">prep_in</dependency>
+      <dependency dep="OX1R" dep_index="4" gov="contrast" gov_index="2">prep_to</dependency>
+      <dependency dep="the" dep_index="6" gov="potency" gov_index="7">det</dependency>
+      <dependency dep="potency" dep_index="7" gov="affected" gov_index="15">nsubjpass</dependency>
+      <dependency dep="direct" dep_index="9" gov="activation" gov_index="10">amod</dependency>
+      <dependency dep="activation" dep_index="10" gov="potency" gov_index="7">prep_of</dependency>
+      <dependency dep="CB1" dep_index="12" gov="activation" gov_index="10">prep_of</dependency>
+      <dependency dep="was" dep_index="13" gov="affected" gov_index="15">auxpass</dependency>
+      <dependency dep="not" dep_index="14" gov="affected" gov_index="15">neg</dependency>
+      <dependency dep="affected" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="co-expression" dep_index="17" gov="affected" gov_index="15">agent</dependency>
+      <dependency dep="OX1R" dep_index="19" gov="affected" gov_index="15">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400012" relationship="false">4 2 15 7 10 12</relation>
+      <relation position="400019" relationship="false">4 2 15 19</relation>
+      <relation position="1200019" relationship="false">12 10 7 15 19</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@serum-sensitive@cleavage@site@between@the@two@domains@allows@release@of@the@GFD@from@the@CUB@domain@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">serum-sensitive</taggedword>
+      <taggedword index="3" part-of-speech="NN">cleavage</taggedword>
+      <taggedword index="4" part-of-speech="NN">site</taggedword>
+      <taggedword index="5" part-of-speech="IN">between</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="CD">two</taggedword>
+      <taggedword index="8" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">allows</taggedword>
+      <taggedword index="10" part-of-speech="NN">release</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NNP">GFD</taggedword>
+      <taggedword index="14" part-of-speech="IN">from</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NNP">CUB</taggedword>
+      <taggedword index="17" part-of-speech="NN">domain</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="site" gov_index="4">det</dependency>
+      <dependency dep="serum-sensitive" dep_index="2" gov="site" gov_index="4">amod</dependency>
+      <dependency dep="cleavage" dep_index="3" gov="site" gov_index="4">nn</dependency>
+      <dependency dep="site" dep_index="4" gov="allows" gov_index="9">nsubj</dependency>
+      <dependency dep="the" dep_index="6" gov="domains" gov_index="8">det</dependency>
+      <dependency dep="two" dep_index="7" gov="domains" gov_index="8">num</dependency>
+      <dependency dep="domains" dep_index="8" gov="site" gov_index="4">prep_between</dependency>
+      <dependency dep="allows" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="release" dep_index="10" gov="allows" gov_index="9">dobj</dependency>
+      <dependency dep="the" dep_index="12" gov="GFD" gov_index="13">det</dependency>
+      <dependency dep="GFD" dep_index="13" gov="release" gov_index="10">prep_of</dependency>
+      <dependency dep="the" dep_index="15" gov="domain" gov_index="17">det</dependency>
+      <dependency dep="CUB" dep_index="16" gov="domain" gov_index="17">nn</dependency>
+      <dependency dep="domain" dep_index="17" gov="allows" gov_index="9">prep_from</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

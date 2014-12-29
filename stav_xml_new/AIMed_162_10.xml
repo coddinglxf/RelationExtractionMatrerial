@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@mutant@p53@either@had@no@effect@or@activated@the@transcriptional@activity@of@h-TR beta 1@depending@on@the@type@of@hormone@response@elements@.@</sentence>
+   <tags>
+      <tag pos="5">p53</tag>
+      <tag pos="16">h-TR beta 1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">mutant</taggedword>
+      <taggedword index="5" part-of-speech="NN">p53</taggedword>
+      <taggedword index="6" part-of-speech="RB">either</taggedword>
+      <taggedword index="7" part-of-speech="VBD">had</taggedword>
+      <taggedword index="8" part-of-speech="DT">no</taggedword>
+      <taggedword index="9" part-of-speech="NN">effect</taggedword>
+      <taggedword index="10" part-of-speech="CC">or</taggedword>
+      <taggedword index="11" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="14" part-of-speech="NN">activity</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="CD">h-TR beta 1</taggedword>
+      <taggedword index="17" part-of-speech="VBG">depending</taggedword>
+      <taggedword index="18" part-of-speech="IN">on</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">type</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NN">hormone</taggedword>
+      <taggedword index="23" part-of-speech="NN">response</taggedword>
+      <taggedword index="24" part-of-speech="NNS">elements</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="had" gov_index="7">prep_in</dependency>
+      <dependency dep="mutant" dep_index="4" gov="p53" gov_index="5">amod</dependency>
+      <dependency dep="p53" dep_index="5" gov="had" gov_index="7">nsubj</dependency>
+      <dependency dep="p53" dep_index="5" gov="activated" gov_index="11">nsubj</dependency>
+      <dependency dep="either" dep_index="6" gov="had" gov_index="7">advmod</dependency>
+      <dependency dep="had" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="no" dep_index="8" gov="effect" gov_index="9">det</dependency>
+      <dependency dep="effect" dep_index="9" gov="had" gov_index="7">dobj</dependency>
+      <dependency dep="activated" dep_index="11" gov="had" gov_index="7">conj_or</dependency>
+      <dependency dep="the" dep_index="12" gov="activity" gov_index="14">det</dependency>
+      <dependency dep="transcriptional" dep_index="13" gov="activity" gov_index="14">amod</dependency>
+      <dependency dep="activity" dep_index="14" gov="activated" gov_index="11">dobj</dependency>
+      <dependency dep="h-TR beta 1" dep_index="16" gov="activity" gov_index="14">prep_of</dependency>
+      <dependency dep="on" dep_index="18" gov="activated" gov_index="11">prepc_depending_on</dependency>
+      <dependency dep="the" dep_index="19" gov="type" gov_index="20">det</dependency>
+      <dependency dep="type" dep_index="20" gov="activated" gov_index="11">pobj</dependency>
+      <dependency dep="hormone" dep_index="22" gov="elements" gov_index="24">nn</dependency>
+      <dependency dep="response" dep_index="23" gov="elements" gov_index="24">nn</dependency>
+      <dependency dep="elements" dep_index="24" gov="type" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500016" relationship="false">5 11 14 16</relation>
+   </relations>
+   <pairs/>
+</root>

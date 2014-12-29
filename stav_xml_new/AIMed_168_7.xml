@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Biophysical@studies@indicated@that@the@F93A@mutation@does@not@result@in@gross@structural@alterations@in@the@EBP@.@</sentence>
+   <tags>
+      <tag pos="17">EBP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Biophysical</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="VBD">indicated</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NNP">F93A</taggedword>
+      <taggedword index="7" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="9" part-of-speech="RB">not</taggedword>
+      <taggedword index="10" part-of-speech="VB">result</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJ">gross</taggedword>
+      <taggedword index="13" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="14" part-of-speech="NNS">alterations</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NNP">EBP</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Biophysical" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="indicated" gov_index="3">nsubj</dependency>
+      <dependency dep="indicated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="result" gov_index="10">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="mutation" gov_index="7">det</dependency>
+      <dependency dep="F93A" dep_index="6" gov="mutation" gov_index="7">nn</dependency>
+      <dependency dep="mutation" dep_index="7" gov="result" gov_index="10">nsubj</dependency>
+      <dependency dep="does" dep_index="8" gov="result" gov_index="10">aux</dependency>
+      <dependency dep="not" dep_index="9" gov="result" gov_index="10">neg</dependency>
+      <dependency dep="result" dep_index="10" gov="indicated" gov_index="3">ccomp</dependency>
+      <dependency dep="gross" dep_index="12" gov="alterations" gov_index="14">amod</dependency>
+      <dependency dep="structural" dep_index="13" gov="alterations" gov_index="14">amod</dependency>
+      <dependency dep="alterations" dep_index="14" gov="result" gov_index="10">prep_in</dependency>
+      <dependency dep="the" dep_index="16" gov="EBP" gov_index="17">det</dependency>
+      <dependency dep="EBP" dep_index="17" gov="alterations" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

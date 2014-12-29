@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Neuropilin-1@mediates@collapsin-1@/@semaphorin III@inhibition@of@endothelial@cell@motility@:@functional@competition@of@collapsin-1@and@vascular endothelial growth factor-165@.@</sentence>
+   <tags>
+      <tag pos="3">collapsin-1</tag>
+      <tag pos="17">vascular endothelial growth factor-165</tag>
+      <tag pos="5">semaphorin III</tag>
+      <tag pos="1">Neuropilin-1</tag>
+      <tag pos="15">collapsin-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Neuropilin-1</taggedword>
+      <taggedword index="2" part-of-speech="JJ">mediates</taggedword>
+      <taggedword index="3" part-of-speech="JJ">collapsin-1</taggedword>
+      <taggedword index="4" part-of-speech=":">/</taggedword>
+      <taggedword index="5" part-of-speech="JJ">semaphorin III</taggedword>
+      <taggedword index="6" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">endothelial</taggedword>
+      <taggedword index="9" part-of-speech="NN">cell</taggedword>
+      <taggedword index="10" part-of-speech="NN">motility</taggedword>
+      <taggedword index="11" part-of-speech=":">:</taggedword>
+      <taggedword index="12" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="13" part-of-speech="NN">competition</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">collapsin-1</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="JJ">vascular endothelial growth factor-165</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Neuropilin-1" dep_index="1" gov="inhibition" gov_index="6">dep</dependency>
+      <dependency dep="mediates" dep_index="2" gov="collapsin-1" gov_index="3">amod</dependency>
+      <dependency dep="collapsin-1" dep_index="3" gov="inhibition" gov_index="6">dep</dependency>
+      <dependency dep="/" dep_index="4" gov="inhibition" gov_index="6">punct</dependency>
+      <dependency dep="semaphorin III" dep_index="5" gov="inhibition" gov_index="6">amod</dependency>
+      <dependency dep="inhibition" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="endothelial" dep_index="8" gov="motility" gov_index="10">amod</dependency>
+      <dependency dep="cell" dep_index="9" gov="motility" gov_index="10">nn</dependency>
+      <dependency dep="motility" dep_index="10" gov="inhibition" gov_index="6">prep_of</dependency>
+      <dependency dep="functional" dep_index="12" gov="competition" gov_index="13">amod</dependency>
+      <dependency dep="competition" dep_index="13" gov="inhibition" gov_index="6">dep</dependency>
+      <dependency dep="collapsin-1" dep_index="15" gov="competition" gov_index="13">prep_of</dependency>
+      <dependency dep="vascular endothelial growth factor-165" dep_index="17" gov="competition" gov_index="13">prep_of</dependency>
+      <dependency dep="vascular endothelial growth factor-165" dep_index="17" gov="collapsin-1" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300017" relationship="false">3 6 13 17</relation>
+      <relation position="300005" relationship="false">3 6 5</relation>
+      <relation position="100003" relationship="true">1 6 3</relation>
+      <relation position="300015" relationship="false">3 6 13 15</relation>
+      <relation position="500017" relationship="false">5 6 13 17</relation>
+      <relation position="100017" relationship="false">1 6 13 17</relation>
+      <relation position="1500017" relationship="true">15 13 17</relation>
+      <relation position="100005" relationship="true">1 6 5</relation>
+      <relation position="500015" relationship="false">5 6 13 15</relation>
+      <relation position="100015" relationship="false">1 6 13 15</relation>
+   </relations>
+   <pairs>
+      <pair>100005</pair>
+      <pair>1500017</pair>
+      <pair>100003</pair>
+   </pairs>
+</root>

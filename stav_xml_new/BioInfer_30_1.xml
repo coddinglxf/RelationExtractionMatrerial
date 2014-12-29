@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>After@elution@of@the@three@actin-binding proteins@,@actin@and@profilin@were@recovered@from@the@DNase I@column@with@2@M@urea@solution@.@</sentence>
+   <tags>
+      <tag pos="8">actin</tag>
+      <tag pos="15">DNase I</tag>
+      <tag pos="6">actin-binding proteins</tag>
+      <tag pos="10">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">After</taggedword>
+      <taggedword index="2" part-of-speech="NN">elution</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="CD">three</taggedword>
+      <taggedword index="6" part-of-speech="NNS">actin-binding proteins</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">actin</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="11" part-of-speech="VBD">were</taggedword>
+      <taggedword index="12" part-of-speech="VBN">recovered</taggedword>
+      <taggedword index="13" part-of-speech="IN">from</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNP">DNase I</taggedword>
+      <taggedword index="16" part-of-speech="NN">column</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="CD">2</taggedword>
+      <taggedword index="19" part-of-speech="NNP">M</taggedword>
+      <taggedword index="20" part-of-speech="NNP">urea</taggedword>
+      <taggedword index="21" part-of-speech="NN">solution</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="elution" dep_index="2" gov="recovered" gov_index="12">prep_after</dependency>
+      <dependency dep="the" dep_index="4" gov="actin-binding proteins" gov_index="6">det</dependency>
+      <dependency dep="three" dep_index="5" gov="actin-binding proteins" gov_index="6">num</dependency>
+      <dependency dep="actin-binding proteins" dep_index="6" gov="elution" gov_index="2">prep_of</dependency>
+      <dependency dep="actin" dep_index="8" gov="recovered" gov_index="12">nsubjpass</dependency>
+      <dependency dep="profilin" dep_index="10" gov="actin" gov_index="8">conj_and</dependency>
+      <dependency dep="profilin" dep_index="10" gov="recovered" gov_index="12">nsubjpass</dependency>
+      <dependency dep="were" dep_index="11" gov="recovered" gov_index="12">auxpass</dependency>
+      <dependency dep="recovered" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="column" gov_index="16">det</dependency>
+      <dependency dep="DNase I" dep_index="15" gov="column" gov_index="16">nn</dependency>
+      <dependency dep="column" dep_index="16" gov="recovered" gov_index="12">prep_from</dependency>
+      <dependency dep="2" dep_index="18" gov="solution" gov_index="21">num</dependency>
+      <dependency dep="M" dep_index="19" gov="solution" gov_index="21">nn</dependency>
+      <dependency dep="urea" dep_index="20" gov="solution" gov_index="21">nn</dependency>
+      <dependency dep="solution" dep_index="21" gov="recovered" gov_index="12">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800015" relationship="false">8 12 16 15</relation>
+      <relation position="600008" relationship="false">6 2 12 8</relation>
+      <relation position="800010" relationship="false">8 12 10</relation>
+      <relation position="600015" relationship="false">6 2 12 16 15</relation>
+      <relation position="1000015" relationship="false">10 12 16 15</relation>
+      <relation position="600010" relationship="false">6 2 12 10</relation>
+   </relations>
+   <pairs/>
+</root>

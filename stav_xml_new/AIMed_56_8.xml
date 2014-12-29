@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>TRAP@mRNA@is@expressed@in@a@T@cell-specific@fashion@with@a@maximum@at@8@h@after@stimulation@.@</sentence>
+   <tags>
+      <tag pos="1">TRAP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">TRAP</taggedword>
+      <taggedword index="2" part-of-speech="NNP">mRNA</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="4" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NNP">T</taggedword>
+      <taggedword index="8" part-of-speech="JJ">cell-specific</taggedword>
+      <taggedword index="9" part-of-speech="NN">fashion</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="NN">maximum</taggedword>
+      <taggedword index="13" part-of-speech="IN">at</taggedword>
+      <taggedword index="14" part-of-speech="CD">8</taggedword>
+      <taggedword index="15" part-of-speech="NN">h</taggedword>
+      <taggedword index="16" part-of-speech="IN">after</taggedword>
+      <taggedword index="17" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="TRAP" dep_index="1" gov="mRNA" gov_index="2">nn</dependency>
+      <dependency dep="mRNA" dep_index="2" gov="expressed" gov_index="4">nsubjpass</dependency>
+      <dependency dep="is" dep_index="3" gov="expressed" gov_index="4">auxpass</dependency>
+      <dependency dep="expressed" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="6" gov="fashion" gov_index="9">det</dependency>
+      <dependency dep="T" dep_index="7" gov="fashion" gov_index="9">nn</dependency>
+      <dependency dep="cell-specific" dep_index="8" gov="fashion" gov_index="9">amod</dependency>
+      <dependency dep="fashion" dep_index="9" gov="expressed" gov_index="4">prep_in</dependency>
+      <dependency dep="a" dep_index="11" gov="maximum" gov_index="12">quantmod</dependency>
+      <dependency dep="maximum" dep_index="12" gov="h" gov_index="15">num</dependency>
+      <dependency dep="at" dep_index="13" gov="maximum" gov_index="12">quantmod</dependency>
+      <dependency dep="8" dep_index="14" gov="maximum" gov_index="12">number</dependency>
+      <dependency dep="h" dep_index="15" gov="expressed" gov_index="4">prep_with</dependency>
+      <dependency dep="stimulation" dep_index="17" gov="expressed" gov_index="4">prep_after</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

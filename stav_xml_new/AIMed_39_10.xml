@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Collectively@,@the@novel@function@of@PS1@via@QM@/@Jif-1@influences@c-jun@-mediated@transcription@and@apoptosis@.@</sentence>
+   <tags>
+      <tag pos="7">PS1</tag>
+      <tag pos="9">QM</tag>
+      <tag pos="11">Jif-1</tag>
+      <tag pos="13">c-jun</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Collectively</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">novel</taggedword>
+      <taggedword index="5" part-of-speech="NN">function</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNP">PS1</taggedword>
+      <taggedword index="8" part-of-speech="IN">via</taggedword>
+      <taggedword index="9" part-of-speech="NNP">QM</taggedword>
+      <taggedword index="10" part-of-speech="NNP">/</taggedword>
+      <taggedword index="11" part-of-speech="NNS">Jif-1</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">influences</taggedword>
+      <taggedword index="13" part-of-speech="JJ">c-jun</taggedword>
+      <taggedword index="14" part-of-speech="JJ">-mediated</taggedword>
+      <taggedword index="15" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">apoptosis</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Collectively" dep_index="1" gov="influences" gov_index="12">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="function" gov_index="5">det</dependency>
+      <dependency dep="novel" dep_index="4" gov="function" gov_index="5">nn</dependency>
+      <dependency dep="function" dep_index="5" gov="influences" gov_index="12">nsubj</dependency>
+      <dependency dep="function" dep_index="5" gov="apoptosis" gov_index="17">nsubj</dependency>
+      <dependency dep="PS1" dep_index="7" gov="function" gov_index="5">prep_of</dependency>
+      <dependency dep="QM" dep_index="9" gov="Jif-1" gov_index="11">nn</dependency>
+      <dependency dep="/" dep_index="10" gov="Jif-1" gov_index="11">nn</dependency>
+      <dependency dep="Jif-1" dep_index="11" gov="PS1" gov_index="7">prep_via</dependency>
+      <dependency dep="influences" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="c-jun" dep_index="13" gov="transcription" gov_index="15">amod</dependency>
+      <dependency dep="-mediated" dep_index="14" gov="transcription" gov_index="15">amod</dependency>
+      <dependency dep="transcription" dep_index="15" gov="influences" gov_index="12">dobj</dependency>
+      <dependency dep="apoptosis" dep_index="17" gov="influences" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false"></relation>
+      <relation position="700011" relationship="false"></relation>
+      <relation position="700013" relationship="false">7 5 12 15 13</relation>
+      <relation position="900011" relationship="false"></relation>
+      <relation position="900013" relationship="false">9 11 7 5 12 15 13</relation>
+      <relation position="1100013" relationship="false">11 7 5 12 15 13</relation>
+   </relations>
+   <pairs/>
+</root>

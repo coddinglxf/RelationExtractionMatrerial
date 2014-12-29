@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Pituitary@GH@triggered@the@tyrosine@phosphorylation@of@Janus kinase 2@(@Jak2@)@and@STAT3@in@neutrophils@</sentence>
+   <tags>
+      <tag pos="8">Janus kinase 2</tag>
+      <tag pos="10">Jak2</tag>
+      <tag pos="13">STAT3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Pituitary</taggedword>
+      <taggedword index="2" part-of-speech="NNP">GH</taggedword>
+      <taggedword index="3" part-of-speech="JJ">triggered</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="6" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">Janus kinase 2</taggedword>
+      <taggedword index="9" part-of-speech="VBG">(</taggedword>
+      <taggedword index="10" part-of-speech="NNS">Jak2</taggedword>
+      <taggedword index="11" part-of-speech="NNP">)</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NNP">STAT3</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NNS">neutrophils</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Pituitary" dep_index="1" gov="GH" gov_index="2">nn</dependency>
+      <dependency dep="GH" dep_index="2" gov="triggered" gov_index="3">nsubj</dependency>
+      <dependency dep="triggered" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="phosphorylation" gov_index="6">det</dependency>
+      <dependency dep="tyrosine" dep_index="5" gov="phosphorylation" gov_index="6">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="6" gov="triggered" gov_index="3">dobj</dependency>
+      <dependency dep="Janus kinase 2" dep_index="8" gov=")" gov_index="11">amod</dependency>
+      <dependency dep="(" dep_index="9" gov=")" gov_index="11">amod</dependency>
+      <dependency dep="Jak2" dep_index="10" gov=")" gov_index="11">nn</dependency>
+      <dependency dep=")" dep_index="11" gov="phosphorylation" gov_index="6">prep_of</dependency>
+      <dependency dep="STAT3" dep_index="13" gov="phosphorylation" gov_index="6">prep_of</dependency>
+      <dependency dep="STAT3" dep_index="13" gov=")" gov_index="11">conj_and</dependency>
+      <dependency dep="neutrophils" dep_index="15" gov="triggered" gov_index="3">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 11 10</relation>
+      <relation position="800013" relationship="false">8 11 6 13</relation>
+      <relation position="1000013" relationship="false">10 11 6 13</relation>
+   </relations>
+   <pairs/>
+</root>

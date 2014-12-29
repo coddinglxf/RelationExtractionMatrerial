@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@@,@TR6@may@play@a@regulatory@role@for@suppressing@in@FasL@-@and@LIGHT@-mediated@cell@death@@.@</sentence>
+   <tags>
+      <tag pos="4">TR6</tag>
+      <tag pos="13">FasL</tag>
+      <tag pos="16">LIGHT</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech="JJ"></taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">TR6</taggedword>
+      <taggedword index="5" part-of-speech="MD">may</taggedword>
+      <taggedword index="6" part-of-speech="VB">play</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="9" part-of-speech="NN">role</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="VBG">suppressing</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NNP">FasL</taggedword>
+      <taggedword index="14" part-of-speech=":">-</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="VB">LIGHT</taggedword>
+      <taggedword index="17" part-of-speech="JJ">-mediated</taggedword>
+      <taggedword index="18" part-of-speech="NN">cell</taggedword>
+      <taggedword index="19" part-of-speech="NN">death</taggedword>
+      <taggedword index="20" part-of-speech="NNS"></taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="" gov_index="2">advmod</dependency>
+      <dependency dep="" dep_index="2" gov="play" gov_index="6">ccomp</dependency>
+      <dependency dep="TR6" dep_index="4" gov="play" gov_index="6">nsubj</dependency>
+      <dependency dep="TR6" dep_index="4" gov="LIGHT" gov_index="16">nsubj</dependency>
+      <dependency dep="may" dep_index="5" gov="play" gov_index="6">aux</dependency>
+      <dependency dep="play" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="7" gov="role" gov_index="9">det</dependency>
+      <dependency dep="regulatory" dep_index="8" gov="role" gov_index="9">amod</dependency>
+      <dependency dep="role" dep_index="9" gov="play" gov_index="6">dobj</dependency>
+      <dependency dep="suppressing" dep_index="11" gov="play" gov_index="6">prepc_for</dependency>
+      <dependency dep="FasL" dep_index="13" gov="suppressing" gov_index="11">prep_in</dependency>
+      <dependency dep="LIGHT" dep_index="16" gov="play" gov_index="6">conj_and</dependency>
+      <dependency dep="-mediated" dep_index="17" gov="" gov_index="20">amod</dependency>
+      <dependency dep="cell" dep_index="18" gov="" gov_index="20">nn</dependency>
+      <dependency dep="death" dep_index="19" gov="" gov_index="20">nn</dependency>
+      <dependency dep="" dep_index="20" gov="LIGHT" gov_index="16">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400013" relationship="false">4 6 11 13</relation>
+      <relation position="400016" relationship="false"></relation>
+      <relation position="1300016" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

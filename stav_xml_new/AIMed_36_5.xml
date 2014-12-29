@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Because@structurally@related@apolipoproteins@do@not@interact@with@the@Abeta@C-terminal@domain@but@inhibit@viral@fusion@,@we@suggested@that@interactions@existing@between@fusogenic@peptides@and@apolipoproteins@are@selective@and@responsible@for@the@inhibition@of@fusion@.@</sentence>
+   <tags>
+      <tag pos="10">Abeta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Because</taggedword>
+      <taggedword index="2" part-of-speech="RB">structurally</taggedword>
+      <taggedword index="3" part-of-speech="VBN">related</taggedword>
+      <taggedword index="4" part-of-speech="NNS">apolipoproteins</taggedword>
+      <taggedword index="5" part-of-speech="VBP">do</taggedword>
+      <taggedword index="6" part-of-speech="RB">not</taggedword>
+      <taggedword index="7" part-of-speech="VB">interact</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NNP">Abeta</taggedword>
+      <taggedword index="11" part-of-speech="NNP">C-terminal</taggedword>
+      <taggedword index="12" part-of-speech="NN">domain</taggedword>
+      <taggedword index="13" part-of-speech="CC">but</taggedword>
+      <taggedword index="14" part-of-speech="VBP">inhibit</taggedword>
+      <taggedword index="15" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="16" part-of-speech="NN">fusion</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="PRP">we</taggedword>
+      <taggedword index="19" part-of-speech="VBD">suggested</taggedword>
+      <taggedword index="20" part-of-speech="IN">that</taggedword>
+      <taggedword index="21" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="22" part-of-speech="VBG">existing</taggedword>
+      <taggedword index="23" part-of-speech="IN">between</taggedword>
+      <taggedword index="24" part-of-speech="JJ">fusogenic</taggedword>
+      <taggedword index="25" part-of-speech="NNS">peptides</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="NNS">apolipoproteins</taggedword>
+      <taggedword index="28" part-of-speech="VBP">are</taggedword>
+      <taggedword index="29" part-of-speech="JJ">selective</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="JJ">responsible</taggedword>
+      <taggedword index="32" part-of-speech="IN">for</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="35" part-of-speech="IN">of</taggedword>
+      <taggedword index="36" part-of-speech="NN">fusion</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Because" dep_index="1" gov="interact" gov_index="7">mark</dependency>
+      <dependency dep="structurally" dep_index="2" gov="related" gov_index="3">advmod</dependency>
+      <dependency dep="related" dep_index="3" gov="apolipoproteins" gov_index="4">amod</dependency>
+      <dependency dep="apolipoproteins" dep_index="4" gov="interact" gov_index="7">nsubj</dependency>
+      <dependency dep="apolipoproteins" dep_index="4" gov="inhibit" gov_index="14">nsubj</dependency>
+      <dependency dep="do" dep_index="5" gov="interact" gov_index="7">aux</dependency>
+      <dependency dep="not" dep_index="6" gov="interact" gov_index="7">neg</dependency>
+      <dependency dep="interact" dep_index="7" gov="suggested" gov_index="19">advcl</dependency>
+      <dependency dep="the" dep_index="9" gov="domain" gov_index="12">det</dependency>
+      <dependency dep="Abeta" dep_index="10" gov="domain" gov_index="12">nn</dependency>
+      <dependency dep="C-terminal" dep_index="11" gov="domain" gov_index="12">nn</dependency>
+      <dependency dep="domain" dep_index="12" gov="interact" gov_index="7">prep_with</dependency>
+      <dependency dep="inhibit" dep_index="14" gov="interact" gov_index="7">conj_but</dependency>
+      <dependency dep="inhibit" dep_index="14" gov="suggested" gov_index="19">advcl</dependency>
+      <dependency dep="viral" dep_index="15" gov="fusion" gov_index="16">amod</dependency>
+      <dependency dep="fusion" dep_index="16" gov="inhibit" gov_index="14">dobj</dependency>
+      <dependency dep="we" dep_index="18" gov="suggested" gov_index="19">nsubj</dependency>
+      <dependency dep="suggested" dep_index="19" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="20" gov="selective" gov_index="29">mark</dependency>
+      <dependency dep="interactions" dep_index="21" gov="selective" gov_index="29">nsubj</dependency>
+      <dependency dep="interactions" dep_index="21" gov="responsible" gov_index="31">nsubj</dependency>
+      <dependency dep="existing" dep_index="22" gov="interactions" gov_index="21">amod</dependency>
+      <dependency dep="fusogenic" dep_index="24" gov="peptides" gov_index="25">amod</dependency>
+      <dependency dep="peptides" dep_index="25" gov="interactions" gov_index="21">prep_between</dependency>
+      <dependency dep="apolipoproteins" dep_index="27" gov="interactions" gov_index="21">prep_between</dependency>
+      <dependency dep="apolipoproteins" dep_index="27" gov="peptides" gov_index="25">conj_and</dependency>
+      <dependency dep="are" dep_index="28" gov="selective" gov_index="29">cop</dependency>
+      <dependency dep="selective" dep_index="29" gov="suggested" gov_index="19">ccomp</dependency>
+      <dependency dep="responsible" dep_index="31" gov="suggested" gov_index="19">ccomp</dependency>
+      <dependency dep="responsible" dep_index="31" gov="selective" gov_index="29">conj_and</dependency>
+      <dependency dep="the" dep_index="33" gov="inhibition" gov_index="34">det</dependency>
+      <dependency dep="inhibition" dep_index="34" gov="selective" gov_index="29">prep_for</dependency>
+      <dependency dep="fusion" dep_index="36" gov="inhibition" gov_index="34">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

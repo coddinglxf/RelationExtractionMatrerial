@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@demonstrate@the@importance@of@CSF@cell@count@and@protein@determination@in@assessment@of@the@severity@of@central@nervous@system@involvement@and@reinforces@the@importance@of@laboratory@diagnosis@to@assess@the@stage@of@the@disease@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">importance</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">CSF</taggedword>
+      <taggedword index="8" part-of-speech="NN">cell</taggedword>
+      <taggedword index="9" part-of-speech="NN">count</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">protein</taggedword>
+      <taggedword index="12" part-of-speech="NN">determination</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">assessment</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">severity</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">central</taggedword>
+      <taggedword index="20" part-of-speech="JJ">nervous</taggedword>
+      <taggedword index="21" part-of-speech="NN">system</taggedword>
+      <taggedword index="22" part-of-speech="NN">involvement</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="VBZ">reinforces</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">importance</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="NN">laboratory</taggedword>
+      <taggedword index="29" part-of-speech="NN">diagnosis</taggedword>
+      <taggedword index="30" part-of-speech="TO">to</taggedword>
+      <taggedword index="31" part-of-speech="VB">assess</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">stage</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="DT">the</taggedword>
+      <taggedword index="36" part-of-speech="NN">disease</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="demonstrate" gov_index="3">nsubj</dependency>
+      <dependency dep="results" dep_index="2" gov="reinforces" gov_index="24">nsubj</dependency>
+      <dependency dep="results" dep_index="2" gov="assess" gov_index="31">xsubj</dependency>
+      <dependency dep="demonstrate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="importance" gov_index="5">det</dependency>
+      <dependency dep="importance" dep_index="5" gov="demonstrate" gov_index="3">dobj</dependency>
+      <dependency dep="CSF" dep_index="7" gov="count" gov_index="9">nn</dependency>
+      <dependency dep="cell" dep_index="8" gov="count" gov_index="9">nn</dependency>
+      <dependency dep="count" dep_index="9" gov="importance" gov_index="5">prep_of</dependency>
+      <dependency dep="protein" dep_index="11" gov="determination" gov_index="12">nn</dependency>
+      <dependency dep="determination" dep_index="12" gov="importance" gov_index="5">prep_of</dependency>
+      <dependency dep="determination" dep_index="12" gov="count" gov_index="9">conj_and</dependency>
+      <dependency dep="assessment" dep_index="14" gov="count" gov_index="9">prep_in</dependency>
+      <dependency dep="the" dep_index="16" gov="severity" gov_index="17">det</dependency>
+      <dependency dep="severity" dep_index="17" gov="assessment" gov_index="14">prep_of</dependency>
+      <dependency dep="central" dep_index="19" gov="involvement" gov_index="22">amod</dependency>
+      <dependency dep="nervous" dep_index="20" gov="involvement" gov_index="22">amod</dependency>
+      <dependency dep="system" dep_index="21" gov="involvement" gov_index="22">nn</dependency>
+      <dependency dep="involvement" dep_index="22" gov="severity" gov_index="17">prep_of</dependency>
+      <dependency dep="reinforces" dep_index="24" gov="demonstrate" gov_index="3">conj_and</dependency>
+      <dependency dep="the" dep_index="25" gov="importance" gov_index="26">det</dependency>
+      <dependency dep="importance" dep_index="26" gov="reinforces" gov_index="24">dobj</dependency>
+      <dependency dep="laboratory" dep_index="28" gov="diagnosis" gov_index="29">nn</dependency>
+      <dependency dep="diagnosis" dep_index="29" gov="importance" gov_index="26">prep_of</dependency>
+      <dependency dep="to" dep_index="30" gov="assess" gov_index="31">aux</dependency>
+      <dependency dep="assess" dep_index="31" gov="reinforces" gov_index="24">xcomp</dependency>
+      <dependency dep="the" dep_index="32" gov="stage" gov_index="33">det</dependency>
+      <dependency dep="stage" dep_index="33" gov="assess" gov_index="31">dobj</dependency>
+      <dependency dep="the" dep_index="35" gov="disease" gov_index="36">det</dependency>
+      <dependency dep="disease" dep_index="36" gov="stage" gov_index="33">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

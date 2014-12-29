@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Antibody-mediated@cross-linking@studies@or@studies@on@CD5@knockout@mice@implicate@CD5@as@a@co-stimulatory@or@negative@regulatory@molecule@.@</sentence>
+   <tags>
+      <tag pos="7">CD5</tag>
+      <tag pos="11">CD5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Antibody-mediated</taggedword>
+      <taggedword index="2" part-of-speech="JJ">cross-linking</taggedword>
+      <taggedword index="3" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="4" part-of-speech="CC">or</taggedword>
+      <taggedword index="5" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="6" part-of-speech="IN">on</taggedword>
+      <taggedword index="7" part-of-speech="JJ">CD5</taggedword>
+      <taggedword index="8" part-of-speech="NN">knockout</taggedword>
+      <taggedword index="9" part-of-speech="NNS">mice</taggedword>
+      <taggedword index="10" part-of-speech="VB">implicate</taggedword>
+      <taggedword index="11" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="12" part-of-speech="IN">as</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="JJ">co-stimulatory</taggedword>
+      <taggedword index="15" part-of-speech="CC">or</taggedword>
+      <taggedword index="16" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="17" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="18" part-of-speech="NN">molecule</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Antibody-mediated" dep_index="1" gov="studies" gov_index="3">amod</dependency>
+      <dependency dep="cross-linking" dep_index="2" gov="studies" gov_index="3">amod</dependency>
+      <dependency dep="studies" dep_index="3" gov="implicate" gov_index="10">nsubj</dependency>
+      <dependency dep="studies" dep_index="5" gov="studies" gov_index="3">conj_or</dependency>
+      <dependency dep="studies" dep_index="5" gov="implicate" gov_index="10">nsubj</dependency>
+      <dependency dep="CD5" dep_index="7" gov="mice" gov_index="9">amod</dependency>
+      <dependency dep="knockout" dep_index="8" gov="mice" gov_index="9">nn</dependency>
+      <dependency dep="mice" dep_index="9" gov="studies" gov_index="3">prep_on</dependency>
+      <dependency dep="implicate" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="CD5" dep_index="11" gov="implicate" gov_index="10">dobj</dependency>
+      <dependency dep="a" dep_index="13" gov="molecule" gov_index="18">det</dependency>
+      <dependency dep="co-stimulatory" dep_index="14" gov="molecule" gov_index="18">amod</dependency>
+      <dependency dep="negative" dep_index="16" gov="co-stimulatory" gov_index="14">conj_or</dependency>
+      <dependency dep="negative" dep_index="16" gov="molecule" gov_index="18">amod</dependency>
+      <dependency dep="regulatory" dep_index="17" gov="molecule" gov_index="18">amod</dependency>
+      <dependency dep="molecule" dep_index="18" gov="CD5" gov_index="11">prep_as</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700011" relationship="false">7 9 3 10 11</relation>
+   </relations>
+   <pairs/>
+</root>

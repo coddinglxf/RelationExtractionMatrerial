@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@highest@dose@of@hCG@plus@The@highest@dose@of@hCG@plus@oxytocin@provoked@accumulation@of@total@[3H]@inositol phosphate@(p@&lt;@0.05)@53%@over@the@basal@level@on@days@21/1@of@the@estrous@cycle@</sentence>
+   <tags>
+      <tag pos="13">oxytocin</tag>
+      <tag pos="19">inositol phosphate</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJS">highest</taggedword>
+      <taggedword index="3" part-of-speech="NN">dose</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NN">hCG</taggedword>
+      <taggedword index="6" part-of-speech="CC">plus</taggedword>
+      <taggedword index="7" part-of-speech="DT">The</taggedword>
+      <taggedword index="8" part-of-speech="JJS">highest</taggedword>
+      <taggedword index="9" part-of-speech="NN">dose</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNP">hCG</taggedword>
+      <taggedword index="12" part-of-speech="CC">plus</taggedword>
+      <taggedword index="13" part-of-speech="NNP">oxytocin</taggedword>
+      <taggedword index="14" part-of-speech="VBD">provoked</taggedword>
+      <taggedword index="15" part-of-speech="NN">accumulation</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NN">total</taggedword>
+      <taggedword index="18" part-of-speech="CD">[3H]</taggedword>
+      <taggedword index="19" part-of-speech="NN">inositol phosphate</taggedword>
+      <taggedword index="20" part-of-speech="NN">(p</taggedword>
+      <taggedword index="21" part-of-speech="VBD">&lt;</taggedword>
+      <taggedword index="22" part-of-speech="CD">0.05)</taggedword>
+      <taggedword index="23" part-of-speech="CD">53%</taggedword>
+      <taggedword index="24" part-of-speech="IN">over</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="JJ">basal</taggedword>
+      <taggedword index="27" part-of-speech="NN">level</taggedword>
+      <taggedword index="28" part-of-speech="IN">on</taggedword>
+      <taggedword index="29" part-of-speech="NNS">days</taggedword>
+      <taggedword index="30" part-of-speech="CD">21/1</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="JJ">estrous</taggedword>
+      <taggedword index="34" part-of-speech="NN">cycle</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="dose" gov_index="3">det</dependency>
+      <dependency dep="highest" dep_index="2" gov="dose" gov_index="3">amod</dependency>
+      <dependency dep="dose" dep_index="3" gov="provoked" gov_index="14">nsubj</dependency>
+      <dependency dep="hCG" dep_index="5" gov="dose" gov_index="3">prep_of</dependency>
+      <dependency dep="plus" dep_index="6" gov="hCG" gov_index="5">prep</dependency>
+      <dependency dep="The" dep_index="7" gov="dose" gov_index="9">det</dependency>
+      <dependency dep="highest" dep_index="8" gov="dose" gov_index="9">amod</dependency>
+      <dependency dep="dose" dep_index="9" gov="plus" gov_index="6">dep</dependency>
+      <dependency dep="hCG" dep_index="11" gov="dose" gov_index="9">prep_of</dependency>
+      <dependency dep="oxytocin" dep_index="13" gov="dose" gov_index="9">prep_of</dependency>
+      <dependency dep="oxytocin" dep_index="13" gov="hCG" gov_index="11">conj_plus</dependency>
+      <dependency dep="provoked" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="accumulation" dep_index="15" gov="&lt;" gov_index="21">nsubj</dependency>
+      <dependency dep="total" dep_index="17" gov="(p" gov_index="20">nn</dependency>
+      <dependency dep="[3H]" dep_index="18" gov="(p" gov_index="20">num</dependency>
+      <dependency dep="inositol phosphate" dep_index="19" gov="(p" gov_index="20">nn</dependency>
+      <dependency dep="(p" dep_index="20" gov="accumulation" gov_index="15">prep_of</dependency>
+      <dependency dep="&lt;" dep_index="21" gov="provoked" gov_index="14">ccomp</dependency>
+      <dependency dep="0.05)" dep_index="22" gov="53%" gov_index="23">number</dependency>
+      <dependency dep="53%" dep_index="23" gov="&lt;" gov_index="21">dobj</dependency>
+      <dependency dep="the" dep_index="25" gov="level" gov_index="27">det</dependency>
+      <dependency dep="basal" dep_index="26" gov="level" gov_index="27">amod</dependency>
+      <dependency dep="level" dep_index="27" gov="&lt;" gov_index="21">prep_over</dependency>
+      <dependency dep="days" dep_index="29" gov="&lt;" gov_index="21">prep_on</dependency>
+      <dependency dep="21/1" dep_index="30" gov="days" gov_index="29">num</dependency>
+      <dependency dep="the" dep_index="32" gov="cycle" gov_index="34">det</dependency>
+      <dependency dep="estrous" dep_index="33" gov="cycle" gov_index="34">amod</dependency>
+      <dependency dep="cycle" dep_index="34" gov="days" gov_index="29">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300019" relationship="true">13 9 6 5 3 14 21 15 20 19</relation>
+   </relations>
+   <pairs>
+      <pair>1300019</pair>
+   </pairs>
+</root>

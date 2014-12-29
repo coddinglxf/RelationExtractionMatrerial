@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>It@is@estimated@that@at@optimal@levels@of@transcription@,@every@molecule@of@viral@genomic@RNA@associates@with@approximately@the@following@number@of@protein@molecules@:@30@molecules@of@L@,@120@molecules@of@phosphoprotein@P@,@and@60@molecules@each@of@actin@and@profilin@.@</sentence>
+   <tags>
+      <tag pos="30">L</tag>
+      <tag pos="43">actin</tag>
+      <tag pos="35">phosphoprotein</tag>
+      <tag pos="36">P</tag>
+      <tag pos="45">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">It</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="VBN">estimated</taggedword>
+      <taggedword index="4" part-of-speech="DT">that</taggedword>
+      <taggedword index="5" part-of-speech="IN">at</taggedword>
+      <taggedword index="6" part-of-speech="JJ">optimal</taggedword>
+      <taggedword index="7" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="DT">every</taggedword>
+      <taggedword index="12" part-of-speech="NN">molecule</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="15" part-of-speech="JJ">genomic</taggedword>
+      <taggedword index="16" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="17" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="18" part-of-speech="IN">with</taggedword>
+      <taggedword index="19" part-of-speech="RB">approximately</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">following</taggedword>
+      <taggedword index="22" part-of-speech="NN">number</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">protein</taggedword>
+      <taggedword index="25" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="26" part-of-speech=":">:</taggedword>
+      <taggedword index="27" part-of-speech="CD">30</taggedword>
+      <taggedword index="28" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NNP">L</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="CD">120</taggedword>
+      <taggedword index="33" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="NNP">phosphoprotein</taggedword>
+      <taggedword index="36" part-of-speech="NNP">P</taggedword>
+      <taggedword index="37" part-of-speech=",">,</taggedword>
+      <taggedword index="38" part-of-speech="CC">and</taggedword>
+      <taggedword index="39" part-of-speech="CD">60</taggedword>
+      <taggedword index="40" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="41" part-of-speech="DT">each</taggedword>
+      <taggedword index="42" part-of-speech="IN">of</taggedword>
+      <taggedword index="43" part-of-speech="NN">actin</taggedword>
+      <taggedword index="44" part-of-speech="CC">and</taggedword>
+      <taggedword index="45" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="46" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="It" dep_index="1" gov="estimated" gov_index="3">nsubjpass</dependency>
+      <dependency dep="is" dep_index="2" gov="estimated" gov_index="3">auxpass</dependency>
+      <dependency dep="estimated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="estimated" gov_index="3">dobj</dependency>
+      <dependency dep="optimal" dep_index="6" gov="levels" gov_index="7">amod</dependency>
+      <dependency dep="levels" dep_index="7" gov="that" gov_index="4">prep_at</dependency>
+      <dependency dep="transcription" dep_index="9" gov="levels" gov_index="7">prep_of</dependency>
+      <dependency dep="every" dep_index="11" gov="molecule" gov_index="12">det</dependency>
+      <dependency dep="molecule" dep_index="12" gov="that" gov_index="4">prep_at</dependency>
+      <dependency dep="molecule" dep_index="12" gov="levels" gov_index="7">conj_and</dependency>
+      <dependency dep="viral" dep_index="14" gov="associates" gov_index="17">amod</dependency>
+      <dependency dep="genomic" dep_index="15" gov="associates" gov_index="17">amod</dependency>
+      <dependency dep="RNA" dep_index="16" gov="associates" gov_index="17">nn</dependency>
+      <dependency dep="associates" dep_index="17" gov="molecule" gov_index="12">prep_of</dependency>
+      <dependency dep="approximately" dep_index="19" gov="number" gov_index="22">advmod</dependency>
+      <dependency dep="the" dep_index="20" gov="number" gov_index="22">det</dependency>
+      <dependency dep="following" dep_index="21" gov="number" gov_index="22">amod</dependency>
+      <dependency dep="number" dep_index="22" gov="associates" gov_index="17">prep_with</dependency>
+      <dependency dep="protein" dep_index="24" gov="molecules" gov_index="25">nn</dependency>
+      <dependency dep="molecules" dep_index="25" gov="number" gov_index="22">prep_of</dependency>
+      <dependency dep="30" dep_index="27" gov="molecules" gov_index="28">num</dependency>
+      <dependency dep="molecules" dep_index="28" gov="molecule" gov_index="12">dep</dependency>
+      <dependency dep="L" dep_index="30" gov="molecules" gov_index="28">prep_of</dependency>
+      <dependency dep="120" dep_index="32" gov="molecules" gov_index="33">num</dependency>
+      <dependency dep="molecules" dep_index="33" gov="that" gov_index="4">prep_at</dependency>
+      <dependency dep="molecules" dep_index="33" gov="levels" gov_index="7">conj_and</dependency>
+      <dependency dep="phosphoprotein" dep_index="35" gov="P" gov_index="36">nn</dependency>
+      <dependency dep="P" dep_index="36" gov="molecules" gov_index="33">prep_of</dependency>
+      <dependency dep="60" dep_index="39" gov="molecules" gov_index="40">num</dependency>
+      <dependency dep="molecules" dep_index="40" gov="that" gov_index="4">prep_at</dependency>
+      <dependency dep="molecules" dep_index="40" gov="levels" gov_index="7">conj_and</dependency>
+      <dependency dep="each" dep_index="41" gov="molecules" gov_index="40">dep</dependency>
+      <dependency dep="actin" dep_index="43" gov="that" gov_index="4">prep_of</dependency>
+      <dependency dep="profilin" dep_index="45" gov="that" gov_index="4">prep_of</dependency>
+      <dependency dep="profilin" dep_index="45" gov="actin" gov_index="43">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3000043" relationship="false">30 28 12 4 43</relation>
+      <relation position="3000035" relationship="false">30 28 12 4 33 36 35</relation>
+      <relation position="3000036" relationship="false">30 28 12 4 33 36</relation>
+      <relation position="3000045" relationship="false">30 28 12 4 45</relation>
+      <relation position="3500043" relationship="false">35 36 33 4 43</relation>
+      <relation position="3600043" relationship="false">36 33 4 43</relation>
+      <relation position="4300045" relationship="false">43 4 45</relation>
+      <relation position="3500036" relationship="true"></relation>
+      <relation position="3500045" relationship="false">35 36 33 4 45</relation>
+      <relation position="3600045" relationship="false">36 33 4 45</relation>
+   </relations>
+   <pairs>
+      <pair>3500036</pair>
+   </pairs>
+</root>

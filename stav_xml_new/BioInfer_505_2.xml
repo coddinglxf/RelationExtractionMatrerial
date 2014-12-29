@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Replacement@of@serine@38@with@cysteine@created@a@unique@site@where@labeling@with@rhodamine@did@not@alter@the@affinity@of@profilin@for@actin@.@</sentence>
+   <tags>
+      <tag pos="23">actin</tag>
+      <tag pos="21">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Replacement</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">serine</taggedword>
+      <taggedword index="4" part-of-speech="CD">38</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="NN">cysteine</taggedword>
+      <taggedword index="7" part-of-speech="VBD">created</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">unique</taggedword>
+      <taggedword index="10" part-of-speech="NN">site</taggedword>
+      <taggedword index="11" part-of-speech="WRB">where</taggedword>
+      <taggedword index="12" part-of-speech="VBG">labeling</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="NN">rhodamine</taggedword>
+      <taggedword index="15" part-of-speech="VBD">did</taggedword>
+      <taggedword index="16" part-of-speech="RB">not</taggedword>
+      <taggedword index="17" part-of-speech="VB">alter</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="22" part-of-speech="IN">for</taggedword>
+      <taggedword index="23" part-of-speech="NN">actin</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Replacement" dep_index="1" gov="created" gov_index="7">nsubj</dependency>
+      <dependency dep="serine" dep_index="3" gov="Replacement" gov_index="1">prep_of</dependency>
+      <dependency dep="38" dep_index="4" gov="serine" gov_index="3">num</dependency>
+      <dependency dep="cysteine" dep_index="6" gov="serine" gov_index="3">prep_with</dependency>
+      <dependency dep="created" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="8" gov="site" gov_index="10">det</dependency>
+      <dependency dep="unique" dep_index="9" gov="site" gov_index="10">amod</dependency>
+      <dependency dep="site" dep_index="10" gov="created" gov_index="7">dobj</dependency>
+      <dependency dep="where" dep_index="11" gov="alter" gov_index="17">advmod</dependency>
+      <dependency dep="labeling" dep_index="12" gov="alter" gov_index="17">csubj</dependency>
+      <dependency dep="rhodamine" dep_index="14" gov="labeling" gov_index="12">prep_with</dependency>
+      <dependency dep="did" dep_index="15" gov="alter" gov_index="17">aux</dependency>
+      <dependency dep="not" dep_index="16" gov="alter" gov_index="17">neg</dependency>
+      <dependency dep="alter" dep_index="17" gov="created" gov_index="7">advcl</dependency>
+      <dependency dep="the" dep_index="18" gov="affinity" gov_index="19">det</dependency>
+      <dependency dep="affinity" dep_index="19" gov="alter" gov_index="17">dobj</dependency>
+      <dependency dep="profilin" dep_index="21" gov="affinity" gov_index="19">prep_of</dependency>
+      <dependency dep="actin" dep_index="23" gov="alter" gov_index="17">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2100023" relationship="true">21 19 17 23</relation>
+   </relations>
+   <pairs>
+      <pair>2100023</pair>
+   </pairs>
+</root>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crosslinking@of@iodinated@acidic FGF@(@aFGF@)@and@basic FGF@(@bFGF@)@to@transiently@expressing@COS-1@cells@revealed@a@major@band@of@95@kDa@,@which@was@competed@for@by@both@aFGF@and@bFGF@.@</sentence>
+   <tags>
+      <tag pos="4">acidic FGF</tag>
+      <tag pos="6">aFGF</tag>
+      <tag pos="9">basic FGF</tag>
+      <tag pos="11">bFGF</tag>
+      <tag pos="32">aFGF</tag>
+      <tag pos="34">bFGF</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Crosslinking</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">iodinated</taggedword>
+      <taggedword index="4" part-of-speech="NN">acidic FGF</taggedword>
+      <taggedword index="5" part-of-speech="NNP">(</taggedword>
+      <taggedword index="6" part-of-speech="NN">aFGF</taggedword>
+      <taggedword index="7" part-of-speech="NN">)</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">basic FGF</taggedword>
+      <taggedword index="10" part-of-speech="NN">(</taggedword>
+      <taggedword index="11" part-of-speech="JJ">bFGF</taggedword>
+      <taggedword index="12" part-of-speech="NNS">)</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="VB">transiently</taggedword>
+      <taggedword index="15" part-of-speech="VBG">expressing</taggedword>
+      <taggedword index="16" part-of-speech="NN">COS-1</taggedword>
+      <taggedword index="17" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="18" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="19" part-of-speech="DT">a</taggedword>
+      <taggedword index="20" part-of-speech="JJ">major</taggedword>
+      <taggedword index="21" part-of-speech="NN">band</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="CD">95</taggedword>
+      <taggedword index="24" part-of-speech="NN">kDa</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="WDT">which</taggedword>
+      <taggedword index="27" part-of-speech="VBD">was</taggedword>
+      <taggedword index="28" part-of-speech="VBN">competed</taggedword>
+      <taggedword index="29" part-of-speech="IN">for</taggedword>
+      <taggedword index="30" part-of-speech="IN">by</taggedword>
+      <taggedword index="31" part-of-speech="DT">both</taggedword>
+      <taggedword index="32" part-of-speech="NN">aFGF</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="NN">bFGF</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crosslinking" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="iodinated" dep_index="3" gov=")" gov_index="7">amod</dependency>
+      <dependency dep="acidic FGF" dep_index="4" gov=")" gov_index="7">nn</dependency>
+      <dependency dep="(" dep_index="5" gov=")" gov_index="7">nn</dependency>
+      <dependency dep="aFGF" dep_index="6" gov=")" gov_index="7">nn</dependency>
+      <dependency dep=")" dep_index="7" gov="Crosslinking" gov_index="1">prep_of</dependency>
+      <dependency dep="basic FGF" dep_index="9" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="bFGF" dep_index="11" gov=")" gov_index="12">amod</dependency>
+      <dependency dep=")" dep_index="12" gov="Crosslinking" gov_index="1">prep_of</dependency>
+      <dependency dep=")" dep_index="12" gov=")" gov_index="7">conj_and</dependency>
+      <dependency dep="to" dep_index="13" gov="transiently" gov_index="14">aux</dependency>
+      <dependency dep="transiently" dep_index="14" gov="Crosslinking" gov_index="1">xcomp</dependency>
+      <dependency dep="expressing" dep_index="15" gov="transiently" gov_index="14">xcomp</dependency>
+      <dependency dep="COS-1" dep_index="16" gov="cells" gov_index="17">nn</dependency>
+      <dependency dep="cells" dep_index="17" gov="expressing" gov_index="15">dobj</dependency>
+      <dependency dep="revealed" dep_index="18" gov="Crosslinking" gov_index="1">dep</dependency>
+      <dependency dep="a" dep_index="19" gov="band" gov_index="21">det</dependency>
+      <dependency dep="major" dep_index="20" gov="band" gov_index="21">amod</dependency>
+      <dependency dep="band" dep_index="21" gov="Crosslinking" gov_index="1">nsubj</dependency>
+      <dependency dep="band" dep_index="21" gov="transiently" gov_index="14">xsubj</dependency>
+      <dependency dep="band" dep_index="21" gov="competed" gov_index="28">nsubjpass</dependency>
+      <dependency dep="95" dep_index="23" gov="kDa" gov_index="24">num</dependency>
+      <dependency dep="kDa" dep_index="24" gov="band" gov_index="21">prep_of</dependency>
+      <dependency dep="was" dep_index="27" gov="competed" gov_index="28">auxpass</dependency>
+      <dependency dep="competed" dep_index="28" gov="band" gov_index="21">rcmod</dependency>
+      <dependency dep="for" dep_index="29" gov="competed" gov_index="28">dep</dependency>
+      <dependency dep="both" dep_index="31" gov="aFGF" gov_index="32">det</dependency>
+      <dependency dep="aFGF" dep_index="32" gov="competed" gov_index="28">agent</dependency>
+      <dependency dep="bFGF" dep_index="34" gov="competed" gov_index="28">agent</dependency>
+      <dependency dep="bFGF" dep_index="34" gov="aFGF" gov_index="32">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 7 6</relation>
+      <relation position="400009" relationship="false">4 7 1 12 9</relation>
+      <relation position="400011" relationship="false">4 7 1 12 11</relation>
+      <relation position="400032" relationship="false">4 7 1 21 28 32</relation>
+      <relation position="400034" relationship="false">4 7 1 21 28 34</relation>
+      <relation position="600009" relationship="false">6 7 1 12 9</relation>
+      <relation position="600011" relationship="false">6 7 1 12 11</relation>
+      <relation position="600032" relationship="false">6 7 1 21 28 32</relation>
+      <relation position="600034" relationship="false">6 7 1 21 28 34</relation>
+      <relation position="900011" relationship="false">9 12 11</relation>
+      <relation position="900032" relationship="false">9 12 1 21 28 32</relation>
+      <relation position="900034" relationship="false">9 12 1 21 28 34</relation>
+      <relation position="1100032" relationship="false">11 12 1 21 28 32</relation>
+      <relation position="1100034" relationship="false">11 12 1 21 28 34</relation>
+      <relation position="3200034" relationship="false">32 28 34</relation>
+   </relations>
+   <pairs/>
+</root>

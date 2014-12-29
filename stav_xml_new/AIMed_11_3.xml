@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>METHODS@:@We@used@immunohistochemistry@to@examine@the@expression@of@four@epidermal@growth@factor@receptor@family@members@in@73@patients@with@stage@I@non-small@cell@lung@cancer@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">METHODS</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="PRP">We</taggedword>
+      <taggedword index="4" part-of-speech="VBD">used</taggedword>
+      <taggedword index="5" part-of-speech="RB">immunohistochemistry</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">examine</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">expression</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="CD">four</taggedword>
+      <taggedword index="12" part-of-speech="JJ">epidermal</taggedword>
+      <taggedword index="13" part-of-speech="NN">growth</taggedword>
+      <taggedword index="14" part-of-speech="NN">factor</taggedword>
+      <taggedword index="15" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="16" part-of-speech="NN">family</taggedword>
+      <taggedword index="17" part-of-speech="NNS">members</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="CD">73</taggedword>
+      <taggedword index="20" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="NN">stage</taggedword>
+      <taggedword index="23" part-of-speech="CD">I</taggedword>
+      <taggedword index="24" part-of-speech="JJ">non-small</taggedword>
+      <taggedword index="25" part-of-speech="NN">cell</taggedword>
+      <taggedword index="26" part-of-speech="NN">lung</taggedword>
+      <taggedword index="27" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="METHODS" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="We" dep_index="3" gov="used" gov_index="4">nsubj</dependency>
+      <dependency dep="We" dep_index="3" gov="examine" gov_index="7">xsubj</dependency>
+      <dependency dep="used" dep_index="4" gov="METHODS" gov_index="1">dep</dependency>
+      <dependency dep="immunohistochemistry" dep_index="5" gov="used" gov_index="4">advmod</dependency>
+      <dependency dep="to" dep_index="6" gov="examine" gov_index="7">aux</dependency>
+      <dependency dep="examine" dep_index="7" gov="used" gov_index="4">xcomp</dependency>
+      <dependency dep="the" dep_index="8" gov="expression" gov_index="9">det</dependency>
+      <dependency dep="expression" dep_index="9" gov="examine" gov_index="7">dobj</dependency>
+      <dependency dep="four" dep_index="11" gov="members" gov_index="17">num</dependency>
+      <dependency dep="epidermal" dep_index="12" gov="members" gov_index="17">amod</dependency>
+      <dependency dep="growth" dep_index="13" gov="members" gov_index="17">nn</dependency>
+      <dependency dep="factor" dep_index="14" gov="members" gov_index="17">nn</dependency>
+      <dependency dep="receptor" dep_index="15" gov="members" gov_index="17">nn</dependency>
+      <dependency dep="family" dep_index="16" gov="members" gov_index="17">nn</dependency>
+      <dependency dep="members" dep_index="17" gov="expression" gov_index="9">prep_of</dependency>
+      <dependency dep="73" dep_index="19" gov="patients" gov_index="20">num</dependency>
+      <dependency dep="patients" dep_index="20" gov="members" gov_index="17">prep_in</dependency>
+      <dependency dep="stage" dep_index="22" gov="cancer" gov_index="27">nn</dependency>
+      <dependency dep="I" dep_index="23" gov="cancer" gov_index="27">num</dependency>
+      <dependency dep="non-small" dep_index="24" gov="cancer" gov_index="27">amod</dependency>
+      <dependency dep="cell" dep_index="25" gov="cancer" gov_index="27">nn</dependency>
+      <dependency dep="lung" dep_index="26" gov="cancer" gov_index="27">nn</dependency>
+      <dependency dep="cancer" dep_index="27" gov="examine" gov_index="7">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@physical@interaction@between@YY1@and@Sp1@may@thus@form@the@basis@for@the@functional@interplay@observed@previously@.@</sentence>
+   <tags>
+      <tag pos="5">YY1</tag>
+      <tag pos="7">Sp1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">physical</taggedword>
+      <taggedword index="3" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="4" part-of-speech="IN">between</taggedword>
+      <taggedword index="5" part-of-speech="NNP">YY1</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Sp1</taggedword>
+      <taggedword index="8" part-of-speech="MD">may</taggedword>
+      <taggedword index="9" part-of-speech="RB">thus</taggedword>
+      <taggedword index="10" part-of-speech="VB">form</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">basis</taggedword>
+      <taggedword index="13" part-of-speech="IN">for</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="16" part-of-speech="NN">interplay</taggedword>
+      <taggedword index="17" part-of-speech="VBN">observed</taggedword>
+      <taggedword index="18" part-of-speech="RB">previously</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interaction" gov_index="3">det</dependency>
+      <dependency dep="physical" dep_index="2" gov="interaction" gov_index="3">amod</dependency>
+      <dependency dep="interaction" dep_index="3" gov="form" gov_index="10">nsubj</dependency>
+      <dependency dep="YY1" dep_index="5" gov="interaction" gov_index="3">prep_between</dependency>
+      <dependency dep="Sp1" dep_index="7" gov="interaction" gov_index="3">prep_between</dependency>
+      <dependency dep="Sp1" dep_index="7" gov="YY1" gov_index="5">conj_and</dependency>
+      <dependency dep="may" dep_index="8" gov="form" gov_index="10">aux</dependency>
+      <dependency dep="thus" dep_index="9" gov="form" gov_index="10">advmod</dependency>
+      <dependency dep="form" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="basis" gov_index="12">det</dependency>
+      <dependency dep="basis" dep_index="12" gov="form" gov_index="10">dobj</dependency>
+      <dependency dep="the" dep_index="14" gov="interplay" gov_index="16">det</dependency>
+      <dependency dep="functional" dep_index="15" gov="interplay" gov_index="16">amod</dependency>
+      <dependency dep="interplay" dep_index="16" gov="form" gov_index="10">prep_for</dependency>
+      <dependency dep="observed" dep_index="17" gov="interplay" gov_index="16">partmod</dependency>
+      <dependency dep="previously" dep_index="18" gov="observed" gov_index="17">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="true">5 3 7</relation>
+   </relations>
+   <pairs>
+      <pair>500007</pair>
+   </pairs>
+</root>

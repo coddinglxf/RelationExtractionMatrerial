@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Competitive@binding@of@alpha-actinin@and@calmodulin@to@the@NMDA receptor@.@</sentence>
+   <tags>
+      <tag pos="4">alpha-actinin</tag>
+      <tag pos="6">calmodulin</tag>
+      <tag pos="9">NMDA receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Competitive</taggedword>
+      <taggedword index="2" part-of-speech="NNP">binding</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">alpha-actinin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">calmodulin</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNP">NMDA receptor</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Competitive" dep_index="1" gov="binding" gov_index="2">nn</dependency>
+      <dependency dep="binding" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="alpha-actinin" dep_index="4" gov="binding" gov_index="2">prep_of</dependency>
+      <dependency dep="calmodulin" dep_index="6" gov="binding" gov_index="2">prep_of</dependency>
+      <dependency dep="calmodulin" dep_index="6" gov="alpha-actinin" gov_index="4">conj_and</dependency>
+      <dependency dep="the" dep_index="8" gov="NMDA receptor" gov_index="9">det</dependency>
+      <dependency dep="NMDA receptor" dep_index="9" gov="binding" gov_index="2">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 6</relation>
+      <relation position="400009" relationship="true">4 2 9</relation>
+      <relation position="600009" relationship="true">6 2 9</relation>
+   </relations>
+   <pairs>
+      <pair>600009</pair>
+      <pair>400009</pair>
+   </pairs>
+</root>

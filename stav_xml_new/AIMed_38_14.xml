@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@strategy@used@in@this@study@may@also@be@applicable@to@identification@of@other@unknown@chemokine@genes@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">strategy</taggedword>
+      <taggedword index="3" part-of-speech="VBN">used</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="DT">this</taggedword>
+      <taggedword index="6" part-of-speech="NN">study</taggedword>
+      <taggedword index="7" part-of-speech="MD">may</taggedword>
+      <taggedword index="8" part-of-speech="RB">also</taggedword>
+      <taggedword index="9" part-of-speech="VB">be</taggedword>
+      <taggedword index="10" part-of-speech="JJ">applicable</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="NN">identification</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">other</taggedword>
+      <taggedword index="15" part-of-speech="JJ">unknown</taggedword>
+      <taggedword index="16" part-of-speech="NN">chemokine</taggedword>
+      <taggedword index="17" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="strategy" gov_index="2">det</dependency>
+      <dependency dep="strategy" dep_index="2" gov="applicable" gov_index="10">nsubj</dependency>
+      <dependency dep="used" dep_index="3" gov="strategy" gov_index="2">partmod</dependency>
+      <dependency dep="this" dep_index="5" gov="study" gov_index="6">det</dependency>
+      <dependency dep="study" dep_index="6" gov="used" gov_index="3">prep_in</dependency>
+      <dependency dep="may" dep_index="7" gov="applicable" gov_index="10">aux</dependency>
+      <dependency dep="also" dep_index="8" gov="applicable" gov_index="10">advmod</dependency>
+      <dependency dep="be" dep_index="9" gov="applicable" gov_index="10">cop</dependency>
+      <dependency dep="applicable" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="identification" dep_index="12" gov="applicable" gov_index="10">prep_to</dependency>
+      <dependency dep="other" dep_index="14" gov="genes" gov_index="17">amod</dependency>
+      <dependency dep="unknown" dep_index="15" gov="genes" gov_index="17">amod</dependency>
+      <dependency dep="chemokine" dep_index="16" gov="genes" gov_index="17">nn</dependency>
+      <dependency dep="genes" dep_index="17" gov="identification" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

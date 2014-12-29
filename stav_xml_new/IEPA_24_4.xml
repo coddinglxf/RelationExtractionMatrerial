@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@oxytocin@antagonist@1-deamino-2-D-Tyr-(OEt)-4-Thr-8-Orn-oxytocin@administered@ICV@increased@insulin@levels@itself@and@therefore@the@effect@on@oxytocin@-induced@insulin@secretion@was@difficult@to@evaluate@</sentence>
+   <tags>
+      <tag pos="2">oxytocin</tag>
+      <tag pos="8">insulin</tag>
+      <tag pos="16">oxytocin</tag>
+      <tag pos="18">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="3" part-of-speech="NN">antagonist</taggedword>
+      <taggedword index="4" part-of-speech="JJ">1-deamino-2-D-Tyr-(OEt)-4-Thr-8-Orn-oxytocin</taggedword>
+      <taggedword index="5" part-of-speech="NNP">administered</taggedword>
+      <taggedword index="6" part-of-speech="NNP">ICV</taggedword>
+      <taggedword index="7" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="8" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="9" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="10" part-of-speech="PRP">itself</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="RB">therefore</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">effect</taggedword>
+      <taggedword index="15" part-of-speech="IN">on</taggedword>
+      <taggedword index="16" part-of-speech="JJ">oxytocin</taggedword>
+      <taggedword index="17" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="18" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="19" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="20" part-of-speech="VBD">was</taggedword>
+      <taggedword index="21" part-of-speech="JJ">difficult</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="VB">evaluate</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="antagonist" gov_index="3">det</dependency>
+      <dependency dep="oxytocin" dep_index="2" gov="antagonist" gov_index="3">nn</dependency>
+      <dependency dep="antagonist" dep_index="3" gov="1-deamino-2-D-Tyr-(OEt)-4-Thr-8-Orn-oxytocin" gov_index="4">dep</dependency>
+      <dependency dep="1-deamino-2-D-Tyr-(OEt)-4-Thr-8-Orn-oxytocin" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="administered" dep_index="5" gov="ICV" gov_index="6">nn</dependency>
+      <dependency dep="ICV" dep_index="6" gov="increased" gov_index="7">nsubj</dependency>
+      <dependency dep="increased" dep_index="7" gov="1-deamino-2-D-Tyr-(OEt)-4-Thr-8-Orn-oxytocin" gov_index="4">ccomp</dependency>
+      <dependency dep="insulin" dep_index="8" gov="levels" gov_index="9">nn</dependency>
+      <dependency dep="levels" dep_index="9" gov="increased" gov_index="7">iobj</dependency>
+      <dependency dep="itself" dep_index="10" gov="increased" gov_index="7">dobj</dependency>
+      <dependency dep="therefore" dep_index="12" gov="1-deamino-2-D-Tyr-(OEt)-4-Thr-8-Orn-oxytocin" gov_index="4">ccomp</dependency>
+      <dependency dep="therefore" dep_index="12" gov="increased" gov_index="7">advmod</dependency>
+      <dependency dep="therefore" dep_index="12" gov="increased" gov_index="7">conj_and</dependency>
+      <dependency dep="the" dep_index="13" gov="effect" gov_index="14">det</dependency>
+      <dependency dep="effect" dep_index="14" gov="difficult" gov_index="21">nsubj</dependency>
+      <dependency dep="effect" dep_index="14" gov="evaluate" gov_index="23">xsubj</dependency>
+      <dependency dep="oxytocin" dep_index="16" gov="secretion" gov_index="19">amod</dependency>
+      <dependency dep="-induced" dep_index="17" gov="secretion" gov_index="19">amod</dependency>
+      <dependency dep="insulin" dep_index="18" gov="secretion" gov_index="19">nn</dependency>
+      <dependency dep="secretion" dep_index="19" gov="effect" gov_index="14">prep_on</dependency>
+      <dependency dep="was" dep_index="20" gov="difficult" gov_index="21">cop</dependency>
+      <dependency dep="difficult" dep_index="21" gov="1-deamino-2-D-Tyr-(OEt)-4-Thr-8-Orn-oxytocin" gov_index="4">ccomp</dependency>
+      <dependency dep="difficult" dep_index="21" gov="increased" gov_index="7">conj_and</dependency>
+      <dependency dep="to" dep_index="22" gov="evaluate" gov_index="23">aux</dependency>
+      <dependency dep="evaluate" dep_index="23" gov="difficult" gov_index="21">xcomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200008" relationship="false">2 3 4 7 9 8</relation>
+      <relation position="200016" relationship="false">2 3 4 21 14 19 16</relation>
+      <relation position="200018" relationship="false">2 3 4 21 14 19 18</relation>
+      <relation position="800016" relationship="false">8 9 7 4 21 14 19 16</relation>
+      <relation position="800018" relationship="false">8 9 7 4 21 14 19 18</relation>
+      <relation position="1600018" relationship="true">16 19 18</relation>
+   </relations>
+   <pairs>
+      <pair>1600018</pair>
+   </pairs>
+</root>

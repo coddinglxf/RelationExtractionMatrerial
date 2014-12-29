@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Overexpression@of@TBP-1@promotes@degradation@of@Hif1 alpha@in@a@pVHL-dependent@manner@that@requires@the@ATPase@domain@of@TBP-1@</sentence>
+   <tags>
+      <tag pos="3">TBP-1</tag>
+      <tag pos="7">Hif1 alpha</tag>
+      <tag pos="18">TBP-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Overexpression</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">TBP-1</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">promotes</taggedword>
+      <taggedword index="5" part-of-speech="NN">degradation</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNS">Hif1 alpha</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="JJ">pVHL-dependent</taggedword>
+      <taggedword index="11" part-of-speech="NN">manner</taggedword>
+      <taggedword index="12" part-of-speech="WDT">that</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">requires</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">ATPase</taggedword>
+      <taggedword index="16" part-of-speech="NN">domain</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">TBP-1</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Overexpression" dep_index="1" gov="promotes" gov_index="4">nsubj</dependency>
+      <dependency dep="TBP-1" dep_index="3" gov="Overexpression" gov_index="1">prep_of</dependency>
+      <dependency dep="promotes" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="degradation" dep_index="5" gov="promotes" gov_index="4">dobj</dependency>
+      <dependency dep="Hif1 alpha" dep_index="7" gov="degradation" gov_index="5">prep_of</dependency>
+      <dependency dep="a" dep_index="9" gov="manner" gov_index="11">det</dependency>
+      <dependency dep="pVHL-dependent" dep_index="10" gov="manner" gov_index="11">amod</dependency>
+      <dependency dep="manner" dep_index="11" gov="Hif1 alpha" gov_index="7">prep_in</dependency>
+      <dependency dep="manner" dep_index="11" gov="requires" gov_index="13">nsubj</dependency>
+      <dependency dep="requires" dep_index="13" gov="manner" gov_index="11">rcmod</dependency>
+      <dependency dep="the" dep_index="14" gov="domain" gov_index="16">det</dependency>
+      <dependency dep="ATPase" dep_index="15" gov="domain" gov_index="16">amod</dependency>
+      <dependency dep="domain" dep_index="16" gov="requires" gov_index="13">dobj</dependency>
+      <dependency dep="TBP-1" dep_index="18" gov="domain" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300007" relationship="true">3 1 4 5 7</relation>
+      <relation position="300018" relationship="false">3 1 4 5 7 11 13 16 18</relation>
+      <relation position="700018" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>300007</pair>
+      <pair>700018</pair>
+   </pairs>
+</root>

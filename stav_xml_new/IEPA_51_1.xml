@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Insulin@stimulates@the@release@of@the@glycosyl@phosphatidylinositol-anchored@membrane@dipeptidase@from@3T3-L1@adipocytes@through@the@action@of@a@phospholipase C@</sentence>
+   <tags>
+      <tag pos="1">Insulin</tag>
+      <tag pos="19">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Insulin</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">stimulates</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">release</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">glycosyl</taggedword>
+      <taggedword index="8" part-of-speech="JJ">phosphatidylinositol-anchored</taggedword>
+      <taggedword index="9" part-of-speech="NN">membrane</taggedword>
+      <taggedword index="10" part-of-speech="NN">dipeptidase</taggedword>
+      <taggedword index="11" part-of-speech="IN">from</taggedword>
+      <taggedword index="12" part-of-speech="CD">3T3-L1</taggedword>
+      <taggedword index="13" part-of-speech="NNS">adipocytes</taggedword>
+      <taggedword index="14" part-of-speech="IN">through</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">action</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="NN">phospholipase C</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Insulin" dep_index="1" gov="stimulates" gov_index="2">nsubj</dependency>
+      <dependency dep="stimulates" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="release" gov_index="4">det</dependency>
+      <dependency dep="release" dep_index="4" gov="stimulates" gov_index="2">dobj</dependency>
+      <dependency dep="the" dep_index="6" gov="dipeptidase" gov_index="10">det</dependency>
+      <dependency dep="glycosyl" dep_index="7" gov="dipeptidase" gov_index="10">amod</dependency>
+      <dependency dep="phosphatidylinositol-anchored" dep_index="8" gov="dipeptidase" gov_index="10">amod</dependency>
+      <dependency dep="membrane" dep_index="9" gov="dipeptidase" gov_index="10">nn</dependency>
+      <dependency dep="dipeptidase" dep_index="10" gov="release" gov_index="4">prep_of</dependency>
+      <dependency dep="3T3-L1" dep_index="12" gov="adipocytes" gov_index="13">num</dependency>
+      <dependency dep="adipocytes" dep_index="13" gov="dipeptidase" gov_index="10">prep_from</dependency>
+      <dependency dep="the" dep_index="15" gov="action" gov_index="16">det</dependency>
+      <dependency dep="action" dep_index="16" gov="stimulates" gov_index="2">prep_through</dependency>
+      <dependency dep="a" dep_index="18" gov="phospholipase C" gov_index="19">det</dependency>
+      <dependency dep="phospholipase C" dep_index="19" gov="action" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100019" relationship="true">1 2 16 19</relation>
+   </relations>
+   <pairs>
+      <pair>100019</pair>
+   </pairs>
+</root>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Species@differences@in@the@location@of@the@Ca2+-dependent@PKC@isoforms@suggest@differences@in@function@such@as@the@relaying@of@photic@or@non-photic@information@to@the@clock@mechanism@,@or@the@synchronization@of@AVP@neurons@and@their@subsequent@output@signals@</sentence>
+   <tags>
+      <tag pos="9">PKC</tag>
+      <tag pos="33">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Species</taggedword>
+      <taggedword index="2" part-of-speech="NNS">differences</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">location</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Ca2+-dependent</taggedword>
+      <taggedword index="9" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="10" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="11" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="12" part-of-speech="NNS">differences</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">function</taggedword>
+      <taggedword index="15" part-of-speech="JJ">such</taggedword>
+      <taggedword index="16" part-of-speech="IN">as</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">relaying</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="JJ">photic</taggedword>
+      <taggedword index="21" part-of-speech="CC">or</taggedword>
+      <taggedword index="22" part-of-speech="JJ">non-photic</taggedword>
+      <taggedword index="23" part-of-speech="NN">information</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">clock</taggedword>
+      <taggedword index="27" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="CC">or</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="NN">synchronization</taggedword>
+      <taggedword index="32" part-of-speech="IN">of</taggedword>
+      <taggedword index="33" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="34" part-of-speech="NNS">neurons</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="37" part-of-speech="JJ">subsequent</taggedword>
+      <taggedword index="38" part-of-speech="NN">output</taggedword>
+      <taggedword index="39" part-of-speech="NNS">signals</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Species" dep_index="1" gov="differences" gov_index="2">nn</dependency>
+      <dependency dep="differences" dep_index="2" gov="suggest" gov_index="11">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="location" gov_index="5">det</dependency>
+      <dependency dep="location" dep_index="5" gov="differences" gov_index="2">prep_in</dependency>
+      <dependency dep="the" dep_index="7" gov="isoforms" gov_index="10">det</dependency>
+      <dependency dep="Ca2+-dependent" dep_index="8" gov="isoforms" gov_index="10">nn</dependency>
+      <dependency dep="PKC" dep_index="9" gov="isoforms" gov_index="10">nn</dependency>
+      <dependency dep="isoforms" dep_index="10" gov="location" gov_index="5">prep_of</dependency>
+      <dependency dep="suggest" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="differences" dep_index="12" gov="suggest" gov_index="11">dobj</dependency>
+      <dependency dep="function" dep_index="14" gov="differences" gov_index="12">prep_in</dependency>
+      <dependency dep="the" dep_index="17" gov="relaying" gov_index="18">det</dependency>
+      <dependency dep="relaying" dep_index="18" gov="function" gov_index="14">prep_such_as</dependency>
+      <dependency dep="photic" dep_index="20" gov="information" gov_index="23">amod</dependency>
+      <dependency dep="non-photic" dep_index="22" gov="photic" gov_index="20">conj_or</dependency>
+      <dependency dep="non-photic" dep_index="22" gov="information" gov_index="23">amod</dependency>
+      <dependency dep="information" dep_index="23" gov="relaying" gov_index="18">prep_of</dependency>
+      <dependency dep="the" dep_index="25" gov="mechanism" gov_index="27">det</dependency>
+      <dependency dep="clock" dep_index="26" gov="mechanism" gov_index="27">nn</dependency>
+      <dependency dep="mechanism" dep_index="27" gov="information" gov_index="23">prep_to</dependency>
+      <dependency dep="the" dep_index="30" gov="synchronization" gov_index="31">det</dependency>
+      <dependency dep="synchronization" dep_index="31" gov="suggest" gov_index="11">dobj</dependency>
+      <dependency dep="synchronization" dep_index="31" gov="differences" gov_index="12">conj_or</dependency>
+      <dependency dep="AVP" dep_index="33" gov="neurons" gov_index="34">nn</dependency>
+      <dependency dep="neurons" dep_index="34" gov="synchronization" gov_index="31">prep_of</dependency>
+      <dependency dep="their" dep_index="36" gov="signals" gov_index="39">poss</dependency>
+      <dependency dep="subsequent" dep_index="37" gov="signals" gov_index="39">amod</dependency>
+      <dependency dep="output" dep_index="38" gov="signals" gov_index="39">nn</dependency>
+      <dependency dep="signals" dep_index="39" gov="synchronization" gov_index="31">prep_of</dependency>
+      <dependency dep="signals" dep_index="39" gov="neurons" gov_index="34">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900033" relationship="false">9 10 5 2 11 31 34 33</relation>
+   </relations>
+   <pairs/>
+</root>

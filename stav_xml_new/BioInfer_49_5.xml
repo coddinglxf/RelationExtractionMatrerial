@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>When@barbed@ends@are@capped@,@profilin@simply@sequesters@globular@actin@.@</sentence>
+   <tags>
+      <tag pos="7">profilin</tag>
+      <tag pos="11">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="WRB">When</taggedword>
+      <taggedword index="2" part-of-speech="JJ">barbed</taggedword>
+      <taggedword index="3" part-of-speech="NNS">ends</taggedword>
+      <taggedword index="4" part-of-speech="VBP">are</taggedword>
+      <taggedword index="5" part-of-speech="VBN">capped</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="8" part-of-speech="RB">simply</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">sequesters</taggedword>
+      <taggedword index="10" part-of-speech="NN">globular</taggedword>
+      <taggedword index="11" part-of-speech="NN">actin</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="When" dep_index="1" gov="capped" gov_index="5">advmod</dependency>
+      <dependency dep="barbed" dep_index="2" gov="ends" gov_index="3">amod</dependency>
+      <dependency dep="ends" dep_index="3" gov="capped" gov_index="5">nsubjpass</dependency>
+      <dependency dep="are" dep_index="4" gov="capped" gov_index="5">auxpass</dependency>
+      <dependency dep="capped" dep_index="5" gov="sequesters" gov_index="9">advcl</dependency>
+      <dependency dep="profilin" dep_index="7" gov="sequesters" gov_index="9">nsubj</dependency>
+      <dependency dep="simply" dep_index="8" gov="sequesters" gov_index="9">advmod</dependency>
+      <dependency dep="sequesters" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="globular" dep_index="10" gov="actin" gov_index="11">nn</dependency>
+      <dependency dep="actin" dep_index="11" gov="sequesters" gov_index="9">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700011" relationship="true">7 9 11</relation>
+   </relations>
+   <pairs>
+      <pair>700011</pair>
+   </pairs>
+</root>

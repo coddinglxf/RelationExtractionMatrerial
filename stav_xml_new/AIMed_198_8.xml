@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@present@correlations@between@these@mutagenesis@data@and@the@recently@solved@crystal@structure@of@the@EBP@with@a@peptide@ligand@.@</sentence>
+   <tags>
+      <tag pos="16">EBP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">present</taggedword>
+      <taggedword index="3" part-of-speech="NNS">correlations</taggedword>
+      <taggedword index="4" part-of-speech="IN">between</taggedword>
+      <taggedword index="5" part-of-speech="DT">these</taggedword>
+      <taggedword index="6" part-of-speech="JJ">mutagenesis</taggedword>
+      <taggedword index="7" part-of-speech="NNS">data</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="RB">recently</taggedword>
+      <taggedword index="11" part-of-speech="JJ">solved</taggedword>
+      <taggedword index="12" part-of-speech="NN">crystal</taggedword>
+      <taggedword index="13" part-of-speech="NN">structure</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NNP">EBP</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">peptide</taggedword>
+      <taggedword index="20" part-of-speech="NN">ligand</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="present" gov_index="2">nsubj</dependency>
+      <dependency dep="present" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="correlations" dep_index="3" gov="present" gov_index="2">dobj</dependency>
+      <dependency dep="these" dep_index="5" gov="data" gov_index="7">det</dependency>
+      <dependency dep="mutagenesis" dep_index="6" gov="data" gov_index="7">amod</dependency>
+      <dependency dep="data" dep_index="7" gov="correlations" gov_index="3">prep_between</dependency>
+      <dependency dep="the" dep_index="9" gov="structure" gov_index="13">det</dependency>
+      <dependency dep="recently" dep_index="10" gov="solved" gov_index="11">advmod</dependency>
+      <dependency dep="solved" dep_index="11" gov="structure" gov_index="13">amod</dependency>
+      <dependency dep="crystal" dep_index="12" gov="structure" gov_index="13">nn</dependency>
+      <dependency dep="structure" dep_index="13" gov="present" gov_index="2">dobj</dependency>
+      <dependency dep="structure" dep_index="13" gov="correlations" gov_index="3">conj_and</dependency>
+      <dependency dep="the" dep_index="15" gov="EBP" gov_index="16">det</dependency>
+      <dependency dep="EBP" dep_index="16" gov="structure" gov_index="13">prep_of</dependency>
+      <dependency dep="a" dep_index="18" gov="ligand" gov_index="20">det</dependency>
+      <dependency dep="peptide" dep_index="19" gov="ligand" gov_index="20">amod</dependency>
+      <dependency dep="ligand" dep_index="20" gov="present" gov_index="2">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@,@we@investigated@its@receptor@usage@by@calcium@mobilization@and@chemotactic@assays@using@mouse@L1.2@pre-B@cell@lines@stably@expressing@a@panel@of@12@human@chemokine@receptors@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">we</taggedword>
+      <taggedword index="4" part-of-speech="VBD">investigated</taggedword>
+      <taggedword index="5" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="6" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="7" part-of-speech="NN">usage</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="NN">calcium</taggedword>
+      <taggedword index="10" part-of-speech="NN">mobilization</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="JJ">chemotactic</taggedword>
+      <taggedword index="13" part-of-speech="NNS">assays</taggedword>
+      <taggedword index="14" part-of-speech="VBG">using</taggedword>
+      <taggedword index="15" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="16" part-of-speech="NN">L1.2</taggedword>
+      <taggedword index="17" part-of-speech="JJ">pre-B</taggedword>
+      <taggedword index="18" part-of-speech="NN">cell</taggedword>
+      <taggedword index="19" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="20" part-of-speech="JJ">stably</taggedword>
+      <taggedword index="21" part-of-speech="VBG">expressing</taggedword>
+      <taggedword index="22" part-of-speech="DT">a</taggedword>
+      <taggedword index="23" part-of-speech="NN">panel</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="CD">12</taggedword>
+      <taggedword index="26" part-of-speech="JJ">human</taggedword>
+      <taggedword index="27" part-of-speech="NN">chemokine</taggedword>
+      <taggedword index="28" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="investigated" gov_index="4">advmod</dependency>
+      <dependency dep="we" dep_index="3" gov="investigated" gov_index="4">nsubj</dependency>
+      <dependency dep="investigated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="its" dep_index="5" gov="usage" gov_index="7">poss</dependency>
+      <dependency dep="receptor" dep_index="6" gov="usage" gov_index="7">nn</dependency>
+      <dependency dep="usage" dep_index="7" gov="investigated" gov_index="4">dobj</dependency>
+      <dependency dep="calcium" dep_index="9" gov="mobilization" gov_index="10">nn</dependency>
+      <dependency dep="mobilization" dep_index="10" gov="investigated" gov_index="4">prep_by</dependency>
+      <dependency dep="chemotactic" dep_index="12" gov="assays" gov_index="13">amod</dependency>
+      <dependency dep="assays" dep_index="13" gov="investigated" gov_index="4">prep_by</dependency>
+      <dependency dep="assays" dep_index="13" gov="mobilization" gov_index="10">conj_and</dependency>
+      <dependency dep="using" dep_index="14" gov="investigated" gov_index="4">xcomp</dependency>
+      <dependency dep="mouse" dep_index="15" gov="lines" gov_index="19">nn</dependency>
+      <dependency dep="L1.2" dep_index="16" gov="lines" gov_index="19">nn</dependency>
+      <dependency dep="pre-B" dep_index="17" gov="lines" gov_index="19">amod</dependency>
+      <dependency dep="cell" dep_index="18" gov="lines" gov_index="19">nn</dependency>
+      <dependency dep="lines" dep_index="19" gov="expressing" gov_index="21">nsubj</dependency>
+      <dependency dep="stably" dep_index="20" gov="expressing" gov_index="21">dep</dependency>
+      <dependency dep="expressing" dep_index="21" gov="using" gov_index="14">xcomp</dependency>
+      <dependency dep="a" dep_index="22" gov="panel" gov_index="23">det</dependency>
+      <dependency dep="panel" dep_index="23" gov="expressing" gov_index="21">dobj</dependency>
+      <dependency dep="12" dep_index="25" gov="receptors" gov_index="28">num</dependency>
+      <dependency dep="human" dep_index="26" gov="receptors" gov_index="28">amod</dependency>
+      <dependency dep="chemokine" dep_index="27" gov="receptors" gov_index="28">nn</dependency>
+      <dependency dep="receptors" dep_index="28" gov="panel" gov_index="23">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>BACKGROUND@AND@OBJECTIVES@:@Reduced@expressions@of@cell@adhesion@molecules@(@E-cadherin@,@alpha-catenin@,@and@beta-catenin@)@has@been@reported@to@be@associated@with@tumor@metastasis@.@</sentence>
+   <tags>
+      <tag pos="12">E-cadherin</tag>
+      <tag pos="17">beta-catenin</tag>
+      <tag pos="14">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">BACKGROUND</taggedword>
+      <taggedword index="2" part-of-speech="CC">AND</taggedword>
+      <taggedword index="3" part-of-speech="NNP">OBJECTIVES</taggedword>
+      <taggedword index="4" part-of-speech=":">:</taggedword>
+      <taggedword index="5" part-of-speech="JJ">Reduced</taggedword>
+      <taggedword index="6" part-of-speech="NNS">expressions</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">cell</taggedword>
+      <taggedword index="9" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="10" part-of-speech="NNP">molecules</taggedword>
+      <taggedword index="11" part-of-speech="NNP">(</taggedword>
+      <taggedword index="12" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="18" part-of-speech="NNS">)</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="20" part-of-speech="VBN">been</taggedword>
+      <taggedword index="21" part-of-speech="VBN">reported</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="VB">be</taggedword>
+      <taggedword index="24" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="25" part-of-speech="IN">with</taggedword>
+      <taggedword index="26" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="27" part-of-speech="NNS">metastasis</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="BACKGROUND" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="OBJECTIVES" dep_index="3" gov="BACKGROUND" gov_index="1">conj_and</dependency>
+      <dependency dep="Reduced" dep_index="5" gov="expressions" gov_index="6">amod</dependency>
+      <dependency dep="expressions" dep_index="6" gov="reported" gov_index="21">nsubjpass</dependency>
+      <dependency dep="expressions" dep_index="6" gov="associated" gov_index="24">xsubj</dependency>
+      <dependency dep="cell" dep_index="8" gov="E-cadherin" gov_index="12">nn</dependency>
+      <dependency dep="adhesion" dep_index="9" gov="E-cadherin" gov_index="12">nn</dependency>
+      <dependency dep="molecules" dep_index="10" gov="E-cadherin" gov_index="12">nn</dependency>
+      <dependency dep="(" dep_index="11" gov="E-cadherin" gov_index="12">nn</dependency>
+      <dependency dep="E-cadherin" dep_index="12" gov="expressions" gov_index="6">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="14" gov="expressions" gov_index="6">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="14" gov="E-cadherin" gov_index="12">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="17" gov=")" gov_index="18">amod</dependency>
+      <dependency dep=")" dep_index="18" gov="expressions" gov_index="6">prep_of</dependency>
+      <dependency dep=")" dep_index="18" gov="E-cadherin" gov_index="12">conj_and</dependency>
+      <dependency dep="has" dep_index="19" gov="reported" gov_index="21">aux</dependency>
+      <dependency dep="been" dep_index="20" gov="reported" gov_index="21">auxpass</dependency>
+      <dependency dep="reported" dep_index="21" gov="BACKGROUND" gov_index="1">dep</dependency>
+      <dependency dep="to" dep_index="22" gov="associated" gov_index="24">aux</dependency>
+      <dependency dep="be" dep_index="23" gov="associated" gov_index="24">auxpass</dependency>
+      <dependency dep="associated" dep_index="24" gov="reported" gov_index="21">xcomp</dependency>
+      <dependency dep="tumor" dep_index="26" gov="metastasis" gov_index="27">nn</dependency>
+      <dependency dep="metastasis" dep_index="27" gov="associated" gov_index="24">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200017" relationship="false">12 6 18 17</relation>
+      <relation position="1200014" relationship="false">12 6 14</relation>
+      <relation position="1400017" relationship="false">14 6 18 17</relation>
+   </relations>
+   <pairs/>
+</root>

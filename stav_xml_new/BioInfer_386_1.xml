@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@vitro@,@actin@purified@from@some@of@these@mutants@is@defective@in@polymerization@or@binding@fimbrin@.@</sentence>
+   <tags>
+      <tag pos="4">actin</tag>
+      <tag pos="17">fimbrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech="VBN">purified</taggedword>
+      <taggedword index="6" part-of-speech="IN">from</taggedword>
+      <taggedword index="7" part-of-speech="DT">some</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">these</taggedword>
+      <taggedword index="10" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="12" part-of-speech="JJ">defective</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="15" part-of-speech="CC">or</taggedword>
+      <taggedword index="16" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="17" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="vitro" dep_index="2" gov="defective" gov_index="12">prep_in</dependency>
+      <dependency dep="actin" dep_index="4" gov="defective" gov_index="12">nsubj</dependency>
+      <dependency dep="purified" dep_index="5" gov="actin" gov_index="4">partmod</dependency>
+      <dependency dep="some" dep_index="7" gov="purified" gov_index="5">prep_from</dependency>
+      <dependency dep="these" dep_index="9" gov="mutants" gov_index="10">det</dependency>
+      <dependency dep="mutants" dep_index="10" gov="some" gov_index="7">prep_of</dependency>
+      <dependency dep="is" dep_index="11" gov="defective" gov_index="12">cop</dependency>
+      <dependency dep="defective" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="polymerization" dep_index="14" gov="defective" gov_index="12">prep_in</dependency>
+      <dependency dep="binding" dep_index="16" gov="fimbrin" gov_index="17">amod</dependency>
+      <dependency dep="fimbrin" dep_index="17" gov="defective" gov_index="12">prep_in</dependency>
+      <dependency dep="fimbrin" dep_index="17" gov="polymerization" gov_index="14">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400017" relationship="true">4 12 17</relation>
+   </relations>
+   <pairs>
+      <pair>400017</pair>
+   </pairs>
+</root>

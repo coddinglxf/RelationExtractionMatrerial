@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@interactions@are@UBE2I@-specific,@since@another@DNA@repair-related@ubiquitin-conjugating@enzyme@,@RAD6@(@UBC2@),@does@not@interact@with@these@proteins@.@</sentence>
+   <tags>
+      <tag pos="4">UBE2I</tag>
+      <tag pos="13">RAD6</tag>
+      <tag pos="15">UBC2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="3" part-of-speech="VBP">are</taggedword>
+      <taggedword index="4" part-of-speech="NNP">UBE2I</taggedword>
+      <taggedword index="5" part-of-speech="NNP">-specific,</taggedword>
+      <taggedword index="6" part-of-speech="IN">since</taggedword>
+      <taggedword index="7" part-of-speech="DT">another</taggedword>
+      <taggedword index="8" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="9" part-of-speech="JJ">repair-related</taggedword>
+      <taggedword index="10" part-of-speech="JJ">ubiquitin-conjugating</taggedword>
+      <taggedword index="11" part-of-speech="NN">enzyme</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNP">RAD6</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">UBC2</taggedword>
+      <taggedword index="16" part-of-speech="NNP">),</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="18" part-of-speech="RB">not</taggedword>
+      <taggedword index="19" part-of-speech="VB">interact</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="DT">these</taggedword>
+      <taggedword index="22" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="interactions" gov_index="2">det</dependency>
+      <dependency dep="interactions" dep_index="2" gov="-specific," gov_index="5">nsubj</dependency>
+      <dependency dep="are" dep_index="3" gov="-specific," gov_index="5">cop</dependency>
+      <dependency dep="UBE2I" dep_index="4" gov="-specific," gov_index="5">nn</dependency>
+      <dependency dep="-specific," dep_index="5" gov="interact" gov_index="19">ccomp</dependency>
+      <dependency dep="another" dep_index="7" gov="enzyme" gov_index="11">det</dependency>
+      <dependency dep="DNA" dep_index="8" gov="enzyme" gov_index="11">nn</dependency>
+      <dependency dep="repair-related" dep_index="9" gov="enzyme" gov_index="11">amod</dependency>
+      <dependency dep="ubiquitin-conjugating" dep_index="10" gov="enzyme" gov_index="11">amod</dependency>
+      <dependency dep="enzyme" dep_index="11" gov="-specific," gov_index="5">prep_since</dependency>
+      <dependency dep="RAD6" dep_index="13" gov=")," gov_index="16">nn</dependency>
+      <dependency dep="(" dep_index="14" gov=")," gov_index="16">nn</dependency>
+      <dependency dep="UBC2" dep_index="15" gov=")," gov_index="16">nn</dependency>
+      <dependency dep=")," dep_index="16" gov="interact" gov_index="19">nsubj</dependency>
+      <dependency dep="does" dep_index="17" gov="interact" gov_index="19">aux</dependency>
+      <dependency dep="not" dep_index="18" gov="interact" gov_index="19">neg</dependency>
+      <dependency dep="interact" dep_index="19" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="these" dep_index="21" gov="proteins" gov_index="22">det</dependency>
+      <dependency dep="proteins" dep_index="22" gov="interact" gov_index="19">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400013" relationship="false">4 5 19 16 13</relation>
+      <relation position="400015" relationship="false">4 5 19 16 15</relation>
+      <relation position="1300015" relationship="false">13 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

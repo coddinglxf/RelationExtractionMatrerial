@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>As@a@result@,@surface@charge@rather@than@structural@changes@is@likely@responsible@for@the@inability@of@the@His111--&gt;Asp@domain@of@to@bind@IFN-gamma R alpha@.@</sentence>
+   <tags>
+      <tag pos="24">IFN-gamma R alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">As</taggedword>
+      <taggedword index="2" part-of-speech="DT">a</taggedword>
+      <taggedword index="3" part-of-speech="NN">result</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NN">surface</taggedword>
+      <taggedword index="6" part-of-speech="NN">charge</taggedword>
+      <taggedword index="7" part-of-speech="RB">rather</taggedword>
+      <taggedword index="8" part-of-speech="IN">than</taggedword>
+      <taggedword index="9" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="10" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="12" part-of-speech="RB">likely</taggedword>
+      <taggedword index="13" part-of-speech="JJ">responsible</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">inability</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">His111--&gt;Asp</taggedword>
+      <taggedword index="20" part-of-speech="NN">domain</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="NNP">bind</taggedword>
+      <taggedword index="24" part-of-speech="NNP">IFN-gamma R alpha</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="a" dep_index="2" gov="result" gov_index="3">det</dependency>
+      <dependency dep="result" dep_index="3" gov="responsible" gov_index="13">prep_as</dependency>
+      <dependency dep="surface" dep_index="5" gov="charge" gov_index="6">nn</dependency>
+      <dependency dep="charge" dep_index="6" gov="responsible" gov_index="13">nsubj</dependency>
+      <dependency dep="rather" dep_index="7" gov="charge" gov_index="6">advmod</dependency>
+      <dependency dep="structural" dep_index="9" gov="changes" gov_index="10">amod</dependency>
+      <dependency dep="changes" dep_index="10" gov="charge" gov_index="6">prep_than</dependency>
+      <dependency dep="is" dep_index="11" gov="responsible" gov_index="13">cop</dependency>
+      <dependency dep="likely" dep_index="12" gov="responsible" gov_index="13">advmod</dependency>
+      <dependency dep="responsible" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="15" gov="inability" gov_index="16">det</dependency>
+      <dependency dep="inability" dep_index="16" gov="responsible" gov_index="13">prep_for</dependency>
+      <dependency dep="the" dep_index="18" gov="domain" gov_index="20">det</dependency>
+      <dependency dep="His111--&gt;Asp" dep_index="19" gov="domain" gov_index="20">nn</dependency>
+      <dependency dep="domain" dep_index="20" gov="inability" gov_index="16">prep_of</dependency>
+      <dependency dep="of" dep_index="21" gov="domain" gov_index="20">prep</dependency>
+      <dependency dep="to" dep_index="22" gov="of" gov_index="21">pcomp</dependency>
+      <dependency dep="bind" dep_index="23" gov="IFN-gamma R alpha" gov_index="24">nn</dependency>
+      <dependency dep="IFN-gamma R alpha" dep_index="24" gov="to" gov_index="22">pobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Other@than@monomeric@actin@,@no@major@profilin@ligands@are@detected@in@crude@extracts@.@</sentence>
+   <tags>
+      <tag pos="4">actin</tag>
+      <tag pos="8">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Other</taggedword>
+      <taggedword index="2" part-of-speech="IN">than</taggedword>
+      <taggedword index="3" part-of-speech="JJ">monomeric</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="DT">no</taggedword>
+      <taggedword index="7" part-of-speech="JJ">major</taggedword>
+      <taggedword index="8" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="9" part-of-speech="NNS">ligands</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="JJ">crude</taggedword>
+      <taggedword index="14" part-of-speech="NNS">extracts</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Other" dep_index="1" gov="detected" gov_index="11">nsubjpass</dependency>
+      <dependency dep="monomeric" dep_index="3" gov="actin" gov_index="4">amod</dependency>
+      <dependency dep="actin" dep_index="4" gov="Other" gov_index="1">prep_than</dependency>
+      <dependency dep="no" dep_index="6" gov="ligands" gov_index="9">det</dependency>
+      <dependency dep="major" dep_index="7" gov="ligands" gov_index="9">amod</dependency>
+      <dependency dep="profilin" dep_index="8" gov="ligands" gov_index="9">nn</dependency>
+      <dependency dep="ligands" dep_index="9" gov="actin" gov_index="4">appos</dependency>
+      <dependency dep="are" dep_index="10" gov="detected" gov_index="11">auxpass</dependency>
+      <dependency dep="detected" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="crude" dep_index="13" gov="extracts" gov_index="14">amod</dependency>
+      <dependency dep="extracts" dep_index="14" gov="detected" gov_index="11">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400008" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>400008</pair>
+   </pairs>
+</root>

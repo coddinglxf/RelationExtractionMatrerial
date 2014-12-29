@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>When@expressed@in@mammalian@cells@,@the@RAS@binding@domain@of@RIN1@can@act@as@a@dominant@negative@signal@transduction@blocker@.@</sentence>
+   <tags>
+      <tag pos="8">RAS</tag>
+      <tag pos="12">RIN1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="WRB">When</taggedword>
+      <taggedword index="2" part-of-speech="VBD">expressed</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="5" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">RAS</taggedword>
+      <taggedword index="9" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="10" part-of-speech="NN">domain</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">RIN1</taggedword>
+      <taggedword index="13" part-of-speech="MD">can</taggedword>
+      <taggedword index="14" part-of-speech="VB">act</taggedword>
+      <taggedword index="15" part-of-speech="IN">as</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="JJ">dominant</taggedword>
+      <taggedword index="18" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="19" part-of-speech="NN">signal</taggedword>
+      <taggedword index="20" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="21" part-of-speech="NN">blocker</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="When" dep_index="1" gov="expressed" gov_index="2">advmod</dependency>
+      <dependency dep="expressed" dep_index="2" gov="act" gov_index="14">advcl</dependency>
+      <dependency dep="mammalian" dep_index="4" gov="cells" gov_index="5">amod</dependency>
+      <dependency dep="cells" dep_index="5" gov="expressed" gov_index="2">prep_in</dependency>
+      <dependency dep="the" dep_index="7" gov="domain" gov_index="10">det</dependency>
+      <dependency dep="RAS" dep_index="8" gov="domain" gov_index="10">nn</dependency>
+      <dependency dep="binding" dep_index="9" gov="domain" gov_index="10">amod</dependency>
+      <dependency dep="domain" dep_index="10" gov="act" gov_index="14">nsubj</dependency>
+      <dependency dep="RIN1" dep_index="12" gov="domain" gov_index="10">prep_of</dependency>
+      <dependency dep="can" dep_index="13" gov="act" gov_index="14">aux</dependency>
+      <dependency dep="act" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="16" gov="blocker" gov_index="21">det</dependency>
+      <dependency dep="dominant" dep_index="17" gov="blocker" gov_index="21">amod</dependency>
+      <dependency dep="negative" dep_index="18" gov="blocker" gov_index="21">amod</dependency>
+      <dependency dep="signal" dep_index="19" gov="blocker" gov_index="21">nn</dependency>
+      <dependency dep="transduction" dep_index="20" gov="blocker" gov_index="21">nn</dependency>
+      <dependency dep="blocker" dep_index="21" gov="act" gov_index="14">prep_as</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800012" relationship="true">8 10 12</relation>
+   </relations>
+   <pairs>
+      <pair>800012</pair>
+   </pairs>
+</root>

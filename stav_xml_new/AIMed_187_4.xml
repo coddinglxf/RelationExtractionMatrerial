@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@analysis@of@complexes@of@A beta@with@CSF@proteins@in@a@KBr@gradient@revealed@an@association@of@A beta@only@with@free@proteins@and@not@with@lipoprotein@particles@.@</sentence>
+   <tags>
+      <tag pos="6">A beta</tag>
+      <tag pos="18">A beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">A beta</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CSF</taggedword>
+      <taggedword index="9" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="NNP">KBr</taggedword>
+      <taggedword index="13" part-of-speech="NN">gradient</taggedword>
+      <taggedword index="14" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="15" part-of-speech="DT">an</taggedword>
+      <taggedword index="16" part-of-speech="NN">association</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">A beta</taggedword>
+      <taggedword index="19" part-of-speech="RB">only</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="JJ">free</taggedword>
+      <taggedword index="22" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="RB">not</taggedword>
+      <taggedword index="25" part-of-speech="IN">with</taggedword>
+      <taggedword index="26" part-of-speech="NN">lipoprotein</taggedword>
+      <taggedword index="27" part-of-speech="NNS">particles</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="analysis" gov_index="2">det</dependency>
+      <dependency dep="analysis" dep_index="2" gov="revealed" gov_index="14">nsubj</dependency>
+      <dependency dep="complexes" dep_index="4" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="A beta" dep_index="6" gov="complexes" gov_index="4">prep_of</dependency>
+      <dependency dep="CSF" dep_index="8" gov="proteins" gov_index="9">nn</dependency>
+      <dependency dep="proteins" dep_index="9" gov="A beta" gov_index="6">prep_with</dependency>
+      <dependency dep="a" dep_index="11" gov="gradient" gov_index="13">det</dependency>
+      <dependency dep="KBr" dep_index="12" gov="gradient" gov_index="13">nn</dependency>
+      <dependency dep="gradient" dep_index="13" gov="proteins" gov_index="9">prep_in</dependency>
+      <dependency dep="revealed" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="15" gov="association" gov_index="16">det</dependency>
+      <dependency dep="association" dep_index="16" gov="revealed" gov_index="14">dobj</dependency>
+      <dependency dep="A beta" dep_index="18" gov="association" gov_index="16">prep_of</dependency>
+      <dependency dep="only" dep_index="19" gov="revealed" gov_index="14">advmod</dependency>
+      <dependency dep="with" dep_index="20" gov="revealed" gov_index="14">KILL</dependency>
+      <dependency dep="free" dep_index="21" gov="proteins" gov_index="22">amod</dependency>
+      <dependency dep="proteins" dep_index="22" gov="with" gov_index="20">KILL</dependency>
+      <dependency dep="not" dep_index="24" gov="revealed" gov_index="14">prep</dependency>
+      <dependency dep="not" dep_index="24" gov="revealed" gov_index="14">conj_and</dependency>
+      <dependency dep="not" dep_index="24" gov="with" gov_index="20">neg</dependency>
+      <dependency dep="with" dep_index="25" gov="revealed" gov_index="14">dep</dependency>
+      <dependency dep="lipoprotein" dep_index="26" gov="particles" gov_index="27">nn</dependency>
+      <dependency dep="particles" dep_index="27" gov="with" gov_index="25">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600018" relationship="false">6 4 2 14 16 18</relation>
+   </relations>
+   <pairs/>
+</root>

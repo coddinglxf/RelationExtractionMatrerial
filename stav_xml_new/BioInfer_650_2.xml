@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@role@of@profilin@in@actin@polymerization@and@nucleotide@exchange@.@</sentence>
+   <tags>
+      <tag pos="6">actin</tag>
+      <tag pos="4">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">role</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="7" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">nucleotide</taggedword>
+      <taggedword index="10" part-of-speech="NN">exchange</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="role" gov_index="2">det</dependency>
+      <dependency dep="role" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="profilin" dep_index="4" gov="role" gov_index="2">prep_of</dependency>
+      <dependency dep="actin" dep_index="6" gov="polymerization" gov_index="7">amod</dependency>
+      <dependency dep="polymerization" dep_index="7" gov="role" gov_index="2">prep_in</dependency>
+      <dependency dep="nucleotide" dep_index="9" gov="exchange" gov_index="10">nn</dependency>
+      <dependency dep="exchange" dep_index="10" gov="role" gov_index="2">prep_in</dependency>
+      <dependency dep="exchange" dep_index="10" gov="polymerization" gov_index="7">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 2 7 6</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

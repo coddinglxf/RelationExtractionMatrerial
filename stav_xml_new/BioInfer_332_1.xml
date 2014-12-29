@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Increasing@the@ionic@strength@within@a@relatively@narrow@range@significantly@decreased@ability@of@talin@to@bind@to@actin@,@regardless@of@pH@.@</sentence>
+   <tags>
+      <tag pos="14">talin</tag>
+      <tag pos="18">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Increasing</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">ionic</taggedword>
+      <taggedword index="4" part-of-speech="NN">strength</taggedword>
+      <taggedword index="5" part-of-speech="IN">within</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="RB">relatively</taggedword>
+      <taggedword index="8" part-of-speech="JJ">narrow</taggedword>
+      <taggedword index="9" part-of-speech="NN">range</taggedword>
+      <taggedword index="10" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="11" part-of-speech="VBD">decreased</taggedword>
+      <taggedword index="12" part-of-speech="NN">ability</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">talin</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="NN">bind</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="NN">actin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="RB">regardless</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NN">pH</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Increasing" dep_index="1" gov="decreased" gov_index="11">csubj</dependency>
+      <dependency dep="the" dep_index="2" gov="strength" gov_index="4">det</dependency>
+      <dependency dep="ionic" dep_index="3" gov="strength" gov_index="4">amod</dependency>
+      <dependency dep="strength" dep_index="4" gov="Increasing" gov_index="1">dobj</dependency>
+      <dependency dep="a" dep_index="6" gov="range" gov_index="9">det</dependency>
+      <dependency dep="relatively" dep_index="7" gov="narrow" gov_index="8">advmod</dependency>
+      <dependency dep="narrow" dep_index="8" gov="range" gov_index="9">amod</dependency>
+      <dependency dep="range" dep_index="9" gov="Increasing" gov_index="1">prep_within</dependency>
+      <dependency dep="significantly" dep_index="10" gov="decreased" gov_index="11">advmod</dependency>
+      <dependency dep="decreased" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="ability" dep_index="12" gov="decreased" gov_index="11">dobj</dependency>
+      <dependency dep="talin" dep_index="14" gov="ability" gov_index="12">prep_of</dependency>
+      <dependency dep="bind" dep_index="16" gov="decreased" gov_index="11">prep_to</dependency>
+      <dependency dep="actin" dep_index="18" gov="decreased" gov_index="11">prep_to</dependency>
+      <dependency dep="pH" dep_index="22" gov="decreased" gov_index="11">prep_regardless_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400018" relationship="true">14 12 11 18</relation>
+   </relations>
+   <pairs>
+      <pair>1400018</pair>
+   </pairs>
+</root>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Silencing@mediated@by@GBD@-@SIR1@requires@the@trans-acting@factors@that@normally@participate@in@repression@,@namely@,@SIR2@,@SIR3@,@SIR4@,@and@histone@H4@.@</sentence>
+   <tags>
+      <tag pos="23">SIR4</tag>
+      <tag pos="4">GBD</tag>
+      <tag pos="6">SIR1</tag>
+      <tag pos="21">SIR3</tag>
+      <tag pos="27">H4</tag>
+      <tag pos="19">SIR2</tag>
+      <tag pos="26">histone</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Silencing</taggedword>
+      <taggedword index="2" part-of-speech="VBD">mediated</taggedword>
+      <taggedword index="3" part-of-speech="IN">by</taggedword>
+      <taggedword index="4" part-of-speech="NNP">GBD</taggedword>
+      <taggedword index="5" part-of-speech=":">-</taggedword>
+      <taggedword index="6" part-of-speech="NNP">SIR1</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">requires</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">trans-acting</taggedword>
+      <taggedword index="10" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="11" part-of-speech="WDT">that</taggedword>
+      <taggedword index="12" part-of-speech="RB">normally</taggedword>
+      <taggedword index="13" part-of-speech="VB">participate</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NNP">repression</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="NNP">namely</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="NNP">SIR2</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="NNP">SIR3</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="NNP">SIR4</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="VB">histone</taggedword>
+      <taggedword index="27" part-of-speech="NNP">H4</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Silencing" dep_index="1" gov="mediated" gov_index="2">nsubj</dependency>
+      <dependency dep="mediated" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="GBD" dep_index="4" gov="mediated" gov_index="2">prep_by</dependency>
+      <dependency dep="SIR1" dep_index="6" gov="requires" gov_index="7">nsubj</dependency>
+      <dependency dep="requires" dep_index="7" gov="mediated" gov_index="2">parataxis</dependency>
+      <dependency dep="the" dep_index="8" gov="factors" gov_index="10">det</dependency>
+      <dependency dep="trans-acting" dep_index="9" gov="factors" gov_index="10">amod</dependency>
+      <dependency dep="factors" dep_index="10" gov="requires" gov_index="7">dobj</dependency>
+      <dependency dep="factors" dep_index="10" gov="participate" gov_index="13">nsubj</dependency>
+      <dependency dep="factors" dep_index="10" gov="histone" gov_index="26">nsubj</dependency>
+      <dependency dep="normally" dep_index="12" gov="participate" gov_index="13">advmod</dependency>
+      <dependency dep="participate" dep_index="13" gov="factors" gov_index="10">rcmod</dependency>
+      <dependency dep="repression" dep_index="15" gov="SIR4" gov_index="23">nn</dependency>
+      <dependency dep="namely" dep_index="17" gov="SIR4" gov_index="23">appos</dependency>
+      <dependency dep="SIR2" dep_index="19" gov="SIR4" gov_index="23">appos</dependency>
+      <dependency dep="SIR3" dep_index="21" gov="SIR4" gov_index="23">appos</dependency>
+      <dependency dep="SIR4" dep_index="23" gov="participate" gov_index="13">prep_in</dependency>
+      <dependency dep="histone" dep_index="26" gov="factors" gov_index="10">rcmod</dependency>
+      <dependency dep="histone" dep_index="26" gov="participate" gov_index="13">conj_and</dependency>
+      <dependency dep="H4" dep_index="27" gov="histone" gov_index="26">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400023" relationship="false">4 2 7 10 13 23</relation>
+      <relation position="600023" relationship="false">6 7 10 13 23</relation>
+      <relation position="2100023" relationship="false"></relation>
+      <relation position="2300027" relationship="false">23 13 10 26 27</relation>
+      <relation position="1900023" relationship="false"></relation>
+      <relation position="2300026" relationship="false">23 13 10 26</relation>
+      <relation position="400006" relationship="true">4 2 7 6</relation>
+      <relation position="400021" relationship="false">4 2 7 10 13 23 21</relation>
+      <relation position="400027" relationship="false">4 2 7 10 26 27</relation>
+      <relation position="400019" relationship="false">4 2 7 10 13 23 19</relation>
+      <relation position="400026" relationship="false">4 2 7 10 26</relation>
+      <relation position="600021" relationship="false">6 7 10 13 23 21</relation>
+      <relation position="600027" relationship="false">6 7 10 26 27</relation>
+      <relation position="600019" relationship="false">6 7 10 13 23 19</relation>
+      <relation position="600026" relationship="false">6 7 10 26</relation>
+      <relation position="2100027" relationship="false">21 23 13 10 26 27</relation>
+      <relation position="1900021" relationship="false">19 23 21</relation>
+      <relation position="2100026" relationship="false">21 23 13 10 26</relation>
+      <relation position="1900027" relationship="false">19 23 13 10 26 27</relation>
+      <relation position="2600027" relationship="true"></relation>
+      <relation position="1900026" relationship="false">19 23 13 10 26</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+      <pair>2600027</pair>
+   </pairs>
+</root>

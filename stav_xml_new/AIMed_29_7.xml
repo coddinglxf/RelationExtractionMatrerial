@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Except@for@the@H18A@and@F21A@mutants@,@all@other@IL-8@mutants@failed@to@induce@superoxide@production@in@neutrophils@.@</sentence>
+   <tags>
+      <tag pos="11">IL-8</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Except</taggedword>
+      <taggedword index="2" part-of-speech="IN">for</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NNP">H18A</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">F21A</taggedword>
+      <taggedword index="7" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">all</taggedword>
+      <taggedword index="10" part-of-speech="JJ">other</taggedword>
+      <taggedword index="11" part-of-speech="NN">IL-8</taggedword>
+      <taggedword index="12" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="13" part-of-speech="VBD">failed</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">induce</taggedword>
+      <taggedword index="16" part-of-speech="JJ">superoxide</taggedword>
+      <taggedword index="17" part-of-speech="NN">production</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="NNS">neutrophils</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="for" dep_index="2" gov="failed" gov_index="13">prepc_except_for</dependency>
+      <dependency dep="the" dep_index="3" gov="mutants" gov_index="7">det</dependency>
+      <dependency dep="H18A" dep_index="4" gov="mutants" gov_index="7">nn</dependency>
+      <dependency dep="F21A" dep_index="6" gov="H18A" gov_index="4">conj_and</dependency>
+      <dependency dep="F21A" dep_index="6" gov="mutants" gov_index="7">nn</dependency>
+      <dependency dep="mutants" dep_index="7" gov="failed" gov_index="13">pobj</dependency>
+      <dependency dep="all" dep_index="9" gov="mutants" gov_index="12">det</dependency>
+      <dependency dep="other" dep_index="10" gov="mutants" gov_index="12">amod</dependency>
+      <dependency dep="IL-8" dep_index="11" gov="mutants" gov_index="12">nn</dependency>
+      <dependency dep="mutants" dep_index="12" gov="failed" gov_index="13">nsubj</dependency>
+      <dependency dep="mutants" dep_index="12" gov="induce" gov_index="15">xsubj</dependency>
+      <dependency dep="failed" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="14" gov="induce" gov_index="15">aux</dependency>
+      <dependency dep="induce" dep_index="15" gov="failed" gov_index="13">xcomp</dependency>
+      <dependency dep="superoxide" dep_index="16" gov="production" gov_index="17">amod</dependency>
+      <dependency dep="production" dep_index="17" gov="induce" gov_index="15">dobj</dependency>
+      <dependency dep="neutrophils" dep_index="19" gov="induce" gov_index="15">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

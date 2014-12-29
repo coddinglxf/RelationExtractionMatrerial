@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cellular@senescence@has@been@proposed@to@be@an@in@vitro@and@in@vivo@block@that@cells@must@overcome@in@order@to@immortalize@and@become@tumorigenic@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Cellular</taggedword>
+      <taggedword index="2" part-of-speech="NNP">senescence</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="4" part-of-speech="VBN">been</taggedword>
+      <taggedword index="5" part-of-speech="VBN">proposed</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">be</taggedword>
+      <taggedword index="8" part-of-speech="DT">an</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="RB">in</taggedword>
+      <taggedword index="13" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="14" part-of-speech="NN">block</taggedword>
+      <taggedword index="15" part-of-speech="IN">that</taggedword>
+      <taggedword index="16" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="17" part-of-speech="MD">must</taggedword>
+      <taggedword index="18" part-of-speech="VB">overcome</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="NN">order</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="VB">immortalize</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="VB">become</taggedword>
+      <taggedword index="25" part-of-speech="NN">tumorigenic</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cellular" dep_index="1" gov="senescence" gov_index="2">nn</dependency>
+      <dependency dep="senescence" dep_index="2" gov="proposed" gov_index="5">nsubjpass</dependency>
+      <dependency dep="senescence" dep_index="2" gov="block" gov_index="14">xsubj</dependency>
+      <dependency dep="has" dep_index="3" gov="proposed" gov_index="5">aux</dependency>
+      <dependency dep="been" dep_index="4" gov="proposed" gov_index="5">auxpass</dependency>
+      <dependency dep="proposed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="6" gov="block" gov_index="14">aux</dependency>
+      <dependency dep="be" dep_index="7" gov="block" gov_index="14">cop</dependency>
+      <dependency dep="an" dep_index="8" gov="block" gov_index="14">det</dependency>
+      <dependency dep="in" dep_index="9" gov="block" gov_index="14">KILL</dependency>
+      <dependency dep="vitro" dep_index="10" gov="in" gov_index="9">KILL</dependency>
+      <dependency dep="in" dep_index="12" gov="block" gov_index="14">conj_and</dependency>
+      <dependency dep="in" dep_index="12" gov="block" gov_index="14">prep</dependency>
+      <dependency dep="vivo" dep_index="13" gov="block" gov_index="14">nn</dependency>
+      <dependency dep="block" dep_index="14" gov="proposed" gov_index="5">xcomp</dependency>
+      <dependency dep="that" dep_index="15" gov="overcome" gov_index="18">mark</dependency>
+      <dependency dep="cells" dep_index="16" gov="overcome" gov_index="18">nsubj</dependency>
+      <dependency dep="must" dep_index="17" gov="overcome" gov_index="18">aux</dependency>
+      <dependency dep="overcome" dep_index="18" gov="block" gov_index="14">ccomp</dependency>
+      <dependency dep="in" dep_index="19" gov="tumorigenic" gov_index="25">mark</dependency>
+      <dependency dep="order" dep_index="20" gov="tumorigenic" gov_index="25">dep</dependency>
+      <dependency dep="to" dep_index="21" gov="tumorigenic" gov_index="25">aux</dependency>
+      <dependency dep="immortalize" dep_index="22" gov="tumorigenic" gov_index="25">dep</dependency>
+      <dependency dep="become" dep_index="24" gov="overcome" gov_index="18">advcl</dependency>
+      <dependency dep="become" dep_index="24" gov="tumorigenic" gov_index="25">conj_and</dependency>
+      <dependency dep="become" dep_index="24" gov="tumorigenic" gov_index="25">cop</dependency>
+      <dependency dep="tumorigenic" dep_index="25" gov="overcome" gov_index="18">advcl</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

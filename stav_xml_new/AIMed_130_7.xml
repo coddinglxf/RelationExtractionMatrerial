@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@gene@or@pseudogene@for@inhibitor 2@may@be@present@near@the@major@histocompatibility@complex@on@chromosome@6@.@</sentence>
+   <tags>
+      <tag pos="6">inhibitor 2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NN">gene</taggedword>
+      <taggedword index="3" part-of-speech="CC">or</taggedword>
+      <taggedword index="4" part-of-speech="NN">pseudogene</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="CD">inhibitor 2</taggedword>
+      <taggedword index="7" part-of-speech="MD">may</taggedword>
+      <taggedword index="8" part-of-speech="VB">be</taggedword>
+      <taggedword index="9" part-of-speech="JJ">present</taggedword>
+      <taggedword index="10" part-of-speech="IN">near</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">major</taggedword>
+      <taggedword index="13" part-of-speech="NN">histocompatibility</taggedword>
+      <taggedword index="14" part-of-speech="NN">complex</taggedword>
+      <taggedword index="15" part-of-speech="IN">on</taggedword>
+      <taggedword index="16" part-of-speech="NN">chromosome</taggedword>
+      <taggedword index="17" part-of-speech="CD">6</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="gene" gov_index="2">det</dependency>
+      <dependency dep="gene" dep_index="2" gov="present" gov_index="9">nsubj</dependency>
+      <dependency dep="pseudogene" dep_index="4" gov="gene" gov_index="2">conj_or</dependency>
+      <dependency dep="pseudogene" dep_index="4" gov="present" gov_index="9">nsubj</dependency>
+      <dependency dep="inhibitor 2" dep_index="6" gov="gene" gov_index="2">prep_for</dependency>
+      <dependency dep="may" dep_index="7" gov="present" gov_index="9">aux</dependency>
+      <dependency dep="be" dep_index="8" gov="present" gov_index="9">cop</dependency>
+      <dependency dep="present" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="complex" gov_index="14">det</dependency>
+      <dependency dep="major" dep_index="12" gov="complex" gov_index="14">amod</dependency>
+      <dependency dep="histocompatibility" dep_index="13" gov="complex" gov_index="14">nn</dependency>
+      <dependency dep="complex" dep_index="14" gov="present" gov_index="9">prep_near</dependency>
+      <dependency dep="chromosome" dep_index="16" gov="complex" gov_index="14">prep_on</dependency>
+      <dependency dep="6" dep_index="17" gov="chromosome" gov_index="16">num</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

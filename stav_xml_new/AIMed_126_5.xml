@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>At@various@times@during@the@groE-dependent@renaturations@,@groEL@was@rapidly@removed@from@the@renaturation@mixture@by@immunoprecipitation@and@centrifugation@(30@s)@.@</sentence>
+   <tags>
+      <tag pos="9">groEL</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">At</taggedword>
+      <taggedword index="2" part-of-speech="JJ">various</taggedword>
+      <taggedword index="3" part-of-speech="NNS">times</taggedword>
+      <taggedword index="4" part-of-speech="IN">during</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">groE-dependent</taggedword>
+      <taggedword index="7" part-of-speech="NNS">renaturations</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">groEL</taggedword>
+      <taggedword index="10" part-of-speech="VBD">was</taggedword>
+      <taggedword index="11" part-of-speech="RB">rapidly</taggedword>
+      <taggedword index="12" part-of-speech="VBN">removed</taggedword>
+      <taggedword index="13" part-of-speech="IN">from</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">renaturation</taggedword>
+      <taggedword index="16" part-of-speech="NN">mixture</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="NN">immunoprecipitation</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="JJ">centrifugation</taggedword>
+      <taggedword index="21" part-of-speech="CD">(30</taggedword>
+      <taggedword index="22" part-of-speech="NN">s)</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="various" dep_index="2" gov="times" gov_index="3">amod</dependency>
+      <dependency dep="times" dep_index="3" gov="removed" gov_index="12">prep_at</dependency>
+      <dependency dep="the" dep_index="5" gov="renaturations" gov_index="7">det</dependency>
+      <dependency dep="groE-dependent" dep_index="6" gov="renaturations" gov_index="7">amod</dependency>
+      <dependency dep="renaturations" dep_index="7" gov="times" gov_index="3">prep_during</dependency>
+      <dependency dep="groEL" dep_index="9" gov="removed" gov_index="12">nsubjpass</dependency>
+      <dependency dep="was" dep_index="10" gov="removed" gov_index="12">auxpass</dependency>
+      <dependency dep="rapidly" dep_index="11" gov="removed" gov_index="12">advmod</dependency>
+      <dependency dep="removed" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="mixture" gov_index="16">det</dependency>
+      <dependency dep="renaturation" dep_index="15" gov="mixture" gov_index="16">nn</dependency>
+      <dependency dep="mixture" dep_index="16" gov="removed" gov_index="12">prep_from</dependency>
+      <dependency dep="immunoprecipitation" dep_index="18" gov="s)" gov_index="22">nn</dependency>
+      <dependency dep="centrifugation" dep_index="20" gov="immunoprecipitation" gov_index="18">conj_and</dependency>
+      <dependency dep="centrifugation" dep_index="20" gov="s)" gov_index="22">nn</dependency>
+      <dependency dep="(30" dep_index="21" gov="s)" gov_index="22">num</dependency>
+      <dependency dep="s)" dep_index="22" gov="removed" gov_index="12">agent</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

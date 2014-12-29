@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Correlation@of@two-hybrid@affinity@data@with@in@vitro@measurements@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Correlation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="4" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="5" part-of-speech="NNS">data</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="9" part-of-speech="NNS">measurements</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Correlation" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="two-hybrid" dep_index="3" gov="data" gov_index="5">amod</dependency>
+      <dependency dep="affinity" dep_index="4" gov="data" gov_index="5">nn</dependency>
+      <dependency dep="data" dep_index="5" gov="Correlation" gov_index="1">prep_of</dependency>
+      <dependency dep="in" dep_index="7" gov="vitro" gov_index="8">dep</dependency>
+      <dependency dep="vitro" dep_index="8" gov="measurements" gov_index="9">amod</dependency>
+      <dependency dep="measurements" dep_index="9" gov="Correlation" gov_index="1">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

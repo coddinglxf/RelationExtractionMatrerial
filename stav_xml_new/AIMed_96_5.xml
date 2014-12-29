@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@cadherins@,@this@segment@interacts@with@proteins@termed@catenins@to@mediate@association@with@the@actin@cytoskeleton@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NNS">cadherins</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech="NN">segment</taggedword>
+      <taggedword index="6" part-of-speech="NNS">interacts</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="9" part-of-speech="VBD">termed</taggedword>
+      <taggedword index="10" part-of-speech="NNS">catenins</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">mediate</taggedword>
+      <taggedword index="13" part-of-speech="NN">association</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech="NN">cytoskeleton</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="cadherins" dep_index="2" gov="termed" gov_index="9">prep_in</dependency>
+      <dependency dep="this" dep_index="4" gov="interacts" gov_index="6">det</dependency>
+      <dependency dep="segment" dep_index="5" gov="interacts" gov_index="6">nn</dependency>
+      <dependency dep="interacts" dep_index="6" gov="termed" gov_index="9">nsubj</dependency>
+      <dependency dep="interacts" dep_index="6" gov="mediate" gov_index="12">xsubj</dependency>
+      <dependency dep="proteins" dep_index="8" gov="interacts" gov_index="6">prep_with</dependency>
+      <dependency dep="termed" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="catenins" dep_index="10" gov="termed" gov_index="9">dobj</dependency>
+      <dependency dep="to" dep_index="11" gov="mediate" gov_index="12">aux</dependency>
+      <dependency dep="mediate" dep_index="12" gov="termed" gov_index="9">xcomp</dependency>
+      <dependency dep="association" dep_index="13" gov="mediate" gov_index="12">dobj</dependency>
+      <dependency dep="the" dep_index="15" gov="cytoskeleton" gov_index="17">det</dependency>
+      <dependency dep="actin" dep_index="16" gov="cytoskeleton" gov_index="17">nn</dependency>
+      <dependency dep="cytoskeleton" dep_index="17" gov="mediate" gov_index="12">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

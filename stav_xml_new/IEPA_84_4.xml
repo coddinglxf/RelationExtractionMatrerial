@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Blood@samples@for@OT@assay@were@taken@just@before@the@rapid@injection@of@insulin@(time@0)@and@at@time@15@,@30@,@45@and@60@min@</sentence>
+   <tags>
+      <tag pos="4">OT</tag>
+      <tag pos="14">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Blood</taggedword>
+      <taggedword index="2" part-of-speech="NNS">samples</taggedword>
+      <taggedword index="3" part-of-speech="IN">for</taggedword>
+      <taggedword index="4" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="5" part-of-speech="NN">assay</taggedword>
+      <taggedword index="6" part-of-speech="VBD">were</taggedword>
+      <taggedword index="7" part-of-speech="VBN">taken</taggedword>
+      <taggedword index="8" part-of-speech="RB">just</taggedword>
+      <taggedword index="9" part-of-speech="IN">before</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="12" part-of-speech="NN">injection</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="15" part-of-speech="NN">(time</taggedword>
+      <taggedword index="16" part-of-speech="CD">0)</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="IN">at</taggedword>
+      <taggedword index="19" part-of-speech="NN">time</taggedword>
+      <taggedword index="20" part-of-speech="CD">15</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="CD">30</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CD">45</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="CD">60</taggedword>
+      <taggedword index="27" part-of-speech="NN">min</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Blood" dep_index="1" gov="samples" gov_index="2">nn</dependency>
+      <dependency dep="samples" dep_index="2" gov="taken" gov_index="7">nsubjpass</dependency>
+      <dependency dep="samples" dep_index="2" gov="taken" gov_index="7">nsubjpass</dependency>
+      <dependency dep="OT" dep_index="4" gov="assay" gov_index="5">nn</dependency>
+      <dependency dep="assay" dep_index="5" gov="samples" gov_index="2">prep_for</dependency>
+      <dependency dep="were" dep_index="6" gov="taken" gov_index="7">auxpass</dependency>
+      <dependency dep="taken" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="taken" dep_index="7" gov="taken" gov_index="7">conj_and</dependency>
+      <dependency dep="just" dep_index="8" gov="taken" gov_index="7">advmod</dependency>
+      <dependency dep="the" dep_index="10" gov="injection" gov_index="12">det</dependency>
+      <dependency dep="rapid" dep_index="11" gov="injection" gov_index="12">amod</dependency>
+      <dependency dep="injection" dep_index="12" gov="taken" gov_index="7">prep_before</dependency>
+      <dependency dep="insulin" dep_index="14" gov="(time" gov_index="15">nn</dependency>
+      <dependency dep="(time" dep_index="15" gov="injection" gov_index="12">prep_of</dependency>
+      <dependency dep="0)" dep_index="16" gov="(time" gov_index="15">num</dependency>
+      <dependency dep="time" dep_index="19" gov="taken" gov_index="7">prep_at</dependency>
+      <dependency dep="15" dep_index="20" gov="time" gov_index="19">num</dependency>
+      <dependency dep="30" dep_index="22" gov="taken" gov_index="7">prep_at</dependency>
+      <dependency dep="30" dep_index="22" gov="time" gov_index="19">conj_and</dependency>
+      <dependency dep="45" dep_index="24" gov="taken" gov_index="7">prep_at</dependency>
+      <dependency dep="45" dep_index="24" gov="time" gov_index="19">conj_and</dependency>
+      <dependency dep="60" dep_index="26" gov="min" gov_index="27">num</dependency>
+      <dependency dep="min" dep_index="27" gov="taken" gov_index="7">prep_at</dependency>
+      <dependency dep="min" dep_index="27" gov="time" gov_index="19">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400014" relationship="false">4 5 2 7 12 15 14</relation>
+   </relations>
+   <pairs/>
+</root>

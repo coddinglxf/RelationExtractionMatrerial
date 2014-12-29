@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Other@recent@studies@have@identified@human@cyclin D1@(@PRAD1@)@as@a@putative@G1@cyclin@and@candidate@proto-oncogene@.@</sentence>
+   <tags>
+      <tag pos="7">cyclin D1</tag>
+      <tag pos="9">PRAD1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Other</taggedword>
+      <taggedword index="2" part-of-speech="JJ">recent</taggedword>
+      <taggedword index="3" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="4" part-of-speech="VBP">have</taggedword>
+      <taggedword index="5" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="6" part-of-speech="JJ">human</taggedword>
+      <taggedword index="7" part-of-speech="JJ">cyclin D1</taggedword>
+      <taggedword index="8" part-of-speech="NN">(</taggedword>
+      <taggedword index="9" part-of-speech="NNP">PRAD1</taggedword>
+      <taggedword index="10" part-of-speech="NNP">)</taggedword>
+      <taggedword index="11" part-of-speech="IN">as</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="14" part-of-speech="NN">G1</taggedword>
+      <taggedword index="15" part-of-speech="NN">cyclin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">candidate</taggedword>
+      <taggedword index="18" part-of-speech="NN">proto-oncogene</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Other" dep_index="1" gov="studies" gov_index="3">amod</dependency>
+      <dependency dep="recent" dep_index="2" gov="studies" gov_index="3">amod</dependency>
+      <dependency dep="studies" dep_index="3" gov="identified" gov_index="5">nsubj</dependency>
+      <dependency dep="have" dep_index="4" gov="identified" gov_index="5">aux</dependency>
+      <dependency dep="identified" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="human" dep_index="6" gov=")" gov_index="10">amod</dependency>
+      <dependency dep="cyclin D1" dep_index="7" gov=")" gov_index="10">amod</dependency>
+      <dependency dep="(" dep_index="8" gov=")" gov_index="10">nn</dependency>
+      <dependency dep="PRAD1" dep_index="9" gov=")" gov_index="10">nn</dependency>
+      <dependency dep=")" dep_index="10" gov="identified" gov_index="5">dobj</dependency>
+      <dependency dep="a" dep_index="12" gov="cyclin" gov_index="15">det</dependency>
+      <dependency dep="putative" dep_index="13" gov="cyclin" gov_index="15">amod</dependency>
+      <dependency dep="G1" dep_index="14" gov="cyclin" gov_index="15">nn</dependency>
+      <dependency dep="cyclin" dep_index="15" gov=")" gov_index="10">prep_as</dependency>
+      <dependency dep="candidate" dep_index="17" gov="proto-oncogene" gov_index="18">nn</dependency>
+      <dependency dep="proto-oncogene" dep_index="18" gov=")" gov_index="10">prep_as</dependency>
+      <dependency dep="proto-oncogene" dep_index="18" gov="cyclin" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 10 9</relation>
+   </relations>
+   <pairs/>
+</root>

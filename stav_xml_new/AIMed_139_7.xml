@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Following@linkage@studies@which@were@most@consistent@with@a@beta spectrin@gene@mutation@,@a@nucleotide@change@was@identified@in@codon@2018@,@resulting@in@an@Ala--&gt;Gly@substitution@in@the@first@helical@domain@of@beta spectrin@repeat@17@.@</sentence>
+   <tags>
+      <tag pos="10">beta spectrin</tag>
+      <tag pos="34">beta spectrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Following</taggedword>
+      <taggedword index="2" part-of-speech="JJ">linkage</taggedword>
+      <taggedword index="3" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="4" part-of-speech="WDT">which</taggedword>
+      <taggedword index="5" part-of-speech="VBD">were</taggedword>
+      <taggedword index="6" part-of-speech="RBS">most</taggedword>
+      <taggedword index="7" part-of-speech="JJ">consistent</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="NN">beta spectrin</taggedword>
+      <taggedword index="11" part-of-speech="NN">gene</taggedword>
+      <taggedword index="12" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="JJ">nucleotide</taggedword>
+      <taggedword index="16" part-of-speech="NN">change</taggedword>
+      <taggedword index="17" part-of-speech="VBD">was</taggedword>
+      <taggedword index="18" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="NN">codon</taggedword>
+      <taggedword index="21" part-of-speech="CD">2018</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="VBG">resulting</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="DT">an</taggedword>
+      <taggedword index="26" part-of-speech="JJ">Ala--&gt;Gly</taggedword>
+      <taggedword index="27" part-of-speech="NN">substitution</taggedword>
+      <taggedword index="28" part-of-speech="IN">in</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="JJ">first</taggedword>
+      <taggedword index="31" part-of-speech="JJ">helical</taggedword>
+      <taggedword index="32" part-of-speech="NN">domain</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="NN">beta spectrin</taggedword>
+      <taggedword index="35" part-of-speech="NN">repeat</taggedword>
+      <taggedword index="36" part-of-speech="CD">17</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="linkage" dep_index="2" gov="studies" gov_index="3">amod</dependency>
+      <dependency dep="studies" dep_index="3" gov="consistent" gov_index="7">nsubj</dependency>
+      <dependency dep="studies" dep_index="3" gov="identified" gov_index="18">prep_following</dependency>
+      <dependency dep="were" dep_index="5" gov="consistent" gov_index="7">cop</dependency>
+      <dependency dep="most" dep_index="6" gov="consistent" gov_index="7">advmod</dependency>
+      <dependency dep="consistent" dep_index="7" gov="studies" gov_index="3">rcmod</dependency>
+      <dependency dep="a" dep_index="9" gov="mutation" gov_index="12">det</dependency>
+      <dependency dep="beta spectrin" dep_index="10" gov="mutation" gov_index="12">nn</dependency>
+      <dependency dep="gene" dep_index="11" gov="mutation" gov_index="12">nn</dependency>
+      <dependency dep="mutation" dep_index="12" gov="consistent" gov_index="7">prep_with</dependency>
+      <dependency dep="a" dep_index="14" gov="change" gov_index="16">det</dependency>
+      <dependency dep="nucleotide" dep_index="15" gov="change" gov_index="16">amod</dependency>
+      <dependency dep="change" dep_index="16" gov="identified" gov_index="18">nsubjpass</dependency>
+      <dependency dep="was" dep_index="17" gov="identified" gov_index="18">auxpass</dependency>
+      <dependency dep="identified" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="codon" dep_index="20" gov="identified" gov_index="18">prep_in</dependency>
+      <dependency dep="2018" dep_index="21" gov="codon" gov_index="20">num</dependency>
+      <dependency dep="resulting" dep_index="23" gov="identified" gov_index="18">xcomp</dependency>
+      <dependency dep="an" dep_index="25" gov="substitution" gov_index="27">det</dependency>
+      <dependency dep="Ala--&gt;Gly" dep_index="26" gov="substitution" gov_index="27">amod</dependency>
+      <dependency dep="substitution" dep_index="27" gov="resulting" gov_index="23">prep_in</dependency>
+      <dependency dep="the" dep_index="29" gov="domain" gov_index="32">det</dependency>
+      <dependency dep="first" dep_index="30" gov="domain" gov_index="32">amod</dependency>
+      <dependency dep="helical" dep_index="31" gov="domain" gov_index="32">amod</dependency>
+      <dependency dep="domain" dep_index="32" gov="substitution" gov_index="27">prep_in</dependency>
+      <dependency dep="beta spectrin" dep_index="34" gov="repeat" gov_index="35">nn</dependency>
+      <dependency dep="repeat" dep_index="35" gov="domain" gov_index="32">prep_of</dependency>
+      <dependency dep="17" dep_index="36" gov="repeat" gov_index="35">num</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000034" relationship="false">10 12 7 3 18 23 27 32 35 34</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>OT@evokes@the@release@of@Ca2+@from@IP3@-sensitive@intracellular@stores@</sentence>
+   <tags>
+      <tag pos="1">OT</tag>
+      <tag pos="8">IP3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">evokes</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">release</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNS">Ca2+</taggedword>
+      <taggedword index="7" part-of-speech="IN">from</taggedword>
+      <taggedword index="8" part-of-speech="CD">IP3</taggedword>
+      <taggedword index="9" part-of-speech="JJ">-sensitive</taggedword>
+      <taggedword index="10" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="11" part-of-speech="NNS">stores</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="OT" dep_index="1" gov="evokes" gov_index="2">nsubj</dependency>
+      <dependency dep="evokes" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="release" gov_index="4">det</dependency>
+      <dependency dep="release" dep_index="4" gov="evokes" gov_index="2">dobj</dependency>
+      <dependency dep="Ca2+" dep_index="6" gov="release" gov_index="4">prep_of</dependency>
+      <dependency dep="IP3" dep_index="8" gov="stores" gov_index="11">num</dependency>
+      <dependency dep="-sensitive" dep_index="9" gov="stores" gov_index="11">amod</dependency>
+      <dependency dep="intracellular" dep_index="10" gov="stores" gov_index="11">nn</dependency>
+      <dependency dep="stores" dep_index="11" gov="Ca2+" gov_index="6">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100008" relationship="false">1 2 4 6 11 8</relation>
+   </relations>
+   <pairs/>
+</root>

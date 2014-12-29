@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Sos@complex@following@Sos@phosphorylation@.@</sentence>
+   <tags>
+      <tag pos="1">Sos</tag>
+      <tag pos="4">Sos</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VB">Sos</taggedword>
+      <taggedword index="2" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="3" part-of-speech="VBG">following</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Sos</taggedword>
+      <taggedword index="5" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="6" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Sos" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="complex" dep_index="2" gov="Sos" gov_index="1">acomp</dependency>
+      <dependency dep="Sos" dep_index="4" gov="phosphorylation" gov_index="5">nn</dependency>
+      <dependency dep="phosphorylation" dep_index="5" gov="Sos" gov_index="1">prep_following</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100004" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

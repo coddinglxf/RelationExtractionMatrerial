@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@leptin@decreased@body@weight@and@adiposity@,@increased@CART@and@suppressed@NPY@and@AGRP@mRNA@expression@in@adult@mice@</sentence>
+   <tags>
+      <tag pos="4">leptin</tag>
+      <tag pos="15">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="5" part-of-speech="VBD">decreased</taggedword>
+      <taggedword index="6" part-of-speech="NN">body</taggedword>
+      <taggedword index="7" part-of-speech="NN">weight</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">adiposity</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="12" part-of-speech="NNP">CART</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="VBD">suppressed</taggedword>
+      <taggedword index="15" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NNP">AGRP</taggedword>
+      <taggedword index="18" part-of-speech="NNP">mRNA</taggedword>
+      <taggedword index="19" part-of-speech="NN">expression</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="JJ">adult</taggedword>
+      <taggedword index="22" part-of-speech="NNS">mice</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="decreased" gov_index="5">prep_in</dependency>
+      <dependency dep="leptin" dep_index="4" gov="decreased" gov_index="5">nsubj</dependency>
+      <dependency dep="leptin" dep_index="4" gov="increased" gov_index="11">nsubj</dependency>
+      <dependency dep="leptin" dep_index="4" gov="suppressed" gov_index="14">nsubj</dependency>
+      <dependency dep="decreased" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="body" dep_index="6" gov="weight" gov_index="7">nn</dependency>
+      <dependency dep="weight" dep_index="7" gov="decreased" gov_index="5">dobj</dependency>
+      <dependency dep="adiposity" dep_index="9" gov="decreased" gov_index="5">dobj</dependency>
+      <dependency dep="adiposity" dep_index="9" gov="weight" gov_index="7">conj_and</dependency>
+      <dependency dep="increased" dep_index="11" gov="decreased" gov_index="5">conj_and</dependency>
+      <dependency dep="CART" dep_index="12" gov="increased" gov_index="11">dobj</dependency>
+      <dependency dep="suppressed" dep_index="14" gov="decreased" gov_index="5">conj_and</dependency>
+      <dependency dep="NPY" dep_index="15" gov="expression" gov_index="19">nn</dependency>
+      <dependency dep="AGRP" dep_index="17" gov="NPY" gov_index="15">conj_and</dependency>
+      <dependency dep="AGRP" dep_index="17" gov="expression" gov_index="19">nn</dependency>
+      <dependency dep="mRNA" dep_index="18" gov="expression" gov_index="19">nn</dependency>
+      <dependency dep="expression" dep_index="19" gov="suppressed" gov_index="14">dobj</dependency>
+      <dependency dep="adult" dep_index="21" gov="mice" gov_index="22">amod</dependency>
+      <dependency dep="mice" dep_index="22" gov="expression" gov_index="19">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400015" relationship="true">4 14 19 15</relation>
+   </relations>
+   <pairs>
+      <pair>400015</pair>
+   </pairs>
+</root>

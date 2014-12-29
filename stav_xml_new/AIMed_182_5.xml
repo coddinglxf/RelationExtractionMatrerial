@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interface@relies@on@the@steric@complementarity@between@the@MDM2@cleft@and@the@hydrophobic@face@of@the@p53@alpha@helix@and@,@in@particular@,@on@a@triad@of@p53@amino@acids-Phe19@,@Trp23@,@and@Leu26-which@insert@deep@into@the@MDM2@cleft@.@</sentence>
+   <tags>
+      <tag pos="10">MDM2</tag>
+      <tag pos="18">p53</tag>
+      <tag pos="30">p53</tag>
+      <tag pos="42">MDM2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">interface</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">relies</taggedword>
+      <taggedword index="4" part-of-speech="IN">on</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">steric</taggedword>
+      <taggedword index="7" part-of-speech="NN">complementarity</taggedword>
+      <taggedword index="8" part-of-speech="IN">between</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NNP">MDM2</taggedword>
+      <taggedword index="11" part-of-speech="NN">cleft</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">hydrophobic</taggedword>
+      <taggedword index="15" part-of-speech="NN">face</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">p53</taggedword>
+      <taggedword index="19" part-of-speech="NN">alpha</taggedword>
+      <taggedword index="20" part-of-speech="NN">helix</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="JJ">particular</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="IN">on</taggedword>
+      <taggedword index="27" part-of-speech="DT">a</taggedword>
+      <taggedword index="28" part-of-speech="NN">triad</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NN">p53</taggedword>
+      <taggedword index="31" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="32" part-of-speech="JJ">acids-Phe19</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="JJ">Trp23</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="CC">and</taggedword>
+      <taggedword index="37" part-of-speech="NN">Leu26-which</taggedword>
+      <taggedword index="38" part-of-speech="NN">insert</taggedword>
+      <taggedword index="39" part-of-speech="RB">deep</taggedword>
+      <taggedword index="40" part-of-speech="IN">into</taggedword>
+      <taggedword index="41" part-of-speech="DT">the</taggedword>
+      <taggedword index="42" part-of-speech="NNP">MDM2</taggedword>
+      <taggedword index="43" part-of-speech="NN">cleft</taggedword>
+      <taggedword index="44" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interface" gov_index="2">det</dependency>
+      <dependency dep="interface" dep_index="2" gov="relies" gov_index="3">nsubj</dependency>
+      <dependency dep="relies" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="complementarity" gov_index="7">det</dependency>
+      <dependency dep="steric" dep_index="6" gov="complementarity" gov_index="7">amod</dependency>
+      <dependency dep="complementarity" dep_index="7" gov="relies" gov_index="3">prep_on</dependency>
+      <dependency dep="the" dep_index="9" gov="cleft" gov_index="11">det</dependency>
+      <dependency dep="MDM2" dep_index="10" gov="cleft" gov_index="11">nn</dependency>
+      <dependency dep="cleft" dep_index="11" gov="complementarity" gov_index="7">prep_between</dependency>
+      <dependency dep="the" dep_index="13" gov="face" gov_index="15">det</dependency>
+      <dependency dep="hydrophobic" dep_index="14" gov="face" gov_index="15">amod</dependency>
+      <dependency dep="face" dep_index="15" gov="relies" gov_index="3">prep_on</dependency>
+      <dependency dep="face" dep_index="15" gov="complementarity" gov_index="7">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="helix" gov_index="20">det</dependency>
+      <dependency dep="p53" dep_index="18" gov="helix" gov_index="20">nn</dependency>
+      <dependency dep="alpha" dep_index="19" gov="helix" gov_index="20">nn</dependency>
+      <dependency dep="helix" dep_index="20" gov="face" gov_index="15">prep_of</dependency>
+      <dependency dep="in" dep_index="23" gov="relies" gov_index="3">dep</dependency>
+      <dependency dep="particular" dep_index="24" gov="in" gov_index="23">pobj</dependency>
+      <dependency dep="a" dep_index="27" gov="triad" gov_index="28">det</dependency>
+      <dependency dep="triad" dep_index="28" gov="relies" gov_index="3">prep_on</dependency>
+      <dependency dep="triad" dep_index="28" gov="complementarity" gov_index="7">conj_and</dependency>
+      <dependency dep="p53" dep_index="30" gov="triad" gov_index="28">prep_of</dependency>
+      <dependency dep="amino" dep_index="31" gov="p53" gov_index="30">amod</dependency>
+      <dependency dep="acids-Phe19" dep_index="32" gov="p53" gov_index="30">amod</dependency>
+      <dependency dep="Trp23" dep_index="34" gov="p53" gov_index="30">amod</dependency>
+      <dependency dep="Leu26-which" dep_index="37" gov="insert" gov_index="38">nn</dependency>
+      <dependency dep="insert" dep_index="38" gov="triad" gov_index="28">prep_of</dependency>
+      <dependency dep="insert" dep_index="38" gov="p53" gov_index="30">conj_and</dependency>
+      <dependency dep="deep" dep_index="39" gov="relies" gov_index="3">dep</dependency>
+      <dependency dep="the" dep_index="41" gov="cleft" gov_index="43">det</dependency>
+      <dependency dep="MDM2" dep_index="42" gov="cleft" gov_index="43">nn</dependency>
+      <dependency dep="cleft" dep_index="43" gov="relies" gov_index="3">prep_into</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000018" relationship="false">10 11 7 3 15 20 18</relation>
+      <relation position="1000030" relationship="false">10 11 7 3 28 30</relation>
+      <relation position="1000042" relationship="false">10 11 7 3 43 42</relation>
+      <relation position="1800030" relationship="false">18 20 15 3 28 30</relation>
+      <relation position="1800042" relationship="false">18 20 15 3 43 42</relation>
+      <relation position="3000042" relationship="true">30 28 3 43 42</relation>
+   </relations>
+   <pairs>
+      <pair>3000042</pair>
+   </pairs>
+</root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@protein@Raf-1@,@a@key@mediator@of@mitogenesis@and@differentiation@,@associates@with@p21ras@(refs@1-3)@.@</sentence>
+   <tags>
+      <tag pos="3">Raf-1</tag>
+      <tag pos="15">p21ras</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">protein</taggedword>
+      <taggedword index="3" part-of-speech="NN">Raf-1</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">key</taggedword>
+      <taggedword index="7" part-of-speech="NN">mediator</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNS">mitogenesis</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">differentiation</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="JJ">p21ras</taggedword>
+      <taggedword index="16" part-of-speech="NNS">(refs</taggedword>
+      <taggedword index="17" part-of-speech="CD">1-3)</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="Raf-1" gov_index="3">det</dependency>
+      <dependency dep="protein" dep_index="2" gov="Raf-1" gov_index="3">nn</dependency>
+      <dependency dep="Raf-1" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="mediator" gov_index="7">det</dependency>
+      <dependency dep="key" dep_index="6" gov="mediator" gov_index="7">amod</dependency>
+      <dependency dep="mediator" dep_index="7" gov="Raf-1" gov_index="3">appos</dependency>
+      <dependency dep="mitogenesis" dep_index="9" gov="mediator" gov_index="7">prep_of</dependency>
+      <dependency dep="differentiation" dep_index="11" gov="mediator" gov_index="7">prep_of</dependency>
+      <dependency dep="differentiation" dep_index="11" gov="mitogenesis" gov_index="9">conj_and</dependency>
+      <dependency dep="associates" dep_index="13" gov="Raf-1" gov_index="3">appos</dependency>
+      <dependency dep="p21ras" dep_index="15" gov="(refs" gov_index="16">amod</dependency>
+      <dependency dep="(refs" dep_index="16" gov="associates" gov_index="13">prep_with</dependency>
+      <dependency dep="1-3)" dep_index="17" gov="associates" gov_index="13">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300015" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>300015</pair>
+   </pairs>
+</root>

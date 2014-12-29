@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@binding@of@hTAFII28@and@hTAFII30@requires@distinct@domains@of@hTAFII18@.@</sentence>
+   <tags>
+      <tag pos="4">hTAFII28</tag>
+      <tag pos="6">hTAFII30</tag>
+      <tag pos="11">hTAFII18</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">hTAFII28</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="CD">hTAFII30</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">requires</taggedword>
+      <taggedword index="8" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="9" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="CD">hTAFII18</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="requires" gov_index="7">nsubj</dependency>
+      <dependency dep="binding" dep_index="2" gov="The" gov_index="1">amod</dependency>
+      <dependency dep="hTAFII28" dep_index="4" gov="The" gov_index="1">prep_of</dependency>
+      <dependency dep="hTAFII30" dep_index="6" gov="The" gov_index="1">prep_of</dependency>
+      <dependency dep="hTAFII30" dep_index="6" gov="hTAFII28" gov_index="4">conj_and</dependency>
+      <dependency dep="requires" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="distinct" dep_index="8" gov="domains" gov_index="9">amod</dependency>
+      <dependency dep="domains" dep_index="9" gov="requires" gov_index="7">dobj</dependency>
+      <dependency dep="hTAFII18" dep_index="11" gov="domains" gov_index="9">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 1 6</relation>
+      <relation position="400011" relationship="true">4 1 7 9 11</relation>
+      <relation position="600011" relationship="true">6 1 7 9 11</relation>
+   </relations>
+   <pairs>
+      <pair>400011</pair>
+      <pair>600011</pair>
+   </pairs>
+</root>

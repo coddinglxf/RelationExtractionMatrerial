@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>RESULTS@:@OT@receptors@were@not@detectable@in@the@myometria@of@non-pregnant@rabbits@,@and@OT@had@no@effect@on@the@formation@of@inositol phosphates@(IPs)@</sentence>
+   <tags>
+      <tag pos="16">OT</tag>
+      <tag pos="24">inositol phosphates</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">RESULTS</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="4" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="5" part-of-speech="VBD">were</taggedword>
+      <taggedword index="6" part-of-speech="RB">not</taggedword>
+      <taggedword index="7" part-of-speech="JJ">detectable</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">myometria</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="JJ">non-pregnant</taggedword>
+      <taggedword index="13" part-of-speech="NNS">rabbits</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="17" part-of-speech="VBD">had</taggedword>
+      <taggedword index="18" part-of-speech="DT">no</taggedword>
+      <taggedword index="19" part-of-speech="NN">effect</taggedword>
+      <taggedword index="20" part-of-speech="IN">on</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">formation</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="JJ">inositol phosphates</taggedword>
+      <taggedword index="25" part-of-speech="NNS">(IPs)</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="RESULTS" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="OT" dep_index="3" gov="receptors" gov_index="4">nn</dependency>
+      <dependency dep="receptors" dep_index="4" gov="detectable" gov_index="7">nsubj</dependency>
+      <dependency dep="were" dep_index="5" gov="detectable" gov_index="7">cop</dependency>
+      <dependency dep="not" dep_index="6" gov="detectable" gov_index="7">neg</dependency>
+      <dependency dep="detectable" dep_index="7" gov="RESULTS" gov_index="1">dep</dependency>
+      <dependency dep="the" dep_index="9" gov="myometria" gov_index="10">det</dependency>
+      <dependency dep="myometria" dep_index="10" gov="detectable" gov_index="7">prep_in</dependency>
+      <dependency dep="non-pregnant" dep_index="12" gov="rabbits" gov_index="13">amod</dependency>
+      <dependency dep="rabbits" dep_index="13" gov="myometria" gov_index="10">prep_of</dependency>
+      <dependency dep="OT" dep_index="16" gov="had" gov_index="17">nsubj</dependency>
+      <dependency dep="had" dep_index="17" gov="RESULTS" gov_index="1">dep</dependency>
+      <dependency dep="had" dep_index="17" gov="detectable" gov_index="7">conj_and</dependency>
+      <dependency dep="no" dep_index="18" gov="effect" gov_index="19">det</dependency>
+      <dependency dep="effect" dep_index="19" gov="had" gov_index="17">dobj</dependency>
+      <dependency dep="the" dep_index="21" gov="formation" gov_index="22">det</dependency>
+      <dependency dep="formation" dep_index="22" gov="effect" gov_index="19">prep_on</dependency>
+      <dependency dep="inositol phosphates" dep_index="24" gov="(IPs)" gov_index="25">amod</dependency>
+      <dependency dep="(IPs)" dep_index="25" gov="formation" gov_index="22">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600024" relationship="true">16 17 19 22 25 24</relation>
+   </relations>
+   <pairs>
+      <pair>1600024</pair>
+   </pairs>
+</root>

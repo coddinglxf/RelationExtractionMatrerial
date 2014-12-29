@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Previous@studies@on@the@assembly@of@progesterone receptor@(@PR@)@complexes@in@vitro@have@suggested@that@PR@assembly@is@a@dynamic@,@ordered@process@involving@at@least@eight@nonreceptor@proteins@.@</sentence>
+   <tags>
+      <tag pos="7">progesterone receptor</tag>
+      <tag pos="9">PR</tag>
+      <tag pos="17">PR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Previous</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="IN">on</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">progesterone receptor</taggedword>
+      <taggedword index="8" part-of-speech="JJ">(</taggedword>
+      <taggedword index="9" part-of-speech="NNP">PR</taggedword>
+      <taggedword index="10" part-of-speech="NNP">)</taggedword>
+      <taggedword index="11" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NNP">vitro</taggedword>
+      <taggedword index="14" part-of-speech="VBP">have</taggedword>
+      <taggedword index="15" part-of-speech="VBN">suggested</taggedword>
+      <taggedword index="16" part-of-speech="IN">that</taggedword>
+      <taggedword index="17" part-of-speech="NNP">PR</taggedword>
+      <taggedword index="18" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="JJ">dynamic</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="JJ">ordered</taggedword>
+      <taggedword index="24" part-of-speech="NN">process</taggedword>
+      <taggedword index="25" part-of-speech="VBG">involving</taggedword>
+      <taggedword index="26" part-of-speech="IN">at</taggedword>
+      <taggedword index="27" part-of-speech="JJS">least</taggedword>
+      <taggedword index="28" part-of-speech="CD">eight</taggedword>
+      <taggedword index="29" part-of-speech="NN">nonreceptor</taggedword>
+      <taggedword index="30" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Previous" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="suggested" gov_index="15">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="assembly" gov_index="5">det</dependency>
+      <dependency dep="assembly" dep_index="5" gov="studies" gov_index="2">prep_on</dependency>
+      <dependency dep="progesterone receptor" dep_index="7" gov="complexes" gov_index="11">amod</dependency>
+      <dependency dep="(" dep_index="8" gov="complexes" gov_index="11">amod</dependency>
+      <dependency dep="PR" dep_index="9" gov="complexes" gov_index="11">nn</dependency>
+      <dependency dep=")" dep_index="10" gov="complexes" gov_index="11">nn</dependency>
+      <dependency dep="complexes" dep_index="11" gov="assembly" gov_index="5">prep_of</dependency>
+      <dependency dep="vitro" dep_index="13" gov="complexes" gov_index="11">prep_in</dependency>
+      <dependency dep="have" dep_index="14" gov="suggested" gov_index="15">aux</dependency>
+      <dependency dep="suggested" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="16" gov="process" gov_index="24">mark</dependency>
+      <dependency dep="PR" dep_index="17" gov="assembly" gov_index="18">nn</dependency>
+      <dependency dep="assembly" dep_index="18" gov="process" gov_index="24">nsubj</dependency>
+      <dependency dep="is" dep_index="19" gov="process" gov_index="24">cop</dependency>
+      <dependency dep="a" dep_index="20" gov="process" gov_index="24">det</dependency>
+      <dependency dep="dynamic" dep_index="21" gov="process" gov_index="24">amod</dependency>
+      <dependency dep="ordered" dep_index="23" gov="process" gov_index="24">amod</dependency>
+      <dependency dep="process" dep_index="24" gov="suggested" gov_index="15">ccomp</dependency>
+      <dependency dep="at" dep_index="26" gov="eight" gov_index="28">quantmod</dependency>
+      <dependency dep="least" dep_index="27" gov="at" gov_index="26">mwe</dependency>
+      <dependency dep="least" dep_index="27" gov="at" gov_index="26">pobj</dependency>
+      <dependency dep="eight" dep_index="28" gov="proteins" gov_index="30">num</dependency>
+      <dependency dep="nonreceptor" dep_index="29" gov="proteins" gov_index="30">nn</dependency>
+      <dependency dep="proteins" dep_index="30" gov="process" gov_index="24">prep_involving</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 11 9</relation>
+      <relation position="700017" relationship="false">7 11 5 2 15 24 18 17</relation>
+      <relation position="900017" relationship="false">9 11 5 2 15 24 18 17</relation>
+   </relations>
+   <pairs/>
+</root>

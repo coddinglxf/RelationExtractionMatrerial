@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@hydrophilic@form@of@MDP@released@from@the@cells@on@stimulation@with@insulin@was@recognized@by@antibodies@against@the@inositol@1,2-cyclic@monophosphate@cross-reacting@determinant@,@indicating@that@it@had@been@generated@by@cleavage@of@its@GPI@anchor@through@the@action@of@a@phospholipase C@</sentence>
+   <tags>
+      <tag pos="13">insulin</tag>
+      <tag pos="43">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">hydrophilic</taggedword>
+      <taggedword index="3" part-of-speech="NN">form</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">MDP</taggedword>
+      <taggedword index="6" part-of-speech="VBN">released</taggedword>
+      <taggedword index="7" part-of-speech="IN">from</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="10" part-of-speech="IN">on</taggedword>
+      <taggedword index="11" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="14" part-of-speech="VBD">was</taggedword>
+      <taggedword index="15" part-of-speech="VBN">recognized</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="18" part-of-speech="IN">against</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">inositol</taggedword>
+      <taggedword index="21" part-of-speech="JJ">1,2-cyclic</taggedword>
+      <taggedword index="22" part-of-speech="NN">monophosphate</taggedword>
+      <taggedword index="23" part-of-speech="JJ">cross-reacting</taggedword>
+      <taggedword index="24" part-of-speech="NN">determinant</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="VBG">indicating</taggedword>
+      <taggedword index="27" part-of-speech="IN">that</taggedword>
+      <taggedword index="28" part-of-speech="PRP">it</taggedword>
+      <taggedword index="29" part-of-speech="VBD">had</taggedword>
+      <taggedword index="30" part-of-speech="VBN">been</taggedword>
+      <taggedword index="31" part-of-speech="VBN">generated</taggedword>
+      <taggedword index="32" part-of-speech="IN">by</taggedword>
+      <taggedword index="33" part-of-speech="NN">cleavage</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="36" part-of-speech="NNP">GPI</taggedword>
+      <taggedword index="37" part-of-speech="NN">anchor</taggedword>
+      <taggedword index="38" part-of-speech="IN">through</taggedword>
+      <taggedword index="39" part-of-speech="DT">the</taggedword>
+      <taggedword index="40" part-of-speech="NN">action</taggedword>
+      <taggedword index="41" part-of-speech="IN">of</taggedword>
+      <taggedword index="42" part-of-speech="DT">a</taggedword>
+      <taggedword index="43" part-of-speech="NN">phospholipase C</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="form" gov_index="3">det</dependency>
+      <dependency dep="hydrophilic" dep_index="2" gov="form" gov_index="3">amod</dependency>
+      <dependency dep="form" dep_index="3" gov="recognized" gov_index="15">nsubjpass</dependency>
+      <dependency dep="MDP" dep_index="5" gov="form" gov_index="3">prep_of</dependency>
+      <dependency dep="released" dep_index="6" gov="MDP" gov_index="5">partmod</dependency>
+      <dependency dep="the" dep_index="8" gov="cells" gov_index="9">det</dependency>
+      <dependency dep="cells" dep_index="9" gov="released" gov_index="6">prep_from</dependency>
+      <dependency dep="stimulation" dep_index="11" gov="cells" gov_index="9">prep_on</dependency>
+      <dependency dep="insulin" dep_index="13" gov="released" gov_index="6">prep_with</dependency>
+      <dependency dep="was" dep_index="14" gov="recognized" gov_index="15">auxpass</dependency>
+      <dependency dep="recognized" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="antibodies" dep_index="17" gov="recognized" gov_index="15">agent</dependency>
+      <dependency dep="the" dep_index="19" gov="determinant" gov_index="24">det</dependency>
+      <dependency dep="inositol" dep_index="20" gov="determinant" gov_index="24">amod</dependency>
+      <dependency dep="1,2-cyclic" dep_index="21" gov="determinant" gov_index="24">amod</dependency>
+      <dependency dep="monophosphate" dep_index="22" gov="determinant" gov_index="24">nn</dependency>
+      <dependency dep="cross-reacting" dep_index="23" gov="determinant" gov_index="24">amod</dependency>
+      <dependency dep="determinant" dep_index="24" gov="antibodies" gov_index="17">prep_against</dependency>
+      <dependency dep="indicating" dep_index="26" gov="recognized" gov_index="15">xcomp</dependency>
+      <dependency dep="that" dep_index="27" gov="generated" gov_index="31">mark</dependency>
+      <dependency dep="it" dep_index="28" gov="generated" gov_index="31">nsubjpass</dependency>
+      <dependency dep="had" dep_index="29" gov="generated" gov_index="31">aux</dependency>
+      <dependency dep="been" dep_index="30" gov="generated" gov_index="31">auxpass</dependency>
+      <dependency dep="generated" dep_index="31" gov="indicating" gov_index="26">ccomp</dependency>
+      <dependency dep="cleavage" dep_index="33" gov="generated" gov_index="31">agent</dependency>
+      <dependency dep="its" dep_index="35" gov="anchor" gov_index="37">poss</dependency>
+      <dependency dep="GPI" dep_index="36" gov="anchor" gov_index="37">nn</dependency>
+      <dependency dep="anchor" dep_index="37" gov="cleavage" gov_index="33">prep_of</dependency>
+      <dependency dep="the" dep_index="39" gov="action" gov_index="40">det</dependency>
+      <dependency dep="action" dep_index="40" gov="generated" gov_index="31">prep_through</dependency>
+      <dependency dep="a" dep_index="42" gov="phospholipase C" gov_index="43">det</dependency>
+      <dependency dep="phospholipase C" dep_index="43" gov="action" gov_index="40">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300043" relationship="true">13 6 5 3 15 26 31 40 43</relation>
+   </relations>
+   <pairs>
+      <pair>1300043</pair>
+   </pairs>
+</root>

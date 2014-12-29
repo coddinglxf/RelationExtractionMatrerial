@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@conclude@that@UCP-2@has@uncoupling@function@when@overexpressed@in@leptin@-insensitive@islets@and@that@its@overexpression@corrects@the@underexpression@of@the@insulin@gene@and@ameliorates@glucose-stimulated@insulin@secretion@,@possibly@by@increasing@the@ATP:ADP@ratio@</sentence>
+   <tags>
+      <tag pos="4">UCP-2</tag>
+      <tag pos="11">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">conclude</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NNP">UCP-2</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="6" part-of-speech="VBG">uncoupling</taggedword>
+      <taggedword index="7" part-of-speech="NN">function</taggedword>
+      <taggedword index="8" part-of-speech="WRB">when</taggedword>
+      <taggedword index="9" part-of-speech="VBN">overexpressed</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="JJ">leptin</taggedword>
+      <taggedword index="12" part-of-speech="JJ">-insensitive</taggedword>
+      <taggedword index="13" part-of-speech="NNS">islets</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="IN">that</taggedword>
+      <taggedword index="16" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="17" part-of-speech="NN">overexpression</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">corrects</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">underexpression</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="24" part-of-speech="NN">gene</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="VBZ">ameliorates</taggedword>
+      <taggedword index="27" part-of-speech="JJ">glucose-stimulated</taggedword>
+      <taggedword index="28" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="29" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="RB">possibly</taggedword>
+      <taggedword index="32" part-of-speech="IN">by</taggedword>
+      <taggedword index="33" part-of-speech="VBG">increasing</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="NNP">ATP:ADP</taggedword>
+      <taggedword index="36" part-of-speech="NN">ratio</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="conclude" gov_index="2">nsubj</dependency>
+      <dependency dep="conclude" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="has" gov_index="5">mark</dependency>
+      <dependency dep="UCP-2" dep_index="4" gov="has" gov_index="5">nsubj</dependency>
+      <dependency dep="has" dep_index="5" gov="conclude" gov_index="2">ccomp</dependency>
+      <dependency dep="uncoupling" dep_index="6" gov="function" gov_index="7">amod</dependency>
+      <dependency dep="function" dep_index="7" gov="has" gov_index="5">dobj</dependency>
+      <dependency dep="when" dep_index="8" gov="overexpressed" gov_index="9">advmod</dependency>
+      <dependency dep="overexpressed" dep_index="9" gov="function" gov_index="7">ccomp</dependency>
+      <dependency dep="leptin" dep_index="11" gov="islets" gov_index="13">amod</dependency>
+      <dependency dep="-insensitive" dep_index="12" gov="islets" gov_index="13">amod</dependency>
+      <dependency dep="islets" dep_index="13" gov="overexpressed" gov_index="9">prep_in</dependency>
+      <dependency dep="that" dep_index="15" gov="corrects" gov_index="18">mark</dependency>
+      <dependency dep="its" dep_index="16" gov="overexpression" gov_index="17">poss</dependency>
+      <dependency dep="overexpression" dep_index="17" gov="corrects" gov_index="18">nsubj</dependency>
+      <dependency dep="overexpression" dep_index="17" gov="ameliorates" gov_index="26">nsubj</dependency>
+      <dependency dep="corrects" dep_index="18" gov="function" gov_index="7">ccomp</dependency>
+      <dependency dep="corrects" dep_index="18" gov="overexpressed" gov_index="9">conj_and</dependency>
+      <dependency dep="the" dep_index="19" gov="underexpression" gov_index="20">det</dependency>
+      <dependency dep="underexpression" dep_index="20" gov="corrects" gov_index="18">dobj</dependency>
+      <dependency dep="the" dep_index="22" gov="gene" gov_index="24">det</dependency>
+      <dependency dep="insulin" dep_index="23" gov="gene" gov_index="24">nn</dependency>
+      <dependency dep="gene" dep_index="24" gov="underexpression" gov_index="20">prep_of</dependency>
+      <dependency dep="ameliorates" dep_index="26" gov="overexpressed" gov_index="9">conj_and</dependency>
+      <dependency dep="ameliorates" dep_index="26" gov="corrects" gov_index="18">conj_and</dependency>
+      <dependency dep="glucose-stimulated" dep_index="27" gov="secretion" gov_index="29">amod</dependency>
+      <dependency dep="insulin" dep_index="28" gov="secretion" gov_index="29">nn</dependency>
+      <dependency dep="secretion" dep_index="29" gov="ameliorates" gov_index="26">dobj</dependency>
+      <dependency dep="possibly" dep_index="31" gov="has" gov_index="5">advmod</dependency>
+      <dependency dep="increasing" dep_index="33" gov="has" gov_index="5">prepc_by</dependency>
+      <dependency dep="the" dep_index="34" gov="ratio" gov_index="36">det</dependency>
+      <dependency dep="ATP:ADP" dep_index="35" gov="ratio" gov_index="36">nn</dependency>
+      <dependency dep="ratio" dep_index="36" gov="increasing" gov_index="33">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400011" relationship="false">4 5 7 9 13 11</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@drastic@effects@of@the@exogenous@cofilin@on@actin@assembly@were@suppressed@by@phosphatidylinositol@4,5-bisphosphate@(PIP2)@.@</sentence>
+   <tags>
+      <tag pos="9">actin</tag>
+      <tag pos="7">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">drastic</taggedword>
+      <taggedword index="3" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">exogenous</taggedword>
+      <taggedword index="7" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="11" part-of-speech="VBD">were</taggedword>
+      <taggedword index="12" part-of-speech="VBN">suppressed</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="JJ">phosphatidylinositol</taggedword>
+      <taggedword index="15" part-of-speech="CD">4,5-bisphosphate</taggedword>
+      <taggedword index="16" part-of-speech="CD">(PIP2)</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="effects" gov_index="3">det</dependency>
+      <dependency dep="drastic" dep_index="2" gov="effects" gov_index="3">amod</dependency>
+      <dependency dep="effects" dep_index="3" gov="suppressed" gov_index="12">nsubjpass</dependency>
+      <dependency dep="the" dep_index="5" gov="cofilin" gov_index="7">det</dependency>
+      <dependency dep="exogenous" dep_index="6" gov="cofilin" gov_index="7">amod</dependency>
+      <dependency dep="cofilin" dep_index="7" gov="effects" gov_index="3">prep_of</dependency>
+      <dependency dep="actin" dep_index="9" gov="assembly" gov_index="10">nn</dependency>
+      <dependency dep="assembly" dep_index="10" gov="cofilin" gov_index="7">prep_on</dependency>
+      <dependency dep="were" dep_index="11" gov="suppressed" gov_index="12">auxpass</dependency>
+      <dependency dep="suppressed" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="phosphatidylinositol" dep_index="14" gov="(PIP2)" gov_index="16">amod</dependency>
+      <dependency dep="4,5-bisphosphate" dep_index="15" gov="(PIP2)" gov_index="16">num</dependency>
+      <dependency dep="(PIP2)" dep_index="16" gov="suppressed" gov_index="12">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

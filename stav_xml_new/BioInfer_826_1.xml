@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@tested@for@the@presence@of@alpha-smooth muscle actin@,@tropomyosin@,@desmin@,@smooth muscle myosin@(heavy@chain)@and@cytoskeletal@proteins@vimentin@and@cytokeratin@.@</sentence>
+   <tags>
+      <tag pos="21">cytokeratin</tag>
+      <tag pos="13">smooth muscle myosin</tag>
+      <tag pos="11">desmin</tag>
+      <tag pos="7">alpha-smooth muscle actin</tag>
+      <tag pos="19">vimentin</tag>
+      <tag pos="9">tropomyosin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">tested</taggedword>
+      <taggedword index="3" part-of-speech="IN">for</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">presence</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">alpha-smooth muscle actin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">tropomyosin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">desmin</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="JJ">smooth muscle myosin</taggedword>
+      <taggedword index="14" part-of-speech="JJ">(heavy</taggedword>
+      <taggedword index="15" part-of-speech="NN">chain)</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="JJ">cytoskeletal</taggedword>
+      <taggedword index="18" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="19" part-of-speech="NN">vimentin</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NN">cytokeratin</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="tested" gov_index="2">nsubj</dependency>
+      <dependency dep="tested" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="presence" gov_index="5">det</dependency>
+      <dependency dep="presence" dep_index="5" gov="tested" gov_index="2">prep_for</dependency>
+      <dependency dep="alpha-smooth muscle actin" dep_index="7" gov="chain)" gov_index="15">nn</dependency>
+      <dependency dep="tropomyosin" dep_index="9" gov="chain)" gov_index="15">dep</dependency>
+      <dependency dep="desmin" dep_index="11" gov="chain)" gov_index="15">dep</dependency>
+      <dependency dep="smooth muscle myosin" dep_index="13" gov="chain)" gov_index="15">amod</dependency>
+      <dependency dep="(heavy" dep_index="14" gov="chain)" gov_index="15">amod</dependency>
+      <dependency dep="chain)" dep_index="15" gov="presence" gov_index="5">prep_of</dependency>
+      <dependency dep="cytoskeletal" dep_index="17" gov="vimentin" gov_index="19">amod</dependency>
+      <dependency dep="proteins" dep_index="18" gov="vimentin" gov_index="19">nn</dependency>
+      <dependency dep="vimentin" dep_index="19" gov="presence" gov_index="5">prep_of</dependency>
+      <dependency dep="vimentin" dep_index="19" gov="chain)" gov_index="15">conj_and</dependency>
+      <dependency dep="cytokeratin" dep_index="21" gov="presence" gov_index="5">prep_of</dependency>
+      <dependency dep="cytokeratin" dep_index="21" gov="chain)" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300021" relationship="false">13 15 5 21</relation>
+      <relation position="1100021" relationship="false">11 15 5 21</relation>
+      <relation position="700021" relationship="false">7 15 5 21</relation>
+      <relation position="1900021" relationship="false">19 5 21</relation>
+      <relation position="900021" relationship="false">9 15 5 21</relation>
+      <relation position="1100013" relationship="false">11 15 13</relation>
+      <relation position="700013" relationship="false">7 15 13</relation>
+      <relation position="1300019" relationship="false">13 15 5 19</relation>
+      <relation position="900013" relationship="false">9 15 13</relation>
+      <relation position="700011" relationship="false">7 15 11</relation>
+      <relation position="1100019" relationship="false">11 15 5 19</relation>
+      <relation position="900011" relationship="false">9 15 11</relation>
+      <relation position="700019" relationship="false">7 15 5 19</relation>
+      <relation position="700009" relationship="false">7 15 9</relation>
+      <relation position="900019" relationship="false">9 15 5 19</relation>
+   </relations>
+   <pairs/>
+</root>

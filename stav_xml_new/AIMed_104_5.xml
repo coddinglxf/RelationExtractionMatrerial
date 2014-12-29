@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>They@bind@to@DNA@as@heterodimers@,@interacting@with@proteins@known@as@DP@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">They</taggedword>
+      <taggedword index="2" part-of-speech="VBD">bind</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="5" part-of-speech="IN">as</taggedword>
+      <taggedword index="6" part-of-speech="NNS">heterodimers</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="VBG">interacting</taggedword>
+      <taggedword index="9" part-of-speech="IN">with</taggedword>
+      <taggedword index="10" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="11" part-of-speech="VBN">known</taggedword>
+      <taggedword index="12" part-of-speech="IN">as</taggedword>
+      <taggedword index="13" part-of-speech="NNP">DP</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="They" dep_index="1" gov="bind" gov_index="2">nsubj</dependency>
+      <dependency dep="bind" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="DNA" dep_index="4" gov="bind" gov_index="2">prep_to</dependency>
+      <dependency dep="heterodimers" dep_index="6" gov="bind" gov_index="2">prep_as</dependency>
+      <dependency dep="interacting" dep_index="8" gov="bind" gov_index="2">xcomp</dependency>
+      <dependency dep="proteins" dep_index="10" gov="interacting" gov_index="8">prep_with</dependency>
+      <dependency dep="known" dep_index="11" gov="proteins" gov_index="10">partmod</dependency>
+      <dependency dep="DP" dep_index="13" gov="known" gov_index="11">prep_as</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

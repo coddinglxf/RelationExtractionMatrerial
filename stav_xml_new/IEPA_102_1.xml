@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Constitutive@expression@of@PKABA1@drastically@suppressed@expression@of@low-@and@high-pI@alpha-amylase@and@protease@genes@induced@by@GA@</sentence>
+   <tags>
+      <tag pos="12">alpha-amylase</tag>
+      <tag pos="18">GA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Constitutive</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">PKABA1</taggedword>
+      <taggedword index="5" part-of-speech="RB">drastically</taggedword>
+      <taggedword index="6" part-of-speech="VBD">suppressed</taggedword>
+      <taggedword index="7" part-of-speech="NN">expression</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">low-</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">high-pI</taggedword>
+      <taggedword index="12" part-of-speech="NN">alpha-amylase</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">protease</taggedword>
+      <taggedword index="15" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="16" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="NNP">GA</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Constitutive" dep_index="1" gov="expression" gov_index="2">amod</dependency>
+      <dependency dep="expression" dep_index="2" gov="suppressed" gov_index="6">nsubj</dependency>
+      <dependency dep="PKABA1" dep_index="4" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="drastically" dep_index="5" gov="suppressed" gov_index="6">advmod</dependency>
+      <dependency dep="suppressed" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="expression" dep_index="7" gov="suppressed" gov_index="6">dobj</dependency>
+      <dependency dep="low-" dep_index="9" gov="alpha-amylase" gov_index="12">nn</dependency>
+      <dependency dep="high-pI" dep_index="11" gov="low-" gov_index="9">conj_and</dependency>
+      <dependency dep="high-pI" dep_index="11" gov="alpha-amylase" gov_index="12">nn</dependency>
+      <dependency dep="alpha-amylase" dep_index="12" gov="expression" gov_index="7">prep_of</dependency>
+      <dependency dep="protease" dep_index="14" gov="genes" gov_index="15">nn</dependency>
+      <dependency dep="genes" dep_index="15" gov="expression" gov_index="7">prep_of</dependency>
+      <dependency dep="genes" dep_index="15" gov="alpha-amylase" gov_index="12">conj_and</dependency>
+      <dependency dep="induced" dep_index="16" gov="expression" gov_index="7">partmod</dependency>
+      <dependency dep="GA" dep_index="18" gov="induced" gov_index="16">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200018" relationship="true">12 7 16 18</relation>
+   </relations>
+   <pairs>
+      <pair>1200018</pair>
+   </pairs>
+</root>

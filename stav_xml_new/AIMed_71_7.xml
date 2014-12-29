@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>MAP kinase@activation@of@c-jun@may@underlie@the@common@stimulation@of@this@transcription@factor@by@mitogens@,@growth@factors@and@oncogenes@.@</sentence>
+   <tags>
+      <tag pos="1">MAP kinase</tag>
+      <tag pos="4">c-jun</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">MAP kinase</taggedword>
+      <taggedword index="2" part-of-speech="NN">activation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">c-jun</taggedword>
+      <taggedword index="5" part-of-speech="MD">may</taggedword>
+      <taggedword index="6" part-of-speech="VB">underlie</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">common</taggedword>
+      <taggedword index="9" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">this</taggedword>
+      <taggedword index="12" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="13" part-of-speech="NN">factor</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="NNS">mitogens</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="NN">growth</taggedword>
+      <taggedword index="18" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NNS">oncogenes</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="MAP kinase" dep_index="1" gov="activation" gov_index="2">amod</dependency>
+      <dependency dep="activation" dep_index="2" gov="underlie" gov_index="6">nsubj</dependency>
+      <dependency dep="c-jun" dep_index="4" gov="activation" gov_index="2">prep_of</dependency>
+      <dependency dep="may" dep_index="5" gov="underlie" gov_index="6">aux</dependency>
+      <dependency dep="underlie" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="stimulation" gov_index="9">det</dependency>
+      <dependency dep="common" dep_index="8" gov="stimulation" gov_index="9">amod</dependency>
+      <dependency dep="stimulation" dep_index="9" gov="underlie" gov_index="6">dobj</dependency>
+      <dependency dep="this" dep_index="11" gov="factor" gov_index="13">det</dependency>
+      <dependency dep="transcription" dep_index="12" gov="factor" gov_index="13">nn</dependency>
+      <dependency dep="factor" dep_index="13" gov="stimulation" gov_index="9">prep_of</dependency>
+      <dependency dep="mitogens" dep_index="15" gov="underlie" gov_index="6">prep_by</dependency>
+      <dependency dep="growth" dep_index="17" gov="factors" gov_index="18">nn</dependency>
+      <dependency dep="factors" dep_index="18" gov="underlie" gov_index="6">prep_by</dependency>
+      <dependency dep="factors" dep_index="18" gov="mitogens" gov_index="15">conj_and</dependency>
+      <dependency dep="oncogenes" dep_index="20" gov="underlie" gov_index="6">prep_by</dependency>
+      <dependency dep="oncogenes" dep_index="20" gov="mitogens" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100004" relationship="false">1 2 4</relation>
+   </relations>
+   <pairs/>
+</root>

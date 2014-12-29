@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>DGKdelta@(type@II@isozyme)@contains@a@pleckstrin@homology@domain@at@the@N@terminus@and@a@sterile@alpha@motif@domain@at@the@C@terminus@</sentence>
+   <tags>
+      <tag pos="1">DGKdelta</tag>
+      <tag pos="7">pleckstrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">DGKdelta</taggedword>
+      <taggedword index="2" part-of-speech="NN">(type</taggedword>
+      <taggedword index="3" part-of-speech="NNP">II</taggedword>
+      <taggedword index="4" part-of-speech="NNP">isozyme)</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">contains</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="JJ">pleckstrin</taggedword>
+      <taggedword index="8" part-of-speech="NN">homology</taggedword>
+      <taggedword index="9" part-of-speech="NN">domain</taggedword>
+      <taggedword index="10" part-of-speech="IN">at</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NNP">N</taggedword>
+      <taggedword index="13" part-of-speech="NNS">terminus</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="JJ">sterile</taggedword>
+      <taggedword index="17" part-of-speech="NN">alpha</taggedword>
+      <taggedword index="18" part-of-speech="NN">motif</taggedword>
+      <taggedword index="19" part-of-speech="NN">domain</taggedword>
+      <taggedword index="20" part-of-speech="IN">at</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NNP">C</taggedword>
+      <taggedword index="23" part-of-speech="NNS">terminus</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="DGKdelta" dep_index="1" gov="isozyme)" gov_index="4">nn</dependency>
+      <dependency dep="(type" dep_index="2" gov="isozyme)" gov_index="4">nn</dependency>
+      <dependency dep="II" dep_index="3" gov="isozyme)" gov_index="4">nn</dependency>
+      <dependency dep="isozyme)" dep_index="4" gov="contains" gov_index="5">nsubj</dependency>
+      <dependency dep="contains" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="6" gov="domain" gov_index="9">det</dependency>
+      <dependency dep="pleckstrin" dep_index="7" gov="domain" gov_index="9">amod</dependency>
+      <dependency dep="homology" dep_index="8" gov="domain" gov_index="9">nn</dependency>
+      <dependency dep="domain" dep_index="9" gov="contains" gov_index="5">dobj</dependency>
+      <dependency dep="the" dep_index="11" gov="terminus" gov_index="13">det</dependency>
+      <dependency dep="N" dep_index="12" gov="terminus" gov_index="13">nn</dependency>
+      <dependency dep="terminus" dep_index="13" gov="domain" gov_index="9">prep_at</dependency>
+      <dependency dep="a" dep_index="15" gov="domain" gov_index="19">det</dependency>
+      <dependency dep="sterile" dep_index="16" gov="alpha" gov_index="17">dep</dependency>
+      <dependency dep="alpha" dep_index="17" gov="domain" gov_index="19">amod</dependency>
+      <dependency dep="motif" dep_index="18" gov="domain" gov_index="19">nn</dependency>
+      <dependency dep="domain" dep_index="19" gov="contains" gov_index="5">dobj</dependency>
+      <dependency dep="domain" dep_index="19" gov="domain" gov_index="9">conj_and</dependency>
+      <dependency dep="the" dep_index="21" gov="terminus" gov_index="23">det</dependency>
+      <dependency dep="C" dep_index="22" gov="terminus" gov_index="23">nn</dependency>
+      <dependency dep="terminus" dep_index="23" gov="domain" gov_index="19">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="false">1 4 5 9 7</relation>
+   </relations>
+   <pairs/>
+</root>

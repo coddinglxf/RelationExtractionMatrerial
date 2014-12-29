@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Consistent@with@its@role@as@a@coactivator@,@CBP@augments@the@activity@of@phosphorylated@CREB@to@activate@transcription@of@cAMP-responsive@genes@.@</sentence>
+   <tags>
+      <tag pos="9">CBP</tag>
+      <tag pos="15">CREB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VB">Consistent</taggedword>
+      <taggedword index="2" part-of-speech="IN">with</taggedword>
+      <taggedword index="3" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="4" part-of-speech="NN">role</taggedword>
+      <taggedword index="5" part-of-speech="IN">as</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NN">coactivator</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">augments</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">activity</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">phosphorylated</taggedword>
+      <taggedword index="15" part-of-speech="NNP">CREB</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="JJ">activate</taggedword>
+      <taggedword index="18" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="JJ">cAMP-responsive</taggedword>
+      <taggedword index="21" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Consistent" dep_index="1" gov="augments" gov_index="10">ccomp</dependency>
+      <dependency dep="its" dep_index="3" gov="role" gov_index="4">poss</dependency>
+      <dependency dep="role" dep_index="4" gov="Consistent" gov_index="1">prep_with</dependency>
+      <dependency dep="a" dep_index="6" gov="coactivator" gov_index="7">det</dependency>
+      <dependency dep="coactivator" dep_index="7" gov="Consistent" gov_index="1">prep_as</dependency>
+      <dependency dep="CBP" dep_index="9" gov="augments" gov_index="10">nsubj</dependency>
+      <dependency dep="augments" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="activity" gov_index="12">det</dependency>
+      <dependency dep="activity" dep_index="12" gov="augments" gov_index="10">dobj</dependency>
+      <dependency dep="phosphorylated" dep_index="14" gov="CREB" gov_index="15">amod</dependency>
+      <dependency dep="CREB" dep_index="15" gov="activity" gov_index="12">prep_of</dependency>
+      <dependency dep="activate" dep_index="17" gov="transcription" gov_index="18">amod</dependency>
+      <dependency dep="transcription" dep_index="18" gov="augments" gov_index="10">prep_to</dependency>
+      <dependency dep="cAMP-responsive" dep_index="20" gov="genes" gov_index="21">amod</dependency>
+      <dependency dep="genes" dep_index="21" gov="transcription" gov_index="18">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900015" relationship="true">9 10 12 15</relation>
+   </relations>
+   <pairs>
+      <pair>900015</pair>
+   </pairs>
+</root>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@we@have@now@identified@the@reciprocal@complementary@binding@site@in@alpha-catenin@which@mediates@its@interaction@with@beta-catenin@and@plakoglobin@.@</sentence>
+   <tags>
+      <tag pos="12">alpha-catenin</tag>
+      <tag pos="18">beta-catenin</tag>
+      <tag pos="20">plakoglobin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech="PRP">we</taggedword>
+      <taggedword index="3" part-of-speech="VBP">have</taggedword>
+      <taggedword index="4" part-of-speech="RB">now</taggedword>
+      <taggedword index="5" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">reciprocal</taggedword>
+      <taggedword index="8" part-of-speech="JJ">complementary</taggedword>
+      <taggedword index="9" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="10" part-of-speech="NN">site</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="13" part-of-speech="WDT">which</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">mediates</taggedword>
+      <taggedword index="15" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="16" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="identified" gov_index="5">advmod</dependency>
+      <dependency dep="we" dep_index="2" gov="identified" gov_index="5">nsubj</dependency>
+      <dependency dep="have" dep_index="3" gov="identified" gov_index="5">aux</dependency>
+      <dependency dep="now" dep_index="4" gov="identified" gov_index="5">advmod</dependency>
+      <dependency dep="identified" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="site" gov_index="10">det</dependency>
+      <dependency dep="reciprocal" dep_index="7" gov="site" gov_index="10">amod</dependency>
+      <dependency dep="complementary" dep_index="8" gov="binding" gov_index="9">amod</dependency>
+      <dependency dep="binding" dep_index="9" gov="site" gov_index="10">amod</dependency>
+      <dependency dep="site" dep_index="10" gov="identified" gov_index="5">dobj</dependency>
+      <dependency dep="alpha-catenin" dep_index="12" gov="identified" gov_index="5">prep_in</dependency>
+      <dependency dep="alpha-catenin" dep_index="12" gov="mediates" gov_index="14">nsubj</dependency>
+      <dependency dep="mediates" dep_index="14" gov="alpha-catenin" gov_index="12">rcmod</dependency>
+      <dependency dep="its" dep_index="15" gov="interaction" gov_index="16">poss</dependency>
+      <dependency dep="interaction" dep_index="16" gov="mediates" gov_index="14">dobj</dependency>
+      <dependency dep="beta-catenin" dep_index="18" gov="mediates" gov_index="14">prep_with</dependency>
+      <dependency dep="plakoglobin" dep_index="20" gov="mediates" gov_index="14">prep_with</dependency>
+      <dependency dep="plakoglobin" dep_index="20" gov="beta-catenin" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200018" relationship="true">12 14 18</relation>
+      <relation position="1200020" relationship="true">12 14 20</relation>
+      <relation position="1800020" relationship="false">18 14 20</relation>
+   </relations>
+   <pairs>
+      <pair>1200018</pair>
+      <pair>1200020</pair>
+   </pairs>
+</root>

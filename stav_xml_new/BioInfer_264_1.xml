@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Histone@H3@showed@at@least@seven@sites@of@acetylation@,@histone@H2B.1@had@six@sites@and@histone@H4@had@five@sites@.@</sentence>
+   <tags>
+      <tag pos="17">histone</tag>
+      <tag pos="1">Histone</tag>
+      <tag pos="12">H2B.1</tag>
+      <tag pos="11">histone</tag>
+      <tag pos="18">H4</tag>
+      <tag pos="2">H3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Histone</taggedword>
+      <taggedword index="2" part-of-speech="NNP">H3</taggedword>
+      <taggedword index="3" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="4" part-of-speech="IN">at</taggedword>
+      <taggedword index="5" part-of-speech="JJS">least</taggedword>
+      <taggedword index="6" part-of-speech="CD">seven</taggedword>
+      <taggedword index="7" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">acetylation</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">histone</taggedword>
+      <taggedword index="12" part-of-speech="NNP">H2B.1</taggedword>
+      <taggedword index="13" part-of-speech="VBD">had</taggedword>
+      <taggedword index="14" part-of-speech="CD">six</taggedword>
+      <taggedword index="15" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NNP">histone</taggedword>
+      <taggedword index="18" part-of-speech="NNP">H4</taggedword>
+      <taggedword index="19" part-of-speech="VBD">had</taggedword>
+      <taggedword index="20" part-of-speech="CD">five</taggedword>
+      <taggedword index="21" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Histone" dep_index="1" gov="H3" gov_index="2">nn</dependency>
+      <dependency dep="H3" dep_index="2" gov="showed" gov_index="3">nsubj</dependency>
+      <dependency dep="showed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="at" dep_index="4" gov="seven" gov_index="6">quantmod</dependency>
+      <dependency dep="least" dep_index="5" gov="at" gov_index="4">mwe</dependency>
+      <dependency dep="least" dep_index="5" gov="at" gov_index="4">pobj</dependency>
+      <dependency dep="seven" dep_index="6" gov="sites" gov_index="7">num</dependency>
+      <dependency dep="sites" dep_index="7" gov="showed" gov_index="3">dobj</dependency>
+      <dependency dep="acetylation" dep_index="9" gov="sites" gov_index="7">prep_of</dependency>
+      <dependency dep="histone" dep_index="11" gov="H2B.1" gov_index="12">nn</dependency>
+      <dependency dep="H2B.1" dep_index="12" gov="had" gov_index="13">nsubj</dependency>
+      <dependency dep="had" dep_index="13" gov="showed" gov_index="3">conj_and</dependency>
+      <dependency dep="six" dep_index="14" gov="sites" gov_index="15">num</dependency>
+      <dependency dep="sites" dep_index="15" gov="had" gov_index="13">dobj</dependency>
+      <dependency dep="histone" dep_index="17" gov="H4" gov_index="18">nn</dependency>
+      <dependency dep="H4" dep_index="18" gov="had" gov_index="19">nsubj</dependency>
+      <dependency dep="had" dep_index="19" gov="showed" gov_index="3">conj_and</dependency>
+      <dependency dep="five" dep_index="20" gov="sites" gov_index="21">num</dependency>
+      <dependency dep="sites" dep_index="21" gov="had" gov_index="19">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100017" relationship="false"></relation>
+      <relation position="1200017" relationship="false"></relation>
+      <relation position="1100017" relationship="false"></relation>
+      <relation position="1700018" relationship="true"></relation>
+      <relation position="200017" relationship="false"></relation>
+      <relation position="100012" relationship="false"></relation>
+      <relation position="100011" relationship="false"></relation>
+      <relation position="100018" relationship="false"></relation>
+      <relation position="100002" relationship="true"></relation>
+      <relation position="1100012" relationship="true"></relation>
+      <relation position="1200018" relationship="false"></relation>
+      <relation position="200012" relationship="false"></relation>
+      <relation position="1100018" relationship="false"></relation>
+      <relation position="200011" relationship="false"></relation>
+      <relation position="200018" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>1100012</pair>
+      <pair>100002</pair>
+      <pair>1700018</pair>
+   </pairs>
+</root>

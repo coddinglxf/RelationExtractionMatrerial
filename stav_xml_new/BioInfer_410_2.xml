@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>There@was@a@trend@towards@an@association@between@advanced@tumour@stage@and@loss@of@membranous@expression@of@alpha-catenin@or@beta-catenin@,@although@these@associations@were@not@statistically@significant@.@</sentence>
+   <tags>
+      <tag pos="18">alpha-catenin</tag>
+      <tag pos="20">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="EX">There</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">trend</taggedword>
+      <taggedword index="5" part-of-speech="IN">towards</taggedword>
+      <taggedword index="6" part-of-speech="DT">an</taggedword>
+      <taggedword index="7" part-of-speech="NN">association</taggedword>
+      <taggedword index="8" part-of-speech="IN">between</taggedword>
+      <taggedword index="9" part-of-speech="JJ">advanced</taggedword>
+      <taggedword index="10" part-of-speech="NN">tumour</taggedword>
+      <taggedword index="11" part-of-speech="NN">stage</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NN">loss</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">membranous</taggedword>
+      <taggedword index="16" part-of-speech="NN">expression</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="19" part-of-speech="CC">or</taggedword>
+      <taggedword index="20" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="IN">although</taggedword>
+      <taggedword index="23" part-of-speech="DT">these</taggedword>
+      <taggedword index="24" part-of-speech="NNS">associations</taggedword>
+      <taggedword index="25" part-of-speech="VBD">were</taggedword>
+      <taggedword index="26" part-of-speech="RB">not</taggedword>
+      <taggedword index="27" part-of-speech="RB">statistically</taggedword>
+      <taggedword index="28" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="There" dep_index="1" gov="was" gov_index="2">expl</dependency>
+      <dependency dep="was" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="3" gov="trend" gov_index="4">det</dependency>
+      <dependency dep="trend" dep_index="4" gov="was" gov_index="2">nsubj</dependency>
+      <dependency dep="an" dep_index="6" gov="association" gov_index="7">det</dependency>
+      <dependency dep="association" dep_index="7" gov="trend" gov_index="4">prep_towards</dependency>
+      <dependency dep="advanced" dep_index="9" gov="stage" gov_index="11">amod</dependency>
+      <dependency dep="tumour" dep_index="10" gov="stage" gov_index="11">nn</dependency>
+      <dependency dep="stage" dep_index="11" gov="association" gov_index="7">prep_between</dependency>
+      <dependency dep="loss" dep_index="13" gov="trend" gov_index="4">prep_towards</dependency>
+      <dependency dep="loss" dep_index="13" gov="association" gov_index="7">conj_and</dependency>
+      <dependency dep="membranous" dep_index="15" gov="expression" gov_index="16">amod</dependency>
+      <dependency dep="expression" dep_index="16" gov="loss" gov_index="13">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="18" gov="expression" gov_index="16">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="20" gov="expression" gov_index="16">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="20" gov="alpha-catenin" gov_index="18">conj_or</dependency>
+      <dependency dep="although" dep_index="22" gov="significant" gov_index="28">mark</dependency>
+      <dependency dep="these" dep_index="23" gov="associations" gov_index="24">det</dependency>
+      <dependency dep="associations" dep_index="24" gov="significant" gov_index="28">nsubj</dependency>
+      <dependency dep="were" dep_index="25" gov="significant" gov_index="28">cop</dependency>
+      <dependency dep="not" dep_index="26" gov="significant" gov_index="28">neg</dependency>
+      <dependency dep="statistically" dep_index="27" gov="significant" gov_index="28">advmod</dependency>
+      <dependency dep="significant" dep_index="28" gov="was" gov_index="2">advcl</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800020" relationship="false">18 16 20</relation>
+   </relations>
+   <pairs/>
+</root>

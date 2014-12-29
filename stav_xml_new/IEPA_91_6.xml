@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>AIM@:@To@study@the@mechanisms@underlying@oxytocin@(Oxy)-induced@insulin@release@</sentence>
+   <tags>
+      <tag pos="8">oxytocin</tag>
+      <tag pos="10">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">AIM</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="TO">To</taggedword>
+      <taggedword index="4" part-of-speech="VB">study</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">mechanisms</taggedword>
+      <taggedword index="7" part-of-speech="JJ">underlying</taggedword>
+      <taggedword index="8" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="9" part-of-speech="JJ">(Oxy)-induced</taggedword>
+      <taggedword index="10" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="11" part-of-speech="NN">release</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="AIM" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="To" dep_index="3" gov="study" gov_index="4">aux</dependency>
+      <dependency dep="study" dep_index="4" gov="AIM" gov_index="1">infmod</dependency>
+      <dependency dep="the" dep_index="5" gov="release" gov_index="11">det</dependency>
+      <dependency dep="mechanisms" dep_index="6" gov="release" gov_index="11">amod</dependency>
+      <dependency dep="underlying" dep_index="7" gov="release" gov_index="11">amod</dependency>
+      <dependency dep="oxytocin" dep_index="8" gov="release" gov_index="11">nn</dependency>
+      <dependency dep="(Oxy)-induced" dep_index="9" gov="release" gov_index="11">amod</dependency>
+      <dependency dep="insulin" dep_index="10" gov="release" gov_index="11">nn</dependency>
+      <dependency dep="release" dep_index="11" gov="study" gov_index="4">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="true">8 11 10</relation>
+   </relations>
+   <pairs>
+      <pair>800010</pair>
+   </pairs>
+</root>

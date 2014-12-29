@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>TAFII55@is@shown@to@interact@with@the@largest@subunit@(@TAFII230@)@of@human@TFIID@through@its@central@region@and@with@multiple@activators--including@Sp1@,@YY1@,@USF@,@CTF@,@adenoviral@E1A@,@and@human@immunodeficiency@virus-type@1@Tat@proteins--through@a@distinct@amino-terminal@domain@.@</sentence>
+   <tags>
+      <tag pos="1">TAFII55</tag>
+      <tag pos="11">TAFII230</tag>
+      <tag pos="15">TFIID</tag>
+      <tag pos="24">Sp1</tag>
+      <tag pos="26">YY1</tag>
+      <tag pos="28">USF</tag>
+      <tag pos="30">CTF</tag>
+      <tag pos="33">E1A</tag>
+      <tag pos="40">Tat</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">TAFII55</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="VB">interact</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJS">largest</taggedword>
+      <taggedword index="9" part-of-speech="JJ">subunit</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">TAFII230</taggedword>
+      <taggedword index="12" part-of-speech="NN">)</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">human</taggedword>
+      <taggedword index="15" part-of-speech="NNP">TFIID</taggedword>
+      <taggedword index="16" part-of-speech="IN">through</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="18" part-of-speech="JJ">central</taggedword>
+      <taggedword index="19" part-of-speech="NN">region</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="23" part-of-speech="JJ">activators--including</taggedword>
+      <taggedword index="24" part-of-speech="NNS">Sp1</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="NNP">YY1</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NNP">USF</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="NNP">CTF</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="JJ">adenoviral</taggedword>
+      <taggedword index="33" part-of-speech="NNP">E1A</taggedword>
+      <taggedword index="34" part-of-speech=",">,</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="JJ">human</taggedword>
+      <taggedword index="37" part-of-speech="NN">immunodeficiency</taggedword>
+      <taggedword index="38" part-of-speech="NN">virus-type</taggedword>
+      <taggedword index="39" part-of-speech="CD">1</taggedword>
+      <taggedword index="40" part-of-speech="NNP">Tat</taggedword>
+      <taggedword index="41" part-of-speech="NN">proteins--through</taggedword>
+      <taggedword index="42" part-of-speech="DT">a</taggedword>
+      <taggedword index="43" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="44" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="45" part-of-speech="NN">domain</taggedword>
+      <taggedword index="46" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="TAFII55" dep_index="1" gov="shown" gov_index="3">nsubjpass</dependency>
+      <dependency dep="TAFII55" dep_index="1" gov="interact" gov_index="5">xsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="shown" gov_index="3">auxpass</dependency>
+      <dependency dep="shown" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="4" gov="interact" gov_index="5">aux</dependency>
+      <dependency dep="interact" dep_index="5" gov="shown" gov_index="3">xcomp</dependency>
+      <dependency dep="interact" dep_index="5" gov="shown" gov_index="3">xcomp</dependency>
+      <dependency dep="interact" dep_index="5" gov="interact" gov_index="5">conj_and</dependency>
+      <dependency dep="the" dep_index="7" gov=")" gov_index="12">det</dependency>
+      <dependency dep="largest" dep_index="8" gov="subunit" gov_index="9">dep</dependency>
+      <dependency dep="subunit" dep_index="9" gov=")" gov_index="12">amod</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="TAFII230" dep_index="11" gov=")" gov_index="12">nn</dependency>
+      <dependency dep=")" dep_index="12" gov="interact" gov_index="5">prep_with</dependency>
+      <dependency dep="human" dep_index="14" gov="TFIID" gov_index="15">amod</dependency>
+      <dependency dep="TFIID" dep_index="15" gov=")" gov_index="12">prep_of</dependency>
+      <dependency dep="its" dep_index="17" gov="region" gov_index="19">poss</dependency>
+      <dependency dep="central" dep_index="18" gov="region" gov_index="19">amod</dependency>
+      <dependency dep="region" dep_index="19" gov="interact" gov_index="5">prep_through</dependency>
+      <dependency dep="multiple" dep_index="22" gov="Sp1" gov_index="24">amod</dependency>
+      <dependency dep="activators--including" dep_index="23" gov="Sp1" gov_index="24">amod</dependency>
+      <dependency dep="Sp1" dep_index="24" gov="interact" gov_index="5">prep_with</dependency>
+      <dependency dep="YY1" dep_index="26" gov="E1A" gov_index="33">nn</dependency>
+      <dependency dep="USF" dep_index="28" gov="E1A" gov_index="33">appos</dependency>
+      <dependency dep="CTF" dep_index="30" gov="E1A" gov_index="33">appos</dependency>
+      <dependency dep="adenoviral" dep_index="32" gov="E1A" gov_index="33">amod</dependency>
+      <dependency dep="E1A" dep_index="33" gov="interact" gov_index="5">prep_with</dependency>
+      <dependency dep="E1A" dep_index="33" gov="Sp1" gov_index="24">conj_and</dependency>
+      <dependency dep="human" dep_index="36" gov="proteins--through" gov_index="41">amod</dependency>
+      <dependency dep="immunodeficiency" dep_index="37" gov="proteins--through" gov_index="41">nn</dependency>
+      <dependency dep="virus-type" dep_index="38" gov="proteins--through" gov_index="41">nn</dependency>
+      <dependency dep="1" dep_index="39" gov="proteins--through" gov_index="41">num</dependency>
+      <dependency dep="Tat" dep_index="40" gov="proteins--through" gov_index="41">nn</dependency>
+      <dependency dep="proteins--through" dep_index="41" gov="interact" gov_index="5">prep_with</dependency>
+      <dependency dep="proteins--through" dep_index="41" gov="Sp1" gov_index="24">conj_and</dependency>
+      <dependency dep="a" dep_index="42" gov="domain" gov_index="45">det</dependency>
+      <dependency dep="distinct" dep_index="43" gov="domain" gov_index="45">amod</dependency>
+      <dependency dep="amino-terminal" dep_index="44" gov="domain" gov_index="45">amod</dependency>
+      <dependency dep="domain" dep_index="45" gov="interact" gov_index="5">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100011" relationship="true">1 5 12 11</relation>
+      <relation position="100015" relationship="false">1 5 12 15</relation>
+      <relation position="100024" relationship="true">1 5 24</relation>
+      <relation position="100026" relationship="true">1 5 33 26</relation>
+      <relation position="100028" relationship="true">1 5 33 28</relation>
+      <relation position="100030" relationship="true">1 5 33 30</relation>
+      <relation position="100033" relationship="true">1 5 33</relation>
+      <relation position="100040" relationship="false">1 5 41 40</relation>
+      <relation position="1100015" relationship="false">11 12 15</relation>
+      <relation position="1100024" relationship="false">11 12 5 24</relation>
+      <relation position="1100026" relationship="false">11 12 5 33 26</relation>
+      <relation position="1100028" relationship="false">11 12 5 33 28</relation>
+      <relation position="1100030" relationship="false">11 12 5 33 30</relation>
+      <relation position="1100033" relationship="false">11 12 5 33</relation>
+      <relation position="1100040" relationship="false">11 12 5 41 40</relation>
+      <relation position="1500024" relationship="false">15 12 5 24</relation>
+      <relation position="1500026" relationship="false">15 12 5 33 26</relation>
+      <relation position="1500028" relationship="false">15 12 5 33 28</relation>
+      <relation position="1500030" relationship="false">15 12 5 33 30</relation>
+      <relation position="1500033" relationship="false">15 12 5 33</relation>
+      <relation position="1500040" relationship="false">15 12 5 41 40</relation>
+      <relation position="2400026" relationship="false">24 5 33 26</relation>
+      <relation position="2400028" relationship="false">24 5 33 28</relation>
+      <relation position="2400030" relationship="false">24 5 33 30</relation>
+      <relation position="2400033" relationship="false">24 5 33</relation>
+      <relation position="2400040" relationship="false">24 5 41 40</relation>
+      <relation position="2600028" relationship="false">26 33 28</relation>
+      <relation position="2600030" relationship="false">26 33 30</relation>
+      <relation position="2600033" relationship="false"></relation>
+      <relation position="2600040" relationship="false">26 33 5 41 40</relation>
+      <relation position="2800030" relationship="false">28 33 30</relation>
+      <relation position="2800033" relationship="false"></relation>
+      <relation position="2800040" relationship="false">28 33 5 41 40</relation>
+      <relation position="3000033" relationship="false"></relation>
+      <relation position="3000040" relationship="false">30 33 5 41 40</relation>
+      <relation position="3300040" relationship="false">33 5 41 40</relation>
+   </relations>
+   <pairs>
+      <pair>100030</pair>
+      <pair>100028</pair>
+      <pair>100026</pair>
+      <pair>100011</pair>
+      <pair>100024</pair>
+      <pair>100033</pair>
+   </pairs>
+</root>

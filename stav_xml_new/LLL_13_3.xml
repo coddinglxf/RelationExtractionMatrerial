@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@the@mother@cell@compartment@of@sporulating@cells@,@expression@of@the@sigE@gene@,@encoding@the@earlier-acting@sigma@factor@,@sigmaE@,@is@negatively@regulated@by@the@later-acting@sigma@factor@,@sigmaK@.@</sentence>
+   <tags>
+      <tag pos="33">sigmaK</tag>
+      <tag pos="13">sigE</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="NN">mother</taggedword>
+      <taggedword index="4" part-of-speech="NN">cell</taggedword>
+      <taggedword index="5" part-of-speech="NN">compartment</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="VBG">sporulating</taggedword>
+      <taggedword index="8" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">expression</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">sigE</taggedword>
+      <taggedword index="14" part-of-speech="NN">gene</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">earlier-acting</taggedword>
+      <taggedword index="19" part-of-speech="NN">sigma</taggedword>
+      <taggedword index="20" part-of-speech="NN">factor</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="RB">sigmaE</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="25" part-of-speech="RB">negatively</taggedword>
+      <taggedword index="26" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">later-acting</taggedword>
+      <taggedword index="30" part-of-speech="NN">sigma</taggedword>
+      <taggedword index="31" part-of-speech="NN">factor</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="NN">sigmaK</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="compartment" gov_index="5">det</dependency>
+      <dependency dep="mother" dep_index="3" gov="compartment" gov_index="5">nn</dependency>
+      <dependency dep="cell" dep_index="4" gov="compartment" gov_index="5">nn</dependency>
+      <dependency dep="compartment" dep_index="5" gov="regulated" gov_index="26">prep_in</dependency>
+      <dependency dep="sporulating" dep_index="7" gov="cells" gov_index="8">amod</dependency>
+      <dependency dep="cells" dep_index="8" gov="compartment" gov_index="5">prep_of</dependency>
+      <dependency dep="expression" dep_index="10" gov="regulated" gov_index="26">nsubjpass</dependency>
+      <dependency dep="the" dep_index="12" gov="gene" gov_index="14">det</dependency>
+      <dependency dep="sigE" dep_index="13" gov="gene" gov_index="14">amod</dependency>
+      <dependency dep="gene" dep_index="14" gov="expression" gov_index="10">prep_of</dependency>
+      <dependency dep="encoding" dep_index="16" gov="regulated" gov_index="26">partmod</dependency>
+      <dependency dep="the" dep_index="17" gov="factor" gov_index="20">det</dependency>
+      <dependency dep="earlier-acting" dep_index="18" gov="factor" gov_index="20">amod</dependency>
+      <dependency dep="sigma" dep_index="19" gov="factor" gov_index="20">nn</dependency>
+      <dependency dep="factor" dep_index="20" gov="encoding" gov_index="16">dobj</dependency>
+      <dependency dep="sigmaE" dep_index="22" gov="regulated" gov_index="26">advmod</dependency>
+      <dependency dep="is" dep_index="24" gov="regulated" gov_index="26">auxpass</dependency>
+      <dependency dep="negatively" dep_index="25" gov="regulated" gov_index="26">advmod</dependency>
+      <dependency dep="regulated" dep_index="26" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="28" gov="factor" gov_index="31">det</dependency>
+      <dependency dep="later-acting" dep_index="29" gov="factor" gov_index="31">amod</dependency>
+      <dependency dep="sigma" dep_index="30" gov="factor" gov_index="31">nn</dependency>
+      <dependency dep="factor" dep_index="31" gov="regulated" gov_index="26">agent</dependency>
+      <dependency dep="sigmaK" dep_index="33" gov="factor" gov_index="31">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300033" relationship="true">13 14 10 26 31 33</relation>
+   </relations>
+   <pairs>
+      <pair>1300033</pair>
+   </pairs>
+</root>

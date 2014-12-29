@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@the@present@work@we@have@used@profilin@and@DNAse I@injections@,@as@well@as@latrunculin@B@and@cytochalasin@D@treatments@,@under@quantitatively@controlled@conditions@,@to@perturb@actin@microfilament@structure@and@assembly@in@an@attempt@to@answer@this@question@.@</sentence>
+   <tags>
+      <tag pos="8">profilin</tag>
+      <tag pos="30">actin</tag>
+      <tag pos="10">DNAse I</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">present</taggedword>
+      <taggedword index="4" part-of-speech="NN">work</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBP">have</taggedword>
+      <taggedword index="7" part-of-speech="VBN">used</taggedword>
+      <taggedword index="8" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NNP">DNAse I</taggedword>
+      <taggedword index="11" part-of-speech="NNS">injections</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="RB">as</taggedword>
+      <taggedword index="14" part-of-speech="RB">well</taggedword>
+      <taggedword index="15" part-of-speech="IN">as</taggedword>
+      <taggedword index="16" part-of-speech="VBN">latrunculin</taggedword>
+      <taggedword index="17" part-of-speech="NNP">B</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NNP">cytochalasin</taggedword>
+      <taggedword index="20" part-of-speech="NNP">D</taggedword>
+      <taggedword index="21" part-of-speech="NNS">treatments</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="IN">under</taggedword>
+      <taggedword index="24" part-of-speech="RB">quantitatively</taggedword>
+      <taggedword index="25" part-of-speech="VBN">controlled</taggedword>
+      <taggedword index="26" part-of-speech="NNS">conditions</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="NN">perturb</taggedword>
+      <taggedword index="30" part-of-speech="NN">actin</taggedword>
+      <taggedword index="31" part-of-speech="NN">microfilament</taggedword>
+      <taggedword index="32" part-of-speech="NN">structure</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="35" part-of-speech="IN">in</taggedword>
+      <taggedword index="36" part-of-speech="DT">an</taggedword>
+      <taggedword index="37" part-of-speech="NN">attempt</taggedword>
+      <taggedword index="38" part-of-speech="TO">to</taggedword>
+      <taggedword index="39" part-of-speech="VB">answer</taggedword>
+      <taggedword index="40" part-of-speech="DT">this</taggedword>
+      <taggedword index="41" part-of-speech="NN">question</taggedword>
+      <taggedword index="42" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="work" gov_index="4">det</dependency>
+      <dependency dep="present" dep_index="3" gov="work" gov_index="4">amod</dependency>
+      <dependency dep="work" dep_index="4" gov="used" gov_index="7">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="used" gov_index="7">nsubj</dependency>
+      <dependency dep="have" dep_index="6" gov="used" gov_index="7">aux</dependency>
+      <dependency dep="used" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="profilin" dep_index="8" gov="used" gov_index="7">dobj</dependency>
+      <dependency dep="DNAse I" dep_index="10" gov="injections" gov_index="11">nn</dependency>
+      <dependency dep="injections" dep_index="11" gov="used" gov_index="7">dobj</dependency>
+      <dependency dep="injections" dep_index="11" gov="profilin" gov_index="8">conj_and</dependency>
+      <dependency dep="latrunculin" dep_index="16" gov="used" gov_index="7">dobj</dependency>
+      <dependency dep="latrunculin" dep_index="16" gov="profilin" gov_index="8">conj_and</dependency>
+      <dependency dep="latrunculin" dep_index="16" gov="profilin" gov_index="8">partmod</dependency>
+      <dependency dep="B" dep_index="17" gov="treatments" gov_index="21">nn</dependency>
+      <dependency dep="cytochalasin" dep_index="19" gov="B" gov_index="17">conj_and</dependency>
+      <dependency dep="cytochalasin" dep_index="19" gov="treatments" gov_index="21">nn</dependency>
+      <dependency dep="D" dep_index="20" gov="treatments" gov_index="21">nn</dependency>
+      <dependency dep="treatments" dep_index="21" gov="latrunculin" gov_index="16">dobj</dependency>
+      <dependency dep="quantitatively" dep_index="24" gov="controlled" gov_index="25">advmod</dependency>
+      <dependency dep="controlled" dep_index="25" gov="conditions" gov_index="26">amod</dependency>
+      <dependency dep="conditions" dep_index="26" gov="latrunculin" gov_index="16">prep_under</dependency>
+      <dependency dep="perturb" dep_index="29" gov="used" gov_index="7">prep_to</dependency>
+      <dependency dep="actin" dep_index="30" gov="structure" gov_index="32">nn</dependency>
+      <dependency dep="microfilament" dep_index="31" gov="structure" gov_index="32">nn</dependency>
+      <dependency dep="structure" dep_index="32" gov="answer" gov_index="39">nsubj</dependency>
+      <dependency dep="assembly" dep_index="34" gov="structure" gov_index="32">conj_and</dependency>
+      <dependency dep="assembly" dep_index="34" gov="answer" gov_index="39">nsubj</dependency>
+      <dependency dep="an" dep_index="36" gov="attempt" gov_index="37">det</dependency>
+      <dependency dep="attempt" dep_index="37" gov="structure" gov_index="32">prep_in</dependency>
+      <dependency dep="to" dep_index="38" gov="answer" gov_index="39">aux</dependency>
+      <dependency dep="answer" dep_index="39" gov="perturb" gov_index="29">infmod</dependency>
+      <dependency dep="answer" dep_index="39" gov="perturb" gov_index="29">rcmod</dependency>
+      <dependency dep="this" dep_index="40" gov="question" gov_index="41">det</dependency>
+      <dependency dep="question" dep_index="41" gov="answer" gov_index="39">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800030" relationship="false">8 7 29 39 32 30</relation>
+      <relation position="800010" relationship="false">8 7 11 10</relation>
+      <relation position="1000030" relationship="false">10 11 7 29 39 32 30</relation>
+   </relations>
+   <pairs/>
+</root>

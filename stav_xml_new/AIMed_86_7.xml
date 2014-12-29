@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>However@,@some@reporters@showed@thresholds@and@only@responded@to@stronger@interactions@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">However</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">some</taggedword>
+      <taggedword index="4" part-of-speech="NNS">reporters</taggedword>
+      <taggedword index="5" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="6" part-of-speech="NNS">thresholds</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="RB">only</taggedword>
+      <taggedword index="9" part-of-speech="VBD">responded</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="JJR">stronger</taggedword>
+      <taggedword index="12" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="However" dep_index="1" gov="showed" gov_index="5">advmod</dependency>
+      <dependency dep="some" dep_index="3" gov="reporters" gov_index="4">det</dependency>
+      <dependency dep="reporters" dep_index="4" gov="showed" gov_index="5">nsubj</dependency>
+      <dependency dep="reporters" dep_index="4" gov="responded" gov_index="9">nsubj</dependency>
+      <dependency dep="showed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="thresholds" dep_index="6" gov="showed" gov_index="5">dobj</dependency>
+      <dependency dep="only" dep_index="8" gov="responded" gov_index="9">advmod</dependency>
+      <dependency dep="responded" dep_index="9" gov="showed" gov_index="5">conj_and</dependency>
+      <dependency dep="stronger" dep_index="11" gov="interactions" gov_index="12">amod</dependency>
+      <dependency dep="interactions" dep_index="12" gov="responded" gov_index="9">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

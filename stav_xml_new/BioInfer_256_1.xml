@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@,@we@sought@to@determine@the@spatial@distributions@of@E-cadherin@,@alpha-catenin@,@beta-catenin@,@and@plakoglobin@,@and@whether@different@complexes@of@these@proteins@accumulate@at@steady@state@in@polarized@Madin-Darby@canine@kidney@cells@.@</sentence>
+   <tags>
+      <tag pos="15">beta-catenin</tag>
+      <tag pos="11">E-cadherin</tag>
+      <tag pos="13">alpha-catenin</tag>
+      <tag pos="18">plakoglobin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">we</taggedword>
+      <taggedword index="4" part-of-speech="VBD">sought</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="VB">determine</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">spatial</taggedword>
+      <taggedword index="9" part-of-speech="NNS">distributions</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="IN">whether</taggedword>
+      <taggedword index="22" part-of-speech="JJ">different</taggedword>
+      <taggedword index="23" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="DT">these</taggedword>
+      <taggedword index="26" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="27" part-of-speech="VBP">accumulate</taggedword>
+      <taggedword index="28" part-of-speech="IN">at</taggedword>
+      <taggedword index="29" part-of-speech="JJ">steady</taggedword>
+      <taggedword index="30" part-of-speech="NN">state</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="JJ">polarized</taggedword>
+      <taggedword index="33" part-of-speech="NNP">Madin-Darby</taggedword>
+      <taggedword index="34" part-of-speech="JJ">canine</taggedword>
+      <taggedword index="35" part-of-speech="NN">kidney</taggedword>
+      <taggedword index="36" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="sought" gov_index="4">advmod</dependency>
+      <dependency dep="we" dep_index="3" gov="sought" gov_index="4">nsubj</dependency>
+      <dependency dep="sought" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="5" gov="determine" gov_index="6">aux</dependency>
+      <dependency dep="determine" dep_index="6" gov="sought" gov_index="4">ccomp</dependency>
+      <dependency dep="the" dep_index="7" gov="distributions" gov_index="9">det</dependency>
+      <dependency dep="spatial" dep_index="8" gov="distributions" gov_index="9">amod</dependency>
+      <dependency dep="distributions" dep_index="9" gov="determine" gov_index="6">dobj</dependency>
+      <dependency dep="E-cadherin" dep_index="11" gov="distributions" gov_index="9">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="13" gov="beta-catenin" gov_index="15">nn</dependency>
+      <dependency dep="beta-catenin" dep_index="15" gov="E-cadherin" gov_index="11">appos</dependency>
+      <dependency dep="plakoglobin" dep_index="18" gov="E-cadherin" gov_index="11">appos</dependency>
+      <dependency dep="plakoglobin" dep_index="18" gov="beta-catenin" gov_index="15">conj_and</dependency>
+      <dependency dep="whether" dep_index="21" gov="accumulate" gov_index="27">mark</dependency>
+      <dependency dep="different" dep_index="22" gov="complexes" gov_index="23">amod</dependency>
+      <dependency dep="complexes" dep_index="23" gov="accumulate" gov_index="27">nsubj</dependency>
+      <dependency dep="these" dep_index="25" gov="proteins" gov_index="26">det</dependency>
+      <dependency dep="proteins" dep_index="26" gov="complexes" gov_index="23">prep_of</dependency>
+      <dependency dep="accumulate" dep_index="27" gov="sought" gov_index="4">ccomp</dependency>
+      <dependency dep="accumulate" dep_index="27" gov="determine" gov_index="6">conj_and</dependency>
+      <dependency dep="steady" dep_index="29" gov="state" gov_index="30">amod</dependency>
+      <dependency dep="state" dep_index="30" gov="accumulate" gov_index="27">prep_at</dependency>
+      <dependency dep="polarized" dep_index="32" gov="cells" gov_index="36">amod</dependency>
+      <dependency dep="Madin-Darby" dep_index="33" gov="cells" gov_index="36">nn</dependency>
+      <dependency dep="canine" dep_index="34" gov="cells" gov_index="36">amod</dependency>
+      <dependency dep="kidney" dep_index="35" gov="cells" gov_index="36">nn</dependency>
+      <dependency dep="cells" dep_index="36" gov="state" gov_index="30">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100015" relationship="false"></relation>
+      <relation position="1300015" relationship="false"></relation>
+      <relation position="1500018" relationship="false">15 11 18</relation>
+      <relation position="1100013" relationship="false"></relation>
+      <relation position="1100018" relationship="false"></relation>
+      <relation position="1300018" relationship="false">13 15 11 18</relation>
+   </relations>
+   <pairs/>
+</root>

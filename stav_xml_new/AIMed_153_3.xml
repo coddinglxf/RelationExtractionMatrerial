@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@the@present@study@,@we@examined@both@the@binding@of@ADA@and@CD26@and@the@functional@consequences@of@this@interaction@.@</sentence>
+   <tags>
+      <tag pos="12">ADA</tag>
+      <tag pos="14">CD26</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">present</taggedword>
+      <taggedword index="4" part-of-speech="NN">study</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="PRP">we</taggedword>
+      <taggedword index="7" part-of-speech="VBD">examined</taggedword>
+      <taggedword index="8" part-of-speech="PDT">both</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">binding</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">ADA</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NNP">CD26</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="18" part-of-speech="NNS">consequences</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">this</taggedword>
+      <taggedword index="21" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="study" gov_index="4">det</dependency>
+      <dependency dep="present" dep_index="3" gov="study" gov_index="4">amod</dependency>
+      <dependency dep="study" dep_index="4" gov="examined" gov_index="7">prep_in</dependency>
+      <dependency dep="we" dep_index="6" gov="examined" gov_index="7">nsubj</dependency>
+      <dependency dep="examined" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="both" dep_index="8" gov="binding" gov_index="10">preconj</dependency>
+      <dependency dep="the" dep_index="9" gov="binding" gov_index="10">det</dependency>
+      <dependency dep="binding" dep_index="10" gov="examined" gov_index="7">dobj</dependency>
+      <dependency dep="ADA" dep_index="12" gov="binding" gov_index="10">prep_of</dependency>
+      <dependency dep="CD26" dep_index="14" gov="binding" gov_index="10">prep_of</dependency>
+      <dependency dep="CD26" dep_index="14" gov="ADA" gov_index="12">conj_and</dependency>
+      <dependency dep="the" dep_index="16" gov="consequences" gov_index="18">det</dependency>
+      <dependency dep="functional" dep_index="17" gov="consequences" gov_index="18">amod</dependency>
+      <dependency dep="consequences" dep_index="18" gov="examined" gov_index="7">dobj</dependency>
+      <dependency dep="consequences" dep_index="18" gov="binding" gov_index="10">conj_and</dependency>
+      <dependency dep="this" dep_index="20" gov="interaction" gov_index="21">det</dependency>
+      <dependency dep="interaction" dep_index="21" gov="consequences" gov_index="18">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200014" relationship="true">12 10 14</relation>
+   </relations>
+   <pairs>
+      <pair>1200014</pair>
+   </pairs>
+</root>

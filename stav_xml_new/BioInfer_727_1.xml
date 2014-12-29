@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@tumor necrosis factor receptor 1@(@TNFR1@)@and@the@Fas@receptor@recruit@complexes@formed@by@the@interactions@between@RIP kinase@,@TRADD@,@FADD@and@RAIDD@-@adaptor@proteins@that@contain@death@domains@-@which@in@turn@recruit@other@proteins@to@initiate@signaling@[1][2][3][4][5]@.@</sentence>
+   <tags>
+      <tag pos="19">TRADD</tag>
+      <tag pos="23">RAIDD</tag>
+      <tag pos="4">TNFR1</tag>
+      <tag pos="8">Fas</tag>
+      <tag pos="2">tumor necrosis factor receptor 1</tag>
+      <tag pos="17">RIP kinase</tag>
+      <tag pos="21">FADD</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">tumor necrosis factor receptor 1</taggedword>
+      <taggedword index="3" part-of-speech="NNP">(</taggedword>
+      <taggedword index="4" part-of-speech="NNP">TNFR1</taggedword>
+      <taggedword index="5" part-of-speech="NN">)</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Fas</taggedword>
+      <taggedword index="9" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="10" part-of-speech="NN">recruit</taggedword>
+      <taggedword index="11" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="12" part-of-speech="VBD">formed</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="16" part-of-speech="IN">between</taggedword>
+      <taggedword index="17" part-of-speech="NNP">RIP kinase</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="NNP">TRADD</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="NNP">FADD</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NNP">RAIDD</taggedword>
+      <taggedword index="24" part-of-speech=":">-</taggedword>
+      <taggedword index="25" part-of-speech="NN">adaptor</taggedword>
+      <taggedword index="26" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="27" part-of-speech="WDT">that</taggedword>
+      <taggedword index="28" part-of-speech="VBP">contain</taggedword>
+      <taggedword index="29" part-of-speech="NN">death</taggedword>
+      <taggedword index="30" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="31" part-of-speech=":">-</taggedword>
+      <taggedword index="32" part-of-speech="WDT">which</taggedword>
+      <taggedword index="33" part-of-speech="IN">in</taggedword>
+      <taggedword index="34" part-of-speech="NN">turn</taggedword>
+      <taggedword index="35" part-of-speech="NN">recruit</taggedword>
+      <taggedword index="36" part-of-speech="JJ">other</taggedword>
+      <taggedword index="37" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="38" part-of-speech="TO">to</taggedword>
+      <taggedword index="39" part-of-speech="VB">initiate</taggedword>
+      <taggedword index="40" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="41" part-of-speech="CD">[1][2][3][4][5]</taggedword>
+      <taggedword index="42" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov=")" gov_index="5">det</dependency>
+      <dependency dep="tumor necrosis factor receptor 1" dep_index="2" gov=")" gov_index="5">amod</dependency>
+      <dependency dep="(" dep_index="3" gov=")" gov_index="5">nn</dependency>
+      <dependency dep="TNFR1" dep_index="4" gov=")" gov_index="5">nn</dependency>
+      <dependency dep=")" dep_index="5" gov="formed" gov_index="12">nsubj</dependency>
+      <dependency dep="the" dep_index="7" gov="complexes" gov_index="11">det</dependency>
+      <dependency dep="Fas" dep_index="8" gov="complexes" gov_index="11">nn</dependency>
+      <dependency dep="receptor" dep_index="9" gov="complexes" gov_index="11">nn</dependency>
+      <dependency dep="recruit" dep_index="10" gov="complexes" gov_index="11">nn</dependency>
+      <dependency dep="complexes" dep_index="11" gov=")" gov_index="5">conj_and</dependency>
+      <dependency dep="complexes" dep_index="11" gov="formed" gov_index="12">nsubj</dependency>
+      <dependency dep="formed" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="interactions" gov_index="15">det</dependency>
+      <dependency dep="interactions" dep_index="15" gov="formed" gov_index="12">prep_by</dependency>
+      <dependency dep="RIP kinase" dep_index="17" gov="formed" gov_index="12">prep_between</dependency>
+      <dependency dep="TRADD" dep_index="19" gov="formed" gov_index="12">prep_between</dependency>
+      <dependency dep="TRADD" dep_index="19" gov="RIP kinase" gov_index="17">conj_and</dependency>
+      <dependency dep="FADD" dep_index="21" gov="formed" gov_index="12">prep_between</dependency>
+      <dependency dep="FADD" dep_index="21" gov="RIP kinase" gov_index="17">conj_and</dependency>
+      <dependency dep="RAIDD" dep_index="23" gov="formed" gov_index="12">prep_between</dependency>
+      <dependency dep="RAIDD" dep_index="23" gov="RIP kinase" gov_index="17">conj_and</dependency>
+      <dependency dep="adaptor" dep_index="25" gov="proteins" gov_index="26">nn</dependency>
+      <dependency dep="proteins" dep_index="26" gov="formed" gov_index="12">dep</dependency>
+      <dependency dep="proteins" dep_index="26" gov="contain" gov_index="28">nsubj</dependency>
+      <dependency dep="contain" dep_index="28" gov="proteins" gov_index="26">rcmod</dependency>
+      <dependency dep="death" dep_index="29" gov="domains" gov_index="30">nn</dependency>
+      <dependency dep="domains" dep_index="30" gov="contain" gov_index="28">dobj</dependency>
+      <dependency dep="which" dep_index="32" gov="initiate" gov_index="39">nsubj</dependency>
+      <dependency dep="turn" dep_index="34" gov="proteins" gov_index="37">nn</dependency>
+      <dependency dep="recruit" dep_index="35" gov="proteins" gov_index="37">nn</dependency>
+      <dependency dep="other" dep_index="36" gov="proteins" gov_index="37">amod</dependency>
+      <dependency dep="proteins" dep_index="37" gov="initiate" gov_index="39">prep_in</dependency>
+      <dependency dep="to" dep_index="38" gov="initiate" gov_index="39">aux</dependency>
+      <dependency dep="initiate" dep_index="39" gov="formed" gov_index="12">ccomp</dependency>
+      <dependency dep="initiate" dep_index="39" gov="formed" gov_index="12">xcomp</dependency>
+      <dependency dep="signaling" dep_index="40" gov="initiate" gov_index="39">xcomp</dependency>
+      <dependency dep="[1][2][3][4][5]" dep_index="41" gov="signaling" gov_index="40">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1900023" relationship="true">19 12 23</relation>
+      <relation position="400019" relationship="true">4 5 12 19</relation>
+      <relation position="800019" relationship="true">8 11 12 19</relation>
+      <relation position="200019" relationship="true">2 5 12 19</relation>
+      <relation position="1700019" relationship="true">17 12 19</relation>
+      <relation position="1900021" relationship="true">19 12 21</relation>
+      <relation position="400023" relationship="true">4 5 12 23</relation>
+      <relation position="800023" relationship="true">8 11 12 23</relation>
+      <relation position="200023" relationship="true">2 5 12 23</relation>
+      <relation position="1700023" relationship="true">17 12 23</relation>
+      <relation position="2100023" relationship="true">21 12 23</relation>
+      <relation position="400008" relationship="false">4 5 12 11 8</relation>
+      <relation position="200004" relationship="false">2 5 4</relation>
+      <relation position="400017" relationship="true">4 5 12 17</relation>
+      <relation position="400021" relationship="true">4 5 12 21</relation>
+      <relation position="200008" relationship="false">2 5 12 11 8</relation>
+      <relation position="800017" relationship="true">8 11 12 17</relation>
+      <relation position="800021" relationship="true">8 11 12 21</relation>
+      <relation position="200017" relationship="true">2 5 12 17</relation>
+      <relation position="200021" relationship="true">2 5 12 21</relation>
+      <relation position="1700021" relationship="true">17 12 21</relation>
+   </relations>
+   <pairs>
+      <pair>800021</pair>
+      <pair>1900021</pair>
+      <pair>1900023</pair>
+      <pair>800023</pair>
+      <pair>800017</pair>
+      <pair>800019</pair>
+      <pair>400019</pair>
+      <pair>200021</pair>
+      <pair>400017</pair>
+      <pair>200023</pair>
+      <pair>400023</pair>
+      <pair>200017</pair>
+      <pair>400021</pair>
+      <pair>200019</pair>
+      <pair>2100023</pair>
+      <pair>1700023</pair>
+      <pair>1700021</pair>
+      <pair>1700019</pair>
+   </pairs>
+</root>

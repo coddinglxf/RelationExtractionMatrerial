@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>At@least@two@of@the@subunits@of@TFIIH@(@XPB@and@XPD@proteins)@are@implicated@in@the@disease@xeroderma@pigmentosum@(XP)@.@</sentence>
+   <tags>
+      <tag pos="8">TFIIH</tag>
+      <tag pos="10">XPB</tag>
+      <tag pos="12">XPD</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">At</taggedword>
+      <taggedword index="2" part-of-speech="JJS">least</taggedword>
+      <taggedword index="3" part-of-speech="CD">two</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NNS">subunits</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNP">TFIIH</taggedword>
+      <taggedword index="9" part-of-speech="NNP">(</taggedword>
+      <taggedword index="10" part-of-speech="NNP">XPB</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNP">XPD</taggedword>
+      <taggedword index="13" part-of-speech="NNP">proteins)</taggedword>
+      <taggedword index="14" part-of-speech="VBP">are</taggedword>
+      <taggedword index="15" part-of-speech="VBN">implicated</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">disease</taggedword>
+      <taggedword index="19" part-of-speech="NN">xeroderma</taggedword>
+      <taggedword index="20" part-of-speech="NN">pigmentosum</taggedword>
+      <taggedword index="21" part-of-speech="NN">(XP)</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="At" dep_index="1" gov="two" gov_index="3">quantmod</dependency>
+      <dependency dep="least" dep_index="2" gov="At" gov_index="1">mwe</dependency>
+      <dependency dep="least" dep_index="2" gov="At" gov_index="1">pobj</dependency>
+      <dependency dep="two" dep_index="3" gov="implicated" gov_index="15">nsubjpass</dependency>
+      <dependency dep="the" dep_index="5" gov="subunits" gov_index="6">det</dependency>
+      <dependency dep="subunits" dep_index="6" gov="two" gov_index="3">prep_of</dependency>
+      <dependency dep="TFIIH" dep_index="8" gov="XPB" gov_index="10">nn</dependency>
+      <dependency dep="(" dep_index="9" gov="XPB" gov_index="10">nn</dependency>
+      <dependency dep="XPB" dep_index="10" gov="subunits" gov_index="6">prep_of</dependency>
+      <dependency dep="XPD" dep_index="12" gov="proteins)" gov_index="13">nn</dependency>
+      <dependency dep="proteins)" dep_index="13" gov="subunits" gov_index="6">prep_of</dependency>
+      <dependency dep="proteins)" dep_index="13" gov="XPB" gov_index="10">conj_and</dependency>
+      <dependency dep="are" dep_index="14" gov="implicated" gov_index="15">auxpass</dependency>
+      <dependency dep="implicated" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="17" gov="(XP)" gov_index="21">det</dependency>
+      <dependency dep="disease" dep_index="18" gov="(XP)" gov_index="21">nn</dependency>
+      <dependency dep="xeroderma" dep_index="19" gov="(XP)" gov_index="21">nn</dependency>
+      <dependency dep="pigmentosum" dep_index="20" gov="(XP)" gov_index="21">nn</dependency>
+      <dependency dep="(XP)" dep_index="21" gov="implicated" gov_index="15">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false"></relation>
+      <relation position="800012" relationship="false">8 10 6 13 12</relation>
+      <relation position="1000012" relationship="false">10 6 13 12</relation>
+   </relations>
+   <pairs/>
+</root>

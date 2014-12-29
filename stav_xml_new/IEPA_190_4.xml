@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@increase@in@GnRH@pulse@amplitude@caused@by@leptin@was@totally@prevented@by@coincubation@with@an@anti-CART@antiserum@whereas@it@was@not@affected@by@coincubation@with@the@NPY@Y5-receptor@antagonist@(10(-7)@M)@.@</sentence>
+   <tags>
+      <tag pos="9">leptin</tag>
+      <tag pos="28">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">increase</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="JJ">GnRH</taggedword>
+      <taggedword index="5" part-of-speech="NN">pulse</taggedword>
+      <taggedword index="6" part-of-speech="NN">amplitude</taggedword>
+      <taggedword index="7" part-of-speech="VBN">caused</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="10" part-of-speech="VBD">was</taggedword>
+      <taggedword index="11" part-of-speech="RB">totally</taggedword>
+      <taggedword index="12" part-of-speech="VBN">prevented</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="NN">coincubation</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="DT">an</taggedword>
+      <taggedword index="17" part-of-speech="JJ">anti-CART</taggedword>
+      <taggedword index="18" part-of-speech="NN">antiserum</taggedword>
+      <taggedword index="19" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="20" part-of-speech="PRP">it</taggedword>
+      <taggedword index="21" part-of-speech="VBD">was</taggedword>
+      <taggedword index="22" part-of-speech="RB">not</taggedword>
+      <taggedword index="23" part-of-speech="VBN">affected</taggedword>
+      <taggedword index="24" part-of-speech="IN">by</taggedword>
+      <taggedword index="25" part-of-speech="NN">coincubation</taggedword>
+      <taggedword index="26" part-of-speech="IN">with</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="29" part-of-speech="NNP">Y5-receptor</taggedword>
+      <taggedword index="30" part-of-speech="NN">antagonist</taggedword>
+      <taggedword index="31" part-of-speech="NNP">(10(-7)</taggedword>
+      <taggedword index="32" part-of-speech="NNP">M)</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="increase" gov_index="2">det</dependency>
+      <dependency dep="increase" dep_index="2" gov="prevented" gov_index="12">nsubjpass</dependency>
+      <dependency dep="GnRH" dep_index="4" gov="amplitude" gov_index="6">amod</dependency>
+      <dependency dep="pulse" dep_index="5" gov="amplitude" gov_index="6">nn</dependency>
+      <dependency dep="amplitude" dep_index="6" gov="increase" gov_index="2">prep_in</dependency>
+      <dependency dep="caused" dep_index="7" gov="amplitude" gov_index="6">partmod</dependency>
+      <dependency dep="leptin" dep_index="9" gov="caused" gov_index="7">agent</dependency>
+      <dependency dep="was" dep_index="10" gov="prevented" gov_index="12">auxpass</dependency>
+      <dependency dep="totally" dep_index="11" gov="prevented" gov_index="12">advmod</dependency>
+      <dependency dep="prevented" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="coincubation" dep_index="14" gov="prevented" gov_index="12">agent</dependency>
+      <dependency dep="an" dep_index="16" gov="antiserum" gov_index="18">det</dependency>
+      <dependency dep="anti-CART" dep_index="17" gov="antiserum" gov_index="18">amod</dependency>
+      <dependency dep="antiserum" dep_index="18" gov="prevented" gov_index="12">prep_with</dependency>
+      <dependency dep="whereas" dep_index="19" gov="affected" gov_index="23">mark</dependency>
+      <dependency dep="it" dep_index="20" gov="affected" gov_index="23">nsubjpass</dependency>
+      <dependency dep="was" dep_index="21" gov="affected" gov_index="23">auxpass</dependency>
+      <dependency dep="not" dep_index="22" gov="affected" gov_index="23">neg</dependency>
+      <dependency dep="affected" dep_index="23" gov="prevented" gov_index="12">advcl</dependency>
+      <dependency dep="coincubation" dep_index="25" gov="affected" gov_index="23">agent</dependency>
+      <dependency dep="the" dep_index="27" gov="M)" gov_index="32">det</dependency>
+      <dependency dep="NPY" dep_index="28" gov="M)" gov_index="32">nn</dependency>
+      <dependency dep="Y5-receptor" dep_index="29" gov="M)" gov_index="32">nn</dependency>
+      <dependency dep="antagonist" dep_index="30" gov="M)" gov_index="32">nn</dependency>
+      <dependency dep="(10(-7)" dep_index="31" gov="M)" gov_index="32">nn</dependency>
+      <dependency dep="M)" dep_index="32" gov="affected" gov_index="23">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900028" relationship="false">9 7 6 2 12 23 32 28</relation>
+   </relations>
+   <pairs/>
+</root>

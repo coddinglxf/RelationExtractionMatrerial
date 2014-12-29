@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Specific@interactions@between@the@human@RAD51@and@RAD52@proteins@.@</sentence>
+   <tags>
+      <tag pos="8">RAD52</tag>
+      <tag pos="6">RAD51</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Specific</taggedword>
+      <taggedword index="2" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="3" part-of-speech="IN">between</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">human</taggedword>
+      <taggedword index="6" part-of-speech="NNP">RAD51</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NNP">RAD52</taggedword>
+      <taggedword index="9" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Specific" dep_index="1" gov="interactions" gov_index="2">amod</dependency>
+      <dependency dep="interactions" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="RAD51" gov_index="6">det</dependency>
+      <dependency dep="human" dep_index="5" gov="RAD51" gov_index="6">amod</dependency>
+      <dependency dep="RAD51" dep_index="6" gov="interactions" gov_index="2">prep_between</dependency>
+      <dependency dep="RAD52" dep_index="8" gov="proteins" gov_index="9">nn</dependency>
+      <dependency dep="proteins" dep_index="9" gov="interactions" gov_index="2">prep_between</dependency>
+      <dependency dep="proteins" dep_index="9" gov="RAD51" gov_index="6">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="true">6 2 9 8</relation>
+   </relations>
+   <pairs>
+      <pair>600008</pair>
+   </pairs>
+</root>

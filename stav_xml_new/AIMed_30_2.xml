@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@screened@proteins@for@interaction@with@presenilin (PS) 1@,@and@cloned@the@full-length@cDNA@of@human@delta-catenin@,@which@encoded@1225@amino@acids@.@</sentence>
+   <tags>
+      <tag pos="7">presenilin (PS) 1</tag>
+      <tag pos="16">delta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">screened</taggedword>
+      <taggedword index="3" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="4" part-of-speech="IN">for</taggedword>
+      <taggedword index="5" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="CD">presenilin (PS) 1</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="VBN">cloned</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">full-length</taggedword>
+      <taggedword index="13" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">human</taggedword>
+      <taggedword index="16" part-of-speech="NN">delta-catenin</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="WDT">which</taggedword>
+      <taggedword index="19" part-of-speech="VBD">encoded</taggedword>
+      <taggedword index="20" part-of-speech="CD">1225</taggedword>
+      <taggedword index="21" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="22" part-of-speech="NNS">acids</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="screened" gov_index="2">nsubj</dependency>
+      <dependency dep="We" dep_index="1" gov="cloned" gov_index="10">nsubj</dependency>
+      <dependency dep="screened" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="proteins" dep_index="3" gov="screened" gov_index="2">dobj</dependency>
+      <dependency dep="interaction" dep_index="5" gov="screened" gov_index="2">prep_for</dependency>
+      <dependency dep="presenilin (PS) 1" dep_index="7" gov="screened" gov_index="2">prep_with</dependency>
+      <dependency dep="cloned" dep_index="10" gov="screened" gov_index="2">conj_and</dependency>
+      <dependency dep="the" dep_index="11" gov="cDNA" gov_index="13">det</dependency>
+      <dependency dep="full-length" dep_index="12" gov="cDNA" gov_index="13">amod</dependency>
+      <dependency dep="cDNA" dep_index="13" gov="cloned" gov_index="10">dobj</dependency>
+      <dependency dep="human" dep_index="15" gov="delta-catenin" gov_index="16">amod</dependency>
+      <dependency dep="delta-catenin" dep_index="16" gov="cDNA" gov_index="13">prep_of</dependency>
+      <dependency dep="delta-catenin" dep_index="16" gov="encoded" gov_index="19">nsubj</dependency>
+      <dependency dep="encoded" dep_index="19" gov="delta-catenin" gov_index="16">rcmod</dependency>
+      <dependency dep="1225" dep_index="20" gov="acids" gov_index="22">num</dependency>
+      <dependency dep="amino" dep_index="21" gov="acids" gov_index="22">amod</dependency>
+      <dependency dep="acids" dep_index="22" gov="encoded" gov_index="19">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700016" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>700016</pair>
+   </pairs>
+</root>

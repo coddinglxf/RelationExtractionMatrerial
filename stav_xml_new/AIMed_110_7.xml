@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@this@human@TFIID@TAF@may@be@a@co-activator@that@mediates@a@response@to@multiple@activators@through@a@distinct@mechanism@.@</sentence>
+   <tags>
+      <tag pos="5">TFIID</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">this</taggedword>
+      <taggedword index="4" part-of-speech="JJ">human</taggedword>
+      <taggedword index="5" part-of-speech="NNP">TFIID</taggedword>
+      <taggedword index="6" part-of-speech="NNP">TAF</taggedword>
+      <taggedword index="7" part-of-speech="MD">may</taggedword>
+      <taggedword index="8" part-of-speech="VB">be</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="NN">co-activator</taggedword>
+      <taggedword index="11" part-of-speech="WDT">that</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">mediates</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="NN">response</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="17" part-of-speech="NNS">activators</taggedword>
+      <taggedword index="18" part-of-speech="IN">through</taggedword>
+      <taggedword index="19" part-of-speech="DT">a</taggedword>
+      <taggedword index="20" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="21" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="co-activator" gov_index="10">advmod</dependency>
+      <dependency dep="this" dep_index="3" gov="TAF" gov_index="6">det</dependency>
+      <dependency dep="human" dep_index="4" gov="TAF" gov_index="6">amod</dependency>
+      <dependency dep="TFIID" dep_index="5" gov="TAF" gov_index="6">nn</dependency>
+      <dependency dep="TAF" dep_index="6" gov="co-activator" gov_index="10">nsubj</dependency>
+      <dependency dep="may" dep_index="7" gov="co-activator" gov_index="10">aux</dependency>
+      <dependency dep="be" dep_index="8" gov="co-activator" gov_index="10">cop</dependency>
+      <dependency dep="a" dep_index="9" gov="co-activator" gov_index="10">det</dependency>
+      <dependency dep="co-activator" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="co-activator" dep_index="10" gov="mediates" gov_index="12">nsubj</dependency>
+      <dependency dep="mediates" dep_index="12" gov="co-activator" gov_index="10">rcmod</dependency>
+      <dependency dep="a" dep_index="13" gov="response" gov_index="14">det</dependency>
+      <dependency dep="response" dep_index="14" gov="mediates" gov_index="12">dobj</dependency>
+      <dependency dep="multiple" dep_index="16" gov="activators" gov_index="17">amod</dependency>
+      <dependency dep="activators" dep_index="17" gov="response" gov_index="14">prep_to</dependency>
+      <dependency dep="a" dep_index="19" gov="mechanism" gov_index="21">det</dependency>
+      <dependency dep="distinct" dep_index="20" gov="mechanism" gov_index="21">amod</dependency>
+      <dependency dep="mechanism" dep_index="21" gov="mediates" gov_index="12">prep_through</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>For@efficient@entry@into@target@cells@,@primary@macrophage-tropic@and@laboratory-adapted@human@immunodeficiency@viruses@type@1@(HIV-1)@require@particular@chemokine@receptors@,@CCR-5@and@CXCR-4@,@respectively@,@as@well@as@the@primary@receptor@CD4@(refs@1-6)@.@</sentence>
+   <tags>
+      <tag pos="23">CCR-5</tag>
+      <tag pos="25">CXCR-4</tag>
+      <tag pos="35">CD4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">For</taggedword>
+      <taggedword index="2" part-of-speech="JJ">efficient</taggedword>
+      <taggedword index="3" part-of-speech="NN">entry</taggedword>
+      <taggedword index="4" part-of-speech="IN">into</taggedword>
+      <taggedword index="5" part-of-speech="NN">target</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="9" part-of-speech="NN">macrophage-tropic</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="JJ">laboratory-adapted</taggedword>
+      <taggedword index="12" part-of-speech="JJ">human</taggedword>
+      <taggedword index="13" part-of-speech="NN">immunodeficiency</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">viruses</taggedword>
+      <taggedword index="15" part-of-speech="NN">type</taggedword>
+      <taggedword index="16" part-of-speech="CD">1</taggedword>
+      <taggedword index="17" part-of-speech="CD">(HIV-1)</taggedword>
+      <taggedword index="18" part-of-speech="VBP">require</taggedword>
+      <taggedword index="19" part-of-speech="JJ">particular</taggedword>
+      <taggedword index="20" part-of-speech="NN">chemokine</taggedword>
+      <taggedword index="21" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="JJ">CCR-5</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="JJ">CXCR-4</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="RB">as</taggedword>
+      <taggedword index="30" part-of-speech="RB">well</taggedword>
+      <taggedword index="31" part-of-speech="IN">as</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="34" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="35" part-of-speech="NNP">CD4</taggedword>
+      <taggedword index="36" part-of-speech="VBZ">(refs</taggedword>
+      <taggedword index="37" part-of-speech="CD">1-6)</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="efficient" dep_index="2" gov="entry" gov_index="3">amod</dependency>
+      <dependency dep="entry" dep_index="3" gov="viruses" gov_index="14">prep_for</dependency>
+      <dependency dep="target" dep_index="5" gov="cells" gov_index="6">nn</dependency>
+      <dependency dep="cells" dep_index="6" gov="entry" gov_index="3">prep_into</dependency>
+      <dependency dep="primary" dep_index="8" gov="macrophage-tropic" gov_index="9">amod</dependency>
+      <dependency dep="macrophage-tropic" dep_index="9" gov="viruses" gov_index="14">nsubj</dependency>
+      <dependency dep="laboratory-adapted" dep_index="11" gov="immunodeficiency" gov_index="13">amod</dependency>
+      <dependency dep="human" dep_index="12" gov="immunodeficiency" gov_index="13">amod</dependency>
+      <dependency dep="immunodeficiency" dep_index="13" gov="macrophage-tropic" gov_index="9">conj_and</dependency>
+      <dependency dep="immunodeficiency" dep_index="13" gov="viruses" gov_index="14">nsubj</dependency>
+      <dependency dep="viruses" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="type" dep_index="15" gov="viruses" gov_index="14">dobj</dependency>
+      <dependency dep="type" dep_index="15" gov="require" gov_index="18">dobj</dependency>
+      <dependency dep="1" dep_index="16" gov="(HIV-1)" gov_index="17">num</dependency>
+      <dependency dep="(HIV-1)" dep_index="17" gov="require" gov_index="18">nsubj</dependency>
+      <dependency dep="require" dep_index="18" gov="type" gov_index="15">rcmod</dependency>
+      <dependency dep="particular" dep_index="19" gov="receptors" gov_index="21">amod</dependency>
+      <dependency dep="chemokine" dep_index="20" gov="receptors" gov_index="21">nn</dependency>
+      <dependency dep="receptors" dep_index="21" gov="respectively" gov_index="27">nsubj</dependency>
+      <dependency dep="CCR-5" dep_index="23" gov="receptors" gov_index="21">amod</dependency>
+      <dependency dep="CXCR-4" dep_index="25" gov="receptors" gov_index="21">amod</dependency>
+      <dependency dep="CXCR-4" dep_index="25" gov="CCR-5" gov_index="23">conj_and</dependency>
+      <dependency dep="respectively" dep_index="27" gov="require" gov_index="18">xcomp</dependency>
+      <dependency dep="the" dep_index="32" gov="receptor" gov_index="34">det</dependency>
+      <dependency dep="primary" dep_index="33" gov="receptor" gov_index="34">amod</dependency>
+      <dependency dep="receptor" dep_index="34" gov="type" gov_index="15">conj_and</dependency>
+      <dependency dep="CD4" dep_index="35" gov="(refs" gov_index="36">nsubj</dependency>
+      <dependency dep="(refs" dep_index="36" gov="receptor" gov_index="34">rcmod</dependency>
+      <dependency dep="1-6)" dep_index="37" gov="(refs" gov_index="36">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2300025" relationship="false">23 21 25</relation>
+      <relation position="2300035" relationship="false"></relation>
+      <relation position="2500035" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@MAP kinase@enzymes@pp54@and@pp42@/44@are@regulated@by@tyrosine@as@well@as@serine/threonine@phosphorylation@.@</sentence>
+   <tags>
+      <tag pos="2">MAP kinase</tag>
+      <tag pos="4">pp54</tag>
+      <tag pos="6">pp42</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">MAP kinase</taggedword>
+      <taggedword index="3" part-of-speech="NNS">enzymes</taggedword>
+      <taggedword index="4" part-of-speech="NN">pp54</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="CD">pp42</taggedword>
+      <taggedword index="7" part-of-speech="CD">/44</taggedword>
+      <taggedword index="8" part-of-speech="VBP">are</taggedword>
+      <taggedword index="9" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="12" part-of-speech="RB">as</taggedword>
+      <taggedword index="13" part-of-speech="RB">well</taggedword>
+      <taggedword index="14" part-of-speech="IN">as</taggedword>
+      <taggedword index="15" part-of-speech="JJ">serine/threonine</taggedword>
+      <taggedword index="16" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="pp54" gov_index="4">det</dependency>
+      <dependency dep="MAP kinase" dep_index="2" gov="pp54" gov_index="4">nn</dependency>
+      <dependency dep="enzymes" dep_index="3" gov="pp54" gov_index="4">nn</dependency>
+      <dependency dep="pp54" dep_index="4" gov="regulated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="pp42" dep_index="6" gov="/44" gov_index="7">num</dependency>
+      <dependency dep="/44" dep_index="7" gov="pp54" gov_index="4">conj_and</dependency>
+      <dependency dep="/44" dep_index="7" gov="regulated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="are" dep_index="8" gov="regulated" gov_index="9">auxpass</dependency>
+      <dependency dep="regulated" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="tyrosine" dep_index="11" gov="phosphorylation" gov_index="16">amod</dependency>
+      <dependency dep="serine/threonine" dep_index="15" gov="tyrosine" gov_index="11">conj_and</dependency>
+      <dependency dep="serine/threonine" dep_index="15" gov="phosphorylation" gov_index="16">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="16" gov="regulated" gov_index="9">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false"></relation>
+      <relation position="200006" relationship="false">2 4 9 7 6</relation>
+      <relation position="400006" relationship="false">4 9 7 6</relation>
+   </relations>
+   <pairs/>
+</root>

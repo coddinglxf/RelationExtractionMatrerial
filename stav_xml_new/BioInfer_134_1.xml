@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Changes@in@beta-catenin@binding@to@cadherin@or@APC@protein@,@and@the@ensuing@effects@on@cell@morphology@and@adhesion@,@are@independent@of@beta-catenin@binding@to@alpha-catenin@.@</sentence>
+   <tags>
+      <tag pos="6">cadherin</tag>
+      <tag pos="27">alpha-catenin</tag>
+      <tag pos="3">beta-catenin</tag>
+      <tag pos="24">beta-catenin</tag>
+      <tag pos="8">APC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Changes</taggedword>
+      <taggedword index="2" part-of-speech="IN">in</taggedword>
+      <taggedword index="3" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="4" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="NN">cadherin</taggedword>
+      <taggedword index="7" part-of-speech="CC">or</taggedword>
+      <taggedword index="8" part-of-speech="NNP">APC</taggedword>
+      <taggedword index="9" part-of-speech="NN">protein</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="VBG">ensuing</taggedword>
+      <taggedword index="14" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="15" part-of-speech="IN">on</taggedword>
+      <taggedword index="16" part-of-speech="NN">cell</taggedword>
+      <taggedword index="17" part-of-speech="NN">morphology</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="VBP">are</taggedword>
+      <taggedword index="22" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="25" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="26" part-of-speech="TO">to</taggedword>
+      <taggedword index="27" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Changes" dep_index="1" gov="independent" gov_index="22">nsubj</dependency>
+      <dependency dep="beta-catenin" dep_index="3" gov="protein" gov_index="9">amod</dependency>
+      <dependency dep="binding" dep_index="4" gov="protein" gov_index="9">amod</dependency>
+      <dependency dep="cadherin" dep_index="6" gov="binding" gov_index="4">prep_to</dependency>
+      <dependency dep="APC" dep_index="8" gov="binding" gov_index="4">prep_to</dependency>
+      <dependency dep="APC" dep_index="8" gov="cadherin" gov_index="6">conj_or</dependency>
+      <dependency dep="protein" dep_index="9" gov="Changes" gov_index="1">prep_in</dependency>
+      <dependency dep="the" dep_index="12" gov="effects" gov_index="14">det</dependency>
+      <dependency dep="ensuing" dep_index="13" gov="effects" gov_index="14">amod</dependency>
+      <dependency dep="effects" dep_index="14" gov="Changes" gov_index="1">conj_and</dependency>
+      <dependency dep="effects" dep_index="14" gov="independent" gov_index="22">nsubj</dependency>
+      <dependency dep="cell" dep_index="16" gov="morphology" gov_index="17">nn</dependency>
+      <dependency dep="morphology" dep_index="17" gov="effects" gov_index="14">prep_on</dependency>
+      <dependency dep="adhesion" dep_index="19" gov="effects" gov_index="14">prep_on</dependency>
+      <dependency dep="adhesion" dep_index="19" gov="morphology" gov_index="17">conj_and</dependency>
+      <dependency dep="are" dep_index="21" gov="independent" gov_index="22">cop</dependency>
+      <dependency dep="independent" dep_index="22" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="beta-catenin" dep_index="24" gov="independent" gov_index="22">prep_of</dependency>
+      <dependency dep="binding" dep_index="25" gov="beta-catenin" gov_index="24">amod</dependency>
+      <dependency dep="alpha-catenin" dep_index="27" gov="beta-catenin" gov_index="24">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600027" relationship="false">6 4 9 1 22 24 27</relation>
+      <relation position="300006" relationship="true">3 9 4 6</relation>
+      <relation position="600024" relationship="false">6 4 9 1 22 24</relation>
+      <relation position="600008" relationship="false">6 4 8</relation>
+      <relation position="300027" relationship="true">3 9 1 22 24 27</relation>
+      <relation position="2400027" relationship="true"></relation>
+      <relation position="800027" relationship="false">8 4 9 1 22 24 27</relation>
+      <relation position="300024" relationship="true">3 9 1 22 24</relation>
+      <relation position="300008" relationship="true">3 9 4 8</relation>
+      <relation position="800024" relationship="false">8 4 9 1 22 24</relation>
+   </relations>
+   <pairs>
+      <pair>300006</pair>
+      <pair>300008</pair>
+      <pair>300024</pair>
+      <pair>300027</pair>
+      <pair>2400027</pair>
+   </pairs>
+</root>

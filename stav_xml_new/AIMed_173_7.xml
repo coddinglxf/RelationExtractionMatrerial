@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@approach@suggests@that@the@Abeta@molecule@is@capable@of@interacting@with@itself@in@vivo@in@the@yeast@cell@nucleus@.@</sentence>
+   <tags>
+      <tag pos="6">Abeta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">approach</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NNP">Abeta</taggedword>
+      <taggedword index="7" part-of-speech="NN">molecule</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="JJ">capable</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="VBG">interacting</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="PRP">itself</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="19" part-of-speech="NN">cell</taggedword>
+      <taggedword index="20" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="approach" gov_index="2">det</dependency>
+      <dependency dep="approach" dep_index="2" gov="suggests" gov_index="3">nsubj</dependency>
+      <dependency dep="suggests" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="capable" gov_index="9">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="molecule" gov_index="7">det</dependency>
+      <dependency dep="Abeta" dep_index="6" gov="molecule" gov_index="7">nn</dependency>
+      <dependency dep="molecule" dep_index="7" gov="capable" gov_index="9">nsubj</dependency>
+      <dependency dep="is" dep_index="8" gov="capable" gov_index="9">cop</dependency>
+      <dependency dep="capable" dep_index="9" gov="suggests" gov_index="3">ccomp</dependency>
+      <dependency dep="interacting" dep_index="11" gov="capable" gov_index="9">prepc_of</dependency>
+      <dependency dep="itself" dep_index="13" gov="interacting" gov_index="11">prep_with</dependency>
+      <dependency dep="vivo" dep_index="15" gov="interacting" gov_index="11">prep_in</dependency>
+      <dependency dep="the" dep_index="17" gov="nucleus" gov_index="20">det</dependency>
+      <dependency dep="yeast" dep_index="18" gov="nucleus" gov_index="20">nn</dependency>
+      <dependency dep="cell" dep_index="19" gov="nucleus" gov_index="20">nn</dependency>
+      <dependency dep="nucleus" dep_index="20" gov="vivo" gov_index="15">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

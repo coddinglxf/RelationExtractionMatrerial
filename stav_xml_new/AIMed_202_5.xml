@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@binding@of@IL-1alpha@or@IL-1beta@to@IL1R@is@an@early@step@in@IL-1@signal@transduction@and@blocking@this@interaction@may@therefore@be@a@useful@target@for@the@development@of@new@drugs@.@</sentence>
+   <tags>
+      <tag pos="4">IL-1alpha</tag>
+      <tag pos="6">IL-1beta</tag>
+      <tag pos="8">IL1R</tag>
+      <tag pos="14">IL-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNS">IL-1alpha</taggedword>
+      <taggedword index="5" part-of-speech="CC">or</taggedword>
+      <taggedword index="6" part-of-speech="NNS">IL-1beta</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="NNP">IL1R</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="DT">an</taggedword>
+      <taggedword index="11" part-of-speech="JJ">early</taggedword>
+      <taggedword index="12" part-of-speech="NN">step</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">IL-1</taggedword>
+      <taggedword index="15" part-of-speech="NN">signal</taggedword>
+      <taggedword index="16" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="VBG">blocking</taggedword>
+      <taggedword index="19" part-of-speech="DT">this</taggedword>
+      <taggedword index="20" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="21" part-of-speech="MD">may</taggedword>
+      <taggedword index="22" part-of-speech="RB">therefore</taggedword>
+      <taggedword index="23" part-of-speech="VB">be</taggedword>
+      <taggedword index="24" part-of-speech="DT">a</taggedword>
+      <taggedword index="25" part-of-speech="JJ">useful</taggedword>
+      <taggedword index="26" part-of-speech="NN">target</taggedword>
+      <taggedword index="27" part-of-speech="IN">for</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="NN">development</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="JJ">new</taggedword>
+      <taggedword index="32" part-of-speech="NNS">drugs</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="step" gov_index="12">nsubj</dependency>
+      <dependency dep="binding" dep_index="2" gov="The" gov_index="1">amod</dependency>
+      <dependency dep="IL-1alpha" dep_index="4" gov="The" gov_index="1">prep_of</dependency>
+      <dependency dep="IL-1beta" dep_index="6" gov="The" gov_index="1">prep_of</dependency>
+      <dependency dep="IL-1beta" dep_index="6" gov="IL-1alpha" gov_index="4">conj_or</dependency>
+      <dependency dep="IL1R" dep_index="8" gov="The" gov_index="1">prep_to</dependency>
+      <dependency dep="is" dep_index="9" gov="step" gov_index="12">cop</dependency>
+      <dependency dep="an" dep_index="10" gov="step" gov_index="12">det</dependency>
+      <dependency dep="early" dep_index="11" gov="step" gov_index="12">amod</dependency>
+      <dependency dep="step" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="IL-1" dep_index="14" gov="transduction" gov_index="16">nn</dependency>
+      <dependency dep="signal" dep_index="15" gov="transduction" gov_index="16">nn</dependency>
+      <dependency dep="transduction" dep_index="16" gov="step" gov_index="12">prep_in</dependency>
+      <dependency dep="blocking" dep_index="18" gov="target" gov_index="26">csubj</dependency>
+      <dependency dep="this" dep_index="19" gov="interaction" gov_index="20">det</dependency>
+      <dependency dep="interaction" dep_index="20" gov="blocking" gov_index="18">dobj</dependency>
+      <dependency dep="may" dep_index="21" gov="target" gov_index="26">aux</dependency>
+      <dependency dep="therefore" dep_index="22" gov="target" gov_index="26">advmod</dependency>
+      <dependency dep="be" dep_index="23" gov="target" gov_index="26">cop</dependency>
+      <dependency dep="a" dep_index="24" gov="target" gov_index="26">det</dependency>
+      <dependency dep="useful" dep_index="25" gov="target" gov_index="26">amod</dependency>
+      <dependency dep="target" dep_index="26" gov="step" gov_index="12">conj_and</dependency>
+      <dependency dep="the" dep_index="28" gov="development" gov_index="29">det</dependency>
+      <dependency dep="development" dep_index="29" gov="target" gov_index="26">prep_for</dependency>
+      <dependency dep="new" dep_index="31" gov="drugs" gov_index="32">amod</dependency>
+      <dependency dep="drugs" dep_index="32" gov="development" gov_index="29">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 1 6</relation>
+      <relation position="400008" relationship="true">4 1 8</relation>
+      <relation position="400014" relationship="false">4 1 12 16 14</relation>
+      <relation position="600008" relationship="true">6 1 8</relation>
+      <relation position="600014" relationship="false">6 1 12 16 14</relation>
+      <relation position="800014" relationship="false">8 1 12 16 14</relation>
+   </relations>
+   <pairs>
+      <pair>600008</pair>
+      <pair>400008</pair>
+   </pairs>
+</root>

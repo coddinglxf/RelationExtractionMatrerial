@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Hox11@is@an@orphan@homeobox@gene@that@controls@the@genesis@of@the@spleen@.@</sentence>
+   <tags>
+      <tag pos="1">Hox11</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Hox11</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">an</taggedword>
+      <taggedword index="4" part-of-speech="JJ">orphan</taggedword>
+      <taggedword index="5" part-of-speech="NN">homeobox</taggedword>
+      <taggedword index="6" part-of-speech="NN">gene</taggedword>
+      <taggedword index="7" part-of-speech="WDT">that</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">controls</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">genesis</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">spleen</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Hox11" dep_index="1" gov="gene" gov_index="6">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="gene" gov_index="6">cop</dependency>
+      <dependency dep="an" dep_index="3" gov="gene" gov_index="6">det</dependency>
+      <dependency dep="orphan" dep_index="4" gov="gene" gov_index="6">amod</dependency>
+      <dependency dep="homeobox" dep_index="5" gov="gene" gov_index="6">nn</dependency>
+      <dependency dep="gene" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="gene" dep_index="6" gov="controls" gov_index="8">nsubj</dependency>
+      <dependency dep="controls" dep_index="8" gov="gene" gov_index="6">rcmod</dependency>
+      <dependency dep="the" dep_index="9" gov="genesis" gov_index="10">det</dependency>
+      <dependency dep="genesis" dep_index="10" gov="controls" gov_index="8">dobj</dependency>
+      <dependency dep="the" dep_index="12" gov="spleen" gov_index="13">det</dependency>
+      <dependency dep="spleen" dep_index="13" gov="genesis" gov_index="10">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

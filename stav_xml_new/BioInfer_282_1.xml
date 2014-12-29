@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Human@platelet P-235@,@a@talin@-like@actin binding protein@,@binds@selectively@to@mixed@lipid@bilayers@.@</sentence>
+   <tags>
+      <tag pos="7">actin binding protein</tag>
+      <tag pos="2">platelet P-235</tag>
+      <tag pos="5">talin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Human</taggedword>
+      <taggedword index="2" part-of-speech="CD">platelet P-235</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">talin</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-like</taggedword>
+      <taggedword index="7" part-of-speech="NN">actin binding protein</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="10" part-of-speech="RB">selectively</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VBN">mixed</taggedword>
+      <taggedword index="13" part-of-speech="NN">lipid</taggedword>
+      <taggedword index="14" part-of-speech="NNS">bilayers</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Human" dep_index="1" gov="binds" gov_index="9">nsubj</dependency>
+      <dependency dep="platelet P-235" dep_index="2" gov="Human" gov_index="1">num</dependency>
+      <dependency dep="a" dep_index="4" gov="actin binding protein" gov_index="7">det</dependency>
+      <dependency dep="talin" dep_index="5" gov="actin binding protein" gov_index="7">amod</dependency>
+      <dependency dep="-like" dep_index="6" gov="actin binding protein" gov_index="7">amod</dependency>
+      <dependency dep="actin binding protein" dep_index="7" gov="Human" gov_index="1">appos</dependency>
+      <dependency dep="binds" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="selectively" dep_index="10" gov="binds" gov_index="9">advmod</dependency>
+      <dependency dep="mixed" dep_index="12" gov="bilayers" gov_index="14">amod</dependency>
+      <dependency dep="lipid" dep_index="13" gov="bilayers" gov_index="14">nn</dependency>
+      <dependency dep="bilayers" dep_index="14" gov="binds" gov_index="9">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200007" relationship="true">2 1 7</relation>
+      <relation position="500007" relationship="false"></relation>
+      <relation position="200005" relationship="true">2 1 7 5</relation>
+   </relations>
+   <pairs>
+      <pair>200005</pair>
+      <pair>200007</pair>
+   </pairs>
+</root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@human@Imp3@and@Imp4@proteins@form@a@ternary@complex@with@hMpp10@,@which@only@interacts@with@the@U3@snoRNA@in@60-80S@ribonucleoprotein@complexes@</sentence>
+   <tags>
+      <tag pos="3">Imp3</tag>
+      <tag pos="5">Imp4</tag>
+      <tag pos="20">snoRNA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">human</taggedword>
+      <taggedword index="3" part-of-speech="NNS">Imp3</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="JJ">Imp4</taggedword>
+      <taggedword index="6" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="7" part-of-speech="VBP">form</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">ternary</taggedword>
+      <taggedword index="10" part-of-speech="NN">complex</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="NNS">hMpp10</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="WDT">which</taggedword>
+      <taggedword index="15" part-of-speech="RB">only</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">U3</taggedword>
+      <taggedword index="20" part-of-speech="NN">snoRNA</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="CD">60-80S</taggedword>
+      <taggedword index="23" part-of-speech="NN">ribonucleoprotein</taggedword>
+      <taggedword index="24" part-of-speech="NNS">complexes</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="Imp3" gov_index="3">det</dependency>
+      <dependency dep="human" dep_index="2" gov="Imp3" gov_index="3">amod</dependency>
+      <dependency dep="Imp3" dep_index="3" gov="form" gov_index="7">nsubj</dependency>
+      <dependency dep="Imp4" dep_index="5" gov="proteins" gov_index="6">amod</dependency>
+      <dependency dep="proteins" dep_index="6" gov="Imp3" gov_index="3">conj_and</dependency>
+      <dependency dep="proteins" dep_index="6" gov="form" gov_index="7">nsubj</dependency>
+      <dependency dep="form" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="8" gov="complex" gov_index="10">det</dependency>
+      <dependency dep="ternary" dep_index="9" gov="complex" gov_index="10">amod</dependency>
+      <dependency dep="complex" dep_index="10" gov="form" gov_index="7">dobj</dependency>
+      <dependency dep="hMpp10" dep_index="12" gov="form" gov_index="7">prep_with</dependency>
+      <dependency dep="hMpp10" dep_index="12" gov="interacts" gov_index="16">nsubj</dependency>
+      <dependency dep="only" dep_index="15" gov="interacts" gov_index="16">advmod</dependency>
+      <dependency dep="interacts" dep_index="16" gov="hMpp10" gov_index="12">rcmod</dependency>
+      <dependency dep="the" dep_index="18" gov="snoRNA" gov_index="20">det</dependency>
+      <dependency dep="U3" dep_index="19" gov="snoRNA" gov_index="20">amod</dependency>
+      <dependency dep="snoRNA" dep_index="20" gov="interacts" gov_index="16">prep_with</dependency>
+      <dependency dep="60-80S" dep_index="22" gov="complexes" gov_index="24">num</dependency>
+      <dependency dep="ribonucleoprotein" dep_index="23" gov="complexes" gov_index="24">nn</dependency>
+      <dependency dep="complexes" dep_index="24" gov="snoRNA" gov_index="20">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="true">3 7 6 5</relation>
+      <relation position="300020" relationship="true">3 7 12 16 20</relation>
+      <relation position="500020" relationship="true">5 6 7 12 16 20</relation>
+   </relations>
+   <pairs>
+      <pair>300020</pair>
+      <pair>300005</pair>
+      <pair>500020</pair>
+   </pairs>
+</root>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@gene@for@the@human@CREB binding protein@,@the@transcriptional@coactivator@CBP@,@is@included@in@the@RT1@cosmid@,@and@mutations@in@CBP@have@recently@been@identified@in@nondeleted@RTS@patients@.@</sentence>
+   <tags>
+      <tag pos="11">CBP</tag>
+      <tag pos="23">CBP</tag>
+      <tag pos="6">CREB binding protein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">gene</taggedword>
+      <taggedword index="3" part-of-speech="IN">for</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">human</taggedword>
+      <taggedword index="6" part-of-speech="NN">CREB binding protein</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="10" part-of-speech="NN">coactivator</taggedword>
+      <taggedword index="11" part-of-speech="NN">CBP</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="VBN">included</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NNP">RT1</taggedword>
+      <taggedword index="18" part-of-speech="NN">cosmid</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="24" part-of-speech="VBP">have</taggedword>
+      <taggedword index="25" part-of-speech="RB">recently</taggedword>
+      <taggedword index="26" part-of-speech="VBN">been</taggedword>
+      <taggedword index="27" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="28" part-of-speech="IN">in</taggedword>
+      <taggedword index="29" part-of-speech="JJ">nondeleted</taggedword>
+      <taggedword index="30" part-of-speech="NNP">RTS</taggedword>
+      <taggedword index="31" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="gene" gov_index="2">det</dependency>
+      <dependency dep="gene" dep_index="2" gov="included" gov_index="14">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="CREB binding protein" gov_index="6">det</dependency>
+      <dependency dep="human" dep_index="5" gov="CREB binding protein" gov_index="6">amod</dependency>
+      <dependency dep="CREB binding protein" dep_index="6" gov="gene" gov_index="2">prep_for</dependency>
+      <dependency dep="the" dep_index="8" gov="CBP" gov_index="11">det</dependency>
+      <dependency dep="transcriptional" dep_index="9" gov="CBP" gov_index="11">amod</dependency>
+      <dependency dep="coactivator" dep_index="10" gov="CBP" gov_index="11">nn</dependency>
+      <dependency dep="CBP" dep_index="11" gov="CREB binding protein" gov_index="6">appos</dependency>
+      <dependency dep="is" dep_index="13" gov="included" gov_index="14">auxpass</dependency>
+      <dependency dep="included" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="16" gov="cosmid" gov_index="18">det</dependency>
+      <dependency dep="RT1" dep_index="17" gov="cosmid" gov_index="18">nn</dependency>
+      <dependency dep="cosmid" dep_index="18" gov="included" gov_index="14">prep_in</dependency>
+      <dependency dep="mutations" dep_index="21" gov="identified" gov_index="27">nsubjpass</dependency>
+      <dependency dep="CBP" dep_index="23" gov="mutations" gov_index="21">prep_in</dependency>
+      <dependency dep="have" dep_index="24" gov="identified" gov_index="27">aux</dependency>
+      <dependency dep="recently" dep_index="25" gov="identified" gov_index="27">advmod</dependency>
+      <dependency dep="been" dep_index="26" gov="identified" gov_index="27">auxpass</dependency>
+      <dependency dep="identified" dep_index="27" gov="included" gov_index="14">conj_and</dependency>
+      <dependency dep="nondeleted" dep_index="29" gov="patients" gov_index="31">amod</dependency>
+      <dependency dep="RTS" dep_index="30" gov="patients" gov_index="31">nn</dependency>
+      <dependency dep="patients" dep_index="31" gov="identified" gov_index="27">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100023" relationship="false"></relation>
+      <relation position="600011" relationship="false"></relation>
+      <relation position="600023" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

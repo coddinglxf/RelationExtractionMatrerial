@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>IL-10@also@activated@Stat5@in@Ba/F3@cells@that@stably@expressed@the@murine@IL-10 receptor@.@</sentence>
+   <tags>
+      <tag pos="1">IL-10</tag>
+      <tag pos="4">Stat5</tag>
+      <tag pos="13">IL-10 receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">IL-10</taggedword>
+      <taggedword index="2" part-of-speech="RB">also</taggedword>
+      <taggedword index="3" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="4" part-of-speech="NNS">Stat5</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="JJ">Ba/F3</taggedword>
+      <taggedword index="7" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="8" part-of-speech="WDT">that</taggedword>
+      <taggedword index="9" part-of-speech="RB">stably</taggedword>
+      <taggedword index="10" part-of-speech="VBD">expressed</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">murine</taggedword>
+      <taggedword index="13" part-of-speech="NN">IL-10 receptor</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="IL-10" dep_index="1" gov="activated" gov_index="3">nsubj</dependency>
+      <dependency dep="also" dep_index="2" gov="activated" gov_index="3">advmod</dependency>
+      <dependency dep="activated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Stat5" dep_index="4" gov="activated" gov_index="3">dobj</dependency>
+      <dependency dep="Stat5" dep_index="4" gov="expressed" gov_index="10">nsubj</dependency>
+      <dependency dep="Ba/F3" dep_index="6" gov="cells" gov_index="7">amod</dependency>
+      <dependency dep="cells" dep_index="7" gov="Stat5" gov_index="4">prep_in</dependency>
+      <dependency dep="stably" dep_index="9" gov="expressed" gov_index="10">advmod</dependency>
+      <dependency dep="expressed" dep_index="10" gov="Stat5" gov_index="4">rcmod</dependency>
+      <dependency dep="the" dep_index="11" gov="IL-10 receptor" gov_index="13">det</dependency>
+      <dependency dep="murine" dep_index="12" gov="IL-10 receptor" gov_index="13">amod</dependency>
+      <dependency dep="IL-10 receptor" dep_index="13" gov="expressed" gov_index="10">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100004" relationship="true">1 3 4</relation>
+      <relation position="100013" relationship="false">1 3 4 10 13</relation>
+      <relation position="400013" relationship="false">4 10 13</relation>
+   </relations>
+   <pairs>
+      <pair>100004</pair>
+   </pairs>
+</root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Arginine vasopressin@(AVP)@and@lysophosphatidic@acid@(LPA)@have@been@shown@to@stimulate@protein kinase C@(PKC)@and@mitogen-activated@protein@(MAP)@kinases@and@the@proliferation@of@vascular@smooth@muscle@cells@</sentence>
+   <tags>
+      <tag pos="1">Arginine vasopressin</tag>
+      <tag pos="12">protein kinase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Arginine vasopressin</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(AVP)</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">lysophosphatidic</taggedword>
+      <taggedword index="5" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="6" part-of-speech="NNS">(LPA)</taggedword>
+      <taggedword index="7" part-of-speech="VBP">have</taggedword>
+      <taggedword index="8" part-of-speech="VBN">been</taggedword>
+      <taggedword index="9" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="VB">stimulate</taggedword>
+      <taggedword index="12" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="13" part-of-speech="NNS">(PKC)</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="JJ">mitogen-activated</taggedword>
+      <taggedword index="16" part-of-speech="NN">protein</taggedword>
+      <taggedword index="17" part-of-speech="NN">(MAP)</taggedword>
+      <taggedword index="18" part-of-speech="NNS">kinases</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">vascular</taggedword>
+      <taggedword index="24" part-of-speech="JJ">smooth</taggedword>
+      <taggedword index="25" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="26" part-of-speech="NNS">cells</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Arginine vasopressin" dep_index="1" gov="(AVP)" gov_index="2">nn</dependency>
+      <dependency dep="(AVP)" dep_index="2" gov="shown" gov_index="9">nsubjpass</dependency>
+      <dependency dep="(AVP)" dep_index="2" gov="stimulate" gov_index="11">xsubj</dependency>
+      <dependency dep="lysophosphatidic" dep_index="4" gov="(LPA)" gov_index="6">amod</dependency>
+      <dependency dep="acid" dep_index="5" gov="(LPA)" gov_index="6">amod</dependency>
+      <dependency dep="(LPA)" dep_index="6" gov="(AVP)" gov_index="2">conj_and</dependency>
+      <dependency dep="(LPA)" dep_index="6" gov="shown" gov_index="9">nsubjpass</dependency>
+      <dependency dep="(LPA)" dep_index="6" gov="stimulate" gov_index="11">xsubj</dependency>
+      <dependency dep="have" dep_index="7" gov="shown" gov_index="9">aux</dependency>
+      <dependency dep="been" dep_index="8" gov="shown" gov_index="9">auxpass</dependency>
+      <dependency dep="shown" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="10" gov="stimulate" gov_index="11">aux</dependency>
+      <dependency dep="stimulate" dep_index="11" gov="shown" gov_index="9">xcomp</dependency>
+      <dependency dep="protein kinase C" dep_index="12" gov="(PKC)" gov_index="13">amod</dependency>
+      <dependency dep="(PKC)" dep_index="13" gov="stimulate" gov_index="11">dobj</dependency>
+      <dependency dep="mitogen-activated" dep_index="15" gov="kinases" gov_index="18">amod</dependency>
+      <dependency dep="protein" dep_index="16" gov="kinases" gov_index="18">nn</dependency>
+      <dependency dep="(MAP)" dep_index="17" gov="kinases" gov_index="18">nn</dependency>
+      <dependency dep="kinases" dep_index="18" gov="stimulate" gov_index="11">dobj</dependency>
+      <dependency dep="kinases" dep_index="18" gov="(PKC)" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="20" gov="proliferation" gov_index="21">det</dependency>
+      <dependency dep="proliferation" dep_index="21" gov="stimulate" gov_index="11">dobj</dependency>
+      <dependency dep="proliferation" dep_index="21" gov="(PKC)" gov_index="13">conj_and</dependency>
+      <dependency dep="vascular" dep_index="23" gov="cells" gov_index="26">amod</dependency>
+      <dependency dep="smooth" dep_index="24" gov="cells" gov_index="26">amod</dependency>
+      <dependency dep="muscle" dep_index="25" gov="cells" gov_index="26">nn</dependency>
+      <dependency dep="cells" dep_index="26" gov="proliferation" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100012" relationship="true">1 2 11 13 12</relation>
+   </relations>
+   <pairs>
+      <pair>100012</pair>
+   </pairs>
+</root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>As@expected@from@immunofluorescence@experiments@,@Abp1p@,@cofilin@,@and@actin@colocalized@in@immuno-EM@to@the@dense@patchlike@structures@but@not@to@the@cables@.@</sentence>
+   <tags>
+      <tag pos="9">cofilin</tag>
+      <tag pos="12">actin</tag>
+      <tag pos="7">Abp1p</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">As</taggedword>
+      <taggedword index="2" part-of-speech="VBN">expected</taggedword>
+      <taggedword index="3" part-of-speech="IN">from</taggedword>
+      <taggedword index="4" part-of-speech="JJ">immunofluorescence</taggedword>
+      <taggedword index="5" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNS">Abp1p</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">actin</taggedword>
+      <taggedword index="13" part-of-speech="VBD">colocalized</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">immuno-EM</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">dense</taggedword>
+      <taggedword index="19" part-of-speech="JJ">patchlike</taggedword>
+      <taggedword index="20" part-of-speech="NNS">structures</taggedword>
+      <taggedword index="21" part-of-speech="CC">but</taggedword>
+      <taggedword index="22" part-of-speech="RB">not</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NNS">cables</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="As" dep_index="1" gov="expected" gov_index="2">mark</dependency>
+      <dependency dep="expected" dep_index="2" gov="colocalized" gov_index="13">advcl</dependency>
+      <dependency dep="immunofluorescence" dep_index="4" gov="experiments" gov_index="5">amod</dependency>
+      <dependency dep="experiments" dep_index="5" gov="expected" gov_index="2">prep_from</dependency>
+      <dependency dep="Abp1p" dep_index="7" gov="colocalized" gov_index="13">nsubj</dependency>
+      <dependency dep="cofilin" dep_index="9" gov="Abp1p" gov_index="7">conj_and</dependency>
+      <dependency dep="cofilin" dep_index="9" gov="colocalized" gov_index="13">nsubj</dependency>
+      <dependency dep="actin" dep_index="12" gov="Abp1p" gov_index="7">conj_and</dependency>
+      <dependency dep="actin" dep_index="12" gov="colocalized" gov_index="13">nsubj</dependency>
+      <dependency dep="colocalized" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="immuno-EM" dep_index="15" gov="colocalized" gov_index="13">prep_in</dependency>
+      <dependency dep="the" dep_index="17" gov="structures" gov_index="20">det</dependency>
+      <dependency dep="dense" dep_index="18" gov="structures" gov_index="20">amod</dependency>
+      <dependency dep="patchlike" dep_index="19" gov="structures" gov_index="20">amod</dependency>
+      <dependency dep="structures" dep_index="20" gov="colocalized" gov_index="13">prep_to</dependency>
+      <dependency dep="the" dep_index="24" gov="cables" gov_index="25">det</dependency>
+      <dependency dep="cables" dep_index="25" gov="colocalized" gov_index="13">prep_to</dependency>
+      <dependency dep="cables" dep_index="25" gov="structures" gov_index="20">conj_negcc</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900012" relationship="true">9 13 12</relation>
+      <relation position="700009" relationship="true">7 13 9</relation>
+      <relation position="700012" relationship="true">7 13 12</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+      <pair>900012</pair>
+      <pair>700012</pair>
+   </pairs>
+</root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Concurrent@decrease@of@vasopressin@and@protein kinase Calpha@immunoreactivity@during@the@light@phase@in@the@vole@suprachiasmatic@nucleus@</sentence>
+   <tags>
+      <tag pos="4">vasopressin</tag>
+      <tag pos="6">protein kinase Calpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Concurrent</taggedword>
+      <taggedword index="2" part-of-speech="NN">decrease</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">vasopressin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">protein kinase Calpha</taggedword>
+      <taggedword index="7" part-of-speech="JJ">immunoreactivity</taggedword>
+      <taggedword index="8" part-of-speech="IN">during</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">light</taggedword>
+      <taggedword index="11" part-of-speech="NN">phase</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">vole</taggedword>
+      <taggedword index="15" part-of-speech="JJ">suprachiasmatic</taggedword>
+      <taggedword index="16" part-of-speech="NN">nucleus</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Concurrent" dep_index="1" gov="decrease" gov_index="2">amod</dependency>
+      <dependency dep="decrease" dep_index="2" gov="immunoreactivity" gov_index="7">dep</dependency>
+      <dependency dep="vasopressin" dep_index="4" gov="decrease" gov_index="2">prep_of</dependency>
+      <dependency dep="protein kinase Calpha" dep_index="6" gov="decrease" gov_index="2">prep_of</dependency>
+      <dependency dep="protein kinase Calpha" dep_index="6" gov="vasopressin" gov_index="4">conj_and</dependency>
+      <dependency dep="immunoreactivity" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="9" gov="phase" gov_index="11">det</dependency>
+      <dependency dep="light" dep_index="10" gov="phase" gov_index="11">amod</dependency>
+      <dependency dep="phase" dep_index="11" gov="immunoreactivity" gov_index="7">prep_during</dependency>
+      <dependency dep="in" dep_index="12" gov="immunoreactivity" gov_index="7">dep</dependency>
+      <dependency dep="the" dep_index="13" gov="nucleus" gov_index="16">det</dependency>
+      <dependency dep="vole" dep_index="14" gov="nucleus" gov_index="16">amod</dependency>
+      <dependency dep="suprachiasmatic" dep_index="15" gov="nucleus" gov_index="16">amod</dependency>
+      <dependency dep="nucleus" dep_index="16" gov="in" gov_index="12">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 6</relation>
+   </relations>
+   <pairs/>
+</root>

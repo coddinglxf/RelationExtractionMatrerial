@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@we@performed@immunohistochemistry@on@sectioned@Myf-5@and@MyoD@mutant@embryos@with@antibodies@reactive@with@desmin@,@nestin@,@myosin heavy chain@,@sarcomeric actin@,@Myf-5@,@MyoD@and@myogenin@.@</sentence>
+   <tags>
+      <tag pos="28">MyoD</tag>
+      <tag pos="30">myogenin</tag>
+      <tag pos="24">sarcomeric actin</tag>
+      <tag pos="26">Myf-5</tag>
+      <tag pos="20">nestin</tag>
+      <tag pos="22">myosin heavy chain</tag>
+      <tag pos="11">MyoD</tag>
+      <tag pos="18">desmin</tag>
+      <tag pos="9">Myf-5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="PRP">we</taggedword>
+      <taggedword index="5" part-of-speech="VBD">performed</taggedword>
+      <taggedword index="6" part-of-speech="RB">immunohistochemistry</taggedword>
+      <taggedword index="7" part-of-speech="IN">on</taggedword>
+      <taggedword index="8" part-of-speech="JJ">sectioned</taggedword>
+      <taggedword index="9" part-of-speech="NNS">Myf-5</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="VBD">MyoD</taggedword>
+      <taggedword index="12" part-of-speech="JJ">mutant</taggedword>
+      <taggedword index="13" part-of-speech="NNS">embryos</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="16" part-of-speech="NN">reactive</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="NN">desmin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NN">nestin</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="NN">sarcomeric actin</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="NN">Myf-5</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NN">MyoD</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="NN">myogenin</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="performed" gov_index="5">prep_in</dependency>
+      <dependency dep="we" dep_index="4" gov="performed" gov_index="5">nsubj</dependency>
+      <dependency dep="we" dep_index="4" gov="MyoD" gov_index="11">nsubj</dependency>
+      <dependency dep="performed" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="immunohistochemistry" dep_index="6" gov="performed" gov_index="5">advmod</dependency>
+      <dependency dep="sectioned" dep_index="8" gov="Myf-5" gov_index="9">amod</dependency>
+      <dependency dep="Myf-5" dep_index="9" gov="performed" gov_index="5">prep_on</dependency>
+      <dependency dep="MyoD" dep_index="11" gov="performed" gov_index="5">conj_and</dependency>
+      <dependency dep="mutant" dep_index="12" gov="embryos" gov_index="13">amod</dependency>
+      <dependency dep="embryos" dep_index="13" gov="MyoD" gov_index="11">dobj</dependency>
+      <dependency dep="antibodies" dep_index="15" gov="reactive" gov_index="16">nn</dependency>
+      <dependency dep="reactive" dep_index="16" gov="MyoD" gov_index="11">prep_with</dependency>
+      <dependency dep="desmin" dep_index="18" gov="MyoD" gov_index="11">prep_with</dependency>
+      <dependency dep="nestin" dep_index="20" gov="MyoD" gov_index="11">prep_with</dependency>
+      <dependency dep="nestin" dep_index="20" gov="desmin" gov_index="18">conj_and</dependency>
+      <dependency dep="myosin heavy chain" dep_index="22" gov="MyoD" gov_index="11">prep_with</dependency>
+      <dependency dep="myosin heavy chain" dep_index="22" gov="desmin" gov_index="18">conj_and</dependency>
+      <dependency dep="sarcomeric actin" dep_index="24" gov="MyoD" gov_index="11">prep_with</dependency>
+      <dependency dep="sarcomeric actin" dep_index="24" gov="desmin" gov_index="18">conj_and</dependency>
+      <dependency dep="Myf-5" dep_index="26" gov="MyoD" gov_index="11">prep_with</dependency>
+      <dependency dep="Myf-5" dep_index="26" gov="desmin" gov_index="18">conj_and</dependency>
+      <dependency dep="MyoD" dep_index="28" gov="MyoD" gov_index="11">prep_with</dependency>
+      <dependency dep="MyoD" dep_index="28" gov="desmin" gov_index="18">conj_and</dependency>
+      <dependency dep="myogenin" dep_index="30" gov="MyoD" gov_index="11">prep_with</dependency>
+      <dependency dep="myogenin" dep_index="30" gov="desmin" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2800030" relationship="false">28 11 30</relation>
+      <relation position="2400028" relationship="false">24 11 28</relation>
+      <relation position="2600028" relationship="false">26 11 28</relation>
+      <relation position="2000028" relationship="false">20 11 28</relation>
+      <relation position="2200028" relationship="false">22 11 28</relation>
+      <relation position="1100028" relationship="false"></relation>
+      <relation position="1800028" relationship="false">18 11 28</relation>
+      <relation position="900028" relationship="false"></relation>
+      <relation position="2400030" relationship="false">24 11 30</relation>
+      <relation position="2600030" relationship="false">26 11 30</relation>
+      <relation position="2000030" relationship="false">20 11 30</relation>
+      <relation position="2200030" relationship="false">22 11 30</relation>
+      <relation position="1100030" relationship="false"></relation>
+      <relation position="1800030" relationship="false">18 11 30</relation>
+      <relation position="900030" relationship="false"></relation>
+      <relation position="2400026" relationship="false">24 11 26</relation>
+      <relation position="2000024" relationship="false">20 11 24</relation>
+      <relation position="2200024" relationship="false">22 11 24</relation>
+      <relation position="1100024" relationship="false"></relation>
+      <relation position="1800024" relationship="false">18 11 24</relation>
+      <relation position="900024" relationship="false"></relation>
+      <relation position="2000026" relationship="false">20 11 26</relation>
+      <relation position="2200026" relationship="false">22 11 26</relation>
+      <relation position="1100026" relationship="false"></relation>
+      <relation position="1800026" relationship="false">18 11 26</relation>
+      <relation position="900026" relationship="false"></relation>
+      <relation position="2000022" relationship="false">20 11 22</relation>
+      <relation position="1100020" relationship="false"></relation>
+      <relation position="1800020" relationship="false">18 11 20</relation>
+      <relation position="900020" relationship="false"></relation>
+      <relation position="1100022" relationship="false"></relation>
+      <relation position="1800022" relationship="false">18 11 22</relation>
+      <relation position="900022" relationship="false"></relation>
+      <relation position="1100018" relationship="false"></relation>
+      <relation position="900011" relationship="false"></relation>
+      <relation position="900018" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

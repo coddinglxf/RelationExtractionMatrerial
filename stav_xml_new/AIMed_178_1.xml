@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Formation@of@p27@-CDK@complexes@during@the@human@mitotic@cell@cycle@.@</sentence>
+   <tags>
+      <tag pos="3">p27</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Formation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">p27</taggedword>
+      <taggedword index="4" part-of-speech="JJ">-CDK</taggedword>
+      <taggedword index="5" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="6" part-of-speech="IN">during</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">human</taggedword>
+      <taggedword index="9" part-of-speech="JJ">mitotic</taggedword>
+      <taggedword index="10" part-of-speech="NN">cell</taggedword>
+      <taggedword index="11" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Formation" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="p27" dep_index="3" gov="complexes" gov_index="5">amod</dependency>
+      <dependency dep="-CDK" dep_index="4" gov="complexes" gov_index="5">amod</dependency>
+      <dependency dep="complexes" dep_index="5" gov="Formation" gov_index="1">prep_of</dependency>
+      <dependency dep="the" dep_index="7" gov="cycle" gov_index="11">det</dependency>
+      <dependency dep="human" dep_index="8" gov="cycle" gov_index="11">amod</dependency>
+      <dependency dep="mitotic" dep_index="9" gov="cycle" gov_index="11">amod</dependency>
+      <dependency dep="cell" dep_index="10" gov="cycle" gov_index="11">nn</dependency>
+      <dependency dep="cycle" dep_index="11" gov="Formation" gov_index="1">prep_during</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

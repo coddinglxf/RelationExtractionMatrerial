@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Essential@domains@of@the@PRP21@splicing@factor@are@implicated@in@the@binding@to@PRP9@and@PRP11@proteins@and@are@conserved@through@evolution@.@</sentence>
+   <tags>
+      <tag pos="5">PRP21</tag>
+      <tag pos="14">PRP9</tag>
+      <tag pos="16">PRP11</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Essential</taggedword>
+      <taggedword index="2" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">PRP21</taggedword>
+      <taggedword index="6" part-of-speech="VBG">splicing</taggedword>
+      <taggedword index="7" part-of-speech="NN">factor</taggedword>
+      <taggedword index="8" part-of-speech="VBP">are</taggedword>
+      <taggedword index="9" part-of-speech="VBN">implicated</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="NNP">PRP9</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNP">PRP11</taggedword>
+      <taggedword index="17" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="VBP">are</taggedword>
+      <taggedword index="20" part-of-speech="VBN">conserved</taggedword>
+      <taggedword index="21" part-of-speech="IN">through</taggedword>
+      <taggedword index="22" part-of-speech="NN">evolution</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Essential" dep_index="1" gov="domains" gov_index="2">amod</dependency>
+      <dependency dep="domains" dep_index="2" gov="implicated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="domains" dep_index="2" gov="conserved" gov_index="20">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="factor" gov_index="7">det</dependency>
+      <dependency dep="PRP21" dep_index="5" gov="factor" gov_index="7">nn</dependency>
+      <dependency dep="splicing" dep_index="6" gov="factor" gov_index="7">amod</dependency>
+      <dependency dep="factor" dep_index="7" gov="domains" gov_index="2">prep_of</dependency>
+      <dependency dep="are" dep_index="8" gov="implicated" gov_index="9">auxpass</dependency>
+      <dependency dep="implicated" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="proteins" gov_index="17">det</dependency>
+      <dependency dep="binding" dep_index="12" gov="proteins" gov_index="17">amod</dependency>
+      <dependency dep="PRP9" dep_index="14" gov="binding" gov_index="12">prep_to</dependency>
+      <dependency dep="PRP11" dep_index="16" gov="binding" gov_index="12">prep_to</dependency>
+      <dependency dep="PRP11" dep_index="16" gov="PRP9" gov_index="14">conj_and</dependency>
+      <dependency dep="proteins" dep_index="17" gov="implicated" gov_index="9">prep_in</dependency>
+      <dependency dep="are" dep_index="19" gov="conserved" gov_index="20">auxpass</dependency>
+      <dependency dep="conserved" dep_index="20" gov="implicated" gov_index="9">conj_and</dependency>
+      <dependency dep="evolution" dep_index="22" gov="conserved" gov_index="20">prep_through</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500014" relationship="true">5 7 2 9 17 12 14</relation>
+      <relation position="500016" relationship="true">5 7 2 9 17 12 16</relation>
+      <relation position="1400016" relationship="false">14 12 16</relation>
+   </relations>
+   <pairs>
+      <pair>500014</pair>
+      <pair>500016</pair>
+   </pairs>
+</root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Oxytocin-stimulated@insulin@release@in@a@clonal@beta-cell@line@RINm5F@:@involvement@of@phospholipase C@-dependent@and@-independent@pathways@.@</sentence>
+   <tags>
+      <tag pos="2">insulin</tag>
+      <tag pos="13">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Oxytocin-stimulated</taggedword>
+      <taggedword index="2" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="3" part-of-speech="NN">release</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">clonal</taggedword>
+      <taggedword index="7" part-of-speech="JJ">beta-cell</taggedword>
+      <taggedword index="8" part-of-speech="NN">line</taggedword>
+      <taggedword index="9" part-of-speech="NNS">RINm5F</taggedword>
+      <taggedword index="10" part-of-speech=":">:</taggedword>
+      <taggedword index="11" part-of-speech="NN">involvement</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="14" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">-independent</taggedword>
+      <taggedword index="17" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Oxytocin-stimulated" dep_index="1" gov="release" gov_index="3">amod</dependency>
+      <dependency dep="insulin" dep_index="2" gov="release" gov_index="3">nn</dependency>
+      <dependency dep="release" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="RINm5F" gov_index="9">det</dependency>
+      <dependency dep="clonal" dep_index="6" gov="RINm5F" gov_index="9">amod</dependency>
+      <dependency dep="beta-cell" dep_index="7" gov="RINm5F" gov_index="9">amod</dependency>
+      <dependency dep="line" dep_index="8" gov="RINm5F" gov_index="9">nn</dependency>
+      <dependency dep="RINm5F" dep_index="9" gov="release" gov_index="3">prep_in</dependency>
+      <dependency dep="involvement" dep_index="11" gov="release" gov_index="3">dep</dependency>
+      <dependency dep="phospholipase C" dep_index="13" gov="-dependent" gov_index="14">amod</dependency>
+      <dependency dep="-dependent" dep_index="14" gov="involvement" gov_index="11">prep_of</dependency>
+      <dependency dep="-independent" dep_index="16" gov="pathways" gov_index="17">amod</dependency>
+      <dependency dep="pathways" dep_index="17" gov="involvement" gov_index="11">prep_of</dependency>
+      <dependency dep="pathways" dep_index="17" gov="-dependent" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200013" relationship="true">2 3 11 14 13</relation>
+   </relations>
+   <pairs>
+      <pair>200013</pair>
+   </pairs>
+</root>

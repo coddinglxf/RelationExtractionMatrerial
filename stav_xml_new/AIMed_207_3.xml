@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Downstream@effectors@of@'pocket'@proteins@are@the@components@of@the@E2F@family@of@transcription@factors@,@which@regulate@the@G1/S-phase@transition@.@</sentence>
+   <tags>
+      <tag pos="11">E2F</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Downstream</taggedword>
+      <taggedword index="2" part-of-speech="NNS">effectors</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">'pocket'</taggedword>
+      <taggedword index="5" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="6" part-of-speech="VBP">are</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNS">components</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">E2F</taggedword>
+      <taggedword index="12" part-of-speech="NN">family</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="15" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="WDT">which</taggedword>
+      <taggedword index="18" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">G1/S-phase</taggedword>
+      <taggedword index="21" part-of-speech="NN">transition</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Downstream" dep_index="1" gov="effectors" gov_index="2">amod</dependency>
+      <dependency dep="effectors" dep_index="2" gov="components" gov_index="8">nsubj</dependency>
+      <dependency dep="'pocket'" dep_index="4" gov="proteins" gov_index="5">amod</dependency>
+      <dependency dep="proteins" dep_index="5" gov="effectors" gov_index="2">prep_of</dependency>
+      <dependency dep="are" dep_index="6" gov="components" gov_index="8">cop</dependency>
+      <dependency dep="the" dep_index="7" gov="components" gov_index="8">det</dependency>
+      <dependency dep="components" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="family" gov_index="12">det</dependency>
+      <dependency dep="E2F" dep_index="11" gov="family" gov_index="12">amod</dependency>
+      <dependency dep="family" dep_index="12" gov="components" gov_index="8">prep_of</dependency>
+      <dependency dep="transcription" dep_index="14" gov="factors" gov_index="15">nn</dependency>
+      <dependency dep="factors" dep_index="15" gov="family" gov_index="12">prep_of</dependency>
+      <dependency dep="factors" dep_index="15" gov="regulate" gov_index="18">nsubj</dependency>
+      <dependency dep="regulate" dep_index="18" gov="factors" gov_index="15">rcmod</dependency>
+      <dependency dep="the" dep_index="19" gov="transition" gov_index="21">det</dependency>
+      <dependency dep="G1/S-phase" dep_index="20" gov="transition" gov_index="21">nn</dependency>
+      <dependency dep="transition" dep_index="21" gov="regulate" gov_index="18">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

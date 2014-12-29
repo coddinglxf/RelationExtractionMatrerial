@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Kinetic@studies@on@the@effect@of@yeast@cofilin@on@yeast@actin@polymerization@.@</sentence>
+   <tags>
+      <tag pos="8">cofilin</tag>
+      <tag pos="11">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Kinetic</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="IN">on</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">effect</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="8" part-of-speech="VBN">cofilin</taggedword>
+      <taggedword index="9" part-of-speech="IN">on</taggedword>
+      <taggedword index="10" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="11" part-of-speech="NN">actin</taggedword>
+      <taggedword index="12" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Kinetic" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="cofilin" gov_index="8">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="effect" gov_index="5">det</dependency>
+      <dependency dep="effect" dep_index="5" gov="studies" gov_index="2">prep_on</dependency>
+      <dependency dep="yeast" dep_index="7" gov="effect" gov_index="5">prep_of</dependency>
+      <dependency dep="cofilin" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="yeast" dep_index="10" gov="polymerization" gov_index="12">nn</dependency>
+      <dependency dep="actin" dep_index="11" gov="polymerization" gov_index="12">nn</dependency>
+      <dependency dep="polymerization" dep_index="12" gov="cofilin" gov_index="8">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800011" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>800011</pair>
+   </pairs>
+</root>

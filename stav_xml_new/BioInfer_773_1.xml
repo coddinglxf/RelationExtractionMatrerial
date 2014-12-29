@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Transcriptional@regulation@in@the@galactose@regulon@of@yeast@is@determined@by@an@interplay@between@a@positive@regulatory@protein@,@GAL4@,@and@a@negative@regulatory@protein@,@GAL80@.@</sentence>
+   <tags>
+      <tag pos="20">GAL4</tag>
+      <tag pos="28">GAL80</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Transcriptional</taggedword>
+      <taggedword index="2" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">galactose</taggedword>
+      <taggedword index="6" part-of-speech="NN">regulon</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="DT">an</taggedword>
+      <taggedword index="13" part-of-speech="NN">interplay</taggedword>
+      <taggedword index="14" part-of-speech="IN">between</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="JJ">positive</taggedword>
+      <taggedword index="17" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="18" part-of-speech="NN">protein</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NNP">GAL4</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="25" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="26" part-of-speech="NN">protein</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NNP">GAL80</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Transcriptional" dep_index="1" gov="regulation" gov_index="2">amod</dependency>
+      <dependency dep="regulation" dep_index="2" gov="determined" gov_index="10">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="regulon" gov_index="6">det</dependency>
+      <dependency dep="galactose" dep_index="5" gov="regulon" gov_index="6">amod</dependency>
+      <dependency dep="regulon" dep_index="6" gov="regulation" gov_index="2">prep_in</dependency>
+      <dependency dep="yeast" dep_index="8" gov="regulon" gov_index="6">prep_of</dependency>
+      <dependency dep="is" dep_index="9" gov="determined" gov_index="10">auxpass</dependency>
+      <dependency dep="determined" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="12" gov="interplay" gov_index="13">det</dependency>
+      <dependency dep="interplay" dep_index="13" gov="determined" gov_index="10">agent</dependency>
+      <dependency dep="a" dep_index="15" gov="protein" gov_index="18">det</dependency>
+      <dependency dep="positive" dep_index="16" gov="protein" gov_index="18">amod</dependency>
+      <dependency dep="regulatory" dep_index="17" gov="protein" gov_index="18">amod</dependency>
+      <dependency dep="protein" dep_index="18" gov="interplay" gov_index="13">prep_between</dependency>
+      <dependency dep="GAL4" dep_index="20" gov="interplay" gov_index="13">prep_between</dependency>
+      <dependency dep="GAL4" dep_index="20" gov="protein" gov_index="18">conj_and</dependency>
+      <dependency dep="a" dep_index="23" gov="protein" gov_index="26">det</dependency>
+      <dependency dep="negative" dep_index="24" gov="protein" gov_index="26">amod</dependency>
+      <dependency dep="regulatory" dep_index="25" gov="protein" gov_index="26">amod</dependency>
+      <dependency dep="protein" dep_index="26" gov="interplay" gov_index="13">prep_between</dependency>
+      <dependency dep="protein" dep_index="26" gov="protein" gov_index="18">conj_and</dependency>
+      <dependency dep="GAL80" dep_index="28" gov="protein" gov_index="26">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000028" relationship="true">20 13 26 28</relation>
+   </relations>
+   <pairs>
+      <pair>2000028</pair>
+   </pairs>
+</root>

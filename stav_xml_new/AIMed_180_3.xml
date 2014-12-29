@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>GAP-43@(@neuromodulin@,@B-50@,@F1@),@a@protein kinase C@(@PKC@)@substrate@important@for@the@growth@and@plasticity@of@neuronal@connections@,@has@been@implicated@in@vitro@in@several@signal@transduction@pathways@.@</sentence>
+   <tags>
+      <tag pos="1">GAP-43</tag>
+      <tag pos="3">neuromodulin</tag>
+      <tag pos="5">B-50</tag>
+      <tag pos="7">F1</tag>
+      <tag pos="10">protein kinase C</tag>
+      <tag pos="12">PKC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">GAP-43</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">neuromodulin</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NN">B-50</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNP">F1</taggedword>
+      <taggedword index="8" part-of-speech="NNP">),</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="11" part-of-speech="NNP">(</taggedword>
+      <taggedword index="12" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="13" part-of-speech="NNP">)</taggedword>
+      <taggedword index="14" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="15" part-of-speech="JJ">important</taggedword>
+      <taggedword index="16" part-of-speech="IN">for</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">growth</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">plasticity</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="JJ">neuronal</taggedword>
+      <taggedword index="23" part-of-speech="NNS">connections</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="26" part-of-speech="VBN">been</taggedword>
+      <taggedword index="27" part-of-speech="VBN">implicated</taggedword>
+      <taggedword index="28" part-of-speech="IN">in</taggedword>
+      <taggedword index="29" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="30" part-of-speech="IN">in</taggedword>
+      <taggedword index="31" part-of-speech="JJ">several</taggedword>
+      <taggedword index="32" part-of-speech="NN">signal</taggedword>
+      <taggedword index="33" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="34" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="GAP-43" dep_index="1" gov="neuromodulin" gov_index="3">nn</dependency>
+      <dependency dep="(" dep_index="2" gov="neuromodulin" gov_index="3">nn</dependency>
+      <dependency dep="neuromodulin" dep_index="3" gov="implicated" gov_index="27">nsubjpass</dependency>
+      <dependency dep="B-50" dep_index="5" gov="neuromodulin" gov_index="3">appos</dependency>
+      <dependency dep="F1" dep_index="7" gov=")," gov_index="8">nn</dependency>
+      <dependency dep=")," dep_index="8" gov="neuromodulin" gov_index="3">appos</dependency>
+      <dependency dep="a" dep_index="9" gov="substrate" gov_index="14">det</dependency>
+      <dependency dep="protein kinase C" dep_index="10" gov="substrate" gov_index="14">amod</dependency>
+      <dependency dep="(" dep_index="11" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep="PKC" dep_index="12" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep=")" dep_index="13" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep="substrate" dep_index="14" gov=")," gov_index="8">tmod</dependency>
+      <dependency dep="important" dep_index="15" gov="substrate" gov_index="14">advmod</dependency>
+      <dependency dep="the" dep_index="17" gov="growth" gov_index="18">det</dependency>
+      <dependency dep="growth" dep_index="18" gov="important" gov_index="15">prep_for</dependency>
+      <dependency dep="plasticity" dep_index="20" gov="important" gov_index="15">prep_for</dependency>
+      <dependency dep="plasticity" dep_index="20" gov="growth" gov_index="18">conj_and</dependency>
+      <dependency dep="neuronal" dep_index="22" gov="connections" gov_index="23">amod</dependency>
+      <dependency dep="connections" dep_index="23" gov="growth" gov_index="18">prep_of</dependency>
+      <dependency dep="has" dep_index="25" gov="implicated" gov_index="27">aux</dependency>
+      <dependency dep="been" dep_index="26" gov="implicated" gov_index="27">auxpass</dependency>
+      <dependency dep="implicated" dep_index="27" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="vitro" dep_index="29" gov="pathways" gov_index="34">amod</dependency>
+      <dependency dep="several" dep_index="31" gov="signal" gov_index="32">amod</dependency>
+      <dependency dep="signal" dep_index="32" gov="vitro" gov_index="29">prep_in</dependency>
+      <dependency dep="transduction" dep_index="33" gov="pathways" gov_index="34">nn</dependency>
+      <dependency dep="pathways" dep_index="34" gov="implicated" gov_index="27">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false"></relation>
+      <relation position="100005" relationship="false">1 3 5</relation>
+      <relation position="100007" relationship="false">1 3 8 7</relation>
+      <relation position="100010" relationship="true">1 3 8 14 10</relation>
+      <relation position="100012" relationship="true">1 3 8 14 12</relation>
+      <relation position="300005" relationship="false"></relation>
+      <relation position="300007" relationship="false"></relation>
+      <relation position="300010" relationship="true"></relation>
+      <relation position="300012" relationship="true"></relation>
+      <relation position="500007" relationship="false">5 3 8 7</relation>
+      <relation position="500010" relationship="true">5 3 8 14 10</relation>
+      <relation position="500012" relationship="true">5 3 8 14 12</relation>
+      <relation position="700010" relationship="true">7 8 14 10</relation>
+      <relation position="700012" relationship="true">7 8 14 12</relation>
+      <relation position="1000012" relationship="false">10 14 12</relation>
+   </relations>
+   <pairs>
+      <pair>700010</pair>
+      <pair>500012</pair>
+      <pair>100012</pair>
+      <pair>100010</pair>
+      <pair>700012</pair>
+      <pair>500010</pair>
+      <pair>300012</pair>
+      <pair>300010</pair>
+   </pairs>
+</root>

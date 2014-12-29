@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@mechanisms@must@be@understood@in@order@to@prevent@,@or@combat@,@the@emergence@of@a@virulent@,@multidrug-resistant@form@of@the@bacillus@that@would@be@uncontrollable@by@means@of@today's@treatment@strategies@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">mechanisms</taggedword>
+      <taggedword index="3" part-of-speech="MD">must</taggedword>
+      <taggedword index="4" part-of-speech="VB">be</taggedword>
+      <taggedword index="5" part-of-speech="VBN">understood</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="NN">order</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">prevent</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">or</taggedword>
+      <taggedword index="12" part-of-speech="VB">combat</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">emergence</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">virulent</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="JJ">multidrug-resistant</taggedword>
+      <taggedword index="21" part-of-speech="NN">form</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NNS">bacillus</taggedword>
+      <taggedword index="25" part-of-speech="WDT">that</taggedword>
+      <taggedword index="26" part-of-speech="MD">would</taggedword>
+      <taggedword index="27" part-of-speech="VB">be</taggedword>
+      <taggedword index="28" part-of-speech="JJ">uncontrollable</taggedword>
+      <taggedword index="29" part-of-speech="IN">by</taggedword>
+      <taggedword index="30" part-of-speech="NNS">means</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="JJ">today's</taggedword>
+      <taggedword index="33" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="34" part-of-speech="NNS">strategies</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="mechanisms" gov_index="2">det</dependency>
+      <dependency dep="mechanisms" dep_index="2" gov="understood" gov_index="5">nsubjpass</dependency>
+      <dependency dep="mechanisms" dep_index="2" gov="prevent" gov_index="9">xsubj</dependency>
+      <dependency dep="must" dep_index="3" gov="understood" gov_index="5">aux</dependency>
+      <dependency dep="be" dep_index="4" gov="understood" gov_index="5">auxpass</dependency>
+      <dependency dep="understood" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="order" dep_index="7" gov="understood" gov_index="5">prep_in</dependency>
+      <dependency dep="to" dep_index="8" gov="prevent" gov_index="9">aux</dependency>
+      <dependency dep="prevent" dep_index="9" gov="understood" gov_index="5">xcomp</dependency>
+      <dependency dep="combat" dep_index="12" gov="understood" gov_index="5">xcomp</dependency>
+      <dependency dep="combat" dep_index="12" gov="prevent" gov_index="9">conj_or</dependency>
+      <dependency dep="the" dep_index="14" gov="emergence" gov_index="15">det</dependency>
+      <dependency dep="emergence" dep_index="15" gov="understood" gov_index="5">xcomp</dependency>
+      <dependency dep="emergence" dep_index="15" gov="prevent" gov_index="9">conj_or</dependency>
+      <dependency dep="emergence" dep_index="15" gov="prevent" gov_index="9">dobj</dependency>
+      <dependency dep="emergence" dep_index="15" gov="uncontrollable" gov_index="28">nsubj</dependency>
+      <dependency dep="a" dep_index="17" gov="form" gov_index="21">det</dependency>
+      <dependency dep="virulent" dep_index="18" gov="form" gov_index="21">amod</dependency>
+      <dependency dep="multidrug-resistant" dep_index="20" gov="form" gov_index="21">amod</dependency>
+      <dependency dep="form" dep_index="21" gov="emergence" gov_index="15">prep_of</dependency>
+      <dependency dep="the" dep_index="23" gov="bacillus" gov_index="24">det</dependency>
+      <dependency dep="bacillus" dep_index="24" gov="form" gov_index="21">prep_of</dependency>
+      <dependency dep="would" dep_index="26" gov="uncontrollable" gov_index="28">aux</dependency>
+      <dependency dep="be" dep_index="27" gov="uncontrollable" gov_index="28">cop</dependency>
+      <dependency dep="uncontrollable" dep_index="28" gov="emergence" gov_index="15">rcmod</dependency>
+      <dependency dep="today's" dep_index="32" gov="strategies" gov_index="34">amod</dependency>
+      <dependency dep="treatment" dep_index="33" gov="strategies" gov_index="34">nn</dependency>
+      <dependency dep="strategies" dep_index="34" gov="uncontrollable" gov_index="28">prep_by_means_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

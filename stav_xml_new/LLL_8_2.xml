@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Therefore@,@the@physiological@role@of@sigmaB@-dependent@katX@expression@remains@obscure@.@</sentence>
+   <tags>
+      <tag pos="7">sigmaB</tag>
+      <tag pos="9">katX</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Therefore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">physiological</taggedword>
+      <taggedword index="5" part-of-speech="NN">role</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">sigmaB</taggedword>
+      <taggedword index="8" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="9" part-of-speech="NN">katX</taggedword>
+      <taggedword index="10" part-of-speech="NN">expression</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">remains</taggedword>
+      <taggedword index="12" part-of-speech="JJ">obscure</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Therefore" dep_index="1" gov="obscure" gov_index="12">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="role" gov_index="5">det</dependency>
+      <dependency dep="physiological" dep_index="4" gov="role" gov_index="5">amod</dependency>
+      <dependency dep="role" dep_index="5" gov="obscure" gov_index="12">nsubj</dependency>
+      <dependency dep="sigmaB" dep_index="7" gov="expression" gov_index="10">amod</dependency>
+      <dependency dep="-dependent" dep_index="8" gov="expression" gov_index="10">amod</dependency>
+      <dependency dep="katX" dep_index="9" gov="expression" gov_index="10">nn</dependency>
+      <dependency dep="expression" dep_index="10" gov="role" gov_index="5">prep_of</dependency>
+      <dependency dep="remains" dep_index="11" gov="obscure" gov_index="12">cop</dependency>
+      <dependency dep="obscure" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true">7 10 9</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

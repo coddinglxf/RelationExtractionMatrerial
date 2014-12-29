@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@results@demonstrate@that@the@acidic@residues@in@the@amino@terminus@of@p53@may@contribute@to@,@but@are@not@critical@for@,@this@trans-activation@activity@.@</sentence>
+   <tags>
+      <tag pos="13">p53</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">acidic</taggedword>
+      <taggedword index="7" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="11" part-of-speech="NNS">terminus</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">p53</taggedword>
+      <taggedword index="14" part-of-speech="MD">may</taggedword>
+      <taggedword index="15" part-of-speech="VB">contribute</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">but</taggedword>
+      <taggedword index="19" part-of-speech="VBP">are</taggedword>
+      <taggedword index="20" part-of-speech="RB">not</taggedword>
+      <taggedword index="21" part-of-speech="JJ">critical</taggedword>
+      <taggedword index="22" part-of-speech="IN">for</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="DT">this</taggedword>
+      <taggedword index="25" part-of-speech="JJ">trans-activation</taggedword>
+      <taggedword index="26" part-of-speech="NN">activity</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="demonstrate" gov_index="3">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="contribute" gov_index="15">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="residues" gov_index="7">det</dependency>
+      <dependency dep="acidic" dep_index="6" gov="residues" gov_index="7">amod</dependency>
+      <dependency dep="residues" dep_index="7" gov="contribute" gov_index="15">nsubj</dependency>
+      <dependency dep="the" dep_index="9" gov="terminus" gov_index="11">det</dependency>
+      <dependency dep="amino" dep_index="10" gov="terminus" gov_index="11">amod</dependency>
+      <dependency dep="terminus" dep_index="11" gov="residues" gov_index="7">prep_in</dependency>
+      <dependency dep="p53" dep_index="13" gov="terminus" gov_index="11">prep_of</dependency>
+      <dependency dep="may" dep_index="14" gov="contribute" gov_index="15">aux</dependency>
+      <dependency dep="contribute" dep_index="15" gov="demonstrate" gov_index="3">ccomp</dependency>
+      <dependency dep="to" dep_index="16" gov="contribute" gov_index="15">prep</dependency>
+      <dependency dep="but" dep_index="18" gov="critical" gov_index="21">cc</dependency>
+      <dependency dep="are" dep_index="19" gov="critical" gov_index="21">cop</dependency>
+      <dependency dep="not" dep_index="20" gov="critical" gov_index="21">neg</dependency>
+      <dependency dep="critical" dep_index="21" gov="contribute" gov_index="15">dep</dependency>
+      <dependency dep="for" dep_index="22" gov="critical" gov_index="21">prep</dependency>
+      <dependency dep="this" dep_index="24" gov="activity" gov_index="26">det</dependency>
+      <dependency dep="trans-activation" dep_index="25" gov="activity" gov_index="26">amod</dependency>
+      <dependency dep="activity" dep_index="26" gov="contribute" gov_index="15">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

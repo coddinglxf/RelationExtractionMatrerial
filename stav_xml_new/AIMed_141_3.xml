@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>To@identify@potential@Cdk2@regulators@,@we@have@employed@an@improved@two-hybrid@system@to@isolate@human@genes@encoding@Cdk-interacting@proteins@(Cips)@.@</sentence>
+   <tags>
+      <tag pos="4">Cdk2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="TO">To</taggedword>
+      <taggedword index="2" part-of-speech="VB">identify</taggedword>
+      <taggedword index="3" part-of-speech="JJ">potential</taggedword>
+      <taggedword index="4" part-of-speech="JJ">Cdk2</taggedword>
+      <taggedword index="5" part-of-speech="NNS">regulators</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="PRP">we</taggedword>
+      <taggedword index="8" part-of-speech="VBP">have</taggedword>
+      <taggedword index="9" part-of-speech="VBN">employed</taggedword>
+      <taggedword index="10" part-of-speech="DT">an</taggedword>
+      <taggedword index="11" part-of-speech="JJ">improved</taggedword>
+      <taggedword index="12" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="13" part-of-speech="NN">system</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">isolate</taggedword>
+      <taggedword index="16" part-of-speech="JJ">human</taggedword>
+      <taggedword index="17" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="18" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="19" part-of-speech="JJ">Cdk-interacting</taggedword>
+      <taggedword index="20" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="21" part-of-speech="RB">(Cips)</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="To" dep_index="1" gov="identify" gov_index="2">aux</dependency>
+      <dependency dep="identify" dep_index="2" gov="employed" gov_index="9">advcl</dependency>
+      <dependency dep="potential" dep_index="3" gov="regulators" gov_index="5">amod</dependency>
+      <dependency dep="Cdk2" dep_index="4" gov="regulators" gov_index="5">amod</dependency>
+      <dependency dep="regulators" dep_index="5" gov="identify" gov_index="2">dobj</dependency>
+      <dependency dep="we" dep_index="7" gov="employed" gov_index="9">nsubj</dependency>
+      <dependency dep="we" dep_index="7" gov="isolate" gov_index="15">xsubj</dependency>
+      <dependency dep="have" dep_index="8" gov="employed" gov_index="9">aux</dependency>
+      <dependency dep="employed" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="10" gov="system" gov_index="13">det</dependency>
+      <dependency dep="improved" dep_index="11" gov="system" gov_index="13">amod</dependency>
+      <dependency dep="two-hybrid" dep_index="12" gov="system" gov_index="13">amod</dependency>
+      <dependency dep="system" dep_index="13" gov="employed" gov_index="9">dobj</dependency>
+      <dependency dep="to" dep_index="14" gov="isolate" gov_index="15">aux</dependency>
+      <dependency dep="isolate" dep_index="15" gov="employed" gov_index="9">xcomp</dependency>
+      <dependency dep="human" dep_index="16" gov="genes" gov_index="17">amod</dependency>
+      <dependency dep="genes" dep_index="17" gov="isolate" gov_index="15">dobj</dependency>
+      <dependency dep="encoding" dep_index="18" gov="genes" gov_index="17">partmod</dependency>
+      <dependency dep="Cdk-interacting" dep_index="19" gov="proteins" gov_index="20">amod</dependency>
+      <dependency dep="proteins" dep_index="20" gov="encoding" gov_index="18">dobj</dependency>
+      <dependency dep="(Cips)" dep_index="21" gov="encoding" gov_index="18">advmod</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

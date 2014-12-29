@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Megalin@and@cubilin@:@multifunctional@endocytic@receptors@</sentence>
+   <tags>
+      <tag pos="1">Megalin</tag>
+      <tag pos="3">cubilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Megalin</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NN">cubilin</taggedword>
+      <taggedword index="4" part-of-speech=":">:</taggedword>
+      <taggedword index="5" part-of-speech="JJ">multifunctional</taggedword>
+      <taggedword index="6" part-of-speech="JJ">endocytic</taggedword>
+      <taggedword index="7" part-of-speech="NNS">receptors</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Megalin" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cubilin" dep_index="3" gov="Megalin" gov_index="1">conj_and</dependency>
+      <dependency dep="multifunctional" dep_index="5" gov="receptors" gov_index="7">amod</dependency>
+      <dependency dep="endocytic" dep_index="6" gov="receptors" gov_index="7">amod</dependency>
+      <dependency dep="receptors" dep_index="7" gov="Megalin" gov_index="1">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

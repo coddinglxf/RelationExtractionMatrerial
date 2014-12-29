@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Acanthamoeba@actin@and@profilin@can@be@cross-linked@between@glutamic@acid@364@of@actin@and@lysine@115@of@profilin@.@</sentence>
+   <tags>
+      <tag pos="2">actin</tag>
+      <tag pos="4">profilin</tag>
+      <tag pos="13">actin</tag>
+      <tag pos="18">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Acanthamoeba</taggedword>
+      <taggedword index="2" part-of-speech="NN">actin</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="5" part-of-speech="MD">can</taggedword>
+      <taggedword index="6" part-of-speech="VB">be</taggedword>
+      <taggedword index="7" part-of-speech="VBN">cross-linked</taggedword>
+      <taggedword index="8" part-of-speech="IN">between</taggedword>
+      <taggedword index="9" part-of-speech="JJ">glutamic</taggedword>
+      <taggedword index="10" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="11" part-of-speech="NNS">364</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">actin</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="VB">lysine</taggedword>
+      <taggedword index="16" part-of-speech="CD">115</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Acanthamoeba" dep_index="1" gov="actin" gov_index="2">nn</dependency>
+      <dependency dep="actin" dep_index="2" gov="cross-linked" gov_index="7">nsubjpass</dependency>
+      <dependency dep="actin" dep_index="2" gov="lysine" gov_index="15">nsubj</dependency>
+      <dependency dep="profilin" dep_index="4" gov="actin" gov_index="2">conj_and</dependency>
+      <dependency dep="profilin" dep_index="4" gov="cross-linked" gov_index="7">nsubjpass</dependency>
+      <dependency dep="can" dep_index="5" gov="cross-linked" gov_index="7">aux</dependency>
+      <dependency dep="be" dep_index="6" gov="cross-linked" gov_index="7">auxpass</dependency>
+      <dependency dep="cross-linked" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="glutamic" dep_index="9" gov="364" gov_index="11">amod</dependency>
+      <dependency dep="acid" dep_index="10" gov="364" gov_index="11">amod</dependency>
+      <dependency dep="364" dep_index="11" gov="cross-linked" gov_index="7">prep_between</dependency>
+      <dependency dep="actin" dep_index="13" gov="364" gov_index="11">prep_of</dependency>
+      <dependency dep="lysine" dep_index="15" gov="cross-linked" gov_index="7">conj_and</dependency>
+      <dependency dep="115" dep_index="16" gov="lysine" gov_index="15">dobj</dependency>
+      <dependency dep="profilin" dep_index="18" gov="115" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="true">2 7 4</relation>
+      <relation position="200013" relationship="false">2 7 11 13</relation>
+      <relation position="200018" relationship="false">2 15 16 18</relation>
+      <relation position="400013" relationship="false">4 7 11 13</relation>
+      <relation position="400018" relationship="false"></relation>
+      <relation position="1300018" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>1300018</pair>
+      <pair>200004</pair>
+   </pairs>
+</root>

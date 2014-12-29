@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@a@model@system@,@the@interacting@proteins@recruiting@TFIIIC@to@DNA@were@PRP21@and@PRP9@or@PRP21@and@PRP11@.@</sentence>
+   <tags>
+      <tag pos="16">PRP9</tag>
+      <tag pos="10">TFIIIC</tag>
+      <tag pos="18">PRP21</tag>
+      <tag pos="20">PRP11</tag>
+      <tag pos="14">PRP21</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">a</taggedword>
+      <taggedword index="3" part-of-speech="NN">model</taggedword>
+      <taggedword index="4" part-of-speech="NN">system</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="VBG">interacting</taggedword>
+      <taggedword index="8" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="9" part-of-speech="VBG">recruiting</taggedword>
+      <taggedword index="10" part-of-speech="NNP">TFIIIC</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="13" part-of-speech="VBD">were</taggedword>
+      <taggedword index="14" part-of-speech="NNP">PRP21</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNP">PRP9</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="NNP">PRP21</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NNP">PRP11</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="a" dep_index="2" gov="system" gov_index="4">det</dependency>
+      <dependency dep="model" dep_index="3" gov="system" gov_index="4">nn</dependency>
+      <dependency dep="system" dep_index="4" gov="PRP21" gov_index="14">prep_in</dependency>
+      <dependency dep="the" dep_index="6" gov="proteins" gov_index="8">det</dependency>
+      <dependency dep="interacting" dep_index="7" gov="proteins" gov_index="8">amod</dependency>
+      <dependency dep="proteins" dep_index="8" gov="PRP21" gov_index="14">nsubj</dependency>
+      <dependency dep="recruiting" dep_index="9" gov="proteins" gov_index="8">partmod</dependency>
+      <dependency dep="TFIIIC" dep_index="10" gov="recruiting" gov_index="9">dobj</dependency>
+      <dependency dep="DNA" dep_index="12" gov="recruiting" gov_index="9">prep_to</dependency>
+      <dependency dep="were" dep_index="13" gov="PRP21" gov_index="14">cop</dependency>
+      <dependency dep="PRP21" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="PRP9" dep_index="16" gov="PRP21" gov_index="14">conj_and</dependency>
+      <dependency dep="PRP21" dep_index="18" gov="PRP21" gov_index="14">conj_or</dependency>
+      <dependency dep="PRP11" dep_index="20" gov="PRP21" gov_index="14">conj_or</dependency>
+      <dependency dep="PRP11" dep_index="20" gov="PRP21" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000016" relationship="true"></relation>
+      <relation position="1600018" relationship="false"></relation>
+      <relation position="1600020" relationship="false"></relation>
+      <relation position="1400016" relationship="true"></relation>
+      <relation position="1000018" relationship="true">10 9 8 14 18</relation>
+      <relation position="1000020" relationship="true">10 9 8 14 20</relation>
+      <relation position="1000014" relationship="true"></relation>
+      <relation position="1800020" relationship="true">18 14 20</relation>
+      <relation position="1400018" relationship="false"></relation>
+      <relation position="1400020" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>1800020</pair>
+      <pair>1000014</pair>
+      <pair>1400016</pair>
+      <pair>1000018</pair>
+      <pair>1000016</pair>
+      <pair>1000020</pair>
+   </pairs>
+</root>

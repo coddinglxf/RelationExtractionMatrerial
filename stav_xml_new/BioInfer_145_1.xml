@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>cDNA@clones@of@the@N@,@P@,@and@L@genes@were@constructed@in@pGEM-based@expression@plasmids@and@shown@to@direct@expression@of@the@appropriate@polypeptides@.@</sentence>
+   <tags>
+      <tag pos="7">P</tag>
+      <tag pos="5">N</tag>
+      <tag pos="10">L</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="2" part-of-speech="NNS">clones</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNP">N</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNP">P</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NNP">L</taggedword>
+      <taggedword index="11" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="12" part-of-speech="VBD">were</taggedword>
+      <taggedword index="13" part-of-speech="VBN">constructed</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="JJ">pGEM-based</taggedword>
+      <taggedword index="16" part-of-speech="NN">expression</taggedword>
+      <taggedword index="17" part-of-speech="NNS">plasmids</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="22" part-of-speech="NN">expression</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="JJ">appropriate</taggedword>
+      <taggedword index="26" part-of-speech="NNS">polypeptides</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="cDNA" dep_index="1" gov="clones" gov_index="2">nn</dependency>
+      <dependency dep="clones" dep_index="2" gov="constructed" gov_index="13">nsubjpass</dependency>
+      <dependency dep="clones" dep_index="2" gov="shown" gov_index="19">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="P" gov_index="7">det</dependency>
+      <dependency dep="N" dep_index="5" gov="P" gov_index="7">nn</dependency>
+      <dependency dep="P" dep_index="7" gov="clones" gov_index="2">prep_of</dependency>
+      <dependency dep="L" dep_index="10" gov="genes" gov_index="11">nn</dependency>
+      <dependency dep="genes" dep_index="11" gov="clones" gov_index="2">prep_of</dependency>
+      <dependency dep="genes" dep_index="11" gov="P" gov_index="7">conj_and</dependency>
+      <dependency dep="were" dep_index="12" gov="constructed" gov_index="13">auxpass</dependency>
+      <dependency dep="constructed" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="pGEM-based" dep_index="15" gov="plasmids" gov_index="17">amod</dependency>
+      <dependency dep="expression" dep_index="16" gov="plasmids" gov_index="17">nn</dependency>
+      <dependency dep="plasmids" dep_index="17" gov="constructed" gov_index="13">prep_in</dependency>
+      <dependency dep="shown" dep_index="19" gov="constructed" gov_index="13">conj_and</dependency>
+      <dependency dep="direct" dep_index="21" gov="expression" gov_index="22">amod</dependency>
+      <dependency dep="expression" dep_index="22" gov="shown" gov_index="19">prep_to</dependency>
+      <dependency dep="the" dep_index="24" gov="polypeptides" gov_index="26">det</dependency>
+      <dependency dep="appropriate" dep_index="25" gov="polypeptides" gov_index="26">amod</dependency>
+      <dependency dep="polypeptides" dep_index="26" gov="expression" gov_index="22">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false"></relation>
+      <relation position="700010" relationship="false">7 2 11 10</relation>
+      <relation position="500010" relationship="false">5 7 2 11 10</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@hsp90@-@p60@-@hsp70@multichaperone@complex@is@highly@dynamic@and@does@not@appear@to@be@affected@by@the@hsp90@-binding@drug@geldanamycin@.@</sentence>
+   <tags>
+      <tag pos="2">hsp90</tag>
+      <tag pos="4">p60</tag>
+      <tag pos="6">hsp70</tag>
+      <tag pos="21">hsp90</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">hsp90</taggedword>
+      <taggedword index="3" part-of-speech=":">-</taggedword>
+      <taggedword index="4" part-of-speech="NNS">p60</taggedword>
+      <taggedword index="5" part-of-speech=":">-</taggedword>
+      <taggedword index="6" part-of-speech="JJ">hsp70</taggedword>
+      <taggedword index="7" part-of-speech="NN">multichaperone</taggedword>
+      <taggedword index="8" part-of-speech="NN">complex</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="RB">highly</taggedword>
+      <taggedword index="11" part-of-speech="JJ">dynamic</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="14" part-of-speech="RB">not</taggedword>
+      <taggedword index="15" part-of-speech="VB">appear</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="VB">be</taggedword>
+      <taggedword index="18" part-of-speech="VBN">affected</taggedword>
+      <taggedword index="19" part-of-speech="IN">by</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">hsp90</taggedword>
+      <taggedword index="22" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="23" part-of-speech="NN">drug</taggedword>
+      <taggedword index="24" part-of-speech="NN">geldanamycin</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="hsp90" gov_index="2">det</dependency>
+      <dependency dep="hsp90" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="p60" dep_index="4" gov="hsp90" gov_index="2">dep</dependency>
+      <dependency dep="hsp70" dep_index="6" gov="complex" gov_index="8">amod</dependency>
+      <dependency dep="multichaperone" dep_index="7" gov="complex" gov_index="8">nn</dependency>
+      <dependency dep="complex" dep_index="8" gov="dynamic" gov_index="11">nsubj</dependency>
+      <dependency dep="complex" dep_index="8" gov="appear" gov_index="15">nsubj</dependency>
+      <dependency dep="complex" dep_index="8" gov="affected" gov_index="18">xsubj</dependency>
+      <dependency dep="is" dep_index="9" gov="dynamic" gov_index="11">cop</dependency>
+      <dependency dep="highly" dep_index="10" gov="dynamic" gov_index="11">advmod</dependency>
+      <dependency dep="dynamic" dep_index="11" gov="hsp90" gov_index="2">dep</dependency>
+      <dependency dep="does" dep_index="13" gov="appear" gov_index="15">aux</dependency>
+      <dependency dep="not" dep_index="14" gov="appear" gov_index="15">neg</dependency>
+      <dependency dep="appear" dep_index="15" gov="hsp90" gov_index="2">dep</dependency>
+      <dependency dep="appear" dep_index="15" gov="dynamic" gov_index="11">conj_and</dependency>
+      <dependency dep="to" dep_index="16" gov="affected" gov_index="18">aux</dependency>
+      <dependency dep="be" dep_index="17" gov="affected" gov_index="18">auxpass</dependency>
+      <dependency dep="affected" dep_index="18" gov="appear" gov_index="15">xcomp</dependency>
+      <dependency dep="the" dep_index="20" gov="geldanamycin" gov_index="24">det</dependency>
+      <dependency dep="hsp90" dep_index="21" gov="geldanamycin" gov_index="24">amod</dependency>
+      <dependency dep="-binding" dep_index="22" gov="geldanamycin" gov_index="24">amod</dependency>
+      <dependency dep="drug" dep_index="23" gov="geldanamycin" gov_index="24">nn</dependency>
+      <dependency dep="geldanamycin" dep_index="24" gov="affected" gov_index="18">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="true"></relation>
+      <relation position="200006" relationship="false"></relation>
+      <relation position="200021" relationship="false"></relation>
+      <relation position="400006" relationship="false">4 2 11 8 6</relation>
+      <relation position="400021" relationship="false">4 2 15 18 24 21</relation>
+      <relation position="600021" relationship="false">6 8 18 24 21</relation>
+   </relations>
+   <pairs>
+      <pair>200004</pair>
+   </pairs>
+</root>

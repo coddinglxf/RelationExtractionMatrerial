@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@HFE@-@TfR@complex@suggests@a@binding@site@for@transferrin@on@TfR@and@sheds@light@upon@the@function@of@HFE@in@regulating@iron@homeostasis@.@</sentence>
+   <tags>
+      <tag pos="2">HFE</tag>
+      <tag pos="4">TfR</tag>
+      <tag pos="13">TfR</tag>
+      <tag pos="21">HFE</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">HFE</taggedword>
+      <taggedword index="3" part-of-speech=":">-</taggedword>
+      <taggedword index="4" part-of-speech="NNP">TfR</taggedword>
+      <taggedword index="5" part-of-speech="NN">complex</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="9" part-of-speech="NN">site</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="NN">transferrin</taggedword>
+      <taggedword index="12" part-of-speech="IN">on</taggedword>
+      <taggedword index="13" part-of-speech="NNP">TfR</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">sheds</taggedword>
+      <taggedword index="16" part-of-speech="NN">light</taggedword>
+      <taggedword index="17" part-of-speech="IN">upon</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">function</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NNP">HFE</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="VBG">regulating</taggedword>
+      <taggedword index="24" part-of-speech="NN">iron</taggedword>
+      <taggedword index="25" part-of-speech="NNS">homeostasis</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="HFE" gov_index="2">det</dependency>
+      <dependency dep="HFE" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="TfR" dep_index="4" gov="complex" gov_index="5">nn</dependency>
+      <dependency dep="complex" dep_index="5" gov="suggests" gov_index="6">nsubj</dependency>
+      <dependency dep="complex" dep_index="5" gov="sheds" gov_index="15">nsubj</dependency>
+      <dependency dep="suggests" dep_index="6" gov="HFE" gov_index="2">dep</dependency>
+      <dependency dep="a" dep_index="7" gov="site" gov_index="9">det</dependency>
+      <dependency dep="binding" dep_index="8" gov="site" gov_index="9">amod</dependency>
+      <dependency dep="site" dep_index="9" gov="suggests" gov_index="6">dobj</dependency>
+      <dependency dep="transferrin" dep_index="11" gov="site" gov_index="9">prep_for</dependency>
+      <dependency dep="TfR" dep_index="13" gov="suggests" gov_index="6">prep_on</dependency>
+      <dependency dep="sheds" dep_index="15" gov="HFE" gov_index="2">dep</dependency>
+      <dependency dep="sheds" dep_index="15" gov="suggests" gov_index="6">conj_and</dependency>
+      <dependency dep="light" dep_index="16" gov="suggests" gov_index="6">dobj</dependency>
+      <dependency dep="the" dep_index="18" gov="function" gov_index="19">det</dependency>
+      <dependency dep="function" dep_index="19" gov="suggests" gov_index="6">prep_upon</dependency>
+      <dependency dep="HFE" dep_index="21" gov="function" gov_index="19">prep_of</dependency>
+      <dependency dep="regulating" dep_index="23" gov="suggests" gov_index="6">prepc_in</dependency>
+      <dependency dep="iron" dep_index="24" gov="homeostasis" gov_index="25">nn</dependency>
+      <dependency dep="homeostasis" dep_index="25" gov="regulating" gov_index="23">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="true"></relation>
+      <relation position="200013" relationship="false"></relation>
+      <relation position="200021" relationship="false"></relation>
+      <relation position="400013" relationship="false">4 5 6 13</relation>
+      <relation position="400021" relationship="false">4 5 6 19 21</relation>
+      <relation position="1300021" relationship="false">13 6 19 21</relation>
+   </relations>
+   <pairs>
+      <pair>200004</pair>
+   </pairs>
+</root>

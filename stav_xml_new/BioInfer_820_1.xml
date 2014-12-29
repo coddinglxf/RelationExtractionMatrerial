@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@show@here@that@the@phenotype@of@ts@cut2-364@is@highly@similar@to@that@of@cut1@and@that@the@functions@of@the@gene@products@of@cut1+@and@cut2+@are@closely@interrelated@.@</sentence>
+   <tags>
+      <tag pos="9">cut2-364</tag>
+      <tag pos="16">cut1</tag>
+      <tag pos="26">cut1+</tag>
+      <tag pos="28">cut2+</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">show</taggedword>
+      <taggedword index="3" part-of-speech="RB">here</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">phenotype</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">ts</taggedword>
+      <taggedword index="9" part-of-speech="NN">cut2-364</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="RB">highly</taggedword>
+      <taggedword index="12" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="DT">that</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="CD">cut1</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="IN">that</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">gene</taggedword>
+      <taggedword index="24" part-of-speech="NNS">products</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="CD">cut1+</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="CD">cut2+</taggedword>
+      <taggedword index="29" part-of-speech="VBP">are</taggedword>
+      <taggedword index="30" part-of-speech="RB">closely</taggedword>
+      <taggedword index="31" part-of-speech="JJ">interrelated</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="show" gov_index="2">nsubj</dependency>
+      <dependency dep="show" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="here" dep_index="3" gov="show" gov_index="2">advmod</dependency>
+      <dependency dep="that" dep_index="4" gov="similar" gov_index="12">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="phenotype" gov_index="6">det</dependency>
+      <dependency dep="phenotype" dep_index="6" gov="similar" gov_index="12">nsubj</dependency>
+      <dependency dep="ts" dep_index="8" gov="cut2-364" gov_index="9">nn</dependency>
+      <dependency dep="cut2-364" dep_index="9" gov="phenotype" gov_index="6">prep_of</dependency>
+      <dependency dep="is" dep_index="10" gov="similar" gov_index="12">cop</dependency>
+      <dependency dep="highly" dep_index="11" gov="similar" gov_index="12">advmod</dependency>
+      <dependency dep="similar" dep_index="12" gov="show" gov_index="2">ccomp</dependency>
+      <dependency dep="that" dep_index="14" gov="similar" gov_index="12">prep_to</dependency>
+      <dependency dep="cut1" dep_index="16" gov="that" gov_index="14">prep_of</dependency>
+      <dependency dep="that" dep_index="18" gov="interrelated" gov_index="31">mark</dependency>
+      <dependency dep="the" dep_index="19" gov="functions" gov_index="20">det</dependency>
+      <dependency dep="functions" dep_index="20" gov="interrelated" gov_index="31">nsubj</dependency>
+      <dependency dep="the" dep_index="22" gov="products" gov_index="24">det</dependency>
+      <dependency dep="gene" dep_index="23" gov="products" gov_index="24">nn</dependency>
+      <dependency dep="products" dep_index="24" gov="functions" gov_index="20">prep_of</dependency>
+      <dependency dep="cut1+" dep_index="26" gov="products" gov_index="24">prep_of</dependency>
+      <dependency dep="cut2+" dep_index="28" gov="products" gov_index="24">prep_of</dependency>
+      <dependency dep="cut2+" dep_index="28" gov="cut1+" gov_index="26">conj_and</dependency>
+      <dependency dep="are" dep_index="29" gov="interrelated" gov_index="31">cop</dependency>
+      <dependency dep="closely" dep_index="30" gov="interrelated" gov_index="31">advmod</dependency>
+      <dependency dep="interrelated" dep_index="31" gov="show" gov_index="2">ccomp</dependency>
+      <dependency dep="interrelated" dep_index="31" gov="similar" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900016" relationship="false">9 6 12 14 16</relation>
+      <relation position="900026" relationship="false">9 6 12 2 31 20 24 26</relation>
+      <relation position="900028" relationship="false">9 6 12 2 31 20 24 28</relation>
+      <relation position="1600026" relationship="false">16 14 12 2 31 20 24 26</relation>
+      <relation position="1600028" relationship="false">16 14 12 2 31 20 24 28</relation>
+      <relation position="2600028" relationship="true">26 24 28</relation>
+   </relations>
+   <pairs>
+      <pair>2600028</pair>
+   </pairs>
+</root>

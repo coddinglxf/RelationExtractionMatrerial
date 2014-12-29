@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Given@the@functional@and@genetic@similarities@of@these@transporters@,@it@is@not@surprising@that@the@same@signaling@molecules@regulate@their@trafficking@,@but@except@for@the@molecules@,@the@actual@effects@on@individual@transporters@are@remarkably@different@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Given</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="NN">functional</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="JJ">genetic</taggedword>
+      <taggedword index="6" part-of-speech="NNS">similarities</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">these</taggedword>
+      <taggedword index="9" part-of-speech="NNS">transporters</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="PRP">it</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="RB">not</taggedword>
+      <taggedword index="14" part-of-speech="JJ">surprising</taggedword>
+      <taggedword index="15" part-of-speech="IN">that</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">same</taggedword>
+      <taggedword index="18" part-of-speech="JJ">signaling</taggedword>
+      <taggedword index="19" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="20" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="21" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="22" part-of-speech="NN">trafficking</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CC">but</taggedword>
+      <taggedword index="25" part-of-speech="IN">except</taggedword>
+      <taggedword index="26" part-of-speech="IN">for</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="JJ">actual</taggedword>
+      <taggedword index="32" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="33" part-of-speech="IN">on</taggedword>
+      <taggedword index="34" part-of-speech="JJ">individual</taggedword>
+      <taggedword index="35" part-of-speech="NNS">transporters</taggedword>
+      <taggedword index="36" part-of-speech="VBP">are</taggedword>
+      <taggedword index="37" part-of-speech="RB">remarkably</taggedword>
+      <taggedword index="38" part-of-speech="JJ">different</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Given" dep_index="1" gov="surprising" gov_index="14">prep</dependency>
+      <dependency dep="the" dep_index="2" gov="functional" gov_index="3">det</dependency>
+      <dependency dep="functional" dep_index="3" gov="Given" gov_index="1">dep</dependency>
+      <dependency dep="genetic" dep_index="5" gov="similarities" gov_index="6">amod</dependency>
+      <dependency dep="similarities" dep_index="6" gov="Given" gov_index="1">dep</dependency>
+      <dependency dep="similarities" dep_index="6" gov="functional" gov_index="3">conj_and</dependency>
+      <dependency dep="these" dep_index="8" gov="transporters" gov_index="9">det</dependency>
+      <dependency dep="transporters" dep_index="9" gov="similarities" gov_index="6">prep_of</dependency>
+      <dependency dep="it" dep_index="11" gov="surprising" gov_index="14">nsubj</dependency>
+      <dependency dep="is" dep_index="12" gov="surprising" gov_index="14">cop</dependency>
+      <dependency dep="not" dep_index="13" gov="surprising" gov_index="14">neg</dependency>
+      <dependency dep="surprising" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="15" gov="regulate" gov_index="20">mark</dependency>
+      <dependency dep="the" dep_index="16" gov="molecules" gov_index="19">det</dependency>
+      <dependency dep="same" dep_index="17" gov="molecules" gov_index="19">amod</dependency>
+      <dependency dep="signaling" dep_index="18" gov="molecules" gov_index="19">amod</dependency>
+      <dependency dep="molecules" dep_index="19" gov="regulate" gov_index="20">nsubj</dependency>
+      <dependency dep="regulate" dep_index="20" gov="surprising" gov_index="14">ccomp</dependency>
+      <dependency dep="their" dep_index="21" gov="trafficking" gov_index="22">poss</dependency>
+      <dependency dep="trafficking" dep_index="22" gov="regulate" gov_index="20">dobj</dependency>
+      <dependency dep="except" dep_index="25" gov="different" gov_index="38">mark</dependency>
+      <dependency dep="the" dep_index="27" gov="molecules" gov_index="28">det</dependency>
+      <dependency dep="molecules" dep_index="28" gov="different" gov_index="38">prep_for</dependency>
+      <dependency dep="the" dep_index="30" gov="effects" gov_index="32">det</dependency>
+      <dependency dep="actual" dep_index="31" gov="effects" gov_index="32">amod</dependency>
+      <dependency dep="effects" dep_index="32" gov="different" gov_index="38">nsubj</dependency>
+      <dependency dep="individual" dep_index="34" gov="transporters" gov_index="35">amod</dependency>
+      <dependency dep="transporters" dep_index="35" gov="effects" gov_index="32">prep_on</dependency>
+      <dependency dep="are" dep_index="36" gov="different" gov_index="38">cop</dependency>
+      <dependency dep="remarkably" dep_index="37" gov="different" gov_index="38">advmod</dependency>
+      <dependency dep="different" dep_index="38" gov="surprising" gov_index="14">ccomp</dependency>
+      <dependency dep="different" dep_index="38" gov="regulate" gov_index="20">conj_but</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

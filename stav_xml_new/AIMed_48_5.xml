@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>LEC@induced@maximal@migration@of@CCR1@and@CCR8@transfected@cells@at@89.3@nmol/L@and@cell@adhesion@at@5.6@nmol/L@.@</sentence>
+   <tags>
+      <tag pos="1">LEC</tag>
+      <tag pos="6">CCR1</tag>
+      <tag pos="8">CCR8</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="2" part-of-speech="NNP">induced</taggedword>
+      <taggedword index="3" part-of-speech="JJ">maximal</taggedword>
+      <taggedword index="4" part-of-speech="NN">migration</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">CCR1</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CCR8</taggedword>
+      <taggedword index="9" part-of-speech="VBD">transfected</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="11" part-of-speech="IN">at</taggedword>
+      <taggedword index="12" part-of-speech="CD">89.3</taggedword>
+      <taggedword index="13" part-of-speech="NN">nmol/L</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">cell</taggedword>
+      <taggedword index="16" part-of-speech="NNS">adhesion</taggedword>
+      <taggedword index="17" part-of-speech="IN">at</taggedword>
+      <taggedword index="18" part-of-speech="CD">5.6</taggedword>
+      <taggedword index="19" part-of-speech="NN">nmol/L</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="LEC" dep_index="1" gov="migration" gov_index="4">nn</dependency>
+      <dependency dep="induced" dep_index="2" gov="migration" gov_index="4">nn</dependency>
+      <dependency dep="maximal" dep_index="3" gov="migration" gov_index="4">amod</dependency>
+      <dependency dep="migration" dep_index="4" gov="transfected" gov_index="9">nsubj</dependency>
+      <dependency dep="CCR1" dep_index="6" gov="migration" gov_index="4">prep_of</dependency>
+      <dependency dep="CCR8" dep_index="8" gov="migration" gov_index="4">prep_of</dependency>
+      <dependency dep="CCR8" dep_index="8" gov="CCR1" gov_index="6">conj_and</dependency>
+      <dependency dep="transfected" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cells" dep_index="10" gov="transfected" gov_index="9">dobj</dependency>
+      <dependency dep="89.3" dep_index="12" gov="nmol/L" gov_index="13">num</dependency>
+      <dependency dep="nmol/L" dep_index="13" gov="transfected" gov_index="9">prep_at</dependency>
+      <dependency dep="cell" dep_index="15" gov="adhesion" gov_index="16">nn</dependency>
+      <dependency dep="adhesion" dep_index="16" gov="transfected" gov_index="9">prep_at</dependency>
+      <dependency dep="adhesion" dep_index="16" gov="nmol/L" gov_index="13">conj_and</dependency>
+      <dependency dep="5.6" dep_index="18" gov="nmol/L" gov_index="19">num</dependency>
+      <dependency dep="nmol/L" dep_index="19" gov="transfected" gov_index="9">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100006" relationship="false">1 4 6</relation>
+      <relation position="100008" relationship="false">1 4 8</relation>
+      <relation position="600008" relationship="false">6 4 8</relation>
+   </relations>
+   <pairs/>
+</root>

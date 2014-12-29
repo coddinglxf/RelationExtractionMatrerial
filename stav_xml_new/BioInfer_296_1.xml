@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunolocalization@of@E-cadherin@(@E-cad@),@alpha-catenin@,@beta-catenin@,@and@CD44@has@rarely@been@investigated@in@human@cholangiocarcinoma@(CC)@.@</sentence>
+   <tags>
+      <tag pos="9">beta-catenin</tag>
+      <tag pos="3">E-cadherin</tag>
+      <tag pos="5">E-cad</tag>
+      <tag pos="7">alpha-catenin</tag>
+      <tag pos="12">CD44</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Immunolocalization</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="4" part-of-speech="NNP">(</taggedword>
+      <taggedword index="5" part-of-speech="JJ">E-cad</taggedword>
+      <taggedword index="6" part-of-speech="NN">),</taggedword>
+      <taggedword index="7" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNP">CD44</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="14" part-of-speech="RB">rarely</taggedword>
+      <taggedword index="15" part-of-speech="VBN">been</taggedword>
+      <taggedword index="16" part-of-speech="VBN">investigated</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="JJ">human</taggedword>
+      <taggedword index="19" part-of-speech="NN">cholangiocarcinoma</taggedword>
+      <taggedword index="20" part-of-speech="NNS">(CC)</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunolocalization" dep_index="1" gov="investigated" gov_index="16">nsubjpass</dependency>
+      <dependency dep="E-cadherin" dep_index="3" gov="alpha-catenin" gov_index="7">nn</dependency>
+      <dependency dep="(" dep_index="4" gov="alpha-catenin" gov_index="7">nn</dependency>
+      <dependency dep="E-cad" dep_index="5" gov="alpha-catenin" gov_index="7">amod</dependency>
+      <dependency dep=")," dep_index="6" gov="alpha-catenin" gov_index="7">nn</dependency>
+      <dependency dep="alpha-catenin" dep_index="7" gov="Immunolocalization" gov_index="1">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="9" gov="Immunolocalization" gov_index="1">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="9" gov="alpha-catenin" gov_index="7">conj_and</dependency>
+      <dependency dep="CD44" dep_index="12" gov="Immunolocalization" gov_index="1">prep_of</dependency>
+      <dependency dep="CD44" dep_index="12" gov="alpha-catenin" gov_index="7">conj_and</dependency>
+      <dependency dep="has" dep_index="13" gov="investigated" gov_index="16">aux</dependency>
+      <dependency dep="rarely" dep_index="14" gov="investigated" gov_index="16">advmod</dependency>
+      <dependency dep="been" dep_index="15" gov="investigated" gov_index="16">auxpass</dependency>
+      <dependency dep="investigated" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="human" dep_index="18" gov="(CC)" gov_index="20">amod</dependency>
+      <dependency dep="cholangiocarcinoma" dep_index="19" gov="(CC)" gov_index="20">nn</dependency>
+      <dependency dep="(CC)" dep_index="20" gov="investigated" gov_index="16">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300009" relationship="false">3 7 1 9</relation>
+      <relation position="500009" relationship="false">5 7 1 9</relation>
+      <relation position="700009" relationship="false">7 1 9</relation>
+      <relation position="900012" relationship="false">9 1 12</relation>
+      <relation position="300005" relationship="false">3 7 5</relation>
+      <relation position="300007" relationship="false"></relation>
+      <relation position="300012" relationship="false">3 7 1 12</relation>
+      <relation position="500007" relationship="false"></relation>
+      <relation position="500012" relationship="false">5 7 1 12</relation>
+      <relation position="700012" relationship="false">7 1 12</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Involvement@of@thyroid@hormones@in@the@effect@of@intracerebroventricular@leptin@infusion@on@uncoupling protein-3@expression@in@rat@muscle@</sentence>
+   <tags>
+      <tag pos="10">leptin</tag>
+      <tag pos="13">uncoupling protein-3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Involvement</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">thyroid</taggedword>
+      <taggedword index="4" part-of-speech="NNS">hormones</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">effect</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">intracerebroventricular</taggedword>
+      <taggedword index="10" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="11" part-of-speech="NN">infusion</taggedword>
+      <taggedword index="12" part-of-speech="IN">on</taggedword>
+      <taggedword index="13" part-of-speech="JJ">uncoupling protein-3</taggedword>
+      <taggedword index="14" part-of-speech="NN">expression</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="NN">rat</taggedword>
+      <taggedword index="17" part-of-speech="NN">muscle</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Involvement" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="thyroid" dep_index="3" gov="hormones" gov_index="4">nn</dependency>
+      <dependency dep="hormones" dep_index="4" gov="Involvement" gov_index="1">prep_of</dependency>
+      <dependency dep="the" dep_index="6" gov="effect" gov_index="7">det</dependency>
+      <dependency dep="effect" dep_index="7" gov="Involvement" gov_index="1">prep_in</dependency>
+      <dependency dep="intracerebroventricular" dep_index="9" gov="infusion" gov_index="11">nn</dependency>
+      <dependency dep="leptin" dep_index="10" gov="infusion" gov_index="11">nn</dependency>
+      <dependency dep="infusion" dep_index="11" gov="effect" gov_index="7">prep_of</dependency>
+      <dependency dep="uncoupling protein-3" dep_index="13" gov="expression" gov_index="14">amod</dependency>
+      <dependency dep="expression" dep_index="14" gov="Involvement" gov_index="1">prep_on</dependency>
+      <dependency dep="rat" dep_index="16" gov="muscle" gov_index="17">nn</dependency>
+      <dependency dep="muscle" dep_index="17" gov="Involvement" gov_index="1">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000013" relationship="true">10 11 7 1 14 13</relation>
+   </relations>
+   <pairs>
+      <pair>1000013</pair>
+   </pairs>
+</root>

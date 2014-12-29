@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Withdrawal@from@the@cell@cycle@of@differentiating@myocytes@is@regulated@by@the@myogenic basic helix-loop-helix@(@bHLH@)@protein@MyoD@and@the@pocket@proteins@pRb@,@p107@and@pRb2@/@p130@.@</sentence>
+   <tags>
+      <tag pos="13">myogenic basic helix-loop-helix</tag>
+      <tag pos="15">bHLH</tag>
+      <tag pos="18">MyoD</tag>
+      <tag pos="23">pRb</tag>
+      <tag pos="25">p107</tag>
+      <tag pos="27">pRb2</tag>
+      <tag pos="29">p130</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Withdrawal</taggedword>
+      <taggedword index="2" part-of-speech="IN">from</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">cell</taggedword>
+      <taggedword index="5" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">differentiating</taggedword>
+      <taggedword index="8" part-of-speech="NNS">myocytes</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">myogenic basic helix-loop-helix</taggedword>
+      <taggedword index="14" part-of-speech="JJ">(</taggedword>
+      <taggedword index="15" part-of-speech="NN">bHLH</taggedword>
+      <taggedword index="16" part-of-speech="NNP">)</taggedword>
+      <taggedword index="17" part-of-speech="NN">protein</taggedword>
+      <taggedword index="18" part-of-speech="NNP">MyoD</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">pocket</taggedword>
+      <taggedword index="22" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="23" part-of-speech="NN">pRb</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="NNS">p107</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="JJ">pRb2</taggedword>
+      <taggedword index="28" part-of-speech="JJ">/</taggedword>
+      <taggedword index="29" part-of-speech="NNS">p130</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Withdrawal" dep_index="1" gov="regulated" gov_index="10">nsubjpass</dependency>
+      <dependency dep="the" dep_index="3" gov="cycle" gov_index="5">det</dependency>
+      <dependency dep="cell" dep_index="4" gov="cycle" gov_index="5">nn</dependency>
+      <dependency dep="cycle" dep_index="5" gov="Withdrawal" gov_index="1">prep_from</dependency>
+      <dependency dep="differentiating" dep_index="7" gov="myocytes" gov_index="8">amod</dependency>
+      <dependency dep="myocytes" dep_index="8" gov="cycle" gov_index="5">prep_of</dependency>
+      <dependency dep="is" dep_index="9" gov="regulated" gov_index="10">auxpass</dependency>
+      <dependency dep="regulated" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="bHLH" gov_index="15">det</dependency>
+      <dependency dep="myogenic basic helix-loop-helix" dep_index="13" gov="bHLH" gov_index="15">amod</dependency>
+      <dependency dep="(" dep_index="14" gov="bHLH" gov_index="15">amod</dependency>
+      <dependency dep="bHLH" dep_index="15" gov="regulated" gov_index="10">agent</dependency>
+      <dependency dep=")" dep_index="16" gov="MyoD" gov_index="18">nn</dependency>
+      <dependency dep="protein" dep_index="17" gov="MyoD" gov_index="18">nn</dependency>
+      <dependency dep="MyoD" dep_index="18" gov="bHLH" gov_index="15">dep</dependency>
+      <dependency dep="the" dep_index="20" gov="pRb" gov_index="23">det</dependency>
+      <dependency dep="pocket" dep_index="21" gov="pRb" gov_index="23">nn</dependency>
+      <dependency dep="proteins" dep_index="22" gov="pRb" gov_index="23">nn</dependency>
+      <dependency dep="pRb" dep_index="23" gov="regulated" gov_index="10">agent</dependency>
+      <dependency dep="pRb" dep_index="23" gov="bHLH" gov_index="15">conj_and</dependency>
+      <dependency dep="p107" dep_index="25" gov="bHLH" gov_index="15">conj_and</dependency>
+      <dependency dep="p107" dep_index="25" gov="pRb" gov_index="23">conj_and</dependency>
+      <dependency dep="pRb2" dep_index="27" gov="p130" gov_index="29">amod</dependency>
+      <dependency dep="/" dep_index="28" gov="p130" gov_index="29">amod</dependency>
+      <dependency dep="p130" dep_index="29" gov="bHLH" gov_index="15">conj_and</dependency>
+      <dependency dep="p130" dep_index="29" gov="pRb" gov_index="23">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="false"></relation>
+      <relation position="1300018" relationship="false">13 15 18</relation>
+      <relation position="1300023" relationship="false">13 15 10 23</relation>
+      <relation position="1300025" relationship="false"></relation>
+      <relation position="1300027" relationship="false"></relation>
+      <relation position="1300029" relationship="false"></relation>
+      <relation position="1500018" relationship="false"></relation>
+      <relation position="1500023" relationship="false">15 10 23</relation>
+      <relation position="1500025" relationship="false"></relation>
+      <relation position="1500027" relationship="false"></relation>
+      <relation position="1500029" relationship="false"></relation>
+      <relation position="1800023" relationship="false">18 15 10 23</relation>
+      <relation position="1800025" relationship="false"></relation>
+      <relation position="1800027" relationship="false"></relation>
+      <relation position="1800029" relationship="false"></relation>
+      <relation position="2300025" relationship="false"></relation>
+      <relation position="2300027" relationship="false"></relation>
+      <relation position="2300029" relationship="false"></relation>
+      <relation position="2500027" relationship="false"></relation>
+      <relation position="2500029" relationship="false"></relation>
+      <relation position="2700029" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@,@we@immunohistochemically@investigated@the@expression@of@beta-catenin@as@well@as@E-cadherin@and@alpha-catenin@in@86@human@colorectal@cancers@,@and@we@analysed@their@coexpression@pattern@and@relationship@to@clinicopathological@factors@.@</sentence>
+   <tags>
+      <tag pos="11">beta-catenin</tag>
+      <tag pos="17">alpha-catenin</tag>
+      <tag pos="15">E-cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="RB">immunohistochemically</taggedword>
+      <taggedword index="7" part-of-speech="VBD">investigated</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">expression</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="12" part-of-speech="RB">as</taggedword>
+      <taggedword index="13" part-of-speech="RB">well</taggedword>
+      <taggedword index="14" part-of-speech="IN">as</taggedword>
+      <taggedword index="15" part-of-speech="NN">E-cadherin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="CD">86</taggedword>
+      <taggedword index="20" part-of-speech="JJ">human</taggedword>
+      <taggedword index="21" part-of-speech="JJ">colorectal</taggedword>
+      <taggedword index="22" part-of-speech="NNS">cancers</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="PRP">we</taggedword>
+      <taggedword index="26" part-of-speech="VBD">analysed</taggedword>
+      <taggedword index="27" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="28" part-of-speech="NN">coexpression</taggedword>
+      <taggedword index="29" part-of-speech="NN">pattern</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="NN">relationship</taggedword>
+      <taggedword index="32" part-of-speech="TO">to</taggedword>
+      <taggedword index="33" part-of-speech="JJ">clinicopathological</taggedword>
+      <taggedword index="34" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="investigated" gov_index="7">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="investigated" gov_index="7">nsubj</dependency>
+      <dependency dep="immunohistochemically" dep_index="6" gov="investigated" gov_index="7">advmod</dependency>
+      <dependency dep="investigated" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="expression" gov_index="9">det</dependency>
+      <dependency dep="expression" dep_index="9" gov="investigated" gov_index="7">dobj</dependency>
+      <dependency dep="beta-catenin" dep_index="11" gov="expression" gov_index="9">prep_of</dependency>
+      <dependency dep="E-cadherin" dep_index="15" gov="investigated" gov_index="7">dobj</dependency>
+      <dependency dep="E-cadherin" dep_index="15" gov="expression" gov_index="9">conj_and</dependency>
+      <dependency dep="alpha-catenin" dep_index="17" gov="expression" gov_index="9">conj_and</dependency>
+      <dependency dep="alpha-catenin" dep_index="17" gov="E-cadherin" gov_index="15">conj_and</dependency>
+      <dependency dep="86" dep_index="19" gov="cancers" gov_index="22">num</dependency>
+      <dependency dep="human" dep_index="20" gov="cancers" gov_index="22">amod</dependency>
+      <dependency dep="colorectal" dep_index="21" gov="cancers" gov_index="22">amod</dependency>
+      <dependency dep="cancers" dep_index="22" gov="E-cadherin" gov_index="15">prep_in</dependency>
+      <dependency dep="we" dep_index="25" gov="analysed" gov_index="26">nsubj</dependency>
+      <dependency dep="analysed" dep_index="26" gov="investigated" gov_index="7">conj_and</dependency>
+      <dependency dep="their" dep_index="27" gov="pattern" gov_index="29">poss</dependency>
+      <dependency dep="coexpression" dep_index="28" gov="pattern" gov_index="29">nn</dependency>
+      <dependency dep="pattern" dep_index="29" gov="analysed" gov_index="26">dobj</dependency>
+      <dependency dep="relationship" dep_index="31" gov="analysed" gov_index="26">dobj</dependency>
+      <dependency dep="relationship" dep_index="31" gov="pattern" gov_index="29">conj_and</dependency>
+      <dependency dep="clinicopathological" dep_index="33" gov="factors" gov_index="34">amod</dependency>
+      <dependency dep="factors" dep_index="34" gov="analysed" gov_index="26">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100017" relationship="false"></relation>
+      <relation position="1100015" relationship="false">11 9 7 15</relation>
+      <relation position="1500017" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

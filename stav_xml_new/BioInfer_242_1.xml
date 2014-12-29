@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@we@describe@the@TNF@-dependent@activation@of@acid SMase@(@A-SMase@)@through@the@p55@TNF receptor@-associated@proteins@TRADD@and@FADD@.@</sentence>
+   <tags>
+      <tag pos="19">TRADD</tag>
+      <tag pos="21">FADD</tag>
+      <tag pos="5">TNF</tag>
+      <tag pos="15">p55</tag>
+      <tag pos="16">TNF receptor</tag>
+      <tag pos="9">acid SMase</tag>
+      <tag pos="11">A-SMase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech="PRP">we</taggedword>
+      <taggedword index="3" part-of-speech="VBP">describe</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNP">TNF</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="7" part-of-speech="NN">activation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">acid SMase</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">A-SMase</taggedword>
+      <taggedword index="12" part-of-speech="NNP">)</taggedword>
+      <taggedword index="13" part-of-speech="IN">through</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">p55</taggedword>
+      <taggedword index="16" part-of-speech="NN">TNF receptor</taggedword>
+      <taggedword index="17" part-of-speech="JJ">-associated</taggedword>
+      <taggedword index="18" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="19" part-of-speech="VBD">TRADD</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="VBD">FADD</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="describe" gov_index="3">advmod</dependency>
+      <dependency dep="we" dep_index="2" gov="describe" gov_index="3">nsubj</dependency>
+      <dependency dep="describe" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="activation" gov_index="7">det</dependency>
+      <dependency dep="TNF" dep_index="5" gov="activation" gov_index="7">nn</dependency>
+      <dependency dep="-dependent" dep_index="6" gov="activation" gov_index="7">amod</dependency>
+      <dependency dep="activation" dep_index="7" gov="describe" gov_index="3">dobj</dependency>
+      <dependency dep="acid SMase" dep_index="9" gov=")" gov_index="12">amod</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="A-SMase" dep_index="11" gov=")" gov_index="12">nn</dependency>
+      <dependency dep=")" dep_index="12" gov="activation" gov_index="7">prep_of</dependency>
+      <dependency dep="the" dep_index="14" gov="TNF receptor" gov_index="16">det</dependency>
+      <dependency dep="p55" dep_index="15" gov="TNF receptor" gov_index="16">amod</dependency>
+      <dependency dep="TNF receptor" dep_index="16" gov="describe" gov_index="3">prep_through</dependency>
+      <dependency dep="TNF receptor" dep_index="16" gov="TRADD" gov_index="19">dobj</dependency>
+      <dependency dep="-associated" dep_index="17" gov="proteins" gov_index="18">amod</dependency>
+      <dependency dep="proteins" dep_index="18" gov="TRADD" gov_index="19">nsubj</dependency>
+      <dependency dep="proteins" dep_index="18" gov="FADD" gov_index="21">nsubj</dependency>
+      <dependency dep="TRADD" dep_index="19" gov="TNF receptor" gov_index="16">rcmod</dependency>
+      <dependency dep="FADD" dep_index="21" gov="TNF receptor" gov_index="16">rcmod</dependency>
+      <dependency dep="FADD" dep_index="21" gov="TRADD" gov_index="19">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1900021" relationship="false">19 16 21</relation>
+      <relation position="500019" relationship="false">5 7 3 16 19</relation>
+      <relation position="1500019" relationship="true">15 16 19</relation>
+      <relation position="1600019" relationship="false"></relation>
+      <relation position="900019" relationship="true">9 12 7 3 16 19</relation>
+      <relation position="1100019" relationship="true">11 12 7 3 16 19</relation>
+      <relation position="500021" relationship="false">5 7 3 16 21</relation>
+      <relation position="1500021" relationship="true">15 16 21</relation>
+      <relation position="1600021" relationship="false"></relation>
+      <relation position="900021" relationship="true">9 12 7 3 16 21</relation>
+      <relation position="1100021" relationship="true">11 12 7 3 16 21</relation>
+      <relation position="500015" relationship="false">5 7 3 16 15</relation>
+      <relation position="500016" relationship="false">5 7 3 16</relation>
+      <relation position="500009" relationship="true">5 7 12 9</relation>
+      <relation position="500011" relationship="true">5 7 12 11</relation>
+      <relation position="1500016" relationship="true"></relation>
+      <relation position="900015" relationship="false">9 12 7 3 16 15</relation>
+      <relation position="1100015" relationship="false">11 12 7 3 16 15</relation>
+      <relation position="900016" relationship="false">9 12 7 3 16</relation>
+      <relation position="1100016" relationship="false">11 12 7 3 16</relation>
+      <relation position="900011" relationship="false">9 12 11</relation>
+   </relations>
+   <pairs>
+      <pair>1100019</pair>
+      <pair>500009</pair>
+      <pair>1100021</pair>
+      <pair>500011</pair>
+      <pair>900019</pair>
+      <pair>1500019</pair>
+      <pair>1500016</pair>
+      <pair>900021</pair>
+      <pair>1500021</pair>
+   </pairs>
+</root>

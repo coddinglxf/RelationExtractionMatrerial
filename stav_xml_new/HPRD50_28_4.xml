@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@both@MSH2@and@Rad17@are@required@for@the@activation@of@the@S-phase@checkpoint@to@suppress@DNA@synthesis@in@response@to@MNNG@,@and@phosphorylation@of@SMC1@is@required@for@cellular@survival@</sentence>
+   <tags>
+      <tag pos="5">MSH2</tag>
+      <tag pos="7">Rad17</tag>
+      <tag pos="29">SMC1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">both</taggedword>
+      <taggedword index="5" part-of-speech="NNP">MSH2</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Rad17</taggedword>
+      <taggedword index="8" part-of-speech="VBP">are</taggedword>
+      <taggedword index="9" part-of-speech="VBN">required</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">activation</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">S-phase</taggedword>
+      <taggedword index="16" part-of-speech="NN">checkpoint</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="VB">suppress</taggedword>
+      <taggedword index="19" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="20" part-of-speech="NNP">synthesis</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="NN">response</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="NNP">MNNG</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="NNP">SMC1</taggedword>
+      <taggedword index="30" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="31" part-of-speech="VBN">required</taggedword>
+      <taggedword index="32" part-of-speech="IN">for</taggedword>
+      <taggedword index="33" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="34" part-of-speech="NN">survival</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="required" gov_index="9">prep_in</dependency>
+      <dependency dep="both" dep_index="4" gov="MSH2" gov_index="5">preconj</dependency>
+      <dependency dep="MSH2" dep_index="5" gov="required" gov_index="9">nsubjpass</dependency>
+      <dependency dep="MSH2" dep_index="5" gov="suppress" gov_index="18">xsubj</dependency>
+      <dependency dep="Rad17" dep_index="7" gov="MSH2" gov_index="5">conj_and</dependency>
+      <dependency dep="Rad17" dep_index="7" gov="required" gov_index="9">nsubjpass</dependency>
+      <dependency dep="Rad17" dep_index="7" gov="suppress" gov_index="18">xsubj</dependency>
+      <dependency dep="are" dep_index="8" gov="required" gov_index="9">auxpass</dependency>
+      <dependency dep="required" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="activation" gov_index="12">det</dependency>
+      <dependency dep="activation" dep_index="12" gov="required" gov_index="9">prep_for</dependency>
+      <dependency dep="the" dep_index="14" gov="checkpoint" gov_index="16">det</dependency>
+      <dependency dep="S-phase" dep_index="15" gov="checkpoint" gov_index="16">amod</dependency>
+      <dependency dep="checkpoint" dep_index="16" gov="activation" gov_index="12">prep_of</dependency>
+      <dependency dep="to" dep_index="17" gov="suppress" gov_index="18">aux</dependency>
+      <dependency dep="suppress" dep_index="18" gov="required" gov_index="9">xcomp</dependency>
+      <dependency dep="DNA" dep_index="19" gov="synthesis" gov_index="20">nn</dependency>
+      <dependency dep="synthesis" dep_index="20" gov="suppress" gov_index="18">dobj</dependency>
+      <dependency dep="response" dep_index="22" gov="synthesis" gov_index="20">prep_in</dependency>
+      <dependency dep="MNNG" dep_index="24" gov="suppress" gov_index="18">prep_to</dependency>
+      <dependency dep="phosphorylation" dep_index="27" gov="required" gov_index="31">nsubjpass</dependency>
+      <dependency dep="SMC1" dep_index="29" gov="phosphorylation" gov_index="27">prep_of</dependency>
+      <dependency dep="is" dep_index="30" gov="required" gov_index="31">auxpass</dependency>
+      <dependency dep="required" dep_index="31" gov="required" gov_index="9">conj_and</dependency>
+      <dependency dep="cellular" dep_index="33" gov="survival" gov_index="34">amod</dependency>
+      <dependency dep="survival" dep_index="34" gov="required" gov_index="31">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 18 7</relation>
+      <relation position="500029" relationship="false"></relation>
+      <relation position="700029" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>OBJECTIVE@:@To@determine@whether@other@glycoprotein 130@(@gp130@)@binding@cytokines@can@mimic@the@effects@of@oncostatin M@(@OSM@)@in@acting@synergistically@with@interleukin-1alpha@(@IL-1alpha@)@to@induce@cartilage@collagen@breakdown@and@collagenase@expression@,@and@to@determine@which@receptors@mediate@these@effects@.@</sentence>
+   <tags>
+      <tag pos="18">oncostatin M</tag>
+      <tag pos="36">collagenase</tag>
+      <tag pos="12">cytokines</tag>
+      <tag pos="26">interleukin-1alpha</tag>
+      <tag pos="28">IL-1alpha</tag>
+      <tag pos="33">collagen</tag>
+      <tag pos="7">glycoprotein 130</tag>
+      <tag pos="20">OSM</tag>
+      <tag pos="9">gp130</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">OBJECTIVE</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="TO">To</taggedword>
+      <taggedword index="4" part-of-speech="VB">determine</taggedword>
+      <taggedword index="5" part-of-speech="IN">whether</taggedword>
+      <taggedword index="6" part-of-speech="JJ">other</taggedword>
+      <taggedword index="7" part-of-speech="JJ">glycoprotein 130</taggedword>
+      <taggedword index="8" part-of-speech="NN">(</taggedword>
+      <taggedword index="9" part-of-speech="NNS">gp130</taggedword>
+      <taggedword index="10" part-of-speech="VBD">)</taggedword>
+      <taggedword index="11" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cytokines</taggedword>
+      <taggedword index="13" part-of-speech="MD">can</taggedword>
+      <taggedword index="14" part-of-speech="VB">mimic</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">oncostatin M</taggedword>
+      <taggedword index="19" part-of-speech="NNP">(</taggedword>
+      <taggedword index="20" part-of-speech="NNP">OSM</taggedword>
+      <taggedword index="21" part-of-speech="NNP">)</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="VBG">acting</taggedword>
+      <taggedword index="24" part-of-speech="RB">synergistically</taggedword>
+      <taggedword index="25" part-of-speech="IN">with</taggedword>
+      <taggedword index="26" part-of-speech="JJ">interleukin-1alpha</taggedword>
+      <taggedword index="27" part-of-speech="JJ">(</taggedword>
+      <taggedword index="28" part-of-speech="NNS">IL-1alpha</taggedword>
+      <taggedword index="29" part-of-speech="VBN">)</taggedword>
+      <taggedword index="30" part-of-speech="TO">to</taggedword>
+      <taggedword index="31" part-of-speech="VB">induce</taggedword>
+      <taggedword index="32" part-of-speech="NN">cartilage</taggedword>
+      <taggedword index="33" part-of-speech="NN">collagen</taggedword>
+      <taggedword index="34" part-of-speech="NN">breakdown</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="JJ">collagenase</taggedword>
+      <taggedword index="37" part-of-speech="NN">expression</taggedword>
+      <taggedword index="38" part-of-speech=",">,</taggedword>
+      <taggedword index="39" part-of-speech="CC">and</taggedword>
+      <taggedword index="40" part-of-speech="TO">to</taggedword>
+      <taggedword index="41" part-of-speech="VB">determine</taggedword>
+      <taggedword index="42" part-of-speech="WDT">which</taggedword>
+      <taggedword index="43" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="44" part-of-speech="VB">mediate</taggedword>
+      <taggedword index="45" part-of-speech="DT">these</taggedword>
+      <taggedword index="46" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="47" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="OBJECTIVE" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="To" dep_index="3" gov="determine" gov_index="4">aux</dependency>
+      <dependency dep="determine" dep_index="4" gov="OBJECTIVE" gov_index="1">infmod</dependency>
+      <dependency dep="whether" dep_index="5" gov=")" gov_index="10">mark</dependency>
+      <dependency dep="other" dep_index="6" gov="gp130" gov_index="9">amod</dependency>
+      <dependency dep="glycoprotein 130" dep_index="7" gov="gp130" gov_index="9">amod</dependency>
+      <dependency dep="(" dep_index="8" gov="gp130" gov_index="9">nn</dependency>
+      <dependency dep="gp130" dep_index="9" gov=")" gov_index="10">nsubj</dependency>
+      <dependency dep=")" dep_index="10" gov="determine" gov_index="4">ccomp</dependency>
+      <dependency dep="binding" dep_index="11" gov="cytokines" gov_index="12">amod</dependency>
+      <dependency dep="cytokines" dep_index="12" gov="mimic" gov_index="14">nsubj</dependency>
+      <dependency dep="can" dep_index="13" gov="mimic" gov_index="14">aux</dependency>
+      <dependency dep="mimic" dep_index="14" gov=")" gov_index="10">ccomp</dependency>
+      <dependency dep="the" dep_index="15" gov="effects" gov_index="16">det</dependency>
+      <dependency dep="effects" dep_index="16" gov="mimic" gov_index="14">dobj</dependency>
+      <dependency dep="oncostatin M" dep_index="18" gov=")" gov_index="21">nn</dependency>
+      <dependency dep="(" dep_index="19" gov=")" gov_index="21">nn</dependency>
+      <dependency dep="OSM" dep_index="20" gov=")" gov_index="21">nn</dependency>
+      <dependency dep=")" dep_index="21" gov="effects" gov_index="16">prep_of</dependency>
+      <dependency dep="acting" dep_index="23" gov="mimic" gov_index="14">prepc_in</dependency>
+      <dependency dep="synergistically" dep_index="24" gov="acting" gov_index="23">advmod</dependency>
+      <dependency dep="interleukin-1alpha" dep_index="26" gov="IL-1alpha" gov_index="28">amod</dependency>
+      <dependency dep="(" dep_index="27" gov="IL-1alpha" gov_index="28">amod</dependency>
+      <dependency dep="IL-1alpha" dep_index="28" gov="acting" gov_index="23">prep_with</dependency>
+      <dependency dep=")" dep_index="29" gov="IL-1alpha" gov_index="28">partmod</dependency>
+      <dependency dep="to" dep_index="30" gov="induce" gov_index="31">aux</dependency>
+      <dependency dep="induce" dep_index="31" gov=")" gov_index="29">ccomp</dependency>
+      <dependency dep="cartilage" dep_index="32" gov="breakdown" gov_index="34">nn</dependency>
+      <dependency dep="collagen" dep_index="33" gov="breakdown" gov_index="34">nn</dependency>
+      <dependency dep="breakdown" dep_index="34" gov="induce" gov_index="31">dobj</dependency>
+      <dependency dep="collagenase" dep_index="36" gov="expression" gov_index="37">amod</dependency>
+      <dependency dep="expression" dep_index="37" gov="induce" gov_index="31">dobj</dependency>
+      <dependency dep="expression" dep_index="37" gov="breakdown" gov_index="34">conj_and</dependency>
+      <dependency dep="to" dep_index="40" gov="determine" gov_index="41">aux</dependency>
+      <dependency dep="determine" dep_index="41" gov=")" gov_index="29">ccomp</dependency>
+      <dependency dep="determine" dep_index="41" gov="induce" gov_index="31">conj_and</dependency>
+      <dependency dep="which" dep_index="42" gov="mediate" gov_index="44">dobj</dependency>
+      <dependency dep="receptors" dep_index="43" gov="mediate" gov_index="44">nsubj</dependency>
+      <dependency dep="mediate" dep_index="44" gov="determine" gov_index="41">ccomp</dependency>
+      <dependency dep="these" dep_index="45" gov="effects" gov_index="46">det</dependency>
+      <dependency dep="effects" dep_index="46" gov="mediate" gov_index="44">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800036" relationship="true">18 21 16 14 23 28 29 31 37 36</relation>
+      <relation position="1200018" relationship="false">12 14 16 21 18</relation>
+      <relation position="1800026" relationship="true">18 21 16 14 23 28 26</relation>
+      <relation position="1800028" relationship="true">18 21 16 14 23 28</relation>
+      <relation position="1800033" relationship="true">18 21 16 14 23 28 29 31 34 33</relation>
+      <relation position="700018" relationship="false">7 9 10 14 16 21 18</relation>
+      <relation position="1800020" relationship="false">18 21 20</relation>
+      <relation position="900018" relationship="false">9 10 14 16 21 18</relation>
+      <relation position="1200036" relationship="true">12 14 23 28 29 31 37 36</relation>
+      <relation position="2600036" relationship="true">26 28 29 31 37 36</relation>
+      <relation position="2800036" relationship="true"></relation>
+      <relation position="3300036" relationship="false">33 34 31 37 36</relation>
+      <relation position="700036" relationship="false">7 9 10 14 23 28 29 31 37 36</relation>
+      <relation position="2000036" relationship="true">20 21 16 14 23 28 29 31 37 36</relation>
+      <relation position="900036" relationship="false">9 10 14 23 28 29 31 37 36</relation>
+      <relation position="1200026" relationship="true">12 14 23 28 26</relation>
+      <relation position="1200028" relationship="true">12 14 23 28</relation>
+      <relation position="1200033" relationship="true">12 14 23 28 29 31 34 33</relation>
+      <relation position="700012" relationship="true">7 9 10 14 12</relation>
+      <relation position="1200020" relationship="false">12 14 16 21 20</relation>
+      <relation position="900012" relationship="true">9 10 14 12</relation>
+      <relation position="2600028" relationship="false"></relation>
+      <relation position="2600033" relationship="true">26 28 29 31 34 33</relation>
+      <relation position="700026" relationship="false">7 9 10 14 23 28 26</relation>
+      <relation position="2000026" relationship="true">20 21 16 14 23 28 26</relation>
+      <relation position="900026" relationship="false">9 10 14 23 28 26</relation>
+      <relation position="2800033" relationship="true"></relation>
+      <relation position="700028" relationship="false">7 9 10 14 23 28</relation>
+      <relation position="2000028" relationship="true">20 21 16 14 23 28</relation>
+      <relation position="900028" relationship="false">9 10 14 23 28</relation>
+      <relation position="700033" relationship="false">7 9 10 14 23 28 29 31 34 33</relation>
+      <relation position="2000033" relationship="true">20 21 16 14 23 28 29 31 34 33</relation>
+      <relation position="900033" relationship="false">9 10 14 23 28 29 31 34 33</relation>
+      <relation position="700020" relationship="false">7 9 10 14 16 21 20</relation>
+      <relation position="700009" relationship="false"></relation>
+      <relation position="900020" relationship="false">9 10 14 16 21 20</relation>
+   </relations>
+   <pairs>
+      <pair>2600036</pair>
+      <pair>2600033</pair>
+      <pair>2000028</pair>
+      <pair>1800028</pair>
+      <pair>1200026</pair>
+      <pair>2800036</pair>
+      <pair>2800033</pair>
+      <pair>2000026</pair>
+      <pair>1800026</pair>
+      <pair>1200028</pair>
+      <pair>1200033</pair>
+      <pair>1800036</pair>
+      <pair>2000036</pair>
+      <pair>1200036</pair>
+      <pair>2000033</pair>
+      <pair>900012</pair>
+      <pair>1800033</pair>
+      <pair>700012</pair>
+   </pairs>
+</root>

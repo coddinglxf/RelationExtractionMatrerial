@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crystal@structure@of@the@heterodimeric@bZIP@transcription@factor@c-Fos@-@c-Jun@bound@to@DNA@.@</sentence>
+   <tags>
+      <tag pos="9">c-Fos</tag>
+      <tag pos="11">c-Jun</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Crystal</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">heterodimeric</taggedword>
+      <taggedword index="6" part-of-speech="JJ">bZIP</taggedword>
+      <taggedword index="7" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="8" part-of-speech="NN">factor</taggedword>
+      <taggedword index="9" part-of-speech="NNS">c-Fos</taggedword>
+      <taggedword index="10" part-of-speech=":">-</taggedword>
+      <taggedword index="11" part-of-speech="NN">c-Jun</taggedword>
+      <taggedword index="12" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crystal" dep_index="1" gov="structure" gov_index="2">nn</dependency>
+      <dependency dep="structure" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="c-Fos" gov_index="9">det</dependency>
+      <dependency dep="heterodimeric" dep_index="5" gov="c-Fos" gov_index="9">amod</dependency>
+      <dependency dep="bZIP" dep_index="6" gov="c-Fos" gov_index="9">amod</dependency>
+      <dependency dep="transcription" dep_index="7" gov="c-Fos" gov_index="9">nn</dependency>
+      <dependency dep="factor" dep_index="8" gov="c-Fos" gov_index="9">nn</dependency>
+      <dependency dep="c-Fos" dep_index="9" gov="structure" gov_index="2">prep_of</dependency>
+      <dependency dep="c-Jun" dep_index="11" gov="structure" gov_index="2">dep</dependency>
+      <dependency dep="bound" dep_index="12" gov="c-Jun" gov_index="11">partmod</dependency>
+      <dependency dep="DNA" dep_index="14" gov="bound" gov_index="12">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="true">9 2 11</relation>
+   </relations>
+   <pairs>
+      <pair>900011</pair>
+   </pairs>
+</root>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Transcription@factor@TFIID@consists@of@TATA binding protein@(@TBP@)@and@at@least@eight@TBP@-associated@factors@(TAFs)@.@</sentence>
+   <tags>
+      <tag pos="3">TFIID</tag>
+      <tag pos="6">TATA binding protein</tag>
+      <tag pos="8">TBP</tag>
+      <tag pos="14">TBP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Transcription</taggedword>
+      <taggedword index="2" part-of-speech="NN">factor</taggedword>
+      <taggedword index="3" part-of-speech="NNP">TFIID</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">consists</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">TATA binding protein</taggedword>
+      <taggedword index="7" part-of-speech="NNP">(</taggedword>
+      <taggedword index="8" part-of-speech="NNP">TBP</taggedword>
+      <taggedword index="9" part-of-speech="NNP">)</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="IN">at</taggedword>
+      <taggedword index="12" part-of-speech="JJS">least</taggedword>
+      <taggedword index="13" part-of-speech="CD">eight</taggedword>
+      <taggedword index="14" part-of-speech="NNP">TBP</taggedword>
+      <taggedword index="15" part-of-speech="JJ">-associated</taggedword>
+      <taggedword index="16" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="17" part-of-speech="NNS">(TAFs)</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Transcription" dep_index="1" gov="TFIID" gov_index="3">nn</dependency>
+      <dependency dep="factor" dep_index="2" gov="TFIID" gov_index="3">nn</dependency>
+      <dependency dep="TFIID" dep_index="3" gov="consists" gov_index="4">nsubj</dependency>
+      <dependency dep="consists" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="TATA binding protein" dep_index="6" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="(" dep_index="7" gov=")" gov_index="9">nn</dependency>
+      <dependency dep="TBP" dep_index="8" gov=")" gov_index="9">nn</dependency>
+      <dependency dep=")" dep_index="9" gov="consists" gov_index="4">prep_of</dependency>
+      <dependency dep="at" dep_index="11" gov="eight" gov_index="13">quantmod</dependency>
+      <dependency dep="least" dep_index="12" gov="at" gov_index="11">mwe</dependency>
+      <dependency dep="least" dep_index="12" gov="at" gov_index="11">pobj</dependency>
+      <dependency dep="eight" dep_index="13" gov="consists" gov_index="4">prep_of</dependency>
+      <dependency dep="eight" dep_index="13" gov=")" gov_index="9">conj_and</dependency>
+      <dependency dep="TBP" dep_index="14" gov="(TAFs)" gov_index="17">nn</dependency>
+      <dependency dep="-associated" dep_index="15" gov="(TAFs)" gov_index="17">amod</dependency>
+      <dependency dep="factors" dep_index="16" gov="(TAFs)" gov_index="17">nn</dependency>
+      <dependency dep="(TAFs)" dep_index="17" gov="eight" gov_index="13">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300006" relationship="false">3 4 9 6</relation>
+      <relation position="300008" relationship="false">3 4 9 8</relation>
+      <relation position="300014" relationship="false">3 4 13 17 14</relation>
+      <relation position="600008" relationship="false">6 9 8</relation>
+      <relation position="600014" relationship="false">6 9 4 13 17 14</relation>
+      <relation position="800014" relationship="false">8 9 4 13 17 14</relation>
+   </relations>
+   <pairs/>
+</root>

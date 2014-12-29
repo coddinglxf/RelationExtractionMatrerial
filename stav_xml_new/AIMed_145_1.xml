@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crystal@structure@of@the@soluble@human@55@kd@TNF@receptor-human@TNF beta@complex@:@implications@for@TNF@receptor@activation@.@</sentence>
+   <tags>
+      <tag pos="11">TNF beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Crystal</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">soluble</taggedword>
+      <taggedword index="6" part-of-speech="JJ">human</taggedword>
+      <taggedword index="7" part-of-speech="CD">55</taggedword>
+      <taggedword index="8" part-of-speech="NNP">kd</taggedword>
+      <taggedword index="9" part-of-speech="NNP">TNF</taggedword>
+      <taggedword index="10" part-of-speech="JJ">receptor-human</taggedword>
+      <taggedword index="11" part-of-speech="NNP">TNF beta</taggedword>
+      <taggedword index="12" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="13" part-of-speech=":">:</taggedword>
+      <taggedword index="14" part-of-speech="NNS">implications</taggedword>
+      <taggedword index="15" part-of-speech="IN">for</taggedword>
+      <taggedword index="16" part-of-speech="NNP">TNF</taggedword>
+      <taggedword index="17" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="18" part-of-speech="NN">activation</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crystal" dep_index="1" gov="structure" gov_index="2">nn</dependency>
+      <dependency dep="structure" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="TNF" gov_index="9">det</dependency>
+      <dependency dep="soluble" dep_index="5" gov="human" gov_index="6">amod</dependency>
+      <dependency dep="human" dep_index="6" gov="TNF" gov_index="9">amod</dependency>
+      <dependency dep="55" dep_index="7" gov="TNF" gov_index="9">num</dependency>
+      <dependency dep="kd" dep_index="8" gov="TNF" gov_index="9">nn</dependency>
+      <dependency dep="TNF" dep_index="9" gov="structure" gov_index="2">prep_of</dependency>
+      <dependency dep="receptor-human" dep_index="10" gov="TNF beta" gov_index="11">amod</dependency>
+      <dependency dep="TNF beta" dep_index="11" gov="complex" gov_index="12">dep</dependency>
+      <dependency dep="complex" dep_index="12" gov="TNF" gov_index="9">amod</dependency>
+      <dependency dep="implications" dep_index="14" gov="structure" gov_index="2">dep</dependency>
+      <dependency dep="TNF" dep_index="16" gov="activation" gov_index="18">nn</dependency>
+      <dependency dep="receptor" dep_index="17" gov="activation" gov_index="18">nn</dependency>
+      <dependency dep="activation" dep_index="18" gov="implications" gov_index="14">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

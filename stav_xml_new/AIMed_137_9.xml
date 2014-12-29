@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interaction@can@also@be@observed@in@vivo@,@as@TBP@can@be@co-precipitated@with@Oct2@from@co-transfected@Cos1@cells@and@TBP@co-immunoprecipitates@with@the@endogenous@Oct1@from@HeLa@cells@.@</sentence>
+   <tags>
+      <tag pos="11">TBP</tag>
+      <tag pos="16">Oct2</tag>
+      <tag pos="22">TBP</tag>
+      <tag pos="27">Oct1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="MD">can</taggedword>
+      <taggedword index="4" part-of-speech="RB">also</taggedword>
+      <taggedword index="5" part-of-speech="VB">be</taggedword>
+      <taggedword index="6" part-of-speech="VBN">observed</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="IN">as</taggedword>
+      <taggedword index="11" part-of-speech="NNP">TBP</taggedword>
+      <taggedword index="12" part-of-speech="MD">can</taggedword>
+      <taggedword index="13" part-of-speech="VB">be</taggedword>
+      <taggedword index="14" part-of-speech="VBN">co-precipitated</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="NNS">Oct2</taggedword>
+      <taggedword index="17" part-of-speech="IN">from</taggedword>
+      <taggedword index="18" part-of-speech="JJ">co-transfected</taggedword>
+      <taggedword index="19" part-of-speech="JJ">Cos1</taggedword>
+      <taggedword index="20" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NNP">TBP</taggedword>
+      <taggedword index="23" part-of-speech="NNS">co-immunoprecipitates</taggedword>
+      <taggedword index="24" part-of-speech="IN">with</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="JJ">endogenous</taggedword>
+      <taggedword index="27" part-of-speech="NNS">Oct1</taggedword>
+      <taggedword index="28" part-of-speech="IN">from</taggedword>
+      <taggedword index="29" part-of-speech="NNP">HeLa</taggedword>
+      <taggedword index="30" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interaction" gov_index="2">det</dependency>
+      <dependency dep="interaction" dep_index="2" gov="observed" gov_index="6">nsubjpass</dependency>
+      <dependency dep="can" dep_index="3" gov="observed" gov_index="6">aux</dependency>
+      <dependency dep="also" dep_index="4" gov="observed" gov_index="6">advmod</dependency>
+      <dependency dep="be" dep_index="5" gov="observed" gov_index="6">auxpass</dependency>
+      <dependency dep="observed" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="vivo" dep_index="8" gov="observed" gov_index="6">prep_in</dependency>
+      <dependency dep="as" dep_index="10" gov="co-precipitated" gov_index="14">mark</dependency>
+      <dependency dep="TBP" dep_index="11" gov="co-precipitated" gov_index="14">nsubjpass</dependency>
+      <dependency dep="can" dep_index="12" gov="co-precipitated" gov_index="14">aux</dependency>
+      <dependency dep="be" dep_index="13" gov="co-precipitated" gov_index="14">auxpass</dependency>
+      <dependency dep="co-precipitated" dep_index="14" gov="observed" gov_index="6">advcl</dependency>
+      <dependency dep="Oct2" dep_index="16" gov="co-precipitated" gov_index="14">prep_with</dependency>
+      <dependency dep="co-transfected" dep_index="18" gov="cells" gov_index="20">amod</dependency>
+      <dependency dep="Cos1" dep_index="19" gov="cells" gov_index="20">amod</dependency>
+      <dependency dep="cells" dep_index="20" gov="Oct2" gov_index="16">prep_from</dependency>
+      <dependency dep="TBP" dep_index="22" gov="co-immunoprecipitates" gov_index="23">nn</dependency>
+      <dependency dep="co-immunoprecipitates" dep_index="23" gov="co-precipitated" gov_index="14">prep_with</dependency>
+      <dependency dep="co-immunoprecipitates" dep_index="23" gov="Oct2" gov_index="16">conj_and</dependency>
+      <dependency dep="the" dep_index="25" gov="Oct1" gov_index="27">det</dependency>
+      <dependency dep="endogenous" dep_index="26" gov="Oct1" gov_index="27">amod</dependency>
+      <dependency dep="Oct1" dep_index="27" gov="co-immunoprecipitates" gov_index="23">prep_with</dependency>
+      <dependency dep="HeLa" dep_index="29" gov="cells" gov_index="30">nn</dependency>
+      <dependency dep="cells" dep_index="30" gov="co-precipitated" gov_index="14">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100016" relationship="true">11 14 16</relation>
+      <relation position="1100022" relationship="false">11 14 23 22</relation>
+      <relation position="1100027" relationship="false">11 14 23 27</relation>
+      <relation position="1600022" relationship="false">16 14 23 22</relation>
+      <relation position="1600027" relationship="false">16 14 23 27</relation>
+      <relation position="2200027" relationship="true">22 23 27</relation>
+   </relations>
+   <pairs>
+      <pair>1100016</pair>
+      <pair>2200027</pair>
+   </pairs>
+</root>

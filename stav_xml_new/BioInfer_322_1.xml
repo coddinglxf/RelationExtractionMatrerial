@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@cell@extracts@,@we@found@that@complementary@strand@synthesis@was@inhibited@by@the@cyclin-dependent kinase inhibitor@p21@(@WAF1@/@CIP1@)@and@rescued@by@the@addition@of@proliferating cell nuclear antigen@,@arguing@for@the@involvement@of@DNA polymerase@(@Pol@)@delta@in@the@conversion@reaction@.@</sentence>
+   <tags>
+      <tag pos="15">cyclin-dependent kinase inhibitor</tag>
+      <tag pos="18">WAF1</tag>
+      <tag pos="28">proliferating cell nuclear antigen</tag>
+      <tag pos="20">CIP1</tag>
+      <tag pos="16">p21</tag>
+      <tag pos="35">DNA polymerase</tag>
+      <tag pos="37">Pol</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">cell</taggedword>
+      <taggedword index="3" part-of-speech="NNS">extracts</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBD">found</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="JJ">complementary</taggedword>
+      <taggedword index="9" part-of-speech="JJ">strand</taggedword>
+      <taggedword index="10" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="11" part-of-speech="VBD">was</taggedword>
+      <taggedword index="12" part-of-speech="VBN">inhibited</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">cyclin-dependent kinase inhibitor</taggedword>
+      <taggedword index="16" part-of-speech="JJ">p21</taggedword>
+      <taggedword index="17" part-of-speech="NN">(</taggedword>
+      <taggedword index="18" part-of-speech="NNP">WAF1</taggedword>
+      <taggedword index="19" part-of-speech="NNP">/</taggedword>
+      <taggedword index="20" part-of-speech="NNP">CIP1</taggedword>
+      <taggedword index="21" part-of-speech="NNP">)</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="VBD">rescued</taggedword>
+      <taggedword index="24" part-of-speech="IN">by</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">addition</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="NN">proliferating cell nuclear antigen</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="VBG">arguing</taggedword>
+      <taggedword index="31" part-of-speech="IN">for</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">involvement</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="NNP">DNA polymerase</taggedword>
+      <taggedword index="36" part-of-speech="NNP">(</taggedword>
+      <taggedword index="37" part-of-speech="NNP">Pol</taggedword>
+      <taggedword index="38" part-of-speech="NNP">)</taggedword>
+      <taggedword index="39" part-of-speech="NN">delta</taggedword>
+      <taggedword index="40" part-of-speech="IN">in</taggedword>
+      <taggedword index="41" part-of-speech="DT">the</taggedword>
+      <taggedword index="42" part-of-speech="NN">conversion</taggedword>
+      <taggedword index="43" part-of-speech="NN">reaction</taggedword>
+      <taggedword index="44" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="cell" dep_index="2" gov="extracts" gov_index="3">nn</dependency>
+      <dependency dep="extracts" dep_index="3" gov="found" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="found" gov_index="6">nsubj</dependency>
+      <dependency dep="we" dep_index="5" gov="rescued" gov_index="23">nsubj</dependency>
+      <dependency dep="found" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="inhibited" gov_index="12">mark</dependency>
+      <dependency dep="complementary" dep_index="8" gov="synthesis" gov_index="10">amod</dependency>
+      <dependency dep="strand" dep_index="9" gov="synthesis" gov_index="10">amod</dependency>
+      <dependency dep="synthesis" dep_index="10" gov="inhibited" gov_index="12">nsubjpass</dependency>
+      <dependency dep="was" dep_index="11" gov="inhibited" gov_index="12">auxpass</dependency>
+      <dependency dep="inhibited" dep_index="12" gov="found" gov_index="6">ccomp</dependency>
+      <dependency dep="the" dep_index="14" gov=")" gov_index="21">det</dependency>
+      <dependency dep="cyclin-dependent kinase inhibitor" dep_index="15" gov=")" gov_index="21">amod</dependency>
+      <dependency dep="p21" dep_index="16" gov=")" gov_index="21">amod</dependency>
+      <dependency dep="(" dep_index="17" gov=")" gov_index="21">nn</dependency>
+      <dependency dep="WAF1" dep_index="18" gov=")" gov_index="21">nn</dependency>
+      <dependency dep="/" dep_index="19" gov=")" gov_index="21">nn</dependency>
+      <dependency dep="CIP1" dep_index="20" gov=")" gov_index="21">nn</dependency>
+      <dependency dep=")" dep_index="21" gov="inhibited" gov_index="12">agent</dependency>
+      <dependency dep="rescued" dep_index="23" gov="found" gov_index="6">conj_and</dependency>
+      <dependency dep="the" dep_index="25" gov="addition" gov_index="26">det</dependency>
+      <dependency dep="addition" dep_index="26" gov="rescued" gov_index="23">prep_by</dependency>
+      <dependency dep="proliferating cell nuclear antigen" dep_index="28" gov="addition" gov_index="26">prep_of</dependency>
+      <dependency dep="arguing" dep_index="30" gov="rescued" gov_index="23">xcomp</dependency>
+      <dependency dep="the" dep_index="32" gov="involvement" gov_index="33">det</dependency>
+      <dependency dep="involvement" dep_index="33" gov="arguing" gov_index="30">prep_for</dependency>
+      <dependency dep="DNA polymerase" dep_index="35" gov="delta" gov_index="39">nn</dependency>
+      <dependency dep="(" dep_index="36" gov="delta" gov_index="39">nn</dependency>
+      <dependency dep="Pol" dep_index="37" gov="delta" gov_index="39">nn</dependency>
+      <dependency dep=")" dep_index="38" gov="delta" gov_index="39">nn</dependency>
+      <dependency dep="delta" dep_index="39" gov="involvement" gov_index="33">prep_of</dependency>
+      <dependency dep="the" dep_index="41" gov="reaction" gov_index="43">det</dependency>
+      <dependency dep="conversion" dep_index="42" gov="reaction" gov_index="43">nn</dependency>
+      <dependency dep="reaction" dep_index="43" gov="arguing" gov_index="30">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500018" relationship="true">15 21 18</relation>
+      <relation position="1500028" relationship="false"></relation>
+      <relation position="1500020" relationship="true">15 21 20</relation>
+      <relation position="1500016" relationship="true">15 21 16</relation>
+      <relation position="1500035" relationship="false"></relation>
+      <relation position="1500037" relationship="false"></relation>
+      <relation position="1800028" relationship="false"></relation>
+      <relation position="1800020" relationship="false">18 21 20</relation>
+      <relation position="1600018" relationship="false">16 21 18</relation>
+      <relation position="1800035" relationship="false"></relation>
+      <relation position="1800037" relationship="false"></relation>
+      <relation position="2000028" relationship="false"></relation>
+      <relation position="1600028" relationship="false"></relation>
+      <relation position="2800035" relationship="false">28 26 23 30 33 39 35</relation>
+      <relation position="2800037" relationship="false">28 26 23 30 33 39 37</relation>
+      <relation position="1600020" relationship="false">16 21 20</relation>
+      <relation position="2000035" relationship="false"></relation>
+      <relation position="2000037" relationship="false"></relation>
+      <relation position="1600035" relationship="false"></relation>
+      <relation position="1600037" relationship="false"></relation>
+      <relation position="3500037" relationship="false">35 39 37</relation>
+   </relations>
+   <pairs>
+      <pair>1500018</pair>
+      <pair>1500016</pair>
+      <pair>1500020</pair>
+   </pairs>
+</root>

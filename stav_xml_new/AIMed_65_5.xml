@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Although@Fos@/@Jun@and@ATF@/@CREB@were@previously@thought@to@interact@preferentially@with@different@DNA@regulatory@elements@(the@AP-1/TRE@and@ATF/CRE@sites@,@respectively)@,@we@find@that@members@of@these@two@families@form@selective@cross-family@heterodimers@.@</sentence>
+   <tags>
+      <tag pos="2">Fos</tag>
+      <tag pos="4">Jun</tag>
+      <tag pos="6">ATF</tag>
+      <tag pos="8">CREB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Although</taggedword>
+      <taggedword index="2" part-of-speech="NNP">Fos</taggedword>
+      <taggedword index="3" part-of-speech="NNP">/</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Jun</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">ATF</taggedword>
+      <taggedword index="7" part-of-speech="NNP">/</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CREB</taggedword>
+      <taggedword index="9" part-of-speech="VBD">were</taggedword>
+      <taggedword index="10" part-of-speech="RB">previously</taggedword>
+      <taggedword index="11" part-of-speech="VBN">thought</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">interact</taggedword>
+      <taggedword index="14" part-of-speech="JJ">preferentially</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="JJ">different</taggedword>
+      <taggedword index="17" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="18" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="19" part-of-speech="NNS">elements</taggedword>
+      <taggedword index="20" part-of-speech="JJ">(the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">AP-1/TRE</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="JJ">ATF/CRE</taggedword>
+      <taggedword index="24" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="RB">respectively)</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="PRP">we</taggedword>
+      <taggedword index="29" part-of-speech="VBP">find</taggedword>
+      <taggedword index="30" part-of-speech="IN">that</taggedword>
+      <taggedword index="31" part-of-speech="NNS">members</taggedword>
+      <taggedword index="32" part-of-speech="IN">of</taggedword>
+      <taggedword index="33" part-of-speech="DT">these</taggedword>
+      <taggedword index="34" part-of-speech="CD">two</taggedword>
+      <taggedword index="35" part-of-speech="NNS">families</taggedword>
+      <taggedword index="36" part-of-speech="VBP">form</taggedword>
+      <taggedword index="37" part-of-speech="JJ">selective</taggedword>
+      <taggedword index="38" part-of-speech="JJ">cross-family</taggedword>
+      <taggedword index="39" part-of-speech="NNS">heterodimers</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Although" dep_index="1" gov="thought" gov_index="11">mark</dependency>
+      <dependency dep="Fos" dep_index="2" gov="Jun" gov_index="4">nn</dependency>
+      <dependency dep="/" dep_index="3" gov="Jun" gov_index="4">nn</dependency>
+      <dependency dep="Jun" dep_index="4" gov="thought" gov_index="11">nsubjpass</dependency>
+      <dependency dep="Jun" dep_index="4" gov="interact" gov_index="13">xsubj</dependency>
+      <dependency dep="ATF" dep_index="6" gov="CREB" gov_index="8">nn</dependency>
+      <dependency dep="/" dep_index="7" gov="CREB" gov_index="8">nn</dependency>
+      <dependency dep="CREB" dep_index="8" gov="Jun" gov_index="4">conj_and</dependency>
+      <dependency dep="CREB" dep_index="8" gov="thought" gov_index="11">nsubjpass</dependency>
+      <dependency dep="CREB" dep_index="8" gov="interact" gov_index="13">xsubj</dependency>
+      <dependency dep="were" dep_index="9" gov="thought" gov_index="11">auxpass</dependency>
+      <dependency dep="previously" dep_index="10" gov="thought" gov_index="11">advmod</dependency>
+      <dependency dep="thought" dep_index="11" gov="find" gov_index="29">advcl</dependency>
+      <dependency dep="to" dep_index="12" gov="interact" gov_index="13">aux</dependency>
+      <dependency dep="interact" dep_index="13" gov="thought" gov_index="11">xcomp</dependency>
+      <dependency dep="preferentially" dep_index="14" gov="sites" gov_index="24">amod</dependency>
+      <dependency dep="different" dep_index="16" gov="elements" gov_index="19">amod</dependency>
+      <dependency dep="DNA" dep_index="17" gov="elements" gov_index="19">nn</dependency>
+      <dependency dep="regulatory" dep_index="18" gov="elements" gov_index="19">amod</dependency>
+      <dependency dep="elements" dep_index="19" gov="preferentially" gov_index="14">prep_with</dependency>
+      <dependency dep="(the" dep_index="20" gov="sites" gov_index="24">amod</dependency>
+      <dependency dep="AP-1/TRE" dep_index="21" gov="sites" gov_index="24">amod</dependency>
+      <dependency dep="ATF/CRE" dep_index="23" gov="AP-1/TRE" gov_index="21">conj_and</dependency>
+      <dependency dep="ATF/CRE" dep_index="23" gov="sites" gov_index="24">amod</dependency>
+      <dependency dep="sites" dep_index="24" gov="interact" gov_index="13">dobj</dependency>
+      <dependency dep="respectively)" dep_index="26" gov="find" gov_index="29">advmod</dependency>
+      <dependency dep="we" dep_index="28" gov="find" gov_index="29">nsubj</dependency>
+      <dependency dep="find" dep_index="29" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="30" gov="form" gov_index="36">mark</dependency>
+      <dependency dep="members" dep_index="31" gov="form" gov_index="36">nsubj</dependency>
+      <dependency dep="these" dep_index="33" gov="families" gov_index="35">det</dependency>
+      <dependency dep="two" dep_index="34" gov="families" gov_index="35">num</dependency>
+      <dependency dep="families" dep_index="35" gov="members" gov_index="31">prep_of</dependency>
+      <dependency dep="form" dep_index="36" gov="find" gov_index="29">ccomp</dependency>
+      <dependency dep="selective" dep_index="37" gov="heterodimers" gov_index="39">amod</dependency>
+      <dependency dep="cross-family" dep_index="38" gov="heterodimers" gov_index="39">amod</dependency>
+      <dependency dep="heterodimers" dep_index="39" gov="form" gov_index="36">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false"></relation>
+      <relation position="200006" relationship="false">2 4 13 8 6</relation>
+      <relation position="200008" relationship="false">2 4 13 8</relation>
+      <relation position="400006" relationship="false">4 13 8 6</relation>
+      <relation position="400008" relationship="false">4 13 8</relation>
+      <relation position="600008" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@ydaP@gene@might@belong@to@the@increasing@number@of@sigmaB@-dependent@genes@whose@orthologues@are@under@the@control@of@sigmas@in@Escherichia@coli@,@indicating@that@both@regulons@may@fulfil@similar@functions@.@</sentence>
+   <tags>
+      <tag pos="11">sigmaB</tag>
+      <tag pos="2">ydaP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">ydaP</taggedword>
+      <taggedword index="3" part-of-speech="NN">gene</taggedword>
+      <taggedword index="4" part-of-speech="MD">might</taggedword>
+      <taggedword index="5" part-of-speech="VB">belong</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="VBG">increasing</taggedword>
+      <taggedword index="9" part-of-speech="NN">number</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">sigmaB</taggedword>
+      <taggedword index="12" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="13" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="14" part-of-speech="WP$">whose</taggedword>
+      <taggedword index="15" part-of-speech="NNS">orthologues</taggedword>
+      <taggedword index="16" part-of-speech="VBP">are</taggedword>
+      <taggedword index="17" part-of-speech="IN">under</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">control</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NNS">sigmas</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="NNP">Escherichia</taggedword>
+      <taggedword index="24" part-of-speech="NNS">coli</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="VBG">indicating</taggedword>
+      <taggedword index="27" part-of-speech="IN">that</taggedword>
+      <taggedword index="28" part-of-speech="DT">both</taggedword>
+      <taggedword index="29" part-of-speech="NNS">regulons</taggedword>
+      <taggedword index="30" part-of-speech="MD">may</taggedword>
+      <taggedword index="31" part-of-speech="VB">fulfil</taggedword>
+      <taggedword index="32" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="33" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="gene" gov_index="3">det</dependency>
+      <dependency dep="ydaP" dep_index="2" gov="gene" gov_index="3">nn</dependency>
+      <dependency dep="gene" dep_index="3" gov="belong" gov_index="5">nsubj</dependency>
+      <dependency dep="might" dep_index="4" gov="belong" gov_index="5">aux</dependency>
+      <dependency dep="belong" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="number" gov_index="9">det</dependency>
+      <dependency dep="increasing" dep_index="8" gov="number" gov_index="9">amod</dependency>
+      <dependency dep="number" dep_index="9" gov="belong" gov_index="5">prep_to</dependency>
+      <dependency dep="sigmaB" dep_index="11" gov="genes" gov_index="13">amod</dependency>
+      <dependency dep="-dependent" dep_index="12" gov="genes" gov_index="13">amod</dependency>
+      <dependency dep="genes" dep_index="13" gov="number" gov_index="9">prep_of</dependency>
+      <dependency dep="whose" dep_index="14" gov="are" gov_index="16">dep</dependency>
+      <dependency dep="orthologues" dep_index="15" gov="are" gov_index="16">nsubj</dependency>
+      <dependency dep="are" dep_index="16" gov="genes" gov_index="13">dep</dependency>
+      <dependency dep="the" dep_index="18" gov="control" gov_index="19">det</dependency>
+      <dependency dep="control" dep_index="19" gov="are" gov_index="16">prep_under</dependency>
+      <dependency dep="sigmas" dep_index="21" gov="control" gov_index="19">prep_of</dependency>
+      <dependency dep="Escherichia" dep_index="23" gov="coli" gov_index="24">nn</dependency>
+      <dependency dep="coli" dep_index="24" gov="sigmas" gov_index="21">prep_in</dependency>
+      <dependency dep="indicating" dep_index="26" gov="are" gov_index="16">xcomp</dependency>
+      <dependency dep="that" dep_index="27" gov="fulfil" gov_index="31">mark</dependency>
+      <dependency dep="both" dep_index="28" gov="regulons" gov_index="29">det</dependency>
+      <dependency dep="regulons" dep_index="29" gov="fulfil" gov_index="31">nsubj</dependency>
+      <dependency dep="may" dep_index="30" gov="fulfil" gov_index="31">aux</dependency>
+      <dependency dep="fulfil" dep_index="31" gov="indicating" gov_index="26">ccomp</dependency>
+      <dependency dep="similar" dep_index="32" gov="functions" gov_index="33">amod</dependency>
+      <dependency dep="functions" dep_index="33" gov="fulfil" gov_index="31">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200011" relationship="true">2 3 5 9 13 11</relation>
+   </relations>
+   <pairs>
+      <pair>200011</pair>
+   </pairs>
+</root>

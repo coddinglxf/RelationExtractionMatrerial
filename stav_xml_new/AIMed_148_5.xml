@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@the@present@study@we@have@investigated@the@coordinate@interactions@between@these@two@potentially@oncogenic@cyclins@,@cyclin-dependent@protein@kinase@subunits@(cdks)@and@the@Rb@tumor-suppressor@protein@.@</sentence>
+   <tags>
+      <tag pos="25">Rb</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">present</taggedword>
+      <taggedword index="4" part-of-speech="NN">study</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBP">have</taggedword>
+      <taggedword index="7" part-of-speech="VBN">investigated</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">coordinate</taggedword>
+      <taggedword index="10" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="11" part-of-speech="IN">between</taggedword>
+      <taggedword index="12" part-of-speech="DT">these</taggedword>
+      <taggedword index="13" part-of-speech="CD">two</taggedword>
+      <taggedword index="14" part-of-speech="RB">potentially</taggedword>
+      <taggedword index="15" part-of-speech="JJ">oncogenic</taggedword>
+      <taggedword index="16" part-of-speech="NNS">cyclins</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="JJ">cyclin-dependent</taggedword>
+      <taggedword index="19" part-of-speech="NN">protein</taggedword>
+      <taggedword index="20" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="21" part-of-speech="NN">subunits</taggedword>
+      <taggedword index="22" part-of-speech="NNS">(cdks)</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NNP">Rb</taggedword>
+      <taggedword index="26" part-of-speech="JJ">tumor-suppressor</taggedword>
+      <taggedword index="27" part-of-speech="NN">protein</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="study" gov_index="4">det</dependency>
+      <dependency dep="present" dep_index="3" gov="study" gov_index="4">amod</dependency>
+      <dependency dep="study" dep_index="4" gov="investigated" gov_index="7">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="investigated" gov_index="7">nsubj</dependency>
+      <dependency dep="have" dep_index="6" gov="investigated" gov_index="7">aux</dependency>
+      <dependency dep="investigated" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="interactions" gov_index="10">det</dependency>
+      <dependency dep="coordinate" dep_index="9" gov="interactions" gov_index="10">amod</dependency>
+      <dependency dep="interactions" dep_index="10" gov="investigated" gov_index="7">dobj</dependency>
+      <dependency dep="these" dep_index="12" gov="cyclins" gov_index="16">det</dependency>
+      <dependency dep="two" dep_index="13" gov="cyclins" gov_index="16">num</dependency>
+      <dependency dep="potentially" dep_index="14" gov="oncogenic" gov_index="15">advmod</dependency>
+      <dependency dep="oncogenic" dep_index="15" gov="cyclins" gov_index="16">amod</dependency>
+      <dependency dep="cyclins" dep_index="16" gov="interactions" gov_index="10">prep_between</dependency>
+      <dependency dep="cyclin-dependent" dep_index="18" gov="(cdks)" gov_index="22">amod</dependency>
+      <dependency dep="protein" dep_index="19" gov="(cdks)" gov_index="22">nn</dependency>
+      <dependency dep="kinase" dep_index="20" gov="(cdks)" gov_index="22">nn</dependency>
+      <dependency dep="subunits" dep_index="21" gov="(cdks)" gov_index="22">nn</dependency>
+      <dependency dep="(cdks)" dep_index="22" gov="cyclins" gov_index="16">appos</dependency>
+      <dependency dep="the" dep_index="24" gov="protein" gov_index="27">det</dependency>
+      <dependency dep="Rb" dep_index="25" gov="protein" gov_index="27">nn</dependency>
+      <dependency dep="tumor-suppressor" dep_index="26" gov="protein" gov_index="27">amod</dependency>
+      <dependency dep="protein" dep_index="27" gov="cyclins" gov_index="16">appos</dependency>
+      <dependency dep="protein" dep_index="27" gov="(cdks)" gov_index="22">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Neurotrophins@are@important@for@the@development@and@maintenance@of@the@vertebrate@nervous@system@,@mediating@their@signal@into@the@cell@by@specific@interaction@with@tyrosine@kinase@receptors@of@the@Trk@family@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Neurotrophins</taggedword>
+      <taggedword index="2" part-of-speech="VBP">are</taggedword>
+      <taggedword index="3" part-of-speech="JJ">important</taggedword>
+      <taggedword index="4" part-of-speech="IN">for</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">development</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">maintenance</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">vertebrate</taggedword>
+      <taggedword index="12" part-of-speech="JJ">nervous</taggedword>
+      <taggedword index="13" part-of-speech="NN">system</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="VBG">mediating</taggedword>
+      <taggedword index="16" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="17" part-of-speech="NN">signal</taggedword>
+      <taggedword index="18" part-of-speech="IN">into</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">cell</taggedword>
+      <taggedword index="21" part-of-speech="IN">by</taggedword>
+      <taggedword index="22" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="23" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="24" part-of-speech="IN">with</taggedword>
+      <taggedword index="25" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="26" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="27" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="NNP">Trk</taggedword>
+      <taggedword index="31" part-of-speech="NN">family</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Neurotrophins" dep_index="1" gov="mediating" gov_index="15">nsubj</dependency>
+      <dependency dep="are" dep_index="2" gov="mediating" gov_index="15">cop</dependency>
+      <dependency dep="important" dep_index="3" gov="mediating" gov_index="15">acomp</dependency>
+      <dependency dep="the" dep_index="5" gov="development" gov_index="6">det</dependency>
+      <dependency dep="development" dep_index="6" gov="mediating" gov_index="15">prep_for</dependency>
+      <dependency dep="maintenance" dep_index="8" gov="development" gov_index="6">conj_and</dependency>
+      <dependency dep="maintenance" dep_index="8" gov="mediating" gov_index="15">prep_for</dependency>
+      <dependency dep="the" dep_index="10" gov="system" gov_index="13">det</dependency>
+      <dependency dep="vertebrate" dep_index="11" gov="system" gov_index="13">amod</dependency>
+      <dependency dep="nervous" dep_index="12" gov="system" gov_index="13">amod</dependency>
+      <dependency dep="system" dep_index="13" gov="development" gov_index="6">prep_of</dependency>
+      <dependency dep="mediating" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="their" dep_index="16" gov="signal" gov_index="17">poss</dependency>
+      <dependency dep="signal" dep_index="17" gov="mediating" gov_index="15">dobj</dependency>
+      <dependency dep="the" dep_index="19" gov="cell" gov_index="20">det</dependency>
+      <dependency dep="cell" dep_index="20" gov="mediating" gov_index="15">prep_into</dependency>
+      <dependency dep="specific" dep_index="22" gov="interaction" gov_index="23">amod</dependency>
+      <dependency dep="interaction" dep_index="23" gov="mediating" gov_index="15">prep_by</dependency>
+      <dependency dep="tyrosine" dep_index="25" gov="receptors" gov_index="27">amod</dependency>
+      <dependency dep="kinase" dep_index="26" gov="receptors" gov_index="27">nn</dependency>
+      <dependency dep="receptors" dep_index="27" gov="mediating" gov_index="15">prep_with</dependency>
+      <dependency dep="the" dep_index="29" gov="family" gov_index="31">det</dependency>
+      <dependency dep="Trk" dep_index="30" gov="family" gov_index="31">nn</dependency>
+      <dependency dep="family" dep_index="31" gov="receptors" gov_index="27">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

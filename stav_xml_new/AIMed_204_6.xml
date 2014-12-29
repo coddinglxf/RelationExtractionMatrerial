@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@to@co-immunoprecipitation@analysis@,@we@have@established@a@rapid@and@sensitive@ELISA@assay@using@immobilized@rTIMP@to@determine@the@structural@requirements@of@MMP-1@to@form@complexes@with@its@inhibitor@.@</sentence>
+   <tags>
+      <tag pos="18">rTIMP</tag>
+      <tag pos="25">MMP-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="JJ">co-immunoprecipitation</taggedword>
+      <taggedword index="5" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="PRP">we</taggedword>
+      <taggedword index="8" part-of-speech="VBP">have</taggedword>
+      <taggedword index="9" part-of-speech="VBN">established</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="JJ">sensitive</taggedword>
+      <taggedword index="14" part-of-speech="NNP">ELISA</taggedword>
+      <taggedword index="15" part-of-speech="NN">assay</taggedword>
+      <taggedword index="16" part-of-speech="VBG">using</taggedword>
+      <taggedword index="17" part-of-speech="JJ">immobilized</taggedword>
+      <taggedword index="18" part-of-speech="NN">rTIMP</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="VB">determine</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="23" part-of-speech="NNS">requirements</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="NN">MMP-1</taggedword>
+      <taggedword index="26" part-of-speech="TO">to</taggedword>
+      <taggedword index="27" part-of-speech="VB">form</taggedword>
+      <taggedword index="28" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="29" part-of-speech="IN">with</taggedword>
+      <taggedword index="30" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="31" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="co-immunoprecipitation" dep_index="4" gov="analysis" gov_index="5">amod</dependency>
+      <dependency dep="analysis" dep_index="5" gov="established" gov_index="9">prep_in_addition_to</dependency>
+      <dependency dep="we" dep_index="7" gov="established" gov_index="9">nsubj</dependency>
+      <dependency dep="have" dep_index="8" gov="established" gov_index="9">aux</dependency>
+      <dependency dep="established" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="10" gov="assay" gov_index="15">det</dependency>
+      <dependency dep="rapid" dep_index="11" gov="assay" gov_index="15">amod</dependency>
+      <dependency dep="sensitive" dep_index="13" gov="rapid" gov_index="11">conj_and</dependency>
+      <dependency dep="sensitive" dep_index="13" gov="assay" gov_index="15">amod</dependency>
+      <dependency dep="ELISA" dep_index="14" gov="assay" gov_index="15">nn</dependency>
+      <dependency dep="assay" dep_index="15" gov="established" gov_index="9">dobj</dependency>
+      <dependency dep="using" dep_index="16" gov="established" gov_index="9">xcomp</dependency>
+      <dependency dep="immobilized" dep_index="17" gov="rTIMP" gov_index="18">amod</dependency>
+      <dependency dep="rTIMP" dep_index="18" gov="using" gov_index="16">dobj</dependency>
+      <dependency dep="to" dep_index="19" gov="determine" gov_index="20">aux</dependency>
+      <dependency dep="determine" dep_index="20" gov="using" gov_index="16">xcomp</dependency>
+      <dependency dep="the" dep_index="21" gov="requirements" gov_index="23">det</dependency>
+      <dependency dep="structural" dep_index="22" gov="requirements" gov_index="23">amod</dependency>
+      <dependency dep="requirements" dep_index="23" gov="determine" gov_index="20">dobj</dependency>
+      <dependency dep="MMP-1" dep_index="25" gov="requirements" gov_index="23">prep_of</dependency>
+      <dependency dep="to" dep_index="26" gov="form" gov_index="27">aux</dependency>
+      <dependency dep="form" dep_index="27" gov="determine" gov_index="20">xcomp</dependency>
+      <dependency dep="complexes" dep_index="28" gov="form" gov_index="27">dobj</dependency>
+      <dependency dep="its" dep_index="30" gov="inhibitor" gov_index="31">poss</dependency>
+      <dependency dep="inhibitor" dep_index="31" gov="form" gov_index="27">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800025" relationship="false">18 16 20 23 25</relation>
+   </relations>
+   <pairs/>
+</root>

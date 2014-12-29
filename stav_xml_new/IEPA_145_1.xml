@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Aggregated@beta@amyloid@peptide@1-40@decreases@Ca2+-@and@cholinergic@receptor-mediated@phosphoinositide@degradation@by@alteration@of@membrane@and@cytosolic@phospholipase C@in@brain@cortex@</sentence>
+   <tags>
+      <tag pos="3">amyloid</tag>
+      <tag pos="19">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Aggregated</taggedword>
+      <taggedword index="2" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="3" part-of-speech="JJ">amyloid</taggedword>
+      <taggedword index="4" part-of-speech="NN">peptide</taggedword>
+      <taggedword index="5" part-of-speech="CD">1-40</taggedword>
+      <taggedword index="6" part-of-speech="JJ">decreases</taggedword>
+      <taggedword index="7" part-of-speech="JJ">Ca2+-</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="JJ">cholinergic</taggedword>
+      <taggedword index="10" part-of-speech="JJ">receptor-mediated</taggedword>
+      <taggedword index="11" part-of-speech="NN">phosphoinositide</taggedword>
+      <taggedword index="12" part-of-speech="NN">degradation</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="NN">alteration</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NNP">membrane</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="JJ">cytosolic</taggedword>
+      <taggedword index="19" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="NN">brain</taggedword>
+      <taggedword index="22" part-of-speech="NN">cortex</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Aggregated" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="beta" dep_index="2" gov="degradation" gov_index="12">amod</dependency>
+      <dependency dep="amyloid" dep_index="3" gov="degradation" gov_index="12">amod</dependency>
+      <dependency dep="peptide" dep_index="4" gov="degradation" gov_index="12">nn</dependency>
+      <dependency dep="1-40" dep_index="5" gov="degradation" gov_index="12">num</dependency>
+      <dependency dep="decreases" dep_index="6" gov="degradation" gov_index="12">amod</dependency>
+      <dependency dep="Ca2+-" dep_index="7" gov="degradation" gov_index="12">amod</dependency>
+      <dependency dep="cholinergic" dep_index="9" gov="Ca2+-" gov_index="7">conj_and</dependency>
+      <dependency dep="cholinergic" dep_index="9" gov="degradation" gov_index="12">amod</dependency>
+      <dependency dep="receptor-mediated" dep_index="10" gov="degradation" gov_index="12">amod</dependency>
+      <dependency dep="phosphoinositide" dep_index="11" gov="degradation" gov_index="12">nn</dependency>
+      <dependency dep="degradation" dep_index="12" gov="Aggregated" gov_index="1">dobj</dependency>
+      <dependency dep="alteration" dep_index="14" gov="Aggregated" gov_index="1">prep_by</dependency>
+      <dependency dep="membrane" dep_index="16" gov="alteration" gov_index="14">prep_of</dependency>
+      <dependency dep="cytosolic" dep_index="18" gov="phospholipase C" gov_index="19">amod</dependency>
+      <dependency dep="phospholipase C" dep_index="19" gov="Aggregated" gov_index="1">conj_and</dependency>
+      <dependency dep="brain" dep_index="21" gov="cortex" gov_index="22">nn</dependency>
+      <dependency dep="cortex" dep_index="22" gov="phospholipase C" gov_index="19">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300019" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>300019</pair>
+   </pairs>
+</root>

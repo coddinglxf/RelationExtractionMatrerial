@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@genetics@of@host@resistance@and@susceptibility@to@tuberculosis@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">genetics</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">host</taggedword>
+      <taggedword index="5" part-of-speech="NN">resistance</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">susceptibility</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="NNP">tuberculosis</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="genetics" gov_index="2">det</dependency>
+      <dependency dep="genetics" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="host" dep_index="4" gov="resistance" gov_index="5">nn</dependency>
+      <dependency dep="resistance" dep_index="5" gov="genetics" gov_index="2">prep_of</dependency>
+      <dependency dep="susceptibility" dep_index="7" gov="genetics" gov_index="2">prep_of</dependency>
+      <dependency dep="susceptibility" dep_index="7" gov="resistance" gov_index="5">conj_and</dependency>
+      <dependency dep="tuberculosis" dep_index="9" gov="genetics" gov_index="2">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

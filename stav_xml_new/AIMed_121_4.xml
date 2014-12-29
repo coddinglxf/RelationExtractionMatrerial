@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>An@extensive@genetic@analysis@of@this@amino-terminal@p53@domain@has@been@undertaken@using@site-specific@mutagenesis@.@</sentence>
+   <tags>
+      <tag pos="8">p53</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">An</taggedword>
+      <taggedword index="2" part-of-speech="JJ">extensive</taggedword>
+      <taggedword index="3" part-of-speech="JJ">genetic</taggedword>
+      <taggedword index="4" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">this</taggedword>
+      <taggedword index="7" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="8" part-of-speech="NN">p53</taggedword>
+      <taggedword index="9" part-of-speech="NN">domain</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="11" part-of-speech="VBN">been</taggedword>
+      <taggedword index="12" part-of-speech="VBN">undertaken</taggedword>
+      <taggedword index="13" part-of-speech="VBG">using</taggedword>
+      <taggedword index="14" part-of-speech="JJ">site-specific</taggedword>
+      <taggedword index="15" part-of-speech="NNS">mutagenesis</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="An" dep_index="1" gov="analysis" gov_index="4">det</dependency>
+      <dependency dep="extensive" dep_index="2" gov="analysis" gov_index="4">amod</dependency>
+      <dependency dep="genetic" dep_index="3" gov="analysis" gov_index="4">amod</dependency>
+      <dependency dep="analysis" dep_index="4" gov="undertaken" gov_index="12">nsubjpass</dependency>
+      <dependency dep="this" dep_index="6" gov="domain" gov_index="9">det</dependency>
+      <dependency dep="amino-terminal" dep_index="7" gov="domain" gov_index="9">amod</dependency>
+      <dependency dep="p53" dep_index="8" gov="domain" gov_index="9">nn</dependency>
+      <dependency dep="domain" dep_index="9" gov="analysis" gov_index="4">prep_of</dependency>
+      <dependency dep="has" dep_index="10" gov="undertaken" gov_index="12">aux</dependency>
+      <dependency dep="been" dep_index="11" gov="undertaken" gov_index="12">auxpass</dependency>
+      <dependency dep="undertaken" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="13" gov="undertaken" gov_index="12">xcomp</dependency>
+      <dependency dep="site-specific" dep_index="14" gov="mutagenesis" gov_index="15">amod</dependency>
+      <dependency dep="mutagenesis" dep_index="15" gov="using" gov_index="13">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

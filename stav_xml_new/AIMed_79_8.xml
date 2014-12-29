@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Other@motifs@of@RIZ@include@putative@GTPase@and@SH3@(src@homology@domain@3)@domains@.@</sentence>
+   <tags>
+      <tag pos="4">RIZ</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Other</taggedword>
+      <taggedword index="2" part-of-speech="NNS">motifs</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">RIZ</taggedword>
+      <taggedword index="5" part-of-speech="VBP">include</taggedword>
+      <taggedword index="6" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="7" part-of-speech="NN">GTPase</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="CD">SH3</taggedword>
+      <taggedword index="10" part-of-speech="JJ">(src</taggedword>
+      <taggedword index="11" part-of-speech="NN">homology</taggedword>
+      <taggedword index="12" part-of-speech="NN">domain</taggedword>
+      <taggedword index="13" part-of-speech="CD">3)</taggedword>
+      <taggedword index="14" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Other" dep_index="1" gov="motifs" gov_index="2">amod</dependency>
+      <dependency dep="motifs" dep_index="2" gov="include" gov_index="5">nsubj</dependency>
+      <dependency dep="RIZ" dep_index="4" gov="motifs" gov_index="2">prep_of</dependency>
+      <dependency dep="include" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="putative" dep_index="6" gov="GTPase" gov_index="7">amod</dependency>
+      <dependency dep="GTPase" dep_index="7" gov="include" gov_index="5">dobj</dependency>
+      <dependency dep="SH3" dep_index="9" gov="domains" gov_index="14">num</dependency>
+      <dependency dep="(src" dep_index="10" gov="domains" gov_index="14">amod</dependency>
+      <dependency dep="homology" dep_index="11" gov="domains" gov_index="14">nn</dependency>
+      <dependency dep="domain" dep_index="12" gov="domains" gov_index="14">nn</dependency>
+      <dependency dep="3)" dep_index="13" gov="domains" gov_index="14">num</dependency>
+      <dependency dep="domains" dep_index="14" gov="include" gov_index="5">dobj</dependency>
+      <dependency dep="domains" dep_index="14" gov="GTPase" gov_index="7">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

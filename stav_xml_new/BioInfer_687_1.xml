@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@results@indicate@increased@fractional@synthesis@and@degradation@of@myosin heavy chain@and@light@chains@,@but@not@actin@,@in@the@left@compared@to@the@right@ventricular@free@wall@.@</sentence>
+   <tags>
+      <tag pos="10">myosin heavy chain</tag>
+      <tag pos="17">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="5" part-of-speech="JJ">fractional</taggedword>
+      <taggedword index="6" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">degradation</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">light</taggedword>
+      <taggedword index="13" part-of-speech="NNS">chains</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">but</taggedword>
+      <taggedword index="16" part-of-speech="RB">not</taggedword>
+      <taggedword index="17" part-of-speech="NN">actin</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="VBN">left</taggedword>
+      <taggedword index="22" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="JJ">right</taggedword>
+      <taggedword index="26" part-of-speech="NN">ventricular</taggedword>
+      <taggedword index="27" part-of-speech="JJ">free</taggedword>
+      <taggedword index="28" part-of-speech="NN">wall</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="increased" dep_index="4" gov="synthesis" gov_index="6">amod</dependency>
+      <dependency dep="fractional" dep_index="5" gov="synthesis" gov_index="6">amod</dependency>
+      <dependency dep="synthesis" dep_index="6" gov="indicate" gov_index="3">dobj</dependency>
+      <dependency dep="degradation" dep_index="8" gov="indicate" gov_index="3">dobj</dependency>
+      <dependency dep="degradation" dep_index="8" gov="synthesis" gov_index="6">conj_and</dependency>
+      <dependency dep="myosin heavy chain" dep_index="10" gov="chains" gov_index="13">nn</dependency>
+      <dependency dep="light" dep_index="12" gov="myosin heavy chain" gov_index="10">conj_and</dependency>
+      <dependency dep="light" dep_index="12" gov="chains" gov_index="13">nn</dependency>
+      <dependency dep="chains" dep_index="13" gov="degradation" gov_index="8">prep_of</dependency>
+      <dependency dep="actin" dep_index="17" gov="indicate" gov_index="3">dobj</dependency>
+      <dependency dep="actin" dep_index="17" gov="synthesis" gov_index="6">conj_negcc</dependency>
+      <dependency dep="the" dep_index="20" gov="wall" gov_index="28">det</dependency>
+      <dependency dep="left" dep_index="21" gov="wall" gov_index="28">amod</dependency>
+      <dependency dep="to" dep_index="23" gov="left" gov_index="21">prepc_compared_to</dependency>
+      <dependency dep="the" dep_index="24" gov="ventricular" gov_index="26">det</dependency>
+      <dependency dep="right" dep_index="25" gov="ventricular" gov_index="26">amod</dependency>
+      <dependency dep="ventricular" dep_index="26" gov="left" gov_index="21">pobj</dependency>
+      <dependency dep="free" dep_index="27" gov="wall" gov_index="28">amod</dependency>
+      <dependency dep="wall" dep_index="28" gov="actin" gov_index="17">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000017" relationship="false">10 13 8 3 17</relation>
+   </relations>
+   <pairs/>
+</root>

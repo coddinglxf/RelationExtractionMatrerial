@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@we@demonstrate@that@tyrosine@phosphorylation@of@phospholipase Cgamma1@and@formation@of@inositol@1,4,5-trisphosphate@were@increased@by@sAPP695@-stimulation@</sentence>
+   <tags>
+      <tag pos="9">phospholipase Cgamma1</tag>
+      <tag pos="18">sAPP695</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">we</taggedword>
+      <taggedword index="4" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="7" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">phospholipase Cgamma1</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">formation</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="JJ">inositol</taggedword>
+      <taggedword index="14" part-of-speech="NN">1,4,5-trisphosphate</taggedword>
+      <taggedword index="15" part-of-speech="VBD">were</taggedword>
+      <taggedword index="16" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="JJ">sAPP695</taggedword>
+      <taggedword index="19" part-of-speech="NN">-stimulation</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="demonstrate" gov_index="4">advmod</dependency>
+      <dependency dep="we" dep_index="3" gov="demonstrate" gov_index="4">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="increased" gov_index="16">mark</dependency>
+      <dependency dep="tyrosine" dep_index="6" gov="phosphorylation" gov_index="7">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="7" gov="increased" gov_index="16">nsubjpass</dependency>
+      <dependency dep="phospholipase Cgamma1" dep_index="9" gov="phosphorylation" gov_index="7">prep_of</dependency>
+      <dependency dep="formation" dep_index="11" gov="phosphorylation" gov_index="7">prep_of</dependency>
+      <dependency dep="formation" dep_index="11" gov="phospholipase Cgamma1" gov_index="9">conj_and</dependency>
+      <dependency dep="inositol" dep_index="13" gov="1,4,5-trisphosphate" gov_index="14">amod</dependency>
+      <dependency dep="1,4,5-trisphosphate" dep_index="14" gov="phospholipase Cgamma1" gov_index="9">prep_of</dependency>
+      <dependency dep="were" dep_index="15" gov="increased" gov_index="16">auxpass</dependency>
+      <dependency dep="increased" dep_index="16" gov="demonstrate" gov_index="4">ccomp</dependency>
+      <dependency dep="sAPP695" dep_index="18" gov="-stimulation" gov_index="19">amod</dependency>
+      <dependency dep="-stimulation" dep_index="19" gov="increased" gov_index="16">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900018" relationship="true">9 7 16 19 18</relation>
+   </relations>
+   <pairs>
+      <pair>900018</pair>
+   </pairs>
+</root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@suggest@that@pituitary@GH@modulates@neutrophil@adhesion@through@tyrosine@phosphorylation@of@Jak2@,@p125FAK@,@and@paxillin@and@actin@polymerization@</sentence>
+   <tags>
+      <tag pos="14">Jak2</tag>
+      <tag pos="19">paxillin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">pituitary</taggedword>
+      <taggedword index="6" part-of-speech="NNP">GH</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">modulates</taggedword>
+      <taggedword index="8" part-of-speech="JJ">neutrophil</taggedword>
+      <taggedword index="9" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="10" part-of-speech="IN">through</taggedword>
+      <taggedword index="11" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="12" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NNS">Jak2</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NNS">p125FAK</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">paxillin</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NN">actin</taggedword>
+      <taggedword index="22" part-of-speech="NN">polymerization</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="modulates" gov_index="7">mark</dependency>
+      <dependency dep="pituitary" dep_index="5" gov="GH" gov_index="6">nn</dependency>
+      <dependency dep="GH" dep_index="6" gov="modulates" gov_index="7">nsubj</dependency>
+      <dependency dep="modulates" dep_index="7" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="neutrophil" dep_index="8" gov="adhesion" gov_index="9">amod</dependency>
+      <dependency dep="adhesion" dep_index="9" gov="modulates" gov_index="7">dobj</dependency>
+      <dependency dep="tyrosine" dep_index="11" gov="phosphorylation" gov_index="12">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="12" gov="modulates" gov_index="7">prep_through</dependency>
+      <dependency dep="Jak2" dep_index="14" gov="phosphorylation" gov_index="12">prep_of</dependency>
+      <dependency dep="p125FAK" dep_index="16" gov="phosphorylation" gov_index="12">prep_of</dependency>
+      <dependency dep="p125FAK" dep_index="16" gov="Jak2" gov_index="14">conj_and</dependency>
+      <dependency dep="paxillin" dep_index="19" gov="polymerization" gov_index="22">nn</dependency>
+      <dependency dep="actin" dep_index="21" gov="paxillin" gov_index="19">conj_and</dependency>
+      <dependency dep="actin" dep_index="21" gov="polymerization" gov_index="22">nn</dependency>
+      <dependency dep="polymerization" dep_index="22" gov="phosphorylation" gov_index="12">prep_of</dependency>
+      <dependency dep="polymerization" dep_index="22" gov="Jak2" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400019" relationship="false">14 12 22 19</relation>
+   </relations>
+   <pairs/>
+</root>

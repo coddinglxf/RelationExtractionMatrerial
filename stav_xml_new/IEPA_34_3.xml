@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@brown@adipose@tissue@of@lean@animals@,@multilocular@uncoupling protein@(UCP)-positive@brown@adipocytes@had@typical@brown@mitochondria@and@were@leptin@-negative,@both@in@fed@and@fasted@conditions@</sentence>
+   <tags>
+      <tag pos="10">uncoupling protein</tag>
+      <tag pos="20">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">brown</taggedword>
+      <taggedword index="3" part-of-speech="NN">adipose</taggedword>
+      <taggedword index="4" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="JJ">lean</taggedword>
+      <taggedword index="7" part-of-speech="NNS">animals</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="JJ">multilocular</taggedword>
+      <taggedword index="10" part-of-speech="JJ">uncoupling protein</taggedword>
+      <taggedword index="11" part-of-speech="JJ">(UCP)-positive</taggedword>
+      <taggedword index="12" part-of-speech="JJ">brown</taggedword>
+      <taggedword index="13" part-of-speech="NNS">adipocytes</taggedword>
+      <taggedword index="14" part-of-speech="VBD">had</taggedword>
+      <taggedword index="15" part-of-speech="JJ">typical</taggedword>
+      <taggedword index="16" part-of-speech="JJ">brown</taggedword>
+      <taggedword index="17" part-of-speech="NN">mitochondria</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="VBD">were</taggedword>
+      <taggedword index="20" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="21" part-of-speech="NNS">-negative,</taggedword>
+      <taggedword index="22" part-of-speech="DT">both</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="VBN">fed</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="JJ">fasted</taggedword>
+      <taggedword index="27" part-of-speech="NNS">conditions</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="brown" dep_index="2" gov="tissue" gov_index="4">amod</dependency>
+      <dependency dep="adipose" dep_index="3" gov="tissue" gov_index="4">nn</dependency>
+      <dependency dep="tissue" dep_index="4" gov="had" gov_index="14">prep_in</dependency>
+      <dependency dep="lean" dep_index="6" gov="animals" gov_index="7">amod</dependency>
+      <dependency dep="animals" dep_index="7" gov="tissue" gov_index="4">prep_of</dependency>
+      <dependency dep="multilocular" dep_index="9" gov="adipocytes" gov_index="13">amod</dependency>
+      <dependency dep="uncoupling protein" dep_index="10" gov="adipocytes" gov_index="13">amod</dependency>
+      <dependency dep="(UCP)-positive" dep_index="11" gov="adipocytes" gov_index="13">amod</dependency>
+      <dependency dep="brown" dep_index="12" gov="adipocytes" gov_index="13">amod</dependency>
+      <dependency dep="adipocytes" dep_index="13" gov="had" gov_index="14">nsubj</dependency>
+      <dependency dep="had" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="typical" dep_index="15" gov="mitochondria" gov_index="17">amod</dependency>
+      <dependency dep="brown" dep_index="16" gov="mitochondria" gov_index="17">amod</dependency>
+      <dependency dep="mitochondria" dep_index="17" gov="had" gov_index="14">dobj</dependency>
+      <dependency dep="were" dep_index="19" gov="-negative," gov_index="21">cop</dependency>
+      <dependency dep="leptin" dep_index="20" gov="-negative," gov_index="21">nn</dependency>
+      <dependency dep="-negative," dep_index="21" gov="had" gov_index="14">conj_and</dependency>
+      <dependency dep="both" dep_index="22" gov="-negative," gov_index="21">dep</dependency>
+      <dependency dep="fed" dep_index="24" gov="conditions" gov_index="27">amod</dependency>
+      <dependency dep="fasted" dep_index="26" gov="fed" gov_index="24">conj_and</dependency>
+      <dependency dep="fasted" dep_index="26" gov="conditions" gov_index="27">amod</dependency>
+      <dependency dep="conditions" dep_index="27" gov="-negative," gov_index="21">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000020" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

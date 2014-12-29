@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Western@analysis@of@gel-purified@USF@-@nucleosome@and@GAL4@-@AH@-@nucleosome@complexes@demonstrated@the@predominant@presence@of@acetylated@histone@H4@relative@to@acetylated@histone@H3@.@</sentence>
+   <tags>
+      <tag pos="27">H3</tag>
+      <tag pos="13">nucleosome</tag>
+      <tag pos="26">histone</tag>
+      <tag pos="7">nucleosome</tag>
+      <tag pos="11">AH</tag>
+      <tag pos="21">histone</tag>
+      <tag pos="5">USF</tag>
+      <tag pos="9">GAL4</tag>
+      <tag pos="22">H4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Western</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">gel-purified</taggedword>
+      <taggedword index="5" part-of-speech="NNP">USF</taggedword>
+      <taggedword index="6" part-of-speech=":">-</taggedword>
+      <taggedword index="7" part-of-speech="NN">nucleosome</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNP">GAL4</taggedword>
+      <taggedword index="10" part-of-speech=":">-</taggedword>
+      <taggedword index="11" part-of-speech="NNP">AH</taggedword>
+      <taggedword index="12" part-of-speech=":">-</taggedword>
+      <taggedword index="13" part-of-speech="JJ">nucleosome</taggedword>
+      <taggedword index="14" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="15" part-of-speech="VBN">demonstrated</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">predominant</taggedword>
+      <taggedword index="18" part-of-speech="NN">presence</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="JJ">acetylated</taggedword>
+      <taggedword index="21" part-of-speech="NN">histone</taggedword>
+      <taggedword index="22" part-of-speech="NN">H4</taggedword>
+      <taggedword index="23" part-of-speech="JJ">relative</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="JJ">acetylated</taggedword>
+      <taggedword index="26" part-of-speech="NN">histone</taggedword>
+      <taggedword index="27" part-of-speech="NN">H3</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Western" dep_index="1" gov="analysis" gov_index="2">amod</dependency>
+      <dependency dep="analysis" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="gel-purified" dep_index="4" gov="AH" gov_index="11">amod</dependency>
+      <dependency dep="USF" dep_index="5" gov="AH" gov_index="11">nn</dependency>
+      <dependency dep="nucleosome" dep_index="7" gov="AH" gov_index="11">dep</dependency>
+      <dependency dep="GAL4" dep_index="9" gov="nucleosome" gov_index="7">conj_and</dependency>
+      <dependency dep="GAL4" dep_index="9" gov="AH" gov_index="11">dep</dependency>
+      <dependency dep="AH" dep_index="11" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="nucleosome" dep_index="13" gov="complexes" gov_index="14">amod</dependency>
+      <dependency dep="complexes" dep_index="14" gov="analysis" gov_index="2">dep</dependency>
+      <dependency dep="demonstrated" dep_index="15" gov="complexes" gov_index="14">partmod</dependency>
+      <dependency dep="the" dep_index="16" gov="presence" gov_index="18">det</dependency>
+      <dependency dep="predominant" dep_index="17" gov="presence" gov_index="18">amod</dependency>
+      <dependency dep="presence" dep_index="18" gov="demonstrated" gov_index="15">dobj</dependency>
+      <dependency dep="acetylated" dep_index="20" gov="H4" gov_index="22">amod</dependency>
+      <dependency dep="histone" dep_index="21" gov="H4" gov_index="22">nn</dependency>
+      <dependency dep="H4" dep_index="22" gov="presence" gov_index="18">prep_of</dependency>
+      <dependency dep="relative" dep_index="23" gov="demonstrated" gov_index="15">advmod</dependency>
+      <dependency dep="acetylated" dep_index="25" gov="H3" gov_index="27">amod</dependency>
+      <dependency dep="histone" dep_index="26" gov="H3" gov_index="27">nn</dependency>
+      <dependency dep="H3" dep_index="27" gov="relative" gov_index="23">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300027" relationship="true">13 14 15 23 27</relation>
+      <relation position="2600027" relationship="true"></relation>
+      <relation position="700027" relationship="true">7 11 2 14 15 23 27</relation>
+      <relation position="1100027" relationship="true">11 2 14 15 23 27</relation>
+      <relation position="2100027" relationship="false">21 22 18 15 23 27</relation>
+      <relation position="500027" relationship="true">5 11 2 14 15 23 27</relation>
+      <relation position="900027" relationship="true">9 11 2 14 15 23 27</relation>
+      <relation position="2200027" relationship="true">22 18 15 23 27</relation>
+      <relation position="1300026" relationship="false">13 14 15 23 27 26</relation>
+      <relation position="700013" relationship="false">7 11 2 14 13</relation>
+      <relation position="1100013" relationship="true">11 2 14 13</relation>
+      <relation position="1300021" relationship="false">13 14 15 18 22 21</relation>
+      <relation position="500013" relationship="false">5 11 2 14 13</relation>
+      <relation position="900013" relationship="true">9 11 2 14 13</relation>
+      <relation position="1300022" relationship="true">13 14 15 18 22</relation>
+      <relation position="700026" relationship="false">7 11 2 14 15 23 27 26</relation>
+      <relation position="1100026" relationship="false">11 2 14 15 23 27 26</relation>
+      <relation position="2100026" relationship="false">21 22 18 15 23 27 26</relation>
+      <relation position="500026" relationship="false">5 11 2 14 15 23 27 26</relation>
+      <relation position="900026" relationship="false">9 11 2 14 15 23 27 26</relation>
+      <relation position="2200026" relationship="false">22 18 15 23 27 26</relation>
+      <relation position="700011" relationship="false"></relation>
+      <relation position="700021" relationship="false">7 11 2 14 15 18 22 21</relation>
+      <relation position="500007" relationship="true">5 11 7</relation>
+      <relation position="700009" relationship="false">7 11 9</relation>
+      <relation position="700022" relationship="true">7 11 2 14 15 18 22</relation>
+      <relation position="1100021" relationship="false">11 2 14 15 18 22 21</relation>
+      <relation position="500011" relationship="false"></relation>
+      <relation position="900011" relationship="true"></relation>
+      <relation position="1100022" relationship="true">11 2 14 15 18 22</relation>
+      <relation position="500021" relationship="false">5 11 2 14 15 18 22 21</relation>
+      <relation position="900021" relationship="false">9 11 2 14 15 18 22 21</relation>
+      <relation position="2100022" relationship="true"></relation>
+      <relation position="500009" relationship="false">5 11 9</relation>
+      <relation position="500022" relationship="true">5 11 2 14 15 18 22</relation>
+      <relation position="900022" relationship="true">9 11 2 14 15 18 22</relation>
+   </relations>
+   <pairs>
+      <pair>900027</pair>
+      <pair>700027</pair>
+      <pair>500007</pair>
+      <pair>700022</pair>
+      <pair>900022</pair>
+      <pair>1100013</pair>
+      <pair>900011</pair>
+      <pair>1300022</pair>
+      <pair>2100022</pair>
+      <pair>1100022</pair>
+      <pair>500027</pair>
+      <pair>900013</pair>
+      <pair>1300027</pair>
+      <pair>500022</pair>
+      <pair>1100027</pair>
+      <pair>2200027</pair>
+      <pair>2600027</pair>
+   </pairs>
+</root>

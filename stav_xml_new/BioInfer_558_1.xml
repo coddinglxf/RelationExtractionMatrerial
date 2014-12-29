@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Targeting@by@antisense@3'UTI@significantly@increased@motility@compared@with@the@corresponding@sense@ODN@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Targeting</taggedword>
+      <taggedword index="2" part-of-speech="IN">by</taggedword>
+      <taggedword index="3" part-of-speech="JJ">antisense</taggedword>
+      <taggedword index="4" part-of-speech="CD">3'UTI</taggedword>
+      <taggedword index="5" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="6" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="7" part-of-speech="RB">motility</taggedword>
+      <taggedword index="8" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="9" part-of-speech="IN">with</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">corresponding</taggedword>
+      <taggedword index="12" part-of-speech="NN">sense</taggedword>
+      <taggedword index="13" part-of-speech="NN">ODN</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Targeting" dep_index="1" gov="increased" gov_index="6">csubj</dependency>
+      <dependency dep="antisense" dep_index="3" gov="3'UTI" gov_index="4">amod</dependency>
+      <dependency dep="3'UTI" dep_index="4" gov="Targeting" gov_index="1">prep_by</dependency>
+      <dependency dep="significantly" dep_index="5" gov="increased" gov_index="6">advmod</dependency>
+      <dependency dep="increased" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="motility" dep_index="7" gov="increased" gov_index="6">advmod</dependency>
+      <dependency dep="with" dep_index="9" gov="increased" gov_index="6">prepc_compared_with</dependency>
+      <dependency dep="the" dep_index="10" gov="ODN" gov_index="13">det</dependency>
+      <dependency dep="corresponding" dep_index="11" gov="ODN" gov_index="13">amod</dependency>
+      <dependency dep="sense" dep_index="12" gov="ODN" gov_index="13">nn</dependency>
+      <dependency dep="ODN" dep_index="13" gov="increased" gov_index="6">pobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

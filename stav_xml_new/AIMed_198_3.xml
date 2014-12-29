@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@employed@both@random@and@site-specific@mutagenesis@to@determine@the@function@of@amino@acid@residues@in@the@extracellular@domain@(referred@to@as@EPO binding protein@,@EBP@)@of@the@EPOR@.@</sentence>
+   <tags>
+      <tag pos="23">EPO binding protein</tag>
+      <tag pos="25">EBP</tag>
+      <tag pos="29">EPOR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBN">employed</taggedword>
+      <taggedword index="3" part-of-speech="DT">both</taggedword>
+      <taggedword index="4" part-of-speech="JJ">random</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="JJ">site-specific</taggedword>
+      <taggedword index="7" part-of-speech="NNS">mutagenesis</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">determine</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">function</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="14" part-of-speech="NN">acid</taggedword>
+      <taggedword index="15" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="19" part-of-speech="NN">domain</taggedword>
+      <taggedword index="20" part-of-speech="VBN">(referred</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="IN">as</taggedword>
+      <taggedword index="23" part-of-speech="NNP">EPO binding protein</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="NNP">EBP</taggedword>
+      <taggedword index="26" part-of-speech="NNP">)</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="NN">EPOR</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="employed" gov_index="2">nsubj</dependency>
+      <dependency dep="We" dep_index="1" gov="determine" gov_index="9">xsubj</dependency>
+      <dependency dep="employed" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="both" dep_index="3" gov="random" gov_index="4">preconj</dependency>
+      <dependency dep="random" dep_index="4" gov="mutagenesis" gov_index="7">amod</dependency>
+      <dependency dep="site-specific" dep_index="6" gov="random" gov_index="4">conj_and</dependency>
+      <dependency dep="site-specific" dep_index="6" gov="mutagenesis" gov_index="7">amod</dependency>
+      <dependency dep="mutagenesis" dep_index="7" gov="employed" gov_index="2">dobj</dependency>
+      <dependency dep="to" dep_index="8" gov="determine" gov_index="9">aux</dependency>
+      <dependency dep="determine" dep_index="9" gov="employed" gov_index="2">xcomp</dependency>
+      <dependency dep="the" dep_index="10" gov="function" gov_index="11">det</dependency>
+      <dependency dep="function" dep_index="11" gov="determine" gov_index="9">dobj</dependency>
+      <dependency dep="amino" dep_index="13" gov="residues" gov_index="15">amod</dependency>
+      <dependency dep="acid" dep_index="14" gov="residues" gov_index="15">nn</dependency>
+      <dependency dep="residues" dep_index="15" gov="function" gov_index="11">prep_of</dependency>
+      <dependency dep="the" dep_index="17" gov="domain" gov_index="19">det</dependency>
+      <dependency dep="extracellular" dep_index="18" gov="domain" gov_index="19">nn</dependency>
+      <dependency dep="domain" dep_index="19" gov="determine" gov_index="9">prep_in</dependency>
+      <dependency dep="(referred" dep_index="20" gov="domain" gov_index="19">partmod</dependency>
+      <dependency dep="to" dep_index="21" gov=")" gov_index="26">aux</dependency>
+      <dependency dep="EPO binding protein" dep_index="23" gov=")" gov_index="26">prep_as</dependency>
+      <dependency dep="EBP" dep_index="25" gov=")" gov_index="26">nn</dependency>
+      <dependency dep=")" dep_index="26" gov="(referred" gov_index="20">xcomp</dependency>
+      <dependency dep="the" dep_index="28" gov="EPOR" gov_index="29">det</dependency>
+      <dependency dep="EPOR" dep_index="29" gov=")" gov_index="26">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2300025" relationship="false">23 26 25</relation>
+      <relation position="2300029" relationship="false">23 26 29</relation>
+      <relation position="2500029" relationship="false">25 26 29</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>DCs@isolated@from@skin@or@from@blood@precursors@behave@similarly@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">DCs</taggedword>
+      <taggedword index="2" part-of-speech="VBD">isolated</taggedword>
+      <taggedword index="3" part-of-speech="IN">from</taggedword>
+      <taggedword index="4" part-of-speech="NN">skin</taggedword>
+      <taggedword index="5" part-of-speech="CC">or</taggedword>
+      <taggedword index="6" part-of-speech="IN">from</taggedword>
+      <taggedword index="7" part-of-speech="NN">blood</taggedword>
+      <taggedword index="8" part-of-speech="NNS">precursors</taggedword>
+      <taggedword index="9" part-of-speech="VB">behave</taggedword>
+      <taggedword index="10" part-of-speech="RB">similarly</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="DCs" dep_index="1" gov="isolated" gov_index="2">nsubj</dependency>
+      <dependency dep="isolated" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="skin" dep_index="4" gov="isolated" gov_index="2">prep_from</dependency>
+      <dependency dep="blood" dep_index="7" gov="precursors" gov_index="8">nn</dependency>
+      <dependency dep="precursors" dep_index="8" gov="isolated" gov_index="2">prep_from</dependency>
+      <dependency dep="precursors" dep_index="8" gov="skin" gov_index="4">conj_or</dependency>
+      <dependency dep="behave" dep_index="9" gov="isolated" gov_index="2">ccomp</dependency>
+      <dependency dep="similarly" dep_index="10" gov="behave" gov_index="9">advmod</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

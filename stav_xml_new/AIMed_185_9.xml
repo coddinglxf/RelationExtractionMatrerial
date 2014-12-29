@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@data@demonstrate@that@Stat3@but@not@Stat1@or@Stat5@is@directly@recruited@to@the@ligand-activated@IL-10 receptor@by@binding@to@specific@but@redundant@receptor@intracellular@domain@sequences@containing@phosphotyrosine@.@</sentence>
+   <tags>
+      <tag pos="5">Stat3</tag>
+      <tag pos="8">Stat1</tag>
+      <tag pos="10">Stat5</tag>
+      <tag pos="17">IL-10 receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNS">Stat3</taggedword>
+      <taggedword index="6" part-of-speech="CC">but</taggedword>
+      <taggedword index="7" part-of-speech="RB">not</taggedword>
+      <taggedword index="8" part-of-speech="NNS">Stat1</taggedword>
+      <taggedword index="9" part-of-speech="CC">or</taggedword>
+      <taggedword index="10" part-of-speech="NNS">Stat5</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="12" part-of-speech="RB">directly</taggedword>
+      <taggedword index="13" part-of-speech="VBN">recruited</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="JJ">ligand-activated</taggedword>
+      <taggedword index="17" part-of-speech="NN">IL-10 receptor</taggedword>
+      <taggedword index="18" part-of-speech="IN">by</taggedword>
+      <taggedword index="19" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="22" part-of-speech="CC">but</taggedword>
+      <taggedword index="23" part-of-speech="JJ">redundant</taggedword>
+      <taggedword index="24" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="25" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="26" part-of-speech="NN">domain</taggedword>
+      <taggedword index="27" part-of-speech="NNS">sequences</taggedword>
+      <taggedword index="28" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="29" part-of-speech="NN">phosphotyrosine</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="data" gov_index="2">det</dependency>
+      <dependency dep="data" dep_index="2" gov="demonstrate" gov_index="3">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="recruited" gov_index="13">mark</dependency>
+      <dependency dep="Stat3" dep_index="5" gov="recruited" gov_index="13">nsubjpass</dependency>
+      <dependency dep="Stat1" dep_index="8" gov="Stat3" gov_index="5">conj_negcc</dependency>
+      <dependency dep="Stat1" dep_index="8" gov="recruited" gov_index="13">nsubjpass</dependency>
+      <dependency dep="Stat5" dep_index="10" gov="Stat3" gov_index="5">conj_or</dependency>
+      <dependency dep="Stat5" dep_index="10" gov="recruited" gov_index="13">nsubjpass</dependency>
+      <dependency dep="is" dep_index="11" gov="recruited" gov_index="13">auxpass</dependency>
+      <dependency dep="directly" dep_index="12" gov="recruited" gov_index="13">advmod</dependency>
+      <dependency dep="recruited" dep_index="13" gov="demonstrate" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="15" gov="IL-10 receptor" gov_index="17">det</dependency>
+      <dependency dep="ligand-activated" dep_index="16" gov="IL-10 receptor" gov_index="17">amod</dependency>
+      <dependency dep="IL-10 receptor" dep_index="17" gov="recruited" gov_index="13">prep_to</dependency>
+      <dependency dep="binding" dep_index="19" gov="sequences" gov_index="27">amod</dependency>
+      <dependency dep="specific" dep_index="21" gov="intracellular" gov_index="25">amod</dependency>
+      <dependency dep="redundant" dep_index="23" gov="specific" gov_index="21">conj_but</dependency>
+      <dependency dep="redundant" dep_index="23" gov="intracellular" gov_index="25">amod</dependency>
+      <dependency dep="receptor" dep_index="24" gov="intracellular" gov_index="25">nn</dependency>
+      <dependency dep="intracellular" dep_index="25" gov="binding" gov_index="19">prep_to</dependency>
+      <dependency dep="domain" dep_index="26" gov="sequences" gov_index="27">nn</dependency>
+      <dependency dep="sequences" dep_index="27" gov="recruited" gov_index="13">agent</dependency>
+      <dependency dep="containing" dep_index="28" gov="recruited" gov_index="13">xcomp</dependency>
+      <dependency dep="phosphotyrosine" dep_index="29" gov="containing" gov_index="28">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500008" relationship="false">5 13 8</relation>
+      <relation position="500010" relationship="false">5 13 10</relation>
+      <relation position="500017" relationship="true">5 13 17</relation>
+      <relation position="800010" relationship="false">8 13 10</relation>
+      <relation position="800017" relationship="false">8 13 17</relation>
+      <relation position="1000017" relationship="false">10 13 17</relation>
+   </relations>
+   <pairs>
+      <pair>500017</pair>
+   </pairs>
+</root>

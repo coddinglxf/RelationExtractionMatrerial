@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>DEP1@also@interacted@with@other@members@of@the@catenin@gene@family@including@beta-catenin@and@gamma-catenin@</sentence>
+   <tags>
+      <tag pos="1">DEP1</tag>
+      <tag pos="13">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">DEP1</taggedword>
+      <taggedword index="2" part-of-speech="RB">also</taggedword>
+      <taggedword index="3" part-of-speech="VBN">interacted</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="JJ">other</taggedword>
+      <taggedword index="6" part-of-speech="NNS">members</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">catenin</taggedword>
+      <taggedword index="10" part-of-speech="NN">gene</taggedword>
+      <taggedword index="11" part-of-speech="NN">family</taggedword>
+      <taggedword index="12" part-of-speech="VBG">including</taggedword>
+      <taggedword index="13" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">gamma-catenin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="DEP1" dep_index="1" gov="interacted" gov_index="3">nsubj</dependency>
+      <dependency dep="also" dep_index="2" gov="interacted" gov_index="3">advmod</dependency>
+      <dependency dep="interacted" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="other" dep_index="5" gov="members" gov_index="6">amod</dependency>
+      <dependency dep="members" dep_index="6" gov="interacted" gov_index="3">prep_with</dependency>
+      <dependency dep="the" dep_index="8" gov="family" gov_index="11">det</dependency>
+      <dependency dep="catenin" dep_index="9" gov="family" gov_index="11">amod</dependency>
+      <dependency dep="gene" dep_index="10" gov="family" gov_index="11">nn</dependency>
+      <dependency dep="family" dep_index="11" gov="members" gov_index="6">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="13" gov="family" gov_index="11">prep_including</dependency>
+      <dependency dep="gamma-catenin" dep_index="15" gov="family" gov_index="11">prep_including</dependency>
+      <dependency dep="gamma-catenin" dep_index="15" gov="beta-catenin" gov_index="13">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100013" relationship="true">1 3 6 11 13</relation>
+   </relations>
+   <pairs>
+      <pair>100013</pair>
+   </pairs>
+</root>

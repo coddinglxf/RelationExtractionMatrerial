@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@yeast@and@phage@,@genetic@characterizations@of@protein@complexes@are@possible@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">phage</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="JJ">genetic</taggedword>
+      <taggedword index="7" part-of-speech="NNS">characterizations</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">protein</taggedword>
+      <taggedword index="10" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="11" part-of-speech="VBP">are</taggedword>
+      <taggedword index="12" part-of-speech="JJ">possible</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="yeast" dep_index="2" gov="possible" gov_index="12">prep_in</dependency>
+      <dependency dep="phage" dep_index="4" gov="yeast" gov_index="2">conj_and</dependency>
+      <dependency dep="phage" dep_index="4" gov="possible" gov_index="12">prep_in</dependency>
+      <dependency dep="genetic" dep_index="6" gov="characterizations" gov_index="7">amod</dependency>
+      <dependency dep="characterizations" dep_index="7" gov="possible" gov_index="12">nsubj</dependency>
+      <dependency dep="protein" dep_index="9" gov="complexes" gov_index="10">nn</dependency>
+      <dependency dep="complexes" dep_index="10" gov="characterizations" gov_index="7">prep_of</dependency>
+      <dependency dep="are" dep_index="11" gov="possible" gov_index="12">cop</dependency>
+      <dependency dep="possible" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

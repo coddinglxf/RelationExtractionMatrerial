@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@results@of@complementation@experiments@show@that@,@in@contrast@to@mouse@Imp4@,@mouse@Imp3@can@partially@alleviate@the@growth@defect@of@the@corresponding@yeast@null@strain@,@indicating@that@the@role@of@Imp3@in@pre-rRNA@processing@is@evolutionarily@conserved@</sentence>
+   <tags>
+      <tag pos="13">Imp4</tag>
+      <tag pos="16">Imp3</tag>
+      <tag pos="35">Imp3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">complementation</taggedword>
+      <taggedword index="5" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="6" part-of-speech="VBP">show</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Imp4</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="16" part-of-speech="NNS">Imp3</taggedword>
+      <taggedword index="17" part-of-speech="MD">can</taggedword>
+      <taggedword index="18" part-of-speech="RB">partially</taggedword>
+      <taggedword index="19" part-of-speech="VB">alleviate</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">growth</taggedword>
+      <taggedword index="22" part-of-speech="NN">defect</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="JJ">corresponding</taggedword>
+      <taggedword index="26" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="27" part-of-speech="NN">null</taggedword>
+      <taggedword index="28" part-of-speech="NN">strain</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="VBG">indicating</taggedword>
+      <taggedword index="31" part-of-speech="IN">that</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">role</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="NNS">Imp3</taggedword>
+      <taggedword index="36" part-of-speech="IN">in</taggedword>
+      <taggedword index="37" part-of-speech="JJ">pre-rRNA</taggedword>
+      <taggedword index="38" part-of-speech="NN">processing</taggedword>
+      <taggedword index="39" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="40" part-of-speech="RB">evolutionarily</taggedword>
+      <taggedword index="41" part-of-speech="JJ">conserved</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="show" gov_index="6">nsubj</dependency>
+      <dependency dep="complementation" dep_index="4" gov="experiments" gov_index="5">nn</dependency>
+      <dependency dep="experiments" dep_index="5" gov="results" gov_index="2">prep_of</dependency>
+      <dependency dep="show" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="alleviate" gov_index="19">mark</dependency>
+      <dependency dep="contrast" dep_index="10" gov="alleviate" gov_index="19">prep_in</dependency>
+      <dependency dep="mouse" dep_index="12" gov="Imp4" gov_index="13">nn</dependency>
+      <dependency dep="Imp4" dep_index="13" gov="contrast" gov_index="10">prep_to</dependency>
+      <dependency dep="mouse" dep_index="15" gov="Imp3" gov_index="16">nn</dependency>
+      <dependency dep="Imp3" dep_index="16" gov="alleviate" gov_index="19">nsubj</dependency>
+      <dependency dep="can" dep_index="17" gov="alleviate" gov_index="19">aux</dependency>
+      <dependency dep="partially" dep_index="18" gov="alleviate" gov_index="19">advmod</dependency>
+      <dependency dep="alleviate" dep_index="19" gov="show" gov_index="6">ccomp</dependency>
+      <dependency dep="the" dep_index="20" gov="defect" gov_index="22">det</dependency>
+      <dependency dep="growth" dep_index="21" gov="defect" gov_index="22">nn</dependency>
+      <dependency dep="defect" dep_index="22" gov="alleviate" gov_index="19">dobj</dependency>
+      <dependency dep="the" dep_index="24" gov="strain" gov_index="28">det</dependency>
+      <dependency dep="corresponding" dep_index="25" gov="strain" gov_index="28">amod</dependency>
+      <dependency dep="yeast" dep_index="26" gov="strain" gov_index="28">nn</dependency>
+      <dependency dep="null" dep_index="27" gov="strain" gov_index="28">nn</dependency>
+      <dependency dep="strain" dep_index="28" gov="defect" gov_index="22">prep_of</dependency>
+      <dependency dep="indicating" dep_index="30" gov="alleviate" gov_index="19">partmod</dependency>
+      <dependency dep="that" dep_index="31" gov="conserved" gov_index="41">mark</dependency>
+      <dependency dep="the" dep_index="32" gov="role" gov_index="33">det</dependency>
+      <dependency dep="role" dep_index="33" gov="conserved" gov_index="41">nsubj</dependency>
+      <dependency dep="Imp3" dep_index="35" gov="role" gov_index="33">prep_of</dependency>
+      <dependency dep="pre-rRNA" dep_index="37" gov="processing" gov_index="38">amod</dependency>
+      <dependency dep="processing" dep_index="38" gov="Imp3" gov_index="35">prep_in</dependency>
+      <dependency dep="is" dep_index="39" gov="conserved" gov_index="41">cop</dependency>
+      <dependency dep="evolutionarily" dep_index="40" gov="conserved" gov_index="41">advmod</dependency>
+      <dependency dep="conserved" dep_index="41" gov="indicating" gov_index="30">ccomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300016" relationship="false">13 10 19 16</relation>
+      <relation position="1300035" relationship="false">13 10 19 30 41 33 35</relation>
+      <relation position="1600035" relationship="false">16 19 30 41 33 35</relation>
+   </relations>
+   <pairs/>
+</root>

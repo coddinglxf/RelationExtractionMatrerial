@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@we@show@that@QM@/@Jun-interacting factor (Jif)-1@,@a@negative@regulator@of@c-Jun@,@is@a@candidate@to@mediate@the@function@of@PS1@in@the@cell@.@</sentence>
+   <tags>
+      <tag pos="5">QM</tag>
+      <tag pos="7">Jun-interacting factor (Jif)-1</tag>
+      <tag pos="13">c-Jun</tag>
+      <tag pos="23">PS1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech="PRP">we</taggedword>
+      <taggedword index="3" part-of-speech="VBP">show</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">QM</taggedword>
+      <taggedword index="6" part-of-speech="NNP">/</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Jun-interacting factor (Jif)-1</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="11" part-of-speech="NN">regulator</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">c-Jun</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="NN">candidate</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="VB">mediate</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">function</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="NNP">PS1</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">cell</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="show" gov_index="3">advmod</dependency>
+      <dependency dep="we" dep_index="2" gov="show" gov_index="3">nsubj</dependency>
+      <dependency dep="show" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="candidate" gov_index="17">mark</dependency>
+      <dependency dep="QM" dep_index="5" gov="Jun-interacting factor (Jif)-1" gov_index="7">nn</dependency>
+      <dependency dep="/" dep_index="6" gov="Jun-interacting factor (Jif)-1" gov_index="7">nn</dependency>
+      <dependency dep="Jun-interacting factor (Jif)-1" dep_index="7" gov="candidate" gov_index="17">nsubj</dependency>
+      <dependency dep="a" dep_index="9" gov="regulator" gov_index="11">det</dependency>
+      <dependency dep="negative" dep_index="10" gov="regulator" gov_index="11">amod</dependency>
+      <dependency dep="regulator" dep_index="11" gov="Jun-interacting factor (Jif)-1" gov_index="7">appos</dependency>
+      <dependency dep="c-Jun" dep_index="13" gov="regulator" gov_index="11">prep_of</dependency>
+      <dependency dep="is" dep_index="15" gov="candidate" gov_index="17">cop</dependency>
+      <dependency dep="a" dep_index="16" gov="candidate" gov_index="17">det</dependency>
+      <dependency dep="candidate" dep_index="17" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="to" dep_index="18" gov="mediate" gov_index="19">aux</dependency>
+      <dependency dep="mediate" dep_index="19" gov="candidate" gov_index="17">infmod</dependency>
+      <dependency dep="the" dep_index="20" gov="function" gov_index="21">det</dependency>
+      <dependency dep="function" dep_index="21" gov="mediate" gov_index="19">dobj</dependency>
+      <dependency dep="PS1" dep_index="23" gov="function" gov_index="21">prep_of</dependency>
+      <dependency dep="the" dep_index="25" gov="cell" gov_index="26">det</dependency>
+      <dependency dep="cell" dep_index="26" gov="mediate" gov_index="19">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false"></relation>
+      <relation position="500013" relationship="true">5 7 11 13</relation>
+      <relation position="500023" relationship="false">5 7 17 19 21 23</relation>
+      <relation position="700013" relationship="true"></relation>
+      <relation position="700023" relationship="false">7 17 19 21 23</relation>
+      <relation position="1300023" relationship="false">13 11 7 17 19 21 23</relation>
+   </relations>
+   <pairs>
+      <pair>500013</pair>
+      <pair>700013</pair>
+   </pairs>
+</root>

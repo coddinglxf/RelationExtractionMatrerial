@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>G2@arrest@can@be@induced@by@gamma-irradiation@,@but@is@eliminated@by@expression@of@HOX11@within@a@T-cell@line@.@</sentence>
+   <tags>
+      <tag pos="15">HOX11</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">G2</taggedword>
+      <taggedword index="2" part-of-speech="NN">arrest</taggedword>
+      <taggedword index="3" part-of-speech="MD">can</taggedword>
+      <taggedword index="4" part-of-speech="VB">be</taggedword>
+      <taggedword index="5" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="NN">gamma-irradiation</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">but</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">eliminated</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="NN">expression</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNP">HOX11</taggedword>
+      <taggedword index="16" part-of-speech="IN">within</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">T-cell</taggedword>
+      <taggedword index="19" part-of-speech="NN">line</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="G2" dep_index="1" gov="arrest" gov_index="2">amod</dependency>
+      <dependency dep="arrest" dep_index="2" gov="induced" gov_index="5">nsubjpass</dependency>
+      <dependency dep="arrest" dep_index="2" gov="eliminated" gov_index="11">nsubjpass</dependency>
+      <dependency dep="can" dep_index="3" gov="induced" gov_index="5">aux</dependency>
+      <dependency dep="be" dep_index="4" gov="induced" gov_index="5">auxpass</dependency>
+      <dependency dep="induced" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="gamma-irradiation" dep_index="7" gov="induced" gov_index="5">agent</dependency>
+      <dependency dep="is" dep_index="10" gov="eliminated" gov_index="11">auxpass</dependency>
+      <dependency dep="eliminated" dep_index="11" gov="induced" gov_index="5">conj_but</dependency>
+      <dependency dep="expression" dep_index="13" gov="eliminated" gov_index="11">agent</dependency>
+      <dependency dep="HOX11" dep_index="15" gov="expression" gov_index="13">prep_of</dependency>
+      <dependency dep="a" dep_index="17" gov="line" gov_index="19">det</dependency>
+      <dependency dep="T-cell" dep_index="18" gov="line" gov_index="19">amod</dependency>
+      <dependency dep="line" dep_index="19" gov="eliminated" gov_index="11">prep_within</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

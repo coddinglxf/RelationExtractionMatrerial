@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>SKR2@complexes@in@which@an@activin beta@chain@occupies@each@receptor@subunit@.@</sentence>
+   <tags>
+      <tag pos="1">SKR2</tag>
+      <tag pos="6">activin beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">SKR2</taggedword>
+      <taggedword index="2" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="WDT">which</taggedword>
+      <taggedword index="5" part-of-speech="DT">an</taggedword>
+      <taggedword index="6" part-of-speech="NN">activin beta</taggedword>
+      <taggedword index="7" part-of-speech="NN">chain</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">occupies</taggedword>
+      <taggedword index="9" part-of-speech="DT">each</taggedword>
+      <taggedword index="10" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="11" part-of-speech="VBP">subunit</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="SKR2" dep_index="1" gov="complexes" gov_index="2">num</dependency>
+      <dependency dep="complexes" dep_index="2" gov="occupies" gov_index="8">prep_in</dependency>
+      <dependency dep="complexes" dep_index="2" gov="subunit" gov_index="11">nsubj</dependency>
+      <dependency dep="an" dep_index="5" gov="chain" gov_index="7">det</dependency>
+      <dependency dep="activin beta" dep_index="6" gov="chain" gov_index="7">nn</dependency>
+      <dependency dep="chain" dep_index="7" gov="occupies" gov_index="8">nsubj</dependency>
+      <dependency dep="occupies" dep_index="8" gov="complexes" gov_index="2">rcmod</dependency>
+      <dependency dep="each" dep_index="9" gov="receptor" gov_index="10">det</dependency>
+      <dependency dep="receptor" dep_index="10" gov="occupies" gov_index="8">dobj</dependency>
+      <dependency dep="subunit" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100006" relationship="false">1 2 8 7 6</relation>
+   </relations>
+   <pairs/>
+</root>

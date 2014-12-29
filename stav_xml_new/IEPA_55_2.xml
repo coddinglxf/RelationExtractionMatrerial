@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@effect@of@AVP@was@also@inhibited@in@the@presence@of@the@protein kinase C@inhibitor@calphostin@C@</sentence>
+   <tags>
+      <tag pos="4">AVP</tag>
+      <tag pos="13">protein kinase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">effect</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="RB">also</taggedword>
+      <taggedword index="7" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">presence</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="14" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="15" part-of-speech="NNP">calphostin</taggedword>
+      <taggedword index="16" part-of-speech="NNP">C</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="effect" gov_index="2">det</dependency>
+      <dependency dep="effect" dep_index="2" gov="was" gov_index="5">nsubj</dependency>
+      <dependency dep="AVP" dep_index="4" gov="effect" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="5" gov="inhibited" gov_index="7">dep</dependency>
+      <dependency dep="also" dep_index="6" gov="was" gov_index="5">advmod</dependency>
+      <dependency dep="inhibited" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="9" gov="presence" gov_index="10">det</dependency>
+      <dependency dep="presence" dep_index="10" gov="inhibited" gov_index="7">prep_in</dependency>
+      <dependency dep="the" dep_index="12" gov="inhibitor" gov_index="14">det</dependency>
+      <dependency dep="protein kinase C" dep_index="13" gov="inhibitor" gov_index="14">amod</dependency>
+      <dependency dep="inhibitor" dep_index="14" gov="presence" gov_index="10">prep_of</dependency>
+      <dependency dep="calphostin" dep_index="15" gov="C" gov_index="16">nn</dependency>
+      <dependency dep="C" dep_index="16" gov="inhibited" gov_index="7">nsubj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400013" relationship="true">4 2 5 7 10 14 13</relation>
+   </relations>
+   <pairs>
+      <pair>400013</pair>
+   </pairs>
+</root>

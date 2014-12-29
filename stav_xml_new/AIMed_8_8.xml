@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Eight@cell@lines@had@alterations@in@all@four@genes@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Eight</taggedword>
+      <taggedword index="2" part-of-speech="NN">cell</taggedword>
+      <taggedword index="3" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="4" part-of-speech="VBD">had</taggedword>
+      <taggedword index="5" part-of-speech="NNS">alterations</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="DT">all</taggedword>
+      <taggedword index="8" part-of-speech="CD">four</taggedword>
+      <taggedword index="9" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Eight" dep_index="1" gov="lines" gov_index="3">num</dependency>
+      <dependency dep="cell" dep_index="2" gov="lines" gov_index="3">nn</dependency>
+      <dependency dep="lines" dep_index="3" gov="had" gov_index="4">nsubj</dependency>
+      <dependency dep="had" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="alterations" dep_index="5" gov="had" gov_index="4">dobj</dependency>
+      <dependency dep="all" dep_index="7" gov="genes" gov_index="9">det</dependency>
+      <dependency dep="four" dep_index="8" gov="genes" gov_index="9">num</dependency>
+      <dependency dep="genes" dep_index="9" gov="alterations" gov_index="5">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

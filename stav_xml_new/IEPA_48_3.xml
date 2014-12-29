@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@data@demonstrate@a@leptin@-induced@increase@in@energy@expenditure@in@nonmutant@rodents@and@suggest@that@one@mechanism@by@which@leptin@increases@energy@expenditure@is@through@increased@thermogenesis@in@BAT@,@including@increased@expression@of@UCP@</sentence>
+   <tags>
+      <tag pos="5">leptin</tag>
+      <tag pos="21">leptin</tag>
+      <tag pos="36">UCP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">leptin</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="7" part-of-speech="NN">increase</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NN">energy</taggedword>
+      <taggedword index="10" part-of-speech="NN">expenditure</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJ">nonmutant</taggedword>
+      <taggedword index="13" part-of-speech="NNS">rodents</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="16" part-of-speech="IN">that</taggedword>
+      <taggedword index="17" part-of-speech="CD">one</taggedword>
+      <taggedword index="18" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="19" part-of-speech="IN">by</taggedword>
+      <taggedword index="20" part-of-speech="WDT">which</taggedword>
+      <taggedword index="21" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">increases</taggedword>
+      <taggedword index="23" part-of-speech="NN">energy</taggedword>
+      <taggedword index="24" part-of-speech="NN">expenditure</taggedword>
+      <taggedword index="25" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="26" part-of-speech="IN">through</taggedword>
+      <taggedword index="27" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="28" part-of-speech="NNS">thermogenesis</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="NNP">BAT</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="VBG">including</taggedword>
+      <taggedword index="33" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="34" part-of-speech="NN">expression</taggedword>
+      <taggedword index="35" part-of-speech="IN">of</taggedword>
+      <taggedword index="36" part-of-speech="NNP">UCP</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="data" gov_index="2">det</dependency>
+      <dependency dep="data" dep_index="2" gov="demonstrate" gov_index="3">nsubj</dependency>
+      <dependency dep="data" dep_index="2" gov="suggest" gov_index="15">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="increase" gov_index="7">det</dependency>
+      <dependency dep="leptin" dep_index="5" gov="increase" gov_index="7">amod</dependency>
+      <dependency dep="-induced" dep_index="6" gov="increase" gov_index="7">amod</dependency>
+      <dependency dep="increase" dep_index="7" gov="demonstrate" gov_index="3">dobj</dependency>
+      <dependency dep="energy" dep_index="9" gov="expenditure" gov_index="10">nn</dependency>
+      <dependency dep="expenditure" dep_index="10" gov="demonstrate" gov_index="3">prep_in</dependency>
+      <dependency dep="nonmutant" dep_index="12" gov="rodents" gov_index="13">amod</dependency>
+      <dependency dep="rodents" dep_index="13" gov="expenditure" gov_index="10">prep_in</dependency>
+      <dependency dep="suggest" dep_index="15" gov="demonstrate" gov_index="3">conj_and</dependency>
+      <dependency dep="that" dep_index="16" gov="is" gov_index="25">mark</dependency>
+      <dependency dep="one" dep_index="17" gov="mechanism" gov_index="18">num</dependency>
+      <dependency dep="mechanism" dep_index="18" gov="increases" gov_index="22">prep_by</dependency>
+      <dependency dep="mechanism" dep_index="18" gov="is" gov_index="25">nsubj</dependency>
+      <dependency dep="leptin" dep_index="21" gov="increases" gov_index="22">nsubj</dependency>
+      <dependency dep="increases" dep_index="22" gov="mechanism" gov_index="18">rcmod</dependency>
+      <dependency dep="energy" dep_index="23" gov="expenditure" gov_index="24">nn</dependency>
+      <dependency dep="expenditure" dep_index="24" gov="increases" gov_index="22">dobj</dependency>
+      <dependency dep="is" dep_index="25" gov="suggest" gov_index="15">ccomp</dependency>
+      <dependency dep="increased" dep_index="27" gov="thermogenesis" gov_index="28">amod</dependency>
+      <dependency dep="thermogenesis" dep_index="28" gov="is" gov_index="25">prep_through</dependency>
+      <dependency dep="BAT" dep_index="30" gov="thermogenesis" gov_index="28">prep_in</dependency>
+      <dependency dep="increased" dep_index="33" gov="expression" gov_index="34">amod</dependency>
+      <dependency dep="expression" dep_index="34" gov="demonstrate" gov_index="3">prep_including</dependency>
+      <dependency dep="UCP" dep_index="36" gov="expression" gov_index="34">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500021" relationship="false"></relation>
+      <relation position="500036" relationship="false">5 7 3 34 36</relation>
+      <relation position="2100036" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>2100036</pair>
+   </pairs>
+</root>

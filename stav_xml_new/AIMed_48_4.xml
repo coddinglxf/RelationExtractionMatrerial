@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@report@chemotaxis@and@competitive@binding@studies@that@show@LEC@binds@to@and@activates@CCR1@and@CCR8@transfected@HEK-293@cells@.@</sentence>
+   <tags>
+      <tag pos="10">LEC</tag>
+      <tag pos="15">CCR1</tag>
+      <tag pos="17">CCR8</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">report</taggedword>
+      <taggedword index="3" part-of-speech="JJ">chemotaxis</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="JJ">competitive</taggedword>
+      <taggedword index="6" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="7" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="8" part-of-speech="WDT">that</taggedword>
+      <taggedword index="9" part-of-speech="VBP">show</taggedword>
+      <taggedword index="10" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="11" part-of-speech="NNS">binds</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">activates</taggedword>
+      <taggedword index="15" part-of-speech="NNP">CCR1</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NNP">CCR8</taggedword>
+      <taggedword index="18" part-of-speech="JJ">transfected</taggedword>
+      <taggedword index="19" part-of-speech="NN">HEK-293</taggedword>
+      <taggedword index="20" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="report" gov_index="2">nsubj</dependency>
+      <dependency dep="report" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="chemotaxis" dep_index="3" gov="studies" gov_index="7">amod</dependency>
+      <dependency dep="competitive" dep_index="5" gov="chemotaxis" gov_index="3">conj_and</dependency>
+      <dependency dep="competitive" dep_index="5" gov="studies" gov_index="7">amod</dependency>
+      <dependency dep="binding" dep_index="6" gov="studies" gov_index="7">amod</dependency>
+      <dependency dep="studies" dep_index="7" gov="report" gov_index="2">dobj</dependency>
+      <dependency dep="studies" dep_index="7" gov="show" gov_index="9">nsubj</dependency>
+      <dependency dep="studies" dep_index="7" gov="activates" gov_index="14">nsubj</dependency>
+      <dependency dep="show" dep_index="9" gov="studies" gov_index="7">rcmod</dependency>
+      <dependency dep="LEC" dep_index="10" gov="binds" gov_index="11">nn</dependency>
+      <dependency dep="binds" dep_index="11" gov="show" gov_index="9">dobj</dependency>
+      <dependency dep="to" dep_index="12" gov="show" gov_index="9">prep</dependency>
+      <dependency dep="activates" dep_index="14" gov="studies" gov_index="7">rcmod</dependency>
+      <dependency dep="activates" dep_index="14" gov="show" gov_index="9">conj_and</dependency>
+      <dependency dep="CCR1" dep_index="15" gov="cells" gov_index="20">nn</dependency>
+      <dependency dep="CCR8" dep_index="17" gov="CCR1" gov_index="15">conj_and</dependency>
+      <dependency dep="CCR8" dep_index="17" gov="cells" gov_index="20">nn</dependency>
+      <dependency dep="transfected" dep_index="18" gov="cells" gov_index="20">amod</dependency>
+      <dependency dep="HEK-293" dep_index="19" gov="cells" gov_index="20">nn</dependency>
+      <dependency dep="cells" dep_index="20" gov="activates" gov_index="14">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000015" relationship="true">10 11 9 7 14 20 15</relation>
+      <relation position="1000017" relationship="true">10 11 9 7 14 20 17</relation>
+      <relation position="1500017" relationship="false">15 20 17</relation>
+   </relations>
+   <pairs>
+      <pair>1000015</pair>
+      <pair>1000017</pair>
+   </pairs>
+</root>

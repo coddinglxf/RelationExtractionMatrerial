@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Removal@of@the@amino-terminal@tails@of@either@histone@H3@or@histone@H4@allowed@these@polyamides@to@bind@.@</sentence>
+   <tags>
+      <tag pos="12">H4</tag>
+      <tag pos="11">histone</tag>
+      <tag pos="8">histone</tag>
+      <tag pos="9">H3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Removal</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="5" part-of-speech="NNS">tails</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">either</taggedword>
+      <taggedword index="8" part-of-speech="JJ">histone</taggedword>
+      <taggedword index="9" part-of-speech="NN">H3</taggedword>
+      <taggedword index="10" part-of-speech="CC">or</taggedword>
+      <taggedword index="11" part-of-speech="NN">histone</taggedword>
+      <taggedword index="12" part-of-speech="NN">H4</taggedword>
+      <taggedword index="13" part-of-speech="VBD">allowed</taggedword>
+      <taggedword index="14" part-of-speech="DT">these</taggedword>
+      <taggedword index="15" part-of-speech="NNS">polyamides</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="NN">bind</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Removal" dep_index="1" gov="allowed" gov_index="13">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="tails" gov_index="5">det</dependency>
+      <dependency dep="amino-terminal" dep_index="4" gov="tails" gov_index="5">amod</dependency>
+      <dependency dep="tails" dep_index="5" gov="Removal" gov_index="1">prep_of</dependency>
+      <dependency dep="either" dep_index="7" gov="H3" gov_index="9">preconj</dependency>
+      <dependency dep="histone" dep_index="8" gov="H3" gov_index="9">amod</dependency>
+      <dependency dep="H3" dep_index="9" gov="tails" gov_index="5">prep_of</dependency>
+      <dependency dep="histone" dep_index="11" gov="H4" gov_index="12">nn</dependency>
+      <dependency dep="H4" dep_index="12" gov="tails" gov_index="5">prep_of</dependency>
+      <dependency dep="H4" dep_index="12" gov="H3" gov_index="9">conj_or</dependency>
+      <dependency dep="allowed" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="these" dep_index="14" gov="polyamides" gov_index="15">det</dependency>
+      <dependency dep="polyamides" dep_index="15" gov="allowed" gov_index="13">dobj</dependency>
+      <dependency dep="bind" dep_index="17" gov="allowed" gov_index="13">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100012" relationship="true"></relation>
+      <relation position="800012" relationship="false">8 9 12</relation>
+      <relation position="900012" relationship="false">9 5 12</relation>
+      <relation position="800011" relationship="false">8 9 12 11</relation>
+      <relation position="900011" relationship="false">9 5 12 11</relation>
+      <relation position="800009" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>1100012</pair>
+      <pair>800009</pair>
+   </pairs>
+</root>

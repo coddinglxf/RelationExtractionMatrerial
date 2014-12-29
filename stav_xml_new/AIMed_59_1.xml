@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Analysis@of@the@oligomerization@of@myogenin@and@E2A@products@in@vivo@using@a@two-hybrid@assay@system@.@</sentence>
+   <tags>
+      <tag pos="6">myogenin</tag>
+      <tag pos="8">E2A</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Analysis</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">oligomerization</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">myogenin</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">E2A</taggedword>
+      <taggedword index="9" part-of-speech="NNS">products</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="12" part-of-speech="VBG">using</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="15" part-of-speech="NN">assay</taggedword>
+      <taggedword index="16" part-of-speech="NN">system</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Analysis" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="oligomerization" gov_index="4">det</dependency>
+      <dependency dep="oligomerization" dep_index="4" gov="Analysis" gov_index="1">prep_of</dependency>
+      <dependency dep="myogenin" dep_index="6" gov="products" gov_index="9">nn</dependency>
+      <dependency dep="E2A" dep_index="8" gov="myogenin" gov_index="6">conj_and</dependency>
+      <dependency dep="E2A" dep_index="8" gov="products" gov_index="9">nn</dependency>
+      <dependency dep="products" dep_index="9" gov="oligomerization" gov_index="4">prep_of</dependency>
+      <dependency dep="vivo" dep_index="11" gov="products" gov_index="9">prep_in</dependency>
+      <dependency dep="using" dep_index="12" gov="Analysis" gov_index="1">partmod</dependency>
+      <dependency dep="a" dep_index="13" gov="system" gov_index="16">det</dependency>
+      <dependency dep="two-hybrid" dep_index="14" gov="system" gov_index="16">amod</dependency>
+      <dependency dep="assay" dep_index="15" gov="system" gov_index="16">nn</dependency>
+      <dependency dep="system" dep_index="16" gov="using" gov_index="12">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="false">6 9 8</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Structure@of@tumour@necrosis@factor@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Structure</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">tumour</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">necrosis</taggedword>
+      <taggedword index="5" part-of-speech="NN">factor</taggedword>
+      <taggedword index="6" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Structure" dep_index="1" gov="necrosis" gov_index="4">nsubj</dependency>
+      <dependency dep="tumour" dep_index="3" gov="Structure" gov_index="1">prep_of</dependency>
+      <dependency dep="necrosis" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="factor" dep_index="5" gov="necrosis" gov_index="4">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

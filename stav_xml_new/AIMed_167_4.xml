@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@truncated@version@of@the@integral@membrane@glycoprotein@Glut 1@(@GT155@)@was@synthesized@in@a@rabbit@reticulocyte@translation@system@in@the@presence@of@canine@pancreatic@microsomes@.@</sentence>
+   <tags>
+      <tag pos="9">Glut 1</tag>
+      <tag pos="11">GT155</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">truncated</taggedword>
+      <taggedword index="3" part-of-speech="NN">version</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">integral</taggedword>
+      <taggedword index="7" part-of-speech="JJ">membrane</taggedword>
+      <taggedword index="8" part-of-speech="NN">glycoprotein</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Glut 1</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">GT155</taggedword>
+      <taggedword index="12" part-of-speech="NNP">)</taggedword>
+      <taggedword index="13" part-of-speech="VBD">was</taggedword>
+      <taggedword index="14" part-of-speech="VBN">synthesized</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="NN">rabbit</taggedword>
+      <taggedword index="18" part-of-speech="NN">reticulocyte</taggedword>
+      <taggedword index="19" part-of-speech="NN">translation</taggedword>
+      <taggedword index="20" part-of-speech="NN">system</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">presence</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="JJ">canine</taggedword>
+      <taggedword index="26" part-of-speech="JJ">pancreatic</taggedword>
+      <taggedword index="27" part-of-speech="NNS">microsomes</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="version" gov_index="3">det</dependency>
+      <dependency dep="truncated" dep_index="2" gov="version" gov_index="3">amod</dependency>
+      <dependency dep="version" dep_index="3" gov="synthesized" gov_index="14">nsubjpass</dependency>
+      <dependency dep="the" dep_index="5" gov=")" gov_index="12">det</dependency>
+      <dependency dep="integral" dep_index="6" gov=")" gov_index="12">amod</dependency>
+      <dependency dep="membrane" dep_index="7" gov=")" gov_index="12">amod</dependency>
+      <dependency dep="glycoprotein" dep_index="8" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="Glut 1" dep_index="9" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="GT155" dep_index="11" gov=")" gov_index="12">nn</dependency>
+      <dependency dep=")" dep_index="12" gov="version" gov_index="3">prep_of</dependency>
+      <dependency dep="was" dep_index="13" gov="synthesized" gov_index="14">auxpass</dependency>
+      <dependency dep="synthesized" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="16" gov="system" gov_index="20">det</dependency>
+      <dependency dep="rabbit" dep_index="17" gov="system" gov_index="20">nn</dependency>
+      <dependency dep="reticulocyte" dep_index="18" gov="system" gov_index="20">nn</dependency>
+      <dependency dep="translation" dep_index="19" gov="system" gov_index="20">nn</dependency>
+      <dependency dep="system" dep_index="20" gov="synthesized" gov_index="14">prep_in</dependency>
+      <dependency dep="the" dep_index="22" gov="presence" gov_index="23">det</dependency>
+      <dependency dep="presence" dep_index="23" gov="system" gov_index="20">prep_in</dependency>
+      <dependency dep="canine" dep_index="25" gov="microsomes" gov_index="27">amod</dependency>
+      <dependency dep="pancreatic" dep_index="26" gov="microsomes" gov_index="27">amod</dependency>
+      <dependency dep="microsomes" dep_index="27" gov="presence" gov_index="23">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="false">9 12 11</relation>
+   </relations>
+   <pairs/>
+</root>

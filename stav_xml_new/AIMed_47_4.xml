@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Signaling@by@these@cytokines@requires@binding@of@two@types@of@transmembrane@serine/threonine@receptor@kinase@chains@classified@as@type@I@and@type@II@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Signaling</taggedword>
+      <taggedword index="2" part-of-speech="IN">by</taggedword>
+      <taggedword index="3" part-of-speech="DT">these</taggedword>
+      <taggedword index="4" part-of-speech="NNS">cytokines</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">requires</taggedword>
+      <taggedword index="6" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="CD">two</taggedword>
+      <taggedword index="9" part-of-speech="NNS">types</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">transmembrane</taggedword>
+      <taggedword index="12" part-of-speech="NN">serine/threonine</taggedword>
+      <taggedword index="13" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="14" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="15" part-of-speech="NNS">chains</taggedword>
+      <taggedword index="16" part-of-speech="VBN">classified</taggedword>
+      <taggedword index="17" part-of-speech="IN">as</taggedword>
+      <taggedword index="18" part-of-speech="NN">type</taggedword>
+      <taggedword index="19" part-of-speech="NN">I</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NNP">type</taggedword>
+      <taggedword index="22" part-of-speech="NNP">II</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Signaling" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="these" dep_index="3" gov="cytokines" gov_index="4">det</dependency>
+      <dependency dep="cytokines" dep_index="4" gov="Signaling" gov_index="1">prep_by</dependency>
+      <dependency dep="requires" dep_index="5" gov="Signaling" gov_index="1">dep</dependency>
+      <dependency dep="binding" dep_index="6" gov="Signaling" gov_index="1">nsubj</dependency>
+      <dependency dep="two" dep_index="8" gov="types" gov_index="9">num</dependency>
+      <dependency dep="types" dep_index="9" gov="binding" gov_index="6">prep_of</dependency>
+      <dependency dep="transmembrane" dep_index="11" gov="chains" gov_index="15">amod</dependency>
+      <dependency dep="serine/threonine" dep_index="12" gov="chains" gov_index="15">nn</dependency>
+      <dependency dep="receptor" dep_index="13" gov="chains" gov_index="15">nn</dependency>
+      <dependency dep="kinase" dep_index="14" gov="chains" gov_index="15">nn</dependency>
+      <dependency dep="chains" dep_index="15" gov="types" gov_index="9">prep_of</dependency>
+      <dependency dep="classified" dep_index="16" gov="chains" gov_index="15">partmod</dependency>
+      <dependency dep="type" dep_index="18" gov="I" gov_index="19">nn</dependency>
+      <dependency dep="I" dep_index="19" gov="classified" gov_index="16">prep_as</dependency>
+      <dependency dep="type" dep_index="21" gov="II" gov_index="22">nn</dependency>
+      <dependency dep="II" dep_index="22" gov="classified" gov_index="16">prep_as</dependency>
+      <dependency dep="II" dep_index="22" gov="I" gov_index="19">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Stimulus-dependent@disorganization@of@actin@filaments@induced@by@overexpression@of@cofilin@in@C2@myoblasts@.@</sentence>
+   <tags>
+      <tag pos="4">actin</tag>
+      <tag pos="10">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Stimulus-dependent</taggedword>
+      <taggedword index="2" part-of-speech="NN">disorganization</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="6" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="NN">overexpression</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="CD">C2</taggedword>
+      <taggedword index="13" part-of-speech="NNS">myoblasts</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Stimulus-dependent" dep_index="1" gov="disorganization" gov_index="2">amod</dependency>
+      <dependency dep="disorganization" dep_index="2" gov="induced" gov_index="6">nsubj</dependency>
+      <dependency dep="actin" dep_index="4" gov="filaments" gov_index="5">nn</dependency>
+      <dependency dep="filaments" dep_index="5" gov="disorganization" gov_index="2">prep_of</dependency>
+      <dependency dep="induced" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="overexpression" dep_index="8" gov="induced" gov_index="6">prep_by</dependency>
+      <dependency dep="cofilin" dep_index="10" gov="overexpression" gov_index="8">prep_of</dependency>
+      <dependency dep="C2" dep_index="12" gov="myoblasts" gov_index="13">num</dependency>
+      <dependency dep="myoblasts" dep_index="13" gov="cofilin" gov_index="10">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400010" relationship="true">4 5 2 6 8 10</relation>
+   </relations>
+   <pairs>
+      <pair>400010</pair>
+   </pairs>
+</root>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interestingly@,@the@ifnar2@binding@site@overlaps@the@largest@continuous@hydrophobic@patch@on@IFNalpha2@.@</sentence>
+   <tags>
+      <tag pos="4">ifnar2</tag>
+      <tag pos="14">IFNalpha2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Interestingly</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">ifnar2</taggedword>
+      <taggedword index="5" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="6" part-of-speech="NN">site</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">overlaps</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJS">largest</taggedword>
+      <taggedword index="10" part-of-speech="JJ">continuous</taggedword>
+      <taggedword index="11" part-of-speech="JJ">hydrophobic</taggedword>
+      <taggedword index="12" part-of-speech="NN">patch</taggedword>
+      <taggedword index="13" part-of-speech="IN">on</taggedword>
+      <taggedword index="14" part-of-speech="NNS">IFNalpha2</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interestingly" dep_index="1" gov="overlaps" gov_index="7">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="site" gov_index="6">det</dependency>
+      <dependency dep="ifnar2" dep_index="4" gov="site" gov_index="6">amod</dependency>
+      <dependency dep="binding" dep_index="5" gov="site" gov_index="6">amod</dependency>
+      <dependency dep="site" dep_index="6" gov="overlaps" gov_index="7">nsubj</dependency>
+      <dependency dep="overlaps" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="patch" gov_index="12">det</dependency>
+      <dependency dep="largest" dep_index="9" gov="continuous" gov_index="10">dep</dependency>
+      <dependency dep="continuous" dep_index="10" gov="patch" gov_index="12">amod</dependency>
+      <dependency dep="hydrophobic" dep_index="11" gov="patch" gov_index="12">amod</dependency>
+      <dependency dep="patch" dep_index="12" gov="overlaps" gov_index="7">dobj</dependency>
+      <dependency dep="IFNalpha2" dep_index="14" gov="patch" gov_index="12">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400014" relationship="true">4 6 7 12 14</relation>
+   </relations>
+   <pairs>
+      <pair>400014</pair>
+   </pairs>
+</root>

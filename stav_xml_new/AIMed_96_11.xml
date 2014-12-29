@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@data@suggest@that@PTPmu@may@be@one@of@the@enzymes@that@regulates@the@dynamic@tyrosine@phosphorylation@,@and@thus@function@,@of@the@cadherin/catenin@complex@in@vivo@.@</sentence>
+   <tags>
+      <tag pos="5">PTPmu</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">PTPmu</taggedword>
+      <taggedword index="6" part-of-speech="MD">may</taggedword>
+      <taggedword index="7" part-of-speech="VB">be</taggedword>
+      <taggedword index="8" part-of-speech="CD">one</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NNS">enzymes</taggedword>
+      <taggedword index="12" part-of-speech="WDT">that</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">regulates</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">dynamic</taggedword>
+      <taggedword index="16" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="17" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="RB">thus</taggedword>
+      <taggedword index="21" part-of-speech="VBP">function</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">cadherin/catenin</taggedword>
+      <taggedword index="26" part-of-speech="NN">complex</taggedword>
+      <taggedword index="27" part-of-speech="IN">in</taggedword>
+      <taggedword index="28" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="data" gov_index="2">det</dependency>
+      <dependency dep="data" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="one" gov_index="8">mark</dependency>
+      <dependency dep="PTPmu" dep_index="5" gov="one" gov_index="8">nsubj</dependency>
+      <dependency dep="may" dep_index="6" gov="one" gov_index="8">aux</dependency>
+      <dependency dep="be" dep_index="7" gov="one" gov_index="8">cop</dependency>
+      <dependency dep="one" dep_index="8" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="10" gov="enzymes" gov_index="11">det</dependency>
+      <dependency dep="enzymes" dep_index="11" gov="one" gov_index="8">prep_of</dependency>
+      <dependency dep="enzymes" dep_index="11" gov="regulates" gov_index="13">nsubj</dependency>
+      <dependency dep="enzymes" dep_index="11" gov="function" gov_index="21">nsubj</dependency>
+      <dependency dep="regulates" dep_index="13" gov="enzymes" gov_index="11">rcmod</dependency>
+      <dependency dep="the" dep_index="14" gov="phosphorylation" gov_index="17">det</dependency>
+      <dependency dep="dynamic" dep_index="15" gov="phosphorylation" gov_index="17">amod</dependency>
+      <dependency dep="tyrosine" dep_index="16" gov="phosphorylation" gov_index="17">nn</dependency>
+      <dependency dep="phosphorylation" dep_index="17" gov="regulates" gov_index="13">dobj</dependency>
+      <dependency dep="thus" dep_index="20" gov="function" gov_index="21">advmod</dependency>
+      <dependency dep="function" dep_index="21" gov="enzymes" gov_index="11">rcmod</dependency>
+      <dependency dep="function" dep_index="21" gov="regulates" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="24" gov="complex" gov_index="26">det</dependency>
+      <dependency dep="cadherin/catenin" dep_index="25" gov="complex" gov_index="26">nn</dependency>
+      <dependency dep="complex" dep_index="26" gov="enzymes" gov_index="11">prep_of</dependency>
+      <dependency dep="vivo" dep_index="28" gov="complex" gov_index="26">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

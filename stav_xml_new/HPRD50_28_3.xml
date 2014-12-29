@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@phosphorylation@of@SMC1@by@ATR@is@independent@of@Rad17@and@replication@protein@A@,@suggesting@that@the@signaling@pathway@leading@to@SMC1@phosphorylation@is@distinct@from@that@mediated@by@the@checkpoint@proteins@</sentence>
+   <tags>
+      <tag pos="6">SMC1</tag>
+      <tag pos="12">Rad17</tag>
+      <tag pos="25">SMC1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">SMC1</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="NNP">ATR</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNS">Rad17</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">replication</taggedword>
+      <taggedword index="15" part-of-speech="NN">protein</taggedword>
+      <taggedword index="16" part-of-speech="NN">A</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="VBG">suggesting</taggedword>
+      <taggedword index="19" part-of-speech="IN">that</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">signaling</taggedword>
+      <taggedword index="22" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="23" part-of-speech="VBG">leading</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="JJ">SMC1</taggedword>
+      <taggedword index="26" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="27" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="28" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="29" part-of-speech="IN">from</taggedword>
+      <taggedword index="30" part-of-speech="DT">that</taggedword>
+      <taggedword index="31" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="32" part-of-speech="IN">by</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="JJ">checkpoint</taggedword>
+      <taggedword index="35" part-of-speech="NNS">proteins</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="suggesting" gov_index="18">prep_in</dependency>
+      <dependency dep="phosphorylation" dep_index="4" gov="suggesting" gov_index="18">nsubj</dependency>
+      <dependency dep="SMC1" dep_index="6" gov="phosphorylation" gov_index="4">prep_of</dependency>
+      <dependency dep="ATR" dep_index="8" gov="SMC1" gov_index="6">prep_by</dependency>
+      <dependency dep="is" dep_index="9" gov="suggesting" gov_index="18">cop</dependency>
+      <dependency dep="independent" dep_index="10" gov="suggesting" gov_index="18">acomp</dependency>
+      <dependency dep="Rad17" dep_index="12" gov="suggesting" gov_index="18">prep_of</dependency>
+      <dependency dep="replication" dep_index="14" gov="A" gov_index="16">nn</dependency>
+      <dependency dep="protein" dep_index="15" gov="A" gov_index="16">nn</dependency>
+      <dependency dep="A" dep_index="16" gov="Rad17" gov_index="12">conj_and</dependency>
+      <dependency dep="A" dep_index="16" gov="suggesting" gov_index="18">prep_of</dependency>
+      <dependency dep="suggesting" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="19" gov="distinct" gov_index="28">mark</dependency>
+      <dependency dep="the" dep_index="20" gov="pathway" gov_index="22">det</dependency>
+      <dependency dep="signaling" dep_index="21" gov="pathway" gov_index="22">amod</dependency>
+      <dependency dep="pathway" dep_index="22" gov="distinct" gov_index="28">nsubj</dependency>
+      <dependency dep="leading" dep_index="23" gov="pathway" gov_index="22">partmod</dependency>
+      <dependency dep="SMC1" dep_index="25" gov="phosphorylation" gov_index="26">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="26" gov="leading" gov_index="23">prep_to</dependency>
+      <dependency dep="is" dep_index="27" gov="distinct" gov_index="28">cop</dependency>
+      <dependency dep="distinct" dep_index="28" gov="suggesting" gov_index="18">ccomp</dependency>
+      <dependency dep="that" dep_index="30" gov="distinct" gov_index="28">prep_from</dependency>
+      <dependency dep="mediated" dep_index="31" gov="that" gov_index="30">partmod</dependency>
+      <dependency dep="the" dep_index="33" gov="proteins" gov_index="35">det</dependency>
+      <dependency dep="checkpoint" dep_index="34" gov="proteins" gov_index="35">amod</dependency>
+      <dependency dep="proteins" dep_index="35" gov="mediated" gov_index="31">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600012" relationship="false">6 4 18 12</relation>
+      <relation position="600025" relationship="false">6 4 18 28 22 23 26 25</relation>
+      <relation position="1200025" relationship="false">12 18 28 22 23 26 25</relation>
+   </relations>
+   <pairs/>
+</root>

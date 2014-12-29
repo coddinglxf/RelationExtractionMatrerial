@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Isothermal@titration@calorimetry@shows@that@IFN-gamma SC1@forms@a@1:1@complex@with@its@high-affinity@receptor@(@IFN-gamma R alpha@)@with@an@affinity@of@27(+/-@9)@nM@.@</sentence>
+   <tags>
+      <tag pos="6">IFN-gamma SC1</tag>
+      <tag pos="16">IFN-gamma R alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Isothermal</taggedword>
+      <taggedword index="2" part-of-speech="NN">titration</taggedword>
+      <taggedword index="3" part-of-speech="RB">calorimetry</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">shows</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="NNS">IFN-gamma SC1</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">forms</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="CD">1:1</taggedword>
+      <taggedword index="10" part-of-speech="NN">complex</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="13" part-of-speech="JJ">high-affinity</taggedword>
+      <taggedword index="14" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="15" part-of-speech="NNP">(</taggedword>
+      <taggedword index="16" part-of-speech="NNP">IFN-gamma R alpha</taggedword>
+      <taggedword index="17" part-of-speech="NNP">)</taggedword>
+      <taggedword index="18" part-of-speech="IN">with</taggedword>
+      <taggedword index="19" part-of-speech="DT">an</taggedword>
+      <taggedword index="20" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="CD">27(+/-</taggedword>
+      <taggedword index="23" part-of-speech="CD">9)</taggedword>
+      <taggedword index="24" part-of-speech="NNS">nM</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Isothermal" dep_index="1" gov="titration" gov_index="2">amod</dependency>
+      <dependency dep="titration" dep_index="2" gov="shows" gov_index="4">nsubj</dependency>
+      <dependency dep="calorimetry" dep_index="3" gov="shows" gov_index="4">advmod</dependency>
+      <dependency dep="shows" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="forms" gov_index="7">mark</dependency>
+      <dependency dep="IFN-gamma SC1" dep_index="6" gov="forms" gov_index="7">nsubj</dependency>
+      <dependency dep="forms" dep_index="7" gov="shows" gov_index="4">ccomp</dependency>
+      <dependency dep="a" dep_index="8" gov="complex" gov_index="10">det</dependency>
+      <dependency dep="1:1" dep_index="9" gov="complex" gov_index="10">num</dependency>
+      <dependency dep="complex" dep_index="10" gov="forms" gov_index="7">dobj</dependency>
+      <dependency dep="its" dep_index="12" gov=")" gov_index="17">poss</dependency>
+      <dependency dep="high-affinity" dep_index="13" gov=")" gov_index="17">amod</dependency>
+      <dependency dep="receptor" dep_index="14" gov=")" gov_index="17">nn</dependency>
+      <dependency dep="(" dep_index="15" gov=")" gov_index="17">nn</dependency>
+      <dependency dep="IFN-gamma R alpha" dep_index="16" gov=")" gov_index="17">nn</dependency>
+      <dependency dep=")" dep_index="17" gov="complex" gov_index="10">prep_with</dependency>
+      <dependency dep="an" dep_index="19" gov="affinity" gov_index="20">det</dependency>
+      <dependency dep="affinity" dep_index="20" gov="forms" gov_index="7">prep_with</dependency>
+      <dependency dep="27(+/-" dep_index="22" gov="nM" gov_index="24">num</dependency>
+      <dependency dep="9)" dep_index="23" gov="nM" gov_index="24">num</dependency>
+      <dependency dep="nM" dep_index="24" gov="affinity" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600016" relationship="true">6 7 10 17 16</relation>
+   </relations>
+   <pairs>
+      <pair>600016</pair>
+   </pairs>
+</root>

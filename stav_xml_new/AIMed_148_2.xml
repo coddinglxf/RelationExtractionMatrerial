@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>.Originally@identified@as@a@'mitotic@cyclin'@,@cyclin A@exhibits@properties@of@growth@factor@sensitivity@,@susceptibility@to@viral@subversion@and@association@with@a@tumor-suppressor@protein@,@properties@which@are@indicative@of@an@S-phase-promoting factor@(@SPF@)@as@well@as@a@candidate@proto-oncogene@.@</sentence>
+   <tags>
+      <tag pos="8">cyclin A</tag>
+      <tag pos="33">S-phase-promoting factor</tag>
+      <tag pos="35">SPF</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">.Originally</taggedword>
+      <taggedword index="2" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="3" part-of-speech="IN">as</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">'mitotic</taggedword>
+      <taggedword index="6" part-of-speech="NN">cyclin'</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">cyclin A</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">exhibits</taggedword>
+      <taggedword index="10" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">growth</taggedword>
+      <taggedword index="13" part-of-speech="NN">factor</taggedword>
+      <taggedword index="14" part-of-speech="NN">sensitivity</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="JJ">susceptibility</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="19" part-of-speech="NN">subversion</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NN">association</taggedword>
+      <taggedword index="22" part-of-speech="IN">with</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="JJ">tumor-suppressor</taggedword>
+      <taggedword index="25" part-of-speech="NN">protein</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="28" part-of-speech="WDT">which</taggedword>
+      <taggedword index="29" part-of-speech="VBP">are</taggedword>
+      <taggedword index="30" part-of-speech="JJ">indicative</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="DT">an</taggedword>
+      <taggedword index="33" part-of-speech="NNP">S-phase-promoting factor</taggedword>
+      <taggedword index="34" part-of-speech="NNP">(</taggedword>
+      <taggedword index="35" part-of-speech="NNP">SPF</taggedword>
+      <taggedword index="36" part-of-speech="NNP">)</taggedword>
+      <taggedword index="37" part-of-speech="RB">as</taggedword>
+      <taggedword index="38" part-of-speech="RB">well</taggedword>
+      <taggedword index="39" part-of-speech="IN">as</taggedword>
+      <taggedword index="40" part-of-speech="DT">a</taggedword>
+      <taggedword index="41" part-of-speech="NN">candidate</taggedword>
+      <taggedword index="42" part-of-speech="NN">proto-oncogene</taggedword>
+      <taggedword index="43" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep=".Originally" dep_index="1" gov="identified" gov_index="2">advmod</dependency>
+      <dependency dep="identified" dep_index="2" gov="exhibits" gov_index="9">dep</dependency>
+      <dependency dep="a" dep_index="4" gov="cyclin'" gov_index="6">det</dependency>
+      <dependency dep="'mitotic" dep_index="5" gov="cyclin'" gov_index="6">amod</dependency>
+      <dependency dep="cyclin'" dep_index="6" gov="identified" gov_index="2">prep_as</dependency>
+      <dependency dep="cyclin A" dep_index="8" gov="cyclin'" gov_index="6">appos</dependency>
+      <dependency dep="exhibits" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="properties" dep_index="10" gov="exhibits" gov_index="9">nsubj</dependency>
+      <dependency dep="growth" dep_index="12" gov="sensitivity" gov_index="14">nn</dependency>
+      <dependency dep="factor" dep_index="13" gov="sensitivity" gov_index="14">nn</dependency>
+      <dependency dep="sensitivity" dep_index="14" gov="properties" gov_index="10">prep_of</dependency>
+      <dependency dep="susceptibility" dep_index="16" gov="properties" gov_index="10">amod</dependency>
+      <dependency dep="viral" dep_index="18" gov="subversion" gov_index="19">amod</dependency>
+      <dependency dep="subversion" dep_index="19" gov="susceptibility" gov_index="16">prep_to</dependency>
+      <dependency dep="association" dep_index="21" gov="susceptibility" gov_index="16">prep_to</dependency>
+      <dependency dep="association" dep_index="21" gov="subversion" gov_index="19">conj_and</dependency>
+      <dependency dep="a" dep_index="23" gov="protein" gov_index="25">det</dependency>
+      <dependency dep="tumor-suppressor" dep_index="24" gov="protein" gov_index="25">amod</dependency>
+      <dependency dep="protein" dep_index="25" gov="subversion" gov_index="19">prep_with</dependency>
+      <dependency dep="properties" dep_index="27" gov="protein" gov_index="25">appos</dependency>
+      <dependency dep="properties" dep_index="27" gov="indicative" gov_index="30">nsubj</dependency>
+      <dependency dep="are" dep_index="29" gov="indicative" gov_index="30">cop</dependency>
+      <dependency dep="indicative" dep_index="30" gov="properties" gov_index="27">rcmod</dependency>
+      <dependency dep="an" dep_index="32" gov=")" gov_index="36">det</dependency>
+      <dependency dep="S-phase-promoting factor" dep_index="33" gov=")" gov_index="36">nn</dependency>
+      <dependency dep="(" dep_index="34" gov=")" gov_index="36">nn</dependency>
+      <dependency dep="SPF" dep_index="35" gov=")" gov_index="36">nn</dependency>
+      <dependency dep=")" dep_index="36" gov="indicative" gov_index="30">prep_of</dependency>
+      <dependency dep="a" dep_index="40" gov="proto-oncogene" gov_index="42">det</dependency>
+      <dependency dep="candidate" dep_index="41" gov="proto-oncogene" gov_index="42">nn</dependency>
+      <dependency dep="proto-oncogene" dep_index="42" gov="indicative" gov_index="30">prep_of</dependency>
+      <dependency dep="proto-oncogene" dep_index="42" gov=")" gov_index="36">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800033" relationship="false">8 6 2 9 10 16 19 25 27 30 36 33</relation>
+      <relation position="800035" relationship="false">8 6 2 9 10 16 19 25 27 30 36 35</relation>
+      <relation position="3300035" relationship="false">33 36 35</relation>
+   </relations>
+   <pairs/>
+</root>

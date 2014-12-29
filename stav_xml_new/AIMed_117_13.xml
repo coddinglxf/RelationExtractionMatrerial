@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@results@suggest@that@inhibin@may@be@a@natural@antagonist@of@assembly@of@the@heterodimeric@activin receptor@complex@through@a@dominant-negative@mechanism@.@</sentence>
+   <tags>
+      <tag pos="16">activin receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">inhibin</taggedword>
+      <taggedword index="6" part-of-speech="MD">may</taggedword>
+      <taggedword index="7" part-of-speech="VB">be</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">natural</taggedword>
+      <taggedword index="10" part-of-speech="NN">antagonist</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">heterodimeric</taggedword>
+      <taggedword index="16" part-of-speech="NN">activin receptor</taggedword>
+      <taggedword index="17" part-of-speech="NN">complex</taggedword>
+      <taggedword index="18" part-of-speech="IN">through</taggedword>
+      <taggedword index="19" part-of-speech="DT">a</taggedword>
+      <taggedword index="20" part-of-speech="JJ">dominant-negative</taggedword>
+      <taggedword index="21" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="antagonist" gov_index="10">mark</dependency>
+      <dependency dep="inhibin" dep_index="5" gov="antagonist" gov_index="10">nsubj</dependency>
+      <dependency dep="may" dep_index="6" gov="antagonist" gov_index="10">aux</dependency>
+      <dependency dep="be" dep_index="7" gov="antagonist" gov_index="10">cop</dependency>
+      <dependency dep="a" dep_index="8" gov="antagonist" gov_index="10">det</dependency>
+      <dependency dep="natural" dep_index="9" gov="antagonist" gov_index="10">amod</dependency>
+      <dependency dep="antagonist" dep_index="10" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="assembly" dep_index="12" gov="antagonist" gov_index="10">prep_of</dependency>
+      <dependency dep="the" dep_index="14" gov="complex" gov_index="17">det</dependency>
+      <dependency dep="heterodimeric" dep_index="15" gov="complex" gov_index="17">amod</dependency>
+      <dependency dep="activin receptor" dep_index="16" gov="complex" gov_index="17">nn</dependency>
+      <dependency dep="complex" dep_index="17" gov="assembly" gov_index="12">prep_of</dependency>
+      <dependency dep="a" dep_index="19" gov="mechanism" gov_index="21">det</dependency>
+      <dependency dep="dominant-negative" dep_index="20" gov="mechanism" gov_index="21">amod</dependency>
+      <dependency dep="mechanism" dep_index="21" gov="antagonist" gov_index="10">prep_through</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

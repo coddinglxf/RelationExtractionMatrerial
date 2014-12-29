@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Proteolytic@activity@was@not@detected@with@casein@,@actin@,@or@myosin heavy-chain@substrates@.@</sentence>
+   <tags>
+      <tag pos="9">actin</tag>
+      <tag pos="12">myosin heavy-chain</tag>
+      <tag pos="7">casein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Proteolytic</taggedword>
+      <taggedword index="2" part-of-speech="NN">activity</taggedword>
+      <taggedword index="3" part-of-speech="VBD">was</taggedword>
+      <taggedword index="4" part-of-speech="RB">not</taggedword>
+      <taggedword index="5" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="NN">casein</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">or</taggedword>
+      <taggedword index="12" part-of-speech="JJ">myosin heavy-chain</taggedword>
+      <taggedword index="13" part-of-speech="NNS">substrates</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Proteolytic" dep_index="1" gov="activity" gov_index="2">amod</dependency>
+      <dependency dep="activity" dep_index="2" gov="detected" gov_index="5">nsubjpass</dependency>
+      <dependency dep="was" dep_index="3" gov="detected" gov_index="5">auxpass</dependency>
+      <dependency dep="not" dep_index="4" gov="detected" gov_index="5">neg</dependency>
+      <dependency dep="detected" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="casein" dep_index="7" gov="detected" gov_index="5">prep_with</dependency>
+      <dependency dep="actin" dep_index="9" gov="detected" gov_index="5">prep_with</dependency>
+      <dependency dep="actin" dep_index="9" gov="casein" gov_index="7">conj_or</dependency>
+      <dependency dep="myosin heavy-chain" dep_index="12" gov="substrates" gov_index="13">amod</dependency>
+      <dependency dep="substrates" dep_index="13" gov="detected" gov_index="5">prep_with</dependency>
+      <dependency dep="substrates" dep_index="13" gov="casein" gov_index="7">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900012" relationship="false">9 7 13 12</relation>
+      <relation position="700009" relationship="false">7 5 9</relation>
+      <relation position="700012" relationship="false">7 5 13 12</relation>
+   </relations>
+   <pairs/>
+</root>

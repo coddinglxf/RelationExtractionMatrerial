@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Anti-@CD5@also@precipitated@the@kinase@from@various@T@cells@irrespective@of@the@expression@of@TcR zeta@/@CD3@or@CD4@.@</sentence>
+   <tags>
+      <tag pos="2">CD5</tag>
+      <tag pos="16">TcR zeta</tag>
+      <tag pos="18">CD3</tag>
+      <tag pos="20">CD4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Anti-</taggedword>
+      <taggedword index="2" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="3" part-of-speech="RB">also</taggedword>
+      <taggedword index="4" part-of-speech="VBD">precipitated</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="7" part-of-speech="IN">from</taggedword>
+      <taggedword index="8" part-of-speech="JJ">various</taggedword>
+      <taggedword index="9" part-of-speech="NNP">T</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="11" part-of-speech="RB">irrespective</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">expression</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NNP">TcR zeta</taggedword>
+      <taggedword index="17" part-of-speech="NNP">/</taggedword>
+      <taggedword index="18" part-of-speech="NNP">CD3</taggedword>
+      <taggedword index="19" part-of-speech="CC">or</taggedword>
+      <taggedword index="20" part-of-speech="NNP">CD4</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Anti-" dep_index="1" gov="CD5" gov_index="2">nn</dependency>
+      <dependency dep="CD5" dep_index="2" gov="precipitated" gov_index="4">nsubj</dependency>
+      <dependency dep="also" dep_index="3" gov="precipitated" gov_index="4">advmod</dependency>
+      <dependency dep="precipitated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="kinase" gov_index="6">det</dependency>
+      <dependency dep="kinase" dep_index="6" gov="precipitated" gov_index="4">dobj</dependency>
+      <dependency dep="various" dep_index="8" gov="cells" gov_index="10">amod</dependency>
+      <dependency dep="T" dep_index="9" gov="cells" gov_index="10">nn</dependency>
+      <dependency dep="cells" dep_index="10" gov="precipitated" gov_index="4">prep_from</dependency>
+      <dependency dep="the" dep_index="13" gov="expression" gov_index="14">det</dependency>
+      <dependency dep="expression" dep_index="14" gov="precipitated" gov_index="4">prep_irrespective_of</dependency>
+      <dependency dep="TcR zeta" dep_index="16" gov="CD3" gov_index="18">nn</dependency>
+      <dependency dep="/" dep_index="17" gov="CD3" gov_index="18">nn</dependency>
+      <dependency dep="CD3" dep_index="18" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="CD4" dep_index="20" gov="expression" gov_index="14">prep_of</dependency>
+      <dependency dep="CD4" dep_index="20" gov="CD3" gov_index="18">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200016" relationship="false">2 4 14 18 16</relation>
+      <relation position="200018" relationship="false">2 4 14 18</relation>
+      <relation position="200020" relationship="false">2 4 14 20</relation>
+      <relation position="1600018" relationship="false"></relation>
+      <relation position="1600020" relationship="false">16 18 20</relation>
+      <relation position="1800020" relationship="false">18 14 20</relation>
+   </relations>
+   <pairs/>
+</root>

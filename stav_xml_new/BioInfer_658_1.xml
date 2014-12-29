@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@phosphoprotein@was@identified@as@cofilin@,@an@actin-binding protein@,@and@the@activation-induced@changes@in@its@intracellular@distribution@have@been@described@elsewhere@(Suzuki@et@al.@,@1995@,@J@Biol@Chem@270:19551-19556)@.@</sentence>
+   <tags>
+      <tag pos="9">actin-binding protein</tag>
+      <tag pos="6">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">phosphoprotein</taggedword>
+      <taggedword index="3" part-of-speech="VBD">was</taggedword>
+      <taggedword index="4" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="5" part-of-speech="IN">as</taggedword>
+      <taggedword index="6" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="DT">an</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin-binding protein</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">activation-induced</taggedword>
+      <taggedword index="14" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="17" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="18" part-of-speech="NN">distribution</taggedword>
+      <taggedword index="19" part-of-speech="VBP">have</taggedword>
+      <taggedword index="20" part-of-speech="VBN">been</taggedword>
+      <taggedword index="21" part-of-speech="VBN">described</taggedword>
+      <taggedword index="22" part-of-speech="RB">elsewhere</taggedword>
+      <taggedword index="23" part-of-speech="NNP">(Suzuki</taggedword>
+      <taggedword index="24" part-of-speech="CC">et</taggedword>
+      <taggedword index="25" part-of-speech="NNP">al.</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="CD">1995</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="NNP">J</taggedword>
+      <taggedword index="30" part-of-speech="NNP">Biol</taggedword>
+      <taggedword index="31" part-of-speech="NNP">Chem</taggedword>
+      <taggedword index="32" part-of-speech="NNP">270:19551-19556)</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="phosphoprotein" gov_index="2">det</dependency>
+      <dependency dep="phosphoprotein" dep_index="2" gov="identified" gov_index="4">nsubjpass</dependency>
+      <dependency dep="was" dep_index="3" gov="identified" gov_index="4">auxpass</dependency>
+      <dependency dep="identified" dep_index="4" gov="described" gov_index="21">dep</dependency>
+      <dependency dep="cofilin" dep_index="6" gov="identified" gov_index="4">prep_as</dependency>
+      <dependency dep="an" dep_index="8" gov="actin-binding protein" gov_index="9">det</dependency>
+      <dependency dep="actin-binding protein" dep_index="9" gov="identified" gov_index="4">prep_as</dependency>
+      <dependency dep="actin-binding protein" dep_index="9" gov="cofilin" gov_index="6">conj_and</dependency>
+      <dependency dep="the" dep_index="12" gov="changes" gov_index="14">det</dependency>
+      <dependency dep="activation-induced" dep_index="13" gov="changes" gov_index="14">amod</dependency>
+      <dependency dep="changes" dep_index="14" gov="identified" gov_index="4">prep_as</dependency>
+      <dependency dep="changes" dep_index="14" gov="cofilin" gov_index="6">conj_and</dependency>
+      <dependency dep="its" dep_index="16" gov="distribution" gov_index="18">poss</dependency>
+      <dependency dep="intracellular" dep_index="17" gov="distribution" gov_index="18">nn</dependency>
+      <dependency dep="distribution" dep_index="18" gov="identified" gov_index="4">prep_in</dependency>
+      <dependency dep="have" dep_index="19" gov="described" gov_index="21">aux</dependency>
+      <dependency dep="been" dep_index="20" gov="described" gov_index="21">auxpass</dependency>
+      <dependency dep="described" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="elsewhere" dep_index="22" gov="described" gov_index="21">advmod</dependency>
+      <dependency dep="(Suzuki" dep_index="23" gov="described" gov_index="21">nsubjpass</dependency>
+      <dependency dep="al." dep_index="25" gov="described" gov_index="21">nsubjpass</dependency>
+      <dependency dep="al." dep_index="25" gov="(Suzuki" gov_index="23">conj_et</dependency>
+      <dependency dep="1995" dep_index="27" gov="(Suzuki" gov_index="23">appos</dependency>
+      <dependency dep="J" dep_index="29" gov="270:19551-19556)" gov_index="32">nn</dependency>
+      <dependency dep="Biol" dep_index="30" gov="270:19551-19556)" gov_index="32">nn</dependency>
+      <dependency dep="Chem" dep_index="31" gov="270:19551-19556)" gov_index="32">nn</dependency>
+      <dependency dep="270:19551-19556)" dep_index="32" gov="1995" gov_index="27">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600009" relationship="true">6 4 9</relation>
+   </relations>
+   <pairs>
+      <pair>600009</pair>
+   </pairs>
+</root>

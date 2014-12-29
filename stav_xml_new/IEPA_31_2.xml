@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@support@of@this@hypothesis@,@endometrial@IP3@levels@were@increased@(P@&lt;@0.05)@within@0.5@min@after@treatment@with@0.1@microM@OT@</sentence>
+   <tags>
+      <tag pos="8">IP3</tag>
+      <tag pos="23">OT</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">support</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech="NNS">hypothesis</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="JJ">endometrial</taggedword>
+      <taggedword index="8" part-of-speech="NN">IP3</taggedword>
+      <taggedword index="9" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="10" part-of-speech="VBD">were</taggedword>
+      <taggedword index="11" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="12" part-of-speech="VBG">(P</taggedword>
+      <taggedword index="13" part-of-speech="CD">&lt;</taggedword>
+      <taggedword index="14" part-of-speech="CD">0.05)</taggedword>
+      <taggedword index="15" part-of-speech="IN">within</taggedword>
+      <taggedword index="16" part-of-speech="CD">0.5</taggedword>
+      <taggedword index="17" part-of-speech="NN">min</taggedword>
+      <taggedword index="18" part-of-speech="IN">after</taggedword>
+      <taggedword index="19" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="CD">0.1</taggedword>
+      <taggedword index="22" part-of-speech="NN">microM</taggedword>
+      <taggedword index="23" part-of-speech="NNP">OT</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="support" dep_index="2" gov="increased" gov_index="11">prep_in</dependency>
+      <dependency dep="this" dep_index="4" gov="hypothesis" gov_index="5">det</dependency>
+      <dependency dep="hypothesis" dep_index="5" gov="support" gov_index="2">prep_of</dependency>
+      <dependency dep="endometrial" dep_index="7" gov="levels" gov_index="9">amod</dependency>
+      <dependency dep="IP3" dep_index="8" gov="levels" gov_index="9">nn</dependency>
+      <dependency dep="levels" dep_index="9" gov="increased" gov_index="11">nsubjpass</dependency>
+      <dependency dep="were" dep_index="10" gov="increased" gov_index="11">auxpass</dependency>
+      <dependency dep="increased" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="(P" dep_index="12" gov="increased" gov_index="11">xcomp</dependency>
+      <dependency dep="&lt;" dep_index="13" gov="0.05)" gov_index="14">number</dependency>
+      <dependency dep="0.05)" dep_index="14" gov="(P" gov_index="12">dobj</dependency>
+      <dependency dep="0.5" dep_index="16" gov="min" gov_index="17">num</dependency>
+      <dependency dep="min" dep_index="17" gov="0.05)" gov_index="14">prep_within</dependency>
+      <dependency dep="treatment" dep_index="19" gov="(P" gov_index="12">prep_after</dependency>
+      <dependency dep="0.1" dep_index="21" gov="OT" gov_index="23">num</dependency>
+      <dependency dep="microM" dep_index="22" gov="OT" gov_index="23">nn</dependency>
+      <dependency dep="OT" dep_index="23" gov="(P" gov_index="12">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800023" relationship="true">8 9 11 12 23</relation>
+   </relations>
+   <pairs>
+      <pair>800023</pair>
+   </pairs>
+</root>

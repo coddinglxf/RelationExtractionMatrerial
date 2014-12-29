@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@putative@activation@domain@of@SREBP@was@shown@to@bind@specifically@to@amino-terminal@domains@of@recombinant@CBP@and@p300@(a@CBP@-related@protein)@.@</sentence>
+   <tags>
+      <tag pos="17">CBP</tag>
+      <tag pos="19">p300</tag>
+      <tag pos="21">CBP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="3" part-of-speech="NN">activation</taggedword>
+      <taggedword index="4" part-of-speech="NN">domain</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">SREBP</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="VB">bind</taggedword>
+      <taggedword index="11" part-of-speech="RB">specifically</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="14" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">recombinant</taggedword>
+      <taggedword index="17" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="JJ">p300</taggedword>
+      <taggedword index="20" part-of-speech="NN">(a</taggedword>
+      <taggedword index="21" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="22" part-of-speech="JJ">-related</taggedword>
+      <taggedword index="23" part-of-speech="NNS">protein)</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="domain" gov_index="4">det</dependency>
+      <dependency dep="putative" dep_index="2" gov="domain" gov_index="4">amod</dependency>
+      <dependency dep="activation" dep_index="3" gov="domain" gov_index="4">nn</dependency>
+      <dependency dep="domain" dep_index="4" gov="shown" gov_index="8">nsubjpass</dependency>
+      <dependency dep="domain" dep_index="4" gov="bind" gov_index="10">xsubj</dependency>
+      <dependency dep="SREBP" dep_index="6" gov="domain" gov_index="4">prep_of</dependency>
+      <dependency dep="was" dep_index="7" gov="shown" gov_index="8">auxpass</dependency>
+      <dependency dep="shown" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="9" gov="bind" gov_index="10">aux</dependency>
+      <dependency dep="bind" dep_index="10" gov="shown" gov_index="8">xcomp</dependency>
+      <dependency dep="specifically" dep_index="11" gov="bind" gov_index="10">advmod</dependency>
+      <dependency dep="amino-terminal" dep_index="13" gov="domains" gov_index="14">amod</dependency>
+      <dependency dep="domains" dep_index="14" gov="bind" gov_index="10">prep_to</dependency>
+      <dependency dep="recombinant" dep_index="16" gov="CBP" gov_index="17">amod</dependency>
+      <dependency dep="CBP" dep_index="17" gov="domains" gov_index="14">prep_of</dependency>
+      <dependency dep="p300" dep_index="19" gov="protein)" gov_index="23">amod</dependency>
+      <dependency dep="(a" dep_index="20" gov="protein)" gov_index="23">nn</dependency>
+      <dependency dep="CBP" dep_index="21" gov="protein)" gov_index="23">nn</dependency>
+      <dependency dep="-related" dep_index="22" gov="protein)" gov_index="23">amod</dependency>
+      <dependency dep="protein)" dep_index="23" gov="domains" gov_index="14">prep_of</dependency>
+      <dependency dep="protein)" dep_index="23" gov="CBP" gov_index="17">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700019" relationship="false">17 14 23 19</relation>
+      <relation position="1700021" relationship="false">17 14 23 21</relation>
+      <relation position="1900021" relationship="false">19 23 21</relation>
+   </relations>
+   <pairs/>
+</root>

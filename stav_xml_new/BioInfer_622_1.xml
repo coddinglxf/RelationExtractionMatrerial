@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@herpes@simplex@virus@type-1@UL5@,@UL8@,@and@UL52@genes@encode@an@essential@heterotrimeric@DNA helicase-primase@that@is@responsible@for@concomitant@DNA@unwinding@and@primer@synthesis@at@the@viral@DNA@replication@fork@.@</sentence>
+   <tags>
+      <tag pos="8">UL8</tag>
+      <tag pos="6">UL5</tag>
+      <tag pos="11">UL52</tag>
+      <tag pos="17">DNA helicase-primase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">herpes</taggedword>
+      <taggedword index="3" part-of-speech="NN">simplex</taggedword>
+      <taggedword index="4" part-of-speech="NN">virus</taggedword>
+      <taggedword index="5" part-of-speech="JJ">type-1</taggedword>
+      <taggedword index="6" part-of-speech="NNP">UL5</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NNP">UL8</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="CD">UL52</taggedword>
+      <taggedword index="12" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="13" part-of-speech="VBP">encode</taggedword>
+      <taggedword index="14" part-of-speech="DT">an</taggedword>
+      <taggedword index="15" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="16" part-of-speech="JJ">heterotrimeric</taggedword>
+      <taggedword index="17" part-of-speech="NN">DNA helicase-primase</taggedword>
+      <taggedword index="18" part-of-speech="WDT">that</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="20" part-of-speech="JJ">responsible</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="JJ">concomitant</taggedword>
+      <taggedword index="23" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="24" part-of-speech="NN">unwinding</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="NN">primer</taggedword>
+      <taggedword index="27" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="28" part-of-speech="IN">at</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="31" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="32" part-of-speech="NN">replication</taggedword>
+      <taggedword index="33" part-of-speech="NN">fork</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="virus" gov_index="4">det</dependency>
+      <dependency dep="herpes" dep_index="2" gov="virus" gov_index="4">amod</dependency>
+      <dependency dep="simplex" dep_index="3" gov="virus" gov_index="4">nn</dependency>
+      <dependency dep="virus" dep_index="4" gov="encode" gov_index="13">nsubj</dependency>
+      <dependency dep="type-1" dep_index="5" gov="virus" gov_index="4">amod</dependency>
+      <dependency dep="UL5" dep_index="6" gov="UL8" gov_index="8">nn</dependency>
+      <dependency dep="UL8" dep_index="8" gov="type-1" gov_index="5">tmod</dependency>
+      <dependency dep="UL52" dep_index="11" gov="genes" gov_index="12">num</dependency>
+      <dependency dep="genes" dep_index="12" gov="type-1" gov_index="5">tmod</dependency>
+      <dependency dep="genes" dep_index="12" gov="UL8" gov_index="8">conj_and</dependency>
+      <dependency dep="encode" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="14" gov="DNA helicase-primase" gov_index="17">det</dependency>
+      <dependency dep="essential" dep_index="15" gov="DNA helicase-primase" gov_index="17">amod</dependency>
+      <dependency dep="heterotrimeric" dep_index="16" gov="DNA helicase-primase" gov_index="17">amod</dependency>
+      <dependency dep="DNA helicase-primase" dep_index="17" gov="encode" gov_index="13">dobj</dependency>
+      <dependency dep="DNA helicase-primase" dep_index="17" gov="responsible" gov_index="20">nsubj</dependency>
+      <dependency dep="is" dep_index="19" gov="responsible" gov_index="20">cop</dependency>
+      <dependency dep="responsible" dep_index="20" gov="DNA helicase-primase" gov_index="17">rcmod</dependency>
+      <dependency dep="concomitant" dep_index="22" gov="unwinding" gov_index="24">amod</dependency>
+      <dependency dep="DNA" dep_index="23" gov="unwinding" gov_index="24">nn</dependency>
+      <dependency dep="unwinding" dep_index="24" gov="responsible" gov_index="20">prep_for</dependency>
+      <dependency dep="primer" dep_index="26" gov="synthesis" gov_index="27">nn</dependency>
+      <dependency dep="synthesis" dep_index="27" gov="responsible" gov_index="20">prep_for</dependency>
+      <dependency dep="synthesis" dep_index="27" gov="unwinding" gov_index="24">conj_and</dependency>
+      <dependency dep="the" dep_index="29" gov="fork" gov_index="33">det</dependency>
+      <dependency dep="viral" dep_index="30" gov="fork" gov_index="33">amod</dependency>
+      <dependency dep="DNA" dep_index="31" gov="fork" gov_index="33">nn</dependency>
+      <dependency dep="replication" dep_index="32" gov="fork" gov_index="33">nn</dependency>
+      <dependency dep="fork" dep_index="33" gov="unwinding" gov_index="24">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="false"></relation>
+      <relation position="800011" relationship="false">8 5 12 11</relation>
+      <relation position="800017" relationship="true">8 5 4 13 17</relation>
+      <relation position="600011" relationship="false">6 8 5 12 11</relation>
+      <relation position="600017" relationship="true">6 8 5 4 13 17</relation>
+      <relation position="1100017" relationship="true">11 12 5 4 13 17</relation>
+   </relations>
+   <pairs>
+      <pair>1100017</pair>
+      <pair>800017</pair>
+      <pair>600017</pair>
+   </pairs>
+</root>

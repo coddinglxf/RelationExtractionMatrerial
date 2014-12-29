@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Unexpectedly@,@treatment@with@the@actin@-depolymerizing@drug@latrunculin-A@disrupted@the@medial@region@targeting@pattern@,@and@cells@deficient@in@the@actin-binding proteins@tropomyosin@and@profilin@also@did@not@exhibit@medial@GFP@-@Cdc42p@staining@.@</sentence>
+   <tags>
+      <tag pos="25">profilin</tag>
+      <tag pos="23">tropomyosin</tag>
+      <tag pos="33">Cdc42p</tag>
+      <tag pos="6">actin</tag>
+      <tag pos="31">GFP</tag>
+      <tag pos="22">actin-binding proteins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Unexpectedly</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="7" part-of-speech="JJ">-depolymerizing</taggedword>
+      <taggedword index="8" part-of-speech="NN">drug</taggedword>
+      <taggedword index="9" part-of-speech="NN">latrunculin-A</taggedword>
+      <taggedword index="10" part-of-speech="VBD">disrupted</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">medial</taggedword>
+      <taggedword index="13" part-of-speech="NN">region</taggedword>
+      <taggedword index="14" part-of-speech="VBG">targeting</taggedword>
+      <taggedword index="15" part-of-speech="NN">pattern</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="19" part-of-speech="NN">deficient</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="JJ">actin-binding proteins</taggedword>
+      <taggedword index="23" part-of-speech="NN">tropomyosin</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="26" part-of-speech="RB">also</taggedword>
+      <taggedword index="27" part-of-speech="VBD">did</taggedword>
+      <taggedword index="28" part-of-speech="RB">not</taggedword>
+      <taggedword index="29" part-of-speech="VB">exhibit</taggedword>
+      <taggedword index="30" part-of-speech="NNP">medial</taggedword>
+      <taggedword index="31" part-of-speech="NNP">GFP</taggedword>
+      <taggedword index="32" part-of-speech=":">-</taggedword>
+      <taggedword index="33" part-of-speech="NNS">Cdc42p</taggedword>
+      <taggedword index="34" part-of-speech="VBG">staining</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Unexpectedly" dep_index="1" gov="disrupted" gov_index="10">advmod</dependency>
+      <dependency dep="treatment" dep_index="3" gov="disrupted" gov_index="10">nsubj</dependency>
+      <dependency dep="the" dep_index="5" gov="latrunculin-A" gov_index="9">det</dependency>
+      <dependency dep="actin" dep_index="6" gov="latrunculin-A" gov_index="9">amod</dependency>
+      <dependency dep="-depolymerizing" dep_index="7" gov="latrunculin-A" gov_index="9">amod</dependency>
+      <dependency dep="drug" dep_index="8" gov="latrunculin-A" gov_index="9">nn</dependency>
+      <dependency dep="latrunculin-A" dep_index="9" gov="treatment" gov_index="3">prep_with</dependency>
+      <dependency dep="disrupted" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="region" gov_index="13">det</dependency>
+      <dependency dep="medial" dep_index="12" gov="region" gov_index="13">amod</dependency>
+      <dependency dep="region" dep_index="13" gov="disrupted" gov_index="10">dobj</dependency>
+      <dependency dep="targeting" dep_index="14" gov="disrupted" gov_index="10">xcomp</dependency>
+      <dependency dep="pattern" dep_index="15" gov="targeting" gov_index="14">dobj</dependency>
+      <dependency dep="cells" dep_index="18" gov="deficient" gov_index="19">nn</dependency>
+      <dependency dep="deficient" dep_index="19" gov="exhibit" gov_index="29">nsubj</dependency>
+      <dependency dep="the" dep_index="21" gov="tropomyosin" gov_index="23">det</dependency>
+      <dependency dep="actin-binding proteins" dep_index="22" gov="tropomyosin" gov_index="23">amod</dependency>
+      <dependency dep="tropomyosin" dep_index="23" gov="deficient" gov_index="19">prep_in</dependency>
+      <dependency dep="profilin" dep_index="25" gov="deficient" gov_index="19">prep_in</dependency>
+      <dependency dep="profilin" dep_index="25" gov="tropomyosin" gov_index="23">conj_and</dependency>
+      <dependency dep="also" dep_index="26" gov="exhibit" gov_index="29">advmod</dependency>
+      <dependency dep="did" dep_index="27" gov="exhibit" gov_index="29">aux</dependency>
+      <dependency dep="not" dep_index="28" gov="exhibit" gov_index="29">neg</dependency>
+      <dependency dep="exhibit" dep_index="29" gov="disrupted" gov_index="10">conj_and</dependency>
+      <dependency dep="medial" dep_index="30" gov="GFP" gov_index="31">nn</dependency>
+      <dependency dep="GFP" dep_index="31" gov="exhibit" gov_index="29">dobj</dependency>
+      <dependency dep="Cdc42p" dep_index="33" gov="GFP" gov_index="31">dep</dependency>
+      <dependency dep="staining" dep_index="34" gov="Cdc42p" gov_index="33">partmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2300025" relationship="false">23 19 25</relation>
+      <relation position="2500033" relationship="false">25 19 29 31 33</relation>
+      <relation position="600025" relationship="false"></relation>
+      <relation position="2500031" relationship="false">25 19 29 31</relation>
+      <relation position="2200025" relationship="true">22 23 19 25</relation>
+      <relation position="2300033" relationship="false">23 19 29 31 33</relation>
+      <relation position="600023" relationship="false"></relation>
+      <relation position="2300031" relationship="false">23 19 29 31</relation>
+      <relation position="2200023" relationship="true"></relation>
+      <relation position="600033" relationship="false"></relation>
+      <relation position="3100033" relationship="true"></relation>
+      <relation position="2200033" relationship="false">22 23 19 29 31 33</relation>
+      <relation position="600031" relationship="false"></relation>
+      <relation position="600022" relationship="false"></relation>
+      <relation position="2200031" relationship="false">22 23 19 29 31</relation>
+   </relations>
+   <pairs>
+      <pair>2200023</pair>
+      <pair>2200025</pair>
+      <pair>3100033</pair>
+   </pairs>
+</root>

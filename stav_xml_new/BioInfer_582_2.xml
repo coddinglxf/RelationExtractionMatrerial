@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@dissociation@constants@are@the@first@to@be@determined@from@direct@physical@measurement@;@they@are@in@agreement@with@values@inferred@from@earlier@studies@on@the@effect@of@profilin@on@the@assembly@of@actin@that@had@been@fluorescently@labeled@or@otherwise@modified@at@Cys@374@.@</sentence>
+   <tags>
+      <tag pos="34">actin</tag>
+      <tag pos="29">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NN">dissociation</taggedword>
+      <taggedword index="3" part-of-speech="NNS">constants</taggedword>
+      <taggedword index="4" part-of-speech="VBP">are</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">first</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="VB">be</taggedword>
+      <taggedword index="9" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="10" part-of-speech="IN">from</taggedword>
+      <taggedword index="11" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="12" part-of-speech="JJ">physical</taggedword>
+      <taggedword index="13" part-of-speech="NN">measurement</taggedword>
+      <taggedword index="14" part-of-speech=":">;</taggedword>
+      <taggedword index="15" part-of-speech="PRP">they</taggedword>
+      <taggedword index="16" part-of-speech="VBP">are</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="NN">agreement</taggedword>
+      <taggedword index="19" part-of-speech="IN">with</taggedword>
+      <taggedword index="20" part-of-speech="NNS">values</taggedword>
+      <taggedword index="21" part-of-speech="VBN">inferred</taggedword>
+      <taggedword index="22" part-of-speech="IN">from</taggedword>
+      <taggedword index="23" part-of-speech="JJR">earlier</taggedword>
+      <taggedword index="24" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="25" part-of-speech="IN">on</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">effect</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="30" part-of-speech="IN">on</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="NN">actin</taggedword>
+      <taggedword index="35" part-of-speech="WDT">that</taggedword>
+      <taggedword index="36" part-of-speech="VBD">had</taggedword>
+      <taggedword index="37" part-of-speech="VBN">been</taggedword>
+      <taggedword index="38" part-of-speech="RB">fluorescently</taggedword>
+      <taggedword index="39" part-of-speech="VBN">labeled</taggedword>
+      <taggedword index="40" part-of-speech="CC">or</taggedword>
+      <taggedword index="41" part-of-speech="RB">otherwise</taggedword>
+      <taggedword index="42" part-of-speech="VBN">modified</taggedword>
+      <taggedword index="43" part-of-speech="IN">at</taggedword>
+      <taggedword index="44" part-of-speech="NNP">Cys</taggedword>
+      <taggedword index="45" part-of-speech="NNP">374</taggedword>
+      <taggedword index="46" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="constants" gov_index="3">det</dependency>
+      <dependency dep="dissociation" dep_index="2" gov="constants" gov_index="3">nn</dependency>
+      <dependency dep="constants" dep_index="3" gov="first" gov_index="6">nsubj</dependency>
+      <dependency dep="are" dep_index="4" gov="first" gov_index="6">cop</dependency>
+      <dependency dep="the" dep_index="5" gov="first" gov_index="6">det</dependency>
+      <dependency dep="first" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="7" gov="determined" gov_index="9">aux</dependency>
+      <dependency dep="be" dep_index="8" gov="determined" gov_index="9">auxpass</dependency>
+      <dependency dep="determined" dep_index="9" gov="first" gov_index="6">dep</dependency>
+      <dependency dep="direct" dep_index="11" gov="measurement" gov_index="13">amod</dependency>
+      <dependency dep="physical" dep_index="12" gov="measurement" gov_index="13">amod</dependency>
+      <dependency dep="measurement" dep_index="13" gov="determined" gov_index="9">prep_from</dependency>
+      <dependency dep="they" dep_index="15" gov="are" gov_index="16">nsubj</dependency>
+      <dependency dep="are" dep_index="16" gov="first" gov_index="6">parataxis</dependency>
+      <dependency dep="agreement" dep_index="18" gov="are" gov_index="16">prep_in</dependency>
+      <dependency dep="values" dep_index="20" gov="are" gov_index="16">prep_with</dependency>
+      <dependency dep="inferred" dep_index="21" gov="values" gov_index="20">partmod</dependency>
+      <dependency dep="earlier" dep_index="23" gov="studies" gov_index="24">amod</dependency>
+      <dependency dep="studies" dep_index="24" gov="inferred" gov_index="21">prep_from</dependency>
+      <dependency dep="the" dep_index="26" gov="effect" gov_index="27">det</dependency>
+      <dependency dep="effect" dep_index="27" gov="studies" gov_index="24">prep_on</dependency>
+      <dependency dep="profilin" dep_index="29" gov="effect" gov_index="27">prep_of</dependency>
+      <dependency dep="the" dep_index="31" gov="assembly" gov_index="32">det</dependency>
+      <dependency dep="assembly" dep_index="32" gov="inferred" gov_index="21">prep_on</dependency>
+      <dependency dep="assembly" dep_index="32" gov="labeled" gov_index="39">nsubjpass</dependency>
+      <dependency dep="assembly" dep_index="32" gov="modified" gov_index="42">nsubjpass</dependency>
+      <dependency dep="actin" dep_index="34" gov="assembly" gov_index="32">prep_of</dependency>
+      <dependency dep="had" dep_index="36" gov="labeled" gov_index="39">aux</dependency>
+      <dependency dep="been" dep_index="37" gov="labeled" gov_index="39">auxpass</dependency>
+      <dependency dep="fluorescently" dep_index="38" gov="labeled" gov_index="39">advmod</dependency>
+      <dependency dep="labeled" dep_index="39" gov="assembly" gov_index="32">rcmod</dependency>
+      <dependency dep="otherwise" dep_index="41" gov="modified" gov_index="42">advmod</dependency>
+      <dependency dep="modified" dep_index="42" gov="assembly" gov_index="32">rcmod</dependency>
+      <dependency dep="modified" dep_index="42" gov="labeled" gov_index="39">conj_or</dependency>
+      <dependency dep="Cys" dep_index="44" gov="374" gov_index="45">nn</dependency>
+      <dependency dep="374" dep_index="45" gov="modified" gov_index="42">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2900034" relationship="true">29 27 24 21 32 34</relation>
+   </relations>
+   <pairs>
+      <pair>2900034</pair>
+   </pairs>
+</root>

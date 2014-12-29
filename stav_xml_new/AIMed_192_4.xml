@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Lipopolysaccharide-activated@ICE@-deficient@(ICE-/-)@Kupffer@cells@synthesized@the@IGIF@precursor@but@failed@to@process@it@into@the@active@form@.@</sentence>
+   <tags>
+      <tag pos="2">ICE</tag>
+      <tag pos="9">IGIF</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Lipopolysaccharide-activated</taggedword>
+      <taggedword index="2" part-of-speech="JJ">ICE</taggedword>
+      <taggedword index="3" part-of-speech="JJ">-deficient</taggedword>
+      <taggedword index="4" part-of-speech="NNP">(ICE-/-)</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Kupffer</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="7" part-of-speech="VBD">synthesized</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNP">IGIF</taggedword>
+      <taggedword index="10" part-of-speech="NN">precursor</taggedword>
+      <taggedword index="11" part-of-speech="CC">but</taggedword>
+      <taggedword index="12" part-of-speech="VBD">failed</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="VB">process</taggedword>
+      <taggedword index="15" part-of-speech="PRP">it</taggedword>
+      <taggedword index="16" part-of-speech="IN">into</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">active</taggedword>
+      <taggedword index="19" part-of-speech="NN">form</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Lipopolysaccharide-activated" dep_index="1" gov="cells" gov_index="6">amod</dependency>
+      <dependency dep="ICE" dep_index="2" gov="cells" gov_index="6">amod</dependency>
+      <dependency dep="-deficient" dep_index="3" gov="cells" gov_index="6">amod</dependency>
+      <dependency dep="(ICE-/-)" dep_index="4" gov="cells" gov_index="6">nn</dependency>
+      <dependency dep="Kupffer" dep_index="5" gov="cells" gov_index="6">nn</dependency>
+      <dependency dep="cells" dep_index="6" gov="synthesized" gov_index="7">nsubj</dependency>
+      <dependency dep="cells" dep_index="6" gov="failed" gov_index="12">nsubj</dependency>
+      <dependency dep="cells" dep_index="6" gov="process" gov_index="14">xsubj</dependency>
+      <dependency dep="synthesized" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="precursor" gov_index="10">det</dependency>
+      <dependency dep="IGIF" dep_index="9" gov="precursor" gov_index="10">nn</dependency>
+      <dependency dep="precursor" dep_index="10" gov="synthesized" gov_index="7">dobj</dependency>
+      <dependency dep="failed" dep_index="12" gov="synthesized" gov_index="7">conj_but</dependency>
+      <dependency dep="to" dep_index="13" gov="process" gov_index="14">aux</dependency>
+      <dependency dep="process" dep_index="14" gov="failed" gov_index="12">xcomp</dependency>
+      <dependency dep="it" dep_index="15" gov="process" gov_index="14">dobj</dependency>
+      <dependency dep="the" dep_index="17" gov="form" gov_index="19">det</dependency>
+      <dependency dep="active" dep_index="18" gov="form" gov_index="19">amod</dependency>
+      <dependency dep="form" dep_index="19" gov="process" gov_index="14">prep_into</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200009" relationship="false">2 6 7 10 9</relation>
+   </relations>
+   <pairs/>
+</root>

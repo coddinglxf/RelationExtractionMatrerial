@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>DR3@signal@transduction@is@mediated@by@a@complex@of@intracellular@signaling@molecules@including@TRADD@,@TRAF2@,@FADD@,@and@FLICE@.@</sentence>
+   <tags>
+      <tag pos="14">TRADD</tag>
+      <tag pos="1">DR3</tag>
+      <tag pos="21">FLICE</tag>
+      <tag pos="18">FADD</tag>
+      <tag pos="16">TRAF2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">DR3</taggedword>
+      <taggedword index="2" part-of-speech="NN">signal</taggedword>
+      <taggedword index="3" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="NN">complex</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="11" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="12" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="13" part-of-speech="VBG">including</taggedword>
+      <taggedword index="14" part-of-speech="NNP">TRADD</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NNS">TRAF2</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NNP">FADD</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NNP">FLICE</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="DR3" dep_index="1" gov="transduction" gov_index="3">num</dependency>
+      <dependency dep="signal" dep_index="2" gov="transduction" gov_index="3">nn</dependency>
+      <dependency dep="transduction" dep_index="3" gov="mediated" gov_index="5">nsubjpass</dependency>
+      <dependency dep="is" dep_index="4" gov="mediated" gov_index="5">auxpass</dependency>
+      <dependency dep="mediated" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="7" gov="complex" gov_index="8">det</dependency>
+      <dependency dep="complex" dep_index="8" gov="mediated" gov_index="5">agent</dependency>
+      <dependency dep="intracellular" dep_index="10" gov="complex" gov_index="8">prep_of</dependency>
+      <dependency dep="signaling" dep_index="11" gov="mediated" gov_index="5">xcomp</dependency>
+      <dependency dep="molecules" dep_index="12" gov="signaling" gov_index="11">dobj</dependency>
+      <dependency dep="TRADD" dep_index="14" gov="molecules" gov_index="12">prep_including</dependency>
+      <dependency dep="TRAF2" dep_index="16" gov="molecules" gov_index="12">prep_including</dependency>
+      <dependency dep="TRAF2" dep_index="16" gov="TRADD" gov_index="14">conj_and</dependency>
+      <dependency dep="FADD" dep_index="18" gov="molecules" gov_index="12">prep_including</dependency>
+      <dependency dep="FADD" dep_index="18" gov="TRADD" gov_index="14">conj_and</dependency>
+      <dependency dep="FLICE" dep_index="21" gov="molecules" gov_index="12">prep_including</dependency>
+      <dependency dep="FLICE" dep_index="21" gov="TRADD" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100014" relationship="false">1 3 5 11 12 14</relation>
+      <relation position="1400021" relationship="true">14 12 21</relation>
+      <relation position="1400018" relationship="true">14 12 18</relation>
+      <relation position="1400016" relationship="true">14 12 16</relation>
+      <relation position="100021" relationship="false">1 3 5 11 12 21</relation>
+      <relation position="100018" relationship="false">1 3 5 11 12 18</relation>
+      <relation position="100016" relationship="false">1 3 5 11 12 16</relation>
+      <relation position="1800021" relationship="true">18 12 21</relation>
+      <relation position="1600021" relationship="true">16 12 21</relation>
+      <relation position="1600018" relationship="true">16 12 18</relation>
+   </relations>
+   <pairs>
+      <pair>1800021</pair>
+      <pair>1400021</pair>
+      <pair>1400018</pair>
+      <pair>1400016</pair>
+      <pair>1600018</pair>
+      <pair>1600021</pair>
+   </pairs>
+</root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Increased@interaction@of@beta1D integrin@with@the@actin@cytoskeleton@is@consistent@with@and@might@be@mediated@by@its@enhanced@binding@to@talin@.@</sentence>
+   <tags>
+      <tag pos="21">talin</tag>
+      <tag pos="4">beta1D integrin</tag>
+      <tag pos="7">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Increased</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">beta1D integrin</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">actin</taggedword>
+      <taggedword index="8" part-of-speech="NN">cytoskeleton</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="JJ">consistent</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="MD">might</taggedword>
+      <taggedword index="14" part-of-speech="VB">be</taggedword>
+      <taggedword index="15" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="18" part-of-speech="VBN">enhanced</taggedword>
+      <taggedword index="19" part-of-speech="NN">binding</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">talin</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Increased" dep_index="1" gov="interaction" gov_index="2">amod</dependency>
+      <dependency dep="interaction" dep_index="2" gov="consistent" gov_index="10">nsubj</dependency>
+      <dependency dep="interaction" dep_index="2" gov="mediated" gov_index="15">nsubjpass</dependency>
+      <dependency dep="beta1D integrin" dep_index="4" gov="interaction" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="6" gov="cytoskeleton" gov_index="8">det</dependency>
+      <dependency dep="actin" dep_index="7" gov="cytoskeleton" gov_index="8">nn</dependency>
+      <dependency dep="cytoskeleton" dep_index="8" gov="interaction" gov_index="2">prep_with</dependency>
+      <dependency dep="is" dep_index="9" gov="consistent" gov_index="10">cop</dependency>
+      <dependency dep="consistent" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="with" dep_index="11" gov="consistent" gov_index="10">prep</dependency>
+      <dependency dep="might" dep_index="13" gov="mediated" gov_index="15">aux</dependency>
+      <dependency dep="be" dep_index="14" gov="mediated" gov_index="15">auxpass</dependency>
+      <dependency dep="mediated" dep_index="15" gov="consistent" gov_index="10">conj_and</dependency>
+      <dependency dep="its" dep_index="17" gov="binding" gov_index="19">poss</dependency>
+      <dependency dep="enhanced" dep_index="18" gov="binding" gov_index="19">amod</dependency>
+      <dependency dep="binding" dep_index="19" gov="mediated" gov_index="15">agent</dependency>
+      <dependency dep="to" dep_index="20" gov="talin" gov_index="21">aux</dependency>
+      <dependency dep="talin" dep_index="21" gov="binding" gov_index="19">infmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400021" relationship="true">4 2 15 19 21</relation>
+      <relation position="700021" relationship="true">7 8 2 15 19 21</relation>
+      <relation position="400007" relationship="true">4 2 8 7</relation>
+   </relations>
+   <pairs>
+      <pair>400007</pair>
+      <pair>400021</pair>
+      <pair>700021</pair>
+   </pairs>
+</root>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Replacement@of@Val20-Leu21@with@Ala-Ala@produced@a@dimeric@RII beta@protein@that@binds@AKAP75@approximately@4%@as@avidly@as@wild-type@RII beta@.@</sentence>
+   <tags>
+      <tag pos="9">RII beta</tag>
+      <tag pos="13">AKAP75</tag>
+      <tag pos="20">RII beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Replacement</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNS">Val20-Leu21</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="NNP">Ala-Ala</taggedword>
+      <taggedword index="6" part-of-speech="VBD">produced</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">dimeric</taggedword>
+      <taggedword index="9" part-of-speech="NNP">RII beta</taggedword>
+      <taggedword index="10" part-of-speech="NN">protein</taggedword>
+      <taggedword index="11" part-of-speech="IN">that</taggedword>
+      <taggedword index="12" part-of-speech="NNS">binds</taggedword>
+      <taggedword index="13" part-of-speech="VBD">AKAP75</taggedword>
+      <taggedword index="14" part-of-speech="RB">approximately</taggedword>
+      <taggedword index="15" part-of-speech="CD">4%</taggedword>
+      <taggedword index="16" part-of-speech="IN">as</taggedword>
+      <taggedword index="17" part-of-speech="CD">avidly</taggedword>
+      <taggedword index="18" part-of-speech="IN">as</taggedword>
+      <taggedword index="19" part-of-speech="JJ">wild-type</taggedword>
+      <taggedword index="20" part-of-speech="NNP">RII beta</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Replacement" dep_index="1" gov="produced" gov_index="6">nsubj</dependency>
+      <dependency dep="Val20-Leu21" dep_index="3" gov="Replacement" gov_index="1">prep_of</dependency>
+      <dependency dep="Ala-Ala" dep_index="5" gov="Val20-Leu21" gov_index="3">prep_with</dependency>
+      <dependency dep="produced" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="7" gov="protein" gov_index="10">det</dependency>
+      <dependency dep="dimeric" dep_index="8" gov="protein" gov_index="10">amod</dependency>
+      <dependency dep="RII beta" dep_index="9" gov="protein" gov_index="10">nn</dependency>
+      <dependency dep="protein" dep_index="10" gov="produced" gov_index="6">dobj</dependency>
+      <dependency dep="that" dep_index="11" gov="AKAP75" gov_index="13">mark</dependency>
+      <dependency dep="binds" dep_index="12" gov="AKAP75" gov_index="13">nsubj</dependency>
+      <dependency dep="AKAP75" dep_index="13" gov="produced" gov_index="6">ccomp</dependency>
+      <dependency dep="approximately" dep_index="14" gov="avidly" gov_index="17">quantmod</dependency>
+      <dependency dep="4%" dep_index="15" gov="avidly" gov_index="17">number</dependency>
+      <dependency dep="as" dep_index="16" gov="avidly" gov_index="17">quantmod</dependency>
+      <dependency dep="avidly" dep_index="17" gov="AKAP75" gov_index="13">dobj</dependency>
+      <dependency dep="wild-type" dep_index="19" gov="RII beta" gov_index="20">amod</dependency>
+      <dependency dep="RII beta" dep_index="20" gov="AKAP75" gov_index="13">prep_as</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="true">9 10 6 13</relation>
+      <relation position="900020" relationship="false">9 10 6 13 20</relation>
+      <relation position="1300020" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>900013</pair>
+   </pairs>
+</root>

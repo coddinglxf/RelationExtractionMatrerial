@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cloning@of@TRAP@,@a@ligand@for@CD40@on@human@T@cells@.@</sentence>
+   <tags>
+      <tag pos="3">TRAP</tag>
+      <tag pos="8">CD40</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Cloning</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">TRAP</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="SYM">a</taggedword>
+      <taggedword index="6" part-of-speech="VBD">ligand</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CD40</taggedword>
+      <taggedword index="9" part-of-speech="IN">on</taggedword>
+      <taggedword index="10" part-of-speech="JJ">human</taggedword>
+      <taggedword index="11" part-of-speech="NNP">T</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cloning" dep_index="1" gov="ligand" gov_index="6">partmod</dependency>
+      <dependency dep="TRAP" dep_index="3" gov="Cloning" gov_index="1">prep_of</dependency>
+      <dependency dep="a" dep_index="5" gov="ligand" gov_index="6">nsubj</dependency>
+      <dependency dep="ligand" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="CD40" dep_index="8" gov="ligand" gov_index="6">prep_for</dependency>
+      <dependency dep="human" dep_index="10" gov="cells" gov_index="12">amod</dependency>
+      <dependency dep="T" dep_index="11" gov="cells" gov_index="12">nn</dependency>
+      <dependency dep="cells" dep_index="12" gov="ligand" gov_index="6">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300008" relationship="true">3 1 6 8</relation>
+   </relations>
+   <pairs>
+      <pair>300008</pair>
+   </pairs>
+</root>

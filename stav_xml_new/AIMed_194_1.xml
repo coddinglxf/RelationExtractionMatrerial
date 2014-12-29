@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Bcl-x(L)@forms@an@ion@channel@in@synthetic@lipid@membranes@.@</sentence>
+   <tags>
+      <tag pos="1">Bcl-x(L)</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Bcl-x(L)</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">forms</taggedword>
+      <taggedword index="3" part-of-speech="DT">an</taggedword>
+      <taggedword index="4" part-of-speech="NN">ion</taggedword>
+      <taggedword index="5" part-of-speech="NN">channel</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">synthetic</taggedword>
+      <taggedword index="8" part-of-speech="NN">lipid</taggedword>
+      <taggedword index="9" part-of-speech="NNS">membranes</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Bcl-x(L)" dep_index="1" gov="forms" gov_index="2">nsubj</dependency>
+      <dependency dep="forms" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="3" gov="channel" gov_index="5">det</dependency>
+      <dependency dep="ion" dep_index="4" gov="channel" gov_index="5">nn</dependency>
+      <dependency dep="channel" dep_index="5" gov="forms" gov_index="2">dobj</dependency>
+      <dependency dep="synthetic" dep_index="7" gov="membranes" gov_index="9">amod</dependency>
+      <dependency dep="lipid" dep_index="8" gov="membranes" gov_index="9">nn</dependency>
+      <dependency dep="membranes" dep_index="9" gov="channel" gov_index="5">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

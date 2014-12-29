@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>[35S]-Sulfate@labeled@proteoglycans@(@PGs@)@derived@from@cultured@ECs@and@SMCs@bound@to@affinity@columns@containing@A@beta@(1-28)@or@(1-40)@,@with@virtually@no@binding@to@A@beta@(40-1)@(reverse@peptide)@,@beta-amyloid@precursor@protein@(410-429)@,@or@bovine@serum albumin@</sentence>
+   <tags>
+      <tag pos="5">PGs</tag>
+      <tag pos="42">serum albumin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">[35S]-Sulfate</taggedword>
+      <taggedword index="2" part-of-speech="NNS">labeled</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">proteoglycans</taggedword>
+      <taggedword index="4" part-of-speech="NNP">(</taggedword>
+      <taggedword index="5" part-of-speech="NNP">PGs</taggedword>
+      <taggedword index="6" part-of-speech="NNP">)</taggedword>
+      <taggedword index="7" part-of-speech="VBN">derived</taggedword>
+      <taggedword index="8" part-of-speech="IN">from</taggedword>
+      <taggedword index="9" part-of-speech="JJ">cultured</taggedword>
+      <taggedword index="10" part-of-speech="NNS">ECs</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNS">SMCs</taggedword>
+      <taggedword index="13" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="JJ">affinity</taggedword>
+      <taggedword index="16" part-of-speech="NNS">columns</taggedword>
+      <taggedword index="17" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="18" part-of-speech="DT">A</taggedword>
+      <taggedword index="19" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="20" part-of-speech="CD">(1-28)</taggedword>
+      <taggedword index="21" part-of-speech="CC">or</taggedword>
+      <taggedword index="22" part-of-speech="CD">(1-40)</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="IN">with</taggedword>
+      <taggedword index="25" part-of-speech="RB">virtually</taggedword>
+      <taggedword index="26" part-of-speech="DT">no</taggedword>
+      <taggedword index="27" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="DT">A</taggedword>
+      <taggedword index="30" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="31" part-of-speech="CD">(40-1)</taggedword>
+      <taggedword index="32" part-of-speech="NN">(reverse</taggedword>
+      <taggedword index="33" part-of-speech="NN">peptide)</taggedword>
+      <taggedword index="34" part-of-speech=",">,</taggedword>
+      <taggedword index="35" part-of-speech="JJ">beta-amyloid</taggedword>
+      <taggedword index="36" part-of-speech="NN">precursor</taggedword>
+      <taggedword index="37" part-of-speech="NN">protein</taggedword>
+      <taggedword index="38" part-of-speech="NN">(410-429)</taggedword>
+      <taggedword index="39" part-of-speech=",">,</taggedword>
+      <taggedword index="40" part-of-speech="CC">or</taggedword>
+      <taggedword index="41" part-of-speech="JJ">bovine</taggedword>
+      <taggedword index="42" part-of-speech="NN">serum albumin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="[35S]-Sulfate" dep_index="1" gov="labeled" gov_index="2">amod</dependency>
+      <dependency dep="labeled" dep_index="2" gov="proteoglycans" gov_index="3">nsubj</dependency>
+      <dependency dep="proteoglycans" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="(" dep_index="4" gov=")" gov_index="6">nn</dependency>
+      <dependency dep="PGs" dep_index="5" gov=")" gov_index="6">nn</dependency>
+      <dependency dep=")" dep_index="6" gov="proteoglycans" gov_index="3">dobj</dependency>
+      <dependency dep="derived" dep_index="7" gov=")" gov_index="6">partmod</dependency>
+      <dependency dep="cultured" dep_index="9" gov="ECs" gov_index="10">amod</dependency>
+      <dependency dep="ECs" dep_index="10" gov="derived" gov_index="7">prep_from</dependency>
+      <dependency dep="SMCs" dep_index="12" gov="derived" gov_index="7">prep_from</dependency>
+      <dependency dep="SMCs" dep_index="12" gov="ECs" gov_index="10">conj_and</dependency>
+      <dependency dep="bound" dep_index="13" gov="ECs" gov_index="10">partmod</dependency>
+      <dependency dep="affinity" dep_index="15" gov="columns" gov_index="16">amod</dependency>
+      <dependency dep="columns" dep_index="16" gov="bound" gov_index="13">prep_to</dependency>
+      <dependency dep="containing" dep_index="17" gov="bound" gov_index="13">xcomp</dependency>
+      <dependency dep="A" dep_index="18" gov="serum albumin" gov_index="42">det</dependency>
+      <dependency dep="beta" dep_index="19" gov="serum albumin" gov_index="42">amod</dependency>
+      <dependency dep="(1-28)" dep_index="20" gov="serum albumin" gov_index="42">nn</dependency>
+      <dependency dep="(1-40)" dep_index="22" gov="(1-28)" gov_index="20">conj_or</dependency>
+      <dependency dep="(1-40)" dep_index="22" gov="serum albumin" gov_index="42">nn</dependency>
+      <dependency dep="virtually" dep_index="25" gov="(410-429)" gov_index="38">advmod</dependency>
+      <dependency dep="no" dep_index="26" gov="(410-429)" gov_index="38">det</dependency>
+      <dependency dep="binding" dep_index="27" gov="(410-429)" gov_index="38">amod</dependency>
+      <dependency dep="A" dep_index="29" gov="peptide)" gov_index="33">det</dependency>
+      <dependency dep="beta" dep_index="30" gov="peptide)" gov_index="33">amod</dependency>
+      <dependency dep="(40-1)" dep_index="31" gov="peptide)" gov_index="33">num</dependency>
+      <dependency dep="(reverse" dep_index="32" gov="peptide)" gov_index="33">nn</dependency>
+      <dependency dep="peptide)" dep_index="33" gov="binding" gov_index="27">prep_to</dependency>
+      <dependency dep="beta-amyloid" dep_index="35" gov="precursor" gov_index="36">amod</dependency>
+      <dependency dep="precursor" dep_index="36" gov="peptide)" gov_index="33">appos</dependency>
+      <dependency dep="protein" dep_index="37" gov="(410-429)" gov_index="38">nn</dependency>
+      <dependency dep="(410-429)" dep_index="38" gov="(1-28)" gov_index="20">prep_with</dependency>
+      <dependency dep="bovine" dep_index="41" gov="(1-28)" gov_index="20">conj_or</dependency>
+      <dependency dep="bovine" dep_index="41" gov="serum albumin" gov_index="42">nn</dependency>
+      <dependency dep="serum albumin" dep_index="42" gov="containing" gov_index="17">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500042" relationship="false">5 6 7 10 13 17 42</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>By@constructing@deletion@mutants@,@we@identified@that@amino@acid@residues@229-309@of@Akt@were@involved@in@the@binding@to@Hsp90@and@amino@acid@residues@327-340@of@Hsp90beta@were@involved@in@the@binding@to@Akt@</sentence>
+   <tags>
+      <tag pos="21">Hsp90</tag>
+      <tag pos="28">Hsp90beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">By</taggedword>
+      <taggedword index="2" part-of-speech="VBG">constructing</taggedword>
+      <taggedword index="3" part-of-speech="NN">deletion</taggedword>
+      <taggedword index="4" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="PRP">we</taggedword>
+      <taggedword index="7" part-of-speech="VBD">identified</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="10" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="11" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="12" part-of-speech="CD">229-309</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NNP">Akt</taggedword>
+      <taggedword index="15" part-of-speech="VBD">were</taggedword>
+      <taggedword index="16" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="NNS">Hsp90</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="24" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="25" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="26" part-of-speech="NN">327-340</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="NNS">Hsp90beta</taggedword>
+      <taggedword index="29" part-of-speech="VBD">were</taggedword>
+      <taggedword index="30" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="34" part-of-speech="TO">to</taggedword>
+      <taggedword index="35" part-of-speech="NNP">Akt</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="constructing" dep_index="2" gov="identified" gov_index="7">prepc_by</dependency>
+      <dependency dep="deletion" dep_index="3" gov="mutants" gov_index="4">nn</dependency>
+      <dependency dep="mutants" dep_index="4" gov="constructing" gov_index="2">dobj</dependency>
+      <dependency dep="we" dep_index="6" gov="identified" gov_index="7">nsubj</dependency>
+      <dependency dep="identified" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="involved" gov_index="30">mark</dependency>
+      <dependency dep="amino" dep_index="9" gov="residues" gov_index="11">amod</dependency>
+      <dependency dep="acid" dep_index="10" gov="residues" gov_index="11">amod</dependency>
+      <dependency dep="residues" dep_index="11" gov="involved" gov_index="30">nsubjpass</dependency>
+      <dependency dep="229-309" dep_index="12" gov="involved" gov_index="16">nsubjpass</dependency>
+      <dependency dep="Akt" dep_index="14" gov="229-309" gov_index="12">prep_of</dependency>
+      <dependency dep="were" dep_index="15" gov="involved" gov_index="16">auxpass</dependency>
+      <dependency dep="involved" dep_index="16" gov="residues" gov_index="11">rcmod</dependency>
+      <dependency dep="the" dep_index="18" gov="327-340" gov_index="26">det</dependency>
+      <dependency dep="binding" dep_index="19" gov="327-340" gov_index="26">amod</dependency>
+      <dependency dep="Hsp90" dep_index="21" gov="binding" gov_index="19">prep_to</dependency>
+      <dependency dep="amino" dep_index="23" gov="residues" gov_index="25">amod</dependency>
+      <dependency dep="acid" dep_index="24" gov="residues" gov_index="25">amod</dependency>
+      <dependency dep="residues" dep_index="25" gov="binding" gov_index="19">prep_to</dependency>
+      <dependency dep="residues" dep_index="25" gov="Hsp90" gov_index="21">conj_and</dependency>
+      <dependency dep="327-340" dep_index="26" gov="involved" gov_index="16">prep_in</dependency>
+      <dependency dep="Hsp90beta" dep_index="28" gov="327-340" gov_index="26">prep_of</dependency>
+      <dependency dep="were" dep_index="29" gov="involved" gov_index="30">auxpass</dependency>
+      <dependency dep="involved" dep_index="30" gov="identified" gov_index="7">ccomp</dependency>
+      <dependency dep="the" dep_index="32" gov="involved" gov_index="30">prep_in</dependency>
+      <dependency dep="binding" dep_index="33" gov="the" gov_index="32">amod</dependency>
+      <dependency dep="Akt" dep_index="35" gov="the" gov_index="32">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2100028" relationship="false">21 19 26 28</relation>
+   </relations>
+   <pairs/>
+</root>

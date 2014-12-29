@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Overexpression@of@a@gene@fragment@encoding@the@CREB@binding@domain@of@CBP@stimulates@transcription@from@the@PEPCK@gene@promoter@.@</sentence>
+   <tags>
+      <tag pos="17">PEPCK</tag>
+      <tag pos="12">CBP</tag>
+      <tag pos="8">CREB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Overexpression</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">gene</taggedword>
+      <taggedword index="5" part-of-speech="NN">fragment</taggedword>
+      <taggedword index="6" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CREB</taggedword>
+      <taggedword index="9" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="10" part-of-speech="NN">domain</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">stimulates</taggedword>
+      <taggedword index="14" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="15" part-of-speech="IN">from</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NNP">PEPCK</taggedword>
+      <taggedword index="18" part-of-speech="NN">gene</taggedword>
+      <taggedword index="19" part-of-speech="NN">promoter</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Overexpression" dep_index="1" gov="stimulates" gov_index="13">nsubj</dependency>
+      <dependency dep="a" dep_index="3" gov="fragment" gov_index="5">det</dependency>
+      <dependency dep="gene" dep_index="4" gov="fragment" gov_index="5">nn</dependency>
+      <dependency dep="fragment" dep_index="5" gov="Overexpression" gov_index="1">prep_of</dependency>
+      <dependency dep="encoding" dep_index="6" gov="fragment" gov_index="5">partmod</dependency>
+      <dependency dep="the" dep_index="7" gov="domain" gov_index="10">det</dependency>
+      <dependency dep="CREB" dep_index="8" gov="domain" gov_index="10">nn</dependency>
+      <dependency dep="binding" dep_index="9" gov="domain" gov_index="10">amod</dependency>
+      <dependency dep="domain" dep_index="10" gov="encoding" gov_index="6">dobj</dependency>
+      <dependency dep="CBP" dep_index="12" gov="domain" gov_index="10">prep_of</dependency>
+      <dependency dep="stimulates" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="transcription" dep_index="14" gov="stimulates" gov_index="13">dobj</dependency>
+      <dependency dep="the" dep_index="16" gov="promoter" gov_index="19">det</dependency>
+      <dependency dep="PEPCK" dep_index="17" gov="promoter" gov_index="19">nn</dependency>
+      <dependency dep="gene" dep_index="18" gov="promoter" gov_index="19">nn</dependency>
+      <dependency dep="promoter" dep_index="19" gov="stimulates" gov_index="13">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200017" relationship="true">12 10 6 5 1 13 19 17</relation>
+      <relation position="800017" relationship="false">8 10 6 5 1 13 19 17</relation>
+      <relation position="800012" relationship="true">8 10 12</relation>
+   </relations>
+   <pairs>
+      <pair>1200017</pair>
+      <pair>800012</pair>
+   </pairs>
+</root>

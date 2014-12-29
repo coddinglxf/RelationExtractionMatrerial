@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Entry@of@M-tropic@but@not@T-tropic@virus@is@ablated@in@DCs@from@individuals@who@lack@a@functional@CCR5@receptor@.@</sentence>
+   <tags>
+      <tag pos="18">CCR5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Entry</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">M-tropic</taggedword>
+      <taggedword index="4" part-of-speech="CC">but</taggedword>
+      <taggedword index="5" part-of-speech="RB">not</taggedword>
+      <taggedword index="6" part-of-speech="JJ">T-tropic</taggedword>
+      <taggedword index="7" part-of-speech="NN">virus</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="VBN">ablated</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NNP">DCs</taggedword>
+      <taggedword index="12" part-of-speech="IN">from</taggedword>
+      <taggedword index="13" part-of-speech="NNS">individuals</taggedword>
+      <taggedword index="14" part-of-speech="WP">who</taggedword>
+      <taggedword index="15" part-of-speech="VBP">lack</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="18" part-of-speech="CD">CCR5</taggedword>
+      <taggedword index="19" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Entry" dep_index="1" gov="ablated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="M-tropic" dep_index="3" gov="virus" gov_index="7">amod</dependency>
+      <dependency dep="T-tropic" dep_index="6" gov="M-tropic" gov_index="3">conj_negcc</dependency>
+      <dependency dep="T-tropic" dep_index="6" gov="virus" gov_index="7">amod</dependency>
+      <dependency dep="virus" dep_index="7" gov="Entry" gov_index="1">prep_of</dependency>
+      <dependency dep="is" dep_index="8" gov="ablated" gov_index="9">auxpass</dependency>
+      <dependency dep="ablated" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="DCs" dep_index="11" gov="ablated" gov_index="9">prep_in</dependency>
+      <dependency dep="individuals" dep_index="13" gov="ablated" gov_index="9">prep_from</dependency>
+      <dependency dep="individuals" dep_index="13" gov="lack" gov_index="15">nsubj</dependency>
+      <dependency dep="lack" dep_index="15" gov="individuals" gov_index="13">rcmod</dependency>
+      <dependency dep="a" dep_index="16" gov="receptor" gov_index="19">det</dependency>
+      <dependency dep="functional" dep_index="17" gov="receptor" gov_index="19">amod</dependency>
+      <dependency dep="CCR5" dep_index="18" gov="functional" gov_index="17">tmod</dependency>
+      <dependency dep="receptor" dep_index="19" gov="lack" gov_index="15">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@summary@,@classical@brown@adipocytes@differ@from@white@adipocytes@,@not@only@by@their@morphology@and@UCP@expression@,@but@also@by@their@apparent@lack@of@detectable@leptin@expression@</sentence>
+   <tags>
+      <tag pos="18">UCP</tag>
+      <tag pos="29">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">summary</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">classical</taggedword>
+      <taggedword index="5" part-of-speech="JJ">brown</taggedword>
+      <taggedword index="6" part-of-speech="NNS">adipocytes</taggedword>
+      <taggedword index="7" part-of-speech="VBP">differ</taggedword>
+      <taggedword index="8" part-of-speech="IN">from</taggedword>
+      <taggedword index="9" part-of-speech="JJ">white</taggedword>
+      <taggedword index="10" part-of-speech="NNS">adipocytes</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="RB">not</taggedword>
+      <taggedword index="13" part-of-speech="JJ">only</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="16" part-of-speech="NN">morphology</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">UCP</taggedword>
+      <taggedword index="19" part-of-speech="NN">expression</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">but</taggedword>
+      <taggedword index="22" part-of-speech="RB">also</taggedword>
+      <taggedword index="23" part-of-speech="IN">by</taggedword>
+      <taggedword index="24" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="25" part-of-speech="JJ">apparent</taggedword>
+      <taggedword index="26" part-of-speech="NN">lack</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="JJ">detectable</taggedword>
+      <taggedword index="29" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="30" part-of-speech="NN">expression</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="summary" dep_index="2" gov="differ" gov_index="7">prep_in</dependency>
+      <dependency dep="classical" dep_index="4" gov="adipocytes" gov_index="6">amod</dependency>
+      <dependency dep="brown" dep_index="5" gov="adipocytes" gov_index="6">amod</dependency>
+      <dependency dep="adipocytes" dep_index="6" gov="differ" gov_index="7">nsubj</dependency>
+      <dependency dep="differ" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="white" dep_index="9" gov="adipocytes" gov_index="10">amod</dependency>
+      <dependency dep="adipocytes" dep_index="10" gov="differ" gov_index="7">prep_from</dependency>
+      <dependency dep="not" dep_index="12" gov="only" gov_index="13">neg</dependency>
+      <dependency dep="only" dep_index="13" gov="differ" gov_index="7">preconj</dependency>
+      <dependency dep="their" dep_index="15" gov="morphology" gov_index="16">poss</dependency>
+      <dependency dep="morphology" dep_index="16" gov="differ" gov_index="7">prep_by</dependency>
+      <dependency dep="UCP" dep_index="18" gov="expression" gov_index="19">nn</dependency>
+      <dependency dep="expression" dep_index="19" gov="differ" gov_index="7">prep_by</dependency>
+      <dependency dep="expression" dep_index="19" gov="morphology" gov_index="16">conj_and</dependency>
+      <dependency dep="their" dep_index="24" gov="lack" gov_index="26">poss</dependency>
+      <dependency dep="apparent" dep_index="25" gov="lack" gov_index="26">amod</dependency>
+      <dependency dep="lack" dep_index="26" gov="differ" gov_index="7">prep_by</dependency>
+      <dependency dep="lack" dep_index="26" gov="morphology" gov_index="16">conj_and</dependency>
+      <dependency dep="detectable" dep_index="28" gov="expression" gov_index="30">amod</dependency>
+      <dependency dep="leptin" dep_index="29" gov="expression" gov_index="30">nn</dependency>
+      <dependency dep="expression" dep_index="30" gov="lack" gov_index="26">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800029" relationship="false">18 19 7 26 30 29</relation>
+   </relations>
+   <pairs/>
+</root>

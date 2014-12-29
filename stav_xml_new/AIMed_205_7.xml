@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>PI 3-kinase@activity@and@the@regulatory@p85@subunit@of@PI 3-kinase@associated@with@CD5@in@pervanadate-stimulated@,@but@not@in@unstimulated@thymocytes@.@</sentence>
+   <tags>
+      <tag pos="1">PI 3-kinase</tag>
+      <tag pos="6">p85</tag>
+      <tag pos="9">PI 3-kinase</tag>
+      <tag pos="12">CD5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">PI 3-kinase</taggedword>
+      <taggedword index="2" part-of-speech="NN">activity</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="6" part-of-speech="JJ">p85</taggedword>
+      <taggedword index="7" part-of-speech="NN">subunit</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNS">PI 3-kinase</taggedword>
+      <taggedword index="10" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">pervanadate-stimulated</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">but</taggedword>
+      <taggedword index="17" part-of-speech="RB">not</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="JJ">unstimulated</taggedword>
+      <taggedword index="20" part-of-speech="NNS">thymocytes</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="PI 3-kinase" dep_index="1" gov="activity" gov_index="2">amod</dependency>
+      <dependency dep="activity" dep_index="2" gov="associated" gov_index="10">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="subunit" gov_index="7">det</dependency>
+      <dependency dep="regulatory" dep_index="5" gov="subunit" gov_index="7">amod</dependency>
+      <dependency dep="p85" dep_index="6" gov="subunit" gov_index="7">amod</dependency>
+      <dependency dep="subunit" dep_index="7" gov="activity" gov_index="2">conj_and</dependency>
+      <dependency dep="subunit" dep_index="7" gov="associated" gov_index="10">nsubj</dependency>
+      <dependency dep="PI 3-kinase" dep_index="9" gov="subunit" gov_index="7">prep_of</dependency>
+      <dependency dep="associated" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="with" dep_index="11" gov="associated" gov_index="10">KILL</dependency>
+      <dependency dep="CD5" dep_index="12" gov="with" gov_index="11">KILL</dependency>
+      <dependency dep="pervanadate-stimulated" dep_index="14" gov="CD5" gov_index="12">prep_in</dependency>
+      <dependency dep="not" dep_index="17" gov="associated" gov_index="10">prep</dependency>
+      <dependency dep="not" dep_index="17" gov="associated" gov_index="10">conj_but</dependency>
+      <dependency dep="not" dep_index="17" gov="with" gov_index="11">neg</dependency>
+      <dependency dep="in" dep_index="18" gov="associated" gov_index="10">dep</dependency>
+      <dependency dep="unstimulated" dep_index="19" gov="thymocytes" gov_index="20">amod</dependency>
+      <dependency dep="thymocytes" dep_index="20" gov="in" gov_index="18">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100006" relationship="false">1 2 10 7 6</relation>
+      <relation position="100009" relationship="false">1 2 10 7 9</relation>
+      <relation position="100012" relationship="false">1 2 10 11 12</relation>
+      <relation position="600009" relationship="false">6 7 9</relation>
+      <relation position="600012" relationship="false">6 7 10 11 12</relation>
+      <relation position="900012" relationship="true">9 7 10 11 12</relation>
+   </relations>
+   <pairs>
+      <pair>900012</pair>
+   </pairs>
+</root>

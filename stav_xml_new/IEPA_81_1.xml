@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>It@has@been@established@that@amyloid@beta@peptide@(AbetaP)@activates@phospholipase@A2@,@phospholipase C@and@phospholipase@D@of@LA-N-2@cells@and@other@cell@types@</sentence>
+   <tags>
+      <tag pos="6">amyloid</tag>
+      <tag pos="14">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">It</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="3" part-of-speech="VBN">been</taggedword>
+      <taggedword index="4" part-of-speech="VBN">established</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="JJ">amyloid</taggedword>
+      <taggedword index="7" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="8" part-of-speech="NN">peptide</taggedword>
+      <taggedword index="9" part-of-speech="NNS">(AbetaP)</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">activates</taggedword>
+      <taggedword index="11" part-of-speech="JJ">phospholipase</taggedword>
+      <taggedword index="12" part-of-speech="NN">A2</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">phospholipase</taggedword>
+      <taggedword index="17" part-of-speech="NNP">D</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NN">LA-N-2</taggedword>
+      <taggedword index="20" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="JJ">other</taggedword>
+      <taggedword index="23" part-of-speech="NN">cell</taggedword>
+      <taggedword index="24" part-of-speech="NNS">types</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="It" dep_index="1" gov="established" gov_index="4">nsubjpass</dependency>
+      <dependency dep="has" dep_index="2" gov="established" gov_index="4">aux</dependency>
+      <dependency dep="been" dep_index="3" gov="established" gov_index="4">auxpass</dependency>
+      <dependency dep="established" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="activates" gov_index="10">mark</dependency>
+      <dependency dep="amyloid" dep_index="6" gov="(AbetaP)" gov_index="9">amod</dependency>
+      <dependency dep="beta" dep_index="7" gov="(AbetaP)" gov_index="9">amod</dependency>
+      <dependency dep="peptide" dep_index="8" gov="(AbetaP)" gov_index="9">nn</dependency>
+      <dependency dep="(AbetaP)" dep_index="9" gov="activates" gov_index="10">nsubj</dependency>
+      <dependency dep="activates" dep_index="10" gov="established" gov_index="4">ccomp</dependency>
+      <dependency dep="phospholipase" dep_index="11" gov="A2" gov_index="12">amod</dependency>
+      <dependency dep="A2" dep_index="12" gov="activates" gov_index="10">dobj</dependency>
+      <dependency dep="phospholipase C" dep_index="14" gov="D" gov_index="17">amod</dependency>
+      <dependency dep="phospholipase" dep_index="16" gov="phospholipase C" gov_index="14">conj_and</dependency>
+      <dependency dep="phospholipase" dep_index="16" gov="D" gov_index="17">amod</dependency>
+      <dependency dep="D" dep_index="17" gov="activates" gov_index="10">dobj</dependency>
+      <dependency dep="D" dep_index="17" gov="A2" gov_index="12">conj_and</dependency>
+      <dependency dep="LA-N-2" dep_index="19" gov="cells" gov_index="20">nn</dependency>
+      <dependency dep="cells" dep_index="20" gov="D" gov_index="17">prep_of</dependency>
+      <dependency dep="other" dep_index="22" gov="types" gov_index="24">amod</dependency>
+      <dependency dep="cell" dep_index="23" gov="types" gov_index="24">nn</dependency>
+      <dependency dep="types" dep_index="24" gov="activates" gov_index="10">dobj</dependency>
+      <dependency dep="types" dep_index="24" gov="A2" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600014" relationship="true">6 9 10 17 14</relation>
+   </relations>
+   <pairs>
+      <pair>600014</pair>
+   </pairs>
+</root>

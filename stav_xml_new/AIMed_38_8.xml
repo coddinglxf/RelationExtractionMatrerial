@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Eotaxin-3@induced@transient@calcium@mobilization@specifically@in@CC chemokine receptor 3@(@CCR3@)-expressing@L1.2@cells@with@an@EC(50)@of@3@nM@.@</sentence>
+   <tags>
+      <tag pos="1">Eotaxin-3</tag>
+      <tag pos="8">CC chemokine receptor 3</tag>
+      <tag pos="10">CCR3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Eotaxin-3</taggedword>
+      <taggedword index="2" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="3" part-of-speech="JJ">transient</taggedword>
+      <taggedword index="4" part-of-speech="NN">calcium</taggedword>
+      <taggedword index="5" part-of-speech="NN">mobilization</taggedword>
+      <taggedword index="6" part-of-speech="RB">specifically</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="JJ">CC chemokine receptor 3</taggedword>
+      <taggedword index="9" part-of-speech="NNP">(</taggedword>
+      <taggedword index="10" part-of-speech="NNP">CCR3</taggedword>
+      <taggedword index="11" part-of-speech="JJ">)-expressing</taggedword>
+      <taggedword index="12" part-of-speech="NN">L1.2</taggedword>
+      <taggedword index="13" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="DT">an</taggedword>
+      <taggedword index="16" part-of-speech="NN">EC(50)</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="CD">3</taggedword>
+      <taggedword index="19" part-of-speech="NN">nM</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Eotaxin-3" dep_index="1" gov="induced" gov_index="2">nsubj</dependency>
+      <dependency dep="induced" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="transient" dep_index="3" gov="mobilization" gov_index="5">amod</dependency>
+      <dependency dep="calcium" dep_index="4" gov="mobilization" gov_index="5">nn</dependency>
+      <dependency dep="mobilization" dep_index="5" gov="induced" gov_index="2">dobj</dependency>
+      <dependency dep="specifically" dep_index="6" gov="induced" gov_index="2">advmod</dependency>
+      <dependency dep="CC chemokine receptor 3" dep_index="8" gov="cells" gov_index="13">amod</dependency>
+      <dependency dep="(" dep_index="9" gov="cells" gov_index="13">nn</dependency>
+      <dependency dep="CCR3" dep_index="10" gov="cells" gov_index="13">nn</dependency>
+      <dependency dep=")-expressing" dep_index="11" gov="cells" gov_index="13">amod</dependency>
+      <dependency dep="L1.2" dep_index="12" gov="cells" gov_index="13">nn</dependency>
+      <dependency dep="cells" dep_index="13" gov="induced" gov_index="2">prep_in</dependency>
+      <dependency dep="an" dep_index="15" gov="EC(50)" gov_index="16">det</dependency>
+      <dependency dep="EC(50)" dep_index="16" gov="induced" gov_index="2">prep_with</dependency>
+      <dependency dep="3" dep_index="18" gov="nM" gov_index="19">num</dependency>
+      <dependency dep="nM" dep_index="19" gov="EC(50)" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100008" relationship="false">1 2 13 8</relation>
+      <relation position="100010" relationship="false">1 2 13 10</relation>
+      <relation position="800010" relationship="false">8 13 10</relation>
+   </relations>
+   <pairs/>
+</root>

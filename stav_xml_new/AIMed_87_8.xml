@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@activation@with@p85@and@IGF-1R beta@was@4-fold@less@as@compared@to@IR beta@and@was@somewhat@increased@(2-fold)@for@IGF-1R beta@(@delta C-4@3).@</sentence>
+   <tags>
+      <tag pos="4">p85</tag>
+      <tag pos="6">IGF-1R beta</tag>
+      <tag pos="13">IR beta</tag>
+      <tag pos="20">IGF-1R beta</tag>
+      <tag pos="22">delta C-4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">activation</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="NNS">p85</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNS">IGF-1R beta</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="JJ">4-fold</taggedword>
+      <taggedword index="9" part-of-speech="RBR">less</taggedword>
+      <taggedword index="10" part-of-speech="RB">as</taggedword>
+      <taggedword index="11" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="NNP">IR beta</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="VBD">was</taggedword>
+      <taggedword index="16" part-of-speech="RB">somewhat</taggedword>
+      <taggedword index="17" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="18" part-of-speech="JJ">(2-fold)</taggedword>
+      <taggedword index="19" part-of-speech="IN">for</taggedword>
+      <taggedword index="20" part-of-speech="NN">IGF-1R beta</taggedword>
+      <taggedword index="21" part-of-speech="NNS">(</taggedword>
+      <taggedword index="22" part-of-speech="JJ">delta C-4</taggedword>
+      <taggedword index="23" part-of-speech="CD">3).</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="activation" gov_index="2">det</dependency>
+      <dependency dep="activation" dep_index="2" gov="4-fold" gov_index="8">nsubj</dependency>
+      <dependency dep="activation" dep_index="2" gov="increased" gov_index="17">nsubjpass</dependency>
+      <dependency dep="p85" dep_index="4" gov="activation" gov_index="2">prep_with</dependency>
+      <dependency dep="IGF-1R beta" dep_index="6" gov="activation" gov_index="2">prep_with</dependency>
+      <dependency dep="IGF-1R beta" dep_index="6" gov="p85" gov_index="4">conj_and</dependency>
+      <dependency dep="was" dep_index="7" gov="4-fold" gov_index="8">cop</dependency>
+      <dependency dep="4-fold" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="less" dep_index="9" gov="as" gov_index="10">advmod</dependency>
+      <dependency dep="as" dep_index="10" gov="4-fold" gov_index="8">advmod</dependency>
+      <dependency dep="to" dep_index="12" gov="4-fold" gov_index="8">prepc_compared_to</dependency>
+      <dependency dep="IR beta" dep_index="13" gov="4-fold" gov_index="8">pobj</dependency>
+      <dependency dep="was" dep_index="15" gov="increased" gov_index="17">auxpass</dependency>
+      <dependency dep="somewhat" dep_index="16" gov="increased" gov_index="17">advmod</dependency>
+      <dependency dep="increased" dep_index="17" gov="4-fold" gov_index="8">conj_and</dependency>
+      <dependency dep="(2-fold)" dep_index="18" gov="increased" gov_index="17">acomp</dependency>
+      <dependency dep="IGF-1R beta" dep_index="20" gov="(" gov_index="21">nn</dependency>
+      <dependency dep="(" dep_index="21" gov="increased" gov_index="17">prep_for</dependency>
+      <dependency dep="delta C-4" dep_index="22" gov="(" gov_index="21">amod</dependency>
+      <dependency dep="3)." dep_index="23" gov="delta C-4" gov_index="22">tmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 2 6</relation>
+      <relation position="400013" relationship="true">4 2 8 13</relation>
+      <relation position="400020" relationship="true">4 2 17 21 20</relation>
+      <relation position="400022" relationship="false">4 2 17 21 22</relation>
+      <relation position="600013" relationship="false">6 2 8 13</relation>
+      <relation position="600020" relationship="false">6 2 17 21 20</relation>
+      <relation position="600022" relationship="false">6 2 17 21 22</relation>
+      <relation position="1300020" relationship="false"></relation>
+      <relation position="1300022" relationship="false"></relation>
+      <relation position="2000022" relationship="false">20 21 22</relation>
+   </relations>
+   <pairs>
+      <pair>400013</pair>
+      <pair>400006</pair>
+      <pair>400020</pair>
+   </pairs>
+</root>

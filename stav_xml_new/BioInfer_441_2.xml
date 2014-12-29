@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@colocalization@of@gelsolin@and@profilin@in@motile@,@microfilament-rich@areas@supports@the@hypothesis@that@they@synergistically@regulate@the@actin@dynamics@that@underlie@neurite@growth@.@</sentence>
+   <tags>
+      <tag pos="6">profilin</tag>
+      <tag pos="20">actin</tag>
+      <tag pos="4">gelsolin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">colocalization</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">gelsolin</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="JJ">motile</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="JJ">microfilament-rich</taggedword>
+      <taggedword index="11" part-of-speech="NNS">areas</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">supports</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NNS">hypothesis</taggedword>
+      <taggedword index="15" part-of-speech="IN">that</taggedword>
+      <taggedword index="16" part-of-speech="PRP">they</taggedword>
+      <taggedword index="17" part-of-speech="RB">synergistically</taggedword>
+      <taggedword index="18" part-of-speech="VB">regulate</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">actin</taggedword>
+      <taggedword index="21" part-of-speech="NNS">dynamics</taggedword>
+      <taggedword index="22" part-of-speech="WDT">that</taggedword>
+      <taggedword index="23" part-of-speech="VB">underlie</taggedword>
+      <taggedword index="24" part-of-speech="JJ">neurite</taggedword>
+      <taggedword index="25" part-of-speech="NN">growth</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="colocalization" gov_index="2">det</dependency>
+      <dependency dep="colocalization" dep_index="2" gov="supports" gov_index="12">nsubj</dependency>
+      <dependency dep="gelsolin" dep_index="4" gov="colocalization" gov_index="2">prep_of</dependency>
+      <dependency dep="profilin" dep_index="6" gov="colocalization" gov_index="2">prep_of</dependency>
+      <dependency dep="profilin" dep_index="6" gov="gelsolin" gov_index="4">conj_and</dependency>
+      <dependency dep="motile" dep_index="8" gov="areas" gov_index="11">amod</dependency>
+      <dependency dep="microfilament-rich" dep_index="10" gov="areas" gov_index="11">amod</dependency>
+      <dependency dep="areas" dep_index="11" gov="gelsolin" gov_index="4">prep_in</dependency>
+      <dependency dep="supports" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="13" gov="hypothesis" gov_index="14">det</dependency>
+      <dependency dep="hypothesis" dep_index="14" gov="supports" gov_index="12">dobj</dependency>
+      <dependency dep="that" dep_index="15" gov="regulate" gov_index="18">mark</dependency>
+      <dependency dep="they" dep_index="16" gov="regulate" gov_index="18">nsubj</dependency>
+      <dependency dep="synergistically" dep_index="17" gov="regulate" gov_index="18">advmod</dependency>
+      <dependency dep="regulate" dep_index="18" gov="supports" gov_index="12">ccomp</dependency>
+      <dependency dep="the" dep_index="19" gov="dynamics" gov_index="21">det</dependency>
+      <dependency dep="actin" dep_index="20" gov="dynamics" gov_index="21">nn</dependency>
+      <dependency dep="dynamics" dep_index="21" gov="regulate" gov_index="18">dobj</dependency>
+      <dependency dep="dynamics" dep_index="21" gov="underlie" gov_index="23">nsubj</dependency>
+      <dependency dep="underlie" dep_index="23" gov="dynamics" gov_index="21">rcmod</dependency>
+      <dependency dep="neurite" dep_index="24" gov="growth" gov_index="25">amod</dependency>
+      <dependency dep="growth" dep_index="25" gov="underlie" gov_index="23">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600020" relationship="true">6 2 12 18 21 20</relation>
+      <relation position="400006" relationship="true">4 2 6</relation>
+      <relation position="400020" relationship="true">4 2 12 18 21 20</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+      <pair>600020</pair>
+      <pair>400020</pair>
+   </pairs>
+</root>

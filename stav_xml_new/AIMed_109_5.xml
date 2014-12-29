@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@carboxy-terminal@regions@form@an@asymmetric@coiled-coil@,@and@the@amino-terminal@regions@make@base-specific@contacts@with@DNA@in@the@major@groove@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">carboxy-terminal</taggedword>
+      <taggedword index="3" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="4" part-of-speech="VBP">form</taggedword>
+      <taggedword index="5" part-of-speech="DT">an</taggedword>
+      <taggedword index="6" part-of-speech="JJ">asymmetric</taggedword>
+      <taggedword index="7" part-of-speech="NN">coiled-coil</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="12" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="13" part-of-speech="VBP">make</taggedword>
+      <taggedword index="14" part-of-speech="JJ">base-specific</taggedword>
+      <taggedword index="15" part-of-speech="NNS">contacts</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">major</taggedword>
+      <taggedword index="21" part-of-speech="NN">groove</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="regions" gov_index="3">det</dependency>
+      <dependency dep="carboxy-terminal" dep_index="2" gov="regions" gov_index="3">amod</dependency>
+      <dependency dep="regions" dep_index="3" gov="form" gov_index="4">nsubj</dependency>
+      <dependency dep="form" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="5" gov="coiled-coil" gov_index="7">det</dependency>
+      <dependency dep="asymmetric" dep_index="6" gov="coiled-coil" gov_index="7">amod</dependency>
+      <dependency dep="coiled-coil" dep_index="7" gov="form" gov_index="4">dobj</dependency>
+      <dependency dep="the" dep_index="10" gov="regions" gov_index="12">det</dependency>
+      <dependency dep="amino-terminal" dep_index="11" gov="regions" gov_index="12">amod</dependency>
+      <dependency dep="regions" dep_index="12" gov="make" gov_index="13">nsubj</dependency>
+      <dependency dep="make" dep_index="13" gov="form" gov_index="4">conj_and</dependency>
+      <dependency dep="base-specific" dep_index="14" gov="contacts" gov_index="15">amod</dependency>
+      <dependency dep="contacts" dep_index="15" gov="make" gov_index="13">dobj</dependency>
+      <dependency dep="DNA" dep_index="17" gov="make" gov_index="13">prep_with</dependency>
+      <dependency dep="the" dep_index="19" gov="groove" gov_index="21">det</dependency>
+      <dependency dep="major" dep_index="20" gov="groove" gov_index="21">amod</dependency>
+      <dependency dep="groove" dep_index="21" gov="DNA" gov_index="17">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

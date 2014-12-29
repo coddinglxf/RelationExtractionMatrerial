@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Recently@,@it@has@been@shown@that@,@similar@to@transforming growth factor-beta 1@,@activin@is@an@inhibitor@of@hepatocyte@DNA@synthesis@.@</sentence>
+   <tags>
+      <tag pos="11">transforming growth factor-beta 1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Recently</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">it</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="5" part-of-speech="VBN">been</taggedword>
+      <taggedword index="6" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="7" part-of-speech="DT">that</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="JJ">transforming growth factor-beta 1</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">activin</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="DT">an</taggedword>
+      <taggedword index="16" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="JJ">hepatocyte</taggedword>
+      <taggedword index="19" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="20" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Recently" dep_index="1" gov="shown" gov_index="6">advmod</dependency>
+      <dependency dep="it" dep_index="3" gov="shown" gov_index="6">nsubjpass</dependency>
+      <dependency dep="has" dep_index="4" gov="shown" gov_index="6">aux</dependency>
+      <dependency dep="been" dep_index="5" gov="shown" gov_index="6">auxpass</dependency>
+      <dependency dep="shown" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="shown" gov_index="6">dobj</dependency>
+      <dependency dep="similar" dep_index="9" gov="transforming growth factor-beta 1" gov_index="11">amod</dependency>
+      <dependency dep="to" dep_index="10" gov="transforming growth factor-beta 1" gov_index="11">dep</dependency>
+      <dependency dep="transforming growth factor-beta 1" dep_index="11" gov="that" gov_index="7">amod</dependency>
+      <dependency dep="activin" dep_index="13" gov="inhibitor" gov_index="16">nsubj</dependency>
+      <dependency dep="is" dep_index="14" gov="inhibitor" gov_index="16">cop</dependency>
+      <dependency dep="an" dep_index="15" gov="inhibitor" gov_index="16">det</dependency>
+      <dependency dep="inhibitor" dep_index="16" gov="that" gov_index="7">rcmod</dependency>
+      <dependency dep="hepatocyte" dep_index="18" gov="synthesis" gov_index="20">amod</dependency>
+      <dependency dep="DNA" dep_index="19" gov="synthesis" gov_index="20">nn</dependency>
+      <dependency dep="synthesis" dep_index="20" gov="inhibitor" gov_index="16">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

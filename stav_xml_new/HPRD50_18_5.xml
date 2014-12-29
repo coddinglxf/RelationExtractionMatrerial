@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Catalytic@domains@of@the@tyrosine@phosphatases@PTP-PEST@,@CD45@,@and@PTPbeta@did@not@interact@with@proteins@of@the@catenin@family@to@detectable@levels@,@suggesting@that@the@interaction@of@DEP1@with@these@proteins@is@specific@</sentence>
+   <tags>
+      <tag pos="7">PTP-PEST</tag>
+      <tag pos="9">CD45</tag>
+      <tag pos="31">DEP1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Catalytic</taggedword>
+      <taggedword index="2" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">phosphatases</taggedword>
+      <taggedword index="7" part-of-speech="NNP">PTP-PEST</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">CD45</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNP">PTPbeta</taggedword>
+      <taggedword index="13" part-of-speech="VBD">did</taggedword>
+      <taggedword index="14" part-of-speech="RB">not</taggedword>
+      <taggedword index="15" part-of-speech="VB">interact</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">catenin</taggedword>
+      <taggedword index="21" part-of-speech="NN">family</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="JJ">detectable</taggedword>
+      <taggedword index="24" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="VBG">suggesting</taggedword>
+      <taggedword index="27" part-of-speech="IN">that</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="NNP">DEP1</taggedword>
+      <taggedword index="32" part-of-speech="IN">with</taggedword>
+      <taggedword index="33" part-of-speech="DT">these</taggedword>
+      <taggedword index="34" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="35" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="36" part-of-speech="JJ">specific</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Catalytic" dep_index="1" gov="domains" gov_index="2">amod</dependency>
+      <dependency dep="domains" dep_index="2" gov="phosphatases" gov_index="6">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="tyrosine" gov_index="5">det</dependency>
+      <dependency dep="tyrosine" dep_index="5" gov="domains" gov_index="2">prep_of</dependency>
+      <dependency dep="phosphatases" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="PTP-PEST" dep_index="7" gov="interact" gov_index="15">nsubj</dependency>
+      <dependency dep="CD45" dep_index="9" gov="PTP-PEST" gov_index="7">conj_and</dependency>
+      <dependency dep="CD45" dep_index="9" gov="interact" gov_index="15">nsubj</dependency>
+      <dependency dep="PTPbeta" dep_index="12" gov="PTP-PEST" gov_index="7">conj_and</dependency>
+      <dependency dep="PTPbeta" dep_index="12" gov="interact" gov_index="15">nsubj</dependency>
+      <dependency dep="did" dep_index="13" gov="interact" gov_index="15">aux</dependency>
+      <dependency dep="not" dep_index="14" gov="interact" gov_index="15">neg</dependency>
+      <dependency dep="interact" dep_index="15" gov="phosphatases" gov_index="6">ccomp</dependency>
+      <dependency dep="proteins" dep_index="17" gov="interact" gov_index="15">prep_with</dependency>
+      <dependency dep="the" dep_index="19" gov="family" gov_index="21">det</dependency>
+      <dependency dep="catenin" dep_index="20" gov="family" gov_index="21">nn</dependency>
+      <dependency dep="family" dep_index="21" gov="proteins" gov_index="17">prep_of</dependency>
+      <dependency dep="detectable" dep_index="23" gov="levels" gov_index="24">amod</dependency>
+      <dependency dep="levels" dep_index="24" gov="interact" gov_index="15">prep_to</dependency>
+      <dependency dep="suggesting" dep_index="26" gov="interact" gov_index="15">xcomp</dependency>
+      <dependency dep="that" dep_index="27" gov="specific" gov_index="36">mark</dependency>
+      <dependency dep="the" dep_index="28" gov="interaction" gov_index="29">det</dependency>
+      <dependency dep="interaction" dep_index="29" gov="specific" gov_index="36">nsubj</dependency>
+      <dependency dep="DEP1" dep_index="31" gov="interaction" gov_index="29">prep_of</dependency>
+      <dependency dep="these" dep_index="33" gov="proteins" gov_index="34">det</dependency>
+      <dependency dep="proteins" dep_index="34" gov="DEP1" gov_index="31">prep_with</dependency>
+      <dependency dep="is" dep_index="35" gov="specific" gov_index="36">cop</dependency>
+      <dependency dep="specific" dep_index="36" gov="suggesting" gov_index="26">ccomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 15 9</relation>
+      <relation position="700031" relationship="false">7 15 26 36 29 31</relation>
+      <relation position="900031" relationship="false">9 15 26 36 29 31</relation>
+   </relations>
+   <pairs/>
+</root>

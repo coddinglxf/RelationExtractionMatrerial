@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Biochemical@properties@of@the@75-kDa@tumor@necrosis@factor@receptor@.@Characterization@of@ligand@binding@,@internalization@,@and@receptor@phosphorylation@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Biochemical</taggedword>
+      <taggedword index="2" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">75-kDa</taggedword>
+      <taggedword index="6" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">necrosis</taggedword>
+      <taggedword index="8" part-of-speech="NNP">factor</taggedword>
+      <taggedword index="9" part-of-speech="NNP">receptor</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+      <taggedword index="11" part-of-speech="NNP">Characterization</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="JJ">ligand</taggedword>
+      <taggedword index="14" part-of-speech="NNS">binding</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NN">internalization</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="20" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Biochemical" dep_index="1" gov="properties" gov_index="2">amod</dependency>
+      <dependency dep="properties" dep_index="2" gov="necrosis" gov_index="7">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="tumor" gov_index="6">det</dependency>
+      <dependency dep="75-kDa" dep_index="5" gov="tumor" gov_index="6">amod</dependency>
+      <dependency dep="tumor" dep_index="6" gov="properties" gov_index="2">prep_of</dependency>
+      <dependency dep="necrosis" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="factor" dep_index="8" gov="Characterization" gov_index="11">nn</dependency>
+      <dependency dep="receptor" dep_index="9" gov="Characterization" gov_index="11">nn</dependency>
+      <dependency dep="Characterization" dep_index="11" gov="necrosis" gov_index="7">dobj</dependency>
+      <dependency dep="ligand" dep_index="13" gov="internalization" gov_index="16">amod</dependency>
+      <dependency dep="binding" dep_index="14" gov="internalization" gov_index="16">nn</dependency>
+      <dependency dep="internalization" dep_index="16" gov="Characterization" gov_index="11">prep_of</dependency>
+      <dependency dep="receptor" dep_index="19" gov="phosphorylation" gov_index="20">nn</dependency>
+      <dependency dep="phosphorylation" dep_index="20" gov="Characterization" gov_index="11">prep_of</dependency>
+      <dependency dep="phosphorylation" dep_index="20" gov="internalization" gov_index="16">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

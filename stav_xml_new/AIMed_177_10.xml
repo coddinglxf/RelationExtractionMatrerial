@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@mutations@obtained@identified@a@putative@helix@in@the@marked@box@,@a@region@conserved@among@E2F@family@members@,@as@an@important@determinant@for@interaction@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="3" part-of-speech="VBD">obtained</taggedword>
+      <taggedword index="4" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="7" part-of-speech="NN">helix</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">marked</taggedword>
+      <taggedword index="11" part-of-speech="NN">box</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="NN">region</taggedword>
+      <taggedword index="15" part-of-speech="VBD">conserved</taggedword>
+      <taggedword index="16" part-of-speech="IN">among</taggedword>
+      <taggedword index="17" part-of-speech="JJ">E2F</taggedword>
+      <taggedword index="18" part-of-speech="NN">family</taggedword>
+      <taggedword index="19" part-of-speech="NNS">members</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="IN">as</taggedword>
+      <taggedword index="22" part-of-speech="DT">an</taggedword>
+      <taggedword index="23" part-of-speech="JJ">important</taggedword>
+      <taggedword index="24" part-of-speech="NN">determinant</taggedword>
+      <taggedword index="25" part-of-speech="IN">for</taggedword>
+      <taggedword index="26" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="mutations" gov_index="2">det</dependency>
+      <dependency dep="mutations" dep_index="2" gov="obtained" gov_index="3">nsubj</dependency>
+      <dependency dep="obtained" dep_index="3" gov="conserved" gov_index="15">ccomp</dependency>
+      <dependency dep="identified" dep_index="4" gov="obtained" gov_index="3">dep</dependency>
+      <dependency dep="a" dep_index="5" gov="helix" gov_index="7">det</dependency>
+      <dependency dep="putative" dep_index="6" gov="helix" gov_index="7">amod</dependency>
+      <dependency dep="helix" dep_index="7" gov="identified" gov_index="4">dobj</dependency>
+      <dependency dep="the" dep_index="9" gov="box" gov_index="11">det</dependency>
+      <dependency dep="marked" dep_index="10" gov="box" gov_index="11">amod</dependency>
+      <dependency dep="box" dep_index="11" gov="helix" gov_index="7">prep_in</dependency>
+      <dependency dep="a" dep_index="13" gov="region" gov_index="14">det</dependency>
+      <dependency dep="region" dep_index="14" gov="conserved" gov_index="15">nsubj</dependency>
+      <dependency dep="conserved" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="E2F" dep_index="17" gov="members" gov_index="19">amod</dependency>
+      <dependency dep="family" dep_index="18" gov="members" gov_index="19">nn</dependency>
+      <dependency dep="members" dep_index="19" gov="conserved" gov_index="15">prep_among</dependency>
+      <dependency dep="an" dep_index="22" gov="determinant" gov_index="24">det</dependency>
+      <dependency dep="important" dep_index="23" gov="determinant" gov_index="24">amod</dependency>
+      <dependency dep="determinant" dep_index="24" gov="conserved" gov_index="15">prep_as</dependency>
+      <dependency dep="interaction" dep_index="26" gov="determinant" gov_index="24">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

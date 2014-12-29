@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>It@was@unable@to@induce@significant@endocytosis@of@the@receptor@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">It</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="JJ">unable</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="VB">induce</taggedword>
+      <taggedword index="6" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="7" part-of-speech="NNS">endocytosis</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="It" dep_index="1" gov="unable" gov_index="3">nsubj</dependency>
+      <dependency dep="It" dep_index="1" gov="induce" gov_index="5">xsubj</dependency>
+      <dependency dep="was" dep_index="2" gov="unable" gov_index="3">cop</dependency>
+      <dependency dep="unable" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="4" gov="induce" gov_index="5">aux</dependency>
+      <dependency dep="induce" dep_index="5" gov="unable" gov_index="3">xcomp</dependency>
+      <dependency dep="significant" dep_index="6" gov="endocytosis" gov_index="7">amod</dependency>
+      <dependency dep="endocytosis" dep_index="7" gov="induce" gov_index="5">dobj</dependency>
+      <dependency dep="the" dep_index="9" gov="receptor" gov_index="10">det</dependency>
+      <dependency dep="receptor" dep_index="10" gov="endocytosis" gov_index="7">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

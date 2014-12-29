@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@alpha-actinin@may@play@a@role@in@both@the@localization@of@NMDA@receptors@and@their@modulation@by@Ca2+@.@</sentence>
+   <tags>
+      <tag pos="2">alpha-actinin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech="NN">alpha-actinin</taggedword>
+      <taggedword index="3" part-of-speech="MD">may</taggedword>
+      <taggedword index="4" part-of-speech="VB">play</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="NN">role</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="PDT">both</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">localization</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">NMDA</taggedword>
+      <taggedword index="13" part-of-speech="NNP">receptors</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="16" part-of-speech="NN">modulation</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="NNS">Ca2+</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="play" gov_index="4">advmod</dependency>
+      <dependency dep="alpha-actinin" dep_index="2" gov="play" gov_index="4">nsubj</dependency>
+      <dependency dep="may" dep_index="3" gov="play" gov_index="4">aux</dependency>
+      <dependency dep="play" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="5" gov="role" gov_index="6">det</dependency>
+      <dependency dep="role" dep_index="6" gov="play" gov_index="4">dobj</dependency>
+      <dependency dep="both" dep_index="8" gov="localization" gov_index="10">predet</dependency>
+      <dependency dep="the" dep_index="9" gov="localization" gov_index="10">det</dependency>
+      <dependency dep="localization" dep_index="10" gov="role" gov_index="6">prep_in</dependency>
+      <dependency dep="NMDA" dep_index="12" gov="receptors" gov_index="13">nn</dependency>
+      <dependency dep="receptors" dep_index="13" gov="localization" gov_index="10">prep_of</dependency>
+      <dependency dep="their" dep_index="15" gov="modulation" gov_index="16">poss</dependency>
+      <dependency dep="modulation" dep_index="16" gov="localization" gov_index="10">prep_of</dependency>
+      <dependency dep="modulation" dep_index="16" gov="receptors" gov_index="13">conj_and</dependency>
+      <dependency dep="Ca2+" dep_index="18" gov="play" gov_index="4">prep_by</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

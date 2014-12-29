@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@speculate@that@fimbrin@may@help@maintain@the@parallel@growth@of@actin@filaments@within@the@stereocilia@.@</sentence>
+   <tags>
+      <tag pos="4">fimbrin</tag>
+      <tag pos="12">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">speculate</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="5" part-of-speech="MD">may</taggedword>
+      <taggedword index="6" part-of-speech="VB">help</taggedword>
+      <taggedword index="7" part-of-speech="VB">maintain</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">parallel</taggedword>
+      <taggedword index="10" part-of-speech="NN">growth</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">actin</taggedword>
+      <taggedword index="13" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="14" part-of-speech="IN">within</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">stereocilia</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="speculate" gov_index="2">nsubj</dependency>
+      <dependency dep="speculate" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="help" gov_index="6">mark</dependency>
+      <dependency dep="fimbrin" dep_index="4" gov="help" gov_index="6">nsubj</dependency>
+      <dependency dep="may" dep_index="5" gov="help" gov_index="6">aux</dependency>
+      <dependency dep="help" dep_index="6" gov="speculate" gov_index="2">ccomp</dependency>
+      <dependency dep="maintain" dep_index="7" gov="help" gov_index="6">xcomp</dependency>
+      <dependency dep="the" dep_index="8" gov="growth" gov_index="10">det</dependency>
+      <dependency dep="parallel" dep_index="9" gov="growth" gov_index="10">amod</dependency>
+      <dependency dep="growth" dep_index="10" gov="maintain" gov_index="7">dobj</dependency>
+      <dependency dep="actin" dep_index="12" gov="filaments" gov_index="13">nn</dependency>
+      <dependency dep="filaments" dep_index="13" gov="growth" gov_index="10">prep_of</dependency>
+      <dependency dep="the" dep_index="15" gov="stereocilia" gov_index="16">det</dependency>
+      <dependency dep="stereocilia" dep_index="16" gov="maintain" gov_index="7">prep_within</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400012" relationship="true">4 6 7 10 13 12</relation>
+   </relations>
+   <pairs>
+      <pair>400012</pair>
+   </pairs>
+</root>

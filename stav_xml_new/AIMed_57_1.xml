@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Reconstitution@of@the@multiprotein@complex@of@pp60src@,@hsp90@,@and@p50@in@a@cell-free@system@.@</sentence>
+   <tags>
+      <tag pos="7">pp60src</tag>
+      <tag pos="9">hsp90</tag>
+      <tag pos="12">p50</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Reconstitution</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">multiprotein</taggedword>
+      <taggedword index="5" part-of-speech="NN">complex</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="CD">pp60src</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CD">hsp90</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="CD">p50</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="JJ">cell-free</taggedword>
+      <taggedword index="16" part-of-speech="NN">system</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Reconstitution" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="complex" gov_index="5">det</dependency>
+      <dependency dep="multiprotein" dep_index="4" gov="complex" gov_index="5">nn</dependency>
+      <dependency dep="complex" dep_index="5" gov="Reconstitution" gov_index="1">prep_of</dependency>
+      <dependency dep="pp60src" dep_index="7" gov="Reconstitution" gov_index="1">prep_of</dependency>
+      <dependency dep="hsp90" dep_index="9" gov="pp60src" gov_index="7">num</dependency>
+      <dependency dep="p50" dep_index="12" gov="Reconstitution" gov_index="1">prep_of</dependency>
+      <dependency dep="p50" dep_index="12" gov="pp60src" gov_index="7">conj_and</dependency>
+      <dependency dep="a" dep_index="14" gov="system" gov_index="16">det</dependency>
+      <dependency dep="cell-free" dep_index="15" gov="system" gov_index="16">amod</dependency>
+      <dependency dep="system" dep_index="16" gov="pp60src" gov_index="7">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true"></relation>
+      <relation position="700012" relationship="false">7 1 12</relation>
+      <relation position="900012" relationship="false">9 7 1 12</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

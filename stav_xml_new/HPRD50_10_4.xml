@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Finally@,@sialoadhesin@bound@different@glycoforms@of@CD43@expressed@in@Chinese@hamster@ovary@cells@,@including@unbranched@(core@1)@and@branched@(core@2)@O:-linked@glycans@,@that@are@normally@found@on@CD43@in@resting@and@activated@T@cells@,@respectively@</sentence>
+   <tags>
+      <tag pos="3">sialoadhesin</tag>
+      <tag pos="8">CD43</tag>
+      <tag pos="32">CD43</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Finally</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">sialoadhesin</taggedword>
+      <taggedword index="4" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="5" part-of-speech="JJ">different</taggedword>
+      <taggedword index="6" part-of-speech="NNS">glycoforms</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNP">CD43</taggedword>
+      <taggedword index="9" part-of-speech="VBD">expressed</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="JJ">Chinese</taggedword>
+      <taggedword index="12" part-of-speech="NN">hamster</taggedword>
+      <taggedword index="13" part-of-speech="NN">ovary</taggedword>
+      <taggedword index="14" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="VBG">including</taggedword>
+      <taggedword index="17" part-of-speech="JJ">unbranched</taggedword>
+      <taggedword index="18" part-of-speech="JJ">(core</taggedword>
+      <taggedword index="19" part-of-speech="CD">1)</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="CD">branched</taggedword>
+      <taggedword index="22" part-of-speech="NN">(core</taggedword>
+      <taggedword index="23" part-of-speech="CD">2)</taggedword>
+      <taggedword index="24" part-of-speech="JJ">O:-linked</taggedword>
+      <taggedword index="25" part-of-speech="NN">glycans</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="WDT">that</taggedword>
+      <taggedword index="28" part-of-speech="VBP">are</taggedword>
+      <taggedword index="29" part-of-speech="RB">normally</taggedword>
+      <taggedword index="30" part-of-speech="VBN">found</taggedword>
+      <taggedword index="31" part-of-speech="IN">on</taggedword>
+      <taggedword index="32" part-of-speech="NNP">CD43</taggedword>
+      <taggedword index="33" part-of-speech="IN">in</taggedword>
+      <taggedword index="34" part-of-speech="VBG">resting</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="37" part-of-speech="NNP">T</taggedword>
+      <taggedword index="38" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="39" part-of-speech=",">,</taggedword>
+      <taggedword index="40" part-of-speech="RB">respectively</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Finally" dep_index="1" gov="expressed" gov_index="9">advmod</dependency>
+      <dependency dep="sialoadhesin" dep_index="3" gov="expressed" gov_index="9">nsubj</dependency>
+      <dependency dep="bound" dep_index="4" gov="sialoadhesin" gov_index="3">partmod</dependency>
+      <dependency dep="different" dep_index="5" gov="glycoforms" gov_index="6">amod</dependency>
+      <dependency dep="glycoforms" dep_index="6" gov="bound" gov_index="4">dobj</dependency>
+      <dependency dep="CD43" dep_index="8" gov="glycoforms" gov_index="6">prep_of</dependency>
+      <dependency dep="expressed" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Chinese" dep_index="11" gov="cells" gov_index="14">amod</dependency>
+      <dependency dep="hamster" dep_index="12" gov="cells" gov_index="14">nn</dependency>
+      <dependency dep="ovary" dep_index="13" gov="cells" gov_index="14">nn</dependency>
+      <dependency dep="cells" dep_index="14" gov="expressed" gov_index="9">prep_in</dependency>
+      <dependency dep="unbranched" dep_index="17" gov="glycans" gov_index="25">amod</dependency>
+      <dependency dep="(core" dep_index="18" gov="glycans" gov_index="25">amod</dependency>
+      <dependency dep="1)" dep_index="19" gov="(core" gov_index="18">tmod</dependency>
+      <dependency dep="branched" dep_index="21" gov="(core" gov_index="18">tmod</dependency>
+      <dependency dep="branched" dep_index="21" gov="1)" gov_index="19">conj_and</dependency>
+      <dependency dep="(core" dep_index="22" gov="glycans" gov_index="25">nn</dependency>
+      <dependency dep="2)" dep_index="23" gov="glycans" gov_index="25">num</dependency>
+      <dependency dep="O:-linked" dep_index="24" gov="glycans" gov_index="25">amod</dependency>
+      <dependency dep="glycans" dep_index="25" gov="expressed" gov_index="9">prep_including</dependency>
+      <dependency dep="glycans" dep_index="25" gov="found" gov_index="30">nsubjpass</dependency>
+      <dependency dep="are" dep_index="28" gov="found" gov_index="30">auxpass</dependency>
+      <dependency dep="normally" dep_index="29" gov="found" gov_index="30">advmod</dependency>
+      <dependency dep="found" dep_index="30" gov="glycans" gov_index="25">rcmod</dependency>
+      <dependency dep="CD43" dep_index="32" gov="found" gov_index="30">prep_on</dependency>
+      <dependency dep="resting" dep_index="34" gov="cells" gov_index="38">nn</dependency>
+      <dependency dep="activated" dep_index="36" gov="resting" gov_index="34">conj_and</dependency>
+      <dependency dep="activated" dep_index="36" gov="cells" gov_index="38">nn</dependency>
+      <dependency dep="T" dep_index="37" gov="cells" gov_index="38">nn</dependency>
+      <dependency dep="cells" dep_index="38" gov="found" gov_index="30">prep_in</dependency>
+      <dependency dep="respectively" dep_index="40" gov="found" gov_index="30">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300008" relationship="true"></relation>
+      <relation position="300032" relationship="false">3 9 25 30 32</relation>
+      <relation position="800032" relationship="false">8 6 4 3 9 25 30 32</relation>
+   </relations>
+   <pairs>
+      <pair>300008</pair>
+   </pairs>
+</root>

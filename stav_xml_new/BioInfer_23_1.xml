@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Addition@of@Acanthamoeba@profilin@in@molar@ratios@to@actin@of@about@1.1:1@and@2.3:1@retarded@the@initial@kinetics@of@assembly@(induced@by@addition@of@2mM@Mg+2)@and@reduced@the@fraction@of@actin@incorporated@into@filaments@.@</sentence>
+   <tags>
+      <tag pos="4">profilin</tag>
+      <tag pos="32">actin</tag>
+      <tag pos="9">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Addition</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Acanthamoeba</taggedword>
+      <taggedword index="4" part-of-speech="NNP">profilin</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="NN">molar</taggedword>
+      <taggedword index="7" part-of-speech="NNS">ratios</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="RB">about</taggedword>
+      <taggedword index="12" part-of-speech="CD">1.1:1</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="CD">2.3:1</taggedword>
+      <taggedword index="15" part-of-speech="JJ">retarded</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">initial</taggedword>
+      <taggedword index="18" part-of-speech="NNS">kinetics</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="21" part-of-speech="VBD">(induced</taggedword>
+      <taggedword index="22" part-of-speech="IN">by</taggedword>
+      <taggedword index="23" part-of-speech="NN">addition</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="JJ">2mM</taggedword>
+      <taggedword index="26" part-of-speech="NNS">Mg+2)</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="VBD">reduced</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="NN">fraction</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="NN">actin</taggedword>
+      <taggedword index="33" part-of-speech="VBN">incorporated</taggedword>
+      <taggedword index="34" part-of-speech="IN">into</taggedword>
+      <taggedword index="35" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Addition" dep_index="1" gov="(induced" gov_index="21">dep</dependency>
+      <dependency dep="Acanthamoeba" dep_index="3" gov="profilin" gov_index="4">nn</dependency>
+      <dependency dep="profilin" dep_index="4" gov="Addition" gov_index="1">prep_of</dependency>
+      <dependency dep="molar" dep_index="6" gov="ratios" gov_index="7">nn</dependency>
+      <dependency dep="ratios" dep_index="7" gov="profilin" gov_index="4">prep_in</dependency>
+      <dependency dep="actin" dep_index="9" gov="Addition" gov_index="1">prep_to</dependency>
+      <dependency dep="about" dep_index="11" gov="1.1:1" gov_index="12">quantmod</dependency>
+      <dependency dep="1.1:1" dep_index="12" gov="actin" gov_index="9">prep_of</dependency>
+      <dependency dep="2.3:1" dep_index="14" gov="retarded" gov_index="15">npadvmod</dependency>
+      <dependency dep="retarded" dep_index="15" gov="Addition" gov_index="1">conj_and</dependency>
+      <dependency dep="retarded" dep_index="15" gov="(induced" gov_index="21">dep</dependency>
+      <dependency dep="the" dep_index="16" gov="kinetics" gov_index="18">det</dependency>
+      <dependency dep="initial" dep_index="17" gov="kinetics" gov_index="18">amod</dependency>
+      <dependency dep="kinetics" dep_index="18" gov="(induced" gov_index="21">nsubj</dependency>
+      <dependency dep="kinetics" dep_index="18" gov="reduced" gov_index="28">nsubj</dependency>
+      <dependency dep="assembly" dep_index="20" gov="kinetics" gov_index="18">prep_of</dependency>
+      <dependency dep="(induced" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="addition" dep_index="23" gov="(induced" gov_index="21">prep_by</dependency>
+      <dependency dep="2mM" dep_index="25" gov="Mg+2)" gov_index="26">amod</dependency>
+      <dependency dep="Mg+2)" dep_index="26" gov="addition" gov_index="23">prep_of</dependency>
+      <dependency dep="reduced" dep_index="28" gov="(induced" gov_index="21">conj_and</dependency>
+      <dependency dep="the" dep_index="29" gov="fraction" gov_index="30">det</dependency>
+      <dependency dep="fraction" dep_index="30" gov="reduced" gov_index="28">dobj</dependency>
+      <dependency dep="actin" dep_index="32" gov="fraction" gov_index="30">prep_of</dependency>
+      <dependency dep="incorporated" dep_index="33" gov="actin" gov_index="32">partmod</dependency>
+      <dependency dep="filaments" dep_index="35" gov="incorporated" gov_index="33">prep_into</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400032" relationship="true"></relation>
+      <relation position="400009" relationship="false">4 1 9</relation>
+      <relation position="900032" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>400032</pair>
+   </pairs>
+</root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>After@protein kinase C@activity@was@functionally@depleted@by@treating@cells@with@phorbol@12-myristate@13-acetate@for@24@hours@,@AVP@did@not@augment@IL-1beta-induced@NO@production@</sentence>
+   <tags>
+      <tag pos="2">protein kinase C</tag>
+      <tag pos="18">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">After</taggedword>
+      <taggedword index="2" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="3" part-of-speech="NN">activity</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="RB">functionally</taggedword>
+      <taggedword index="6" part-of-speech="VBN">depleted</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="VBG">treating</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="JJ">phorbol</taggedword>
+      <taggedword index="12" part-of-speech="JJ">12-myristate</taggedword>
+      <taggedword index="13" part-of-speech="NN">13-acetate</taggedword>
+      <taggedword index="14" part-of-speech="IN">for</taggedword>
+      <taggedword index="15" part-of-speech="CD">24</taggedword>
+      <taggedword index="16" part-of-speech="NNS">hours</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="19" part-of-speech="VBD">did</taggedword>
+      <taggedword index="20" part-of-speech="RB">not</taggedword>
+      <taggedword index="21" part-of-speech="VB">augment</taggedword>
+      <taggedword index="22" part-of-speech="VBG">IL-1beta-induced</taggedword>
+      <taggedword index="23" part-of-speech="DT">NO</taggedword>
+      <taggedword index="24" part-of-speech="NN">production</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="After" dep_index="1" gov="depleted" gov_index="6">mark</dependency>
+      <dependency dep="protein kinase C" dep_index="2" gov="activity" gov_index="3">amod</dependency>
+      <dependency dep="activity" dep_index="3" gov="depleted" gov_index="6">nsubjpass</dependency>
+      <dependency dep="was" dep_index="4" gov="depleted" gov_index="6">auxpass</dependency>
+      <dependency dep="functionally" dep_index="5" gov="depleted" gov_index="6">advmod</dependency>
+      <dependency dep="depleted" dep_index="6" gov="augment" gov_index="21">advcl</dependency>
+      <dependency dep="treating" dep_index="8" gov="depleted" gov_index="6">agent</dependency>
+      <dependency dep="cells" dep_index="9" gov="treating" gov_index="8">dobj</dependency>
+      <dependency dep="phorbol" dep_index="11" gov="13-acetate" gov_index="13">amod</dependency>
+      <dependency dep="12-myristate" dep_index="12" gov="13-acetate" gov_index="13">amod</dependency>
+      <dependency dep="13-acetate" dep_index="13" gov="treating" gov_index="8">prep_with</dependency>
+      <dependency dep="24" dep_index="15" gov="hours" gov_index="16">num</dependency>
+      <dependency dep="hours" dep_index="16" gov="13-acetate" gov_index="13">prep_for</dependency>
+      <dependency dep="AVP" dep_index="18" gov="augment" gov_index="21">nsubj</dependency>
+      <dependency dep="did" dep_index="19" gov="augment" gov_index="21">aux</dependency>
+      <dependency dep="not" dep_index="20" gov="augment" gov_index="21">neg</dependency>
+      <dependency dep="augment" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="IL-1beta-induced" dep_index="22" gov="augment" gov_index="21">xcomp</dependency>
+      <dependency dep="NO" dep_index="23" gov="production" gov_index="24">det</dependency>
+      <dependency dep="production" dep_index="24" gov="IL-1beta-induced" gov_index="22">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200018" relationship="false">2 3 6 21 18</relation>
+   </relations>
+   <pairs/>
+</root>

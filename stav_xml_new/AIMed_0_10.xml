@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interferon-alpha@therapy@can@modulate@the@balance@of@Th1/Th2@type@cytokines@,@and@this@is@related@to@its@clinical@effect@.@</sentence>
+   <tags>
+      <tag pos="1">Interferon-alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Interferon-alpha</taggedword>
+      <taggedword index="2" part-of-speech="NN">therapy</taggedword>
+      <taggedword index="3" part-of-speech="MD">can</taggedword>
+      <taggedword index="4" part-of-speech="VB">modulate</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">balance</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">Th1/Th2</taggedword>
+      <taggedword index="9" part-of-speech="NN">type</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cytokines</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="DT">this</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="VBN">related</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="18" part-of-speech="JJ">clinical</taggedword>
+      <taggedword index="19" part-of-speech="NN">effect</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interferon-alpha" dep_index="1" gov="therapy" gov_index="2">amod</dependency>
+      <dependency dep="therapy" dep_index="2" gov="modulate" gov_index="4">nsubj</dependency>
+      <dependency dep="can" dep_index="3" gov="modulate" gov_index="4">aux</dependency>
+      <dependency dep="modulate" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="balance" gov_index="6">det</dependency>
+      <dependency dep="balance" dep_index="6" gov="modulate" gov_index="4">dobj</dependency>
+      <dependency dep="Th1/Th2" dep_index="8" gov="cytokines" gov_index="10">amod</dependency>
+      <dependency dep="type" dep_index="9" gov="cytokines" gov_index="10">nn</dependency>
+      <dependency dep="cytokines" dep_index="10" gov="balance" gov_index="6">prep_of</dependency>
+      <dependency dep="this" dep_index="13" gov="related" gov_index="15">nsubjpass</dependency>
+      <dependency dep="is" dep_index="14" gov="related" gov_index="15">auxpass</dependency>
+      <dependency dep="related" dep_index="15" gov="modulate" gov_index="4">conj_and</dependency>
+      <dependency dep="its" dep_index="17" gov="effect" gov_index="19">poss</dependency>
+      <dependency dep="clinical" dep_index="18" gov="effect" gov_index="19">amod</dependency>
+      <dependency dep="effect" dep_index="19" gov="related" gov_index="15">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

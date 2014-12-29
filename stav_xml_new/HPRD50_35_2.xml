@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@used@cDNA@probes@for@the@Etfdh@,@Etfb@,@and@Etfa@genes@to@determine@localization@of@these@mouse@genes@to@chromosomes@3@,@7@,@and@13@</sentence>
+   <tags>
+      <tag pos="7">Etfdh</tag>
+      <tag pos="9">Etfb</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">used</taggedword>
+      <taggedword index="3" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="4" part-of-speech="NNS">probes</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Etfdh</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Etfb</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNP">Etfa</taggedword>
+      <taggedword index="13" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">determine</taggedword>
+      <taggedword index="16" part-of-speech="NN">localization</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">these</taggedword>
+      <taggedword index="19" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="20" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="NNS">chromosomes</taggedword>
+      <taggedword index="23" part-of-speech="CD">3</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="CD">7</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="CD">13</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="used" gov_index="2">nsubj</dependency>
+      <dependency dep="We" dep_index="1" gov="determine" gov_index="15">xsubj</dependency>
+      <dependency dep="used" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cDNA" dep_index="3" gov="probes" gov_index="4">nn</dependency>
+      <dependency dep="probes" dep_index="4" gov="used" gov_index="2">dobj</dependency>
+      <dependency dep="the" dep_index="6" gov="Etfb" gov_index="9">det</dependency>
+      <dependency dep="Etfdh" dep_index="7" gov="Etfb" gov_index="9">nn</dependency>
+      <dependency dep="Etfb" dep_index="9" gov="used" gov_index="2">prep_for</dependency>
+      <dependency dep="Etfa" dep_index="12" gov="genes" gov_index="13">nn</dependency>
+      <dependency dep="genes" dep_index="13" gov="used" gov_index="2">prep_for</dependency>
+      <dependency dep="genes" dep_index="13" gov="Etfb" gov_index="9">conj_and</dependency>
+      <dependency dep="to" dep_index="14" gov="determine" gov_index="15">aux</dependency>
+      <dependency dep="determine" dep_index="15" gov="used" gov_index="2">xcomp</dependency>
+      <dependency dep="localization" dep_index="16" gov="determine" gov_index="15">dobj</dependency>
+      <dependency dep="these" dep_index="18" gov="genes" gov_index="20">det</dependency>
+      <dependency dep="mouse" dep_index="19" gov="genes" gov_index="20">nn</dependency>
+      <dependency dep="genes" dep_index="20" gov="localization" gov_index="16">prep_of</dependency>
+      <dependency dep="chromosomes" dep_index="22" gov="determine" gov_index="15">prep_to</dependency>
+      <dependency dep="3" dep_index="23" gov="chromosomes" gov_index="22">dep</dependency>
+      <dependency dep="7" dep_index="25" gov="3" gov_index="23">num</dependency>
+      <dependency dep="13" dep_index="28" gov="chromosomes" gov_index="22">dep</dependency>
+      <dependency dep="13" dep_index="28" gov="3" gov_index="23">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Individual@subunits@from@the@trimer@by@a@novel@edge-to-face@packing@of@beta-sheets@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Individual</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">subunits</taggedword>
+      <taggedword index="3" part-of-speech="IN">from</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">trimer</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">novel</taggedword>
+      <taggedword index="9" part-of-speech="JJ">edge-to-face</taggedword>
+      <taggedword index="10" part-of-speech="NN">packing</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNS">beta-sheets</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Individual" dep_index="1" gov="subunits" gov_index="2">nsubj</dependency>
+      <dependency dep="subunits" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="trimer" gov_index="5">det</dependency>
+      <dependency dep="trimer" dep_index="5" gov="subunits" gov_index="2">prep_from</dependency>
+      <dependency dep="a" dep_index="7" gov="packing" gov_index="10">det</dependency>
+      <dependency dep="novel" dep_index="8" gov="packing" gov_index="10">amod</dependency>
+      <dependency dep="edge-to-face" dep_index="9" gov="packing" gov_index="10">amod</dependency>
+      <dependency dep="packing" dep_index="10" gov="subunits" gov_index="2">prep_by</dependency>
+      <dependency dep="beta-sheets" dep_index="12" gov="packing" gov_index="10">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

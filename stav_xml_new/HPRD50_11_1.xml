@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Direct@interaction@between@the@cytoplasmic@tail@of@ADAM 12@and@the@Src@homology@3@domain@of@p85alpha@activates@phosphatidylinositol 3-kinase@in@C2C12@cells@</sentence>
+   <tags>
+      <tag pos="8">ADAM 12</tag>
+      <tag pos="16">p85alpha</tag>
+      <tag pos="18">phosphatidylinositol 3-kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Direct</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">between</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">cytoplasmic</taggedword>
+      <taggedword index="6" part-of-speech="NN">tail</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNP">ADAM 12</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NNP">Src</taggedword>
+      <taggedword index="12" part-of-speech="NN">homology</taggedword>
+      <taggedword index="13" part-of-speech="CD">3</taggedword>
+      <taggedword index="14" part-of-speech="NN">domain</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">p85alpha</taggedword>
+      <taggedword index="17" part-of-speech="NNS">activates</taggedword>
+      <taggedword index="18" part-of-speech="JJ">phosphatidylinositol 3-kinase</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="CD">C2C12</taggedword>
+      <taggedword index="21" part-of-speech="NNS">cells</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Direct" dep_index="1" gov="interaction" gov_index="2">amod</dependency>
+      <dependency dep="interaction" dep_index="2" gov="phosphatidylinositol 3-kinase" gov_index="18">dep</dependency>
+      <dependency dep="the" dep_index="4" gov="tail" gov_index="6">det</dependency>
+      <dependency dep="cytoplasmic" dep_index="5" gov="tail" gov_index="6">amod</dependency>
+      <dependency dep="tail" dep_index="6" gov="interaction" gov_index="2">prep_between</dependency>
+      <dependency dep="ADAM 12" dep_index="8" gov="tail" gov_index="6">prep_of</dependency>
+      <dependency dep="the" dep_index="10" gov="domain" gov_index="14">det</dependency>
+      <dependency dep="Src" dep_index="11" gov="domain" gov_index="14">nn</dependency>
+      <dependency dep="homology" dep_index="12" gov="domain" gov_index="14">nn</dependency>
+      <dependency dep="3" dep_index="13" gov="domain" gov_index="14">num</dependency>
+      <dependency dep="domain" dep_index="14" gov="interaction" gov_index="2">prep_between</dependency>
+      <dependency dep="domain" dep_index="14" gov="tail" gov_index="6">conj_and</dependency>
+      <dependency dep="p85alpha" dep_index="16" gov="activates" gov_index="17">amod</dependency>
+      <dependency dep="activates" dep_index="17" gov="domain" gov_index="14">prep_of</dependency>
+      <dependency dep="phosphatidylinositol 3-kinase" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="in" dep_index="19" gov="phosphatidylinositol 3-kinase" gov_index="18">dep</dependency>
+      <dependency dep="C2C12" dep_index="20" gov="cells" gov_index="21">num</dependency>
+      <dependency dep="cells" dep_index="21" gov="in" gov_index="19">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800016" relationship="true">8 6 2 14 17 16</relation>
+      <relation position="800018" relationship="true"></relation>
+      <relation position="1600018" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>800016</pair>
+      <pair>800018</pair>
+      <pair>1600018</pair>
+   </pairs>
+</root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Characterization@of@the@action@of@porcine@brain profilin@on@actin@polymerization@.@</sentence>
+   <tags>
+      <tag pos="7">brain profilin</tag>
+      <tag pos="9">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Characterization</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">action</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="JJ">porcine</taggedword>
+      <taggedword index="7" part-of-speech="NN">brain profilin</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Characterization" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="action" gov_index="4">det</dependency>
+      <dependency dep="action" dep_index="4" gov="Characterization" gov_index="1">prep_of</dependency>
+      <dependency dep="porcine" dep_index="6" gov="brain profilin" gov_index="7">amod</dependency>
+      <dependency dep="brain profilin" dep_index="7" gov="action" gov_index="4">prep_of</dependency>
+      <dependency dep="actin" dep_index="9" gov="polymerization" gov_index="10">nn</dependency>
+      <dependency dep="polymerization" dep_index="10" gov="Characterization" gov_index="1">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true">7 4 1 10 9</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

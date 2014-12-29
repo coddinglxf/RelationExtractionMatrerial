@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@to@this@unique@pathway@,@FGFR3@also@links@to@GRB2@.@</sentence>
+   <tags>
+      <tag pos="8">FGFR3</tag>
+      <tag pos="12">GRB2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech="JJ">unique</taggedword>
+      <taggedword index="6" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NNP">FGFR3</taggedword>
+      <taggedword index="9" part-of-speech="RB">also</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">links</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="NNP">GRB2</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="4" gov="pathway" gov_index="6">det</dependency>
+      <dependency dep="unique" dep_index="5" gov="pathway" gov_index="6">amod</dependency>
+      <dependency dep="pathway" dep_index="6" gov="links" gov_index="10">prep_in_addition_to</dependency>
+      <dependency dep="FGFR3" dep_index="8" gov="links" gov_index="10">nsubj</dependency>
+      <dependency dep="also" dep_index="9" gov="links" gov_index="10">advmod</dependency>
+      <dependency dep="links" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="GRB2" dep_index="12" gov="links" gov_index="10">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800012" relationship="false">8 10 12</relation>
+   </relations>
+   <pairs/>
+</root>

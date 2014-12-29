@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Further@,@PRP@incubated@with@IL-6@showed@a@dose@dependent@increase@in@TXB2@and@BTG@secretion@as@measured@by@RIA@and@an@increased@incorporation@of@actin binding protein@,@talin@,@and@myosin@into@the@cytoskeletal@core@(triton@insoluble@residue)@as@shown@by@SDS-PAGE@.@</sentence>
+   <tags>
+      <tag pos="15">BTG</tag>
+      <tag pos="31">myosin</tag>
+      <tag pos="13">TXB2</tag>
+      <tag pos="28">talin</tag>
+      <tag pos="26">actin binding protein</tag>
+      <tag pos="6">IL-6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RBR">Further</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">PRP</taggedword>
+      <taggedword index="4" part-of-speech="VBD">incubated</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="NNP">IL-6</taggedword>
+      <taggedword index="7" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="NN">dose</taggedword>
+      <taggedword index="10" part-of-speech="JJ">dependent</taggedword>
+      <taggedword index="11" part-of-speech="NN">increase</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NNP">TXB2</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NNP">BTG</taggedword>
+      <taggedword index="16" part-of-speech="NNP">secretion</taggedword>
+      <taggedword index="17" part-of-speech="IN">as</taggedword>
+      <taggedword index="18" part-of-speech="VBN">measured</taggedword>
+      <taggedword index="19" part-of-speech="IN">by</taggedword>
+      <taggedword index="20" part-of-speech="NNP">RIA</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="DT">an</taggedword>
+      <taggedword index="23" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="24" part-of-speech="NN">incorporation</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NN">actin binding protein</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NN">talin</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="NN">myosin</taggedword>
+      <taggedword index="32" part-of-speech="IN">into</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="JJ">cytoskeletal</taggedword>
+      <taggedword index="35" part-of-speech="NN">core</taggedword>
+      <taggedword index="36" part-of-speech="NN">(triton</taggedword>
+      <taggedword index="37" part-of-speech="NN">insoluble</taggedword>
+      <taggedword index="38" part-of-speech="VBZ">residue)</taggedword>
+      <taggedword index="39" part-of-speech="IN">as</taggedword>
+      <taggedword index="40" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="41" part-of-speech="IN">by</taggedword>
+      <taggedword index="42" part-of-speech="NN">SDS-PAGE</taggedword>
+      <taggedword index="43" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Further" dep_index="1" gov="incubated" gov_index="4">advmod</dependency>
+      <dependency dep="PRP" dep_index="3" gov="incubated" gov_index="4">nsubj</dependency>
+      <dependency dep="incubated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="with" dep_index="5" gov="showed" gov_index="7">mark</dependency>
+      <dependency dep="IL-6" dep_index="6" gov="showed" gov_index="7">nsubj</dependency>
+      <dependency dep="showed" dep_index="7" gov="incubated" gov_index="4">advcl</dependency>
+      <dependency dep="a" dep_index="8" gov="dose" gov_index="9">det</dependency>
+      <dependency dep="dose" dep_index="9" gov="residue)" gov_index="38">nsubj</dependency>
+      <dependency dep="dependent" dep_index="10" gov="increase" gov_index="11">dep</dependency>
+      <dependency dep="increase" dep_index="11" gov="residue)" gov_index="38">dep</dependency>
+      <dependency dep="TXB2" dep_index="13" gov="secretion" gov_index="16">nn</dependency>
+      <dependency dep="BTG" dep_index="15" gov="TXB2" gov_index="13">conj_and</dependency>
+      <dependency dep="BTG" dep_index="15" gov="secretion" gov_index="16">nn</dependency>
+      <dependency dep="secretion" dep_index="16" gov="increase" gov_index="11">prep_in</dependency>
+      <dependency dep="as" dep_index="17" gov="residue)" gov_index="38">mark</dependency>
+      <dependency dep="measured" dep_index="18" gov="residue)" gov_index="38">csubj</dependency>
+      <dependency dep="RIA" dep_index="20" gov="measured" gov_index="18">prep_by</dependency>
+      <dependency dep="an" dep_index="22" gov="incorporation" gov_index="24">det</dependency>
+      <dependency dep="increased" dep_index="23" gov="incorporation" gov_index="24">amod</dependency>
+      <dependency dep="incorporation" dep_index="24" gov="measured" gov_index="18">prep_by</dependency>
+      <dependency dep="incorporation" dep_index="24" gov="RIA" gov_index="20">conj_and</dependency>
+      <dependency dep="actin binding protein" dep_index="26" gov="incorporation" gov_index="24">prep_of</dependency>
+      <dependency dep="talin" dep_index="28" gov="incorporation" gov_index="24">prep_of</dependency>
+      <dependency dep="talin" dep_index="28" gov="actin binding protein" gov_index="26">conj_and</dependency>
+      <dependency dep="myosin" dep_index="31" gov="incorporation" gov_index="24">prep_of</dependency>
+      <dependency dep="myosin" dep_index="31" gov="actin binding protein" gov_index="26">conj_and</dependency>
+      <dependency dep="the" dep_index="33" gov="insoluble" gov_index="37">det</dependency>
+      <dependency dep="cytoskeletal" dep_index="34" gov="insoluble" gov_index="37">amod</dependency>
+      <dependency dep="core" dep_index="35" gov="insoluble" gov_index="37">nn</dependency>
+      <dependency dep="(triton" dep_index="36" gov="insoluble" gov_index="37">nn</dependency>
+      <dependency dep="insoluble" dep_index="37" gov="actin binding protein" gov_index="26">prep_into</dependency>
+      <dependency dep="residue)" dep_index="38" gov="showed" gov_index="7">xcomp</dependency>
+      <dependency dep="as" dep_index="39" gov="shown" gov_index="40">mark</dependency>
+      <dependency dep="shown" dep_index="40" gov="residue)" gov_index="38">advcl</dependency>
+      <dependency dep="SDS-PAGE" dep_index="42" gov="shown" gov_index="40">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500031" relationship="false">15 16 11 38 18 24 31</relation>
+      <relation position="1300015" relationship="false">13 16 15</relation>
+      <relation position="1500028" relationship="false">15 16 11 38 18 24 28</relation>
+      <relation position="1500026" relationship="false">15 16 11 38 18 24 26</relation>
+      <relation position="600015" relationship="true">6 7 38 11 16 15</relation>
+      <relation position="1300031" relationship="false">13 16 11 38 18 24 31</relation>
+      <relation position="2800031" relationship="true">28 24 31</relation>
+      <relation position="2600031" relationship="true">26 24 31</relation>
+      <relation position="600031" relationship="false">6 7 38 18 24 31</relation>
+      <relation position="1300028" relationship="false">13 16 11 38 18 24 28</relation>
+      <relation position="1300026" relationship="false">13 16 11 38 18 24 26</relation>
+      <relation position="600013" relationship="true">6 7 38 11 16 13</relation>
+      <relation position="2600028" relationship="true">26 24 28</relation>
+      <relation position="600028" relationship="false">6 7 38 18 24 28</relation>
+      <relation position="600026" relationship="false">6 7 38 18 24 26</relation>
+   </relations>
+   <pairs>
+      <pair>2800031</pair>
+      <pair>600013</pair>
+      <pair>600015</pair>
+      <pair>2600031</pair>
+      <pair>2600028</pair>
+   </pairs>
+</root>

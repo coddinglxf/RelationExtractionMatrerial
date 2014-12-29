@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Considering@the@strict@dependence@of@the@cellular@response@on@affinity@,@these@results@suggest@that@for@maintaining@transcription@of@IFN-responsive@genes@over@a@longer@time@period@,@low@but@continuous@signaling@through@the@IFN@receptor@is@essential@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Considering</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">strict</taggedword>
+      <taggedword index="4" part-of-speech="NN">dependence</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="8" part-of-speech="NN">response</taggedword>
+      <taggedword index="9" part-of-speech="IN">on</taggedword>
+      <taggedword index="10" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="DT">these</taggedword>
+      <taggedword index="13" part-of-speech="NNS">results</taggedword>
+      <taggedword index="14" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="15" part-of-speech="IN">that</taggedword>
+      <taggedword index="16" part-of-speech="IN">for</taggedword>
+      <taggedword index="17" part-of-speech="VBG">maintaining</taggedword>
+      <taggedword index="18" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="JJ">IFN-responsive</taggedword>
+      <taggedword index="21" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="22" part-of-speech="IN">over</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="JJR">longer</taggedword>
+      <taggedword index="25" part-of-speech="NN">time</taggedword>
+      <taggedword index="26" part-of-speech="NN">period</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="JJ">low</taggedword>
+      <taggedword index="29" part-of-speech="CC">but</taggedword>
+      <taggedword index="30" part-of-speech="JJ">continuous</taggedword>
+      <taggedword index="31" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="32" part-of-speech="IN">through</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="NNP">IFN</taggedword>
+      <taggedword index="35" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="36" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="37" part-of-speech="JJ">essential</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="dependence" gov_index="4">det</dependency>
+      <dependency dep="strict" dep_index="3" gov="dependence" gov_index="4">amod</dependency>
+      <dependency dep="dependence" dep_index="4" gov="suggest" gov_index="14">prep_considering</dependency>
+      <dependency dep="the" dep_index="6" gov="response" gov_index="8">det</dependency>
+      <dependency dep="cellular" dep_index="7" gov="response" gov_index="8">amod</dependency>
+      <dependency dep="response" dep_index="8" gov="dependence" gov_index="4">prep_of</dependency>
+      <dependency dep="affinity" dep_index="10" gov="response" gov_index="8">prep_on</dependency>
+      <dependency dep="these" dep_index="12" gov="results" gov_index="13">det</dependency>
+      <dependency dep="results" dep_index="13" gov="suggest" gov_index="14">nsubj</dependency>
+      <dependency dep="suggest" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="15" gov="essential" gov_index="37">mark</dependency>
+      <dependency dep="for" dep_index="16" gov="essential" gov_index="37">csubj</dependency>
+      <dependency dep="maintaining" dep_index="17" gov="for" gov_index="16">pcomp</dependency>
+      <dependency dep="transcription" dep_index="18" gov="maintaining" gov_index="17">dobj</dependency>
+      <dependency dep="IFN-responsive" dep_index="20" gov="genes" gov_index="21">amod</dependency>
+      <dependency dep="genes" dep_index="21" gov="transcription" gov_index="18">prep_of</dependency>
+      <dependency dep="a" dep_index="23" gov="period" gov_index="26">det</dependency>
+      <dependency dep="longer" dep_index="24" gov="period" gov_index="26">amod</dependency>
+      <dependency dep="time" dep_index="25" gov="period" gov_index="26">nn</dependency>
+      <dependency dep="period" dep_index="26" gov="maintaining" gov_index="17">prep_over</dependency>
+      <dependency dep="low" dep_index="28" gov="signaling" gov_index="31">dep</dependency>
+      <dependency dep="continuous" dep_index="30" gov="low" gov_index="28">conj_but</dependency>
+      <dependency dep="continuous" dep_index="30" gov="signaling" gov_index="31">dep</dependency>
+      <dependency dep="signaling" dep_index="31" gov="for" gov_index="16">dep</dependency>
+      <dependency dep="the" dep_index="33" gov="receptor" gov_index="35">det</dependency>
+      <dependency dep="IFN" dep_index="34" gov="receptor" gov_index="35">nn</dependency>
+      <dependency dep="receptor" dep_index="35" gov="signaling" gov_index="31">prep_through</dependency>
+      <dependency dep="is" dep_index="36" gov="essential" gov_index="37">cop</dependency>
+      <dependency dep="essential" dep_index="37" gov="suggest" gov_index="14">ccomp</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@antibodies@specifically@immunoprecipitate@p23@in@complex@with@hsp90@in@all@tissues@tested@and@can@be@used@to@immunoaffinity@isolate@progesterone@receptor@complexes@from@chicken@oviduct@cytosol@.@</sentence>
+   <tags>
+      <tag pos="5">p23</tag>
+      <tag pos="9">hsp90</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="3" part-of-speech="RB">specifically</taggedword>
+      <taggedword index="4" part-of-speech="VBP">immunoprecipitate</taggedword>
+      <taggedword index="5" part-of-speech="NNS">p23</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NNS">hsp90</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">all</taggedword>
+      <taggedword index="12" part-of-speech="NNS">tissues</taggedword>
+      <taggedword index="13" part-of-speech="VBD">tested</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="MD">can</taggedword>
+      <taggedword index="16" part-of-speech="VB">be</taggedword>
+      <taggedword index="17" part-of-speech="VBN">used</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="RB">immunoaffinity</taggedword>
+      <taggedword index="20" part-of-speech="VB">isolate</taggedword>
+      <taggedword index="21" part-of-speech="JJ">progesterone</taggedword>
+      <taggedword index="22" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="23" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="24" part-of-speech="IN">from</taggedword>
+      <taggedword index="25" part-of-speech="NN">chicken</taggedword>
+      <taggedword index="26" part-of-speech="NN">oviduct</taggedword>
+      <taggedword index="27" part-of-speech="NN">cytosol</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="antibodies" gov_index="2">det</dependency>
+      <dependency dep="antibodies" dep_index="2" gov="immunoprecipitate" gov_index="4">nsubj</dependency>
+      <dependency dep="specifically" dep_index="3" gov="immunoprecipitate" gov_index="4">advmod</dependency>
+      <dependency dep="immunoprecipitate" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="p23" dep_index="5" gov="tested" gov_index="13">nsubj</dependency>
+      <dependency dep="p23" dep_index="5" gov="used" gov_index="17">nsubjpass</dependency>
+      <dependency dep="p23" dep_index="5" gov="isolate" gov_index="20">xsubj</dependency>
+      <dependency dep="complex" dep_index="7" gov="tissues" gov_index="12">amod</dependency>
+      <dependency dep="hsp90" dep_index="9" gov="complex" gov_index="7">prep_with</dependency>
+      <dependency dep="all" dep_index="11" gov="hsp90" gov_index="9">prep_in</dependency>
+      <dependency dep="tissues" dep_index="12" gov="p23" gov_index="5">prep_in</dependency>
+      <dependency dep="tested" dep_index="13" gov="immunoprecipitate" gov_index="4">ccomp</dependency>
+      <dependency dep="can" dep_index="15" gov="used" gov_index="17">aux</dependency>
+      <dependency dep="be" dep_index="16" gov="used" gov_index="17">auxpass</dependency>
+      <dependency dep="used" dep_index="17" gov="immunoprecipitate" gov_index="4">ccomp</dependency>
+      <dependency dep="used" dep_index="17" gov="tested" gov_index="13">conj_and</dependency>
+      <dependency dep="to" dep_index="18" gov="isolate" gov_index="20">aux</dependency>
+      <dependency dep="immunoaffinity" dep_index="19" gov="isolate" gov_index="20">advmod</dependency>
+      <dependency dep="isolate" dep_index="20" gov="used" gov_index="17">xcomp</dependency>
+      <dependency dep="progesterone" dep_index="21" gov="complexes" gov_index="23">amod</dependency>
+      <dependency dep="receptor" dep_index="22" gov="complexes" gov_index="23">nn</dependency>
+      <dependency dep="complexes" dep_index="23" gov="isolate" gov_index="20">dobj</dependency>
+      <dependency dep="chicken" dep_index="25" gov="cytosol" gov_index="27">nn</dependency>
+      <dependency dep="oviduct" dep_index="26" gov="cytosol" gov_index="27">nn</dependency>
+      <dependency dep="cytosol" dep_index="27" gov="isolate" gov_index="20">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500009" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>500009</pair>
+   </pairs>
+</root>

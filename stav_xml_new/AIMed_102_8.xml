@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@suggest@that@RB@can@confer@transcriptional@regulation@and@possibly@cell@cycle@control@and@tumor@suppression@through@an@interaction@with@TFIID@,@in@particular@with@TAFII250@.@</sentence>
+   <tags>
+      <tag pos="5">RB</tag>
+      <tag pos="22">TFIID</tag>
+      <tag pos="27">TAFII250</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">RB</taggedword>
+      <taggedword index="6" part-of-speech="MD">can</taggedword>
+      <taggedword index="7" part-of-speech="VB">confer</taggedword>
+      <taggedword index="8" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="9" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="RB">possibly</taggedword>
+      <taggedword index="12" part-of-speech="NN">cell</taggedword>
+      <taggedword index="13" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="14" part-of-speech="NN">control</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="17" part-of-speech="NN">suppression</taggedword>
+      <taggedword index="18" part-of-speech="IN">through</taggedword>
+      <taggedword index="19" part-of-speech="DT">an</taggedword>
+      <taggedword index="20" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="NNP">TFIID</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="JJ">particular</taggedword>
+      <taggedword index="26" part-of-speech="IN">with</taggedword>
+      <taggedword index="27" part-of-speech="NNP">TAFII250</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="confer" gov_index="7">mark</dependency>
+      <dependency dep="RB" dep_index="5" gov="confer" gov_index="7">nsubj</dependency>
+      <dependency dep="can" dep_index="6" gov="confer" gov_index="7">aux</dependency>
+      <dependency dep="confer" dep_index="7" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="transcriptional" dep_index="8" gov="regulation" gov_index="9">amod</dependency>
+      <dependency dep="regulation" dep_index="9" gov="confer" gov_index="7">dobj</dependency>
+      <dependency dep="possibly" dep_index="11" gov="control" gov_index="14">advmod</dependency>
+      <dependency dep="cell" dep_index="12" gov="control" gov_index="14">nn</dependency>
+      <dependency dep="cycle" dep_index="13" gov="control" gov_index="14">nn</dependency>
+      <dependency dep="control" dep_index="14" gov="confer" gov_index="7">dobj</dependency>
+      <dependency dep="control" dep_index="14" gov="regulation" gov_index="9">conj_and</dependency>
+      <dependency dep="tumor" dep_index="16" gov="suppression" gov_index="17">nn</dependency>
+      <dependency dep="suppression" dep_index="17" gov="regulation" gov_index="9">conj_and</dependency>
+      <dependency dep="suppression" dep_index="17" gov="control" gov_index="14">conj_and</dependency>
+      <dependency dep="an" dep_index="19" gov="interaction" gov_index="20">det</dependency>
+      <dependency dep="interaction" dep_index="20" gov="confer" gov_index="7">prep_through</dependency>
+      <dependency dep="TFIID" dep_index="22" gov="interaction" gov_index="20">prep_with</dependency>
+      <dependency dep="particular" dep_index="25" gov="confer" gov_index="7">prep_in</dependency>
+      <dependency dep="TAFII250" dep_index="27" gov="particular" gov_index="25">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500022" relationship="false">5 7 20 22</relation>
+      <relation position="500027" relationship="true">5 7 25 27</relation>
+      <relation position="2200027" relationship="false">22 20 7 25 27</relation>
+   </relations>
+   <pairs>
+      <pair>500027</pair>
+   </pairs>
+</root>

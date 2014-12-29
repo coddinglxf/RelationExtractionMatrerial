@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Dose-time@analysis@of@the@anti-viral@response@revealed@that@shortening@the@incubation@time@of@low-level@activation@cannot@be@compensated@by@higher@IFN@doses@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Dose-time</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">anti-viral</taggedword>
+      <taggedword index="6" part-of-speech="NN">response</taggedword>
+      <taggedword index="7" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="VBG">shortening</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">incubation</taggedword>
+      <taggedword index="12" part-of-speech="NN">time</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">low-level</taggedword>
+      <taggedword index="15" part-of-speech="NN">activation</taggedword>
+      <taggedword index="16" part-of-speech="VBP">cannot</taggedword>
+      <taggedword index="17" part-of-speech="VB">be</taggedword>
+      <taggedword index="18" part-of-speech="VBN">compensated</taggedword>
+      <taggedword index="19" part-of-speech="IN">by</taggedword>
+      <taggedword index="20" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="21" part-of-speech="NNP">IFN</taggedword>
+      <taggedword index="22" part-of-speech="NNS">doses</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Dose-time" dep_index="1" gov="analysis" gov_index="2">amod</dependency>
+      <dependency dep="analysis" dep_index="2" gov="revealed" gov_index="7">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="response" gov_index="6">det</dependency>
+      <dependency dep="anti-viral" dep_index="5" gov="response" gov_index="6">amod</dependency>
+      <dependency dep="response" dep_index="6" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="revealed" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="cannot" gov_index="16">mark</dependency>
+      <dependency dep="shortening" dep_index="9" gov="cannot" gov_index="16">csubjpass</dependency>
+      <dependency dep="the" dep_index="10" gov="time" gov_index="12">det</dependency>
+      <dependency dep="incubation" dep_index="11" gov="time" gov_index="12">nn</dependency>
+      <dependency dep="time" dep_index="12" gov="shortening" gov_index="9">dobj</dependency>
+      <dependency dep="low-level" dep_index="14" gov="activation" gov_index="15">amod</dependency>
+      <dependency dep="activation" dep_index="15" gov="time" gov_index="12">prep_of</dependency>
+      <dependency dep="cannot" dep_index="16" gov="revealed" gov_index="7">ccomp</dependency>
+      <dependency dep="be" dep_index="17" gov="compensated" gov_index="18">auxpass</dependency>
+      <dependency dep="compensated" dep_index="18" gov="cannot" gov_index="16">dep</dependency>
+      <dependency dep="higher" dep_index="20" gov="doses" gov_index="22">amod</dependency>
+      <dependency dep="IFN" dep_index="21" gov="doses" gov_index="22">nn</dependency>
+      <dependency dep="doses" dep_index="22" gov="compensated" gov_index="18">agent</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

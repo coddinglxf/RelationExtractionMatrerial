@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interactions@of@actin@with@thymosin beta 4@,@actobindin@and@profilin@are@compared@.@</sentence>
+   <tags>
+      <tag pos="4">actin</tag>
+      <tag pos="8">actobindin</tag>
+      <tag pos="6">thymosin beta 4</tag>
+      <tag pos="10">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="NN">thymosin beta 4</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">actobindin</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="11" part-of-speech="VBP">are</taggedword>
+      <taggedword index="12" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interactions" gov_index="2">det</dependency>
+      <dependency dep="interactions" dep_index="2" gov="compared" gov_index="12">nsubjpass</dependency>
+      <dependency dep="actin" dep_index="4" gov="interactions" gov_index="2">prep_of</dependency>
+      <dependency dep="thymosin beta 4" dep_index="6" gov="actin" gov_index="4">prep_with</dependency>
+      <dependency dep="actobindin" dep_index="8" gov="actin" gov_index="4">prep_with</dependency>
+      <dependency dep="actobindin" dep_index="8" gov="thymosin beta 4" gov_index="6">conj_and</dependency>
+      <dependency dep="profilin" dep_index="10" gov="actin" gov_index="4">prep_with</dependency>
+      <dependency dep="profilin" dep_index="10" gov="thymosin beta 4" gov_index="6">conj_and</dependency>
+      <dependency dep="are" dep_index="11" gov="compared" gov_index="12">auxpass</dependency>
+      <dependency dep="compared" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400008" relationship="true"></relation>
+      <relation position="400006" relationship="true"></relation>
+      <relation position="400010" relationship="true"></relation>
+      <relation position="600008" relationship="false">6 4 8</relation>
+      <relation position="800010" relationship="false">8 4 10</relation>
+      <relation position="600010" relationship="false">6 4 10</relation>
+   </relations>
+   <pairs>
+      <pair>400010</pair>
+      <pair>400008</pair>
+      <pair>400006</pair>
+   </pairs>
+</root>

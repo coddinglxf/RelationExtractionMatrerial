@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@data@indicated@a@negative@co-operativity@between@the@profilin@and@DNase I@binding@sites@on@actin@.@</sentence>
+   <tags>
+      <tag pos="11">DNase I</tag>
+      <tag pos="9">profilin</tag>
+      <tag pos="15">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="VBD">indicated</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="6" part-of-speech="NN">co-operativity</taggedword>
+      <taggedword index="7" part-of-speech="IN">between</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNP">DNase I</taggedword>
+      <taggedword index="12" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="13" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="14" part-of-speech="IN">on</taggedword>
+      <taggedword index="15" part-of-speech="NN">actin</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="data" gov_index="2">det</dependency>
+      <dependency dep="data" dep_index="2" gov="indicated" gov_index="3">nsubj</dependency>
+      <dependency dep="indicated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="co-operativity" gov_index="6">det</dependency>
+      <dependency dep="negative" dep_index="5" gov="co-operativity" gov_index="6">amod</dependency>
+      <dependency dep="co-operativity" dep_index="6" gov="indicated" gov_index="3">dobj</dependency>
+      <dependency dep="the" dep_index="8" gov="profilin" gov_index="9">det</dependency>
+      <dependency dep="profilin" dep_index="9" gov="indicated" gov_index="3">prep_between</dependency>
+      <dependency dep="DNase I" dep_index="11" gov="sites" gov_index="13">nn</dependency>
+      <dependency dep="binding" dep_index="12" gov="sites" gov_index="13">amod</dependency>
+      <dependency dep="sites" dep_index="13" gov="indicated" gov_index="3">prep_between</dependency>
+      <dependency dep="sites" dep_index="13" gov="profilin" gov_index="9">conj_and</dependency>
+      <dependency dep="actin" dep_index="15" gov="indicated" gov_index="3">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="true">9 3 13 11</relation>
+      <relation position="1100015" relationship="true">11 13 3 15</relation>
+      <relation position="900015" relationship="true">9 3 15</relation>
+   </relations>
+   <pairs>
+      <pair>900011</pair>
+      <pair>900015</pair>
+      <pair>1100015</pair>
+   </pairs>
+</root>

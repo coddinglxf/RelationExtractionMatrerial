@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunoelectronmicroscopic@analysis@showed@that@QM@/@Jif-1@and@PS1@are@colocalized@at@the@endoplasmic@reticulum@,@and@the@nuclear@matrix@in@human@brain@neurons@.@</sentence>
+   <tags>
+      <tag pos="5">QM</tag>
+      <tag pos="7">Jif-1</tag>
+      <tag pos="9">PS1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Immunoelectronmicroscopic</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">QM</taggedword>
+      <taggedword index="6" part-of-speech="NNP">/</taggedword>
+      <taggedword index="7" part-of-speech="NNS">Jif-1</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">PS1</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="VBN">colocalized</taggedword>
+      <taggedword index="12" part-of-speech="IN">at</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">endoplasmic</taggedword>
+      <taggedword index="15" part-of-speech="NN">reticulum</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">nuclear</taggedword>
+      <taggedword index="20" part-of-speech="NN">matrix</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="JJ">human</taggedword>
+      <taggedword index="23" part-of-speech="NN">brain</taggedword>
+      <taggedword index="24" part-of-speech="NNS">neurons</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunoelectronmicroscopic" dep_index="1" gov="analysis" gov_index="2">amod</dependency>
+      <dependency dep="analysis" dep_index="2" gov="showed" gov_index="3">nsubj</dependency>
+      <dependency dep="showed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="colocalized" gov_index="11">mark</dependency>
+      <dependency dep="QM" dep_index="5" gov="Jif-1" gov_index="7">nn</dependency>
+      <dependency dep="/" dep_index="6" gov="Jif-1" gov_index="7">nn</dependency>
+      <dependency dep="Jif-1" dep_index="7" gov="colocalized" gov_index="11">nsubjpass</dependency>
+      <dependency dep="PS1" dep_index="9" gov="Jif-1" gov_index="7">conj_and</dependency>
+      <dependency dep="PS1" dep_index="9" gov="colocalized" gov_index="11">nsubjpass</dependency>
+      <dependency dep="are" dep_index="10" gov="colocalized" gov_index="11">auxpass</dependency>
+      <dependency dep="colocalized" dep_index="11" gov="showed" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="13" gov="reticulum" gov_index="15">det</dependency>
+      <dependency dep="endoplasmic" dep_index="14" gov="reticulum" gov_index="15">amod</dependency>
+      <dependency dep="reticulum" dep_index="15" gov="colocalized" gov_index="11">prep_at</dependency>
+      <dependency dep="the" dep_index="18" gov="matrix" gov_index="20">det</dependency>
+      <dependency dep="nuclear" dep_index="19" gov="matrix" gov_index="20">amod</dependency>
+      <dependency dep="matrix" dep_index="20" gov="colocalized" gov_index="11">prep_at</dependency>
+      <dependency dep="matrix" dep_index="20" gov="reticulum" gov_index="15">conj_and</dependency>
+      <dependency dep="human" dep_index="22" gov="neurons" gov_index="24">amod</dependency>
+      <dependency dep="brain" dep_index="23" gov="neurons" gov_index="24">nn</dependency>
+      <dependency dep="neurons" dep_index="24" gov="matrix" gov_index="20">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false"></relation>
+      <relation position="500009" relationship="false">5 7 11 9</relation>
+      <relation position="700009" relationship="false">7 11 9</relation>
+   </relations>
+   <pairs/>
+</root>

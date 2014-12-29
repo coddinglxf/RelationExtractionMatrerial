@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@RAD54@and@RAD51@genes@are@involved@in@genetic@recombination@and@double-strand@break@repair@in@the@yeast@Saccharomyces@cerevisiae@.@</sentence>
+   <tags>
+      <tag pos="2">RAD54</tag>
+      <tag pos="4">RAD51</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">RAD54</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NNP">RAD51</taggedword>
+      <taggedword index="5" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="6" part-of-speech="VBP">are</taggedword>
+      <taggedword index="7" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">genetic</taggedword>
+      <taggedword index="10" part-of-speech="NN">recombination</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="JJ">double-strand</taggedword>
+      <taggedword index="13" part-of-speech="NN">break</taggedword>
+      <taggedword index="14" part-of-speech="NN">repair</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="18" part-of-speech="NNS">Saccharomyces</taggedword>
+      <taggedword index="19" part-of-speech="NN">cerevisiae</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="genes" gov_index="5">det</dependency>
+      <dependency dep="RAD54" dep_index="2" gov="genes" gov_index="5">nn</dependency>
+      <dependency dep="RAD51" dep_index="4" gov="RAD54" gov_index="2">conj_and</dependency>
+      <dependency dep="RAD51" dep_index="4" gov="genes" gov_index="5">nn</dependency>
+      <dependency dep="genes" dep_index="5" gov="involved" gov_index="7">nsubjpass</dependency>
+      <dependency dep="are" dep_index="6" gov="involved" gov_index="7">auxpass</dependency>
+      <dependency dep="involved" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="genetic" dep_index="9" gov="recombination" gov_index="10">amod</dependency>
+      <dependency dep="recombination" dep_index="10" gov="involved" gov_index="7">prep_in</dependency>
+      <dependency dep="double-strand" dep_index="12" gov="repair" gov_index="14">amod</dependency>
+      <dependency dep="break" dep_index="13" gov="repair" gov_index="14">nn</dependency>
+      <dependency dep="repair" dep_index="14" gov="involved" gov_index="7">prep_in</dependency>
+      <dependency dep="repair" dep_index="14" gov="recombination" gov_index="10">conj_and</dependency>
+      <dependency dep="the" dep_index="16" gov="cerevisiae" gov_index="19">det</dependency>
+      <dependency dep="yeast" dep_index="17" gov="cerevisiae" gov_index="19">nn</dependency>
+      <dependency dep="Saccharomyces" dep_index="18" gov="cerevisiae" gov_index="19">nn</dependency>
+      <dependency dep="cerevisiae" dep_index="19" gov="recombination" gov_index="10">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 5 4</relation>
+   </relations>
+   <pairs/>
+</root>

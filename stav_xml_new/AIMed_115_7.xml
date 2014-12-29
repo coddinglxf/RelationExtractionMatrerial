@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@correlation@of@SRF@-@RAP74@binding@with@transcriptional@activation@suggests@that@RAP74@is@a@critical@target@for@SRF@-activated@transcription@.@</sentence>
+   <tags>
+      <tag pos="4">SRF</tag>
+      <tag pos="6">RAP74</tag>
+      <tag pos="13">RAP74</tag>
+      <tag pos="19">SRF</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">correlation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">SRF</taggedword>
+      <taggedword index="5" part-of-speech=":">-</taggedword>
+      <taggedword index="6" part-of-speech="NNP">RAP74</taggedword>
+      <taggedword index="7" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="10" part-of-speech="NN">activation</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="12" part-of-speech="IN">that</taggedword>
+      <taggedword index="13" part-of-speech="NNP">RAP74</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="JJ">critical</taggedword>
+      <taggedword index="17" part-of-speech="NN">target</taggedword>
+      <taggedword index="18" part-of-speech="IN">for</taggedword>
+      <taggedword index="19" part-of-speech="NNP">SRF</taggedword>
+      <taggedword index="20" part-of-speech="JJ">-activated</taggedword>
+      <taggedword index="21" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="correlation" gov_index="2">det</dependency>
+      <dependency dep="correlation" dep_index="2" gov="suggests" gov_index="11">nsubj</dependency>
+      <dependency dep="SRF" dep_index="4" gov="correlation" gov_index="2">prep_of</dependency>
+      <dependency dep="RAP74" dep_index="6" gov="SRF" gov_index="4">dep</dependency>
+      <dependency dep="binding" dep_index="7" gov="RAP74" gov_index="6">amod</dependency>
+      <dependency dep="transcriptional" dep_index="9" gov="activation" gov_index="10">amod</dependency>
+      <dependency dep="activation" dep_index="10" gov="RAP74" gov_index="6">prep_with</dependency>
+      <dependency dep="suggests" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="12" gov="target" gov_index="17">mark</dependency>
+      <dependency dep="RAP74" dep_index="13" gov="target" gov_index="17">nsubj</dependency>
+      <dependency dep="is" dep_index="14" gov="target" gov_index="17">cop</dependency>
+      <dependency dep="a" dep_index="15" gov="target" gov_index="17">det</dependency>
+      <dependency dep="critical" dep_index="16" gov="target" gov_index="17">amod</dependency>
+      <dependency dep="target" dep_index="17" gov="suggests" gov_index="11">ccomp</dependency>
+      <dependency dep="SRF" dep_index="19" gov="transcription" gov_index="21">nn</dependency>
+      <dependency dep="-activated" dep_index="20" gov="transcription" gov_index="21">amod</dependency>
+      <dependency dep="transcription" dep_index="21" gov="target" gov_index="17">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true"></relation>
+      <relation position="400013" relationship="false">4 2 11 17 13</relation>
+      <relation position="400019" relationship="false">4 2 11 17 21 19</relation>
+      <relation position="600013" relationship="false">6 4 2 11 17 13</relation>
+      <relation position="600019" relationship="false">6 4 2 11 17 21 19</relation>
+      <relation position="1300019" relationship="true">13 17 21 19</relation>
+   </relations>
+   <pairs>
+      <pair>1300019</pair>
+      <pair>400006</pair>
+   </pairs>
+</root>

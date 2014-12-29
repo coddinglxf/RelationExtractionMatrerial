@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>When@we@changed@this@serine@to@an@aspartate@residue@to@mimic@constitutive@phosphorylation@,@the@interaction@with@CaM@was@blocked@.@</sentence>
+   <tags>
+      <tag pos="18">CaM</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="WRB">When</taggedword>
+      <taggedword index="2" part-of-speech="PRP">we</taggedword>
+      <taggedword index="3" part-of-speech="VBD">changed</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech="NN">serine</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="DT">an</taggedword>
+      <taggedword index="8" part-of-speech="JJ">aspartate</taggedword>
+      <taggedword index="9" part-of-speech="NN">residue</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="VB">mimic</taggedword>
+      <taggedword index="12" part-of-speech="JJ">constitutive</taggedword>
+      <taggedword index="13" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="NNP">CaM</taggedword>
+      <taggedword index="19" part-of-speech="VBD">was</taggedword>
+      <taggedword index="20" part-of-speech="VBN">blocked</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="When" dep_index="1" gov="changed" gov_index="3">advmod</dependency>
+      <dependency dep="we" dep_index="2" gov="changed" gov_index="3">nsubj</dependency>
+      <dependency dep="we" dep_index="2" gov="mimic" gov_index="11">xsubj</dependency>
+      <dependency dep="changed" dep_index="3" gov="blocked" gov_index="20">advcl</dependency>
+      <dependency dep="this" dep_index="4" gov="serine" gov_index="5">det</dependency>
+      <dependency dep="serine" dep_index="5" gov="changed" gov_index="3">dobj</dependency>
+      <dependency dep="an" dep_index="7" gov="residue" gov_index="9">det</dependency>
+      <dependency dep="aspartate" dep_index="8" gov="residue" gov_index="9">amod</dependency>
+      <dependency dep="residue" dep_index="9" gov="changed" gov_index="3">prep_to</dependency>
+      <dependency dep="to" dep_index="10" gov="mimic" gov_index="11">aux</dependency>
+      <dependency dep="mimic" dep_index="11" gov="changed" gov_index="3">xcomp</dependency>
+      <dependency dep="constitutive" dep_index="12" gov="phosphorylation" gov_index="13">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="13" gov="mimic" gov_index="11">dobj</dependency>
+      <dependency dep="the" dep_index="15" gov="interaction" gov_index="16">det</dependency>
+      <dependency dep="interaction" dep_index="16" gov="blocked" gov_index="20">nsubjpass</dependency>
+      <dependency dep="CaM" dep_index="18" gov="interaction" gov_index="16">prep_with</dependency>
+      <dependency dep="was" dep_index="19" gov="blocked" gov_index="20">auxpass</dependency>
+      <dependency dep="blocked" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

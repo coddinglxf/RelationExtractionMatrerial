@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>[3H]Inositol@prelabeled@LA-N-2@cells@were@exposed@to@varying@concentrations@of@A beta P@,@from@20@to@125@micrograms/ml@,@and@phospholipase C@activation@was@measured@</sentence>
+   <tags>
+      <tag pos="11">A beta P</tag>
+      <tag pos="20">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">[3H]Inositol</taggedword>
+      <taggedword index="2" part-of-speech="JJ">prelabeled</taggedword>
+      <taggedword index="3" part-of-speech="NN">LA-N-2</taggedword>
+      <taggedword index="4" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="5" part-of-speech="VBD">were</taggedword>
+      <taggedword index="6" part-of-speech="VBN">exposed</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="VBG">varying</taggedword>
+      <taggedword index="9" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNP">A beta P</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="IN">from</taggedword>
+      <taggedword index="14" part-of-speech="CD">20</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="CD">125</taggedword>
+      <taggedword index="17" part-of-speech="NN">micrograms/ml</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="21" part-of-speech="NN">activation</taggedword>
+      <taggedword index="22" part-of-speech="VBD">was</taggedword>
+      <taggedword index="23" part-of-speech="VBN">measured</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="[3H]Inositol" dep_index="1" gov="cells" gov_index="4">amod</dependency>
+      <dependency dep="prelabeled" dep_index="2" gov="cells" gov_index="4">amod</dependency>
+      <dependency dep="LA-N-2" dep_index="3" gov="cells" gov_index="4">nn</dependency>
+      <dependency dep="cells" dep_index="4" gov="exposed" gov_index="6">nsubjpass</dependency>
+      <dependency dep="were" dep_index="5" gov="exposed" gov_index="6">auxpass</dependency>
+      <dependency dep="exposed" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="varying" dep_index="8" gov="concentrations" gov_index="9">amod</dependency>
+      <dependency dep="concentrations" dep_index="9" gov="exposed" gov_index="6">prep_to</dependency>
+      <dependency dep="A beta P" dep_index="11" gov="concentrations" gov_index="9">prep_of</dependency>
+      <dependency dep="20" dep_index="14" gov="125" gov_index="16">number</dependency>
+      <dependency dep="to" dep_index="15" gov="125" gov_index="16">dep</dependency>
+      <dependency dep="125" dep_index="16" gov="micrograms/ml" gov_index="17">num</dependency>
+      <dependency dep="micrograms/ml" dep_index="17" gov="exposed" gov_index="6">prep_from</dependency>
+      <dependency dep="phospholipase C" dep_index="20" gov="activation" gov_index="21">amod</dependency>
+      <dependency dep="activation" dep_index="21" gov="measured" gov_index="23">nsubjpass</dependency>
+      <dependency dep="was" dep_index="22" gov="measured" gov_index="23">auxpass</dependency>
+      <dependency dep="measured" dep_index="23" gov="exposed" gov_index="6">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100020" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

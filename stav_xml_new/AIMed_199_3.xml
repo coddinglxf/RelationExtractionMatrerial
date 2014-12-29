@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@order@to@characterize@the@signaling@pathway@through@which@FGFR3@regulates@cell@growth@,@L6@cells@lacking@any@endogenous@FGFR@were@stably@transfected@with@the@two@different@human@isoforms@,@FGFR3 IIIb@and@FGFR3 IIIc@,@that@result@from@alternative@splicing@of@exon@III@of@the@FGFR3@gene@encoding@the@ligand@binding@domain@.@</sentence>
+   <tags>
+      <tag pos="10">FGFR3</tag>
+      <tag pos="31">FGFR3 IIIb</tag>
+      <tag pos="33">FGFR3 IIIc</tag>
+      <tag pos="45">FGFR3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">order</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="VB">characterize</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">signaling</taggedword>
+      <taggedword index="7" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="8" part-of-speech="IN">through</taggedword>
+      <taggedword index="9" part-of-speech="WDT">which</taggedword>
+      <taggedword index="10" part-of-speech="NNP">FGFR3</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">regulates</taggedword>
+      <taggedword index="12" part-of-speech="NN">cell</taggedword>
+      <taggedword index="13" part-of-speech="NN">growth</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CD">L6</taggedword>
+      <taggedword index="16" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="17" part-of-speech="VBG">lacking</taggedword>
+      <taggedword index="18" part-of-speech="DT">any</taggedword>
+      <taggedword index="19" part-of-speech="JJ">endogenous</taggedword>
+      <taggedword index="20" part-of-speech="NN">FGFR</taggedword>
+      <taggedword index="21" part-of-speech="VBD">were</taggedword>
+      <taggedword index="22" part-of-speech="RB">stably</taggedword>
+      <taggedword index="23" part-of-speech="VBN">transfected</taggedword>
+      <taggedword index="24" part-of-speech="IN">with</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="CD">two</taggedword>
+      <taggedword index="27" part-of-speech="JJ">different</taggedword>
+      <taggedword index="28" part-of-speech="NN">human</taggedword>
+      <taggedword index="29" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="NNS">FGFR3 IIIb</taggedword>
+      <taggedword index="32" part-of-speech="CC">and</taggedword>
+      <taggedword index="33" part-of-speech="NNS">FGFR3 IIIc</taggedword>
+      <taggedword index="34" part-of-speech=",">,</taggedword>
+      <taggedword index="35" part-of-speech="WDT">that</taggedword>
+      <taggedword index="36" part-of-speech="VBP">result</taggedword>
+      <taggedword index="37" part-of-speech="IN">from</taggedword>
+      <taggedword index="38" part-of-speech="JJ">alternative</taggedword>
+      <taggedword index="39" part-of-speech="NN">splicing</taggedword>
+      <taggedword index="40" part-of-speech="IN">of</taggedword>
+      <taggedword index="41" part-of-speech="NNP">exon</taggedword>
+      <taggedword index="42" part-of-speech="NNP">III</taggedword>
+      <taggedword index="43" part-of-speech="IN">of</taggedword>
+      <taggedword index="44" part-of-speech="DT">the</taggedword>
+      <taggedword index="45" part-of-speech="NNP">FGFR3</taggedword>
+      <taggedword index="46" part-of-speech="NN">gene</taggedword>
+      <taggedword index="47" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="48" part-of-speech="DT">the</taggedword>
+      <taggedword index="49" part-of-speech="JJ">ligand</taggedword>
+      <taggedword index="50" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="51" part-of-speech="NN">domain</taggedword>
+      <taggedword index="52" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="In" dep_index="1" gov="characterize" gov_index="4">mark</dependency>
+      <dependency dep="order" dep_index="2" gov="characterize" gov_index="4">dep</dependency>
+      <dependency dep="to" dep_index="3" gov="characterize" gov_index="4">aux</dependency>
+      <dependency dep="characterize" dep_index="4" gov="transfected" gov_index="23">advcl</dependency>
+      <dependency dep="the" dep_index="5" gov="pathway" gov_index="7">det</dependency>
+      <dependency dep="signaling" dep_index="6" gov="pathway" gov_index="7">amod</dependency>
+      <dependency dep="pathway" dep_index="7" gov="characterize" gov_index="4">dobj</dependency>
+      <dependency dep="pathway" dep_index="7" gov="regulates" gov_index="11">prep_through</dependency>
+      <dependency dep="FGFR3" dep_index="10" gov="regulates" gov_index="11">nsubj</dependency>
+      <dependency dep="regulates" dep_index="11" gov="pathway" gov_index="7">rcmod</dependency>
+      <dependency dep="cell" dep_index="12" gov="growth" gov_index="13">nn</dependency>
+      <dependency dep="growth" dep_index="13" gov="regulates" gov_index="11">dobj</dependency>
+      <dependency dep="L6" dep_index="15" gov="cells" gov_index="16">num</dependency>
+      <dependency dep="cells" dep_index="16" gov="transfected" gov_index="23">nsubjpass</dependency>
+      <dependency dep="lacking" dep_index="17" gov="cells" gov_index="16">partmod</dependency>
+      <dependency dep="any" dep_index="18" gov="FGFR" gov_index="20">det</dependency>
+      <dependency dep="endogenous" dep_index="19" gov="FGFR" gov_index="20">amod</dependency>
+      <dependency dep="FGFR" dep_index="20" gov="lacking" gov_index="17">dobj</dependency>
+      <dependency dep="were" dep_index="21" gov="transfected" gov_index="23">auxpass</dependency>
+      <dependency dep="stably" dep_index="22" gov="transfected" gov_index="23">advmod</dependency>
+      <dependency dep="transfected" dep_index="23" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="25" gov="isoforms" gov_index="29">det</dependency>
+      <dependency dep="two" dep_index="26" gov="isoforms" gov_index="29">num</dependency>
+      <dependency dep="different" dep_index="27" gov="isoforms" gov_index="29">amod</dependency>
+      <dependency dep="human" dep_index="28" gov="isoforms" gov_index="29">nn</dependency>
+      <dependency dep="isoforms" dep_index="29" gov="transfected" gov_index="23">prep_with</dependency>
+      <dependency dep="isoforms" dep_index="29" gov="result" gov_index="36">nsubj</dependency>
+      <dependency dep="FGFR3 IIIb" dep_index="31" gov="transfected" gov_index="23">prep_with</dependency>
+      <dependency dep="FGFR3 IIIb" dep_index="31" gov="isoforms" gov_index="29">conj_and</dependency>
+      <dependency dep="FGFR3 IIIb" dep_index="31" gov="result" gov_index="36">nsubj</dependency>
+      <dependency dep="FGFR3 IIIc" dep_index="33" gov="transfected" gov_index="23">prep_with</dependency>
+      <dependency dep="FGFR3 IIIc" dep_index="33" gov="isoforms" gov_index="29">conj_and</dependency>
+      <dependency dep="FGFR3 IIIc" dep_index="33" gov="result" gov_index="36">nsubj</dependency>
+      <dependency dep="result" dep_index="36" gov="isoforms" gov_index="29">rcmod</dependency>
+      <dependency dep="alternative" dep_index="38" gov="splicing" gov_index="39">amod</dependency>
+      <dependency dep="splicing" dep_index="39" gov="encoding" gov_index="47">nsubj</dependency>
+      <dependency dep="exon" dep_index="41" gov="III" gov_index="42">nn</dependency>
+      <dependency dep="III" dep_index="42" gov="splicing" gov_index="39">prep_of</dependency>
+      <dependency dep="the" dep_index="44" gov="gene" gov_index="46">det</dependency>
+      <dependency dep="FGFR3" dep_index="45" gov="gene" gov_index="46">nn</dependency>
+      <dependency dep="gene" dep_index="46" gov="III" gov_index="42">prep_of</dependency>
+      <dependency dep="encoding" dep_index="47" gov="result" gov_index="36">prepc_from</dependency>
+      <dependency dep="the" dep_index="48" gov="domain" gov_index="51">det</dependency>
+      <dependency dep="ligand" dep_index="49" gov="domain" gov_index="51">amod</dependency>
+      <dependency dep="binding" dep_index="50" gov="domain" gov_index="51">amod</dependency>
+      <dependency dep="domain" dep_index="51" gov="encoding" gov_index="47">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000031" relationship="false">10 11 7 4 23 31</relation>
+      <relation position="1000033" relationship="false">10 11 7 4 23 33</relation>
+      <relation position="1000045" relationship="false">10 11 7 4 23 29 36 47 39 42 46 45</relation>
+      <relation position="3100033" relationship="false">31 36 33</relation>
+      <relation position="3100045" relationship="false">31 36 47 39 42 46 45</relation>
+      <relation position="3300045" relationship="false">33 36 47 39 42 46 45</relation>
+   </relations>
+   <pairs/>
+</root>

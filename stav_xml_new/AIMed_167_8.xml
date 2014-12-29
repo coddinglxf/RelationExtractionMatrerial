@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@GT155@mutant@that@was@not@glycosylated@(AGGT155)@did@not@associate@with@calnexin@or@CAP-60@.@</sentence>
+   <tags>
+      <tag pos="2">GT155</tag>
+      <tag pos="13">calnexin</tag>
+      <tag pos="15">CAP-60</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NNP">GT155</taggedword>
+      <taggedword index="3" part-of-speech="NNP">mutant</taggedword>
+      <taggedword index="4" part-of-speech="WDT">that</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="RB">not</taggedword>
+      <taggedword index="7" part-of-speech="VBN">glycosylated</taggedword>
+      <taggedword index="8" part-of-speech="CD">(AGGT155)</taggedword>
+      <taggedword index="9" part-of-speech="VBD">did</taggedword>
+      <taggedword index="10" part-of-speech="RB">not</taggedword>
+      <taggedword index="11" part-of-speech="JJ">associate</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NN">calnexin</taggedword>
+      <taggedword index="14" part-of-speech="CC">or</taggedword>
+      <taggedword index="15" part-of-speech="NN">CAP-60</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="mutant" gov_index="3">det</dependency>
+      <dependency dep="GT155" dep_index="2" gov="mutant" gov_index="3">nn</dependency>
+      <dependency dep="mutant" dep_index="3" gov="glycosylated" gov_index="7">nsubjpass</dependency>
+      <dependency dep="mutant" dep_index="3" gov="did" gov_index="9">nsubj</dependency>
+      <dependency dep="was" dep_index="5" gov="glycosylated" gov_index="7">auxpass</dependency>
+      <dependency dep="not" dep_index="6" gov="glycosylated" gov_index="7">neg</dependency>
+      <dependency dep="glycosylated" dep_index="7" gov="mutant" gov_index="3">rcmod</dependency>
+      <dependency dep="(AGGT155)" dep_index="8" gov="glycosylated" gov_index="7">dobj</dependency>
+      <dependency dep="did" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="not" dep_index="10" gov="associate" gov_index="11">neg</dependency>
+      <dependency dep="associate" dep_index="11" gov="did" gov_index="9">dobj</dependency>
+      <dependency dep="calnexin" dep_index="13" gov="did" gov_index="9">prep_with</dependency>
+      <dependency dep="CAP-60" dep_index="15" gov="did" gov_index="9">prep_with</dependency>
+      <dependency dep="CAP-60" dep_index="15" gov="calnexin" gov_index="13">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200013" relationship="false">2 3 9 13</relation>
+      <relation position="200015" relationship="false">2 3 9 15</relation>
+      <relation position="1300015" relationship="false">13 9 15</relation>
+   </relations>
+   <pairs/>
+</root>

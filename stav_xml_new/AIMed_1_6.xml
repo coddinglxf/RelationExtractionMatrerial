@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@is@the@first@study@to@provide@observational@evidence@of@the@involvement@of@BMP-2@signaling@in@the@pathogenesis@of@cartilage@cap@of@osteochondroma@.@and@suggests@the@role@of@BMP-2@in@the@growth@of@cartilage@cap@in@osteochondroma@.@</sentence>
+   <tags>
+      <tag pos="14">BMP-2</tag>
+      <tag pos="30">BMP-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">first</taggedword>
+      <taggedword index="5" part-of-speech="NN">study</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="VB">provide</taggedword>
+      <taggedword index="8" part-of-speech="JJ">observational</taggedword>
+      <taggedword index="9" part-of-speech="NN">evidence</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">involvement</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">BMP-2</taggedword>
+      <taggedword index="15" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NNS">pathogenesis</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NN">cartilage</taggedword>
+      <taggedword index="21" part-of-speech="NN">cap</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="NN">osteochondroma</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">role</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NN">BMP-2</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">growth</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="NN">cartilage</taggedword>
+      <taggedword index="36" part-of-speech="NN">cap</taggedword>
+      <taggedword index="37" part-of-speech="IN">in</taggedword>
+      <taggedword index="38" part-of-speech="NN">osteochondroma</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="study" gov_index="5">nsubj</dependency>
+      <dependency dep="This" dep_index="1" gov="provide" gov_index="7">xsubj</dependency>
+      <dependency dep="This" dep_index="1" gov="suggests" gov_index="26">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="study" gov_index="5">cop</dependency>
+      <dependency dep="the" dep_index="3" gov="study" gov_index="5">det</dependency>
+      <dependency dep="first" dep_index="4" gov="study" gov_index="5">amod</dependency>
+      <dependency dep="study" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="6" gov="provide" gov_index="7">aux</dependency>
+      <dependency dep="provide" dep_index="7" gov="study" gov_index="5">xcomp</dependency>
+      <dependency dep="observational" dep_index="8" gov="evidence" gov_index="9">amod</dependency>
+      <dependency dep="evidence" dep_index="9" gov="provide" gov_index="7">dobj</dependency>
+      <dependency dep="the" dep_index="11" gov="involvement" gov_index="12">det</dependency>
+      <dependency dep="involvement" dep_index="12" gov="evidence" gov_index="9">prep_of</dependency>
+      <dependency dep="BMP-2" dep_index="14" gov="involvement" gov_index="12">prep_of</dependency>
+      <dependency dep="signaling" dep_index="15" gov="provide" gov_index="7">xcomp</dependency>
+      <dependency dep="in" dep_index="16" gov="signaling" gov_index="15">dep</dependency>
+      <dependency dep="the" dep_index="17" gov="pathogenesis" gov_index="18">det</dependency>
+      <dependency dep="pathogenesis" dep_index="18" gov="in" gov_index="16">pobj</dependency>
+      <dependency dep="cartilage" dep_index="20" gov="cap" gov_index="21">nn</dependency>
+      <dependency dep="cap" dep_index="21" gov="pathogenesis" gov_index="18">prep_of</dependency>
+      <dependency dep="osteochondroma" dep_index="23" gov="cap" gov_index="21">prep_of</dependency>
+      <dependency dep="suggests" dep_index="26" gov="study" gov_index="5">conj_and</dependency>
+      <dependency dep="the" dep_index="27" gov="role" gov_index="28">det</dependency>
+      <dependency dep="role" dep_index="28" gov="suggests" gov_index="26">dobj</dependency>
+      <dependency dep="BMP-2" dep_index="30" gov="role" gov_index="28">prep_of</dependency>
+      <dependency dep="the" dep_index="32" gov="growth" gov_index="33">det</dependency>
+      <dependency dep="growth" dep_index="33" gov="suggests" gov_index="26">prep_in</dependency>
+      <dependency dep="cartilage" dep_index="35" gov="cap" gov_index="36">nn</dependency>
+      <dependency dep="cap" dep_index="36" gov="growth" gov_index="33">prep_of</dependency>
+      <dependency dep="osteochondroma" dep_index="38" gov="cap" gov_index="36">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400030" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

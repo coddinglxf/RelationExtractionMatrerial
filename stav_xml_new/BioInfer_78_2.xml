@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunofluorescence@microscopy@revealed@that@two@actin-binding proteins@of@low@molecular@weight@with@different@functional@activity@,@ADF@and@cofilin@,@are@transported@into@nuclei@of@cultured@myogenic@cells@to@form@rod@structures@there@together@with@actin@,@when@the@cells@were@incubated@in@medium@containing@dimethylsulfoxide@.@</sentence>
+   <tags>
+      <tag pos="18">cofilin</tag>
+      <tag pos="16">ADF</tag>
+      <tag pos="35">actin</tag>
+      <tag pos="6">actin-binding proteins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Immunofluorescence</taggedword>
+      <taggedword index="2" part-of-speech="RB">microscopy</taggedword>
+      <taggedword index="3" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="CD">two</taggedword>
+      <taggedword index="6" part-of-speech="NNS">actin-binding proteins</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">low</taggedword>
+      <taggedword index="9" part-of-speech="JJ">molecular</taggedword>
+      <taggedword index="10" part-of-speech="NN">weight</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="JJ">different</taggedword>
+      <taggedword index="13" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="14" part-of-speech="NN">activity</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NNP">ADF</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="VBP">are</taggedword>
+      <taggedword index="21" part-of-speech="VBN">transported</taggedword>
+      <taggedword index="22" part-of-speech="IN">into</taggedword>
+      <taggedword index="23" part-of-speech="NNS">nuclei</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="JJ">cultured</taggedword>
+      <taggedword index="26" part-of-speech="JJ">myogenic</taggedword>
+      <taggedword index="27" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="VB">form</taggedword>
+      <taggedword index="30" part-of-speech="NN">rod</taggedword>
+      <taggedword index="31" part-of-speech="NNS">structures</taggedword>
+      <taggedword index="32" part-of-speech="RB">there</taggedword>
+      <taggedword index="33" part-of-speech="RB">together</taggedword>
+      <taggedword index="34" part-of-speech="IN">with</taggedword>
+      <taggedword index="35" part-of-speech="NN">actin</taggedword>
+      <taggedword index="36" part-of-speech=",">,</taggedword>
+      <taggedword index="37" part-of-speech="WRB">when</taggedword>
+      <taggedword index="38" part-of-speech="DT">the</taggedword>
+      <taggedword index="39" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="40" part-of-speech="VBD">were</taggedword>
+      <taggedword index="41" part-of-speech="VBN">incubated</taggedword>
+      <taggedword index="42" part-of-speech="IN">in</taggedword>
+      <taggedword index="43" part-of-speech="NN">medium</taggedword>
+      <taggedword index="44" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="45" part-of-speech="NN">dimethylsulfoxide</taggedword>
+      <taggedword index="46" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunofluorescence" dep_index="1" gov="revealed" gov_index="3">nsubj</dependency>
+      <dependency dep="microscopy" dep_index="2" gov="revealed" gov_index="3">advmod</dependency>
+      <dependency dep="revealed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="transported" gov_index="21">mark</dependency>
+      <dependency dep="two" dep_index="5" gov="actin-binding proteins" gov_index="6">num</dependency>
+      <dependency dep="actin-binding proteins" dep_index="6" gov="transported" gov_index="21">nsubjpass</dependency>
+      <dependency dep="actin-binding proteins" dep_index="6" gov="form" gov_index="29">xsubj</dependency>
+      <dependency dep="low" dep_index="8" gov="weight" gov_index="10">amod</dependency>
+      <dependency dep="molecular" dep_index="9" gov="weight" gov_index="10">amod</dependency>
+      <dependency dep="weight" dep_index="10" gov="actin-binding proteins" gov_index="6">prep_of</dependency>
+      <dependency dep="different" dep_index="12" gov="functional" gov_index="13">amod</dependency>
+      <dependency dep="functional" dep_index="13" gov="activity" gov_index="14">amod</dependency>
+      <dependency dep="activity" dep_index="14" gov="weight" gov_index="10">prep_with</dependency>
+      <dependency dep="ADF" dep_index="16" gov="actin-binding proteins" gov_index="6">appos</dependency>
+      <dependency dep="cofilin" dep_index="18" gov="actin-binding proteins" gov_index="6">appos</dependency>
+      <dependency dep="cofilin" dep_index="18" gov="ADF" gov_index="16">conj_and</dependency>
+      <dependency dep="are" dep_index="20" gov="transported" gov_index="21">auxpass</dependency>
+      <dependency dep="transported" dep_index="21" gov="revealed" gov_index="3">ccomp</dependency>
+      <dependency dep="nuclei" dep_index="23" gov="transported" gov_index="21">prep_into</dependency>
+      <dependency dep="cultured" dep_index="25" gov="cells" gov_index="27">amod</dependency>
+      <dependency dep="myogenic" dep_index="26" gov="cells" gov_index="27">amod</dependency>
+      <dependency dep="cells" dep_index="27" gov="nuclei" gov_index="23">prep_of</dependency>
+      <dependency dep="to" dep_index="28" gov="form" gov_index="29">aux</dependency>
+      <dependency dep="form" dep_index="29" gov="transported" gov_index="21">xcomp</dependency>
+      <dependency dep="rod" dep_index="30" gov="structures" gov_index="31">nn</dependency>
+      <dependency dep="structures" dep_index="31" gov="form" gov_index="29">dobj</dependency>
+      <dependency dep="there" dep_index="32" gov="form" gov_index="29">advmod</dependency>
+      <dependency dep="actin" dep_index="35" gov="form" gov_index="29">prep_together_with</dependency>
+      <dependency dep="actin" dep_index="35" gov="incubated" gov_index="41">tmod</dependency>
+      <dependency dep="when" dep_index="37" gov="incubated" gov_index="41">advmod</dependency>
+      <dependency dep="the" dep_index="38" gov="cells" gov_index="39">det</dependency>
+      <dependency dep="cells" dep_index="39" gov="incubated" gov_index="41">nsubjpass</dependency>
+      <dependency dep="were" dep_index="40" gov="incubated" gov_index="41">auxpass</dependency>
+      <dependency dep="incubated" dep_index="41" gov="actin" gov_index="35">rcmod</dependency>
+      <dependency dep="medium" dep_index="43" gov="incubated" gov_index="41">prep_in</dependency>
+      <dependency dep="containing" dep_index="44" gov="incubated" gov_index="41">xcomp</dependency>
+      <dependency dep="dimethylsulfoxide" dep_index="45" gov="containing" gov_index="44">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600018" relationship="false">16 6 18</relation>
+      <relation position="1800035" relationship="true">18 6 29 35</relation>
+      <relation position="600018" relationship="true"></relation>
+      <relation position="1600035" relationship="true">16 6 29 35</relation>
+      <relation position="600016" relationship="true"></relation>
+      <relation position="600035" relationship="false">6 29 35</relation>
+   </relations>
+   <pairs>
+      <pair>1800035</pair>
+      <pair>600016</pair>
+      <pair>1600035</pair>
+      <pair>600018</pair>
+   </pairs>
+</root>

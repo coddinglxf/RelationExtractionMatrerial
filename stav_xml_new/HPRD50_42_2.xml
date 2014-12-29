@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@to@IkappaBbeta@,@Bcl3@did@not@interact@with@the@AF2@domain@of@RXR@</sentence>
+   <tags>
+      <tag pos="4">IkappaBbeta</tag>
+      <tag pos="6">Bcl3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="NNP">IkappaBbeta</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NNS">Bcl3</taggedword>
+      <taggedword index="7" part-of-speech="VBD">did</taggedword>
+      <taggedword index="8" part-of-speech="RB">not</taggedword>
+      <taggedword index="9" part-of-speech="VB">interact</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">AF2</taggedword>
+      <taggedword index="13" part-of-speech="NN">domain</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNP">RXR</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="interact" gov_index="9">prep_in</dependency>
+      <dependency dep="IkappaBbeta" dep_index="4" gov="contrast" gov_index="2">prep_to</dependency>
+      <dependency dep="Bcl3" dep_index="6" gov="interact" gov_index="9">nsubj</dependency>
+      <dependency dep="did" dep_index="7" gov="interact" gov_index="9">aux</dependency>
+      <dependency dep="not" dep_index="8" gov="interact" gov_index="9">neg</dependency>
+      <dependency dep="interact" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="domain" gov_index="13">det</dependency>
+      <dependency dep="AF2" dep_index="12" gov="domain" gov_index="13">amod</dependency>
+      <dependency dep="domain" dep_index="13" gov="interact" gov_index="9">prep_with</dependency>
+      <dependency dep="RXR" dep_index="15" gov="domain" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 9 6</relation>
+   </relations>
+   <pairs/>
+</root>

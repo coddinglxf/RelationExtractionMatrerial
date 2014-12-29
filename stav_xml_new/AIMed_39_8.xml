@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>By@monitoring@fluorescent@recombinant@protein@and@by@gel@mobility@shift@assays@,@PS1@was@shown@to@accelerate@the@translocation@of@QM@from@the@cytoplasm@to@the@nucleus@and@to@thereby@suppress@the@binding@of@c-Jun@homodimer@to@12-O-tetradecanoylphorbol-13-@acetate@(TPA)-responsive@element@(TRE)@.@</sentence>
+   <tags>
+      <tag pos="13">PS1</tag>
+      <tag pos="21">QM</tag>
+      <tag pos="35">c-Jun</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">By</taggedword>
+      <taggedword index="2" part-of-speech="VBG">monitoring</taggedword>
+      <taggedword index="3" part-of-speech="JJ">fluorescent</taggedword>
+      <taggedword index="4" part-of-speech="JJ">recombinant</taggedword>
+      <taggedword index="5" part-of-speech="NN">protein</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="NN">gel</taggedword>
+      <taggedword index="9" part-of-speech="NN">mobility</taggedword>
+      <taggedword index="10" part-of-speech="NN">shift</taggedword>
+      <taggedword index="11" part-of-speech="NNS">assays</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNP">PS1</taggedword>
+      <taggedword index="14" part-of-speech="VBD">was</taggedword>
+      <taggedword index="15" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="VB">accelerate</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">translocation</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NNP">QM</taggedword>
+      <taggedword index="22" part-of-speech="IN">from</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">cytoplasm</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">nucleus</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="TO">to</taggedword>
+      <taggedword index="30" part-of-speech="RB">thereby</taggedword>
+      <taggedword index="31" part-of-speech="VB">suppress</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="JJ">c-Jun</taggedword>
+      <taggedword index="36" part-of-speech="NN">homodimer</taggedword>
+      <taggedword index="37" part-of-speech="TO">to</taggedword>
+      <taggedword index="38" part-of-speech="JJ">12-O-tetradecanoylphorbol-13-</taggedword>
+      <taggedword index="39" part-of-speech="JJ">acetate</taggedword>
+      <taggedword index="40" part-of-speech="JJ">(TPA)-responsive</taggedword>
+      <taggedword index="41" part-of-speech="NN">element</taggedword>
+      <taggedword index="42" part-of-speech="NNS">(TRE)</taggedword>
+      <taggedword index="43" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="monitoring" dep_index="2" gov="shown" gov_index="15">agent</dependency>
+      <dependency dep="fluorescent" dep_index="3" gov="assays" gov_index="11">amod</dependency>
+      <dependency dep="recombinant" dep_index="4" gov="protein" gov_index="5">amod</dependency>
+      <dependency dep="protein" dep_index="5" gov="assays" gov_index="11">nn</dependency>
+      <dependency dep="by" dep_index="7" gov="protein" gov_index="5">conj_and</dependency>
+      <dependency dep="by" dep_index="7" gov="assays" gov_index="11">nn</dependency>
+      <dependency dep="gel" dep_index="8" gov="mobility" gov_index="9">nn</dependency>
+      <dependency dep="mobility" dep_index="9" gov="by" gov_index="7">pobj</dependency>
+      <dependency dep="shift" dep_index="10" gov="assays" gov_index="11">nn</dependency>
+      <dependency dep="assays" dep_index="11" gov="monitoring" gov_index="2">dobj</dependency>
+      <dependency dep="PS1" dep_index="13" gov="shown" gov_index="15">nsubjpass</dependency>
+      <dependency dep="was" dep_index="14" gov="shown" gov_index="15">auxpass</dependency>
+      <dependency dep="shown" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="16" gov="accelerate" gov_index="17">aux</dependency>
+      <dependency dep="accelerate" dep_index="17" gov="shown" gov_index="15">ccomp</dependency>
+      <dependency dep="the" dep_index="18" gov="translocation" gov_index="19">det</dependency>
+      <dependency dep="translocation" dep_index="19" gov="accelerate" gov_index="17">dobj</dependency>
+      <dependency dep="QM" dep_index="21" gov="translocation" gov_index="19">prep_of</dependency>
+      <dependency dep="the" dep_index="23" gov="cytoplasm" gov_index="24">det</dependency>
+      <dependency dep="cytoplasm" dep_index="24" gov="accelerate" gov_index="17">prep_from</dependency>
+      <dependency dep="the" dep_index="26" gov="nucleus" gov_index="27">det</dependency>
+      <dependency dep="nucleus" dep_index="27" gov="accelerate" gov_index="17">prep_to</dependency>
+      <dependency dep="to" dep_index="29" gov="suppress" gov_index="31">aux</dependency>
+      <dependency dep="thereby" dep_index="30" gov="suppress" gov_index="31">advmod</dependency>
+      <dependency dep="suppress" dep_index="31" gov="shown" gov_index="15">ccomp</dependency>
+      <dependency dep="suppress" dep_index="31" gov="accelerate" gov_index="17">conj_and</dependency>
+      <dependency dep="the" dep_index="32" gov="suppress" gov_index="31">dobj</dependency>
+      <dependency dep="binding" dep_index="33" gov="the" gov_index="32">amod</dependency>
+      <dependency dep="c-Jun" dep_index="35" gov="homodimer" gov_index="36">amod</dependency>
+      <dependency dep="homodimer" dep_index="36" gov="the" gov_index="32">prep_of</dependency>
+      <dependency dep="12-O-tetradecanoylphorbol-13-" dep_index="38" gov="acetate" gov_index="39">amod</dependency>
+      <dependency dep="acetate" dep_index="39" gov="(TRE)" gov_index="42">amod</dependency>
+      <dependency dep="(TPA)-responsive" dep_index="40" gov="(TRE)" gov_index="42">amod</dependency>
+      <dependency dep="element" dep_index="41" gov="(TRE)" gov_index="42">nn</dependency>
+      <dependency dep="(TRE)" dep_index="42" gov="suppress" gov_index="31">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300021" relationship="false">13 15 17 19 21</relation>
+      <relation position="1300035" relationship="false">13 15 31 32 36 35</relation>
+      <relation position="2100035" relationship="false">21 19 17 15 31 32 36 35</relation>
+   </relations>
+   <pairs/>
+</root>

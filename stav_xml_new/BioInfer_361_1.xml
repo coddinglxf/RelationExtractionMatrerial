@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interactions@of@ADF@/@cofilin@,@Arp2@/3@complex@,@capping protein@and@profilin@in@remodeling@of@branched@actin@filament@networks@.@</sentence>
+   <tags>
+      <tag pos="5">cofilin</tag>
+      <tag pos="3">ADF</tag>
+      <tag pos="18">actin</tag>
+      <tag pos="11">capping protein</tag>
+      <tag pos="7">Arp2</tag>
+      <tag pos="13">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Interactions</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">ADF</taggedword>
+      <taggedword index="4" part-of-speech=":">/</taggedword>
+      <taggedword index="5" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Arp2</taggedword>
+      <taggedword index="8" part-of-speech="CD">/3</taggedword>
+      <taggedword index="9" part-of-speech="NN">complex</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">capping protein</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">remodeling</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">branched</taggedword>
+      <taggedword index="18" part-of-speech="NN">actin</taggedword>
+      <taggedword index="19" part-of-speech="NN">filament</taggedword>
+      <taggedword index="20" part-of-speech="NNS">networks</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interactions" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="ADF" dep_index="3" gov="Interactions" gov_index="1">prep_of</dependency>
+      <dependency dep="/" dep_index="4" gov="Interactions" gov_index="1">punct</dependency>
+      <dependency dep="cofilin" dep_index="5" gov="Interactions" gov_index="1">dep</dependency>
+      <dependency dep="Arp2" dep_index="7" gov="complex" gov_index="9">nn</dependency>
+      <dependency dep="/3" dep_index="8" gov="complex" gov_index="9">num</dependency>
+      <dependency dep="complex" dep_index="9" gov="cofilin" gov_index="5">appos</dependency>
+      <dependency dep="capping protein" dep_index="11" gov="cofilin" gov_index="5">appos</dependency>
+      <dependency dep="profilin" dep_index="13" gov="cofilin" gov_index="5">appos</dependency>
+      <dependency dep="profilin" dep_index="13" gov="capping protein" gov_index="11">conj_and</dependency>
+      <dependency dep="remodeling" dep_index="15" gov="capping protein" gov_index="11">prep_in</dependency>
+      <dependency dep="branched" dep_index="17" gov="networks" gov_index="20">amod</dependency>
+      <dependency dep="actin" dep_index="18" gov="networks" gov_index="20">nn</dependency>
+      <dependency dep="filament" dep_index="19" gov="networks" gov_index="20">nn</dependency>
+      <dependency dep="networks" dep_index="20" gov="remodeling" gov_index="15">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="false">3 1 5</relation>
+      <relation position="500018" relationship="true"></relation>
+      <relation position="500011" relationship="true"></relation>
+      <relation position="500007" relationship="true"></relation>
+      <relation position="500013" relationship="true"></relation>
+      <relation position="300018" relationship="true">3 1 5 11 15 20 18</relation>
+      <relation position="300011" relationship="true">3 1 5 11</relation>
+      <relation position="300007" relationship="true">3 1 5 9 7</relation>
+      <relation position="300013" relationship="true">3 1 5 13</relation>
+      <relation position="1100018" relationship="true"></relation>
+      <relation position="700018" relationship="true">7 9 5 11 15 20 18</relation>
+      <relation position="1300018" relationship="true">13 5 11 15 20 18</relation>
+      <relation position="700011" relationship="true">7 9 5 11</relation>
+      <relation position="1100013" relationship="true">11 5 13</relation>
+      <relation position="700013" relationship="true">7 9 5 13</relation>
+   </relations>
+   <pairs>
+      <pair>500013</pair>
+      <pair>500011</pair>
+      <pair>300018</pair>
+      <pair>700018</pair>
+      <pair>500007</pair>
+      <pair>1100013</pair>
+      <pair>1300018</pair>
+      <pair>700011</pair>
+      <pair>300007</pair>
+      <pair>1100018</pair>
+      <pair>700013</pair>
+      <pair>300013</pair>
+      <pair>500018</pair>
+      <pair>300011</pair>
+   </pairs>
+</root>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@cellular@concentrations@and@binding@characteristics@of@these@molecules@are@consistent@with@profilin@being@a@negative@regulator@of@the@phosphoinositide@signaling@pathway@in@addition@to@its@established@function@as@an@inhibitor@of@actin@polymerization@.@</sentence>
+   <tags>
+      <tag pos="33">actin</tag>
+      <tag pos="13">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="3" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="6" part-of-speech="NNS">characteristics</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">these</taggedword>
+      <taggedword index="9" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="JJ">consistent</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="14" part-of-speech="VBG">being</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="17" part-of-speech="NN">regulator</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">phosphoinositide</taggedword>
+      <taggedword index="21" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="22" part-of-speech="RB">pathway</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="NN">addition</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="27" part-of-speech="JJ">established</taggedword>
+      <taggedword index="28" part-of-speech="NN">function</taggedword>
+      <taggedword index="29" part-of-speech="IN">as</taggedword>
+      <taggedword index="30" part-of-speech="DT">an</taggedword>
+      <taggedword index="31" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="32" part-of-speech="IN">of</taggedword>
+      <taggedword index="33" part-of-speech="NN">actin</taggedword>
+      <taggedword index="34" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="concentrations" gov_index="3">det</dependency>
+      <dependency dep="cellular" dep_index="2" gov="concentrations" gov_index="3">amod</dependency>
+      <dependency dep="concentrations" dep_index="3" gov="consistent" gov_index="11">nsubj</dependency>
+      <dependency dep="binding" dep_index="5" gov="characteristics" gov_index="6">amod</dependency>
+      <dependency dep="characteristics" dep_index="6" gov="concentrations" gov_index="3">conj_and</dependency>
+      <dependency dep="characteristics" dep_index="6" gov="consistent" gov_index="11">nsubj</dependency>
+      <dependency dep="these" dep_index="8" gov="molecules" gov_index="9">det</dependency>
+      <dependency dep="molecules" dep_index="9" gov="concentrations" gov_index="3">prep_of</dependency>
+      <dependency dep="are" dep_index="10" gov="consistent" gov_index="11">cop</dependency>
+      <dependency dep="consistent" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="profilin" dep_index="13" gov="consistent" gov_index="11">prep_with</dependency>
+      <dependency dep="being" dep_index="14" gov="regulator" gov_index="17">cop</dependency>
+      <dependency dep="a" dep_index="15" gov="regulator" gov_index="17">det</dependency>
+      <dependency dep="negative" dep_index="16" gov="regulator" gov_index="17">amod</dependency>
+      <dependency dep="regulator" dep_index="17" gov="profilin" gov_index="13">partmod</dependency>
+      <dependency dep="the" dep_index="19" gov="phosphoinositide" gov_index="20">det</dependency>
+      <dependency dep="phosphoinositide" dep_index="20" gov="regulator" gov_index="17">prep_of</dependency>
+      <dependency dep="signaling" dep_index="21" gov="phosphoinositide" gov_index="20">partmod</dependency>
+      <dependency dep="pathway" dep_index="22" gov="signaling" gov_index="21">advmod</dependency>
+      <dependency dep="addition" dep_index="24" gov="signaling" gov_index="21">prep_in</dependency>
+      <dependency dep="its" dep_index="26" gov="function" gov_index="28">poss</dependency>
+      <dependency dep="established" dep_index="27" gov="function" gov_index="28">amod</dependency>
+      <dependency dep="function" dep_index="28" gov="signaling" gov_index="21">prep_to</dependency>
+      <dependency dep="an" dep_index="30" gov="inhibitor" gov_index="31">det</dependency>
+      <dependency dep="inhibitor" dep_index="31" gov="signaling" gov_index="21">prep_as</dependency>
+      <dependency dep="actin" dep_index="33" gov="polymerization" gov_index="34">nn</dependency>
+      <dependency dep="polymerization" dep_index="34" gov="inhibitor" gov_index="31">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300033" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>1300033</pair>
+   </pairs>
+</root>

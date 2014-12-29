@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@intracellular@segment@of@PTPmu@has@two@PTP@domains@and@a@juxtamembrane@segment@that@is@homologous@to@the@conserved@intracellular@domain@of@the@cadherins@.@</sentence>
+   <tags>
+      <tag pos="5">PTPmu</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="3" part-of-speech="NN">segment</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">PTPmu</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="7" part-of-speech="CD">two</taggedword>
+      <taggedword index="8" part-of-speech="NNP">PTP</taggedword>
+      <taggedword index="9" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">juxtamembrane</taggedword>
+      <taggedword index="13" part-of-speech="NN">segment</taggedword>
+      <taggedword index="14" part-of-speech="WDT">that</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="16" part-of-speech="JJ">homologous</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">conserved</taggedword>
+      <taggedword index="20" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="21" part-of-speech="NN">domain</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NNS">cadherins</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="segment" gov_index="3">det</dependency>
+      <dependency dep="intracellular" dep_index="2" gov="segment" gov_index="3">nn</dependency>
+      <dependency dep="segment" dep_index="3" gov="has" gov_index="6">nsubj</dependency>
+      <dependency dep="PTPmu" dep_index="5" gov="segment" gov_index="3">prep_of</dependency>
+      <dependency dep="has" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="two" dep_index="7" gov="domains" gov_index="9">num</dependency>
+      <dependency dep="PTP" dep_index="8" gov="domains" gov_index="9">nn</dependency>
+      <dependency dep="domains" dep_index="9" gov="has" gov_index="6">dobj</dependency>
+      <dependency dep="a" dep_index="11" gov="segment" gov_index="13">det</dependency>
+      <dependency dep="juxtamembrane" dep_index="12" gov="segment" gov_index="13">amod</dependency>
+      <dependency dep="segment" dep_index="13" gov="has" gov_index="6">dobj</dependency>
+      <dependency dep="segment" dep_index="13" gov="domains" gov_index="9">conj_and</dependency>
+      <dependency dep="segment" dep_index="13" gov="homologous" gov_index="16">nsubj</dependency>
+      <dependency dep="is" dep_index="15" gov="homologous" gov_index="16">cop</dependency>
+      <dependency dep="homologous" dep_index="16" gov="segment" gov_index="13">rcmod</dependency>
+      <dependency dep="the" dep_index="18" gov="domain" gov_index="21">det</dependency>
+      <dependency dep="conserved" dep_index="19" gov="domain" gov_index="21">amod</dependency>
+      <dependency dep="intracellular" dep_index="20" gov="domain" gov_index="21">nn</dependency>
+      <dependency dep="domain" dep_index="21" gov="homologous" gov_index="16">prep_to</dependency>
+      <dependency dep="the" dep_index="23" gov="cadherins" gov_index="24">det</dependency>
+      <dependency dep="cadherins" dep_index="24" gov="domain" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

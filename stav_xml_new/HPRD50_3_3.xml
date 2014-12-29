@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>IL-6@promotes@coprecipitation@of@p85@with@gp130@,@the@signal-transducing@component@of@the@IL-6 receptor@</sentence>
+   <tags>
+      <tag pos="1">IL-6</tag>
+      <tag pos="7">gp130</tag>
+      <tag pos="14">IL-6 receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">IL-6</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">promotes</taggedword>
+      <taggedword index="3" part-of-speech="NN">coprecipitation</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="CD">p85</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="NNS">gp130</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">signal-transducing</taggedword>
+      <taggedword index="11" part-of-speech="NN">component</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">IL-6 receptor</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="IL-6" dep_index="1" gov="promotes" gov_index="2">nsubj</dependency>
+      <dependency dep="promotes" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="coprecipitation" dep_index="3" gov="promotes" gov_index="2">dobj</dependency>
+      <dependency dep="p85" dep_index="5" gov="coprecipitation" gov_index="3">prep_of</dependency>
+      <dependency dep="gp130" dep_index="7" gov="promotes" gov_index="2">prep_with</dependency>
+      <dependency dep="the" dep_index="9" gov="component" gov_index="11">det</dependency>
+      <dependency dep="signal-transducing" dep_index="10" gov="component" gov_index="11">amod</dependency>
+      <dependency dep="component" dep_index="11" gov="gp130" gov_index="7">appos</dependency>
+      <dependency dep="the" dep_index="13" gov="IL-6 receptor" gov_index="14">det</dependency>
+      <dependency dep="IL-6 receptor" dep_index="14" gov="component" gov_index="11">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="true">1 2 7</relation>
+      <relation position="100014" relationship="false">1 2 7 11 14</relation>
+      <relation position="700014" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>100007</pair>
+   </pairs>
+</root>

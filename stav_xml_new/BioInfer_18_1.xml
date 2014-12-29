@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Actin@isoforms@from@different@species@were@also@compared@,@and@the@effect@of@profilin@on@the@thermal@stability@of@actin@was@studied@.@</sentence>
+   <tags>
+      <tag pos="1">Actin</tag>
+      <tag pos="20">actin</tag>
+      <tag pos="14">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Actin</taggedword>
+      <taggedword index="2" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="3" part-of-speech="IN">from</taggedword>
+      <taggedword index="4" part-of-speech="JJ">different</taggedword>
+      <taggedword index="5" part-of-speech="NNS">species</taggedword>
+      <taggedword index="6" part-of-speech="VBD">were</taggedword>
+      <taggedword index="7" part-of-speech="RB">also</taggedword>
+      <taggedword index="8" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">effect</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="15" part-of-speech="IN">on</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">thermal</taggedword>
+      <taggedword index="18" part-of-speech="NN">stability</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NN">actin</taggedword>
+      <taggedword index="21" part-of-speech="VBD">was</taggedword>
+      <taggedword index="22" part-of-speech="VBN">studied</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Actin" dep_index="1" gov="isoforms" gov_index="2">nn</dependency>
+      <dependency dep="isoforms" dep_index="2" gov="compared" gov_index="8">nsubjpass</dependency>
+      <dependency dep="different" dep_index="4" gov="species" gov_index="5">amod</dependency>
+      <dependency dep="species" dep_index="5" gov="isoforms" gov_index="2">prep_from</dependency>
+      <dependency dep="were" dep_index="6" gov="compared" gov_index="8">auxpass</dependency>
+      <dependency dep="also" dep_index="7" gov="compared" gov_index="8">advmod</dependency>
+      <dependency dep="compared" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="effect" gov_index="12">det</dependency>
+      <dependency dep="effect" dep_index="12" gov="studied" gov_index="22">nsubjpass</dependency>
+      <dependency dep="profilin" dep_index="14" gov="effect" gov_index="12">prep_of</dependency>
+      <dependency dep="the" dep_index="16" gov="stability" gov_index="18">det</dependency>
+      <dependency dep="thermal" dep_index="17" gov="stability" gov_index="18">amod</dependency>
+      <dependency dep="stability" dep_index="18" gov="profilin" gov_index="14">prep_on</dependency>
+      <dependency dep="actin" dep_index="20" gov="stability" gov_index="18">prep_of</dependency>
+      <dependency dep="was" dep_index="21" gov="studied" gov_index="22">auxpass</dependency>
+      <dependency dep="studied" dep_index="22" gov="compared" gov_index="8">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100020" relationship="false"></relation>
+      <relation position="100014" relationship="false"></relation>
+      <relation position="1400020" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>1400020</pair>
+   </pairs>
+</root>

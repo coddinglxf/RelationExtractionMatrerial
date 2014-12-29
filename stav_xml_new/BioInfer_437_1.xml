@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Moreover@,@in@the@presence@of@cofilin@,@rapid@interconversion@of@monomeric@and@polymeric@forms@of@actin@can@be@induced@by@simply@changing@the@pH@of@the@medium@.@</sentence>
+   <tags>
+      <tag pos="17">actin</tag>
+      <tag pos="7">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Moreover</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">presence</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="10" part-of-speech="NN">interconversion</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="JJ">monomeric</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">polymeric</taggedword>
+      <taggedword index="15" part-of-speech="NNS">forms</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NN">actin</taggedword>
+      <taggedword index="18" part-of-speech="MD">can</taggedword>
+      <taggedword index="19" part-of-speech="VB">be</taggedword>
+      <taggedword index="20" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="21" part-of-speech="IN">by</taggedword>
+      <taggedword index="22" part-of-speech="RB">simply</taggedword>
+      <taggedword index="23" part-of-speech="VBG">changing</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">pH</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">medium</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Moreover" dep_index="1" gov="induced" gov_index="20">advmod</dependency>
+      <dependency dep="the" dep_index="4" gov="presence" gov_index="5">det</dependency>
+      <dependency dep="presence" dep_index="5" gov="induced" gov_index="20">prep_in</dependency>
+      <dependency dep="cofilin" dep_index="7" gov="presence" gov_index="5">prep_of</dependency>
+      <dependency dep="rapid" dep_index="9" gov="interconversion" gov_index="10">amod</dependency>
+      <dependency dep="interconversion" dep_index="10" gov="induced" gov_index="20">nsubjpass</dependency>
+      <dependency dep="monomeric" dep_index="12" gov="forms" gov_index="15">amod</dependency>
+      <dependency dep="polymeric" dep_index="14" gov="monomeric" gov_index="12">conj_and</dependency>
+      <dependency dep="polymeric" dep_index="14" gov="forms" gov_index="15">amod</dependency>
+      <dependency dep="forms" dep_index="15" gov="interconversion" gov_index="10">prep_of</dependency>
+      <dependency dep="actin" dep_index="17" gov="forms" gov_index="15">prep_of</dependency>
+      <dependency dep="can" dep_index="18" gov="induced" gov_index="20">aux</dependency>
+      <dependency dep="be" dep_index="19" gov="induced" gov_index="20">auxpass</dependency>
+      <dependency dep="induced" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="simply" dep_index="22" gov="changing" gov_index="23">advmod</dependency>
+      <dependency dep="changing" dep_index="23" gov="induced" gov_index="20">agent</dependency>
+      <dependency dep="the" dep_index="24" gov="pH" gov_index="25">det</dependency>
+      <dependency dep="pH" dep_index="25" gov="changing" gov_index="23">dobj</dependency>
+      <dependency dep="the" dep_index="27" gov="medium" gov_index="28">det</dependency>
+      <dependency dep="medium" dep_index="28" gov="pH" gov_index="25">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700017" relationship="false">7 5 20 10 15 17</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@findings@indicate@that@B-type@cyclins@are@multifunctional@proteins@that@not@only@act@as@M@phase@regulatory@subunits@of@the@cdc2@protein@kinase@,@but@also@activate@the@cdc25@tyrosine@phosphatase@,@of@which@cdc2@is@the@physiological@substrate@.@</sentence>
+   <tags>
+      <tag pos="21">cdc2</tag>
+      <tag pos="29">cdc25</tag>
+      <tag pos="35">cdc2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">findings</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="JJ">B-type</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cyclins</taggedword>
+      <taggedword index="7" part-of-speech="VBP">are</taggedword>
+      <taggedword index="8" part-of-speech="JJ">multifunctional</taggedword>
+      <taggedword index="9" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="10" part-of-speech="WDT">that</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="JJ">only</taggedword>
+      <taggedword index="13" part-of-speech="VBP">act</taggedword>
+      <taggedword index="14" part-of-speech="IN">as</taggedword>
+      <taggedword index="15" part-of-speech="NNP">M</taggedword>
+      <taggedword index="16" part-of-speech="VB">phase</taggedword>
+      <taggedword index="17" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="18" part-of-speech="NNS">subunits</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">cdc2</taggedword>
+      <taggedword index="22" part-of-speech="NN">protein</taggedword>
+      <taggedword index="23" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="CC">but</taggedword>
+      <taggedword index="26" part-of-speech="RB">also</taggedword>
+      <taggedword index="27" part-of-speech="VBP">activate</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">cdc25</taggedword>
+      <taggedword index="30" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="31" part-of-speech="NN">phosphatase</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="WDT">which</taggedword>
+      <taggedword index="35" part-of-speech="NNS">cdc2</taggedword>
+      <taggedword index="36" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="37" part-of-speech="DT">the</taggedword>
+      <taggedword index="38" part-of-speech="JJ">physiological</taggedword>
+      <taggedword index="39" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="findings" gov_index="2">det</dependency>
+      <dependency dep="findings" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="proteins" gov_index="9">mark</dependency>
+      <dependency dep="B-type" dep_index="5" gov="cyclins" gov_index="6">amod</dependency>
+      <dependency dep="cyclins" dep_index="6" gov="proteins" gov_index="9">nsubj</dependency>
+      <dependency dep="are" dep_index="7" gov="proteins" gov_index="9">cop</dependency>
+      <dependency dep="multifunctional" dep_index="8" gov="proteins" gov_index="9">amod</dependency>
+      <dependency dep="proteins" dep_index="9" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="proteins" dep_index="9" gov="act" gov_index="13">nsubj</dependency>
+      <dependency dep="proteins" dep_index="9" gov="activate" gov_index="27">nsubj</dependency>
+      <dependency dep="not" dep_index="11" gov="only" gov_index="12">neg</dependency>
+      <dependency dep="only" dep_index="12" gov="act" gov_index="13">preconj</dependency>
+      <dependency dep="act" dep_index="13" gov="proteins" gov_index="9">rcmod</dependency>
+      <dependency dep="as" dep_index="14" gov="phase" gov_index="16">mark</dependency>
+      <dependency dep="M" dep_index="15" gov="phase" gov_index="16">nsubj</dependency>
+      <dependency dep="phase" dep_index="16" gov="act" gov_index="13">advcl</dependency>
+      <dependency dep="regulatory" dep_index="17" gov="subunits" gov_index="18">amod</dependency>
+      <dependency dep="subunits" dep_index="18" gov="phase" gov_index="16">dobj</dependency>
+      <dependency dep="the" dep_index="20" gov="kinase" gov_index="23">det</dependency>
+      <dependency dep="cdc2" dep_index="21" gov="kinase" gov_index="23">amod</dependency>
+      <dependency dep="protein" dep_index="22" gov="kinase" gov_index="23">nn</dependency>
+      <dependency dep="kinase" dep_index="23" gov="subunits" gov_index="18">prep_of</dependency>
+      <dependency dep="also" dep_index="26" gov="activate" gov_index="27">advmod</dependency>
+      <dependency dep="activate" dep_index="27" gov="proteins" gov_index="9">rcmod</dependency>
+      <dependency dep="activate" dep_index="27" gov="act" gov_index="13">conj_but</dependency>
+      <dependency dep="the" dep_index="28" gov="phosphatase" gov_index="31">det</dependency>
+      <dependency dep="cdc25" dep_index="29" gov="phosphatase" gov_index="31">amod</dependency>
+      <dependency dep="tyrosine" dep_index="30" gov="phosphatase" gov_index="31">nn</dependency>
+      <dependency dep="phosphatase" dep_index="31" gov="activate" gov_index="27">dobj</dependency>
+      <dependency dep="phosphatase" dep_index="31" gov="substrate" gov_index="39">prep_of</dependency>
+      <dependency dep="cdc2" dep_index="35" gov="substrate" gov_index="39">nsubj</dependency>
+      <dependency dep="is" dep_index="36" gov="substrate" gov_index="39">cop</dependency>
+      <dependency dep="the" dep_index="37" gov="substrate" gov_index="39">det</dependency>
+      <dependency dep="physiological" dep_index="38" gov="substrate" gov_index="39">amod</dependency>
+      <dependency dep="substrate" dep_index="39" gov="phosphatase" gov_index="31">rcmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2100029" relationship="false">21 23 18 16 13 27 31 29</relation>
+      <relation position="2100035" relationship="false">21 23 18 16 13 27 31 39 35</relation>
+      <relation position="2900035" relationship="false">29 31 39 35</relation>
+   </relations>
+   <pairs/>
+</root>

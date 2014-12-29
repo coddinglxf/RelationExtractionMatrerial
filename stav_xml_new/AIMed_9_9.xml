@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Reverse@transcriptase-polymerase@chain@reaction@and@subsequent@Southern@blot@hybridization@revealed@the@presence@of@the@CaR@gene@in@human@gastrinoma@tissues@.@</sentence>
+   <tags>
+      <tag pos="15">CaR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Reverse</taggedword>
+      <taggedword index="2" part-of-speech="JJ">transcriptase-polymerase</taggedword>
+      <taggedword index="3" part-of-speech="NN">chain</taggedword>
+      <taggedword index="4" part-of-speech="NN">reaction</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="JJ">subsequent</taggedword>
+      <taggedword index="7" part-of-speech="JJ">Southern</taggedword>
+      <taggedword index="8" part-of-speech="NN">blot</taggedword>
+      <taggedword index="9" part-of-speech="NN">hybridization</taggedword>
+      <taggedword index="10" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">presence</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNP">CaR</taggedword>
+      <taggedword index="16" part-of-speech="NN">gene</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="JJ">human</taggedword>
+      <taggedword index="19" part-of-speech="NN">gastrinoma</taggedword>
+      <taggedword index="20" part-of-speech="NNS">tissues</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Reverse" dep_index="1" gov="reaction" gov_index="4">amod</dependency>
+      <dependency dep="transcriptase-polymerase" dep_index="2" gov="reaction" gov_index="4">amod</dependency>
+      <dependency dep="chain" dep_index="3" gov="reaction" gov_index="4">nn</dependency>
+      <dependency dep="reaction" dep_index="4" gov="revealed" gov_index="10">nsubj</dependency>
+      <dependency dep="subsequent" dep_index="6" gov="hybridization" gov_index="9">amod</dependency>
+      <dependency dep="Southern" dep_index="7" gov="hybridization" gov_index="9">amod</dependency>
+      <dependency dep="blot" dep_index="8" gov="hybridization" gov_index="9">nn</dependency>
+      <dependency dep="hybridization" dep_index="9" gov="reaction" gov_index="4">conj_and</dependency>
+      <dependency dep="hybridization" dep_index="9" gov="revealed" gov_index="10">nsubj</dependency>
+      <dependency dep="revealed" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="presence" gov_index="12">det</dependency>
+      <dependency dep="presence" dep_index="12" gov="revealed" gov_index="10">dobj</dependency>
+      <dependency dep="the" dep_index="14" gov="gene" gov_index="16">det</dependency>
+      <dependency dep="CaR" dep_index="15" gov="gene" gov_index="16">nn</dependency>
+      <dependency dep="gene" dep_index="16" gov="presence" gov_index="12">prep_of</dependency>
+      <dependency dep="human" dep_index="18" gov="tissues" gov_index="20">amod</dependency>
+      <dependency dep="gastrinoma" dep_index="19" gov="tissues" gov_index="20">nn</dependency>
+      <dependency dep="tissues" dep_index="20" gov="revealed" gov_index="10">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

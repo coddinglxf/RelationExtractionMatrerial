@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Comparative@analysis@of@cytokines@and@sCAM@secretion@within@the@lymphocyte@chromatin@state@are@possible@evidence@of@inflammatory@reactions@in@atherosclerosis@.@</sentence>
+   <tags>
+      <tag pos="6">sCAM</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Comparative</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNS">cytokines</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">sCAM</taggedword>
+      <taggedword index="7" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="8" part-of-speech="IN">within</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">lymphocyte</taggedword>
+      <taggedword index="11" part-of-speech="NN">chromatin</taggedword>
+      <taggedword index="12" part-of-speech="NN">state</taggedword>
+      <taggedword index="13" part-of-speech="VBP">are</taggedword>
+      <taggedword index="14" part-of-speech="JJ">possible</taggedword>
+      <taggedword index="15" part-of-speech="NN">evidence</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">inflammatory</taggedword>
+      <taggedword index="18" part-of-speech="NNS">reactions</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="NNS">atherosclerosis</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Comparative" dep_index="1" gov="analysis" gov_index="2">amod</dependency>
+      <dependency dep="analysis" dep_index="2" gov="evidence" gov_index="15">nsubj</dependency>
+      <dependency dep="cytokines" dep_index="4" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="sCAM" dep_index="6" gov="secretion" gov_index="7">nn</dependency>
+      <dependency dep="secretion" dep_index="7" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="secretion" dep_index="7" gov="cytokines" gov_index="4">conj_and</dependency>
+      <dependency dep="the" dep_index="9" gov="state" gov_index="12">det</dependency>
+      <dependency dep="lymphocyte" dep_index="10" gov="state" gov_index="12">amod</dependency>
+      <dependency dep="chromatin" dep_index="11" gov="state" gov_index="12">nn</dependency>
+      <dependency dep="state" dep_index="12" gov="analysis" gov_index="2">prep_within</dependency>
+      <dependency dep="are" dep_index="13" gov="evidence" gov_index="15">cop</dependency>
+      <dependency dep="possible" dep_index="14" gov="evidence" gov_index="15">amod</dependency>
+      <dependency dep="evidence" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="inflammatory" dep_index="17" gov="reactions" gov_index="18">amod</dependency>
+      <dependency dep="reactions" dep_index="18" gov="evidence" gov_index="15">prep_of</dependency>
+      <dependency dep="atherosclerosis" dep_index="20" gov="reactions" gov_index="18">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>When@liver-@or@islet-type glucokinase@was@transiently@expressed@in@COS-7@cells@,@the@expressed@glucokinase@was@also@co-localized@with@actin@filaments@in@the@cytoplasm@of@these@transfected@cells@.@</sentence>
+   <tags>
+      <tag pos="4">islet-type glucokinase</tag>
+      <tag pos="14">glucokinase</tag>
+      <tag pos="2">liver-</tag>
+      <tag pos="19">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="WRB">When</taggedword>
+      <taggedword index="2" part-of-speech="NN">liver-</taggedword>
+      <taggedword index="3" part-of-speech="CC">or</taggedword>
+      <taggedword index="4" part-of-speech="NN">islet-type glucokinase</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="RB">transiently</taggedword>
+      <taggedword index="7" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NN">COS-7</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">expressed</taggedword>
+      <taggedword index="14" part-of-speech="NN">glucokinase</taggedword>
+      <taggedword index="15" part-of-speech="VBD">was</taggedword>
+      <taggedword index="16" part-of-speech="RB">also</taggedword>
+      <taggedword index="17" part-of-speech="VBN">co-localized</taggedword>
+      <taggedword index="18" part-of-speech="IN">with</taggedword>
+      <taggedword index="19" part-of-speech="NN">actin</taggedword>
+      <taggedword index="20" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">cytoplasm</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="DT">these</taggedword>
+      <taggedword index="26" part-of-speech="JJ">transfected</taggedword>
+      <taggedword index="27" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="When" dep_index="1" gov="expressed" gov_index="7">advmod</dependency>
+      <dependency dep="liver-" dep_index="2" gov="expressed" gov_index="7">nsubjpass</dependency>
+      <dependency dep="islet-type glucokinase" dep_index="4" gov="liver-" gov_index="2">conj_or</dependency>
+      <dependency dep="islet-type glucokinase" dep_index="4" gov="expressed" gov_index="7">nsubjpass</dependency>
+      <dependency dep="was" dep_index="5" gov="expressed" gov_index="7">auxpass</dependency>
+      <dependency dep="transiently" dep_index="6" gov="expressed" gov_index="7">advmod</dependency>
+      <dependency dep="expressed" dep_index="7" gov="co-localized" gov_index="17">advcl</dependency>
+      <dependency dep="COS-7" dep_index="9" gov="cells" gov_index="10">nn</dependency>
+      <dependency dep="cells" dep_index="10" gov="expressed" gov_index="7">prep_in</dependency>
+      <dependency dep="the" dep_index="12" gov="glucokinase" gov_index="14">det</dependency>
+      <dependency dep="expressed" dep_index="13" gov="glucokinase" gov_index="14">amod</dependency>
+      <dependency dep="glucokinase" dep_index="14" gov="co-localized" gov_index="17">nsubjpass</dependency>
+      <dependency dep="was" dep_index="15" gov="co-localized" gov_index="17">auxpass</dependency>
+      <dependency dep="also" dep_index="16" gov="co-localized" gov_index="17">advmod</dependency>
+      <dependency dep="co-localized" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="actin" dep_index="19" gov="filaments" gov_index="20">nn</dependency>
+      <dependency dep="filaments" dep_index="20" gov="co-localized" gov_index="17">prep_with</dependency>
+      <dependency dep="the" dep_index="22" gov="cytoplasm" gov_index="23">det</dependency>
+      <dependency dep="cytoplasm" dep_index="23" gov="filaments" gov_index="20">prep_in</dependency>
+      <dependency dep="these" dep_index="25" gov="cells" gov_index="27">det</dependency>
+      <dependency dep="transfected" dep_index="26" gov="cells" gov_index="27">amod</dependency>
+      <dependency dep="cells" dep_index="27" gov="cytoplasm" gov_index="23">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400014" relationship="false">4 7 17 14</relation>
+      <relation position="200004" relationship="false">2 7 4</relation>
+      <relation position="400019" relationship="false">4 7 17 20 19</relation>
+      <relation position="200014" relationship="false">2 7 17 14</relation>
+      <relation position="1400019" relationship="true">14 17 20 19</relation>
+      <relation position="200019" relationship="false">2 7 17 20 19</relation>
+   </relations>
+   <pairs>
+      <pair>1400019</pair>
+   </pairs>
+</root>

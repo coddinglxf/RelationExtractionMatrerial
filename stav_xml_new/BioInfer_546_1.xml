@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Specific@antibodies@to@myosin heavy chain@isoforms@(@SM1@,@SM2@,@SMemb@),@caldesmon@,@and@alpha-smooth muscle actin@and@cDNAs@for@SMemb@were@used@.@</sentence>
+   <tags>
+      <tag pos="7">SM1</tag>
+      <tag pos="16">alpha-smooth muscle actin</tag>
+      <tag pos="13">caldesmon</tag>
+      <tag pos="9">SM2</tag>
+      <tag pos="20">SMemb</tag>
+      <tag pos="11">SMemb</tag>
+      <tag pos="4">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Specific</taggedword>
+      <taggedword index="2" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">isoforms</taggedword>
+      <taggedword index="6" part-of-speech="NNP">(</taggedword>
+      <taggedword index="7" part-of-speech="NNP">SM1</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">SM2</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">SMemb</taggedword>
+      <taggedword index="12" part-of-speech="NNP">),</taggedword>
+      <taggedword index="13" part-of-speech="NNP">caldesmon</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">alpha-smooth muscle actin</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cDNAs</taggedword>
+      <taggedword index="19" part-of-speech="IN">for</taggedword>
+      <taggedword index="20" part-of-speech="NNP">SMemb</taggedword>
+      <taggedword index="21" part-of-speech="VBD">were</taggedword>
+      <taggedword index="22" part-of-speech="VBN">used</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Specific" dep_index="1" gov="antibodies" gov_index="2">amod</dependency>
+      <dependency dep="antibodies" dep_index="2" gov="isoforms" gov_index="5">nsubj</dependency>
+      <dependency dep="myosin heavy chain" dep_index="4" gov="antibodies" gov_index="2">prep_to</dependency>
+      <dependency dep="isoforms" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="(" dep_index="6" gov="SM1" gov_index="7">nn</dependency>
+      <dependency dep="SM1" dep_index="7" gov="isoforms" gov_index="5">dobj</dependency>
+      <dependency dep="SM2" dep_index="9" gov="isoforms" gov_index="5">dobj</dependency>
+      <dependency dep="SM2" dep_index="9" gov="SM1" gov_index="7">conj_and</dependency>
+      <dependency dep="SMemb" dep_index="11" gov="caldesmon" gov_index="13">nn</dependency>
+      <dependency dep=")," dep_index="12" gov="caldesmon" gov_index="13">nn</dependency>
+      <dependency dep="caldesmon" dep_index="13" gov="isoforms" gov_index="5">dobj</dependency>
+      <dependency dep="caldesmon" dep_index="13" gov="SM1" gov_index="7">conj_and</dependency>
+      <dependency dep="alpha-smooth muscle actin" dep_index="16" gov="isoforms" gov_index="5">dobj</dependency>
+      <dependency dep="alpha-smooth muscle actin" dep_index="16" gov="SM1" gov_index="7">conj_and</dependency>
+      <dependency dep="cDNAs" dep_index="18" gov="used" gov_index="22">nsubjpass</dependency>
+      <dependency dep="SMemb" dep_index="20" gov="cDNAs" gov_index="18">prep_for</dependency>
+      <dependency dep="were" dep_index="21" gov="used" gov_index="22">auxpass</dependency>
+      <dependency dep="used" dep_index="22" gov="isoforms" gov_index="5">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700016" relationship="false">7 5 16</relation>
+      <relation position="700013" relationship="false">7 5 13</relation>
+      <relation position="700009" relationship="false">7 5 9</relation>
+      <relation position="700020" relationship="false"></relation>
+      <relation position="700011" relationship="false">7 5 13 11</relation>
+      <relation position="400007" relationship="true">4 2 5 7</relation>
+      <relation position="1300016" relationship="false">13 5 16</relation>
+      <relation position="900016" relationship="false">9 5 16</relation>
+      <relation position="1600020" relationship="false"></relation>
+      <relation position="1100016" relationship="false">11 13 5 16</relation>
+      <relation position="400016" relationship="false">4 2 5 16</relation>
+      <relation position="900013" relationship="false">9 5 13</relation>
+      <relation position="1300020" relationship="false"></relation>
+      <relation position="1100013" relationship="false"></relation>
+      <relation position="400013" relationship="false">4 2 5 13</relation>
+      <relation position="900020" relationship="false"></relation>
+      <relation position="900011" relationship="false">9 5 13 11</relation>
+      <relation position="400009" relationship="true">4 2 5 9</relation>
+      <relation position="1100020" relationship="false"></relation>
+      <relation position="400020" relationship="false"></relation>
+      <relation position="400011" relationship="true">4 2 5 13 11</relation>
+   </relations>
+   <pairs>
+      <pair>400011</pair>
+      <pair>400009</pair>
+      <pair>400007</pair>
+   </pairs>
+</root>

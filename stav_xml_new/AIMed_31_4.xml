@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@the@expression@of@TR6@mRNA@was@shown@in@the@endothelial@cell@line@and@induced@by@phorbol@12-myristate@13-acetate/ionomycin@in@Jurkat@T@leukemia@cells@.@</sentence>
+   <tags>
+      <tag pos="7">TR6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">expression</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNP">TR6</taggedword>
+      <taggedword index="8" part-of-speech="NNP">mRNA</taggedword>
+      <taggedword index="9" part-of-speech="VBD">was</taggedword>
+      <taggedword index="10" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">endothelial</taggedword>
+      <taggedword index="14" part-of-speech="NN">cell</taggedword>
+      <taggedword index="15" part-of-speech="NN">line</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="18" part-of-speech="IN">by</taggedword>
+      <taggedword index="19" part-of-speech="JJ">phorbol</taggedword>
+      <taggedword index="20" part-of-speech="JJ">12-myristate</taggedword>
+      <taggedword index="21" part-of-speech="NN">13-acetate/ionomycin</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="NNP">Jurkat</taggedword>
+      <taggedword index="24" part-of-speech="NNP">T</taggedword>
+      <taggedword index="25" part-of-speech="NN">leukemia</taggedword>
+      <taggedword index="26" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="shown" gov_index="10">prep_in</dependency>
+      <dependency dep="the" dep_index="4" gov="expression" gov_index="5">det</dependency>
+      <dependency dep="expression" dep_index="5" gov="shown" gov_index="10">nsubjpass</dependency>
+      <dependency dep="expression" dep_index="5" gov="induced" gov_index="17">nsubjpass</dependency>
+      <dependency dep="TR6" dep_index="7" gov="mRNA" gov_index="8">nn</dependency>
+      <dependency dep="mRNA" dep_index="8" gov="expression" gov_index="5">prep_of</dependency>
+      <dependency dep="was" dep_index="9" gov="shown" gov_index="10">auxpass</dependency>
+      <dependency dep="shown" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="12" gov="line" gov_index="15">det</dependency>
+      <dependency dep="endothelial" dep_index="13" gov="line" gov_index="15">amod</dependency>
+      <dependency dep="cell" dep_index="14" gov="line" gov_index="15">nn</dependency>
+      <dependency dep="line" dep_index="15" gov="shown" gov_index="10">prep_in</dependency>
+      <dependency dep="induced" dep_index="17" gov="shown" gov_index="10">conj_and</dependency>
+      <dependency dep="phorbol" dep_index="19" gov="13-acetate/ionomycin" gov_index="21">amod</dependency>
+      <dependency dep="12-myristate" dep_index="20" gov="13-acetate/ionomycin" gov_index="21">amod</dependency>
+      <dependency dep="13-acetate/ionomycin" dep_index="21" gov="induced" gov_index="17">prep_by</dependency>
+      <dependency dep="Jurkat" dep_index="23" gov="cells" gov_index="26">nn</dependency>
+      <dependency dep="T" dep_index="24" gov="cells" gov_index="26">nn</dependency>
+      <dependency dep="leukemia" dep_index="25" gov="cells" gov_index="26">nn</dependency>
+      <dependency dep="cells" dep_index="26" gov="13-acetate/ionomycin" gov_index="21">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@Fos@and@Jun@families@of@eukaryotic@transcription@factors@heterodimerize@to@form@complexes@capable@of@binding@5'-TGAGTCA-3'@DNA@elements@.@</sentence>
+   <tags>
+      <tag pos="2">Fos</tag>
+      <tag pos="4">Jun</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">Fos</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Jun</taggedword>
+      <taggedword index="5" part-of-speech="NNS">families</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">eukaryotic</taggedword>
+      <taggedword index="8" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="9" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="10" part-of-speech="VBP">heterodimerize</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">form</taggedword>
+      <taggedword index="13" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="14" part-of-speech="JJ">capable</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="17" part-of-speech="CD">5'-TGAGTCA-3'</taggedword>
+      <taggedword index="18" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="19" part-of-speech="NNS">elements</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="families" gov_index="5">det</dependency>
+      <dependency dep="Fos" dep_index="2" gov="families" gov_index="5">nn</dependency>
+      <dependency dep="Jun" dep_index="4" gov="Fos" gov_index="2">conj_and</dependency>
+      <dependency dep="Jun" dep_index="4" gov="families" gov_index="5">nn</dependency>
+      <dependency dep="families" dep_index="5" gov="heterodimerize" gov_index="10">nsubj</dependency>
+      <dependency dep="families" dep_index="5" gov="form" gov_index="12">xsubj</dependency>
+      <dependency dep="eukaryotic" dep_index="7" gov="factors" gov_index="9">amod</dependency>
+      <dependency dep="transcription" dep_index="8" gov="factors" gov_index="9">nn</dependency>
+      <dependency dep="factors" dep_index="9" gov="families" gov_index="5">prep_of</dependency>
+      <dependency dep="heterodimerize" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="11" gov="form" gov_index="12">aux</dependency>
+      <dependency dep="form" dep_index="12" gov="heterodimerize" gov_index="10">xcomp</dependency>
+      <dependency dep="complexes" dep_index="13" gov="capable" gov_index="14">nsubj</dependency>
+      <dependency dep="capable" dep_index="14" gov="form" gov_index="12">xcomp</dependency>
+      <dependency dep="binding" dep_index="16" gov="elements" gov_index="19">amod</dependency>
+      <dependency dep="5'-TGAGTCA-3'" dep_index="17" gov="binding" gov_index="16">tmod</dependency>
+      <dependency dep="DNA" dep_index="18" gov="elements" gov_index="19">nn</dependency>
+      <dependency dep="elements" dep_index="19" gov="capable" gov_index="14">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="true">2 5 4</relation>
+   </relations>
+   <pairs>
+      <pair>200004</pair>
+   </pairs>
+</root>

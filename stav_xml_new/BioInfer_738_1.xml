@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@cadherin@-@catenin@complex@plays@an@indispensable@role@in@construction@of@ordered@multicellular@structures@such@as@polarized@epithelium@.@</sentence>
+   <tags>
+      <tag pos="2">cadherin</tag>
+      <tag pos="4">catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">cadherin</taggedword>
+      <taggedword index="3" part-of-speech=":">-</taggedword>
+      <taggedword index="4" part-of-speech="NN">catenin</taggedword>
+      <taggedword index="5" part-of-speech="NN">complex</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">plays</taggedword>
+      <taggedword index="7" part-of-speech="DT">an</taggedword>
+      <taggedword index="8" part-of-speech="JJ">indispensable</taggedword>
+      <taggedword index="9" part-of-speech="NN">role</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">construction</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="JJ">ordered</taggedword>
+      <taggedword index="14" part-of-speech="NN">multicellular</taggedword>
+      <taggedword index="15" part-of-speech="NNS">structures</taggedword>
+      <taggedword index="16" part-of-speech="JJ">such</taggedword>
+      <taggedword index="17" part-of-speech="IN">as</taggedword>
+      <taggedword index="18" part-of-speech="JJ">polarized</taggedword>
+      <taggedword index="19" part-of-speech="NN">epithelium</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="cadherin" gov_index="2">det</dependency>
+      <dependency dep="cadherin" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="catenin" dep_index="4" gov="complex" gov_index="5">nn</dependency>
+      <dependency dep="complex" dep_index="5" gov="plays" gov_index="6">nsubj</dependency>
+      <dependency dep="plays" dep_index="6" gov="cadherin" gov_index="2">dep</dependency>
+      <dependency dep="an" dep_index="7" gov="role" gov_index="9">det</dependency>
+      <dependency dep="indispensable" dep_index="8" gov="role" gov_index="9">amod</dependency>
+      <dependency dep="role" dep_index="9" gov="plays" gov_index="6">dobj</dependency>
+      <dependency dep="construction" dep_index="11" gov="role" gov_index="9">prep_in</dependency>
+      <dependency dep="ordered" dep_index="13" gov="structures" gov_index="15">amod</dependency>
+      <dependency dep="multicellular" dep_index="14" gov="structures" gov_index="15">nn</dependency>
+      <dependency dep="structures" dep_index="15" gov="construction" gov_index="11">prep_of</dependency>
+      <dependency dep="polarized" dep_index="18" gov="epithelium" gov_index="19">amod</dependency>
+      <dependency dep="epithelium" dep_index="19" gov="structures" gov_index="15">prep_such_as</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>200004</pair>
+   </pairs>
+</root>

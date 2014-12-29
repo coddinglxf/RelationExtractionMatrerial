@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Inflammatory@gene@polymorphisms@and@ischaemic@heart@disease@:@review@of@population@association@studies@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Inflammatory</taggedword>
+      <taggedword index="2" part-of-speech="NN">gene</taggedword>
+      <taggedword index="3" part-of-speech="NNS">polymorphisms</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="JJ">ischaemic</taggedword>
+      <taggedword index="6" part-of-speech="NN">heart</taggedword>
+      <taggedword index="7" part-of-speech="NN">disease</taggedword>
+      <taggedword index="8" part-of-speech=":">:</taggedword>
+      <taggedword index="9" part-of-speech="NN">review</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">population</taggedword>
+      <taggedword index="12" part-of-speech="NN">association</taggedword>
+      <taggedword index="13" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Inflammatory" dep_index="1" gov="polymorphisms" gov_index="3">amod</dependency>
+      <dependency dep="gene" dep_index="2" gov="polymorphisms" gov_index="3">nn</dependency>
+      <dependency dep="polymorphisms" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="ischaemic" dep_index="5" gov="disease" gov_index="7">amod</dependency>
+      <dependency dep="heart" dep_index="6" gov="disease" gov_index="7">nn</dependency>
+      <dependency dep="disease" dep_index="7" gov="polymorphisms" gov_index="3">conj_and</dependency>
+      <dependency dep="review" dep_index="9" gov="polymorphisms" gov_index="3">dep</dependency>
+      <dependency dep="population" dep_index="11" gov="studies" gov_index="13">nn</dependency>
+      <dependency dep="association" dep_index="12" gov="studies" gov_index="13">nn</dependency>
+      <dependency dep="studies" dep_index="13" gov="review" gov_index="9">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

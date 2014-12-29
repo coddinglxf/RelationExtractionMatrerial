@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@position@of@the@actin@-binding@site@at@the@C@terminal@suggests@that@talin@may@work@as@a@crosslinker@between@myosin@and@actin@.@</sentence>
+   <tags>
+      <tag pos="5">actin</tag>
+      <tag pos="14">talin</tag>
+      <tag pos="21">myosin</tag>
+      <tag pos="23">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">position</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="7" part-of-speech="NN">site</taggedword>
+      <taggedword index="8" part-of-speech="IN">at</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NNP">C</taggedword>
+      <taggedword index="11" part-of-speech="NN">terminal</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="13" part-of-speech="IN">that</taggedword>
+      <taggedword index="14" part-of-speech="NN">talin</taggedword>
+      <taggedword index="15" part-of-speech="MD">may</taggedword>
+      <taggedword index="16" part-of-speech="VB">work</taggedword>
+      <taggedword index="17" part-of-speech="IN">as</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="NN">crosslinker</taggedword>
+      <taggedword index="20" part-of-speech="IN">between</taggedword>
+      <taggedword index="21" part-of-speech="NN">myosin</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NN">actin</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="position" gov_index="2">det</dependency>
+      <dependency dep="position" dep_index="2" gov="suggests" gov_index="12">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="site" gov_index="7">det</dependency>
+      <dependency dep="actin" dep_index="5" gov="site" gov_index="7">amod</dependency>
+      <dependency dep="-binding" dep_index="6" gov="site" gov_index="7">amod</dependency>
+      <dependency dep="site" dep_index="7" gov="position" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="9" gov="terminal" gov_index="11">det</dependency>
+      <dependency dep="C" dep_index="10" gov="terminal" gov_index="11">nn</dependency>
+      <dependency dep="terminal" dep_index="11" gov="site" gov_index="7">prep_at</dependency>
+      <dependency dep="suggests" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="13" gov="work" gov_index="16">mark</dependency>
+      <dependency dep="talin" dep_index="14" gov="work" gov_index="16">nsubj</dependency>
+      <dependency dep="may" dep_index="15" gov="work" gov_index="16">aux</dependency>
+      <dependency dep="work" dep_index="16" gov="suggests" gov_index="12">ccomp</dependency>
+      <dependency dep="a" dep_index="18" gov="crosslinker" gov_index="19">det</dependency>
+      <dependency dep="crosslinker" dep_index="19" gov="work" gov_index="16">prep_as</dependency>
+      <dependency dep="myosin" dep_index="21" gov="crosslinker" gov_index="19">prep_between</dependency>
+      <dependency dep="actin" dep_index="23" gov="crosslinker" gov_index="19">prep_between</dependency>
+      <dependency dep="actin" dep_index="23" gov="myosin" gov_index="21">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500014" relationship="true">5 7 2 12 16 14</relation>
+      <relation position="500021" relationship="false">5 7 2 12 16 19 21</relation>
+      <relation position="500023" relationship="false">5 7 2 12 16 19 23</relation>
+      <relation position="1400021" relationship="true">14 16 19 21</relation>
+      <relation position="1400023" relationship="true">14 16 19 23</relation>
+      <relation position="2100023" relationship="true">21 19 23</relation>
+   </relations>
+   <pairs>
+      <pair>1400023</pair>
+      <pair>1400021</pair>
+      <pair>500014</pair>
+      <pair>2100023</pair>
+   </pairs>
+</root>

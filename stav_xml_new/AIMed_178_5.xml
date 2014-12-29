@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@report@that@,@in@MANCA@cells@,@the@amount@of@p27@is@constant@during@the@cell@cycle@.@</sentence>
+   <tags>
+      <tag pos="12">p27</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">report</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="NNP">MANCA</taggedword>
+      <taggedword index="7" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">amount</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="CD">p27</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="JJ">constant</taggedword>
+      <taggedword index="15" part-of-speech="IN">during</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">cell</taggedword>
+      <taggedword index="18" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="report" gov_index="2">nsubj</dependency>
+      <dependency dep="report" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="constant" gov_index="14">mark</dependency>
+      <dependency dep="in" dep_index="5" gov="constant" gov_index="14">dep</dependency>
+      <dependency dep="MANCA" dep_index="6" gov="cells" gov_index="7">nn</dependency>
+      <dependency dep="cells" dep_index="7" gov="in" gov_index="5">pobj</dependency>
+      <dependency dep="the" dep_index="9" gov="amount" gov_index="10">det</dependency>
+      <dependency dep="amount" dep_index="10" gov="constant" gov_index="14">nsubj</dependency>
+      <dependency dep="p27" dep_index="12" gov="amount" gov_index="10">prep_of</dependency>
+      <dependency dep="is" dep_index="13" gov="constant" gov_index="14">cop</dependency>
+      <dependency dep="constant" dep_index="14" gov="report" gov_index="2">ccomp</dependency>
+      <dependency dep="the" dep_index="16" gov="cycle" gov_index="18">det</dependency>
+      <dependency dep="cell" dep_index="17" gov="cycle" gov_index="18">nn</dependency>
+      <dependency dep="cycle" dep_index="18" gov="constant" gov_index="14">prep_during</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@a@simultaneous@expression@of@profilin@,@actin@and@extracellular matrix proteins@was@observed@during@the@regeneration@of@rat@liver@,@that@is@,@all@mRNAs@of@these@proteins@showed@biphasic@peaks@around@6@h@and@48@h@after@partial@hepatectomy@.@</sentence>
+   <tags>
+      <tag pos="11">extracellular matrix proteins</tag>
+      <tag pos="9">actin</tag>
+      <tag pos="7">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">simultaneous</taggedword>
+      <taggedword index="5" part-of-speech="NN">expression</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNS">extracellular matrix proteins</taggedword>
+      <taggedword index="12" part-of-speech="VBD">was</taggedword>
+      <taggedword index="13" part-of-speech="VBN">observed</taggedword>
+      <taggedword index="14" part-of-speech="IN">during</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">regeneration</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">rat</taggedword>
+      <taggedword index="19" part-of-speech="NN">liver</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="WDT">that</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="DT">all</taggedword>
+      <taggedword index="25" part-of-speech="NNS">mRNAs</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="DT">these</taggedword>
+      <taggedword index="28" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="29" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="30" part-of-speech="JJ">biphasic</taggedword>
+      <taggedword index="31" part-of-speech="NNS">peaks</taggedword>
+      <taggedword index="32" part-of-speech="IN">around</taggedword>
+      <taggedword index="33" part-of-speech="CD">6</taggedword>
+      <taggedword index="34" part-of-speech="NN">h</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="CD">48</taggedword>
+      <taggedword index="37" part-of-speech="NN">h</taggedword>
+      <taggedword index="38" part-of-speech="IN">after</taggedword>
+      <taggedword index="39" part-of-speech="JJ">partial</taggedword>
+      <taggedword index="40" part-of-speech="NN">hepatectomy</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="observed" gov_index="13">advmod</dependency>
+      <dependency dep="a" dep_index="3" gov="expression" gov_index="5">det</dependency>
+      <dependency dep="simultaneous" dep_index="4" gov="expression" gov_index="5">amod</dependency>
+      <dependency dep="expression" dep_index="5" gov="observed" gov_index="13">nsubjpass</dependency>
+      <dependency dep="profilin" dep_index="7" gov="expression" gov_index="5">prep_of</dependency>
+      <dependency dep="actin" dep_index="9" gov="expression" gov_index="5">prep_of</dependency>
+      <dependency dep="actin" dep_index="9" gov="profilin" gov_index="7">conj_and</dependency>
+      <dependency dep="extracellular matrix proteins" dep_index="11" gov="expression" gov_index="5">prep_of</dependency>
+      <dependency dep="extracellular matrix proteins" dep_index="11" gov="profilin" gov_index="7">conj_and</dependency>
+      <dependency dep="was" dep_index="12" gov="observed" gov_index="13">auxpass</dependency>
+      <dependency dep="observed" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="15" gov="regeneration" gov_index="16">det</dependency>
+      <dependency dep="regeneration" dep_index="16" gov="observed" gov_index="13">prep_during</dependency>
+      <dependency dep="rat" dep_index="18" gov="liver" gov_index="19">nn</dependency>
+      <dependency dep="liver" dep_index="19" gov="regeneration" gov_index="16">prep_of</dependency>
+      <dependency dep="liver" dep_index="19" gov="is" gov_index="22">nsubj</dependency>
+      <dependency dep="is" dep_index="22" gov="liver" gov_index="19">rcmod</dependency>
+      <dependency dep="all" dep_index="24" gov="mRNAs" gov_index="25">det</dependency>
+      <dependency dep="mRNAs" dep_index="25" gov="showed" gov_index="29">nsubj</dependency>
+      <dependency dep="these" dep_index="27" gov="proteins" gov_index="28">det</dependency>
+      <dependency dep="proteins" dep_index="28" gov="mRNAs" gov_index="25">prep_of</dependency>
+      <dependency dep="showed" dep_index="29" gov="is" gov_index="22">ccomp</dependency>
+      <dependency dep="biphasic" dep_index="30" gov="peaks" gov_index="31">amod</dependency>
+      <dependency dep="peaks" dep_index="31" gov="showed" gov_index="29">dobj</dependency>
+      <dependency dep="6" dep_index="33" gov="h" gov_index="34">num</dependency>
+      <dependency dep="h" dep_index="34" gov="showed" gov_index="29">prep_around</dependency>
+      <dependency dep="48" dep_index="36" gov="h" gov_index="37">num</dependency>
+      <dependency dep="h" dep_index="37" gov="showed" gov_index="29">prep_around</dependency>
+      <dependency dep="h" dep_index="37" gov="h" gov_index="34">conj_and</dependency>
+      <dependency dep="partial" dep_index="39" gov="hepatectomy" gov_index="40">amod</dependency>
+      <dependency dep="hepatectomy" dep_index="40" gov="showed" gov_index="29">prep_after</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="true">9 5 11</relation>
+      <relation position="700011" relationship="true">7 5 11</relation>
+      <relation position="700009" relationship="true">7 5 9</relation>
+   </relations>
+   <pairs>
+      <pair>700011</pair>
+      <pair>900011</pair>
+      <pair>700009</pair>
+   </pairs>
+</root>

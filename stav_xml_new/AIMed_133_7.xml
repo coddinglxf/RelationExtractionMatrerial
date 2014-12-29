@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@JNK1@is@a@component@of@a@novel@signal@transduction@pathway@that@is@activated@by@oncoproteins@and@UV@irradiation@.@</sentence>
+   <tags>
+      <tag pos="3">JNK1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">JNK1</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="NN">component</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">novel</taggedword>
+      <taggedword index="10" part-of-speech="NN">signal</taggedword>
+      <taggedword index="11" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="12" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="13" part-of-speech="WDT">that</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="NNS">oncoproteins</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NNP">UV</taggedword>
+      <taggedword index="20" part-of-speech="NNP">irradiation</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="component" gov_index="6">advmod</dependency>
+      <dependency dep="JNK1" dep_index="3" gov="component" gov_index="6">nsubj</dependency>
+      <dependency dep="is" dep_index="4" gov="component" gov_index="6">cop</dependency>
+      <dependency dep="a" dep_index="5" gov="component" gov_index="6">det</dependency>
+      <dependency dep="component" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="8" gov="pathway" gov_index="12">det</dependency>
+      <dependency dep="novel" dep_index="9" gov="pathway" gov_index="12">amod</dependency>
+      <dependency dep="signal" dep_index="10" gov="pathway" gov_index="12">nn</dependency>
+      <dependency dep="transduction" dep_index="11" gov="pathway" gov_index="12">nn</dependency>
+      <dependency dep="pathway" dep_index="12" gov="component" gov_index="6">prep_of</dependency>
+      <dependency dep="pathway" dep_index="12" gov="activated" gov_index="15">nsubjpass</dependency>
+      <dependency dep="is" dep_index="14" gov="activated" gov_index="15">auxpass</dependency>
+      <dependency dep="activated" dep_index="15" gov="pathway" gov_index="12">rcmod</dependency>
+      <dependency dep="oncoproteins" dep_index="17" gov="activated" gov_index="15">agent</dependency>
+      <dependency dep="UV" dep_index="19" gov="irradiation" gov_index="20">nn</dependency>
+      <dependency dep="irradiation" dep_index="20" gov="activated" gov_index="15">agent</dependency>
+      <dependency dep="irradiation" dep_index="20" gov="oncoproteins" gov_index="17">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

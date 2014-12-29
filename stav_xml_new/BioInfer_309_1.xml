@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Inactivation@of@the@Rb@pathway@in@non-small@cell@lung@carcinoma@(NSCLC)@occurs@mostly@through@inactivation@of@the@cyclin-dependent kinase inhibitor@p16@(@INK4A@)@and/or@up-regulation@of@cyclin D1@.@</sentence>
+   <tags>
+      <tag pos="21">INK4A</tag>
+      <tag pos="26">cyclin D1</tag>
+      <tag pos="18">cyclin-dependent kinase inhibitor</tag>
+      <tag pos="19">p16</tag>
+      <tag pos="4">Rb</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Inactivation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Rb</taggedword>
+      <taggedword index="5" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="6" part-of-speech="IN">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">non-small</taggedword>
+      <taggedword index="8" part-of-speech="NN">cell</taggedword>
+      <taggedword index="9" part-of-speech="NN">lung</taggedword>
+      <taggedword index="10" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="11" part-of-speech="NNS">(NSCLC)</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">occurs</taggedword>
+      <taggedword index="13" part-of-speech="RB">mostly</taggedword>
+      <taggedword index="14" part-of-speech="IN">through</taggedword>
+      <taggedword index="15" part-of-speech="NN">inactivation</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">cyclin-dependent kinase inhibitor</taggedword>
+      <taggedword index="19" part-of-speech="JJ">p16</taggedword>
+      <taggedword index="20" part-of-speech="NNP">(</taggedword>
+      <taggedword index="21" part-of-speech="NNP">INK4A</taggedword>
+      <taggedword index="22" part-of-speech="NNP">)</taggedword>
+      <taggedword index="23" part-of-speech="NN">and/or</taggedword>
+      <taggedword index="24" part-of-speech="NN">up-regulation</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="CD">cyclin D1</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Inactivation" dep_index="1" gov="occurs" gov_index="12">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="pathway" gov_index="5">det</dependency>
+      <dependency dep="Rb" dep_index="4" gov="pathway" gov_index="5">nn</dependency>
+      <dependency dep="pathway" dep_index="5" gov="Inactivation" gov_index="1">prep_of</dependency>
+      <dependency dep="non-small" dep_index="7" gov="(NSCLC)" gov_index="11">amod</dependency>
+      <dependency dep="cell" dep_index="8" gov="(NSCLC)" gov_index="11">nn</dependency>
+      <dependency dep="lung" dep_index="9" gov="(NSCLC)" gov_index="11">nn</dependency>
+      <dependency dep="carcinoma" dep_index="10" gov="(NSCLC)" gov_index="11">nn</dependency>
+      <dependency dep="(NSCLC)" dep_index="11" gov="pathway" gov_index="5">prep_in</dependency>
+      <dependency dep="occurs" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="mostly" dep_index="13" gov="occurs" gov_index="12">advmod</dependency>
+      <dependency dep="inactivation" dep_index="15" gov="occurs" gov_index="12">prep_through</dependency>
+      <dependency dep="the" dep_index="17" gov="up-regulation" gov_index="24">det</dependency>
+      <dependency dep="cyclin-dependent kinase inhibitor" dep_index="18" gov="up-regulation" gov_index="24">amod</dependency>
+      <dependency dep="p16" dep_index="19" gov="up-regulation" gov_index="24">amod</dependency>
+      <dependency dep="(" dep_index="20" gov="up-regulation" gov_index="24">nn</dependency>
+      <dependency dep="INK4A" dep_index="21" gov="up-regulation" gov_index="24">nn</dependency>
+      <dependency dep=")" dep_index="22" gov="up-regulation" gov_index="24">nn</dependency>
+      <dependency dep="and/or" dep_index="23" gov="up-regulation" gov_index="24">nn</dependency>
+      <dependency dep="up-regulation" dep_index="24" gov="inactivation" gov_index="15">prep_of</dependency>
+      <dependency dep="cyclin D1" dep_index="26" gov="up-regulation" gov_index="24">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2100026" relationship="false">21 24 26</relation>
+      <relation position="1800021" relationship="true">18 24 21</relation>
+      <relation position="1900021" relationship="false">19 24 21</relation>
+      <relation position="400021" relationship="true">4 5 1 12 15 24 21</relation>
+      <relation position="1800026" relationship="false">18 24 26</relation>
+      <relation position="1900026" relationship="false">19 24 26</relation>
+      <relation position="400026" relationship="true">4 5 1 12 15 24 26</relation>
+      <relation position="1800019" relationship="true">18 24 19</relation>
+      <relation position="400018" relationship="false">4 5 1 12 15 24 18</relation>
+      <relation position="400019" relationship="true">4 5 1 12 15 24 19</relation>
+   </relations>
+   <pairs>
+      <pair>1800021</pair>
+      <pair>400026</pair>
+      <pair>1800019</pair>
+      <pair>400019</pair>
+      <pair>400021</pair>
+   </pairs>
+</root>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@previously@reported@that@adiposity@and@serum@leptin@levels@increase@with@age@in@male@F-344xBN@rats@and@that@when@physiological@levels@of@serum@leptin@are@manipulated@by@fasting@,@there@is@a@corresponding@reciprocal@change@in@hypothalamic@neuropeptide Y@(NPY)@mRNA@in@young@rats@,@but@there@are@no@changes@in@older@rats@</sentence>
+   <tags>
+      <tag pos="8">leptin</tag>
+      <tag pos="24">leptin</tag>
+      <tag pos="38">neuropeptide Y</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="RB">previously</taggedword>
+      <taggedword index="3" part-of-speech="VBD">reported</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">adiposity</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">serum</taggedword>
+      <taggedword index="8" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="9" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="10" part-of-speech="VB">increase</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="NN">age</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="JJ">male</taggedword>
+      <taggedword index="15" part-of-speech="NN">F-344xBN</taggedword>
+      <taggedword index="16" part-of-speech="NNS">rats</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="IN">that</taggedword>
+      <taggedword index="19" part-of-speech="WRB">when</taggedword>
+      <taggedword index="20" part-of-speech="JJ">physiological</taggedword>
+      <taggedword index="21" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="NN">serum</taggedword>
+      <taggedword index="24" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="25" part-of-speech="VBP">are</taggedword>
+      <taggedword index="26" part-of-speech="VBN">manipulated</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="NN">fasting</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="EX">there</taggedword>
+      <taggedword index="31" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="32" part-of-speech="DT">a</taggedword>
+      <taggedword index="33" part-of-speech="JJ">corresponding</taggedword>
+      <taggedword index="34" part-of-speech="JJ">reciprocal</taggedword>
+      <taggedword index="35" part-of-speech="NN">change</taggedword>
+      <taggedword index="36" part-of-speech="IN">in</taggedword>
+      <taggedword index="37" part-of-speech="JJ">hypothalamic</taggedword>
+      <taggedword index="38" part-of-speech="JJ">neuropeptide Y</taggedword>
+      <taggedword index="39" part-of-speech="NN">(NPY)</taggedword>
+      <taggedword index="40" part-of-speech="NN">mRNA</taggedword>
+      <taggedword index="41" part-of-speech="IN">in</taggedword>
+      <taggedword index="42" part-of-speech="JJ">young</taggedword>
+      <taggedword index="43" part-of-speech="NNS">rats</taggedword>
+      <taggedword index="44" part-of-speech=",">,</taggedword>
+      <taggedword index="45" part-of-speech="CC">but</taggedword>
+      <taggedword index="46" part-of-speech="EX">there</taggedword>
+      <taggedword index="47" part-of-speech="VBP">are</taggedword>
+      <taggedword index="48" part-of-speech="DT">no</taggedword>
+      <taggedword index="49" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="50" part-of-speech="IN">in</taggedword>
+      <taggedword index="51" part-of-speech="JJR">older</taggedword>
+      <taggedword index="52" part-of-speech="NNS">rats</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="reported" gov_index="3">nsubj</dependency>
+      <dependency dep="previously" dep_index="2" gov="reported" gov_index="3">advmod</dependency>
+      <dependency dep="reported" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="increase" gov_index="10">mark</dependency>
+      <dependency dep="adiposity" dep_index="5" gov="levels" gov_index="9">nn</dependency>
+      <dependency dep="serum" dep_index="7" gov="adiposity" gov_index="5">conj_and</dependency>
+      <dependency dep="serum" dep_index="7" gov="levels" gov_index="9">nn</dependency>
+      <dependency dep="leptin" dep_index="8" gov="levels" gov_index="9">nn</dependency>
+      <dependency dep="levels" dep_index="9" gov="increase" gov_index="10">nsubj</dependency>
+      <dependency dep="increase" dep_index="10" gov="reported" gov_index="3">ccomp</dependency>
+      <dependency dep="age" dep_index="12" gov="increase" gov_index="10">prep_with</dependency>
+      <dependency dep="male" dep_index="14" gov="rats" gov_index="16">amod</dependency>
+      <dependency dep="F-344xBN" dep_index="15" gov="rats" gov_index="16">nn</dependency>
+      <dependency dep="rats" dep_index="16" gov="age" gov_index="12">prep_in</dependency>
+      <dependency dep="that" dep_index="18" gov="is" gov_index="31">mark</dependency>
+      <dependency dep="when" dep_index="19" gov="manipulated" gov_index="26">advmod</dependency>
+      <dependency dep="physiological" dep_index="20" gov="levels" gov_index="21">amod</dependency>
+      <dependency dep="levels" dep_index="21" gov="manipulated" gov_index="26">nsubjpass</dependency>
+      <dependency dep="serum" dep_index="23" gov="leptin" gov_index="24">nn</dependency>
+      <dependency dep="leptin" dep_index="24" gov="levels" gov_index="21">prep_of</dependency>
+      <dependency dep="are" dep_index="25" gov="manipulated" gov_index="26">auxpass</dependency>
+      <dependency dep="manipulated" dep_index="26" gov="is" gov_index="31">advcl</dependency>
+      <dependency dep="fasting" dep_index="28" gov="manipulated" gov_index="26">agent</dependency>
+      <dependency dep="there" dep_index="30" gov="is" gov_index="31">expl</dependency>
+      <dependency dep="is" dep_index="31" gov="reported" gov_index="3">ccomp</dependency>
+      <dependency dep="is" dep_index="31" gov="increase" gov_index="10">conj_and</dependency>
+      <dependency dep="a" dep_index="32" gov="change" gov_index="35">det</dependency>
+      <dependency dep="corresponding" dep_index="33" gov="change" gov_index="35">amod</dependency>
+      <dependency dep="reciprocal" dep_index="34" gov="change" gov_index="35">amod</dependency>
+      <dependency dep="change" dep_index="35" gov="is" gov_index="31">nsubj</dependency>
+      <dependency dep="hypothalamic" dep_index="37" gov="mRNA" gov_index="40">amod</dependency>
+      <dependency dep="neuropeptide Y" dep_index="38" gov="mRNA" gov_index="40">amod</dependency>
+      <dependency dep="(NPY)" dep_index="39" gov="mRNA" gov_index="40">nn</dependency>
+      <dependency dep="mRNA" dep_index="40" gov="change" gov_index="35">prep_in</dependency>
+      <dependency dep="young" dep_index="42" gov="rats" gov_index="43">amod</dependency>
+      <dependency dep="rats" dep_index="43" gov="mRNA" gov_index="40">prep_in</dependency>
+      <dependency dep="there" dep_index="46" gov="are" gov_index="47">expl</dependency>
+      <dependency dep="are" dep_index="47" gov="increase" gov_index="10">conj_and</dependency>
+      <dependency dep="are" dep_index="47" gov="is" gov_index="31">conj_but</dependency>
+      <dependency dep="no" dep_index="48" gov="changes" gov_index="49">det</dependency>
+      <dependency dep="changes" dep_index="49" gov="are" gov_index="47">nsubj</dependency>
+      <dependency dep="older" dep_index="51" gov="rats" gov_index="52">amod</dependency>
+      <dependency dep="rats" dep_index="52" gov="changes" gov_index="49">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800024" relationship="false">8 9 10 3 31 26 21 24</relation>
+      <relation position="800038" relationship="false">8 9 10 3 31 35 40 38</relation>
+      <relation position="2400038" relationship="false">24 21 26 31 35 40 38</relation>
+   </relations>
+   <pairs/>
+</root>

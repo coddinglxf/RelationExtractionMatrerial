@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@brush@cells@,@villin@and@fimbrin@are@not@only@present@in@the@actin@filament@core@bundles@of@apical@microvilli@and@their@long@rootlets@but@,@in@addition@,@both@proteins@are@also@associated@with@microvilli@extending@from@the@basolateral@cell@surface@of@the@brush@cells@.@</sentence>
+   <tags>
+      <tag pos="7">fimbrin</tag>
+      <tag pos="5">villin</tag>
+      <tag pos="14">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">brush</taggedword>
+      <taggedword index="3" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NN">villin</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="8" part-of-speech="VBP">are</taggedword>
+      <taggedword index="9" part-of-speech="RB">not</taggedword>
+      <taggedword index="10" part-of-speech="RB">only</taggedword>
+      <taggedword index="11" part-of-speech="JJ">present</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="15" part-of-speech="JJ">filament</taggedword>
+      <taggedword index="16" part-of-speech="NN">core</taggedword>
+      <taggedword index="17" part-of-speech="NNS">bundles</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">apical</taggedword>
+      <taggedword index="20" part-of-speech="NNS">microvilli</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="23" part-of-speech="JJ">long</taggedword>
+      <taggedword index="24" part-of-speech="NNS">rootlets</taggedword>
+      <taggedword index="25" part-of-speech="CC">but</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="IN">in</taggedword>
+      <taggedword index="28" part-of-speech="NN">addition</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="DT">both</taggedword>
+      <taggedword index="31" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="32" part-of-speech="VBP">are</taggedword>
+      <taggedword index="33" part-of-speech="RB">also</taggedword>
+      <taggedword index="34" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="35" part-of-speech="IN">with</taggedword>
+      <taggedword index="36" part-of-speech="NNS">microvilli</taggedword>
+      <taggedword index="37" part-of-speech="VBG">extending</taggedword>
+      <taggedword index="38" part-of-speech="IN">from</taggedword>
+      <taggedword index="39" part-of-speech="DT">the</taggedword>
+      <taggedword index="40" part-of-speech="JJ">basolateral</taggedword>
+      <taggedword index="41" part-of-speech="NN">cell</taggedword>
+      <taggedword index="42" part-of-speech="NN">surface</taggedword>
+      <taggedword index="43" part-of-speech="IN">of</taggedword>
+      <taggedword index="44" part-of-speech="DT">the</taggedword>
+      <taggedword index="45" part-of-speech="NN">brush</taggedword>
+      <taggedword index="46" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="47" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="brush" dep_index="2" gov="cells" gov_index="3">nn</dependency>
+      <dependency dep="cells" dep_index="3" gov="present" gov_index="11">prep_in</dependency>
+      <dependency dep="villin" dep_index="5" gov="present" gov_index="11">nsubj</dependency>
+      <dependency dep="fimbrin" dep_index="7" gov="villin" gov_index="5">conj_and</dependency>
+      <dependency dep="fimbrin" dep_index="7" gov="present" gov_index="11">nsubj</dependency>
+      <dependency dep="are" dep_index="8" gov="present" gov_index="11">cop</dependency>
+      <dependency dep="not" dep_index="9" gov="present" gov_index="11">neg</dependency>
+      <dependency dep="only" dep_index="10" gov="present" gov_index="11">advmod</dependency>
+      <dependency dep="present" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="13" gov="bundles" gov_index="17">det</dependency>
+      <dependency dep="actin" dep_index="14" gov="bundles" gov_index="17">amod</dependency>
+      <dependency dep="filament" dep_index="15" gov="bundles" gov_index="17">amod</dependency>
+      <dependency dep="core" dep_index="16" gov="bundles" gov_index="17">nn</dependency>
+      <dependency dep="bundles" dep_index="17" gov="present" gov_index="11">prep_in</dependency>
+      <dependency dep="apical" dep_index="19" gov="microvilli" gov_index="20">amod</dependency>
+      <dependency dep="microvilli" dep_index="20" gov="bundles" gov_index="17">prep_of</dependency>
+      <dependency dep="their" dep_index="22" gov="rootlets" gov_index="24">poss</dependency>
+      <dependency dep="long" dep_index="23" gov="rootlets" gov_index="24">amod</dependency>
+      <dependency dep="rootlets" dep_index="24" gov="bundles" gov_index="17">prep_of</dependency>
+      <dependency dep="rootlets" dep_index="24" gov="microvilli" gov_index="20">conj_and</dependency>
+      <dependency dep="addition" dep_index="28" gov="associated" gov_index="34">prep_in</dependency>
+      <dependency dep="both" dep_index="30" gov="proteins" gov_index="31">det</dependency>
+      <dependency dep="proteins" dep_index="31" gov="associated" gov_index="34">nsubjpass</dependency>
+      <dependency dep="are" dep_index="32" gov="associated" gov_index="34">auxpass</dependency>
+      <dependency dep="also" dep_index="33" gov="associated" gov_index="34">advmod</dependency>
+      <dependency dep="associated" dep_index="34" gov="present" gov_index="11">conj_but</dependency>
+      <dependency dep="microvilli" dep_index="36" gov="associated" gov_index="34">prep_with</dependency>
+      <dependency dep="extending" dep_index="37" gov="microvilli" gov_index="36">partmod</dependency>
+      <dependency dep="the" dep_index="39" gov="surface" gov_index="42">det</dependency>
+      <dependency dep="basolateral" dep_index="40" gov="surface" gov_index="42">amod</dependency>
+      <dependency dep="cell" dep_index="41" gov="surface" gov_index="42">nn</dependency>
+      <dependency dep="surface" dep_index="42" gov="extending" gov_index="37">prep_from</dependency>
+      <dependency dep="the" dep_index="44" gov="cells" gov_index="46">det</dependency>
+      <dependency dep="brush" dep_index="45" gov="cells" gov_index="46">nn</dependency>
+      <dependency dep="cells" dep_index="46" gov="surface" gov_index="42">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 11 7</relation>
+      <relation position="700014" relationship="true">7 11 17 14</relation>
+      <relation position="500014" relationship="true">5 11 17 14</relation>
+   </relations>
+   <pairs>
+      <pair>500014</pair>
+      <pair>700014</pair>
+   </pairs>
+</root>

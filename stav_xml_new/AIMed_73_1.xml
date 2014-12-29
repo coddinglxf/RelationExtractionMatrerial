@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Molecular@cloning@and@expression@of@a@receptor@for@human@tumor@necrosis@factor@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Molecular</taggedword>
+      <taggedword index="2" part-of-speech="NN">cloning</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="8" part-of-speech="IN">for</taggedword>
+      <taggedword index="9" part-of-speech="JJ">human</taggedword>
+      <taggedword index="10" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">necrosis</taggedword>
+      <taggedword index="12" part-of-speech="NN">factor</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Molecular" dep_index="1" gov="cloning" gov_index="2">nn</dependency>
+      <dependency dep="cloning" dep_index="2" gov="necrosis" gov_index="11">nsubj</dependency>
+      <dependency dep="expression" dep_index="4" gov="cloning" gov_index="2">conj_and</dependency>
+      <dependency dep="expression" dep_index="4" gov="necrosis" gov_index="11">nsubj</dependency>
+      <dependency dep="a" dep_index="6" gov="receptor" gov_index="7">det</dependency>
+      <dependency dep="receptor" dep_index="7" gov="cloning" gov_index="2">prep_of</dependency>
+      <dependency dep="human" dep_index="9" gov="tumor" gov_index="10">amod</dependency>
+      <dependency dep="tumor" dep_index="10" gov="receptor" gov_index="7">prep_for</dependency>
+      <dependency dep="necrosis" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="factor" dep_index="12" gov="necrosis" gov_index="11">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@model@includes@two@different@Kd's--one@for@profilin@bound@to@actin@monomers@and@one@for@profilin@bound@to@an@actin@molecule@at@the@barbed@end@of@a@filament@.@</sentence>
+   <tags>
+      <tag pos="8">profilin</tag>
+      <tag pos="16">profilin</tag>
+      <tag pos="11">actin</tag>
+      <tag pos="20">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">model</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">includes</taggedword>
+      <taggedword index="4" part-of-speech="CD">two</taggedword>
+      <taggedword index="5" part-of-speech="JJ">different</taggedword>
+      <taggedword index="6" part-of-speech="NN">Kd's--one</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="9" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="NN">actin</taggedword>
+      <taggedword index="12" part-of-speech="NNS">monomers</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="CD">one</taggedword>
+      <taggedword index="15" part-of-speech="IN">for</taggedword>
+      <taggedword index="16" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="17" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="DT">an</taggedword>
+      <taggedword index="20" part-of-speech="NN">actin</taggedword>
+      <taggedword index="21" part-of-speech="NN">molecule</taggedword>
+      <taggedword index="22" part-of-speech="IN">at</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="JJ">barbed</taggedword>
+      <taggedword index="25" part-of-speech="NN">end</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="DT">a</taggedword>
+      <taggedword index="28" part-of-speech="NN">filament</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="model" gov_index="2">det</dependency>
+      <dependency dep="model" dep_index="2" gov="includes" gov_index="3">nsubj</dependency>
+      <dependency dep="includes" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="two" dep_index="4" gov="Kd's--one" gov_index="6">num</dependency>
+      <dependency dep="different" dep_index="5" gov="Kd's--one" gov_index="6">amod</dependency>
+      <dependency dep="Kd's--one" dep_index="6" gov="includes" gov_index="3">dobj</dependency>
+      <dependency dep="profilin" dep_index="8" gov="Kd's--one" gov_index="6">prep_for</dependency>
+      <dependency dep="bound" dep_index="9" gov="profilin" gov_index="8">partmod</dependency>
+      <dependency dep="actin" dep_index="11" gov="monomers" gov_index="12">nn</dependency>
+      <dependency dep="monomers" dep_index="12" gov="bound" gov_index="9">prep_to</dependency>
+      <dependency dep="one" dep_index="14" gov="bound" gov_index="9">prep_to</dependency>
+      <dependency dep="one" dep_index="14" gov="monomers" gov_index="12">conj_and</dependency>
+      <dependency dep="profilin" dep_index="16" gov="bound" gov_index="9">prep_for</dependency>
+      <dependency dep="bound" dep_index="17" gov="profilin" gov_index="16">partmod</dependency>
+      <dependency dep="an" dep_index="19" gov="molecule" gov_index="21">det</dependency>
+      <dependency dep="actin" dep_index="20" gov="molecule" gov_index="21">nn</dependency>
+      <dependency dep="molecule" dep_index="21" gov="bound" gov_index="17">prep_to</dependency>
+      <dependency dep="the" dep_index="23" gov="end" gov_index="25">det</dependency>
+      <dependency dep="barbed" dep_index="24" gov="end" gov_index="25">amod</dependency>
+      <dependency dep="end" dep_index="25" gov="bound" gov_index="17">prep_at</dependency>
+      <dependency dep="a" dep_index="27" gov="filament" gov_index="28">det</dependency>
+      <dependency dep="filament" dep_index="28" gov="end" gov_index="25">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800016" relationship="false"></relation>
+      <relation position="800011" relationship="true"></relation>
+      <relation position="800020" relationship="false"></relation>
+      <relation position="1100016" relationship="false">11 12 9 16</relation>
+      <relation position="1600020" relationship="true"></relation>
+      <relation position="1100020" relationship="false">11 12 9 16 17 21 20</relation>
+   </relations>
+   <pairs>
+      <pair>1600020</pair>
+      <pair>800011</pair>
+   </pairs>
+</root>

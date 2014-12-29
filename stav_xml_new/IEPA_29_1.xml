@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@action@of@beta-amyloid@25-35@is@not@altered@by@pretreatment@with@the@calcium@channel@blockers@nifedipine@or@cobalt@,@with@the@depleter@of@intracellular@calcium@stores@cyclopiazonic@acid@,@or@with@the@phospholipase C@inhibitor@neomycin@</sentence>
+   <tags>
+      <tag pos="4">beta-amyloid</tag>
+      <tag pos="33">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">action</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">beta-amyloid</taggedword>
+      <taggedword index="5" part-of-speech="CD">25-35</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="RB">not</taggedword>
+      <taggedword index="8" part-of-speech="VBN">altered</taggedword>
+      <taggedword index="9" part-of-speech="IN">by</taggedword>
+      <taggedword index="10" part-of-speech="NN">pretreatment</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">calcium</taggedword>
+      <taggedword index="14" part-of-speech="NN">channel</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">blockers</taggedword>
+      <taggedword index="16" part-of-speech="JJ">nifedipine</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="JJ">cobalt</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">depleter</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="25" part-of-speech="NN">calcium</taggedword>
+      <taggedword index="26" part-of-speech="NNS">stores</taggedword>
+      <taggedword index="27" part-of-speech="JJ">cyclopiazonic</taggedword>
+      <taggedword index="28" part-of-speech="NN">acid</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="CC">or</taggedword>
+      <taggedword index="31" part-of-speech="IN">with</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="34" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="35" part-of-speech="NN">neomycin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="action" gov_index="2">det</dependency>
+      <dependency dep="action" dep_index="2" gov="altered" gov_index="8">nsubjpass</dependency>
+      <dependency dep="beta-amyloid" dep_index="4" gov="25-35" gov_index="5">amod</dependency>
+      <dependency dep="25-35" dep_index="5" gov="action" gov_index="2">prep_of</dependency>
+      <dependency dep="is" dep_index="6" gov="altered" gov_index="8">auxpass</dependency>
+      <dependency dep="not" dep_index="7" gov="altered" gov_index="8">neg</dependency>
+      <dependency dep="altered" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="pretreatment" dep_index="10" gov="altered" gov_index="8">agent</dependency>
+      <dependency dep="the" dep_index="12" gov="channel" gov_index="14">det</dependency>
+      <dependency dep="calcium" dep_index="13" gov="channel" gov_index="14">nn</dependency>
+      <dependency dep="channel" dep_index="14" gov="blockers" gov_index="15">nsubj</dependency>
+      <dependency dep="blockers" dep_index="15" gov="acid" gov_index="28">dep</dependency>
+      <dependency dep="nifedipine" dep_index="16" gov="blockers" gov_index="15">acomp</dependency>
+      <dependency dep="cobalt" dep_index="18" gov="blockers" gov_index="15">acomp</dependency>
+      <dependency dep="cobalt" dep_index="18" gov="nifedipine" gov_index="16">conj_or</dependency>
+      <dependency dep="with" dep_index="20" gov="blockers" gov_index="15">acomp</dependency>
+      <dependency dep="with" dep_index="20" gov="nifedipine" gov_index="16">conj_or</dependency>
+      <dependency dep="the" dep_index="21" gov="depleter" gov_index="22">det</dependency>
+      <dependency dep="depleter" dep_index="22" gov="nifedipine" gov_index="16">prep_with</dependency>
+      <dependency dep="intracellular" dep_index="24" gov="stores" gov_index="26">nn</dependency>
+      <dependency dep="calcium" dep_index="25" gov="stores" gov_index="26">nn</dependency>
+      <dependency dep="stores" dep_index="26" gov="depleter" gov_index="22">prep_of</dependency>
+      <dependency dep="cyclopiazonic" dep_index="27" gov="acid" gov_index="28">amod</dependency>
+      <dependency dep="acid" dep_index="28" gov="pretreatment" gov_index="10">prep_with</dependency>
+      <dependency dep="the" dep_index="32" gov="neomycin" gov_index="35">det</dependency>
+      <dependency dep="phospholipase C" dep_index="33" gov="neomycin" gov_index="35">amod</dependency>
+      <dependency dep="inhibitor" dep_index="34" gov="neomycin" gov_index="35">nn</dependency>
+      <dependency dep="neomycin" dep_index="35" gov="pretreatment" gov_index="10">prep_with</dependency>
+      <dependency dep="neomycin" dep_index="35" gov="acid" gov_index="28">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400033" relationship="false">4 5 2 8 10 35 33</relation>
+   </relations>
+   <pairs/>
+</root>

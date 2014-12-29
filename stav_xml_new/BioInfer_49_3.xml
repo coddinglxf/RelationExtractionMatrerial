@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>How@profilin@promotes@actin@filament@assembly@in@the@presence@of@thymosin beta 4@.@</sentence>
+   <tags>
+      <tag pos="4">actin</tag>
+      <tag pos="11">thymosin beta 4</tag>
+      <tag pos="2">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="WRB">How</taggedword>
+      <taggedword index="2" part-of-speech="JJ">profilin</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">promotes</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech="NN">filament</taggedword>
+      <taggedword index="6" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">presence</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="CD">thymosin beta 4</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="How" dep_index="1" gov="profilin" gov_index="2">advmod</dependency>
+      <dependency dep="profilin" dep_index="2" gov="promotes" gov_index="3">dep</dependency>
+      <dependency dep="promotes" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="actin" dep_index="4" gov="assembly" gov_index="6">nn</dependency>
+      <dependency dep="filament" dep_index="5" gov="assembly" gov_index="6">nn</dependency>
+      <dependency dep="assembly" dep_index="6" gov="promotes" gov_index="3">nsubj</dependency>
+      <dependency dep="the" dep_index="8" gov="presence" gov_index="9">det</dependency>
+      <dependency dep="presence" dep_index="9" gov="assembly" gov_index="6">prep_in</dependency>
+      <dependency dep="thymosin beta 4" dep_index="11" gov="presence" gov_index="9">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400011" relationship="false">4 6 9 11</relation>
+      <relation position="200004" relationship="true">2 3 6 4</relation>
+      <relation position="200011" relationship="false">2 3 6 9 11</relation>
+   </relations>
+   <pairs>
+      <pair>200004</pair>
+   </pairs>
+</root>

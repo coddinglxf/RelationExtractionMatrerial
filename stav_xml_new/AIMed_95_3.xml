@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CyclinA@binds@to@one@side@of@CDK2@'s@catalytic@cleft@,@inducing@large@conformational@changes@in@its@PSTAIRE@helix@and@T-loop@.@</sentence>
+   <tags>
+      <tag pos="7">CDK2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CyclinA</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="CD">one</taggedword>
+      <taggedword index="5" part-of-speech="NN">side</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNP">CDK2</taggedword>
+      <taggedword index="8" part-of-speech="POS">'s</taggedword>
+      <taggedword index="9" part-of-speech="JJ">catalytic</taggedword>
+      <taggedword index="10" part-of-speech="NN">cleft</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="VBG">inducing</taggedword>
+      <taggedword index="13" part-of-speech="JJ">large</taggedword>
+      <taggedword index="14" part-of-speech="JJ">conformational</taggedword>
+      <taggedword index="15" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="18" part-of-speech="JJ">PSTAIRE</taggedword>
+      <taggedword index="19" part-of-speech="NN">helix</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NN">T-loop</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CyclinA" dep_index="1" gov="binds" gov_index="2">nsubj</dependency>
+      <dependency dep="binds" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="one" dep_index="4" gov="side" gov_index="5">num</dependency>
+      <dependency dep="side" dep_index="5" gov="binds" gov_index="2">prep_to</dependency>
+      <dependency dep="CDK2" dep_index="7" gov="cleft" gov_index="10">poss</dependency>
+      <dependency dep="catalytic" dep_index="9" gov="cleft" gov_index="10">amod</dependency>
+      <dependency dep="cleft" dep_index="10" gov="side" gov_index="5">prep_of</dependency>
+      <dependency dep="inducing" dep_index="12" gov="binds" gov_index="2">xcomp</dependency>
+      <dependency dep="large" dep_index="13" gov="changes" gov_index="15">amod</dependency>
+      <dependency dep="conformational" dep_index="14" gov="changes" gov_index="15">amod</dependency>
+      <dependency dep="changes" dep_index="15" gov="inducing" gov_index="12">dobj</dependency>
+      <dependency dep="its" dep_index="17" gov="helix" gov_index="19">poss</dependency>
+      <dependency dep="PSTAIRE" dep_index="18" gov="helix" gov_index="19">amod</dependency>
+      <dependency dep="helix" dep_index="19" gov="inducing" gov_index="12">prep_in</dependency>
+      <dependency dep="T-loop" dep_index="21" gov="inducing" gov_index="12">prep_in</dependency>
+      <dependency dep="T-loop" dep_index="21" gov="helix" gov_index="19">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@phosphoprotein@(@P@)@of@vesicular@stomatitis@virus@(VSV)@serotypes@New@Jersey@[@P(NJ)@]@and@Indiana@[@P(I)@]@contains@a@highly@conserved@carboxy-terminal@domain@which@is@required@for@binding@to@the@cognate@N-RNA@template@as@well@as@to@form@a@soluble@complex@with@the@nucleocapsid protein@N@in@vivo@.@</sentence>
+   <tags>
+      <tag pos="20">P(I)</tag>
+      <tag pos="15">P(NJ)</tag>
+      <tag pos="4">P</tag>
+      <tag pos="2">phosphoprotein</tag>
+      <tag pos="48">nucleocapsid protein</tag>
+      <tag pos="49">N</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">phosphoprotein</taggedword>
+      <taggedword index="3" part-of-speech="NNP">(</taggedword>
+      <taggedword index="4" part-of-speech="NNP">P</taggedword>
+      <taggedword index="5" part-of-speech="NN">)</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">vesicular</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">stomatitis</taggedword>
+      <taggedword index="9" part-of-speech="NN">virus</taggedword>
+      <taggedword index="10" part-of-speech="NNS">(VSV)</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">serotypes</taggedword>
+      <taggedword index="12" part-of-speech="NNP">New</taggedword>
+      <taggedword index="13" part-of-speech="NNP">Jersey</taggedword>
+      <taggedword index="14" part-of-speech="NNP">[</taggedword>
+      <taggedword index="15" part-of-speech="NNP">P(NJ)</taggedword>
+      <taggedword index="16" part-of-speech="NNP">]</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNP">Indiana</taggedword>
+      <taggedword index="19" part-of-speech="NNP">[</taggedword>
+      <taggedword index="20" part-of-speech="NNP">P(I)</taggedword>
+      <taggedword index="21" part-of-speech="NNP">]</taggedword>
+      <taggedword index="22" part-of-speech="VBZ">contains</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="RB">highly</taggedword>
+      <taggedword index="25" part-of-speech="JJ">conserved</taggedword>
+      <taggedword index="26" part-of-speech="JJ">carboxy-terminal</taggedword>
+      <taggedword index="27" part-of-speech="NN">domain</taggedword>
+      <taggedword index="28" part-of-speech="WDT">which</taggedword>
+      <taggedword index="29" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="30" part-of-speech="VBN">required</taggedword>
+      <taggedword index="31" part-of-speech="IN">for</taggedword>
+      <taggedword index="32" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="33" part-of-speech="TO">to</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="JJ">cognate</taggedword>
+      <taggedword index="36" part-of-speech="JJ">N-RNA</taggedword>
+      <taggedword index="37" part-of-speech="NN">template</taggedword>
+      <taggedword index="38" part-of-speech="RB">as</taggedword>
+      <taggedword index="39" part-of-speech="RB">well</taggedword>
+      <taggedword index="40" part-of-speech="IN">as</taggedword>
+      <taggedword index="41" part-of-speech="TO">to</taggedword>
+      <taggedword index="42" part-of-speech="VB">form</taggedword>
+      <taggedword index="43" part-of-speech="DT">a</taggedword>
+      <taggedword index="44" part-of-speech="JJ">soluble</taggedword>
+      <taggedword index="45" part-of-speech="NN">complex</taggedword>
+      <taggedword index="46" part-of-speech="IN">with</taggedword>
+      <taggedword index="47" part-of-speech="DT">the</taggedword>
+      <taggedword index="48" part-of-speech="NN">nucleocapsid protein</taggedword>
+      <taggedword index="49" part-of-speech="NNP">N</taggedword>
+      <taggedword index="50" part-of-speech="IN">in</taggedword>
+      <taggedword index="51" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="52" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov=")" gov_index="5">det</dependency>
+      <dependency dep="phosphoprotein" dep_index="2" gov=")" gov_index="5">amod</dependency>
+      <dependency dep="(" dep_index="3" gov=")" gov_index="5">nn</dependency>
+      <dependency dep="P" dep_index="4" gov=")" gov_index="5">nn</dependency>
+      <dependency dep=")" dep_index="5" gov="stomatitis" gov_index="8">nsubj</dependency>
+      <dependency dep="vesicular" dep_index="7" gov=")" gov_index="5">prep_of</dependency>
+      <dependency dep="stomatitis" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="virus" dep_index="9" gov="(VSV)" gov_index="10">nn</dependency>
+      <dependency dep="(VSV)" dep_index="10" gov="serotypes" gov_index="11">nsubj</dependency>
+      <dependency dep="serotypes" dep_index="11" gov="stomatitis" gov_index="8">ccomp</dependency>
+      <dependency dep="New" dep_index="12" gov="]" gov_index="16">nn</dependency>
+      <dependency dep="Jersey" dep_index="13" gov="]" gov_index="16">nn</dependency>
+      <dependency dep="[" dep_index="14" gov="]" gov_index="16">nn</dependency>
+      <dependency dep="P(NJ)" dep_index="15" gov="]" gov_index="16">nn</dependency>
+      <dependency dep="]" dep_index="16" gov="contains" gov_index="22">nsubj</dependency>
+      <dependency dep="Indiana" dep_index="18" gov="]" gov_index="21">nn</dependency>
+      <dependency dep="[" dep_index="19" gov="]" gov_index="21">nn</dependency>
+      <dependency dep="P(I)" dep_index="20" gov="]" gov_index="21">nn</dependency>
+      <dependency dep="]" dep_index="21" gov="]" gov_index="16">conj_and</dependency>
+      <dependency dep="]" dep_index="21" gov="contains" gov_index="22">nsubj</dependency>
+      <dependency dep="contains" dep_index="22" gov="serotypes" gov_index="11">ccomp</dependency>
+      <dependency dep="a" dep_index="23" gov="domain" gov_index="27">det</dependency>
+      <dependency dep="highly" dep_index="24" gov="conserved" gov_index="25">advmod</dependency>
+      <dependency dep="conserved" dep_index="25" gov="domain" gov_index="27">amod</dependency>
+      <dependency dep="carboxy-terminal" dep_index="26" gov="domain" gov_index="27">amod</dependency>
+      <dependency dep="domain" dep_index="27" gov="contains" gov_index="22">dobj</dependency>
+      <dependency dep="domain" dep_index="27" gov="required" gov_index="30">nsubjpass</dependency>
+      <dependency dep="is" dep_index="29" gov="required" gov_index="30">auxpass</dependency>
+      <dependency dep="required" dep_index="30" gov="domain" gov_index="27">rcmod</dependency>
+      <dependency dep="binding" dep_index="32" gov="N" gov_index="49">amod</dependency>
+      <dependency dep="the" dep_index="34" gov="template" gov_index="37">det</dependency>
+      <dependency dep="cognate" dep_index="35" gov="template" gov_index="37">amod</dependency>
+      <dependency dep="N-RNA" dep_index="36" gov="template" gov_index="37">amod</dependency>
+      <dependency dep="template" dep_index="37" gov="binding" gov_index="32">prep_to</dependency>
+      <dependency dep="well" dep_index="39" gov="form" gov_index="42">cc</dependency>
+      <dependency dep="to" dep_index="41" gov="form" gov_index="42">aux</dependency>
+      <dependency dep="form" dep_index="42" gov="template" gov_index="37">dep</dependency>
+      <dependency dep="a" dep_index="43" gov="complex" gov_index="45">det</dependency>
+      <dependency dep="soluble" dep_index="44" gov="complex" gov_index="45">amod</dependency>
+      <dependency dep="complex" dep_index="45" gov="form" gov_index="42">dobj</dependency>
+      <dependency dep="the" dep_index="47" gov="nucleocapsid protein" gov_index="48">det</dependency>
+      <dependency dep="nucleocapsid protein" dep_index="48" gov="form" gov_index="42">prep_with</dependency>
+      <dependency dep="N" dep_index="49" gov="required" gov_index="30">prep_for</dependency>
+      <dependency dep="vivo" dep_index="51" gov="N" gov_index="49">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500020" relationship="false">15 16 22 21 20</relation>
+      <relation position="400020" relationship="true">4 5 8 11 22 21 20</relation>
+      <relation position="200020" relationship="true">2 5 8 11 22 21 20</relation>
+      <relation position="2000048" relationship="false">20 21 22 27 30 49 32 37 42 48</relation>
+      <relation position="2000049" relationship="true">20 21 22 27 30 49</relation>
+      <relation position="400015" relationship="true">4 5 8 11 22 16 15</relation>
+      <relation position="200015" relationship="true">2 5 8 11 22 16 15</relation>
+      <relation position="1500048" relationship="false">15 16 22 27 30 49 32 37 42 48</relation>
+      <relation position="1500049" relationship="true">15 16 22 27 30 49</relation>
+      <relation position="200004" relationship="false">2 5 4</relation>
+      <relation position="400048" relationship="false">4 5 8 11 22 27 30 49 32 37 42 48</relation>
+      <relation position="400049" relationship="true">4 5 8 11 22 27 30 49</relation>
+      <relation position="200048" relationship="false">2 5 8 11 22 27 30 49 32 37 42 48</relation>
+      <relation position="200049" relationship="true">2 5 8 11 22 27 30 49</relation>
+      <relation position="4800049" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>200015</pair>
+      <pair>1500049</pair>
+      <pair>400015</pair>
+      <pair>2000049</pair>
+      <pair>400049</pair>
+      <pair>200020</pair>
+      <pair>4800049</pair>
+      <pair>200049</pair>
+      <pair>400020</pair>
+   </pairs>
+</root>

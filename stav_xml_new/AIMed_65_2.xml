@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@Fos@/@Jun@and@ATF@/@CREB@families@of@transcription@factors@function@in@coupling@extracellular@signals@to@alterations@in@expression@of@specific@target@genes@.@</sentence>
+   <tags>
+      <tag pos="2">Fos</tag>
+      <tag pos="4">Jun</tag>
+      <tag pos="6">ATF</tag>
+      <tag pos="8">CREB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">Fos</taggedword>
+      <taggedword index="3" part-of-speech=":">/</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Jun</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">ATF</taggedword>
+      <taggedword index="7" part-of-speech=":">/</taggedword>
+      <taggedword index="8" part-of-speech="NN">CREB</taggedword>
+      <taggedword index="9" part-of-speech="NNS">families</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="12" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="13" part-of-speech="VBP">function</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">coupling</taggedword>
+      <taggedword index="16" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="17" part-of-speech="NNS">signals</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="NNS">alterations</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="NN">expression</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="24" part-of-speech="NN">target</taggedword>
+      <taggedword index="25" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="families" gov_index="9">det</dependency>
+      <dependency dep="Fos" dep_index="2" gov="families" gov_index="9">amod</dependency>
+      <dependency dep="/" dep_index="3" gov="Jun" gov_index="4">punct</dependency>
+      <dependency dep="Jun" dep_index="4" gov="families" gov_index="9">dep</dependency>
+      <dependency dep="ATF" dep_index="6" gov="Jun" gov_index="4">conj_and</dependency>
+      <dependency dep="ATF" dep_index="6" gov="families" gov_index="9">dep</dependency>
+      <dependency dep="/" dep_index="7" gov="Jun" gov_index="4">punct</dependency>
+      <dependency dep="CREB" dep_index="8" gov="families" gov_index="9">nn</dependency>
+      <dependency dep="families" dep_index="9" gov="function" gov_index="13">nsubj</dependency>
+      <dependency dep="transcription" dep_index="11" gov="factors" gov_index="12">nn</dependency>
+      <dependency dep="factors" dep_index="12" gov="families" gov_index="9">prep_of</dependency>
+      <dependency dep="function" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="coupling" dep_index="15" gov="signals" gov_index="17">nn</dependency>
+      <dependency dep="extracellular" dep_index="16" gov="signals" gov_index="17">nn</dependency>
+      <dependency dep="signals" dep_index="17" gov="function" gov_index="13">prep_in</dependency>
+      <dependency dep="alterations" dep_index="19" gov="function" gov_index="13">prep_to</dependency>
+      <dependency dep="expression" dep_index="21" gov="alterations" gov_index="19">prep_in</dependency>
+      <dependency dep="specific" dep_index="23" gov="genes" gov_index="25">amod</dependency>
+      <dependency dep="target" dep_index="24" gov="genes" gov_index="25">nn</dependency>
+      <dependency dep="genes" dep_index="25" gov="expression" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 9 4</relation>
+      <relation position="200006" relationship="false">2 9 6</relation>
+      <relation position="200008" relationship="false">2 9 8</relation>
+      <relation position="400006" relationship="false">4 9 6</relation>
+      <relation position="400008" relationship="false">4 9 8</relation>
+      <relation position="600008" relationship="false">6 9 8</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@secretion@of@N1@remains@unaffected@by@the@inactive@PDBu@analog@alphaPDD@and@by@the@protein kinase A@effectors@dibutyryl@cAMP@and@forskolin@</sentence>
+   <tags>
+      <tag pos="6">N1</tag>
+      <tag pos="18">protein kinase A</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">N1</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">remains</taggedword>
+      <taggedword index="8" part-of-speech="JJ">unaffected</taggedword>
+      <taggedword index="9" part-of-speech="IN">by</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">inactive</taggedword>
+      <taggedword index="12" part-of-speech="NNP">PDBu</taggedword>
+      <taggedword index="13" part-of-speech="NN">analog</taggedword>
+      <taggedword index="14" part-of-speech="NN">alphaPDD</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">protein kinase A</taggedword>
+      <taggedword index="19" part-of-speech="NNS">effectors</taggedword>
+      <taggedword index="20" part-of-speech="JJ">dibutyryl</taggedword>
+      <taggedword index="21" part-of-speech="NN">cAMP</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NN">forskolin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="unaffected" gov_index="8">prep_in</dependency>
+      <dependency dep="secretion" dep_index="4" gov="unaffected" gov_index="8">nsubj</dependency>
+      <dependency dep="N1" dep_index="6" gov="secretion" gov_index="4">prep_of</dependency>
+      <dependency dep="remains" dep_index="7" gov="unaffected" gov_index="8">cop</dependency>
+      <dependency dep="unaffected" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="alphaPDD" gov_index="14">det</dependency>
+      <dependency dep="inactive" dep_index="11" gov="alphaPDD" gov_index="14">amod</dependency>
+      <dependency dep="PDBu" dep_index="12" gov="alphaPDD" gov_index="14">nn</dependency>
+      <dependency dep="analog" dep_index="13" gov="alphaPDD" gov_index="14">nn</dependency>
+      <dependency dep="alphaPDD" dep_index="14" gov="unaffected" gov_index="8">prep_by</dependency>
+      <dependency dep="the" dep_index="17" gov="effectors" gov_index="19">det</dependency>
+      <dependency dep="protein kinase A" dep_index="18" gov="effectors" gov_index="19">nn</dependency>
+      <dependency dep="effectors" dep_index="19" gov="unaffected" gov_index="8">prep_by</dependency>
+      <dependency dep="effectors" dep_index="19" gov="alphaPDD" gov_index="14">conj_and</dependency>
+      <dependency dep="dibutyryl" dep_index="20" gov="cAMP" gov_index="21">amod</dependency>
+      <dependency dep="cAMP" dep_index="21" gov="unaffected" gov_index="8">pobj</dependency>
+      <dependency dep="forskolin" dep_index="23" gov="unaffected" gov_index="8">pobj</dependency>
+      <dependency dep="forskolin" dep_index="23" gov="cAMP" gov_index="21">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600018" relationship="false">6 4 8 19 18</relation>
+   </relations>
+   <pairs/>
+</root>

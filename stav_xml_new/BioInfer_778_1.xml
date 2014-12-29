@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Two@actin binding proteins@,@actin depolymerizing factor@and@cofilin@,@are@associated@with@Hirano@bodies@.@</sentence>
+   <tags>
+      <tag pos="4">actin depolymerizing factor</tag>
+      <tag pos="6">cofilin</tag>
+      <tag pos="2">actin binding proteins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Two</taggedword>
+      <taggedword index="2" part-of-speech="NNS">actin binding proteins</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin depolymerizing factor</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="VBP">are</taggedword>
+      <taggedword index="9" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="NNP">Hirano</taggedword>
+      <taggedword index="12" part-of-speech="NNS">bodies</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Two" dep_index="1" gov="actin binding proteins" gov_index="2">num</dependency>
+      <dependency dep="actin binding proteins" dep_index="2" gov="associated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="actin depolymerizing factor" dep_index="4" gov="actin binding proteins" gov_index="2">appos</dependency>
+      <dependency dep="cofilin" dep_index="6" gov="actin binding proteins" gov_index="2">appos</dependency>
+      <dependency dep="cofilin" dep_index="6" gov="actin depolymerizing factor" gov_index="4">conj_and</dependency>
+      <dependency dep="are" dep_index="8" gov="associated" gov_index="9">auxpass</dependency>
+      <dependency dep="associated" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Hirano" dep_index="11" gov="bodies" gov_index="12">nn</dependency>
+      <dependency dep="bodies" dep_index="12" gov="associated" gov_index="9">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 2 6</relation>
+      <relation position="200004" relationship="true"></relation>
+      <relation position="200006" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>200004</pair>
+      <pair>200006</pair>
+      <pair>400006</pair>
+   </pairs>
+</root>

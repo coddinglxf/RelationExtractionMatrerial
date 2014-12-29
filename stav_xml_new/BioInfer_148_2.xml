@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>To@detect@the@expression@of@apoptosis-related@molecules@,@ribonuclease@protection@assay@was@used@with@specific@antisense@RNA@probes@for@Fas@,@Fas ligand@,@TNFR-1@,@TRAIL@,@FADD@,@TRADD@,@RIP@,@FAF@,@FAP@,@and@caspase-8@.@</sentence>
+   <tags>
+      <tag pos="26">TRAIL</tag>
+      <tag pos="9">ribonuclease</tag>
+      <tag pos="34">FAF</tag>
+      <tag pos="36">FAP</tag>
+      <tag pos="30">TRADD</tag>
+      <tag pos="32">RIP</tag>
+      <tag pos="39">caspase-8</tag>
+      <tag pos="28">FADD</tag>
+      <tag pos="22">Fas ligand</tag>
+      <tag pos="24">TNFR-1</tag>
+      <tag pos="20">Fas</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="TO">To</taggedword>
+      <taggedword index="2" part-of-speech="VB">detect</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="JJ">apoptosis-related</taggedword>
+      <taggedword index="7" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="JJ">ribonuclease</taggedword>
+      <taggedword index="10" part-of-speech="NN">protection</taggedword>
+      <taggedword index="11" part-of-speech="RB">assay</taggedword>
+      <taggedword index="12" part-of-speech="VBD">was</taggedword>
+      <taggedword index="13" part-of-speech="VBN">used</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="16" part-of-speech="JJ">antisense</taggedword>
+      <taggedword index="17" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="18" part-of-speech="NNS">probes</taggedword>
+      <taggedword index="19" part-of-speech="IN">for</taggedword>
+      <taggedword index="20" part-of-speech="NNP">Fas</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NNP">Fas ligand</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="NNP">TNFR-1</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="NNP">TRAIL</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NNP">FADD</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="NNP">TRADD</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="NNP">RIP</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="NNP">FAF</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="NNP">FAP</taggedword>
+      <taggedword index="37" part-of-speech=",">,</taggedword>
+      <taggedword index="38" part-of-speech="CC">and</taggedword>
+      <taggedword index="39" part-of-speech="JJ">caspase-8</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="To" dep_index="1" gov="detect" gov_index="2">aux</dependency>
+      <dependency dep="detect" dep_index="2" gov="was" gov_index="12">advcl</dependency>
+      <dependency dep="the" dep_index="3" gov="expression" gov_index="4">det</dependency>
+      <dependency dep="expression" dep_index="4" gov="detect" gov_index="2">dobj</dependency>
+      <dependency dep="apoptosis-related" dep_index="6" gov="molecules" gov_index="7">amod</dependency>
+      <dependency dep="molecules" dep_index="7" gov="expression" gov_index="4">prep_of</dependency>
+      <dependency dep="ribonuclease" dep_index="9" gov="protection" gov_index="10">amod</dependency>
+      <dependency dep="protection" dep_index="10" gov="was" gov_index="12">nsubj</dependency>
+      <dependency dep="assay" dep_index="11" gov="was" gov_index="12">advmod</dependency>
+      <dependency dep="was" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="used" dep_index="13" gov="was" gov_index="12">dep</dependency>
+      <dependency dep="specific" dep_index="15" gov="probes" gov_index="18">amod</dependency>
+      <dependency dep="antisense" dep_index="16" gov="probes" gov_index="18">amod</dependency>
+      <dependency dep="RNA" dep_index="17" gov="probes" gov_index="18">nn</dependency>
+      <dependency dep="probes" dep_index="18" gov="used" gov_index="13">prep_with</dependency>
+      <dependency dep="Fas" dep_index="20" gov="FAP" gov_index="36">nn</dependency>
+      <dependency dep="Fas ligand" dep_index="22" gov="FAP" gov_index="36">appos</dependency>
+      <dependency dep="TNFR-1" dep_index="24" gov="FAP" gov_index="36">appos</dependency>
+      <dependency dep="TRAIL" dep_index="26" gov="FAP" gov_index="36">appos</dependency>
+      <dependency dep="FADD" dep_index="28" gov="FAP" gov_index="36">appos</dependency>
+      <dependency dep="TRADD" dep_index="30" gov="FAP" gov_index="36">appos</dependency>
+      <dependency dep="RIP" dep_index="32" gov="FAP" gov_index="36">appos</dependency>
+      <dependency dep="FAF" dep_index="34" gov="FAP" gov_index="36">appos</dependency>
+      <dependency dep="FAP" dep_index="36" gov="probes" gov_index="18">prep_for</dependency>
+      <dependency dep="caspase-8" dep_index="39" gov="was" gov_index="12">dep</dependency>
+      <dependency dep="caspase-8" dep_index="39" gov="used" gov_index="13">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900026" relationship="false">9 10 12 13 18 36 26</relation>
+      <relation position="2600034" relationship="false">26 36 34</relation>
+      <relation position="2600036" relationship="false"></relation>
+      <relation position="2600030" relationship="false">26 36 30</relation>
+      <relation position="2600032" relationship="false">26 36 32</relation>
+      <relation position="2600039" relationship="false">26 36 18 13 12 39</relation>
+      <relation position="2600028" relationship="false">26 36 28</relation>
+      <relation position="2200026" relationship="false">22 36 26</relation>
+      <relation position="2400026" relationship="false">24 36 26</relation>
+      <relation position="2000026" relationship="false">20 36 26</relation>
+      <relation position="900034" relationship="false">9 10 12 13 18 36 34</relation>
+      <relation position="900036" relationship="false">9 10 12 13 18 36</relation>
+      <relation position="900030" relationship="false">9 10 12 13 18 36 30</relation>
+      <relation position="900032" relationship="false">9 10 12 13 18 36 32</relation>
+      <relation position="900039" relationship="false">9 10 12 39</relation>
+      <relation position="900028" relationship="false">9 10 12 13 18 36 28</relation>
+      <relation position="900022" relationship="false">9 10 12 13 18 36 22</relation>
+      <relation position="900024" relationship="false">9 10 12 13 18 36 24</relation>
+      <relation position="900020" relationship="false">9 10 12 13 18 36 20</relation>
+      <relation position="3400036" relationship="false"></relation>
+      <relation position="3000034" relationship="false">30 36 34</relation>
+      <relation position="3200034" relationship="false">32 36 34</relation>
+      <relation position="3400039" relationship="false">34 36 18 13 12 39</relation>
+      <relation position="2800034" relationship="false">28 36 34</relation>
+      <relation position="2200034" relationship="false">22 36 34</relation>
+      <relation position="2400034" relationship="false">24 36 34</relation>
+      <relation position="2000034" relationship="false">20 36 34</relation>
+      <relation position="3000036" relationship="false"></relation>
+      <relation position="3200036" relationship="false"></relation>
+      <relation position="3600039" relationship="false">36 18 13 12 39</relation>
+      <relation position="2800036" relationship="false"></relation>
+      <relation position="2200036" relationship="false"></relation>
+      <relation position="2400036" relationship="false"></relation>
+      <relation position="2000036" relationship="false"></relation>
+      <relation position="3000032" relationship="false">30 36 32</relation>
+      <relation position="3000039" relationship="false">30 36 18 13 12 39</relation>
+      <relation position="2800030" relationship="false">28 36 30</relation>
+      <relation position="2200030" relationship="false">22 36 30</relation>
+      <relation position="2400030" relationship="false">24 36 30</relation>
+      <relation position="2000030" relationship="false">20 36 30</relation>
+      <relation position="3200039" relationship="false">32 36 18 13 12 39</relation>
+      <relation position="2800032" relationship="false">28 36 32</relation>
+      <relation position="2200032" relationship="false">22 36 32</relation>
+      <relation position="2400032" relationship="false">24 36 32</relation>
+      <relation position="2000032" relationship="false">20 36 32</relation>
+      <relation position="2800039" relationship="false">28 36 18 13 12 39</relation>
+      <relation position="2200039" relationship="false">22 36 18 13 12 39</relation>
+      <relation position="2400039" relationship="false">24 36 18 13 12 39</relation>
+      <relation position="2000039" relationship="false">20 36 18 13 12 39</relation>
+      <relation position="2200028" relationship="false">22 36 28</relation>
+      <relation position="2400028" relationship="false">24 36 28</relation>
+      <relation position="2000028" relationship="false">20 36 28</relation>
+      <relation position="2200024" relationship="false">22 36 24</relation>
+      <relation position="2000022" relationship="false">20 36 22</relation>
+      <relation position="2000024" relationship="false">20 36 24</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@E-cadherin@-associated@proteins@alpha-catenin@and@beta-catenin@were@not@significantly@affected@by@treatment@with@TPA@.@</sentence>
+   <tags>
+      <tag pos="5">alpha-catenin</tag>
+      <tag pos="7">beta-catenin</tag>
+      <tag pos="15">TPA</tag>
+      <tag pos="2">E-cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">E-cadherin</taggedword>
+      <taggedword index="3" part-of-speech="JJ">-associated</taggedword>
+      <taggedword index="4" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="5" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="8" part-of-speech="VBD">were</taggedword>
+      <taggedword index="9" part-of-speech="RB">not</taggedword>
+      <taggedword index="10" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="11" part-of-speech="VBN">affected</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="NNP">TPA</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="proteins" gov_index="4">det</dependency>
+      <dependency dep="E-cadherin" dep_index="2" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="-associated" dep_index="3" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="proteins" dep_index="4" gov="affected" gov_index="11">nsubjpass</dependency>
+      <dependency dep="alpha-catenin" dep_index="5" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="beta-catenin" dep_index="7" gov="proteins" gov_index="4">amod</dependency>
+      <dependency dep="beta-catenin" dep_index="7" gov="alpha-catenin" gov_index="5">conj_and</dependency>
+      <dependency dep="were" dep_index="8" gov="affected" gov_index="11">auxpass</dependency>
+      <dependency dep="not" dep_index="9" gov="affected" gov_index="11">neg</dependency>
+      <dependency dep="significantly" dep_index="10" gov="affected" gov_index="11">advmod</dependency>
+      <dependency dep="affected" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="treatment" dep_index="13" gov="affected" gov_index="11">agent</dependency>
+      <dependency dep="TPA" dep_index="15" gov="treatment" gov_index="13">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 4 7</relation>
+      <relation position="500015" relationship="false">5 4 11 13 15</relation>
+      <relation position="200005" relationship="true">2 4 5</relation>
+      <relation position="700015" relationship="false">7 4 11 13 15</relation>
+      <relation position="200007" relationship="true">2 4 7</relation>
+      <relation position="200015" relationship="false">2 4 11 13 15</relation>
+   </relations>
+   <pairs>
+      <pair>200005</pair>
+      <pair>200007</pair>
+   </pairs>
+</root>

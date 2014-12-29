@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Genetic@profile@of@22@pancreatic@carcinoma@cell@lines@.@Analysis@of@K-ras@,@p53@,@p16@and@DPC4@/@Smad4@.@</sentence>
+   <tags>
+      <tag pos="12">K-ras</tag>
+      <tag pos="14">p53</tag>
+      <tag pos="16">p16</tag>
+      <tag pos="18">DPC4</tag>
+      <tag pos="20">Smad4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Genetic</taggedword>
+      <taggedword index="2" part-of-speech="NN">profile</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">22</taggedword>
+      <taggedword index="5" part-of-speech="JJ">pancreatic</taggedword>
+      <taggedword index="6" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="7" part-of-speech="NN">cell</taggedword>
+      <taggedword index="8" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="9" part-of-speech=".">.</taggedword>
+      <taggedword index="10" part-of-speech="NNP">Analysis</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">K-ras</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CD">p53</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CD">p16</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="CD">DPC4</taggedword>
+      <taggedword index="19" part-of-speech=":">/</taggedword>
+      <taggedword index="20" part-of-speech="VBZ">Smad4</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Genetic" dep_index="1" gov="profile" gov_index="2">amod</dependency>
+      <dependency dep="profile" dep_index="2" gov="carcinoma" gov_index="6">dep</dependency>
+      <dependency dep="22" dep_index="4" gov="profile" gov_index="2">prep_of</dependency>
+      <dependency dep="pancreatic" dep_index="5" gov="carcinoma" gov_index="6">amod</dependency>
+      <dependency dep="carcinoma" dep_index="6" gov="Analysis" gov_index="10">dep</dependency>
+      <dependency dep="cell" dep_index="7" gov="lines" gov_index="8">nn</dependency>
+      <dependency dep="lines" dep_index="8" gov="carcinoma" gov_index="6">dep</dependency>
+      <dependency dep="Analysis" dep_index="10" gov="Smad4" gov_index="20">dep</dependency>
+      <dependency dep="K-ras" dep_index="12" gov="Analysis" gov_index="10">prep_of</dependency>
+      <dependency dep="p53" dep_index="14" gov="K-ras" gov_index="12">num</dependency>
+      <dependency dep="p16" dep_index="16" gov="K-ras" gov_index="12">num</dependency>
+      <dependency dep="DPC4" dep_index="18" gov="Analysis" gov_index="10">prep_of</dependency>
+      <dependency dep="DPC4" dep_index="18" gov="K-ras" gov_index="12">conj_and</dependency>
+      <dependency dep="/" dep_index="19" gov="Smad4" gov_index="20">punct</dependency>
+      <dependency dep="Smad4" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200014" relationship="false"></relation>
+      <relation position="1200016" relationship="false"></relation>
+      <relation position="1200018" relationship="false">12 10 18</relation>
+      <relation position="1200020" relationship="false"></relation>
+      <relation position="1400016" relationship="false">14 12 16</relation>
+      <relation position="1400018" relationship="false">14 12 10 18</relation>
+      <relation position="1400020" relationship="false"></relation>
+      <relation position="1600018" relationship="false">16 12 10 18</relation>
+      <relation position="1600020" relationship="false"></relation>
+      <relation position="1800020" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

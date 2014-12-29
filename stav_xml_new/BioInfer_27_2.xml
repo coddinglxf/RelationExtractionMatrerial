@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@ADP-ribosylation@of@actin@at@Arg95/Arg372@induced@by@turkey@erythrocyte transferase@decreased@the@nucleotide@dissociation@rate@to@1.5@x@10(3)@s-1@and@inhibited@the@profilin@-induced@stimulation@of@nucleotide@exchange@.@</sentence>
+   <tags>
+      <tag pos="26">profilin</tag>
+      <tag pos="12">erythrocyte transferase</tag>
+      <tag pos="6">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">ADP-ribosylation</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">actin</taggedword>
+      <taggedword index="7" part-of-speech="IN">at</taggedword>
+      <taggedword index="8" part-of-speech="NNS">Arg95/Arg372</taggedword>
+      <taggedword index="9" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="NN">turkey</taggedword>
+      <taggedword index="12" part-of-speech="NN">erythrocyte transferase</taggedword>
+      <taggedword index="13" part-of-speech="VBD">decreased</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">nucleotide</taggedword>
+      <taggedword index="16" part-of-speech="NN">dissociation</taggedword>
+      <taggedword index="17" part-of-speech="NN">rate</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="CD">1.5</taggedword>
+      <taggedword index="20" part-of-speech="CD">x</taggedword>
+      <taggedword index="21" part-of-speech="CD">10(3)</taggedword>
+      <taggedword index="22" part-of-speech="CD">s-1</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="JJ">profilin</taggedword>
+      <taggedword index="27" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="28" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="JJ">nucleotide</taggedword>
+      <taggedword index="31" part-of-speech="NN">exchange</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="decreased" gov_index="13">prep_in</dependency>
+      <dependency dep="ADP-ribosylation" dep_index="4" gov="decreased" gov_index="13">nsubj</dependency>
+      <dependency dep="ADP-ribosylation" dep_index="4" gov="inhibited" gov_index="24">nsubj</dependency>
+      <dependency dep="actin" dep_index="6" gov="ADP-ribosylation" gov_index="4">prep_of</dependency>
+      <dependency dep="Arg95/Arg372" dep_index="8" gov="actin" gov_index="6">prep_at</dependency>
+      <dependency dep="induced" dep_index="9" gov="Arg95/Arg372" gov_index="8">partmod</dependency>
+      <dependency dep="turkey" dep_index="11" gov="erythrocyte transferase" gov_index="12">nn</dependency>
+      <dependency dep="erythrocyte transferase" dep_index="12" gov="induced" gov_index="9">agent</dependency>
+      <dependency dep="decreased" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="rate" gov_index="17">det</dependency>
+      <dependency dep="nucleotide" dep_index="15" gov="rate" gov_index="17">amod</dependency>
+      <dependency dep="dissociation" dep_index="16" gov="rate" gov_index="17">nn</dependency>
+      <dependency dep="rate" dep_index="17" gov="decreased" gov_index="13">dobj</dependency>
+      <dependency dep="1.5" dep_index="19" gov="x" gov_index="20">number</dependency>
+      <dependency dep="x" dep_index="20" gov="s-1" gov_index="22">num</dependency>
+      <dependency dep="10(3)" dep_index="21" gov="s-1" gov_index="22">number</dependency>
+      <dependency dep="s-1" dep_index="22" gov="decreased" gov_index="13">prep_to</dependency>
+      <dependency dep="inhibited" dep_index="24" gov="decreased" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="25" gov="stimulation" gov_index="28">det</dependency>
+      <dependency dep="profilin" dep_index="26" gov="stimulation" gov_index="28">amod</dependency>
+      <dependency dep="-induced" dep_index="27" gov="stimulation" gov_index="28">amod</dependency>
+      <dependency dep="stimulation" dep_index="28" gov="inhibited" gov_index="24">dobj</dependency>
+      <dependency dep="nucleotide" dep_index="30" gov="exchange" gov_index="31">amod</dependency>
+      <dependency dep="exchange" dep_index="31" gov="stimulation" gov_index="28">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200026" relationship="false">12 9 8 6 4 24 28 26</relation>
+      <relation position="600026" relationship="false">6 4 24 28 26</relation>
+      <relation position="600012" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>600012</pair>
+   </pairs>
+</root>

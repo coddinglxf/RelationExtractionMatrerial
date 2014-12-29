@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>RESULTS@:@In@the@blister@fluid@of@patients@with@TEN@,@we@found@significantly@higher@levels@of@sIL-2R@than@in@patients@with@burns@,@whereas@IL-1alpha@levels@were@higher@in@the@blister@fluid@of@burned@patients@.@</sentence>
+   <tags>
+      <tag pos="18">sIL-2R</tag>
+      <tag pos="26">IL-1alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">RESULTS</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="IN">In</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">blister</taggedword>
+      <taggedword index="6" part-of-speech="NN">fluid</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="9" part-of-speech="IN">with</taggedword>
+      <taggedword index="10" part-of-speech="NNP">TEN</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="PRP">we</taggedword>
+      <taggedword index="13" part-of-speech="VBD">found</taggedword>
+      <taggedword index="14" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="15" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="16" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="CD">sIL-2R</taggedword>
+      <taggedword index="19" part-of-speech="IN">than</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="22" part-of-speech="IN">with</taggedword>
+      <taggedword index="23" part-of-speech="NNS">burns</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="26" part-of-speech="NN">IL-1alpha</taggedword>
+      <taggedword index="27" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="28" part-of-speech="VBD">were</taggedword>
+      <taggedword index="29" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="30" part-of-speech="IN">in</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="NN">blister</taggedword>
+      <taggedword index="33" part-of-speech="NN">fluid</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="JJ">burned</taggedword>
+      <taggedword index="36" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="RESULTS" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="fluid" gov_index="6">det</dependency>
+      <dependency dep="blister" dep_index="5" gov="fluid" gov_index="6">nn</dependency>
+      <dependency dep="fluid" dep_index="6" gov="found" gov_index="13">prep_in</dependency>
+      <dependency dep="patients" dep_index="8" gov="fluid" gov_index="6">prep_of</dependency>
+      <dependency dep="TEN" dep_index="10" gov="patients" gov_index="8">prep_with</dependency>
+      <dependency dep="we" dep_index="12" gov="found" gov_index="13">nsubj</dependency>
+      <dependency dep="found" dep_index="13" gov="RESULTS" gov_index="1">dep</dependency>
+      <dependency dep="significantly" dep_index="14" gov="higher" gov_index="15">advmod</dependency>
+      <dependency dep="higher" dep_index="15" gov="levels" gov_index="16">amod</dependency>
+      <dependency dep="levels" dep_index="16" gov="found" gov_index="13">dobj</dependency>
+      <dependency dep="sIL-2R" dep_index="18" gov="levels" gov_index="16">prep_of</dependency>
+      <dependency dep="than" dep_index="19" gov="found" gov_index="13">dep</dependency>
+      <dependency dep="patients" dep_index="21" gov="found" gov_index="13">prep_in</dependency>
+      <dependency dep="burns" dep_index="23" gov="patients" gov_index="21">prep_with</dependency>
+      <dependency dep="whereas" dep_index="25" gov="higher" gov_index="29">mark</dependency>
+      <dependency dep="IL-1alpha" dep_index="26" gov="levels" gov_index="27">nn</dependency>
+      <dependency dep="levels" dep_index="27" gov="higher" gov_index="29">nsubj</dependency>
+      <dependency dep="were" dep_index="28" gov="higher" gov_index="29">cop</dependency>
+      <dependency dep="higher" dep_index="29" gov="found" gov_index="13">advcl</dependency>
+      <dependency dep="the" dep_index="31" gov="fluid" gov_index="33">det</dependency>
+      <dependency dep="blister" dep_index="32" gov="fluid" gov_index="33">nn</dependency>
+      <dependency dep="fluid" dep_index="33" gov="higher" gov_index="29">prep_in</dependency>
+      <dependency dep="burned" dep_index="35" gov="patients" gov_index="36">amod</dependency>
+      <dependency dep="patients" dep_index="36" gov="fluid" gov_index="33">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800026" relationship="false">18 16 13 29 27 26</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@neoplastic@cells@were@positive@for@vimentin@,@Factor-XIIIa@,@alpha-smooth muscle actin@and@CD34@,@but@negative@for@desmin@,@calponin@,@high molecular weight caldesmon@,@smooth muscle myosin heavy chain@,@collagen type IV@,@laminin@and@S-100@protein@.@</sentence>
+   <tags>
+      <tag pos="24">smooth muscle myosin heavy chain</tag>
+      <tag pos="30">S-100</tag>
+      <tag pos="7">vimentin</tag>
+      <tag pos="11">alpha-smooth muscle actin</tag>
+      <tag pos="9">Factor-XIIIa</tag>
+      <tag pos="18">desmin</tag>
+      <tag pos="13">CD34</tag>
+      <tag pos="22">high molecular weight caldesmon</tag>
+      <tag pos="20">calponin</tag>
+      <tag pos="26">collagen type IV</tag>
+      <tag pos="28">laminin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">neoplastic</taggedword>
+      <taggedword index="3" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="4" part-of-speech="VBD">were</taggedword>
+      <taggedword index="5" part-of-speech="JJ">positive</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="NNP">vimentin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Factor-XIIIa</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">alpha-smooth muscle actin</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NNP">CD34</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">but</taggedword>
+      <taggedword index="16" part-of-speech="JJ">negative</taggedword>
+      <taggedword index="17" part-of-speech="IN">for</taggedword>
+      <taggedword index="18" part-of-speech="NN">desmin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NN">calponin</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NN">high molecular weight caldesmon</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="NN">smooth muscle myosin heavy chain</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="NN">collagen type IV</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NNS">laminin</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="NN">S-100</taggedword>
+      <taggedword index="31" part-of-speech="NN">protein</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="cells" gov_index="3">det</dependency>
+      <dependency dep="neoplastic" dep_index="2" gov="cells" gov_index="3">amod</dependency>
+      <dependency dep="cells" dep_index="3" gov="positive" gov_index="5">nsubj</dependency>
+      <dependency dep="cells" dep_index="3" gov="negative" gov_index="16">nsubj</dependency>
+      <dependency dep="were" dep_index="4" gov="positive" gov_index="5">cop</dependency>
+      <dependency dep="positive" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="vimentin" dep_index="7" gov="positive" gov_index="5">prep_for</dependency>
+      <dependency dep="Factor-XIIIa" dep_index="9" gov="positive" gov_index="5">prep_for</dependency>
+      <dependency dep="Factor-XIIIa" dep_index="9" gov="vimentin" gov_index="7">conj_and</dependency>
+      <dependency dep="alpha-smooth muscle actin" dep_index="11" gov="positive" gov_index="5">prep_for</dependency>
+      <dependency dep="alpha-smooth muscle actin" dep_index="11" gov="vimentin" gov_index="7">conj_and</dependency>
+      <dependency dep="CD34" dep_index="13" gov="positive" gov_index="5">prep_for</dependency>
+      <dependency dep="CD34" dep_index="13" gov="vimentin" gov_index="7">conj_and</dependency>
+      <dependency dep="negative" dep_index="16" gov="positive" gov_index="5">conj_but</dependency>
+      <dependency dep="desmin" dep_index="18" gov="laminin" gov_index="28">nn</dependency>
+      <dependency dep="calponin" dep_index="20" gov="laminin" gov_index="28">dep</dependency>
+      <dependency dep="high molecular weight caldesmon" dep_index="22" gov="laminin" gov_index="28">dep</dependency>
+      <dependency dep="smooth muscle myosin heavy chain" dep_index="24" gov="laminin" gov_index="28">dep</dependency>
+      <dependency dep="collagen type IV" dep_index="26" gov="laminin" gov_index="28">dep</dependency>
+      <dependency dep="laminin" dep_index="28" gov="negative" gov_index="16">prep_for</dependency>
+      <dependency dep="S-100" dep_index="30" gov="protein" gov_index="31">nn</dependency>
+      <dependency dep="protein" dep_index="31" gov="negative" gov_index="16">prep_for</dependency>
+      <dependency dep="protein" dep_index="31" gov="laminin" gov_index="28">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2400030" relationship="false">24 28 16 31 30</relation>
+      <relation position="700024" relationship="false">7 5 16 28 24</relation>
+      <relation position="1100024" relationship="false">11 5 16 28 24</relation>
+      <relation position="900024" relationship="false">9 5 16 28 24</relation>
+      <relation position="1800024" relationship="false">18 28 24</relation>
+      <relation position="1300024" relationship="false">13 5 16 28 24</relation>
+      <relation position="2200024" relationship="false">22 28 24</relation>
+      <relation position="2000024" relationship="false">20 28 24</relation>
+      <relation position="2400026" relationship="false">24 28 26</relation>
+      <relation position="2400028" relationship="false"></relation>
+      <relation position="700030" relationship="false">7 5 16 31 30</relation>
+      <relation position="1100030" relationship="false">11 5 16 31 30</relation>
+      <relation position="900030" relationship="false">9 5 16 31 30</relation>
+      <relation position="1800030" relationship="false">18 28 16 31 30</relation>
+      <relation position="1300030" relationship="false">13 5 16 31 30</relation>
+      <relation position="2200030" relationship="false">22 28 16 31 30</relation>
+      <relation position="2000030" relationship="false">20 28 16 31 30</relation>
+      <relation position="2600030" relationship="false">26 28 16 31 30</relation>
+      <relation position="2800030" relationship="false">28 16 31 30</relation>
+      <relation position="700011" relationship="false">7 5 11</relation>
+      <relation position="700009" relationship="false">7 5 9</relation>
+      <relation position="700018" relationship="false">7 5 16 28 18</relation>
+      <relation position="700013" relationship="false">7 5 13</relation>
+      <relation position="700022" relationship="false">7 5 16 28 22</relation>
+      <relation position="700020" relationship="false">7 5 16 28 20</relation>
+      <relation position="700026" relationship="false">7 5 16 28 26</relation>
+      <relation position="700028" relationship="false">7 5 16 28</relation>
+      <relation position="900011" relationship="false">9 5 11</relation>
+      <relation position="1100018" relationship="false">11 5 16 28 18</relation>
+      <relation position="1100013" relationship="false">11 5 13</relation>
+      <relation position="1100022" relationship="false">11 5 16 28 22</relation>
+      <relation position="1100020" relationship="false">11 5 16 28 20</relation>
+      <relation position="1100026" relationship="false">11 5 16 28 26</relation>
+      <relation position="1100028" relationship="false">11 5 16 28</relation>
+      <relation position="900018" relationship="false">9 5 16 28 18</relation>
+      <relation position="900013" relationship="false">9 5 13</relation>
+      <relation position="900022" relationship="false">9 5 16 28 22</relation>
+      <relation position="900020" relationship="false">9 5 16 28 20</relation>
+      <relation position="900026" relationship="false">9 5 16 28 26</relation>
+      <relation position="900028" relationship="false">9 5 16 28</relation>
+      <relation position="1300018" relationship="false">13 5 16 28 18</relation>
+      <relation position="1800022" relationship="false">18 28 22</relation>
+      <relation position="1800020" relationship="false">18 28 20</relation>
+      <relation position="1800026" relationship="false">18 28 26</relation>
+      <relation position="1800028" relationship="false"></relation>
+      <relation position="1300022" relationship="false">13 5 16 28 22</relation>
+      <relation position="1300020" relationship="false">13 5 16 28 20</relation>
+      <relation position="1300026" relationship="false">13 5 16 28 26</relation>
+      <relation position="1300028" relationship="false">13 5 16 28</relation>
+      <relation position="2000022" relationship="false">20 28 22</relation>
+      <relation position="2200026" relationship="false">22 28 26</relation>
+      <relation position="2200028" relationship="false"></relation>
+      <relation position="2000026" relationship="false">20 28 26</relation>
+      <relation position="2000028" relationship="false"></relation>
+      <relation position="2600028" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

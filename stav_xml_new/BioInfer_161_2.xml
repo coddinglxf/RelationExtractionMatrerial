@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Experiments@using@a@peptide@that@corresponds@to@the@N-terminus@of@thymosin beta(4)@(residues@6-22)@confirm@the@presence@of@an@extensive@binding@surface@between@actin@and@thymosin beta(4)@,@and@explain@why@thymosin beta(4)@and@profilin@can@bind@simultaneously@to@actin@.@</sentence>
+   <tags>
+      <tag pos="37">actin</tag>
+      <tag pos="30">thymosin beta(4)</tag>
+      <tag pos="23">actin</tag>
+      <tag pos="11">thymosin beta(4)</tag>
+      <tag pos="25">thymosin beta(4)</tag>
+      <tag pos="32">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Experiments</taggedword>
+      <taggedword index="2" part-of-speech="VBG">using</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">peptide</taggedword>
+      <taggedword index="5" part-of-speech="WDT">that</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">corresponds</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNP">N-terminus</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="CD">thymosin beta(4)</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">(residues</taggedword>
+      <taggedword index="13" part-of-speech="CD">6-22)</taggedword>
+      <taggedword index="14" part-of-speech="VB">confirm</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">presence</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">an</taggedword>
+      <taggedword index="19" part-of-speech="JJ">extensive</taggedword>
+      <taggedword index="20" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="21" part-of-speech="NN">surface</taggedword>
+      <taggedword index="22" part-of-speech="IN">between</taggedword>
+      <taggedword index="23" part-of-speech="NN">actin</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="NN">thymosin beta(4)</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="VB">explain</taggedword>
+      <taggedword index="29" part-of-speech="WRB">why</taggedword>
+      <taggedword index="30" part-of-speech="NNS">thymosin beta(4)</taggedword>
+      <taggedword index="31" part-of-speech="CC">and</taggedword>
+      <taggedword index="32" part-of-speech="NNS">profilin</taggedword>
+      <taggedword index="33" part-of-speech="MD">can</taggedword>
+      <taggedword index="34" part-of-speech="VB">bind</taggedword>
+      <taggedword index="35" part-of-speech="RB">simultaneously</taggedword>
+      <taggedword index="36" part-of-speech="TO">to</taggedword>
+      <taggedword index="37" part-of-speech="NN">actin</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Experiments" dep_index="1" gov="(residues" gov_index="12">nsubj</dependency>
+      <dependency dep="using" dep_index="2" gov="Experiments" gov_index="1">partmod</dependency>
+      <dependency dep="a" dep_index="3" gov="peptide" gov_index="4">det</dependency>
+      <dependency dep="peptide" dep_index="4" gov="using" gov_index="2">dobj</dependency>
+      <dependency dep="peptide" dep_index="4" gov="corresponds" gov_index="6">nsubj</dependency>
+      <dependency dep="corresponds" dep_index="6" gov="peptide" gov_index="4">rcmod</dependency>
+      <dependency dep="the" dep_index="8" gov="N-terminus" gov_index="9">det</dependency>
+      <dependency dep="N-terminus" dep_index="9" gov="corresponds" gov_index="6">prep_to</dependency>
+      <dependency dep="thymosin beta(4)" dep_index="11" gov="N-terminus" gov_index="9">prep_of</dependency>
+      <dependency dep="(residues" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="6-22)" dep_index="13" gov="confirm" gov_index="14">nsubj</dependency>
+      <dependency dep="6-22)" dep_index="13" gov="explain" gov_index="28">nsubj</dependency>
+      <dependency dep="confirm" dep_index="14" gov="(residues" gov_index="12">ccomp</dependency>
+      <dependency dep="the" dep_index="15" gov="presence" gov_index="16">det</dependency>
+      <dependency dep="presence" dep_index="16" gov="confirm" gov_index="14">dobj</dependency>
+      <dependency dep="an" dep_index="18" gov="surface" gov_index="21">det</dependency>
+      <dependency dep="extensive" dep_index="19" gov="surface" gov_index="21">amod</dependency>
+      <dependency dep="binding" dep_index="20" gov="surface" gov_index="21">amod</dependency>
+      <dependency dep="surface" dep_index="21" gov="presence" gov_index="16">prep_of</dependency>
+      <dependency dep="actin" dep_index="23" gov="surface" gov_index="21">prep_between</dependency>
+      <dependency dep="thymosin beta(4)" dep_index="25" gov="surface" gov_index="21">prep_between</dependency>
+      <dependency dep="thymosin beta(4)" dep_index="25" gov="actin" gov_index="23">conj_and</dependency>
+      <dependency dep="explain" dep_index="28" gov="(residues" gov_index="12">ccomp</dependency>
+      <dependency dep="explain" dep_index="28" gov="confirm" gov_index="14">conj_and</dependency>
+      <dependency dep="why" dep_index="29" gov="bind" gov_index="34">advmod</dependency>
+      <dependency dep="thymosin beta(4)" dep_index="30" gov="bind" gov_index="34">nsubj</dependency>
+      <dependency dep="profilin" dep_index="32" gov="thymosin beta(4)" gov_index="30">conj_and</dependency>
+      <dependency dep="profilin" dep_index="32" gov="bind" gov_index="34">nsubj</dependency>
+      <dependency dep="can" dep_index="33" gov="bind" gov_index="34">aux</dependency>
+      <dependency dep="bind" dep_index="34" gov="explain" gov_index="28">advcl</dependency>
+      <dependency dep="simultaneously" dep_index="35" gov="bind" gov_index="34">advmod</dependency>
+      <dependency dep="actin" dep_index="37" gov="bind" gov_index="34">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3000037" relationship="true">30 34 37</relation>
+      <relation position="2300037" relationship="false">23 21 16 14 12 28 34 37</relation>
+      <relation position="1100037" relationship="false">11 9 6 4 2 1 12 28 34 37</relation>
+      <relation position="2500037" relationship="false">25 21 16 14 12 28 34 37</relation>
+      <relation position="3200037" relationship="true">32 34 37</relation>
+      <relation position="2300030" relationship="false">23 21 16 14 12 28 34 30</relation>
+      <relation position="1100030" relationship="false">11 9 6 4 2 1 12 28 34 30</relation>
+      <relation position="2500030" relationship="false">25 21 16 14 12 28 34 30</relation>
+      <relation position="3000032" relationship="true">30 34 32</relation>
+      <relation position="1100023" relationship="false">11 9 6 4 2 1 12 14 16 21 23</relation>
+      <relation position="2300025" relationship="true">23 21 25</relation>
+      <relation position="2300032" relationship="false">23 21 16 14 12 28 34 32</relation>
+      <relation position="1100025" relationship="false">11 9 6 4 2 1 12 14 16 21 25</relation>
+      <relation position="1100032" relationship="false">11 9 6 4 2 1 12 28 34 32</relation>
+      <relation position="2500032" relationship="false">25 21 16 14 12 28 34 32</relation>
+   </relations>
+   <pairs>
+      <pair>3000037</pair>
+      <pair>3000032</pair>
+      <pair>3200037</pair>
+      <pair>2300025</pair>
+   </pairs>
+</root>

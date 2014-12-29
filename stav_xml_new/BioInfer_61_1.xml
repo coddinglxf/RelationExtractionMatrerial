@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Analysis@of@various@truncated@alpha-catenin@molecules@revealed@that@amino-terminal@residues@48-163@are@able@to@bind@to@beta-catenin@and@plakoglobin@.@</sentence>
+   <tags>
+      <tag pos="19">plakoglobin</tag>
+      <tag pos="17">beta-catenin</tag>
+      <tag pos="5">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Analysis</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">various</taggedword>
+      <taggedword index="4" part-of-speech="JJ">truncated</taggedword>
+      <taggedword index="5" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="6" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="7" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="10" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="11" part-of-speech="CD">48-163</taggedword>
+      <taggedword index="12" part-of-speech="VBP">are</taggedword>
+      <taggedword index="13" part-of-speech="JJ">able</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="NN">bind</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Analysis" dep_index="1" gov="revealed" gov_index="7">nsubj</dependency>
+      <dependency dep="various" dep_index="3" gov="molecules" gov_index="6">amod</dependency>
+      <dependency dep="truncated" dep_index="4" gov="molecules" gov_index="6">amod</dependency>
+      <dependency dep="alpha-catenin" dep_index="5" gov="molecules" gov_index="6">amod</dependency>
+      <dependency dep="molecules" dep_index="6" gov="Analysis" gov_index="1">prep_of</dependency>
+      <dependency dep="revealed" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="able" gov_index="13">mark</dependency>
+      <dependency dep="amino-terminal" dep_index="9" gov="residues" gov_index="10">amod</dependency>
+      <dependency dep="residues" dep_index="10" gov="able" gov_index="13">nsubj</dependency>
+      <dependency dep="48-163" dep_index="11" gov="residues" gov_index="10">dep</dependency>
+      <dependency dep="are" dep_index="12" gov="able" gov_index="13">cop</dependency>
+      <dependency dep="able" dep_index="13" gov="revealed" gov_index="7">ccomp</dependency>
+      <dependency dep="bind" dep_index="15" gov="able" gov_index="13">prep_to</dependency>
+      <dependency dep="beta-catenin" dep_index="17" gov="able" gov_index="13">prep_to</dependency>
+      <dependency dep="plakoglobin" dep_index="19" gov="able" gov_index="13">prep_to</dependency>
+      <dependency dep="plakoglobin" dep_index="19" gov="beta-catenin" gov_index="17">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700019" relationship="false">17 13 19</relation>
+      <relation position="500019" relationship="true">5 6 1 7 13 19</relation>
+      <relation position="500017" relationship="true">5 6 1 7 13 17</relation>
+   </relations>
+   <pairs>
+      <pair>500017</pair>
+      <pair>500019</pair>
+   </pairs>
+</root>

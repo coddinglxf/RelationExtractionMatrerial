@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>FXIII@also@was@shown@to@coprecipitate@with@HSP27@in@immunoprecipitation@studies@and@to@colocalize@with@HSP27@in@immunofluorescence@studies@of@intact@glass-activated@platelets@.@</sentence>
+   <tags>
+      <tag pos="1">FXIII</tag>
+      <tag pos="8">HSP27</tag>
+      <tag pos="16">HSP27</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">FXIII</taggedword>
+      <taggedword index="2" part-of-speech="RB">also</taggedword>
+      <taggedword index="3" part-of-speech="VBD">was</taggedword>
+      <taggedword index="4" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="VB">coprecipitate</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="NNP">HSP27</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="NN">immunoprecipitation</taggedword>
+      <taggedword index="11" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="VB">colocalize</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="NNP">HSP27</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="JJ">immunofluorescence</taggedword>
+      <taggedword index="19" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="JJ">intact</taggedword>
+      <taggedword index="22" part-of-speech="JJ">glass-activated</taggedword>
+      <taggedword index="23" part-of-speech="NNS">platelets</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="FXIII" dep_index="1" gov="shown" gov_index="4">nsubjpass</dependency>
+      <dependency dep="also" dep_index="2" gov="shown" gov_index="4">advmod</dependency>
+      <dependency dep="was" dep_index="3" gov="shown" gov_index="4">auxpass</dependency>
+      <dependency dep="shown" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="5" gov="coprecipitate" gov_index="6">aux</dependency>
+      <dependency dep="coprecipitate" dep_index="6" gov="shown" gov_index="4">ccomp</dependency>
+      <dependency dep="HSP27" dep_index="8" gov="coprecipitate" gov_index="6">prep_with</dependency>
+      <dependency dep="immunoprecipitation" dep_index="10" gov="studies" gov_index="11">nn</dependency>
+      <dependency dep="studies" dep_index="11" gov="coprecipitate" gov_index="6">prep_in</dependency>
+      <dependency dep="to" dep_index="13" gov="colocalize" gov_index="14">aux</dependency>
+      <dependency dep="colocalize" dep_index="14" gov="shown" gov_index="4">ccomp</dependency>
+      <dependency dep="colocalize" dep_index="14" gov="coprecipitate" gov_index="6">conj_and</dependency>
+      <dependency dep="HSP27" dep_index="16" gov="colocalize" gov_index="14">prep_with</dependency>
+      <dependency dep="immunofluorescence" dep_index="18" gov="studies" gov_index="19">amod</dependency>
+      <dependency dep="studies" dep_index="19" gov="colocalize" gov_index="14">prep_in</dependency>
+      <dependency dep="intact" dep_index="21" gov="platelets" gov_index="23">amod</dependency>
+      <dependency dep="glass-activated" dep_index="22" gov="platelets" gov_index="23">amod</dependency>
+      <dependency dep="platelets" dep_index="23" gov="studies" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100008" relationship="true">1 4 6 8</relation>
+      <relation position="100016" relationship="false">1 4 14 16</relation>
+      <relation position="800016" relationship="false">8 6 4 14 16</relation>
+   </relations>
+   <pairs>
+      <pair>100008</pair>
+   </pairs>
+</root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@response@was@not@inhibited@by@nifedipine@,@a@blocker@of@the@voltage-dependent@calcium@channel@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">response</taggedword>
+      <taggedword index="3" part-of-speech="VBD">was</taggedword>
+      <taggedword index="4" part-of-speech="RB">not</taggedword>
+      <taggedword index="5" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="NN">nifedipine</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="NN">blocker</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">voltage-dependent</taggedword>
+      <taggedword index="14" part-of-speech="NN">calcium</taggedword>
+      <taggedword index="15" part-of-speech="NN">channel</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="response" gov_index="2">det</dependency>
+      <dependency dep="response" dep_index="2" gov="inhibited" gov_index="5">nsubjpass</dependency>
+      <dependency dep="was" dep_index="3" gov="inhibited" gov_index="5">auxpass</dependency>
+      <dependency dep="not" dep_index="4" gov="inhibited" gov_index="5">neg</dependency>
+      <dependency dep="inhibited" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="nifedipine" dep_index="7" gov="inhibited" gov_index="5">agent</dependency>
+      <dependency dep="a" dep_index="9" gov="blocker" gov_index="10">det</dependency>
+      <dependency dep="blocker" dep_index="10" gov="nifedipine" gov_index="7">appos</dependency>
+      <dependency dep="the" dep_index="12" gov="channel" gov_index="15">det</dependency>
+      <dependency dep="voltage-dependent" dep_index="13" gov="channel" gov_index="15">amod</dependency>
+      <dependency dep="calcium" dep_index="14" gov="channel" gov_index="15">nn</dependency>
+      <dependency dep="channel" dep_index="15" gov="blocker" gov_index="10">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@mouse@brain@profilin I@and@profilin II@associate@with@regulators@of@the@endocytic@pathway@and@actin@assembly@.@</sentence>
+   <tags>
+      <tag pos="6">profilin II</tag>
+      <tag pos="15">actin</tag>
+      <tag pos="4">profilin I</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="3" part-of-speech="NN">brain</taggedword>
+      <taggedword index="4" part-of-speech="NNS">profilin I</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNS">profilin II</taggedword>
+      <taggedword index="7" part-of-speech="VBP">associate</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NNS">regulators</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">endocytic</taggedword>
+      <taggedword index="13" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">actin</taggedword>
+      <taggedword index="16" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="mouse" dep_index="2" gov="associate" gov_index="7">prep_in</dependency>
+      <dependency dep="brain" dep_index="3" gov="profilin I" gov_index="4">nn</dependency>
+      <dependency dep="profilin I" dep_index="4" gov="associate" gov_index="7">nsubj</dependency>
+      <dependency dep="profilin II" dep_index="6" gov="profilin I" gov_index="4">conj_and</dependency>
+      <dependency dep="profilin II" dep_index="6" gov="associate" gov_index="7">nsubj</dependency>
+      <dependency dep="associate" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="regulators" dep_index="9" gov="associate" gov_index="7">prep_with</dependency>
+      <dependency dep="the" dep_index="11" gov="pathway" gov_index="13">det</dependency>
+      <dependency dep="endocytic" dep_index="12" gov="pathway" gov_index="13">amod</dependency>
+      <dependency dep="pathway" dep_index="13" gov="regulators" gov_index="9">prep_of</dependency>
+      <dependency dep="actin" dep_index="15" gov="assembly" gov_index="16">nn</dependency>
+      <dependency dep="assembly" dep_index="16" gov="regulators" gov_index="9">prep_of</dependency>
+      <dependency dep="assembly" dep_index="16" gov="pathway" gov_index="13">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600015" relationship="false">6 7 9 16 15</relation>
+      <relation position="400006" relationship="false">4 7 6</relation>
+      <relation position="400015" relationship="false">4 7 9 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

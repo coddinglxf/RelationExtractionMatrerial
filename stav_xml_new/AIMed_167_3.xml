@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cross-linking@studies@were@carried@out@with@the@aim@of@investigating@the@interactions@of@calnexin@with@glycoproteins@in@vitro@.@</sentence>
+   <tags>
+      <tag pos="14">calnexin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Cross-linking</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="VBD">were</taggedword>
+      <taggedword index="4" part-of-speech="VBN">carried</taggedword>
+      <taggedword index="5" part-of-speech="RP">out</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">aim</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="VBG">investigating</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">calnexin</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="NNS">glycoproteins</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="NNP">vitro</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cross-linking" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="carried" gov_index="4">nsubjpass</dependency>
+      <dependency dep="were" dep_index="3" gov="carried" gov_index="4">auxpass</dependency>
+      <dependency dep="carried" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="out" dep_index="5" gov="carried" gov_index="4">prt</dependency>
+      <dependency dep="the" dep_index="7" gov="aim" gov_index="8">det</dependency>
+      <dependency dep="aim" dep_index="8" gov="carried" gov_index="4">prep_with</dependency>
+      <dependency dep="investigating" dep_index="10" gov="aim" gov_index="8">prepc_of</dependency>
+      <dependency dep="the" dep_index="11" gov="interactions" gov_index="12">det</dependency>
+      <dependency dep="interactions" dep_index="12" gov="investigating" gov_index="10">dobj</dependency>
+      <dependency dep="calnexin" dep_index="14" gov="interactions" gov_index="12">prep_of</dependency>
+      <dependency dep="glycoproteins" dep_index="16" gov="investigating" gov_index="10">prep_with</dependency>
+      <dependency dep="vitro" dep_index="18" gov="glycoproteins" gov_index="16">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

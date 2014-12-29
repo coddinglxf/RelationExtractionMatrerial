@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Co-precipitation@experiments@using@whole@cell@lysates@indicate@that@the@mutant@form@of@alpha-catenin@binds@beta-catenin@and@plakoglobin@,@and@can@form@a@structural@complex@with@E-cadherin@via@these@interactions@.@</sentence>
+   <tags>
+      <tag pos="13">alpha-catenin</tag>
+      <tag pos="26">E-cadherin</tag>
+      <tag pos="15">beta-catenin</tag>
+      <tag pos="17">plakoglobin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Co-precipitation</taggedword>
+      <taggedword index="2" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="3" part-of-speech="VBG">using</taggedword>
+      <taggedword index="4" part-of-speech="JJ">whole</taggedword>
+      <taggedword index="5" part-of-speech="NN">cell</taggedword>
+      <taggedword index="6" part-of-speech="NNS">lysates</taggedword>
+      <taggedword index="7" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">mutant</taggedword>
+      <taggedword index="11" part-of-speech="NN">form</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="15" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="MD">can</taggedword>
+      <taggedword index="21" part-of-speech="VB">form</taggedword>
+      <taggedword index="22" part-of-speech="DT">a</taggedword>
+      <taggedword index="23" part-of-speech="JJ">structural</taggedword>
+      <taggedword index="24" part-of-speech="NN">complex</taggedword>
+      <taggedword index="25" part-of-speech="IN">with</taggedword>
+      <taggedword index="26" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="27" part-of-speech="IN">via</taggedword>
+      <taggedword index="28" part-of-speech="DT">these</taggedword>
+      <taggedword index="29" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Co-precipitation" dep_index="1" gov="experiments" gov_index="2">amod</dependency>
+      <dependency dep="experiments" dep_index="2" gov="indicate" gov_index="7">nsubj</dependency>
+      <dependency dep="using" dep_index="3" gov="experiments" gov_index="2">partmod</dependency>
+      <dependency dep="whole" dep_index="4" gov="lysates" gov_index="6">amod</dependency>
+      <dependency dep="cell" dep_index="5" gov="lysates" gov_index="6">nn</dependency>
+      <dependency dep="lysates" dep_index="6" gov="using" gov_index="3">dobj</dependency>
+      <dependency dep="indicate" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="binds" gov_index="14">mark</dependency>
+      <dependency dep="the" dep_index="9" gov="form" gov_index="11">det</dependency>
+      <dependency dep="mutant" dep_index="10" gov="form" gov_index="11">amod</dependency>
+      <dependency dep="form" dep_index="11" gov="binds" gov_index="14">nsubj</dependency>
+      <dependency dep="form" dep_index="11" gov="form" gov_index="21">nsubj</dependency>
+      <dependency dep="alpha-catenin" dep_index="13" gov="form" gov_index="11">prep_of</dependency>
+      <dependency dep="binds" dep_index="14" gov="indicate" gov_index="7">ccomp</dependency>
+      <dependency dep="beta-catenin" dep_index="15" gov="binds" gov_index="14">dobj</dependency>
+      <dependency dep="plakoglobin" dep_index="17" gov="binds" gov_index="14">dobj</dependency>
+      <dependency dep="plakoglobin" dep_index="17" gov="beta-catenin" gov_index="15">conj_and</dependency>
+      <dependency dep="can" dep_index="20" gov="form" gov_index="21">aux</dependency>
+      <dependency dep="form" dep_index="21" gov="indicate" gov_index="7">ccomp</dependency>
+      <dependency dep="form" dep_index="21" gov="binds" gov_index="14">conj_and</dependency>
+      <dependency dep="a" dep_index="22" gov="complex" gov_index="24">det</dependency>
+      <dependency dep="structural" dep_index="23" gov="complex" gov_index="24">amod</dependency>
+      <dependency dep="complex" dep_index="24" gov="form" gov_index="21">dobj</dependency>
+      <dependency dep="E-cadherin" dep_index="26" gov="form" gov_index="21">prep_with</dependency>
+      <dependency dep="these" dep_index="28" gov="interactions" gov_index="29">det</dependency>
+      <dependency dep="interactions" dep_index="29" gov="E-cadherin" gov_index="26">prep_via</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300026" relationship="true">13 11 21 26</relation>
+      <relation position="1300015" relationship="true">13 11 14 15</relation>
+      <relation position="1300017" relationship="true">13 11 14 17</relation>
+      <relation position="1500026" relationship="true">15 14 7 21 26</relation>
+      <relation position="1700026" relationship="true">17 14 7 21 26</relation>
+      <relation position="1500017" relationship="false">15 14 17</relation>
+   </relations>
+   <pairs>
+      <pair>1500026</pair>
+      <pair>1300017</pair>
+      <pair>1700026</pair>
+      <pair>1300026</pair>
+      <pair>1300015</pair>
+   </pairs>
+</root>

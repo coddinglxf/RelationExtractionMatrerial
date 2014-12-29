@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Taken@together@,@this@study@reveals@a@more@complex@pattern@of@regulatory@interactions@involving@the@helix-loop-helix@proteins@than@was@previously@anticipated@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Taken</taggedword>
+      <taggedword index="2" part-of-speech="RB">together</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">this</taggedword>
+      <taggedword index="5" part-of-speech="NN">study</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">reveals</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="RBR">more</taggedword>
+      <taggedword index="9" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="10" part-of-speech="NN">pattern</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="JJ">regulatory</taggedword>
+      <taggedword index="13" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="14" part-of-speech="VBG">involving</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="JJ">helix-loop-helix</taggedword>
+      <taggedword index="17" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="18" part-of-speech="IN">than</taggedword>
+      <taggedword index="19" part-of-speech="VBD">was</taggedword>
+      <taggedword index="20" part-of-speech="RB">previously</taggedword>
+      <taggedword index="21" part-of-speech="VBN">anticipated</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Taken" dep_index="1" gov="reveals" gov_index="6">partmod</dependency>
+      <dependency dep="together" dep_index="2" gov="Taken" gov_index="1">advmod</dependency>
+      <dependency dep="this" dep_index="4" gov="study" gov_index="5">det</dependency>
+      <dependency dep="study" dep_index="5" gov="reveals" gov_index="6">nsubj</dependency>
+      <dependency dep="reveals" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="7" gov="pattern" gov_index="10">det</dependency>
+      <dependency dep="more" dep_index="8" gov="complex" gov_index="9">advmod</dependency>
+      <dependency dep="complex" dep_index="9" gov="pattern" gov_index="10">amod</dependency>
+      <dependency dep="pattern" dep_index="10" gov="reveals" gov_index="6">dobj</dependency>
+      <dependency dep="regulatory" dep_index="12" gov="interactions" gov_index="13">amod</dependency>
+      <dependency dep="interactions" dep_index="13" gov="pattern" gov_index="10">prep_of</dependency>
+      <dependency dep="involving" dep_index="14" gov="interactions" gov_index="13">partmod</dependency>
+      <dependency dep="the" dep_index="15" gov="proteins" gov_index="17">det</dependency>
+      <dependency dep="helix-loop-helix" dep_index="16" gov="proteins" gov_index="17">amod</dependency>
+      <dependency dep="proteins" dep_index="17" gov="involving" gov_index="14">dobj</dependency>
+      <dependency dep="than" dep_index="18" gov="anticipated" gov_index="21">mark</dependency>
+      <dependency dep="was" dep_index="19" gov="anticipated" gov_index="21">auxpass</dependency>
+      <dependency dep="previously" dep_index="20" gov="anticipated" gov_index="21">advmod</dependency>
+      <dependency dep="anticipated" dep_index="21" gov="involving" gov_index="14">advcl</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

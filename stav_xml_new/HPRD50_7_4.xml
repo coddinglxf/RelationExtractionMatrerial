@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Finally@,@a@direct@interaction@between@PPARgamma@and@NRF2@was@confirmed@by@glutathione S-transferase@pull-down@assay@</sentence>
+   <tags>
+      <tag pos="9">NRF2</tag>
+      <tag pos="13">glutathione S-transferase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Finally</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="5" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="6" part-of-speech="IN">between</taggedword>
+      <taggedword index="7" part-of-speech="NNP">PPARgamma</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNP">NRF2</taggedword>
+      <taggedword index="10" part-of-speech="VBD">was</taggedword>
+      <taggedword index="11" part-of-speech="VBN">confirmed</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="JJ">glutathione S-transferase</taggedword>
+      <taggedword index="14" part-of-speech="JJ">pull-down</taggedword>
+      <taggedword index="15" part-of-speech="NN">assay</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Finally" dep_index="1" gov="confirmed" gov_index="11">advmod</dependency>
+      <dependency dep="a" dep_index="3" gov="interaction" gov_index="5">det</dependency>
+      <dependency dep="direct" dep_index="4" gov="interaction" gov_index="5">amod</dependency>
+      <dependency dep="interaction" dep_index="5" gov="confirmed" gov_index="11">nsubjpass</dependency>
+      <dependency dep="PPARgamma" dep_index="7" gov="interaction" gov_index="5">prep_between</dependency>
+      <dependency dep="NRF2" dep_index="9" gov="interaction" gov_index="5">prep_between</dependency>
+      <dependency dep="NRF2" dep_index="9" gov="PPARgamma" gov_index="7">conj_and</dependency>
+      <dependency dep="was" dep_index="10" gov="confirmed" gov_index="11">auxpass</dependency>
+      <dependency dep="confirmed" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="glutathione S-transferase" dep_index="13" gov="assay" gov_index="15">amod</dependency>
+      <dependency dep="pull-down" dep_index="14" gov="assay" gov_index="15">amod</dependency>
+      <dependency dep="assay" dep_index="15" gov="confirmed" gov_index="11">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="false">9 5 11 15 13</relation>
+   </relations>
+   <pairs/>
+</root>

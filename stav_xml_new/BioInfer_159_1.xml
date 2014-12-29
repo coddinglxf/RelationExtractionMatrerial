@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CV-1@cells@were@transfected@with@cloned@genes@from@wild-type@HPIV-3@encoding@the@large protein@(@L@),@phosphoprotein@(@P@),@and@nucleocapsid protein@(@NP@),@alone@or@together@,@for@the@expression@of@biologically@active@proteins@.@</sentence>
+   <tags>
+      <tag pos="15">L</tag>
+      <tag pos="24">NP</tag>
+      <tag pos="22">nucleocapsid protein</tag>
+      <tag pos="13">large protein</tag>
+      <tag pos="19">P</tag>
+      <tag pos="17">phosphoprotein</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">CV-1</taggedword>
+      <taggedword index="2" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="3" part-of-speech="VBD">were</taggedword>
+      <taggedword index="4" part-of-speech="VBN">transfected</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="JJ">cloned</taggedword>
+      <taggedword index="7" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="8" part-of-speech="IN">from</taggedword>
+      <taggedword index="9" part-of-speech="JJ">wild-type</taggedword>
+      <taggedword index="10" part-of-speech="NN">HPIV-3</taggedword>
+      <taggedword index="11" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">large protein</taggedword>
+      <taggedword index="14" part-of-speech="JJ">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">L</taggedword>
+      <taggedword index="16" part-of-speech="NNP">),</taggedword>
+      <taggedword index="17" part-of-speech="NN">phosphoprotein</taggedword>
+      <taggedword index="18" part-of-speech="NNS">(</taggedword>
+      <taggedword index="19" part-of-speech="NNP">P</taggedword>
+      <taggedword index="20" part-of-speech="NNPS">),</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NN">nucleocapsid protein</taggedword>
+      <taggedword index="23" part-of-speech="NN">(</taggedword>
+      <taggedword index="24" part-of-speech="NNP">NP</taggedword>
+      <taggedword index="25" part-of-speech="NNP">),</taggedword>
+      <taggedword index="26" part-of-speech="RB">alone</taggedword>
+      <taggedword index="27" part-of-speech="CC">or</taggedword>
+      <taggedword index="28" part-of-speech="RB">together</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="IN">for</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="NN">expression</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="RB">biologically</taggedword>
+      <taggedword index="35" part-of-speech="JJ">active</taggedword>
+      <taggedword index="36" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CV-1" dep_index="1" gov="cells" gov_index="2">nn</dependency>
+      <dependency dep="cells" dep_index="2" gov="transfected" gov_index="4">nsubjpass</dependency>
+      <dependency dep="were" dep_index="3" gov="transfected" gov_index="4">auxpass</dependency>
+      <dependency dep="transfected" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cloned" dep_index="6" gov="genes" gov_index="7">amod</dependency>
+      <dependency dep="genes" dep_index="7" gov="transfected" gov_index="4">prep_with</dependency>
+      <dependency dep="wild-type" dep_index="9" gov="HPIV-3" gov_index="10">amod</dependency>
+      <dependency dep="HPIV-3" dep_index="10" gov="transfected" gov_index="4">prep_from</dependency>
+      <dependency dep="encoding" dep_index="11" gov="transfected" gov_index="4">xcomp</dependency>
+      <dependency dep="the" dep_index="12" gov="large protein" gov_index="13">det</dependency>
+      <dependency dep="large protein" dep_index="13" gov="(" gov_index="14">nsubj</dependency>
+      <dependency dep="(" dep_index="14" gov="encoding" gov_index="11">xcomp</dependency>
+      <dependency dep="L" dep_index="15" gov=")," gov_index="20">nn</dependency>
+      <dependency dep=")," dep_index="16" gov=")," gov_index="20">nn</dependency>
+      <dependency dep="phosphoprotein" dep_index="17" gov=")," gov_index="20">nn</dependency>
+      <dependency dep="(" dep_index="18" gov=")," gov_index="20">nn</dependency>
+      <dependency dep="P" dep_index="19" gov=")," gov_index="20">nn</dependency>
+      <dependency dep=")," dep_index="20" gov="encoding" gov_index="11">tmod</dependency>
+      <dependency dep="nucleocapsid protein" dep_index="22" gov=")," gov_index="25">nn</dependency>
+      <dependency dep="(" dep_index="23" gov=")," gov_index="25">nn</dependency>
+      <dependency dep="NP" dep_index="24" gov=")," gov_index="25">nn</dependency>
+      <dependency dep=")," dep_index="25" gov="encoding" gov_index="11">tmod</dependency>
+      <dependency dep=")," dep_index="25" gov=")," gov_index="20">conj_and</dependency>
+      <dependency dep="alone" dep_index="26" gov=")," gov_index="20">advmod</dependency>
+      <dependency dep="together" dep_index="28" gov=")," gov_index="20">advmod</dependency>
+      <dependency dep="together" dep_index="28" gov="alone" gov_index="26">conj_or</dependency>
+      <dependency dep="the" dep_index="31" gov="expression" gov_index="32">det</dependency>
+      <dependency dep="expression" dep_index="32" gov="transfected" gov_index="4">prep_for</dependency>
+      <dependency dep="biologically" dep_index="34" gov="active" gov_index="35">advmod</dependency>
+      <dependency dep="active" dep_index="35" gov="proteins" gov_index="36">amod</dependency>
+      <dependency dep="proteins" dep_index="36" gov="expression" gov_index="32">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500024" relationship="false">15 20 11 25 24</relation>
+      <relation position="1500022" relationship="false">15 20 11 25 22</relation>
+      <relation position="1300015" relationship="false">13 14 11 20 15</relation>
+      <relation position="1500019" relationship="false">15 20 19</relation>
+      <relation position="1500017" relationship="false">15 20 17</relation>
+      <relation position="2200024" relationship="false">22 25 24</relation>
+      <relation position="1300024" relationship="false">13 14 11 25 24</relation>
+      <relation position="1900024" relationship="false">19 20 11 25 24</relation>
+      <relation position="1700024" relationship="false">17 20 11 25 24</relation>
+      <relation position="1300022" relationship="false">13 14 11 25 22</relation>
+      <relation position="1900022" relationship="false">19 20 11 25 22</relation>
+      <relation position="1700022" relationship="false">17 20 11 25 22</relation>
+      <relation position="1300019" relationship="false">13 14 11 20 19</relation>
+      <relation position="1300017" relationship="false">13 14 11 20 17</relation>
+      <relation position="1700019" relationship="false">17 20 19</relation>
+   </relations>
+   <pairs/>
+</root>

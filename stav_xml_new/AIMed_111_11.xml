@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@secondary@consequence@of@destabilizing@RII beta@dimers@is@the@loss@of@intracellular@targeting/anchoring@capacity@because@monomers@fail@to@bind@AKAP75@.@</sentence>
+   <tags>
+      <tag pos="6">RII beta</tag>
+      <tag pos="20">AKAP75</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">secondary</taggedword>
+      <taggedword index="3" part-of-speech="NN">consequence</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="JJ">destabilizing</taggedword>
+      <taggedword index="6" part-of-speech="NNP">RII beta</taggedword>
+      <taggedword index="7" part-of-speech="NNS">dimers</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">loss</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="13" part-of-speech="VBG">targeting/anchoring</taggedword>
+      <taggedword index="14" part-of-speech="NN">capacity</taggedword>
+      <taggedword index="15" part-of-speech="IN">because</taggedword>
+      <taggedword index="16" part-of-speech="NNS">monomers</taggedword>
+      <taggedword index="17" part-of-speech="VBP">fail</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="NN">bind</taggedword>
+      <taggedword index="20" part-of-speech="NN">AKAP75</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="consequence" gov_index="3">det</dependency>
+      <dependency dep="secondary" dep_index="2" gov="consequence" gov_index="3">amod</dependency>
+      <dependency dep="consequence" dep_index="3" gov="loss" gov_index="10">nsubj</dependency>
+      <dependency dep="destabilizing" dep_index="5" gov="dimers" gov_index="7">amod</dependency>
+      <dependency dep="RII beta" dep_index="6" gov="dimers" gov_index="7">nn</dependency>
+      <dependency dep="dimers" dep_index="7" gov="consequence" gov_index="3">prep_of</dependency>
+      <dependency dep="is" dep_index="8" gov="loss" gov_index="10">cop</dependency>
+      <dependency dep="the" dep_index="9" gov="loss" gov_index="10">det</dependency>
+      <dependency dep="loss" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="intracellular" dep_index="12" gov="capacity" gov_index="14">nn</dependency>
+      <dependency dep="targeting/anchoring" dep_index="13" gov="capacity" gov_index="14">amod</dependency>
+      <dependency dep="capacity" dep_index="14" gov="loss" gov_index="10">prep_of</dependency>
+      <dependency dep="capacity" dep_index="14" gov="fail" gov_index="17">dobj</dependency>
+      <dependency dep="because" dep_index="15" gov="fail" gov_index="17">mark</dependency>
+      <dependency dep="monomers" dep_index="16" gov="fail" gov_index="17">nsubj</dependency>
+      <dependency dep="fail" dep_index="17" gov="capacity" gov_index="14">dep</dependency>
+      <dependency dep="bind" dep_index="19" gov="AKAP75" gov_index="20">nn</dependency>
+      <dependency dep="AKAP75" dep_index="20" gov="fail" gov_index="17">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600020" relationship="false">6 7 3 10 14 17 20</relation>
+   </relations>
+   <pairs/>
+</root>

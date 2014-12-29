@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>However@,@from@a@clinical@point@of@view@,@its@efficacy@in@the@treatment@of@nasal@polyposis@seems@to@vary@individually@from@patient@to@patient@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">However</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">from</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">clinical</taggedword>
+      <taggedword index="6" part-of-speech="NN">point</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">view</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="11" part-of-speech="NN">efficacy</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">nasal</taggedword>
+      <taggedword index="17" part-of-speech="NNS">polyposis</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">seems</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="VB">vary</taggedword>
+      <taggedword index="21" part-of-speech="RB">individually</taggedword>
+      <taggedword index="22" part-of-speech="IN">from</taggedword>
+      <taggedword index="23" part-of-speech="NN">patient</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="NN">patient</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="However" dep_index="1" gov="seems" gov_index="18">advmod</dependency>
+      <dependency dep="a" dep_index="4" gov="point" gov_index="6">det</dependency>
+      <dependency dep="clinical" dep_index="5" gov="point" gov_index="6">amod</dependency>
+      <dependency dep="point" dep_index="6" gov="seems" gov_index="18">prep_from</dependency>
+      <dependency dep="view" dep_index="8" gov="point" gov_index="6">prep_of</dependency>
+      <dependency dep="its" dep_index="10" gov="efficacy" gov_index="11">poss</dependency>
+      <dependency dep="efficacy" dep_index="11" gov="seems" gov_index="18">nsubj</dependency>
+      <dependency dep="efficacy" dep_index="11" gov="vary" gov_index="20">xsubj</dependency>
+      <dependency dep="the" dep_index="13" gov="treatment" gov_index="14">det</dependency>
+      <dependency dep="treatment" dep_index="14" gov="efficacy" gov_index="11">prep_in</dependency>
+      <dependency dep="nasal" dep_index="16" gov="polyposis" gov_index="17">amod</dependency>
+      <dependency dep="polyposis" dep_index="17" gov="treatment" gov_index="14">prep_of</dependency>
+      <dependency dep="seems" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="19" gov="vary" gov_index="20">aux</dependency>
+      <dependency dep="vary" dep_index="20" gov="seems" gov_index="18">xcomp</dependency>
+      <dependency dep="individually" dep_index="21" gov="vary" gov_index="20">advmod</dependency>
+      <dependency dep="patient" dep_index="23" gov="vary" gov_index="20">prep_from</dependency>
+      <dependency dep="patient" dep_index="25" gov="vary" gov_index="20">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@characterized@platelet-derived growth factor (PDGF) C@,@a@novel@growth@factor@belonging@to@the@PDGF@family@.@</sentence>
+   <tags>
+      <tag pos="4">platelet-derived growth factor (PDGF) C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="4" part-of-speech="JJ">platelet-derived growth factor (PDGF) C</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NN">novel</taggedword>
+      <taggedword index="8" part-of-speech="NN">growth</taggedword>
+      <taggedword index="9" part-of-speech="NN">factor</taggedword>
+      <taggedword index="10" part-of-speech="VBG">belonging</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NNP">PDGF</taggedword>
+      <taggedword index="14" part-of-speech="NN">family</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="characterized" gov_index="3">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="characterized" gov_index="3">aux</dependency>
+      <dependency dep="characterized" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="platelet-derived growth factor (PDGF) C" dep_index="4" gov="characterized" gov_index="3">acomp</dependency>
+      <dependency dep="a" dep_index="6" gov="factor" gov_index="9">det</dependency>
+      <dependency dep="novel" dep_index="7" gov="factor" gov_index="9">nn</dependency>
+      <dependency dep="growth" dep_index="8" gov="factor" gov_index="9">nn</dependency>
+      <dependency dep="factor" dep_index="9" gov="characterized" gov_index="3">xcomp</dependency>
+      <dependency dep="belonging" dep_index="10" gov="factor" gov_index="9">partmod</dependency>
+      <dependency dep="the" dep_index="12" gov="family" gov_index="14">det</dependency>
+      <dependency dep="PDGF" dep_index="13" gov="family" gov_index="14">nn</dependency>
+      <dependency dep="family" dep_index="14" gov="belonging" gov_index="10">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

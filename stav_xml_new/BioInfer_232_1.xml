@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Genetic@dissection@of@Drosophila@myofibril@formation@:@effects@of@actin@and@myosin heavy chain@null@alleles@.@</sentence>
+   <tags>
+      <tag pos="10">actin</tag>
+      <tag pos="12">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Genetic</taggedword>
+      <taggedword index="2" part-of-speech="NN">dissection</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Drosophila</taggedword>
+      <taggedword index="5" part-of-speech="JJ">myofibril</taggedword>
+      <taggedword index="6" part-of-speech="NN">formation</taggedword>
+      <taggedword index="7" part-of-speech=":">:</taggedword>
+      <taggedword index="8" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="13" part-of-speech="NN">null</taggedword>
+      <taggedword index="14" part-of-speech="NNS">alleles</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Genetic" dep_index="1" gov="dissection" gov_index="2">amod</dependency>
+      <dependency dep="dissection" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Drosophila" dep_index="4" gov="formation" gov_index="6">nn</dependency>
+      <dependency dep="myofibril" dep_index="5" gov="formation" gov_index="6">amod</dependency>
+      <dependency dep="formation" dep_index="6" gov="dissection" gov_index="2">prep_of</dependency>
+      <dependency dep="effects" dep_index="8" gov="dissection" gov_index="2">dep</dependency>
+      <dependency dep="actin" dep_index="10" gov="alleles" gov_index="14">nn</dependency>
+      <dependency dep="myosin heavy chain" dep_index="12" gov="actin" gov_index="10">conj_and</dependency>
+      <dependency dep="myosin heavy chain" dep_index="12" gov="alleles" gov_index="14">nn</dependency>
+      <dependency dep="null" dep_index="13" gov="alleles" gov_index="14">nn</dependency>
+      <dependency dep="alleles" dep_index="14" gov="effects" gov_index="8">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000012" relationship="false">10 14 12</relation>
+   </relations>
+   <pairs/>
+</root>

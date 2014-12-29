@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Co-injection@of@SHU9119@also@inhibited@completely@the@leptin@-induced@increase@in@UCP-1@mRNA@expression@in@the@BAT@</sentence>
+   <tags>
+      <tag pos="8">leptin</tag>
+      <tag pos="12">UCP-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Co-injection</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">SHU9119</taggedword>
+      <taggedword index="4" part-of-speech="RB">also</taggedword>
+      <taggedword index="5" part-of-speech="VBD">inhibited</taggedword>
+      <taggedword index="6" part-of-speech="RB">completely</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">leptin</taggedword>
+      <taggedword index="9" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="10" part-of-speech="NN">increase</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">UCP-1</taggedword>
+      <taggedword index="13" part-of-speech="NN">mRNA</taggedword>
+      <taggedword index="14" part-of-speech="NN">expression</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NNP">BAT</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Co-injection" dep_index="1" gov="inhibited" gov_index="5">nsubj</dependency>
+      <dependency dep="SHU9119" dep_index="3" gov="Co-injection" gov_index="1">prep_of</dependency>
+      <dependency dep="also" dep_index="4" gov="inhibited" gov_index="5">advmod</dependency>
+      <dependency dep="inhibited" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="completely" dep_index="6" gov="inhibited" gov_index="5">advmod</dependency>
+      <dependency dep="the" dep_index="7" gov="increase" gov_index="10">det</dependency>
+      <dependency dep="leptin" dep_index="8" gov="increase" gov_index="10">amod</dependency>
+      <dependency dep="-induced" dep_index="9" gov="increase" gov_index="10">amod</dependency>
+      <dependency dep="increase" dep_index="10" gov="inhibited" gov_index="5">dobj</dependency>
+      <dependency dep="UCP-1" dep_index="12" gov="expression" gov_index="14">nn</dependency>
+      <dependency dep="mRNA" dep_index="13" gov="expression" gov_index="14">nn</dependency>
+      <dependency dep="expression" dep_index="14" gov="increase" gov_index="10">prep_in</dependency>
+      <dependency dep="the" dep_index="16" gov="BAT" gov_index="17">det</dependency>
+      <dependency dep="BAT" dep_index="17" gov="expression" gov_index="14">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800012" relationship="true">8 10 14 12</relation>
+   </relations>
+   <pairs>
+      <pair>800012</pair>
+   </pairs>
+</root>

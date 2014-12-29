@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@p27@complexes@containing@CDK2@are@incapable@of@phosphorylating@histone H1@.@</sentence>
+   <tags>
+      <tag pos="4">p27</tag>
+      <tag pos="7">CDK2</tag>
+      <tag pos="12">histone H1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">p27</taggedword>
+      <taggedword index="5" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="6" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="7" part-of-speech="NNP">CDK2</taggedword>
+      <taggedword index="8" part-of-speech="VBP">are</taggedword>
+      <taggedword index="9" part-of-speech="JJ">incapable</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="VBG">phosphorylating</taggedword>
+      <taggedword index="12" part-of-speech="CD">histone H1</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="incapable" gov_index="9">prep_in</dependency>
+      <dependency dep="p27" dep_index="4" gov="complexes" gov_index="5">amod</dependency>
+      <dependency dep="complexes" dep_index="5" gov="incapable" gov_index="9">nsubj</dependency>
+      <dependency dep="containing" dep_index="6" gov="complexes" gov_index="5">partmod</dependency>
+      <dependency dep="CDK2" dep_index="7" gov="containing" gov_index="6">dobj</dependency>
+      <dependency dep="are" dep_index="8" gov="incapable" gov_index="9">cop</dependency>
+      <dependency dep="incapable" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="phosphorylating" dep_index="11" gov="incapable" gov_index="9">prepc_of</dependency>
+      <dependency dep="histone H1" dep_index="12" gov="phosphorylating" gov_index="11">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="true">4 5 6 7</relation>
+      <relation position="400012" relationship="false">4 5 9 11 12</relation>
+      <relation position="700012" relationship="false">7 6 5 9 11 12</relation>
+   </relations>
+   <pairs>
+      <pair>400007</pair>
+   </pairs>
+</root>

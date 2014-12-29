@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Calpain@activity@in@vivo@was@determined@by@observing@proteolysis@of@actin-binding protein@and@talin@,@two@known@substrates@of@calpain@.@</sentence>
+   <tags>
+      <tag pos="13">talin</tag>
+      <tag pos="11">actin-binding protein</tag>
+      <tag pos="19">calpain</tag>
+      <tag pos="1">Calpain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Calpain</taggedword>
+      <taggedword index="2" part-of-speech="NN">activity</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="VBG">observing</taggedword>
+      <taggedword index="9" part-of-speech="NNS">proteolysis</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NN">actin-binding protein</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NN">talin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CD">two</taggedword>
+      <taggedword index="16" part-of-speech="VBN">known</taggedword>
+      <taggedword index="17" part-of-speech="NNS">substrates</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NN">calpain</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Calpain" dep_index="1" gov="activity" gov_index="2">nn</dependency>
+      <dependency dep="activity" dep_index="2" gov="determined" gov_index="6">nsubjpass</dependency>
+      <dependency dep="vivo" dep_index="4" gov="activity" gov_index="2">prep_in</dependency>
+      <dependency dep="was" dep_index="5" gov="determined" gov_index="6">auxpass</dependency>
+      <dependency dep="determined" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="observing" dep_index="8" gov="determined" gov_index="6">agent</dependency>
+      <dependency dep="proteolysis" dep_index="9" gov="observing" gov_index="8">dobj</dependency>
+      <dependency dep="actin-binding protein" dep_index="11" gov="proteolysis" gov_index="9">prep_of</dependency>
+      <dependency dep="talin" dep_index="13" gov="proteolysis" gov_index="9">prep_of</dependency>
+      <dependency dep="talin" dep_index="13" gov="actin-binding protein" gov_index="11">conj_and</dependency>
+      <dependency dep="two" dep_index="15" gov="substrates" gov_index="17">num</dependency>
+      <dependency dep="known" dep_index="16" gov="substrates" gov_index="17">amod</dependency>
+      <dependency dep="substrates" dep_index="17" gov="proteolysis" gov_index="9">appos</dependency>
+      <dependency dep="calpain" dep_index="19" gov="substrates" gov_index="17">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100013" relationship="false">11 9 13</relation>
+      <relation position="1300019" relationship="true">13 9 17 19</relation>
+      <relation position="100013" relationship="false">1 2 6 8 9 13</relation>
+      <relation position="1100019" relationship="true">11 9 17 19</relation>
+      <relation position="100011" relationship="false">1 2 6 8 9 11</relation>
+      <relation position="100019" relationship="false">1 2 6 8 9 17 19</relation>
+   </relations>
+   <pairs>
+      <pair>1300019</pair>
+      <pair>1100019</pair>
+   </pairs>
+</root>

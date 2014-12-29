@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@search@for@genes@which@might@participate@in@chicken@immunoglobulin@gene@conversion@,@we@have@identified@chicken@counterparts@of@the@yeast@RAD51@,@RAD52@,@and@RAD54@genes@.@</sentence>
+   <tags>
+      <tag pos="27">RAD54</tag>
+      <tag pos="22">RAD51</tag>
+      <tag pos="24">RAD52</tag>
+      <tag pos="10">immunoglobulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">search</taggedword>
+      <taggedword index="3" part-of-speech="IN">for</taggedword>
+      <taggedword index="4" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="5" part-of-speech="WDT">which</taggedword>
+      <taggedword index="6" part-of-speech="MD">might</taggedword>
+      <taggedword index="7" part-of-speech="VB">participate</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NN">chicken</taggedword>
+      <taggedword index="10" part-of-speech="NN">immunoglobulin</taggedword>
+      <taggedword index="11" part-of-speech="NN">gene</taggedword>
+      <taggedword index="12" part-of-speech="NN">conversion</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="PRP">we</taggedword>
+      <taggedword index="15" part-of-speech="VBP">have</taggedword>
+      <taggedword index="16" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="17" part-of-speech="NN">chicken</taggedword>
+      <taggedword index="18" part-of-speech="NNS">counterparts</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="22" part-of-speech="NN">RAD51</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="NNP">RAD52</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="CD">RAD54</taggedword>
+      <taggedword index="28" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="search" dep_index="2" gov="identified" gov_index="16">prep_in</dependency>
+      <dependency dep="genes" dep_index="4" gov="search" gov_index="2">prep_for</dependency>
+      <dependency dep="genes" dep_index="4" gov="participate" gov_index="7">nsubj</dependency>
+      <dependency dep="might" dep_index="6" gov="participate" gov_index="7">aux</dependency>
+      <dependency dep="participate" dep_index="7" gov="genes" gov_index="4">rcmod</dependency>
+      <dependency dep="chicken" dep_index="9" gov="conversion" gov_index="12">nn</dependency>
+      <dependency dep="immunoglobulin" dep_index="10" gov="conversion" gov_index="12">nn</dependency>
+      <dependency dep="gene" dep_index="11" gov="conversion" gov_index="12">nn</dependency>
+      <dependency dep="conversion" dep_index="12" gov="participate" gov_index="7">prep_in</dependency>
+      <dependency dep="we" dep_index="14" gov="identified" gov_index="16">nsubj</dependency>
+      <dependency dep="have" dep_index="15" gov="identified" gov_index="16">aux</dependency>
+      <dependency dep="identified" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="chicken" dep_index="17" gov="counterparts" gov_index="18">nn</dependency>
+      <dependency dep="counterparts" dep_index="18" gov="identified" gov_index="16">dobj</dependency>
+      <dependency dep="the" dep_index="20" gov="RAD51" gov_index="22">det</dependency>
+      <dependency dep="yeast" dep_index="21" gov="RAD51" gov_index="22">nn</dependency>
+      <dependency dep="RAD51" dep_index="22" gov="counterparts" gov_index="18">prep_of</dependency>
+      <dependency dep="RAD52" dep_index="24" gov="counterparts" gov_index="18">prep_of</dependency>
+      <dependency dep="RAD52" dep_index="24" gov="RAD51" gov_index="22">conj_and</dependency>
+      <dependency dep="RAD54" dep_index="27" gov="genes" gov_index="28">num</dependency>
+      <dependency dep="genes" dep_index="28" gov="counterparts" gov_index="18">prep_of</dependency>
+      <dependency dep="genes" dep_index="28" gov="RAD51" gov_index="22">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2200027" relationship="false">22 18 28 27</relation>
+      <relation position="2400027" relationship="false">24 18 28 27</relation>
+      <relation position="1000027" relationship="false">10 12 7 4 2 16 18 28 27</relation>
+      <relation position="2200024" relationship="false">22 18 24</relation>
+      <relation position="1000022" relationship="false">10 12 7 4 2 16 18 22</relation>
+      <relation position="1000024" relationship="false">10 12 7 4 2 16 18 24</relation>
+   </relations>
+   <pairs/>
+</root>

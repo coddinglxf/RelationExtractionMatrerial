@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Within@20@min@after@exposure@to@leptin@,@NPY@secretion@from@hypothalamic@preparations@obtained@from@adrenalectomized@mice@was@lowered@by@27%@and@CRH@secretion@was@elevated@by@51%@</sentence>
+   <tags>
+      <tag pos="7">leptin</tag>
+      <tag pos="9">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Within</taggedword>
+      <taggedword index="2" part-of-speech="CD">20</taggedword>
+      <taggedword index="3" part-of-speech="NN">min</taggedword>
+      <taggedword index="4" part-of-speech="IN">after</taggedword>
+      <taggedword index="5" part-of-speech="NN">exposure</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="VB">NPY</taggedword>
+      <taggedword index="10" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="11" part-of-speech="IN">from</taggedword>
+      <taggedword index="12" part-of-speech="JJ">hypothalamic</taggedword>
+      <taggedword index="13" part-of-speech="NNS">preparations</taggedword>
+      <taggedword index="14" part-of-speech="VBN">obtained</taggedword>
+      <taggedword index="15" part-of-speech="IN">from</taggedword>
+      <taggedword index="16" part-of-speech="JJ">adrenalectomized</taggedword>
+      <taggedword index="17" part-of-speech="NNS">mice</taggedword>
+      <taggedword index="18" part-of-speech="VBD">was</taggedword>
+      <taggedword index="19" part-of-speech="VBN">lowered</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="CD">27%</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NNP">CRH</taggedword>
+      <taggedword index="24" part-of-speech="NNP">secretion</taggedword>
+      <taggedword index="25" part-of-speech="VBD">was</taggedword>
+      <taggedword index="26" part-of-speech="VBN">elevated</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="CD">51%</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="20" dep_index="2" gov="min" gov_index="3">num</dependency>
+      <dependency dep="min" dep_index="3" gov="NPY" gov_index="9">prep_within</dependency>
+      <dependency dep="exposure" dep_index="5" gov="min" gov_index="3">prep_after</dependency>
+      <dependency dep="leptin" dep_index="7" gov="exposure" gov_index="5">prep_to</dependency>
+      <dependency dep="NPY" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="secretion" dep_index="10" gov="NPY" gov_index="9">dobj</dependency>
+      <dependency dep="hypothalamic" dep_index="12" gov="preparations" gov_index="13">amod</dependency>
+      <dependency dep="preparations" dep_index="13" gov="NPY" gov_index="9">prep_from</dependency>
+      <dependency dep="obtained" dep_index="14" gov="preparations" gov_index="13">partmod</dependency>
+      <dependency dep="adrenalectomized" dep_index="16" gov="mice" gov_index="17">amod</dependency>
+      <dependency dep="mice" dep_index="17" gov="lowered" gov_index="19">nsubjpass</dependency>
+      <dependency dep="was" dep_index="18" gov="lowered" gov_index="19">auxpass</dependency>
+      <dependency dep="lowered" dep_index="19" gov="obtained" gov_index="14">prepc_from</dependency>
+      <dependency dep="27%" dep_index="21" gov="lowered" gov_index="19">agent</dependency>
+      <dependency dep="CRH" dep_index="23" gov="secretion" gov_index="24">nn</dependency>
+      <dependency dep="secretion" dep_index="24" gov="elevated" gov_index="26">nsubjpass</dependency>
+      <dependency dep="was" dep_index="25" gov="elevated" gov_index="26">auxpass</dependency>
+      <dependency dep="elevated" dep_index="26" gov="obtained" gov_index="14">prepc_from</dependency>
+      <dependency dep="elevated" dep_index="26" gov="lowered" gov_index="19">conj_and</dependency>
+      <dependency dep="51%" dep_index="28" gov="elevated" gov_index="26">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

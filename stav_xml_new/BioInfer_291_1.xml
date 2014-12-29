@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunohistochemical@identification@and@localization@of@actin@and@fimbrin@in@vestibular@hair@cells@in@the@normal@guinea@pig@and@in@a@strain@of@the@waltzing@guinea@pig@.@</sentence>
+   <tags>
+      <tag pos="6">actin</tag>
+      <tag pos="8">fimbrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Immunohistochemical</taggedword>
+      <taggedword index="2" part-of-speech="NN">identification</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">localization</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">actin</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="NN">vestibular</taggedword>
+      <taggedword index="11" part-of-speech="NN">hair</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">normal</taggedword>
+      <taggedword index="16" part-of-speech="NN">guinea</taggedword>
+      <taggedword index="17" part-of-speech="NN">pig</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="NN">strain</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="VBG">waltzing</taggedword>
+      <taggedword index="25" part-of-speech="NN">guinea</taggedword>
+      <taggedword index="26" part-of-speech="NN">pig</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunohistochemical" dep_index="1" gov="identification" gov_index="2">amod</dependency>
+      <dependency dep="identification" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="localization" dep_index="4" gov="identification" gov_index="2">conj_and</dependency>
+      <dependency dep="actin" dep_index="6" gov="identification" gov_index="2">prep_of</dependency>
+      <dependency dep="fimbrin" dep_index="8" gov="identification" gov_index="2">prep_of</dependency>
+      <dependency dep="fimbrin" dep_index="8" gov="actin" gov_index="6">conj_and</dependency>
+      <dependency dep="vestibular" dep_index="10" gov="cells" gov_index="12">nn</dependency>
+      <dependency dep="hair" dep_index="11" gov="cells" gov_index="12">nn</dependency>
+      <dependency dep="cells" dep_index="12" gov="identification" gov_index="2">prep_in</dependency>
+      <dependency dep="the" dep_index="14" gov="pig" gov_index="17">det</dependency>
+      <dependency dep="normal" dep_index="15" gov="pig" gov_index="17">amod</dependency>
+      <dependency dep="guinea" dep_index="16" gov="pig" gov_index="17">nn</dependency>
+      <dependency dep="pig" dep_index="17" gov="identification" gov_index="2">prep_in</dependency>
+      <dependency dep="a" dep_index="20" gov="strain" gov_index="21">det</dependency>
+      <dependency dep="strain" dep_index="21" gov="identification" gov_index="2">prep_in</dependency>
+      <dependency dep="strain" dep_index="21" gov="pig" gov_index="17">conj_and</dependency>
+      <dependency dep="the" dep_index="23" gov="pig" gov_index="26">det</dependency>
+      <dependency dep="waltzing" dep_index="24" gov="pig" gov_index="26">amod</dependency>
+      <dependency dep="guinea" dep_index="25" gov="pig" gov_index="26">nn</dependency>
+      <dependency dep="pig" dep_index="26" gov="strain" gov_index="21">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="false">6 2 8</relation>
+   </relations>
+   <pairs/>
+</root>

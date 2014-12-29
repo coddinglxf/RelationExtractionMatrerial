@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@action@of@leptin@on@PLC@-mediated@insulin@secretion@was@dose-dependent@,@rapid-onset@(i.e.@,@within@3@min)@,@and@reversible@</sentence>
+   <tags>
+      <tag pos="6">PLC</tag>
+      <tag pos="8">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">action</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="5" part-of-speech="IN">on</taggedword>
+      <taggedword index="6" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="7" part-of-speech="JJ">-mediated</taggedword>
+      <taggedword index="8" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="9" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="10" part-of-speech="VBD">was</taggedword>
+      <taggedword index="11" part-of-speech="JJ">dose-dependent</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="JJ">rapid-onset</taggedword>
+      <taggedword index="14" part-of-speech="NN">(i.e.</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="IN">within</taggedword>
+      <taggedword index="17" part-of-speech="CD">3</taggedword>
+      <taggedword index="18" part-of-speech="NNS">min)</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="JJ">reversible</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="action" gov_index="2">det</dependency>
+      <dependency dep="action" dep_index="2" gov="(i.e." gov_index="14">nsubj</dependency>
+      <dependency dep="action" dep_index="2" gov="reversible" gov_index="21">nsubj</dependency>
+      <dependency dep="leptin" dep_index="4" gov="action" gov_index="2">prep_of</dependency>
+      <dependency dep="PLC" dep_index="6" gov="secretion" gov_index="9">nn</dependency>
+      <dependency dep="-mediated" dep_index="7" gov="secretion" gov_index="9">amod</dependency>
+      <dependency dep="insulin" dep_index="8" gov="secretion" gov_index="9">nn</dependency>
+      <dependency dep="secretion" dep_index="9" gov="leptin" gov_index="4">prep_on</dependency>
+      <dependency dep="was" dep_index="10" gov="(i.e." gov_index="14">cop</dependency>
+      <dependency dep="dose-dependent" dep_index="11" gov="(i.e." gov_index="14">amod</dependency>
+      <dependency dep="rapid-onset" dep_index="13" gov="(i.e." gov_index="14">amod</dependency>
+      <dependency dep="(i.e." dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="3" dep_index="17" gov="min)" gov_index="18">num</dependency>
+      <dependency dep="min)" dep_index="18" gov="(i.e." gov_index="14">prep_within</dependency>
+      <dependency dep="reversible" dep_index="21" gov="(i.e." gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="true">6 9 8</relation>
+   </relations>
+   <pairs>
+      <pair>600008</pair>
+   </pairs>
+</root>

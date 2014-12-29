@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@vitro@binding@studies@demonstrated@that@the@intracellular@segment@of@PTPmu@binds@directly@to@the@intracellular@domain@of@E-cadherin@,@but@not@to@alpha-@or@beta-catenin@.@</sentence>
+   <tags>
+      <tag pos="11">PTPmu</tag>
+      <tag pos="19">E-cadherin</tag>
+      <tag pos="26">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="3" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="4" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="5" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="9" part-of-speech="NN">segment</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNP">PTPmu</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="13" part-of-speech="RB">directly</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="17" part-of-speech="NN">domain</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">but</taggedword>
+      <taggedword index="22" part-of-speech="RB">not</taggedword>
+      <taggedword index="23" part-of-speech="TO">to</taggedword>
+      <taggedword index="24" part-of-speech="NN">alpha-</taggedword>
+      <taggedword index="25" part-of-speech="CC">or</taggedword>
+      <taggedword index="26" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="vitro" dep_index="2" gov="binding" gov_index="3">npadvmod</dependency>
+      <dependency dep="binding" dep_index="3" gov="demonstrated" gov_index="5">prep_in</dependency>
+      <dependency dep="studies" dep_index="4" gov="demonstrated" gov_index="5">nsubj</dependency>
+      <dependency dep="demonstrated" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="binds" gov_index="12">mark</dependency>
+      <dependency dep="the" dep_index="7" gov="segment" gov_index="9">det</dependency>
+      <dependency dep="intracellular" dep_index="8" gov="segment" gov_index="9">nn</dependency>
+      <dependency dep="segment" dep_index="9" gov="binds" gov_index="12">nsubj</dependency>
+      <dependency dep="PTPmu" dep_index="11" gov="segment" gov_index="9">prep_of</dependency>
+      <dependency dep="binds" dep_index="12" gov="demonstrated" gov_index="5">ccomp</dependency>
+      <dependency dep="directly" dep_index="13" gov="binds" gov_index="12">advmod</dependency>
+      <dependency dep="to" dep_index="14" gov="binds" gov_index="12">KILL</dependency>
+      <dependency dep="the" dep_index="15" gov="domain" gov_index="17">det</dependency>
+      <dependency dep="intracellular" dep_index="16" gov="domain" gov_index="17">nn</dependency>
+      <dependency dep="domain" dep_index="17" gov="to" gov_index="14">KILL</dependency>
+      <dependency dep="E-cadherin" dep_index="19" gov="domain" gov_index="17">prep_of</dependency>
+      <dependency dep="not" dep_index="22" gov="binds" gov_index="12">prep</dependency>
+      <dependency dep="not" dep_index="22" gov="binds" gov_index="12">conj_but</dependency>
+      <dependency dep="not" dep_index="22" gov="to" gov_index="14">neg</dependency>
+      <dependency dep="to" dep_index="23" gov="binds" gov_index="12">dep</dependency>
+      <dependency dep="alpha-" dep_index="24" gov="to" gov_index="23">pobj</dependency>
+      <dependency dep="beta-catenin" dep_index="26" gov="to" gov_index="23">pobj</dependency>
+      <dependency dep="beta-catenin" dep_index="26" gov="alpha-" gov_index="24">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100019" relationship="true">11 9 12 14 17 19</relation>
+      <relation position="1100026" relationship="false">11 9 12 23 26</relation>
+      <relation position="1900026" relationship="false">19 17 14 12 23 26</relation>
+   </relations>
+   <pairs>
+      <pair>1100019</pair>
+   </pairs>
+</root>

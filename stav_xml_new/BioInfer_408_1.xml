@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Localization@of@VASP@to@the@leading@edge@of@a@migrating@cell@can@lead@to@local@accumulation@of@profilin@,@which@in@turn@can@supply@actin@monomers@to@growing@filament@ends@.@</sentence>
+   <tags>
+      <tag pos="18">profilin</tag>
+      <tag pos="25">actin</tag>
+      <tag pos="3">VASP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Localization</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">VASP</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="VBG">leading</taggedword>
+      <taggedword index="7" part-of-speech="NN">edge</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="VBG">migrating</taggedword>
+      <taggedword index="11" part-of-speech="NN">cell</taggedword>
+      <taggedword index="12" part-of-speech="MD">can</taggedword>
+      <taggedword index="13" part-of-speech="VB">lead</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="JJ">local</taggedword>
+      <taggedword index="16" part-of-speech="NN">accumulation</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="WDT">which</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="NN">turn</taggedword>
+      <taggedword index="23" part-of-speech="MD">can</taggedword>
+      <taggedword index="24" part-of-speech="VB">supply</taggedword>
+      <taggedword index="25" part-of-speech="NN">actin</taggedword>
+      <taggedword index="26" part-of-speech="NNS">monomers</taggedword>
+      <taggedword index="27" part-of-speech="TO">to</taggedword>
+      <taggedword index="28" part-of-speech="VBG">growing</taggedword>
+      <taggedword index="29" part-of-speech="NN">filament</taggedword>
+      <taggedword index="30" part-of-speech="NNS">ends</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Localization" dep_index="1" gov="lead" gov_index="13">nsubj</dependency>
+      <dependency dep="VASP" dep_index="3" gov="Localization" gov_index="1">prep_of</dependency>
+      <dependency dep="the" dep_index="5" gov="edge" gov_index="7">det</dependency>
+      <dependency dep="leading" dep_index="6" gov="edge" gov_index="7">amod</dependency>
+      <dependency dep="edge" dep_index="7" gov="VASP" gov_index="3">prep_to</dependency>
+      <dependency dep="a" dep_index="9" gov="cell" gov_index="11">det</dependency>
+      <dependency dep="migrating" dep_index="10" gov="cell" gov_index="11">amod</dependency>
+      <dependency dep="cell" dep_index="11" gov="edge" gov_index="7">prep_of</dependency>
+      <dependency dep="can" dep_index="12" gov="lead" gov_index="13">aux</dependency>
+      <dependency dep="lead" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="local" dep_index="15" gov="accumulation" gov_index="16">amod</dependency>
+      <dependency dep="accumulation" dep_index="16" gov="lead" gov_index="13">prep_to</dependency>
+      <dependency dep="profilin" dep_index="18" gov="accumulation" gov_index="16">prep_of</dependency>
+      <dependency dep="profilin" dep_index="18" gov="supply" gov_index="24">nsubj</dependency>
+      <dependency dep="turn" dep_index="22" gov="supply" gov_index="24">prep_in</dependency>
+      <dependency dep="can" dep_index="23" gov="supply" gov_index="24">aux</dependency>
+      <dependency dep="supply" dep_index="24" gov="profilin" gov_index="18">rcmod</dependency>
+      <dependency dep="actin" dep_index="25" gov="monomers" gov_index="26">nn</dependency>
+      <dependency dep="monomers" dep_index="26" gov="supply" gov_index="24">dobj</dependency>
+      <dependency dep="growing" dep_index="28" gov="ends" gov_index="30">amod</dependency>
+      <dependency dep="filament" dep_index="29" gov="ends" gov_index="30">nn</dependency>
+      <dependency dep="ends" dep_index="30" gov="supply" gov_index="24">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800025" relationship="true">18 24 26 25</relation>
+      <relation position="300018" relationship="true">3 1 13 16 18</relation>
+      <relation position="300025" relationship="false">3 1 13 16 18 24 26 25</relation>
+   </relations>
+   <pairs>
+      <pair>300018</pair>
+      <pair>1800025</pair>
+   </pairs>
+</root>

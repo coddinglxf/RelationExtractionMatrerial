@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@a@blot@overlay@experiment@,@purified@125I-labeled@recombinant@profilin@bound@not@only@to@plant@actin@,@but@also@to@mammalian@actin@,@demonstrating@that@cytoskeletal@components@from@distantly@related@organisms@with@divergent@primary@structures@can@be@compatible@.@</sentence>
+   <tags>
+      <tag pos="10">profilin</tag>
+      <tag pos="16">actin</tag>
+      <tag pos="22">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">a</taggedword>
+      <taggedword index="3" part-of-speech="JJ">blot</taggedword>
+      <taggedword index="4" part-of-speech="NN">overlay</taggedword>
+      <taggedword index="5" part-of-speech="NN">experiment</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="VBN">purified</taggedword>
+      <taggedword index="8" part-of-speech="JJ">125I-labeled</taggedword>
+      <taggedword index="9" part-of-speech="JJ">recombinant</taggedword>
+      <taggedword index="10" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="11" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="12" part-of-speech="RB">not</taggedword>
+      <taggedword index="13" part-of-speech="JJ">only</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="NN">plant</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">but</taggedword>
+      <taggedword index="19" part-of-speech="RB">also</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="22" part-of-speech="NN">actin</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="VBG">demonstrating</taggedword>
+      <taggedword index="25" part-of-speech="IN">that</taggedword>
+      <taggedword index="26" part-of-speech="JJ">cytoskeletal</taggedword>
+      <taggedword index="27" part-of-speech="NNS">components</taggedword>
+      <taggedword index="28" part-of-speech="IN">from</taggedword>
+      <taggedword index="29" part-of-speech="RB">distantly</taggedword>
+      <taggedword index="30" part-of-speech="VBN">related</taggedword>
+      <taggedword index="31" part-of-speech="NNS">organisms</taggedword>
+      <taggedword index="32" part-of-speech="IN">with</taggedword>
+      <taggedword index="33" part-of-speech="JJ">divergent</taggedword>
+      <taggedword index="34" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="35" part-of-speech="NNS">structures</taggedword>
+      <taggedword index="36" part-of-speech="MD">can</taggedword>
+      <taggedword index="37" part-of-speech="VB">be</taggedword>
+      <taggedword index="38" part-of-speech="JJ">compatible</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="a" dep_index="2" gov="experiment" gov_index="5">det</dependency>
+      <dependency dep="blot" dep_index="3" gov="experiment" gov_index="5">amod</dependency>
+      <dependency dep="overlay" dep_index="4" gov="experiment" gov_index="5">nn</dependency>
+      <dependency dep="experiment" dep_index="5" gov="purified" gov_index="7">prep_in</dependency>
+      <dependency dep="purified" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="125I-labeled" dep_index="8" gov="profilin" gov_index="10">amod</dependency>
+      <dependency dep="recombinant" dep_index="9" gov="profilin" gov_index="10">amod</dependency>
+      <dependency dep="profilin" dep_index="10" gov="purified" gov_index="7">dobj</dependency>
+      <dependency dep="bound" dep_index="11" gov="profilin" gov_index="10">amod</dependency>
+      <dependency dep="not" dep_index="12" gov="only" gov_index="13">neg</dependency>
+      <dependency dep="only" dep_index="13" gov="bound" gov_index="11">preconj</dependency>
+      <dependency dep="plant" dep_index="15" gov="actin" gov_index="16">nn</dependency>
+      <dependency dep="actin" dep_index="16" gov="bound" gov_index="11">prep_to</dependency>
+      <dependency dep="mammalian" dep_index="21" gov="actin" gov_index="22">amod</dependency>
+      <dependency dep="actin" dep_index="22" gov="bound" gov_index="11">prep_to</dependency>
+      <dependency dep="actin" dep_index="22" gov="actin" gov_index="16">conj_and</dependency>
+      <dependency dep="demonstrating" dep_index="24" gov="purified" gov_index="7">partmod</dependency>
+      <dependency dep="that" dep_index="25" gov="compatible" gov_index="38">mark</dependency>
+      <dependency dep="cytoskeletal" dep_index="26" gov="components" gov_index="27">amod</dependency>
+      <dependency dep="components" dep_index="27" gov="compatible" gov_index="38">nsubj</dependency>
+      <dependency dep="distantly" dep_index="29" gov="related" gov_index="30">advmod</dependency>
+      <dependency dep="related" dep_index="30" gov="organisms" gov_index="31">amod</dependency>
+      <dependency dep="organisms" dep_index="31" gov="components" gov_index="27">prep_from</dependency>
+      <dependency dep="divergent" dep_index="33" gov="structures" gov_index="35">amod</dependency>
+      <dependency dep="primary" dep_index="34" gov="structures" gov_index="35">amod</dependency>
+      <dependency dep="structures" dep_index="35" gov="organisms" gov_index="31">prep_with</dependency>
+      <dependency dep="can" dep_index="36" gov="compatible" gov_index="38">aux</dependency>
+      <dependency dep="be" dep_index="37" gov="compatible" gov_index="38">cop</dependency>
+      <dependency dep="compatible" dep_index="38" gov="demonstrating" gov_index="24">ccomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000016" relationship="true"></relation>
+      <relation position="1000022" relationship="true"></relation>
+      <relation position="1600022" relationship="false">16 11 22</relation>
+   </relations>
+   <pairs>
+      <pair>1000016</pair>
+      <pair>1000022</pair>
+   </pairs>
+</root>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Although@GRB2@associates@with@IRS-1@and@Shc@,@it@is@not@tyrosine-phosphorylated@after@insulin@stimulation@,@implying@that@GRB2@is@not@a@substrate@for@the@insulin@receptor@.@</sentence>
+   <tags>
+      <tag pos="2">GRB2</tag>
+      <tag pos="5">IRS-1</tag>
+      <tag pos="7">Shc</tag>
+      <tag pos="14">insulin</tag>
+      <tag pos="19">GRB2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Although</taggedword>
+      <taggedword index="2" part-of-speech="NNP">GRB2</taggedword>
+      <taggedword index="3" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="NNP">IRS-1</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Shc</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="PRP">it</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="JJ">tyrosine-phosphorylated</taggedword>
+      <taggedword index="13" part-of-speech="IN">after</taggedword>
+      <taggedword index="14" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="15" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="VBG">implying</taggedword>
+      <taggedword index="18" part-of-speech="IN">that</taggedword>
+      <taggedword index="19" part-of-speech="NNP">GRB2</taggedword>
+      <taggedword index="20" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="21" part-of-speech="RB">not</taggedword>
+      <taggedword index="22" part-of-speech="DT">a</taggedword>
+      <taggedword index="23" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="24" part-of-speech="IN">for</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="27" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Although" dep_index="1" gov="associates" gov_index="3">mark</dependency>
+      <dependency dep="GRB2" dep_index="2" gov="associates" gov_index="3">nn</dependency>
+      <dependency dep="associates" dep_index="3" gov="tyrosine-phosphorylated" gov_index="12">advcl</dependency>
+      <dependency dep="with" dep_index="4" gov="associates" gov_index="3">dep</dependency>
+      <dependency dep="IRS-1" dep_index="5" gov="with" gov_index="4">pobj</dependency>
+      <dependency dep="Shc" dep_index="7" gov="with" gov_index="4">pobj</dependency>
+      <dependency dep="Shc" dep_index="7" gov="IRS-1" gov_index="5">conj_and</dependency>
+      <dependency dep="it" dep_index="9" gov="tyrosine-phosphorylated" gov_index="12">nsubj</dependency>
+      <dependency dep="is" dep_index="10" gov="tyrosine-phosphorylated" gov_index="12">cop</dependency>
+      <dependency dep="not" dep_index="11" gov="tyrosine-phosphorylated" gov_index="12">neg</dependency>
+      <dependency dep="tyrosine-phosphorylated" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="insulin" dep_index="14" gov="stimulation" gov_index="15">nn</dependency>
+      <dependency dep="stimulation" dep_index="15" gov="tyrosine-phosphorylated" gov_index="12">prep_after</dependency>
+      <dependency dep="implying" dep_index="17" gov="tyrosine-phosphorylated" gov_index="12">xcomp</dependency>
+      <dependency dep="that" dep_index="18" gov="substrate" gov_index="23">mark</dependency>
+      <dependency dep="GRB2" dep_index="19" gov="substrate" gov_index="23">nsubj</dependency>
+      <dependency dep="is" dep_index="20" gov="substrate" gov_index="23">cop</dependency>
+      <dependency dep="not" dep_index="21" gov="substrate" gov_index="23">neg</dependency>
+      <dependency dep="a" dep_index="22" gov="substrate" gov_index="23">det</dependency>
+      <dependency dep="substrate" dep_index="23" gov="implying" gov_index="17">ccomp</dependency>
+      <dependency dep="the" dep_index="25" gov="receptor" gov_index="27">det</dependency>
+      <dependency dep="insulin" dep_index="26" gov="receptor" gov_index="27">nn</dependency>
+      <dependency dep="receptor" dep_index="27" gov="substrate" gov_index="23">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200005" relationship="true">2 3 4 5</relation>
+      <relation position="200007" relationship="true">2 3 4 7</relation>
+      <relation position="200014" relationship="false">2 3 12 15 14</relation>
+      <relation position="200019" relationship="false">2 3 12 17 23 19</relation>
+      <relation position="500007" relationship="false">5 4 7</relation>
+      <relation position="500014" relationship="false">5 4 3 12 15 14</relation>
+      <relation position="500019" relationship="false">5 4 3 12 17 23 19</relation>
+      <relation position="700014" relationship="false">7 4 3 12 15 14</relation>
+      <relation position="700019" relationship="false">7 4 3 12 17 23 19</relation>
+      <relation position="1400019" relationship="false">14 15 12 17 23 19</relation>
+   </relations>
+   <pairs>
+      <pair>200005</pair>
+      <pair>200007</pair>
+   </pairs>
+</root>

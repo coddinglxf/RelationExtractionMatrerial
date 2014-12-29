@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interleukin-1beta (IL-1beta) converting enzyme@(@ICE@)@processes@the@inactive@IL-1beta@precursor@to@the@proinflammatory@cytokine@.@</sentence>
+   <tags>
+      <tag pos="2">interleukin-1beta (IL-1beta) converting enzyme</tag>
+      <tag pos="4">ICE</tag>
+      <tag pos="9">IL-1beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">interleukin-1beta (IL-1beta) converting enzyme</taggedword>
+      <taggedword index="3" part-of-speech="NNP">(</taggedword>
+      <taggedword index="4" part-of-speech="NNP">ICE</taggedword>
+      <taggedword index="5" part-of-speech="NNP">)</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">processes</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">inactive</taggedword>
+      <taggedword index="9" part-of-speech="NN">IL-1beta</taggedword>
+      <taggedword index="10" part-of-speech="NN">precursor</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">proinflammatory</taggedword>
+      <taggedword index="14" part-of-speech="NN">cytokine</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov=")" gov_index="5">det</dependency>
+      <dependency dep="interleukin-1beta (IL-1beta) converting enzyme" dep_index="2" gov=")" gov_index="5">amod</dependency>
+      <dependency dep="(" dep_index="3" gov=")" gov_index="5">nn</dependency>
+      <dependency dep="ICE" dep_index="4" gov=")" gov_index="5">nn</dependency>
+      <dependency dep=")" dep_index="5" gov="processes" gov_index="6">nsubj</dependency>
+      <dependency dep="processes" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="precursor" gov_index="10">det</dependency>
+      <dependency dep="inactive" dep_index="8" gov="precursor" gov_index="10">amod</dependency>
+      <dependency dep="IL-1beta" dep_index="9" gov="precursor" gov_index="10">nn</dependency>
+      <dependency dep="precursor" dep_index="10" gov="processes" gov_index="6">dobj</dependency>
+      <dependency dep="the" dep_index="12" gov="cytokine" gov_index="14">det</dependency>
+      <dependency dep="proinflammatory" dep_index="13" gov="cytokine" gov_index="14">amod</dependency>
+      <dependency dep="cytokine" dep_index="14" gov="processes" gov_index="6">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 5 4</relation>
+      <relation position="200009" relationship="false">2 5 6 10 9</relation>
+      <relation position="400009" relationship="false">4 5 6 10 9</relation>
+   </relations>
+   <pairs/>
+</root>

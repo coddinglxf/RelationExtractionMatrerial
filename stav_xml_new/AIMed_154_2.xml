@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@syntrophins@are@a@biochemically@heterogeneous@group@of@58-kDa@intracellular@membrane-associated@dystrophin@-binding@proteins@.@</sentence>
+   <tags>
+      <tag pos="12">dystrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">syntrophins</taggedword>
+      <taggedword index="3" part-of-speech="VBP">are</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">biochemically</taggedword>
+      <taggedword index="6" part-of-speech="JJ">heterogeneous</taggedword>
+      <taggedword index="7" part-of-speech="NN">group</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">58-kDa</taggedword>
+      <taggedword index="10" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="11" part-of-speech="JJ">membrane-associated</taggedword>
+      <taggedword index="12" part-of-speech="NN">dystrophin</taggedword>
+      <taggedword index="13" part-of-speech="NN">-binding</taggedword>
+      <taggedword index="14" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="syntrophins" gov_index="2">det</dependency>
+      <dependency dep="syntrophins" dep_index="2" gov="group" gov_index="7">nsubj</dependency>
+      <dependency dep="are" dep_index="3" gov="group" gov_index="7">cop</dependency>
+      <dependency dep="a" dep_index="4" gov="group" gov_index="7">det</dependency>
+      <dependency dep="biochemically" dep_index="5" gov="group" gov_index="7">amod</dependency>
+      <dependency dep="heterogeneous" dep_index="6" gov="group" gov_index="7">amod</dependency>
+      <dependency dep="group" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="58-kDa" dep_index="9" gov="proteins" gov_index="14">amod</dependency>
+      <dependency dep="intracellular" dep_index="10" gov="proteins" gov_index="14">nn</dependency>
+      <dependency dep="membrane-associated" dep_index="11" gov="proteins" gov_index="14">amod</dependency>
+      <dependency dep="dystrophin" dep_index="12" gov="proteins" gov_index="14">nn</dependency>
+      <dependency dep="-binding" dep_index="13" gov="proteins" gov_index="14">nn</dependency>
+      <dependency dep="proteins" dep_index="14" gov="group" gov_index="7">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

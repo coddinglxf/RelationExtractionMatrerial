@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@characterized@the@interaction@and@nuclear@localization@of@the@nucleocapsid@(@N@)@protein@and@phosphoprotein@(@P@)@of@sonchus@yellow@net@nucleorhabdovirus@.@</sentence>
+   <tags>
+      <tag pos="17">phosphoprotein</tag>
+      <tag pos="13">N</tag>
+      <tag pos="19">P</tag>
+      <tag pos="11">nucleocapsid</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="JJ">nuclear</taggedword>
+      <taggedword index="8" part-of-speech="NN">localization</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">nucleocapsid</taggedword>
+      <taggedword index="12" part-of-speech="NNP">(</taggedword>
+      <taggedword index="13" part-of-speech="NNP">N</taggedword>
+      <taggedword index="14" part-of-speech="NNP">)</taggedword>
+      <taggedword index="15" part-of-speech="NN">protein</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="VBN">phosphoprotein</taggedword>
+      <taggedword index="18" part-of-speech="NNP">(</taggedword>
+      <taggedword index="19" part-of-speech="NNP">P</taggedword>
+      <taggedword index="20" part-of-speech="NNP">)</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="JJ">sonchus</taggedword>
+      <taggedword index="23" part-of-speech="JJ">yellow</taggedword>
+      <taggedword index="24" part-of-speech="JJ">net</taggedword>
+      <taggedword index="25" part-of-speech="NNS">nucleorhabdovirus</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="characterized" gov_index="3">nsubj</dependency>
+      <dependency dep="We" dep_index="1" gov="phosphoprotein" gov_index="17">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="characterized" gov_index="3">aux</dependency>
+      <dependency dep="characterized" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="localization" gov_index="8">det</dependency>
+      <dependency dep="interaction" dep_index="5" gov="localization" gov_index="8">nn</dependency>
+      <dependency dep="nuclear" dep_index="7" gov="interaction" gov_index="5">conj_and</dependency>
+      <dependency dep="nuclear" dep_index="7" gov="localization" gov_index="8">nn</dependency>
+      <dependency dep="localization" dep_index="8" gov="characterized" gov_index="3">dobj</dependency>
+      <dependency dep="the" dep_index="10" gov="protein" gov_index="15">det</dependency>
+      <dependency dep="nucleocapsid" dep_index="11" gov="protein" gov_index="15">amod</dependency>
+      <dependency dep="(" dep_index="12" gov="protein" gov_index="15">nn</dependency>
+      <dependency dep="N" dep_index="13" gov="protein" gov_index="15">nn</dependency>
+      <dependency dep=")" dep_index="14" gov="protein" gov_index="15">nn</dependency>
+      <dependency dep="protein" dep_index="15" gov="localization" gov_index="8">prep_of</dependency>
+      <dependency dep="phosphoprotein" dep_index="17" gov="characterized" gov_index="3">conj_and</dependency>
+      <dependency dep="(" dep_index="18" gov=")" gov_index="20">nn</dependency>
+      <dependency dep="P" dep_index="19" gov=")" gov_index="20">nn</dependency>
+      <dependency dep=")" dep_index="20" gov="phosphoprotein" gov_index="17">dobj</dependency>
+      <dependency dep="sonchus" dep_index="22" gov="nucleorhabdovirus" gov_index="25">amod</dependency>
+      <dependency dep="yellow" dep_index="23" gov="nucleorhabdovirus" gov_index="25">amod</dependency>
+      <dependency dep="net" dep_index="24" gov="nucleorhabdovirus" gov_index="25">amod</dependency>
+      <dependency dep="nucleorhabdovirus" dep_index="25" gov=")" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300017" relationship="true"></relation>
+      <relation position="1700019" relationship="false"></relation>
+      <relation position="1100017" relationship="true"></relation>
+      <relation position="1300019" relationship="true"></relation>
+      <relation position="1100013" relationship="false">11 15 13</relation>
+      <relation position="1100019" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>1100017</pair>
+      <pair>1300019</pair>
+      <pair>1100019</pair>
+      <pair>1300017</pair>
+   </pairs>
+</root>

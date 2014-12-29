@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Activation@of@EGFR@overexpressing@3T3-L1@adipocytes@leads@to@a@3.4@+/-@1.2-fold@stimulation@of@PLC@activity@over@basal@levels@vs@.@only@1.06@+/-@0.01-fold@stimulation@by@insulin@.@</sentence>
+   <tags>
+      <tag pos="15">PLC</tag>
+      <tag pos="28">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Activation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">EGFR</taggedword>
+      <taggedword index="4" part-of-speech="VBG">overexpressing</taggedword>
+      <taggedword index="5" part-of-speech="CD">3T3-L1</taggedword>
+      <taggedword index="6" part-of-speech="NNS">adipocytes</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">leads</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="CD">3.4</taggedword>
+      <taggedword index="11" part-of-speech="CD">+/-</taggedword>
+      <taggedword index="12" part-of-speech="JJ">1.2-fold</taggedword>
+      <taggedword index="13" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="16" part-of-speech="NN">activity</taggedword>
+      <taggedword index="17" part-of-speech="IN">over</taggedword>
+      <taggedword index="18" part-of-speech="JJ">basal</taggedword>
+      <taggedword index="19" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="20" part-of-speech="NNP">vs</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+      <taggedword index="22" part-of-speech="RB">only</taggedword>
+      <taggedword index="23" part-of-speech="CD">1.06</taggedword>
+      <taggedword index="24" part-of-speech="CD">+/-</taggedword>
+      <taggedword index="25" part-of-speech="JJ">0.01-fold</taggedword>
+      <taggedword index="26" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Activation" dep_index="1" gov="leads" gov_index="7">nsubj</dependency>
+      <dependency dep="EGFR" dep_index="3" gov="Activation" gov_index="1">prep_of</dependency>
+      <dependency dep="overexpressing" dep_index="4" gov="EGFR" gov_index="3">partmod</dependency>
+      <dependency dep="3T3-L1" dep_index="5" gov="adipocytes" gov_index="6">num</dependency>
+      <dependency dep="adipocytes" dep_index="6" gov="overexpressing" gov_index="4">dobj</dependency>
+      <dependency dep="leads" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="9" gov="stimulation" gov_index="13">det</dependency>
+      <dependency dep="3.4" dep_index="10" gov="+/-" gov_index="11">number</dependency>
+      <dependency dep="+/-" dep_index="11" gov="stimulation" gov_index="13">num</dependency>
+      <dependency dep="1.2-fold" dep_index="12" gov="stimulation" gov_index="13">amod</dependency>
+      <dependency dep="stimulation" dep_index="13" gov="leads" gov_index="7">prep_to</dependency>
+      <dependency dep="PLC" dep_index="15" gov="activity" gov_index="16">nn</dependency>
+      <dependency dep="activity" dep_index="16" gov="stimulation" gov_index="13">prep_of</dependency>
+      <dependency dep="basal" dep_index="18" gov="levels" gov_index="19">amod</dependency>
+      <dependency dep="levels" dep_index="19" gov="stimulation" gov_index="13">prep_over</dependency>
+      <dependency dep="vs" dep_index="20" gov="levels" gov_index="19">dep</dependency>
+      <dependency dep="only" dep_index="22" gov="+/-" gov_index="24">quantmod</dependency>
+      <dependency dep="1.06" dep_index="23" gov="+/-" gov_index="24">number</dependency>
+      <dependency dep="+/-" dep_index="24" gov="stimulation" gov_index="26">num</dependency>
+      <dependency dep="0.01-fold" dep_index="25" gov="stimulation" gov_index="26">amod</dependency>
+      <dependency dep="stimulation" dep_index="26" gov="vs" gov_index="20">dep</dependency>
+      <dependency dep="insulin" dep_index="28" gov="leads" gov_index="7">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500028" relationship="true">15 16 13 7 28</relation>
+   </relations>
+   <pairs>
+      <pair>1500028</pair>
+   </pairs>
+</root>

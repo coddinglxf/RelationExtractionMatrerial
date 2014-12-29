@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@these@investigations@,@we@determine@that@recruitment@of@a@coactivator@protein@,@CBP@(the@CREBbinding protein@),@to@the@CYBB@or@NCF2@promoter@is@the@molecular@mechanism@of@transcriptional@activation@by@PU.1@,@IRF1@,@and@ICSBP@.@</sentence>
+   <tags>
+      <tag pos="22">NCF2</tag>
+      <tag pos="37">ICSBP</tag>
+      <tag pos="16">CREBbinding protein</tag>
+      <tag pos="32">PU.1</tag>
+      <tag pos="34">IRF1</tag>
+      <tag pos="14">CBP</tag>
+      <tag pos="20">CYBB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">these</taggedword>
+      <taggedword index="3" part-of-speech="NNS">investigations</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBP">determine</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="NN">recruitment</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="NN">coactivator</taggedword>
+      <taggedword index="12" part-of-speech="NN">protein</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NNP">CBP</taggedword>
+      <taggedword index="15" part-of-speech="NNP">(the</taggedword>
+      <taggedword index="16" part-of-speech="NNP">CREBbinding protein</taggedword>
+      <taggedword index="17" part-of-speech="NNP">),</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NNP">CYBB</taggedword>
+      <taggedword index="21" part-of-speech="CC">or</taggedword>
+      <taggedword index="22" part-of-speech="NNP">NCF2</taggedword>
+      <taggedword index="23" part-of-speech="NNP">promoter</taggedword>
+      <taggedword index="24" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="JJ">molecular</taggedword>
+      <taggedword index="27" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="30" part-of-speech="NN">activation</taggedword>
+      <taggedword index="31" part-of-speech="IN">by</taggedword>
+      <taggedword index="32" part-of-speech="NNP">PU.1</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="NNP">IRF1</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="CC">and</taggedword>
+      <taggedword index="37" part-of-speech="NNP">ICSBP</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="these" dep_index="2" gov="investigations" gov_index="3">det</dependency>
+      <dependency dep="investigations" dep_index="3" gov="determine" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="determine" gov_index="6">nsubj</dependency>
+      <dependency dep="determine" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="mechanism" gov_index="27">mark</dependency>
+      <dependency dep="recruitment" dep_index="8" gov="mechanism" gov_index="27">nsubj</dependency>
+      <dependency dep="a" dep_index="10" gov="protein" gov_index="12">det</dependency>
+      <dependency dep="coactivator" dep_index="11" gov="protein" gov_index="12">nn</dependency>
+      <dependency dep="protein" dep_index="12" gov="recruitment" gov_index="8">prep_of</dependency>
+      <dependency dep="CBP" dep_index="14" gov=")," gov_index="17">nn</dependency>
+      <dependency dep="(the" dep_index="15" gov=")," gov_index="17">nn</dependency>
+      <dependency dep="CREBbinding protein" dep_index="16" gov=")," gov_index="17">nn</dependency>
+      <dependency dep=")," dep_index="17" gov="protein" gov_index="12">appos</dependency>
+      <dependency dep="the" dep_index="19" gov="promoter" gov_index="23">det</dependency>
+      <dependency dep="CYBB" dep_index="20" gov="promoter" gov_index="23">nn</dependency>
+      <dependency dep="NCF2" dep_index="22" gov="CYBB" gov_index="20">conj_or</dependency>
+      <dependency dep="NCF2" dep_index="22" gov="promoter" gov_index="23">nn</dependency>
+      <dependency dep="promoter" dep_index="23" gov=")," gov_index="17">prep_to</dependency>
+      <dependency dep="is" dep_index="24" gov="mechanism" gov_index="27">cop</dependency>
+      <dependency dep="the" dep_index="25" gov="mechanism" gov_index="27">det</dependency>
+      <dependency dep="molecular" dep_index="26" gov="mechanism" gov_index="27">amod</dependency>
+      <dependency dep="mechanism" dep_index="27" gov="determine" gov_index="6">ccomp</dependency>
+      <dependency dep="transcriptional" dep_index="29" gov="activation" gov_index="30">amod</dependency>
+      <dependency dep="activation" dep_index="30" gov="mechanism" gov_index="27">prep_of</dependency>
+      <dependency dep="PU.1" dep_index="32" gov="activation" gov_index="30">prep_by</dependency>
+      <dependency dep="IRF1" dep_index="34" gov="activation" gov_index="30">prep_by</dependency>
+      <dependency dep="IRF1" dep_index="34" gov="PU.1" gov_index="32">conj_and</dependency>
+      <dependency dep="ICSBP" dep_index="37" gov="activation" gov_index="30">prep_by</dependency>
+      <dependency dep="ICSBP" dep_index="37" gov="PU.1" gov_index="32">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2200037" relationship="true">22 23 17 12 8 27 30 37</relation>
+      <relation position="1600022" relationship="true">16 17 23 22</relation>
+      <relation position="2200032" relationship="true">22 23 17 12 8 27 30 32</relation>
+      <relation position="2200034" relationship="true">22 23 17 12 8 27 30 34</relation>
+      <relation position="1400022" relationship="true">14 17 23 22</relation>
+      <relation position="2000022" relationship="false">20 23 22</relation>
+      <relation position="1600037" relationship="false">16 17 12 8 27 30 37</relation>
+      <relation position="3200037" relationship="false">32 30 37</relation>
+      <relation position="3400037" relationship="false">34 30 37</relation>
+      <relation position="1400037" relationship="false">14 17 12 8 27 30 37</relation>
+      <relation position="2000037" relationship="true">20 23 17 12 8 27 30 37</relation>
+      <relation position="1600032" relationship="false">16 17 12 8 27 30 32</relation>
+      <relation position="1600034" relationship="false">16 17 12 8 27 30 34</relation>
+      <relation position="1400016" relationship="false">14 17 16</relation>
+      <relation position="1600020" relationship="true">16 17 23 20</relation>
+      <relation position="3200034" relationship="false">32 30 34</relation>
+      <relation position="1400032" relationship="false">14 17 12 8 27 30 32</relation>
+      <relation position="2000032" relationship="true">20 23 17 12 8 27 30 32</relation>
+      <relation position="1400034" relationship="false">14 17 12 8 27 30 34</relation>
+      <relation position="2000034" relationship="true">20 23 17 12 8 27 30 34</relation>
+      <relation position="1400020" relationship="true">14 17 23 20</relation>
+   </relations>
+   <pairs>
+      <pair>1400022</pair>
+      <pair>2200034</pair>
+      <pair>2000037</pair>
+      <pair>1400020</pair>
+      <pair>2200032</pair>
+      <pair>2000034</pair>
+      <pair>2200037</pair>
+      <pair>2000032</pair>
+      <pair>1600020</pair>
+      <pair>1600022</pair>
+   </pairs>
+</root>

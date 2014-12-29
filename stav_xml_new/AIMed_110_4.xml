@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@cloning@of@a@complementary@DNA@encoding@a@human@TFIID@TAF@,@TAFII55@,@that@has@no@known@homolog@in@Drosophila@TFIID@is@now@described@.@</sentence>
+   <tags>
+      <tag pos="10">TFIID</tag>
+      <tag pos="13">TAFII55</tag>
+      <tag pos="22">TFIID</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">cloning</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">complementary</taggedword>
+      <taggedword index="6" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="7" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">human</taggedword>
+      <taggedword index="10" part-of-speech="NNP">TFIID</taggedword>
+      <taggedword index="11" part-of-speech="NNP">TAF</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNP">TAFII55</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="WDT">that</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="17" part-of-speech="DT">no</taggedword>
+      <taggedword index="18" part-of-speech="VBN">known</taggedword>
+      <taggedword index="19" part-of-speech="NN">homolog</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="NNP">Drosophila</taggedword>
+      <taggedword index="22" part-of-speech="NNP">TFIID</taggedword>
+      <taggedword index="23" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="24" part-of-speech="RB">now</taggedword>
+      <taggedword index="25" part-of-speech="VBN">described</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="cloning" gov_index="2">det</dependency>
+      <dependency dep="cloning" dep_index="2" gov="described" gov_index="25">nsubjpass</dependency>
+      <dependency dep="a" dep_index="4" gov="DNA" gov_index="6">det</dependency>
+      <dependency dep="complementary" dep_index="5" gov="DNA" gov_index="6">amod</dependency>
+      <dependency dep="DNA" dep_index="6" gov="cloning" gov_index="2">prep_of</dependency>
+      <dependency dep="encoding" dep_index="7" gov="DNA" gov_index="6">partmod</dependency>
+      <dependency dep="a" dep_index="8" gov="TAF" gov_index="11">det</dependency>
+      <dependency dep="human" dep_index="9" gov="TAF" gov_index="11">amod</dependency>
+      <dependency dep="TFIID" dep_index="10" gov="TAF" gov_index="11">nn</dependency>
+      <dependency dep="TAF" dep_index="11" gov="encoding" gov_index="7">dobj</dependency>
+      <dependency dep="TAF" dep_index="11" gov="has" gov_index="16">nsubj</dependency>
+      <dependency dep="TAFII55" dep_index="13" gov="TAF" gov_index="11">appos</dependency>
+      <dependency dep="has" dep_index="16" gov="TAF" gov_index="11">rcmod</dependency>
+      <dependency dep="no" dep_index="17" gov="homolog" gov_index="19">det</dependency>
+      <dependency dep="known" dep_index="18" gov="homolog" gov_index="19">amod</dependency>
+      <dependency dep="homolog" dep_index="19" gov="has" gov_index="16">dobj</dependency>
+      <dependency dep="Drosophila" dep_index="21" gov="TFIID" gov_index="22">nn</dependency>
+      <dependency dep="TFIID" dep_index="22" gov="homolog" gov_index="19">prep_in</dependency>
+      <dependency dep="is" dep_index="23" gov="described" gov_index="25">auxpass</dependency>
+      <dependency dep="now" dep_index="24" gov="described" gov_index="25">advmod</dependency>
+      <dependency dep="described" dep_index="25" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000013" relationship="false">10 11 13</relation>
+      <relation position="1000022" relationship="false">10 11 16 19 22</relation>
+      <relation position="1300022" relationship="false">13 11 16 19 22</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Specific@binding@of@the@transglutaminase@,@platelet factor XIII@,@to@HSP27@.@</sentence>
+   <tags>
+      <tag pos="7">platelet factor XIII</tag>
+      <tag pos="10">HSP27</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Specific</taggedword>
+      <taggedword index="2" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">transglutaminase</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNS">platelet factor XIII</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="NNP">HSP27</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Specific" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="binding" dep_index="2" gov="Specific" gov_index="1">amod</dependency>
+      <dependency dep="the" dep_index="4" gov="transglutaminase" gov_index="5">det</dependency>
+      <dependency dep="transglutaminase" dep_index="5" gov="Specific" gov_index="1">prep_of</dependency>
+      <dependency dep="platelet factor XIII" dep_index="7" gov="transglutaminase" gov_index="5">appos</dependency>
+      <dependency dep="HSP27" dep_index="10" gov="transglutaminase" gov_index="5">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700010" relationship="true">7 5 10</relation>
+   </relations>
+   <pairs>
+      <pair>700010</pair>
+   </pairs>
+</root>

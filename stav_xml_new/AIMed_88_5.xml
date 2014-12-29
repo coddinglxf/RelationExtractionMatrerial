@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Four@positive@colonies@were@obtained@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Four</taggedword>
+      <taggedword index="2" part-of-speech="JJ">positive</taggedword>
+      <taggedword index="3" part-of-speech="NNS">colonies</taggedword>
+      <taggedword index="4" part-of-speech="VBD">were</taggedword>
+      <taggedword index="5" part-of-speech="VBN">obtained</taggedword>
+      <taggedword index="6" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Four" dep_index="1" gov="colonies" gov_index="3">num</dependency>
+      <dependency dep="positive" dep_index="2" gov="colonies" gov_index="3">amod</dependency>
+      <dependency dep="colonies" dep_index="3" gov="obtained" gov_index="5">nsubjpass</dependency>
+      <dependency dep="were" dep_index="4" gov="obtained" gov_index="5">auxpass</dependency>
+      <dependency dep="obtained" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

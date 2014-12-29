@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>HOX11@interacts@with@protein@phosphatases@PP2A@and@PP1@and@disrupts@a@G2/M@cell-cycle@checkpoint@.@</sentence>
+   <tags>
+      <tag pos="1">HOX11</tag>
+      <tag pos="6">PP2A</tag>
+      <tag pos="8">PP1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">HOX11</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="NN">protein</taggedword>
+      <taggedword index="5" part-of-speech="NNS">phosphatases</taggedword>
+      <taggedword index="6" part-of-speech="NNP">PP2A</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NNP">PP1</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">disrupts</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">G2/M</taggedword>
+      <taggedword index="13" part-of-speech="JJ">cell-cycle</taggedword>
+      <taggedword index="14" part-of-speech="NN">checkpoint</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="HOX11" dep_index="1" gov="interacts" gov_index="2">nsubj</dependency>
+      <dependency dep="HOX11" dep_index="1" gov="disrupts" gov_index="10">nsubj</dependency>
+      <dependency dep="interacts" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="protein" dep_index="4" gov="PP2A" gov_index="6">nn</dependency>
+      <dependency dep="phosphatases" dep_index="5" gov="PP2A" gov_index="6">nn</dependency>
+      <dependency dep="PP2A" dep_index="6" gov="interacts" gov_index="2">prep_with</dependency>
+      <dependency dep="PP1" dep_index="8" gov="interacts" gov_index="2">prep_with</dependency>
+      <dependency dep="PP1" dep_index="8" gov="PP2A" gov_index="6">conj_and</dependency>
+      <dependency dep="disrupts" dep_index="10" gov="interacts" gov_index="2">conj_and</dependency>
+      <dependency dep="a" dep_index="11" gov="checkpoint" gov_index="14">det</dependency>
+      <dependency dep="G2/M" dep_index="12" gov="checkpoint" gov_index="14">amod</dependency>
+      <dependency dep="cell-cycle" dep_index="13" gov="checkpoint" gov_index="14">amod</dependency>
+      <dependency dep="checkpoint" dep_index="14" gov="disrupts" gov_index="10">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100006" relationship="true">1 2 6</relation>
+      <relation position="100008" relationship="true">1 2 8</relation>
+      <relation position="600008" relationship="false">6 2 8</relation>
+   </relations>
+   <pairs>
+      <pair>100008</pair>
+      <pair>100006</pair>
+   </pairs>
+</root>

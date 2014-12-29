@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@predicted@sequence@of@AtFim1@shares@ca@.@40%@identity@with@nonplant@fimbrins@and@contains@two@tandem@repeats@,@each@possessing@a@27@amino@acid@region@identified@as@a@putative@actin@-binding@domain@in@fimbrins@and@in@a@larger@family@of@actin@cross-linking@proteins@.@</sentence>
+   <tags>
+      <tag pos="42">actin</tag>
+      <tag pos="31">actin</tag>
+      <tag pos="35">fimbrins</tag>
+      <tag pos="13">fimbrins</tag>
+      <tag pos="5">AtFim1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">The</taggedword>
+      <taggedword index="2" part-of-speech="VBD">predicted</taggedword>
+      <taggedword index="3" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="JJ">AtFim1</taggedword>
+      <taggedword index="6" part-of-speech="NNS">shares</taggedword>
+      <taggedword index="7" part-of-speech="MD">ca</taggedword>
+      <taggedword index="8" part-of-speech=".">.</taggedword>
+      <taggedword index="9" part-of-speech="CD">40%</taggedword>
+      <taggedword index="10" part-of-speech="NN">identity</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="NN">nonplant</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">fimbrins</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">contains</taggedword>
+      <taggedword index="16" part-of-speech="CD">two</taggedword>
+      <taggedword index="17" part-of-speech="NN">tandem</taggedword>
+      <taggedword index="18" part-of-speech="NNS">repeats</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="DT">each</taggedword>
+      <taggedword index="21" part-of-speech="VBG">possessing</taggedword>
+      <taggedword index="22" part-of-speech="DT">a</taggedword>
+      <taggedword index="23" part-of-speech="CD">27</taggedword>
+      <taggedword index="24" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="25" part-of-speech="NN">acid</taggedword>
+      <taggedword index="26" part-of-speech="NN">region</taggedword>
+      <taggedword index="27" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="28" part-of-speech="IN">as</taggedword>
+      <taggedword index="29" part-of-speech="DT">a</taggedword>
+      <taggedword index="30" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="31" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="32" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="33" part-of-speech="NN">domain</taggedword>
+      <taggedword index="34" part-of-speech="IN">in</taggedword>
+      <taggedword index="35" part-of-speech="NNS">fimbrins</taggedword>
+      <taggedword index="36" part-of-speech="CC">and</taggedword>
+      <taggedword index="37" part-of-speech="IN">in</taggedword>
+      <taggedword index="38" part-of-speech="DT">a</taggedword>
+      <taggedword index="39" part-of-speech="JJR">larger</taggedword>
+      <taggedword index="40" part-of-speech="NN">family</taggedword>
+      <taggedword index="41" part-of-speech="IN">of</taggedword>
+      <taggedword index="42" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="43" part-of-speech="JJ">cross-linking</taggedword>
+      <taggedword index="44" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="45" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="predicted" gov_index="2">nsubj</dependency>
+      <dependency dep="predicted" dep_index="2" gov="fimbrins" gov_index="13">dep</dependency>
+      <dependency dep="sequence" dep_index="3" gov="ca" gov_index="7">nsubj</dependency>
+      <dependency dep="AtFim1" dep_index="5" gov="shares" gov_index="6">amod</dependency>
+      <dependency dep="shares" dep_index="6" gov="sequence" gov_index="3">prep_of</dependency>
+      <dependency dep="ca" dep_index="7" gov="predicted" gov_index="2">ccomp</dependency>
+      <dependency dep="40%" dep_index="9" gov="identity" gov_index="10">num</dependency>
+      <dependency dep="identity" dep_index="10" gov="fimbrins" gov_index="13">nsubj</dependency>
+      <dependency dep="identity" dep_index="10" gov="contains" gov_index="15">nsubj</dependency>
+      <dependency dep="nonplant" dep_index="12" gov="identity" gov_index="10">prep_with</dependency>
+      <dependency dep="fimbrins" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="contains" dep_index="15" gov="fimbrins" gov_index="13">conj_and</dependency>
+      <dependency dep="two" dep_index="16" gov="repeats" gov_index="18">num</dependency>
+      <dependency dep="tandem" dep_index="17" gov="repeats" gov_index="18">nn</dependency>
+      <dependency dep="repeats" dep_index="18" gov="fimbrins" gov_index="13">dobj</dependency>
+      <dependency dep="each" dep_index="20" gov="fimbrins" gov_index="13">dobj</dependency>
+      <dependency dep="possessing" dep_index="21" gov="each" gov_index="20">dep</dependency>
+      <dependency dep="a" dep_index="22" gov="region" gov_index="26">det</dependency>
+      <dependency dep="27" dep_index="23" gov="region" gov_index="26">num</dependency>
+      <dependency dep="amino" dep_index="24" gov="region" gov_index="26">amod</dependency>
+      <dependency dep="acid" dep_index="25" gov="region" gov_index="26">nn</dependency>
+      <dependency dep="region" dep_index="26" gov="identified" gov_index="27">nsubj</dependency>
+      <dependency dep="identified" dep_index="27" gov="possessing" gov_index="21">dep</dependency>
+      <dependency dep="a" dep_index="29" gov="domain" gov_index="33">det</dependency>
+      <dependency dep="putative" dep_index="30" gov="domain" gov_index="33">amod</dependency>
+      <dependency dep="actin" dep_index="31" gov="domain" gov_index="33">amod</dependency>
+      <dependency dep="-binding" dep_index="32" gov="domain" gov_index="33">amod</dependency>
+      <dependency dep="domain" dep_index="33" gov="identified" gov_index="27">prep_as</dependency>
+      <dependency dep="fimbrins" dep_index="35" gov="domain" gov_index="33">prep_in</dependency>
+      <dependency dep="in" dep_index="37" gov="each" gov_index="20">dep</dependency>
+      <dependency dep="in" dep_index="37" gov="possessing" gov_index="21">conj_and</dependency>
+      <dependency dep="a" dep_index="38" gov="family" gov_index="40">det</dependency>
+      <dependency dep="larger" dep_index="39" gov="family" gov_index="40">amod</dependency>
+      <dependency dep="family" dep_index="40" gov="in" gov_index="37">pobj</dependency>
+      <dependency dep="actin" dep_index="42" gov="proteins" gov_index="44">amod</dependency>
+      <dependency dep="cross-linking" dep_index="43" gov="proteins" gov_index="44">amod</dependency>
+      <dependency dep="proteins" dep_index="44" gov="family" gov_index="40">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3100042" relationship="false">31 33 27 21 20 37 40 44 42</relation>
+      <relation position="3500042" relationship="false">35 33 27 21 20 37 40 44 42</relation>
+      <relation position="1300042" relationship="false"></relation>
+      <relation position="500042" relationship="false">5 6 3 7 2 13 20 37 40 44 42</relation>
+      <relation position="3100035" relationship="true">31 33 35</relation>
+      <relation position="1300031" relationship="false"></relation>
+      <relation position="500031" relationship="true">5 6 3 7 2 13 20 21 27 33 31</relation>
+      <relation position="1300035" relationship="false"></relation>
+      <relation position="500035" relationship="false">5 6 3 7 2 13 20 21 27 33 35</relation>
+      <relation position="500013" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>500013</pair>
+      <pair>500031</pair>
+      <pair>3100035</pair>
+   </pairs>
+</root>

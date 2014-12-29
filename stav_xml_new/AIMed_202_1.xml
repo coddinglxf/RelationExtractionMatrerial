@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Crystal@structure@of@the@type-I interleukin-1 receptor@complexed@with@interleukin-1beta@.@</sentence>
+   <tags>
+      <tag pos="5">type-I interleukin-1 receptor</tag>
+      <tag pos="8">interleukin-1beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Crystal</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">type-I interleukin-1 receptor</taggedword>
+      <taggedword index="6" part-of-speech="VBD">complexed</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="JJ">interleukin-1beta</taggedword>
+      <taggedword index="9" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Crystal" dep_index="1" gov="structure" gov_index="2">nn</dependency>
+      <dependency dep="structure" dep_index="2" gov="complexed" gov_index="6">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="type-I interleukin-1 receptor" gov_index="5">det</dependency>
+      <dependency dep="type-I interleukin-1 receptor" dep_index="5" gov="structure" gov_index="2">prep_of</dependency>
+      <dependency dep="complexed" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="interleukin-1beta" dep_index="8" gov="complexed" gov_index="6">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500008" relationship="true">5 2 6 8</relation>
+   </relations>
+   <pairs>
+      <pair>500008</pair>
+   </pairs>
+</root>

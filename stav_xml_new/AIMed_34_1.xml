@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Presenilins@interact@with@Rab11@,@a@small@GTPase@involved@in@the@regulation@of@vesicular@transport@.@</sentence>
+   <tags>
+      <tag pos="4">Rab11</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Presenilins</taggedword>
+      <taggedword index="2" part-of-speech="VBP">interact</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="NNS">Rab11</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="JJ">small</taggedword>
+      <taggedword index="8" part-of-speech="NN">GTPase</taggedword>
+      <taggedword index="9" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">vesicular</taggedword>
+      <taggedword index="15" part-of-speech="NN">transport</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Presenilins" dep_index="1" gov="interact" gov_index="2">nsubj</dependency>
+      <dependency dep="interact" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Rab11" dep_index="4" gov="interact" gov_index="2">prep_with</dependency>
+      <dependency dep="a" dep_index="6" gov="GTPase" gov_index="8">det</dependency>
+      <dependency dep="small" dep_index="7" gov="GTPase" gov_index="8">amod</dependency>
+      <dependency dep="GTPase" dep_index="8" gov="Rab11" gov_index="4">appos</dependency>
+      <dependency dep="involved" dep_index="9" gov="GTPase" gov_index="8">partmod</dependency>
+      <dependency dep="the" dep_index="11" gov="regulation" gov_index="12">det</dependency>
+      <dependency dep="regulation" dep_index="12" gov="involved" gov_index="9">prep_in</dependency>
+      <dependency dep="vesicular" dep_index="14" gov="transport" gov_index="15">nn</dependency>
+      <dependency dep="transport" dep_index="15" gov="regulation" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

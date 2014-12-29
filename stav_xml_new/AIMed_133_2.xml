@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@ultraviolet@(UV)@response@of@mammalian@cells@is@characterized@by@a@rapid@and@selective@increase@in@gene@expression@mediated@by@AP-1@and@NF-kappa B@.@</sentence>
+   <tags>
+      <tag pos="21">AP-1</tag>
+      <tag pos="23">NF-kappa B</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">ultraviolet</taggedword>
+      <taggedword index="3" part-of-speech="JJ">(UV)</taggedword>
+      <taggedword index="4" part-of-speech="NN">response</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="7" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="JJ">selective</taggedword>
+      <taggedword index="15" part-of-speech="NN">increase</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="NN">gene</taggedword>
+      <taggedword index="18" part-of-speech="NN">expression</taggedword>
+      <taggedword index="19" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="NNP">AP-1</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NNP">NF-kappa B</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="response" gov_index="4">det</dependency>
+      <dependency dep="ultraviolet" dep_index="2" gov="response" gov_index="4">amod</dependency>
+      <dependency dep="(UV)" dep_index="3" gov="response" gov_index="4">amod</dependency>
+      <dependency dep="response" dep_index="4" gov="characterized" gov_index="9">nsubjpass</dependency>
+      <dependency dep="mammalian" dep_index="6" gov="cells" gov_index="7">amod</dependency>
+      <dependency dep="cells" dep_index="7" gov="response" gov_index="4">prep_of</dependency>
+      <dependency dep="is" dep_index="8" gov="characterized" gov_index="9">auxpass</dependency>
+      <dependency dep="characterized" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="11" gov="increase" gov_index="15">det</dependency>
+      <dependency dep="rapid" dep_index="12" gov="increase" gov_index="15">amod</dependency>
+      <dependency dep="selective" dep_index="14" gov="rapid" gov_index="12">conj_and</dependency>
+      <dependency dep="selective" dep_index="14" gov="increase" gov_index="15">amod</dependency>
+      <dependency dep="increase" dep_index="15" gov="characterized" gov_index="9">agent</dependency>
+      <dependency dep="gene" dep_index="17" gov="expression" gov_index="18">nn</dependency>
+      <dependency dep="expression" dep_index="18" gov="increase" gov_index="15">prep_in</dependency>
+      <dependency dep="mediated" dep_index="19" gov="expression" gov_index="18">partmod</dependency>
+      <dependency dep="AP-1" dep_index="21" gov="mediated" gov_index="19">agent</dependency>
+      <dependency dep="NF-kappa B" dep_index="23" gov="mediated" gov_index="19">agent</dependency>
+      <dependency dep="NF-kappa B" dep_index="23" gov="AP-1" gov_index="21">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2100023" relationship="false">21 19 23</relation>
+   </relations>
+   <pairs/>
+</root>

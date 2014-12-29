@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Scatchard@analysis@of@in@vitro@binding@between@Raf/330@and@G beta gamma@revealed@an@affinity@of@interaction@(Kd@=@163@+/-@36@nM)@,@similar@to@that@seen@between@G beta gamma@and@beta ARK@(Kd@=@87@+/-@24@nM)@.@</sentence>
+   <tags>
+      <tag pos="8">Raf/330</tag>
+      <tag pos="10">G beta gamma</tag>
+      <tag pos="28">G beta gamma</tag>
+      <tag pos="30">beta ARK</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Scatchard</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="6" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="7" part-of-speech="IN">between</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Raf/330</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NNP">G beta gamma</taggedword>
+      <taggedword index="11" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="12" part-of-speech="DT">an</taggedword>
+      <taggedword index="13" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="16" part-of-speech="VBN">(Kd</taggedword>
+      <taggedword index="17" part-of-speech="SYM">=</taggedword>
+      <taggedword index="18" part-of-speech="CD">163</taggedword>
+      <taggedword index="19" part-of-speech="NNP">+/-</taggedword>
+      <taggedword index="20" part-of-speech="CD">36</taggedword>
+      <taggedword index="21" part-of-speech="NNS">nM)</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="DT">that</taggedword>
+      <taggedword index="26" part-of-speech="VBN">seen</taggedword>
+      <taggedword index="27" part-of-speech="IN">between</taggedword>
+      <taggedword index="28" part-of-speech="NNP">G beta gamma</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="NN">beta ARK</taggedword>
+      <taggedword index="31" part-of-speech="NN">(Kd</taggedword>
+      <taggedword index="32" part-of-speech="SYM">=</taggedword>
+      <taggedword index="33" part-of-speech="CD">87</taggedword>
+      <taggedword index="34" part-of-speech="NNP">+/-</taggedword>
+      <taggedword index="35" part-of-speech="CD">24</taggedword>
+      <taggedword index="36" part-of-speech="NNS">nM)</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Scatchard" dep_index="1" gov="analysis" gov_index="2">amod</dependency>
+      <dependency dep="analysis" dep_index="2" gov="revealed" gov_index="11">nsubj</dependency>
+      <dependency dep="in" dep_index="4" gov="vitro" gov_index="5">dep</dependency>
+      <dependency dep="vitro" dep_index="5" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="binding" dep_index="6" gov="vitro" gov_index="5">amod</dependency>
+      <dependency dep="Raf/330" dep_index="8" gov="vitro" gov_index="5">prep_between</dependency>
+      <dependency dep="G beta gamma" dep_index="10" gov="vitro" gov_index="5">prep_between</dependency>
+      <dependency dep="G beta gamma" dep_index="10" gov="Raf/330" gov_index="8">conj_and</dependency>
+      <dependency dep="revealed" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="12" gov="affinity" gov_index="13">det</dependency>
+      <dependency dep="affinity" dep_index="13" gov="nM)" gov_index="36">nsubj</dependency>
+      <dependency dep="interaction" dep_index="15" gov="affinity" gov_index="13">prep_of</dependency>
+      <dependency dep="(Kd" dep_index="16" gov="interaction" gov_index="15">partmod</dependency>
+      <dependency dep="=" dep_index="17" gov="nM)" gov_index="21">dep</dependency>
+      <dependency dep="163" dep_index="18" gov="nM)" gov_index="21">num</dependency>
+      <dependency dep="+/-" dep_index="19" gov="nM)" gov_index="21">nn</dependency>
+      <dependency dep="36" dep_index="20" gov="nM)" gov_index="21">num</dependency>
+      <dependency dep="nM)" dep_index="21" gov="(Kd" gov_index="16">ccomp</dependency>
+      <dependency dep="similar" dep_index="23" gov="(Kd" gov_index="16">dep</dependency>
+      <dependency dep="that" dep_index="25" gov="similar" gov_index="23">prep_to</dependency>
+      <dependency dep="seen" dep_index="26" gov="that" gov_index="25">partmod</dependency>
+      <dependency dep="G beta gamma" dep_index="28" gov="seen" gov_index="26">prep_between</dependency>
+      <dependency dep="beta ARK" dep_index="30" gov="(Kd" gov_index="31">nn</dependency>
+      <dependency dep="(Kd" dep_index="31" gov="seen" gov_index="26">prep_between</dependency>
+      <dependency dep="(Kd" dep_index="31" gov="G beta gamma" gov_index="28">conj_and</dependency>
+      <dependency dep="=" dep_index="32" gov="nM)" gov_index="36">dep</dependency>
+      <dependency dep="87" dep_index="33" gov="nM)" gov_index="36">num</dependency>
+      <dependency dep="+/-" dep_index="34" gov="nM)" gov_index="36">nn</dependency>
+      <dependency dep="24" dep_index="35" gov="nM)" gov_index="36">num</dependency>
+      <dependency dep="nM)" dep_index="36" gov="revealed" gov_index="11">ccomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="true">8 5 10</relation>
+      <relation position="800028" relationship="false">8 5 2 11 36 13 15 16 23 25 26 28</relation>
+      <relation position="800030" relationship="false">8 5 2 11 36 13 15 16 23 25 26 31 30</relation>
+      <relation position="1000028" relationship="false">10 5 2 11 36 13 15 16 23 25 26 28</relation>
+      <relation position="1000030" relationship="false">10 5 2 11 36 13 15 16 23 25 26 31 30</relation>
+      <relation position="2800030" relationship="true">28 26 31 30</relation>
+   </relations>
+   <pairs>
+      <pair>2800030</pair>
+      <pair>800010</pair>
+   </pairs>
+</root>

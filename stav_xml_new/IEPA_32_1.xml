@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Gamma-aminobutyric@acid@mediation@of@the@inhibitory@effect@of@nitric@oxide@on@the@arginine@vasopressin@and@oxytocin@responses@to@insulin@-induced@hypoglycemia@</sentence>
+   <tags>
+      <tag pos="16">oxytocin</tag>
+      <tag pos="19">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Gamma-aminobutyric</taggedword>
+      <taggedword index="2" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="3" part-of-speech="NN">mediation</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">inhibitory</taggedword>
+      <taggedword index="7" part-of-speech="NN">effect</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">nitric</taggedword>
+      <taggedword index="10" part-of-speech="NN">oxide</taggedword>
+      <taggedword index="11" part-of-speech="IN">on</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">arginine</taggedword>
+      <taggedword index="14" part-of-speech="NN">vasopressin</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="17" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="20" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="21" part-of-speech="NN">hypoglycemia</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Gamma-aminobutyric" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="acid" dep_index="2" gov="mediation" gov_index="3">amod</dependency>
+      <dependency dep="mediation" dep_index="3" gov="Gamma-aminobutyric" gov_index="1">dep</dependency>
+      <dependency dep="the" dep_index="5" gov="effect" gov_index="7">det</dependency>
+      <dependency dep="inhibitory" dep_index="6" gov="effect" gov_index="7">amod</dependency>
+      <dependency dep="effect" dep_index="7" gov="mediation" gov_index="3">prep_of</dependency>
+      <dependency dep="nitric" dep_index="9" gov="oxide" gov_index="10">amod</dependency>
+      <dependency dep="oxide" dep_index="10" gov="effect" gov_index="7">prep_of</dependency>
+      <dependency dep="the" dep_index="12" gov="vasopressin" gov_index="14">det</dependency>
+      <dependency dep="arginine" dep_index="13" gov="vasopressin" gov_index="14">amod</dependency>
+      <dependency dep="vasopressin" dep_index="14" gov="oxide" gov_index="10">prep_on</dependency>
+      <dependency dep="oxytocin" dep_index="16" gov="responses" gov_index="17">nn</dependency>
+      <dependency dep="responses" dep_index="17" gov="effect" gov_index="7">prep_of</dependency>
+      <dependency dep="responses" dep_index="17" gov="oxide" gov_index="10">conj_and</dependency>
+      <dependency dep="insulin" dep_index="19" gov="hypoglycemia" gov_index="21">nn</dependency>
+      <dependency dep="-induced" dep_index="20" gov="hypoglycemia" gov_index="21">amod</dependency>
+      <dependency dep="hypoglycemia" dep_index="21" gov="responses" gov_index="17">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600019" relationship="true">16 17 21 19</relation>
+   </relations>
+   <pairs>
+      <pair>1600019</pair>
+   </pairs>
+</root>

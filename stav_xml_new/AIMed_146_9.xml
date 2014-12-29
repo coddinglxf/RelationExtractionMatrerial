@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Deglycosylation@studies@showed@that@the@p90@and@p76@IL-7R@are@not@simply@differently@glycosylated@isoforms@of@a@single@receptor@.@</sentence>
+   <tags>
+      <tag pos="6">p90</tag>
+      <tag pos="8">p76</tag>
+      <tag pos="9">IL-7R</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Deglycosylation</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">p90</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">p76</taggedword>
+      <taggedword index="9" part-of-speech="NN">IL-7R</taggedword>
+      <taggedword index="10" part-of-speech="VBP">are</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="RB">simply</taggedword>
+      <taggedword index="13" part-of-speech="RB">differently</taggedword>
+      <taggedword index="14" part-of-speech="VBN">glycosylated</taggedword>
+      <taggedword index="15" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">single</taggedword>
+      <taggedword index="19" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Deglycosylation" dep_index="1" gov="studies" gov_index="2">nn</dependency>
+      <dependency dep="studies" dep_index="2" gov="showed" gov_index="3">nsubj</dependency>
+      <dependency dep="showed" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="glycosylated" gov_index="14">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="IL-7R" gov_index="9">det</dependency>
+      <dependency dep="p90" dep_index="6" gov="IL-7R" gov_index="9">amod</dependency>
+      <dependency dep="p76" dep_index="8" gov="p90" gov_index="6">conj_and</dependency>
+      <dependency dep="p76" dep_index="8" gov="IL-7R" gov_index="9">amod</dependency>
+      <dependency dep="IL-7R" dep_index="9" gov="glycosylated" gov_index="14">nsubjpass</dependency>
+      <dependency dep="are" dep_index="10" gov="glycosylated" gov_index="14">auxpass</dependency>
+      <dependency dep="not" dep_index="11" gov="glycosylated" gov_index="14">neg</dependency>
+      <dependency dep="simply" dep_index="12" gov="glycosylated" gov_index="14">advmod</dependency>
+      <dependency dep="differently" dep_index="13" gov="glycosylated" gov_index="14">advmod</dependency>
+      <dependency dep="glycosylated" dep_index="14" gov="showed" gov_index="3">ccomp</dependency>
+      <dependency dep="isoforms" dep_index="15" gov="glycosylated" gov_index="14">dobj</dependency>
+      <dependency dep="a" dep_index="17" gov="receptor" gov_index="19">det</dependency>
+      <dependency dep="single" dep_index="18" gov="receptor" gov_index="19">amod</dependency>
+      <dependency dep="receptor" dep_index="19" gov="isoforms" gov_index="15">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="false">6 9 8</relation>
+      <relation position="600009" relationship="false"></relation>
+      <relation position="800009" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@indicate@that@(i)@cotranslational@assembly@of@myosin heavy chains@is@developmentally@regulated@,@(ii)@structures@containing@actin@and@not@microtubules@may@mediate@initial@association@of@the@heavy@chains@with@the@cytoskeleton@,@and@(iii)@the@site@of@translation@dictates@where@a@significant@fraction@of@the@heavy@chains@will@be@inserted@into@the@cytoskeleton@.@</sentence>
+   <tags>
+      <tag pos="9">myosin heavy chains</tag>
+      <tag pos="17">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">(i)</taggedword>
+      <taggedword index="6" part-of-speech="JJ">cotranslational</taggedword>
+      <taggedword index="7" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNS">myosin heavy chains</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="RB">developmentally</taggedword>
+      <taggedword index="12" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="JJ">(ii)</taggedword>
+      <taggedword index="15" part-of-speech="NNS">structures</taggedword>
+      <taggedword index="16" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="17" part-of-speech="NN">actin</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="RB">not</taggedword>
+      <taggedword index="20" part-of-speech="NNS">microtubules</taggedword>
+      <taggedword index="21" part-of-speech="MD">may</taggedword>
+      <taggedword index="22" part-of-speech="VB">mediate</taggedword>
+      <taggedword index="23" part-of-speech="JJ">initial</taggedword>
+      <taggedword index="24" part-of-speech="NN">association</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="JJ">heavy</taggedword>
+      <taggedword index="28" part-of-speech="NNS">chains</taggedword>
+      <taggedword index="29" part-of-speech="IN">with</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="NN">cytoskeleton</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="VBG">(iii)</taggedword>
+      <taggedword index="35" part-of-speech="DT">the</taggedword>
+      <taggedword index="36" part-of-speech="NN">site</taggedword>
+      <taggedword index="37" part-of-speech="IN">of</taggedword>
+      <taggedword index="38" part-of-speech="NN">translation</taggedword>
+      <taggedword index="39" part-of-speech="VBZ">dictates</taggedword>
+      <taggedword index="40" part-of-speech="WRB">where</taggedword>
+      <taggedword index="41" part-of-speech="DT">a</taggedword>
+      <taggedword index="42" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="43" part-of-speech="NN">fraction</taggedword>
+      <taggedword index="44" part-of-speech="IN">of</taggedword>
+      <taggedword index="45" part-of-speech="DT">the</taggedword>
+      <taggedword index="46" part-of-speech="JJ">heavy</taggedword>
+      <taggedword index="47" part-of-speech="NNS">chains</taggedword>
+      <taggedword index="48" part-of-speech="MD">will</taggedword>
+      <taggedword index="49" part-of-speech="VB">be</taggedword>
+      <taggedword index="50" part-of-speech="VBN">inserted</taggedword>
+      <taggedword index="51" part-of-speech="IN">into</taggedword>
+      <taggedword index="52" part-of-speech="DT">the</taggedword>
+      <taggedword index="53" part-of-speech="NN">cytoskeleton</taggedword>
+      <taggedword index="54" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="regulated" gov_index="12">mark</dependency>
+      <dependency dep="(i)" dep_index="5" gov="assembly" gov_index="7">nn</dependency>
+      <dependency dep="cotranslational" dep_index="6" gov="assembly" gov_index="7">amod</dependency>
+      <dependency dep="assembly" dep_index="7" gov="regulated" gov_index="12">nsubjpass</dependency>
+      <dependency dep="myosin heavy chains" dep_index="9" gov="assembly" gov_index="7">prep_of</dependency>
+      <dependency dep="is" dep_index="10" gov="regulated" gov_index="12">auxpass</dependency>
+      <dependency dep="developmentally" dep_index="11" gov="regulated" gov_index="12">advmod</dependency>
+      <dependency dep="regulated" dep_index="12" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="(ii)" dep_index="14" gov="structures" gov_index="15">amod</dependency>
+      <dependency dep="structures" dep_index="15" gov="containing" gov_index="16">nsubj</dependency>
+      <dependency dep="containing" dep_index="16" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="containing" dep_index="16" gov="regulated" gov_index="12">conj_and</dependency>
+      <dependency dep="actin" dep_index="17" gov="containing" gov_index="16">dobj</dependency>
+      <dependency dep="not" dep_index="19" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="not" dep_index="19" gov="regulated" gov_index="12">conj_and</dependency>
+      <dependency dep="not" dep_index="19" gov="regulated" gov_index="12">neg</dependency>
+      <dependency dep="microtubules" dep_index="20" gov="mediate" gov_index="22">nsubj</dependency>
+      <dependency dep="may" dep_index="21" gov="mediate" gov_index="22">aux</dependency>
+      <dependency dep="mediate" dep_index="22" gov="regulated" gov_index="12">dep</dependency>
+      <dependency dep="initial" dep_index="23" gov="association" gov_index="24">amod</dependency>
+      <dependency dep="association" dep_index="24" gov="mediate" gov_index="22">dobj</dependency>
+      <dependency dep="the" dep_index="26" gov="chains" gov_index="28">det</dependency>
+      <dependency dep="heavy" dep_index="27" gov="chains" gov_index="28">amod</dependency>
+      <dependency dep="chains" dep_index="28" gov="association" gov_index="24">prep_of</dependency>
+      <dependency dep="the" dep_index="30" gov="cytoskeleton" gov_index="31">det</dependency>
+      <dependency dep="cytoskeleton" dep_index="31" gov="mediate" gov_index="22">prep_with</dependency>
+      <dependency dep="(iii)" dep_index="34" gov="dictates" gov_index="39">csubj</dependency>
+      <dependency dep="the" dep_index="35" gov="site" gov_index="36">det</dependency>
+      <dependency dep="site" dep_index="36" gov="(iii)" gov_index="34">dobj</dependency>
+      <dependency dep="translation" dep_index="38" gov="site" gov_index="36">prep_of</dependency>
+      <dependency dep="dictates" dep_index="39" gov="indicate" gov_index="3">conj_and</dependency>
+      <dependency dep="where" dep_index="40" gov="inserted" gov_index="50">advmod</dependency>
+      <dependency dep="a" dep_index="41" gov="fraction" gov_index="43">det</dependency>
+      <dependency dep="significant" dep_index="42" gov="fraction" gov_index="43">amod</dependency>
+      <dependency dep="fraction" dep_index="43" gov="inserted" gov_index="50">nsubjpass</dependency>
+      <dependency dep="the" dep_index="45" gov="chains" gov_index="47">det</dependency>
+      <dependency dep="heavy" dep_index="46" gov="chains" gov_index="47">amod</dependency>
+      <dependency dep="chains" dep_index="47" gov="fraction" gov_index="43">prep_of</dependency>
+      <dependency dep="will" dep_index="48" gov="inserted" gov_index="50">aux</dependency>
+      <dependency dep="be" dep_index="49" gov="inserted" gov_index="50">auxpass</dependency>
+      <dependency dep="inserted" dep_index="50" gov="dictates" gov_index="39">advcl</dependency>
+      <dependency dep="the" dep_index="52" gov="cytoskeleton" gov_index="53">det</dependency>
+      <dependency dep="cytoskeleton" dep_index="53" gov="inserted" gov_index="50">prep_into</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900017" relationship="true">9 7 12 3 16 17</relation>
+   </relations>
+   <pairs>
+      <pair>900017</pair>
+   </pairs>
+</root>

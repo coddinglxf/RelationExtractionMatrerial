@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>At@the@light@microscope@level@,@brush@cells@can@be@identified@by@antibodies@against@the@actin@filament@crosslinking@proteins@villin@and@fimbrin@that@not@only@stain@the@apical@tuft@of@microvilli@and@their@rootlets@,@but@also@label@projections@emanating@from@the@basolateral@surface@of@these@cells@.@</sentence>
+   <tags>
+      <tag pos="20">villin</tag>
+      <tag pos="22">fimbrin</tag>
+      <tag pos="16">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">At</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">light</taggedword>
+      <taggedword index="4" part-of-speech="NN">microscope</taggedword>
+      <taggedword index="5" part-of-speech="NN">level</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NN">brush</taggedword>
+      <taggedword index="8" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="9" part-of-speech="MD">can</taggedword>
+      <taggedword index="10" part-of-speech="VB">be</taggedword>
+      <taggedword index="11" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="14" part-of-speech="IN">against</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech="NN">filament</taggedword>
+      <taggedword index="18" part-of-speech="VBG">crosslinking</taggedword>
+      <taggedword index="19" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="20" part-of-speech="NN">villin</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="23" part-of-speech="WDT">that</taggedword>
+      <taggedword index="24" part-of-speech="RB">not</taggedword>
+      <taggedword index="25" part-of-speech="RB">only</taggedword>
+      <taggedword index="26" part-of-speech="VBG">stain</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="JJ">apical</taggedword>
+      <taggedword index="29" part-of-speech="NN">tuft</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="NNS">microvilli</taggedword>
+      <taggedword index="32" part-of-speech="CC">and</taggedword>
+      <taggedword index="33" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="34" part-of-speech="NNS">rootlets</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="CC">but</taggedword>
+      <taggedword index="37" part-of-speech="RB">also</taggedword>
+      <taggedword index="38" part-of-speech="NN">label</taggedword>
+      <taggedword index="39" part-of-speech="NNS">projections</taggedword>
+      <taggedword index="40" part-of-speech="VBG">emanating</taggedword>
+      <taggedword index="41" part-of-speech="IN">from</taggedword>
+      <taggedword index="42" part-of-speech="DT">the</taggedword>
+      <taggedword index="43" part-of-speech="JJ">basolateral</taggedword>
+      <taggedword index="44" part-of-speech="NN">surface</taggedword>
+      <taggedword index="45" part-of-speech="IN">of</taggedword>
+      <taggedword index="46" part-of-speech="DT">these</taggedword>
+      <taggedword index="47" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="48" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="level" gov_index="5">det</dependency>
+      <dependency dep="light" dep_index="3" gov="level" gov_index="5">amod</dependency>
+      <dependency dep="microscope" dep_index="4" gov="level" gov_index="5">nn</dependency>
+      <dependency dep="level" dep_index="5" gov="identified" gov_index="11">prep_at</dependency>
+      <dependency dep="brush" dep_index="7" gov="cells" gov_index="8">nn</dependency>
+      <dependency dep="cells" dep_index="8" gov="identified" gov_index="11">nsubjpass</dependency>
+      <dependency dep="can" dep_index="9" gov="identified" gov_index="11">aux</dependency>
+      <dependency dep="be" dep_index="10" gov="identified" gov_index="11">auxpass</dependency>
+      <dependency dep="identified" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="antibodies" dep_index="13" gov="identified" gov_index="11">agent</dependency>
+      <dependency dep="the" dep_index="15" gov="filament" gov_index="17">det</dependency>
+      <dependency dep="actin" dep_index="16" gov="filament" gov_index="17">nn</dependency>
+      <dependency dep="filament" dep_index="17" gov="antibodies" gov_index="13">prep_against</dependency>
+      <dependency dep="crosslinking" dep_index="18" gov="identified" gov_index="11">xcomp</dependency>
+      <dependency dep="proteins" dep_index="19" gov="villin" gov_index="20">nn</dependency>
+      <dependency dep="villin" dep_index="20" gov="crosslinking" gov_index="18">dobj</dependency>
+      <dependency dep="villin" dep_index="20" gov="stain" gov_index="26">nsubj</dependency>
+      <dependency dep="fimbrin" dep_index="22" gov="crosslinking" gov_index="18">dobj</dependency>
+      <dependency dep="fimbrin" dep_index="22" gov="villin" gov_index="20">conj_and</dependency>
+      <dependency dep="fimbrin" dep_index="22" gov="stain" gov_index="26">nsubj</dependency>
+      <dependency dep="not" dep_index="24" gov="stain" gov_index="26">neg</dependency>
+      <dependency dep="only" dep_index="25" gov="stain" gov_index="26">advmod</dependency>
+      <dependency dep="stain" dep_index="26" gov="villin" gov_index="20">rcmod</dependency>
+      <dependency dep="the" dep_index="27" gov="tuft" gov_index="29">det</dependency>
+      <dependency dep="apical" dep_index="28" gov="tuft" gov_index="29">amod</dependency>
+      <dependency dep="tuft" dep_index="29" gov="stain" gov_index="26">dobj</dependency>
+      <dependency dep="microvilli" dep_index="31" gov="tuft" gov_index="29">prep_of</dependency>
+      <dependency dep="their" dep_index="33" gov="rootlets" gov_index="34">poss</dependency>
+      <dependency dep="rootlets" dep_index="34" gov="tuft" gov_index="29">prep_of</dependency>
+      <dependency dep="rootlets" dep_index="34" gov="microvilli" gov_index="31">conj_and</dependency>
+      <dependency dep="label" dep_index="38" gov="projections" gov_index="39">nn</dependency>
+      <dependency dep="projections" dep_index="39" gov="crosslinking" gov_index="18">dobj</dependency>
+      <dependency dep="projections" dep_index="39" gov="villin" gov_index="20">conj_and</dependency>
+      <dependency dep="projections" dep_index="39" gov="stain" gov_index="26">nsubj</dependency>
+      <dependency dep="emanating" dep_index="40" gov="projections" gov_index="39">partmod</dependency>
+      <dependency dep="the" dep_index="42" gov="surface" gov_index="44">det</dependency>
+      <dependency dep="basolateral" dep_index="43" gov="surface" gov_index="44">amod</dependency>
+      <dependency dep="surface" dep_index="44" gov="emanating" gov_index="40">prep_from</dependency>
+      <dependency dep="these" dep_index="46" gov="cells" gov_index="47">det</dependency>
+      <dependency dep="cells" dep_index="47" gov="surface" gov_index="44">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000022" relationship="false">20 26 22</relation>
+      <relation position="1600020" relationship="true">16 17 13 11 18 20</relation>
+      <relation position="1600022" relationship="true">16 17 13 11 18 22</relation>
+   </relations>
+   <pairs>
+      <pair>1600020</pair>
+      <pair>1600022</pair>
+   </pairs>
+</root>

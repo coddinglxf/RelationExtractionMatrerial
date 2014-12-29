@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Neuropilin-1@(@NRP1@)@is@a@130-kDa@transmembrane@receptor@for@semaphorins@,@mediators@of@neuronal@guidance@,@and@for@vascular endothelial growth factor 165@(@VEGF(165)@),@an@angiogenesis@factor@.@</sentence>
+   <tags>
+      <tag pos="1">Neuropilin-1</tag>
+      <tag pos="3">NRP1</tag>
+      <tag pos="11">semaphorins</tag>
+      <tag pos="20">vascular endothelial growth factor 165</tag>
+      <tag pos="22">VEGF(165)</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Neuropilin-1</taggedword>
+      <taggedword index="2" part-of-speech="NNP">(</taggedword>
+      <taggedword index="3" part-of-speech="NNP">NRP1</taggedword>
+      <taggedword index="4" part-of-speech="NNP">)</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="JJ">130-kDa</taggedword>
+      <taggedword index="8" part-of-speech="NN">transmembrane</taggedword>
+      <taggedword index="9" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="NNS">semaphorins</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNS">mediators</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">neuronal</taggedword>
+      <taggedword index="16" part-of-speech="NN">guidance</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="IN">for</taggedword>
+      <taggedword index="20" part-of-speech="JJ">vascular endothelial growth factor 165</taggedword>
+      <taggedword index="21" part-of-speech="NNP">(</taggedword>
+      <taggedword index="22" part-of-speech="NNP">VEGF(165)</taggedword>
+      <taggedword index="23" part-of-speech="NNP">),</taggedword>
+      <taggedword index="24" part-of-speech="DT">an</taggedword>
+      <taggedword index="25" part-of-speech="JJ">angiogenesis</taggedword>
+      <taggedword index="26" part-of-speech="NN">factor</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Neuropilin-1" dep_index="1" gov=")" gov_index="4">nn</dependency>
+      <dependency dep="(" dep_index="2" gov=")" gov_index="4">nn</dependency>
+      <dependency dep="NRP1" dep_index="3" gov=")" gov_index="4">nn</dependency>
+      <dependency dep=")" dep_index="4" gov="receptor" gov_index="9">nsubj</dependency>
+      <dependency dep="is" dep_index="5" gov="receptor" gov_index="9">cop</dependency>
+      <dependency dep="a" dep_index="6" gov="receptor" gov_index="9">det</dependency>
+      <dependency dep="130-kDa" dep_index="7" gov="receptor" gov_index="9">amod</dependency>
+      <dependency dep="transmembrane" dep_index="8" gov="receptor" gov_index="9">nn</dependency>
+      <dependency dep="receptor" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="semaphorins" dep_index="11" gov="receptor" gov_index="9">prep_for</dependency>
+      <dependency dep="mediators" dep_index="13" gov="receptor" gov_index="9">prep_for</dependency>
+      <dependency dep="mediators" dep_index="13" gov="semaphorins" gov_index="11">conj_and</dependency>
+      <dependency dep="neuronal" dep_index="15" gov="guidance" gov_index="16">amod</dependency>
+      <dependency dep="guidance" dep_index="16" gov="mediators" gov_index="13">prep_of</dependency>
+      <dependency dep="for" dep_index="19" gov="receptor" gov_index="9">prep_for</dependency>
+      <dependency dep="for" dep_index="19" gov="semaphorins" gov_index="11">conj_and</dependency>
+      <dependency dep="vascular endothelial growth factor 165" dep_index="20" gov=")," gov_index="23">amod</dependency>
+      <dependency dep="(" dep_index="21" gov=")," gov_index="23">nn</dependency>
+      <dependency dep="VEGF(165)" dep_index="22" gov=")," gov_index="23">nn</dependency>
+      <dependency dep=")," dep_index="23" gov="for" gov_index="19">pobj</dependency>
+      <dependency dep="an" dep_index="24" gov="factor" gov_index="26">det</dependency>
+      <dependency dep="angiogenesis" dep_index="25" gov="factor" gov_index="26">amod</dependency>
+      <dependency dep="factor" dep_index="26" gov="semaphorins" gov_index="11">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false">1 4 3</relation>
+      <relation position="100011" relationship="true">1 4 9 11</relation>
+      <relation position="100020" relationship="true">1 4 9 19 23 20</relation>
+      <relation position="100022" relationship="true">1 4 9 19 23 22</relation>
+      <relation position="300011" relationship="true">3 4 9 11</relation>
+      <relation position="300020" relationship="true">3 4 9 19 23 20</relation>
+      <relation position="300022" relationship="true">3 4 9 19 23 22</relation>
+      <relation position="1100020" relationship="false">11 9 19 23 20</relation>
+      <relation position="1100022" relationship="false">11 9 19 23 22</relation>
+      <relation position="2000022" relationship="false">20 23 22</relation>
+   </relations>
+   <pairs>
+      <pair>300020</pair>
+      <pair>300022</pair>
+      <pair>100011</pair>
+      <pair>100022</pair>
+      <pair>100020</pair>
+      <pair>300011</pair>
+   </pairs>
+</root>

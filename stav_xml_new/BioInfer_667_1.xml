@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@primary@purpose@of@this@study@was@to@determine@the@relationship@between@myosin heavy chain@(@MHC@)@and@actin@contents@and@maximum@isometric@tetanic@force@(Po)@in@mouse@extensor@digitorum@longus@(EDL)@muscles@following@eccentric@contraction-induced@injury@.@</sentence>
+   <tags>
+      <tag pos="18">actin</tag>
+      <tag pos="15">MHC</tag>
+      <tag pos="13">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="3" part-of-speech="NN">purpose</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="DT">this</taggedword>
+      <taggedword index="6" part-of-speech="NN">study</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">determine</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">relationship</taggedword>
+      <taggedword index="12" part-of-speech="IN">between</taggedword>
+      <taggedword index="13" part-of-speech="JJ">myosin heavy chain</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NN">MHC</taggedword>
+      <taggedword index="16" part-of-speech="NN">)</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">actin</taggedword>
+      <taggedword index="19" part-of-speech="NNS">contents</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="JJ">maximum</taggedword>
+      <taggedword index="22" part-of-speech="JJ">isometric</taggedword>
+      <taggedword index="23" part-of-speech="JJ">tetanic</taggedword>
+      <taggedword index="24" part-of-speech="NN">force</taggedword>
+      <taggedword index="25" part-of-speech="NNS">(Po)</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="28" part-of-speech="NN">extensor</taggedword>
+      <taggedword index="29" part-of-speech="NN">digitorum</taggedword>
+      <taggedword index="30" part-of-speech="VBZ">longus</taggedword>
+      <taggedword index="31" part-of-speech="JJ">(EDL)</taggedword>
+      <taggedword index="32" part-of-speech="NNS">muscles</taggedword>
+      <taggedword index="33" part-of-speech="VBG">following</taggedword>
+      <taggedword index="34" part-of-speech="JJ">eccentric</taggedword>
+      <taggedword index="35" part-of-speech="JJ">contraction-induced</taggedword>
+      <taggedword index="36" part-of-speech="NN">injury</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="purpose" gov_index="3">det</dependency>
+      <dependency dep="primary" dep_index="2" gov="purpose" gov_index="3">amod</dependency>
+      <dependency dep="purpose" dep_index="3" gov="was" gov_index="7">nsubj</dependency>
+      <dependency dep="purpose" dep_index="3" gov="determine" gov_index="9">xsubj</dependency>
+      <dependency dep="this" dep_index="5" gov="study" gov_index="6">det</dependency>
+      <dependency dep="study" dep_index="6" gov="purpose" gov_index="3">prep_of</dependency>
+      <dependency dep="was" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="8" gov="determine" gov_index="9">aux</dependency>
+      <dependency dep="determine" dep_index="9" gov="was" gov_index="7">xcomp</dependency>
+      <dependency dep="the" dep_index="10" gov="relationship" gov_index="11">det</dependency>
+      <dependency dep="relationship" dep_index="11" gov="determine" gov_index="9">dobj</dependency>
+      <dependency dep="myosin heavy chain" dep_index="13" gov=")" gov_index="16">amod</dependency>
+      <dependency dep="(" dep_index="14" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="MHC" dep_index="15" gov=")" gov_index="16">nn</dependency>
+      <dependency dep=")" dep_index="16" gov="relationship" gov_index="11">prep_between</dependency>
+      <dependency dep="actin" dep_index="18" gov="contents" gov_index="19">nn</dependency>
+      <dependency dep="contents" dep_index="19" gov="relationship" gov_index="11">prep_between</dependency>
+      <dependency dep="contents" dep_index="19" gov=")" gov_index="16">conj_and</dependency>
+      <dependency dep="maximum" dep_index="21" gov="(Po)" gov_index="25">amod</dependency>
+      <dependency dep="isometric" dep_index="22" gov="(Po)" gov_index="25">amod</dependency>
+      <dependency dep="tetanic" dep_index="23" gov="(Po)" gov_index="25">amod</dependency>
+      <dependency dep="force" dep_index="24" gov="(Po)" gov_index="25">nn</dependency>
+      <dependency dep="(Po)" dep_index="25" gov="longus" gov_index="30">nsubj</dependency>
+      <dependency dep="mouse" dep_index="27" gov="digitorum" gov_index="29">nn</dependency>
+      <dependency dep="extensor" dep_index="28" gov="digitorum" gov_index="29">nn</dependency>
+      <dependency dep="digitorum" dep_index="29" gov="(Po)" gov_index="25">prep_in</dependency>
+      <dependency dep="longus" dep_index="30" gov="was" gov_index="7">conj_and</dependency>
+      <dependency dep="(EDL)" dep_index="31" gov="muscles" gov_index="32">amod</dependency>
+      <dependency dep="muscles" dep_index="32" gov="longus" gov_index="30">dobj</dependency>
+      <dependency dep="eccentric" dep_index="34" gov="injury" gov_index="36">amod</dependency>
+      <dependency dep="contraction-induced" dep_index="35" gov="injury" gov_index="36">amod</dependency>
+      <dependency dep="injury" dep_index="36" gov="muscles" gov_index="32">prep_following</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500018" relationship="false">15 16 11 19 18</relation>
+      <relation position="1300018" relationship="false">13 16 11 19 18</relation>
+      <relation position="1300015" relationship="false">13 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>After@a@brief@historical@incursion@regarding@RAS@of@renal@origin@,@we@present@the@main@extrarenal@angiotensin@-forming@enzymes@,@starting@with@isorenin@,@tonin@,@D@and@G cathepsin@and@ending@with@the@conversion@enzyme@and@chymase@.@</sentence>
+   <tags>
+      <tag pos="7">RAS</tag>
+      <tag pos="17">angiotensin</tag>
+      <tag pos="23">isorenin</tag>
+      <tag pos="25">tonin</tag>
+      <tag pos="29">G cathepsin</tag>
+      <tag pos="37">chymase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">After</taggedword>
+      <taggedword index="2" part-of-speech="DT">a</taggedword>
+      <taggedword index="3" part-of-speech="JJ">brief</taggedword>
+      <taggedword index="4" part-of-speech="JJ">historical</taggedword>
+      <taggedword index="5" part-of-speech="NN">incursion</taggedword>
+      <taggedword index="6" part-of-speech="VBG">regarding</taggedword>
+      <taggedword index="7" part-of-speech="NNP">RAS</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">renal</taggedword>
+      <taggedword index="10" part-of-speech="NN">origin</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="PRP">we</taggedword>
+      <taggedword index="13" part-of-speech="VBP">present</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">main</taggedword>
+      <taggedword index="16" part-of-speech="NN">extrarenal</taggedword>
+      <taggedword index="17" part-of-speech="VBG">angiotensin</taggedword>
+      <taggedword index="18" part-of-speech="JJ">-forming</taggedword>
+      <taggedword index="19" part-of-speech="NNS">enzymes</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="VBG">starting</taggedword>
+      <taggedword index="22" part-of-speech="IN">with</taggedword>
+      <taggedword index="23" part-of-speech="NNP">isorenin</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="NNP">tonin</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="NNP">D</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="NNP">G cathepsin</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="VBG">ending</taggedword>
+      <taggedword index="32" part-of-speech="IN">with</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="NN">conversion</taggedword>
+      <taggedword index="35" part-of-speech="JJ">enzyme</taggedword>
+      <taggedword index="36" part-of-speech="CC">and</taggedword>
+      <taggedword index="37" part-of-speech="JJ">chymase</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="a" dep_index="2" gov="incursion" gov_index="5">det</dependency>
+      <dependency dep="brief" dep_index="3" gov="incursion" gov_index="5">amod</dependency>
+      <dependency dep="historical" dep_index="4" gov="incursion" gov_index="5">amod</dependency>
+      <dependency dep="incursion" dep_index="5" gov="present" gov_index="13">prep_after</dependency>
+      <dependency dep="RAS" dep_index="7" gov="incursion" gov_index="5">prep_regarding</dependency>
+      <dependency dep="renal" dep_index="9" gov="origin" gov_index="10">amod</dependency>
+      <dependency dep="origin" dep_index="10" gov="RAS" gov_index="7">prep_of</dependency>
+      <dependency dep="we" dep_index="12" gov="present" gov_index="13">nsubj</dependency>
+      <dependency dep="present" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="14" gov="extrarenal" gov_index="16">det</dependency>
+      <dependency dep="main" dep_index="15" gov="extrarenal" gov_index="16">amod</dependency>
+      <dependency dep="extrarenal" dep_index="16" gov="present" gov_index="13">dobj</dependency>
+      <dependency dep="angiotensin" dep_index="17" gov="present" gov_index="13">dep</dependency>
+      <dependency dep="-forming" dep_index="18" gov="enzymes" gov_index="19">amod</dependency>
+      <dependency dep="enzymes" dep_index="19" gov="angiotensin" gov_index="17">dobj</dependency>
+      <dependency dep="starting" dep_index="21" gov="present" gov_index="13">dep</dependency>
+      <dependency dep="starting" dep_index="21" gov="angiotensin" gov_index="17">conj_and</dependency>
+      <dependency dep="isorenin" dep_index="23" gov="starting" gov_index="21">prep_with</dependency>
+      <dependency dep="tonin" dep_index="25" gov="starting" gov_index="21">prep_with</dependency>
+      <dependency dep="tonin" dep_index="25" gov="isorenin" gov_index="23">conj_and</dependency>
+      <dependency dep="D" dep_index="27" gov="starting" gov_index="21">prep_with</dependency>
+      <dependency dep="D" dep_index="27" gov="isorenin" gov_index="23">conj_and</dependency>
+      <dependency dep="G cathepsin" dep_index="29" gov="starting" gov_index="21">prep_with</dependency>
+      <dependency dep="G cathepsin" dep_index="29" gov="isorenin" gov_index="23">conj_and</dependency>
+      <dependency dep="ending" dep_index="31" gov="present" gov_index="13">dep</dependency>
+      <dependency dep="ending" dep_index="31" gov="angiotensin" gov_index="17">conj_and</dependency>
+      <dependency dep="the" dep_index="33" gov="conversion" gov_index="34">det</dependency>
+      <dependency dep="conversion" dep_index="34" gov="ending" gov_index="31">prep_with</dependency>
+      <dependency dep="enzyme" dep_index="35" gov="conversion" gov_index="34">amod</dependency>
+      <dependency dep="chymase" dep_index="37" gov="conversion" gov_index="34">amod</dependency>
+      <dependency dep="chymase" dep_index="37" gov="enzyme" gov_index="35">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700017" relationship="false">7 5 13 17</relation>
+      <relation position="700023" relationship="false">7 5 13 21 23</relation>
+      <relation position="700025" relationship="false">7 5 13 21 25</relation>
+      <relation position="700029" relationship="false">7 5 13 21 29</relation>
+      <relation position="700037" relationship="false">7 5 13 31 34 37</relation>
+      <relation position="1700023" relationship="false">17 13 21 23</relation>
+      <relation position="1700025" relationship="false">17 13 21 25</relation>
+      <relation position="1700029" relationship="false">17 13 21 29</relation>
+      <relation position="1700037" relationship="false">17 13 31 34 37</relation>
+      <relation position="2300025" relationship="false">23 21 25</relation>
+      <relation position="2300029" relationship="false">23 21 29</relation>
+      <relation position="2300037" relationship="false">23 21 13 31 34 37</relation>
+      <relation position="2500029" relationship="false">25 21 29</relation>
+      <relation position="2500037" relationship="false">25 21 13 31 34 37</relation>
+      <relation position="2900037" relationship="false">29 21 13 31 34 37</relation>
+   </relations>
+   <pairs/>
+</root>

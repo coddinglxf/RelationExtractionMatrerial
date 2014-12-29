@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@examined@the@role@of@the@actin@monomer@sequestering@protein@,@profilin@,@in@the@regulation@of@PMN actin@filament@assembly@during@chemoattractant@stimulation@using@a@Triton@extraction@method@.@</sentence>
+   <tags>
+      <tag pos="12">profilin</tag>
+      <tag pos="7">actin</tag>
+      <tag pos="18">PMN actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">examined</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">role</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="8" part-of-speech="NN">monomer</taggedword>
+      <taggedword index="9" part-of-speech="NN">sequestering</taggedword>
+      <taggedword index="10" part-of-speech="NN">protein</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">PMN actin</taggedword>
+      <taggedword index="19" part-of-speech="NN">filament</taggedword>
+      <taggedword index="20" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="21" part-of-speech="IN">during</taggedword>
+      <taggedword index="22" part-of-speech="JJ">chemoattractant</taggedword>
+      <taggedword index="23" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="24" part-of-speech="VBG">using</taggedword>
+      <taggedword index="25" part-of-speech="DT">a</taggedword>
+      <taggedword index="26" part-of-speech="NNP">Triton</taggedword>
+      <taggedword index="27" part-of-speech="NN">extraction</taggedword>
+      <taggedword index="28" part-of-speech="NN">method</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="examined" gov_index="2">nsubj</dependency>
+      <dependency dep="examined" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="role" gov_index="4">det</dependency>
+      <dependency dep="role" dep_index="4" gov="examined" gov_index="2">dobj</dependency>
+      <dependency dep="the" dep_index="6" gov="protein" gov_index="10">det</dependency>
+      <dependency dep="actin" dep_index="7" gov="protein" gov_index="10">amod</dependency>
+      <dependency dep="monomer" dep_index="8" gov="protein" gov_index="10">nn</dependency>
+      <dependency dep="sequestering" dep_index="9" gov="protein" gov_index="10">nn</dependency>
+      <dependency dep="protein" dep_index="10" gov="role" gov_index="4">prep_of</dependency>
+      <dependency dep="profilin" dep_index="12" gov="protein" gov_index="10">appos</dependency>
+      <dependency dep="the" dep_index="15" gov="regulation" gov_index="16">det</dependency>
+      <dependency dep="regulation" dep_index="16" gov="role" gov_index="4">prep_in</dependency>
+      <dependency dep="PMN actin" dep_index="18" gov="assembly" gov_index="20">nn</dependency>
+      <dependency dep="filament" dep_index="19" gov="assembly" gov_index="20">nn</dependency>
+      <dependency dep="assembly" dep_index="20" gov="regulation" gov_index="16">prep_of</dependency>
+      <dependency dep="chemoattractant" dep_index="22" gov="stimulation" gov_index="23">amod</dependency>
+      <dependency dep="stimulation" dep_index="23" gov="examined" gov_index="2">prep_during</dependency>
+      <dependency dep="using" dep_index="24" gov="stimulation" gov_index="23">partmod</dependency>
+      <dependency dep="a" dep_index="25" gov="method" gov_index="28">det</dependency>
+      <dependency dep="Triton" dep_index="26" gov="method" gov_index="28">nn</dependency>
+      <dependency dep="extraction" dep_index="27" gov="method" gov_index="28">nn</dependency>
+      <dependency dep="method" dep_index="28" gov="using" gov_index="24">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700012" relationship="true">7 10 12</relation>
+      <relation position="1200018" relationship="true">12 10 4 16 20 18</relation>
+      <relation position="700018" relationship="false">7 10 4 16 20 18</relation>
+   </relations>
+   <pairs>
+      <pair>1200018</pair>
+      <pair>700012</pair>
+   </pairs>
+</root>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@action@of@PGF2@alpha@depends@on@extracellular@Ca2+@,@whereas@oxytocin@activates@the@G-protein-dependent@phospholipase-C-@IP3@-Ca2+@signal-transducing@pathway@,@complemented@by@the@influx@of@extracellular@Ca2+@</sentence>
+   <tags>
+      <tag pos="12">oxytocin</tag>
+      <tag pos="17">IP3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">action</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">PGF2</taggedword>
+      <taggedword index="5" part-of-speech="NNP">alpha</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">depends</taggedword>
+      <taggedword index="7" part-of-speech="IN">on</taggedword>
+      <taggedword index="8" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="9" part-of-speech="NNS">Ca2+</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="12" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">activates</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNP">G-protein-dependent</taggedword>
+      <taggedword index="16" part-of-speech="NNP">phospholipase-C-</taggedword>
+      <taggedword index="17" part-of-speech="NNP">IP3</taggedword>
+      <taggedword index="18" part-of-speech="JJ">-Ca2+</taggedword>
+      <taggedword index="19" part-of-speech="NN">signal-transducing</taggedword>
+      <taggedword index="20" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="VBN">complemented</taggedword>
+      <taggedword index="23" part-of-speech="IN">by</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">influx</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="28" part-of-speech="NNS">Ca2+</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="action" gov_index="2">det</dependency>
+      <dependency dep="action" dep_index="2" gov="depends" gov_index="6">nsubj</dependency>
+      <dependency dep="PGF2" dep_index="4" gov="alpha" gov_index="5">nn</dependency>
+      <dependency dep="alpha" dep_index="5" gov="action" gov_index="2">prep_of</dependency>
+      <dependency dep="depends" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="extracellular" dep_index="8" gov="Ca2+" gov_index="9">nn</dependency>
+      <dependency dep="Ca2+" dep_index="9" gov="depends" gov_index="6">prep_on</dependency>
+      <dependency dep="whereas" dep_index="11" gov="activates" gov_index="13">mark</dependency>
+      <dependency dep="oxytocin" dep_index="12" gov="activates" gov_index="13">nsubj</dependency>
+      <dependency dep="activates" dep_index="13" gov="depends" gov_index="6">advcl</dependency>
+      <dependency dep="the" dep_index="14" gov="pathway" gov_index="20">det</dependency>
+      <dependency dep="G-protein-dependent" dep_index="15" gov="pathway" gov_index="20">nn</dependency>
+      <dependency dep="phospholipase-C-" dep_index="16" gov="pathway" gov_index="20">nn</dependency>
+      <dependency dep="IP3" dep_index="17" gov="pathway" gov_index="20">nn</dependency>
+      <dependency dep="-Ca2+" dep_index="18" gov="pathway" gov_index="20">amod</dependency>
+      <dependency dep="signal-transducing" dep_index="19" gov="pathway" gov_index="20">nn</dependency>
+      <dependency dep="pathway" dep_index="20" gov="activates" gov_index="13">dobj</dependency>
+      <dependency dep="complemented" dep_index="22" gov="pathway" gov_index="20">partmod</dependency>
+      <dependency dep="the" dep_index="24" gov="influx" gov_index="25">det</dependency>
+      <dependency dep="influx" dep_index="25" gov="complemented" gov_index="22">agent</dependency>
+      <dependency dep="extracellular" dep_index="27" gov="Ca2+" gov_index="28">nn</dependency>
+      <dependency dep="Ca2+" dep_index="28" gov="influx" gov_index="25">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200017" relationship="true">12 13 20 17</relation>
+   </relations>
+   <pairs>
+      <pair>1200017</pair>
+   </pairs>
+</root>

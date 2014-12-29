@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Signal@transduction@requires@association@of@FGF@with@its@receptor@tyrosine@kinase@(FGFR)@and@heparan@sulphate@proteoglycan@in@a@specific@complex@on@the@cell@surface@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Signal</taggedword>
+      <taggedword index="2" part-of-speech="NNP">transduction</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">requires</taggedword>
+      <taggedword index="4" part-of-speech="NN">association</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">FGF</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="9" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="10" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="11" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="12" part-of-speech="NN">(FGFR)</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">heparan</taggedword>
+      <taggedword index="15" part-of-speech="NN">sulphate</taggedword>
+      <taggedword index="16" part-of-speech="NN">proteoglycan</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="20" part-of-speech="NN">complex</taggedword>
+      <taggedword index="21" part-of-speech="IN">on</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">cell</taggedword>
+      <taggedword index="24" part-of-speech="NN">surface</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Signal" dep_index="1" gov="transduction" gov_index="2">nn</dependency>
+      <dependency dep="transduction" dep_index="2" gov="requires" gov_index="3">nsubj</dependency>
+      <dependency dep="requires" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="association" dep_index="4" gov="requires" gov_index="3">dobj</dependency>
+      <dependency dep="FGF" dep_index="6" gov="association" gov_index="4">prep_of</dependency>
+      <dependency dep="its" dep_index="8" gov="(FGFR)" gov_index="12">poss</dependency>
+      <dependency dep="receptor" dep_index="9" gov="(FGFR)" gov_index="12">nn</dependency>
+      <dependency dep="tyrosine" dep_index="10" gov="(FGFR)" gov_index="12">nn</dependency>
+      <dependency dep="kinase" dep_index="11" gov="(FGFR)" gov_index="12">nn</dependency>
+      <dependency dep="(FGFR)" dep_index="12" gov="FGF" gov_index="6">prep_with</dependency>
+      <dependency dep="heparan" dep_index="14" gov="proteoglycan" gov_index="16">nn</dependency>
+      <dependency dep="sulphate" dep_index="15" gov="proteoglycan" gov_index="16">nn</dependency>
+      <dependency dep="proteoglycan" dep_index="16" gov="FGF" gov_index="6">prep_with</dependency>
+      <dependency dep="proteoglycan" dep_index="16" gov="(FGFR)" gov_index="12">conj_and</dependency>
+      <dependency dep="a" dep_index="18" gov="complex" gov_index="20">det</dependency>
+      <dependency dep="specific" dep_index="19" gov="complex" gov_index="20">amod</dependency>
+      <dependency dep="complex" dep_index="20" gov="requires" gov_index="3">prep_in</dependency>
+      <dependency dep="the" dep_index="22" gov="surface" gov_index="24">det</dependency>
+      <dependency dep="cell" dep_index="23" gov="surface" gov_index="24">nn</dependency>
+      <dependency dep="surface" dep_index="24" gov="complex" gov_index="20">prep_on</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

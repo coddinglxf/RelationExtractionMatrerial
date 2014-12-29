@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@we@have@reduced@the@interaction@domain@to@the@distal@half@of@alpha1 syntrophin@.@</sentence>
+   <tags>
+      <tag pos="15">alpha1 syntrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="PRP">we</taggedword>
+      <taggedword index="5" part-of-speech="VBP">have</taggedword>
+      <taggedword index="6" part-of-speech="VBN">reduced</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="9" part-of-speech="NN">domain</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">distal</taggedword>
+      <taggedword index="13" part-of-speech="NN">half</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="CD">alpha1 syntrophin</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="reduced" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="4" gov="reduced" gov_index="6">nsubj</dependency>
+      <dependency dep="have" dep_index="5" gov="reduced" gov_index="6">aux</dependency>
+      <dependency dep="reduced" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="domain" gov_index="9">det</dependency>
+      <dependency dep="interaction" dep_index="8" gov="domain" gov_index="9">nn</dependency>
+      <dependency dep="domain" dep_index="9" gov="reduced" gov_index="6">dobj</dependency>
+      <dependency dep="the" dep_index="11" gov="half" gov_index="13">det</dependency>
+      <dependency dep="distal" dep_index="12" gov="half" gov_index="13">amod</dependency>
+      <dependency dep="half" dep_index="13" gov="reduced" gov_index="6">prep_to</dependency>
+      <dependency dep="alpha1 syntrophin" dep_index="15" gov="half" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

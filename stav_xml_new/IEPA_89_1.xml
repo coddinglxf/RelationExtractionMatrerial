@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>UCP2@,@UCP3@and@leptin@gene@expression@:@modulation@by@food@restriction@and@leptin@</sentence>
+   <tags>
+      <tag pos="1">UCP2</tag>
+      <tag pos="3">UCP3</tag>
+      <tag pos="5">leptin</tag>
+      <tag pos="14">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">UCP2</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NN">UCP3</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="6" part-of-speech="NN">gene</taggedword>
+      <taggedword index="7" part-of-speech="NN">expression</taggedword>
+      <taggedword index="8" part-of-speech=":">:</taggedword>
+      <taggedword index="9" part-of-speech="NN">modulation</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="NN">food</taggedword>
+      <taggedword index="12" part-of-speech="NN">restriction</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">leptin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="UCP2" dep_index="1" gov="expression" gov_index="7">nn</dependency>
+      <dependency dep="UCP3" dep_index="3" gov="UCP2" gov_index="1">conj_and</dependency>
+      <dependency dep="UCP3" dep_index="3" gov="expression" gov_index="7">nn</dependency>
+      <dependency dep="leptin" dep_index="5" gov="UCP2" gov_index="1">conj_and</dependency>
+      <dependency dep="leptin" dep_index="5" gov="expression" gov_index="7">nn</dependency>
+      <dependency dep="gene" dep_index="6" gov="expression" gov_index="7">nn</dependency>
+      <dependency dep="expression" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="modulation" dep_index="9" gov="expression" gov_index="7">dep</dependency>
+      <dependency dep="food" dep_index="11" gov="restriction" gov_index="12">nn</dependency>
+      <dependency dep="restriction" dep_index="12" gov="modulation" gov_index="9">prep_by</dependency>
+      <dependency dep="leptin" dep_index="14" gov="modulation" gov_index="9">prep_by</dependency>
+      <dependency dep="leptin" dep_index="14" gov="restriction" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false">1 7 3</relation>
+      <relation position="100005" relationship="false">1 7 5</relation>
+      <relation position="100014" relationship="true">1 7 9 14</relation>
+      <relation position="300005" relationship="false">3 7 5</relation>
+      <relation position="300014" relationship="true">3 7 9 14</relation>
+      <relation position="500014" relationship="false">5 7 9 14</relation>
+   </relations>
+   <pairs>
+      <pair>100014</pair>
+      <pair>300014</pair>
+   </pairs>
+</root>

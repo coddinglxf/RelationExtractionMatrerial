@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Bud-site@selection@directs@both@cell@polarity@and@the@cytoskeletal@orientation@during@budding@and@is@determined@by@at@least@five@genes@:@BUD1@/@RSR1@,@BUD2@,@BUD3@,@BUD4@and@BUD5@.@</sentence>
+   <tags>
+      <tag pos="22">BUD1</tag>
+      <tag pos="28">BUD3</tag>
+      <tag pos="26">BUD2</tag>
+      <tag pos="32">BUD5</tag>
+      <tag pos="30">BUD4</tag>
+      <tag pos="24">RSR1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Bud-site</taggedword>
+      <taggedword index="2" part-of-speech="NN">selection</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">directs</taggedword>
+      <taggedword index="4" part-of-speech="DT">both</taggedword>
+      <taggedword index="5" part-of-speech="NN">cell</taggedword>
+      <taggedword index="6" part-of-speech="NN">polarity</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">cytoskeletal</taggedword>
+      <taggedword index="10" part-of-speech="NN">orientation</taggedword>
+      <taggedword index="11" part-of-speech="IN">during</taggedword>
+      <taggedword index="12" part-of-speech="VBG">budding</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="IN">at</taggedword>
+      <taggedword index="18" part-of-speech="JJS">least</taggedword>
+      <taggedword index="19" part-of-speech="CD">five</taggedword>
+      <taggedword index="20" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="21" part-of-speech=":">:</taggedword>
+      <taggedword index="22" part-of-speech="NNP">BUD1</taggedword>
+      <taggedword index="23" part-of-speech="JJ">/</taggedword>
+      <taggedword index="24" part-of-speech="CD">RSR1</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CD">BUD2</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="CD">BUD3</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="CD">BUD4</taggedword>
+      <taggedword index="31" part-of-speech="CC">and</taggedword>
+      <taggedword index="32" part-of-speech="CD">BUD5</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Bud-site" dep_index="1" gov="selection" gov_index="2">amod</dependency>
+      <dependency dep="selection" dep_index="2" gov="directs" gov_index="3">nsubj</dependency>
+      <dependency dep="selection" dep_index="2" gov="determined" gov_index="15">nsubjpass</dependency>
+      <dependency dep="directs" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="both" dep_index="4" gov="polarity" gov_index="6">preconj</dependency>
+      <dependency dep="cell" dep_index="5" gov="polarity" gov_index="6">nn</dependency>
+      <dependency dep="polarity" dep_index="6" gov="directs" gov_index="3">dobj</dependency>
+      <dependency dep="the" dep_index="8" gov="orientation" gov_index="10">det</dependency>
+      <dependency dep="cytoskeletal" dep_index="9" gov="orientation" gov_index="10">amod</dependency>
+      <dependency dep="orientation" dep_index="10" gov="directs" gov_index="3">dobj</dependency>
+      <dependency dep="orientation" dep_index="10" gov="polarity" gov_index="6">conj_and</dependency>
+      <dependency dep="budding" dep_index="12" gov="directs" gov_index="3">prep_during</dependency>
+      <dependency dep="is" dep_index="14" gov="determined" gov_index="15">auxpass</dependency>
+      <dependency dep="determined" dep_index="15" gov="directs" gov_index="3">conj_and</dependency>
+      <dependency dep="at" dep_index="17" gov="five" gov_index="19">quantmod</dependency>
+      <dependency dep="least" dep_index="18" gov="at" gov_index="17">mwe</dependency>
+      <dependency dep="least" dep_index="18" gov="at" gov_index="17">pobj</dependency>
+      <dependency dep="five" dep_index="19" gov="genes" gov_index="20">num</dependency>
+      <dependency dep="genes" dep_index="20" gov="determined" gov_index="15">agent</dependency>
+      <dependency dep="BUD1" dep_index="22" gov="genes" gov_index="20">dep</dependency>
+      <dependency dep="/" dep_index="23" gov="BUD1" gov_index="22">amod</dependency>
+      <dependency dep="RSR1" dep_index="24" gov="/" gov_index="23">tmod</dependency>
+      <dependency dep="BUD2" dep_index="26" gov="RSR1" gov_index="24">num</dependency>
+      <dependency dep="BUD3" dep_index="28" gov="RSR1" gov_index="24">num</dependency>
+      <dependency dep="BUD4" dep_index="30" gov="RSR1" gov_index="24">num</dependency>
+      <dependency dep="BUD5" dep_index="32" gov="/" gov_index="23">tmod</dependency>
+      <dependency dep="BUD5" dep_index="32" gov="RSR1" gov_index="24">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2200028" relationship="false"></relation>
+      <relation position="2200026" relationship="false"></relation>
+      <relation position="2200032" relationship="false"></relation>
+      <relation position="2200030" relationship="false"></relation>
+      <relation position="2200024" relationship="false"></relation>
+      <relation position="2600028" relationship="false">26 24 28</relation>
+      <relation position="2800032" relationship="false">28 24 23 32</relation>
+      <relation position="2800030" relationship="false">28 24 30</relation>
+      <relation position="2400028" relationship="false"></relation>
+      <relation position="2600032" relationship="false">26 24 23 32</relation>
+      <relation position="2600030" relationship="false">26 24 30</relation>
+      <relation position="2400026" relationship="false"></relation>
+      <relation position="3000032" relationship="false">30 24 23 32</relation>
+      <relation position="2400032" relationship="false">24 23 32</relation>
+      <relation position="2400030" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Pretreatment@of@AA@amyloidotic@splenic@and@liver@tissue@sections@with@synthetic@A@beta@(1-28)@produced@strong@immunoreactivity@with@A@beta@antibodies@at@tissue@sites@enriched@in@perlecan@which@was@partially@removed@by@pretreatment@with@heparitinase@,@but@not@by@chondroitin@ABC@lyase@</sentence>
+   <tags>
+      <tag pos="27">perlecan</tag>
+      <tag pos="41">ABC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Pretreatment</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">AA</taggedword>
+      <taggedword index="4" part-of-speech="NN">amyloidotic</taggedword>
+      <taggedword index="5" part-of-speech="NN">splenic</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">liver</taggedword>
+      <taggedword index="8" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="9" part-of-speech="NNS">sections</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="JJ">synthetic</taggedword>
+      <taggedword index="12" part-of-speech="DT">A</taggedword>
+      <taggedword index="13" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="14" part-of-speech="NN">(1-28)</taggedword>
+      <taggedword index="15" part-of-speech="VBD">produced</taggedword>
+      <taggedword index="16" part-of-speech="JJ">strong</taggedword>
+      <taggedword index="17" part-of-speech="NN">immunoreactivity</taggedword>
+      <taggedword index="18" part-of-speech="IN">with</taggedword>
+      <taggedword index="19" part-of-speech="DT">A</taggedword>
+      <taggedword index="20" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="21" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="22" part-of-speech="IN">at</taggedword>
+      <taggedword index="23" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="24" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="25" part-of-speech="VBN">enriched</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="NN">perlecan</taggedword>
+      <taggedword index="28" part-of-speech="WDT">which</taggedword>
+      <taggedword index="29" part-of-speech="VBD">was</taggedword>
+      <taggedword index="30" part-of-speech="RB">partially</taggedword>
+      <taggedword index="31" part-of-speech="VBN">removed</taggedword>
+      <taggedword index="32" part-of-speech="IN">by</taggedword>
+      <taggedword index="33" part-of-speech="NN">pretreatment</taggedword>
+      <taggedword index="34" part-of-speech="IN">with</taggedword>
+      <taggedword index="35" part-of-speech="NN">heparitinase</taggedword>
+      <taggedword index="36" part-of-speech=",">,</taggedword>
+      <taggedword index="37" part-of-speech="CC">but</taggedword>
+      <taggedword index="38" part-of-speech="RB">not</taggedword>
+      <taggedword index="39" part-of-speech="IN">by</taggedword>
+      <taggedword index="40" part-of-speech="JJ">chondroitin</taggedword>
+      <taggedword index="41" part-of-speech="NNP">ABC</taggedword>
+      <taggedword index="42" part-of-speech="NN">lyase</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Pretreatment" dep_index="1" gov="produced" gov_index="15">nsubj</dependency>
+      <dependency dep="AA" dep_index="3" gov="splenic" gov_index="5">nn</dependency>
+      <dependency dep="amyloidotic" dep_index="4" gov="splenic" gov_index="5">nn</dependency>
+      <dependency dep="splenic" dep_index="5" gov="Pretreatment" gov_index="1">prep_of</dependency>
+      <dependency dep="liver" dep_index="7" gov="sections" gov_index="9">nn</dependency>
+      <dependency dep="tissue" dep_index="8" gov="sections" gov_index="9">nn</dependency>
+      <dependency dep="sections" dep_index="9" gov="Pretreatment" gov_index="1">prep_of</dependency>
+      <dependency dep="sections" dep_index="9" gov="splenic" gov_index="5">conj_and</dependency>
+      <dependency dep="synthetic" dep_index="11" gov="(1-28)" gov_index="14">amod</dependency>
+      <dependency dep="A" dep_index="12" gov="(1-28)" gov_index="14">det</dependency>
+      <dependency dep="beta" dep_index="13" gov="(1-28)" gov_index="14">amod</dependency>
+      <dependency dep="(1-28)" dep_index="14" gov="Pretreatment" gov_index="1">prep_with</dependency>
+      <dependency dep="produced" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="strong" dep_index="16" gov="immunoreactivity" gov_index="17">amod</dependency>
+      <dependency dep="immunoreactivity" dep_index="17" gov="produced" gov_index="15">dobj</dependency>
+      <dependency dep="A" dep_index="19" gov="antibodies" gov_index="21">det</dependency>
+      <dependency dep="beta" dep_index="20" gov="antibodies" gov_index="21">amod</dependency>
+      <dependency dep="antibodies" dep_index="21" gov="produced" gov_index="15">prep_with</dependency>
+      <dependency dep="tissue" dep_index="23" gov="sites" gov_index="24">nn</dependency>
+      <dependency dep="sites" dep_index="24" gov="produced" gov_index="15">prep_at</dependency>
+      <dependency dep="enriched" dep_index="25" gov="sites" gov_index="24">partmod</dependency>
+      <dependency dep="perlecan" dep_index="27" gov="enriched" gov_index="25">prep_in</dependency>
+      <dependency dep="perlecan" dep_index="27" gov="removed" gov_index="31">nsubjpass</dependency>
+      <dependency dep="was" dep_index="29" gov="removed" gov_index="31">auxpass</dependency>
+      <dependency dep="partially" dep_index="30" gov="removed" gov_index="31">advmod</dependency>
+      <dependency dep="removed" dep_index="31" gov="perlecan" gov_index="27">rcmod</dependency>
+      <dependency dep="pretreatment" dep_index="33" gov="removed" gov_index="31">agent</dependency>
+      <dependency dep="with" dep_index="34" gov="removed" gov_index="31">KILL</dependency>
+      <dependency dep="heparitinase" dep_index="35" gov="with" gov_index="34">KILL</dependency>
+      <dependency dep="not" dep_index="38" gov="removed" gov_index="31">prep</dependency>
+      <dependency dep="not" dep_index="38" gov="removed" gov_index="31">conj_but</dependency>
+      <dependency dep="not" dep_index="38" gov="with" gov_index="34">neg</dependency>
+      <dependency dep="by" dep_index="39" gov="removed" gov_index="31">dep</dependency>
+      <dependency dep="chondroitin" dep_index="40" gov="lyase" gov_index="42">amod</dependency>
+      <dependency dep="ABC" dep_index="41" gov="lyase" gov_index="42">nn</dependency>
+      <dependency dep="lyase" dep_index="42" gov="by" gov_index="39">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2700041" relationship="false">27 31 39 42 41</relation>
+   </relations>
+   <pairs/>
+</root>

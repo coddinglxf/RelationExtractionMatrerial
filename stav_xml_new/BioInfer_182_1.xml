@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>During@incubation@of@whole@myofibrils@at@37@degrees@C@,@myosin heavy chain@,@alpha actinin@,@actin@and@troponin T@suffered@degradation@.@</sentence>
+   <tags>
+      <tag pos="11">myosin heavy chain</tag>
+      <tag pos="15">actin</tag>
+      <tag pos="13">alpha actinin</tag>
+      <tag pos="17">troponin T</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">During</taggedword>
+      <taggedword index="2" part-of-speech="NN">incubation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">whole</taggedword>
+      <taggedword index="5" part-of-speech="NNS">myofibrils</taggedword>
+      <taggedword index="6" part-of-speech="IN">at</taggedword>
+      <taggedword index="7" part-of-speech="CD">37</taggedword>
+      <taggedword index="8" part-of-speech="NNS">degrees</taggedword>
+      <taggedword index="9" part-of-speech="NNP">C</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">alpha actinin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NN">actin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">troponin T</taggedword>
+      <taggedword index="18" part-of-speech="VBD">suffered</taggedword>
+      <taggedword index="19" part-of-speech="NN">degradation</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="incubation" dep_index="2" gov="suffered" gov_index="18">prep_during</dependency>
+      <dependency dep="whole" dep_index="4" gov="myofibrils" gov_index="5">amod</dependency>
+      <dependency dep="myofibrils" dep_index="5" gov="incubation" gov_index="2">prep_of</dependency>
+      <dependency dep="at" dep_index="6" gov="incubation" gov_index="2">advmod</dependency>
+      <dependency dep="37" dep_index="7" gov="degrees" gov_index="8">num</dependency>
+      <dependency dep="degrees" dep_index="8" gov="at" gov_index="6">pobj</dependency>
+      <dependency dep="C" dep_index="9" gov="incubation" gov_index="2">dep</dependency>
+      <dependency dep="myosin heavy chain" dep_index="11" gov="suffered" gov_index="18">nsubj</dependency>
+      <dependency dep="alpha actinin" dep_index="13" gov="myosin heavy chain" gov_index="11">conj_and</dependency>
+      <dependency dep="alpha actinin" dep_index="13" gov="suffered" gov_index="18">nsubj</dependency>
+      <dependency dep="actin" dep_index="15" gov="myosin heavy chain" gov_index="11">conj_and</dependency>
+      <dependency dep="actin" dep_index="15" gov="suffered" gov_index="18">nsubj</dependency>
+      <dependency dep="troponin T" dep_index="17" gov="myosin heavy chain" gov_index="11">conj_and</dependency>
+      <dependency dep="troponin T" dep_index="17" gov="suffered" gov_index="18">nsubj</dependency>
+      <dependency dep="suffered" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="degradation" dep_index="19" gov="suffered" gov_index="18">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100015" relationship="false">11 18 15</relation>
+      <relation position="1100013" relationship="false">11 18 13</relation>
+      <relation position="1100017" relationship="false">11 18 17</relation>
+      <relation position="1300015" relationship="false">13 18 15</relation>
+      <relation position="1500017" relationship="false">15 18 17</relation>
+      <relation position="1300017" relationship="false">13 18 17</relation>
+   </relations>
+   <pairs/>
+</root>

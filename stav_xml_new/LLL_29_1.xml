@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@sigmaW@-dependent@promoter@(PW)@precedes@sigW@,@demonstrating@that@this@transcription@factor@is@positively@autoregulated@.@</sentence>
+   <tags>
+      <tag pos="2">sigmaW</tag>
+      <tag pos="7">sigW</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">sigmaW</taggedword>
+      <taggedword index="3" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="4" part-of-speech="NN">promoter</taggedword>
+      <taggedword index="5" part-of-speech="NN">(PW)</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">precedes</taggedword>
+      <taggedword index="7" part-of-speech="JJ">sigW</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="VBG">demonstrating</taggedword>
+      <taggedword index="10" part-of-speech="IN">that</taggedword>
+      <taggedword index="11" part-of-speech="DT">this</taggedword>
+      <taggedword index="12" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="13" part-of-speech="NN">factor</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="RB">positively</taggedword>
+      <taggedword index="16" part-of-speech="JJ">autoregulated</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="(PW)" gov_index="5">det</dependency>
+      <dependency dep="sigmaW" dep_index="2" gov="(PW)" gov_index="5">amod</dependency>
+      <dependency dep="-dependent" dep_index="3" gov="(PW)" gov_index="5">amod</dependency>
+      <dependency dep="promoter" dep_index="4" gov="(PW)" gov_index="5">nn</dependency>
+      <dependency dep="(PW)" dep_index="5" gov="precedes" gov_index="6">nsubj</dependency>
+      <dependency dep="precedes" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="sigW" dep_index="7" gov="precedes" gov_index="6">acomp</dependency>
+      <dependency dep="demonstrating" dep_index="9" gov="precedes" gov_index="6">xcomp</dependency>
+      <dependency dep="that" dep_index="10" gov="autoregulated" gov_index="16">mark</dependency>
+      <dependency dep="this" dep_index="11" gov="factor" gov_index="13">det</dependency>
+      <dependency dep="transcription" dep_index="12" gov="factor" gov_index="13">nn</dependency>
+      <dependency dep="factor" dep_index="13" gov="autoregulated" gov_index="16">nsubj</dependency>
+      <dependency dep="is" dep_index="14" gov="autoregulated" gov_index="16">cop</dependency>
+      <dependency dep="positively" dep_index="15" gov="autoregulated" gov_index="16">advmod</dependency>
+      <dependency dep="autoregulated" dep_index="16" gov="demonstrating" gov_index="9">ccomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200007" relationship="true">2 5 6 7</relation>
+   </relations>
+   <pairs>
+      <pair>200007</pair>
+   </pairs>
+</root>

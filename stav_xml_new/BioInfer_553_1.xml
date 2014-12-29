@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Studies@on@the@interaction@between@actin@and@cofilin@purified@by@a@new@method@.@</sentence>
+   <tags>
+      <tag pos="6">actin</tag>
+      <tag pos="8">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Studies</taggedword>
+      <taggedword index="2" part-of-speech="IN">on</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="5" part-of-speech="IN">between</taggedword>
+      <taggedword index="6" part-of-speech="NN">actin</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="9" part-of-speech="VBN">purified</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">new</taggedword>
+      <taggedword index="13" part-of-speech="NN">method</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Studies" dep_index="1" gov="purified" gov_index="9">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="interaction" gov_index="4">det</dependency>
+      <dependency dep="interaction" dep_index="4" gov="Studies" gov_index="1">prep_on</dependency>
+      <dependency dep="actin" dep_index="6" gov="interaction" gov_index="4">prep_between</dependency>
+      <dependency dep="cofilin" dep_index="8" gov="interaction" gov_index="4">prep_between</dependency>
+      <dependency dep="cofilin" dep_index="8" gov="actin" gov_index="6">conj_and</dependency>
+      <dependency dep="purified" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="11" gov="method" gov_index="13">det</dependency>
+      <dependency dep="new" dep_index="12" gov="method" gov_index="13">amod</dependency>
+      <dependency dep="method" dep_index="13" gov="purified" gov_index="9">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="true">6 4 8</relation>
+   </relations>
+   <pairs>
+      <pair>600008</pair>
+   </pairs>
+</root>

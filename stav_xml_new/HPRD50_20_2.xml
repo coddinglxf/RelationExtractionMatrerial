@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@cloned@cDNAs@encoding@the@human@and@mouse@homologs@of@the@yeast@U3@snoRNP-associated@proteins@Imp3@and@Imp4@</sentence>
+   <tags>
+      <tag pos="17">Imp3</tag>
+      <tag pos="19">Imp4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">cloned</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">cDNAs</taggedword>
+      <taggedword index="5" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">human</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">mouse</taggedword>
+      <taggedword index="10" part-of-speech="NNS">homologs</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="14" part-of-speech="NNP">U3</taggedword>
+      <taggedword index="15" part-of-speech="JJ">snoRNP-associated</taggedword>
+      <taggedword index="16" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="17" part-of-speech="NNS">Imp3</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NNS">Imp4</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="cloned" gov_index="3">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="cloned" gov_index="3">aux</dependency>
+      <dependency dep="cloned" dep_index="3" gov="cDNAs" gov_index="4">dep</dependency>
+      <dependency dep="cDNAs" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="encoding" dep_index="5" gov="cDNAs" gov_index="4">xcomp</dependency>
+      <dependency dep="the" dep_index="6" gov="homologs" gov_index="10">det</dependency>
+      <dependency dep="human" dep_index="7" gov="homologs" gov_index="10">amod</dependency>
+      <dependency dep="mouse" dep_index="9" gov="human" gov_index="7">conj_and</dependency>
+      <dependency dep="mouse" dep_index="9" gov="homologs" gov_index="10">amod</dependency>
+      <dependency dep="homologs" dep_index="10" gov="encoding" gov_index="5">dobj</dependency>
+      <dependency dep="the" dep_index="12" gov="proteins" gov_index="16">det</dependency>
+      <dependency dep="yeast" dep_index="13" gov="proteins" gov_index="16">nn</dependency>
+      <dependency dep="U3" dep_index="14" gov="proteins" gov_index="16">nn</dependency>
+      <dependency dep="snoRNP-associated" dep_index="15" gov="proteins" gov_index="16">amod</dependency>
+      <dependency dep="proteins" dep_index="16" gov="homologs" gov_index="10">prep_of</dependency>
+      <dependency dep="Imp3" dep_index="17" gov="cDNAs" gov_index="4">nsubj</dependency>
+      <dependency dep="Imp4" dep_index="19" gov="cDNAs" gov_index="4">nsubj</dependency>
+      <dependency dep="Imp4" dep_index="19" gov="Imp3" gov_index="17">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700019" relationship="false">17 4 19</relation>
+   </relations>
+   <pairs/>
+</root>

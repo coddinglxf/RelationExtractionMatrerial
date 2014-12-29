@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immobilized@FGFR4@also@bound@FGF-8@besides@FGF-1@and@FGF-2@</sentence>
+   <tags>
+      <tag pos="2">FGFR4</tag>
+      <tag pos="5">FGF-8</tag>
+      <tag pos="7">FGF-1</tag>
+      <tag pos="9">FGF-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Immobilized</taggedword>
+      <taggedword index="2" part-of-speech="NNP">FGFR4</taggedword>
+      <taggedword index="3" part-of-speech="RB">also</taggedword>
+      <taggedword index="4" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="5" part-of-speech="NN">FGF-8</taggedword>
+      <taggedword index="6" part-of-speech="IN">besides</taggedword>
+      <taggedword index="7" part-of-speech="NN">FGF-1</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">FGF-2</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immobilized" dep_index="1" gov="FGFR4" gov_index="2">nn</dependency>
+      <dependency dep="FGFR4" dep_index="2" gov="bound" gov_index="4">nsubj</dependency>
+      <dependency dep="also" dep_index="3" gov="bound" gov_index="4">advmod</dependency>
+      <dependency dep="bound" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="FGF-8" dep_index="5" gov="bound" gov_index="4">dobj</dependency>
+      <dependency dep="FGF-1" dep_index="7" gov="FGF-8" gov_index="5">prep_besides</dependency>
+      <dependency dep="FGF-2" dep_index="9" gov="FGF-8" gov_index="5">prep_besides</dependency>
+      <dependency dep="FGF-2" dep_index="9" gov="FGF-1" gov_index="7">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200005" relationship="true">2 4 5</relation>
+      <relation position="200007" relationship="true">2 4 5 7</relation>
+      <relation position="200009" relationship="true">2 4 5 9</relation>
+      <relation position="500007" relationship="false"></relation>
+      <relation position="500009" relationship="false"></relation>
+      <relation position="700009" relationship="false">7 5 9</relation>
+   </relations>
+   <pairs>
+      <pair>200009</pair>
+      <pair>200005</pair>
+      <pair>200007</pair>
+   </pairs>
+</root>

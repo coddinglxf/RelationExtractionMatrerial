@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Lastly@,@in@agreement@with@our@findings@for@yeast@cells@,@we@show@that@the@insulin receptor@is@unable@to@phosphorylate@an@IRS-1@protein@containing@a@deletion@of@amino@acids@45@to@516@when@expressed@in@COS@cells@.@</sentence>
+   <tags>
+      <tag pos="16">insulin receptor</tag>
+      <tag pos="22">IRS-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Lastly</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NN">agreement</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="PRP$">our</taggedword>
+      <taggedword index="7" part-of-speech="NNS">findings</taggedword>
+      <taggedword index="8" part-of-speech="IN">for</taggedword>
+      <taggedword index="9" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="PRP">we</taggedword>
+      <taggedword index="13" part-of-speech="VBP">show</taggedword>
+      <taggedword index="14" part-of-speech="IN">that</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">insulin receptor</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="18" part-of-speech="JJ">unable</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="VB">phosphorylate</taggedword>
+      <taggedword index="21" part-of-speech="DT">an</taggedword>
+      <taggedword index="22" part-of-speech="NN">IRS-1</taggedword>
+      <taggedword index="23" part-of-speech="NN">protein</taggedword>
+      <taggedword index="24" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="25" part-of-speech="DT">a</taggedword>
+      <taggedword index="26" part-of-speech="NN">deletion</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="29" part-of-speech="NNS">acids</taggedword>
+      <taggedword index="30" part-of-speech="CD">45</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="CD">516</taggedword>
+      <taggedword index="33" part-of-speech="WRB">when</taggedword>
+      <taggedword index="34" part-of-speech="VBD">expressed</taggedword>
+      <taggedword index="35" part-of-speech="IN">in</taggedword>
+      <taggedword index="36" part-of-speech="NNP">COS</taggedword>
+      <taggedword index="37" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Lastly" dep_index="1" gov="show" gov_index="13">advmod</dependency>
+      <dependency dep="agreement" dep_index="4" gov="show" gov_index="13">prep_in</dependency>
+      <dependency dep="our" dep_index="6" gov="findings" gov_index="7">poss</dependency>
+      <dependency dep="findings" dep_index="7" gov="agreement" gov_index="4">prep_with</dependency>
+      <dependency dep="yeast" dep_index="9" gov="cells" gov_index="10">nn</dependency>
+      <dependency dep="cells" dep_index="10" gov="findings" gov_index="7">prep_for</dependency>
+      <dependency dep="we" dep_index="12" gov="show" gov_index="13">nsubj</dependency>
+      <dependency dep="show" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="14" gov="unable" gov_index="18">mark</dependency>
+      <dependency dep="the" dep_index="15" gov="insulin receptor" gov_index="16">det</dependency>
+      <dependency dep="insulin receptor" dep_index="16" gov="unable" gov_index="18">nsubj</dependency>
+      <dependency dep="insulin receptor" dep_index="16" gov="phosphorylate" gov_index="20">xsubj</dependency>
+      <dependency dep="is" dep_index="17" gov="unable" gov_index="18">cop</dependency>
+      <dependency dep="unable" dep_index="18" gov="show" gov_index="13">ccomp</dependency>
+      <dependency dep="to" dep_index="19" gov="phosphorylate" gov_index="20">aux</dependency>
+      <dependency dep="phosphorylate" dep_index="20" gov="unable" gov_index="18">xcomp</dependency>
+      <dependency dep="an" dep_index="21" gov="protein" gov_index="23">det</dependency>
+      <dependency dep="IRS-1" dep_index="22" gov="protein" gov_index="23">nn</dependency>
+      <dependency dep="protein" dep_index="23" gov="phosphorylate" gov_index="20">dobj</dependency>
+      <dependency dep="containing" dep_index="24" gov="protein" gov_index="23">partmod</dependency>
+      <dependency dep="a" dep_index="25" gov="deletion" gov_index="26">det</dependency>
+      <dependency dep="deletion" dep_index="26" gov="containing" gov_index="24">dobj</dependency>
+      <dependency dep="amino" dep_index="28" gov="acids" gov_index="29">amod</dependency>
+      <dependency dep="acids" dep_index="29" gov="deletion" gov_index="26">prep_of</dependency>
+      <dependency dep="45" dep_index="30" gov="516" gov_index="32">number</dependency>
+      <dependency dep="to" dep_index="31" gov="516" gov_index="32">dep</dependency>
+      <dependency dep="516" dep_index="32" gov="acids" gov_index="29">num</dependency>
+      <dependency dep="when" dep_index="33" gov="expressed" gov_index="34">advmod</dependency>
+      <dependency dep="expressed" dep_index="34" gov="containing" gov_index="24">advcl</dependency>
+      <dependency dep="COS" dep_index="36" gov="cells" gov_index="37">nn</dependency>
+      <dependency dep="cells" dep_index="37" gov="expressed" gov_index="34">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600022" relationship="false">16 20 23 22</relation>
+   </relations>
+   <pairs/>
+</root>

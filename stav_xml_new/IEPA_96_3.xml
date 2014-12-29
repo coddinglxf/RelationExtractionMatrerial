@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Denervation@suppressed@mRNA@levels@for@UCP-2@(49%)@,@UCP-3@(36%)@,@and@COX-IV@(59%)@and@eliminated@the@acute@response@to@leptin@in@SM@</sentence>
+   <tags>
+      <tag pos="6">UCP-2</tag>
+      <tag pos="9">UCP-3</tag>
+      <tag pos="21">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Denervation</taggedword>
+      <taggedword index="2" part-of-speech="VBD">suppressed</taggedword>
+      <taggedword index="3" part-of-speech="NN">mRNA</taggedword>
+      <taggedword index="4" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="NNP">UCP-2</taggedword>
+      <taggedword index="7" part-of-speech="CD">(49%)</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">UCP-3</taggedword>
+      <taggedword index="10" part-of-speech="CD">(36%)</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NNP">COX-IV</taggedword>
+      <taggedword index="14" part-of-speech="CD">(59%)</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="VBD">eliminated</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">acute</taggedword>
+      <taggedword index="19" part-of-speech="NN">response</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="NNP">SM</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Denervation" dep_index="1" gov="suppressed" gov_index="2">nsubj</dependency>
+      <dependency dep="Denervation" dep_index="1" gov="eliminated" gov_index="16">nsubj</dependency>
+      <dependency dep="suppressed" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="mRNA" dep_index="3" gov="levels" gov_index="4">nn</dependency>
+      <dependency dep="levels" dep_index="4" gov="suppressed" gov_index="2">dobj</dependency>
+      <dependency dep="UCP-2" dep_index="6" gov="suppressed" gov_index="2">prep_for</dependency>
+      <dependency dep="(49%)" dep_index="7" gov="UCP-2" gov_index="6">num</dependency>
+      <dependency dep="UCP-3" dep_index="9" gov="suppressed" gov_index="2">prep_for</dependency>
+      <dependency dep="UCP-3" dep_index="9" gov="UCP-2" gov_index="6">conj_and</dependency>
+      <dependency dep="(36%)" dep_index="10" gov="UCP-3" gov_index="9">num</dependency>
+      <dependency dep="COX-IV" dep_index="13" gov="suppressed" gov_index="2">prep_for</dependency>
+      <dependency dep="COX-IV" dep_index="13" gov="UCP-2" gov_index="6">conj_and</dependency>
+      <dependency dep="(59%)" dep_index="14" gov="COX-IV" gov_index="13">num</dependency>
+      <dependency dep="eliminated" dep_index="16" gov="suppressed" gov_index="2">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="response" gov_index="19">det</dependency>
+      <dependency dep="acute" dep_index="18" gov="response" gov_index="19">amod</dependency>
+      <dependency dep="response" dep_index="19" gov="eliminated" gov_index="16">dobj</dependency>
+      <dependency dep="leptin" dep_index="21" gov="eliminated" gov_index="16">prep_to</dependency>
+      <dependency dep="SM" dep_index="23" gov="eliminated" gov_index="16">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600009" relationship="false">6 2 9</relation>
+      <relation position="600021" relationship="false"></relation>
+      <relation position="900021" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

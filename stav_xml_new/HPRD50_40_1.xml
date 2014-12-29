@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Transient@expression@of@the@full-length@E2-2@without@RSRS@in@U1240MG@glioblastoma@cells@resulted@in@repression@of@FGF-1.B@promoter@activity@</sentence>
+   <tags>
+      <tag pos="6">E2-2</tag>
+      <tag pos="17">FGF-1.B</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Transient</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">full-length</taggedword>
+      <taggedword index="6" part-of-speech="NN">E2-2</taggedword>
+      <taggedword index="7" part-of-speech="IN">without</taggedword>
+      <taggedword index="8" part-of-speech="NNS">RSRS</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="JJ">U1240MG</taggedword>
+      <taggedword index="11" part-of-speech="NN">glioblastoma</taggedword>
+      <taggedword index="12" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="13" part-of-speech="VBD">resulted</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">repression</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NN">FGF-1.B</taggedword>
+      <taggedword index="18" part-of-speech="NN">promoter</taggedword>
+      <taggedword index="19" part-of-speech="NN">activity</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Transient" dep_index="1" gov="expression" gov_index="2">amod</dependency>
+      <dependency dep="expression" dep_index="2" gov="resulted" gov_index="13">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="E2-2" gov_index="6">det</dependency>
+      <dependency dep="full-length" dep_index="5" gov="E2-2" gov_index="6">amod</dependency>
+      <dependency dep="E2-2" dep_index="6" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="RSRS" dep_index="8" gov="E2-2" gov_index="6">prep_without</dependency>
+      <dependency dep="U1240MG" dep_index="10" gov="cells" gov_index="12">amod</dependency>
+      <dependency dep="glioblastoma" dep_index="11" gov="cells" gov_index="12">nn</dependency>
+      <dependency dep="cells" dep_index="12" gov="RSRS" gov_index="8">prep_in</dependency>
+      <dependency dep="resulted" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="repression" dep_index="15" gov="resulted" gov_index="13">prep_in</dependency>
+      <dependency dep="FGF-1.B" dep_index="17" gov="activity" gov_index="19">nn</dependency>
+      <dependency dep="promoter" dep_index="18" gov="activity" gov_index="19">nn</dependency>
+      <dependency dep="activity" dep_index="19" gov="repression" gov_index="15">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600017" relationship="true">6 2 13 15 19 17</relation>
+   </relations>
+   <pairs>
+      <pair>600017</pair>
+   </pairs>
+</root>

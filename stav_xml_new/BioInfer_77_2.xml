@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>By@analytical@ultracentrifugation@,@rhodamine-labeled@profilin@binds@Arp@/3@complex@with@a@Kd@of@7@microM@,@an@affinity@intermediate@between@the@low@affinity@of@profilin@for@barbed@ends@of@actin@filaments@and@its@high@affinity@for@actin@monomers@.@</sentence>
+   <tags>
+      <tag pos="38">actin</tag>
+      <tag pos="26">profilin</tag>
+      <tag pos="6">profilin</tag>
+      <tag pos="31">actin</tag>
+      <tag pos="8">Arp</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">By</taggedword>
+      <taggedword index="2" part-of-speech="JJ">analytical</taggedword>
+      <taggedword index="3" part-of-speech="NN">ultracentrifugation</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="JJ">rhodamine-labeled</taggedword>
+      <taggedword index="6" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Arp</taggedword>
+      <taggedword index="9" part-of-speech="CD">/3</taggedword>
+      <taggedword index="10" part-of-speech="NN">complex</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="NN">Kd</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="CD">7</taggedword>
+      <taggedword index="16" part-of-speech="NN">microM</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="DT">an</taggedword>
+      <taggedword index="19" part-of-speech="RB">affinity</taggedword>
+      <taggedword index="20" part-of-speech="JJ">intermediate</taggedword>
+      <taggedword index="21" part-of-speech="IN">between</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">low</taggedword>
+      <taggedword index="24" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="27" part-of-speech="IN">for</taggedword>
+      <taggedword index="28" part-of-speech="JJ">barbed</taggedword>
+      <taggedword index="29" part-of-speech="NNS">ends</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="NN">actin</taggedword>
+      <taggedword index="32" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="35" part-of-speech="JJ">high</taggedword>
+      <taggedword index="36" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="37" part-of-speech="IN">for</taggedword>
+      <taggedword index="38" part-of-speech="NN">actin</taggedword>
+      <taggedword index="39" part-of-speech="NNS">monomers</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="analytical" dep_index="2" gov="ultracentrifugation" gov_index="3">amod</dependency>
+      <dependency dep="ultracentrifugation" dep_index="3" gov="binds" gov_index="7">prep_by</dependency>
+      <dependency dep="rhodamine-labeled" dep_index="5" gov="profilin" gov_index="6">amod</dependency>
+      <dependency dep="profilin" dep_index="6" gov="binds" gov_index="7">nsubj</dependency>
+      <dependency dep="binds" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Arp" dep_index="8" gov="complex" gov_index="10">nn</dependency>
+      <dependency dep="/3" dep_index="9" gov="complex" gov_index="10">num</dependency>
+      <dependency dep="complex" dep_index="10" gov="binds" gov_index="7">dobj</dependency>
+      <dependency dep="a" dep_index="12" gov="Kd" gov_index="13">det</dependency>
+      <dependency dep="Kd" dep_index="13" gov="complex" gov_index="10">prep_with</dependency>
+      <dependency dep="7" dep_index="15" gov="microM" gov_index="16">num</dependency>
+      <dependency dep="microM" dep_index="16" gov="Kd" gov_index="13">prep_of</dependency>
+      <dependency dep="an" dep_index="18" gov="intermediate" gov_index="20">det</dependency>
+      <dependency dep="affinity" dep_index="19" gov="intermediate" gov_index="20">advmod</dependency>
+      <dependency dep="intermediate" dep_index="20" gov="complex" gov_index="10">prep_with</dependency>
+      <dependency dep="intermediate" dep_index="20" gov="Kd" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="22" gov="affinity" gov_index="24">det</dependency>
+      <dependency dep="low" dep_index="23" gov="affinity" gov_index="24">amod</dependency>
+      <dependency dep="affinity" dep_index="24" gov="intermediate" gov_index="20">prep_between</dependency>
+      <dependency dep="profilin" dep_index="26" gov="affinity" gov_index="24">prep_of</dependency>
+      <dependency dep="barbed" dep_index="28" gov="ends" gov_index="29">amod</dependency>
+      <dependency dep="ends" dep_index="29" gov="profilin" gov_index="26">prep_for</dependency>
+      <dependency dep="actin" dep_index="31" gov="filaments" gov_index="32">nn</dependency>
+      <dependency dep="filaments" dep_index="32" gov="ends" gov_index="29">prep_of</dependency>
+      <dependency dep="its" dep_index="34" gov="affinity" gov_index="36">poss</dependency>
+      <dependency dep="high" dep_index="35" gov="affinity" gov_index="36">amod</dependency>
+      <dependency dep="affinity" dep_index="36" gov="complex" gov_index="10">prep_with</dependency>
+      <dependency dep="affinity" dep_index="36" gov="Kd" gov_index="13">conj_and</dependency>
+      <dependency dep="actin" dep_index="38" gov="monomers" gov_index="39">nn</dependency>
+      <dependency dep="monomers" dep_index="39" gov="affinity" gov_index="36">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2600038" relationship="true">26 24 20 10 36 39 38</relation>
+      <relation position="600038" relationship="false">6 7 10 36 39 38</relation>
+      <relation position="3100038" relationship="false">31 32 29 26 24 20 10 36 39 38</relation>
+      <relation position="800038" relationship="false">8 10 36 39 38</relation>
+      <relation position="600026" relationship="false">6 7 10 20 24 26</relation>
+      <relation position="2600031" relationship="true"></relation>
+      <relation position="800026" relationship="false">8 10 20 24 26</relation>
+      <relation position="600031" relationship="false">6 7 10 20 24 26 29 32 31</relation>
+      <relation position="600008" relationship="true">6 7 10 8</relation>
+      <relation position="800031" relationship="false">8 10 20 24 26 29 32 31</relation>
+   </relations>
+   <pairs>
+      <pair>600008</pair>
+      <pair>2600038</pair>
+      <pair>2600031</pair>
+   </pairs>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@analyzed@22@cell@lines@for@alterations@in@these@genes@by@direct@sequence@analysis@and@methylation-specific@polymerase@chain@reaction@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">analyzed</taggedword>
+      <taggedword index="3" part-of-speech="CD">22</taggedword>
+      <taggedword index="4" part-of-speech="NN">cell</taggedword>
+      <taggedword index="5" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="NNS">alterations</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">these</taggedword>
+      <taggedword index="10" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="13" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="14" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">methylation-specific</taggedword>
+      <taggedword index="17" part-of-speech="NN">polymerase</taggedword>
+      <taggedword index="18" part-of-speech="NN">chain</taggedword>
+      <taggedword index="19" part-of-speech="NN">reaction</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="analyzed" gov_index="2">nsubj</dependency>
+      <dependency dep="analyzed" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="22" dep_index="3" gov="lines" gov_index="5">num</dependency>
+      <dependency dep="cell" dep_index="4" gov="lines" gov_index="5">nn</dependency>
+      <dependency dep="lines" dep_index="5" gov="analyzed" gov_index="2">dobj</dependency>
+      <dependency dep="alterations" dep_index="7" gov="analyzed" gov_index="2">prep_for</dependency>
+      <dependency dep="these" dep_index="9" gov="genes" gov_index="10">det</dependency>
+      <dependency dep="genes" dep_index="10" gov="alterations" gov_index="7">prep_in</dependency>
+      <dependency dep="direct" dep_index="12" gov="analysis" gov_index="14">amod</dependency>
+      <dependency dep="sequence" dep_index="13" gov="analysis" gov_index="14">nn</dependency>
+      <dependency dep="analysis" dep_index="14" gov="analyzed" gov_index="2">prep_by</dependency>
+      <dependency dep="methylation-specific" dep_index="16" gov="reaction" gov_index="19">amod</dependency>
+      <dependency dep="polymerase" dep_index="17" gov="reaction" gov_index="19">nn</dependency>
+      <dependency dep="chain" dep_index="18" gov="reaction" gov_index="19">nn</dependency>
+      <dependency dep="reaction" dep_index="19" gov="analyzed" gov_index="2">prep_by</dependency>
+      <dependency dep="reaction" dep_index="19" gov="analysis" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

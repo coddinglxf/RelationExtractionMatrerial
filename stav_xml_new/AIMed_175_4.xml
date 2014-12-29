@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CDK4@is@a@cyclin D-dependent kinase@that@controls@progression@through@G1@of@the@mammalian@cell@cycle@.@</sentence>
+   <tags>
+      <tag pos="1">CDK4</tag>
+      <tag pos="4">cyclin D-dependent kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CDK4</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">cyclin D-dependent kinase</taggedword>
+      <taggedword index="5" part-of-speech="WDT">that</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">controls</taggedword>
+      <taggedword index="7" part-of-speech="NN">progression</taggedword>
+      <taggedword index="8" part-of-speech="IN">through</taggedword>
+      <taggedword index="9" part-of-speech="NNP">G1</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="13" part-of-speech="NN">cell</taggedword>
+      <taggedword index="14" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CDK4" dep_index="1" gov="cyclin D-dependent kinase" gov_index="4">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="cyclin D-dependent kinase" gov_index="4">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="cyclin D-dependent kinase" gov_index="4">det</dependency>
+      <dependency dep="cyclin D-dependent kinase" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cyclin D-dependent kinase" dep_index="4" gov="controls" gov_index="6">nsubj</dependency>
+      <dependency dep="controls" dep_index="6" gov="cyclin D-dependent kinase" gov_index="4">rcmod</dependency>
+      <dependency dep="progression" dep_index="7" gov="controls" gov_index="6">dobj</dependency>
+      <dependency dep="G1" dep_index="9" gov="controls" gov_index="6">prep_through</dependency>
+      <dependency dep="the" dep_index="11" gov="cycle" gov_index="14">det</dependency>
+      <dependency dep="mammalian" dep_index="12" gov="cycle" gov_index="14">amod</dependency>
+      <dependency dep="cell" dep_index="13" gov="cycle" gov_index="14">nn</dependency>
+      <dependency dep="cycle" dep_index="14" gov="G1" gov_index="9">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100004" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

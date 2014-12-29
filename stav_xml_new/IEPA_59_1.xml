@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>PKB@,@which@is@an@important@early@PI@3-kinase-dependent@component@of@insulin@signalling@pathways@,@is@also@down-regulated@by@PLC@-coupled@agonists@</sentence>
+   <tags>
+      <tag pos="12">insulin</tag>
+      <tag pos="20">PLC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">PKB</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="WDT">which</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="DT">an</taggedword>
+      <taggedword index="6" part-of-speech="JJ">important</taggedword>
+      <taggedword index="7" part-of-speech="JJ">early</taggedword>
+      <taggedword index="8" part-of-speech="NNP">PI</taggedword>
+      <taggedword index="9" part-of-speech="JJ">3-kinase-dependent</taggedword>
+      <taggedword index="10" part-of-speech="NN">component</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="13" part-of-speech="VBG">signalling</taggedword>
+      <taggedword index="14" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="17" part-of-speech="RB">also</taggedword>
+      <taggedword index="18" part-of-speech="JJ">down-regulated</taggedword>
+      <taggedword index="19" part-of-speech="IN">by</taggedword>
+      <taggedword index="20" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="21" part-of-speech="JJ">-coupled</taggedword>
+      <taggedword index="22" part-of-speech="NNS">agonists</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="PKB" dep_index="1" gov="component" gov_index="10">nsubj</dependency>
+      <dependency dep="PKB" dep_index="1" gov="down-regulated" gov_index="18">nsubj</dependency>
+      <dependency dep="is" dep_index="4" gov="component" gov_index="10">cop</dependency>
+      <dependency dep="an" dep_index="5" gov="component" gov_index="10">det</dependency>
+      <dependency dep="important" dep_index="6" gov="component" gov_index="10">amod</dependency>
+      <dependency dep="early" dep_index="7" gov="component" gov_index="10">amod</dependency>
+      <dependency dep="PI" dep_index="8" gov="component" gov_index="10">nn</dependency>
+      <dependency dep="3-kinase-dependent" dep_index="9" gov="component" gov_index="10">amod</dependency>
+      <dependency dep="component" dep_index="10" gov="PKB" gov_index="1">rcmod</dependency>
+      <dependency dep="insulin" dep_index="12" gov="pathways" gov_index="14">nn</dependency>
+      <dependency dep="signalling" dep_index="13" gov="pathways" gov_index="14">amod</dependency>
+      <dependency dep="pathways" dep_index="14" gov="component" gov_index="10">prep_of</dependency>
+      <dependency dep="is" dep_index="16" gov="down-regulated" gov_index="18">cop</dependency>
+      <dependency dep="also" dep_index="17" gov="down-regulated" gov_index="18">advmod</dependency>
+      <dependency dep="down-regulated" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="PLC" dep_index="20" gov="agonists" gov_index="22">nn</dependency>
+      <dependency dep="-coupled" dep_index="21" gov="agonists" gov_index="22">amod</dependency>
+      <dependency dep="agonists" dep_index="22" gov="down-regulated" gov_index="18">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200020" relationship="false">12 14 10 1 18 22 20</relation>
+   </relations>
+   <pairs/>
+</root>

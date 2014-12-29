@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cytokines@IL-1alpha@,@IL-1beta@,@IL-6@,@IL-8@,@IL-10@(Immunotech@,@France)@,@endothelin-1@,@and@soluble cell adhesion molecules@(@sCAM@)@sP-@and@sE-selectin@,@sICAM-1@,@and@sVCAM-1@(R&amp;D@,@UK)@have@been@determined@using@ELISA@kits@(photometer@,@Biomek-1000@,@Beckman@,@USA)@.@</sentence>
+   <tags>
+      <tag pos="2">IL-1alpha</tag>
+      <tag pos="4">IL-1beta</tag>
+      <tag pos="6">IL-6</tag>
+      <tag pos="8">IL-8</tag>
+      <tag pos="10">IL-10</tag>
+      <tag pos="15">endothelin-1</tag>
+      <tag pos="18">soluble cell adhesion molecules</tag>
+      <tag pos="20">sCAM</tag>
+      <tag pos="24">sE-selectin</tag>
+      <tag pos="26">sICAM-1</tag>
+      <tag pos="29">sVCAM-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Cytokines</taggedword>
+      <taggedword index="2" part-of-speech="JJ">IL-1alpha</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">IL-1beta</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="JJ">IL-6</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="JJ">IL-8</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="JJ">IL-10</taggedword>
+      <taggedword index="11" part-of-speech="JJ">(Immunotech</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="JJ">France)</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="JJ">endothelin-1</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NNS">soluble cell adhesion molecules</taggedword>
+      <taggedword index="19" part-of-speech="NNP">(</taggedword>
+      <taggedword index="20" part-of-speech="NNP">sCAM</taggedword>
+      <taggedword index="21" part-of-speech="NNP">)</taggedword>
+      <taggedword index="22" part-of-speech="NNP">sP-</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="JJ">sE-selectin</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="JJ">sICAM-1</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="JJ">sVCAM-1</taggedword>
+      <taggedword index="30" part-of-speech="NNS">(R&amp;D</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="NNP">UK)</taggedword>
+      <taggedword index="33" part-of-speech="VBP">have</taggedword>
+      <taggedword index="34" part-of-speech="VBN">been</taggedword>
+      <taggedword index="35" part-of-speech="VBN">determined</taggedword>
+      <taggedword index="36" part-of-speech="VBG">using</taggedword>
+      <taggedword index="37" part-of-speech="NNP">ELISA</taggedword>
+      <taggedword index="38" part-of-speech="NNS">kits</taggedword>
+      <taggedword index="39" part-of-speech="NN">(photometer</taggedword>
+      <taggedword index="40" part-of-speech=",">,</taggedword>
+      <taggedword index="41" part-of-speech="NNS">Biomek-1000</taggedword>
+      <taggedword index="42" part-of-speech=",">,</taggedword>
+      <taggedword index="43" part-of-speech="NNP">Beckman</taggedword>
+      <taggedword index="44" part-of-speech=",">,</taggedword>
+      <taggedword index="45" part-of-speech="JJ">USA)</taggedword>
+      <taggedword index="46" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cytokines" dep_index="1" gov="determined" gov_index="35">dep</dependency>
+      <dependency dep="IL-1alpha" dep_index="2" gov="Cytokines" gov_index="1">dep</dependency>
+      <dependency dep="IL-1beta" dep_index="4" gov="Cytokines" gov_index="1">conj_and</dependency>
+      <dependency dep="IL-1beta" dep_index="4" gov="determined" gov_index="35">dep</dependency>
+      <dependency dep="IL-6" dep_index="6" gov="Cytokines" gov_index="1">conj_and</dependency>
+      <dependency dep="IL-6" dep_index="6" gov="determined" gov_index="35">dep</dependency>
+      <dependency dep="IL-8" dep_index="8" gov="Cytokines" gov_index="1">conj_and</dependency>
+      <dependency dep="IL-8" dep_index="8" gov="determined" gov_index="35">dep</dependency>
+      <dependency dep="IL-10" dep_index="10" gov="(Immunotech" gov_index="11">amod</dependency>
+      <dependency dep="(Immunotech" dep_index="11" gov="Cytokines" gov_index="1">conj_and</dependency>
+      <dependency dep="(Immunotech" dep_index="11" gov="determined" gov_index="35">dep</dependency>
+      <dependency dep="France)" dep_index="13" gov="Cytokines" gov_index="1">conj_and</dependency>
+      <dependency dep="France)" dep_index="13" gov="determined" gov_index="35">dep</dependency>
+      <dependency dep="endothelin-1" dep_index="15" gov="Cytokines" gov_index="1">conj_and</dependency>
+      <dependency dep="endothelin-1" dep_index="15" gov="determined" gov_index="35">dep</dependency>
+      <dependency dep="soluble cell adhesion molecules" dep_index="18" gov="Cytokines" gov_index="1">conj_and</dependency>
+      <dependency dep="soluble cell adhesion molecules" dep_index="18" gov="determined" gov_index="35">dep</dependency>
+      <dependency dep="(" dep_index="19" gov="sP-" gov_index="22">nn</dependency>
+      <dependency dep="sCAM" dep_index="20" gov="sP-" gov_index="22">nn</dependency>
+      <dependency dep=")" dep_index="21" gov="sP-" gov_index="22">nn</dependency>
+      <dependency dep="sP-" dep_index="22" gov="determined" gov_index="35">nsubjpass</dependency>
+      <dependency dep="sE-selectin" dep_index="24" gov="(R&amp;D" gov_index="30">amod</dependency>
+      <dependency dep="sICAM-1" dep_index="26" gov="(R&amp;D" gov_index="30">amod</dependency>
+      <dependency dep="sVCAM-1" dep_index="29" gov="sICAM-1" gov_index="26">conj_and</dependency>
+      <dependency dep="sVCAM-1" dep_index="29" gov="(R&amp;D" gov_index="30">amod</dependency>
+      <dependency dep="(R&amp;D" dep_index="30" gov="sP-" gov_index="22">conj_and</dependency>
+      <dependency dep="(R&amp;D" dep_index="30" gov="determined" gov_index="35">nsubjpass</dependency>
+      <dependency dep="UK)" dep_index="32" gov="(R&amp;D" gov_index="30">appos</dependency>
+      <dependency dep="have" dep_index="33" gov="determined" gov_index="35">aux</dependency>
+      <dependency dep="been" dep_index="34" gov="determined" gov_index="35">auxpass</dependency>
+      <dependency dep="determined" dep_index="35" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="36" gov="determined" gov_index="35">xcomp</dependency>
+      <dependency dep="ELISA" dep_index="37" gov="(photometer" gov_index="39">nn</dependency>
+      <dependency dep="kits" dep_index="38" gov="(photometer" gov_index="39">nn</dependency>
+      <dependency dep="(photometer" dep_index="39" gov="USA)" gov_index="45">nsubj</dependency>
+      <dependency dep="Biomek-1000" dep_index="41" gov="(photometer" gov_index="39">appos</dependency>
+      <dependency dep="Beckman" dep_index="43" gov="Biomek-1000" gov_index="41">appos</dependency>
+      <dependency dep="USA)" dep_index="45" gov="using" gov_index="36">xcomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 1 35 4</relation>
+      <relation position="200006" relationship="false">2 1 35 6</relation>
+      <relation position="200008" relationship="false">2 1 35 8</relation>
+      <relation position="200010" relationship="false">2 1 35 11 10</relation>
+      <relation position="200015" relationship="false">2 1 35 15</relation>
+      <relation position="200018" relationship="false">2 1 35 18</relation>
+      <relation position="200020" relationship="false">2 1 35 22 20</relation>
+      <relation position="200024" relationship="false">2 1 35 30 24</relation>
+      <relation position="200026" relationship="false">2 1 35 30 26</relation>
+      <relation position="200029" relationship="false">2 1 35 30 29</relation>
+      <relation position="400006" relationship="false">4 35 6</relation>
+      <relation position="400008" relationship="false">4 35 8</relation>
+      <relation position="400010" relationship="false">4 35 11 10</relation>
+      <relation position="400015" relationship="false">4 35 15</relation>
+      <relation position="400018" relationship="false">4 35 18</relation>
+      <relation position="400020" relationship="false">4 35 22 20</relation>
+      <relation position="400024" relationship="false">4 35 30 24</relation>
+      <relation position="400026" relationship="false">4 35 30 26</relation>
+      <relation position="400029" relationship="false">4 35 30 29</relation>
+      <relation position="600008" relationship="false">6 35 8</relation>
+      <relation position="600010" relationship="false">6 35 11 10</relation>
+      <relation position="600015" relationship="false">6 35 15</relation>
+      <relation position="600018" relationship="false">6 35 18</relation>
+      <relation position="600020" relationship="false">6 35 22 20</relation>
+      <relation position="600024" relationship="false">6 35 30 24</relation>
+      <relation position="600026" relationship="false">6 35 30 26</relation>
+      <relation position="600029" relationship="false">6 35 30 29</relation>
+      <relation position="800010" relationship="false">8 35 11 10</relation>
+      <relation position="800015" relationship="false">8 35 15</relation>
+      <relation position="800018" relationship="false">8 35 18</relation>
+      <relation position="800020" relationship="false">8 35 22 20</relation>
+      <relation position="800024" relationship="false">8 35 30 24</relation>
+      <relation position="800026" relationship="false">8 35 30 26</relation>
+      <relation position="800029" relationship="false">8 35 30 29</relation>
+      <relation position="1000015" relationship="false">10 11 35 15</relation>
+      <relation position="1000018" relationship="false">10 11 35 18</relation>
+      <relation position="1000020" relationship="false">10 11 35 22 20</relation>
+      <relation position="1000024" relationship="false">10 11 35 30 24</relation>
+      <relation position="1000026" relationship="false">10 11 35 30 26</relation>
+      <relation position="1000029" relationship="false">10 11 35 30 29</relation>
+      <relation position="1500018" relationship="false">15 35 18</relation>
+      <relation position="1500020" relationship="false">15 35 22 20</relation>
+      <relation position="1500024" relationship="false">15 35 30 24</relation>
+      <relation position="1500026" relationship="false">15 35 30 26</relation>
+      <relation position="1500029" relationship="false">15 35 30 29</relation>
+      <relation position="1800020" relationship="false">18 35 22 20</relation>
+      <relation position="1800024" relationship="false">18 35 30 24</relation>
+      <relation position="1800026" relationship="false">18 35 30 26</relation>
+      <relation position="1800029" relationship="false">18 35 30 29</relation>
+      <relation position="2000024" relationship="false">20 22 35 30 24</relation>
+      <relation position="2000026" relationship="false">20 22 35 30 26</relation>
+      <relation position="2000029" relationship="false">20 22 35 30 29</relation>
+      <relation position="2400026" relationship="false">24 30 26</relation>
+      <relation position="2400029" relationship="false">24 30 29</relation>
+      <relation position="2600029" relationship="false">26 30 29</relation>
+   </relations>
+   <pairs/>
+</root>

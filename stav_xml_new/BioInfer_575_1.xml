@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@APC@binding@site@on@beta-catenin@may@be@discontinuous@since@neither@the@carboxyl-@nor@amino-terminal@halves@of@beta-catenin@will@independently@associate@with@APC@,@although@the@amino-terminal@half@independently@binds@alpha-catenin@.@</sentence>
+   <tags>
+      <tag pos="2">APC</tag>
+      <tag pos="31">alpha-catenin</tag>
+      <tag pos="23">APC</tag>
+      <tag pos="6">beta-catenin</tag>
+      <tag pos="18">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">APC</taggedword>
+      <taggedword index="3" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="4" part-of-speech="NN">site</taggedword>
+      <taggedword index="5" part-of-speech="IN">on</taggedword>
+      <taggedword index="6" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="7" part-of-speech="MD">may</taggedword>
+      <taggedword index="8" part-of-speech="VB">be</taggedword>
+      <taggedword index="9" part-of-speech="JJ">discontinuous</taggedword>
+      <taggedword index="10" part-of-speech="IN">since</taggedword>
+      <taggedword index="11" part-of-speech="CC">neither</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">carboxyl-</taggedword>
+      <taggedword index="14" part-of-speech="CC">nor</taggedword>
+      <taggedword index="15" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="16" part-of-speech="NNS">halves</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="19" part-of-speech="MD">will</taggedword>
+      <taggedword index="20" part-of-speech="RB">independently</taggedword>
+      <taggedword index="21" part-of-speech="VB">associate</taggedword>
+      <taggedword index="22" part-of-speech="IN">with</taggedword>
+      <taggedword index="23" part-of-speech="NNP">APC</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="IN">although</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="28" part-of-speech="NN">half</taggedword>
+      <taggedword index="29" part-of-speech="RB">independently</taggedword>
+      <taggedword index="30" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="31" part-of-speech="JJ">alpha-catenin</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="site" gov_index="4">det</dependency>
+      <dependency dep="APC" dep_index="2" gov="site" gov_index="4">nn</dependency>
+      <dependency dep="binding" dep_index="3" gov="site" gov_index="4">amod</dependency>
+      <dependency dep="site" dep_index="4" gov="discontinuous" gov_index="9">nsubj</dependency>
+      <dependency dep="beta-catenin" dep_index="6" gov="site" gov_index="4">prep_on</dependency>
+      <dependency dep="may" dep_index="7" gov="discontinuous" gov_index="9">aux</dependency>
+      <dependency dep="be" dep_index="8" gov="discontinuous" gov_index="9">cop</dependency>
+      <dependency dep="discontinuous" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="since" dep_index="10" gov="associate" gov_index="21">mark</dependency>
+      <dependency dep="neither" dep_index="11" gov="carboxyl-" gov_index="13">preconj</dependency>
+      <dependency dep="the" dep_index="12" gov="carboxyl-" gov_index="13">det</dependency>
+      <dependency dep="carboxyl-" dep_index="13" gov="associate" gov_index="21">nsubj</dependency>
+      <dependency dep="amino-terminal" dep_index="15" gov="halves" gov_index="16">amod</dependency>
+      <dependency dep="halves" dep_index="16" gov="carboxyl-" gov_index="13">conj_nor</dependency>
+      <dependency dep="halves" dep_index="16" gov="associate" gov_index="21">nsubj</dependency>
+      <dependency dep="beta-catenin" dep_index="18" gov="halves" gov_index="16">prep_of</dependency>
+      <dependency dep="will" dep_index="19" gov="associate" gov_index="21">aux</dependency>
+      <dependency dep="independently" dep_index="20" gov="associate" gov_index="21">advmod</dependency>
+      <dependency dep="associate" dep_index="21" gov="discontinuous" gov_index="9">advcl</dependency>
+      <dependency dep="APC" dep_index="23" gov="associate" gov_index="21">prep_with</dependency>
+      <dependency dep="although" dep_index="25" gov="binds" gov_index="30">mark</dependency>
+      <dependency dep="the" dep_index="26" gov="half" gov_index="28">det</dependency>
+      <dependency dep="amino-terminal" dep_index="27" gov="half" gov_index="28">amod</dependency>
+      <dependency dep="half" dep_index="28" gov="binds" gov_index="30">nsubj</dependency>
+      <dependency dep="independently" dep_index="29" gov="binds" gov_index="30">advmod</dependency>
+      <dependency dep="binds" dep_index="30" gov="discontinuous" gov_index="9">advcl</dependency>
+      <dependency dep="alpha-catenin" dep_index="31" gov="binds" gov_index="30">acomp</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200031" relationship="false">2 4 9 30 31</relation>
+      <relation position="200023" relationship="false">2 4 9 21 23</relation>
+      <relation position="200006" relationship="true">2 4 6</relation>
+      <relation position="200018" relationship="false">2 4 9 21 16 18</relation>
+      <relation position="2300031" relationship="false">23 21 9 30 31</relation>
+      <relation position="600031" relationship="false">6 4 9 30 31</relation>
+      <relation position="1800031" relationship="true">18 16 21 9 30 31</relation>
+      <relation position="600023" relationship="false">6 4 9 21 23</relation>
+      <relation position="1800023" relationship="true">18 16 21 23</relation>
+      <relation position="600018" relationship="false">6 4 9 21 16 18</relation>
+   </relations>
+   <pairs>
+      <pair>1800023</pair>
+      <pair>1800031</pair>
+      <pair>200006</pair>
+   </pairs>
+</root>

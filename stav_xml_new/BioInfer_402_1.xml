@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Like@actin@,@the@actin@-associated@proteins@filamin@,@talin@and@the@beta 1 integrin subunit@were@also@found@to@accumulate@around@entering@bacteria@.@</sentence>
+   <tags>
+      <tag pos="13">beta 1 integrin subunit</tag>
+      <tag pos="10">talin</tag>
+      <tag pos="8">filamin</tag>
+      <tag pos="5">actin</tag>
+      <tag pos="2">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Like</taggedword>
+      <taggedword index="2" part-of-speech="NN">actin</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-associated</taggedword>
+      <taggedword index="7" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="8" part-of-speech="NN">filamin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">talin</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">beta 1 integrin subunit</taggedword>
+      <taggedword index="14" part-of-speech="VBD">were</taggedword>
+      <taggedword index="15" part-of-speech="RB">also</taggedword>
+      <taggedword index="16" part-of-speech="VBN">found</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="VB">accumulate</taggedword>
+      <taggedword index="19" part-of-speech="IN">around</taggedword>
+      <taggedword index="20" part-of-speech="VBG">entering</taggedword>
+      <taggedword index="21" part-of-speech="NNS">bacteria</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="actin" dep_index="2" gov="found" gov_index="16">prep_like</dependency>
+      <dependency dep="the" dep_index="4" gov="filamin" gov_index="8">det</dependency>
+      <dependency dep="actin" dep_index="5" gov="filamin" gov_index="8">amod</dependency>
+      <dependency dep="-associated" dep_index="6" gov="filamin" gov_index="8">amod</dependency>
+      <dependency dep="proteins" dep_index="7" gov="filamin" gov_index="8">nn</dependency>
+      <dependency dep="filamin" dep_index="8" gov="found" gov_index="16">nsubjpass</dependency>
+      <dependency dep="filamin" dep_index="8" gov="accumulate" gov_index="18">xsubj</dependency>
+      <dependency dep="talin" dep_index="10" gov="filamin" gov_index="8">conj_and</dependency>
+      <dependency dep="talin" dep_index="10" gov="found" gov_index="16">nsubjpass</dependency>
+      <dependency dep="talin" dep_index="10" gov="accumulate" gov_index="18">xsubj</dependency>
+      <dependency dep="the" dep_index="12" gov="beta 1 integrin subunit" gov_index="13">det</dependency>
+      <dependency dep="beta 1 integrin subunit" dep_index="13" gov="filamin" gov_index="8">conj_and</dependency>
+      <dependency dep="beta 1 integrin subunit" dep_index="13" gov="found" gov_index="16">nsubjpass</dependency>
+      <dependency dep="beta 1 integrin subunit" dep_index="13" gov="accumulate" gov_index="18">xsubj</dependency>
+      <dependency dep="were" dep_index="14" gov="found" gov_index="16">auxpass</dependency>
+      <dependency dep="also" dep_index="15" gov="found" gov_index="16">advmod</dependency>
+      <dependency dep="found" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="17" gov="accumulate" gov_index="18">aux</dependency>
+      <dependency dep="accumulate" dep_index="18" gov="found" gov_index="16">xcomp</dependency>
+      <dependency dep="entering" dep_index="20" gov="accumulate" gov_index="18">prepc_around</dependency>
+      <dependency dep="bacteria" dep_index="21" gov="entering" gov_index="20">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000013" relationship="true">10 18 13</relation>
+      <relation position="800013" relationship="true">8 18 13</relation>
+      <relation position="500013" relationship="true">5 8 18 13</relation>
+      <relation position="200013" relationship="true">2 16 13</relation>
+      <relation position="800010" relationship="true">8 18 10</relation>
+      <relation position="500010" relationship="true">5 8 18 10</relation>
+      <relation position="200010" relationship="true">2 16 10</relation>
+      <relation position="500008" relationship="true"></relation>
+      <relation position="200008" relationship="true">2 16 8</relation>
+      <relation position="200005" relationship="false">2 16 8 5</relation>
+   </relations>
+   <pairs>
+      <pair>200013</pair>
+      <pair>500013</pair>
+      <pair>200008</pair>
+      <pair>500008</pair>
+      <pair>200010</pair>
+      <pair>500010</pair>
+      <pair>1000013</pair>
+      <pair>800013</pair>
+      <pair>800010</pair>
+   </pairs>
+</root>

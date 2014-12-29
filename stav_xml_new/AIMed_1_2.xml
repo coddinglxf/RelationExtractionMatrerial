@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@study@describes@the@distributions@of@bone morphogenetic protein (BMP)-2@as@well@as@mRNAs@for@BMP receptor type IB@(@BMPRIB@).@collagen@types@II@(@Col II@)@and@III@(@Col III@)@in@a@growing@"cartilage@cap"@of@osteochondroma@.@</sentence>
+   <tags>
+      <tag pos="7">bone morphogenetic protein (BMP)-2</tag>
+      <tag pos="13">BMP receptor type IB</tag>
+      <tag pos="15">BMPRIB</tag>
+      <tag pos="21">Col II</tag>
+      <tag pos="26">Col III</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">study</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">describes</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNS">distributions</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="CD">bone morphogenetic protein (BMP)-2</taggedword>
+      <taggedword index="8" part-of-speech="RB">as</taggedword>
+      <taggedword index="9" part-of-speech="RB">well</taggedword>
+      <taggedword index="10" part-of-speech="IN">as</taggedword>
+      <taggedword index="11" part-of-speech="NNS">mRNAs</taggedword>
+      <taggedword index="12" part-of-speech="IN">for</taggedword>
+      <taggedword index="13" part-of-speech="NNP">BMP receptor type IB</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">BMPRIB</taggedword>
+      <taggedword index="16" part-of-speech="NNP">).</taggedword>
+      <taggedword index="17" part-of-speech="NN">collagen</taggedword>
+      <taggedword index="18" part-of-speech="NNS">types</taggedword>
+      <taggedword index="19" part-of-speech="NNP">II</taggedword>
+      <taggedword index="20" part-of-speech="NNP">(</taggedword>
+      <taggedword index="21" part-of-speech="NNP">Col II</taggedword>
+      <taggedword index="22" part-of-speech="NNP">)</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NNP">III</taggedword>
+      <taggedword index="25" part-of-speech="NNP">(</taggedword>
+      <taggedword index="26" part-of-speech="NNP">Col III</taggedword>
+      <taggedword index="27" part-of-speech="NNP">)</taggedword>
+      <taggedword index="28" part-of-speech="IN">in</taggedword>
+      <taggedword index="29" part-of-speech="DT">a</taggedword>
+      <taggedword index="30" part-of-speech="VBG">growing</taggedword>
+      <taggedword index="31" part-of-speech="JJ">"cartilage</taggedword>
+      <taggedword index="32" part-of-speech="NN">cap"</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="NN">osteochondroma</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="study" gov_index="2">det</dependency>
+      <dependency dep="study" dep_index="2" gov="describes" gov_index="3">nsubj</dependency>
+      <dependency dep="describes" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="distributions" gov_index="5">det</dependency>
+      <dependency dep="distributions" dep_index="5" gov="describes" gov_index="3">dobj</dependency>
+      <dependency dep="bone morphogenetic protein (BMP)-2" dep_index="7" gov="distributions" gov_index="5">prep_of</dependency>
+      <dependency dep="mRNAs" dep_index="11" gov="describes" gov_index="3">dobj</dependency>
+      <dependency dep="mRNAs" dep_index="11" gov="distributions" gov_index="5">conj_and</dependency>
+      <dependency dep="BMP receptor type IB" dep_index="13" gov=")" gov_index="22">nn</dependency>
+      <dependency dep="(" dep_index="14" gov=")" gov_index="22">nn</dependency>
+      <dependency dep="BMPRIB" dep_index="15" gov=")" gov_index="22">nn</dependency>
+      <dependency dep=")." dep_index="16" gov=")" gov_index="22">nn</dependency>
+      <dependency dep="collagen" dep_index="17" gov=")" gov_index="22">nn</dependency>
+      <dependency dep="types" dep_index="18" gov=")" gov_index="22">nn</dependency>
+      <dependency dep="II" dep_index="19" gov=")" gov_index="22">nn</dependency>
+      <dependency dep="(" dep_index="20" gov=")" gov_index="22">nn</dependency>
+      <dependency dep="Col II" dep_index="21" gov=")" gov_index="22">nn</dependency>
+      <dependency dep=")" dep_index="22" gov="mRNAs" gov_index="11">prep_for</dependency>
+      <dependency dep="III" dep_index="24" gov=")" gov_index="27">nn</dependency>
+      <dependency dep="(" dep_index="25" gov=")" gov_index="27">nn</dependency>
+      <dependency dep="Col III" dep_index="26" gov=")" gov_index="27">nn</dependency>
+      <dependency dep=")" dep_index="27" gov="mRNAs" gov_index="11">prep_for</dependency>
+      <dependency dep=")" dep_index="27" gov=")" gov_index="22">conj_and</dependency>
+      <dependency dep="a" dep_index="29" gov="cap&quot;" gov_index="32">det</dependency>
+      <dependency dep="growing" dep_index="30" gov="cap&quot;" gov_index="32">amod</dependency>
+      <dependency dep="&quot;cartilage" dep_index="31" gov="cap&quot;" gov_index="32">amod</dependency>
+      <dependency dep="cap&quot;" dep_index="32" gov="describes" gov_index="3">prep_in</dependency>
+      <dependency dep="osteochondroma" dep_index="34" gov="cap&quot;" gov_index="32">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700013" relationship="false">7 5 3 11 22 13</relation>
+      <relation position="700015" relationship="false">7 5 3 11 22 15</relation>
+      <relation position="700021" relationship="false">7 5 3 11 22 21</relation>
+      <relation position="700026" relationship="false">7 5 3 11 27 26</relation>
+      <relation position="1300015" relationship="false">13 22 15</relation>
+      <relation position="1300021" relationship="false">13 22 21</relation>
+      <relation position="1300026" relationship="false">13 22 11 27 26</relation>
+      <relation position="1500021" relationship="false">15 22 21</relation>
+      <relation position="1500026" relationship="false">15 22 11 27 26</relation>
+      <relation position="2100026" relationship="false">21 22 11 27 26</relation>
+   </relations>
+   <pairs/>
+</root>

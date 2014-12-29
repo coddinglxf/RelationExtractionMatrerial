@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@cloned@a@Saccharomyces@cerevisiae@gene@(@COF1@)@encoding@a@low-M(r)@actin-binding protein@of@143@amino@acid@(aa)@residues@(yeast@cofilin@;@Cof@);@its@aa@sequence@is@35%@identical@to@porcine@Cof@.@</sentence>
+   <tags>
+      <tag pos="22">cofilin</tag>
+      <tag pos="9">COF1</tag>
+      <tag pos="24">Cof</tag>
+      <tag pos="14">actin-binding protein</tag>
+      <tag pos="34">Cof</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">cloned</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="NNPS">Saccharomyces</taggedword>
+      <taggedword index="6" part-of-speech="NN">cerevisiae</taggedword>
+      <taggedword index="7" part-of-speech="NN">gene</taggedword>
+      <taggedword index="8" part-of-speech="NNP">(</taggedword>
+      <taggedword index="9" part-of-speech="NNP">COF1</taggedword>
+      <taggedword index="10" part-of-speech="NNP">)</taggedword>
+      <taggedword index="11" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">low-M(r)</taggedword>
+      <taggedword index="14" part-of-speech="NN">actin-binding protein</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="CD">143</taggedword>
+      <taggedword index="17" part-of-speech="CD">amino</taggedword>
+      <taggedword index="18" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="19" part-of-speech="CD">(aa)</taggedword>
+      <taggedword index="20" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="21" part-of-speech="JJ">(yeast</taggedword>
+      <taggedword index="22" part-of-speech="NNS">cofilin</taggedword>
+      <taggedword index="23" part-of-speech=":">;</taggedword>
+      <taggedword index="24" part-of-speech="NNP">Cof</taggedword>
+      <taggedword index="25" part-of-speech="VBD">);</taggedword>
+      <taggedword index="26" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="27" part-of-speech="NN">aa</taggedword>
+      <taggedword index="28" part-of-speech="NN">sequence</taggedword>
+      <taggedword index="29" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="30" part-of-speech="CD">35%</taggedword>
+      <taggedword index="31" part-of-speech="JJ">identical</taggedword>
+      <taggedword index="32" part-of-speech="TO">to</taggedword>
+      <taggedword index="33" part-of-speech="VB">porcine</taggedword>
+      <taggedword index="34" part-of-speech="NNP">Cof</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="cloned" gov_index="3">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="cloned" gov_index="3">aux</dependency>
+      <dependency dep="cloned" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov=")" gov_index="10">det</dependency>
+      <dependency dep="Saccharomyces" dep_index="5" gov=")" gov_index="10">nn</dependency>
+      <dependency dep="cerevisiae" dep_index="6" gov=")" gov_index="10">nn</dependency>
+      <dependency dep="gene" dep_index="7" gov=")" gov_index="10">nn</dependency>
+      <dependency dep="(" dep_index="8" gov=")" gov_index="10">nn</dependency>
+      <dependency dep="COF1" dep_index="9" gov=")" gov_index="10">nn</dependency>
+      <dependency dep=")" dep_index="10" gov="encoding" gov_index="11">nsubj</dependency>
+      <dependency dep="encoding" dep_index="11" gov="cloned" gov_index="3">dep</dependency>
+      <dependency dep="a" dep_index="12" gov="actin-binding protein" gov_index="14">det</dependency>
+      <dependency dep="low-M(r)" dep_index="13" gov="actin-binding protein" gov_index="14">amod</dependency>
+      <dependency dep="actin-binding protein" dep_index="14" gov="encoding" gov_index="11">dobj</dependency>
+      <dependency dep="143" dep_index="16" gov="amino" gov_index="17">number</dependency>
+      <dependency dep="amino" dep_index="17" gov="cofilin" gov_index="22">num</dependency>
+      <dependency dep="acid" dep_index="18" gov="cofilin" gov_index="22">amod</dependency>
+      <dependency dep="(aa)" dep_index="19" gov="residues" gov_index="20">num</dependency>
+      <dependency dep="residues" dep_index="20" gov="(yeast" gov_index="21">npadvmod</dependency>
+      <dependency dep="(yeast" dep_index="21" gov="cofilin" gov_index="22">amod</dependency>
+      <dependency dep="cofilin" dep_index="22" gov="actin-binding protein" gov_index="14">prep_of</dependency>
+      <dependency dep="Cof" dep_index="24" gov=");" gov_index="25">nsubj</dependency>
+      <dependency dep=");" dep_index="25" gov="cloned" gov_index="3">parataxis</dependency>
+      <dependency dep="its" dep_index="26" gov="sequence" gov_index="28">poss</dependency>
+      <dependency dep="aa" dep_index="27" gov="sequence" gov_index="28">nn</dependency>
+      <dependency dep="sequence" dep_index="28" gov="identical" gov_index="31">nsubj</dependency>
+      <dependency dep="sequence" dep_index="28" gov="porcine" gov_index="33">xsubj</dependency>
+      <dependency dep="is" dep_index="29" gov="identical" gov_index="31">cop</dependency>
+      <dependency dep="35%" dep_index="30" gov="identical" gov_index="31">npadvmod</dependency>
+      <dependency dep="identical" dep_index="31" gov=");" gov_index="25">ccomp</dependency>
+      <dependency dep="to" dep_index="32" gov="porcine" gov_index="33">aux</dependency>
+      <dependency dep="porcine" dep_index="33" gov="identical" gov_index="31">xcomp</dependency>
+      <dependency dep="Cof" dep_index="34" gov="porcine" gov_index="33">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900022" relationship="true">9 10 11 14 22</relation>
+      <relation position="2200024" relationship="false">22 14 11 3 25 24</relation>
+      <relation position="1400022" relationship="true"></relation>
+      <relation position="2200034" relationship="true">22 14 11 3 25 31 33 34</relation>
+      <relation position="900024" relationship="true">9 10 11 3 25 24</relation>
+      <relation position="900014" relationship="false">9 10 11 14</relation>
+      <relation position="900034" relationship="false">9 10 11 3 25 31 33 34</relation>
+      <relation position="1400024" relationship="true">14 11 3 25 24</relation>
+      <relation position="2400034" relationship="true">24 25 31 33 34</relation>
+      <relation position="1400034" relationship="false">14 11 3 25 31 33 34</relation>
+   </relations>
+   <pairs>
+      <pair>2200034</pair>
+      <pair>1400022</pair>
+      <pair>900024</pair>
+      <pair>2400034</pair>
+      <pair>900022</pair>
+      <pair>1400024</pair>
+   </pairs>
+</root>

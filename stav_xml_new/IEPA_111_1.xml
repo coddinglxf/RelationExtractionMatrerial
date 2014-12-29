@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Plasma@oxytocin@,@and@some@functionally@related@peptides@(CCK@,@gastrin@,@somatostatin@and@insulin@),@were@measured@by@standard@radioimmunoassay@techniques@</sentence>
+   <tags>
+      <tag pos="2">oxytocin</tag>
+      <tag pos="15">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Plasma</taggedword>
+      <taggedword index="2" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="DT">some</taggedword>
+      <taggedword index="6" part-of-speech="RB">functionally</taggedword>
+      <taggedword index="7" part-of-speech="VBN">related</taggedword>
+      <taggedword index="8" part-of-speech="NNS">peptides</taggedword>
+      <taggedword index="9" part-of-speech="NN">(CCK</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">gastrin</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">somatostatin</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="16" part-of-speech="NNS">),</taggedword>
+      <taggedword index="17" part-of-speech="VBD">were</taggedword>
+      <taggedword index="18" part-of-speech="VBN">measured</taggedword>
+      <taggedword index="19" part-of-speech="IN">by</taggedword>
+      <taggedword index="20" part-of-speech="JJ">standard</taggedword>
+      <taggedword index="21" part-of-speech="NN">radioimmunoassay</taggedword>
+      <taggedword index="22" part-of-speech="NNS">techniques</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Plasma" dep_index="1" gov="measured" gov_index="18">partmod</dependency>
+      <dependency dep="oxytocin" dep_index="2" gov="Plasma" gov_index="1">dobj</dependency>
+      <dependency dep="some" dep_index="5" gov="(CCK" gov_index="9">det</dependency>
+      <dependency dep="functionally" dep_index="6" gov="related" gov_index="7">advmod</dependency>
+      <dependency dep="related" dep_index="7" gov="(CCK" gov_index="9">amod</dependency>
+      <dependency dep="peptides" dep_index="8" gov="(CCK" gov_index="9">nn</dependency>
+      <dependency dep="(CCK" dep_index="9" gov="Plasma" gov_index="1">dobj</dependency>
+      <dependency dep="(CCK" dep_index="9" gov="oxytocin" gov_index="2">conj_and</dependency>
+      <dependency dep="gastrin" dep_index="11" gov=")," gov_index="16">nn</dependency>
+      <dependency dep="somatostatin" dep_index="13" gov="gastrin" gov_index="11">conj_and</dependency>
+      <dependency dep="somatostatin" dep_index="13" gov=")," gov_index="16">nn</dependency>
+      <dependency dep="insulin" dep_index="15" gov="gastrin" gov_index="11">conj_and</dependency>
+      <dependency dep="insulin" dep_index="15" gov=")," gov_index="16">nn</dependency>
+      <dependency dep=")," dep_index="16" gov="measured" gov_index="18">nsubjpass</dependency>
+      <dependency dep="were" dep_index="17" gov="measured" gov_index="18">auxpass</dependency>
+      <dependency dep="measured" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="standard" dep_index="20" gov="techniques" gov_index="22">amod</dependency>
+      <dependency dep="radioimmunoassay" dep_index="21" gov="techniques" gov_index="22">nn</dependency>
+      <dependency dep="techniques" dep_index="22" gov="measured" gov_index="18">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200015" relationship="false">2 1 18 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

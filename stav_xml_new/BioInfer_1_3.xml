@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interaction@of@plant@profilin@with@mammalian@actin@.@</sentence>
+   <tags>
+      <tag pos="4">profilin</tag>
+      <tag pos="7">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Interaction</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">plant</taggedword>
+      <taggedword index="4" part-of-speech="VBN">profilin</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="7" part-of-speech="NN">actin</taggedword>
+      <taggedword index="8" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interaction" dep_index="1" gov="profilin" gov_index="4">nsubj</dependency>
+      <dependency dep="plant" dep_index="3" gov="Interaction" gov_index="1">prep_of</dependency>
+      <dependency dep="profilin" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="mammalian" dep_index="6" gov="actin" gov_index="7">amod</dependency>
+      <dependency dep="actin" dep_index="7" gov="profilin" gov_index="4">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>400007</pair>
+   </pairs>
+</root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Sos@in@complex@with@a@previously@identified@90-kDa@protein@and@designated@protein@80K-H@.@</sentence>
+   <tags>
+      <tag pos="1">Sos</tag>
+      <tag pos="13">80K-H</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VB">Sos</taggedword>
+      <taggedword index="2" part-of-speech="IN">in</taggedword>
+      <taggedword index="3" part-of-speech="NN">complex</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="RB">previously</taggedword>
+      <taggedword index="7" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="8" part-of-speech="JJ">90-kDa</taggedword>
+      <taggedword index="9" part-of-speech="NN">protein</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="VBN">designated</taggedword>
+      <taggedword index="12" part-of-speech="NN">protein</taggedword>
+      <taggedword index="13" part-of-speech="NN">80K-H</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Sos" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="complex" dep_index="3" gov="Sos" gov_index="1">prep_in</dependency>
+      <dependency dep="a" dep_index="5" gov="protein" gov_index="9">det</dependency>
+      <dependency dep="previously" dep_index="6" gov="identified" gov_index="7">advmod</dependency>
+      <dependency dep="identified" dep_index="7" gov="protein" gov_index="9">amod</dependency>
+      <dependency dep="90-kDa" dep_index="8" gov="protein" gov_index="9">amod</dependency>
+      <dependency dep="protein" dep_index="9" gov="Sos" gov_index="1">prep_with</dependency>
+      <dependency dep="designated" dep_index="11" gov="80K-H" gov_index="13">amod</dependency>
+      <dependency dep="protein" dep_index="12" gov="80K-H" gov_index="13">nn</dependency>
+      <dependency dep="80K-H" dep_index="13" gov="Sos" gov_index="1">prep_with</dependency>
+      <dependency dep="80K-H" dep_index="13" gov="protein" gov_index="9">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100013" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

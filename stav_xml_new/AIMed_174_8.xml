@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@data@imply@that@IL-6@-induced@dimerization@of@sIL-6R@is@not@the@driving@force@in@promoting@formation@of@the@hexameric@(@IL-6@IL-6R@gp130@)2@complex@.@</sentence>
+   <tags>
+      <tag pos="5">IL-6</tag>
+      <tag pos="9">sIL-6R</tag>
+      <tag pos="22">IL-6</tag>
+      <tag pos="23">IL-6R</tag>
+      <tag pos="24">gp130</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="VBP">imply</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="7" part-of-speech="NN">dimerization</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="CD">sIL-6R</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="RB">not</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="VBG">driving</taggedword>
+      <taggedword index="14" part-of-speech="NN">force</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="VBG">promoting</taggedword>
+      <taggedword index="17" part-of-speech="NN">formation</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">hexameric</taggedword>
+      <taggedword index="21" part-of-speech="NNP">(</taggedword>
+      <taggedword index="22" part-of-speech="NNP">IL-6</taggedword>
+      <taggedword index="23" part-of-speech="NNP">IL-6R</taggedword>
+      <taggedword index="24" part-of-speech="NN">gp130</taggedword>
+      <taggedword index="25" part-of-speech="CD">)2</taggedword>
+      <taggedword index="26" part-of-speech="NN">complex</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="data" gov_index="2">det</dependency>
+      <dependency dep="data" dep_index="2" gov="imply" gov_index="3">nsubj</dependency>
+      <dependency dep="imply" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="force" gov_index="14">mark</dependency>
+      <dependency dep="IL-6" dep_index="5" gov="dimerization" gov_index="7">nn</dependency>
+      <dependency dep="-induced" dep_index="6" gov="dimerization" gov_index="7">amod</dependency>
+      <dependency dep="dimerization" dep_index="7" gov="force" gov_index="14">nsubj</dependency>
+      <dependency dep="sIL-6R" dep_index="9" gov="dimerization" gov_index="7">prep_of</dependency>
+      <dependency dep="is" dep_index="10" gov="force" gov_index="14">cop</dependency>
+      <dependency dep="not" dep_index="11" gov="force" gov_index="14">neg</dependency>
+      <dependency dep="the" dep_index="12" gov="force" gov_index="14">det</dependency>
+      <dependency dep="driving" dep_index="13" gov="force" gov_index="14">amod</dependency>
+      <dependency dep="force" dep_index="14" gov="imply" gov_index="3">ccomp</dependency>
+      <dependency dep="promoting" dep_index="16" gov="force" gov_index="14">prepc_in</dependency>
+      <dependency dep="formation" dep_index="17" gov="promoting" gov_index="16">dobj</dependency>
+      <dependency dep="the" dep_index="19" gov="complex" gov_index="26">det</dependency>
+      <dependency dep="hexameric" dep_index="20" gov="complex" gov_index="26">amod</dependency>
+      <dependency dep="(" dep_index="21" gov="complex" gov_index="26">nn</dependency>
+      <dependency dep="IL-6" dep_index="22" gov="complex" gov_index="26">nn</dependency>
+      <dependency dep="IL-6R" dep_index="23" gov="complex" gov_index="26">nn</dependency>
+      <dependency dep="gp130" dep_index="24" gov="complex" gov_index="26">nn</dependency>
+      <dependency dep=")2" dep_index="25" gov="complex" gov_index="26">num</dependency>
+      <dependency dep="complex" dep_index="26" gov="formation" gov_index="17">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500009" relationship="false">5 7 9</relation>
+      <relation position="500022" relationship="false">5 7 14 16 17 26 22</relation>
+      <relation position="500023" relationship="false">5 7 14 16 17 26 23</relation>
+      <relation position="500024" relationship="false">5 7 14 16 17 26 24</relation>
+      <relation position="900022" relationship="false">9 7 14 16 17 26 22</relation>
+      <relation position="900023" relationship="false">9 7 14 16 17 26 23</relation>
+      <relation position="900024" relationship="false">9 7 14 16 17 26 24</relation>
+      <relation position="2200023" relationship="true">22 26 23</relation>
+      <relation position="2200024" relationship="false">22 26 24</relation>
+      <relation position="2300024" relationship="false">23 26 24</relation>
+   </relations>
+   <pairs>
+      <pair>2200023</pair>
+   </pairs>
+</root>

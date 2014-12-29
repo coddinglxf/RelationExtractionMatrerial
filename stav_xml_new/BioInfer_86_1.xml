@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>At@least@one@element@of@the@actin@-binding@region@of@human@profilin@is@an@alpha-helix@.@</sentence>
+   <tags>
+      <tag pos="12">profilin</tag>
+      <tag pos="7">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">At</taggedword>
+      <taggedword index="2" part-of-speech="JJS">least</taggedword>
+      <taggedword index="3" part-of-speech="CD">one</taggedword>
+      <taggedword index="4" part-of-speech="NN">element</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="8" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="9" part-of-speech="NN">region</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">human</taggedword>
+      <taggedword index="12" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="DT">an</taggedword>
+      <taggedword index="15" part-of-speech="JJ">alpha-helix</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="At" dep_index="1" gov="one" gov_index="3">quantmod</dependency>
+      <dependency dep="least" dep_index="2" gov="At" gov_index="1">mwe</dependency>
+      <dependency dep="least" dep_index="2" gov="At" gov_index="1">pobj</dependency>
+      <dependency dep="one" dep_index="3" gov="element" gov_index="4">num</dependency>
+      <dependency dep="element" dep_index="4" gov="alpha-helix" gov_index="15">nsubj</dependency>
+      <dependency dep="the" dep_index="6" gov="region" gov_index="9">det</dependency>
+      <dependency dep="actin" dep_index="7" gov="region" gov_index="9">amod</dependency>
+      <dependency dep="-binding" dep_index="8" gov="region" gov_index="9">amod</dependency>
+      <dependency dep="region" dep_index="9" gov="element" gov_index="4">prep_of</dependency>
+      <dependency dep="human" dep_index="11" gov="profilin" gov_index="12">amod</dependency>
+      <dependency dep="profilin" dep_index="12" gov="region" gov_index="9">prep_of</dependency>
+      <dependency dep="is" dep_index="13" gov="alpha-helix" gov_index="15">cop</dependency>
+      <dependency dep="an" dep_index="14" gov="alpha-helix" gov_index="15">det</dependency>
+      <dependency dep="alpha-helix" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700012" relationship="true">7 9 12</relation>
+   </relations>
+   <pairs>
+      <pair>700012</pair>
+   </pairs>
+</root>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@carboxy-terminal@region@of@dystrophin@has@previously@been@shown@to@interact@directly@with@alpha1 syntrophin@,@a@cytoplasmic@component@of@the@dystrophin@-glycoprotein@complex@,@by@in@vitro@biochemical@studies@such@as@overlay@assay@or@immunoprecipitation@.@</sentence>
+   <tags>
+      <tag pos="5">dystrophin</tag>
+      <tag pos="14">alpha1 syntrophin</tag>
+      <tag pos="21">dystrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">carboxy-terminal</taggedword>
+      <taggedword index="3" part-of-speech="NN">region</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NN">dystrophin</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="7" part-of-speech="RB">previously</taggedword>
+      <taggedword index="8" part-of-speech="VBN">been</taggedword>
+      <taggedword index="9" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="VB">interact</taggedword>
+      <taggedword index="12" part-of-speech="RB">directly</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="NNS">alpha1 syntrophin</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="JJ">cytoplasmic</taggedword>
+      <taggedword index="18" part-of-speech="NN">component</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">dystrophin</taggedword>
+      <taggedword index="22" part-of-speech="JJ">-glycoprotein</taggedword>
+      <taggedword index="23" part-of-speech="NN">complex</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="IN">by</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="28" part-of-speech="JJ">biochemical</taggedword>
+      <taggedword index="29" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="30" part-of-speech="JJ">such</taggedword>
+      <taggedword index="31" part-of-speech="IN">as</taggedword>
+      <taggedword index="32" part-of-speech="NN">overlay</taggedword>
+      <taggedword index="33" part-of-speech="NN">assay</taggedword>
+      <taggedword index="34" part-of-speech="CC">or</taggedword>
+      <taggedword index="35" part-of-speech="NN">immunoprecipitation</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="region" gov_index="3">det</dependency>
+      <dependency dep="carboxy-terminal" dep_index="2" gov="region" gov_index="3">amod</dependency>
+      <dependency dep="region" dep_index="3" gov="shown" gov_index="9">nsubjpass</dependency>
+      <dependency dep="region" dep_index="3" gov="interact" gov_index="11">xsubj</dependency>
+      <dependency dep="dystrophin" dep_index="5" gov="region" gov_index="3">prep_of</dependency>
+      <dependency dep="has" dep_index="6" gov="shown" gov_index="9">aux</dependency>
+      <dependency dep="previously" dep_index="7" gov="shown" gov_index="9">advmod</dependency>
+      <dependency dep="been" dep_index="8" gov="shown" gov_index="9">auxpass</dependency>
+      <dependency dep="shown" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="10" gov="interact" gov_index="11">aux</dependency>
+      <dependency dep="interact" dep_index="11" gov="shown" gov_index="9">xcomp</dependency>
+      <dependency dep="directly" dep_index="12" gov="interact" gov_index="11">advmod</dependency>
+      <dependency dep="alpha1 syntrophin" dep_index="14" gov="interact" gov_index="11">prep_with</dependency>
+      <dependency dep="a" dep_index="16" gov="component" gov_index="18">det</dependency>
+      <dependency dep="cytoplasmic" dep_index="17" gov="component" gov_index="18">amod</dependency>
+      <dependency dep="component" dep_index="18" gov="alpha1 syntrophin" gov_index="14">appos</dependency>
+      <dependency dep="the" dep_index="20" gov="complex" gov_index="23">det</dependency>
+      <dependency dep="dystrophin" dep_index="21" gov="complex" gov_index="23">amod</dependency>
+      <dependency dep="-glycoprotein" dep_index="22" gov="complex" gov_index="23">amod</dependency>
+      <dependency dep="complex" dep_index="23" gov="component" gov_index="18">prep_of</dependency>
+      <dependency dep="by" dep_index="25" gov="interact" gov_index="11">dep</dependency>
+      <dependency dep="vitro" dep_index="27" gov="biochemical" gov_index="28">npadvmod</dependency>
+      <dependency dep="biochemical" dep_index="28" gov="studies" gov_index="29">amod</dependency>
+      <dependency dep="studies" dep_index="29" gov="interact" gov_index="11">prep_in</dependency>
+      <dependency dep="overlay" dep_index="32" gov="assay" gov_index="33">nn</dependency>
+      <dependency dep="assay" dep_index="33" gov="studies" gov_index="29">prep_such_as</dependency>
+      <dependency dep="immunoprecipitation" dep_index="35" gov="studies" gov_index="29">prep_such_as</dependency>
+      <dependency dep="immunoprecipitation" dep_index="35" gov="assay" gov_index="33">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500014" relationship="true">5 3 11 14</relation>
+      <relation position="500021" relationship="false">5 3 11 14 18 23 21</relation>
+      <relation position="1400021" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>500014</pair>
+   </pairs>
+</root>

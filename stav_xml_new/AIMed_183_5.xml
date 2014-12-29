@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Under@these@conditions@,@a@ternary@complex@of@p21ras@,@JAK2@,@and@Raf-1@was@observed@.@</sentence>
+   <tags>
+      <tag pos="9">p21ras</tag>
+      <tag pos="11">JAK2</tag>
+      <tag pos="14">Raf-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Under</taggedword>
+      <taggedword index="2" part-of-speech="DT">these</taggedword>
+      <taggedword index="3" part-of-speech="NNS">conditions</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">ternary</taggedword>
+      <taggedword index="7" part-of-speech="NN">complex</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="CD">p21ras</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">JAK2</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NNP">Raf-1</taggedword>
+      <taggedword index="15" part-of-speech="VBD">was</taggedword>
+      <taggedword index="16" part-of-speech="JJ">observed</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="these" dep_index="2" gov="conditions" gov_index="3">det</dependency>
+      <dependency dep="conditions" dep_index="3" gov="observed" gov_index="16">prep_under</dependency>
+      <dependency dep="a" dep_index="5" gov="complex" gov_index="7">det</dependency>
+      <dependency dep="ternary" dep_index="6" gov="complex" gov_index="7">amod</dependency>
+      <dependency dep="complex" dep_index="7" gov="observed" gov_index="16">nsubj</dependency>
+      <dependency dep="p21ras" dep_index="9" gov="complex" gov_index="7">prep_of</dependency>
+      <dependency dep="JAK2" dep_index="11" gov="complex" gov_index="7">prep_of</dependency>
+      <dependency dep="JAK2" dep_index="11" gov="p21ras" gov_index="9">conj_and</dependency>
+      <dependency dep="Raf-1" dep_index="14" gov="complex" gov_index="7">prep_of</dependency>
+      <dependency dep="Raf-1" dep_index="14" gov="p21ras" gov_index="9">conj_and</dependency>
+      <dependency dep="was" dep_index="15" gov="observed" gov_index="16">cop</dependency>
+      <dependency dep="observed" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="true">9 7 11</relation>
+      <relation position="900014" relationship="false">9 7 14</relation>
+      <relation position="1100014" relationship="false">11 7 14</relation>
+   </relations>
+   <pairs>
+      <pair>900011</pair>
+   </pairs>
+</root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interleukin-10@levels@in@seminal@plasma@:@implications@for@chronic@prostatitis-chronic@pelvic@pain@syndrome@.@</sentence>
+   <tags>
+      <tag pos="1">Interleukin-10</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Interleukin-10</taggedword>
+      <taggedword index="2" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="JJ">seminal</taggedword>
+      <taggedword index="5" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="6" part-of-speech=":">:</taggedword>
+      <taggedword index="7" part-of-speech="NNS">implications</taggedword>
+      <taggedword index="8" part-of-speech="IN">for</taggedword>
+      <taggedword index="9" part-of-speech="JJ">chronic</taggedword>
+      <taggedword index="10" part-of-speech="JJ">prostatitis-chronic</taggedword>
+      <taggedword index="11" part-of-speech="JJ">pelvic</taggedword>
+      <taggedword index="12" part-of-speech="NN">pain</taggedword>
+      <taggedword index="13" part-of-speech="NN">syndrome</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interleukin-10" dep_index="1" gov="levels" gov_index="2">amod</dependency>
+      <dependency dep="levels" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="seminal" dep_index="4" gov="plasma" gov_index="5">amod</dependency>
+      <dependency dep="plasma" dep_index="5" gov="levels" gov_index="2">prep_in</dependency>
+      <dependency dep="implications" dep_index="7" gov="levels" gov_index="2">dep</dependency>
+      <dependency dep="chronic" dep_index="9" gov="syndrome" gov_index="13">amod</dependency>
+      <dependency dep="prostatitis-chronic" dep_index="10" gov="syndrome" gov_index="13">amod</dependency>
+      <dependency dep="pelvic" dep_index="11" gov="syndrome" gov_index="13">amod</dependency>
+      <dependency dep="pain" dep_index="12" gov="syndrome" gov_index="13">nn</dependency>
+      <dependency dep="syndrome" dep_index="13" gov="implications" gov_index="7">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

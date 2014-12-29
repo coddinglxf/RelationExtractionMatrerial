@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Moreover@,@the@amino-terminal@domain@of@RIN1@directly@associates@with@,@and@is@tyrosine@phosphorylated@by@,@c-ABL@.@</sentence>
+   <tags>
+      <tag pos="7">RIN1</tag>
+      <tag pos="18">c-ABL</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Moreover</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">amino-terminal</taggedword>
+      <taggedword index="5" part-of-speech="NN">domain</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNP">RIN1</taggedword>
+      <taggedword index="8" part-of-speech="RB">directly</taggedword>
+      <taggedword index="9" part-of-speech="VBN">associates</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="RB">tyrosine</taggedword>
+      <taggedword index="15" part-of-speech="VBN">phosphorylated</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NN">c-ABL</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Moreover" dep_index="1" gov="associates" gov_index="9">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="domain" gov_index="5">det</dependency>
+      <dependency dep="amino-terminal" dep_index="4" gov="domain" gov_index="5">amod</dependency>
+      <dependency dep="domain" dep_index="5" gov="associates" gov_index="9">nsubj</dependency>
+      <dependency dep="RIN1" dep_index="7" gov="domain" gov_index="5">prep_of</dependency>
+      <dependency dep="directly" dep_index="8" gov="associates" gov_index="9">advmod</dependency>
+      <dependency dep="associates" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="and" dep_index="12" gov="phosphorylated" gov_index="15">cc</dependency>
+      <dependency dep="is" dep_index="13" gov="phosphorylated" gov_index="15">auxpass</dependency>
+      <dependency dep="tyrosine" dep_index="14" gov="phosphorylated" gov_index="15">advmod</dependency>
+      <dependency dep="phosphorylated" dep_index="15" gov="associates" gov_index="9">dep</dependency>
+      <dependency dep="by" dep_index="16" gov="phosphorylated" gov_index="15">prep</dependency>
+      <dependency dep="c-ABL" dep_index="18" gov="associates" gov_index="9">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700018" relationship="true">7 5 9 18</relation>
+   </relations>
+   <pairs>
+      <pair>700018</pair>
+   </pairs>
+</root>

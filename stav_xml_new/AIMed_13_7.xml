@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@less@than@100@genes@were@differentially@expressed@more@than@two-fold@following@chronic@infection@of@a@mature@T@cell@line@with@HTLV-1@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJR">less</taggedword>
+      <taggedword index="5" part-of-speech="IN">than</taggedword>
+      <taggedword index="6" part-of-speech="CD">100</taggedword>
+      <taggedword index="7" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="8" part-of-speech="VBD">were</taggedword>
+      <taggedword index="9" part-of-speech="RB">differentially</taggedword>
+      <taggedword index="10" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="11" part-of-speech="JJR">more</taggedword>
+      <taggedword index="12" part-of-speech="IN">than</taggedword>
+      <taggedword index="13" part-of-speech="CD">two-fold</taggedword>
+      <taggedword index="14" part-of-speech="VBG">following</taggedword>
+      <taggedword index="15" part-of-speech="JJ">chronic</taggedword>
+      <taggedword index="16" part-of-speech="NN">infection</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">mature</taggedword>
+      <taggedword index="20" part-of-speech="NNP">T</taggedword>
+      <taggedword index="21" part-of-speech="NN">cell</taggedword>
+      <taggedword index="22" part-of-speech="NN">line</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="NN">HTLV-1</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="expressed" gov_index="10">prep_in</dependency>
+      <dependency dep="less" dep_index="4" gov="than" gov_index="5">mwe</dependency>
+      <dependency dep="than" dep_index="5" gov="100" gov_index="6">quantmod</dependency>
+      <dependency dep="100" dep_index="6" gov="genes" gov_index="7">num</dependency>
+      <dependency dep="genes" dep_index="7" gov="expressed" gov_index="10">nsubjpass</dependency>
+      <dependency dep="were" dep_index="8" gov="expressed" gov_index="10">auxpass</dependency>
+      <dependency dep="differentially" dep_index="9" gov="expressed" gov_index="10">advmod</dependency>
+      <dependency dep="expressed" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="more" dep_index="11" gov="than" gov_index="12">mwe</dependency>
+      <dependency dep="than" dep_index="12" gov="two-fold" gov_index="13">quantmod</dependency>
+      <dependency dep="two-fold" dep_index="13" gov="expressed" gov_index="10">dobj</dependency>
+      <dependency dep="chronic" dep_index="15" gov="infection" gov_index="16">amod</dependency>
+      <dependency dep="infection" dep_index="16" gov="two-fold" gov_index="13">prep_following</dependency>
+      <dependency dep="a" dep_index="18" gov="line" gov_index="22">det</dependency>
+      <dependency dep="mature" dep_index="19" gov="line" gov_index="22">amod</dependency>
+      <dependency dep="T" dep_index="20" gov="line" gov_index="22">nn</dependency>
+      <dependency dep="cell" dep_index="21" gov="line" gov_index="22">nn</dependency>
+      <dependency dep="line" dep_index="22" gov="infection" gov_index="16">prep_of</dependency>
+      <dependency dep="HTLV-1" dep_index="24" gov="line" gov_index="22">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

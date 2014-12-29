@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immediately@after@synthesis@,@E-cadherin@,@beta-catenin@,@and@plakoglobin@cosedimented@as@complexes@.@</sentence>
+   <tags>
+      <tag pos="7">beta-catenin</tag>
+      <tag pos="10">plakoglobin</tag>
+      <tag pos="5">E-cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Immediately</taggedword>
+      <taggedword index="2" part-of-speech="IN">after</taggedword>
+      <taggedword index="3" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNP">beta-catenin</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NNP">plakoglobin</taggedword>
+      <taggedword index="11" part-of-speech="VBD">cosedimented</taggedword>
+      <taggedword index="12" part-of-speech="IN">as</taggedword>
+      <taggedword index="13" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immediately" dep_index="1" gov="cosedimented" gov_index="11">advmod</dependency>
+      <dependency dep="synthesis" dep_index="3" gov="cosedimented" gov_index="11">prep_after</dependency>
+      <dependency dep="E-cadherin" dep_index="5" gov="cosedimented" gov_index="11">nsubj</dependency>
+      <dependency dep="beta-catenin" dep_index="7" gov="E-cadherin" gov_index="5">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="7" gov="cosedimented" gov_index="11">nsubj</dependency>
+      <dependency dep="plakoglobin" dep_index="10" gov="E-cadherin" gov_index="5">conj_and</dependency>
+      <dependency dep="plakoglobin" dep_index="10" gov="cosedimented" gov_index="11">nsubj</dependency>
+      <dependency dep="cosedimented" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="complexes" dep_index="13" gov="cosedimented" gov_index="11">prep_as</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700010" relationship="true">7 11 10</relation>
+      <relation position="500007" relationship="true">5 11 7</relation>
+      <relation position="500010" relationship="true">5 11 10</relation>
+   </relations>
+   <pairs>
+      <pair>700010</pair>
+      <pair>500010</pair>
+      <pair>500007</pair>
+   </pairs>
+</root>

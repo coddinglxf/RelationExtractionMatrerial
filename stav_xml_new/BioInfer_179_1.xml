@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Double@mutants@containing@N-terminal@domain@deletions@of@both@histone@H3@and@histone@H4@were@inviable@.@</sentence>
+   <tags>
+      <tag pos="9">histone</tag>
+      <tag pos="13">H4</tag>
+      <tag pos="12">histone</tag>
+      <tag pos="10">H3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Double</taggedword>
+      <taggedword index="2" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="3" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="4" part-of-speech="JJ">N-terminal</taggedword>
+      <taggedword index="5" part-of-speech="NN">domain</taggedword>
+      <taggedword index="6" part-of-speech="NNS">deletions</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">both</taggedword>
+      <taggedword index="9" part-of-speech="JJ">histone</taggedword>
+      <taggedword index="10" part-of-speech="NN">H3</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">histone</taggedword>
+      <taggedword index="13" part-of-speech="NN">H4</taggedword>
+      <taggedword index="14" part-of-speech="VBD">were</taggedword>
+      <taggedword index="15" part-of-speech="JJ">inviable</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Double" dep_index="1" gov="mutants" gov_index="2">advmod</dependency>
+      <dependency dep="mutants" dep_index="2" gov="inviable" gov_index="15">nsubj</dependency>
+      <dependency dep="containing" dep_index="3" gov="mutants" gov_index="2">partmod</dependency>
+      <dependency dep="N-terminal" dep_index="4" gov="deletions" gov_index="6">amod</dependency>
+      <dependency dep="domain" dep_index="5" gov="deletions" gov_index="6">nn</dependency>
+      <dependency dep="deletions" dep_index="6" gov="containing" gov_index="3">dobj</dependency>
+      <dependency dep="both" dep_index="8" gov="H3" gov_index="10">preconj</dependency>
+      <dependency dep="histone" dep_index="9" gov="H3" gov_index="10">amod</dependency>
+      <dependency dep="H3" dep_index="10" gov="deletions" gov_index="6">prep_of</dependency>
+      <dependency dep="histone" dep_index="12" gov="H4" gov_index="13">nn</dependency>
+      <dependency dep="H4" dep_index="13" gov="deletions" gov_index="6">prep_of</dependency>
+      <dependency dep="H4" dep_index="13" gov="H3" gov_index="10">conj_and</dependency>
+      <dependency dep="were" dep_index="14" gov="inviable" gov_index="15">cop</dependency>
+      <dependency dep="inviable" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="false">9 10 6 13</relation>
+      <relation position="900012" relationship="false">9 10 6 13 12</relation>
+      <relation position="900010" relationship="true"></relation>
+      <relation position="1200013" relationship="true"></relation>
+      <relation position="1000013" relationship="false">10 6 13</relation>
+      <relation position="1000012" relationship="false">10 6 13 12</relation>
+   </relations>
+   <pairs>
+      <pair>900010</pair>
+      <pair>1200013</pair>
+   </pairs>
+</root>

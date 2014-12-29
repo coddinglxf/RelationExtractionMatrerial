@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@reveal@differences@not@only@in@subunit@composition@,@but@also@in@the@organization@of@dTFIID@and@hTFIID@complexes@.@</sentence>
+   <tags>
+      <tag pos="17">dTFIID</tag>
+      <tag pos="19">hTFIID</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">reveal</taggedword>
+      <taggedword index="4" part-of-speech="NNS">differences</taggedword>
+      <taggedword index="5" part-of-speech="RB">not</taggedword>
+      <taggedword index="6" part-of-speech="JJ">only</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="JJ">subunit</taggedword>
+      <taggedword index="9" part-of-speech="NN">composition</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">but</taggedword>
+      <taggedword index="12" part-of-speech="RB">also</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">organization</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">dTFIID</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="JJ">hTFIID</taggedword>
+      <taggedword index="20" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="reveal" gov_index="3">nsubj</dependency>
+      <dependency dep="reveal" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="differences" dep_index="4" gov="reveal" gov_index="3">dobj</dependency>
+      <dependency dep="not" dep_index="5" gov="only" gov_index="6">neg</dependency>
+      <dependency dep="only" dep_index="6" gov="reveal" gov_index="3">preconj</dependency>
+      <dependency dep="subunit" dep_index="8" gov="composition" gov_index="9">amod</dependency>
+      <dependency dep="composition" dep_index="9" gov="reveal" gov_index="3">prep_in</dependency>
+      <dependency dep="the" dep_index="14" gov="organization" gov_index="15">det</dependency>
+      <dependency dep="organization" dep_index="15" gov="reveal" gov_index="3">prep_in</dependency>
+      <dependency dep="organization" dep_index="15" gov="composition" gov_index="9">conj_and</dependency>
+      <dependency dep="dTFIID" dep_index="17" gov="complexes" gov_index="20">amod</dependency>
+      <dependency dep="hTFIID" dep_index="19" gov="dTFIID" gov_index="17">conj_and</dependency>
+      <dependency dep="hTFIID" dep_index="19" gov="complexes" gov_index="20">amod</dependency>
+      <dependency dep="complexes" dep_index="20" gov="organization" gov_index="15">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700019" relationship="false">17 20 19</relation>
+   </relations>
+   <pairs/>
+</root>

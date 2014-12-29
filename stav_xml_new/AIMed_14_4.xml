@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Abnormal@levels@of@GFAp@and@NFL@were@significantly@associated@with@increasing@CSF@cell@number@and@protein@concentration@,@and@with@the@absence@of@lymph@nodes@or@the@absence@of@trypanosomes@in@lymph@node@aspirate@.@</sentence>
+   <tags>
+      <tag pos="4">GFAp</tag>
+      <tag pos="6">NFL</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Abnormal</taggedword>
+      <taggedword index="2" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">GFAp</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">NFL</taggedword>
+      <taggedword index="7" part-of-speech="VBD">were</taggedword>
+      <taggedword index="8" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="9" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="JJ">increasing</taggedword>
+      <taggedword index="12" part-of-speech="NNP">CSF</taggedword>
+      <taggedword index="13" part-of-speech="NN">cell</taggedword>
+      <taggedword index="14" part-of-speech="NN">number</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">protein</taggedword>
+      <taggedword index="17" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">absence</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">lymph</taggedword>
+      <taggedword index="25" part-of-speech="NNS">nodes</taggedword>
+      <taggedword index="26" part-of-speech="CC">or</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">absence</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NNS">trypanosomes</taggedword>
+      <taggedword index="31" part-of-speech="IN">in</taggedword>
+      <taggedword index="32" part-of-speech="NN">lymph</taggedword>
+      <taggedword index="33" part-of-speech="NN">node</taggedword>
+      <taggedword index="34" part-of-speech="NN">aspirate</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Abnormal" dep_index="1" gov="levels" gov_index="2">amod</dependency>
+      <dependency dep="levels" dep_index="2" gov="associated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="GFAp" dep_index="4" gov="levels" gov_index="2">prep_of</dependency>
+      <dependency dep="NFL" dep_index="6" gov="levels" gov_index="2">prep_of</dependency>
+      <dependency dep="NFL" dep_index="6" gov="GFAp" gov_index="4">conj_and</dependency>
+      <dependency dep="were" dep_index="7" gov="associated" gov_index="9">auxpass</dependency>
+      <dependency dep="significantly" dep_index="8" gov="associated" gov_index="9">advmod</dependency>
+      <dependency dep="associated" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="increasing" dep_index="11" gov="number" gov_index="14">amod</dependency>
+      <dependency dep="CSF" dep_index="12" gov="number" gov_index="14">nn</dependency>
+      <dependency dep="cell" dep_index="13" gov="number" gov_index="14">nn</dependency>
+      <dependency dep="number" dep_index="14" gov="associated" gov_index="9">prep_with</dependency>
+      <dependency dep="protein" dep_index="16" gov="concentration" gov_index="17">nn</dependency>
+      <dependency dep="concentration" dep_index="17" gov="associated" gov_index="9">prep_with</dependency>
+      <dependency dep="concentration" dep_index="17" gov="number" gov_index="14">conj_and</dependency>
+      <dependency dep="the" dep_index="21" gov="absence" gov_index="22">det</dependency>
+      <dependency dep="absence" dep_index="22" gov="associated" gov_index="9">prep_with</dependency>
+      <dependency dep="absence" dep_index="22" gov="number" gov_index="14">conj_and</dependency>
+      <dependency dep="lymph" dep_index="24" gov="nodes" gov_index="25">nn</dependency>
+      <dependency dep="nodes" dep_index="25" gov="absence" gov_index="22">prep_of</dependency>
+      <dependency dep="the" dep_index="27" gov="absence" gov_index="28">det</dependency>
+      <dependency dep="absence" dep_index="28" gov="number" gov_index="14">conj_and</dependency>
+      <dependency dep="absence" dep_index="28" gov="absence" gov_index="22">conj_or</dependency>
+      <dependency dep="trypanosomes" dep_index="30" gov="absence" gov_index="28">prep_of</dependency>
+      <dependency dep="lymph" dep_index="32" gov="aspirate" gov_index="34">nn</dependency>
+      <dependency dep="node" dep_index="33" gov="aspirate" gov_index="34">nn</dependency>
+      <dependency dep="aspirate" dep_index="34" gov="trypanosomes" gov_index="30">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 2 6</relation>
+   </relations>
+   <pairs/>
+</root>

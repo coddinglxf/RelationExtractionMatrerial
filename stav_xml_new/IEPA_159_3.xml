@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@conclusion@,@1)@UCP-2@messenger@ribonucleic@acid@expression@in@sc@adipose@tissue@is@inversely@related@to@adiposity@and@independently@linked@to@local@plasma@leptin@levels@;@and@2)@UCP-2@expression@is@not@acutely@regulated@by@food@intake@,@insulin@,@or@fatty@acids@</sentence>
+   <tags>
+      <tag pos="5">UCP-2</tag>
+      <tag pos="25">leptin</tag>
+      <tag pos="30">UCP-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">conclusion</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="CD">1)</taggedword>
+      <taggedword index="5" part-of-speech="NN">UCP-2</taggedword>
+      <taggedword index="6" part-of-speech="NN">messenger</taggedword>
+      <taggedword index="7" part-of-speech="JJ">ribonucleic</taggedword>
+      <taggedword index="8" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="9" part-of-speech="NN">expression</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">sc</taggedword>
+      <taggedword index="12" part-of-speech="NN">adipose</taggedword>
+      <taggedword index="13" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="15" part-of-speech="RB">inversely</taggedword>
+      <taggedword index="16" part-of-speech="VBN">related</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="NN">adiposity</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="RB">independently</taggedword>
+      <taggedword index="21" part-of-speech="VBN">linked</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="JJ">local</taggedword>
+      <taggedword index="24" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="25" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="26" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="27" part-of-speech=":">;</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="CD">2)</taggedword>
+      <taggedword index="30" part-of-speech="NN">UCP-2</taggedword>
+      <taggedword index="31" part-of-speech="NN">expression</taggedword>
+      <taggedword index="32" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="33" part-of-speech="RB">not</taggedword>
+      <taggedword index="34" part-of-speech="RB">acutely</taggedword>
+      <taggedword index="35" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="36" part-of-speech="IN">by</taggedword>
+      <taggedword index="37" part-of-speech="NN">food</taggedword>
+      <taggedword index="38" part-of-speech="NN">intake</taggedword>
+      <taggedword index="39" part-of-speech=",">,</taggedword>
+      <taggedword index="40" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="41" part-of-speech=",">,</taggedword>
+      <taggedword index="42" part-of-speech="CC">or</taggedword>
+      <taggedword index="43" part-of-speech="JJ">fatty</taggedword>
+      <taggedword index="44" part-of-speech="NNS">acids</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="conclusion" dep_index="2" gov="messenger" gov_index="6">prep_in</dependency>
+      <dependency dep="1)" dep_index="4" gov="messenger" gov_index="6">num</dependency>
+      <dependency dep="UCP-2" dep_index="5" gov="messenger" gov_index="6">nn</dependency>
+      <dependency dep="messenger" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="ribonucleic" dep_index="7" gov="expression" gov_index="9">amod</dependency>
+      <dependency dep="acid" dep_index="8" gov="expression" gov_index="9">amod</dependency>
+      <dependency dep="expression" dep_index="9" gov="related" gov_index="16">nsubjpass</dependency>
+      <dependency dep="expression" dep_index="9" gov="linked" gov_index="21">nsubjpass</dependency>
+      <dependency dep="sc" dep_index="11" gov="tissue" gov_index="13">nn</dependency>
+      <dependency dep="adipose" dep_index="12" gov="tissue" gov_index="13">nn</dependency>
+      <dependency dep="tissue" dep_index="13" gov="expression" gov_index="9">prep_in</dependency>
+      <dependency dep="is" dep_index="14" gov="related" gov_index="16">auxpass</dependency>
+      <dependency dep="inversely" dep_index="15" gov="related" gov_index="16">advmod</dependency>
+      <dependency dep="related" dep_index="16" gov="messenger" gov_index="6">rcmod</dependency>
+      <dependency dep="adiposity" dep_index="18" gov="related" gov_index="16">prep_to</dependency>
+      <dependency dep="independently" dep_index="20" gov="linked" gov_index="21">advmod</dependency>
+      <dependency dep="linked" dep_index="21" gov="messenger" gov_index="6">rcmod</dependency>
+      <dependency dep="linked" dep_index="21" gov="related" gov_index="16">conj_and</dependency>
+      <dependency dep="local" dep_index="23" gov="levels" gov_index="26">amod</dependency>
+      <dependency dep="plasma" dep_index="24" gov="levels" gov_index="26">nn</dependency>
+      <dependency dep="leptin" dep_index="25" gov="levels" gov_index="26">nn</dependency>
+      <dependency dep="levels" dep_index="26" gov="linked" gov_index="21">prep_to</dependency>
+      <dependency dep="2)" dep_index="29" gov="expression" gov_index="31">num</dependency>
+      <dependency dep="UCP-2" dep_index="30" gov="expression" gov_index="31">nn</dependency>
+      <dependency dep="expression" dep_index="31" gov="regulated" gov_index="35">nsubjpass</dependency>
+      <dependency dep="is" dep_index="32" gov="regulated" gov_index="35">auxpass</dependency>
+      <dependency dep="not" dep_index="33" gov="regulated" gov_index="35">neg</dependency>
+      <dependency dep="acutely" dep_index="34" gov="regulated" gov_index="35">advmod</dependency>
+      <dependency dep="regulated" dep_index="35" gov="messenger" gov_index="6">rcmod</dependency>
+      <dependency dep="regulated" dep_index="35" gov="related" gov_index="16">conj_and</dependency>
+      <dependency dep="food" dep_index="37" gov="intake" gov_index="38">nn</dependency>
+      <dependency dep="intake" dep_index="38" gov="regulated" gov_index="35">agent</dependency>
+      <dependency dep="insulin" dep_index="40" gov="regulated" gov_index="35">agent</dependency>
+      <dependency dep="insulin" dep_index="40" gov="intake" gov_index="38">conj_or</dependency>
+      <dependency dep="fatty" dep_index="43" gov="acids" gov_index="44">amod</dependency>
+      <dependency dep="acids" dep_index="44" gov="regulated" gov_index="35">agent</dependency>
+      <dependency dep="acids" dep_index="44" gov="intake" gov_index="38">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500025" relationship="true">5 6 21 26 25</relation>
+      <relation position="500030" relationship="false">5 6 35 31 30</relation>
+      <relation position="2500030" relationship="false">25 26 21 6 35 31 30</relation>
+   </relations>
+   <pairs>
+      <pair>500025</pair>
+   </pairs>
+</root>

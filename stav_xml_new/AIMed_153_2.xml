@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CD26@,@a@T@cell@activation@Ag@,@also@known@as@dipeptidyl peptidase IV@,is@directly@associated@with@adenosine deaminase@(@ADA@)@on@the@surface@of@T@cells@and@T@cell@lines@.@</sentence>
+   <tags>
+      <tag pos="1">CD26</tag>
+      <tag pos="12">dipeptidyl peptidase IV</tag>
+      <tag pos="17">adenosine deaminase</tag>
+      <tag pos="19">ADA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CD26</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NNP">T</taggedword>
+      <taggedword index="5" part-of-speech="NN">cell</taggedword>
+      <taggedword index="6" part-of-speech="NN">activation</taggedword>
+      <taggedword index="7" part-of-speech="NN">Ag</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="RB">also</taggedword>
+      <taggedword index="10" part-of-speech="VBN">known</taggedword>
+      <taggedword index="11" part-of-speech="IN">as</taggedword>
+      <taggedword index="12" part-of-speech="JJ">dipeptidyl peptidase IV</taggedword>
+      <taggedword index="13" part-of-speech="NN">,is</taggedword>
+      <taggedword index="14" part-of-speech="RB">directly</taggedword>
+      <taggedword index="15" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="NNP">adenosine deaminase</taggedword>
+      <taggedword index="18" part-of-speech="NNP">(</taggedword>
+      <taggedword index="19" part-of-speech="NNP">ADA</taggedword>
+      <taggedword index="20" part-of-speech="NNP">)</taggedword>
+      <taggedword index="21" part-of-speech="IN">on</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">surface</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="NNP">T</taggedword>
+      <taggedword index="26" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="NNP">T</taggedword>
+      <taggedword index="29" part-of-speech="NN">cell</taggedword>
+      <taggedword index="30" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CD26" dep_index="1" gov="known" gov_index="10">nsubj</dependency>
+      <dependency dep="a" dep_index="3" gov="Ag" gov_index="7">det</dependency>
+      <dependency dep="T" dep_index="4" gov="Ag" gov_index="7">nn</dependency>
+      <dependency dep="cell" dep_index="5" gov="Ag" gov_index="7">nn</dependency>
+      <dependency dep="activation" dep_index="6" gov="Ag" gov_index="7">nn</dependency>
+      <dependency dep="Ag" dep_index="7" gov="CD26" gov_index="1">appos</dependency>
+      <dependency dep="also" dep_index="9" gov="known" gov_index="10">advmod</dependency>
+      <dependency dep="known" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="dipeptidyl peptidase IV" dep_index="12" gov=",is" gov_index="13">amod</dependency>
+      <dependency dep=",is" dep_index="13" gov="known" gov_index="10">prep_as</dependency>
+      <dependency dep="directly" dep_index="14" gov="associated" gov_index="15">advmod</dependency>
+      <dependency dep="associated" dep_index="15" gov=",is" gov_index="13">partmod</dependency>
+      <dependency dep="adenosine deaminase" dep_index="17" gov=")" gov_index="20">nn</dependency>
+      <dependency dep="(" dep_index="18" gov=")" gov_index="20">nn</dependency>
+      <dependency dep="ADA" dep_index="19" gov=")" gov_index="20">nn</dependency>
+      <dependency dep=")" dep_index="20" gov="associated" gov_index="15">prep_with</dependency>
+      <dependency dep="the" dep_index="22" gov="surface" gov_index="23">det</dependency>
+      <dependency dep="surface" dep_index="23" gov=")" gov_index="20">prep_on</dependency>
+      <dependency dep="T" dep_index="25" gov="cells" gov_index="26">nn</dependency>
+      <dependency dep="cells" dep_index="26" gov="surface" gov_index="23">prep_of</dependency>
+      <dependency dep="T" dep_index="28" gov="lines" gov_index="30">nn</dependency>
+      <dependency dep="cell" dep_index="29" gov="lines" gov_index="30">nn</dependency>
+      <dependency dep="lines" dep_index="30" gov="surface" gov_index="23">prep_of</dependency>
+      <dependency dep="lines" dep_index="30" gov="cells" gov_index="26">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100012" relationship="false">1 10 13 12</relation>
+      <relation position="100017" relationship="true">1 10 13 15 20 17</relation>
+      <relation position="100019" relationship="true">1 10 13 15 20 19</relation>
+      <relation position="1200017" relationship="true">12 13 15 20 17</relation>
+      <relation position="1200019" relationship="true">12 13 15 20 19</relation>
+      <relation position="1700019" relationship="false">17 20 19</relation>
+   </relations>
+   <pairs>
+      <pair>1200019</pair>
+      <pair>1200017</pair>
+      <pair>100019</pair>
+      <pair>100017</pair>
+   </pairs>
+</root>

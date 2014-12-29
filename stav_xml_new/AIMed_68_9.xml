@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@motif@may@represent@an@activating@domain@that@has@to@be@provided@to@cdc25@by@intermolecular@interaction@with@cyclin B@.@</sentence>
+   <tags>
+      <tag pos="14">cdc25</tag>
+      <tag pos="19">cyclin B</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">motif</taggedword>
+      <taggedword index="3" part-of-speech="MD">may</taggedword>
+      <taggedword index="4" part-of-speech="VB">represent</taggedword>
+      <taggedword index="5" part-of-speech="DT">an</taggedword>
+      <taggedword index="6" part-of-speech="VBG">activating</taggedword>
+      <taggedword index="7" part-of-speech="NN">domain</taggedword>
+      <taggedword index="8" part-of-speech="WDT">that</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="VB">be</taggedword>
+      <taggedword index="12" part-of-speech="VBN">provided</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="CD">cdc25</taggedword>
+      <taggedword index="15" part-of-speech="IN">by</taggedword>
+      <taggedword index="16" part-of-speech="NN">intermolecular</taggedword>
+      <taggedword index="17" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="18" part-of-speech="IN">with</taggedword>
+      <taggedword index="19" part-of-speech="NN">cyclin B</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="motif" gov_index="2">det</dependency>
+      <dependency dep="motif" dep_index="2" gov="represent" gov_index="4">nsubj</dependency>
+      <dependency dep="may" dep_index="3" gov="represent" gov_index="4">aux</dependency>
+      <dependency dep="represent" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="5" gov="domain" gov_index="7">det</dependency>
+      <dependency dep="activating" dep_index="6" gov="domain" gov_index="7">amod</dependency>
+      <dependency dep="domain" dep_index="7" gov="represent" gov_index="4">dobj</dependency>
+      <dependency dep="domain" dep_index="7" gov="has" gov_index="9">nsubj</dependency>
+      <dependency dep="domain" dep_index="7" gov="provided" gov_index="12">xsubj</dependency>
+      <dependency dep="has" dep_index="9" gov="domain" gov_index="7">rcmod</dependency>
+      <dependency dep="to" dep_index="10" gov="provided" gov_index="12">aux</dependency>
+      <dependency dep="be" dep_index="11" gov="provided" gov_index="12">auxpass</dependency>
+      <dependency dep="provided" dep_index="12" gov="has" gov_index="9">xcomp</dependency>
+      <dependency dep="cdc25" dep_index="14" gov="provided" gov_index="12">prep_to</dependency>
+      <dependency dep="intermolecular" dep_index="16" gov="interaction" gov_index="17">nn</dependency>
+      <dependency dep="interaction" dep_index="17" gov="provided" gov_index="12">agent</dependency>
+      <dependency dep="cyclin B" dep_index="19" gov="provided" gov_index="12">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400019" relationship="false">14 12 19</relation>
+   </relations>
+   <pairs/>
+</root>

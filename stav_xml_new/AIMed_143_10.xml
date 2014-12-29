@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@same@antibodies@,@however@,@had@no@effect@on@granulocyte-macrophage@colony@stimulating@factor@or@erythropoietin-induced@TF-1@cell@proliferation@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">same</taggedword>
+      <taggedword index="3" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="RB">however</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="VBD">had</taggedword>
+      <taggedword index="8" part-of-speech="DT">no</taggedword>
+      <taggedword index="9" part-of-speech="NN">effect</taggedword>
+      <taggedword index="10" part-of-speech="IN">on</taggedword>
+      <taggedword index="11" part-of-speech="JJ">granulocyte-macrophage</taggedword>
+      <taggedword index="12" part-of-speech="NN">colony</taggedword>
+      <taggedword index="13" part-of-speech="VBG">stimulating</taggedword>
+      <taggedword index="14" part-of-speech="NN">factor</taggedword>
+      <taggedword index="15" part-of-speech="CC">or</taggedword>
+      <taggedword index="16" part-of-speech="JJ">erythropoietin-induced</taggedword>
+      <taggedword index="17" part-of-speech="NN">TF-1</taggedword>
+      <taggedword index="18" part-of-speech="NN">cell</taggedword>
+      <taggedword index="19" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="antibodies" gov_index="3">det</dependency>
+      <dependency dep="same" dep_index="2" gov="antibodies" gov_index="3">amod</dependency>
+      <dependency dep="antibodies" dep_index="3" gov="had" gov_index="7">nsubj</dependency>
+      <dependency dep="however" dep_index="5" gov="had" gov_index="7">advmod</dependency>
+      <dependency dep="had" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="no" dep_index="8" gov="effect" gov_index="9">det</dependency>
+      <dependency dep="effect" dep_index="9" gov="had" gov_index="7">dobj</dependency>
+      <dependency dep="granulocyte-macrophage" dep_index="11" gov="colony" gov_index="12">amod</dependency>
+      <dependency dep="colony" dep_index="12" gov="effect" gov_index="9">prep_on</dependency>
+      <dependency dep="stimulating" dep_index="13" gov="colony" gov_index="12">partmod</dependency>
+      <dependency dep="factor" dep_index="14" gov="stimulating" gov_index="13">dobj</dependency>
+      <dependency dep="erythropoietin-induced" dep_index="16" gov="proliferation" gov_index="19">amod</dependency>
+      <dependency dep="TF-1" dep_index="17" gov="proliferation" gov_index="19">nn</dependency>
+      <dependency dep="cell" dep_index="18" gov="proliferation" gov_index="19">nn</dependency>
+      <dependency dep="proliferation" dep_index="19" gov="stimulating" gov_index="13">dobj</dependency>
+      <dependency dep="proliferation" dep_index="19" gov="factor" gov_index="14">conj_or</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

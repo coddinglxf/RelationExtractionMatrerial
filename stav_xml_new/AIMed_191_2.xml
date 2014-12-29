@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>HIV-1@actively@replicates@in@dendritic@cell@(DC)-T@cell@cocultures@,@but@it@has@been@difficult@to@demonstrate@substantial@infection@of@purified@mature@DCs@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">HIV-1</taggedword>
+      <taggedword index="2" part-of-speech="RB">actively</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">replicates</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="JJ">dendritic</taggedword>
+      <taggedword index="6" part-of-speech="NN">cell</taggedword>
+      <taggedword index="7" part-of-speech="NN">(DC)-T</taggedword>
+      <taggedword index="8" part-of-speech="NN">cell</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cocultures</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">but</taggedword>
+      <taggedword index="12" part-of-speech="PRP">it</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="14" part-of-speech="VBN">been</taggedword>
+      <taggedword index="15" part-of-speech="JJ">difficult</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="VB">demonstrate</taggedword>
+      <taggedword index="18" part-of-speech="JJ">substantial</taggedword>
+      <taggedword index="19" part-of-speech="NN">infection</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="JJ">purified</taggedword>
+      <taggedword index="22" part-of-speech="JJ">mature</taggedword>
+      <taggedword index="23" part-of-speech="NN">DCs</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="HIV-1" dep_index="1" gov="replicates" gov_index="3">nsubj</dependency>
+      <dependency dep="actively" dep_index="2" gov="replicates" gov_index="3">advmod</dependency>
+      <dependency dep="replicates" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="dendritic" dep_index="5" gov="cocultures" gov_index="9">amod</dependency>
+      <dependency dep="cell" dep_index="6" gov="cocultures" gov_index="9">nn</dependency>
+      <dependency dep="(DC)-T" dep_index="7" gov="cocultures" gov_index="9">nn</dependency>
+      <dependency dep="cell" dep_index="8" gov="cocultures" gov_index="9">nn</dependency>
+      <dependency dep="cocultures" dep_index="9" gov="replicates" gov_index="3">prep_in</dependency>
+      <dependency dep="it" dep_index="12" gov="difficult" gov_index="15">nsubj</dependency>
+      <dependency dep="it" dep_index="12" gov="demonstrate" gov_index="17">xsubj</dependency>
+      <dependency dep="has" dep_index="13" gov="difficult" gov_index="15">aux</dependency>
+      <dependency dep="been" dep_index="14" gov="difficult" gov_index="15">cop</dependency>
+      <dependency dep="difficult" dep_index="15" gov="replicates" gov_index="3">conj_but</dependency>
+      <dependency dep="to" dep_index="16" gov="demonstrate" gov_index="17">aux</dependency>
+      <dependency dep="demonstrate" dep_index="17" gov="difficult" gov_index="15">xcomp</dependency>
+      <dependency dep="substantial" dep_index="18" gov="infection" gov_index="19">amod</dependency>
+      <dependency dep="infection" dep_index="19" gov="demonstrate" gov_index="17">dobj</dependency>
+      <dependency dep="purified" dep_index="21" gov="DCs" gov_index="23">amod</dependency>
+      <dependency dep="mature" dep_index="22" gov="DCs" gov_index="23">amod</dependency>
+      <dependency dep="DCs" dep_index="23" gov="infection" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

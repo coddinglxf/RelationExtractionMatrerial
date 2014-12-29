@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interleukin-6@activates@phosphatidylinositol-3 kinase@,@which@inhibits@apoptosis@in@human@prostate@cancer@cell@lines@</sentence>
+   <tags>
+      <tag pos="1">Interleukin-6</tag>
+      <tag pos="3">phosphatidylinositol-3 kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Interleukin-6</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">activates</taggedword>
+      <taggedword index="3" part-of-speech="JJ">phosphatidylinositol-3 kinase</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="WDT">which</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">inhibits</taggedword>
+      <taggedword index="7" part-of-speech="NNS">apoptosis</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">human</taggedword>
+      <taggedword index="10" part-of-speech="NN">prostate</taggedword>
+      <taggedword index="11" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="12" part-of-speech="NN">cell</taggedword>
+      <taggedword index="13" part-of-speech="NNS">lines</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interleukin-6" dep_index="1" gov="activates" gov_index="2">advmod</dependency>
+      <dependency dep="activates" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="phosphatidylinositol-3 kinase" dep_index="3" gov="activates" gov_index="2">nsubj</dependency>
+      <dependency dep="phosphatidylinositol-3 kinase" dep_index="3" gov="inhibits" gov_index="6">nsubj</dependency>
+      <dependency dep="inhibits" dep_index="6" gov="phosphatidylinositol-3 kinase" gov_index="3">rcmod</dependency>
+      <dependency dep="apoptosis" dep_index="7" gov="inhibits" gov_index="6">dobj</dependency>
+      <dependency dep="human" dep_index="9" gov="lines" gov_index="13">amod</dependency>
+      <dependency dep="prostate" dep_index="10" gov="lines" gov_index="13">nn</dependency>
+      <dependency dep="cancer" dep_index="11" gov="lines" gov_index="13">nn</dependency>
+      <dependency dep="cell" dep_index="12" gov="lines" gov_index="13">nn</dependency>
+      <dependency dep="lines" dep_index="13" gov="apoptosis" gov_index="7">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="true">1 2 3</relation>
+   </relations>
+   <pairs>
+      <pair>100003</pair>
+   </pairs>
+</root>

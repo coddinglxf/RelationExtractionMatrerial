@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Comparison@of@the@deduced@amino@acid@structure@of@the@three@human@isoforms@of@syntrophin@(together@with@the@previously@reported@human@beta 1-syntrophin@)@demonstrates@their@overall@similarity@.@</sentence>
+   <tags>
+      <tag pos="21">beta 1-syntrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Comparison</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">deduced</taggedword>
+      <taggedword index="5" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="6" part-of-speech="NN">acid</taggedword>
+      <taggedword index="7" part-of-speech="NN">structure</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="CD">three</taggedword>
+      <taggedword index="11" part-of-speech="JJ">human</taggedword>
+      <taggedword index="12" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">syntrophin</taggedword>
+      <taggedword index="15" part-of-speech="NN">(together</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="RB">previously</taggedword>
+      <taggedword index="19" part-of-speech="VBN">reported</taggedword>
+      <taggedword index="20" part-of-speech="JJ">human</taggedword>
+      <taggedword index="21" part-of-speech="JJ">beta 1-syntrophin</taggedword>
+      <taggedword index="22" part-of-speech="NN">)</taggedword>
+      <taggedword index="23" part-of-speech="VBZ">demonstrates</taggedword>
+      <taggedword index="24" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="25" part-of-speech="JJ">overall</taggedword>
+      <taggedword index="26" part-of-speech="NN">similarity</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Comparison" dep_index="1" gov="demonstrates" gov_index="23">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="structure" gov_index="7">det</dependency>
+      <dependency dep="deduced" dep_index="4" gov="structure" gov_index="7">amod</dependency>
+      <dependency dep="amino" dep_index="5" gov="structure" gov_index="7">amod</dependency>
+      <dependency dep="acid" dep_index="6" gov="structure" gov_index="7">nn</dependency>
+      <dependency dep="structure" dep_index="7" gov="Comparison" gov_index="1">prep_of</dependency>
+      <dependency dep="the" dep_index="9" gov="isoforms" gov_index="12">det</dependency>
+      <dependency dep="three" dep_index="10" gov="isoforms" gov_index="12">num</dependency>
+      <dependency dep="human" dep_index="11" gov="isoforms" gov_index="12">amod</dependency>
+      <dependency dep="isoforms" dep_index="12" gov="structure" gov_index="7">prep_of</dependency>
+      <dependency dep="syntrophin" dep_index="14" gov="(together" gov_index="15">nn</dependency>
+      <dependency dep="(together" dep_index="15" gov="isoforms" gov_index="12">prep_of</dependency>
+      <dependency dep="the" dep_index="17" gov=")" gov_index="22">det</dependency>
+      <dependency dep="previously" dep_index="18" gov="reported" gov_index="19">advmod</dependency>
+      <dependency dep="reported" dep_index="19" gov=")" gov_index="22">amod</dependency>
+      <dependency dep="human" dep_index="20" gov=")" gov_index="22">amod</dependency>
+      <dependency dep="beta 1-syntrophin" dep_index="21" gov=")" gov_index="22">amod</dependency>
+      <dependency dep=")" dep_index="22" gov="(together" gov_index="15">prep_with</dependency>
+      <dependency dep="demonstrates" dep_index="23" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="their" dep_index="24" gov="similarity" gov_index="26">poss</dependency>
+      <dependency dep="overall" dep_index="25" gov="similarity" gov_index="26">amod</dependency>
+      <dependency dep="similarity" dep_index="26" gov="demonstrates" gov_index="23">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

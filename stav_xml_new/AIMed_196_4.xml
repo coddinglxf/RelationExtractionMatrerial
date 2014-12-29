@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Transgenic@mice@that@redirected@HOX11@to@the@thymus@demonstrated@cell-cycle@aberration@and@progression@to@malignancy@.@</sentence>
+   <tags>
+      <tag pos="5">HOX11</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Transgenic</taggedword>
+      <taggedword index="2" part-of-speech="NNS">mice</taggedword>
+      <taggedword index="3" part-of-speech="WDT">that</taggedword>
+      <taggedword index="4" part-of-speech="VBN">redirected</taggedword>
+      <taggedword index="5" part-of-speech="NNP">HOX11</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNS">thymus</taggedword>
+      <taggedword index="9" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="10" part-of-speech="JJ">cell-cycle</taggedword>
+      <taggedword index="11" part-of-speech="NN">aberration</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NN">progression</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="NN">malignancy</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Transgenic" dep_index="1" gov="mice" gov_index="2">nn</dependency>
+      <dependency dep="mice" dep_index="2" gov="redirected" gov_index="4">nsubj</dependency>
+      <dependency dep="mice" dep_index="2" gov="demonstrated" gov_index="9">nsubj</dependency>
+      <dependency dep="redirected" dep_index="4" gov="mice" gov_index="2">rcmod</dependency>
+      <dependency dep="HOX11" dep_index="5" gov="redirected" gov_index="4">dobj</dependency>
+      <dependency dep="the" dep_index="7" gov="thymus" gov_index="8">det</dependency>
+      <dependency dep="thymus" dep_index="8" gov="HOX11" gov_index="5">prep_to</dependency>
+      <dependency dep="demonstrated" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cell-cycle" dep_index="10" gov="aberration" gov_index="11">amod</dependency>
+      <dependency dep="aberration" dep_index="11" gov="demonstrated" gov_index="9">dobj</dependency>
+      <dependency dep="progression" dep_index="13" gov="demonstrated" gov_index="9">dobj</dependency>
+      <dependency dep="progression" dep_index="13" gov="aberration" gov_index="11">conj_and</dependency>
+      <dependency dep="malignancy" dep_index="15" gov="demonstrated" gov_index="9">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

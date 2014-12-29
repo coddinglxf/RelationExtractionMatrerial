@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@observations@demonstrate@that@cardiac@development@in@man@,@in@contrast@to@rodent@heart@,@is@characterized@by@an@up-regulation@of@the@skeletal actin@gene@,@the@expression@of@which@does@not@change@in@hypertrophied@and@failing@hearts@,@and@suggest@that@the@actin@and@myosin heavy chain@families@are@independently@regulated@in@human@heart@.@</sentence>
+   <tags>
+      <tag pos="23">skeletal actin</tag>
+      <tag pos="43">actin</tag>
+      <tag pos="45">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">observations</taggedword>
+      <taggedword index="3" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="JJ">cardiac</taggedword>
+      <taggedword index="6" part-of-speech="NN">development</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="NN">man</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="VB">rodent</taggedword>
+      <taggedword index="14" part-of-speech="NN">heart</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="17" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="18" part-of-speech="IN">by</taggedword>
+      <taggedword index="19" part-of-speech="DT">an</taggedword>
+      <taggedword index="20" part-of-speech="NN">up-regulation</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">skeletal actin</taggedword>
+      <taggedword index="24" part-of-speech="NN">gene</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">expression</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="WDT">which</taggedword>
+      <taggedword index="30" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="31" part-of-speech="RB">not</taggedword>
+      <taggedword index="32" part-of-speech="VB">change</taggedword>
+      <taggedword index="33" part-of-speech="IN">in</taggedword>
+      <taggedword index="34" part-of-speech="NN">hypertrophied</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="VBG">failing</taggedword>
+      <taggedword index="37" part-of-speech="NNS">hearts</taggedword>
+      <taggedword index="38" part-of-speech=",">,</taggedword>
+      <taggedword index="39" part-of-speech="CC">and</taggedword>
+      <taggedword index="40" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="41" part-of-speech="IN">that</taggedword>
+      <taggedword index="42" part-of-speech="DT">the</taggedword>
+      <taggedword index="43" part-of-speech="NN">actin</taggedword>
+      <taggedword index="44" part-of-speech="CC">and</taggedword>
+      <taggedword index="45" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="46" part-of-speech="NNS">families</taggedword>
+      <taggedword index="47" part-of-speech="VBP">are</taggedword>
+      <taggedword index="48" part-of-speech="RB">independently</taggedword>
+      <taggedword index="49" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="50" part-of-speech="IN">in</taggedword>
+      <taggedword index="51" part-of-speech="JJ">human</taggedword>
+      <taggedword index="52" part-of-speech="NN">heart</taggedword>
+      <taggedword index="53" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="observations" gov_index="2">det</dependency>
+      <dependency dep="observations" dep_index="2" gov="demonstrate" gov_index="3">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="characterized" gov_index="17">mark</dependency>
+      <dependency dep="cardiac" dep_index="5" gov="development" gov_index="6">amod</dependency>
+      <dependency dep="development" dep_index="6" gov="characterized" gov_index="17">nsubjpass</dependency>
+      <dependency dep="man" dep_index="8" gov="development" gov_index="6">prep_in</dependency>
+      <dependency dep="contrast" dep_index="11" gov="development" gov_index="6">prep_in</dependency>
+      <dependency dep="to" dep_index="12" gov="rodent" gov_index="13">aux</dependency>
+      <dependency dep="rodent" dep_index="13" gov="contrast" gov_index="11">infmod</dependency>
+      <dependency dep="heart" dep_index="14" gov="rodent" gov_index="13">dobj</dependency>
+      <dependency dep="is" dep_index="16" gov="characterized" gov_index="17">auxpass</dependency>
+      <dependency dep="characterized" dep_index="17" gov="demonstrate" gov_index="3">ccomp</dependency>
+      <dependency dep="an" dep_index="19" gov="up-regulation" gov_index="20">det</dependency>
+      <dependency dep="up-regulation" dep_index="20" gov="characterized" gov_index="17">agent</dependency>
+      <dependency dep="the" dep_index="22" gov="gene" gov_index="24">det</dependency>
+      <dependency dep="skeletal actin" dep_index="23" gov="gene" gov_index="24">nn</dependency>
+      <dependency dep="gene" dep_index="24" gov="up-regulation" gov_index="20">prep_of</dependency>
+      <dependency dep="gene" dep_index="24" gov="expression" gov_index="27">prep_of</dependency>
+      <dependency dep="the" dep_index="26" gov="expression" gov_index="27">det</dependency>
+      <dependency dep="expression" dep_index="27" gov="change" gov_index="32">nsubj</dependency>
+      <dependency dep="expression" dep_index="27" gov="suggest" gov_index="40">nsubj</dependency>
+      <dependency dep="does" dep_index="30" gov="change" gov_index="32">aux</dependency>
+      <dependency dep="not" dep_index="31" gov="change" gov_index="32">neg</dependency>
+      <dependency dep="change" dep_index="32" gov="gene" gov_index="24">rcmod</dependency>
+      <dependency dep="hypertrophied" dep_index="34" gov="change" gov_index="32">prep_in</dependency>
+      <dependency dep="failing" dep_index="36" gov="hearts" gov_index="37">amod</dependency>
+      <dependency dep="hearts" dep_index="37" gov="change" gov_index="32">prep_in</dependency>
+      <dependency dep="hearts" dep_index="37" gov="hypertrophied" gov_index="34">conj_and</dependency>
+      <dependency dep="suggest" dep_index="40" gov="gene" gov_index="24">rcmod</dependency>
+      <dependency dep="suggest" dep_index="40" gov="change" gov_index="32">conj_and</dependency>
+      <dependency dep="that" dep_index="41" gov="regulated" gov_index="49">mark</dependency>
+      <dependency dep="the" dep_index="42" gov="families" gov_index="46">det</dependency>
+      <dependency dep="actin" dep_index="43" gov="families" gov_index="46">nn</dependency>
+      <dependency dep="myosin heavy chain" dep_index="45" gov="actin" gov_index="43">conj_and</dependency>
+      <dependency dep="myosin heavy chain" dep_index="45" gov="families" gov_index="46">nn</dependency>
+      <dependency dep="families" dep_index="46" gov="regulated" gov_index="49">nsubjpass</dependency>
+      <dependency dep="are" dep_index="47" gov="regulated" gov_index="49">auxpass</dependency>
+      <dependency dep="independently" dep_index="48" gov="regulated" gov_index="49">advmod</dependency>
+      <dependency dep="regulated" dep_index="49" gov="suggest" gov_index="40">ccomp</dependency>
+      <dependency dep="human" dep_index="51" gov="heart" gov_index="52">amod</dependency>
+      <dependency dep="heart" dep_index="52" gov="regulated" gov_index="49">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2300043" relationship="false">23 24 40 49 46 43</relation>
+      <relation position="2300045" relationship="false">23 24 40 49 46 45</relation>
+      <relation position="4300045" relationship="true">43 46 45</relation>
+   </relations>
+   <pairs>
+      <pair>4300045</pair>
+   </pairs>
+</root>

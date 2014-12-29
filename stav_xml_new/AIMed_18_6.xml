@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Correlational@changes@in@morphodensitometric@(MDM)@parameters@and@cytokine@and@sCAM@levels@in@two@tests@were@compared@to@initial@levels@.@</sentence>
+   <tags>
+      <tag pos="10">sCAM</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Correlational</taggedword>
+      <taggedword index="2" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="JJ">morphodensitometric</taggedword>
+      <taggedword index="5" part-of-speech="JJ">(MDM)</taggedword>
+      <taggedword index="6" part-of-speech="NNS">parameters</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">cytokine</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">sCAM</taggedword>
+      <taggedword index="11" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="CD">two</taggedword>
+      <taggedword index="14" part-of-speech="NNS">tests</taggedword>
+      <taggedword index="15" part-of-speech="VBD">were</taggedword>
+      <taggedword index="16" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="JJ">initial</taggedword>
+      <taggedword index="19" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Correlational" dep_index="1" gov="changes" gov_index="2">amod</dependency>
+      <dependency dep="changes" dep_index="2" gov="were" gov_index="15">nsubj</dependency>
+      <dependency dep="morphodensitometric" dep_index="4" gov="parameters" gov_index="6">amod</dependency>
+      <dependency dep="(MDM)" dep_index="5" gov="parameters" gov_index="6">amod</dependency>
+      <dependency dep="parameters" dep_index="6" gov="changes" gov_index="2">prep_in</dependency>
+      <dependency dep="cytokine" dep_index="8" gov="levels" gov_index="11">nn</dependency>
+      <dependency dep="sCAM" dep_index="10" gov="cytokine" gov_index="8">conj_and</dependency>
+      <dependency dep="sCAM" dep_index="10" gov="levels" gov_index="11">nn</dependency>
+      <dependency dep="levels" dep_index="11" gov="changes" gov_index="2">conj_and</dependency>
+      <dependency dep="levels" dep_index="11" gov="were" gov_index="15">nsubj</dependency>
+      <dependency dep="two" dep_index="13" gov="tests" gov_index="14">num</dependency>
+      <dependency dep="tests" dep_index="14" gov="levels" gov_index="11">prep_in</dependency>
+      <dependency dep="were" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="17" gov="were" gov_index="15">prepc_compared_to</dependency>
+      <dependency dep="initial" dep_index="18" gov="levels" gov_index="19">amod</dependency>
+      <dependency dep="levels" dep_index="19" gov="were" gov_index="15">pobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

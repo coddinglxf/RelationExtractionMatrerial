@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@sequences@that@confer@on@FGF-7@its@specific@binding@to@KGFR@have@not@been@identified@.@</sentence>
+   <tags>
+      <tag pos="6">FGF-7</tag>
+      <tag pos="11">KGFR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">sequences</taggedword>
+      <taggedword index="3" part-of-speech="WDT">that</taggedword>
+      <taggedword index="4" part-of-speech="VBP">confer</taggedword>
+      <taggedword index="5" part-of-speech="IN">on</taggedword>
+      <taggedword index="6" part-of-speech="VBG">FGF-7</taggedword>
+      <taggedword index="7" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="8" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="9" part-of-speech="NN">binding</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="NNP">KGFR</taggedword>
+      <taggedword index="12" part-of-speech="VBP">have</taggedword>
+      <taggedword index="13" part-of-speech="RB">not</taggedword>
+      <taggedword index="14" part-of-speech="VBN">been</taggedword>
+      <taggedword index="15" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="sequences" gov_index="2">det</dependency>
+      <dependency dep="sequences" dep_index="2" gov="confer" gov_index="4">nsubj</dependency>
+      <dependency dep="sequences" dep_index="2" gov="identified" gov_index="15">nsubjpass</dependency>
+      <dependency dep="confer" dep_index="4" gov="sequences" gov_index="2">rcmod</dependency>
+      <dependency dep="FGF-7" dep_index="6" gov="confer" gov_index="4">prepc_on</dependency>
+      <dependency dep="its" dep_index="7" gov="binding" gov_index="9">poss</dependency>
+      <dependency dep="specific" dep_index="8" gov="binding" gov_index="9">amod</dependency>
+      <dependency dep="binding" dep_index="9" gov="FGF-7" gov_index="6">dobj</dependency>
+      <dependency dep="KGFR" dep_index="11" gov="FGF-7" gov_index="6">prep_to</dependency>
+      <dependency dep="have" dep_index="12" gov="identified" gov_index="15">aux</dependency>
+      <dependency dep="not" dep_index="13" gov="identified" gov_index="15">neg</dependency>
+      <dependency dep="been" dep_index="14" gov="identified" gov_index="15">auxpass</dependency>
+      <dependency dep="identified" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600011" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>600011</pair>
+   </pairs>
+</root>

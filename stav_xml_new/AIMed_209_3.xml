@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@now@show@that@full-length@RIN1@interacts@with@activated@RAS@in@mammalian@cells@and@defines@a@minimum@region@of@434@aa@required@for@efficient@RAS@binding@.@</sentence>
+   <tags>
+      <tag pos="6">RIN1</tag>
+      <tag pos="10">RAS</tag>
+      <tag pos="25">RAS</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="RB">now</taggedword>
+      <taggedword index="3" part-of-speech="VBP">show</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="JJ">full-length</taggedword>
+      <taggedword index="6" part-of-speech="NN">RIN1</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NNP">activated</taggedword>
+      <taggedword index="10" part-of-speech="NNP">RAS</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="13" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">defines</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="JJ">minimum</taggedword>
+      <taggedword index="18" part-of-speech="NN">region</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="CD">434</taggedword>
+      <taggedword index="21" part-of-speech="NN">aa</taggedword>
+      <taggedword index="22" part-of-speech="VBN">required</taggedword>
+      <taggedword index="23" part-of-speech="IN">for</taggedword>
+      <taggedword index="24" part-of-speech="JJ">efficient</taggedword>
+      <taggedword index="25" part-of-speech="NN">RAS</taggedword>
+      <taggedword index="26" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="show" gov_index="3">nsubj</dependency>
+      <dependency dep="now" dep_index="2" gov="show" gov_index="3">advmod</dependency>
+      <dependency dep="show" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="interacts" gov_index="7">mark</dependency>
+      <dependency dep="full-length" dep_index="5" gov="RIN1" gov_index="6">amod</dependency>
+      <dependency dep="RIN1" dep_index="6" gov="interacts" gov_index="7">nsubj</dependency>
+      <dependency dep="RIN1" dep_index="6" gov="defines" gov_index="15">nsubj</dependency>
+      <dependency dep="interacts" dep_index="7" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="activated" dep_index="9" gov="RAS" gov_index="10">nn</dependency>
+      <dependency dep="RAS" dep_index="10" gov="interacts" gov_index="7">prep_with</dependency>
+      <dependency dep="mammalian" dep_index="12" gov="cells" gov_index="13">amod</dependency>
+      <dependency dep="cells" dep_index="13" gov="RAS" gov_index="10">prep_in</dependency>
+      <dependency dep="defines" dep_index="15" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="defines" dep_index="15" gov="interacts" gov_index="7">conj_and</dependency>
+      <dependency dep="a" dep_index="16" gov="region" gov_index="18">det</dependency>
+      <dependency dep="minimum" dep_index="17" gov="region" gov_index="18">amod</dependency>
+      <dependency dep="region" dep_index="18" gov="defines" gov_index="15">dobj</dependency>
+      <dependency dep="434" dep_index="20" gov="aa" gov_index="21">num</dependency>
+      <dependency dep="aa" dep_index="21" gov="region" gov_index="18">prep_of</dependency>
+      <dependency dep="required" dep_index="22" gov="aa" gov_index="21">partmod</dependency>
+      <dependency dep="efficient" dep_index="24" gov="RAS" gov_index="25">amod</dependency>
+      <dependency dep="RAS" dep_index="25" gov="required" gov_index="22">prep_for</dependency>
+      <dependency dep="binding" dep_index="26" gov="RAS" gov_index="25">amod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="true">6 7 10</relation>
+      <relation position="600025" relationship="false">6 15 18 21 22 25</relation>
+      <relation position="1000025" relationship="false">10 7 3 15 18 21 22 25</relation>
+   </relations>
+   <pairs>
+      <pair>600010</pair>
+   </pairs>
+</root>

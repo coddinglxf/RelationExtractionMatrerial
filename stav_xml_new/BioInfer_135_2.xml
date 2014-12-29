@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>For@example@,@profilin@with@a@deletion@of@the@eight@C-terminal@residues@has@many@of@the@physical@properties@of@a@molten@globule@,@yet@remarkably@still@binds@to@actin@.@</sentence>
+   <tags>
+      <tag pos="29">actin</tag>
+      <tag pos="4">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">For</taggedword>
+      <taggedword index="2" part-of-speech="NN">example</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NN">deletion</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="CD">eight</taggedword>
+      <taggedword index="11" part-of-speech="JJ">C-terminal</taggedword>
+      <taggedword index="12" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="14" part-of-speech="JJ">many</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">physical</taggedword>
+      <taggedword index="18" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="NN">molten</taggedword>
+      <taggedword index="22" part-of-speech="NN">globule</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CC">yet</taggedword>
+      <taggedword index="25" part-of-speech="RB">remarkably</taggedword>
+      <taggedword index="26" part-of-speech="RB">still</taggedword>
+      <taggedword index="27" part-of-speech="JJ">binds</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="NN">actin</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="example" dep_index="2" gov="many" gov_index="14">prep_for</dependency>
+      <dependency dep="profilin" dep_index="4" gov="many" gov_index="14">nsubj</dependency>
+      <dependency dep="profilin" dep_index="4" gov="binds" gov_index="27">nsubj</dependency>
+      <dependency dep="a" dep_index="6" gov="deletion" gov_index="7">det</dependency>
+      <dependency dep="deletion" dep_index="7" gov="profilin" gov_index="4">prep_with</dependency>
+      <dependency dep="the" dep_index="9" gov="residues" gov_index="12">det</dependency>
+      <dependency dep="eight" dep_index="10" gov="residues" gov_index="12">num</dependency>
+      <dependency dep="C-terminal" dep_index="11" gov="residues" gov_index="12">amod</dependency>
+      <dependency dep="residues" dep_index="12" gov="deletion" gov_index="7">prep_of</dependency>
+      <dependency dep="has" dep_index="13" gov="many" gov_index="14">dep</dependency>
+      <dependency dep="many" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="16" gov="properties" gov_index="18">det</dependency>
+      <dependency dep="physical" dep_index="17" gov="properties" gov_index="18">amod</dependency>
+      <dependency dep="properties" dep_index="18" gov="many" gov_index="14">prep_of</dependency>
+      <dependency dep="a" dep_index="20" gov="globule" gov_index="22">det</dependency>
+      <dependency dep="molten" dep_index="21" gov="globule" gov_index="22">nn</dependency>
+      <dependency dep="globule" dep_index="22" gov="properties" gov_index="18">prep_of</dependency>
+      <dependency dep="remarkably" dep_index="25" gov="binds" gov_index="27">advmod</dependency>
+      <dependency dep="still" dep_index="26" gov="binds" gov_index="27">advmod</dependency>
+      <dependency dep="binds" dep_index="27" gov="many" gov_index="14">conj_yet</dependency>
+      <dependency dep="actin" dep_index="29" gov="binds" gov_index="27">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400029" relationship="true">4 27 29</relation>
+   </relations>
+   <pairs>
+      <pair>400029</pair>
+   </pairs>
+</root>

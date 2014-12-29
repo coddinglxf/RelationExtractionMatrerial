@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>RII alpha@I3A,I5A@(a@mutant@where@isoleucines@3@and@5@were@replaced@with@alanine)@was@unable@to@bind@a@variety@of@AKAPs@.@</sentence>
+   <tags>
+      <tag pos="1">RII alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">RII alpha</taggedword>
+      <taggedword index="2" part-of-speech="NNP">I3A,I5A</taggedword>
+      <taggedword index="3" part-of-speech="NNP">(a</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">mutant</taggedword>
+      <taggedword index="5" part-of-speech="WRB">where</taggedword>
+      <taggedword index="6" part-of-speech="NNS">isoleucines</taggedword>
+      <taggedword index="7" part-of-speech="CD">3</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="CD">5</taggedword>
+      <taggedword index="10" part-of-speech="VBD">were</taggedword>
+      <taggedword index="11" part-of-speech="VBN">replaced</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NNP">alanine)</taggedword>
+      <taggedword index="14" part-of-speech="VBD">was</taggedword>
+      <taggedword index="15" part-of-speech="JJ">unable</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="VB">bind</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="NN">variety</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NNP">AKAPs</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="RII alpha" dep_index="1" gov="(a" gov_index="3">nn</dependency>
+      <dependency dep="I3A,I5A" dep_index="2" gov="(a" gov_index="3">nn</dependency>
+      <dependency dep="(a" dep_index="3" gov="mutant" gov_index="4">nsubj</dependency>
+      <dependency dep="mutant" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="where" dep_index="5" gov="unable" gov_index="15">advmod</dependency>
+      <dependency dep="isoleucines" dep_index="6" gov="unable" gov_index="15">nsubj</dependency>
+      <dependency dep="isoleucines" dep_index="6" gov="bind" gov_index="17">xsubj</dependency>
+      <dependency dep="3" dep_index="7" gov="isoleucines" gov_index="6">num</dependency>
+      <dependency dep="5" dep_index="9" gov="isoleucines" gov_index="6">conj_and</dependency>
+      <dependency dep="5" dep_index="9" gov="unable" gov_index="15">nsubj</dependency>
+      <dependency dep="5" dep_index="9" gov="bind" gov_index="17">xsubj</dependency>
+      <dependency dep="were" dep_index="10" gov="replaced" gov_index="11">auxpass</dependency>
+      <dependency dep="replaced" dep_index="11" gov="isoleucines" gov_index="6">rcmod</dependency>
+      <dependency dep="alanine)" dep_index="13" gov="replaced" gov_index="11">prep_with</dependency>
+      <dependency dep="was" dep_index="14" gov="unable" gov_index="15">cop</dependency>
+      <dependency dep="unable" dep_index="15" gov="mutant" gov_index="4">advcl</dependency>
+      <dependency dep="to" dep_index="16" gov="bind" gov_index="17">aux</dependency>
+      <dependency dep="bind" dep_index="17" gov="unable" gov_index="15">xcomp</dependency>
+      <dependency dep="a" dep_index="18" gov="variety" gov_index="19">det</dependency>
+      <dependency dep="variety" dep_index="19" gov="bind" gov_index="17">dobj</dependency>
+      <dependency dep="AKAPs" dep_index="21" gov="variety" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

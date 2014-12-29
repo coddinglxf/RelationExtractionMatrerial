@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@retinoblastoma@-susceptibility@gene@product@binds@directly@to@the@human@TATA-binding protein-associated factor@TAFII250@.@</sentence>
+   <tags>
+      <tag pos="2">retinoblastoma</tag>
+      <tag pos="11">TATA-binding protein-associated factor</tag>
+      <tag pos="12">TAFII250</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">retinoblastoma</taggedword>
+      <taggedword index="3" part-of-speech="NN">-susceptibility</taggedword>
+      <taggedword index="4" part-of-speech="NN">gene</taggedword>
+      <taggedword index="5" part-of-speech="NN">product</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="7" part-of-speech="RB">directly</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">human</taggedword>
+      <taggedword index="11" part-of-speech="JJ">TATA-binding protein-associated factor</taggedword>
+      <taggedword index="12" part-of-speech="NN">TAFII250</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="product" gov_index="5">det</dependency>
+      <dependency dep="retinoblastoma" dep_index="2" gov="product" gov_index="5">nn</dependency>
+      <dependency dep="-susceptibility" dep_index="3" gov="product" gov_index="5">nn</dependency>
+      <dependency dep="gene" dep_index="4" gov="product" gov_index="5">nn</dependency>
+      <dependency dep="product" dep_index="5" gov="binds" gov_index="6">nsubj</dependency>
+      <dependency dep="binds" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="directly" dep_index="7" gov="binds" gov_index="6">advmod</dependency>
+      <dependency dep="the" dep_index="9" gov="TAFII250" gov_index="12">det</dependency>
+      <dependency dep="human" dep_index="10" gov="TAFII250" gov_index="12">amod</dependency>
+      <dependency dep="TATA-binding protein-associated factor" dep_index="11" gov="TAFII250" gov_index="12">amod</dependency>
+      <dependency dep="TAFII250" dep_index="12" gov="binds" gov_index="6">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200011" relationship="false">2 5 6 12 11</relation>
+      <relation position="200012" relationship="true">2 5 6 12</relation>
+      <relation position="1100012" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>200012</pair>
+   </pairs>
+</root>

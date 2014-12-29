@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@the@amount@of@p27@is@significantly@lower@than@the@amount@of@cyclin D3@in@these@cells@.@</sentence>
+   <tags>
+      <tag pos="6">p27</tag>
+      <tag pos="14">cyclin D3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">amount</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="CD">p27</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="8" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="9" part-of-speech="JJR">lower</taggedword>
+      <taggedword index="10" part-of-speech="IN">than</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">amount</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="CD">cyclin D3</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">these</taggedword>
+      <taggedword index="17" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="lower" gov_index="9">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="amount" gov_index="4">det</dependency>
+      <dependency dep="amount" dep_index="4" gov="lower" gov_index="9">nsubj</dependency>
+      <dependency dep="p27" dep_index="6" gov="amount" gov_index="4">prep_of</dependency>
+      <dependency dep="is" dep_index="7" gov="lower" gov_index="9">cop</dependency>
+      <dependency dep="significantly" dep_index="8" gov="lower" gov_index="9">advmod</dependency>
+      <dependency dep="lower" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="amount" gov_index="12">det</dependency>
+      <dependency dep="amount" dep_index="12" gov="lower" gov_index="9">prep_than</dependency>
+      <dependency dep="cyclin D3" dep_index="14" gov="amount" gov_index="12">prep_of</dependency>
+      <dependency dep="these" dep_index="16" gov="cells" gov_index="17">det</dependency>
+      <dependency dep="cells" dep_index="17" gov="lower" gov_index="9">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600014" relationship="false">6 4 9 12 14</relation>
+   </relations>
+   <pairs/>
+</root>

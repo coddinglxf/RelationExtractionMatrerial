@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Pinin@/@DRS@/memA@interacts@with@SRp75@,@SRm300@and@SRrp130@in@corneal@epithelial@cells@</sentence>
+   <tags>
+      <tag pos="1">Pinin</tag>
+      <tag pos="3">DRS</tag>
+      <tag pos="7">SRp75</tag>
+      <tag pos="9">SRm300</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Pinin</taggedword>
+      <taggedword index="2" part-of-speech=":">/</taggedword>
+      <taggedword index="3" part-of-speech="NNP">DRS</taggedword>
+      <taggedword index="4" part-of-speech="NNP">/memA</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="NNS">SRp75</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNS">SRm300</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNS">SRrp130</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="JJ">corneal</taggedword>
+      <taggedword index="14" part-of-speech="JJ">epithelial</taggedword>
+      <taggedword index="15" part-of-speech="NNS">cells</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Pinin" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="/" dep_index="2" gov="Pinin" gov_index="1">punct</dependency>
+      <dependency dep="DRS" dep_index="3" gov="/memA" gov_index="4">nn</dependency>
+      <dependency dep="/memA" dep_index="4" gov="interacts" gov_index="5">nsubj</dependency>
+      <dependency dep="interacts" dep_index="5" gov="Pinin" gov_index="1">dep</dependency>
+      <dependency dep="SRp75" dep_index="7" gov="interacts" gov_index="5">prep_with</dependency>
+      <dependency dep="SRm300" dep_index="9" gov="interacts" gov_index="5">prep_with</dependency>
+      <dependency dep="SRm300" dep_index="9" gov="SRp75" gov_index="7">conj_and</dependency>
+      <dependency dep="SRrp130" dep_index="11" gov="interacts" gov_index="5">prep_with</dependency>
+      <dependency dep="SRrp130" dep_index="11" gov="SRp75" gov_index="7">conj_and</dependency>
+      <dependency dep="corneal" dep_index="13" gov="cells" gov_index="15">amod</dependency>
+      <dependency dep="epithelial" dep_index="14" gov="cells" gov_index="15">amod</dependency>
+      <dependency dep="cells" dep_index="15" gov="interacts" gov_index="5">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100003" relationship="false"></relation>
+      <relation position="100007" relationship="true"></relation>
+      <relation position="100009" relationship="true"></relation>
+      <relation position="300007" relationship="true">3 4 5 7</relation>
+      <relation position="300009" relationship="true">3 4 5 9</relation>
+      <relation position="700009" relationship="false">7 5 9</relation>
+   </relations>
+   <pairs>
+      <pair>300007</pair>
+      <pair>100009</pair>
+      <pair>100007</pair>
+      <pair>300009</pair>
+   </pairs>
+</root>

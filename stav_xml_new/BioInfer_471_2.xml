@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Our@results@show@that@the@major@pool@of@polymerizable@actin@monomers@is@complexed@with@profilin@and@spread@throughout@the@cytoplasm@.@</sentence>
+   <tags>
+      <tag pos="15">profilin</tag>
+      <tag pos="10">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP$">Our</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">show</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">major</taggedword>
+      <taggedword index="7" part-of-speech="NN">pool</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="JJ">polymerizable</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="NNS">monomers</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="VBN">complexed</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="VBN">spread</taggedword>
+      <taggedword index="18" part-of-speech="IN">throughout</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">cytoplasm</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Our" dep_index="1" gov="results" gov_index="2">poss</dependency>
+      <dependency dep="results" dep_index="2" gov="show" gov_index="3">nsubj</dependency>
+      <dependency dep="show" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="complexed" gov_index="13">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="pool" gov_index="7">det</dependency>
+      <dependency dep="major" dep_index="6" gov="pool" gov_index="7">amod</dependency>
+      <dependency dep="pool" dep_index="7" gov="complexed" gov_index="13">nsubjpass</dependency>
+      <dependency dep="pool" dep_index="7" gov="spread" gov_index="17">nsubjpass</dependency>
+      <dependency dep="polymerizable" dep_index="9" gov="monomers" gov_index="11">amod</dependency>
+      <dependency dep="actin" dep_index="10" gov="monomers" gov_index="11">nn</dependency>
+      <dependency dep="monomers" dep_index="11" gov="pool" gov_index="7">prep_of</dependency>
+      <dependency dep="is" dep_index="12" gov="complexed" gov_index="13">auxpass</dependency>
+      <dependency dep="complexed" dep_index="13" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="profilin" dep_index="15" gov="complexed" gov_index="13">prep_with</dependency>
+      <dependency dep="spread" dep_index="17" gov="show" gov_index="3">ccomp</dependency>
+      <dependency dep="spread" dep_index="17" gov="complexed" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="19" gov="cytoplasm" gov_index="20">det</dependency>
+      <dependency dep="cytoplasm" dep_index="20" gov="spread" gov_index="17">prep_throughout</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000015" relationship="true">10 11 7 13 15</relation>
+   </relations>
+   <pairs>
+      <pair>1000015</pair>
+   </pairs>
+</root>

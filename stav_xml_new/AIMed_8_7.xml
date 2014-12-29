@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@most@typical@mutational@profile@involved@K-ras@,@p53@,@and@p16INK4a@,@concurrently@aberrated@in@20@cases@(91%)@.@</sentence>
+   <tags>
+      <tag pos="7">K-ras</tag>
+      <tag pos="9">p53</tag>
+      <tag pos="12">p16INK4a</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="RBS">most</taggedword>
+      <taggedword index="3" part-of-speech="JJ">typical</taggedword>
+      <taggedword index="4" part-of-speech="JJ">mutational</taggedword>
+      <taggedword index="5" part-of-speech="NN">profile</taggedword>
+      <taggedword index="6" part-of-speech="VBD">involved</taggedword>
+      <taggedword index="7" part-of-speech="NNP">K-ras</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">p53</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">p16INK4a</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="RB">concurrently</taggedword>
+      <taggedword index="15" part-of-speech="VBD">aberrated</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="CD">20</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cases</taggedword>
+      <taggedword index="19" part-of-speech="CD">(91%)</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="profile" gov_index="5">det</dependency>
+      <dependency dep="most" dep_index="2" gov="typical" gov_index="3">advmod</dependency>
+      <dependency dep="typical" dep_index="3" gov="profile" gov_index="5">amod</dependency>
+      <dependency dep="mutational" dep_index="4" gov="profile" gov_index="5">amod</dependency>
+      <dependency dep="profile" dep_index="5" gov="involved" gov_index="6">nsubj</dependency>
+      <dependency dep="involved" dep_index="6" gov="aberrated" gov_index="15">ccomp</dependency>
+      <dependency dep="K-ras" dep_index="7" gov="involved" gov_index="6">dobj</dependency>
+      <dependency dep="p53" dep_index="9" gov="involved" gov_index="6">dobj</dependency>
+      <dependency dep="p53" dep_index="9" gov="K-ras" gov_index="7">conj_and</dependency>
+      <dependency dep="p16INK4a" dep_index="12" gov="involved" gov_index="6">dobj</dependency>
+      <dependency dep="p16INK4a" dep_index="12" gov="K-ras" gov_index="7">conj_and</dependency>
+      <dependency dep="concurrently" dep_index="14" gov="aberrated" gov_index="15">advmod</dependency>
+      <dependency dep="aberrated" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="20" dep_index="17" gov="cases" gov_index="18">num</dependency>
+      <dependency dep="cases" dep_index="18" gov="aberrated" gov_index="15">prep_in</dependency>
+      <dependency dep="(91%)" dep_index="19" gov="aberrated" gov_index="15">nsubj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 6 9</relation>
+      <relation position="700012" relationship="false">7 6 12</relation>
+      <relation position="900012" relationship="false">9 6 12</relation>
+   </relations>
+   <pairs/>
+</root>

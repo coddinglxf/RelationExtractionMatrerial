@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunostaining@showed@that@APBs@also@contain@replication factor A@,@RAD51@,@and@RAD52@,@proteins@involved@in@DNA@synthesis@and@recombination@.@</sentence>
+   <tags>
+      <tag pos="9">RAD51</tag>
+      <tag pos="12">RAD52</tag>
+      <tag pos="7">replication factor A</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Immunostaining</taggedword>
+      <taggedword index="2" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NNP">APBs</taggedword>
+      <taggedword index="5" part-of-speech="RB">also</taggedword>
+      <taggedword index="6" part-of-speech="VBP">contain</taggedword>
+      <taggedword index="7" part-of-speech="NN">replication factor A</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNP">RAD51</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNP">RAD52</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="15" part-of-speech="VBD">involved</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="18" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NN">recombination</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunostaining" dep_index="1" gov="showed" gov_index="2">nsubj</dependency>
+      <dependency dep="showed" dep_index="2" gov="involved" gov_index="15">ccomp</dependency>
+      <dependency dep="that" dep_index="3" gov="contain" gov_index="6">mark</dependency>
+      <dependency dep="APBs" dep_index="4" gov="contain" gov_index="6">nsubj</dependency>
+      <dependency dep="also" dep_index="5" gov="contain" gov_index="6">advmod</dependency>
+      <dependency dep="contain" dep_index="6" gov="showed" gov_index="2">ccomp</dependency>
+      <dependency dep="replication factor A" dep_index="7" gov="contain" gov_index="6">dobj</dependency>
+      <dependency dep="RAD51" dep_index="9" gov="contain" gov_index="6">dobj</dependency>
+      <dependency dep="RAD51" dep_index="9" gov="replication factor A" gov_index="7">conj_and</dependency>
+      <dependency dep="RAD52" dep_index="12" gov="contain" gov_index="6">dobj</dependency>
+      <dependency dep="RAD52" dep_index="12" gov="replication factor A" gov_index="7">conj_and</dependency>
+      <dependency dep="proteins" dep_index="14" gov="involved" gov_index="15">nsubj</dependency>
+      <dependency dep="involved" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="DNA" dep_index="17" gov="synthesis" gov_index="18">nn</dependency>
+      <dependency dep="synthesis" dep_index="18" gov="involved" gov_index="15">prep_in</dependency>
+      <dependency dep="recombination" dep_index="20" gov="involved" gov_index="15">prep_in</dependency>
+      <dependency dep="recombination" dep_index="20" gov="synthesis" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900012" relationship="true">9 6 12</relation>
+      <relation position="700009" relationship="true">7 6 9</relation>
+      <relation position="700012" relationship="true">7 6 12</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+      <pair>900012</pair>
+      <pair>700012</pair>
+   </pairs>
+</root>

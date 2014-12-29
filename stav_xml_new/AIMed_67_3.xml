@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@show@that@in@vitro@translated@human@cdc2@binds@very@poorly@to@A@and@B@cyclins@,@unless@it@has@been@preincubated@with@a@Xenopus@egg@extract@.@</sentence>
+   <tags>
+      <tag pos="8">cdc2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">show</taggedword>
+      <taggedword index="3" part-of-speech="DT">that</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="NNP">vitro</taggedword>
+      <taggedword index="6" part-of-speech="VBN">translated</taggedword>
+      <taggedword index="7" part-of-speech="JJ">human</taggedword>
+      <taggedword index="8" part-of-speech="JJ">cdc2</taggedword>
+      <taggedword index="9" part-of-speech="NNS">binds</taggedword>
+      <taggedword index="10" part-of-speech="RB">very</taggedword>
+      <taggedword index="11" part-of-speech="RB">poorly</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="NNP">A</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NNP">B</taggedword>
+      <taggedword index="16" part-of-speech="NNS">cyclins</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="IN">unless</taggedword>
+      <taggedword index="19" part-of-speech="PRP">it</taggedword>
+      <taggedword index="20" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="21" part-of-speech="VBN">been</taggedword>
+      <taggedword index="22" part-of-speech="VBN">preincubated</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="DT">a</taggedword>
+      <taggedword index="25" part-of-speech="NNP">Xenopus</taggedword>
+      <taggedword index="26" part-of-speech="NN">egg</taggedword>
+      <taggedword index="27" part-of-speech="NN">extract</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="show" gov_index="2">nsubj</dependency>
+      <dependency dep="show" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="show" gov_index="2">dobj</dependency>
+      <dependency dep="vitro" dep_index="5" gov="that" gov_index="3">prep_in</dependency>
+      <dependency dep="translated" dep_index="6" gov="vitro" gov_index="5">partmod</dependency>
+      <dependency dep="human" dep_index="7" gov="binds" gov_index="9">amod</dependency>
+      <dependency dep="cdc2" dep_index="8" gov="binds" gov_index="9">amod</dependency>
+      <dependency dep="binds" dep_index="9" gov="translated" gov_index="6">dobj</dependency>
+      <dependency dep="very" dep_index="10" gov="poorly" gov_index="11">advmod</dependency>
+      <dependency dep="poorly" dep_index="11" gov="translated" gov_index="6">advmod</dependency>
+      <dependency dep="A" dep_index="13" gov="cyclins" gov_index="16">nn</dependency>
+      <dependency dep="B" dep_index="15" gov="A" gov_index="13">conj_and</dependency>
+      <dependency dep="B" dep_index="15" gov="cyclins" gov_index="16">nn</dependency>
+      <dependency dep="cyclins" dep_index="16" gov="poorly" gov_index="11">prep_to</dependency>
+      <dependency dep="unless" dep_index="18" gov="preincubated" gov_index="22">mark</dependency>
+      <dependency dep="it" dep_index="19" gov="preincubated" gov_index="22">nsubjpass</dependency>
+      <dependency dep="has" dep_index="20" gov="preincubated" gov_index="22">aux</dependency>
+      <dependency dep="been" dep_index="21" gov="preincubated" gov_index="22">auxpass</dependency>
+      <dependency dep="preincubated" dep_index="22" gov="translated" gov_index="6">advcl</dependency>
+      <dependency dep="a" dep_index="24" gov="extract" gov_index="27">det</dependency>
+      <dependency dep="Xenopus" dep_index="25" gov="extract" gov_index="27">nn</dependency>
+      <dependency dep="egg" dep_index="26" gov="extract" gov_index="27">nn</dependency>
+      <dependency dep="extract" dep_index="27" gov="preincubated" gov_index="22">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

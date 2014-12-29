@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@mutations@in@the@amino-terminus@of@cdc2@and@within@the@conserved@'PSTAIR'@region@strongly@inhibit@binding@.@</sentence>
+   <tags>
+      <tag pos="9">cdc2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNS">mutations</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NNS">amino-terminus</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="CD">cdc2</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="IN">within</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">conserved</taggedword>
+      <taggedword index="14" part-of-speech="JJ">'PSTAIR'</taggedword>
+      <taggedword index="15" part-of-speech="NN">region</taggedword>
+      <taggedword index="16" part-of-speech="RB">strongly</taggedword>
+      <taggedword index="17" part-of-speech="VBP">inhibit</taggedword>
+      <taggedword index="18" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="inhibit" gov_index="17">prep_in</dependency>
+      <dependency dep="mutations" dep_index="4" gov="mutations" gov_index="4">conj_and</dependency>
+      <dependency dep="mutations" dep_index="4" gov="inhibit" gov_index="17">nsubj</dependency>
+      <dependency dep="mutations" dep_index="4" gov="inhibit" gov_index="17">nsubj</dependency>
+      <dependency dep="the" dep_index="6" gov="amino-terminus" gov_index="7">det</dependency>
+      <dependency dep="amino-terminus" dep_index="7" gov="mutations" gov_index="4">prep_in</dependency>
+      <dependency dep="cdc2" dep_index="9" gov="amino-terminus" gov_index="7">prep_of</dependency>
+      <dependency dep="the" dep_index="12" gov="region" gov_index="15">det</dependency>
+      <dependency dep="conserved" dep_index="13" gov="region" gov_index="15">amod</dependency>
+      <dependency dep="'PSTAIR'" dep_index="14" gov="region" gov_index="15">amod</dependency>
+      <dependency dep="region" dep_index="15" gov="mutations" gov_index="4">prep_within</dependency>
+      <dependency dep="strongly" dep_index="16" gov="inhibit" gov_index="17">advmod</dependency>
+      <dependency dep="inhibit" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="binding" dep_index="18" gov="inhibit" gov_index="17">acomp</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

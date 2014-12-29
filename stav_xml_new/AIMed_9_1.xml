@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Human@gastrinoma@cells@express@calcium-sensing receptor@.@</sentence>
+   <tags>
+      <tag pos="5">calcium-sensing receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Human</taggedword>
+      <taggedword index="2" part-of-speech="NN">gastrinoma</taggedword>
+      <taggedword index="3" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="4" part-of-speech="VBP">express</taggedword>
+      <taggedword index="5" part-of-speech="NN">calcium-sensing receptor</taggedword>
+      <taggedword index="6" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Human" dep_index="1" gov="cells" gov_index="3">nn</dependency>
+      <dependency dep="gastrinoma" dep_index="2" gov="cells" gov_index="3">nn</dependency>
+      <dependency dep="cells" dep_index="3" gov="express" gov_index="4">nsubj</dependency>
+      <dependency dep="express" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="calcium-sensing receptor" dep_index="5" gov="express" gov_index="4">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

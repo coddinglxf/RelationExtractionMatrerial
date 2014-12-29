@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@next@tested@whether@IL-11@induced@signaling@can@be@inhibited@by@anti-@gp130@antibodies@which@blocked@IL-6@-mediated@functions@.@</sentence>
+   <tags>
+      <tag pos="5">IL-11</tag>
+      <tag pos="13">gp130</tag>
+      <tag pos="17">IL-6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="RB">next</taggedword>
+      <taggedword index="3" part-of-speech="VBD">tested</taggedword>
+      <taggedword index="4" part-of-speech="IN">whether</taggedword>
+      <taggedword index="5" part-of-speech="NNP">IL-11</taggedword>
+      <taggedword index="6" part-of-speech="NNP">induced</taggedword>
+      <taggedword index="7" part-of-speech="NNP">signaling</taggedword>
+      <taggedword index="8" part-of-speech="MD">can</taggedword>
+      <taggedword index="9" part-of-speech="VB">be</taggedword>
+      <taggedword index="10" part-of-speech="VBN">inhibited</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="JJ">anti-</taggedword>
+      <taggedword index="13" part-of-speech="JJ">gp130</taggedword>
+      <taggedword index="14" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="15" part-of-speech="WDT">which</taggedword>
+      <taggedword index="16" part-of-speech="VBD">blocked</taggedword>
+      <taggedword index="17" part-of-speech="JJ">IL-6</taggedword>
+      <taggedword index="18" part-of-speech="JJ">-mediated</taggedword>
+      <taggedword index="19" part-of-speech="NNS">functions</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="tested" gov_index="3">nsubj</dependency>
+      <dependency dep="next" dep_index="2" gov="tested" gov_index="3">advmod</dependency>
+      <dependency dep="tested" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="whether" dep_index="4" gov="inhibited" gov_index="10">mark</dependency>
+      <dependency dep="IL-11" dep_index="5" gov="signaling" gov_index="7">nn</dependency>
+      <dependency dep="induced" dep_index="6" gov="signaling" gov_index="7">nn</dependency>
+      <dependency dep="signaling" dep_index="7" gov="inhibited" gov_index="10">nsubjpass</dependency>
+      <dependency dep="can" dep_index="8" gov="inhibited" gov_index="10">aux</dependency>
+      <dependency dep="be" dep_index="9" gov="inhibited" gov_index="10">auxpass</dependency>
+      <dependency dep="inhibited" dep_index="10" gov="tested" gov_index="3">ccomp</dependency>
+      <dependency dep="anti-" dep_index="12" gov="antibodies" gov_index="14">amod</dependency>
+      <dependency dep="gp130" dep_index="13" gov="antibodies" gov_index="14">amod</dependency>
+      <dependency dep="antibodies" dep_index="14" gov="inhibited" gov_index="10">agent</dependency>
+      <dependency dep="antibodies" dep_index="14" gov="blocked" gov_index="16">nsubj</dependency>
+      <dependency dep="blocked" dep_index="16" gov="antibodies" gov_index="14">rcmod</dependency>
+      <dependency dep="IL-6" dep_index="17" gov="-mediated" gov_index="18">amod</dependency>
+      <dependency dep="-mediated" dep_index="18" gov="functions" gov_index="19">amod</dependency>
+      <dependency dep="functions" dep_index="19" gov="blocked" gov_index="16">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500013" relationship="false">5 7 10 14 13</relation>
+      <relation position="500017" relationship="false">5 7 10 14 16 19 18 17</relation>
+      <relation position="1300017" relationship="false">13 14 16 19 18 17</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@viscoelasticity@of@entangled@actin@networks@:@the@influence@of@defects@and@modulation@by@talin@and@vinculin@.@</sentence>
+   <tags>
+      <tag pos="5">actin</tag>
+      <tag pos="15">talin</tag>
+      <tag pos="17">vinculin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">viscoelasticity</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">entangled</taggedword>
+      <taggedword index="5" part-of-speech="NN">actin</taggedword>
+      <taggedword index="6" part-of-speech="NNS">networks</taggedword>
+      <taggedword index="7" part-of-speech=":">:</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">influence</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNS">defects</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NN">modulation</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="NN">talin</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">vinculin</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="viscoelasticity" gov_index="2">det</dependency>
+      <dependency dep="viscoelasticity" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="entangled" dep_index="4" gov="networks" gov_index="6">amod</dependency>
+      <dependency dep="actin" dep_index="5" gov="networks" gov_index="6">nn</dependency>
+      <dependency dep="networks" dep_index="6" gov="viscoelasticity" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="8" gov="influence" gov_index="9">det</dependency>
+      <dependency dep="influence" dep_index="9" gov="viscoelasticity" gov_index="2">dep</dependency>
+      <dependency dep="defects" dep_index="11" gov="influence" gov_index="9">prep_of</dependency>
+      <dependency dep="modulation" dep_index="13" gov="influence" gov_index="9">prep_of</dependency>
+      <dependency dep="modulation" dep_index="13" gov="defects" gov_index="11">conj_and</dependency>
+      <dependency dep="talin" dep_index="15" gov="influence" gov_index="9">prep_by</dependency>
+      <dependency dep="vinculin" dep_index="17" gov="influence" gov_index="9">prep_by</dependency>
+      <dependency dep="vinculin" dep_index="17" gov="talin" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500015" relationship="true">5 6 2 9 15</relation>
+      <relation position="500017" relationship="true">5 6 2 9 17</relation>
+      <relation position="1500017" relationship="false">15 9 17</relation>
+   </relations>
+   <pairs>
+      <pair>500015</pair>
+      <pair>500017</pair>
+   </pairs>
+</root>

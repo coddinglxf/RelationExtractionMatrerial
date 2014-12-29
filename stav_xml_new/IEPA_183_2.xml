@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Experimental@studies@provided@evidences@that@leptin@,@cholecystokinin@(CCK)@,@galanin@(GAL)@,@neuropeptide Y@(NPY)@and@insulin@are@involved@in@feeding@behaviour@</sentence>
+   <tags>
+      <tag pos="6">leptin</tag>
+      <tag pos="14">neuropeptide Y</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Experimental</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="VBD">provided</taggedword>
+      <taggedword index="4" part-of-speech="NNS">evidences</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">cholecystokinin</taggedword>
+      <taggedword index="9" part-of-speech="NNS">(CCK)</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NN">galanin</taggedword>
+      <taggedword index="12" part-of-speech="NNS">(GAL)</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="JJ">neuropeptide Y</taggedword>
+      <taggedword index="15" part-of-speech="NNS">(NPY)</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="18" part-of-speech="VBP">are</taggedword>
+      <taggedword index="19" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="VBG">feeding</taggedword>
+      <taggedword index="22" part-of-speech="NN">behaviour</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Experimental" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="provided" gov_index="3">nsubj</dependency>
+      <dependency dep="provided" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="evidences" dep_index="4" gov="provided" gov_index="3">dobj</dependency>
+      <dependency dep="that" dep_index="5" gov="involved" gov_index="19">mark</dependency>
+      <dependency dep="leptin" dep_index="6" gov="involved" gov_index="19">nsubjpass</dependency>
+      <dependency dep="cholecystokinin" dep_index="8" gov="(CCK)" gov_index="9">nn</dependency>
+      <dependency dep="(CCK)" dep_index="9" gov="leptin" gov_index="6">conj_and</dependency>
+      <dependency dep="(CCK)" dep_index="9" gov="involved" gov_index="19">nsubjpass</dependency>
+      <dependency dep="galanin" dep_index="11" gov="(GAL)" gov_index="12">nn</dependency>
+      <dependency dep="(GAL)" dep_index="12" gov="leptin" gov_index="6">conj_and</dependency>
+      <dependency dep="(GAL)" dep_index="12" gov="involved" gov_index="19">nsubjpass</dependency>
+      <dependency dep="neuropeptide Y" dep_index="14" gov="(NPY)" gov_index="15">amod</dependency>
+      <dependency dep="(NPY)" dep_index="15" gov="leptin" gov_index="6">conj_and</dependency>
+      <dependency dep="(NPY)" dep_index="15" gov="involved" gov_index="19">nsubjpass</dependency>
+      <dependency dep="insulin" dep_index="17" gov="leptin" gov_index="6">conj_and</dependency>
+      <dependency dep="insulin" dep_index="17" gov="involved" gov_index="19">nsubjpass</dependency>
+      <dependency dep="are" dep_index="18" gov="involved" gov_index="19">auxpass</dependency>
+      <dependency dep="involved" dep_index="19" gov="provided" gov_index="3">ccomp</dependency>
+      <dependency dep="feeding" dep_index="21" gov="behaviour" gov_index="22">amod</dependency>
+      <dependency dep="behaviour" dep_index="22" gov="involved" gov_index="19">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600014" relationship="false">6 19 15 14</relation>
+   </relations>
+   <pairs/>
+</root>

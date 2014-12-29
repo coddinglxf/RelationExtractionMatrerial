@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@a@partial@TFIID@complex@containing@Drosophila@TATA binding protein@(@dTBP@),@human@TAFII250@,@dTAFII60@,@and@dTAFII40@supported@activation@by@a@Gal4-p53@fusion@protein@in@vitro@,@whereas@TBP@or@a@subcomplex@lacking@TAFII40@and@TAFII60@did@not@.@</sentence>
+   <tags>
+      <tag pos="5">TFIID</tag>
+      <tag pos="9">TATA binding protein</tag>
+      <tag pos="11">dTBP</tag>
+      <tag pos="14">TAFII250</tag>
+      <tag pos="16">dTAFII60</tag>
+      <tag pos="19">dTAFII40</tag>
+      <tag pos="31">TBP</tag>
+      <tag pos="36">TAFII40</tag>
+      <tag pos="38">TAFII60</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">partial</taggedword>
+      <taggedword index="5" part-of-speech="NNP">TFIID</taggedword>
+      <taggedword index="6" part-of-speech="NN">complex</taggedword>
+      <taggedword index="7" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Drosophila</taggedword>
+      <taggedword index="9" part-of-speech="NNP">TATA binding protein</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NN">dTBP</taggedword>
+      <taggedword index="12" part-of-speech="NN">),</taggedword>
+      <taggedword index="13" part-of-speech="JJ">human</taggedword>
+      <taggedword index="14" part-of-speech="NNP">TAFII250</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="NNS">dTAFII60</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NNS">dTAFII40</taggedword>
+      <taggedword index="20" part-of-speech="VBD">supported</taggedword>
+      <taggedword index="21" part-of-speech="NN">activation</taggedword>
+      <taggedword index="22" part-of-speech="IN">by</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="NN">Gal4-p53</taggedword>
+      <taggedword index="25" part-of-speech="NN">fusion</taggedword>
+      <taggedword index="26" part-of-speech="NN">protein</taggedword>
+      <taggedword index="27" part-of-speech="IN">in</taggedword>
+      <taggedword index="28" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="31" part-of-speech="NNP">TBP</taggedword>
+      <taggedword index="32" part-of-speech="CC">or</taggedword>
+      <taggedword index="33" part-of-speech="DT">a</taggedword>
+      <taggedword index="34" part-of-speech="NN">subcomplex</taggedword>
+      <taggedword index="35" part-of-speech="VBG">lacking</taggedword>
+      <taggedword index="36" part-of-speech="NNP">TAFII40</taggedword>
+      <taggedword index="37" part-of-speech="CC">and</taggedword>
+      <taggedword index="38" part-of-speech="NNP">TAFII60</taggedword>
+      <taggedword index="39" part-of-speech="VBD">did</taggedword>
+      <taggedword index="40" part-of-speech="RB">not</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="supported" gov_index="20">advmod</dependency>
+      <dependency dep="a" dep_index="3" gov="complex" gov_index="6">det</dependency>
+      <dependency dep="partial" dep_index="4" gov="complex" gov_index="6">amod</dependency>
+      <dependency dep="TFIID" dep_index="5" gov="complex" gov_index="6">nn</dependency>
+      <dependency dep="complex" dep_index="6" gov="supported" gov_index="20">nsubj</dependency>
+      <dependency dep="containing" dep_index="7" gov="complex" gov_index="6">partmod</dependency>
+      <dependency dep="Drosophila" dep_index="8" gov="TAFII250" gov_index="14">nn</dependency>
+      <dependency dep="TATA binding protein" dep_index="9" gov="TAFII250" gov_index="14">nn</dependency>
+      <dependency dep="(" dep_index="10" gov="TAFII250" gov_index="14">nn</dependency>
+      <dependency dep="dTBP" dep_index="11" gov="TAFII250" gov_index="14">nn</dependency>
+      <dependency dep=")," dep_index="12" gov="TAFII250" gov_index="14">nn</dependency>
+      <dependency dep="human" dep_index="13" gov="TAFII250" gov_index="14">amod</dependency>
+      <dependency dep="TAFII250" dep_index="14" gov="containing" gov_index="7">dobj</dependency>
+      <dependency dep="dTAFII60" dep_index="16" gov="containing" gov_index="7">dobj</dependency>
+      <dependency dep="dTAFII60" dep_index="16" gov="TAFII250" gov_index="14">conj_and</dependency>
+      <dependency dep="dTAFII40" dep_index="19" gov="containing" gov_index="7">dobj</dependency>
+      <dependency dep="dTAFII40" dep_index="19" gov="TAFII250" gov_index="14">conj_and</dependency>
+      <dependency dep="supported" dep_index="20" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="activation" dep_index="21" gov="supported" gov_index="20">dobj</dependency>
+      <dependency dep="a" dep_index="23" gov="protein" gov_index="26">det</dependency>
+      <dependency dep="Gal4-p53" dep_index="24" gov="protein" gov_index="26">nn</dependency>
+      <dependency dep="fusion" dep_index="25" gov="protein" gov_index="26">nn</dependency>
+      <dependency dep="protein" dep_index="26" gov="supported" gov_index="20">prep_by</dependency>
+      <dependency dep="vitro" dep_index="28" gov="supported" gov_index="20">prep_in</dependency>
+      <dependency dep="whereas" dep_index="30" gov="did" gov_index="39">mark</dependency>
+      <dependency dep="TBP" dep_index="31" gov="did" gov_index="39">nsubj</dependency>
+      <dependency dep="a" dep_index="33" gov="subcomplex" gov_index="34">det</dependency>
+      <dependency dep="subcomplex" dep_index="34" gov="TBP" gov_index="31">conj_or</dependency>
+      <dependency dep="subcomplex" dep_index="34" gov="did" gov_index="39">nsubj</dependency>
+      <dependency dep="lacking" dep_index="35" gov="subcomplex" gov_index="34">partmod</dependency>
+      <dependency dep="TAFII40" dep_index="36" gov="lacking" gov_index="35">dobj</dependency>
+      <dependency dep="TAFII60" dep_index="38" gov="lacking" gov_index="35">dobj</dependency>
+      <dependency dep="TAFII60" dep_index="38" gov="TAFII40" gov_index="36">conj_and</dependency>
+      <dependency dep="did" dep_index="39" gov="supported" gov_index="20">advcl</dependency>
+      <dependency dep="not" dep_index="40" gov="did" gov_index="39">neg</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500009" relationship="false">5 6 7 14 9</relation>
+      <relation position="500011" relationship="false">5 6 7 14 11</relation>
+      <relation position="500014" relationship="false">5 6 7 14</relation>
+      <relation position="500016" relationship="false">5 6 7 16</relation>
+      <relation position="500019" relationship="false">5 6 7 19</relation>
+      <relation position="500031" relationship="false">5 6 20 39 31</relation>
+      <relation position="500036" relationship="false">5 6 20 39 34 35 36</relation>
+      <relation position="500038" relationship="false">5 6 20 39 34 35 38</relation>
+      <relation position="900011" relationship="false">9 14 11</relation>
+      <relation position="900014" relationship="false"></relation>
+      <relation position="900016" relationship="false">9 14 7 16</relation>
+      <relation position="900019" relationship="false">9 14 7 19</relation>
+      <relation position="900031" relationship="false">9 14 7 6 20 39 31</relation>
+      <relation position="900036" relationship="false">9 14 7 6 20 39 34 35 36</relation>
+      <relation position="900038" relationship="false">9 14 7 6 20 39 34 35 38</relation>
+      <relation position="1100014" relationship="false"></relation>
+      <relation position="1100016" relationship="false">11 14 7 16</relation>
+      <relation position="1100019" relationship="false">11 14 7 19</relation>
+      <relation position="1100031" relationship="false">11 14 7 6 20 39 31</relation>
+      <relation position="1100036" relationship="false">11 14 7 6 20 39 34 35 36</relation>
+      <relation position="1100038" relationship="false">11 14 7 6 20 39 34 35 38</relation>
+      <relation position="1400016" relationship="false">14 7 16</relation>
+      <relation position="1400019" relationship="false">14 7 19</relation>
+      <relation position="1400031" relationship="false">14 7 6 20 39 31</relation>
+      <relation position="1400036" relationship="false">14 7 6 20 39 34 35 36</relation>
+      <relation position="1400038" relationship="false">14 7 6 20 39 34 35 38</relation>
+      <relation position="1600019" relationship="false">16 7 19</relation>
+      <relation position="1600031" relationship="false">16 7 6 20 39 31</relation>
+      <relation position="1600036" relationship="false">16 7 6 20 39 34 35 36</relation>
+      <relation position="1600038" relationship="false">16 7 6 20 39 34 35 38</relation>
+      <relation position="1900031" relationship="false">19 7 6 20 39 31</relation>
+      <relation position="1900036" relationship="false">19 7 6 20 39 34 35 36</relation>
+      <relation position="1900038" relationship="false">19 7 6 20 39 34 35 38</relation>
+      <relation position="3100036" relationship="false">31 39 34 35 36</relation>
+      <relation position="3100038" relationship="false">31 39 34 35 38</relation>
+      <relation position="3600038" relationship="false">36 35 38</relation>
+   </relations>
+   <pairs/>
+</root>

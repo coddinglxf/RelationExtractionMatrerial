@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Since@both@caldesmon@and@profilin@have@been@found@enriched@in@ruffling@membranes@of@animal@cells@,@our@in@vitro@findings@may@be@relevant@to@the@regulation@of@actin@filaments@in@living@cells@.@</sentence>
+   <tags>
+      <tag pos="5">profilin</tag>
+      <tag pos="3">caldesmon</tag>
+      <tag pos="28">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Since</taggedword>
+      <taggedword index="2" part-of-speech="DT">both</taggedword>
+      <taggedword index="3" part-of-speech="NN">caldesmon</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="6" part-of-speech="VBP">have</taggedword>
+      <taggedword index="7" part-of-speech="VBN">been</taggedword>
+      <taggedword index="8" part-of-speech="VBN">found</taggedword>
+      <taggedword index="9" part-of-speech="VBN">enriched</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="VBG">ruffling</taggedword>
+      <taggedword index="12" part-of-speech="NNS">membranes</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">animal</taggedword>
+      <taggedword index="15" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">our</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="20" part-of-speech="NN">findings</taggedword>
+      <taggedword index="21" part-of-speech="MD">may</taggedword>
+      <taggedword index="22" part-of-speech="VB">be</taggedword>
+      <taggedword index="23" part-of-speech="JJ">relevant</taggedword>
+      <taggedword index="24" part-of-speech="TO">to</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="NN">actin</taggedword>
+      <taggedword index="29" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="30" part-of-speech="IN">in</taggedword>
+      <taggedword index="31" part-of-speech="VBG">living</taggedword>
+      <taggedword index="32" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Since" dep_index="1" gov="found" gov_index="8">mark</dependency>
+      <dependency dep="both" dep_index="2" gov="caldesmon" gov_index="3">preconj</dependency>
+      <dependency dep="caldesmon" dep_index="3" gov="found" gov_index="8">nsubjpass</dependency>
+      <dependency dep="profilin" dep_index="5" gov="caldesmon" gov_index="3">conj_and</dependency>
+      <dependency dep="profilin" dep_index="5" gov="found" gov_index="8">nsubjpass</dependency>
+      <dependency dep="have" dep_index="6" gov="found" gov_index="8">aux</dependency>
+      <dependency dep="been" dep_index="7" gov="found" gov_index="8">auxpass</dependency>
+      <dependency dep="found" dep_index="8" gov="relevant" gov_index="23">advcl</dependency>
+      <dependency dep="enriched" dep_index="9" gov="found" gov_index="8">dep</dependency>
+      <dependency dep="ruffling" dep_index="11" gov="membranes" gov_index="12">amod</dependency>
+      <dependency dep="membranes" dep_index="12" gov="enriched" gov_index="9">prep_in</dependency>
+      <dependency dep="animal" dep_index="14" gov="cells" gov_index="15">nn</dependency>
+      <dependency dep="cells" dep_index="15" gov="membranes" gov_index="12">prep_of</dependency>
+      <dependency dep="our" dep_index="17" gov="findings" gov_index="20">poss</dependency>
+      <dependency dep="in" dep_index="18" gov="vitro" gov_index="19">dep</dependency>
+      <dependency dep="vitro" dep_index="19" gov="findings" gov_index="20">amod</dependency>
+      <dependency dep="findings" dep_index="20" gov="relevant" gov_index="23">nsubj</dependency>
+      <dependency dep="may" dep_index="21" gov="relevant" gov_index="23">aux</dependency>
+      <dependency dep="be" dep_index="22" gov="relevant" gov_index="23">cop</dependency>
+      <dependency dep="relevant" dep_index="23" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="25" gov="regulation" gov_index="26">det</dependency>
+      <dependency dep="regulation" dep_index="26" gov="relevant" gov_index="23">prep_to</dependency>
+      <dependency dep="actin" dep_index="28" gov="filaments" gov_index="29">nn</dependency>
+      <dependency dep="filaments" dep_index="29" gov="regulation" gov_index="26">prep_of</dependency>
+      <dependency dep="living" dep_index="31" gov="cells" gov_index="32">amod</dependency>
+      <dependency dep="cells" dep_index="32" gov="filaments" gov_index="29">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300005" relationship="true">3 8 5</relation>
+      <relation position="500028" relationship="false">5 8 23 26 29 28</relation>
+      <relation position="300028" relationship="false">3 8 23 26 29 28</relation>
+   </relations>
+   <pairs>
+      <pair>300005</pair>
+   </pairs>
+</root>

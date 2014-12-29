@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@demonstrated@that@katX@is@also@a@sigmaB@-dependent@general@stress@gene@,@since@it@is@strongly@induced@by@heat@,@salt@and@ethanol@stress@,@as@well@as@by@energy@depletion@.@</sentence>
+   <tags>
+      <tag pos="8">sigmaB</tag>
+      <tag pos="4">katX</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NN">katX</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="RB">also</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">sigmaB</taggedword>
+      <taggedword index="9" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="10" part-of-speech="JJ">general</taggedword>
+      <taggedword index="11" part-of-speech="NN">stress</taggedword>
+      <taggedword index="12" part-of-speech="NN">gene</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="IN">since</taggedword>
+      <taggedword index="15" part-of-speech="PRP">it</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="17" part-of-speech="RB">strongly</taggedword>
+      <taggedword index="18" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="19" part-of-speech="IN">by</taggedword>
+      <taggedword index="20" part-of-speech="NN">heat</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NN">salt</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="NN">ethanol</taggedword>
+      <taggedword index="25" part-of-speech="NN">stress</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="RB">as</taggedword>
+      <taggedword index="28" part-of-speech="RB">well</taggedword>
+      <taggedword index="29" part-of-speech="IN">as</taggedword>
+      <taggedword index="30" part-of-speech="IN">by</taggedword>
+      <taggedword index="31" part-of-speech="NN">energy</taggedword>
+      <taggedword index="32" part-of-speech="NN">depletion</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="demonstrated" gov_index="2">nsubj</dependency>
+      <dependency dep="demonstrated" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="gene" gov_index="12">mark</dependency>
+      <dependency dep="katX" dep_index="4" gov="gene" gov_index="12">nsubj</dependency>
+      <dependency dep="is" dep_index="5" gov="gene" gov_index="12">cop</dependency>
+      <dependency dep="also" dep_index="6" gov="gene" gov_index="12">advmod</dependency>
+      <dependency dep="a" dep_index="7" gov="gene" gov_index="12">det</dependency>
+      <dependency dep="sigmaB" dep_index="8" gov="-dependent" gov_index="9">amod</dependency>
+      <dependency dep="-dependent" dep_index="9" gov="gene" gov_index="12">amod</dependency>
+      <dependency dep="general" dep_index="10" gov="gene" gov_index="12">amod</dependency>
+      <dependency dep="stress" dep_index="11" gov="gene" gov_index="12">nn</dependency>
+      <dependency dep="gene" dep_index="12" gov="demonstrated" gov_index="2">ccomp</dependency>
+      <dependency dep="since" dep_index="14" gov="induced" gov_index="18">mark</dependency>
+      <dependency dep="it" dep_index="15" gov="induced" gov_index="18">nsubjpass</dependency>
+      <dependency dep="is" dep_index="16" gov="induced" gov_index="18">auxpass</dependency>
+      <dependency dep="strongly" dep_index="17" gov="induced" gov_index="18">advmod</dependency>
+      <dependency dep="induced" dep_index="18" gov="gene" gov_index="12">advcl</dependency>
+      <dependency dep="heat" dep_index="20" gov="induced" gov_index="18">agent</dependency>
+      <dependency dep="salt" dep_index="22" gov="induced" gov_index="18">agent</dependency>
+      <dependency dep="salt" dep_index="22" gov="heat" gov_index="20">conj_and</dependency>
+      <dependency dep="ethanol" dep_index="24" gov="stress" gov_index="25">nn</dependency>
+      <dependency dep="stress" dep_index="25" gov="induced" gov_index="18">agent</dependency>
+      <dependency dep="stress" dep_index="25" gov="heat" gov_index="20">conj_and</dependency>
+      <dependency dep="energy" dep_index="31" gov="depletion" gov_index="32">nn</dependency>
+      <dependency dep="depletion" dep_index="32" gov="induced" gov_index="18">agent</dependency>
+      <dependency dep="depletion" dep_index="32" gov="heat" gov_index="20">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400008" relationship="true">4 12 9 8</relation>
+   </relations>
+   <pairs>
+      <pair>400008</pair>
+   </pairs>
+</root>

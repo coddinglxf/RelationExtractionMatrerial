@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Shared@and@unique@determinants@of@the@erythropoietin (EPO) receptor@are@important@for@binding@EPO@and@EPO mimetic peptide@.@</sentence>
+   <tags>
+      <tag pos="7">erythropoietin (EPO) receptor</tag>
+      <tag pos="12">EPO</tag>
+      <tag pos="14">EPO mimetic peptide</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Shared</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="JJ">unique</taggedword>
+      <taggedword index="4" part-of-speech="NNS">determinants</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">erythropoietin (EPO) receptor</taggedword>
+      <taggedword index="8" part-of-speech="VBP">are</taggedword>
+      <taggedword index="9" part-of-speech="JJ">important</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="12" part-of-speech="NNP">EPO</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NNP">EPO mimetic peptide</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Shared" dep_index="1" gov="determinants" gov_index="4">amod</dependency>
+      <dependency dep="unique" dep_index="3" gov="Shared" gov_index="1">conj_and</dependency>
+      <dependency dep="unique" dep_index="3" gov="determinants" gov_index="4">amod</dependency>
+      <dependency dep="determinants" dep_index="4" gov="important" gov_index="9">nsubj</dependency>
+      <dependency dep="the" dep_index="6" gov="erythropoietin (EPO) receptor" gov_index="7">det</dependency>
+      <dependency dep="erythropoietin (EPO) receptor" dep_index="7" gov="determinants" gov_index="4">prep_of</dependency>
+      <dependency dep="are" dep_index="8" gov="important" gov_index="9">cop</dependency>
+      <dependency dep="important" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="binding" dep_index="11" gov="EPO" gov_index="12">amod</dependency>
+      <dependency dep="EPO" dep_index="12" gov="important" gov_index="9">prep_for</dependency>
+      <dependency dep="EPO mimetic peptide" dep_index="14" gov="important" gov_index="9">prep_for</dependency>
+      <dependency dep="EPO mimetic peptide" dep_index="14" gov="EPO" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700012" relationship="true">7 4 9 12</relation>
+      <relation position="700014" relationship="false">7 4 9 14</relation>
+      <relation position="1200014" relationship="false">12 9 14</relation>
+   </relations>
+   <pairs>
+      <pair>700012</pair>
+   </pairs>
+</root>

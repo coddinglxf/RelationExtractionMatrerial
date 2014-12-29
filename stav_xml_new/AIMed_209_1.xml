@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Protein@binding@and@signaling@properties@of@RIN1@suggest@a@unique@effector@function@.@</sentence>
+   <tags>
+      <tag pos="7">RIN1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Protein</taggedword>
+      <taggedword index="2" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">signaling</taggedword>
+      <taggedword index="5" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNP">RIN1</taggedword>
+      <taggedword index="8" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="JJ">unique</taggedword>
+      <taggedword index="11" part-of-speech="NN">effector</taggedword>
+      <taggedword index="12" part-of-speech="NN">function</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Protein" dep_index="1" gov="properties" gov_index="5">amod</dependency>
+      <dependency dep="binding" dep_index="2" gov="properties" gov_index="5">amod</dependency>
+      <dependency dep="signaling" dep_index="4" gov="binding" gov_index="2">conj_and</dependency>
+      <dependency dep="signaling" dep_index="4" gov="properties" gov_index="5">amod</dependency>
+      <dependency dep="properties" dep_index="5" gov="suggest" gov_index="8">nsubj</dependency>
+      <dependency dep="RIN1" dep_index="7" gov="properties" gov_index="5">prep_of</dependency>
+      <dependency dep="suggest" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="9" gov="function" gov_index="12">det</dependency>
+      <dependency dep="unique" dep_index="10" gov="function" gov_index="12">amod</dependency>
+      <dependency dep="effector" dep_index="11" gov="function" gov_index="12">nn</dependency>
+      <dependency dep="function" dep_index="12" gov="suggest" gov_index="8">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

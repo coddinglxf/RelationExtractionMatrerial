@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@17S@but@not@the@12S@form@of@U2 snRNP@is@active@in@splicing-complex@formation@.@</sentence>
+   <tags>
+      <tag pos="9">U2 snRNP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="CD">17S</taggedword>
+      <taggedword index="3" part-of-speech="CC">but</taggedword>
+      <taggedword index="4" part-of-speech="RB">not</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="CD">12S</taggedword>
+      <taggedword index="7" part-of-speech="NN">form</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNS">U2 snRNP</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="JJ">active</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="JJ">splicing-complex</taggedword>
+      <taggedword index="14" part-of-speech="NN">formation</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="17S" gov_index="2">det</dependency>
+      <dependency dep="17S" dep_index="2" gov="active" gov_index="11">nsubj</dependency>
+      <dependency dep="the" dep_index="5" gov="form" gov_index="7">det</dependency>
+      <dependency dep="12S" dep_index="6" gov="form" gov_index="7">num</dependency>
+      <dependency dep="form" dep_index="7" gov="17S" gov_index="2">conj_negcc</dependency>
+      <dependency dep="form" dep_index="7" gov="active" gov_index="11">nsubj</dependency>
+      <dependency dep="U2 snRNP" dep_index="9" gov="form" gov_index="7">prep_of</dependency>
+      <dependency dep="is" dep_index="10" gov="active" gov_index="11">cop</dependency>
+      <dependency dep="active" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="splicing-complex" dep_index="13" gov="formation" gov_index="14">amod</dependency>
+      <dependency dep="formation" dep_index="14" gov="active" gov_index="11">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

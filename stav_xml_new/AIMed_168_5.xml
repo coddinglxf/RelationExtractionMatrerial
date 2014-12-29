@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Substitution@of@phenylalanine@at@position@93@(Phe93)@with@alanine@(F93A@mutation)@resulted@in@a@drastic@reduction@in@EPO@binding@in@the@EBP@.@</sentence>
+   <tags>
+      <tag pos="18">EPO</tag>
+      <tag pos="22">EBP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Substitution</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">phenylalanine</taggedword>
+      <taggedword index="4" part-of-speech="IN">at</taggedword>
+      <taggedword index="5" part-of-speech="NN">position</taggedword>
+      <taggedword index="6" part-of-speech="CD">93</taggedword>
+      <taggedword index="7" part-of-speech="NN">(Phe93)</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="JJ">alanine</taggedword>
+      <taggedword index="10" part-of-speech="CD">(F93A</taggedword>
+      <taggedword index="11" part-of-speech="NNS">mutation)</taggedword>
+      <taggedword index="12" part-of-speech="VBD">resulted</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="JJ">drastic</taggedword>
+      <taggedword index="16" part-of-speech="NN">reduction</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="NNP">EPO</taggedword>
+      <taggedword index="19" part-of-speech="NNP">binding</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NNP">EBP</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Substitution" dep_index="1" gov="resulted" gov_index="12">nsubj</dependency>
+      <dependency dep="phenylalanine" dep_index="3" gov="Substitution" gov_index="1">prep_of</dependency>
+      <dependency dep="position" dep_index="5" gov="(Phe93)" gov_index="7">nn</dependency>
+      <dependency dep="93" dep_index="6" gov="(Phe93)" gov_index="7">num</dependency>
+      <dependency dep="(Phe93)" dep_index="7" gov="phenylalanine" gov_index="3">prep_at</dependency>
+      <dependency dep="alanine" dep_index="9" gov="mutation)" gov_index="11">amod</dependency>
+      <dependency dep="(F93A" dep_index="10" gov="mutation)" gov_index="11">num</dependency>
+      <dependency dep="mutation)" dep_index="11" gov="(Phe93)" gov_index="7">prep_with</dependency>
+      <dependency dep="resulted" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="14" gov="reduction" gov_index="16">det</dependency>
+      <dependency dep="drastic" dep_index="15" gov="reduction" gov_index="16">amod</dependency>
+      <dependency dep="reduction" dep_index="16" gov="resulted" gov_index="12">prep_in</dependency>
+      <dependency dep="EPO" dep_index="18" gov="binding" gov_index="19">nn</dependency>
+      <dependency dep="binding" dep_index="19" gov="resulted" gov_index="12">prep_in</dependency>
+      <dependency dep="the" dep_index="21" gov="EBP" gov_index="22">det</dependency>
+      <dependency dep="EBP" dep_index="22" gov="binding" gov_index="19">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800022" relationship="true">18 19 22</relation>
+   </relations>
+   <pairs>
+      <pair>1800022</pair>
+   </pairs>
+</root>

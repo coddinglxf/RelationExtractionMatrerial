@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@transient@expression@assays@,@we@found@that@PU.1@and@NF-IL6 beta@can@functionally@cooperate@to@synergistically@activate@transcription@.@</sentence>
+   <tags>
+      <tag pos="9">PU.1</tag>
+      <tag pos="11">NF-IL6 beta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">transient</taggedword>
+      <taggedword index="3" part-of-speech="NN">expression</taggedword>
+      <taggedword index="4" part-of-speech="NNS">assays</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="PRP">we</taggedword>
+      <taggedword index="7" part-of-speech="VBD">found</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="NNP">PU.1</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNP">NF-IL6 beta</taggedword>
+      <taggedword index="12" part-of-speech="MD">can</taggedword>
+      <taggedword index="13" part-of-speech="RB">functionally</taggedword>
+      <taggedword index="14" part-of-speech="VB">cooperate</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="VB">synergistically</taggedword>
+      <taggedword index="17" part-of-speech="JJ">activate</taggedword>
+      <taggedword index="18" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="transient" dep_index="2" gov="assays" gov_index="4">amod</dependency>
+      <dependency dep="expression" dep_index="3" gov="assays" gov_index="4">nn</dependency>
+      <dependency dep="assays" dep_index="4" gov="found" gov_index="7">prep_in</dependency>
+      <dependency dep="we" dep_index="6" gov="found" gov_index="7">nsubj</dependency>
+      <dependency dep="found" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="cooperate" gov_index="14">mark</dependency>
+      <dependency dep="PU.1" dep_index="9" gov="cooperate" gov_index="14">nsubj</dependency>
+      <dependency dep="PU.1" dep_index="9" gov="synergistically" gov_index="16">xsubj</dependency>
+      <dependency dep="NF-IL6 beta" dep_index="11" gov="PU.1" gov_index="9">conj_and</dependency>
+      <dependency dep="NF-IL6 beta" dep_index="11" gov="cooperate" gov_index="14">nsubj</dependency>
+      <dependency dep="NF-IL6 beta" dep_index="11" gov="synergistically" gov_index="16">xsubj</dependency>
+      <dependency dep="can" dep_index="12" gov="cooperate" gov_index="14">aux</dependency>
+      <dependency dep="functionally" dep_index="13" gov="cooperate" gov_index="14">advmod</dependency>
+      <dependency dep="cooperate" dep_index="14" gov="found" gov_index="7">ccomp</dependency>
+      <dependency dep="to" dep_index="15" gov="synergistically" gov_index="16">aux</dependency>
+      <dependency dep="synergistically" dep_index="16" gov="cooperate" gov_index="14">xcomp</dependency>
+      <dependency dep="activate" dep_index="17" gov="transcription" gov_index="18">amod</dependency>
+      <dependency dep="transcription" dep_index="18" gov="synergistically" gov_index="16">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="false">9 16 11</relation>
+   </relations>
+   <pairs/>
+</root>

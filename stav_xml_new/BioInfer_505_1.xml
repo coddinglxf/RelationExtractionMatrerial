@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Pyrenyliodoacetamide@labeling@of@cysteine@374@of@muscle actin@reduces@the@affinity@for@profilin@10-fold@.@</sentence>
+   <tags>
+      <tag pos="7">muscle actin</tag>
+      <tag pos="12">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Pyrenyliodoacetamide</taggedword>
+      <taggedword index="2" part-of-speech="NNP">labeling</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">cysteine</taggedword>
+      <taggedword index="5" part-of-speech="NNS">374</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">muscle actin</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">reduces</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="11" part-of-speech="IN">for</taggedword>
+      <taggedword index="12" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="13" part-of-speech="NNS">10-fold</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Pyrenyliodoacetamide" dep_index="1" gov="labeling" gov_index="2">nn</dependency>
+      <dependency dep="labeling" dep_index="2" gov="reduces" gov_index="8">nsubj</dependency>
+      <dependency dep="cysteine" dep_index="4" gov="374" gov_index="5">amod</dependency>
+      <dependency dep="374" dep_index="5" gov="labeling" gov_index="2">prep_of</dependency>
+      <dependency dep="muscle actin" dep_index="7" gov="374" gov_index="5">prep_of</dependency>
+      <dependency dep="reduces" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="9" gov="affinity" gov_index="10">det</dependency>
+      <dependency dep="affinity" dep_index="10" gov="reduces" gov_index="8">dobj</dependency>
+      <dependency dep="profilin" dep_index="12" gov="10-fold" gov_index="13">nn</dependency>
+      <dependency dep="10-fold" dep_index="13" gov="affinity" gov_index="10">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700012" relationship="true">7 5 2 8 10 13 12</relation>
+   </relations>
+   <pairs>
+      <pair>700012</pair>
+   </pairs>
+</root>

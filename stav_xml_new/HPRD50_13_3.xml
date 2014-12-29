@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@work@suggests@that@LIS1@is@a@regulated@adapter@between@CLIP-170@and@cytoplasmic@dynein@at@sites@involved@in@cargo-MT@loading@,@and/or@in@the@control@of@MT@dynamics@</sentence>
+   <tags>
+      <tag pos="5">LIS1</tag>
+      <tag pos="11">CLIP-170</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="NN">work</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">LIS1</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">regulated</taggedword>
+      <taggedword index="9" part-of-speech="NN">adapter</taggedword>
+      <taggedword index="10" part-of-speech="IN">between</taggedword>
+      <taggedword index="11" part-of-speech="JJ">CLIP-170</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="JJ">cytoplasmic</taggedword>
+      <taggedword index="14" part-of-speech="NN">dynein</taggedword>
+      <taggedword index="15" part-of-speech="IN">at</taggedword>
+      <taggedword index="16" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="17" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="JJ">cargo-MT</taggedword>
+      <taggedword index="20" part-of-speech="NN">loading</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NN">and/or</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">control</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="NNP">MT</taggedword>
+      <taggedword index="28" part-of-speech="NNS">dynamics</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="work" gov_index="2">det</dependency>
+      <dependency dep="work" dep_index="2" gov="suggests" gov_index="3">nsubj</dependency>
+      <dependency dep="suggests" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="adapter" gov_index="9">mark</dependency>
+      <dependency dep="LIS1" dep_index="5" gov="adapter" gov_index="9">nsubj</dependency>
+      <dependency dep="is" dep_index="6" gov="adapter" gov_index="9">cop</dependency>
+      <dependency dep="a" dep_index="7" gov="adapter" gov_index="9">det</dependency>
+      <dependency dep="regulated" dep_index="8" gov="adapter" gov_index="9">amod</dependency>
+      <dependency dep="adapter" dep_index="9" gov="suggests" gov_index="3">ccomp</dependency>
+      <dependency dep="CLIP-170" dep_index="11" gov="dynein" gov_index="14">amod</dependency>
+      <dependency dep="cytoplasmic" dep_index="13" gov="CLIP-170" gov_index="11">conj_and</dependency>
+      <dependency dep="cytoplasmic" dep_index="13" gov="dynein" gov_index="14">amod</dependency>
+      <dependency dep="dynein" dep_index="14" gov="adapter" gov_index="9">prep_between</dependency>
+      <dependency dep="sites" dep_index="16" gov="dynein" gov_index="14">prep_at</dependency>
+      <dependency dep="involved" dep_index="17" gov="sites" gov_index="16">partmod</dependency>
+      <dependency dep="cargo-MT" dep_index="19" gov="loading" gov_index="20">amod</dependency>
+      <dependency dep="loading" dep_index="20" gov="involved" gov_index="17">prep_in</dependency>
+      <dependency dep="and/or" dep_index="22" gov="loading" gov_index="20">appos</dependency>
+      <dependency dep="the" dep_index="24" gov="control" gov_index="25">det</dependency>
+      <dependency dep="control" dep_index="25" gov="and/or" gov_index="22">prep_in</dependency>
+      <dependency dep="MT" dep_index="27" gov="dynamics" gov_index="28">nn</dependency>
+      <dependency dep="dynamics" dep_index="28" gov="control" gov_index="25">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500011" relationship="true">5 9 14 11</relation>
+   </relations>
+   <pairs>
+      <pair>500011</pair>
+   </pairs>
+</root>

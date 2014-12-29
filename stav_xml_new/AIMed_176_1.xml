@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interactions@of@p60@,@a@mediator@of@progesterone receptor@assembly@,@with@heat@shock@proteins@hsp90@and@hsp70@.@</sentence>
+   <tags>
+      <tag pos="3">p60</tag>
+      <tag pos="8">progesterone receptor</tag>
+      <tag pos="15">hsp90</tag>
+      <tag pos="17">hsp70</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Interactions</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="CD">p60</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="NN">mediator</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NN">progesterone receptor</taggedword>
+      <taggedword index="9" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="NN">heat</taggedword>
+      <taggedword index="13" part-of-speech="NN">shock</taggedword>
+      <taggedword index="14" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="15" part-of-speech="JJ">hsp90</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="JJ">hsp70</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interactions" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="p60" dep_index="3" gov="Interactions" gov_index="1">prep_of</dependency>
+      <dependency dep="a" dep_index="5" gov="mediator" gov_index="6">det</dependency>
+      <dependency dep="mediator" dep_index="6" gov="Interactions" gov_index="1">appos</dependency>
+      <dependency dep="progesterone receptor" dep_index="8" gov="assembly" gov_index="9">nn</dependency>
+      <dependency dep="assembly" dep_index="9" gov="mediator" gov_index="6">prep_of</dependency>
+      <dependency dep="heat" dep_index="12" gov="proteins" gov_index="14">nn</dependency>
+      <dependency dep="shock" dep_index="13" gov="proteins" gov_index="14">nn</dependency>
+      <dependency dep="proteins" dep_index="14" gov="Interactions" gov_index="1">prep_with</dependency>
+      <dependency dep="hsp90" dep_index="15" gov="proteins" gov_index="14">amod</dependency>
+      <dependency dep="hsp70" dep_index="17" gov="proteins" gov_index="14">amod</dependency>
+      <dependency dep="hsp70" dep_index="17" gov="hsp90" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300008" relationship="false">3 1 6 9 8</relation>
+      <relation position="300015" relationship="true">3 1 14 15</relation>
+      <relation position="300017" relationship="true">3 1 14 17</relation>
+      <relation position="800015" relationship="false">8 9 6 1 14 15</relation>
+      <relation position="800017" relationship="false">8 9 6 1 14 17</relation>
+      <relation position="1500017" relationship="false">15 14 17</relation>
+   </relations>
+   <pairs>
+      <pair>300017</pair>
+      <pair>300015</pair>
+   </pairs>
+</root>

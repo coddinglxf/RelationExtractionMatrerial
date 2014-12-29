@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@tyrosine@kinases@Flt4@,@Flt1@,@and@Flk1@(or@KDR@)@constitute@a@family@of@endothelial@cell-specific@receptors@with@seven@immunoglobulin-like@domains@and@a@split@kinase@domain@.@</sentence>
+   <tags>
+      <tag pos="4">Flt4</tag>
+      <tag pos="6">Flt1</tag>
+      <tag pos="9">Flk1</tag>
+      <tag pos="11">KDR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">kinases</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Flt4</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NNP">Flt1</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Flk1</taggedword>
+      <taggedword index="10" part-of-speech="VBP">(or</taggedword>
+      <taggedword index="11" part-of-speech="NNP">KDR</taggedword>
+      <taggedword index="12" part-of-speech="NNP">)</taggedword>
+      <taggedword index="13" part-of-speech="VBP">constitute</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="NN">family</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">endothelial</taggedword>
+      <taggedword index="18" part-of-speech="JJ">cell-specific</taggedword>
+      <taggedword index="19" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="CD">seven</taggedword>
+      <taggedword index="22" part-of-speech="JJ">immunoglobulin-like</taggedword>
+      <taggedword index="23" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="DT">a</taggedword>
+      <taggedword index="26" part-of-speech="NN">split</taggedword>
+      <taggedword index="27" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="28" part-of-speech="NN">domain</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="tyrosine" gov_index="2">det</dependency>
+      <dependency dep="tyrosine" dep_index="2" gov="kinases" gov_index="3">nsubj</dependency>
+      <dependency dep="kinases" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Flt4" dep_index="4" gov="(or" gov_index="10">nsubj</dependency>
+      <dependency dep="Flt1" dep_index="6" gov="Flt4" gov_index="4">conj_and</dependency>
+      <dependency dep="Flt1" dep_index="6" gov="(or" gov_index="10">nsubj</dependency>
+      <dependency dep="Flk1" dep_index="9" gov="Flt4" gov_index="4">conj_and</dependency>
+      <dependency dep="Flk1" dep_index="9" gov="(or" gov_index="10">nsubj</dependency>
+      <dependency dep="(or" dep_index="10" gov="kinases" gov_index="3">ccomp</dependency>
+      <dependency dep="KDR" dep_index="11" gov=")" gov_index="12">nn</dependency>
+      <dependency dep=")" dep_index="12" gov="constitute" gov_index="13">nsubj</dependency>
+      <dependency dep="constitute" dep_index="13" gov="(or" gov_index="10">ccomp</dependency>
+      <dependency dep="a" dep_index="14" gov="family" gov_index="15">det</dependency>
+      <dependency dep="family" dep_index="15" gov="constitute" gov_index="13">dobj</dependency>
+      <dependency dep="endothelial" dep_index="17" gov="receptors" gov_index="19">amod</dependency>
+      <dependency dep="cell-specific" dep_index="18" gov="receptors" gov_index="19">amod</dependency>
+      <dependency dep="receptors" dep_index="19" gov="family" gov_index="15">prep_of</dependency>
+      <dependency dep="seven" dep_index="21" gov="domains" gov_index="23">num</dependency>
+      <dependency dep="immunoglobulin-like" dep_index="22" gov="domains" gov_index="23">amod</dependency>
+      <dependency dep="domains" dep_index="23" gov="constitute" gov_index="13">prep_with</dependency>
+      <dependency dep="a" dep_index="25" gov="domain" gov_index="28">det</dependency>
+      <dependency dep="split" dep_index="26" gov="domain" gov_index="28">nn</dependency>
+      <dependency dep="kinase" dep_index="27" gov="domain" gov_index="28">nn</dependency>
+      <dependency dep="domain" dep_index="28" gov="constitute" gov_index="13">prep_with</dependency>
+      <dependency dep="domain" dep_index="28" gov="domains" gov_index="23">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 10 6</relation>
+      <relation position="400009" relationship="false">4 10 9</relation>
+      <relation position="400011" relationship="false">4 10 13 12 11</relation>
+      <relation position="600009" relationship="false">6 10 9</relation>
+      <relation position="600011" relationship="false">6 10 13 12 11</relation>
+      <relation position="900011" relationship="false">9 10 13 12 11</relation>
+   </relations>
+   <pairs/>
+</root>

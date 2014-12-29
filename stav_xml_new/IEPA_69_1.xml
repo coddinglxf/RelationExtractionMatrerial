@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>During@wk@6@,@milk@yield@and@dry@matter@intake@(DMI)@were@recorded@daily@,@and@plasma@concentrations@of@glucose@,@nonesterified@fatty@acids@,@urea@,@protein@,@growth@hormone@,@insulin@,@insulin-like@growth@factor@I@,@oxytocin@,@and@prolactin@were@determined@</sentence>
+   <tags>
+      <tag pos="33">insulin</tag>
+      <tag pos="40">oxytocin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">During</taggedword>
+      <taggedword index="2" part-of-speech="NN">wk</taggedword>
+      <taggedword index="3" part-of-speech="CD">6</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NN">milk</taggedword>
+      <taggedword index="6" part-of-speech="NN">yield</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">dry</taggedword>
+      <taggedword index="9" part-of-speech="NN">matter</taggedword>
+      <taggedword index="10" part-of-speech="NN">intake</taggedword>
+      <taggedword index="11" part-of-speech="NNS">(DMI)</taggedword>
+      <taggedword index="12" part-of-speech="VBD">were</taggedword>
+      <taggedword index="13" part-of-speech="VBN">recorded</taggedword>
+      <taggedword index="14" part-of-speech="RB">daily</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="18" part-of-speech="NNS">concentrations</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="JJ">nonesterified</taggedword>
+      <taggedword index="23" part-of-speech="NN">fatty</taggedword>
+      <taggedword index="24" part-of-speech="NNS">acids</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="NN">urea</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="NN">protein</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="NN">growth</taggedword>
+      <taggedword index="31" part-of-speech="NN">hormone</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="34" part-of-speech=",">,</taggedword>
+      <taggedword index="35" part-of-speech="JJ">insulin-like</taggedword>
+      <taggedword index="36" part-of-speech="NN">growth</taggedword>
+      <taggedword index="37" part-of-speech="NN">factor</taggedword>
+      <taggedword index="38" part-of-speech="NN">I</taggedword>
+      <taggedword index="39" part-of-speech=",">,</taggedword>
+      <taggedword index="40" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="41" part-of-speech=",">,</taggedword>
+      <taggedword index="42" part-of-speech="CC">and</taggedword>
+      <taggedword index="43" part-of-speech="NN">prolactin</taggedword>
+      <taggedword index="44" part-of-speech="VBD">were</taggedword>
+      <taggedword index="45" part-of-speech="VBN">determined</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="wk" dep_index="2" gov="recorded" gov_index="13">prep_during</dependency>
+      <dependency dep="6" dep_index="3" gov="wk" gov_index="2">num</dependency>
+      <dependency dep="milk" dep_index="5" gov="yield" gov_index="6">nn</dependency>
+      <dependency dep="yield" dep_index="6" gov="recorded" gov_index="13">nsubjpass</dependency>
+      <dependency dep="dry" dep_index="8" gov="(DMI)" gov_index="11">amod</dependency>
+      <dependency dep="matter" dep_index="9" gov="(DMI)" gov_index="11">nn</dependency>
+      <dependency dep="intake" dep_index="10" gov="(DMI)" gov_index="11">nn</dependency>
+      <dependency dep="(DMI)" dep_index="11" gov="yield" gov_index="6">conj_and</dependency>
+      <dependency dep="(DMI)" dep_index="11" gov="recorded" gov_index="13">nsubjpass</dependency>
+      <dependency dep="were" dep_index="12" gov="recorded" gov_index="13">auxpass</dependency>
+      <dependency dep="recorded" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="daily" dep_index="14" gov="recorded" gov_index="13">advmod</dependency>
+      <dependency dep="plasma" dep_index="17" gov="concentrations" gov_index="18">nn</dependency>
+      <dependency dep="concentrations" dep_index="18" gov="determined" gov_index="45">nsubjpass</dependency>
+      <dependency dep="glucose" dep_index="20" gov="concentrations" gov_index="18">prep_of</dependency>
+      <dependency dep="nonesterified" dep_index="22" gov="acids" gov_index="24">amod</dependency>
+      <dependency dep="fatty" dep_index="23" gov="acids" gov_index="24">nn</dependency>
+      <dependency dep="acids" dep_index="24" gov="concentrations" gov_index="18">prep_of</dependency>
+      <dependency dep="acids" dep_index="24" gov="glucose" gov_index="20">conj_and</dependency>
+      <dependency dep="urea" dep_index="26" gov="concentrations" gov_index="18">prep_of</dependency>
+      <dependency dep="urea" dep_index="26" gov="glucose" gov_index="20">conj_and</dependency>
+      <dependency dep="protein" dep_index="28" gov="concentrations" gov_index="18">prep_of</dependency>
+      <dependency dep="protein" dep_index="28" gov="glucose" gov_index="20">conj_and</dependency>
+      <dependency dep="growth" dep_index="30" gov="hormone" gov_index="31">nn</dependency>
+      <dependency dep="hormone" dep_index="31" gov="concentrations" gov_index="18">prep_of</dependency>
+      <dependency dep="hormone" dep_index="31" gov="glucose" gov_index="20">conj_and</dependency>
+      <dependency dep="insulin" dep_index="33" gov="concentrations" gov_index="18">prep_of</dependency>
+      <dependency dep="insulin" dep_index="33" gov="glucose" gov_index="20">conj_and</dependency>
+      <dependency dep="insulin-like" dep_index="35" gov="I" gov_index="38">amod</dependency>
+      <dependency dep="growth" dep_index="36" gov="I" gov_index="38">nn</dependency>
+      <dependency dep="factor" dep_index="37" gov="I" gov_index="38">nn</dependency>
+      <dependency dep="I" dep_index="38" gov="concentrations" gov_index="18">prep_of</dependency>
+      <dependency dep="I" dep_index="38" gov="glucose" gov_index="20">conj_and</dependency>
+      <dependency dep="oxytocin" dep_index="40" gov="concentrations" gov_index="18">prep_of</dependency>
+      <dependency dep="oxytocin" dep_index="40" gov="glucose" gov_index="20">conj_and</dependency>
+      <dependency dep="prolactin" dep_index="43" gov="concentrations" gov_index="18">prep_of</dependency>
+      <dependency dep="prolactin" dep_index="43" gov="glucose" gov_index="20">conj_and</dependency>
+      <dependency dep="were" dep_index="44" gov="determined" gov_index="45">auxpass</dependency>
+      <dependency dep="determined" dep_index="45" gov="recorded" gov_index="13">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3300040" relationship="false">33 18 40</relation>
+   </relations>
+   <pairs/>
+</root>

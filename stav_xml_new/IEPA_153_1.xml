@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interestingly@,@both@5-HT@and@leptin@modulate@the@action@of@NPY@,@which@may@form@a@part@of@a@common@output@pathway@for@the@expression@of@appetite@</sentence>
+   <tags>
+      <tag pos="6">leptin</tag>
+      <tag pos="11">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Interestingly</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">both</taggedword>
+      <taggedword index="4" part-of-speech="NN">5-HT</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="7" part-of-speech="VBP">modulate</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">action</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="WDT">which</taggedword>
+      <taggedword index="14" part-of-speech="MD">may</taggedword>
+      <taggedword index="15" part-of-speech="VB">form</taggedword>
+      <taggedword index="16" part-of-speech="DT">a</taggedword>
+      <taggedword index="17" part-of-speech="NN">part</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="DT">a</taggedword>
+      <taggedword index="20" part-of-speech="JJ">common</taggedword>
+      <taggedword index="21" part-of-speech="NN">output</taggedword>
+      <taggedword index="22" part-of-speech="NN">pathway</taggedword>
+      <taggedword index="23" part-of-speech="IN">for</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">expression</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="NN">appetite</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interestingly" dep_index="1" gov="modulate" gov_index="7">advmod</dependency>
+      <dependency dep="both" dep_index="3" gov="5-HT" gov_index="4">preconj</dependency>
+      <dependency dep="5-HT" dep_index="4" gov="modulate" gov_index="7">nsubj</dependency>
+      <dependency dep="leptin" dep_index="6" gov="5-HT" gov_index="4">conj_and</dependency>
+      <dependency dep="leptin" dep_index="6" gov="modulate" gov_index="7">nsubj</dependency>
+      <dependency dep="modulate" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="action" gov_index="9">det</dependency>
+      <dependency dep="action" dep_index="9" gov="modulate" gov_index="7">dobj</dependency>
+      <dependency dep="NPY" dep_index="11" gov="action" gov_index="9">prep_of</dependency>
+      <dependency dep="NPY" dep_index="11" gov="form" gov_index="15">nsubj</dependency>
+      <dependency dep="may" dep_index="14" gov="form" gov_index="15">aux</dependency>
+      <dependency dep="form" dep_index="15" gov="NPY" gov_index="11">rcmod</dependency>
+      <dependency dep="a" dep_index="16" gov="part" gov_index="17">det</dependency>
+      <dependency dep="part" dep_index="17" gov="form" gov_index="15">dobj</dependency>
+      <dependency dep="a" dep_index="19" gov="pathway" gov_index="22">det</dependency>
+      <dependency dep="common" dep_index="20" gov="pathway" gov_index="22">amod</dependency>
+      <dependency dep="output" dep_index="21" gov="pathway" gov_index="22">nn</dependency>
+      <dependency dep="pathway" dep_index="22" gov="part" gov_index="17">prep_of</dependency>
+      <dependency dep="the" dep_index="24" gov="expression" gov_index="25">det</dependency>
+      <dependency dep="expression" dep_index="25" gov="form" gov_index="15">prep_for</dependency>
+      <dependency dep="appetite" dep_index="27" gov="expression" gov_index="25">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600011" relationship="true">6 7 9 11</relation>
+   </relations>
+   <pairs>
+      <pair>600011</pair>
+   </pairs>
+</root>

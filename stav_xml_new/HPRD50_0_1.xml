@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cloning@and@characterization@of@two@evolutionarily@conserved@subunits@(@TFIIIC102@and@TFIIIC63@)@of@human@TFIIIC@and@their@involvement@in@functional@interactions@with@TFIIIB@and@RNA@polymerase@III@</sentence>
+   <tags>
+      <tag pos="10">TFIIIC102</tag>
+      <tag pos="12">TFIIIC63</tag>
+      <tag pos="16">TFIIIC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Cloning</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NN">characterization</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="CD">two</taggedword>
+      <taggedword index="6" part-of-speech="NN">evolutionarily</taggedword>
+      <taggedword index="7" part-of-speech="VBD">conserved</taggedword>
+      <taggedword index="8" part-of-speech="NNS">subunits</taggedword>
+      <taggedword index="9" part-of-speech="NNP">(</taggedword>
+      <taggedword index="10" part-of-speech="NNP">TFIIIC102</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNP">TFIIIC63</taggedword>
+      <taggedword index="13" part-of-speech="NNP">)</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">human</taggedword>
+      <taggedword index="16" part-of-speech="NN">TFIIIC</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="19" part-of-speech="NN">involvement</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="22" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="23" part-of-speech="IN">with</taggedword>
+      <taggedword index="24" part-of-speech="NNP">TFIIIB</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="27" part-of-speech="NNP">polymerase</taggedword>
+      <taggedword index="28" part-of-speech="NNP">III</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cloning" dep_index="1" gov="conserved" gov_index="7">nsubj</dependency>
+      <dependency dep="characterization" dep_index="3" gov="Cloning" gov_index="1">conj_and</dependency>
+      <dependency dep="characterization" dep_index="3" gov="conserved" gov_index="7">nsubj</dependency>
+      <dependency dep="two" dep_index="5" gov="evolutionarily" gov_index="6">num</dependency>
+      <dependency dep="evolutionarily" dep_index="6" gov="Cloning" gov_index="1">prep_of</dependency>
+      <dependency dep="conserved" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="subunits" dep_index="8" gov="TFIIIC102" gov_index="10">nn</dependency>
+      <dependency dep="(" dep_index="9" gov="TFIIIC102" gov_index="10">nn</dependency>
+      <dependency dep="TFIIIC102" dep_index="10" gov="conserved" gov_index="7">dobj</dependency>
+      <dependency dep="TFIIIC63" dep_index="12" gov=")" gov_index="13">nn</dependency>
+      <dependency dep=")" dep_index="13" gov="conserved" gov_index="7">dobj</dependency>
+      <dependency dep=")" dep_index="13" gov="TFIIIC102" gov_index="10">conj_and</dependency>
+      <dependency dep="human" dep_index="15" gov="TFIIIC" gov_index="16">amod</dependency>
+      <dependency dep="TFIIIC" dep_index="16" gov="TFIIIC102" gov_index="10">prep_of</dependency>
+      <dependency dep="their" dep_index="18" gov="involvement" gov_index="19">poss</dependency>
+      <dependency dep="involvement" dep_index="19" gov="conserved" gov_index="7">dobj</dependency>
+      <dependency dep="involvement" dep_index="19" gov="TFIIIC102" gov_index="10">conj_and</dependency>
+      <dependency dep="functional" dep_index="21" gov="interactions" gov_index="22">amod</dependency>
+      <dependency dep="interactions" dep_index="22" gov="involvement" gov_index="19">prep_in</dependency>
+      <dependency dep="TFIIIB" dep_index="24" gov="conserved" gov_index="7">prep_with</dependency>
+      <dependency dep="RNA" dep_index="26" gov="III" gov_index="28">nn</dependency>
+      <dependency dep="polymerase" dep_index="27" gov="III" gov_index="28">nn</dependency>
+      <dependency dep="III" dep_index="28" gov="conserved" gov_index="7">prep_with</dependency>
+      <dependency dep="III" dep_index="28" gov="TFIIIB" gov_index="24">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000012" relationship="false">10 7 13 12</relation>
+      <relation position="1000016" relationship="false"></relation>
+      <relation position="1200016" relationship="false">12 13 7 10 16</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Of@these@,@only@cdc7@was@up-regulated@more@than@3.5@fold@.@</sentence>
+   <tags>
+      <tag pos="5">cdc7</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Of</taggedword>
+      <taggedword index="2" part-of-speech="DT">these</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">only</taggedword>
+      <taggedword index="5" part-of-speech="NNS">cdc7</taggedword>
+      <taggedword index="6" part-of-speech="VBD">was</taggedword>
+      <taggedword index="7" part-of-speech="VBN">up-regulated</taggedword>
+      <taggedword index="8" part-of-speech="JJR">more</taggedword>
+      <taggedword index="9" part-of-speech="IN">than</taggedword>
+      <taggedword index="10" part-of-speech="CD">3.5</taggedword>
+      <taggedword index="11" part-of-speech="NNS">fold</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="these" dep_index="2" gov="up-regulated" gov_index="7">prep_of</dependency>
+      <dependency dep="only" dep_index="4" gov="cdc7" gov_index="5">amod</dependency>
+      <dependency dep="cdc7" dep_index="5" gov="up-regulated" gov_index="7">nsubjpass</dependency>
+      <dependency dep="was" dep_index="6" gov="up-regulated" gov_index="7">auxpass</dependency>
+      <dependency dep="up-regulated" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="more" dep_index="8" gov="than" gov_index="9">mwe</dependency>
+      <dependency dep="than" dep_index="9" gov="3.5" gov_index="10">quantmod</dependency>
+      <dependency dep="3.5" dep_index="10" gov="fold" gov_index="11">num</dependency>
+      <dependency dep="fold" dep_index="11" gov="up-regulated" gov_index="7">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

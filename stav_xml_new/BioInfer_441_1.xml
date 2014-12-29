@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Motile@areas@of@leech@neurites@are@rich@in@microfilaments@and@two@actin-binding proteins@:@gelsolin@and@profilin@.@</sentence>
+   <tags>
+      <tag pos="14">gelsolin</tag>
+      <tag pos="16">profilin</tag>
+      <tag pos="12">actin-binding proteins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Motile</taggedword>
+      <taggedword index="2" part-of-speech="NNS">areas</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">leech</taggedword>
+      <taggedword index="5" part-of-speech="NNS">neurites</taggedword>
+      <taggedword index="6" part-of-speech="VBP">are</taggedword>
+      <taggedword index="7" part-of-speech="JJ">rich</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NNS">microfilaments</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="CD">two</taggedword>
+      <taggedword index="12" part-of-speech="NNS">actin-binding proteins</taggedword>
+      <taggedword index="13" part-of-speech=":">:</taggedword>
+      <taggedword index="14" part-of-speech="VBN">gelsolin</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">profilin</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Motile" dep_index="1" gov="areas" gov_index="2">amod</dependency>
+      <dependency dep="areas" dep_index="2" gov="rich" gov_index="7">nsubj</dependency>
+      <dependency dep="leech" dep_index="4" gov="neurites" gov_index="5">nn</dependency>
+      <dependency dep="neurites" dep_index="5" gov="areas" gov_index="2">prep_of</dependency>
+      <dependency dep="are" dep_index="6" gov="rich" gov_index="7">cop</dependency>
+      <dependency dep="rich" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="microfilaments" dep_index="9" gov="rich" gov_index="7">prep_in</dependency>
+      <dependency dep="two" dep_index="11" gov="actin-binding proteins" gov_index="12">num</dependency>
+      <dependency dep="actin-binding proteins" dep_index="12" gov="rich" gov_index="7">prep_in</dependency>
+      <dependency dep="actin-binding proteins" dep_index="12" gov="microfilaments" gov_index="9">conj_and</dependency>
+      <dependency dep="gelsolin" dep_index="14" gov="rich" gov_index="7">dep</dependency>
+      <dependency dep="profilin" dep_index="16" gov="rich" gov_index="7">dep</dependency>
+      <dependency dep="profilin" dep_index="16" gov="gelsolin" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400016" relationship="false">14 7 16</relation>
+      <relation position="1200014" relationship="true">12 7 14</relation>
+      <relation position="1200016" relationship="true">12 7 16</relation>
+   </relations>
+   <pairs>
+      <pair>1200016</pair>
+      <pair>1200014</pair>
+   </pairs>
+</root>

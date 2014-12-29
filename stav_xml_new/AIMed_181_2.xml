@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Mutations@in@the@p53@tumor@suppressor@are@among@the@most@frequently@observed@genetic@alterations@in@human@cancer@and@map@to@the@200-amino@acid@core@domain@of@the@protein@.@</sentence>
+   <tags>
+      <tag pos="4">p53</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Mutations</taggedword>
+      <taggedword index="2" part-of-speech="IN">in</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">p53</taggedword>
+      <taggedword index="5" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="6" part-of-speech="NN">suppressor</taggedword>
+      <taggedword index="7" part-of-speech="VBP">are</taggedword>
+      <taggedword index="8" part-of-speech="IN">among</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="RBS">most</taggedword>
+      <taggedword index="11" part-of-speech="RB">frequently</taggedword>
+      <taggedword index="12" part-of-speech="JJ">observed</taggedword>
+      <taggedword index="13" part-of-speech="JJ">genetic</taggedword>
+      <taggedword index="14" part-of-speech="NNS">alterations</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="JJ">human</taggedword>
+      <taggedword index="17" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">map</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="JJ">200-amino</taggedword>
+      <taggedword index="23" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="24" part-of-speech="NN">core</taggedword>
+      <taggedword index="25" part-of-speech="NN">domain</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">protein</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Mutations" dep_index="1" gov="are" gov_index="7">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="suppressor" gov_index="6">det</dependency>
+      <dependency dep="p53" dep_index="4" gov="suppressor" gov_index="6">nn</dependency>
+      <dependency dep="tumor" dep_index="5" gov="suppressor" gov_index="6">nn</dependency>
+      <dependency dep="suppressor" dep_index="6" gov="Mutations" gov_index="1">prep_in</dependency>
+      <dependency dep="are" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="9" gov="alterations" gov_index="14">det</dependency>
+      <dependency dep="most" dep_index="10" gov="frequently" gov_index="11">advmod</dependency>
+      <dependency dep="frequently" dep_index="11" gov="observed" gov_index="12">advmod</dependency>
+      <dependency dep="observed" dep_index="12" gov="alterations" gov_index="14">amod</dependency>
+      <dependency dep="genetic" dep_index="13" gov="alterations" gov_index="14">amod</dependency>
+      <dependency dep="alterations" dep_index="14" gov="are" gov_index="7">prep_among</dependency>
+      <dependency dep="human" dep_index="16" gov="cancer" gov_index="17">amod</dependency>
+      <dependency dep="cancer" dep_index="17" gov="alterations" gov_index="14">prep_in</dependency>
+      <dependency dep="map" dep_index="19" gov="alterations" gov_index="14">prep_in</dependency>
+      <dependency dep="map" dep_index="19" gov="cancer" gov_index="17">conj_and</dependency>
+      <dependency dep="the" dep_index="21" gov="domain" gov_index="25">det</dependency>
+      <dependency dep="200-amino" dep_index="22" gov="domain" gov_index="25">amod</dependency>
+      <dependency dep="acid" dep_index="23" gov="domain" gov_index="25">amod</dependency>
+      <dependency dep="core" dep_index="24" gov="domain" gov_index="25">nn</dependency>
+      <dependency dep="domain" dep_index="25" gov="are" gov_index="7">prep_to</dependency>
+      <dependency dep="the" dep_index="27" gov="protein" gov_index="28">det</dependency>
+      <dependency dep="protein" dep_index="28" gov="domain" gov_index="25">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

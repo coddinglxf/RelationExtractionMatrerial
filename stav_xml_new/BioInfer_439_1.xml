@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Most@of@these@integrins@,@with@their@intracellular@domains@,@interact@with@the@actin@-containing@cytoskeleton@,@via@linking@proteins@such@as@vinculin@and@talin@,@while@one@of@them@interacts@with@the@keratin@filaments@,@via@an@as@yet@unknown@linking@molecule(s)@.@</sentence>
+   <tags>
+      <tag pos="4">integrins</tag>
+      <tag pos="25">talin</tag>
+      <tag pos="23">vinculin</tag>
+      <tag pos="14">actin</tag>
+      <tag pos="34">keratin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJS">Most</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">these</taggedword>
+      <taggedword index="4" part-of-speech="NNS">integrins</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="8" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="9" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="VBP">interact</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="15" part-of-speech="JJ">-containing</taggedword>
+      <taggedword index="16" part-of-speech="NN">cytoskeleton</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="IN">via</taggedword>
+      <taggedword index="19" part-of-speech="VBG">linking</taggedword>
+      <taggedword index="20" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="21" part-of-speech="JJ">such</taggedword>
+      <taggedword index="22" part-of-speech="IN">as</taggedword>
+      <taggedword index="23" part-of-speech="NN">vinculin</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="NN">talin</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="IN">while</taggedword>
+      <taggedword index="28" part-of-speech="CD">one</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="PRP">them</taggedword>
+      <taggedword index="31" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="32" part-of-speech="IN">with</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="NN">keratin</taggedword>
+      <taggedword index="35" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="36" part-of-speech=",">,</taggedword>
+      <taggedword index="37" part-of-speech="IN">via</taggedword>
+      <taggedword index="38" part-of-speech="DT">an</taggedword>
+      <taggedword index="39" part-of-speech="RB">as</taggedword>
+      <taggedword index="40" part-of-speech="RB">yet</taggedword>
+      <taggedword index="41" part-of-speech="JJ">unknown</taggedword>
+      <taggedword index="42" part-of-speech="VBG">linking</taggedword>
+      <taggedword index="43" part-of-speech="NN">molecule(s)</taggedword>
+      <taggedword index="44" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Most" dep_index="1" gov="interact" gov_index="11">nsubj</dependency>
+      <dependency dep="these" dep_index="3" gov="integrins" gov_index="4">det</dependency>
+      <dependency dep="integrins" dep_index="4" gov="Most" gov_index="1">prep_of</dependency>
+      <dependency dep="their" dep_index="7" gov="domains" gov_index="9">poss</dependency>
+      <dependency dep="intracellular" dep_index="8" gov="domains" gov_index="9">nn</dependency>
+      <dependency dep="domains" dep_index="9" gov="Most" gov_index="1">prep_with</dependency>
+      <dependency dep="interact" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="13" gov="cytoskeleton" gov_index="16">det</dependency>
+      <dependency dep="actin" dep_index="14" gov="cytoskeleton" gov_index="16">amod</dependency>
+      <dependency dep="-containing" dep_index="15" gov="cytoskeleton" gov_index="16">amod</dependency>
+      <dependency dep="cytoskeleton" dep_index="16" gov="interact" gov_index="11">prep_with</dependency>
+      <dependency dep="linking" dep_index="19" gov="interact" gov_index="11">prepc_via</dependency>
+      <dependency dep="proteins" dep_index="20" gov="linking" gov_index="19">dobj</dependency>
+      <dependency dep="vinculin" dep_index="23" gov="proteins" gov_index="20">prep_such_as</dependency>
+      <dependency dep="talin" dep_index="25" gov="proteins" gov_index="20">prep_such_as</dependency>
+      <dependency dep="talin" dep_index="25" gov="vinculin" gov_index="23">conj_and</dependency>
+      <dependency dep="while" dep_index="27" gov="interacts" gov_index="31">mark</dependency>
+      <dependency dep="one" dep_index="28" gov="interacts" gov_index="31">nsubj</dependency>
+      <dependency dep="them" dep_index="30" gov="one" gov_index="28">prep_of</dependency>
+      <dependency dep="interacts" dep_index="31" gov="interact" gov_index="11">advcl</dependency>
+      <dependency dep="the" dep_index="33" gov="filaments" gov_index="35">det</dependency>
+      <dependency dep="keratin" dep_index="34" gov="filaments" gov_index="35">nn</dependency>
+      <dependency dep="filaments" dep_index="35" gov="interacts" gov_index="31">prep_with</dependency>
+      <dependency dep="an" dep_index="38" gov="molecule(s)" gov_index="43">det</dependency>
+      <dependency dep="as" dep_index="39" gov="unknown" gov_index="41">advmod</dependency>
+      <dependency dep="yet" dep_index="40" gov="unknown" gov_index="41">advmod</dependency>
+      <dependency dep="unknown" dep_index="41" gov="molecule(s)" gov_index="43">amod</dependency>
+      <dependency dep="linking" dep_index="42" gov="unknown" gov_index="41">dep</dependency>
+      <dependency dep="molecule(s)" dep_index="43" gov="filaments" gov_index="35">prep_via</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400025" relationship="true">4 1 11 19 20 25</relation>
+      <relation position="400023" relationship="true">4 1 11 19 20 23</relation>
+      <relation position="400014" relationship="true">4 1 11 16 14</relation>
+      <relation position="400034" relationship="true">4 1 11 31 35 34</relation>
+      <relation position="2300025" relationship="false">23 20 25</relation>
+      <relation position="1400025" relationship="true">14 16 11 19 20 25</relation>
+      <relation position="2500034" relationship="false">25 20 19 11 31 35 34</relation>
+      <relation position="1400023" relationship="true">14 16 11 19 20 23</relation>
+      <relation position="2300034" relationship="false">23 20 19 11 31 35 34</relation>
+      <relation position="1400034" relationship="false">14 16 11 31 35 34</relation>
+   </relations>
+   <pairs>
+      <pair>1400023</pair>
+      <pair>400025</pair>
+      <pair>400014</pair>
+      <pair>400034</pair>
+      <pair>400023</pair>
+      <pair>1400025</pair>
+   </pairs>
+</root>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@most@cases@,@ADF@and@cofilin@colocalized@in@the@same@nuclear@actin@rods@,@but@ADF@appeared@to@predominate@in@mononucleated@cells@,@while@cofilin@was@present@in@multinucleated@myotubes@.@</sentence>
+   <tags>
+      <tag pos="26">cofilin</tag>
+      <tag pos="5">ADF</tag>
+      <tag pos="17">ADF</tag>
+      <tag pos="13">actin</tag>
+      <tag pos="7">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJS">most</taggedword>
+      <taggedword index="3" part-of-speech="NNS">cases</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NNP">ADF</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">cofilin</taggedword>
+      <taggedword index="8" part-of-speech="VBD">colocalized</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">same</taggedword>
+      <taggedword index="12" part-of-speech="JJ">nuclear</taggedword>
+      <taggedword index="13" part-of-speech="NN">actin</taggedword>
+      <taggedword index="14" part-of-speech="NNS">rods</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">but</taggedword>
+      <taggedword index="17" part-of-speech="NNP">ADF</taggedword>
+      <taggedword index="18" part-of-speech="VBD">appeared</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="VB">predominate</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="JJ">mononucleated</taggedword>
+      <taggedword index="23" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="IN">while</taggedword>
+      <taggedword index="26" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="27" part-of-speech="VBD">was</taggedword>
+      <taggedword index="28" part-of-speech="JJ">present</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="JJ">multinucleated</taggedword>
+      <taggedword index="31" part-of-speech="NNS">myotubes</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="most" dep_index="2" gov="cases" gov_index="3">amod</dependency>
+      <dependency dep="cases" dep_index="3" gov="colocalized" gov_index="8">prep_in</dependency>
+      <dependency dep="ADF" dep_index="5" gov="colocalized" gov_index="8">nsubj</dependency>
+      <dependency dep="cofilin" dep_index="7" gov="ADF" gov_index="5">conj_and</dependency>
+      <dependency dep="cofilin" dep_index="7" gov="colocalized" gov_index="8">nsubj</dependency>
+      <dependency dep="colocalized" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="rods" gov_index="14">det</dependency>
+      <dependency dep="same" dep_index="11" gov="rods" gov_index="14">amod</dependency>
+      <dependency dep="nuclear" dep_index="12" gov="rods" gov_index="14">amod</dependency>
+      <dependency dep="actin" dep_index="13" gov="rods" gov_index="14">nn</dependency>
+      <dependency dep="rods" dep_index="14" gov="colocalized" gov_index="8">prep_in</dependency>
+      <dependency dep="ADF" dep_index="17" gov="appeared" gov_index="18">nsubj</dependency>
+      <dependency dep="ADF" dep_index="17" gov="predominate" gov_index="20">xsubj</dependency>
+      <dependency dep="appeared" dep_index="18" gov="colocalized" gov_index="8">conj_but</dependency>
+      <dependency dep="to" dep_index="19" gov="predominate" gov_index="20">aux</dependency>
+      <dependency dep="predominate" dep_index="20" gov="appeared" gov_index="18">xcomp</dependency>
+      <dependency dep="mononucleated" dep_index="22" gov="cells" gov_index="23">amod</dependency>
+      <dependency dep="cells" dep_index="23" gov="predominate" gov_index="20">prep_in</dependency>
+      <dependency dep="while" dep_index="25" gov="present" gov_index="28">mark</dependency>
+      <dependency dep="cofilin" dep_index="26" gov="present" gov_index="28">nsubj</dependency>
+      <dependency dep="was" dep_index="27" gov="present" gov_index="28">cop</dependency>
+      <dependency dep="present" dep_index="28" gov="appeared" gov_index="18">advcl</dependency>
+      <dependency dep="multinucleated" dep_index="30" gov="myotubes" gov_index="31">amod</dependency>
+      <dependency dep="myotubes" dep_index="31" gov="present" gov_index="28">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500026" relationship="false">5 8 18 28 26</relation>
+      <relation position="1700026" relationship="false">17 18 28 26</relation>
+      <relation position="1300026" relationship="false">13 14 8 18 28 26</relation>
+      <relation position="700026" relationship="false">7 8 18 28 26</relation>
+      <relation position="500017" relationship="false">5 8 18 17</relation>
+      <relation position="500013" relationship="true">5 8 14 13</relation>
+      <relation position="500007" relationship="true">5 8 7</relation>
+      <relation position="1300017" relationship="false">13 14 8 18 17</relation>
+      <relation position="700017" relationship="false">7 8 18 17</relation>
+      <relation position="700013" relationship="true">7 8 14 13</relation>
+   </relations>
+   <pairs>
+      <pair>500013</pair>
+      <pair>700013</pair>
+      <pair>500007</pair>
+   </pairs>
+</root>

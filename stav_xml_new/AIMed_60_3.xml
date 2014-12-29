@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>MAP kinase@and@the@protein@kinase@that@activates@it@(@MAP kinase kinase@)@were@constitutively@activated@in@NIH@3T3@cells@infected@with@viruses@containing@either@of@two@oncogenic@forms@(p35EC12@,@p3722W)@of@the@c-Raf-1@protein@kinase@.@</sentence>
+   <tags>
+      <tag pos="1">MAP kinase</tag>
+      <tag pos="10">MAP kinase kinase</tag>
+      <tag pos="33">c-Raf-1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">MAP kinase</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">protein</taggedword>
+      <taggedword index="5" part-of-speech="VBP">kinase</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">activates</taggedword>
+      <taggedword index="8" part-of-speech="PRP">it</taggedword>
+      <taggedword index="9" part-of-speech="VBD">(</taggedword>
+      <taggedword index="10" part-of-speech="NNP">MAP kinase kinase</taggedword>
+      <taggedword index="11" part-of-speech="NNP">)</taggedword>
+      <taggedword index="12" part-of-speech="VBD">were</taggedword>
+      <taggedword index="13" part-of-speech="RB">constitutively</taggedword>
+      <taggedword index="14" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="NNP">NIH</taggedword>
+      <taggedword index="17" part-of-speech="CD">3T3</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="19" part-of-speech="VBN">infected</taggedword>
+      <taggedword index="20" part-of-speech="IN">with</taggedword>
+      <taggedword index="21" part-of-speech="NNS">viruses</taggedword>
+      <taggedword index="22" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="23" part-of-speech="DT">either</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="CD">two</taggedword>
+      <taggedword index="26" part-of-speech="JJ">oncogenic</taggedword>
+      <taggedword index="27" part-of-speech="NNS">forms</taggedword>
+      <taggedword index="28" part-of-speech="NNS">(p35EC12</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="NNS">p3722W)</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="JJ">c-Raf-1</taggedword>
+      <taggedword index="34" part-of-speech="NN">protein</taggedword>
+      <taggedword index="35" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="MAP kinase" dep_index="1" gov="kinase" gov_index="5">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="protein" gov_index="4">det</dependency>
+      <dependency dep="protein" dep_index="4" gov="MAP kinase" gov_index="1">conj_and</dependency>
+      <dependency dep="protein" dep_index="4" gov="kinase" gov_index="5">nsubj</dependency>
+      <dependency dep="kinase" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="activates" gov_index="7">mark</dependency>
+      <dependency dep="activates" dep_index="7" gov="kinase" gov_index="5">dep</dependency>
+      <dependency dep="it" dep_index="8" gov="(" gov_index="9">nsubj</dependency>
+      <dependency dep="(" dep_index="9" gov="activates" gov_index="7">ccomp</dependency>
+      <dependency dep="MAP kinase kinase" dep_index="10" gov=")" gov_index="11">nn</dependency>
+      <dependency dep=")" dep_index="11" gov="activated" gov_index="14">nsubjpass</dependency>
+      <dependency dep="were" dep_index="12" gov="activated" gov_index="14">auxpass</dependency>
+      <dependency dep="constitutively" dep_index="13" gov="activated" gov_index="14">advmod</dependency>
+      <dependency dep="activated" dep_index="14" gov="(" gov_index="9">ccomp</dependency>
+      <dependency dep="NIH" dep_index="16" gov="cells" gov_index="18">nn</dependency>
+      <dependency dep="3T3" dep_index="17" gov="cells" gov_index="18">num</dependency>
+      <dependency dep="cells" dep_index="18" gov="activated" gov_index="14">prep_in</dependency>
+      <dependency dep="infected" dep_index="19" gov="cells" gov_index="18">partmod</dependency>
+      <dependency dep="viruses" dep_index="21" gov="infected" gov_index="19">prep_with</dependency>
+      <dependency dep="containing" dep_index="22" gov="viruses" gov_index="21">partmod</dependency>
+      <dependency dep="either" dep_index="23" gov="containing" gov_index="22">dobj</dependency>
+      <dependency dep="two" dep_index="25" gov="forms" gov_index="27">num</dependency>
+      <dependency dep="oncogenic" dep_index="26" gov="forms" gov_index="27">amod</dependency>
+      <dependency dep="forms" dep_index="27" gov="either" gov_index="23">prep_of</dependency>
+      <dependency dep="(p35EC12" dep_index="28" gov="activates" gov_index="7">nsubj</dependency>
+      <dependency dep="p3722W)" dep_index="30" gov="(p35EC12" gov_index="28">appos</dependency>
+      <dependency dep="the" dep_index="32" gov="kinase" gov_index="35">det</dependency>
+      <dependency dep="c-Raf-1" dep_index="33" gov="kinase" gov_index="35">amod</dependency>
+      <dependency dep="protein" dep_index="34" gov="kinase" gov_index="35">nn</dependency>
+      <dependency dep="kinase" dep_index="35" gov="p3722W)" gov_index="30">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100010" relationship="true">1 5 7 9 14 11 10</relation>
+      <relation position="100033" relationship="true">1 5 7 28 30 35 33</relation>
+      <relation position="1000033" relationship="true">10 11 14 9 7 28 30 35 33</relation>
+   </relations>
+   <pairs>
+      <pair>100010</pair>
+      <pair>1000033</pair>
+      <pair>100033</pair>
+   </pairs>
+</root>

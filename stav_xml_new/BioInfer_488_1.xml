@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Photochemical@cleavage@of@myosin heavy chain@and@the@effect@on@the@interaction@with@actin@.@</sentence>
+   <tags>
+      <tag pos="12">actin</tag>
+      <tag pos="4">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Photochemical</taggedword>
+      <taggedword index="2" part-of-speech="NN">cleavage</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">effect</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="NN">actin</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Photochemical" dep_index="1" gov="cleavage" gov_index="2">amod</dependency>
+      <dependency dep="cleavage" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="myosin heavy chain" dep_index="4" gov="cleavage" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="6" gov="effect" gov_index="7">det</dependency>
+      <dependency dep="effect" dep_index="7" gov="cleavage" gov_index="2">prep_of</dependency>
+      <dependency dep="effect" dep_index="7" gov="myosin heavy chain" gov_index="4">conj_and</dependency>
+      <dependency dep="the" dep_index="9" gov="interaction" gov_index="10">det</dependency>
+      <dependency dep="interaction" dep_index="10" gov="cleavage" gov_index="2">prep_on</dependency>
+      <dependency dep="actin" dep_index="12" gov="interaction" gov_index="10">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400012" relationship="true">4 2 10 12</relation>
+   </relations>
+   <pairs>
+      <pair>400012</pair>
+   </pairs>
+</root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Differential@mechanisms@of@recognition@and@activation@of@interleukin-8@receptor@subtypes@.@</sentence>
+   <tags>
+      <tag pos="8">interleukin-8</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Differential</taggedword>
+      <taggedword index="2" part-of-speech="NNS">mechanisms</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">recognition</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NN">activation</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">interleukin-8</taggedword>
+      <taggedword index="9" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="10" part-of-speech="NNS">subtypes</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Differential" dep_index="1" gov="mechanisms" gov_index="2">amod</dependency>
+      <dependency dep="mechanisms" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="recognition" dep_index="4" gov="mechanisms" gov_index="2">prep_of</dependency>
+      <dependency dep="activation" dep_index="6" gov="mechanisms" gov_index="2">prep_of</dependency>
+      <dependency dep="activation" dep_index="6" gov="recognition" gov_index="4">conj_and</dependency>
+      <dependency dep="interleukin-8" dep_index="8" gov="subtypes" gov_index="10">amod</dependency>
+      <dependency dep="receptor" dep_index="9" gov="subtypes" gov_index="10">nn</dependency>
+      <dependency dep="subtypes" dep_index="10" gov="mechanisms" gov_index="2">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@we@demonstrate@that@RB@binds@directly@to@hTAFII250@in@vitro@and@in@vivo@.@</sentence>
+   <tags>
+      <tag pos="6">RB</tag>
+      <tag pos="10">hTAFII250</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">we</taggedword>
+      <taggedword index="4" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="NNP">RB</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="8" part-of-speech="RB">directly</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="NNS">hTAFII250</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NNP">vitro</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="demonstrate" gov_index="4">advmod</dependency>
+      <dependency dep="we" dep_index="3" gov="demonstrate" gov_index="4">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="binds" gov_index="7">mark</dependency>
+      <dependency dep="RB" dep_index="6" gov="binds" gov_index="7">nsubj</dependency>
+      <dependency dep="RB" dep_index="6" gov="binds" gov_index="7">nsubj</dependency>
+      <dependency dep="binds" dep_index="7" gov="demonstrate" gov_index="4">ccomp</dependency>
+      <dependency dep="binds" dep_index="7" gov="demonstrate" gov_index="4">ccomp</dependency>
+      <dependency dep="binds" dep_index="7" gov="binds" gov_index="7">conj_and</dependency>
+      <dependency dep="directly" dep_index="8" gov="binds" gov_index="7">advmod</dependency>
+      <dependency dep="hTAFII250" dep_index="10" gov="binds" gov_index="7">prep_to</dependency>
+      <dependency dep="vitro" dep_index="12" gov="hTAFII250" gov_index="10">prep_in</dependency>
+      <dependency dep="vivo" dep_index="15" gov="binds" gov_index="7">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600010" relationship="true">6 7 10</relation>
+   </relations>
+   <pairs>
+      <pair>600010</pair>
+   </pairs>
+</root>

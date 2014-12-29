@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@observations@suggest@that@endogenous@cellular@proteins@might@exist@that@bind@to@the@same@regions@of@Rb@and@thereby@mediate@its@function@.@</sentence>
+   <tags>
+      <tag pos="17">Rb</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">observations</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="JJ">endogenous</taggedword>
+      <taggedword index="6" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="7" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="8" part-of-speech="MD">might</taggedword>
+      <taggedword index="9" part-of-speech="VB">exist</taggedword>
+      <taggedword index="10" part-of-speech="DT">that</taggedword>
+      <taggedword index="11" part-of-speech="NN">bind</taggedword>
+      <taggedword index="12" part-of-speech="TO">to</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">same</taggedword>
+      <taggedword index="15" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NNP">Rb</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="RB">thereby</taggedword>
+      <taggedword index="20" part-of-speech="VB">mediate</taggedword>
+      <taggedword index="21" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="22" part-of-speech="NN">function</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="observations" gov_index="2">det</dependency>
+      <dependency dep="observations" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="exist" gov_index="9">mark</dependency>
+      <dependency dep="endogenous" dep_index="5" gov="proteins" gov_index="7">amod</dependency>
+      <dependency dep="cellular" dep_index="6" gov="proteins" gov_index="7">amod</dependency>
+      <dependency dep="proteins" dep_index="7" gov="exist" gov_index="9">nsubj</dependency>
+      <dependency dep="proteins" dep_index="7" gov="mediate" gov_index="20">nsubj</dependency>
+      <dependency dep="might" dep_index="8" gov="exist" gov_index="9">aux</dependency>
+      <dependency dep="exist" dep_index="9" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="that" dep_index="10" gov="bind" gov_index="11">det</dependency>
+      <dependency dep="bind" dep_index="11" gov="exist" gov_index="9">dobj</dependency>
+      <dependency dep="the" dep_index="13" gov="regions" gov_index="15">det</dependency>
+      <dependency dep="same" dep_index="14" gov="regions" gov_index="15">amod</dependency>
+      <dependency dep="regions" dep_index="15" gov="exist" gov_index="9">prep_to</dependency>
+      <dependency dep="Rb" dep_index="17" gov="regions" gov_index="15">prep_of</dependency>
+      <dependency dep="thereby" dep_index="19" gov="mediate" gov_index="20">advmod</dependency>
+      <dependency dep="mediate" dep_index="20" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="mediate" dep_index="20" gov="exist" gov_index="9">conj_and</dependency>
+      <dependency dep="its" dep_index="21" gov="function" gov_index="22">poss</dependency>
+      <dependency dep="function" dep_index="22" gov="mediate" gov_index="20">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

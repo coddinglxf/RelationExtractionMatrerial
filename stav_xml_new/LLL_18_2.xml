@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Previously@,@it@was@shown@that@the@GerE@protein@inhibits@transcription@in@vitro@of@the@sigK@gene@encoding@sigmaK@.@</sentence>
+   <tags>
+      <tag pos="8">GerE</tag>
+      <tag pos="16">sigK</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Previously</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">it</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">GerE</taggedword>
+      <taggedword index="9" part-of-speech="NN">protein</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">inhibits</taggedword>
+      <taggedword index="11" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NNP">vitro</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">sigK</taggedword>
+      <taggedword index="17" part-of-speech="NN">gene</taggedword>
+      <taggedword index="18" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="19" part-of-speech="NN">sigmaK</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Previously" dep_index="1" gov="shown" gov_index="5">advmod</dependency>
+      <dependency dep="it" dep_index="3" gov="shown" gov_index="5">nsubjpass</dependency>
+      <dependency dep="was" dep_index="4" gov="shown" gov_index="5">auxpass</dependency>
+      <dependency dep="shown" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="inhibits" gov_index="10">mark</dependency>
+      <dependency dep="the" dep_index="7" gov="protein" gov_index="9">det</dependency>
+      <dependency dep="GerE" dep_index="8" gov="protein" gov_index="9">nn</dependency>
+      <dependency dep="protein" dep_index="9" gov="inhibits" gov_index="10">nsubj</dependency>
+      <dependency dep="inhibits" dep_index="10" gov="shown" gov_index="5">ccomp</dependency>
+      <dependency dep="transcription" dep_index="11" gov="inhibits" gov_index="10">dobj</dependency>
+      <dependency dep="vitro" dep_index="13" gov="inhibits" gov_index="10">prep_in</dependency>
+      <dependency dep="the" dep_index="15" gov="sigmaK" gov_index="19">det</dependency>
+      <dependency dep="sigK" dep_index="16" gov="sigmaK" gov_index="19">nn</dependency>
+      <dependency dep="gene" dep_index="17" gov="sigmaK" gov_index="19">nn</dependency>
+      <dependency dep="encoding" dep_index="18" gov="sigmaK" gov_index="19">amod</dependency>
+      <dependency dep="sigmaK" dep_index="19" gov="vitro" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800016" relationship="true">8 9 10 13 19 16</relation>
+   </relations>
+   <pairs>
+      <pair>800016</pair>
+   </pairs>
+</root>

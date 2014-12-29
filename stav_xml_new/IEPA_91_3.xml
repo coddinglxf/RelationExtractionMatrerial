@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@U-73122@diminished@the@Oxy@-induced@increase@in@intracellular@concentration@of@inositol 1, 4, 5-triphosphate@(IP3)@</sentence>
+   <tags>
+      <tag pos="7">Oxy</tag>
+      <tag pos="14">inositol 1, 4, 5-triphosphate</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">U-73122</taggedword>
+      <taggedword index="5" part-of-speech="VBD">diminished</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Oxy</taggedword>
+      <taggedword index="8" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="9" part-of-speech="NN">increase</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="12" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">inositol 1, 4, 5-triphosphate</taggedword>
+      <taggedword index="15" part-of-speech="CD">(IP3)</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="diminished" gov_index="5">prep_in</dependency>
+      <dependency dep="U-73122" dep_index="4" gov="diminished" gov_index="5">nsubj</dependency>
+      <dependency dep="diminished" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="increase" gov_index="9">det</dependency>
+      <dependency dep="Oxy" dep_index="7" gov="increase" gov_index="9">nn</dependency>
+      <dependency dep="-induced" dep_index="8" gov="increase" gov_index="9">amod</dependency>
+      <dependency dep="increase" dep_index="9" gov="diminished" gov_index="5">dobj</dependency>
+      <dependency dep="intracellular" dep_index="11" gov="concentration" gov_index="12">nn</dependency>
+      <dependency dep="concentration" dep_index="12" gov="diminished" gov_index="5">prep_in</dependency>
+      <dependency dep="inositol 1, 4, 5-triphosphate" dep_index="14" gov="(IP3)" gov_index="15">amod</dependency>
+      <dependency dep="(IP3)" dep_index="15" gov="concentration" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700014" relationship="true">7 9 5 12 15 14</relation>
+   </relations>
+   <pairs>
+      <pair>700014</pair>
+   </pairs>
+</root>

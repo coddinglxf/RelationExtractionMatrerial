@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Three@cDNAs@encoding@proteins@without@basic-helix-loop-helix@domains@were@also@found@to@interact@in@the@sandwich-expression@screen@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Three</taggedword>
+      <taggedword index="2" part-of-speech="NNS">cDNAs</taggedword>
+      <taggedword index="3" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="4" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="5" part-of-speech="IN">without</taggedword>
+      <taggedword index="6" part-of-speech="JJ">basic-helix-loop-helix</taggedword>
+      <taggedword index="7" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="8" part-of-speech="VBD">were</taggedword>
+      <taggedword index="9" part-of-speech="RB">also</taggedword>
+      <taggedword index="10" part-of-speech="VBN">found</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">interact</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">sandwich-expression</taggedword>
+      <taggedword index="16" part-of-speech="NN">screen</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Three" dep_index="1" gov="cDNAs" gov_index="2">num</dependency>
+      <dependency dep="cDNAs" dep_index="2" gov="found" gov_index="10">nsubjpass</dependency>
+      <dependency dep="cDNAs" dep_index="2" gov="interact" gov_index="12">xsubj</dependency>
+      <dependency dep="encoding" dep_index="3" gov="cDNAs" gov_index="2">partmod</dependency>
+      <dependency dep="proteins" dep_index="4" gov="encoding" gov_index="3">dobj</dependency>
+      <dependency dep="basic-helix-loop-helix" dep_index="6" gov="domains" gov_index="7">amod</dependency>
+      <dependency dep="domains" dep_index="7" gov="encoding" gov_index="3">prep_without</dependency>
+      <dependency dep="were" dep_index="8" gov="found" gov_index="10">auxpass</dependency>
+      <dependency dep="also" dep_index="9" gov="found" gov_index="10">advmod</dependency>
+      <dependency dep="found" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="11" gov="interact" gov_index="12">aux</dependency>
+      <dependency dep="interact" dep_index="12" gov="found" gov_index="10">xcomp</dependency>
+      <dependency dep="the" dep_index="14" gov="screen" gov_index="16">det</dependency>
+      <dependency dep="sandwich-expression" dep_index="15" gov="screen" gov_index="16">amod</dependency>
+      <dependency dep="screen" dep_index="16" gov="interact" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>LEC@induces@chemotaxis@and@adhesion@by@interacting@with@CCR1@and@CCR8@.@</sentence>
+   <tags>
+      <tag pos="1">LEC</tag>
+      <tag pos="9">CCR1</tag>
+      <tag pos="11">CCR8</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">induces</taggedword>
+      <taggedword index="3" part-of-speech="NNS">chemotaxis</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="VBG">interacting</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NNP">CCR1</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNP">CCR8</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="LEC" dep_index="1" gov="induces" gov_index="2">nsubj</dependency>
+      <dependency dep="induces" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="chemotaxis" dep_index="3" gov="induces" gov_index="2">dobj</dependency>
+      <dependency dep="adhesion" dep_index="5" gov="induces" gov_index="2">dobj</dependency>
+      <dependency dep="adhesion" dep_index="5" gov="chemotaxis" gov_index="3">conj_and</dependency>
+      <dependency dep="interacting" dep_index="7" gov="induces" gov_index="2">prepc_by</dependency>
+      <dependency dep="CCR1" dep_index="9" gov="interacting" gov_index="7">prep_with</dependency>
+      <dependency dep="CCR8" dep_index="11" gov="interacting" gov_index="7">prep_with</dependency>
+      <dependency dep="CCR8" dep_index="11" gov="CCR1" gov_index="9">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100009" relationship="true">1 2 7 9</relation>
+      <relation position="100011" relationship="true">1 2 7 11</relation>
+      <relation position="900011" relationship="false">9 7 11</relation>
+   </relations>
+   <pairs>
+      <pair>100011</pair>
+      <pair>100009</pair>
+   </pairs>
+</root>

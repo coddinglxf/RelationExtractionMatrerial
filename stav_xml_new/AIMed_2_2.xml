@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>OBJECTIVE@:@To@assess@the@usefulness@of@the@molar@ratio@of@serum@retinol-binding protein@(@RBP@)@to@transthyretin@(@TTR@)@to@determine@vitamin@A@(VA)@status@during@infection@.@</sentence>
+   <tags>
+      <tag pos="13">retinol-binding protein</tag>
+      <tag pos="15">RBP</tag>
+      <tag pos="18">transthyretin</tag>
+      <tag pos="20">TTR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">OBJECTIVE</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="TO">To</taggedword>
+      <taggedword index="4" part-of-speech="VB">assess</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NN">usefulness</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">molar</taggedword>
+      <taggedword index="10" part-of-speech="NN">ratio</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">serum</taggedword>
+      <taggedword index="13" part-of-speech="NN">retinol-binding protein</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">RBP</taggedword>
+      <taggedword index="16" part-of-speech="NNP">)</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="VB">transthyretin</taggedword>
+      <taggedword index="19" part-of-speech="NNP">(</taggedword>
+      <taggedword index="20" part-of-speech="NNP">TTR</taggedword>
+      <taggedword index="21" part-of-speech="NNP">)</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="VB">determine</taggedword>
+      <taggedword index="24" part-of-speech="VBG">vitamin</taggedword>
+      <taggedword index="25" part-of-speech="DT">A</taggedword>
+      <taggedword index="26" part-of-speech="JJ">(VA)</taggedword>
+      <taggedword index="27" part-of-speech="NN">status</taggedword>
+      <taggedword index="28" part-of-speech="IN">during</taggedword>
+      <taggedword index="29" part-of-speech="NN">infection</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="OBJECTIVE" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="To" dep_index="3" gov="assess" gov_index="4">aux</dependency>
+      <dependency dep="assess" dep_index="4" gov="OBJECTIVE" gov_index="1">infmod</dependency>
+      <dependency dep="the" dep_index="5" gov="usefulness" gov_index="6">det</dependency>
+      <dependency dep="usefulness" dep_index="6" gov="assess" gov_index="4">dobj</dependency>
+      <dependency dep="the" dep_index="8" gov="ratio" gov_index="10">det</dependency>
+      <dependency dep="molar" dep_index="9" gov="ratio" gov_index="10">nn</dependency>
+      <dependency dep="ratio" dep_index="10" gov="usefulness" gov_index="6">prep_of</dependency>
+      <dependency dep="serum" dep_index="12" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="retinol-binding protein" dep_index="13" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="(" dep_index="14" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="RBP" dep_index="15" gov=")" gov_index="16">nn</dependency>
+      <dependency dep=")" dep_index="16" gov="ratio" gov_index="10">prep_of</dependency>
+      <dependency dep="to" dep_index="17" gov="transthyretin" gov_index="18">aux</dependency>
+      <dependency dep="transthyretin" dep_index="18" gov="assess" gov_index="4">xcomp</dependency>
+      <dependency dep="(" dep_index="19" gov=")" gov_index="21">nn</dependency>
+      <dependency dep="TTR" dep_index="20" gov=")" gov_index="21">nn</dependency>
+      <dependency dep=")" dep_index="21" gov="determine" gov_index="23">nsubj</dependency>
+      <dependency dep="to" dep_index="22" gov="determine" gov_index="23">aux</dependency>
+      <dependency dep="determine" dep_index="23" gov="transthyretin" gov_index="18">xcomp</dependency>
+      <dependency dep="vitamin" dep_index="24" gov="determine" gov_index="23">xcomp</dependency>
+      <dependency dep="A" dep_index="25" gov="status" gov_index="27">det</dependency>
+      <dependency dep="(VA)" dep_index="26" gov="status" gov_index="27">amod</dependency>
+      <dependency dep="status" dep_index="27" gov="vitamin" gov_index="24">dobj</dependency>
+      <dependency dep="infection" dep_index="29" gov="vitamin" gov_index="24">prep_during</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="false">13 16 15</relation>
+      <relation position="1300018" relationship="false">13 16 10 6 4 18</relation>
+      <relation position="1300020" relationship="false">13 16 10 6 4 18 23 21 20</relation>
+      <relation position="1500018" relationship="false">15 16 10 6 4 18</relation>
+      <relation position="1500020" relationship="false">15 16 10 6 4 18 23 21 20</relation>
+      <relation position="1800020" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

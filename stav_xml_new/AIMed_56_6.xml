@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>TRAP@is@highly@similar@to@an@identified@murine@CD40 ligand@both@at@the@cDNA@(82.8%@identity)@and@the@protein@(77.4%@identity)@levels@,@and@related@to@tumor@necrosis@factor/@lymphotoxin@.@</sentence>
+   <tags>
+      <tag pos="1">TRAP</tag>
+      <tag pos="9">CD40 ligand</tag>
+      <tag pos="29">lymphotoxin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">TRAP</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="RB">highly</taggedword>
+      <taggedword index="4" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="DT">an</taggedword>
+      <taggedword index="7" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="8" part-of-speech="JJ">murine</taggedword>
+      <taggedword index="9" part-of-speech="NNS">CD40 ligand</taggedword>
+      <taggedword index="10" part-of-speech="DT">both</taggedword>
+      <taggedword index="11" part-of-speech="IN">at</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">cDNA</taggedword>
+      <taggedword index="14" part-of-speech="CD">(82.8%</taggedword>
+      <taggedword index="15" part-of-speech="NNS">identity)</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">protein</taggedword>
+      <taggedword index="19" part-of-speech="CD">(77.4%</taggedword>
+      <taggedword index="20" part-of-speech="NN">identity)</taggedword>
+      <taggedword index="21" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="VBN">related</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="27" part-of-speech="NNS">necrosis</taggedword>
+      <taggedword index="28" part-of-speech="JJ">factor/</taggedword>
+      <taggedword index="29" part-of-speech="NN">lymphotoxin</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="TRAP" dep_index="1" gov="similar" gov_index="4">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="similar" gov_index="4">cop</dependency>
+      <dependency dep="highly" dep_index="3" gov="similar" gov_index="4">advmod</dependency>
+      <dependency dep="similar" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="6" gov="levels" gov_index="21">det</dependency>
+      <dependency dep="identified" dep_index="7" gov="levels" gov_index="21">amod</dependency>
+      <dependency dep="murine" dep_index="8" gov="CD40 ligand" gov_index="9">amod</dependency>
+      <dependency dep="CD40 ligand" dep_index="9" gov="identified" gov_index="7">dep</dependency>
+      <dependency dep="both" dep_index="10" gov="CD40 ligand" gov_index="9">dep</dependency>
+      <dependency dep="the" dep_index="12" gov="identity)" gov_index="15">det</dependency>
+      <dependency dep="cDNA" dep_index="13" gov="identity)" gov_index="15">amod</dependency>
+      <dependency dep="(82.8%" dep_index="14" gov="identity)" gov_index="15">num</dependency>
+      <dependency dep="identity)" dep_index="15" gov="CD40 ligand" gov_index="9">prep_at</dependency>
+      <dependency dep="the" dep_index="17" gov="identity)" gov_index="20">det</dependency>
+      <dependency dep="protein" dep_index="18" gov="identity)" gov_index="20">nn</dependency>
+      <dependency dep="(77.4%" dep_index="19" gov="identity)" gov_index="20">num</dependency>
+      <dependency dep="identity)" dep_index="20" gov="CD40 ligand" gov_index="9">prep_at</dependency>
+      <dependency dep="identity)" dep_index="20" gov="identity)" gov_index="15">conj_and</dependency>
+      <dependency dep="levels" dep_index="21" gov="similar" gov_index="4">prep_to</dependency>
+      <dependency dep="related" dep_index="24" gov="lymphotoxin" gov_index="29">amod</dependency>
+      <dependency dep="tumor" dep_index="26" gov="necrosis" gov_index="27">nn</dependency>
+      <dependency dep="necrosis" dep_index="27" gov="related" gov_index="24">prep_to</dependency>
+      <dependency dep="factor/" dep_index="28" gov="lymphotoxin" gov_index="29">amod</dependency>
+      <dependency dep="lymphotoxin" dep_index="29" gov="similar" gov_index="4">prep_to</dependency>
+      <dependency dep="lymphotoxin" dep_index="29" gov="levels" gov_index="21">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100009" relationship="false">1 4 21 7 9</relation>
+      <relation position="100029" relationship="false">1 4 29</relation>
+      <relation position="900029" relationship="false">9 7 21 4 29</relation>
+   </relations>
+   <pairs/>
+</root>

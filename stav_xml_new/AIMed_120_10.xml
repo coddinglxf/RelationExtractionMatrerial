@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@data@thus@demonstrate@specific@binding@of@platelet@FXIII@to@HSP27@and@suggest@that@HSP27@may@participate@in@the@cellular@localization@and/or@enzymatic@regulation@of@platelet@FXIII@.@</sentence>
+   <tags>
+      <tag pos="9">FXIII</tag>
+      <tag pos="11">HSP27</tag>
+      <tag pos="15">HSP27</tag>
+      <tag pos="27">FXIII</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="RB">thus</taggedword>
+      <taggedword index="4" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="5" part-of-speech="JJ">specific</taggedword>
+      <taggedword index="6" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNP">platelet</taggedword>
+      <taggedword index="9" part-of-speech="NNP">FXIII</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="NNP">HSP27</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="14" part-of-speech="IN">that</taggedword>
+      <taggedword index="15" part-of-speech="NNP">HSP27</taggedword>
+      <taggedword index="16" part-of-speech="MD">may</taggedword>
+      <taggedword index="17" part-of-speech="VB">participate</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="21" part-of-speech="NN">localization</taggedword>
+      <taggedword index="22" part-of-speech="NN">and/or</taggedword>
+      <taggedword index="23" part-of-speech="JJ">enzymatic</taggedword>
+      <taggedword index="24" part-of-speech="NN">regulation</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NNP">platelet</taggedword>
+      <taggedword index="27" part-of-speech="NNP">FXIII</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="data" gov_index="2">det</dependency>
+      <dependency dep="data" dep_index="2" gov="demonstrate" gov_index="4">nsubj</dependency>
+      <dependency dep="data" dep_index="2" gov="suggest" gov_index="13">nsubj</dependency>
+      <dependency dep="thus" dep_index="3" gov="demonstrate" gov_index="4">advmod</dependency>
+      <dependency dep="demonstrate" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="specific" dep_index="5" gov="demonstrate" gov_index="4">dobj</dependency>
+      <dependency dep="binding" dep_index="6" gov="specific" gov_index="5">amod</dependency>
+      <dependency dep="platelet" dep_index="8" gov="FXIII" gov_index="9">nn</dependency>
+      <dependency dep="FXIII" dep_index="9" gov="specific" gov_index="5">prep_of</dependency>
+      <dependency dep="HSP27" dep_index="11" gov="demonstrate" gov_index="4">prep_to</dependency>
+      <dependency dep="suggest" dep_index="13" gov="demonstrate" gov_index="4">conj_and</dependency>
+      <dependency dep="that" dep_index="14" gov="participate" gov_index="17">mark</dependency>
+      <dependency dep="HSP27" dep_index="15" gov="participate" gov_index="17">nsubj</dependency>
+      <dependency dep="may" dep_index="16" gov="participate" gov_index="17">aux</dependency>
+      <dependency dep="participate" dep_index="17" gov="suggest" gov_index="13">ccomp</dependency>
+      <dependency dep="the" dep_index="19" gov="and/or" gov_index="22">det</dependency>
+      <dependency dep="cellular" dep_index="20" gov="and/or" gov_index="22">amod</dependency>
+      <dependency dep="localization" dep_index="21" gov="and/or" gov_index="22">nn</dependency>
+      <dependency dep="and/or" dep_index="22" gov="participate" gov_index="17">prep_in</dependency>
+      <dependency dep="enzymatic" dep_index="23" gov="regulation" gov_index="24">amod</dependency>
+      <dependency dep="regulation" dep_index="24" gov="participate" gov_index="17">dobj</dependency>
+      <dependency dep="platelet" dep_index="26" gov="FXIII" gov_index="27">nn</dependency>
+      <dependency dep="FXIII" dep_index="27" gov="regulation" gov_index="24">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="true">9 5 4 11</relation>
+      <relation position="900015" relationship="false"></relation>
+      <relation position="900027" relationship="false"></relation>
+      <relation position="1100015" relationship="false"></relation>
+      <relation position="1100027" relationship="false"></relation>
+      <relation position="1500027" relationship="true">15 17 24 27</relation>
+   </relations>
+   <pairs>
+      <pair>1500027</pair>
+      <pair>900011</pair>
+   </pairs>
+</root>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Bcl-X-L@displayed@the@same@pattern@of@combinatorial@interactions@with@Bcl-2@family@proteins@as@Bcl-2@.@</sentence>
+   <tags>
+      <tag pos="1">Bcl-X-L</tag>
+      <tag pos="10">Bcl-2</tag>
+      <tag pos="14">Bcl-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Bcl-X-L</taggedword>
+      <taggedword index="2" part-of-speech="VBD">displayed</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">same</taggedword>
+      <taggedword index="5" part-of-speech="NN">pattern</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">combinatorial</taggedword>
+      <taggedword index="8" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="9" part-of-speech="IN">with</taggedword>
+      <taggedword index="10" part-of-speech="NN">Bcl-2</taggedword>
+      <taggedword index="11" part-of-speech="NN">family</taggedword>
+      <taggedword index="12" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="13" part-of-speech="IN">as</taggedword>
+      <taggedword index="14" part-of-speech="NNS">Bcl-2</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Bcl-X-L" dep_index="1" gov="displayed" gov_index="2">nsubj</dependency>
+      <dependency dep="displayed" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="pattern" gov_index="5">det</dependency>
+      <dependency dep="same" dep_index="4" gov="pattern" gov_index="5">amod</dependency>
+      <dependency dep="pattern" dep_index="5" gov="displayed" gov_index="2">dobj</dependency>
+      <dependency dep="combinatorial" dep_index="7" gov="interactions" gov_index="8">amod</dependency>
+      <dependency dep="interactions" dep_index="8" gov="pattern" gov_index="5">prep_of</dependency>
+      <dependency dep="Bcl-2" dep_index="10" gov="proteins" gov_index="12">nn</dependency>
+      <dependency dep="family" dep_index="11" gov="proteins" gov_index="12">nn</dependency>
+      <dependency dep="proteins" dep_index="12" gov="displayed" gov_index="2">prep_with</dependency>
+      <dependency dep="Bcl-2" dep_index="14" gov="displayed" gov_index="2">prep_as</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100010" relationship="false">1 2 12 10</relation>
+      <relation position="100014" relationship="false">1 2 14</relation>
+      <relation position="1000014" relationship="false">10 12 2 14</relation>
+   </relations>
+   <pairs/>
+</root>

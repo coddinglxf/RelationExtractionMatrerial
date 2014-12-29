@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Co-expression@of@PLD1@with@phospholipase C (PLC)gamma@has@the@same@effect@,@while@co-expression@of@PLD2@with@PLCgamma@allows@PLD2@activity@to@be@stimulated@in@an@insulin@-dependent@manner@.@</sentence>
+   <tags>
+      <tag pos="5">phospholipase C (PLC)gamma</tag>
+      <tag pos="16">PLCgamma</tag>
+      <tag pos="25">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Co-expression</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">PLD1</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="NN">phospholipase C (PLC)gamma</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">has</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">same</taggedword>
+      <taggedword index="9" part-of-speech="NN">effect</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="IN">while</taggedword>
+      <taggedword index="12" part-of-speech="NN">co-expression</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NNP">PLD2</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="NNP">PLCgamma</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">allows</taggedword>
+      <taggedword index="18" part-of-speech="JJ">PLD2</taggedword>
+      <taggedword index="19" part-of-speech="NN">activity</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">be</taggedword>
+      <taggedword index="22" part-of-speech="VBN">stimulated</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="DT">an</taggedword>
+      <taggedword index="25" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="26" part-of-speech="NN">-dependent</taggedword>
+      <taggedword index="27" part-of-speech="NN">manner</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Co-expression" dep_index="1" gov="has" gov_index="6">nsubj</dependency>
+      <dependency dep="PLD1" dep_index="3" gov="Co-expression" gov_index="1">prep_of</dependency>
+      <dependency dep="phospholipase C (PLC)gamma" dep_index="5" gov="PLD1" gov_index="3">prep_with</dependency>
+      <dependency dep="has" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="effect" gov_index="9">det</dependency>
+      <dependency dep="same" dep_index="8" gov="effect" gov_index="9">amod</dependency>
+      <dependency dep="effect" dep_index="9" gov="has" gov_index="6">dobj</dependency>
+      <dependency dep="while" dep_index="11" gov="allows" gov_index="17">mark</dependency>
+      <dependency dep="co-expression" dep_index="12" gov="allows" gov_index="17">nsubj</dependency>
+      <dependency dep="PLD2" dep_index="14" gov="co-expression" gov_index="12">prep_of</dependency>
+      <dependency dep="PLCgamma" dep_index="16" gov="PLD2" gov_index="14">prep_with</dependency>
+      <dependency dep="allows" dep_index="17" gov="has" gov_index="6">advcl</dependency>
+      <dependency dep="PLD2" dep_index="18" gov="activity" gov_index="19">amod</dependency>
+      <dependency dep="activity" dep_index="19" gov="allows" gov_index="17">dobj</dependency>
+      <dependency dep="to" dep_index="20" gov="stimulated" gov_index="22">aux</dependency>
+      <dependency dep="be" dep_index="21" gov="stimulated" gov_index="22">auxpass</dependency>
+      <dependency dep="stimulated" dep_index="22" gov="activity" gov_index="19">infmod</dependency>
+      <dependency dep="an" dep_index="24" gov="manner" gov_index="27">det</dependency>
+      <dependency dep="insulin" dep_index="25" gov="manner" gov_index="27">nn</dependency>
+      <dependency dep="-dependent" dep_index="26" gov="manner" gov_index="27">nn</dependency>
+      <dependency dep="manner" dep_index="27" gov="stimulated" gov_index="22">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500016" relationship="false">5 3 1 6 17 12 14 16</relation>
+      <relation position="500025" relationship="false">5 3 1 6 17 19 22 27 25</relation>
+      <relation position="1600025" relationship="false">16 14 12 17 19 22 27 25</relation>
+   </relations>
+   <pairs/>
+</root>

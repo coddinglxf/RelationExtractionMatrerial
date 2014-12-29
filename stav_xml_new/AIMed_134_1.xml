@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>B61@is@a@ligand@for@the@ECK receptor protein-tyrosine kinase@.@</sentence>
+   <tags>
+      <tag pos="1">B61</tag>
+      <tag pos="7">ECK receptor protein-tyrosine kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">B61</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">ligand</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">ECK receptor protein-tyrosine kinase</taggedword>
+      <taggedword index="8" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="B61" dep_index="1" gov="ligand" gov_index="4">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="ligand" gov_index="4">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="ligand" gov_index="4">det</dependency>
+      <dependency dep="ligand" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="ECK receptor protein-tyrosine kinase" gov_index="7">det</dependency>
+      <dependency dep="ECK receptor protein-tyrosine kinase" dep_index="7" gov="ligand" gov_index="4">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="true">1 4 7</relation>
+   </relations>
+   <pairs>
+      <pair>100007</pair>
+   </pairs>
+</root>

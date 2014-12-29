@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@binding@of@p56lck@to@CD5@induced@a@10-@to@15-fold@increase@in@p56lck@catalytic@activity@,@as@measured@by@in@vitro@kinase@analysis@.@</sentence>
+   <tags>
+      <tag pos="4">p56lck</tag>
+      <tag pos="6">CD5</tag>
+      <tag pos="14">p56lck</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">p56lck</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="CD">CD5</taggedword>
+      <taggedword index="7" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="NN">10-</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="JJ">15-fold</taggedword>
+      <taggedword index="12" part-of-speech="NN">increase</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="JJ">p56lck</taggedword>
+      <taggedword index="15" part-of-speech="JJ">catalytic</taggedword>
+      <taggedword index="16" part-of-speech="NN">activity</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="IN">as</taggedword>
+      <taggedword index="19" part-of-speech="VBN">measured</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="23" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="24" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="induced" gov_index="7">nsubj</dependency>
+      <dependency dep="binding" dep_index="2" gov="The" gov_index="1">amod</dependency>
+      <dependency dep="p56lck" dep_index="4" gov="CD5" gov_index="6">num</dependency>
+      <dependency dep="to" dep_index="5" gov="CD5" gov_index="6">dep</dependency>
+      <dependency dep="CD5" dep_index="6" gov="The" gov_index="1">prep_of</dependency>
+      <dependency dep="induced" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="8" gov="10-" gov_index="9">det</dependency>
+      <dependency dep="10-" dep_index="9" gov="induced" gov_index="7">dobj</dependency>
+      <dependency dep="15-fold" dep_index="11" gov="increase" gov_index="12">amod</dependency>
+      <dependency dep="increase" dep_index="12" gov="induced" gov_index="7">prep_to</dependency>
+      <dependency dep="p56lck" dep_index="14" gov="activity" gov_index="16">amod</dependency>
+      <dependency dep="catalytic" dep_index="15" gov="activity" gov_index="16">amod</dependency>
+      <dependency dep="activity" dep_index="16" gov="induced" gov_index="7">prep_in</dependency>
+      <dependency dep="as" dep_index="18" gov="measured" gov_index="19">mark</dependency>
+      <dependency dep="measured" dep_index="19" gov="induced" gov_index="7">advcl</dependency>
+      <dependency dep="by" dep_index="20" gov="measured" gov_index="19">prep</dependency>
+      <dependency dep="in" dep_index="21" gov="by" gov_index="20">pcomp</dependency>
+      <dependency dep="vitro" dep_index="22" gov="kinase" gov_index="23">npadvmod</dependency>
+      <dependency dep="kinase" dep_index="23" gov="analysis" gov_index="24">amod</dependency>
+      <dependency dep="analysis" dep_index="24" gov="in" gov_index="21">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true"></relation>
+      <relation position="400014" relationship="false">4 6 1 7 16 14</relation>
+      <relation position="600014" relationship="false">6 1 7 16 14</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

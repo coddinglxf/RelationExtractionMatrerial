@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Two@distinct@and@independent@sites@on@IL-6@trigger@gp 130@dimer@formation@and@signalling@.@</sentence>
+   <tags>
+      <tag pos="7">IL-6</tag>
+      <tag pos="9">gp 130</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Two</taggedword>
+      <taggedword index="2" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="5" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="6" part-of-speech="IN">on</taggedword>
+      <taggedword index="7" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="8" part-of-speech="VBP">trigger</taggedword>
+      <taggedword index="9" part-of-speech="JJ">gp 130</taggedword>
+      <taggedword index="10" part-of-speech="NN">dimer</taggedword>
+      <taggedword index="11" part-of-speech="NN">formation</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="VBG">signalling</taggedword>
+      <taggedword index="14" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Two" dep_index="1" gov="sites" gov_index="5">num</dependency>
+      <dependency dep="distinct" dep_index="2" gov="sites" gov_index="5">amod</dependency>
+      <dependency dep="independent" dep_index="4" gov="distinct" gov_index="2">conj_and</dependency>
+      <dependency dep="independent" dep_index="4" gov="sites" gov_index="5">amod</dependency>
+      <dependency dep="sites" dep_index="5" gov="trigger" gov_index="8">nsubj</dependency>
+      <dependency dep="IL-6" dep_index="7" gov="sites" gov_index="5">prep_on</dependency>
+      <dependency dep="trigger" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="gp 130" dep_index="9" gov="formation" gov_index="11">amod</dependency>
+      <dependency dep="dimer" dep_index="10" gov="formation" gov_index="11">nn</dependency>
+      <dependency dep="formation" dep_index="11" gov="trigger" gov_index="8">dobj</dependency>
+      <dependency dep="signalling" dep_index="13" gov="trigger" gov_index="8">dobj</dependency>
+      <dependency dep="signalling" dep_index="13" gov="formation" gov_index="11">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true">7 5 8 11 9</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

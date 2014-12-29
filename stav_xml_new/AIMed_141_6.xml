@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cotransfection@experiments@indicate@that@CIP1@and@SV40 T antigen@function@in@a@mutually@antagonistic@manner@to@control@cell@cycle@progression@.@</sentence>
+   <tags>
+      <tag pos="5">CIP1</tag>
+      <tag pos="7">SV40 T antigen</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Cotransfection</taggedword>
+      <taggedword index="2" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">CIP1</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">SV40 T antigen</taggedword>
+      <taggedword index="8" part-of-speech="VBP">function</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">mutually</taggedword>
+      <taggedword index="12" part-of-speech="JJ">antagonistic</taggedword>
+      <taggedword index="13" part-of-speech="NN">manner</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">control</taggedword>
+      <taggedword index="16" part-of-speech="NN">cell</taggedword>
+      <taggedword index="17" part-of-speech="NN">cycle</taggedword>
+      <taggedword index="18" part-of-speech="NN">progression</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cotransfection" dep_index="1" gov="experiments" gov_index="2">nn</dependency>
+      <dependency dep="experiments" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="function" gov_index="8">mark</dependency>
+      <dependency dep="CIP1" dep_index="5" gov="function" gov_index="8">nsubj</dependency>
+      <dependency dep="CIP1" dep_index="5" gov="control" gov_index="15">xsubj</dependency>
+      <dependency dep="SV40 T antigen" dep_index="7" gov="CIP1" gov_index="5">conj_and</dependency>
+      <dependency dep="SV40 T antigen" dep_index="7" gov="function" gov_index="8">nsubj</dependency>
+      <dependency dep="SV40 T antigen" dep_index="7" gov="control" gov_index="15">xsubj</dependency>
+      <dependency dep="function" dep_index="8" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="a" dep_index="10" gov="manner" gov_index="13">det</dependency>
+      <dependency dep="mutually" dep_index="11" gov="manner" gov_index="13">amod</dependency>
+      <dependency dep="antagonistic" dep_index="12" gov="manner" gov_index="13">amod</dependency>
+      <dependency dep="manner" dep_index="13" gov="function" gov_index="8">prep_in</dependency>
+      <dependency dep="to" dep_index="14" gov="control" gov_index="15">aux</dependency>
+      <dependency dep="control" dep_index="15" gov="function" gov_index="8">xcomp</dependency>
+      <dependency dep="cell" dep_index="16" gov="progression" gov_index="18">nn</dependency>
+      <dependency dep="cycle" dep_index="17" gov="progression" gov_index="18">nn</dependency>
+      <dependency dep="progression" dep_index="18" gov="control" gov_index="15">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 15 7</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Interaction@of@Abeta@with@itself@was@explored@with@the@yeast@two-hybrid@system@.@</sentence>
+   <tags>
+      <tag pos="3">Abeta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Interaction</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">Abeta</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="PRP">itself</taggedword>
+      <taggedword index="6" part-of-speech="VBD">was</taggedword>
+      <taggedword index="7" part-of-speech="VBN">explored</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="11" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="12" part-of-speech="NN">system</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Interaction" dep_index="1" gov="explored" gov_index="7">nsubjpass</dependency>
+      <dependency dep="Abeta" dep_index="3" gov="Interaction" gov_index="1">prep_of</dependency>
+      <dependency dep="itself" dep_index="5" gov="Abeta" gov_index="3">prep_with</dependency>
+      <dependency dep="was" dep_index="6" gov="explored" gov_index="7">auxpass</dependency>
+      <dependency dep="explored" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="9" gov="system" gov_index="12">det</dependency>
+      <dependency dep="yeast" dep_index="10" gov="system" gov_index="12">nn</dependency>
+      <dependency dep="two-hybrid" dep_index="11" gov="system" gov_index="12">amod</dependency>
+      <dependency dep="system" dep_index="12" gov="explored" gov_index="7">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

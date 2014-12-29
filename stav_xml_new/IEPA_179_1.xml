@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Recently@several@significant@advances@have@been@made@in@this@area@,@including@the@identification@of@the@appetite@regulating@hormone@,@leptin@,@and@a@detailed@understanding@of@its@targets@in@the@central@nervous@system@(CNS)@,@such@as@neuropeptide Y@(NPY)@and@the@melanocortin-4@receptor@</sentence>
+   <tags>
+      <tag pos="21">leptin</tag>
+      <tag pos="39">neuropeptide Y</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Recently</taggedword>
+      <taggedword index="2" part-of-speech="JJ">several</taggedword>
+      <taggedword index="3" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="4" part-of-speech="NNS">advances</taggedword>
+      <taggedword index="5" part-of-speech="VBP">have</taggedword>
+      <taggedword index="6" part-of-speech="VBN">been</taggedword>
+      <taggedword index="7" part-of-speech="VBN">made</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">this</taggedword>
+      <taggedword index="10" part-of-speech="NN">area</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="VBG">including</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NN">identification</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">appetite</taggedword>
+      <taggedword index="18" part-of-speech="VBG">regulating</taggedword>
+      <taggedword index="19" part-of-speech="NN">hormone</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="DT">a</taggedword>
+      <taggedword index="25" part-of-speech="VBN">detailed</taggedword>
+      <taggedword index="26" part-of-speech="NN">understanding</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="29" part-of-speech="NNS">targets</taggedword>
+      <taggedword index="30" part-of-speech="IN">in</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="JJ">central</taggedword>
+      <taggedword index="33" part-of-speech="JJ">nervous</taggedword>
+      <taggedword index="34" part-of-speech="NN">system</taggedword>
+      <taggedword index="35" part-of-speech="NN">(CNS)</taggedword>
+      <taggedword index="36" part-of-speech=",">,</taggedword>
+      <taggedword index="37" part-of-speech="JJ">such</taggedword>
+      <taggedword index="38" part-of-speech="IN">as</taggedword>
+      <taggedword index="39" part-of-speech="JJ">neuropeptide Y</taggedword>
+      <taggedword index="40" part-of-speech="NNS">(NPY)</taggedword>
+      <taggedword index="41" part-of-speech="CC">and</taggedword>
+      <taggedword index="42" part-of-speech="DT">the</taggedword>
+      <taggedword index="43" part-of-speech="JJ">melanocortin-4</taggedword>
+      <taggedword index="44" part-of-speech="NN">receptor</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Recently" dep_index="1" gov="advances" gov_index="4">dep</dependency>
+      <dependency dep="several" dep_index="2" gov="advances" gov_index="4">amod</dependency>
+      <dependency dep="significant" dep_index="3" gov="advances" gov_index="4">amod</dependency>
+      <dependency dep="advances" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="have" dep_index="5" gov="made" gov_index="7">aux</dependency>
+      <dependency dep="been" dep_index="6" gov="made" gov_index="7">auxpass</dependency>
+      <dependency dep="made" dep_index="7" gov="advances" gov_index="4">rcmod</dependency>
+      <dependency dep="this" dep_index="9" gov="area" gov_index="10">det</dependency>
+      <dependency dep="area" dep_index="10" gov="made" gov_index="7">prep_in</dependency>
+      <dependency dep="the" dep_index="13" gov="identification" gov_index="14">det</dependency>
+      <dependency dep="identification" dep_index="14" gov="made" gov_index="7">prep_including</dependency>
+      <dependency dep="the" dep_index="16" gov="appetite" gov_index="17">det</dependency>
+      <dependency dep="appetite" dep_index="17" gov="identification" gov_index="14">prep_of</dependency>
+      <dependency dep="regulating" dep_index="18" gov="appetite" gov_index="17">partmod</dependency>
+      <dependency dep="hormone" dep_index="19" gov="regulating" gov_index="18">dobj</dependency>
+      <dependency dep="leptin" dep_index="21" gov="regulating" gov_index="18">dobj</dependency>
+      <dependency dep="leptin" dep_index="21" gov="hormone" gov_index="19">conj_and</dependency>
+      <dependency dep="a" dep_index="24" gov="understanding" gov_index="26">det</dependency>
+      <dependency dep="detailed" dep_index="25" gov="understanding" gov_index="26">amod</dependency>
+      <dependency dep="understanding" dep_index="26" gov="regulating" gov_index="18">dobj</dependency>
+      <dependency dep="understanding" dep_index="26" gov="hormone" gov_index="19">conj_and</dependency>
+      <dependency dep="its" dep_index="28" gov="targets" gov_index="29">poss</dependency>
+      <dependency dep="targets" dep_index="29" gov="understanding" gov_index="26">prep_of</dependency>
+      <dependency dep="the" dep_index="31" gov="(CNS)" gov_index="35">det</dependency>
+      <dependency dep="central" dep_index="32" gov="(CNS)" gov_index="35">amod</dependency>
+      <dependency dep="nervous" dep_index="33" gov="(CNS)" gov_index="35">amod</dependency>
+      <dependency dep="system" dep_index="34" gov="(CNS)" gov_index="35">nn</dependency>
+      <dependency dep="(CNS)" dep_index="35" gov="understanding" gov_index="26">prep_in</dependency>
+      <dependency dep="neuropeptide Y" dep_index="39" gov="(NPY)" gov_index="40">amod</dependency>
+      <dependency dep="(NPY)" dep_index="40" gov="understanding" gov_index="26">prep_such_as</dependency>
+      <dependency dep="the" dep_index="42" gov="receptor" gov_index="44">det</dependency>
+      <dependency dep="melanocortin-4" dep_index="43" gov="receptor" gov_index="44">amod</dependency>
+      <dependency dep="receptor" dep_index="44" gov="understanding" gov_index="26">prep_such_as</dependency>
+      <dependency dep="receptor" dep_index="44" gov="(NPY)" gov_index="40">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2100039" relationship="true">21 18 26 40 39</relation>
+   </relations>
+   <pairs>
+      <pair>2100039</pair>
+   </pairs>
+</root>

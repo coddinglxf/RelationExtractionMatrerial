@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>As@observed@with@the@homologous@Drosophila@proteins@,@hTAFII20@interacts@directly@with@TBP@;@however@,@additional@interactions@between@hTAFII20@and@hTAFII28@or@hTAFII30@were@detected@.@</sentence>
+   <tags>
+      <tag pos="9">hTAFII20</tag>
+      <tag pos="13">TBP</tag>
+      <tag pos="20">hTAFII20</tag>
+      <tag pos="22">hTAFII28</tag>
+      <tag pos="24">hTAFII30</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">As</taggedword>
+      <taggedword index="2" part-of-speech="VBD">observed</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNP">homologous</taggedword>
+      <taggedword index="6" part-of-speech="NNP">Drosophila</taggedword>
+      <taggedword index="7" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NNS">hTAFII20</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="11" part-of-speech="RB">directly</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NNP">TBP</taggedword>
+      <taggedword index="14" part-of-speech=":">;</taggedword>
+      <taggedword index="15" part-of-speech="RB">however</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="JJ">additional</taggedword>
+      <taggedword index="18" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="19" part-of-speech="IN">between</taggedword>
+      <taggedword index="20" part-of-speech="NNS">hTAFII20</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NNPS">hTAFII28</taggedword>
+      <taggedword index="23" part-of-speech="CC">or</taggedword>
+      <taggedword index="24" part-of-speech="NNPS">hTAFII30</taggedword>
+      <taggedword index="25" part-of-speech="VBD">were</taggedword>
+      <taggedword index="26" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="As" dep_index="1" gov="observed" gov_index="2">mark</dependency>
+      <dependency dep="observed" dep_index="2" gov="interacts" gov_index="10">advcl</dependency>
+      <dependency dep="the" dep_index="4" gov="proteins" gov_index="7">det</dependency>
+      <dependency dep="homologous" dep_index="5" gov="proteins" gov_index="7">nn</dependency>
+      <dependency dep="Drosophila" dep_index="6" gov="proteins" gov_index="7">nn</dependency>
+      <dependency dep="proteins" dep_index="7" gov="observed" gov_index="2">prep_with</dependency>
+      <dependency dep="hTAFII20" dep_index="9" gov="interacts" gov_index="10">nsubj</dependency>
+      <dependency dep="interacts" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="directly" dep_index="11" gov="interacts" gov_index="10">advmod</dependency>
+      <dependency dep="TBP" dep_index="13" gov="interacts" gov_index="10">prep_with</dependency>
+      <dependency dep="however" dep_index="15" gov="detected" gov_index="26">advmod</dependency>
+      <dependency dep="additional" dep_index="17" gov="interactions" gov_index="18">amod</dependency>
+      <dependency dep="interactions" dep_index="18" gov="detected" gov_index="26">nsubjpass</dependency>
+      <dependency dep="hTAFII20" dep_index="20" gov="interactions" gov_index="18">prep_between</dependency>
+      <dependency dep="hTAFII28" dep_index="22" gov="interactions" gov_index="18">prep_between</dependency>
+      <dependency dep="hTAFII28" dep_index="22" gov="hTAFII20" gov_index="20">conj_and</dependency>
+      <dependency dep="hTAFII30" dep_index="24" gov="hTAFII20" gov_index="20">conj_and</dependency>
+      <dependency dep="hTAFII30" dep_index="24" gov="hTAFII28" gov_index="22">conj_or</dependency>
+      <dependency dep="were" dep_index="25" gov="detected" gov_index="26">auxpass</dependency>
+      <dependency dep="detected" dep_index="26" gov="interacts" gov_index="10">parataxis</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="true">9 10 13</relation>
+      <relation position="900020" relationship="false">9 10 26 18 20</relation>
+      <relation position="900022" relationship="false">9 10 26 18 22</relation>
+      <relation position="900024" relationship="false">9 10 26 18 22 24</relation>
+      <relation position="1300020" relationship="false">13 10 26 18 20</relation>
+      <relation position="1300022" relationship="false">13 10 26 18 22</relation>
+      <relation position="1300024" relationship="false">13 10 26 18 22 24</relation>
+      <relation position="2000022" relationship="true">20 18 22</relation>
+      <relation position="2000024" relationship="true">20 18 22 24</relation>
+      <relation position="2200024" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>2000022</pair>
+      <pair>900013</pair>
+      <pair>2000024</pair>
+   </pairs>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Northern@blot@and@primer@extension@analyses@indicated@that@yfhS@is@transcribed@by@E sigma E@during@sporulation@.@</sentence>
+   <tags>
+      <tag pos="13">E sigma E</tag>
+      <tag pos="9">yfhS</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Northern</taggedword>
+      <taggedword index="2" part-of-speech="NN">blot</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NN">primer</taggedword>
+      <taggedword index="5" part-of-speech="NN">extension</taggedword>
+      <taggedword index="6" part-of-speech="NNS">analyses</taggedword>
+      <taggedword index="7" part-of-speech="VBD">indicated</taggedword>
+      <taggedword index="8" part-of-speech="IN">that</taggedword>
+      <taggedword index="9" part-of-speech="NNS">yfhS</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">transcribed</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="NNP">E sigma E</taggedword>
+      <taggedword index="14" part-of-speech="IN">during</taggedword>
+      <taggedword index="15" part-of-speech="NN">sporulation</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Northern" dep_index="1" gov="blot" gov_index="2">amod</dependency>
+      <dependency dep="blot" dep_index="2" gov="indicated" gov_index="7">nsubj</dependency>
+      <dependency dep="primer" dep_index="4" gov="analyses" gov_index="6">nn</dependency>
+      <dependency dep="extension" dep_index="5" gov="analyses" gov_index="6">nn</dependency>
+      <dependency dep="analyses" dep_index="6" gov="blot" gov_index="2">conj_and</dependency>
+      <dependency dep="analyses" dep_index="6" gov="indicated" gov_index="7">nsubj</dependency>
+      <dependency dep="indicated" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="transcribed" gov_index="11">mark</dependency>
+      <dependency dep="yfhS" dep_index="9" gov="transcribed" gov_index="11">nsubjpass</dependency>
+      <dependency dep="is" dep_index="10" gov="transcribed" gov_index="11">auxpass</dependency>
+      <dependency dep="transcribed" dep_index="11" gov="indicated" gov_index="7">ccomp</dependency>
+      <dependency dep="E sigma E" dep_index="13" gov="transcribed" gov_index="11">agent</dependency>
+      <dependency dep="sporulation" dep_index="15" gov="transcribed" gov_index="11">prep_during</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900013" relationship="true">9 11 13</relation>
+   </relations>
+   <pairs>
+      <pair>900013</pair>
+   </pairs>
+</root>

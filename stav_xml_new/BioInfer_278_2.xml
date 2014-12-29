@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@suggests@that@dephosphorylation@of@cofilin@and@destrin@/@ADF@by@TSH@could@be@implicated@in@the@disruption@of@actin@-containing@stress@fibers@and@in@the@reorganization@of@microfilaments@induced@by@this@hormone@.@</sentence>
+   <tags>
+      <tag pos="10">ADF</tag>
+      <tag pos="12">TSH</tag>
+      <tag pos="20">actin</tag>
+      <tag pos="8">destrin</tag>
+      <tag pos="6">cofilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="3" part-of-speech="DT">that</taggedword>
+      <taggedword index="4" part-of-speech="NN">dephosphorylation</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NN">destrin</taggedword>
+      <taggedword index="9" part-of-speech=":">/</taggedword>
+      <taggedword index="10" part-of-speech="NNP">ADF</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="NNP">TSH</taggedword>
+      <taggedword index="13" part-of-speech="MD">could</taggedword>
+      <taggedword index="14" part-of-speech="VB">be</taggedword>
+      <taggedword index="15" part-of-speech="VBN">implicated</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">disruption</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="21" part-of-speech="JJ">-containing</taggedword>
+      <taggedword index="22" part-of-speech="NN">stress</taggedword>
+      <taggedword index="23" part-of-speech="NNS">fibers</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">reorganization</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="NNS">microfilaments</taggedword>
+      <taggedword index="30" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="31" part-of-speech="IN">by</taggedword>
+      <taggedword index="32" part-of-speech="DT">this</taggedword>
+      <taggedword index="33" part-of-speech="NN">hormone</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="This" dep_index="1" gov="dephosphorylation" gov_index="4">det</dependency>
+      <dependency dep="suggests" dep_index="2" gov="This" gov_index="1">rcmod</dependency>
+      <dependency dep="dephosphorylation" dep_index="4" gov="suggests" gov_index="2">dobj</dependency>
+      <dependency dep="cofilin" dep_index="6" gov="dephosphorylation" gov_index="4">prep_of</dependency>
+      <dependency dep="destrin" dep_index="8" gov="dephosphorylation" gov_index="4">prep_of</dependency>
+      <dependency dep="destrin" dep_index="8" gov="cofilin" gov_index="6">conj_and</dependency>
+      <dependency dep="/" dep_index="9" gov="This" gov_index="1">punct</dependency>
+      <dependency dep="ADF" dep_index="10" gov="implicated" gov_index="15">nsubjpass</dependency>
+      <dependency dep="TSH" dep_index="12" gov="ADF" gov_index="10">prep_by</dependency>
+      <dependency dep="could" dep_index="13" gov="implicated" gov_index="15">aux</dependency>
+      <dependency dep="be" dep_index="14" gov="implicated" gov_index="15">auxpass</dependency>
+      <dependency dep="implicated" dep_index="15" gov="This" gov_index="1">dep</dependency>
+      <dependency dep="the" dep_index="17" gov="disruption" gov_index="18">det</dependency>
+      <dependency dep="disruption" dep_index="18" gov="implicated" gov_index="15">prep_in</dependency>
+      <dependency dep="actin" dep_index="20" gov="fibers" gov_index="23">amod</dependency>
+      <dependency dep="-containing" dep_index="21" gov="fibers" gov_index="23">amod</dependency>
+      <dependency dep="stress" dep_index="22" gov="fibers" gov_index="23">nn</dependency>
+      <dependency dep="fibers" dep_index="23" gov="disruption" gov_index="18">prep_of</dependency>
+      <dependency dep="the" dep_index="26" gov="reorganization" gov_index="27">det</dependency>
+      <dependency dep="reorganization" dep_index="27" gov="implicated" gov_index="15">prep_in</dependency>
+      <dependency dep="reorganization" dep_index="27" gov="disruption" gov_index="18">conj_and</dependency>
+      <dependency dep="microfilaments" dep_index="29" gov="reorganization" gov_index="27">prep_of</dependency>
+      <dependency dep="induced" dep_index="30" gov="microfilaments" gov_index="29">partmod</dependency>
+      <dependency dep="this" dep_index="32" gov="hormone" gov_index="33">det</dependency>
+      <dependency dep="hormone" dep_index="33" gov="induced" gov_index="30">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000012" relationship="true"></relation>
+      <relation position="1000020" relationship="true">10 15 18 23 20</relation>
+      <relation position="800010" relationship="false">8 4 1 15 10</relation>
+      <relation position="600010" relationship="false">6 4 1 15 10</relation>
+      <relation position="1200020" relationship="true">12 10 15 18 23 20</relation>
+      <relation position="800012" relationship="true">8 4 1 15 10 12</relation>
+      <relation position="600012" relationship="true">6 4 1 15 10 12</relation>
+      <relation position="800020" relationship="true">8 4 1 15 18 23 20</relation>
+      <relation position="600020" relationship="true">6 4 1 15 18 23 20</relation>
+      <relation position="600008" relationship="false">6 4 8</relation>
+   </relations>
+   <pairs>
+      <pair>800020</pair>
+      <pair>600012</pair>
+      <pair>1000012</pair>
+      <pair>1200020</pair>
+      <pair>800012</pair>
+      <pair>600020</pair>
+      <pair>1000020</pair>
+   </pairs>
+</root>

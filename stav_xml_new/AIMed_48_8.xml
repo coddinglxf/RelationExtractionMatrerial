@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@neutralizing@polyclonal@antibody@to@LEC@was@developed@to@demonstrate@that@the@unusually@high@concentration@of@LEC@required@to@induce@chemotaxis@was@a@property@of@LEC@and@not@as@a@result@of@an@irrelevant@protein@contamination@.@</sentence>
+   <tags>
+      <tag pos="6">LEC</tag>
+      <tag pos="17">LEC</tag>
+      <tag pos="26">LEC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="VBG">neutralizing</taggedword>
+      <taggedword index="3" part-of-speech="JJ">polyclonal</taggedword>
+      <taggedword index="4" part-of-speech="NN">antibody</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="VBN">developed</taggedword>
+      <taggedword index="9" part-of-speech="TO">to</taggedword>
+      <taggedword index="10" part-of-speech="VB">demonstrate</taggedword>
+      <taggedword index="11" part-of-speech="IN">that</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="RB">unusually</taggedword>
+      <taggedword index="14" part-of-speech="JJ">high</taggedword>
+      <taggedword index="15" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="18" part-of-speech="VBN">required</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="VB">induce</taggedword>
+      <taggedword index="21" part-of-speech="NNS">chemotaxis</taggedword>
+      <taggedword index="22" part-of-speech="VBD">was</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="NN">property</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="RB">not</taggedword>
+      <taggedword index="29" part-of-speech="IN">as</taggedword>
+      <taggedword index="30" part-of-speech="DT">a</taggedword>
+      <taggedword index="31" part-of-speech="NN">result</taggedword>
+      <taggedword index="32" part-of-speech="IN">of</taggedword>
+      <taggedword index="33" part-of-speech="DT">an</taggedword>
+      <taggedword index="34" part-of-speech="JJ">irrelevant</taggedword>
+      <taggedword index="35" part-of-speech="NN">protein</taggedword>
+      <taggedword index="36" part-of-speech="NN">contamination</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="antibody" gov_index="4">det</dependency>
+      <dependency dep="neutralizing" dep_index="2" gov="antibody" gov_index="4">amod</dependency>
+      <dependency dep="polyclonal" dep_index="3" gov="antibody" gov_index="4">amod</dependency>
+      <dependency dep="antibody" dep_index="4" gov="developed" gov_index="8">nsubjpass</dependency>
+      <dependency dep="antibody" dep_index="4" gov="demonstrate" gov_index="10">xsubj</dependency>
+      <dependency dep="LEC" dep_index="6" gov="antibody" gov_index="4">prep_to</dependency>
+      <dependency dep="was" dep_index="7" gov="developed" gov_index="8">auxpass</dependency>
+      <dependency dep="developed" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="9" gov="demonstrate" gov_index="10">aux</dependency>
+      <dependency dep="demonstrate" dep_index="10" gov="developed" gov_index="8">xcomp</dependency>
+      <dependency dep="that" dep_index="11" gov="property" gov_index="24">mark</dependency>
+      <dependency dep="the" dep_index="12" gov="concentration" gov_index="15">det</dependency>
+      <dependency dep="unusually" dep_index="13" gov="high" gov_index="14">advmod</dependency>
+      <dependency dep="high" dep_index="14" gov="concentration" gov_index="15">amod</dependency>
+      <dependency dep="concentration" dep_index="15" gov="property" gov_index="24">nsubj</dependency>
+      <dependency dep="LEC" dep_index="17" gov="concentration" gov_index="15">prep_of</dependency>
+      <dependency dep="required" dep_index="18" gov="LEC" gov_index="17">partmod</dependency>
+      <dependency dep="to" dep_index="19" gov="induce" gov_index="20">aux</dependency>
+      <dependency dep="induce" dep_index="20" gov="required" gov_index="18">xcomp</dependency>
+      <dependency dep="chemotaxis" dep_index="21" gov="induce" gov_index="20">dobj</dependency>
+      <dependency dep="was" dep_index="22" gov="property" gov_index="24">cop</dependency>
+      <dependency dep="a" dep_index="23" gov="property" gov_index="24">det</dependency>
+      <dependency dep="property" dep_index="24" gov="demonstrate" gov_index="10">ccomp</dependency>
+      <dependency dep="LEC" dep_index="26" gov="property" gov_index="24">prep_of</dependency>
+      <dependency dep="not" dep_index="28" gov="property" gov_index="24">prep_of</dependency>
+      <dependency dep="not" dep_index="28" gov="LEC" gov_index="26">conj_and</dependency>
+      <dependency dep="not" dep_index="28" gov="LEC" gov_index="26">neg</dependency>
+      <dependency dep="a" dep_index="30" gov="result" gov_index="31">det</dependency>
+      <dependency dep="result" dep_index="31" gov="property" gov_index="24">prep_as</dependency>
+      <dependency dep="an" dep_index="33" gov="contamination" gov_index="36">det</dependency>
+      <dependency dep="irrelevant" dep_index="34" gov="contamination" gov_index="36">amod</dependency>
+      <dependency dep="protein" dep_index="35" gov="contamination" gov_index="36">nn</dependency>
+      <dependency dep="contamination" dep_index="36" gov="result" gov_index="31">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600017" relationship="false">6 4 10 24 15 17</relation>
+      <relation position="600026" relationship="false">6 4 10 24 26</relation>
+      <relation position="1700026" relationship="false">17 15 24 26</relation>
+   </relations>
+   <pairs/>
+</root>

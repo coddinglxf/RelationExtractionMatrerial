@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>RAD51@,@RAD52@,@RAD57@,@and@RAD59@were@required@for@efficient@gap@repair@using@either@chromosomal@or@plasmid@donors@.@</sentence>
+   <tags>
+      <tag pos="8">RAD59</tag>
+      <tag pos="3">RAD52</tag>
+      <tag pos="5">RAD57</tag>
+      <tag pos="1">RAD51</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">RAD51</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">RAD52</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NNP">RAD57</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="NNP">RAD59</taggedword>
+      <taggedword index="9" part-of-speech="VBD">were</taggedword>
+      <taggedword index="10" part-of-speech="VBN">required</taggedword>
+      <taggedword index="11" part-of-speech="IN">for</taggedword>
+      <taggedword index="12" part-of-speech="JJ">efficient</taggedword>
+      <taggedword index="13" part-of-speech="NN">gap</taggedword>
+      <taggedword index="14" part-of-speech="NN">repair</taggedword>
+      <taggedword index="15" part-of-speech="VBG">using</taggedword>
+      <taggedword index="16" part-of-speech="DT">either</taggedword>
+      <taggedword index="17" part-of-speech="JJ">chromosomal</taggedword>
+      <taggedword index="18" part-of-speech="CC">or</taggedword>
+      <taggedword index="19" part-of-speech="JJ">plasmid</taggedword>
+      <taggedword index="20" part-of-speech="NNS">donors</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="RAD51" dep_index="1" gov="required" gov_index="10">advmod</dependency>
+      <dependency dep="RAD52" dep_index="3" gov="required" gov_index="10">nsubjpass</dependency>
+      <dependency dep="RAD57" dep_index="5" gov="RAD52" gov_index="3">conj_and</dependency>
+      <dependency dep="RAD57" dep_index="5" gov="required" gov_index="10">nsubjpass</dependency>
+      <dependency dep="RAD59" dep_index="8" gov="RAD52" gov_index="3">conj_and</dependency>
+      <dependency dep="RAD59" dep_index="8" gov="required" gov_index="10">nsubjpass</dependency>
+      <dependency dep="were" dep_index="9" gov="required" gov_index="10">auxpass</dependency>
+      <dependency dep="required" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="efficient" dep_index="12" gov="repair" gov_index="14">amod</dependency>
+      <dependency dep="gap" dep_index="13" gov="repair" gov_index="14">nn</dependency>
+      <dependency dep="repair" dep_index="14" gov="required" gov_index="10">prep_for</dependency>
+      <dependency dep="using" dep_index="15" gov="repair" gov_index="14">partmod</dependency>
+      <dependency dep="either" dep_index="16" gov="chromosomal" gov_index="17">preconj</dependency>
+      <dependency dep="chromosomal" dep_index="17" gov="donors" gov_index="20">amod</dependency>
+      <dependency dep="plasmid" dep_index="19" gov="chromosomal" gov_index="17">conj_or</dependency>
+      <dependency dep="plasmid" dep_index="19" gov="donors" gov_index="20">amod</dependency>
+      <dependency dep="donors" dep_index="20" gov="using" gov_index="15">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300008" relationship="false">3 10 8</relation>
+      <relation position="500008" relationship="false">5 10 8</relation>
+      <relation position="100008" relationship="false">1 10 8</relation>
+      <relation position="300005" relationship="false">3 10 5</relation>
+      <relation position="100003" relationship="false">1 10 3</relation>
+      <relation position="100005" relationship="false">1 10 5</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Human@cyclin E@,@a@new@cyclin@that@interacts@with@two@members@of@the@CDC2@gene@family@.@</sentence>
+   <tags>
+      <tag pos="2">cyclin E</tag>
+      <tag pos="14">CDC2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Human</taggedword>
+      <taggedword index="2" part-of-speech="NN">cyclin E</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">new</taggedword>
+      <taggedword index="6" part-of-speech="NN">cyclin</taggedword>
+      <taggedword index="7" part-of-speech="WDT">that</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="9" part-of-speech="IN">with</taggedword>
+      <taggedword index="10" part-of-speech="CD">two</taggedword>
+      <taggedword index="11" part-of-speech="NNS">members</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NNP">CDC2</taggedword>
+      <taggedword index="15" part-of-speech="NN">gene</taggedword>
+      <taggedword index="16" part-of-speech="NN">family</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Human" dep_index="1" gov="cyclin E" gov_index="2">amod</dependency>
+      <dependency dep="cyclin E" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="cyclin" gov_index="6">det</dependency>
+      <dependency dep="new" dep_index="5" gov="cyclin" gov_index="6">amod</dependency>
+      <dependency dep="cyclin" dep_index="6" gov="cyclin E" gov_index="2">appos</dependency>
+      <dependency dep="cyclin" dep_index="6" gov="interacts" gov_index="8">nsubj</dependency>
+      <dependency dep="interacts" dep_index="8" gov="cyclin" gov_index="6">rcmod</dependency>
+      <dependency dep="two" dep_index="10" gov="members" gov_index="11">num</dependency>
+      <dependency dep="members" dep_index="11" gov="interacts" gov_index="8">prep_with</dependency>
+      <dependency dep="the" dep_index="13" gov="family" gov_index="16">det</dependency>
+      <dependency dep="CDC2" dep_index="14" gov="family" gov_index="16">nn</dependency>
+      <dependency dep="gene" dep_index="15" gov="family" gov_index="16">nn</dependency>
+      <dependency dep="family" dep_index="16" gov="members" gov_index="11">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200014" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

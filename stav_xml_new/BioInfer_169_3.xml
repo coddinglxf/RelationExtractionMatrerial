@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Recombinant@plant@(birch)@profilin@was@analyzed@for@its@ability@to@promote@actin@polymerization@from@the@actin@:@thymosin beta4@and@beta9@complex@.@</sentence>
+   <tags>
+      <tag pos="4">profilin</tag>
+      <tag pos="18">thymosin beta4</tag>
+      <tag pos="12">actin</tag>
+      <tag pos="16">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Recombinant</taggedword>
+      <taggedword index="2" part-of-speech="NN">plant</taggedword>
+      <taggedword index="3" part-of-speech="NN">(birch)</taggedword>
+      <taggedword index="4" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="VBN">analyzed</taggedword>
+      <taggedword index="7" part-of-speech="IN">for</taggedword>
+      <taggedword index="8" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="9" part-of-speech="NN">ability</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="VB">promote</taggedword>
+      <taggedword index="12" part-of-speech="NN">actin</taggedword>
+      <taggedword index="13" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="14" part-of-speech="IN">from</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">actin</taggedword>
+      <taggedword index="17" part-of-speech=":">:</taggedword>
+      <taggedword index="18" part-of-speech="NNS">thymosin beta4</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="JJ">beta9</taggedword>
+      <taggedword index="21" part-of-speech="NN">complex</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Recombinant" dep_index="1" gov="profilin" gov_index="4">amod</dependency>
+      <dependency dep="plant" dep_index="2" gov="profilin" gov_index="4">nn</dependency>
+      <dependency dep="(birch)" dep_index="3" gov="profilin" gov_index="4">nn</dependency>
+      <dependency dep="profilin" dep_index="4" gov="analyzed" gov_index="6">nsubjpass</dependency>
+      <dependency dep="was" dep_index="5" gov="analyzed" gov_index="6">auxpass</dependency>
+      <dependency dep="analyzed" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="its" dep_index="8" gov="ability" gov_index="9">poss</dependency>
+      <dependency dep="ability" dep_index="9" gov="analyzed" gov_index="6">prep_for</dependency>
+      <dependency dep="to" dep_index="10" gov="promote" gov_index="11">aux</dependency>
+      <dependency dep="promote" dep_index="11" gov="ability" gov_index="9">infmod</dependency>
+      <dependency dep="actin" dep_index="12" gov="polymerization" gov_index="13">nn</dependency>
+      <dependency dep="polymerization" dep_index="13" gov="promote" gov_index="11">dobj</dependency>
+      <dependency dep="the" dep_index="15" gov="actin" gov_index="16">det</dependency>
+      <dependency dep="actin" dep_index="16" gov="promote" gov_index="11">prep_from</dependency>
+      <dependency dep="thymosin beta4" dep_index="18" gov="actin" gov_index="16">dep</dependency>
+      <dependency dep="beta9" dep_index="20" gov="complex" gov_index="21">amod</dependency>
+      <dependency dep="complex" dep_index="21" gov="actin" gov_index="16">dep</dependency>
+      <dependency dep="complex" dep_index="21" gov="thymosin beta4" gov_index="18">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400018" relationship="false">4 6 9 11 16 18</relation>
+      <relation position="400012" relationship="true">4 6 9 11 13 12</relation>
+      <relation position="400016" relationship="false">4 6 9 11 16</relation>
+      <relation position="1200018" relationship="true">12 13 11 16 18</relation>
+      <relation position="1600018" relationship="true"></relation>
+      <relation position="1200016" relationship="true">12 13 11 16</relation>
+   </relations>
+   <pairs>
+      <pair>1200018</pair>
+      <pair>1200016</pair>
+      <pair>400012</pair>
+      <pair>1600018</pair>
+   </pairs>
+</root>

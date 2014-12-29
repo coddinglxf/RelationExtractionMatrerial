@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>p53@is@a@nuclear@protein@that@regulates@gene@expression@via@sequence-specific@DNA@binding@and/or@direct@protein-protein@interaction@.@</sentence>
+   <tags>
+      <tag pos="1">p53</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">p53</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">nuclear</taggedword>
+      <taggedword index="5" part-of-speech="NN">protein</taggedword>
+      <taggedword index="6" part-of-speech="WDT">that</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">regulates</taggedword>
+      <taggedword index="8" part-of-speech="NN">gene</taggedword>
+      <taggedword index="9" part-of-speech="NN">expression</taggedword>
+      <taggedword index="10" part-of-speech="IN">via</taggedword>
+      <taggedword index="11" part-of-speech="JJ">sequence-specific</taggedword>
+      <taggedword index="12" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="13" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="14" part-of-speech="NN">and/or</taggedword>
+      <taggedword index="15" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="16" part-of-speech="NN">protein-protein</taggedword>
+      <taggedword index="17" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="p53" dep_index="1" gov="protein" gov_index="5">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="protein" gov_index="5">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="protein" gov_index="5">det</dependency>
+      <dependency dep="nuclear" dep_index="4" gov="protein" gov_index="5">amod</dependency>
+      <dependency dep="protein" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="protein" dep_index="5" gov="regulates" gov_index="7">nsubj</dependency>
+      <dependency dep="regulates" dep_index="7" gov="protein" gov_index="5">rcmod</dependency>
+      <dependency dep="gene" dep_index="8" gov="expression" gov_index="9">nn</dependency>
+      <dependency dep="expression" dep_index="9" gov="regulates" gov_index="7">dobj</dependency>
+      <dependency dep="sequence-specific" dep_index="11" gov="interaction" gov_index="17">amod</dependency>
+      <dependency dep="DNA" dep_index="12" gov="interaction" gov_index="17">nn</dependency>
+      <dependency dep="binding" dep_index="13" gov="interaction" gov_index="17">amod</dependency>
+      <dependency dep="and/or" dep_index="14" gov="interaction" gov_index="17">nn</dependency>
+      <dependency dep="direct" dep_index="15" gov="interaction" gov_index="17">amod</dependency>
+      <dependency dep="protein-protein" dep_index="16" gov="interaction" gov_index="17">nn</dependency>
+      <dependency dep="interaction" dep_index="17" gov="expression" gov_index="9">prep_via</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

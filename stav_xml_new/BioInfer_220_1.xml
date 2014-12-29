@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Frozen@tissue@sections@,@isolated@cardiomyocytes@,@cultured@neonatal@cardiomyocytes@and@fibroblasts@were@hybridized@with@DNA@probes@for@type-specific@collagens@,@actin@,@and@myosin heavy chain@.@</sentence>
+   <tags>
+      <tag pos="20">collagens</tag>
+      <tag pos="25">myosin heavy chain</tag>
+      <tag pos="22">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Frozen</taggedword>
+      <taggedword index="2" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="3" part-of-speech="NNS">sections</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="VBN">isolated</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cardiomyocytes</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="VBD">cultured</taggedword>
+      <taggedword index="9" part-of-speech="JJ">neonatal</taggedword>
+      <taggedword index="10" part-of-speech="NNS">cardiomyocytes</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NNS">fibroblasts</taggedword>
+      <taggedword index="13" part-of-speech="VBD">were</taggedword>
+      <taggedword index="14" part-of-speech="VBN">hybridized</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="17" part-of-speech="NNS">probes</taggedword>
+      <taggedword index="18" part-of-speech="IN">for</taggedword>
+      <taggedword index="19" part-of-speech="JJ">type-specific</taggedword>
+      <taggedword index="20" part-of-speech="NNS">collagens</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NN">actin</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Frozen" dep_index="1" gov="sections" gov_index="3">amod</dependency>
+      <dependency dep="tissue" dep_index="2" gov="sections" gov_index="3">nn</dependency>
+      <dependency dep="sections" dep_index="3" gov="cultured" gov_index="8">nsubj</dependency>
+      <dependency dep="isolated" dep_index="5" gov="cardiomyocytes" gov_index="6">amod</dependency>
+      <dependency dep="cardiomyocytes" dep_index="6" gov="sections" gov_index="3">appos</dependency>
+      <dependency dep="cultured" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="neonatal" dep_index="9" gov="cardiomyocytes" gov_index="10">amod</dependency>
+      <dependency dep="cardiomyocytes" dep_index="10" gov="hybridized" gov_index="14">nsubjpass</dependency>
+      <dependency dep="fibroblasts" dep_index="12" gov="cardiomyocytes" gov_index="10">conj_and</dependency>
+      <dependency dep="fibroblasts" dep_index="12" gov="hybridized" gov_index="14">nsubjpass</dependency>
+      <dependency dep="were" dep_index="13" gov="hybridized" gov_index="14">auxpass</dependency>
+      <dependency dep="hybridized" dep_index="14" gov="cultured" gov_index="8">ccomp</dependency>
+      <dependency dep="DNA" dep_index="16" gov="probes" gov_index="17">nn</dependency>
+      <dependency dep="probes" dep_index="17" gov="hybridized" gov_index="14">prep_with</dependency>
+      <dependency dep="type-specific" dep_index="19" gov="collagens" gov_index="20">amod</dependency>
+      <dependency dep="collagens" dep_index="20" gov="probes" gov_index="17">prep_for</dependency>
+      <dependency dep="actin" dep_index="22" gov="probes" gov_index="17">prep_for</dependency>
+      <dependency dep="actin" dep_index="22" gov="collagens" gov_index="20">conj_and</dependency>
+      <dependency dep="myosin heavy chain" dep_index="25" gov="probes" gov_index="17">prep_for</dependency>
+      <dependency dep="myosin heavy chain" dep_index="25" gov="collagens" gov_index="20">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000025" relationship="false">20 17 25</relation>
+      <relation position="2000022" relationship="false">20 17 22</relation>
+      <relation position="2200025" relationship="false">22 17 25</relation>
+   </relations>
+   <pairs/>
+</root>

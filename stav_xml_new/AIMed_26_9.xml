@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@findings@suggest@that@the@tumor-bearing@patients@with@impaired@granulysin@expression@were@in@an@immunosuppressive@state@.@</sentence>
+   <tags>
+      <tag pos="10">granulysin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">findings</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="JJ">tumor-bearing</taggedword>
+      <taggedword index="7" part-of-speech="NNS">patients</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="VBN">impaired</taggedword>
+      <taggedword index="10" part-of-speech="NN">granulysin</taggedword>
+      <taggedword index="11" part-of-speech="NN">expression</taggedword>
+      <taggedword index="12" part-of-speech="VBD">were</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="DT">an</taggedword>
+      <taggedword index="15" part-of-speech="JJ">immunosuppressive</taggedword>
+      <taggedword index="16" part-of-speech="NN">state</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="findings" gov_index="2">det</dependency>
+      <dependency dep="findings" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="were" gov_index="12">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="patients" gov_index="7">det</dependency>
+      <dependency dep="tumor-bearing" dep_index="6" gov="patients" gov_index="7">amod</dependency>
+      <dependency dep="patients" dep_index="7" gov="were" gov_index="12">nsubj</dependency>
+      <dependency dep="impaired" dep_index="9" gov="expression" gov_index="11">amod</dependency>
+      <dependency dep="granulysin" dep_index="10" gov="expression" gov_index="11">nn</dependency>
+      <dependency dep="expression" dep_index="11" gov="patients" gov_index="7">prep_with</dependency>
+      <dependency dep="were" dep_index="12" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="an" dep_index="14" gov="state" gov_index="16">det</dependency>
+      <dependency dep="immunosuppressive" dep_index="15" gov="state" gov_index="16">amod</dependency>
+      <dependency dep="state" dep_index="16" gov="were" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

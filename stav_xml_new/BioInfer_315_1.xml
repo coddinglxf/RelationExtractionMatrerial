@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@we@have@demonstrated@that@increased@gene@dosage@of@either@SIR1@or@SIR4@,@two@other@factors@required@for@silencing@,@suppresses@the@silencing@defect@of@the@rap1@mutants@.@</sentence>
+   <tags>
+      <tag pos="15">SIR4</tag>
+      <tag pos="30">rap1</tag>
+      <tag pos="13">SIR1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="PRP">we</taggedword>
+      <taggedword index="5" part-of-speech="VBP">have</taggedword>
+      <taggedword index="6" part-of-speech="VBN">demonstrated</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="9" part-of-speech="NN">gene</taggedword>
+      <taggedword index="10" part-of-speech="NN">dosage</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">either</taggedword>
+      <taggedword index="13" part-of-speech="NNP">SIR1</taggedword>
+      <taggedword index="14" part-of-speech="CC">or</taggedword>
+      <taggedword index="15" part-of-speech="NNP">SIR4</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CD">two</taggedword>
+      <taggedword index="18" part-of-speech="JJ">other</taggedword>
+      <taggedword index="19" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="20" part-of-speech="VBN">required</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="NN">silencing</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="VBZ">suppresses</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="VBG">silencing</taggedword>
+      <taggedword index="27" part-of-speech="NN">defect</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="JJ">rap1</taggedword>
+      <taggedword index="31" part-of-speech="NNS">mutants</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="demonstrated" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="4" gov="demonstrated" gov_index="6">nsubj</dependency>
+      <dependency dep="have" dep_index="5" gov="demonstrated" gov_index="6">aux</dependency>
+      <dependency dep="demonstrated" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="suppresses" gov_index="24">mark</dependency>
+      <dependency dep="increased" dep_index="8" gov="dosage" gov_index="10">amod</dependency>
+      <dependency dep="gene" dep_index="9" gov="dosage" gov_index="10">nn</dependency>
+      <dependency dep="dosage" dep_index="10" gov="suppresses" gov_index="24">nsubj</dependency>
+      <dependency dep="either" dep_index="12" gov="SIR1" gov_index="13">preconj</dependency>
+      <dependency dep="SIR1" dep_index="13" gov="dosage" gov_index="10">prep_of</dependency>
+      <dependency dep="SIR4" dep_index="15" gov="dosage" gov_index="10">prep_of</dependency>
+      <dependency dep="SIR4" dep_index="15" gov="SIR1" gov_index="13">conj_or</dependency>
+      <dependency dep="two" dep_index="17" gov="factors" gov_index="19">num</dependency>
+      <dependency dep="other" dep_index="18" gov="factors" gov_index="19">amod</dependency>
+      <dependency dep="factors" dep_index="19" gov="dosage" gov_index="10">appos</dependency>
+      <dependency dep="required" dep_index="20" gov="factors" gov_index="19">partmod</dependency>
+      <dependency dep="silencing" dep_index="22" gov="required" gov_index="20">prep_for</dependency>
+      <dependency dep="suppresses" dep_index="24" gov="demonstrated" gov_index="6">ccomp</dependency>
+      <dependency dep="the" dep_index="25" gov="defect" gov_index="27">det</dependency>
+      <dependency dep="silencing" dep_index="26" gov="defect" gov_index="27">amod</dependency>
+      <dependency dep="defect" dep_index="27" gov="suppresses" gov_index="24">dobj</dependency>
+      <dependency dep="the" dep_index="29" gov="mutants" gov_index="31">det</dependency>
+      <dependency dep="rap1" dep_index="30" gov="mutants" gov_index="31">amod</dependency>
+      <dependency dep="mutants" dep_index="31" gov="defect" gov_index="27">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500030" relationship="true">15 10 24 27 31 30</relation>
+      <relation position="1300015" relationship="false">13 10 15</relation>
+      <relation position="1300030" relationship="true">13 10 24 27 31 30</relation>
+   </relations>
+   <pairs>
+      <pair>1500030</pair>
+      <pair>1300030</pair>
+   </pairs>
+</root>

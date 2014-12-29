@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cross-family@dimerization@of@transcription@factors@Fos@/@Jun@and@ATF@/@CREB@alters@DNA@binding@specificity@.@</sentence>
+   <tags>
+      <tag pos="6">Fos</tag>
+      <tag pos="8">Jun</tag>
+      <tag pos="10">ATF</tag>
+      <tag pos="12">CREB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Cross-family</taggedword>
+      <taggedword index="2" part-of-speech="NN">dimerization</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="CD">transcription</taggedword>
+      <taggedword index="5" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="6" part-of-speech="JJ">Fos</taggedword>
+      <taggedword index="7" part-of-speech=":">/</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Jun</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NNP">ATF</taggedword>
+      <taggedword index="11" part-of-speech=":">/</taggedword>
+      <taggedword index="12" part-of-speech="NNS">CREB</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">alters</taggedword>
+      <taggedword index="14" part-of-speech="NNP">DNA</taggedword>
+      <taggedword index="15" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="16" part-of-speech="NN">specificity</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cross-family" dep_index="1" gov="dimerization" gov_index="2">amod</dependency>
+      <dependency dep="dimerization" dep_index="2" gov="alters" gov_index="13">nsubj</dependency>
+      <dependency dep="transcription" dep_index="4" gov="factors" gov_index="5">num</dependency>
+      <dependency dep="factors" dep_index="5" gov="Fos" gov_index="6">npadvmod</dependency>
+      <dependency dep="Fos" dep_index="6" gov="CREB" gov_index="12">amod</dependency>
+      <dependency dep="/" dep_index="7" gov="Jun" gov_index="8">punct</dependency>
+      <dependency dep="Jun" dep_index="8" gov="CREB" gov_index="12">dep</dependency>
+      <dependency dep="ATF" dep_index="10" gov="Jun" gov_index="8">conj_and</dependency>
+      <dependency dep="ATF" dep_index="10" gov="CREB" gov_index="12">dep</dependency>
+      <dependency dep="/" dep_index="11" gov="Jun" gov_index="8">punct</dependency>
+      <dependency dep="CREB" dep_index="12" gov="dimerization" gov_index="2">prep_of</dependency>
+      <dependency dep="alters" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="DNA" dep_index="14" gov="specificity" gov_index="16">nn</dependency>
+      <dependency dep="binding" dep_index="15" gov="specificity" gov_index="16">amod</dependency>
+      <dependency dep="specificity" dep_index="16" gov="alters" gov_index="13">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600008" relationship="true">6 12 8</relation>
+      <relation position="600010" relationship="false">6 12 10</relation>
+      <relation position="600012" relationship="false"></relation>
+      <relation position="800010" relationship="false">8 12 10</relation>
+      <relation position="800012" relationship="false"></relation>
+      <relation position="1000012" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>600008</pair>
+      <pair>1000012</pair>
+   </pairs>
+</root>

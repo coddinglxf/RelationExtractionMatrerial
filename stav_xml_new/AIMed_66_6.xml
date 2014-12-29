@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cyclin E@produced@in@E@.@coli@bound@and@activated@the@CDC2@protein@in@extracts@from@human@G1@cells@,@and@antibodies@against@cyclin E@immunoprecipitated@a@histone@H1@kinase@from@HeLa@cells@.@</sentence>
+   <tags>
+      <tag pos="1">Cyclin E</tag>
+      <tag pos="11">CDC2</tag>
+      <tag pos="23">cyclin E</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Cyclin E</taggedword>
+      <taggedword index="2" part-of-speech="VBD">produced</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="NNP">E</taggedword>
+      <taggedword index="5" part-of-speech=".">.</taggedword>
+      <taggedword index="6" part-of-speech="NNS">coli</taggedword>
+      <taggedword index="7" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">CDC2</taggedword>
+      <taggedword index="12" part-of-speech="NN">protein</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NNS">extracts</taggedword>
+      <taggedword index="15" part-of-speech="IN">from</taggedword>
+      <taggedword index="16" part-of-speech="JJ">human</taggedword>
+      <taggedword index="17" part-of-speech="NN">G1</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="22" part-of-speech="IN">against</taggedword>
+      <taggedword index="23" part-of-speech="NN">cyclin E</taggedword>
+      <taggedword index="24" part-of-speech="VBD">immunoprecipitated</taggedword>
+      <taggedword index="25" part-of-speech="DT">a</taggedword>
+      <taggedword index="26" part-of-speech="JJ">histone</taggedword>
+      <taggedword index="27" part-of-speech="NN">H1</taggedword>
+      <taggedword index="28" part-of-speech="NN">kinase</taggedword>
+      <taggedword index="29" part-of-speech="IN">from</taggedword>
+      <taggedword index="30" part-of-speech="NNP">HeLa</taggedword>
+      <taggedword index="31" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cyclin E" dep_index="1" gov="produced" gov_index="2">nsubj</dependency>
+      <dependency dep="produced" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="E" dep_index="4" gov="coli" gov_index="6">nn</dependency>
+      <dependency dep="coli" dep_index="6" gov="produced" gov_index="2">prep_in</dependency>
+      <dependency dep="bound" dep_index="7" gov="coli" gov_index="6">partmod</dependency>
+      <dependency dep="activated" dep_index="9" gov="coli" gov_index="6">partmod</dependency>
+      <dependency dep="activated" dep_index="9" gov="bound" gov_index="7">conj_and</dependency>
+      <dependency dep="the" dep_index="10" gov="protein" gov_index="12">det</dependency>
+      <dependency dep="CDC2" dep_index="11" gov="protein" gov_index="12">amod</dependency>
+      <dependency dep="protein" dep_index="12" gov="bound" gov_index="7">dobj</dependency>
+      <dependency dep="extracts" dep_index="14" gov="protein" gov_index="12">prep_in</dependency>
+      <dependency dep="human" dep_index="16" gov="cells" gov_index="18">amod</dependency>
+      <dependency dep="G1" dep_index="17" gov="cells" gov_index="18">nn</dependency>
+      <dependency dep="cells" dep_index="18" gov="bound" gov_index="7">prep_from</dependency>
+      <dependency dep="antibodies" dep_index="21" gov="immunoprecipitated" gov_index="24">nsubj</dependency>
+      <dependency dep="cyclin E" dep_index="23" gov="antibodies" gov_index="21">prep_against</dependency>
+      <dependency dep="immunoprecipitated" dep_index="24" gov="produced" gov_index="2">conj_and</dependency>
+      <dependency dep="a" dep_index="25" gov="kinase" gov_index="28">det</dependency>
+      <dependency dep="histone" dep_index="26" gov="kinase" gov_index="28">amod</dependency>
+      <dependency dep="H1" dep_index="27" gov="kinase" gov_index="28">nn</dependency>
+      <dependency dep="kinase" dep_index="28" gov="immunoprecipitated" gov_index="24">dobj</dependency>
+      <dependency dep="HeLa" dep_index="30" gov="cells" gov_index="31">nn</dependency>
+      <dependency dep="cells" dep_index="31" gov="immunoprecipitated" gov_index="24">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100011" relationship="true">1 2 6 7 12 11</relation>
+      <relation position="100023" relationship="false"></relation>
+      <relation position="1100023" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>100011</pair>
+   </pairs>
+</root>

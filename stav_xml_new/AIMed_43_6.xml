@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@,@a@minimum@set@of@residues@in@the@human@TrkC@second@immunoglobulin-like@domain@,@which@does@not@bind@nerve growth factor@(@NGF@),@were@substituted@with@those@from@human@TrkA@.@</sentence>
+   <tags>
+      <tag pos="13">TrkC</tag>
+      <tag pos="22">nerve growth factor</tag>
+      <tag pos="24">NGF</tag>
+      <tag pos="32">TrkA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="DT">a</taggedword>
+      <taggedword index="6" part-of-speech="JJ">minimum</taggedword>
+      <taggedword index="7" part-of-speech="NN">set</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="10" part-of-speech="IN">in</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="JJ">human</taggedword>
+      <taggedword index="13" part-of-speech="JJ">TrkC</taggedword>
+      <taggedword index="14" part-of-speech="JJ">second</taggedword>
+      <taggedword index="15" part-of-speech="JJ">immunoglobulin-like</taggedword>
+      <taggedword index="16" part-of-speech="NN">domain</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="WDT">which</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">does</taggedword>
+      <taggedword index="20" part-of-speech="RB">not</taggedword>
+      <taggedword index="21" part-of-speech="NN">bind</taggedword>
+      <taggedword index="22" part-of-speech="NN">nerve growth factor</taggedword>
+      <taggedword index="23" part-of-speech="NNP">(</taggedword>
+      <taggedword index="24" part-of-speech="NNP">NGF</taggedword>
+      <taggedword index="25" part-of-speech="NNP">),</taggedword>
+      <taggedword index="26" part-of-speech="VBD">were</taggedword>
+      <taggedword index="27" part-of-speech="VBN">substituted</taggedword>
+      <taggedword index="28" part-of-speech="IN">with</taggedword>
+      <taggedword index="29" part-of-speech="DT">those</taggedword>
+      <taggedword index="30" part-of-speech="IN">from</taggedword>
+      <taggedword index="31" part-of-speech="JJ">human</taggedword>
+      <taggedword index="32" part-of-speech="NNP">TrkA</taggedword>
+      <taggedword index="33" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="substituted" gov_index="27">prep_in</dependency>
+      <dependency dep="a" dep_index="5" gov="set" gov_index="7">det</dependency>
+      <dependency dep="minimum" dep_index="6" gov="set" gov_index="7">amod</dependency>
+      <dependency dep="set" dep_index="7" gov="substituted" gov_index="27">nsubjpass</dependency>
+      <dependency dep="residues" dep_index="9" gov="set" gov_index="7">prep_of</dependency>
+      <dependency dep="the" dep_index="11" gov="domain" gov_index="16">det</dependency>
+      <dependency dep="human" dep_index="12" gov="domain" gov_index="16">amod</dependency>
+      <dependency dep="TrkC" dep_index="13" gov="domain" gov_index="16">amod</dependency>
+      <dependency dep="second" dep_index="14" gov="domain" gov_index="16">amod</dependency>
+      <dependency dep="immunoglobulin-like" dep_index="15" gov="domain" gov_index="16">amod</dependency>
+      <dependency dep="domain" dep_index="16" gov="residues" gov_index="9">prep_in</dependency>
+      <dependency dep="domain" dep_index="16" gov="does" gov_index="19">nsubj</dependency>
+      <dependency dep="does" dep_index="19" gov="domain" gov_index="16">rcmod</dependency>
+      <dependency dep="not" dep_index="20" gov="does" gov_index="19">prep</dependency>
+      <dependency dep="bind" dep_index="21" gov=")," gov_index="25">nn</dependency>
+      <dependency dep="nerve growth factor" dep_index="22" gov=")," gov_index="25">nn</dependency>
+      <dependency dep="(" dep_index="23" gov=")," gov_index="25">nn</dependency>
+      <dependency dep="NGF" dep_index="24" gov=")," gov_index="25">nn</dependency>
+      <dependency dep=")," dep_index="25" gov="not" gov_index="20">pobj</dependency>
+      <dependency dep="were" dep_index="26" gov="substituted" gov_index="27">auxpass</dependency>
+      <dependency dep="substituted" dep_index="27" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="those" dep_index="29" gov="substituted" gov_index="27">prep_with</dependency>
+      <dependency dep="human" dep_index="31" gov="TrkA" gov_index="32">amod</dependency>
+      <dependency dep="TrkA" dep_index="32" gov="those" gov_index="29">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300022" relationship="false">13 16 19 20 25 22</relation>
+      <relation position="1300024" relationship="false">13 16 19 20 25 24</relation>
+      <relation position="1300032" relationship="false">13 16 9 7 27 29 32</relation>
+      <relation position="2200024" relationship="false">22 25 24</relation>
+      <relation position="2200032" relationship="false">22 25 20 19 16 9 7 27 29 32</relation>
+      <relation position="2400032" relationship="false">24 25 20 19 16 9 7 27 29 32</relation>
+   </relations>
+   <pairs/>
+</root>

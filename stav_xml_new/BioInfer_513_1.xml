@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Reduced@expression@of@E-cadherin@,@alpha-catenin@,@and@beta-catenin@was@observed@in@64%@(87@of@135)@,@50%@(43@of@86)@,@and@58%@(50@of@86)@of@the@specimens@tested@,@respectively@.@</sentence>
+   <tags>
+      <tag pos="4">E-cadherin</tag>
+      <tag pos="9">beta-catenin</tag>
+      <tag pos="6">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Reduced</taggedword>
+      <taggedword index="2" part-of-speech="NN">expression</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="10" part-of-speech="VBD">was</taggedword>
+      <taggedword index="11" part-of-speech="VBN">observed</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="CD">64%</taggedword>
+      <taggedword index="14" part-of-speech="CD">(87</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="CD">135)</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CD">50%</taggedword>
+      <taggedword index="19" part-of-speech="CD">(43</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="CD">86)</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="CD">58%</taggedword>
+      <taggedword index="25" part-of-speech="CD">(50</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="CD">86)</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="NNS">specimens</taggedword>
+      <taggedword index="31" part-of-speech="VBN">tested</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Reduced" dep_index="1" gov="expression" gov_index="2">amod</dependency>
+      <dependency dep="expression" dep_index="2" gov="observed" gov_index="11">nsubjpass</dependency>
+      <dependency dep="E-cadherin" dep_index="4" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="6" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="alpha-catenin" dep_index="6" gov="E-cadherin" gov_index="4">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="9" gov="expression" gov_index="2">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="9" gov="E-cadherin" gov_index="4">conj_and</dependency>
+      <dependency dep="was" dep_index="10" gov="observed" gov_index="11">auxpass</dependency>
+      <dependency dep="observed" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="64%" dep_index="13" gov="(87" gov_index="14">number</dependency>
+      <dependency dep="(87" dep_index="14" gov="observed" gov_index="11">prep_in</dependency>
+      <dependency dep="135)" dep_index="16" gov="(87" gov_index="14">prep_of</dependency>
+      <dependency dep="50%" dep_index="18" gov="(43" gov_index="19">number</dependency>
+      <dependency dep="(43" dep_index="19" gov="observed" gov_index="11">prep_in</dependency>
+      <dependency dep="(43" dep_index="19" gov="(87" gov_index="14">conj_and</dependency>
+      <dependency dep="86)" dep_index="21" gov="(43" gov_index="19">prep_of</dependency>
+      <dependency dep="58%" dep_index="24" gov="(50" gov_index="25">number</dependency>
+      <dependency dep="(50" dep_index="25" gov="observed" gov_index="11">prep_in</dependency>
+      <dependency dep="(50" dep_index="25" gov="(87" gov_index="14">conj_and</dependency>
+      <dependency dep="86)" dep_index="27" gov="(50" gov_index="25">prep_of</dependency>
+      <dependency dep="the" dep_index="29" gov="specimens" gov_index="30">det</dependency>
+      <dependency dep="specimens" dep_index="30" gov="86)" gov_index="27">prep_of</dependency>
+      <dependency dep="tested" dep_index="31" gov="(50" gov_index="25">partmod</dependency>
+      <dependency dep="respectively" dep_index="33" gov="tested" gov_index="31">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400009" relationship="false">4 2 9</relation>
+      <relation position="400006" relationship="false">4 2 6</relation>
+      <relation position="600009" relationship="false">6 2 9</relation>
+   </relations>
+   <pairs/>
+</root>

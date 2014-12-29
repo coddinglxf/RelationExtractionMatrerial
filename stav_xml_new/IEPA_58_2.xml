@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@these@cells@,@AVP@also@causes@the@translocation@of@PKC@from@the@cytosol@to@the@cell@membrane@which@is@maximal@at@5@min@,@but@the@intracellular@events@distal@to@protein kinase C@activation@that@underlie@ACTH@secretion@have@not@been@well@characterized@to@date@</sentence>
+   <tags>
+      <tag pos="5">AVP</tag>
+      <tag pos="11">PKC</tag>
+      <tag pos="32">protein kinase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">these</taggedword>
+      <taggedword index="3" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="6" part-of-speech="RB">also</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">causes</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">translocation</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="12" part-of-speech="IN">from</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">cytosol</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">cell</taggedword>
+      <taggedword index="18" part-of-speech="NN">membrane</taggedword>
+      <taggedword index="19" part-of-speech="WDT">which</taggedword>
+      <taggedword index="20" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="21" part-of-speech="JJ">maximal</taggedword>
+      <taggedword index="22" part-of-speech="IN">at</taggedword>
+      <taggedword index="23" part-of-speech="CD">5</taggedword>
+      <taggedword index="24" part-of-speech="NN">min</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">but</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="29" part-of-speech="NNS">events</taggedword>
+      <taggedword index="30" part-of-speech="JJ">distal</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="33" part-of-speech="NN">activation</taggedword>
+      <taggedword index="34" part-of-speech="IN">that</taggedword>
+      <taggedword index="35" part-of-speech="NNP">underlie</taggedword>
+      <taggedword index="36" part-of-speech="NNP">ACTH</taggedword>
+      <taggedword index="37" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="38" part-of-speech="VBP">have</taggedword>
+      <taggedword index="39" part-of-speech="RB">not</taggedword>
+      <taggedword index="40" part-of-speech="VBN">been</taggedword>
+      <taggedword index="41" part-of-speech="RB">well</taggedword>
+      <taggedword index="42" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="43" part-of-speech="TO">to</taggedword>
+      <taggedword index="44" part-of-speech="NN">date</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="these" dep_index="2" gov="cells" gov_index="3">det</dependency>
+      <dependency dep="cells" dep_index="3" gov="causes" gov_index="7">prep_in</dependency>
+      <dependency dep="AVP" dep_index="5" gov="causes" gov_index="7">nsubj</dependency>
+      <dependency dep="also" dep_index="6" gov="causes" gov_index="7">advmod</dependency>
+      <dependency dep="causes" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="translocation" gov_index="9">det</dependency>
+      <dependency dep="translocation" dep_index="9" gov="causes" gov_index="7">dobj</dependency>
+      <dependency dep="PKC" dep_index="11" gov="translocation" gov_index="9">prep_of</dependency>
+      <dependency dep="the" dep_index="13" gov="membrane" gov_index="18">det</dependency>
+      <dependency dep="cytosol" dep_index="14" gov="membrane" gov_index="18">amod</dependency>
+      <dependency dep="the" dep_index="16" gov="cell" gov_index="17">det</dependency>
+      <dependency dep="cell" dep_index="17" gov="cytosol" gov_index="14">prep_to</dependency>
+      <dependency dep="membrane" dep_index="18" gov="causes" gov_index="7">prep_from</dependency>
+      <dependency dep="membrane" dep_index="18" gov="maximal" gov_index="21">nsubj</dependency>
+      <dependency dep="membrane" dep_index="18" gov="distal" gov_index="30">nsubj</dependency>
+      <dependency dep="is" dep_index="20" gov="maximal" gov_index="21">cop</dependency>
+      <dependency dep="maximal" dep_index="21" gov="membrane" gov_index="18">rcmod</dependency>
+      <dependency dep="5" dep_index="23" gov="min" gov_index="24">num</dependency>
+      <dependency dep="min" dep_index="24" gov="maximal" gov_index="21">prep_at</dependency>
+      <dependency dep="the" dep_index="27" gov="events" gov_index="29">det</dependency>
+      <dependency dep="intracellular" dep_index="28" gov="events" gov_index="29">nn</dependency>
+      <dependency dep="events" dep_index="29" gov="distal" gov_index="30">npadvmod</dependency>
+      <dependency dep="distal" dep_index="30" gov="membrane" gov_index="18">rcmod</dependency>
+      <dependency dep="distal" dep_index="30" gov="maximal" gov_index="21">conj_but</dependency>
+      <dependency dep="protein kinase C" dep_index="32" gov="activation" gov_index="33">amod</dependency>
+      <dependency dep="activation" dep_index="33" gov="maximal" gov_index="21">prep_to</dependency>
+      <dependency dep="that" dep_index="34" gov="characterized" gov_index="42">mark</dependency>
+      <dependency dep="underlie" dep_index="35" gov="secretion" gov_index="37">nn</dependency>
+      <dependency dep="ACTH" dep_index="36" gov="secretion" gov_index="37">nn</dependency>
+      <dependency dep="secretion" dep_index="37" gov="characterized" gov_index="42">nsubjpass</dependency>
+      <dependency dep="have" dep_index="38" gov="characterized" gov_index="42">aux</dependency>
+      <dependency dep="not" dep_index="39" gov="characterized" gov_index="42">neg</dependency>
+      <dependency dep="been" dep_index="40" gov="characterized" gov_index="42">auxpass</dependency>
+      <dependency dep="well" dep_index="41" gov="characterized" gov_index="42">advmod</dependency>
+      <dependency dep="characterized" dep_index="42" gov="maximal" gov_index="21">ccomp</dependency>
+      <dependency dep="date" dep_index="44" gov="characterized" gov_index="42">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500011" relationship="true">5 7 9 11</relation>
+      <relation position="500032" relationship="false">5 7 18 21 33 32</relation>
+      <relation position="1100032" relationship="false">11 9 7 18 21 33 32</relation>
+   </relations>
+   <pairs>
+      <pair>500011</pair>
+   </pairs>
+</root>

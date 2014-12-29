@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@,@we@show@by@Far@Western@blot@analyses@that@multiple@nuclear@proteins@are@capable@of@physically@interacting@with@PU.1@.@</sentence>
+   <tags>
+      <tag pos="22">PU.1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBP">show</taggedword>
+      <taggedword index="7" part-of-speech="IN">by</taggedword>
+      <taggedword index="8" part-of-speech="NNP">Far</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Western</taggedword>
+      <taggedword index="10" part-of-speech="NN">blot</taggedword>
+      <taggedword index="11" part-of-speech="NNS">analyses</taggedword>
+      <taggedword index="12" part-of-speech="IN">that</taggedword>
+      <taggedword index="13" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="14" part-of-speech="JJ">nuclear</taggedword>
+      <taggedword index="15" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="16" part-of-speech="VBP">are</taggedword>
+      <taggedword index="17" part-of-speech="JJ">capable</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="RB">physically</taggedword>
+      <taggedword index="20" part-of-speech="VBG">interacting</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="NNP">PU.1</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="show" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="show" gov_index="6">nsubj</dependency>
+      <dependency dep="show" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Far" dep_index="8" gov="analyses" gov_index="11">nn</dependency>
+      <dependency dep="Western" dep_index="9" gov="analyses" gov_index="11">nn</dependency>
+      <dependency dep="blot" dep_index="10" gov="analyses" gov_index="11">nn</dependency>
+      <dependency dep="analyses" dep_index="11" gov="show" gov_index="6">prep_by</dependency>
+      <dependency dep="that" dep_index="12" gov="capable" gov_index="17">mark</dependency>
+      <dependency dep="multiple" dep_index="13" gov="proteins" gov_index="15">amod</dependency>
+      <dependency dep="nuclear" dep_index="14" gov="proteins" gov_index="15">amod</dependency>
+      <dependency dep="proteins" dep_index="15" gov="capable" gov_index="17">nsubj</dependency>
+      <dependency dep="are" dep_index="16" gov="capable" gov_index="17">cop</dependency>
+      <dependency dep="capable" dep_index="17" gov="show" gov_index="6">ccomp</dependency>
+      <dependency dep="of" dep_index="18" gov="capable" gov_index="17">prep</dependency>
+      <dependency dep="physically" dep_index="19" gov="of" gov_index="18">pobj</dependency>
+      <dependency dep="interacting" dep_index="20" gov="physically" gov_index="19">amod</dependency>
+      <dependency dep="PU.1" dep_index="22" gov="physically" gov_index="19">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

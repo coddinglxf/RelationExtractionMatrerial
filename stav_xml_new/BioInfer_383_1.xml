@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@work@we@report@that@the@Saccharomyces@cerevisiae@RAD9@,@RAD24@,@RAD17@,@MEC1@,@MEC3@and@RAD53@checkpoint@genes@are@required@for@efficient@non-homologous@end@joining@(NHEJ)@.@</sentence>
+   <tags>
+      <tag pos="20">RAD53</tag>
+      <tag pos="16">MEC1</tag>
+      <tag pos="14">RAD17</tag>
+      <tag pos="10">RAD9</tag>
+      <tag pos="18">MEC3</tag>
+      <tag pos="12">RAD24</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">work</taggedword>
+      <taggedword index="4" part-of-speech="PRP">we</taggedword>
+      <taggedword index="5" part-of-speech="VBP">report</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">Saccharomyces</taggedword>
+      <taggedword index="9" part-of-speech="JJ">cerevisiae</taggedword>
+      <taggedword index="10" part-of-speech="CD">RAD9</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CD">RAD24</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CD">RAD17</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CD">MEC1</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CD">MEC3</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="CD">RAD53</taggedword>
+      <taggedword index="21" part-of-speech="NN">checkpoint</taggedword>
+      <taggedword index="22" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="23" part-of-speech="VBP">are</taggedword>
+      <taggedword index="24" part-of-speech="VBN">required</taggedword>
+      <taggedword index="25" part-of-speech="IN">for</taggedword>
+      <taggedword index="26" part-of-speech="JJ">efficient</taggedword>
+      <taggedword index="27" part-of-speech="JJ">non-homologous</taggedword>
+      <taggedword index="28" part-of-speech="NN">end</taggedword>
+      <taggedword index="29" part-of-speech="VBG">joining</taggedword>
+      <taggedword index="30" part-of-speech="NNS">(NHEJ)</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="work" gov_index="3">det</dependency>
+      <dependency dep="work" dep_index="3" gov="report" gov_index="5">prep_in</dependency>
+      <dependency dep="we" dep_index="4" gov="report" gov_index="5">nsubj</dependency>
+      <dependency dep="report" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="required" gov_index="24">mark</dependency>
+      <dependency dep="the" dep_index="7" gov="genes" gov_index="22">det</dependency>
+      <dependency dep="Saccharomyces" dep_index="8" gov="genes" gov_index="22">amod</dependency>
+      <dependency dep="cerevisiae" dep_index="9" gov="genes" gov_index="22">amod</dependency>
+      <dependency dep="RAD9" dep_index="10" gov="cerevisiae" gov_index="9">tmod</dependency>
+      <dependency dep="RAD24" dep_index="12" gov="RAD9" gov_index="10">num</dependency>
+      <dependency dep="RAD17" dep_index="14" gov="RAD9" gov_index="10">num</dependency>
+      <dependency dep="MEC1" dep_index="16" gov="RAD9" gov_index="10">num</dependency>
+      <dependency dep="MEC3" dep_index="18" gov="RAD9" gov_index="10">num</dependency>
+      <dependency dep="RAD53" dep_index="20" gov="cerevisiae" gov_index="9">tmod</dependency>
+      <dependency dep="RAD53" dep_index="20" gov="RAD9" gov_index="10">conj_and</dependency>
+      <dependency dep="checkpoint" dep_index="21" gov="genes" gov_index="22">nn</dependency>
+      <dependency dep="genes" dep_index="22" gov="required" gov_index="24">nsubjpass</dependency>
+      <dependency dep="are" dep_index="23" gov="required" gov_index="24">auxpass</dependency>
+      <dependency dep="required" dep_index="24" gov="report" gov_index="5">ccomp</dependency>
+      <dependency dep="efficient" dep_index="26" gov="end" gov_index="28">amod</dependency>
+      <dependency dep="non-homologous" dep_index="27" gov="end" gov_index="28">amod</dependency>
+      <dependency dep="end" dep_index="28" gov="required" gov_index="24">prep_for</dependency>
+      <dependency dep="joining" dep_index="29" gov="end" gov_index="28">partmod</dependency>
+      <dependency dep="(NHEJ)" dep_index="30" gov="joining" gov_index="29">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600020" relationship="false">16 10 9 20</relation>
+      <relation position="1400020" relationship="false">14 10 9 20</relation>
+      <relation position="1000020" relationship="false">10 9 20</relation>
+      <relation position="1800020" relationship="false">18 10 9 20</relation>
+      <relation position="1200020" relationship="false">12 10 9 20</relation>
+      <relation position="1400016" relationship="false">14 10 16</relation>
+      <relation position="1000016" relationship="false"></relation>
+      <relation position="1600018" relationship="false">16 10 18</relation>
+      <relation position="1200016" relationship="false">12 10 16</relation>
+      <relation position="1000014" relationship="false"></relation>
+      <relation position="1400018" relationship="false">14 10 18</relation>
+      <relation position="1200014" relationship="false">12 10 14</relation>
+      <relation position="1000018" relationship="false"></relation>
+      <relation position="1000012" relationship="false"></relation>
+      <relation position="1200018" relationship="false">12 10 18</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Characterization@of@the@dystrophin@-syntrophin@interaction@using@the@two-hybrid@system@in@yeast@.@</sentence>
+   <tags>
+      <tag pos="4">dystrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Characterization</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">dystrophin</taggedword>
+      <taggedword index="5" part-of-speech="NN">-syntrophin</taggedword>
+      <taggedword index="6" part-of-speech="VBP">interaction</taggedword>
+      <taggedword index="7" part-of-speech="VBG">using</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="10" part-of-speech="NN">system</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Characterization" dep_index="1" gov="interaction" gov_index="6">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="-syntrophin" gov_index="5">det</dependency>
+      <dependency dep="dystrophin" dep_index="4" gov="-syntrophin" gov_index="5">nn</dependency>
+      <dependency dep="-syntrophin" dep_index="5" gov="Characterization" gov_index="1">prep_of</dependency>
+      <dependency dep="interaction" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="7" gov="interaction" gov_index="6">xcomp</dependency>
+      <dependency dep="the" dep_index="8" gov="system" gov_index="10">det</dependency>
+      <dependency dep="two-hybrid" dep_index="9" gov="system" gov_index="10">amod</dependency>
+      <dependency dep="system" dep_index="10" gov="using" gov_index="7">dobj</dependency>
+      <dependency dep="yeast" dep_index="12" gov="using" gov_index="7">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

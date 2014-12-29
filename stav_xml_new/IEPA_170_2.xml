@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Obesity@occurs@in@60%@of@women@after@menopause@and@is@characterized@by@an@excess@of@adipose@tissue@that@depends@on@several@orexigenic@(@neuropeptide Y@(NPY)@stimulates@carbohydrate@ingestion@,@galanin@stimulates@fat@intake)@and@anorectic@(@leptin@,@cholecystokinin@(CCK))@factors@</sentence>
+   <tags>
+      <tag pos="24">neuropeptide Y</tag>
+      <tag pos="37">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Obesity</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">occurs</taggedword>
+      <taggedword index="3" part-of-speech="IN">in</taggedword>
+      <taggedword index="4" part-of-speech="CD">60%</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNS">women</taggedword>
+      <taggedword index="7" part-of-speech="IN">after</taggedword>
+      <taggedword index="8" part-of-speech="NN">menopause</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="DT">an</taggedword>
+      <taggedword index="14" part-of-speech="NN">excess</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">adipose</taggedword>
+      <taggedword index="17" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="18" part-of-speech="WDT">that</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">depends</taggedword>
+      <taggedword index="20" part-of-speech="IN">on</taggedword>
+      <taggedword index="21" part-of-speech="JJ">several</taggedword>
+      <taggedword index="22" part-of-speech="JJ">orexigenic</taggedword>
+      <taggedword index="23" part-of-speech="NNS">(</taggedword>
+      <taggedword index="24" part-of-speech="JJ">neuropeptide Y</taggedword>
+      <taggedword index="25" part-of-speech="JJ">(NPY)</taggedword>
+      <taggedword index="26" part-of-speech="NNS">stimulates</taggedword>
+      <taggedword index="27" part-of-speech="JJ">carbohydrate</taggedword>
+      <taggedword index="28" part-of-speech="NN">ingestion</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="NN">galanin</taggedword>
+      <taggedword index="31" part-of-speech="NNS">stimulates</taggedword>
+      <taggedword index="32" part-of-speech="JJ">fat</taggedword>
+      <taggedword index="33" part-of-speech="NN">intake)</taggedword>
+      <taggedword index="34" part-of-speech="CC">and</taggedword>
+      <taggedword index="35" part-of-speech="JJ">anorectic</taggedword>
+      <taggedword index="36" part-of-speech="JJ">(</taggedword>
+      <taggedword index="37" part-of-speech="JJ">leptin</taggedword>
+      <taggedword index="38" part-of-speech=",">,</taggedword>
+      <taggedword index="39" part-of-speech="JJ">cholecystokinin</taggedword>
+      <taggedword index="40" part-of-speech="JJ">(CCK))</taggedword>
+      <taggedword index="41" part-of-speech="NNS">factors</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Obesity" dep_index="1" gov="occurs" gov_index="2">advmod</dependency>
+      <dependency dep="occurs" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="60%" dep_index="4" gov="occurs" gov_index="2">prep_in</dependency>
+      <dependency dep="women" dep_index="6" gov="60%" gov_index="4">prep_of</dependency>
+      <dependency dep="menopause" dep_index="8" gov="occurs" gov_index="2">prep_after</dependency>
+      <dependency dep="is" dep_index="10" gov="characterized" gov_index="11">auxpass</dependency>
+      <dependency dep="characterized" dep_index="11" gov="occurs" gov_index="2">conj_and</dependency>
+      <dependency dep="an" dep_index="13" gov="excess" gov_index="14">det</dependency>
+      <dependency dep="excess" dep_index="14" gov="characterized" gov_index="11">agent</dependency>
+      <dependency dep="excess" dep_index="14" gov="depends" gov_index="19">nsubj</dependency>
+      <dependency dep="adipose" dep_index="16" gov="tissue" gov_index="17">amod</dependency>
+      <dependency dep="tissue" dep_index="17" gov="excess" gov_index="14">prep_of</dependency>
+      <dependency dep="depends" dep_index="19" gov="excess" gov_index="14">rcmod</dependency>
+      <dependency dep="several" dep_index="21" gov="(" gov_index="23">amod</dependency>
+      <dependency dep="orexigenic" dep_index="22" gov="(" gov_index="23">amod</dependency>
+      <dependency dep="(" dep_index="23" gov="depends" gov_index="19">prep_on</dependency>
+      <dependency dep="neuropeptide Y" dep_index="24" gov="stimulates" gov_index="26">amod</dependency>
+      <dependency dep="(NPY)" dep_index="25" gov="stimulates" gov_index="26">amod</dependency>
+      <dependency dep="stimulates" dep_index="26" gov="occurs" gov_index="2">dobj</dependency>
+      <dependency dep="carbohydrate" dep_index="27" gov="ingestion" gov_index="28">amod</dependency>
+      <dependency dep="ingestion" dep_index="28" gov="occurs" gov_index="2">nsubj</dependency>
+      <dependency dep="ingestion" dep_index="28" gov="characterized" gov_index="11">nsubjpass</dependency>
+      <dependency dep="galanin" dep_index="30" gov="stimulates" gov_index="31">nn</dependency>
+      <dependency dep="stimulates" dep_index="31" gov="ingestion" gov_index="28">appos</dependency>
+      <dependency dep="fat" dep_index="32" gov="intake)" gov_index="33">amod</dependency>
+      <dependency dep="intake)" dep_index="33" gov="stimulates" gov_index="31">dep</dependency>
+      <dependency dep="anorectic" dep_index="35" gov="factors" gov_index="41">amod</dependency>
+      <dependency dep="(" dep_index="36" gov="factors" gov_index="41">amod</dependency>
+      <dependency dep="leptin" dep_index="37" gov="factors" gov_index="41">amod</dependency>
+      <dependency dep="cholecystokinin" dep_index="39" gov="factors" gov_index="41">amod</dependency>
+      <dependency dep="(CCK))" dep_index="40" gov="factors" gov_index="41">amod</dependency>
+      <dependency dep="factors" dep_index="41" gov="stimulates" gov_index="31">dep</dependency>
+      <dependency dep="factors" dep_index="41" gov="intake)" gov_index="33">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2400037" relationship="false">24 26 2 28 31 41 37</relation>
+   </relations>
+   <pairs/>
+</root>

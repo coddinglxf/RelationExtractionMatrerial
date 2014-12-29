@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Inhibition@of@cyclin D1@expression@or@induction@of@cyclin-dependent kinase inhibitor@p21WAF1@expression@was@found@in@mimosine-treated@lung@cancer@cells@.@</sentence>
+   <tags>
+      <tag pos="9">p21WAF1</tag>
+      <tag pos="8">cyclin-dependent kinase inhibitor</tag>
+      <tag pos="3">cyclin D1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Inhibition</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="JJ">cyclin D1</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="CC">or</taggedword>
+      <taggedword index="6" part-of-speech="NN">induction</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="JJ">cyclin-dependent kinase inhibitor</taggedword>
+      <taggedword index="9" part-of-speech="JJ">p21WAF1</taggedword>
+      <taggedword index="10" part-of-speech="NN">expression</taggedword>
+      <taggedword index="11" part-of-speech="VBD">was</taggedword>
+      <taggedword index="12" part-of-speech="VBN">found</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="JJ">mimosine-treated</taggedword>
+      <taggedword index="15" part-of-speech="NN">lung</taggedword>
+      <taggedword index="16" part-of-speech="NN">cancer</taggedword>
+      <taggedword index="17" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Inhibition" dep_index="1" gov="found" gov_index="12">nsubjpass</dependency>
+      <dependency dep="cyclin D1" dep_index="3" gov="expression" gov_index="4">amod</dependency>
+      <dependency dep="expression" dep_index="4" gov="Inhibition" gov_index="1">prep_of</dependency>
+      <dependency dep="induction" dep_index="6" gov="Inhibition" gov_index="1">prep_of</dependency>
+      <dependency dep="induction" dep_index="6" gov="expression" gov_index="4">conj_or</dependency>
+      <dependency dep="cyclin-dependent kinase inhibitor" dep_index="8" gov="expression" gov_index="10">amod</dependency>
+      <dependency dep="p21WAF1" dep_index="9" gov="expression" gov_index="10">amod</dependency>
+      <dependency dep="expression" dep_index="10" gov="expression" gov_index="4">prep_of</dependency>
+      <dependency dep="was" dep_index="11" gov="found" gov_index="12">auxpass</dependency>
+      <dependency dep="found" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="mimosine-treated" dep_index="14" gov="cells" gov_index="17">amod</dependency>
+      <dependency dep="lung" dep_index="15" gov="cells" gov_index="17">nn</dependency>
+      <dependency dep="cancer" dep_index="16" gov="cells" gov_index="17">nn</dependency>
+      <dependency dep="cells" dep_index="17" gov="found" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800009" relationship="true">8 10 9</relation>
+      <relation position="300009" relationship="false">3 4 10 9</relation>
+      <relation position="300008" relationship="false">3 4 10 8</relation>
+   </relations>
+   <pairs>
+      <pair>800009</pair>
+   </pairs>
+</root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@structure@of@an@actin@-crosslinking@domain@from@human@fimbrin@.@</sentence>
+   <tags>
+      <tag pos="10">fimbrin</tag>
+      <tag pos="5">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">structure</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">an</taggedword>
+      <taggedword index="5" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="6" part-of-speech="JJ">-crosslinking</taggedword>
+      <taggedword index="7" part-of-speech="NN">domain</taggedword>
+      <taggedword index="8" part-of-speech="IN">from</taggedword>
+      <taggedword index="9" part-of-speech="JJ">human</taggedword>
+      <taggedword index="10" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="structure" gov_index="2">det</dependency>
+      <dependency dep="structure" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="4" gov="domain" gov_index="7">det</dependency>
+      <dependency dep="actin" dep_index="5" gov="domain" gov_index="7">amod</dependency>
+      <dependency dep="-crosslinking" dep_index="6" gov="domain" gov_index="7">amod</dependency>
+      <dependency dep="domain" dep_index="7" gov="structure" gov_index="2">prep_of</dependency>
+      <dependency dep="human" dep_index="9" gov="fimbrin" gov_index="10">amod</dependency>
+      <dependency dep="fimbrin" dep_index="10" gov="structure" gov_index="2">prep_from</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500010" relationship="true">5 7 2 10</relation>
+   </relations>
+   <pairs>
+      <pair>500010</pair>
+   </pairs>
+</root>

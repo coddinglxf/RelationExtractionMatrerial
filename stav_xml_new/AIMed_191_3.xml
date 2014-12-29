@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@now@find@that@HIV-1@begins@reverse@transcription@much@more@efficiently@in@DCs@than@T@cells@,@even@though@T@cells@have@higher@levels@of@CD4@and@gp120@binding@.@</sentence>
+   <tags>
+      <tag pos="26">CD4</tag>
+      <tag pos="28">gp120</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="RB">now</taggedword>
+      <taggedword index="3" part-of-speech="VBP">find</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NNP">HIV-1</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">begins</taggedword>
+      <taggedword index="7" part-of-speech="JJ">reverse</taggedword>
+      <taggedword index="8" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="9" part-of-speech="RB">much</taggedword>
+      <taggedword index="10" part-of-speech="RBR">more</taggedword>
+      <taggedword index="11" part-of-speech="RB">efficiently</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="NNP">DCs</taggedword>
+      <taggedword index="14" part-of-speech="IN">than</taggedword>
+      <taggedword index="15" part-of-speech="NNP">T</taggedword>
+      <taggedword index="16" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="RB">even</taggedword>
+      <taggedword index="19" part-of-speech="IN">though</taggedword>
+      <taggedword index="20" part-of-speech="NNP">T</taggedword>
+      <taggedword index="21" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="22" part-of-speech="VBP">have</taggedword>
+      <taggedword index="23" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="24" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NNP">CD4</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="JJ">gp120</taggedword>
+      <taggedword index="29" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="find" gov_index="3">nsubj</dependency>
+      <dependency dep="now" dep_index="2" gov="find" gov_index="3">advmod</dependency>
+      <dependency dep="find" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="begins" gov_index="6">mark</dependency>
+      <dependency dep="HIV-1" dep_index="5" gov="begins" gov_index="6">nsubj</dependency>
+      <dependency dep="begins" dep_index="6" gov="find" gov_index="3">ccomp</dependency>
+      <dependency dep="reverse" dep_index="7" gov="transcription" gov_index="8">amod</dependency>
+      <dependency dep="transcription" dep_index="8" gov="begins" gov_index="6">dobj</dependency>
+      <dependency dep="much" dep_index="9" gov="efficiently" gov_index="11">advmod</dependency>
+      <dependency dep="more" dep_index="10" gov="efficiently" gov_index="11">advmod</dependency>
+      <dependency dep="efficiently" dep_index="11" gov="begins" gov_index="6">advmod</dependency>
+      <dependency dep="DCs" dep_index="13" gov="efficiently" gov_index="11">prep_in</dependency>
+      <dependency dep="T" dep_index="15" gov="cells" gov_index="16">nn</dependency>
+      <dependency dep="cells" dep_index="16" gov="begins" gov_index="6">prep_than</dependency>
+      <dependency dep="even" dep_index="18" gov="have" gov_index="22">advmod</dependency>
+      <dependency dep="though" dep_index="19" gov="have" gov_index="22">mark</dependency>
+      <dependency dep="T" dep_index="20" gov="cells" gov_index="21">nn</dependency>
+      <dependency dep="cells" dep_index="21" gov="have" gov_index="22">nsubj</dependency>
+      <dependency dep="have" dep_index="22" gov="begins" gov_index="6">advcl</dependency>
+      <dependency dep="higher" dep_index="23" gov="levels" gov_index="24">amod</dependency>
+      <dependency dep="levels" dep_index="24" gov="have" gov_index="22">dobj</dependency>
+      <dependency dep="CD4" dep_index="26" gov="levels" gov_index="24">prep_of</dependency>
+      <dependency dep="gp120" dep_index="28" gov="levels" gov_index="24">prep_of</dependency>
+      <dependency dep="gp120" dep_index="28" gov="CD4" gov_index="26">conj_and</dependency>
+      <dependency dep="binding" dep_index="29" gov="gp120" gov_index="28">amod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2600028" relationship="false">26 24 28</relation>
+   </relations>
+   <pairs/>
+</root>

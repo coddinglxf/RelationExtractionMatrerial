@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Dystrophin@,@the@protein@product@of@the@Duchenne@muscular@dystrophy@locus@,@is@a@protein@of@the@membrane@cytoskeleton@that@associates@with@a@complex@of@integral@and@membrane-associated@proteins@.@</sentence>
+   <tags>
+      <tag pos="1">Dystrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Dystrophin</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">protein</taggedword>
+      <taggedword index="5" part-of-speech="NN">product</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">Duchenne</taggedword>
+      <taggedword index="9" part-of-speech="JJ">muscular</taggedword>
+      <taggedword index="10" part-of-speech="NN">dystrophy</taggedword>
+      <taggedword index="11" part-of-speech="NNS">locus</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="NN">protein</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">membrane</taggedword>
+      <taggedword index="19" part-of-speech="VBN">cytoskeleton</taggedword>
+      <taggedword index="20" part-of-speech="DT">that</taggedword>
+      <taggedword index="21" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="22" part-of-speech="IN">with</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="NN">complex</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="JJ">integral</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="JJ">membrane-associated</taggedword>
+      <taggedword index="29" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="30" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Dystrophin" dep_index="1" gov="protein" gov_index="15">nsubj</dependency>
+      <dependency dep="the" dep_index="3" gov="product" gov_index="5">det</dependency>
+      <dependency dep="protein" dep_index="4" gov="product" gov_index="5">nn</dependency>
+      <dependency dep="product" dep_index="5" gov="Dystrophin" gov_index="1">appos</dependency>
+      <dependency dep="the" dep_index="7" gov="locus" gov_index="11">det</dependency>
+      <dependency dep="Duchenne" dep_index="8" gov="locus" gov_index="11">amod</dependency>
+      <dependency dep="muscular" dep_index="9" gov="locus" gov_index="11">amod</dependency>
+      <dependency dep="dystrophy" dep_index="10" gov="locus" gov_index="11">nn</dependency>
+      <dependency dep="locus" dep_index="11" gov="product" gov_index="5">prep_of</dependency>
+      <dependency dep="is" dep_index="13" gov="protein" gov_index="15">cop</dependency>
+      <dependency dep="a" dep_index="14" gov="protein" gov_index="15">det</dependency>
+      <dependency dep="protein" dep_index="15" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="17" gov="membrane" gov_index="18">det</dependency>
+      <dependency dep="membrane" dep_index="18" gov="protein" gov_index="15">prep_of</dependency>
+      <dependency dep="cytoskeleton" dep_index="19" gov="membrane" gov_index="18">partmod</dependency>
+      <dependency dep="that" dep_index="20" gov="associates" gov_index="21">det</dependency>
+      <dependency dep="associates" dep_index="21" gov="cytoskeleton" gov_index="19">dobj</dependency>
+      <dependency dep="a" dep_index="23" gov="complex" gov_index="24">det</dependency>
+      <dependency dep="complex" dep_index="24" gov="cytoskeleton" gov_index="19">prep_with</dependency>
+      <dependency dep="integral" dep_index="26" gov="proteins" gov_index="29">amod</dependency>
+      <dependency dep="membrane-associated" dep_index="28" gov="integral" gov_index="26">conj_and</dependency>
+      <dependency dep="membrane-associated" dep_index="28" gov="proteins" gov_index="29">amod</dependency>
+      <dependency dep="proteins" dep_index="29" gov="complex" gov_index="24">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

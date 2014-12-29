@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Sepharose@beads@coupled@to@either@monoclonal@anti-@gelsolin@antibodies@or@to@polyproline@were@used@to@extract@gelsolin@and@profilin@,@respectively@,@from@EGTA-containing@platelet@extracts@and@determine@the@proportion@of@these@molecules@bound@to@actin@with@sufficient@affinity@to@withstand@dilution@(high-affinity@complexes)@.@</sentence>
+   <tags>
+      <tag pos="36">actin</tag>
+      <tag pos="19">profilin</tag>
+      <tag pos="17">gelsolin</tag>
+      <tag pos="8">gelsolin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Sepharose</taggedword>
+      <taggedword index="2" part-of-speech="NNS">beads</taggedword>
+      <taggedword index="3" part-of-speech="VBN">coupled</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="DT">either</taggedword>
+      <taggedword index="6" part-of-speech="VB">monoclonal</taggedword>
+      <taggedword index="7" part-of-speech="JJ">anti-</taggedword>
+      <taggedword index="8" part-of-speech="NN">gelsolin</taggedword>
+      <taggedword index="9" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="10" part-of-speech="CC">or</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">polyproline</taggedword>
+      <taggedword index="13" part-of-speech="VBD">were</taggedword>
+      <taggedword index="14" part-of-speech="VBN">used</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="VB">extract</taggedword>
+      <taggedword index="17" part-of-speech="NN">gelsolin</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="RB">respectively</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="IN">from</taggedword>
+      <taggedword index="24" part-of-speech="JJ">EGTA-containing</taggedword>
+      <taggedword index="25" part-of-speech="NN">platelet</taggedword>
+      <taggedword index="26" part-of-speech="NNS">extracts</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="VB">determine</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="NN">proportion</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="DT">these</taggedword>
+      <taggedword index="33" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="34" part-of-speech="VBN">bound</taggedword>
+      <taggedword index="35" part-of-speech="TO">to</taggedword>
+      <taggedword index="36" part-of-speech="VB">actin</taggedword>
+      <taggedword index="37" part-of-speech="IN">with</taggedword>
+      <taggedword index="38" part-of-speech="JJ">sufficient</taggedword>
+      <taggedword index="39" part-of-speech="RB">affinity</taggedword>
+      <taggedword index="40" part-of-speech="TO">to</taggedword>
+      <taggedword index="41" part-of-speech="VB">withstand</taggedword>
+      <taggedword index="42" part-of-speech="NN">dilution</taggedword>
+      <taggedword index="43" part-of-speech="JJ">(high-affinity</taggedword>
+      <taggedword index="44" part-of-speech="NNS">complexes)</taggedword>
+      <taggedword index="45" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Sepharose" dep_index="1" gov="beads" gov_index="2">amod</dependency>
+      <dependency dep="beads" dep_index="2" gov="used" gov_index="14">nsubjpass</dependency>
+      <dependency dep="beads" dep_index="2" gov="extract" gov_index="16">xsubj</dependency>
+      <dependency dep="coupled" dep_index="3" gov="beads" gov_index="2">partmod</dependency>
+      <dependency dep="to" dep_index="4" gov="monoclonal" gov_index="6">aux</dependency>
+      <dependency dep="either" dep_index="5" gov="monoclonal" gov_index="6">dep</dependency>
+      <dependency dep="monoclonal" dep_index="6" gov="coupled" gov_index="3">ccomp</dependency>
+      <dependency dep="anti-" dep_index="7" gov="antibodies" gov_index="9">amod</dependency>
+      <dependency dep="gelsolin" dep_index="8" gov="antibodies" gov_index="9">nn</dependency>
+      <dependency dep="antibodies" dep_index="9" gov="monoclonal" gov_index="6">dobj</dependency>
+      <dependency dep="to" dep_index="11" gov="polyproline" gov_index="12">aux</dependency>
+      <dependency dep="polyproline" dep_index="12" gov="coupled" gov_index="3">ccomp</dependency>
+      <dependency dep="polyproline" dep_index="12" gov="monoclonal" gov_index="6">conj_or</dependency>
+      <dependency dep="were" dep_index="13" gov="used" gov_index="14">auxpass</dependency>
+      <dependency dep="used" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="15" gov="extract" gov_index="16">aux</dependency>
+      <dependency dep="extract" dep_index="16" gov="used" gov_index="14">xcomp</dependency>
+      <dependency dep="gelsolin" dep_index="17" gov="extract" gov_index="16">dobj</dependency>
+      <dependency dep="profilin" dep_index="19" gov="extract" gov_index="16">dobj</dependency>
+      <dependency dep="profilin" dep_index="19" gov="gelsolin" gov_index="17">conj_and</dependency>
+      <dependency dep="respectively" dep_index="21" gov="extract" gov_index="16">advmod</dependency>
+      <dependency dep="EGTA-containing" dep_index="24" gov="extracts" gov_index="26">amod</dependency>
+      <dependency dep="platelet" dep_index="25" gov="extracts" gov_index="26">nn</dependency>
+      <dependency dep="extracts" dep_index="26" gov="extract" gov_index="16">prep_from</dependency>
+      <dependency dep="determine" dep_index="28" gov="used" gov_index="14">xcomp</dependency>
+      <dependency dep="determine" dep_index="28" gov="extract" gov_index="16">conj_and</dependency>
+      <dependency dep="the" dep_index="29" gov="proportion" gov_index="30">det</dependency>
+      <dependency dep="proportion" dep_index="30" gov="determine" gov_index="28">dobj</dependency>
+      <dependency dep="these" dep_index="32" gov="molecules" gov_index="33">det</dependency>
+      <dependency dep="molecules" dep_index="33" gov="proportion" gov_index="30">prep_of</dependency>
+      <dependency dep="bound" dep_index="34" gov="molecules" gov_index="33">partmod</dependency>
+      <dependency dep="to" dep_index="35" gov="actin" gov_index="36">aux</dependency>
+      <dependency dep="actin" dep_index="36" gov="bound" gov_index="34">xcomp</dependency>
+      <dependency dep="sufficient" dep_index="38" gov="complexes)" gov_index="44">amod</dependency>
+      <dependency dep="affinity" dep_index="39" gov="sufficient" gov_index="38">advmod</dependency>
+      <dependency dep="to" dep_index="40" gov="withstand" gov_index="41">aux</dependency>
+      <dependency dep="withstand" dep_index="41" gov="sufficient" gov_index="38">xcomp</dependency>
+      <dependency dep="dilution" dep_index="42" gov="withstand" gov_index="41">dobj</dependency>
+      <dependency dep="(high-affinity" dep_index="43" gov="complexes)" gov_index="44">amod</dependency>
+      <dependency dep="complexes)" dep_index="44" gov="actin" gov_index="36">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1900036" relationship="true">19 16 14 28 30 33 34 36</relation>
+      <relation position="1700036" relationship="true">17 16 14 28 30 33 34 36</relation>
+      <relation position="800036" relationship="false">8 9 6 3 2 14 28 30 33 34 36</relation>
+      <relation position="1700019" relationship="false">17 16 19</relation>
+      <relation position="800019" relationship="false">8 9 6 3 2 16 19</relation>
+      <relation position="800017" relationship="false">8 9 6 3 2 16 17</relation>
+   </relations>
+   <pairs>
+      <pair>1900036</pair>
+      <pair>1700036</pair>
+   </pairs>
+</root>

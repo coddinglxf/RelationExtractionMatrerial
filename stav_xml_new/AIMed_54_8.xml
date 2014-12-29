@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Together@,@these@studies@describe@a@third@member@of@the@PDGF@family@(@PDGF-C@)@as@a@potent@mitogen@for@cells@of@mesenchymal@origin@in@in@vitro@and@in@vivo@systems@with@a@binding@pattern@similar@to@PDGF-AB@.@</sentence>
+   <tags>
+      <tag pos="14">PDGF-C</tag>
+      <tag pos="38">PDGF-AB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Together</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">these</taggedword>
+      <taggedword index="4" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="5" part-of-speech="VBP">describe</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="JJ">third</taggedword>
+      <taggedword index="8" part-of-speech="NN">member</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NNP">PDGF</taggedword>
+      <taggedword index="12" part-of-speech="NN">family</taggedword>
+      <taggedword index="13" part-of-speech="VBD">(</taggedword>
+      <taggedword index="14" part-of-speech="JJ">PDGF-C</taggedword>
+      <taggedword index="15" part-of-speech="NNS">)</taggedword>
+      <taggedword index="16" part-of-speech="IN">as</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">potent</taggedword>
+      <taggedword index="19" part-of-speech="NN">mitogen</taggedword>
+      <taggedword index="20" part-of-speech="IN">for</taggedword>
+      <taggedword index="21" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">mesenchymal</taggedword>
+      <taggedword index="24" part-of-speech="NN">origin</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="IN">in</taggedword>
+      <taggedword index="30" part-of-speech="NN">vivo</taggedword>
+      <taggedword index="31" part-of-speech="NNS">systems</taggedword>
+      <taggedword index="32" part-of-speech="IN">with</taggedword>
+      <taggedword index="33" part-of-speech="DT">a</taggedword>
+      <taggedword index="34" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="35" part-of-speech="NN">pattern</taggedword>
+      <taggedword index="36" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="37" part-of-speech="TO">to</taggedword>
+      <taggedword index="38" part-of-speech="JJ">PDGF-AB</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Together" dep_index="1" gov="describe" gov_index="5">advmod</dependency>
+      <dependency dep="these" dep_index="3" gov="studies" gov_index="4">det</dependency>
+      <dependency dep="studies" dep_index="4" gov="describe" gov_index="5">nsubj</dependency>
+      <dependency dep="describe" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="6" gov="member" gov_index="8">det</dependency>
+      <dependency dep="third" dep_index="7" gov="member" gov_index="8">amod</dependency>
+      <dependency dep="member" dep_index="8" gov="(" gov_index="13">nsubj</dependency>
+      <dependency dep="the" dep_index="10" gov="family" gov_index="12">det</dependency>
+      <dependency dep="PDGF" dep_index="11" gov="family" gov_index="12">nn</dependency>
+      <dependency dep="family" dep_index="12" gov="member" gov_index="8">prep_of</dependency>
+      <dependency dep="(" dep_index="13" gov="describe" gov_index="5">ccomp</dependency>
+      <dependency dep="PDGF-C" dep_index="14" gov=")" gov_index="15">amod</dependency>
+      <dependency dep=")" dep_index="15" gov="(" gov_index="13">dobj</dependency>
+      <dependency dep="a" dep_index="17" gov="mitogen" gov_index="19">det</dependency>
+      <dependency dep="potent" dep_index="18" gov="mitogen" gov_index="19">amod</dependency>
+      <dependency dep="mitogen" dep_index="19" gov="(" gov_index="13">prep_as</dependency>
+      <dependency dep="cells" dep_index="21" gov="mitogen" gov_index="19">prep_for</dependency>
+      <dependency dep="mesenchymal" dep_index="23" gov="origin" gov_index="24">amod</dependency>
+      <dependency dep="origin" dep_index="24" gov="cells" gov_index="21">prep_of</dependency>
+      <dependency dep="in" dep_index="25" gov="(" gov_index="13">prep</dependency>
+      <dependency dep="in" dep_index="26" gov="in" gov_index="25">pcomp</dependency>
+      <dependency dep="vitro" dep_index="27" gov="systems" gov_index="31">amod</dependency>
+      <dependency dep="in" dep_index="29" gov="vitro" gov_index="27">conj_and</dependency>
+      <dependency dep="in" dep_index="29" gov="systems" gov_index="31">amod</dependency>
+      <dependency dep="vivo" dep_index="30" gov="in" gov_index="29">pobj</dependency>
+      <dependency dep="systems" dep_index="31" gov="in" gov_index="26">pobj</dependency>
+      <dependency dep="a" dep_index="33" gov="pattern" gov_index="35">det</dependency>
+      <dependency dep="binding" dep_index="34" gov="pattern" gov_index="35">amod</dependency>
+      <dependency dep="pattern" dep_index="35" gov="(" gov_index="13">prep_with</dependency>
+      <dependency dep="similar" dep_index="36" gov="PDGF-AB" gov_index="38">amod</dependency>
+      <dependency dep="to" dep_index="37" gov="PDGF-AB" gov_index="38">dep</dependency>
+      <dependency dep="PDGF-AB" dep_index="38" gov="pattern" gov_index="35">amod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400038" relationship="false">14 15 13 35 38</relation>
+   </relations>
+   <pairs/>
+</root>

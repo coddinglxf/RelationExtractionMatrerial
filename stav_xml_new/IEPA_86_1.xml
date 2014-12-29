@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@observations@suggest@that@bradykinin@,@like@oxytocin@,@activates@phospholipase@C@which@generates@IP3@with@a@subsequent@release@of@Ca2+@from@intracellular@stores@followed@by@store-operated@Ca2+@influx@</sentence>
+   <tags>
+      <tag pos="8">oxytocin</tag>
+      <tag pos="15">IP3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">observations</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="NN">bradykinin</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="IN">like</taggedword>
+      <taggedword index="8" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">activates</taggedword>
+      <taggedword index="11" part-of-speech="NNP">phospholipase</taggedword>
+      <taggedword index="12" part-of-speech="NNP">C</taggedword>
+      <taggedword index="13" part-of-speech="WDT">which</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">generates</taggedword>
+      <taggedword index="15" part-of-speech="NNP">IP3</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="JJ">subsequent</taggedword>
+      <taggedword index="19" part-of-speech="NN">release</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NNS">Ca2+</taggedword>
+      <taggedword index="22" part-of-speech="IN">from</taggedword>
+      <taggedword index="23" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="24" part-of-speech="NNS">stores</taggedword>
+      <taggedword index="25" part-of-speech="VBN">followed</taggedword>
+      <taggedword index="26" part-of-speech="IN">by</taggedword>
+      <taggedword index="27" part-of-speech="JJ">store-operated</taggedword>
+      <taggedword index="28" part-of-speech="JJ">Ca2+</taggedword>
+      <taggedword index="29" part-of-speech="NN">influx</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="observations" gov_index="2">det</dependency>
+      <dependency dep="observations" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="activates" gov_index="10">mark</dependency>
+      <dependency dep="bradykinin" dep_index="5" gov="activates" gov_index="10">nsubj</dependency>
+      <dependency dep="oxytocin" dep_index="8" gov="bradykinin" gov_index="5">prep_like</dependency>
+      <dependency dep="activates" dep_index="10" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="phospholipase" dep_index="11" gov="C" gov_index="12">nn</dependency>
+      <dependency dep="C" dep_index="12" gov="activates" gov_index="10">dobj</dependency>
+      <dependency dep="C" dep_index="12" gov="generates" gov_index="14">nsubj</dependency>
+      <dependency dep="generates" dep_index="14" gov="C" gov_index="12">rcmod</dependency>
+      <dependency dep="IP3" dep_index="15" gov="generates" gov_index="14">dobj</dependency>
+      <dependency dep="a" dep_index="17" gov="release" gov_index="19">det</dependency>
+      <dependency dep="subsequent" dep_index="18" gov="release" gov_index="19">amod</dependency>
+      <dependency dep="release" dep_index="19" gov="IP3" gov_index="15">prep_with</dependency>
+      <dependency dep="Ca2+" dep_index="21" gov="release" gov_index="19">prep_of</dependency>
+      <dependency dep="intracellular" dep_index="23" gov="stores" gov_index="24">nn</dependency>
+      <dependency dep="stores" dep_index="24" gov="generates" gov_index="14">prep_from</dependency>
+      <dependency dep="followed" dep_index="25" gov="stores" gov_index="24">partmod</dependency>
+      <dependency dep="store-operated" dep_index="27" gov="influx" gov_index="29">amod</dependency>
+      <dependency dep="Ca2+" dep_index="28" gov="influx" gov_index="29">amod</dependency>
+      <dependency dep="influx" dep_index="29" gov="followed" gov_index="25">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800015" relationship="true">8 5 10 12 14 15</relation>
+   </relations>
+   <pairs>
+      <pair>800015</pair>
+   </pairs>
+</root>

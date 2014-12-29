@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>To@assess@the@possible@involvement@of@PKC@in@AVP@and@IL-1@action@in@Leydig@cells@,@the@PKC@inhibitor@Calphostin@C@was@tested@</sentence>
+   <tags>
+      <tag pos="7">PKC</tag>
+      <tag pos="9">AVP</tag>
+      <tag pos="18">PKC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="TO">To</taggedword>
+      <taggedword index="2" part-of-speech="VB">assess</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">possible</taggedword>
+      <taggedword index="5" part-of-speech="NN">involvement</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">IL-1</taggedword>
+      <taggedword index="12" part-of-speech="NN">action</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NNP">Leydig</taggedword>
+      <taggedword index="15" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="19" part-of-speech="NNP">inhibitor</taggedword>
+      <taggedword index="20" part-of-speech="NNP">Calphostin</taggedword>
+      <taggedword index="21" part-of-speech="NNP">C</taggedword>
+      <taggedword index="22" part-of-speech="VBD">was</taggedword>
+      <taggedword index="23" part-of-speech="VBN">tested</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="To" dep_index="1" gov="assess" gov_index="2">aux</dependency>
+      <dependency dep="assess" dep_index="2" gov="tested" gov_index="23">advcl</dependency>
+      <dependency dep="the" dep_index="3" gov="involvement" gov_index="5">det</dependency>
+      <dependency dep="possible" dep_index="4" gov="involvement" gov_index="5">amod</dependency>
+      <dependency dep="involvement" dep_index="5" gov="assess" gov_index="2">dobj</dependency>
+      <dependency dep="PKC" dep_index="7" gov="involvement" gov_index="5">prep_of</dependency>
+      <dependency dep="AVP" dep_index="9" gov="PKC" gov_index="7">prep_in</dependency>
+      <dependency dep="IL-1" dep_index="11" gov="action" gov_index="12">nn</dependency>
+      <dependency dep="action" dep_index="12" gov="involvement" gov_index="5">prep_of</dependency>
+      <dependency dep="action" dep_index="12" gov="PKC" gov_index="7">conj_and</dependency>
+      <dependency dep="Leydig" dep_index="14" gov="cells" gov_index="15">nn</dependency>
+      <dependency dep="cells" dep_index="15" gov="action" gov_index="12">prep_in</dependency>
+      <dependency dep="the" dep_index="17" gov="C" gov_index="21">det</dependency>
+      <dependency dep="PKC" dep_index="18" gov="C" gov_index="21">nn</dependency>
+      <dependency dep="inhibitor" dep_index="19" gov="C" gov_index="21">nn</dependency>
+      <dependency dep="Calphostin" dep_index="20" gov="C" gov_index="21">nn</dependency>
+      <dependency dep="C" dep_index="21" gov="tested" gov_index="23">nsubjpass</dependency>
+      <dependency dep="was" dep_index="22" gov="tested" gov_index="23">auxpass</dependency>
+      <dependency dep="tested" dep_index="23" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="true"></relation>
+      <relation position="700018" relationship="false">7 5 2 23 21 18</relation>
+      <relation position="900018" relationship="false">9 7 5 2 23 21 18</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+   </pairs>
+</root>

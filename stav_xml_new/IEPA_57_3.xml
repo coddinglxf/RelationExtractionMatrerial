@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Inhibition@of@PLC@activation@did@not@impair@either@EGF-@or@insulin@-induced@activation@of@glycogen@synthase@or@incorporation@of@glucose@into@lipid@,@supporting@the@hypothesis@that@both@EGF-@and@insulin@-induced@glucose@disposal@can@be@independent@of@GLUT4-mediated@glucose@transport@.@</sentence>
+   <tags>
+      <tag pos="3">PLC</tag>
+      <tag pos="11">insulin</tag>
+      <tag pos="31">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Inhibition</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="4" part-of-speech="NN">activation</taggedword>
+      <taggedword index="5" part-of-speech="VBD">did</taggedword>
+      <taggedword index="6" part-of-speech="RB">not</taggedword>
+      <taggedword index="7" part-of-speech="VB">impair</taggedword>
+      <taggedword index="8" part-of-speech="DT">either</taggedword>
+      <taggedword index="9" part-of-speech="NN">EGF-</taggedword>
+      <taggedword index="10" part-of-speech="CC">or</taggedword>
+      <taggedword index="11" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="12" part-of-speech="JJ">-induced</taggedword>
+      <taggedword index="13" part-of-speech="NN">activation</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NN">glycogen</taggedword>
+      <taggedword index="16" part-of-speech="NN">synthase</taggedword>
+      <taggedword index="17" part-of-speech="CC">or</taggedword>
+      <taggedword index="18" part-of-speech="NN">incorporation</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="21" part-of-speech="IN">into</taggedword>
+      <taggedword index="22" part-of-speech="NN">lipid</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="VBG">supporting</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NNS">hypothesis</taggedword>
+      <taggedword index="27" part-of-speech="IN">that</taggedword>
+      <taggedword index="28" part-of-speech="DT">both</taggedword>
+      <taggedword index="29" part-of-speech="NN">EGF-</taggedword>
+      <taggedword index="30" part-of-speech="CC">and</taggedword>
+      <taggedword index="31" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="32" part-of-speech="NN">-induced</taggedword>
+      <taggedword index="33" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="34" part-of-speech="NN">disposal</taggedword>
+      <taggedword index="35" part-of-speech="MD">can</taggedword>
+      <taggedword index="36" part-of-speech="VB">be</taggedword>
+      <taggedword index="37" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="38" part-of-speech="IN">of</taggedword>
+      <taggedword index="39" part-of-speech="NN">GLUT4-mediated</taggedword>
+      <taggedword index="40" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="41" part-of-speech="NN">transport</taggedword>
+      <taggedword index="42" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Inhibition" dep_index="1" gov="impair" gov_index="7">nsubj</dependency>
+      <dependency dep="PLC" dep_index="3" gov="activation" gov_index="4">nn</dependency>
+      <dependency dep="activation" dep_index="4" gov="Inhibition" gov_index="1">prep_of</dependency>
+      <dependency dep="did" dep_index="5" gov="impair" gov_index="7">aux</dependency>
+      <dependency dep="not" dep_index="6" gov="impair" gov_index="7">neg</dependency>
+      <dependency dep="impair" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="either" dep_index="8" gov="EGF-" gov_index="9">preconj</dependency>
+      <dependency dep="EGF-" dep_index="9" gov="impair" gov_index="7">dobj</dependency>
+      <dependency dep="insulin" dep_index="11" gov="activation" gov_index="13">nn</dependency>
+      <dependency dep="-induced" dep_index="12" gov="activation" gov_index="13">amod</dependency>
+      <dependency dep="activation" dep_index="13" gov="impair" gov_index="7">dobj</dependency>
+      <dependency dep="activation" dep_index="13" gov="EGF-" gov_index="9">conj_or</dependency>
+      <dependency dep="glycogen" dep_index="15" gov="synthase" gov_index="16">nn</dependency>
+      <dependency dep="synthase" dep_index="16" gov="EGF-" gov_index="9">prep_of</dependency>
+      <dependency dep="incorporation" dep_index="18" gov="EGF-" gov_index="9">prep_of</dependency>
+      <dependency dep="incorporation" dep_index="18" gov="synthase" gov_index="16">conj_or</dependency>
+      <dependency dep="glucose" dep_index="20" gov="EGF-" gov_index="9">prep_of</dependency>
+      <dependency dep="lipid" dep_index="22" gov="impair" gov_index="7">prep_into</dependency>
+      <dependency dep="supporting" dep_index="24" gov="impair" gov_index="7">partmod</dependency>
+      <dependency dep="the" dep_index="25" gov="hypothesis" gov_index="26">det</dependency>
+      <dependency dep="hypothesis" dep_index="26" gov="supporting" gov_index="24">dobj</dependency>
+      <dependency dep="that" dep_index="27" gov="independent" gov_index="37">mark</dependency>
+      <dependency dep="both" dep_index="28" gov="EGF-" gov_index="29">preconj</dependency>
+      <dependency dep="EGF-" dep_index="29" gov="independent" gov_index="37">nsubj</dependency>
+      <dependency dep="insulin" dep_index="31" gov="disposal" gov_index="34">nn</dependency>
+      <dependency dep="-induced" dep_index="32" gov="disposal" gov_index="34">nn</dependency>
+      <dependency dep="glucose" dep_index="33" gov="disposal" gov_index="34">nn</dependency>
+      <dependency dep="disposal" dep_index="34" gov="EGF-" gov_index="29">conj_and</dependency>
+      <dependency dep="disposal" dep_index="34" gov="independent" gov_index="37">nsubj</dependency>
+      <dependency dep="can" dep_index="35" gov="independent" gov_index="37">aux</dependency>
+      <dependency dep="be" dep_index="36" gov="independent" gov_index="37">cop</dependency>
+      <dependency dep="independent" dep_index="37" gov="supporting" gov_index="24">ccomp</dependency>
+      <dependency dep="GLUT4-mediated" dep_index="39" gov="transport" gov_index="41">nn</dependency>
+      <dependency dep="glucose" dep_index="40" gov="transport" gov_index="41">nn</dependency>
+      <dependency dep="transport" dep_index="41" gov="independent" gov_index="37">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300011" relationship="false">3 4 1 7 13 11</relation>
+      <relation position="300031" relationship="false">3 4 1 7 24 37 34 31</relation>
+      <relation position="1100031" relationship="false">11 13 7 24 37 34 31</relation>
+   </relations>
+   <pairs/>
+</root>

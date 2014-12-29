@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Homogeneous@liposome@immunoassay@for@insulin@using@phospholipase C@from@Clostridium@perfringens@</sentence>
+   <tags>
+      <tag pos="5">insulin</tag>
+      <tag pos="7">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Homogeneous</taggedword>
+      <taggedword index="2" part-of-speech="JJ">liposome</taggedword>
+      <taggedword index="3" part-of-speech="RB">immunoassay</taggedword>
+      <taggedword index="4" part-of-speech="IN">for</taggedword>
+      <taggedword index="5" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="6" part-of-speech="VBG">using</taggedword>
+      <taggedword index="7" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="8" part-of-speech="IN">from</taggedword>
+      <taggedword index="9" part-of-speech="NNP">Clostridium</taggedword>
+      <taggedword index="10" part-of-speech="NNS">perfringens</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Homogeneous" dep_index="1" gov="liposome" gov_index="2">dep</dependency>
+      <dependency dep="liposome" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="immunoassay" dep_index="3" gov="liposome" gov_index="2">advmod</dependency>
+      <dependency dep="insulin" dep_index="5" gov="liposome" gov_index="2">prep_for</dependency>
+      <dependency dep="using" dep_index="6" gov="liposome" gov_index="2">dep</dependency>
+      <dependency dep="phospholipase C" dep_index="7" gov="perfringens" gov_index="10">amod</dependency>
+      <dependency dep="Clostridium" dep_index="9" gov="phospholipase C" gov_index="7">prep_from</dependency>
+      <dependency dep="perfringens" dep_index="10" gov="using" gov_index="6">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 2 6 10 7</relation>
+   </relations>
+   <pairs/>
+</root>

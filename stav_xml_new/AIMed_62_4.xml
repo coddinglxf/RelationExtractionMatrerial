@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Dimerization@leads@to@the@clustering@of@three@surface@loops@at@each@end@of@the@elongated@dimer@,@which@most@probably@form@the@receptor@recognition@sites@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Dimerization</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">leads</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">clustering</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="CD">three</taggedword>
+      <taggedword index="8" part-of-speech="NN">surface</taggedword>
+      <taggedword index="9" part-of-speech="NNS">loops</taggedword>
+      <taggedword index="10" part-of-speech="IN">at</taggedword>
+      <taggedword index="11" part-of-speech="DT">each</taggedword>
+      <taggedword index="12" part-of-speech="NN">end</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">elongated</taggedword>
+      <taggedword index="16" part-of-speech="NN">dimer</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="WDT">which</taggedword>
+      <taggedword index="19" part-of-speech="RBS">most</taggedword>
+      <taggedword index="20" part-of-speech="RB">probably</taggedword>
+      <taggedword index="21" part-of-speech="VBP">form</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="24" part-of-speech="NN">recognition</taggedword>
+      <taggedword index="25" part-of-speech="NNS">sites</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Dimerization" dep_index="1" gov="leads" gov_index="2">nsubj</dependency>
+      <dependency dep="leads" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="clustering" gov_index="5">det</dependency>
+      <dependency dep="clustering" dep_index="5" gov="leads" gov_index="2">prep_to</dependency>
+      <dependency dep="three" dep_index="7" gov="loops" gov_index="9">num</dependency>
+      <dependency dep="surface" dep_index="8" gov="loops" gov_index="9">nn</dependency>
+      <dependency dep="loops" dep_index="9" gov="clustering" gov_index="5">prep_of</dependency>
+      <dependency dep="each" dep_index="11" gov="end" gov_index="12">det</dependency>
+      <dependency dep="end" dep_index="12" gov="leads" gov_index="2">prep_at</dependency>
+      <dependency dep="the" dep_index="14" gov="dimer" gov_index="16">det</dependency>
+      <dependency dep="elongated" dep_index="15" gov="dimer" gov_index="16">amod</dependency>
+      <dependency dep="dimer" dep_index="16" gov="end" gov_index="12">prep_of</dependency>
+      <dependency dep="dimer" dep_index="16" gov="form" gov_index="21">nsubj</dependency>
+      <dependency dep="most" dep_index="19" gov="probably" gov_index="20">advmod</dependency>
+      <dependency dep="probably" dep_index="20" gov="form" gov_index="21">advmod</dependency>
+      <dependency dep="form" dep_index="21" gov="dimer" gov_index="16">rcmod</dependency>
+      <dependency dep="the" dep_index="22" gov="sites" gov_index="25">det</dependency>
+      <dependency dep="receptor" dep_index="23" gov="sites" gov_index="25">nn</dependency>
+      <dependency dep="recognition" dep_index="24" gov="sites" gov_index="25">nn</dependency>
+      <dependency dep="sites" dep_index="25" gov="form" gov_index="21">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

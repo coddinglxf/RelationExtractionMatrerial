@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Some@HBx@substitution@mutants@,@which@had@severely@impaired@transacting@activity@,@exhibited@reduced@binding@affinity@with@either@TFIIB@or@RPB5@in@a@mutually@exclusive@manner@,@suggesting@that@HBx@transactivation@requires@the@interactions@of@both@RPB5@and@TFIIB@.@</sentence>
+   <tags>
+      <tag pos="2">HBx</tag>
+      <tag pos="19">TFIIB</tag>
+      <tag pos="21">RPB5</tag>
+      <tag pos="30">HBx</tag>
+      <tag pos="37">RPB5</tag>
+      <tag pos="39">TFIIB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">Some</taggedword>
+      <taggedword index="2" part-of-speech="NNP">HBx</taggedword>
+      <taggedword index="3" part-of-speech="NN">substitution</taggedword>
+      <taggedword index="4" part-of-speech="NN">mutants</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="WDT">which</taggedword>
+      <taggedword index="7" part-of-speech="VBD">had</taggedword>
+      <taggedword index="8" part-of-speech="RB">severely</taggedword>
+      <taggedword index="9" part-of-speech="VBN">impaired</taggedword>
+      <taggedword index="10" part-of-speech="VBG">transacting</taggedword>
+      <taggedword index="11" part-of-speech="NN">activity</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBD">exhibited</taggedword>
+      <taggedword index="14" part-of-speech="JJ">reduced</taggedword>
+      <taggedword index="15" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="16" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="DT">either</taggedword>
+      <taggedword index="19" part-of-speech="NNP">TFIIB</taggedword>
+      <taggedword index="20" part-of-speech="CC">or</taggedword>
+      <taggedword index="21" part-of-speech="NNP">RPB5</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="RB">mutually</taggedword>
+      <taggedword index="25" part-of-speech="JJ">exclusive</taggedword>
+      <taggedword index="26" part-of-speech="NN">manner</taggedword>
+      <taggedword index="27" part-of-speech=",">,</taggedword>
+      <taggedword index="28" part-of-speech="VBG">suggesting</taggedword>
+      <taggedword index="29" part-of-speech="IN">that</taggedword>
+      <taggedword index="30" part-of-speech="NNP">HBx</taggedword>
+      <taggedword index="31" part-of-speech="NNP">transactivation</taggedword>
+      <taggedword index="32" part-of-speech="VBZ">requires</taggedword>
+      <taggedword index="33" part-of-speech="DT">the</taggedword>
+      <taggedword index="34" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="35" part-of-speech="IN">of</taggedword>
+      <taggedword index="36" part-of-speech="DT">both</taggedword>
+      <taggedword index="37" part-of-speech="NNP">RPB5</taggedword>
+      <taggedword index="38" part-of-speech="CC">and</taggedword>
+      <taggedword index="39" part-of-speech="NNP">TFIIB</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Some" dep_index="1" gov="mutants" gov_index="4">det</dependency>
+      <dependency dep="HBx" dep_index="2" gov="mutants" gov_index="4">nn</dependency>
+      <dependency dep="substitution" dep_index="3" gov="mutants" gov_index="4">nn</dependency>
+      <dependency dep="mutants" dep_index="4" gov="impaired" gov_index="9">nsubj</dependency>
+      <dependency dep="mutants" dep_index="4" gov="exhibited" gov_index="13">nsubj</dependency>
+      <dependency dep="had" dep_index="7" gov="impaired" gov_index="9">aux</dependency>
+      <dependency dep="severely" dep_index="8" gov="impaired" gov_index="9">advmod</dependency>
+      <dependency dep="impaired" dep_index="9" gov="mutants" gov_index="4">rcmod</dependency>
+      <dependency dep="transacting" dep_index="10" gov="impaired" gov_index="9">xcomp</dependency>
+      <dependency dep="activity" dep_index="11" gov="transacting" gov_index="10">dobj</dependency>
+      <dependency dep="exhibited" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="reduced" dep_index="14" gov="affinity" gov_index="16">amod</dependency>
+      <dependency dep="binding" dep_index="15" gov="affinity" gov_index="16">amod</dependency>
+      <dependency dep="affinity" dep_index="16" gov="exhibited" gov_index="13">dobj</dependency>
+      <dependency dep="either" dep_index="18" gov="TFIIB" gov_index="19">preconj</dependency>
+      <dependency dep="TFIIB" dep_index="19" gov="exhibited" gov_index="13">prep_with</dependency>
+      <dependency dep="RPB5" dep_index="21" gov="exhibited" gov_index="13">prep_with</dependency>
+      <dependency dep="RPB5" dep_index="21" gov="TFIIB" gov_index="19">conj_or</dependency>
+      <dependency dep="a" dep_index="23" gov="manner" gov_index="26">det</dependency>
+      <dependency dep="mutually" dep_index="24" gov="exclusive" gov_index="25">advmod</dependency>
+      <dependency dep="exclusive" dep_index="25" gov="manner" gov_index="26">amod</dependency>
+      <dependency dep="manner" dep_index="26" gov="exhibited" gov_index="13">prep_in</dependency>
+      <dependency dep="suggesting" dep_index="28" gov="exhibited" gov_index="13">partmod</dependency>
+      <dependency dep="that" dep_index="29" gov="requires" gov_index="32">mark</dependency>
+      <dependency dep="HBx" dep_index="30" gov="transactivation" gov_index="31">nn</dependency>
+      <dependency dep="transactivation" dep_index="31" gov="requires" gov_index="32">nsubj</dependency>
+      <dependency dep="requires" dep_index="32" gov="suggesting" gov_index="28">ccomp</dependency>
+      <dependency dep="the" dep_index="33" gov="interactions" gov_index="34">det</dependency>
+      <dependency dep="interactions" dep_index="34" gov="requires" gov_index="32">dobj</dependency>
+      <dependency dep="both" dep_index="36" gov="RPB5" gov_index="37">preconj</dependency>
+      <dependency dep="RPB5" dep_index="37" gov="interactions" gov_index="34">prep_of</dependency>
+      <dependency dep="TFIIB" dep_index="39" gov="interactions" gov_index="34">prep_of</dependency>
+      <dependency dep="TFIIB" dep_index="39" gov="RPB5" gov_index="37">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200019" relationship="false">2 4 13 19</relation>
+      <relation position="200021" relationship="true">2 4 13 21</relation>
+      <relation position="200030" relationship="false">2 4 13 28 32 31 30</relation>
+      <relation position="200037" relationship="false">2 4 13 28 32 34 37</relation>
+      <relation position="200039" relationship="false">2 4 13 28 32 34 39</relation>
+      <relation position="1900021" relationship="false">19 13 21</relation>
+      <relation position="1900030" relationship="false">19 13 28 32 31 30</relation>
+      <relation position="1900037" relationship="false">19 13 28 32 34 37</relation>
+      <relation position="1900039" relationship="false">19 13 28 32 34 39</relation>
+      <relation position="2100030" relationship="false">21 13 28 32 31 30</relation>
+      <relation position="2100037" relationship="false">21 13 28 32 34 37</relation>
+      <relation position="2100039" relationship="false">21 13 28 32 34 39</relation>
+      <relation position="3000037" relationship="true">30 31 32 34 37</relation>
+      <relation position="3000039" relationship="false">30 31 32 34 39</relation>
+      <relation position="3700039" relationship="false">37 34 39</relation>
+   </relations>
+   <pairs>
+      <pair>3000037</pair>
+      <pair>200021</pair>
+   </pairs>
+</root>

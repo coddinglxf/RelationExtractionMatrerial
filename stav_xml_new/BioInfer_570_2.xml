@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interactions@of@yeast@and@human@platelet profilins@with@rabbit@skeletal muscle actin@were@characterized@by@titration@microcalorimetry@,@fluorescence@titrations@,@and@nucleotide@exchange@kinetics@.@</sentence>
+   <tags>
+      <tag pos="10">skeletal muscle actin</tag>
+      <tag pos="7">platelet profilins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="JJ">human</taggedword>
+      <taggedword index="7" part-of-speech="NNS">platelet profilins</taggedword>
+      <taggedword index="8" part-of-speech="IN">with</taggedword>
+      <taggedword index="9" part-of-speech="NN">rabbit</taggedword>
+      <taggedword index="10" part-of-speech="NN">skeletal muscle actin</taggedword>
+      <taggedword index="11" part-of-speech="VBD">were</taggedword>
+      <taggedword index="12" part-of-speech="VBN">characterized</taggedword>
+      <taggedword index="13" part-of-speech="IN">by</taggedword>
+      <taggedword index="14" part-of-speech="NN">titration</taggedword>
+      <taggedword index="15" part-of-speech="NN">microcalorimetry</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="JJ">fluorescence</taggedword>
+      <taggedword index="18" part-of-speech="NNS">titrations</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="JJ">nucleotide</taggedword>
+      <taggedword index="22" part-of-speech="NN">exchange</taggedword>
+      <taggedword index="23" part-of-speech="NNS">kinetics</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interactions" gov_index="2">det</dependency>
+      <dependency dep="interactions" dep_index="2" gov="characterized" gov_index="12">nsubjpass</dependency>
+      <dependency dep="yeast" dep_index="4" gov="platelet profilins" gov_index="7">nn</dependency>
+      <dependency dep="human" dep_index="6" gov="yeast" gov_index="4">conj_and</dependency>
+      <dependency dep="human" dep_index="6" gov="platelet profilins" gov_index="7">nn</dependency>
+      <dependency dep="platelet profilins" dep_index="7" gov="interactions" gov_index="2">prep_of</dependency>
+      <dependency dep="rabbit" dep_index="9" gov="skeletal muscle actin" gov_index="10">nn</dependency>
+      <dependency dep="skeletal muscle actin" dep_index="10" gov="platelet profilins" gov_index="7">prep_with</dependency>
+      <dependency dep="were" dep_index="11" gov="characterized" gov_index="12">auxpass</dependency>
+      <dependency dep="characterized" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="titration" dep_index="14" gov="microcalorimetry" gov_index="15">nn</dependency>
+      <dependency dep="microcalorimetry" dep_index="15" gov="characterized" gov_index="12">agent</dependency>
+      <dependency dep="fluorescence" dep_index="17" gov="titrations" gov_index="18">amod</dependency>
+      <dependency dep="titrations" dep_index="18" gov="characterized" gov_index="12">agent</dependency>
+      <dependency dep="titrations" dep_index="18" gov="microcalorimetry" gov_index="15">conj_and</dependency>
+      <dependency dep="nucleotide" dep_index="21" gov="kinetics" gov_index="23">amod</dependency>
+      <dependency dep="exchange" dep_index="22" gov="kinetics" gov_index="23">nn</dependency>
+      <dependency dep="kinetics" dep_index="23" gov="characterized" gov_index="12">agent</dependency>
+      <dependency dep="kinetics" dep_index="23" gov="microcalorimetry" gov_index="15">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700010" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>700010</pair>
+   </pairs>
+</root>

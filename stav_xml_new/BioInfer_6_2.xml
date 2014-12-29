@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@profilin@had@little@effect@on@the@rigidity@and@viscosity@of@actin@filaments@.@</sentence>
+   <tags>
+      <tag pos="4">profilin</tag>
+      <tag pos="14">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="5" part-of-speech="VBD">had</taggedword>
+      <taggedword index="6" part-of-speech="JJ">little</taggedword>
+      <taggedword index="7" part-of-speech="NN">effect</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">rigidity</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">viscosity</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">actin</taggedword>
+      <taggedword index="15" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="had" gov_index="5">prep_in</dependency>
+      <dependency dep="profilin" dep_index="4" gov="had" gov_index="5">nsubj</dependency>
+      <dependency dep="had" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="little" dep_index="6" gov="effect" gov_index="7">amod</dependency>
+      <dependency dep="effect" dep_index="7" gov="had" gov_index="5">dobj</dependency>
+      <dependency dep="the" dep_index="9" gov="rigidity" gov_index="10">det</dependency>
+      <dependency dep="rigidity" dep_index="10" gov="effect" gov_index="7">prep_on</dependency>
+      <dependency dep="viscosity" dep_index="12" gov="effect" gov_index="7">prep_on</dependency>
+      <dependency dep="viscosity" dep_index="12" gov="rigidity" gov_index="10">conj_and</dependency>
+      <dependency dep="actin" dep_index="14" gov="filaments" gov_index="15">nn</dependency>
+      <dependency dep="filaments" dep_index="15" gov="rigidity" gov_index="10">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400014" relationship="true">4 5 7 10 15 14</relation>
+   </relations>
+   <pairs>
+      <pair>400014</pair>
+   </pairs>
+</root>

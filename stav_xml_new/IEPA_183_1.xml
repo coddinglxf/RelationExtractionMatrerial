@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Plasma@insulin@,@cholecystokinin@,@galanin@,@neuropeptide Y@and@leptin@levels@in@obese@women@with@and@without@type@2@diabetes@mellitus@</sentence>
+   <tags>
+      <tag pos="8">neuropeptide Y</tag>
+      <tag pos="10">leptin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBD">Plasma</taggedword>
+      <taggedword index="2" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">cholecystokinin</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="NN">galanin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">neuropeptide Y</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="11" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="12" part-of-speech="IN">in</taggedword>
+      <taggedword index="13" part-of-speech="JJ">obese</taggedword>
+      <taggedword index="14" part-of-speech="NNS">women</taggedword>
+      <taggedword index="15" part-of-speech="IN">with</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="IN">without</taggedword>
+      <taggedword index="18" part-of-speech="NN">type</taggedword>
+      <taggedword index="19" part-of-speech="CD">2</taggedword>
+      <taggedword index="20" part-of-speech="NN">diabetes</taggedword>
+      <taggedword index="21" part-of-speech="NNS">mellitus</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Plasma" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Plasma" dep_index="1" gov="Plasma" gov_index="1">conj_and</dependency>
+      <dependency dep="insulin" dep_index="2" gov="levels" gov_index="11">nn</dependency>
+      <dependency dep="cholecystokinin" dep_index="4" gov="insulin" gov_index="2">conj_and</dependency>
+      <dependency dep="cholecystokinin" dep_index="4" gov="levels" gov_index="11">nn</dependency>
+      <dependency dep="galanin" dep_index="6" gov="insulin" gov_index="2">conj_and</dependency>
+      <dependency dep="galanin" dep_index="6" gov="levels" gov_index="11">nn</dependency>
+      <dependency dep="neuropeptide Y" dep_index="8" gov="insulin" gov_index="2">conj_and</dependency>
+      <dependency dep="neuropeptide Y" dep_index="8" gov="levels" gov_index="11">nn</dependency>
+      <dependency dep="leptin" dep_index="10" gov="insulin" gov_index="2">conj_and</dependency>
+      <dependency dep="leptin" dep_index="10" gov="levels" gov_index="11">nn</dependency>
+      <dependency dep="levels" dep_index="11" gov="Plasma" gov_index="1">dobj</dependency>
+      <dependency dep="obese" dep_index="13" gov="women" gov_index="14">amod</dependency>
+      <dependency dep="women" dep_index="14" gov="Plasma" gov_index="1">prep_in</dependency>
+      <dependency dep="type" dep_index="18" gov="Plasma" gov_index="1">prep_with</dependency>
+      <dependency dep="type" dep_index="18" gov="Plasma" gov_index="1">prep_without</dependency>
+      <dependency dep="2" dep_index="19" gov="mellitus" gov_index="21">num</dependency>
+      <dependency dep="diabetes" dep_index="20" gov="mellitus" gov_index="21">nn</dependency>
+      <dependency dep="mellitus" dep_index="21" gov="Plasma" gov_index="1">nsubj</dependency>
+      <dependency dep="mellitus" dep_index="21" gov="Plasma" gov_index="1">nsubj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 11 10</relation>
+   </relations>
+   <pairs/>
+</root>

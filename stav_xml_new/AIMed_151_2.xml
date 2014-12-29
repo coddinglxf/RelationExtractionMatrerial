@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@proximal sequence element (PSE)-binding transcription factor@(@PTF@)@specifically@recognizes@the@PSEs@of@both@RNA@polymerase@II-@and@RNA@polymerase@III-transcribed@small@nuclear@RNA@(snRNA)@genes@.@</sentence>
+   <tags>
+      <tag pos="2">proximal sequence element (PSE)-binding transcription factor</tag>
+      <tag pos="4">PTF</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">proximal sequence element (PSE)-binding transcription factor</taggedword>
+      <taggedword index="3" part-of-speech="NNP">(</taggedword>
+      <taggedword index="4" part-of-speech="NNP">PTF</taggedword>
+      <taggedword index="5" part-of-speech="NNP">)</taggedword>
+      <taggedword index="6" part-of-speech="RB">specifically</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">recognizes</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNPS">PSEs</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">both</taggedword>
+      <taggedword index="12" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="13" part-of-speech="NNP">polymerase</taggedword>
+      <taggedword index="14" part-of-speech="NNP">II-</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNP">RNA</taggedword>
+      <taggedword index="17" part-of-speech="NNP">polymerase</taggedword>
+      <taggedword index="18" part-of-speech="JJ">III-transcribed</taggedword>
+      <taggedword index="19" part-of-speech="JJ">small</taggedword>
+      <taggedword index="20" part-of-speech="JJ">nuclear</taggedword>
+      <taggedword index="21" part-of-speech="JJ">RNA</taggedword>
+      <taggedword index="22" part-of-speech="NN">(snRNA)</taggedword>
+      <taggedword index="23" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov=")" gov_index="5">det</dependency>
+      <dependency dep="proximal sequence element (PSE)-binding transcription factor" dep_index="2" gov=")" gov_index="5">amod</dependency>
+      <dependency dep="(" dep_index="3" gov=")" gov_index="5">nn</dependency>
+      <dependency dep="PTF" dep_index="4" gov=")" gov_index="5">nn</dependency>
+      <dependency dep=")" dep_index="5" gov="recognizes" gov_index="7">nsubj</dependency>
+      <dependency dep="specifically" dep_index="6" gov="recognizes" gov_index="7">advmod</dependency>
+      <dependency dep="recognizes" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="PSEs" gov_index="9">det</dependency>
+      <dependency dep="PSEs" dep_index="9" gov="recognizes" gov_index="7">dobj</dependency>
+      <dependency dep="both" dep_index="11" gov="II-" gov_index="14">det</dependency>
+      <dependency dep="RNA" dep_index="12" gov="II-" gov_index="14">nn</dependency>
+      <dependency dep="polymerase" dep_index="13" gov="II-" gov_index="14">nn</dependency>
+      <dependency dep="II-" dep_index="14" gov="PSEs" gov_index="9">prep_of</dependency>
+      <dependency dep="RNA" dep_index="16" gov="genes" gov_index="23">nn</dependency>
+      <dependency dep="polymerase" dep_index="17" gov="genes" gov_index="23">nn</dependency>
+      <dependency dep="III-transcribed" dep_index="18" gov="small" gov_index="19">amod</dependency>
+      <dependency dep="small" dep_index="19" gov="genes" gov_index="23">amod</dependency>
+      <dependency dep="nuclear" dep_index="20" gov="genes" gov_index="23">amod</dependency>
+      <dependency dep="RNA" dep_index="21" gov="genes" gov_index="23">amod</dependency>
+      <dependency dep="(snRNA)" dep_index="22" gov="genes" gov_index="23">nn</dependency>
+      <dependency dep="genes" dep_index="23" gov="PSEs" gov_index="9">prep_of</dependency>
+      <dependency dep="genes" dep_index="23" gov="II-" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 5 4</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@both@insulin@and@CCK@levels@were@decreased@in@response@to@the@oxytocin@treatment@when@measured@3@and@10@days@after@the@last@injection@(ANOVA@;@insulin@p@&lt;@0.01@,@CCK@p@&lt;@0.05)@</sentence>
+   <tags>
+      <tag pos="5">insulin</tag>
+      <tag pos="15">oxytocin</tag>
+      <tag pos="29">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">both</taggedword>
+      <taggedword index="5" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NNP">CCK</taggedword>
+      <taggedword index="8" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="9" part-of-speech="VBD">were</taggedword>
+      <taggedword index="10" part-of-speech="VBN">decreased</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">response</taggedword>
+      <taggedword index="13" part-of-speech="TO">to</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="16" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="17" part-of-speech="WRB">when</taggedword>
+      <taggedword index="18" part-of-speech="VBD">measured</taggedword>
+      <taggedword index="19" part-of-speech="CD">3</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="CD">10</taggedword>
+      <taggedword index="22" part-of-speech="NNS">days</taggedword>
+      <taggedword index="23" part-of-speech="IN">after</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="JJ">last</taggedword>
+      <taggedword index="26" part-of-speech="NN">injection</taggedword>
+      <taggedword index="27" part-of-speech="NN">(ANOVA</taggedword>
+      <taggedword index="28" part-of-speech=":">;</taggedword>
+      <taggedword index="29" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="30" part-of-speech="NN">p</taggedword>
+      <taggedword index="31" part-of-speech="NNP">&lt;</taggedword>
+      <taggedword index="32" part-of-speech="NNP">0.01</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="NNP">CCK</taggedword>
+      <taggedword index="35" part-of-speech="NNP">p</taggedword>
+      <taggedword index="36" part-of-speech="NNP">&lt;</taggedword>
+      <taggedword index="37" part-of-speech="CD">0.05)</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="decreased" gov_index="10">prep_in</dependency>
+      <dependency dep="both" dep_index="4" gov="levels" gov_index="8">preconj</dependency>
+      <dependency dep="insulin" dep_index="5" gov="levels" gov_index="8">nn</dependency>
+      <dependency dep="CCK" dep_index="7" gov="insulin" gov_index="5">conj_and</dependency>
+      <dependency dep="CCK" dep_index="7" gov="levels" gov_index="8">nn</dependency>
+      <dependency dep="levels" dep_index="8" gov="decreased" gov_index="10">nsubjpass</dependency>
+      <dependency dep="were" dep_index="9" gov="decreased" gov_index="10">auxpass</dependency>
+      <dependency dep="decreased" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="response" dep_index="12" gov="decreased" gov_index="10">prep_in</dependency>
+      <dependency dep="the" dep_index="14" gov="treatment" gov_index="16">det</dependency>
+      <dependency dep="oxytocin" dep_index="15" gov="treatment" gov_index="16">nn</dependency>
+      <dependency dep="treatment" dep_index="16" gov="decreased" gov_index="10">prep_to</dependency>
+      <dependency dep="when" dep_index="17" gov="measured" gov_index="18">advmod</dependency>
+      <dependency dep="measured" dep_index="18" gov="decreased" gov_index="10">advcl</dependency>
+      <dependency dep="3" dep_index="19" gov="days" gov_index="22">nn</dependency>
+      <dependency dep="10" dep_index="21" gov="3" gov_index="19">conj_and</dependency>
+      <dependency dep="10" dep_index="21" gov="days" gov_index="22">nn</dependency>
+      <dependency dep="days" dep_index="22" gov="measured" gov_index="18">dobj</dependency>
+      <dependency dep="the" dep_index="24" gov="(ANOVA" gov_index="27">det</dependency>
+      <dependency dep="last" dep_index="25" gov="(ANOVA" gov_index="27">amod</dependency>
+      <dependency dep="injection" dep_index="26" gov="(ANOVA" gov_index="27">nn</dependency>
+      <dependency dep="(ANOVA" dep_index="27" gov="days" gov_index="22">prep_after</dependency>
+      <dependency dep="insulin" dep_index="29" gov="0.01" gov_index="32">nn</dependency>
+      <dependency dep="p" dep_index="30" gov="0.01" gov_index="32">nn</dependency>
+      <dependency dep="&lt;" dep_index="31" gov="0.01" gov_index="32">nn</dependency>
+      <dependency dep="0.01" dep_index="32" gov="days" gov_index="22">dep</dependency>
+      <dependency dep="CCK" dep_index="34" gov="&lt;" gov_index="36">nn</dependency>
+      <dependency dep="p" dep_index="35" gov="&lt;" gov_index="36">nn</dependency>
+      <dependency dep="&lt;" dep_index="36" gov="0.01" gov_index="32">appos</dependency>
+      <dependency dep="0.05)" dep_index="37" gov="&lt;" gov_index="36">num</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500015" relationship="true">5 8 10 16 15</relation>
+      <relation position="500029" relationship="false">5 8 10 18 22 32 29</relation>
+      <relation position="1500029" relationship="false">15 16 10 18 22 32 29</relation>
+   </relations>
+   <pairs>
+      <pair>500015</pair>
+   </pairs>
+</root>

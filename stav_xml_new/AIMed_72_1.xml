@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@cellular@protein@that@competes@with@SV40 T antigen@for@binding@to@the@retinoblastoma@gene@product@.@</sentence>
+   <tags>
+      <tag pos="7">SV40 T antigen</tag>
+      <tag pos="12">retinoblastoma</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="3" part-of-speech="NN">protein</taggedword>
+      <taggedword index="4" part-of-speech="WDT">that</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">competes</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="NNS">SV40 T antigen</taggedword>
+      <taggedword index="8" part-of-speech="IN">for</taggedword>
+      <taggedword index="9" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">retinoblastoma</taggedword>
+      <taggedword index="13" part-of-speech="NN">gene</taggedword>
+      <taggedword index="14" part-of-speech="NN">product</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="protein" gov_index="3">det</dependency>
+      <dependency dep="cellular" dep_index="2" gov="protein" gov_index="3">amod</dependency>
+      <dependency dep="protein" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="protein" dep_index="3" gov="competes" gov_index="5">nsubj</dependency>
+      <dependency dep="competes" dep_index="5" gov="protein" gov_index="3">rcmod</dependency>
+      <dependency dep="SV40 T antigen" dep_index="7" gov="protein" gov_index="3">prep_with</dependency>
+      <dependency dep="binding" dep_index="9" gov="protein" gov_index="3">prep_for</dependency>
+      <dependency dep="the" dep_index="11" gov="product" gov_index="14">det</dependency>
+      <dependency dep="retinoblastoma" dep_index="12" gov="product" gov_index="14">nn</dependency>
+      <dependency dep="gene" dep_index="13" gov="product" gov_index="14">nn</dependency>
+      <dependency dep="product" dep_index="14" gov="binding" gov_index="9">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700012" relationship="false">7 3 9 14 12</relation>
+   </relations>
+   <pairs/>
+</root>

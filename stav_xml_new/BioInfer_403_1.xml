@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Like@TESK1@,@TESK2@phosphorylated@cofilin@specifically@at@Ser-3@and@induced@formation@of@actin@stress@fibers@and@focal@adhesions@.@</sentence>
+   <tags>
+      <tag pos="14">actin</tag>
+      <tag pos="4">TESK2</tag>
+      <tag pos="6">cofilin</tag>
+      <tag pos="2">TESK1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Like</taggedword>
+      <taggedword index="2" part-of-speech="NNP">TESK1</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">TESK2</taggedword>
+      <taggedword index="5" part-of-speech="VBD">phosphorylated</taggedword>
+      <taggedword index="6" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="7" part-of-speech="RB">specifically</taggedword>
+      <taggedword index="8" part-of-speech="IN">at</taggedword>
+      <taggedword index="9" part-of-speech="JJ">Ser-3</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="JJ">induced</taggedword>
+      <taggedword index="12" part-of-speech="NN">formation</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="15" part-of-speech="NN">stress</taggedword>
+      <taggedword index="16" part-of-speech="NNS">fibers</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="JJ">focal</taggedword>
+      <taggedword index="19" part-of-speech="NNS">adhesions</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="TESK1" dep_index="2" gov="phosphorylated" gov_index="5">prep_like</dependency>
+      <dependency dep="TESK2" dep_index="4" gov="phosphorylated" gov_index="5">nsubj</dependency>
+      <dependency dep="phosphorylated" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cofilin" dep_index="6" gov="phosphorylated" gov_index="5">dobj</dependency>
+      <dependency dep="specifically" dep_index="7" gov="phosphorylated" gov_index="5">advmod</dependency>
+      <dependency dep="Ser-3" dep_index="9" gov="formation" gov_index="12">amod</dependency>
+      <dependency dep="induced" dep_index="11" gov="Ser-3" gov_index="9">conj_and</dependency>
+      <dependency dep="induced" dep_index="11" gov="formation" gov_index="12">amod</dependency>
+      <dependency dep="formation" dep_index="12" gov="phosphorylated" gov_index="5">prep_at</dependency>
+      <dependency dep="actin" dep_index="14" gov="fibers" gov_index="16">amod</dependency>
+      <dependency dep="stress" dep_index="15" gov="fibers" gov_index="16">nn</dependency>
+      <dependency dep="fibers" dep_index="16" gov="formation" gov_index="12">prep_of</dependency>
+      <dependency dep="focal" dep_index="18" gov="adhesions" gov_index="19">amod</dependency>
+      <dependency dep="adhesions" dep_index="19" gov="formation" gov_index="12">prep_of</dependency>
+      <dependency dep="adhesions" dep_index="19" gov="fibers" gov_index="16">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400014" relationship="true">4 5 12 16 14</relation>
+      <relation position="600014" relationship="false">6 5 12 16 14</relation>
+      <relation position="200014" relationship="true">2 5 12 16 14</relation>
+      <relation position="400006" relationship="true">4 5 6</relation>
+      <relation position="200004" relationship="false">2 5 4</relation>
+      <relation position="200006" relationship="true">2 5 6</relation>
+   </relations>
+   <pairs>
+      <pair>200014</pair>
+      <pair>400014</pair>
+      <pair>200006</pair>
+      <pair>400006</pair>
+   </pairs>
+</root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>HFE@binds@to@the@transferrin receptor@(@TfR@),@a@receptor@by@which@cells@acquire@iron-loaded@transferrin@.@</sentence>
+   <tags>
+      <tag pos="1">HFE</tag>
+      <tag pos="5">transferrin receptor</tag>
+      <tag pos="7">TfR</tag>
+      <tag pos="16">transferrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">HFE</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNP">transferrin receptor</taggedword>
+      <taggedword index="6" part-of-speech="NNP">(</taggedword>
+      <taggedword index="7" part-of-speech="NNP">TfR</taggedword>
+      <taggedword index="8" part-of-speech="NNP">),</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="WDT">which</taggedword>
+      <taggedword index="13" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="14" part-of-speech="VB">acquire</taggedword>
+      <taggedword index="15" part-of-speech="JJ">iron-loaded</taggedword>
+      <taggedword index="16" part-of-speech="NN">transferrin</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="HFE" dep_index="1" gov="binds" gov_index="2">nsubj</dependency>
+      <dependency dep="binds" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov=")," gov_index="8">det</dependency>
+      <dependency dep="transferrin receptor" dep_index="5" gov=")," gov_index="8">nn</dependency>
+      <dependency dep="(" dep_index="6" gov=")," gov_index="8">nn</dependency>
+      <dependency dep="TfR" dep_index="7" gov=")," gov_index="8">nn</dependency>
+      <dependency dep=")," dep_index="8" gov="binds" gov_index="2">prep_to</dependency>
+      <dependency dep="a" dep_index="9" gov="receptor" gov_index="10">det</dependency>
+      <dependency dep="receptor" dep_index="10" gov="binds" gov_index="2">dobj</dependency>
+      <dependency dep="receptor" dep_index="10" gov="acquire" gov_index="14">prep_by</dependency>
+      <dependency dep="cells" dep_index="13" gov="acquire" gov_index="14">nsubj</dependency>
+      <dependency dep="acquire" dep_index="14" gov="receptor" gov_index="10">rcmod</dependency>
+      <dependency dep="iron-loaded" dep_index="15" gov="transferrin" gov_index="16">amod</dependency>
+      <dependency dep="transferrin" dep_index="16" gov="acquire" gov_index="14">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100005" relationship="true">1 2 8 5</relation>
+      <relation position="100007" relationship="true">1 2 8 7</relation>
+      <relation position="100016" relationship="false">1 2 10 14 16</relation>
+      <relation position="500007" relationship="false">5 8 7</relation>
+      <relation position="500016" relationship="false">5 8 2 10 14 16</relation>
+      <relation position="700016" relationship="false">7 8 2 10 14 16</relation>
+   </relations>
+   <pairs>
+      <pair>100007</pair>
+      <pair>100005</pair>
+   </pairs>
+</root>

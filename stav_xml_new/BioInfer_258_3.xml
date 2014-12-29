@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Two-hybrid@analysis@of@the@interaction@between@the@UL52@and@UL8@subunits@of@the@herpes@simplex@virus@type@1@helicase-primase@.@</sentence>
+   <tags>
+      <tag pos="19">helicase-primase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Two-hybrid</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="6" part-of-speech="IN">between</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">UL52</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NNP">UL8</taggedword>
+      <taggedword index="11" part-of-speech="NNS">subunits</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">herpes</taggedword>
+      <taggedword index="15" part-of-speech="NN">simplex</taggedword>
+      <taggedword index="16" part-of-speech="NN">virus</taggedword>
+      <taggedword index="17" part-of-speech="NN">type</taggedword>
+      <taggedword index="18" part-of-speech="CD">1</taggedword>
+      <taggedword index="19" part-of-speech="NN">helicase-primase</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Two-hybrid" dep_index="1" gov="analysis" gov_index="2">amod</dependency>
+      <dependency dep="analysis" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="interaction" gov_index="5">det</dependency>
+      <dependency dep="interaction" dep_index="5" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="7" gov="subunits" gov_index="11">det</dependency>
+      <dependency dep="UL52" dep_index="8" gov="subunits" gov_index="11">nn</dependency>
+      <dependency dep="UL8" dep_index="10" gov="UL52" gov_index="8">conj_and</dependency>
+      <dependency dep="UL8" dep_index="10" gov="subunits" gov_index="11">nn</dependency>
+      <dependency dep="subunits" dep_index="11" gov="interaction" gov_index="5">prep_between</dependency>
+      <dependency dep="the" dep_index="13" gov="helicase-primase" gov_index="19">det</dependency>
+      <dependency dep="herpes" dep_index="14" gov="helicase-primase" gov_index="19">amod</dependency>
+      <dependency dep="simplex" dep_index="15" gov="helicase-primase" gov_index="19">nn</dependency>
+      <dependency dep="virus" dep_index="16" gov="helicase-primase" gov_index="19">nn</dependency>
+      <dependency dep="type" dep_index="17" gov="helicase-primase" gov_index="19">nn</dependency>
+      <dependency dep="1" dep_index="18" gov="helicase-primase" gov_index="19">num</dependency>
+      <dependency dep="helicase-primase" dep_index="19" gov="analysis" gov_index="2">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>For@example@,@leptin@suppresses@neuropeptide Y@(NPY)@expression@in@the@arcuate@nucleus@</sentence>
+   <tags>
+      <tag pos="4">leptin</tag>
+      <tag pos="6">neuropeptide Y</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">For</taggedword>
+      <taggedword index="2" part-of-speech="NN">example</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">suppresses</taggedword>
+      <taggedword index="6" part-of-speech="JJ">neuropeptide Y</taggedword>
+      <taggedword index="7" part-of-speech="JJ">(NPY)</taggedword>
+      <taggedword index="8" part-of-speech="NN">expression</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="JJ">arcuate</taggedword>
+      <taggedword index="12" part-of-speech="NN">nucleus</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="example" dep_index="2" gov="suppresses" gov_index="5">prep_for</dependency>
+      <dependency dep="leptin" dep_index="4" gov="suppresses" gov_index="5">nsubj</dependency>
+      <dependency dep="suppresses" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="neuropeptide Y" dep_index="6" gov="expression" gov_index="8">amod</dependency>
+      <dependency dep="(NPY)" dep_index="7" gov="expression" gov_index="8">amod</dependency>
+      <dependency dep="expression" dep_index="8" gov="suppresses" gov_index="5">dobj</dependency>
+      <dependency dep="the" dep_index="10" gov="nucleus" gov_index="12">det</dependency>
+      <dependency dep="arcuate" dep_index="11" gov="nucleus" gov_index="12">amod</dependency>
+      <dependency dep="nucleus" dep_index="12" gov="expression" gov_index="8">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 5 8 6</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

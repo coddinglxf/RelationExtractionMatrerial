@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@pattern@of@CD30L@binding@inhibition@shows@only@limited@correspondence@to@the@functional@capacity@of@some@anti-@CD30@MAb@to@trigger@CD30@signaling@.@</sentence>
+   <tags>
+      <tag pos="4">CD30L</tag>
+      <tag pos="18">CD30</tag>
+      <tag pos="22">CD30</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">pattern</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">CD30L</taggedword>
+      <taggedword index="5" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="6" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">shows</taggedword>
+      <taggedword index="8" part-of-speech="RB">only</taggedword>
+      <taggedword index="9" part-of-speech="JJ">limited</taggedword>
+      <taggedword index="10" part-of-speech="NN">correspondence</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="14" part-of-speech="NN">capacity</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">some</taggedword>
+      <taggedword index="17" part-of-speech="NNP">anti-</taggedword>
+      <taggedword index="18" part-of-speech="NNP">CD30</taggedword>
+      <taggedword index="19" part-of-speech="NNP">MAb</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">trigger</taggedword>
+      <taggedword index="22" part-of-speech="NNP">CD30</taggedword>
+      <taggedword index="23" part-of-speech="NNP">signaling</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="pattern" gov_index="2">det</dependency>
+      <dependency dep="pattern" dep_index="2" gov="shows" gov_index="7">nsubj</dependency>
+      <dependency dep="pattern" dep_index="2" gov="trigger" gov_index="21">xsubj</dependency>
+      <dependency dep="CD30L" dep_index="4" gov="inhibition" gov_index="6">amod</dependency>
+      <dependency dep="binding" dep_index="5" gov="inhibition" gov_index="6">amod</dependency>
+      <dependency dep="inhibition" dep_index="6" gov="pattern" gov_index="2">prep_of</dependency>
+      <dependency dep="shows" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="only" dep_index="8" gov="correspondence" gov_index="10">advmod</dependency>
+      <dependency dep="limited" dep_index="9" gov="correspondence" gov_index="10">amod</dependency>
+      <dependency dep="correspondence" dep_index="10" gov="shows" gov_index="7">dobj</dependency>
+      <dependency dep="the" dep_index="12" gov="capacity" gov_index="14">det</dependency>
+      <dependency dep="functional" dep_index="13" gov="capacity" gov_index="14">amod</dependency>
+      <dependency dep="capacity" dep_index="14" gov="shows" gov_index="7">prep_to</dependency>
+      <dependency dep="some" dep_index="16" gov="MAb" gov_index="19">det</dependency>
+      <dependency dep="anti-" dep_index="17" gov="MAb" gov_index="19">nn</dependency>
+      <dependency dep="CD30" dep_index="18" gov="MAb" gov_index="19">nn</dependency>
+      <dependency dep="MAb" dep_index="19" gov="capacity" gov_index="14">prep_of</dependency>
+      <dependency dep="to" dep_index="20" gov="trigger" gov_index="21">aux</dependency>
+      <dependency dep="trigger" dep_index="21" gov="shows" gov_index="7">xcomp</dependency>
+      <dependency dep="CD30" dep_index="22" gov="signaling" gov_index="23">nn</dependency>
+      <dependency dep="signaling" dep_index="23" gov="trigger" gov_index="21">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400018" relationship="false">4 6 2 7 14 19 18</relation>
+      <relation position="400022" relationship="false">4 6 2 21 23 22</relation>
+      <relation position="1800022" relationship="false">18 19 14 7 21 23 22</relation>
+   </relations>
+   <pairs/>
+</root>

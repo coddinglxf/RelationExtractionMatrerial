@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Symmetry-related@pairs@of@the@two@juxtaposed@epitopes@occur@near@the@BMP-2@poles@.@</sentence>
+   <tags>
+      <tag pos="11">BMP-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Symmetry-related</taggedword>
+      <taggedword index="2" part-of-speech="NNS">pairs</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="CD">two</taggedword>
+      <taggedword index="6" part-of-speech="JJ">juxtaposed</taggedword>
+      <taggedword index="7" part-of-speech="NNS">epitopes</taggedword>
+      <taggedword index="8" part-of-speech="VBP">occur</taggedword>
+      <taggedword index="9" part-of-speech="IN">near</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="NN">BMP-2</taggedword>
+      <taggedword index="12" part-of-speech="NNS">poles</taggedword>
+      <taggedword index="13" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Symmetry-related" dep_index="1" gov="pairs" gov_index="2">amod</dependency>
+      <dependency dep="pairs" dep_index="2" gov="occur" gov_index="8">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="epitopes" gov_index="7">det</dependency>
+      <dependency dep="two" dep_index="5" gov="epitopes" gov_index="7">num</dependency>
+      <dependency dep="juxtaposed" dep_index="6" gov="epitopes" gov_index="7">amod</dependency>
+      <dependency dep="epitopes" dep_index="7" gov="pairs" gov_index="2">prep_of</dependency>
+      <dependency dep="occur" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="10" gov="poles" gov_index="12">det</dependency>
+      <dependency dep="BMP-2" dep_index="11" gov="poles" gov_index="12">nn</dependency>
+      <dependency dep="poles" dep_index="12" gov="occur" gov_index="8">prep_near</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@contacts@can@be@regarded@as@a@hydrophobic@core@shielded@by@hydrophilic@residues@that@are@also@needed@for@recognition@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">contacts</taggedword>
+      <taggedword index="3" part-of-speech="MD">can</taggedword>
+      <taggedword index="4" part-of-speech="VB">be</taggedword>
+      <taggedword index="5" part-of-speech="VBN">regarded</taggedword>
+      <taggedword index="6" part-of-speech="IN">as</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">hydrophobic</taggedword>
+      <taggedword index="9" part-of-speech="NN">core</taggedword>
+      <taggedword index="10" part-of-speech="VBN">shielded</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="JJ">hydrophilic</taggedword>
+      <taggedword index="13" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="14" part-of-speech="WDT">that</taggedword>
+      <taggedword index="15" part-of-speech="VBP">are</taggedword>
+      <taggedword index="16" part-of-speech="RB">also</taggedword>
+      <taggedword index="17" part-of-speech="VBN">needed</taggedword>
+      <taggedword index="18" part-of-speech="IN">for</taggedword>
+      <taggedword index="19" part-of-speech="NN">recognition</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="contacts" gov_index="2">det</dependency>
+      <dependency dep="contacts" dep_index="2" gov="regarded" gov_index="5">nsubjpass</dependency>
+      <dependency dep="can" dep_index="3" gov="regarded" gov_index="5">aux</dependency>
+      <dependency dep="be" dep_index="4" gov="regarded" gov_index="5">auxpass</dependency>
+      <dependency dep="regarded" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="7" gov="core" gov_index="9">det</dependency>
+      <dependency dep="hydrophobic" dep_index="8" gov="core" gov_index="9">amod</dependency>
+      <dependency dep="core" dep_index="9" gov="regarded" gov_index="5">prep_as</dependency>
+      <dependency dep="shielded" dep_index="10" gov="core" gov_index="9">partmod</dependency>
+      <dependency dep="hydrophilic" dep_index="12" gov="residues" gov_index="13">amod</dependency>
+      <dependency dep="residues" dep_index="13" gov="shielded" gov_index="10">agent</dependency>
+      <dependency dep="residues" dep_index="13" gov="needed" gov_index="17">nsubjpass</dependency>
+      <dependency dep="are" dep_index="15" gov="needed" gov_index="17">auxpass</dependency>
+      <dependency dep="also" dep_index="16" gov="needed" gov_index="17">advmod</dependency>
+      <dependency dep="needed" dep_index="17" gov="residues" gov_index="13">rcmod</dependency>
+      <dependency dep="recognition" dep_index="19" gov="needed" gov_index="17">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

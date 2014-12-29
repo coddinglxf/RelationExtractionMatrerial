@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Total@protein@,@myosin heavy chain@(@MHC@),@and@actin@appeared@unchanged@with@SVT@cardiomyopathy@at@the@LV@or@myocyte@level@.@</sentence>
+   <tags>
+      <tag pos="9">actin</tag>
+      <tag pos="6">MHC</tag>
+      <tag pos="4">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Total</taggedword>
+      <taggedword index="2" part-of-speech="NN">protein</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">myosin heavy chain</taggedword>
+      <taggedword index="5" part-of-speech="NNP">(</taggedword>
+      <taggedword index="6" part-of-speech="NNP">MHC</taggedword>
+      <taggedword index="7" part-of-speech="NNP">),</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">actin</taggedword>
+      <taggedword index="10" part-of-speech="VBD">appeared</taggedword>
+      <taggedword index="11" part-of-speech="JJ">unchanged</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NNP">SVT</taggedword>
+      <taggedword index="14" part-of-speech="RB">cardiomyopathy</taggedword>
+      <taggedword index="15" part-of-speech="IN">at</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">LV</taggedword>
+      <taggedword index="18" part-of-speech="CC">or</taggedword>
+      <taggedword index="19" part-of-speech="NN">myocyte</taggedword>
+      <taggedword index="20" part-of-speech="NN">level</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Total" dep_index="1" gov="protein" gov_index="2">amod</dependency>
+      <dependency dep="protein" dep_index="2" gov="unchanged" gov_index="11">nsubj</dependency>
+      <dependency dep="myosin heavy chain" dep_index="4" gov=")," gov_index="7">nn</dependency>
+      <dependency dep="(" dep_index="5" gov=")," gov_index="7">nn</dependency>
+      <dependency dep="MHC" dep_index="6" gov=")," gov_index="7">nn</dependency>
+      <dependency dep=")," dep_index="7" gov="protein" gov_index="2">conj_and</dependency>
+      <dependency dep=")," dep_index="7" gov="unchanged" gov_index="11">nsubj</dependency>
+      <dependency dep="actin" dep_index="9" gov="protein" gov_index="2">conj_and</dependency>
+      <dependency dep="actin" dep_index="9" gov="unchanged" gov_index="11">nsubj</dependency>
+      <dependency dep="appeared" dep_index="10" gov="unchanged" gov_index="11">cop</dependency>
+      <dependency dep="unchanged" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="SVT" dep_index="13" gov="unchanged" gov_index="11">prep_with</dependency>
+      <dependency dep="cardiomyopathy" dep_index="14" gov="unchanged" gov_index="11">advmod</dependency>
+      <dependency dep="the" dep_index="16" gov="level" gov_index="20">det</dependency>
+      <dependency dep="LV" dep_index="17" gov="level" gov_index="20">nn</dependency>
+      <dependency dep="myocyte" dep_index="19" gov="LV" gov_index="17">conj_or</dependency>
+      <dependency dep="myocyte" dep_index="19" gov="level" gov_index="20">nn</dependency>
+      <dependency dep="level" dep_index="20" gov="unchanged" gov_index="11">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600009" relationship="false">6 7 11 9</relation>
+      <relation position="400009" relationship="false">4 7 11 9</relation>
+      <relation position="400006" relationship="false">4 7 6</relation>
+   </relations>
+   <pairs/>
+</root>

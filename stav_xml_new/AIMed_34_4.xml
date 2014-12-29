@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@proteins@include@from@seven@to@nine@putative@transmembrane@domains@,@with@the@N-@and@C-terminal@ends@and@a@large@hydrophilic@loop@orientated@towards@the@cytoplasm@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="3" part-of-speech="VBP">include</taggedword>
+      <taggedword index="4" part-of-speech="IN">from</taggedword>
+      <taggedword index="5" part-of-speech="CD">seven</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="CD">nine</taggedword>
+      <taggedword index="8" part-of-speech="JJ">putative</taggedword>
+      <taggedword index="9" part-of-speech="NN">transmembrane</taggedword>
+      <taggedword index="10" part-of-speech="NNS">domains</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="NNP">N-</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNP">C-terminal</taggedword>
+      <taggedword index="17" part-of-speech="NNS">ends</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="DT">a</taggedword>
+      <taggedword index="20" part-of-speech="JJ">large</taggedword>
+      <taggedword index="21" part-of-speech="JJ">hydrophilic</taggedword>
+      <taggedword index="22" part-of-speech="NN">loop</taggedword>
+      <taggedword index="23" part-of-speech="VBN">orientated</taggedword>
+      <taggedword index="24" part-of-speech="IN">towards</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">cytoplasm</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="proteins" gov_index="2">det</dependency>
+      <dependency dep="proteins" dep_index="2" gov="include" gov_index="3">nsubj</dependency>
+      <dependency dep="include" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="seven" dep_index="5" gov="include" gov_index="3">prep_from</dependency>
+      <dependency dep="nine" dep_index="7" gov="domains" gov_index="10">num</dependency>
+      <dependency dep="putative" dep_index="8" gov="domains" gov_index="10">amod</dependency>
+      <dependency dep="transmembrane" dep_index="9" gov="domains" gov_index="10">nn</dependency>
+      <dependency dep="domains" dep_index="10" gov="include" gov_index="3">prep_to</dependency>
+      <dependency dep="the" dep_index="13" gov="ends" gov_index="17">det</dependency>
+      <dependency dep="N-" dep_index="14" gov="ends" gov_index="17">nn</dependency>
+      <dependency dep="C-terminal" dep_index="16" gov="N-" gov_index="14">conj_and</dependency>
+      <dependency dep="C-terminal" dep_index="16" gov="ends" gov_index="17">nn</dependency>
+      <dependency dep="ends" dep_index="17" gov="include" gov_index="3">prep_with</dependency>
+      <dependency dep="a" dep_index="19" gov="loop" gov_index="22">det</dependency>
+      <dependency dep="large" dep_index="20" gov="loop" gov_index="22">amod</dependency>
+      <dependency dep="hydrophilic" dep_index="21" gov="loop" gov_index="22">amod</dependency>
+      <dependency dep="loop" dep_index="22" gov="include" gov_index="3">prep_with</dependency>
+      <dependency dep="loop" dep_index="22" gov="ends" gov_index="17">conj_and</dependency>
+      <dependency dep="orientated" dep_index="23" gov="loop" gov_index="22">partmod</dependency>
+      <dependency dep="the" dep_index="25" gov="cytoplasm" gov_index="26">det</dependency>
+      <dependency dep="cytoplasm" dep_index="26" gov="orientated" gov_index="23">prep_towards</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@mammalian@cells@treated@with@either@erythropoietin@or@interferon-gamma@,@a@small@fraction@of@Raf-1@coimmunoprecipitated@with@JAK2@in@lysates@of@cells@in@which@JAK2@was@activated@as@judged@by@its@state@of@tyrosine@phosphorylation@.@</sentence>
+   <tags>
+      <tag pos="15">Raf-1</tag>
+      <tag pos="18">JAK2</tag>
+      <tag pos="25">JAK2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="3" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="4" part-of-speech="VBN">treated</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="DT">either</taggedword>
+      <taggedword index="7" part-of-speech="NN">erythropoietin</taggedword>
+      <taggedword index="8" part-of-speech="CC">or</taggedword>
+      <taggedword index="9" part-of-speech="NN">interferon-gamma</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">small</taggedword>
+      <taggedword index="13" part-of-speech="NN">fraction</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNS">Raf-1</taggedword>
+      <taggedword index="16" part-of-speech="VBD">coimmunoprecipitated</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="NNP">JAK2</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="NNS">lysates</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="WDT">which</taggedword>
+      <taggedword index="25" part-of-speech="NNP">JAK2</taggedword>
+      <taggedword index="26" part-of-speech="VBD">was</taggedword>
+      <taggedword index="27" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="28" part-of-speech="IN">as</taggedword>
+      <taggedword index="29" part-of-speech="VBN">judged</taggedword>
+      <taggedword index="30" part-of-speech="IN">by</taggedword>
+      <taggedword index="31" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="32" part-of-speech="NN">state</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="35" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="36" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="mammalian" dep_index="2" gov="cells" gov_index="3">amod</dependency>
+      <dependency dep="cells" dep_index="3" gov="coimmunoprecipitated" gov_index="16">prep_in</dependency>
+      <dependency dep="treated" dep_index="4" gov="cells" gov_index="3">partmod</dependency>
+      <dependency dep="either" dep_index="6" gov="erythropoietin" gov_index="7">preconj</dependency>
+      <dependency dep="erythropoietin" dep_index="7" gov="treated" gov_index="4">prep_with</dependency>
+      <dependency dep="interferon-gamma" dep_index="9" gov="treated" gov_index="4">prep_with</dependency>
+      <dependency dep="interferon-gamma" dep_index="9" gov="erythropoietin" gov_index="7">conj_or</dependency>
+      <dependency dep="a" dep_index="11" gov="fraction" gov_index="13">det</dependency>
+      <dependency dep="small" dep_index="12" gov="fraction" gov_index="13">amod</dependency>
+      <dependency dep="fraction" dep_index="13" gov="coimmunoprecipitated" gov_index="16">nsubj</dependency>
+      <dependency dep="Raf-1" dep_index="15" gov="fraction" gov_index="13">prep_of</dependency>
+      <dependency dep="coimmunoprecipitated" dep_index="16" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="JAK2" dep_index="18" gov="coimmunoprecipitated" gov_index="16">prep_with</dependency>
+      <dependency dep="lysates" dep_index="20" gov="coimmunoprecipitated" gov_index="16">prep_in</dependency>
+      <dependency dep="cells" dep_index="22" gov="lysates" gov_index="20">prep_of</dependency>
+      <dependency dep="cells" dep_index="22" gov="activated" gov_index="27">prep_in</dependency>
+      <dependency dep="JAK2" dep_index="25" gov="activated" gov_index="27">nsubjpass</dependency>
+      <dependency dep="was" dep_index="26" gov="activated" gov_index="27">auxpass</dependency>
+      <dependency dep="activated" dep_index="27" gov="cells" gov_index="22">rcmod</dependency>
+      <dependency dep="as" dep_index="28" gov="judged" gov_index="29">mark</dependency>
+      <dependency dep="judged" dep_index="29" gov="activated" gov_index="27">advcl</dependency>
+      <dependency dep="its" dep_index="31" gov="state" gov_index="32">poss</dependency>
+      <dependency dep="state" dep_index="32" gov="judged" gov_index="29">prep_by</dependency>
+      <dependency dep="tyrosine" dep_index="34" gov="phosphorylation" gov_index="35">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="35" gov="state" gov_index="32">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500018" relationship="true">15 13 16 18</relation>
+      <relation position="1500025" relationship="false">15 13 16 20 22 27 25</relation>
+      <relation position="1800025" relationship="false">18 16 20 22 27 25</relation>
+   </relations>
+   <pairs>
+      <pair>1500018</pair>
+   </pairs>
+</root>

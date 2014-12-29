@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Physical@interaction@of@mammalian@CDC37@with@CDK4@</sentence>
+   <tags>
+      <tag pos="5">CDC37</tag>
+      <tag pos="7">CDK4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Physical</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="5" part-of-speech="NN">CDC37</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="NNP">CDK4</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Physical" dep_index="1" gov="interaction" gov_index="2">amod</dependency>
+      <dependency dep="interaction" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="mammalian" dep_index="4" gov="CDC37" gov_index="5">amod</dependency>
+      <dependency dep="CDC37" dep_index="5" gov="interaction" gov_index="2">prep_of</dependency>
+      <dependency dep="CDK4" dep_index="7" gov="interaction" gov_index="2">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="true">5 2 7</relation>
+   </relations>
+   <pairs>
+      <pair>500007</pair>
+   </pairs>
+</root>

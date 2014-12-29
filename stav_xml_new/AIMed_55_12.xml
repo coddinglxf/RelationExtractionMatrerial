@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Taken@together@,@LEC@is@a@new@low-affinity@functional@ligand@for@CCR1@,@CCR2@and@CCR5@,@and@is@constitutively@expressed@by@liver@parenchymal@cells@.@</sentence>
+   <tags>
+      <tag pos="4">LEC</tag>
+      <tag pos="12">CCR1</tag>
+      <tag pos="14">CCR2</tag>
+      <tag pos="16">CCR5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Taken</taggedword>
+      <taggedword index="2" part-of-speech="RB">together</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="JJ">new</taggedword>
+      <taggedword index="8" part-of-speech="NN">low-affinity</taggedword>
+      <taggedword index="9" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="10" part-of-speech="JJ">ligand</taggedword>
+      <taggedword index="11" part-of-speech="IN">for</taggedword>
+      <taggedword index="12" part-of-speech="NNP">CCR1</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NNP">CCR2</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NNP">CCR5</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="20" part-of-speech="RB">constitutively</taggedword>
+      <taggedword index="21" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="22" part-of-speech="IN">by</taggedword>
+      <taggedword index="23" part-of-speech="NN">liver</taggedword>
+      <taggedword index="24" part-of-speech="NN">parenchymal</taggedword>
+      <taggedword index="25" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Taken" dep_index="1" gov="low-affinity" gov_index="8">partmod</dependency>
+      <dependency dep="together" dep_index="2" gov="Taken" gov_index="1">advmod</dependency>
+      <dependency dep="LEC" dep_index="4" gov="low-affinity" gov_index="8">nsubj</dependency>
+      <dependency dep="LEC" dep_index="4" gov="expressed" gov_index="21">nsubjpass</dependency>
+      <dependency dep="is" dep_index="5" gov="low-affinity" gov_index="8">cop</dependency>
+      <dependency dep="a" dep_index="6" gov="low-affinity" gov_index="8">det</dependency>
+      <dependency dep="new" dep_index="7" gov="low-affinity" gov_index="8">amod</dependency>
+      <dependency dep="low-affinity" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="functional" dep_index="9" gov="ligand" gov_index="10">amod</dependency>
+      <dependency dep="ligand" dep_index="10" gov="low-affinity" gov_index="8">amod</dependency>
+      <dependency dep="CCR1" dep_index="12" gov="low-affinity" gov_index="8">prep_for</dependency>
+      <dependency dep="CCR2" dep_index="14" gov="low-affinity" gov_index="8">prep_for</dependency>
+      <dependency dep="CCR2" dep_index="14" gov="CCR1" gov_index="12">conj_and</dependency>
+      <dependency dep="CCR5" dep_index="16" gov="low-affinity" gov_index="8">prep_for</dependency>
+      <dependency dep="CCR5" dep_index="16" gov="CCR1" gov_index="12">conj_and</dependency>
+      <dependency dep="is" dep_index="19" gov="expressed" gov_index="21">auxpass</dependency>
+      <dependency dep="constitutively" dep_index="20" gov="expressed" gov_index="21">advmod</dependency>
+      <dependency dep="expressed" dep_index="21" gov="low-affinity" gov_index="8">conj_and</dependency>
+      <dependency dep="liver" dep_index="23" gov="cells" gov_index="25">nn</dependency>
+      <dependency dep="parenchymal" dep_index="24" gov="cells" gov_index="25">nn</dependency>
+      <dependency dep="cells" dep_index="25" gov="expressed" gov_index="21">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400012" relationship="true">4 8 12</relation>
+      <relation position="400014" relationship="true">4 8 14</relation>
+      <relation position="400016" relationship="true">4 8 16</relation>
+      <relation position="1200014" relationship="false">12 8 14</relation>
+      <relation position="1200016" relationship="false">12 8 16</relation>
+      <relation position="1400016" relationship="false">14 8 16</relation>
+   </relations>
+   <pairs>
+      <pair>400014</pair>
+      <pair>400012</pair>
+      <pair>400016</pair>
+   </pairs>
+</root>

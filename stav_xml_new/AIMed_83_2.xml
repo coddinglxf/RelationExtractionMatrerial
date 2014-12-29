@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>By@rational@mutagenesis@,@receptor-specific@functional@analysis@,@and@visualization@of@complex@formation@in@solution@,@we@identified@individual@amino@acid@side@chains@involved@specifically@in@the@interaction@of@ciliary neurotrophic factor@(@CNTF@)@with@CNTFR alpha@and@not@with@the@beta-components@,@gp130@and@LIFR@.@</sentence>
+   <tags>
+      <tag pos="30">ciliary neurotrophic factor</tag>
+      <tag pos="32">CNTF</tag>
+      <tag pos="35">CNTFR alpha</tag>
+      <tag pos="42">gp130</tag>
+      <tag pos="44">LIFR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">By</taggedword>
+      <taggedword index="2" part-of-speech="JJ">rational</taggedword>
+      <taggedword index="3" part-of-speech="NNS">mutagenesis</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="JJ">receptor-specific</taggedword>
+      <taggedword index="6" part-of-speech="JJ">functional</taggedword>
+      <taggedword index="7" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">visualization</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="13" part-of-speech="NN">formation</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">solution</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="PRP">we</taggedword>
+      <taggedword index="18" part-of-speech="VBD">identified</taggedword>
+      <taggedword index="19" part-of-speech="JJ">individual</taggedword>
+      <taggedword index="20" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="21" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="22" part-of-speech="NN">side</taggedword>
+      <taggedword index="23" part-of-speech="NNS">chains</taggedword>
+      <taggedword index="24" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="25" part-of-speech="RB">specifically</taggedword>
+      <taggedword index="26" part-of-speech="IN">in</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="NN">ciliary neurotrophic factor</taggedword>
+      <taggedword index="31" part-of-speech="NN">(</taggedword>
+      <taggedword index="32" part-of-speech="NNP">CNTF</taggedword>
+      <taggedword index="33" part-of-speech="NNP">)</taggedword>
+      <taggedword index="34" part-of-speech="IN">with</taggedword>
+      <taggedword index="35" part-of-speech="NNP">CNTFR alpha</taggedword>
+      <taggedword index="36" part-of-speech="CC">and</taggedword>
+      <taggedword index="37" part-of-speech="RB">not</taggedword>
+      <taggedword index="38" part-of-speech="IN">with</taggedword>
+      <taggedword index="39" part-of-speech="DT">the</taggedword>
+      <taggedword index="40" part-of-speech="NNS">beta-components</taggedword>
+      <taggedword index="41" part-of-speech=",">,</taggedword>
+      <taggedword index="42" part-of-speech="NNS">gp130</taggedword>
+      <taggedword index="43" part-of-speech="CC">and</taggedword>
+      <taggedword index="44" part-of-speech="NN">LIFR</taggedword>
+      <taggedword index="45" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="rational" dep_index="2" gov="mutagenesis" gov_index="3">amod</dependency>
+      <dependency dep="mutagenesis" dep_index="3" gov="identified" gov_index="18">prep_by</dependency>
+      <dependency dep="receptor-specific" dep_index="5" gov="analysis" gov_index="7">amod</dependency>
+      <dependency dep="functional" dep_index="6" gov="analysis" gov_index="7">amod</dependency>
+      <dependency dep="analysis" dep_index="7" gov="mutagenesis" gov_index="3">conj_and</dependency>
+      <dependency dep="analysis" dep_index="7" gov="identified" gov_index="18">prep_by</dependency>
+      <dependency dep="visualization" dep_index="10" gov="mutagenesis" gov_index="3">conj_and</dependency>
+      <dependency dep="visualization" dep_index="10" gov="identified" gov_index="18">prep_by</dependency>
+      <dependency dep="complex" dep_index="12" gov="formation" gov_index="13">amod</dependency>
+      <dependency dep="formation" dep_index="13" gov="visualization" gov_index="10">prep_of</dependency>
+      <dependency dep="solution" dep_index="15" gov="formation" gov_index="13">prep_in</dependency>
+      <dependency dep="we" dep_index="17" gov="identified" gov_index="18">nsubj</dependency>
+      <dependency dep="identified" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="individual" dep_index="19" gov="chains" gov_index="23">amod</dependency>
+      <dependency dep="amino" dep_index="20" gov="chains" gov_index="23">amod</dependency>
+      <dependency dep="acid" dep_index="21" gov="chains" gov_index="23">amod</dependency>
+      <dependency dep="side" dep_index="22" gov="chains" gov_index="23">nn</dependency>
+      <dependency dep="chains" dep_index="23" gov="identified" gov_index="18">dobj</dependency>
+      <dependency dep="involved" dep_index="24" gov="chains" gov_index="23">partmod</dependency>
+      <dependency dep="specifically" dep_index="25" gov="involved" gov_index="24">advmod</dependency>
+      <dependency dep="in" dep_index="26" gov="involved" gov_index="24">KILL</dependency>
+      <dependency dep="the" dep_index="27" gov="interaction" gov_index="28">det</dependency>
+      <dependency dep="interaction" dep_index="28" gov="in" gov_index="26">KILL</dependency>
+      <dependency dep="ciliary neurotrophic factor" dep_index="30" gov=")" gov_index="33">nn</dependency>
+      <dependency dep="(" dep_index="31" gov=")" gov_index="33">nn</dependency>
+      <dependency dep="CNTF" dep_index="32" gov=")" gov_index="33">nn</dependency>
+      <dependency dep=")" dep_index="33" gov="interaction" gov_index="28">prep_of</dependency>
+      <dependency dep="CNTFR alpha" dep_index="35" gov=")" gov_index="33">prep_with</dependency>
+      <dependency dep="not" dep_index="37" gov="involved" gov_index="24">prep</dependency>
+      <dependency dep="not" dep_index="37" gov="involved" gov_index="24">conj_and</dependency>
+      <dependency dep="not" dep_index="37" gov="in" gov_index="26">neg</dependency>
+      <dependency dep="with" dep_index="38" gov="involved" gov_index="24">dep</dependency>
+      <dependency dep="the" dep_index="39" gov="beta-components" gov_index="40">det</dependency>
+      <dependency dep="beta-components" dep_index="40" gov="with" gov_index="38">pobj</dependency>
+      <dependency dep="gp130" dep_index="42" gov="with" gov_index="38">pobj</dependency>
+      <dependency dep="gp130" dep_index="42" gov="beta-components" gov_index="40">conj_and</dependency>
+      <dependency dep="LIFR" dep_index="44" gov="with" gov_index="38">pobj</dependency>
+      <dependency dep="LIFR" dep_index="44" gov="beta-components" gov_index="40">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3000032" relationship="false">30 33 32</relation>
+      <relation position="3000035" relationship="true">30 33 35</relation>
+      <relation position="3000042" relationship="false">30 33 28 26 24 38 42</relation>
+      <relation position="3000044" relationship="false">30 33 28 26 24 38 44</relation>
+      <relation position="3200035" relationship="true">32 33 35</relation>
+      <relation position="3200042" relationship="false">32 33 28 26 24 38 42</relation>
+      <relation position="3200044" relationship="false">32 33 28 26 24 38 44</relation>
+      <relation position="3500042" relationship="false">35 33 28 26 24 38 42</relation>
+      <relation position="3500044" relationship="false">35 33 28 26 24 38 44</relation>
+      <relation position="4200044" relationship="false">42 38 44</relation>
+   </relations>
+   <pairs>
+      <pair>3200035</pair>
+      <pair>3000035</pair>
+   </pairs>
+</root>

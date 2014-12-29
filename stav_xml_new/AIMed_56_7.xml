@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Expressed@in@a@murine@myeloma@,@TRAP@was@identified@as@a@ligand@for@CD40@by@binding@to@a@soluble@CD40@construct@.@</sentence>
+   <tags>
+      <tag pos="7">TRAP</tag>
+      <tag pos="14">CD40</tag>
+      <tag pos="20">CD40</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBN">Expressed</taggedword>
+      <taggedword index="2" part-of-speech="IN">in</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="JJ">murine</taggedword>
+      <taggedword index="5" part-of-speech="NN">myeloma</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNP">TRAP</taggedword>
+      <taggedword index="8" part-of-speech="VBD">was</taggedword>
+      <taggedword index="9" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="10" part-of-speech="IN">as</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="NN">ligand</taggedword>
+      <taggedword index="13" part-of-speech="IN">for</taggedword>
+      <taggedword index="14" part-of-speech="NNP">CD40</taggedword>
+      <taggedword index="15" part-of-speech="IN">by</taggedword>
+      <taggedword index="16" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">soluble</taggedword>
+      <taggedword index="20" part-of-speech="NN">CD40</taggedword>
+      <taggedword index="21" part-of-speech="NNS">construct</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Expressed" dep_index="1" gov="identified" gov_index="9">partmod</dependency>
+      <dependency dep="a" dep_index="3" gov="myeloma" gov_index="5">det</dependency>
+      <dependency dep="murine" dep_index="4" gov="myeloma" gov_index="5">amod</dependency>
+      <dependency dep="myeloma" dep_index="5" gov="Expressed" gov_index="1">prep_in</dependency>
+      <dependency dep="TRAP" dep_index="7" gov="identified" gov_index="9">nsubjpass</dependency>
+      <dependency dep="was" dep_index="8" gov="identified" gov_index="9">auxpass</dependency>
+      <dependency dep="identified" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="11" gov="ligand" gov_index="12">det</dependency>
+      <dependency dep="ligand" dep_index="12" gov="identified" gov_index="9">prep_as</dependency>
+      <dependency dep="CD40" dep_index="14" gov="ligand" gov_index="12">prep_for</dependency>
+      <dependency dep="binding" dep_index="16" gov="construct" gov_index="21">amod</dependency>
+      <dependency dep="a" dep_index="18" gov="CD40" gov_index="20">det</dependency>
+      <dependency dep="soluble" dep_index="19" gov="CD40" gov_index="20">amod</dependency>
+      <dependency dep="CD40" dep_index="20" gov="binding" gov_index="16">prep_to</dependency>
+      <dependency dep="construct" dep_index="21" gov="identified" gov_index="9">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700014" relationship="true">7 9 12 14</relation>
+      <relation position="700020" relationship="true">7 9 21 16 20</relation>
+      <relation position="1400020" relationship="false">14 12 9 21 16 20</relation>
+   </relations>
+   <pairs>
+      <pair>700014</pair>
+      <pair>700020</pair>
+   </pairs>
+</root>

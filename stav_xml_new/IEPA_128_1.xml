@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@neurotoxic@fragment@of@amyloid@,@Abeta@25-35@,@incubated@in@the@presence@of@endogenous@Ca2+@,@increased@significantly@the@PI-PLC@activity@of@normoxic@brain@</sentence>
+   <tags>
+      <tag pos="5">amyloid</tag>
+      <tag pos="21">PI-PLC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">neurotoxic</taggedword>
+      <taggedword index="3" part-of-speech="NN">fragment</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NN">amyloid</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NNP">Abeta</taggedword>
+      <taggedword index="8" part-of-speech="CD">25-35</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="VBN">incubated</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">presence</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">endogenous</taggedword>
+      <taggedword index="16" part-of-speech="NNS">Ca2+</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="19" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">PI-PLC</taggedword>
+      <taggedword index="22" part-of-speech="NN">activity</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="JJ">normoxic</taggedword>
+      <taggedword index="25" part-of-speech="NN">brain</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="fragment" gov_index="3">det</dependency>
+      <dependency dep="neurotoxic" dep_index="2" gov="fragment" gov_index="3">amod</dependency>
+      <dependency dep="fragment" dep_index="3" gov="increased" gov_index="18">nsubj</dependency>
+      <dependency dep="amyloid" dep_index="5" gov="fragment" gov_index="3">prep_of</dependency>
+      <dependency dep="Abeta" dep_index="7" gov="increased" gov_index="18">nsubj</dependency>
+      <dependency dep="25-35" dep_index="8" gov="Abeta" gov_index="7">num</dependency>
+      <dependency dep="incubated" dep_index="10" gov="Abeta" gov_index="7">partmod</dependency>
+      <dependency dep="the" dep_index="12" gov="presence" gov_index="13">det</dependency>
+      <dependency dep="presence" dep_index="13" gov="incubated" gov_index="10">prep_in</dependency>
+      <dependency dep="endogenous" dep_index="15" gov="Ca2+" gov_index="16">amod</dependency>
+      <dependency dep="Ca2+" dep_index="16" gov="presence" gov_index="13">prep_of</dependency>
+      <dependency dep="increased" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="significantly" dep_index="19" gov="increased" gov_index="18">advmod</dependency>
+      <dependency dep="the" dep_index="20" gov="activity" gov_index="22">det</dependency>
+      <dependency dep="PI-PLC" dep_index="21" gov="activity" gov_index="22">amod</dependency>
+      <dependency dep="activity" dep_index="22" gov="increased" gov_index="18">dobj</dependency>
+      <dependency dep="normoxic" dep_index="24" gov="brain" gov_index="25">amod</dependency>
+      <dependency dep="brain" dep_index="25" gov="activity" gov_index="22">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500021" relationship="true">5 3 18 22 21</relation>
+   </relations>
+   <pairs>
+      <pair>500021</pair>
+   </pairs>
+</root>

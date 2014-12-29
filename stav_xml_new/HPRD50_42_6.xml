@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@coexpression@of@SRC-1@but@not@p300@further@stimulated@the@Bcl3-mediated@enhancement@of@the@9-cis-RA-induced@transactivations@of@RXR@</sentence>
+   <tags>
+      <tag pos="6">SRC-1</tag>
+      <tag pos="9">p300</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">coexpression</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">SRC-1</taggedword>
+      <taggedword index="7" part-of-speech="CC">but</taggedword>
+      <taggedword index="8" part-of-speech="RB">not</taggedword>
+      <taggedword index="9" part-of-speech="NNP">p300</taggedword>
+      <taggedword index="10" part-of-speech="RBR">further</taggedword>
+      <taggedword index="11" part-of-speech="VBN">stimulated</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">Bcl3-mediated</taggedword>
+      <taggedword index="14" part-of-speech="NN">enhancement</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">9-cis-RA-induced</taggedword>
+      <taggedword index="18" part-of-speech="NNS">transactivations</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NNP">RXR</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="coexpression" gov_index="4">prep_in</dependency>
+      <dependency dep="coexpression" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="SRC-1" dep_index="6" gov="coexpression" gov_index="4">prep_of</dependency>
+      <dependency dep="p300" dep_index="9" gov="coexpression" gov_index="4">prep_of</dependency>
+      <dependency dep="p300" dep_index="9" gov="SRC-1" gov_index="6">conj_negcc</dependency>
+      <dependency dep="further" dep_index="10" gov="stimulated" gov_index="11">advmod</dependency>
+      <dependency dep="stimulated" dep_index="11" gov="coexpression" gov_index="4">partmod</dependency>
+      <dependency dep="the" dep_index="12" gov="enhancement" gov_index="14">det</dependency>
+      <dependency dep="Bcl3-mediated" dep_index="13" gov="enhancement" gov_index="14">nn</dependency>
+      <dependency dep="enhancement" dep_index="14" gov="stimulated" gov_index="11">dobj</dependency>
+      <dependency dep="the" dep_index="16" gov="transactivations" gov_index="18">det</dependency>
+      <dependency dep="9-cis-RA-induced" dep_index="17" gov="transactivations" gov_index="18">amod</dependency>
+      <dependency dep="transactivations" dep_index="18" gov="enhancement" gov_index="14">prep_of</dependency>
+      <dependency dep="RXR" dep_index="20" gov="transactivations" gov_index="18">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600009" relationship="false">6 4 9</relation>
+   </relations>
+   <pairs/>
+</root>

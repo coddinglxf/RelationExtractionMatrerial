@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Each@of@these@molecules@binds@to@the@type I IL-1 receptor@(@IL1R@).@</sentence>
+   <tags>
+      <tag pos="8">type I IL-1 receptor</tag>
+      <tag pos="10">IL1R</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">Each</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">these</taggedword>
+      <taggedword index="4" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">type I IL-1 receptor</taggedword>
+      <taggedword index="9" part-of-speech="NNP">(</taggedword>
+      <taggedword index="10" part-of-speech="NNP">IL1R</taggedword>
+      <taggedword index="11" part-of-speech="NNP">).</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Each" dep_index="1" gov="binds" gov_index="5">nsubj</dependency>
+      <dependency dep="these" dep_index="3" gov="molecules" gov_index="4">det</dependency>
+      <dependency dep="molecules" dep_index="4" gov="Each" gov_index="1">prep_of</dependency>
+      <dependency dep="binds" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov=")." gov_index="11">det</dependency>
+      <dependency dep="type I IL-1 receptor" dep_index="8" gov=")." gov_index="11">amod</dependency>
+      <dependency dep="(" dep_index="9" gov=")." gov_index="11">nn</dependency>
+      <dependency dep="IL1R" dep_index="10" gov=")." gov_index="11">nn</dependency>
+      <dependency dep=")." dep_index="11" gov="binds" gov_index="5">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 11 10</relation>
+   </relations>
+   <pairs/>
+</root>

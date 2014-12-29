@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>To@our@knowledge@,@AF-6@is@the@only@integral@component@in@cell-cell@junctions@discovered@thus@far@that@interacts@with@profilin@and@thus@could@modulate@actin@modeling@proximal@to@adhesion@complexes@.@</sentence>
+   <tags>
+      <tag pos="5">AF-6</tag>
+      <tag pos="20">profilin</tag>
+      <tag pos="25">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="TO">To</taggedword>
+      <taggedword index="2" part-of-speech="PRP$">our</taggedword>
+      <taggedword index="3" part-of-speech="NN">knowledge</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="NNP">AF-6</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="RB">only</taggedword>
+      <taggedword index="9" part-of-speech="JJ">integral</taggedword>
+      <taggedword index="10" part-of-speech="NN">component</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJ">cell-cell</taggedword>
+      <taggedword index="13" part-of-speech="NNS">junctions</taggedword>
+      <taggedword index="14" part-of-speech="VBN">discovered</taggedword>
+      <taggedword index="15" part-of-speech="RB">thus</taggedword>
+      <taggedword index="16" part-of-speech="RB">far</taggedword>
+      <taggedword index="17" part-of-speech="WDT">that</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="19" part-of-speech="IN">with</taggedword>
+      <taggedword index="20" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="RB">thus</taggedword>
+      <taggedword index="23" part-of-speech="MD">could</taggedword>
+      <taggedword index="24" part-of-speech="VB">modulate</taggedword>
+      <taggedword index="25" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="26" part-of-speech="NN">modeling</taggedword>
+      <taggedword index="27" part-of-speech="NN">proximal</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="NN">adhesion</taggedword>
+      <taggedword index="30" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="our" dep_index="2" gov="knowledge" gov_index="3">poss</dependency>
+      <dependency dep="knowledge" dep_index="3" gov="component" gov_index="10">prep_to</dependency>
+      <dependency dep="AF-6" dep_index="5" gov="component" gov_index="10">nsubj</dependency>
+      <dependency dep="is" dep_index="6" gov="component" gov_index="10">cop</dependency>
+      <dependency dep="the" dep_index="7" gov="component" gov_index="10">det</dependency>
+      <dependency dep="only" dep_index="8" gov="component" gov_index="10">advmod</dependency>
+      <dependency dep="integral" dep_index="9" gov="component" gov_index="10">amod</dependency>
+      <dependency dep="component" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cell-cell" dep_index="12" gov="junctions" gov_index="13">amod</dependency>
+      <dependency dep="junctions" dep_index="13" gov="component" gov_index="10">prep_in</dependency>
+      <dependency dep="discovered" dep_index="14" gov="junctions" gov_index="13">partmod</dependency>
+      <dependency dep="thus" dep_index="15" gov="far" gov_index="16">advmod</dependency>
+      <dependency dep="far" dep_index="16" gov="discovered" gov_index="14">advmod</dependency>
+      <dependency dep="that" dep_index="17" gov="interacts" gov_index="18">nsubj</dependency>
+      <dependency dep="interacts" dep_index="18" gov="far" gov_index="16">dep</dependency>
+      <dependency dep="with" dep_index="19" gov="interacts" gov_index="18">dep</dependency>
+      <dependency dep="profilin" dep_index="20" gov="with" gov_index="19">pobj</dependency>
+      <dependency dep="thus" dep_index="22" gov="interacts" gov_index="18">dep</dependency>
+      <dependency dep="thus" dep_index="22" gov="with" gov_index="19">conj_and</dependency>
+      <dependency dep="could" dep_index="23" gov="modulate" gov_index="24">aux</dependency>
+      <dependency dep="modulate" dep_index="24" gov="with" gov_index="19">dep</dependency>
+      <dependency dep="actin" dep_index="25" gov="proximal" gov_index="27">amod</dependency>
+      <dependency dep="modeling" dep_index="26" gov="proximal" gov_index="27">nn</dependency>
+      <dependency dep="proximal" dep_index="27" gov="modulate" gov_index="24">dobj</dependency>
+      <dependency dep="adhesion" dep_index="29" gov="complexes" gov_index="30">nn</dependency>
+      <dependency dep="complexes" dep_index="30" gov="modulate" gov_index="24">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500020" relationship="true">5 10 13 14 16 18 19 20</relation>
+      <relation position="500025" relationship="true">5 10 13 14 16 18 19 24 27 25</relation>
+      <relation position="2000025" relationship="false">20 19 24 27 25</relation>
+   </relations>
+   <pairs>
+      <pair>500025</pair>
+      <pair>500020</pair>
+   </pairs>
+</root>

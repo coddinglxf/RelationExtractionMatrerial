@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@GAP@domain@shows@high@similarity@to@the@recently@cloned@CdGAP@and@displays@activity@toward@RhoA@,@Rac1@,@and@Cdc42@in@vitro@</sentence>
+   <tags>
+      <tag pos="11">CdGAP</tag>
+      <tag pos="18">Rac1</tag>
+      <tag pos="21">Cdc42</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">GAP</taggedword>
+      <taggedword index="3" part-of-speech="NN">domain</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">shows</taggedword>
+      <taggedword index="5" part-of-speech="JJ">high</taggedword>
+      <taggedword index="6" part-of-speech="NN">similarity</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="RB">recently</taggedword>
+      <taggedword index="10" part-of-speech="JJ">cloned</taggedword>
+      <taggedword index="11" part-of-speech="NNP">CdGAP</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NNS">displays</taggedword>
+      <taggedword index="14" part-of-speech="NN">activity</taggedword>
+      <taggedword index="15" part-of-speech="IN">toward</taggedword>
+      <taggedword index="16" part-of-speech="NNP">RhoA</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NNS">Rac1</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NNS">Cdc42</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="NN">vitro</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="domain" gov_index="3">det</dependency>
+      <dependency dep="GAP" dep_index="2" gov="domain" gov_index="3">nn</dependency>
+      <dependency dep="domain" dep_index="3" gov="shows" gov_index="4">nsubj</dependency>
+      <dependency dep="shows" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="high" dep_index="5" gov="similarity" gov_index="6">amod</dependency>
+      <dependency dep="similarity" dep_index="6" gov="shows" gov_index="4">dobj</dependency>
+      <dependency dep="the" dep_index="8" gov="CdGAP" gov_index="11">det</dependency>
+      <dependency dep="recently" dep_index="9" gov="cloned" gov_index="10">advmod</dependency>
+      <dependency dep="cloned" dep_index="10" gov="CdGAP" gov_index="11">amod</dependency>
+      <dependency dep="CdGAP" dep_index="11" gov="shows" gov_index="4">prep_to</dependency>
+      <dependency dep="displays" dep_index="13" gov="activity" gov_index="14">nn</dependency>
+      <dependency dep="activity" dep_index="14" gov="shows" gov_index="4">prep_to</dependency>
+      <dependency dep="activity" dep_index="14" gov="CdGAP" gov_index="11">conj_and</dependency>
+      <dependency dep="RhoA" dep_index="16" gov="shows" gov_index="4">prep_toward</dependency>
+      <dependency dep="Rac1" dep_index="18" gov="shows" gov_index="4">prep_toward</dependency>
+      <dependency dep="Rac1" dep_index="18" gov="RhoA" gov_index="16">conj_and</dependency>
+      <dependency dep="Cdc42" dep_index="21" gov="shows" gov_index="4">prep_toward</dependency>
+      <dependency dep="Cdc42" dep_index="21" gov="RhoA" gov_index="16">conj_and</dependency>
+      <dependency dep="vitro" dep_index="23" gov="shows" gov_index="4">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100018" relationship="false">11 4 18</relation>
+      <relation position="1100021" relationship="false">11 4 21</relation>
+      <relation position="1800021" relationship="false">18 4 21</relation>
+   </relations>
+   <pairs/>
+</root>

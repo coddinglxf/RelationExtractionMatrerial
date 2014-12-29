@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>14-3-3@proteins@constitute@a@family@of@well-conserved@eukaryotic@proteins@that@were@originally@isolated@in@mammalian@brain@preparations@and@that@possess@diverse@biochemical@activities@related@to@signal@transduction@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">14-3-3</taggedword>
+      <taggedword index="2" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="3" part-of-speech="VBP">constitute</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="NN">family</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="JJ">well-conserved</taggedword>
+      <taggedword index="8" part-of-speech="JJ">eukaryotic</taggedword>
+      <taggedword index="9" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="10" part-of-speech="WDT">that</taggedword>
+      <taggedword index="11" part-of-speech="VBD">were</taggedword>
+      <taggedword index="12" part-of-speech="RB">originally</taggedword>
+      <taggedword index="13" part-of-speech="VBN">isolated</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="JJ">mammalian</taggedword>
+      <taggedword index="16" part-of-speech="NN">brain</taggedword>
+      <taggedword index="17" part-of-speech="NNS">preparations</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="WDT">that</taggedword>
+      <taggedword index="20" part-of-speech="VBP">possess</taggedword>
+      <taggedword index="21" part-of-speech="JJ">diverse</taggedword>
+      <taggedword index="22" part-of-speech="JJ">biochemical</taggedword>
+      <taggedword index="23" part-of-speech="NNS">activities</taggedword>
+      <taggedword index="24" part-of-speech="VBN">related</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="VB">signal</taggedword>
+      <taggedword index="27" part-of-speech="NN">transduction</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="14-3-3" dep_index="1" gov="proteins" gov_index="2">num</dependency>
+      <dependency dep="proteins" dep_index="2" gov="constitute" gov_index="3">nsubj</dependency>
+      <dependency dep="constitute" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="family" gov_index="5">det</dependency>
+      <dependency dep="family" dep_index="5" gov="constitute" gov_index="3">dobj</dependency>
+      <dependency dep="well-conserved" dep_index="7" gov="proteins" gov_index="9">amod</dependency>
+      <dependency dep="eukaryotic" dep_index="8" gov="proteins" gov_index="9">amod</dependency>
+      <dependency dep="proteins" dep_index="9" gov="family" gov_index="5">prep_of</dependency>
+      <dependency dep="that" dep_index="10" gov="isolated" gov_index="13">nsubjpass</dependency>
+      <dependency dep="were" dep_index="11" gov="isolated" gov_index="13">auxpass</dependency>
+      <dependency dep="originally" dep_index="12" gov="isolated" gov_index="13">advmod</dependency>
+      <dependency dep="isolated" dep_index="13" gov="constitute" gov_index="3">dep</dependency>
+      <dependency dep="mammalian" dep_index="15" gov="preparations" gov_index="17">amod</dependency>
+      <dependency dep="brain" dep_index="16" gov="preparations" gov_index="17">nn</dependency>
+      <dependency dep="preparations" dep_index="17" gov="isolated" gov_index="13">prep_in</dependency>
+      <dependency dep="that" dep_index="19" gov="possess" gov_index="20">nsubj</dependency>
+      <dependency dep="possess" dep_index="20" gov="constitute" gov_index="3">dep</dependency>
+      <dependency dep="possess" dep_index="20" gov="isolated" gov_index="13">conj_and</dependency>
+      <dependency dep="diverse" dep_index="21" gov="activities" gov_index="23">amod</dependency>
+      <dependency dep="biochemical" dep_index="22" gov="activities" gov_index="23">amod</dependency>
+      <dependency dep="activities" dep_index="23" gov="possess" gov_index="20">dobj</dependency>
+      <dependency dep="related" dep_index="24" gov="activities" gov_index="23">partmod</dependency>
+      <dependency dep="to" dep_index="25" gov="signal" gov_index="26">aux</dependency>
+      <dependency dep="signal" dep_index="26" gov="related" gov_index="24">xcomp</dependency>
+      <dependency dep="transduction" dep_index="27" gov="signal" gov_index="26">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

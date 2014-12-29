@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@addition@of@leptin@to@hypothalamic@preparations@from@intact@mice@also@did@not@alter@NPY@or@CRH@secretion@</sentence>
+   <tags>
+      <tag pos="4">leptin</tag>
+      <tag pos="15">NPY</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">leptin</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="JJ">hypothalamic</taggedword>
+      <taggedword index="7" part-of-speech="NNS">preparations</taggedword>
+      <taggedword index="8" part-of-speech="IN">from</taggedword>
+      <taggedword index="9" part-of-speech="JJ">intact</taggedword>
+      <taggedword index="10" part-of-speech="NNS">mice</taggedword>
+      <taggedword index="11" part-of-speech="RB">also</taggedword>
+      <taggedword index="12" part-of-speech="VBD">did</taggedword>
+      <taggedword index="13" part-of-speech="RB">not</taggedword>
+      <taggedword index="14" part-of-speech="VB">alter</taggedword>
+      <taggedword index="15" part-of-speech="NNP">NPY</taggedword>
+      <taggedword index="16" part-of-speech="CC">or</taggedword>
+      <taggedword index="17" part-of-speech="NNP">CRH</taggedword>
+      <taggedword index="18" part-of-speech="NNS">secretion</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="addition" gov_index="2">det</dependency>
+      <dependency dep="addition" dep_index="2" gov="alter" gov_index="14">nsubj</dependency>
+      <dependency dep="leptin" dep_index="4" gov="addition" gov_index="2">prep_of</dependency>
+      <dependency dep="hypothalamic" dep_index="6" gov="preparations" gov_index="7">amod</dependency>
+      <dependency dep="preparations" dep_index="7" gov="leptin" gov_index="4">prep_to</dependency>
+      <dependency dep="intact" dep_index="9" gov="mice" gov_index="10">amod</dependency>
+      <dependency dep="mice" dep_index="10" gov="preparations" gov_index="7">prep_from</dependency>
+      <dependency dep="also" dep_index="11" gov="leptin" gov_index="4">advmod</dependency>
+      <dependency dep="did" dep_index="12" gov="alter" gov_index="14">aux</dependency>
+      <dependency dep="not" dep_index="13" gov="alter" gov_index="14">neg</dependency>
+      <dependency dep="alter" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="NPY" dep_index="15" gov="secretion" gov_index="18">nn</dependency>
+      <dependency dep="CRH" dep_index="17" gov="NPY" gov_index="15">conj_or</dependency>
+      <dependency dep="CRH" dep_index="17" gov="secretion" gov_index="18">nn</dependency>
+      <dependency dep="secretion" dep_index="18" gov="alter" gov_index="14">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400015" relationship="false">4 2 14 18 15</relation>
+   </relations>
+   <pairs/>
+</root>

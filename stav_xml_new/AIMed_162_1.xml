@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Modulation@of@the@transcriptional@activity@of@thyroid@hormone@receptors@by@the@tumor@suppressor@p53@.@</sentence>
+   <tags>
+      <tag pos="14">p53</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Modulation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="5" part-of-speech="NN">activity</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">thyroid</taggedword>
+      <taggedword index="8" part-of-speech="NN">hormone</taggedword>
+      <taggedword index="9" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">tumor</taggedword>
+      <taggedword index="13" part-of-speech="NN">suppressor</taggedword>
+      <taggedword index="14" part-of-speech="NN">p53</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Modulation" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="activity" gov_index="5">det</dependency>
+      <dependency dep="transcriptional" dep_index="4" gov="activity" gov_index="5">amod</dependency>
+      <dependency dep="activity" dep_index="5" gov="Modulation" gov_index="1">prep_of</dependency>
+      <dependency dep="thyroid" dep_index="7" gov="receptors" gov_index="9">nn</dependency>
+      <dependency dep="hormone" dep_index="8" gov="receptors" gov_index="9">nn</dependency>
+      <dependency dep="receptors" dep_index="9" gov="activity" gov_index="5">prep_of</dependency>
+      <dependency dep="the" dep_index="11" gov="p53" gov_index="14">det</dependency>
+      <dependency dep="tumor" dep_index="12" gov="p53" gov_index="14">nn</dependency>
+      <dependency dep="suppressor" dep_index="13" gov="p53" gov_index="14">nn</dependency>
+      <dependency dep="p53" dep_index="14" gov="Modulation" gov_index="1">prep_by</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

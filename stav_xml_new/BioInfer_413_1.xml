@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>MATERIALS@AND@METHODS@:@A@mutation@in@the@myosin heavy chain@(@Myh@)@predicted@to@interfere@strongly@with@myosin@'s@binding@to@actin@was@designed@and@used@to@create@an@animal@model@for@HCM@.@</sentence>
+   <tags>
+      <tag pos="18">myosin</tag>
+      <tag pos="22">actin</tag>
+      <tag pos="9">myosin heavy chain</tag>
+      <tag pos="11">Myh</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">MATERIALS</taggedword>
+      <taggedword index="2" part-of-speech="CC">AND</taggedword>
+      <taggedword index="3" part-of-speech="NNP">METHODS</taggedword>
+      <taggedword index="4" part-of-speech=":">:</taggedword>
+      <taggedword index="5" part-of-speech="DT">A</taggedword>
+      <taggedword index="6" part-of-speech="NN">mutation</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="NNP">Myh</taggedword>
+      <taggedword index="12" part-of-speech="NNP">)</taggedword>
+      <taggedword index="13" part-of-speech="VBN">predicted</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">interfere</taggedword>
+      <taggedword index="16" part-of-speech="RB">strongly</taggedword>
+      <taggedword index="17" part-of-speech="IN">with</taggedword>
+      <taggedword index="18" part-of-speech="NN">myosin</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">'s</taggedword>
+      <taggedword index="20" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="21" part-of-speech="TO">to</taggedword>
+      <taggedword index="22" part-of-speech="VB">actin</taggedword>
+      <taggedword index="23" part-of-speech="VBD">was</taggedword>
+      <taggedword index="24" part-of-speech="VBN">designed</taggedword>
+      <taggedword index="25" part-of-speech="CC">and</taggedword>
+      <taggedword index="26" part-of-speech="VBN">used</taggedword>
+      <taggedword index="27" part-of-speech="TO">to</taggedword>
+      <taggedword index="28" part-of-speech="VB">create</taggedword>
+      <taggedword index="29" part-of-speech="DT">an</taggedword>
+      <taggedword index="30" part-of-speech="NN">animal</taggedword>
+      <taggedword index="31" part-of-speech="NN">model</taggedword>
+      <taggedword index="32" part-of-speech="IN">for</taggedword>
+      <taggedword index="33" part-of-speech="NNP">HCM</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="MATERIALS" dep_index="1" gov="designed" gov_index="24">nsubjpass</dependency>
+      <dependency dep="MATERIALS" dep_index="1" gov="used" gov_index="26">nsubjpass</dependency>
+      <dependency dep="MATERIALS" dep_index="1" gov="create" gov_index="28">xsubj</dependency>
+      <dependency dep="METHODS" dep_index="3" gov="MATERIALS" gov_index="1">conj_and</dependency>
+      <dependency dep="METHODS" dep_index="3" gov="designed" gov_index="24">nsubjpass</dependency>
+      <dependency dep="METHODS" dep_index="3" gov="create" gov_index="28">xsubj</dependency>
+      <dependency dep="A" dep_index="5" gov="mutation" gov_index="6">det</dependency>
+      <dependency dep="mutation" dep_index="6" gov="MATERIALS" gov_index="1">dep</dependency>
+      <dependency dep="the" dep_index="8" gov="myosin heavy chain" gov_index="9">det</dependency>
+      <dependency dep="myosin heavy chain" dep_index="9" gov="mutation" gov_index="6">prep_in</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="12">nn</dependency>
+      <dependency dep="Myh" dep_index="11" gov=")" gov_index="12">nn</dependency>
+      <dependency dep=")" dep_index="12" gov="binding" gov_index="20">nsubj</dependency>
+      <dependency dep=")" dep_index="12" gov="actin" gov_index="22">xsubj</dependency>
+      <dependency dep="predicted" dep_index="13" gov=")" gov_index="12">partmod</dependency>
+      <dependency dep="to" dep_index="14" gov="interfere" gov_index="15">aux</dependency>
+      <dependency dep="interfere" dep_index="15" gov="predicted" gov_index="13">xcomp</dependency>
+      <dependency dep="strongly" dep_index="16" gov="interfere" gov_index="15">advmod</dependency>
+      <dependency dep="myosin" dep_index="18" gov="interfere" gov_index="15">prep_with</dependency>
+      <dependency dep="'s" dep_index="19" gov="binding" gov_index="20">cop</dependency>
+      <dependency dep="binding" dep_index="20" gov="myosin heavy chain" gov_index="9">rcmod</dependency>
+      <dependency dep="to" dep_index="21" gov="actin" gov_index="22">aux</dependency>
+      <dependency dep="actin" dep_index="22" gov="binding" gov_index="20">xcomp</dependency>
+      <dependency dep="was" dep_index="23" gov="designed" gov_index="24">auxpass</dependency>
+      <dependency dep="designed" dep_index="24" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="used" dep_index="26" gov="designed" gov_index="24">conj_and</dependency>
+      <dependency dep="to" dep_index="27" gov="create" gov_index="28">aux</dependency>
+      <dependency dep="create" dep_index="28" gov="designed" gov_index="24">xcomp</dependency>
+      <dependency dep="an" dep_index="29" gov="model" gov_index="31">det</dependency>
+      <dependency dep="animal" dep_index="30" gov="model" gov_index="31">nn</dependency>
+      <dependency dep="model" dep_index="31" gov="create" gov_index="28">dobj</dependency>
+      <dependency dep="HCM" dep_index="33" gov="create" gov_index="28">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800022" relationship="true">18 15 13 12 20 22</relation>
+      <relation position="900018" relationship="true"></relation>
+      <relation position="1100018" relationship="true">11 12 13 15 18</relation>
+      <relation position="900022" relationship="true"></relation>
+      <relation position="1100022" relationship="true">11 12 20 22</relation>
+      <relation position="900011" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>1100018</pair>
+      <pair>1800022</pair>
+      <pair>1100022</pair>
+      <pair>900018</pair>
+      <pair>900022</pair>
+   </pairs>
+</root>

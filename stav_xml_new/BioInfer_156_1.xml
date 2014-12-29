@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Coprecipitations@revealed@that@transfected@cadherin@molecules@are@complexed@with@alpha-catenin@and@beta-catenin@at@plasma@membranes@.@</sentence>
+   <tags>
+      <tag pos="12">beta-catenin</tag>
+      <tag pos="10">alpha-catenin</tag>
+      <tag pos="5">cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">Coprecipitations</taggedword>
+      <taggedword index="2" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="JJ">transfected</taggedword>
+      <taggedword index="5" part-of-speech="NN">cadherin</taggedword>
+      <taggedword index="6" part-of-speech="NNS">molecules</taggedword>
+      <taggedword index="7" part-of-speech="VBP">are</taggedword>
+      <taggedword index="8" part-of-speech="VBN">complexed</taggedword>
+      <taggedword index="9" part-of-speech="IN">with</taggedword>
+      <taggedword index="10" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="13" part-of-speech="IN">at</taggedword>
+      <taggedword index="14" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="15" part-of-speech="NNS">membranes</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Coprecipitations" dep_index="1" gov="revealed" gov_index="2">nsubj</dependency>
+      <dependency dep="revealed" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="complexed" gov_index="8">mark</dependency>
+      <dependency dep="transfected" dep_index="4" gov="molecules" gov_index="6">amod</dependency>
+      <dependency dep="cadherin" dep_index="5" gov="molecules" gov_index="6">nn</dependency>
+      <dependency dep="molecules" dep_index="6" gov="complexed" gov_index="8">nsubjpass</dependency>
+      <dependency dep="are" dep_index="7" gov="complexed" gov_index="8">auxpass</dependency>
+      <dependency dep="complexed" dep_index="8" gov="revealed" gov_index="2">ccomp</dependency>
+      <dependency dep="alpha-catenin" dep_index="10" gov="complexed" gov_index="8">prep_with</dependency>
+      <dependency dep="beta-catenin" dep_index="12" gov="complexed" gov_index="8">prep_with</dependency>
+      <dependency dep="beta-catenin" dep_index="12" gov="alpha-catenin" gov_index="10">conj_and</dependency>
+      <dependency dep="plasma" dep_index="14" gov="membranes" gov_index="15">nn</dependency>
+      <dependency dep="membranes" dep_index="15" gov="complexed" gov_index="8">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000012" relationship="true">10 8 12</relation>
+      <relation position="500012" relationship="true">5 6 8 12</relation>
+      <relation position="500010" relationship="true">5 6 8 10</relation>
+   </relations>
+   <pairs>
+      <pair>500012</pair>
+      <pair>1000012</pair>
+      <pair>500010</pair>
+   </pairs>
+</root>

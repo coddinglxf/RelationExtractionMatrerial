@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@binding@of@LEC@to@CCR8@was@much@less@significant@.@</sentence>
+   <tags>
+      <tag pos="4">LEC</tag>
+      <tag pos="6">CCR8</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="5" part-of-speech="TO">to</taggedword>
+      <taggedword index="6" part-of-speech="NNP">CCR8</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="RB">much</taggedword>
+      <taggedword index="9" part-of-speech="RBR">less</taggedword>
+      <taggedword index="10" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="significant" gov_index="10">nsubj</dependency>
+      <dependency dep="binding" dep_index="2" gov="The" gov_index="1">amod</dependency>
+      <dependency dep="LEC" dep_index="4" gov="The" gov_index="1">prep_of</dependency>
+      <dependency dep="CCR8" dep_index="6" gov="LEC" gov_index="4">prep_to</dependency>
+      <dependency dep="was" dep_index="7" gov="significant" gov_index="10">cop</dependency>
+      <dependency dep="much" dep_index="8" gov="significant" gov_index="10">advmod</dependency>
+      <dependency dep="less" dep_index="9" gov="significant" gov_index="10">advmod</dependency>
+      <dependency dep="significant" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

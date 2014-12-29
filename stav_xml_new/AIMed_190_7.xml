@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>By@contrast@stimulation@with@TPO@leads@to@the@formation@of@a@Grb2@complex@containing@JAK2@.@</sentence>
+   <tags>
+      <tag pos="5">TPO</tag>
+      <tag pos="12">Grb2</tag>
+      <tag pos="15">JAK2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">By</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="NNP">TPO</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">leads</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">formation</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="JJ">Grb2</taggedword>
+      <taggedword index="13" part-of-speech="NN">complex</taggedword>
+      <taggedword index="14" part-of-speech="VBG">containing</taggedword>
+      <taggedword index="15" part-of-speech="NNP">JAK2</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="leads" gov_index="6">prep_by</dependency>
+      <dependency dep="stimulation" dep_index="3" gov="leads" gov_index="6">nsubj</dependency>
+      <dependency dep="TPO" dep_index="5" gov="stimulation" gov_index="3">prep_with</dependency>
+      <dependency dep="leads" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="formation" gov_index="9">det</dependency>
+      <dependency dep="formation" dep_index="9" gov="leads" gov_index="6">prep_to</dependency>
+      <dependency dep="a" dep_index="11" gov="complex" gov_index="13">det</dependency>
+      <dependency dep="Grb2" dep_index="12" gov="complex" gov_index="13">amod</dependency>
+      <dependency dep="complex" dep_index="13" gov="formation" gov_index="9">prep_of</dependency>
+      <dependency dep="containing" dep_index="14" gov="complex" gov_index="13">partmod</dependency>
+      <dependency dep="JAK2" dep_index="15" gov="containing" gov_index="14">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500012" relationship="false">5 3 6 9 13 12</relation>
+      <relation position="500015" relationship="false">5 3 6 9 13 14 15</relation>
+      <relation position="1200015" relationship="true">12 13 14 15</relation>
+   </relations>
+   <pairs>
+      <pair>1200015</pair>
+   </pairs>
+</root>

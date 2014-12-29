@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@rates@of@extensive@ST-3@expression@and@decreased@E-cadherin@expression@were@significantly@higher@in@the@de@novo@group@(P=0.014@and@0.005@,@respectively)@.@</sentence>
+   <tags>
+      <tag pos="5">ST-3</tag>
+      <tag pos="9">E-cadherin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">rates</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">extensive</taggedword>
+      <taggedword index="5" part-of-speech="NN">ST-3</taggedword>
+      <taggedword index="6" part-of-speech="NN">expression</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="VBN">decreased</taggedword>
+      <taggedword index="9" part-of-speech="JJ">E-cadherin</taggedword>
+      <taggedword index="10" part-of-speech="NN">expression</taggedword>
+      <taggedword index="11" part-of-speech="VBD">were</taggedword>
+      <taggedword index="12" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="13" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="FW">de</taggedword>
+      <taggedword index="17" part-of-speech="NN">novo</taggedword>
+      <taggedword index="18" part-of-speech="NN">group</taggedword>
+      <taggedword index="19" part-of-speech="CD">(P=0.014</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="CD">0.005</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="RB">respectively)</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="rates" gov_index="2">det</dependency>
+      <dependency dep="rates" dep_index="2" gov="higher" gov_index="13">nsubj</dependency>
+      <dependency dep="extensive" dep_index="4" gov="expression" gov_index="6">amod</dependency>
+      <dependency dep="ST-3" dep_index="5" gov="expression" gov_index="6">nn</dependency>
+      <dependency dep="expression" dep_index="6" gov="rates" gov_index="2">prep_of</dependency>
+      <dependency dep="decreased" dep_index="8" gov="expression" gov_index="10">amod</dependency>
+      <dependency dep="E-cadherin" dep_index="9" gov="expression" gov_index="10">amod</dependency>
+      <dependency dep="expression" dep_index="10" gov="rates" gov_index="2">prep_of</dependency>
+      <dependency dep="expression" dep_index="10" gov="expression" gov_index="6">conj_and</dependency>
+      <dependency dep="were" dep_index="11" gov="higher" gov_index="13">cop</dependency>
+      <dependency dep="significantly" dep_index="12" gov="higher" gov_index="13">advmod</dependency>
+      <dependency dep="higher" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="15" gov="group" gov_index="18">det</dependency>
+      <dependency dep="de" dep_index="16" gov="group" gov_index="18">nn</dependency>
+      <dependency dep="novo" dep_index="17" gov="group" gov_index="18">nn</dependency>
+      <dependency dep="group" dep_index="18" gov="higher" gov_index="13">prep_in</dependency>
+      <dependency dep="(P=0.014" dep_index="19" gov="group" gov_index="18">dep</dependency>
+      <dependency dep="0.005" dep_index="21" gov="group" gov_index="18">dep</dependency>
+      <dependency dep="0.005" dep_index="21" gov="(P=0.014" gov_index="19">conj_and</dependency>
+      <dependency dep="respectively)" dep_index="23" gov="higher" gov_index="13">advmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500009" relationship="false">5 6 2 10 9</relation>
+   </relations>
+   <pairs/>
+</root>

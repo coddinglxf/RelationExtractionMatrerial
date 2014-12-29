@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@have@localized@the@region@of@interaction@to@tyrosine@580@in@the@carboxyl@end@of@SHPTP2@and@to@the@SH2@domain@in@the@carboxy-terminus@of@Grb7@.@</sentence>
+   <tags>
+      <tag pos="16">SHPTP2</tag>
+      <tag pos="26">Grb7</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">have</taggedword>
+      <taggedword index="3" part-of-speech="VBN">localized</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">region</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="10" part-of-speech="NNS">580</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="JJ">carboxyl</taggedword>
+      <taggedword index="14" part-of-speech="NN">end</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="NNP">SHPTP2</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="TO">to</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">SH2</taggedword>
+      <taggedword index="21" part-of-speech="NN">domain</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NNS">carboxy-terminus</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="NNS">Grb7</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="localized" gov_index="3">nsubj</dependency>
+      <dependency dep="have" dep_index="2" gov="localized" gov_index="3">aux</dependency>
+      <dependency dep="localized" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="region" gov_index="5">det</dependency>
+      <dependency dep="region" dep_index="5" gov="localized" gov_index="3">dobj</dependency>
+      <dependency dep="interaction" dep_index="7" gov="region" gov_index="5">prep_of</dependency>
+      <dependency dep="tyrosine" dep_index="9" gov="580" gov_index="10">amod</dependency>
+      <dependency dep="580" dep_index="10" gov="localized" gov_index="3">prep_to</dependency>
+      <dependency dep="the" dep_index="12" gov="end" gov_index="14">det</dependency>
+      <dependency dep="carboxyl" dep_index="13" gov="end" gov_index="14">amod</dependency>
+      <dependency dep="end" dep_index="14" gov="580" gov_index="10">prep_in</dependency>
+      <dependency dep="SHPTP2" dep_index="16" gov="end" gov_index="14">prep_of</dependency>
+      <dependency dep="the" dep_index="19" gov="domain" gov_index="21">det</dependency>
+      <dependency dep="SH2" dep_index="20" gov="domain" gov_index="21">amod</dependency>
+      <dependency dep="domain" dep_index="21" gov="localized" gov_index="3">prep_to</dependency>
+      <dependency dep="domain" dep_index="21" gov="580" gov_index="10">conj_and</dependency>
+      <dependency dep="the" dep_index="23" gov="carboxy-terminus" gov_index="24">det</dependency>
+      <dependency dep="carboxy-terminus" dep_index="24" gov="domain" gov_index="21">prep_in</dependency>
+      <dependency dep="Grb7" dep_index="26" gov="carboxy-terminus" gov_index="24">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600026" relationship="false">16 14 10 3 21 24 26</relation>
+   </relations>
+   <pairs/>
+</root>

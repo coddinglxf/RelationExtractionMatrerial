@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Lack@of@detection@in@these@preparations@of@a@constituent@that@binds@RBC@alpha-spectrin@antibody@plus@the@presence@of@significant@quantities@of@actin@,@further@suggests@that@the@principal@membrane@skeletal@element@is@actin@with@perhaps@smaller@quantities@of@a@240-kd@component@,@identified@by@others@as@the@protein@talin@.@</sentence>
+   <tags>
+      <tag pos="49">talin</tag>
+      <tag pos="22">actin</tag>
+      <tag pos="33">actin</tag>
+      <tag pos="13">alpha-spectrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Lack</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="NN">detection</taggedword>
+      <taggedword index="4" part-of-speech="IN">in</taggedword>
+      <taggedword index="5" part-of-speech="DT">these</taggedword>
+      <taggedword index="6" part-of-speech="NNS">preparations</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="NN">constituent</taggedword>
+      <taggedword index="10" part-of-speech="WDT">that</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="12" part-of-speech="NNP">RBC</taggedword>
+      <taggedword index="13" part-of-speech="JJ">alpha-spectrin</taggedword>
+      <taggedword index="14" part-of-speech="NN">antibody</taggedword>
+      <taggedword index="15" part-of-speech="CC">plus</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">presence</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">significant</taggedword>
+      <taggedword index="20" part-of-speech="NNS">quantities</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NN">actin</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="RBR">further</taggedword>
+      <taggedword index="25" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="26" part-of-speech="IN">that</taggedword>
+      <taggedword index="27" part-of-speech="DT">the</taggedword>
+      <taggedword index="28" part-of-speech="JJ">principal</taggedword>
+      <taggedword index="29" part-of-speech="JJ">membrane</taggedword>
+      <taggedword index="30" part-of-speech="NN">skeletal</taggedword>
+      <taggedword index="31" part-of-speech="NN">element</taggedword>
+      <taggedword index="32" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="33" part-of-speech="VBN">actin</taggedword>
+      <taggedword index="34" part-of-speech="IN">with</taggedword>
+      <taggedword index="35" part-of-speech="RB">perhaps</taggedword>
+      <taggedword index="36" part-of-speech="JJR">smaller</taggedword>
+      <taggedword index="37" part-of-speech="NNS">quantities</taggedword>
+      <taggedword index="38" part-of-speech="IN">of</taggedword>
+      <taggedword index="39" part-of-speech="DT">a</taggedword>
+      <taggedword index="40" part-of-speech="JJ">240-kd</taggedword>
+      <taggedword index="41" part-of-speech="NN">component</taggedword>
+      <taggedword index="42" part-of-speech=",">,</taggedword>
+      <taggedword index="43" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="44" part-of-speech="IN">by</taggedword>
+      <taggedword index="45" part-of-speech="NNS">others</taggedword>
+      <taggedword index="46" part-of-speech="IN">as</taggedword>
+      <taggedword index="47" part-of-speech="DT">the</taggedword>
+      <taggedword index="48" part-of-speech="NN">protein</taggedword>
+      <taggedword index="49" part-of-speech="NN">talin</taggedword>
+      <taggedword index="50" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Lack" dep_index="1" gov="suggests" gov_index="25">nsubj</dependency>
+      <dependency dep="detection" dep_index="3" gov="Lack" gov_index="1">prep_of</dependency>
+      <dependency dep="these" dep_index="5" gov="preparations" gov_index="6">det</dependency>
+      <dependency dep="preparations" dep_index="6" gov="detection" gov_index="3">prep_in</dependency>
+      <dependency dep="a" dep_index="8" gov="constituent" gov_index="9">det</dependency>
+      <dependency dep="constituent" dep_index="9" gov="preparations" gov_index="6">prep_of</dependency>
+      <dependency dep="constituent" dep_index="9" gov="binds" gov_index="11">nsubj</dependency>
+      <dependency dep="binds" dep_index="11" gov="constituent" gov_index="9">rcmod</dependency>
+      <dependency dep="RBC" dep_index="12" gov="antibody" gov_index="14">nn</dependency>
+      <dependency dep="alpha-spectrin" dep_index="13" gov="antibody" gov_index="14">amod</dependency>
+      <dependency dep="antibody" dep_index="14" gov="binds" gov_index="11">dobj</dependency>
+      <dependency dep="plus" dep_index="15" gov="antibody" gov_index="14">prep</dependency>
+      <dependency dep="the" dep_index="16" gov="presence" gov_index="17">det</dependency>
+      <dependency dep="presence" dep_index="17" gov="plus" gov_index="15">dep</dependency>
+      <dependency dep="significant" dep_index="19" gov="quantities" gov_index="20">amod</dependency>
+      <dependency dep="quantities" dep_index="20" gov="presence" gov_index="17">prep_of</dependency>
+      <dependency dep="actin" dep_index="22" gov="quantities" gov_index="20">prep_of</dependency>
+      <dependency dep="further" dep_index="24" gov="binds" gov_index="11">advmod</dependency>
+      <dependency dep="suggests" dep_index="25" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="26" gov="actin" gov_index="33">mark</dependency>
+      <dependency dep="the" dep_index="27" gov="element" gov_index="31">det</dependency>
+      <dependency dep="principal" dep_index="28" gov="element" gov_index="31">amod</dependency>
+      <dependency dep="membrane" dep_index="29" gov="element" gov_index="31">amod</dependency>
+      <dependency dep="skeletal" dep_index="30" gov="element" gov_index="31">nn</dependency>
+      <dependency dep="element" dep_index="31" gov="actin" gov_index="33">nsubjpass</dependency>
+      <dependency dep="is" dep_index="32" gov="actin" gov_index="33">auxpass</dependency>
+      <dependency dep="actin" dep_index="33" gov="suggests" gov_index="25">ccomp</dependency>
+      <dependency dep="perhaps" dep_index="35" gov="quantities" gov_index="37">advmod</dependency>
+      <dependency dep="smaller" dep_index="36" gov="quantities" gov_index="37">amod</dependency>
+      <dependency dep="quantities" dep_index="37" gov="actin" gov_index="33">prep_with</dependency>
+      <dependency dep="a" dep_index="39" gov="component" gov_index="41">det</dependency>
+      <dependency dep="240-kd" dep_index="40" gov="component" gov_index="41">amod</dependency>
+      <dependency dep="component" dep_index="41" gov="quantities" gov_index="37">prep_of</dependency>
+      <dependency dep="identified" dep_index="43" gov="component" gov_index="41">partmod</dependency>
+      <dependency dep="others" dep_index="45" gov="identified" gov_index="43">agent</dependency>
+      <dependency dep="the" dep_index="47" gov="talin" gov_index="49">det</dependency>
+      <dependency dep="protein" dep_index="48" gov="talin" gov_index="49">nn</dependency>
+      <dependency dep="talin" dep_index="49" gov="others" gov_index="45">prep_as</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2200049" relationship="false">22 20 17 15 14 11 9 6 3 1 25 33 37 41 43 45 49</relation>
+      <relation position="3300049" relationship="false"></relation>
+      <relation position="1300049" relationship="false">13 14 11 9 6 3 1 25 33 37 41 43 45 49</relation>
+      <relation position="2200033" relationship="false">22 20 17 15 14 11 9 6 3 1 25 33</relation>
+      <relation position="1300022" relationship="false">13 14 15 17 20 22</relation>
+      <relation position="1300033" relationship="false">13 14 11 9 6 3 1 25 33</relation>
+   </relations>
+   <pairs/>
+</root>

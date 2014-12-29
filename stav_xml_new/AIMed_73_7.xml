@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Unlabeled@TNF-alpha@and@TNF-beta@were@equally@effective@at@displacing@the@binding@of@labeled@TNF-alpha@to@TNF-R@expressing@cells@.@</sentence>
+   <tags>
+      <tag pos="2">TNF-alpha</tag>
+      <tag pos="4">TNF-beta</tag>
+      <tag pos="14">TNF-alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Unlabeled</taggedword>
+      <taggedword index="2" part-of-speech="NNP">TNF-alpha</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NNP">TNF-beta</taggedword>
+      <taggedword index="5" part-of-speech="VBD">were</taggedword>
+      <taggedword index="6" part-of-speech="RB">equally</taggedword>
+      <taggedword index="7" part-of-speech="JJ">effective</taggedword>
+      <taggedword index="8" part-of-speech="IN">at</taggedword>
+      <taggedword index="9" part-of-speech="VBG">displacing</taggedword>
+      <taggedword index="10" part-of-speech="DT">the</taggedword>
+      <taggedword index="11" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NNP">labeled</taggedword>
+      <taggedword index="14" part-of-speech="NNP">TNF-alpha</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="VB">TNF-R</taggedword>
+      <taggedword index="17" part-of-speech="VBG">expressing</taggedword>
+      <taggedword index="18" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Unlabeled" dep_index="1" gov="TNF-alpha" gov_index="2">nn</dependency>
+      <dependency dep="TNF-alpha" dep_index="2" gov="effective" gov_index="7">nsubj</dependency>
+      <dependency dep="TNF-beta" dep_index="4" gov="TNF-alpha" gov_index="2">conj_and</dependency>
+      <dependency dep="TNF-beta" dep_index="4" gov="effective" gov_index="7">nsubj</dependency>
+      <dependency dep="were" dep_index="5" gov="effective" gov_index="7">cop</dependency>
+      <dependency dep="equally" dep_index="6" gov="effective" gov_index="7">advmod</dependency>
+      <dependency dep="effective" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="displacing" dep_index="9" gov="effective" gov_index="7">prepc_at</dependency>
+      <dependency dep="the" dep_index="10" gov="displacing" gov_index="9">dobj</dependency>
+      <dependency dep="binding" dep_index="11" gov="the" gov_index="10">amod</dependency>
+      <dependency dep="labeled" dep_index="13" gov="TNF-alpha" gov_index="14">nn</dependency>
+      <dependency dep="TNF-alpha" dep_index="14" gov="the" gov_index="10">prep_of</dependency>
+      <dependency dep="to" dep_index="15" gov="TNF-R" gov_index="16">aux</dependency>
+      <dependency dep="TNF-R" dep_index="16" gov="the" gov_index="10">infmod</dependency>
+      <dependency dep="expressing" dep_index="17" gov="TNF-R" gov_index="16">xcomp</dependency>
+      <dependency dep="cells" dep_index="18" gov="expressing" gov_index="17">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 7 4</relation>
+      <relation position="200014" relationship="false">2 7 9 10 14</relation>
+      <relation position="400014" relationship="false">4 7 9 10 14</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>MDP2@is@the@previously@identified@VRP1@,@which@encodes@verprolin@,@required@for@proper@organization@of@the@actin@cytoskeleton@.@</sentence>
+   <tags>
+      <tag pos="18">actin</tag>
+      <tag pos="6">VRP1</tag>
+      <tag pos="1">MDP2</tag>
+      <tag pos="10">verprolin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">MDP2</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="RB">previously</taggedword>
+      <taggedword index="5" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="6" part-of-speech="NN">VRP1</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="WDT">which</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">encodes</taggedword>
+      <taggedword index="10" part-of-speech="NN">verprolin</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="VBN">required</taggedword>
+      <taggedword index="13" part-of-speech="IN">for</taggedword>
+      <taggedword index="14" part-of-speech="JJ">proper</taggedword>
+      <taggedword index="15" part-of-speech="NN">organization</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">actin</taggedword>
+      <taggedword index="19" part-of-speech="NN">cytoskeleton</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="MDP2" dep_index="1" gov="VRP1" gov_index="6">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="VRP1" gov_index="6">cop</dependency>
+      <dependency dep="the" dep_index="3" gov="VRP1" gov_index="6">det</dependency>
+      <dependency dep="previously" dep_index="4" gov="identified" gov_index="5">advmod</dependency>
+      <dependency dep="identified" dep_index="5" gov="VRP1" gov_index="6">amod</dependency>
+      <dependency dep="VRP1" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="VRP1" dep_index="6" gov="encodes" gov_index="9">nsubj</dependency>
+      <dependency dep="encodes" dep_index="9" gov="VRP1" gov_index="6">rcmod</dependency>
+      <dependency dep="verprolin" dep_index="10" gov="encodes" gov_index="9">dobj</dependency>
+      <dependency dep="required" dep_index="12" gov="verprolin" gov_index="10">partmod</dependency>
+      <dependency dep="proper" dep_index="14" gov="organization" gov_index="15">amod</dependency>
+      <dependency dep="organization" dep_index="15" gov="required" gov_index="12">prep_for</dependency>
+      <dependency dep="the" dep_index="17" gov="cytoskeleton" gov_index="19">det</dependency>
+      <dependency dep="actin" dep_index="18" gov="cytoskeleton" gov_index="19">nn</dependency>
+      <dependency dep="cytoskeleton" dep_index="19" gov="organization" gov_index="15">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600018" relationship="false">6 9 10 12 15 19 18</relation>
+      <relation position="100018" relationship="false">1 6 9 10 12 15 19 18</relation>
+      <relation position="1000018" relationship="true"></relation>
+      <relation position="100006" relationship="false"></relation>
+      <relation position="600010" relationship="true">6 9 10</relation>
+      <relation position="100010" relationship="false">1 6 9 10</relation>
+   </relations>
+   <pairs>
+      <pair>600010</pair>
+      <pair>1000018</pair>
+   </pairs>
+</root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@GPI-80@was@immunoprecipitated@from@human@neutrophil@lysates@by@anti-human@CD18@mAb@</sentence>
+   <tags>
+      <tag pos="4">GPI-80</tag>
+      <tag pos="13">CD18</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">GPI-80</taggedword>
+      <taggedword index="5" part-of-speech="VBD">was</taggedword>
+      <taggedword index="6" part-of-speech="VBN">immunoprecipitated</taggedword>
+      <taggedword index="7" part-of-speech="IN">from</taggedword>
+      <taggedword index="8" part-of-speech="JJ">human</taggedword>
+      <taggedword index="9" part-of-speech="JJ">neutrophil</taggedword>
+      <taggedword index="10" part-of-speech="NNS">lysates</taggedword>
+      <taggedword index="11" part-of-speech="IN">by</taggedword>
+      <taggedword index="12" part-of-speech="JJ">anti-human</taggedword>
+      <taggedword index="13" part-of-speech="NN">CD18</taggedword>
+      <taggedword index="14" part-of-speech="NN">mAb</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="immunoprecipitated" gov_index="6">prep_in</dependency>
+      <dependency dep="GPI-80" dep_index="4" gov="immunoprecipitated" gov_index="6">nsubjpass</dependency>
+      <dependency dep="was" dep_index="5" gov="immunoprecipitated" gov_index="6">auxpass</dependency>
+      <dependency dep="immunoprecipitated" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="human" dep_index="8" gov="lysates" gov_index="10">amod</dependency>
+      <dependency dep="neutrophil" dep_index="9" gov="lysates" gov_index="10">amod</dependency>
+      <dependency dep="lysates" dep_index="10" gov="immunoprecipitated" gov_index="6">prep_from</dependency>
+      <dependency dep="anti-human" dep_index="12" gov="mAb" gov_index="14">amod</dependency>
+      <dependency dep="CD18" dep_index="13" gov="mAb" gov_index="14">nn</dependency>
+      <dependency dep="mAb" dep_index="14" gov="immunoprecipitated" gov_index="6">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400013" relationship="true">4 6 14 13</relation>
+   </relations>
+   <pairs>
+      <pair>400013</pair>
+   </pairs>
+</root>

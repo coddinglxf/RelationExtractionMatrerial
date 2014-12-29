@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@indicate@that@there@is@an@additional@mechanism@by@which@Rb@suppresses@cell@growth@,@namely@that@Rb@directly@represses@transcription@of@the@rRNA@genes@.@</sentence>
+   <tags>
+      <tag pos="12">Rb</tag>
+      <tag pos="19">Rb</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="EX">there</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="7" part-of-speech="DT">an</taggedword>
+      <taggedword index="8" part-of-speech="JJ">additional</taggedword>
+      <taggedword index="9" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="WDT">which</taggedword>
+      <taggedword index="12" part-of-speech="NNP">Rb</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">suppresses</taggedword>
+      <taggedword index="14" part-of-speech="NN">cell</taggedword>
+      <taggedword index="15" part-of-speech="NN">growth</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="RB">namely</taggedword>
+      <taggedword index="18" part-of-speech="IN">that</taggedword>
+      <taggedword index="19" part-of-speech="NNP">Rb</taggedword>
+      <taggedword index="20" part-of-speech="RB">directly</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">represses</taggedword>
+      <taggedword index="22" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">rRNA</taggedword>
+      <taggedword index="26" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="is" gov_index="6">mark</dependency>
+      <dependency dep="there" dep_index="5" gov="is" gov_index="6">expl</dependency>
+      <dependency dep="is" dep_index="6" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="an" dep_index="7" gov="mechanism" gov_index="9">det</dependency>
+      <dependency dep="additional" dep_index="8" gov="mechanism" gov_index="9">amod</dependency>
+      <dependency dep="mechanism" dep_index="9" gov="is" gov_index="6">nsubj</dependency>
+      <dependency dep="mechanism" dep_index="9" gov="suppresses" gov_index="13">prep_by</dependency>
+      <dependency dep="Rb" dep_index="12" gov="suppresses" gov_index="13">nsubj</dependency>
+      <dependency dep="suppresses" dep_index="13" gov="mechanism" gov_index="9">rcmod</dependency>
+      <dependency dep="cell" dep_index="14" gov="growth" gov_index="15">nn</dependency>
+      <dependency dep="growth" dep_index="15" gov="suppresses" gov_index="13">dobj</dependency>
+      <dependency dep="namely" dep_index="17" gov="suppresses" gov_index="13">advmod</dependency>
+      <dependency dep="that" dep_index="18" gov="represses" gov_index="21">mark</dependency>
+      <dependency dep="Rb" dep_index="19" gov="represses" gov_index="21">nsubj</dependency>
+      <dependency dep="directly" dep_index="20" gov="represses" gov_index="21">advmod</dependency>
+      <dependency dep="represses" dep_index="21" gov="suppresses" gov_index="13">ccomp</dependency>
+      <dependency dep="transcription" dep_index="22" gov="represses" gov_index="21">dobj</dependency>
+      <dependency dep="the" dep_index="24" gov="genes" gov_index="26">det</dependency>
+      <dependency dep="rRNA" dep_index="25" gov="genes" gov_index="26">nn</dependency>
+      <dependency dep="genes" dep_index="26" gov="transcription" gov_index="22">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200019" relationship="false">12 13 21 19</relation>
+   </relations>
+   <pairs/>
+</root>

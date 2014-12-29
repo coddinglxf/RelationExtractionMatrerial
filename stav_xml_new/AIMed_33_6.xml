@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Suramin@induced@high-affinity@trimerization@of@C8@(Kd@=@0.10@microM@at@20@degrees@C)@and@dimerization@of@C9@(Kd@=@0.86@microM@at@20@degrees@C)@.@</sentence>
+   <tags>
+      <tag pos="6">C8</tag>
+      <tag pos="18">C9</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Suramin</taggedword>
+      <taggedword index="2" part-of-speech="NNP">induced</taggedword>
+      <taggedword index="3" part-of-speech="JJ">high-affinity</taggedword>
+      <taggedword index="4" part-of-speech="NN">trimerization</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">C8</taggedword>
+      <taggedword index="7" part-of-speech="VBP">(Kd</taggedword>
+      <taggedword index="8" part-of-speech="SYM">=</taggedword>
+      <taggedword index="9" part-of-speech="CD">0.10</taggedword>
+      <taggedword index="10" part-of-speech="NN">microM</taggedword>
+      <taggedword index="11" part-of-speech="IN">at</taggedword>
+      <taggedword index="12" part-of-speech="CD">20</taggedword>
+      <taggedword index="13" part-of-speech="NNS">degrees</taggedword>
+      <taggedword index="14" part-of-speech="NNP">C)</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">dimerization</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNP">C9</taggedword>
+      <taggedword index="19" part-of-speech="VBN">(Kd</taggedword>
+      <taggedword index="20" part-of-speech="SYM">=</taggedword>
+      <taggedword index="21" part-of-speech="CD">0.86</taggedword>
+      <taggedword index="22" part-of-speech="NN">microM</taggedword>
+      <taggedword index="23" part-of-speech="IN">at</taggedword>
+      <taggedword index="24" part-of-speech="CD">20</taggedword>
+      <taggedword index="25" part-of-speech="NNS">degrees</taggedword>
+      <taggedword index="26" part-of-speech="NNP">C)</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Suramin" dep_index="1" gov="trimerization" gov_index="4">nn</dependency>
+      <dependency dep="induced" dep_index="2" gov="trimerization" gov_index="4">nn</dependency>
+      <dependency dep="high-affinity" dep_index="3" gov="trimerization" gov_index="4">amod</dependency>
+      <dependency dep="trimerization" dep_index="4" gov="(Kd" gov_index="7">nsubj</dependency>
+      <dependency dep="C8" dep_index="6" gov="trimerization" gov_index="4">prep_of</dependency>
+      <dependency dep="(Kd" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="=" dep_index="8" gov="microM" gov_index="10">dep</dependency>
+      <dependency dep="0.10" dep_index="9" gov="microM" gov_index="10">num</dependency>
+      <dependency dep="microM" dep_index="10" gov="(Kd" gov_index="7">ccomp</dependency>
+      <dependency dep="20" dep_index="12" gov="degrees" gov_index="13">num</dependency>
+      <dependency dep="degrees" dep_index="13" gov="(Kd" gov_index="7">prep_at</dependency>
+      <dependency dep="C)" dep_index="14" gov="degrees" gov_index="13">dep</dependency>
+      <dependency dep="dimerization" dep_index="16" gov="(Kd" gov_index="7">prep_at</dependency>
+      <dependency dep="dimerization" dep_index="16" gov="degrees" gov_index="13">conj_and</dependency>
+      <dependency dep="C9" dep_index="18" gov="dimerization" gov_index="16">prep_of</dependency>
+      <dependency dep="(Kd" dep_index="19" gov="C9" gov_index="18">partmod</dependency>
+      <dependency dep="=" dep_index="20" gov="microM" gov_index="22">dep</dependency>
+      <dependency dep="0.86" dep_index="21" gov="microM" gov_index="22">num</dependency>
+      <dependency dep="microM" dep_index="22" gov="(Kd" gov_index="19">ccomp</dependency>
+      <dependency dep="20" dep_index="24" gov="degrees" gov_index="25">num</dependency>
+      <dependency dep="degrees" dep_index="25" gov="(Kd" gov_index="19">prep_at</dependency>
+      <dependency dep="C)" dep_index="26" gov="degrees" gov_index="25">dep</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600018" relationship="false">6 4 7 16 18</relation>
+   </relations>
+   <pairs/>
+</root>

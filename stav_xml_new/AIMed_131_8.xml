@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Like@mIL-10R@,@hIL-10R@is@structurally@related@to@IFNR@.@</sentence>
+   <tags>
+      <tag pos="2">mIL-10R</tag>
+      <tag pos="4">hIL-10R</tag>
+      <tag pos="9">IFNR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Like</taggedword>
+      <taggedword index="2" part-of-speech="JJ">mIL-10R</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">hIL-10R</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="RB">structurally</taggedword>
+      <taggedword index="7" part-of-speech="VBN">related</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="NNP">IFNR</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="mIL-10R" dep_index="2" gov="related" gov_index="7">prep_like</dependency>
+      <dependency dep="hIL-10R" dep_index="4" gov="related" gov_index="7">nsubjpass</dependency>
+      <dependency dep="is" dep_index="5" gov="related" gov_index="7">auxpass</dependency>
+      <dependency dep="structurally" dep_index="6" gov="related" gov_index="7">advmod</dependency>
+      <dependency dep="related" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="IFNR" dep_index="9" gov="related" gov_index="7">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 7 4</relation>
+      <relation position="200009" relationship="false">2 7 9</relation>
+      <relation position="400009" relationship="false">4 7 9</relation>
+   </relations>
+   <pairs/>
+</root>

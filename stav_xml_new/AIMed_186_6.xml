@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Nevertheless@,@the@overall@size@and@length@of@the@cytoplasmic@domain@of@IL-13Ralpha@and@gammac@are@similar@,@and@like@gammac@,@IL-13Ralpha@is@located@on@chromosome@X@.@</sentence>
+   <tags>
+      <tag pos="13">IL-13Ralpha</tag>
+      <tag pos="15">gammac</tag>
+      <tag pos="21">gammac</tag>
+      <tag pos="23">IL-13Ralpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Nevertheless</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">overall</taggedword>
+      <taggedword index="5" part-of-speech="NN">size</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">length</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">cytoplasmic</taggedword>
+      <taggedword index="11" part-of-speech="NN">domain</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NN">IL-13Ralpha</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">gammac</taggedword>
+      <taggedword index="16" part-of-speech="VBP">are</taggedword>
+      <taggedword index="17" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="IN">like</taggedword>
+      <taggedword index="21" part-of-speech="JJ">gammac</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="NNS">IL-13Ralpha</taggedword>
+      <taggedword index="24" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="25" part-of-speech="VBN">located</taggedword>
+      <taggedword index="26" part-of-speech="IN">on</taggedword>
+      <taggedword index="27" part-of-speech="NN">chromosome</taggedword>
+      <taggedword index="28" part-of-speech="NNS">X</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Nevertheless" dep_index="1" gov="similar" gov_index="17">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="size" gov_index="5">det</dependency>
+      <dependency dep="overall" dep_index="4" gov="size" gov_index="5">amod</dependency>
+      <dependency dep="size" dep_index="5" gov="similar" gov_index="17">nsubj</dependency>
+      <dependency dep="length" dep_index="7" gov="size" gov_index="5">conj_and</dependency>
+      <dependency dep="length" dep_index="7" gov="similar" gov_index="17">nsubj</dependency>
+      <dependency dep="the" dep_index="9" gov="domain" gov_index="11">det</dependency>
+      <dependency dep="cytoplasmic" dep_index="10" gov="domain" gov_index="11">amod</dependency>
+      <dependency dep="domain" dep_index="11" gov="size" gov_index="5">prep_of</dependency>
+      <dependency dep="IL-13Ralpha" dep_index="13" gov="domain" gov_index="11">prep_of</dependency>
+      <dependency dep="gammac" dep_index="15" gov="domain" gov_index="11">prep_of</dependency>
+      <dependency dep="gammac" dep_index="15" gov="IL-13Ralpha" gov_index="13">conj_and</dependency>
+      <dependency dep="are" dep_index="16" gov="similar" gov_index="17">cop</dependency>
+      <dependency dep="similar" dep_index="17" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="gammac" dep_index="21" gov="located" gov_index="25">prep_like</dependency>
+      <dependency dep="IL-13Ralpha" dep_index="23" gov="located" gov_index="25">nsubjpass</dependency>
+      <dependency dep="is" dep_index="24" gov="located" gov_index="25">auxpass</dependency>
+      <dependency dep="located" dep_index="25" gov="similar" gov_index="17">conj_and</dependency>
+      <dependency dep="chromosome" dep_index="27" gov="X" gov_index="28">nn</dependency>
+      <dependency dep="X" dep_index="28" gov="located" gov_index="25">prep_on</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="false">13 11 15</relation>
+      <relation position="1300021" relationship="false"></relation>
+      <relation position="1300023" relationship="false"></relation>
+      <relation position="1500021" relationship="false"></relation>
+      <relation position="1500023" relationship="false"></relation>
+      <relation position="2100023" relationship="false">21 25 23</relation>
+   </relations>
+   <pairs/>
+</root>

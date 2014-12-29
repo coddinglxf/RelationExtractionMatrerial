@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@antilipolytic@effects@of@peroxovanadate@and@oxytocin@were@unaffected@by@500@nmol/L@wortmannin@,@which@blocked@the@antilipolytic@action@of@insulin@</sentence>
+   <tags>
+      <tag pos="7">oxytocin</tag>
+      <tag pos="21">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">antilipolytic</taggedword>
+      <taggedword index="3" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NN">peroxovanadate</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="8" part-of-speech="VBD">were</taggedword>
+      <taggedword index="9" part-of-speech="JJ">unaffected</taggedword>
+      <taggedword index="10" part-of-speech="IN">by</taggedword>
+      <taggedword index="11" part-of-speech="CD">500</taggedword>
+      <taggedword index="12" part-of-speech="JJ">nmol/L</taggedword>
+      <taggedword index="13" part-of-speech="NN">wortmannin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="WDT">which</taggedword>
+      <taggedword index="16" part-of-speech="VBD">blocked</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">antilipolytic</taggedword>
+      <taggedword index="19" part-of-speech="NN">action</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NN">insulin</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="effects" gov_index="3">det</dependency>
+      <dependency dep="antilipolytic" dep_index="2" gov="effects" gov_index="3">amod</dependency>
+      <dependency dep="effects" dep_index="3" gov="unaffected" gov_index="9">nsubj</dependency>
+      <dependency dep="peroxovanadate" dep_index="5" gov="effects" gov_index="3">prep_of</dependency>
+      <dependency dep="oxytocin" dep_index="7" gov="effects" gov_index="3">prep_of</dependency>
+      <dependency dep="oxytocin" dep_index="7" gov="peroxovanadate" gov_index="5">conj_and</dependency>
+      <dependency dep="were" dep_index="8" gov="unaffected" gov_index="9">cop</dependency>
+      <dependency dep="unaffected" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="500" dep_index="11" gov="wortmannin" gov_index="13">num</dependency>
+      <dependency dep="nmol/L" dep_index="12" gov="wortmannin" gov_index="13">amod</dependency>
+      <dependency dep="wortmannin" dep_index="13" gov="unaffected" gov_index="9">prep_by</dependency>
+      <dependency dep="wortmannin" dep_index="13" gov="blocked" gov_index="16">nsubj</dependency>
+      <dependency dep="blocked" dep_index="16" gov="wortmannin" gov_index="13">rcmod</dependency>
+      <dependency dep="the" dep_index="17" gov="action" gov_index="19">det</dependency>
+      <dependency dep="antilipolytic" dep_index="18" gov="action" gov_index="19">amod</dependency>
+      <dependency dep="action" dep_index="19" gov="blocked" gov_index="16">dobj</dependency>
+      <dependency dep="insulin" dep_index="21" gov="action" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700021" relationship="false">7 3 9 13 16 19 21</relation>
+   </relations>
+   <pairs/>
+</root>

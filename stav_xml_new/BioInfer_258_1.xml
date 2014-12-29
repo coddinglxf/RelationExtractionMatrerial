@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Herpes@simplex@virus@type@1@expresses@a@heterotrimeric@helicase-primase@,@the@subunits@of@which@are@encoded@by@the@viral@UL5@,@UL8@and@UL52@genes@.@</sentence>
+   <tags>
+      <tag pos="22">UL8</tag>
+      <tag pos="20">UL5</tag>
+      <tag pos="9">helicase-primase</tag>
+      <tag pos="24">UL52</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Herpes</taggedword>
+      <taggedword index="2" part-of-speech="NN">simplex</taggedword>
+      <taggedword index="3" part-of-speech="NN">virus</taggedword>
+      <taggedword index="4" part-of-speech="NN">type</taggedword>
+      <taggedword index="5" part-of-speech="CD">1</taggedword>
+      <taggedword index="6" part-of-speech="VBZ">expresses</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">heterotrimeric</taggedword>
+      <taggedword index="9" part-of-speech="NN">helicase-primase</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NNS">subunits</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="WDT">which</taggedword>
+      <taggedword index="15" part-of-speech="VBP">are</taggedword>
+      <taggedword index="16" part-of-speech="VBN">encoded</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">viral</taggedword>
+      <taggedword index="20" part-of-speech="NN">UL5</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NNP">UL8</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="CD">UL52</taggedword>
+      <taggedword index="25" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Herpes" dep_index="1" gov="virus" gov_index="3">amod</dependency>
+      <dependency dep="simplex" dep_index="2" gov="virus" gov_index="3">nn</dependency>
+      <dependency dep="virus" dep_index="3" gov="expresses" gov_index="6">nsubj</dependency>
+      <dependency dep="type" dep_index="4" gov="virus" gov_index="3">amod</dependency>
+      <dependency dep="1" dep_index="5" gov="type" gov_index="4">number</dependency>
+      <dependency dep="expresses" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="7" gov="helicase-primase" gov_index="9">det</dependency>
+      <dependency dep="heterotrimeric" dep_index="8" gov="helicase-primase" gov_index="9">amod</dependency>
+      <dependency dep="helicase-primase" dep_index="9" gov="expresses" gov_index="6">dobj</dependency>
+      <dependency dep="the" dep_index="11" gov="subunits" gov_index="12">det</dependency>
+      <dependency dep="subunits" dep_index="12" gov="helicase-primase" gov_index="9">appos</dependency>
+      <dependency dep="which" dep_index="14" gov="encoded" gov_index="16">nsubjpass</dependency>
+      <dependency dep="are" dep_index="15" gov="encoded" gov_index="16">auxpass</dependency>
+      <dependency dep="encoded" dep_index="16" gov="subunits" gov_index="12">prepc_of</dependency>
+      <dependency dep="the" dep_index="18" gov="UL5" gov_index="20">det</dependency>
+      <dependency dep="viral" dep_index="19" gov="UL5" gov_index="20">amod</dependency>
+      <dependency dep="UL5" dep_index="20" gov="encoded" gov_index="16">agent</dependency>
+      <dependency dep="UL8" dep_index="22" gov="encoded" gov_index="16">agent</dependency>
+      <dependency dep="UL8" dep_index="22" gov="UL5" gov_index="20">conj_and</dependency>
+      <dependency dep="UL52" dep_index="24" gov="genes" gov_index="25">num</dependency>
+      <dependency dep="genes" dep_index="25" gov="encoded" gov_index="16">agent</dependency>
+      <dependency dep="genes" dep_index="25" gov="UL5" gov_index="20">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000022" relationship="false">20 16 22</relation>
+      <relation position="900022" relationship="true"></relation>
+      <relation position="2200024" relationship="false">22 16 25 24</relation>
+      <relation position="900020" relationship="true"></relation>
+      <relation position="2000024" relationship="false">20 16 25 24</relation>
+      <relation position="900024" relationship="true"></relation>
+   </relations>
+   <pairs>
+      <pair>900024</pair>
+      <pair>900022</pair>
+      <pair>900020</pair>
+   </pairs>
+</root>

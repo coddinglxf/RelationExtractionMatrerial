@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Despite@the@fact@that@they@are@often@quite@small@,@these@lesions@appear@to@be@more@aggressive@(i.e.@,@greater@likelihood@of@lymph-node@metastases)@than@carcinomas@that@clearly@arise@from@surrounding@adenomas@exadenoma@carcinoma@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Despite</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="NN">fact</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="PRP">they</taggedword>
+      <taggedword index="6" part-of-speech="VBP">are</taggedword>
+      <taggedword index="7" part-of-speech="RB">often</taggedword>
+      <taggedword index="8" part-of-speech="RB">quite</taggedword>
+      <taggedword index="9" part-of-speech="JJ">small</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="DT">these</taggedword>
+      <taggedword index="12" part-of-speech="NNS">lesions</taggedword>
+      <taggedword index="13" part-of-speech="VBP">appear</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">be</taggedword>
+      <taggedword index="16" part-of-speech="RBR">more</taggedword>
+      <taggedword index="17" part-of-speech="JJ">aggressive</taggedword>
+      <taggedword index="18" part-of-speech="NN">(i.e.</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="JJR">greater</taggedword>
+      <taggedword index="21" part-of-speech="NN">likelihood</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="JJ">lymph-node</taggedword>
+      <taggedword index="24" part-of-speech="NNS">metastases)</taggedword>
+      <taggedword index="25" part-of-speech="IN">than</taggedword>
+      <taggedword index="26" part-of-speech="NNS">carcinomas</taggedword>
+      <taggedword index="27" part-of-speech="WDT">that</taggedword>
+      <taggedword index="28" part-of-speech="RB">clearly</taggedword>
+      <taggedword index="29" part-of-speech="VBP">arise</taggedword>
+      <taggedword index="30" part-of-speech="IN">from</taggedword>
+      <taggedword index="31" part-of-speech="VBG">surrounding</taggedword>
+      <taggedword index="32" part-of-speech="JJ">adenomas</taggedword>
+      <taggedword index="33" part-of-speech="NN">exadenoma</taggedword>
+      <taggedword index="34" part-of-speech="NN">carcinoma</taggedword>
+      <taggedword index="35" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="fact" gov_index="3">det</dependency>
+      <dependency dep="fact" dep_index="3" gov="appear" gov_index="13">prep_despite</dependency>
+      <dependency dep="that" dep_index="4" gov="small" gov_index="9">mark</dependency>
+      <dependency dep="they" dep_index="5" gov="small" gov_index="9">nsubj</dependency>
+      <dependency dep="are" dep_index="6" gov="small" gov_index="9">cop</dependency>
+      <dependency dep="often" dep_index="7" gov="small" gov_index="9">advmod</dependency>
+      <dependency dep="quite" dep_index="8" gov="small" gov_index="9">advmod</dependency>
+      <dependency dep="small" dep_index="9" gov="fact" gov_index="3">dep</dependency>
+      <dependency dep="these" dep_index="11" gov="lesions" gov_index="12">det</dependency>
+      <dependency dep="lesions" dep_index="12" gov="appear" gov_index="13">nsubj</dependency>
+      <dependency dep="lesions" dep_index="12" gov="aggressive" gov_index="17">xsubj</dependency>
+      <dependency dep="appear" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="14" gov="aggressive" gov_index="17">aux</dependency>
+      <dependency dep="be" dep_index="15" gov="aggressive" gov_index="17">cop</dependency>
+      <dependency dep="more" dep_index="16" gov="aggressive" gov_index="17">advmod</dependency>
+      <dependency dep="aggressive" dep_index="17" gov="appear" gov_index="13">xcomp</dependency>
+      <dependency dep="(i.e." dep_index="18" gov="aggressive" gov_index="17">tmod</dependency>
+      <dependency dep="greater" dep_index="20" gov="likelihood" gov_index="21">amod</dependency>
+      <dependency dep="likelihood" dep_index="21" gov="(i.e." gov_index="18">appos</dependency>
+      <dependency dep="lymph-node" dep_index="23" gov="metastases)" gov_index="24">amod</dependency>
+      <dependency dep="metastases)" dep_index="24" gov="likelihood" gov_index="21">prep_of</dependency>
+      <dependency dep="carcinomas" dep_index="26" gov="metastases)" gov_index="24">prep_than</dependency>
+      <dependency dep="carcinomas" dep_index="26" gov="arise" gov_index="29">nsubj</dependency>
+      <dependency dep="clearly" dep_index="28" gov="arise" gov_index="29">advmod</dependency>
+      <dependency dep="arise" dep_index="29" gov="carcinomas" gov_index="26">rcmod</dependency>
+      <dependency dep="surrounding" dep_index="31" gov="arise" gov_index="29">prepc_from</dependency>
+      <dependency dep="adenomas" dep_index="32" gov="carcinoma" gov_index="34">amod</dependency>
+      <dependency dep="exadenoma" dep_index="33" gov="carcinoma" gov_index="34">nn</dependency>
+      <dependency dep="carcinoma" dep_index="34" gov="surrounding" gov_index="31">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

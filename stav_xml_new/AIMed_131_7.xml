@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@hIL-10R@gene@is@on@human@chromosome@11@.@</sentence>
+   <tags>
+      <tag pos="2">hIL-10R</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">hIL-10R</taggedword>
+      <taggedword index="3" part-of-speech="NN">gene</taggedword>
+      <taggedword index="4" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="5" part-of-speech="IN">on</taggedword>
+      <taggedword index="6" part-of-speech="NN">human</taggedword>
+      <taggedword index="7" part-of-speech="NN">chromosome</taggedword>
+      <taggedword index="8" part-of-speech="CD">11</taggedword>
+      <taggedword index="9" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="gene" gov_index="3">det</dependency>
+      <dependency dep="hIL-10R" dep_index="2" gov="gene" gov_index="3">amod</dependency>
+      <dependency dep="gene" dep_index="3" gov="is" gov_index="4">nsubj</dependency>
+      <dependency dep="is" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="human" dep_index="6" gov="chromosome" gov_index="7">nn</dependency>
+      <dependency dep="chromosome" dep_index="7" gov="is" gov_index="4">prep_on</dependency>
+      <dependency dep="11" dep_index="8" gov="chromosome" gov_index="7">num</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

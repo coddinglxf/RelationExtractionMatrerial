@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@Saccharomyces@cerevisiae@RAD51@and@RAD54@genes@are@both@required@for@the@occurrence@of@homologous@recombination@and@for@the@repair@of@double-stranded@DNA@breaks@.@</sentence>
+   <tags>
+      <tag pos="4">RAD51</tag>
+      <tag pos="6">RAD54</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNPS">Saccharomyces</taggedword>
+      <taggedword index="3" part-of-speech="VBP">cerevisiae</taggedword>
+      <taggedword index="4" part-of-speech="NNP">RAD51</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="NNP">RAD54</taggedword>
+      <taggedword index="7" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="8" part-of-speech="VBP">are</taggedword>
+      <taggedword index="9" part-of-speech="DT">both</taggedword>
+      <taggedword index="10" part-of-speech="VBN">required</taggedword>
+      <taggedword index="11" part-of-speech="IN">for</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NN">occurrence</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="RB">homologous</taggedword>
+      <taggedword index="16" part-of-speech="NN">recombination</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="IN">for</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">repair</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="JJ">double-stranded</taggedword>
+      <taggedword index="23" part-of-speech="NN">DNA</taggedword>
+      <taggedword index="24" part-of-speech="NNS">breaks</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="Saccharomyces" gov_index="2">det</dependency>
+      <dependency dep="Saccharomyces" dep_index="2" gov="cerevisiae" gov_index="3">nsubj</dependency>
+      <dependency dep="cerevisiae" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="RAD51" dep_index="4" gov="genes" gov_index="7">nn</dependency>
+      <dependency dep="RAD54" dep_index="6" gov="RAD51" gov_index="4">conj_and</dependency>
+      <dependency dep="RAD54" dep_index="6" gov="genes" gov_index="7">nn</dependency>
+      <dependency dep="genes" dep_index="7" gov="required" gov_index="10">nsubjpass</dependency>
+      <dependency dep="are" dep_index="8" gov="required" gov_index="10">auxpass</dependency>
+      <dependency dep="both" dep_index="9" gov="required" gov_index="10">advmod</dependency>
+      <dependency dep="required" dep_index="10" gov="cerevisiae" gov_index="3">ccomp</dependency>
+      <dependency dep="the" dep_index="12" gov="occurrence" gov_index="13">det</dependency>
+      <dependency dep="occurrence" dep_index="13" gov="required" gov_index="10">prep_for</dependency>
+      <dependency dep="homologous" dep_index="15" gov="recombination" gov_index="16">advmod</dependency>
+      <dependency dep="recombination" dep_index="16" gov="occurrence" gov_index="13">prep_of</dependency>
+      <dependency dep="the" dep_index="19" gov="repair" gov_index="20">det</dependency>
+      <dependency dep="repair" dep_index="20" gov="required" gov_index="10">prep_for</dependency>
+      <dependency dep="repair" dep_index="20" gov="occurrence" gov_index="13">conj_and</dependency>
+      <dependency dep="double-stranded" dep_index="22" gov="breaks" gov_index="24">amod</dependency>
+      <dependency dep="DNA" dep_index="23" gov="breaks" gov_index="24">nn</dependency>
+      <dependency dep="breaks" dep_index="24" gov="repair" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="false">4 7 6</relation>
+   </relations>
+   <pairs/>
+</root>

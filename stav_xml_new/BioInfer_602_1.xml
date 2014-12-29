@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@C-terminal@region@of@ORC3@was@,@however@,@necessary@to@bring@ORC4@and@ORC5@into@the@core@complex@.@</sentence>
+   <tags>
+      <tag pos="13">ORC4</tag>
+      <tag pos="15">ORC5</tag>
+      <tag pos="5">ORC3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">C-terminal</taggedword>
+      <taggedword index="3" part-of-speech="NN">region</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNP">ORC3</taggedword>
+      <taggedword index="6" part-of-speech="VBD">was</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="RB">however</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="JJ">necessary</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="VB">bring</taggedword>
+      <taggedword index="13" part-of-speech="NNP">ORC4</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NNP">ORC5</taggedword>
+      <taggedword index="16" part-of-speech="IN">into</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">core</taggedword>
+      <taggedword index="19" part-of-speech="NN">complex</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="region" gov_index="3">det</dependency>
+      <dependency dep="C-terminal" dep_index="2" gov="region" gov_index="3">amod</dependency>
+      <dependency dep="region" dep_index="3" gov="necessary" gov_index="10">nsubj</dependency>
+      <dependency dep="region" dep_index="3" gov="bring" gov_index="12">xsubj</dependency>
+      <dependency dep="ORC3" dep_index="5" gov="region" gov_index="3">prep_of</dependency>
+      <dependency dep="was" dep_index="6" gov="necessary" gov_index="10">cop</dependency>
+      <dependency dep="however" dep_index="8" gov="necessary" gov_index="10">dep</dependency>
+      <dependency dep="necessary" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="11" gov="bring" gov_index="12">aux</dependency>
+      <dependency dep="bring" dep_index="12" gov="necessary" gov_index="10">xcomp</dependency>
+      <dependency dep="ORC4" dep_index="13" gov="bring" gov_index="12">dobj</dependency>
+      <dependency dep="ORC5" dep_index="15" gov="bring" gov_index="12">dobj</dependency>
+      <dependency dep="ORC5" dep_index="15" gov="ORC4" gov_index="13">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="complex" gov_index="19">det</dependency>
+      <dependency dep="core" dep_index="18" gov="complex" gov_index="19">amod</dependency>
+      <dependency dep="complex" dep_index="19" gov="bring" gov_index="12">prep_into</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300015" relationship="true">13 12 15</relation>
+      <relation position="500013" relationship="true">5 3 12 13</relation>
+      <relation position="500015" relationship="true">5 3 12 15</relation>
+   </relations>
+   <pairs>
+      <pair>500013</pair>
+      <pair>500015</pair>
+      <pair>1300015</pair>
+   </pairs>
+</root>

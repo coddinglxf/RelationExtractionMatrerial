@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@AVP@had@no@effect@on@the@distribution@of@any@PKC@isoform@tested@</sentence>
+   <tags>
+      <tag pos="4">AVP</tag>
+      <tag pos="13">PKC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="5" part-of-speech="VBD">had</taggedword>
+      <taggedword index="6" part-of-speech="DT">no</taggedword>
+      <taggedword index="7" part-of-speech="NN">effect</taggedword>
+      <taggedword index="8" part-of-speech="IN">on</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">distribution</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="DT">any</taggedword>
+      <taggedword index="13" part-of-speech="NNP">PKC</taggedword>
+      <taggedword index="14" part-of-speech="NN">isoform</taggedword>
+      <taggedword index="15" part-of-speech="VBN">tested</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="had" gov_index="5">prep_in</dependency>
+      <dependency dep="AVP" dep_index="4" gov="had" gov_index="5">nsubj</dependency>
+      <dependency dep="had" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="no" dep_index="6" gov="effect" gov_index="7">det</dependency>
+      <dependency dep="effect" dep_index="7" gov="had" gov_index="5">dobj</dependency>
+      <dependency dep="the" dep_index="9" gov="distribution" gov_index="10">det</dependency>
+      <dependency dep="distribution" dep_index="10" gov="effect" gov_index="7">prep_on</dependency>
+      <dependency dep="any" dep_index="12" gov="isoform" gov_index="14">det</dependency>
+      <dependency dep="PKC" dep_index="13" gov="isoform" gov_index="14">nn</dependency>
+      <dependency dep="isoform" dep_index="14" gov="distribution" gov_index="10">prep_of</dependency>
+      <dependency dep="tested" dep_index="15" gov="isoform" gov_index="14">partmod</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400013" relationship="false">4 5 7 10 14 13</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CONCLUSIONS@:@The@expression@of@alpha-catenin@,@beta-catenin@,@and@gamma-catenin@is@related@to@histological@type@and@differentiation@in@NSCLC@,@although@catenins@have@no@independent@prognostic@value@.@</sentence>
+   <tags>
+      <tag pos="23">catenins</tag>
+      <tag pos="8">beta-catenin</tag>
+      <tag pos="11">gamma-catenin</tag>
+      <tag pos="6">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">CONCLUSIONS</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="DT">The</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NN">gamma-catenin</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="VBN">related</taggedword>
+      <taggedword index="14" part-of-speech="TO">to</taggedword>
+      <taggedword index="15" part-of-speech="VB">histological</taggedword>
+      <taggedword index="16" part-of-speech="NN">type</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">differentiation</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="NNP">NSCLC</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="IN">although</taggedword>
+      <taggedword index="23" part-of-speech="NNS">catenins</taggedword>
+      <taggedword index="24" part-of-speech="VBP">have</taggedword>
+      <taggedword index="25" part-of-speech="DT">no</taggedword>
+      <taggedword index="26" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="27" part-of-speech="JJ">prognostic</taggedword>
+      <taggedword index="28" part-of-speech="NN">value</taggedword>
+      <taggedword index="29" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CONCLUSIONS" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="The" dep_index="3" gov="expression" gov_index="4">det</dependency>
+      <dependency dep="expression" dep_index="4" gov="CONCLUSIONS" gov_index="1">dep</dependency>
+      <dependency dep="alpha-catenin" dep_index="6" gov="expression" gov_index="4">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="8" gov="expression" gov_index="4">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="8" gov="alpha-catenin" gov_index="6">conj_and</dependency>
+      <dependency dep="gamma-catenin" dep_index="11" gov="expression" gov_index="4">prep_of</dependency>
+      <dependency dep="gamma-catenin" dep_index="11" gov="alpha-catenin" gov_index="6">conj_and</dependency>
+      <dependency dep="is" dep_index="12" gov="related" gov_index="13">auxpass</dependency>
+      <dependency dep="related" dep_index="13" gov="alpha-catenin" gov_index="6">rcmod</dependency>
+      <dependency dep="to" dep_index="14" gov="histological" gov_index="15">aux</dependency>
+      <dependency dep="histological" dep_index="15" gov="related" gov_index="13">xcomp</dependency>
+      <dependency dep="type" dep_index="16" gov="histological" gov_index="15">dobj</dependency>
+      <dependency dep="differentiation" dep_index="18" gov="histological" gov_index="15">dobj</dependency>
+      <dependency dep="differentiation" dep_index="18" gov="type" gov_index="16">conj_and</dependency>
+      <dependency dep="NSCLC" dep_index="20" gov="histological" gov_index="15">prep_in</dependency>
+      <dependency dep="although" dep_index="22" gov="have" gov_index="24">mark</dependency>
+      <dependency dep="catenins" dep_index="23" gov="have" gov_index="24">nsubj</dependency>
+      <dependency dep="have" dep_index="24" gov="related" gov_index="13">advcl</dependency>
+      <dependency dep="no" dep_index="25" gov="value" gov_index="28">det</dependency>
+      <dependency dep="independent" dep_index="26" gov="value" gov_index="28">amod</dependency>
+      <dependency dep="prognostic" dep_index="27" gov="value" gov_index="28">amod</dependency>
+      <dependency dep="value" dep_index="28" gov="have" gov_index="24">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800023" relationship="false">8 4 6 13 24 23</relation>
+      <relation position="1100023" relationship="false">11 4 6 13 24 23</relation>
+      <relation position="600023" relationship="false"></relation>
+      <relation position="800011" relationship="false">8 4 11</relation>
+      <relation position="600008" relationship="false">6 4 8</relation>
+      <relation position="600011" relationship="false">6 4 11</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@role@for@Plk1@phosphorylation@of@NudC@in@cytokinesis@</sentence>
+   <tags>
+      <tag pos="4">Plk1</tag>
+      <tag pos="7">NudC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="NN">role</taggedword>
+      <taggedword index="3" part-of-speech="IN">for</taggedword>
+      <taggedword index="4" part-of-speech="JJ">Plk1</taggedword>
+      <taggedword index="5" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNP">NudC</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cytokinesis</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="role" gov_index="2">det</dependency>
+      <dependency dep="role" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="Plk1" dep_index="4" gov="phosphorylation" gov_index="5">amod</dependency>
+      <dependency dep="phosphorylation" dep_index="5" gov="role" gov_index="2">prep_for</dependency>
+      <dependency dep="NudC" dep_index="7" gov="phosphorylation" gov_index="5">prep_of</dependency>
+      <dependency dep="cytokinesis" dep_index="9" gov="role" gov_index="2">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="true">4 5 7</relation>
+   </relations>
+   <pairs>
+      <pair>400007</pair>
+   </pairs>
+</root>

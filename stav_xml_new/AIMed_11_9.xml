@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@correlation@between@ErbB-3@and@distant@metastasis@was@good@.@</sentence>
+   <tags>
+      <tag pos="4">ErbB-3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">correlation</taggedword>
+      <taggedword index="3" part-of-speech="IN">between</taggedword>
+      <taggedword index="4" part-of-speech="NNS">ErbB-3</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="JJ">distant</taggedword>
+      <taggedword index="7" part-of-speech="NNS">metastasis</taggedword>
+      <taggedword index="8" part-of-speech="VBD">was</taggedword>
+      <taggedword index="9" part-of-speech="JJ">good</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="correlation" gov_index="2">det</dependency>
+      <dependency dep="correlation" dep_index="2" gov="good" gov_index="9">nsubj</dependency>
+      <dependency dep="ErbB-3" dep_index="4" gov="correlation" gov_index="2">prep_between</dependency>
+      <dependency dep="distant" dep_index="6" gov="metastasis" gov_index="7">amod</dependency>
+      <dependency dep="metastasis" dep_index="7" gov="correlation" gov_index="2">prep_between</dependency>
+      <dependency dep="metastasis" dep_index="7" gov="ErbB-3" gov_index="4">conj_and</dependency>
+      <dependency dep="was" dep_index="8" gov="good" gov_index="9">cop</dependency>
+      <dependency dep="good" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

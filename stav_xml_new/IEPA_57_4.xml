@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@diminution@of@glucose@transport@secondary@to@inhibition@of@PLC@activity@was@reflected@by@a@decrease@in@GLUT4@translocation@to@the@plasma@membrane@upon@either@EGF@or@insulin@stimulation@</sentence>
+   <tags>
+      <tag pos="10">PLC</tag>
+      <tag pos="28">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">diminution</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="5" part-of-speech="NN">transport</taggedword>
+      <taggedword index="6" part-of-speech="JJ">secondary</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NNP">PLC</taggedword>
+      <taggedword index="11" part-of-speech="NN">activity</taggedword>
+      <taggedword index="12" part-of-speech="VBD">was</taggedword>
+      <taggedword index="13" part-of-speech="VBN">reflected</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="NN">decrease</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="JJ">GLUT4</taggedword>
+      <taggedword index="19" part-of-speech="NN">translocation</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="23" part-of-speech="NN">membrane</taggedword>
+      <taggedword index="24" part-of-speech="IN">upon</taggedword>
+      <taggedword index="25" part-of-speech="DT">either</taggedword>
+      <taggedword index="26" part-of-speech="NN">EGF</taggedword>
+      <taggedword index="27" part-of-speech="CC">or</taggedword>
+      <taggedword index="28" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="29" part-of-speech="NN">stimulation</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="diminution" gov_index="2">det</dependency>
+      <dependency dep="diminution" dep_index="2" gov="reflected" gov_index="13">nsubjpass</dependency>
+      <dependency dep="glucose" dep_index="4" gov="transport" gov_index="5">nn</dependency>
+      <dependency dep="transport" dep_index="5" gov="diminution" gov_index="2">prep_of</dependency>
+      <dependency dep="secondary" dep_index="6" gov="transport" gov_index="5">amod</dependency>
+      <dependency dep="inhibition" dep_index="8" gov="secondary" gov_index="6">prep_to</dependency>
+      <dependency dep="PLC" dep_index="10" gov="activity" gov_index="11">nn</dependency>
+      <dependency dep="activity" dep_index="11" gov="inhibition" gov_index="8">prep_of</dependency>
+      <dependency dep="was" dep_index="12" gov="reflected" gov_index="13">auxpass</dependency>
+      <dependency dep="reflected" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="15" gov="decrease" gov_index="16">det</dependency>
+      <dependency dep="decrease" dep_index="16" gov="reflected" gov_index="13">agent</dependency>
+      <dependency dep="GLUT4" dep_index="18" gov="translocation" gov_index="19">amod</dependency>
+      <dependency dep="translocation" dep_index="19" gov="decrease" gov_index="16">prep_in</dependency>
+      <dependency dep="the" dep_index="21" gov="membrane" gov_index="23">det</dependency>
+      <dependency dep="plasma" dep_index="22" gov="membrane" gov_index="23">nn</dependency>
+      <dependency dep="membrane" dep_index="23" gov="reflected" gov_index="13">prep_to</dependency>
+      <dependency dep="either" dep_index="25" gov="stimulation" gov_index="29">preconj</dependency>
+      <dependency dep="EGF" dep_index="26" gov="stimulation" gov_index="29">nn</dependency>
+      <dependency dep="insulin" dep_index="28" gov="EGF" gov_index="26">conj_or</dependency>
+      <dependency dep="insulin" dep_index="28" gov="stimulation" gov_index="29">nn</dependency>
+      <dependency dep="stimulation" dep_index="29" gov="reflected" gov_index="13">prep_upon</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000028" relationship="false">10 11 8 6 5 2 13 29 28</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Of@these@,@the@58-kD@intracellular@membrane-associated@protein@,@syntrophin@,@was@recently@shown@to@consist@of@a@family@of@three@related@but@distinct@genes@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">Of</taggedword>
+      <taggedword index="2" part-of-speech="DT">these</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">58-kD</taggedword>
+      <taggedword index="6" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="7" part-of-speech="JJ">membrane-associated</taggedword>
+      <taggedword index="8" part-of-speech="NN">protein</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="NN">syntrophin</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="VBD">was</taggedword>
+      <taggedword index="13" part-of-speech="RB">recently</taggedword>
+      <taggedword index="14" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="VB">consist</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="NN">family</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="CD">three</taggedword>
+      <taggedword index="22" part-of-speech="JJ">related</taggedword>
+      <taggedword index="23" part-of-speech="CC">but</taggedword>
+      <taggedword index="24" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="25" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="these" dep_index="2" gov="shown" gov_index="14">prep_of</dependency>
+      <dependency dep="the" dep_index="4" gov="protein" gov_index="8">det</dependency>
+      <dependency dep="58-kD" dep_index="5" gov="protein" gov_index="8">amod</dependency>
+      <dependency dep="intracellular" dep_index="6" gov="protein" gov_index="8">nn</dependency>
+      <dependency dep="membrane-associated" dep_index="7" gov="protein" gov_index="8">amod</dependency>
+      <dependency dep="protein" dep_index="8" gov="shown" gov_index="14">nsubjpass</dependency>
+      <dependency dep="protein" dep_index="8" gov="consist" gov_index="16">xsubj</dependency>
+      <dependency dep="syntrophin" dep_index="10" gov="protein" gov_index="8">appos</dependency>
+      <dependency dep="was" dep_index="12" gov="shown" gov_index="14">auxpass</dependency>
+      <dependency dep="recently" dep_index="13" gov="shown" gov_index="14">advmod</dependency>
+      <dependency dep="shown" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="15" gov="consist" gov_index="16">aux</dependency>
+      <dependency dep="consist" dep_index="16" gov="shown" gov_index="14">xcomp</dependency>
+      <dependency dep="a" dep_index="18" gov="family" gov_index="19">det</dependency>
+      <dependency dep="family" dep_index="19" gov="consist" gov_index="16">prep_of</dependency>
+      <dependency dep="three" dep_index="21" gov="genes" gov_index="25">num</dependency>
+      <dependency dep="related" dep_index="22" gov="genes" gov_index="25">amod</dependency>
+      <dependency dep="distinct" dep_index="24" gov="related" gov_index="22">conj_but</dependency>
+      <dependency dep="distinct" dep_index="24" gov="genes" gov_index="25">amod</dependency>
+      <dependency dep="genes" dep_index="25" gov="family" gov_index="19">prep_of</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

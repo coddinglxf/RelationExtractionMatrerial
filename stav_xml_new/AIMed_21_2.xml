@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@activity@of@biogenic@amine@and@amino@acid@neurotransmitters@is@limited@by@presynaptic@and@astrocytic@Na(+)-dependent@transport@systems@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">activity</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">biogenic</taggedword>
+      <taggedword index="5" part-of-speech="NN">amine</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="8" part-of-speech="NN">acid</taggedword>
+      <taggedword index="9" part-of-speech="NNS">neurotransmitters</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="11" part-of-speech="VBN">limited</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="JJ">presynaptic</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="JJ">astrocytic</taggedword>
+      <taggedword index="16" part-of-speech="JJ">Na(+)-dependent</taggedword>
+      <taggedword index="17" part-of-speech="NN">transport</taggedword>
+      <taggedword index="18" part-of-speech="NNS">systems</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="activity" gov_index="2">det</dependency>
+      <dependency dep="activity" dep_index="2" gov="limited" gov_index="11">nsubjpass</dependency>
+      <dependency dep="biogenic" dep_index="4" gov="amine" gov_index="5">amod</dependency>
+      <dependency dep="amine" dep_index="5" gov="activity" gov_index="2">prep_of</dependency>
+      <dependency dep="amino" dep_index="7" gov="neurotransmitters" gov_index="9">amod</dependency>
+      <dependency dep="acid" dep_index="8" gov="neurotransmitters" gov_index="9">nn</dependency>
+      <dependency dep="neurotransmitters" dep_index="9" gov="activity" gov_index="2">prep_of</dependency>
+      <dependency dep="neurotransmitters" dep_index="9" gov="amine" gov_index="5">conj_and</dependency>
+      <dependency dep="is" dep_index="10" gov="limited" gov_index="11">auxpass</dependency>
+      <dependency dep="limited" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="presynaptic" dep_index="13" gov="systems" gov_index="18">amod</dependency>
+      <dependency dep="astrocytic" dep_index="15" gov="presynaptic" gov_index="13">conj_and</dependency>
+      <dependency dep="astrocytic" dep_index="15" gov="systems" gov_index="18">amod</dependency>
+      <dependency dep="Na(+)-dependent" dep_index="16" gov="systems" gov_index="18">amod</dependency>
+      <dependency dep="transport" dep_index="17" gov="systems" gov_index="18">nn</dependency>
+      <dependency dep="systems" dep_index="18" gov="limited" gov_index="11">agent</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

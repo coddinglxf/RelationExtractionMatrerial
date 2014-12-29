@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Surprisingly@,@although@maintained@in@mitogen-rich@medium@,@this@ectopic@expression@was@associated@with@a@transactivation@of@the@endogenous@myogenin@and@myosin light chain 2@gene@but@not@the@endogenous@MyoD1@,@MRF4@,@Myf5@,@the@skeletal muscle actin@,@or@the@myosin heavy chain@genes@.@</sentence>
+   <tags>
+      <tag pos="39">myosin heavy chain</tag>
+      <tag pos="35">skeletal muscle actin</tag>
+      <tag pos="32">Myf5</tag>
+      <tag pos="30">MRF4</tag>
+      <tag pos="28">MyoD1</tag>
+      <tag pos="22">myosin light chain 2</tag>
+      <tag pos="20">myogenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Surprisingly</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">although</taggedword>
+      <taggedword index="4" part-of-speech="VBN">maintained</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="JJ">mitogen-rich</taggedword>
+      <taggedword index="7" part-of-speech="NN">medium</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">this</taggedword>
+      <taggedword index="10" part-of-speech="JJ">ectopic</taggedword>
+      <taggedword index="11" part-of-speech="NN">expression</taggedword>
+      <taggedword index="12" part-of-speech="VBD">was</taggedword>
+      <taggedword index="13" part-of-speech="VBN">associated</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="NN">transactivation</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">endogenous</taggedword>
+      <taggedword index="20" part-of-speech="NN">myogenin</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="JJ">myosin light chain 2</taggedword>
+      <taggedword index="23" part-of-speech="NN">gene</taggedword>
+      <taggedword index="24" part-of-speech="CC">but</taggedword>
+      <taggedword index="25" part-of-speech="RB">not</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="JJ">endogenous</taggedword>
+      <taggedword index="28" part-of-speech="NNS">MyoD1</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="NNP">MRF4</taggedword>
+      <taggedword index="31" part-of-speech=",">,</taggedword>
+      <taggedword index="32" part-of-speech="NNS">Myf5</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="NN">skeletal muscle actin</taggedword>
+      <taggedword index="36" part-of-speech=",">,</taggedword>
+      <taggedword index="37" part-of-speech="CC">or</taggedword>
+      <taggedword index="38" part-of-speech="DT">the</taggedword>
+      <taggedword index="39" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="40" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Surprisingly" dep_index="1" gov="associated" gov_index="13">advmod</dependency>
+      <dependency dep="although" dep_index="3" gov="maintained" gov_index="4">mark</dependency>
+      <dependency dep="maintained" dep_index="4" gov="associated" gov_index="13">advcl</dependency>
+      <dependency dep="mitogen-rich" dep_index="6" gov="medium" gov_index="7">amod</dependency>
+      <dependency dep="medium" dep_index="7" gov="maintained" gov_index="4">prep_in</dependency>
+      <dependency dep="this" dep_index="9" gov="expression" gov_index="11">det</dependency>
+      <dependency dep="ectopic" dep_index="10" gov="expression" gov_index="11">amod</dependency>
+      <dependency dep="expression" dep_index="11" gov="associated" gov_index="13">nsubjpass</dependency>
+      <dependency dep="was" dep_index="12" gov="associated" gov_index="13">auxpass</dependency>
+      <dependency dep="associated" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="15" gov="transactivation" gov_index="16">det</dependency>
+      <dependency dep="transactivation" dep_index="16" gov="associated" gov_index="13">prep_with</dependency>
+      <dependency dep="the" dep_index="18" gov="myogenin" gov_index="20">det</dependency>
+      <dependency dep="endogenous" dep_index="19" gov="myogenin" gov_index="20">amod</dependency>
+      <dependency dep="myogenin" dep_index="20" gov="transactivation" gov_index="16">prep_of</dependency>
+      <dependency dep="myosin light chain 2" dep_index="22" gov="gene" gov_index="23">amod</dependency>
+      <dependency dep="gene" dep_index="23" gov="transactivation" gov_index="16">prep_of</dependency>
+      <dependency dep="gene" dep_index="23" gov="myogenin" gov_index="20">conj_and</dependency>
+      <dependency dep="the" dep_index="26" gov="MyoD1" gov_index="28">det</dependency>
+      <dependency dep="endogenous" dep_index="27" gov="MyoD1" gov_index="28">amod</dependency>
+      <dependency dep="MyoD1" dep_index="28" gov="associated" gov_index="13">prep_with</dependency>
+      <dependency dep="MyoD1" dep_index="28" gov="transactivation" gov_index="16">conj_negcc</dependency>
+      <dependency dep="MRF4" dep_index="30" gov="transactivation" gov_index="16">conj_negcc</dependency>
+      <dependency dep="MRF4" dep_index="30" gov="MyoD1" gov_index="28">conj_or</dependency>
+      <dependency dep="Myf5" dep_index="32" gov="transactivation" gov_index="16">conj_negcc</dependency>
+      <dependency dep="Myf5" dep_index="32" gov="MyoD1" gov_index="28">conj_or</dependency>
+      <dependency dep="the" dep_index="34" gov="skeletal muscle actin" gov_index="35">det</dependency>
+      <dependency dep="skeletal muscle actin" dep_index="35" gov="transactivation" gov_index="16">conj_negcc</dependency>
+      <dependency dep="skeletal muscle actin" dep_index="35" gov="MyoD1" gov_index="28">conj_or</dependency>
+      <dependency dep="the" dep_index="38" gov="genes" gov_index="40">det</dependency>
+      <dependency dep="myosin heavy chain" dep_index="39" gov="genes" gov_index="40">nn</dependency>
+      <dependency dep="genes" dep_index="40" gov="transactivation" gov_index="16">conj_negcc</dependency>
+      <dependency dep="genes" dep_index="40" gov="MyoD1" gov_index="28">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3500039" relationship="false">35 28 40 39</relation>
+      <relation position="3200039" relationship="false">32 28 40 39</relation>
+      <relation position="3000039" relationship="false">30 28 40 39</relation>
+      <relation position="2800039" relationship="false">28 16 40 39</relation>
+      <relation position="2200039" relationship="false">22 23 16 40 39</relation>
+      <relation position="2000039" relationship="false">20 16 40 39</relation>
+      <relation position="3200035" relationship="false">32 28 35</relation>
+      <relation position="3000035" relationship="false">30 28 35</relation>
+      <relation position="2800035" relationship="false">28 16 35</relation>
+      <relation position="2200035" relationship="false">22 23 16 35</relation>
+      <relation position="2000035" relationship="false">20 16 35</relation>
+      <relation position="3000032" relationship="false">30 28 32</relation>
+      <relation position="2800032" relationship="false">28 16 32</relation>
+      <relation position="2200032" relationship="false">22 23 16 32</relation>
+      <relation position="2000032" relationship="false">20 16 32</relation>
+      <relation position="2800030" relationship="false">28 16 30</relation>
+      <relation position="2200030" relationship="false">22 23 16 30</relation>
+      <relation position="2000030" relationship="false">20 16 30</relation>
+      <relation position="2200028" relationship="false">22 23 16 28</relation>
+      <relation position="2000028" relationship="false">20 16 28</relation>
+      <relation position="2000022" relationship="false">20 16 23 22</relation>
+   </relations>
+   <pairs/>
+</root>

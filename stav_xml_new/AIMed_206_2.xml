@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CD9@is@a@member@of@the@tetraspan@(TM4)@family@of@proteins@and@is@abundantly@expressed@in@the@epidermis@.@</sentence>
+   <tags>
+      <tag pos="1">CD9</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CD9</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">member</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">tetraspan</taggedword>
+      <taggedword index="8" part-of-speech="CD">(TM4)</taggedword>
+      <taggedword index="9" part-of-speech="NN">family</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="RB">abundantly</taggedword>
+      <taggedword index="15" part-of-speech="JJ">expressed</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NNS">epidermis</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CD9" dep_index="1" gov="member" gov_index="4">nsubj</dependency>
+      <dependency dep="CD9" dep_index="1" gov="expressed" gov_index="15">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="member" gov_index="4">cop</dependency>
+      <dependency dep="a" dep_index="3" gov="member" gov_index="4">det</dependency>
+      <dependency dep="member" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="family" gov_index="9">det</dependency>
+      <dependency dep="tetraspan" dep_index="7" gov="family" gov_index="9">nn</dependency>
+      <dependency dep="(TM4)" dep_index="8" gov="family" gov_index="9">num</dependency>
+      <dependency dep="family" dep_index="9" gov="member" gov_index="4">prep_of</dependency>
+      <dependency dep="proteins" dep_index="11" gov="family" gov_index="9">prep_of</dependency>
+      <dependency dep="is" dep_index="13" gov="expressed" gov_index="15">cop</dependency>
+      <dependency dep="abundantly" dep_index="14" gov="expressed" gov_index="15">advmod</dependency>
+      <dependency dep="expressed" dep_index="15" gov="member" gov_index="4">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="epidermis" gov_index="18">det</dependency>
+      <dependency dep="epidermis" dep_index="18" gov="expressed" gov_index="15">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>GPI-PLC@was@most@pronouncedly@stimulated@by@authentic@human@insulin@compared@to@various@insulin@analogues@and@insulin-like@growth@factor@I@</sentence>
+   <tags>
+      <tag pos="1">GPI-PLC</tag>
+      <tag pos="9">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">GPI-PLC</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="RBS">most</taggedword>
+      <taggedword index="4" part-of-speech="RB">pronouncedly</taggedword>
+      <taggedword index="5" part-of-speech="VBN">stimulated</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="JJ">authentic</taggedword>
+      <taggedword index="8" part-of-speech="JJ">human</taggedword>
+      <taggedword index="9" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="10" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="11" part-of-speech="TO">to</taggedword>
+      <taggedword index="12" part-of-speech="JJ">various</taggedword>
+      <taggedword index="13" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="14" part-of-speech="NNS">analogues</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="JJ">insulin-like</taggedword>
+      <taggedword index="17" part-of-speech="NN">growth</taggedword>
+      <taggedword index="18" part-of-speech="NN">factor</taggedword>
+      <taggedword index="19" part-of-speech="PRP">I</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="GPI-PLC" dep_index="1" gov="stimulated" gov_index="5">advmod</dependency>
+      <dependency dep="was" dep_index="2" gov="stimulated" gov_index="5">auxpass</dependency>
+      <dependency dep="most" dep_index="3" gov="stimulated" gov_index="5">advmod</dependency>
+      <dependency dep="pronouncedly" dep_index="4" gov="stimulated" gov_index="5">advmod</dependency>
+      <dependency dep="stimulated" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="authentic" dep_index="7" gov="insulin" gov_index="9">amod</dependency>
+      <dependency dep="human" dep_index="8" gov="insulin" gov_index="9">amod</dependency>
+      <dependency dep="insulin" dep_index="9" gov="stimulated" gov_index="5">agent</dependency>
+      <dependency dep="to" dep_index="11" gov="stimulated" gov_index="5">prepc_compared_to</dependency>
+      <dependency dep="various" dep_index="12" gov="analogues" gov_index="14">amod</dependency>
+      <dependency dep="insulin" dep_index="13" gov="analogues" gov_index="14">nn</dependency>
+      <dependency dep="analogues" dep_index="14" gov="stimulated" gov_index="5">pobj</dependency>
+      <dependency dep="insulin-like" dep_index="16" gov="factor" gov_index="18">amod</dependency>
+      <dependency dep="growth" dep_index="17" gov="factor" gov_index="18">nn</dependency>
+      <dependency dep="factor" dep_index="18" gov="stimulated" gov_index="5">pobj</dependency>
+      <dependency dep="factor" dep_index="18" gov="analogues" gov_index="14">conj_and</dependency>
+      <dependency dep="I" dep_index="19" gov="stimulated" gov_index="5">nsubjpass</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100009" relationship="true">1 5 9</relation>
+   </relations>
+   <pairs>
+      <pair>100009</pair>
+   </pairs>
+</root>

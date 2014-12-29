@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>One@protein@is@the@major@insulin@receptor@substrate@IRS-1@and@the@second@is@the@SH2@domain-containing@oncogenic@protein@,@Shc@.@</sentence>
+   <tags>
+      <tag pos="9">IRS-1</tag>
+      <tag pos="20">Shc</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">One</taggedword>
+      <taggedword index="2" part-of-speech="NN">protein</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">major</taggedword>
+      <taggedword index="6" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="7" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="8" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="9" part-of-speech="NN">IRS-1</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">second</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">SH2</taggedword>
+      <taggedword index="16" part-of-speech="JJ">domain-containing</taggedword>
+      <taggedword index="17" part-of-speech="JJ">oncogenic</taggedword>
+      <taggedword index="18" part-of-speech="NN">protein</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="NNP">Shc</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="One" dep_index="1" gov="protein" gov_index="2">num</dependency>
+      <dependency dep="protein" dep_index="2" gov="IRS-1" gov_index="9">nsubj</dependency>
+      <dependency dep="is" dep_index="3" gov="IRS-1" gov_index="9">cop</dependency>
+      <dependency dep="the" dep_index="4" gov="IRS-1" gov_index="9">det</dependency>
+      <dependency dep="major" dep_index="5" gov="IRS-1" gov_index="9">amod</dependency>
+      <dependency dep="insulin" dep_index="6" gov="IRS-1" gov_index="9">nn</dependency>
+      <dependency dep="receptor" dep_index="7" gov="IRS-1" gov_index="9">nn</dependency>
+      <dependency dep="substrate" dep_index="8" gov="IRS-1" gov_index="9">nn</dependency>
+      <dependency dep="IRS-1" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="second" gov_index="12">det</dependency>
+      <dependency dep="second" dep_index="12" gov="protein" gov_index="18">nsubj</dependency>
+      <dependency dep="is" dep_index="13" gov="protein" gov_index="18">cop</dependency>
+      <dependency dep="the" dep_index="14" gov="protein" gov_index="18">det</dependency>
+      <dependency dep="SH2" dep_index="15" gov="protein" gov_index="18">amod</dependency>
+      <dependency dep="domain-containing" dep_index="16" gov="protein" gov_index="18">amod</dependency>
+      <dependency dep="oncogenic" dep_index="17" gov="protein" gov_index="18">amod</dependency>
+      <dependency dep="protein" dep_index="18" gov="IRS-1" gov_index="9">conj_and</dependency>
+      <dependency dep="Shc" dep_index="20" gov="protein" gov_index="18">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900020" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

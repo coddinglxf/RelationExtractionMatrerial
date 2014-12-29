@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>However@,@although@expression@of@Ras@alone@will@not@induce@G1@CDK@activity@or@S@phase@,@coexpression@of@Ras@with@Myc@allows@the@generation@of@cyclin E-dependent kinase@activity@and@the@induction@of@S@phase@,@coincident@with@the@loss@of@the@p27@cyclin-dependent kinase inhibitor@(@CKI@).@</sentence>
+   <tags>
+      <tag pos="43">cyclin-dependent kinase inhibitor</tag>
+      <tag pos="45">CKI</tag>
+      <tag pos="22">Myc</tag>
+      <tag pos="20">Ras</tag>
+      <tag pos="12">CDK</tag>
+      <tag pos="6">Ras</tag>
+      <tag pos="42">p27</tag>
+      <tag pos="27">cyclin E-dependent kinase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">However</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="IN">although</taggedword>
+      <taggedword index="4" part-of-speech="NN">expression</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NNP">Ras</taggedword>
+      <taggedword index="7" part-of-speech="RB">alone</taggedword>
+      <taggedword index="8" part-of-speech="MD">will</taggedword>
+      <taggedword index="9" part-of-speech="RB">not</taggedword>
+      <taggedword index="10" part-of-speech="VB">induce</taggedword>
+      <taggedword index="11" part-of-speech="NNP">G1</taggedword>
+      <taggedword index="12" part-of-speech="NNP">CDK</taggedword>
+      <taggedword index="13" part-of-speech="NN">activity</taggedword>
+      <taggedword index="14" part-of-speech="CC">or</taggedword>
+      <taggedword index="15" part-of-speech="NNP">S</taggedword>
+      <taggedword index="16" part-of-speech="NN">phase</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NN">coexpression</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="NNP">Ras</taggedword>
+      <taggedword index="21" part-of-speech="IN">with</taggedword>
+      <taggedword index="22" part-of-speech="NNP">Myc</taggedword>
+      <taggedword index="23" part-of-speech="VBZ">allows</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">generation</taggedword>
+      <taggedword index="26" part-of-speech="IN">of</taggedword>
+      <taggedword index="27" part-of-speech="JJ">cyclin E-dependent kinase</taggedword>
+      <taggedword index="28" part-of-speech="NN">activity</taggedword>
+      <taggedword index="29" part-of-speech="CC">and</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="NN">induction</taggedword>
+      <taggedword index="32" part-of-speech="IN">of</taggedword>
+      <taggedword index="33" part-of-speech="NNP">S</taggedword>
+      <taggedword index="34" part-of-speech="CD">phase</taggedword>
+      <taggedword index="35" part-of-speech=",">,</taggedword>
+      <taggedword index="36" part-of-speech="CD">coincident</taggedword>
+      <taggedword index="37" part-of-speech="IN">with</taggedword>
+      <taggedword index="38" part-of-speech="DT">the</taggedword>
+      <taggedword index="39" part-of-speech="NN">loss</taggedword>
+      <taggedword index="40" part-of-speech="IN">of</taggedword>
+      <taggedword index="41" part-of-speech="DT">the</taggedword>
+      <taggedword index="42" part-of-speech="JJ">p27</taggedword>
+      <taggedword index="43" part-of-speech="JJ">cyclin-dependent kinase inhibitor</taggedword>
+      <taggedword index="44" part-of-speech="NN">(</taggedword>
+      <taggedword index="45" part-of-speech="NNP">CKI</taggedword>
+      <taggedword index="46" part-of-speech="NNP">).</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="However" dep_index="1" gov="allows" gov_index="23">advmod</dependency>
+      <dependency dep="although" dep_index="3" gov="induce" gov_index="10">mark</dependency>
+      <dependency dep="expression" dep_index="4" gov="induce" gov_index="10">nsubj</dependency>
+      <dependency dep="Ras" dep_index="6" gov="expression" gov_index="4">prep_of</dependency>
+      <dependency dep="alone" dep_index="7" gov="induce" gov_index="10">advmod</dependency>
+      <dependency dep="will" dep_index="8" gov="induce" gov_index="10">aux</dependency>
+      <dependency dep="not" dep_index="9" gov="induce" gov_index="10">neg</dependency>
+      <dependency dep="induce" dep_index="10" gov="allows" gov_index="23">advcl</dependency>
+      <dependency dep="G1" dep_index="11" gov="activity" gov_index="13">nn</dependency>
+      <dependency dep="CDK" dep_index="12" gov="activity" gov_index="13">nn</dependency>
+      <dependency dep="activity" dep_index="13" gov="induce" gov_index="10">dobj</dependency>
+      <dependency dep="S" dep_index="15" gov="phase" gov_index="16">nn</dependency>
+      <dependency dep="phase" dep_index="16" gov="induce" gov_index="10">dobj</dependency>
+      <dependency dep="phase" dep_index="16" gov="activity" gov_index="13">conj_or</dependency>
+      <dependency dep="coexpression" dep_index="18" gov="allows" gov_index="23">nsubj</dependency>
+      <dependency dep="Ras" dep_index="20" gov="coexpression" gov_index="18">prep_of</dependency>
+      <dependency dep="Myc" dep_index="22" gov="Ras" gov_index="20">prep_with</dependency>
+      <dependency dep="allows" dep_index="23" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="24" gov="generation" gov_index="25">det</dependency>
+      <dependency dep="generation" dep_index="25" gov="allows" gov_index="23">dobj</dependency>
+      <dependency dep="cyclin E-dependent kinase" dep_index="27" gov="activity" gov_index="28">amod</dependency>
+      <dependency dep="activity" dep_index="28" gov="generation" gov_index="25">prep_of</dependency>
+      <dependency dep="the" dep_index="30" gov="induction" gov_index="31">det</dependency>
+      <dependency dep="induction" dep_index="31" gov="allows" gov_index="23">dobj</dependency>
+      <dependency dep="induction" dep_index="31" gov="generation" gov_index="25">conj_and</dependency>
+      <dependency dep="S" dep_index="33" gov="induction" gov_index="31">prep_of</dependency>
+      <dependency dep="phase" dep_index="34" gov="S" gov_index="33">num</dependency>
+      <dependency dep="coincident" dep_index="36" gov="S" gov_index="33">num</dependency>
+      <dependency dep="the" dep_index="38" gov="loss" gov_index="39">det</dependency>
+      <dependency dep="loss" dep_index="39" gov="allows" gov_index="23">prep_with</dependency>
+      <dependency dep="the" dep_index="41" gov=")." gov_index="46">det</dependency>
+      <dependency dep="p27" dep_index="42" gov=")." gov_index="46">amod</dependency>
+      <dependency dep="cyclin-dependent kinase inhibitor" dep_index="43" gov=")." gov_index="46">amod</dependency>
+      <dependency dep="(" dep_index="44" gov=")." gov_index="46">nn</dependency>
+      <dependency dep="CKI" dep_index="45" gov=")." gov_index="46">nn</dependency>
+      <dependency dep=")." dep_index="46" gov="loss" gov_index="39">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="4300045" relationship="false">43 46 45</relation>
+      <relation position="2200043" relationship="false">22 20 18 23 39 46 43</relation>
+      <relation position="2000043" relationship="false">20 18 23 39 46 43</relation>
+      <relation position="1200043" relationship="false">12 13 10 23 39 46 43</relation>
+      <relation position="600043" relationship="false">6 4 10 23 39 46 43</relation>
+      <relation position="4200043" relationship="true">42 46 43</relation>
+      <relation position="2700043" relationship="false">27 28 25 23 39 46 43</relation>
+      <relation position="2200045" relationship="false">22 20 18 23 39 46 45</relation>
+      <relation position="2000045" relationship="false">20 18 23 39 46 45</relation>
+      <relation position="1200045" relationship="false">12 13 10 23 39 46 45</relation>
+      <relation position="600045" relationship="false">6 4 10 23 39 46 45</relation>
+      <relation position="4200045" relationship="true">42 46 45</relation>
+      <relation position="2700045" relationship="false">27 28 25 23 39 46 45</relation>
+      <relation position="2000022" relationship="true"></relation>
+      <relation position="1200022" relationship="false">12 13 10 23 18 20 22</relation>
+      <relation position="600022" relationship="false">6 4 10 23 18 20 22</relation>
+      <relation position="2200042" relationship="false">22 20 18 23 39 46 42</relation>
+      <relation position="2200027" relationship="true">22 20 18 23 25 28 27</relation>
+      <relation position="1200020" relationship="false">12 13 10 23 18 20</relation>
+      <relation position="600020" relationship="false">6 4 10 23 18 20</relation>
+      <relation position="2000042" relationship="false">20 18 23 39 46 42</relation>
+      <relation position="2000027" relationship="true">20 18 23 25 28 27</relation>
+      <relation position="600012" relationship="true">6 4 10 13 12</relation>
+      <relation position="1200042" relationship="false">12 13 10 23 39 46 42</relation>
+      <relation position="1200027" relationship="false">12 13 10 23 25 28 27</relation>
+      <relation position="600042" relationship="false">6 4 10 23 39 46 42</relation>
+      <relation position="600027" relationship="false">6 4 10 23 25 28 27</relation>
+      <relation position="2700042" relationship="true">27 28 25 23 39 46 42</relation>
+   </relations>
+   <pairs>
+      <pair>2700042</pair>
+      <pair>2000022</pair>
+      <pair>600012</pair>
+      <pair>4200045</pair>
+      <pair>2200027</pair>
+      <pair>4200043</pair>
+      <pair>2000027</pair>
+   </pairs>
+</root>

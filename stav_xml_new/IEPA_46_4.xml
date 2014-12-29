@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Amyloid@beta@protein@stimulation@of@phospholipase C@was@absent@from@LA-N-2@cells@previously@treated@with@norepinephrine@,@trans-1-amino-1,3-cyclopentanedicarboxylic@acid@(t-ACPD)@,@bombesin@,@or@amyloid@beta@peptide@</sentence>
+   <tags>
+      <tag pos="1">Amyloid</tag>
+      <tag pos="6">phospholipase C</tag>
+      <tag pos="24">amyloid</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Amyloid</taggedword>
+      <taggedword index="2" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="3" part-of-speech="NN">protein</taggedword>
+      <taggedword index="4" part-of-speech="NN">stimulation</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">phospholipase C</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="JJ">absent</taggedword>
+      <taggedword index="9" part-of-speech="IN">from</taggedword>
+      <taggedword index="10" part-of-speech="NN">LA-N-2</taggedword>
+      <taggedword index="11" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="12" part-of-speech="RB">previously</taggedword>
+      <taggedword index="13" part-of-speech="VBN">treated</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="NN">norepinephrine</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="JJ">trans-1-amino-1,3-cyclopentanedicarboxylic</taggedword>
+      <taggedword index="18" part-of-speech="JJ">acid</taggedword>
+      <taggedword index="19" part-of-speech="NNS">(t-ACPD)</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="NN">bombesin</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">or</taggedword>
+      <taggedword index="24" part-of-speech="JJ">amyloid</taggedword>
+      <taggedword index="25" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="26" part-of-speech="NN">peptide</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Amyloid" dep_index="1" gov="stimulation" gov_index="4">amod</dependency>
+      <dependency dep="beta" dep_index="2" gov="stimulation" gov_index="4">amod</dependency>
+      <dependency dep="protein" dep_index="3" gov="stimulation" gov_index="4">nn</dependency>
+      <dependency dep="stimulation" dep_index="4" gov="absent" gov_index="8">nsubj</dependency>
+      <dependency dep="phospholipase C" dep_index="6" gov="stimulation" gov_index="4">prep_of</dependency>
+      <dependency dep="was" dep_index="7" gov="absent" gov_index="8">cop</dependency>
+      <dependency dep="absent" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="LA-N-2" dep_index="10" gov="cells" gov_index="11">nn</dependency>
+      <dependency dep="cells" dep_index="11" gov="absent" gov_index="8">prep_from</dependency>
+      <dependency dep="previously" dep_index="12" gov="treated" gov_index="13">advmod</dependency>
+      <dependency dep="treated" dep_index="13" gov="cells" gov_index="11">partmod</dependency>
+      <dependency dep="norepinephrine" dep_index="15" gov="treated" gov_index="13">prep_with</dependency>
+      <dependency dep="trans-1-amino-1,3-cyclopentanedicarboxylic" dep_index="17" gov="(t-ACPD)" gov_index="19">amod</dependency>
+      <dependency dep="acid" dep_index="18" gov="(t-ACPD)" gov_index="19">amod</dependency>
+      <dependency dep="(t-ACPD)" dep_index="19" gov="treated" gov_index="13">prep_with</dependency>
+      <dependency dep="(t-ACPD)" dep_index="19" gov="norepinephrine" gov_index="15">conj_or</dependency>
+      <dependency dep="bombesin" dep_index="21" gov="treated" gov_index="13">prep_with</dependency>
+      <dependency dep="bombesin" dep_index="21" gov="norepinephrine" gov_index="15">conj_or</dependency>
+      <dependency dep="amyloid" dep_index="24" gov="peptide" gov_index="26">amod</dependency>
+      <dependency dep="beta" dep_index="25" gov="peptide" gov_index="26">amod</dependency>
+      <dependency dep="peptide" dep_index="26" gov="treated" gov_index="13">prep_with</dependency>
+      <dependency dep="peptide" dep_index="26" gov="norepinephrine" gov_index="15">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100006" relationship="true">1 4 6</relation>
+      <relation position="100024" relationship="false">1 4 8 11 13 26 24</relation>
+      <relation position="600024" relationship="false">6 4 8 11 13 26 24</relation>
+   </relations>
+   <pairs>
+      <pair>100006</pair>
+   </pairs>
+</root>

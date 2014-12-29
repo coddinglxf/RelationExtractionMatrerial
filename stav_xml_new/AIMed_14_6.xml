@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>By@multivariate@analysis@,@it@was@shown@that@increasing@CSF@cell@number@,@increasing@CSF@protein@concentration@,@and@the@absence@of@lymph@nodes@or@the@absence@of@trypanosomes@in@the@lymph@node@aspirate@were@the@best@predictors@for@astrogliosis@and@neurodegeneration@among@the@variables@tested@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">By</taggedword>
+      <taggedword index="2" part-of-speech="JJ">multivariate</taggedword>
+      <taggedword index="3" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">it</taggedword>
+      <taggedword index="6" part-of-speech="VBD">was</taggedword>
+      <taggedword index="7" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="8" part-of-speech="DT">that</taggedword>
+      <taggedword index="9" part-of-speech="JJ">increasing</taggedword>
+      <taggedword index="10" part-of-speech="NNP">CSF</taggedword>
+      <taggedword index="11" part-of-speech="NN">cell</taggedword>
+      <taggedword index="12" part-of-speech="NN">number</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="VBG">increasing</taggedword>
+      <taggedword index="15" part-of-speech="NNP">CSF</taggedword>
+      <taggedword index="16" part-of-speech="NN">protein</taggedword>
+      <taggedword index="17" part-of-speech="NN">concentration</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="NN">absence</taggedword>
+      <taggedword index="22" part-of-speech="IN">of</taggedword>
+      <taggedword index="23" part-of-speech="NN">lymph</taggedword>
+      <taggedword index="24" part-of-speech="NNS">nodes</taggedword>
+      <taggedword index="25" part-of-speech="CC">or</taggedword>
+      <taggedword index="26" part-of-speech="DT">the</taggedword>
+      <taggedword index="27" part-of-speech="NN">absence</taggedword>
+      <taggedword index="28" part-of-speech="IN">of</taggedword>
+      <taggedword index="29" part-of-speech="NNS">trypanosomes</taggedword>
+      <taggedword index="30" part-of-speech="IN">in</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="NN">lymph</taggedword>
+      <taggedword index="33" part-of-speech="NN">node</taggedword>
+      <taggedword index="34" part-of-speech="NN">aspirate</taggedword>
+      <taggedword index="35" part-of-speech="VBD">were</taggedword>
+      <taggedword index="36" part-of-speech="DT">the</taggedword>
+      <taggedword index="37" part-of-speech="JJS">best</taggedword>
+      <taggedword index="38" part-of-speech="NNS">predictors</taggedword>
+      <taggedword index="39" part-of-speech="IN">for</taggedword>
+      <taggedword index="40" part-of-speech="NNS">astrogliosis</taggedword>
+      <taggedword index="41" part-of-speech="CC">and</taggedword>
+      <taggedword index="42" part-of-speech="NN">neurodegeneration</taggedword>
+      <taggedword index="43" part-of-speech="IN">among</taggedword>
+      <taggedword index="44" part-of-speech="DT">the</taggedword>
+      <taggedword index="45" part-of-speech="NNS">variables</taggedword>
+      <taggedword index="46" part-of-speech="VBN">tested</taggedword>
+      <taggedword index="47" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="multivariate" dep_index="2" gov="analysis" gov_index="3">amod</dependency>
+      <dependency dep="analysis" dep_index="3" gov="shown" gov_index="7">agent</dependency>
+      <dependency dep="it" dep_index="5" gov="shown" gov_index="7">nsubjpass</dependency>
+      <dependency dep="was" dep_index="6" gov="shown" gov_index="7">auxpass</dependency>
+      <dependency dep="shown" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="8" gov="number" gov_index="12">det</dependency>
+      <dependency dep="increasing" dep_index="9" gov="number" gov_index="12">amod</dependency>
+      <dependency dep="CSF" dep_index="10" gov="number" gov_index="12">nn</dependency>
+      <dependency dep="cell" dep_index="11" gov="number" gov_index="12">nn</dependency>
+      <dependency dep="number" dep_index="12" gov="shown" gov_index="7">dobj</dependency>
+      <dependency dep="increasing" dep_index="14" gov="shown" gov_index="7">partmod</dependency>
+      <dependency dep="CSF" dep_index="15" gov="concentration" gov_index="17">nn</dependency>
+      <dependency dep="protein" dep_index="16" gov="concentration" gov_index="17">nn</dependency>
+      <dependency dep="concentration" dep_index="17" gov="increasing" gov_index="14">dobj</dependency>
+      <dependency dep="the" dep_index="20" gov="absence" gov_index="21">det</dependency>
+      <dependency dep="absence" dep_index="21" gov="predictors" gov_index="38">nsubj</dependency>
+      <dependency dep="lymph" dep_index="23" gov="nodes" gov_index="24">nn</dependency>
+      <dependency dep="nodes" dep_index="24" gov="absence" gov_index="21">prep_of</dependency>
+      <dependency dep="the" dep_index="26" gov="absence" gov_index="27">det</dependency>
+      <dependency dep="absence" dep_index="27" gov="absence" gov_index="21">conj_or</dependency>
+      <dependency dep="absence" dep_index="27" gov="predictors" gov_index="38">nsubj</dependency>
+      <dependency dep="trypanosomes" dep_index="29" gov="absence" gov_index="27">prep_of</dependency>
+      <dependency dep="the" dep_index="31" gov="aspirate" gov_index="34">det</dependency>
+      <dependency dep="lymph" dep_index="32" gov="aspirate" gov_index="34">nn</dependency>
+      <dependency dep="node" dep_index="33" gov="aspirate" gov_index="34">nn</dependency>
+      <dependency dep="aspirate" dep_index="34" gov="trypanosomes" gov_index="29">prep_in</dependency>
+      <dependency dep="were" dep_index="35" gov="predictors" gov_index="38">cop</dependency>
+      <dependency dep="the" dep_index="36" gov="predictors" gov_index="38">det</dependency>
+      <dependency dep="best" dep_index="37" gov="predictors" gov_index="38">amod</dependency>
+      <dependency dep="predictors" dep_index="38" gov="shown" gov_index="7">conj_and</dependency>
+      <dependency dep="astrogliosis" dep_index="40" gov="predictors" gov_index="38">prep_for</dependency>
+      <dependency dep="neurodegeneration" dep_index="42" gov="predictors" gov_index="38">prep_for</dependency>
+      <dependency dep="neurodegeneration" dep_index="42" gov="astrogliosis" gov_index="40">conj_and</dependency>
+      <dependency dep="the" dep_index="44" gov="variables" gov_index="45">det</dependency>
+      <dependency dep="variables" dep_index="45" gov="predictors" gov_index="38">prep_among</dependency>
+      <dependency dep="tested" dep_index="46" gov="variables" gov_index="45">partmod</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

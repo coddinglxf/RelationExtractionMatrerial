@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Expression@cloning@of@a@receptor@for@human@granulocyte-macrophage@colony-stimulating@factor@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Expression</taggedword>
+      <taggedword index="2" part-of-speech="NN">cloning</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="JJ">human</taggedword>
+      <taggedword index="8" part-of-speech="JJ">granulocyte-macrophage</taggedword>
+      <taggedword index="9" part-of-speech="JJ">colony-stimulating</taggedword>
+      <taggedword index="10" part-of-speech="NN">factor</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Expression" dep_index="1" gov="cloning" gov_index="2">nn</dependency>
+      <dependency dep="cloning" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="4" gov="receptor" gov_index="5">det</dependency>
+      <dependency dep="receptor" dep_index="5" gov="cloning" gov_index="2">prep_of</dependency>
+      <dependency dep="human" dep_index="7" gov="factor" gov_index="10">amod</dependency>
+      <dependency dep="granulocyte-macrophage" dep_index="8" gov="factor" gov_index="10">amod</dependency>
+      <dependency dep="colony-stimulating" dep_index="9" gov="factor" gov_index="10">amod</dependency>
+      <dependency dep="factor" dep_index="10" gov="cloning" gov_index="2">prep_for</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

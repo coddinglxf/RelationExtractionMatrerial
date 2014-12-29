@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>After@24@or@48@hours@of@shear@,@staining@for@VE-cadherin@,@alpha-catenin@,@and@beta-catenin@was@intense@and@peripheral@,@forming@a@band@of@"dashes"@(adherens@plaques)@that@colocalized@with@the@ends@of@stress@fibers@that@inserted@along@the@lateral@membranes@of@cells@.@</sentence>
+   <tags>
+      <tag pos="16">beta-catenin</tag>
+      <tag pos="11">VE-cadherin</tag>
+      <tag pos="13">alpha-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">After</taggedword>
+      <taggedword index="2" part-of-speech="CD">24</taggedword>
+      <taggedword index="3" part-of-speech="CC">or</taggedword>
+      <taggedword index="4" part-of-speech="CD">48</taggedword>
+      <taggedword index="5" part-of-speech="NNS">hours</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">shear</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">staining</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="NNP">VE-cadherin</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="17" part-of-speech="VBD">was</taggedword>
+      <taggedword index="18" part-of-speech="JJ">intense</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="JJ">peripheral</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="VBG">forming</taggedword>
+      <taggedword index="23" part-of-speech="DT">a</taggedword>
+      <taggedword index="24" part-of-speech="NN">band</taggedword>
+      <taggedword index="25" part-of-speech="IN">of</taggedword>
+      <taggedword index="26" part-of-speech="JJ">"dashes"</taggedword>
+      <taggedword index="27" part-of-speech="NNS">(adherens</taggedword>
+      <taggedword index="28" part-of-speech="NNS">plaques)</taggedword>
+      <taggedword index="29" part-of-speech="WDT">that</taggedword>
+      <taggedword index="30" part-of-speech="VBN">colocalized</taggedword>
+      <taggedword index="31" part-of-speech="IN">with</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NNS">ends</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="NN">stress</taggedword>
+      <taggedword index="36" part-of-speech="NNS">fibers</taggedword>
+      <taggedword index="37" part-of-speech="WDT">that</taggedword>
+      <taggedword index="38" part-of-speech="VBN">inserted</taggedword>
+      <taggedword index="39" part-of-speech="IN">along</taggedword>
+      <taggedword index="40" part-of-speech="DT">the</taggedword>
+      <taggedword index="41" part-of-speech="JJ">lateral</taggedword>
+      <taggedword index="42" part-of-speech="NNS">membranes</taggedword>
+      <taggedword index="43" part-of-speech="IN">of</taggedword>
+      <taggedword index="44" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="45" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="24" dep_index="2" gov="hours" gov_index="5">nn</dependency>
+      <dependency dep="48" dep_index="4" gov="24" gov_index="2">conj_or</dependency>
+      <dependency dep="48" dep_index="4" gov="hours" gov_index="5">nn</dependency>
+      <dependency dep="hours" dep_index="5" gov="intense" gov_index="18">prep_after</dependency>
+      <dependency dep="shear" dep_index="7" gov="hours" gov_index="5">prep_of</dependency>
+      <dependency dep="staining" dep_index="9" gov="intense" gov_index="18">nsubj</dependency>
+      <dependency dep="staining" dep_index="9" gov="peripheral" gov_index="20">nsubj</dependency>
+      <dependency dep="VE-cadherin" dep_index="11" gov="staining" gov_index="9">prep_for</dependency>
+      <dependency dep="alpha-catenin" dep_index="13" gov="staining" gov_index="9">prep_for</dependency>
+      <dependency dep="alpha-catenin" dep_index="13" gov="VE-cadherin" gov_index="11">conj_and</dependency>
+      <dependency dep="beta-catenin" dep_index="16" gov="staining" gov_index="9">prep_for</dependency>
+      <dependency dep="beta-catenin" dep_index="16" gov="VE-cadherin" gov_index="11">conj_and</dependency>
+      <dependency dep="was" dep_index="17" gov="intense" gov_index="18">cop</dependency>
+      <dependency dep="intense" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="peripheral" dep_index="20" gov="intense" gov_index="18">conj_and</dependency>
+      <dependency dep="forming" dep_index="22" gov="intense" gov_index="18">xcomp</dependency>
+      <dependency dep="a" dep_index="23" gov="band" gov_index="24">det</dependency>
+      <dependency dep="band" dep_index="24" gov="forming" gov_index="22">dobj</dependency>
+      <dependency dep="band" dep_index="24" gov="colocalized" gov_index="30">nsubj</dependency>
+      <dependency dep="&quot;dashes&quot;" dep_index="26" gov="plaques)" gov_index="28">amod</dependency>
+      <dependency dep="(adherens" dep_index="27" gov="plaques)" gov_index="28">nn</dependency>
+      <dependency dep="plaques)" dep_index="28" gov="band" gov_index="24">prep_of</dependency>
+      <dependency dep="colocalized" dep_index="30" gov="band" gov_index="24">rcmod</dependency>
+      <dependency dep="the" dep_index="32" gov="ends" gov_index="33">det</dependency>
+      <dependency dep="ends" dep_index="33" gov="colocalized" gov_index="30">prep_with</dependency>
+      <dependency dep="ends" dep_index="33" gov="inserted" gov_index="38">nsubj</dependency>
+      <dependency dep="stress" dep_index="35" gov="fibers" gov_index="36">nn</dependency>
+      <dependency dep="fibers" dep_index="36" gov="ends" gov_index="33">prep_of</dependency>
+      <dependency dep="inserted" dep_index="38" gov="ends" gov_index="33">rcmod</dependency>
+      <dependency dep="the" dep_index="40" gov="membranes" gov_index="42">det</dependency>
+      <dependency dep="lateral" dep_index="41" gov="membranes" gov_index="42">amod</dependency>
+      <dependency dep="membranes" dep_index="42" gov="inserted" gov_index="38">prep_along</dependency>
+      <dependency dep="cells" dep_index="44" gov="membranes" gov_index="42">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100016" relationship="false">11 9 16</relation>
+      <relation position="1300016" relationship="false">13 9 16</relation>
+      <relation position="1100013" relationship="false">11 9 13</relation>
+   </relations>
+   <pairs/>
+</root>

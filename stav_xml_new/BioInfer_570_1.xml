@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@affinity@of@yeast@profilin@for@rabbit@actin@(2.9@microM)@is@approximately@30-fold@weaker@than@the@affinity@of@human@platelet profilin@for@rabbit@actin@(0.1@microM)@,@and@the@relative@contributions@of@entropic@and@enthalpic@terms@to@the@overall@free@energy@of@binding@are@different@for@the@two@profilins@.@</sentence>
+   <tags>
+      <tag pos="5">profilin</tag>
+      <tag pos="20">platelet profilin</tag>
+      <tag pos="8">actin</tag>
+      <tag pos="23">actin</tag>
+      <tag pos="48">profilins</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="5" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="6" part-of-speech="IN">for</taggedword>
+      <taggedword index="7" part-of-speech="NN">rabbit</taggedword>
+      <taggedword index="8" part-of-speech="NN">actin</taggedword>
+      <taggedword index="9" part-of-speech="CD">(2.9</taggedword>
+      <taggedword index="10" part-of-speech="RB">microM)</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="12" part-of-speech="RB">approximately</taggedword>
+      <taggedword index="13" part-of-speech="JJ">30-fold</taggedword>
+      <taggedword index="14" part-of-speech="JJR">weaker</taggedword>
+      <taggedword index="15" part-of-speech="IN">than</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="18" part-of-speech="IN">of</taggedword>
+      <taggedword index="19" part-of-speech="JJ">human</taggedword>
+      <taggedword index="20" part-of-speech="NN">platelet profilin</taggedword>
+      <taggedword index="21" part-of-speech="IN">for</taggedword>
+      <taggedword index="22" part-of-speech="NN">rabbit</taggedword>
+      <taggedword index="23" part-of-speech="VBN">actin</taggedword>
+      <taggedword index="24" part-of-speech="CD">(0.1</taggedword>
+      <taggedword index="25" part-of-speech="CD">microM)</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="JJ">relative</taggedword>
+      <taggedword index="30" part-of-speech="NNS">contributions</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="JJ">entropic</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="JJ">enthalpic</taggedword>
+      <taggedword index="35" part-of-speech="NNS">terms</taggedword>
+      <taggedword index="36" part-of-speech="TO">to</taggedword>
+      <taggedword index="37" part-of-speech="DT">the</taggedword>
+      <taggedword index="38" part-of-speech="JJ">overall</taggedword>
+      <taggedword index="39" part-of-speech="JJ">free</taggedword>
+      <taggedword index="40" part-of-speech="NN">energy</taggedword>
+      <taggedword index="41" part-of-speech="IN">of</taggedword>
+      <taggedword index="42" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="43" part-of-speech="VBP">are</taggedword>
+      <taggedword index="44" part-of-speech="JJ">different</taggedword>
+      <taggedword index="45" part-of-speech="IN">for</taggedword>
+      <taggedword index="46" part-of-speech="DT">the</taggedword>
+      <taggedword index="47" part-of-speech="CD">two</taggedword>
+      <taggedword index="48" part-of-speech="NNS">profilins</taggedword>
+      <taggedword index="49" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="affinity" gov_index="2">det</dependency>
+      <dependency dep="affinity" dep_index="2" gov="30-fold" gov_index="13">nsubj</dependency>
+      <dependency dep="yeast" dep_index="4" gov="profilin" gov_index="5">nn</dependency>
+      <dependency dep="profilin" dep_index="5" gov="affinity" gov_index="2">prep_of</dependency>
+      <dependency dep="rabbit" dep_index="7" gov="actin" gov_index="8">nn</dependency>
+      <dependency dep="actin" dep_index="8" gov="profilin" gov_index="5">prep_for</dependency>
+      <dependency dep="(2.9" dep_index="9" gov="actin" gov_index="8">num</dependency>
+      <dependency dep="microM)" dep_index="10" gov="30-fold" gov_index="13">advmod</dependency>
+      <dependency dep="is" dep_index="11" gov="30-fold" gov_index="13">cop</dependency>
+      <dependency dep="approximately" dep_index="12" gov="30-fold" gov_index="13">advmod</dependency>
+      <dependency dep="30-fold" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="weaker" dep_index="14" gov="30-fold" gov_index="13">dep</dependency>
+      <dependency dep="than" dep_index="15" gov="different" gov_index="44">mark</dependency>
+      <dependency dep="the" dep_index="16" gov="affinity" gov_index="17">det</dependency>
+      <dependency dep="affinity" dep_index="17" gov="different" gov_index="44">nsubj</dependency>
+      <dependency dep="human" dep_index="19" gov="platelet profilin" gov_index="20">amod</dependency>
+      <dependency dep="platelet profilin" dep_index="20" gov="affinity" gov_index="17">prep_of</dependency>
+      <dependency dep="rabbit" dep_index="22" gov="platelet profilin" gov_index="20">prep_for</dependency>
+      <dependency dep="actin" dep_index="23" gov="rabbit" gov_index="22">partmod</dependency>
+      <dependency dep="(0.1" dep_index="24" gov="microM)" gov_index="25">number</dependency>
+      <dependency dep="microM)" dep_index="25" gov="actin" gov_index="23">dobj</dependency>
+      <dependency dep="the" dep_index="28" gov="contributions" gov_index="30">det</dependency>
+      <dependency dep="relative" dep_index="29" gov="contributions" gov_index="30">amod</dependency>
+      <dependency dep="contributions" dep_index="30" gov="actin" gov_index="23">dobj</dependency>
+      <dependency dep="contributions" dep_index="30" gov="microM)" gov_index="25">conj_and</dependency>
+      <dependency dep="entropic" dep_index="32" gov="terms" gov_index="35">amod</dependency>
+      <dependency dep="enthalpic" dep_index="34" gov="entropic" gov_index="32">conj_and</dependency>
+      <dependency dep="enthalpic" dep_index="34" gov="terms" gov_index="35">amod</dependency>
+      <dependency dep="terms" dep_index="35" gov="contributions" gov_index="30">prep_of</dependency>
+      <dependency dep="the" dep_index="37" gov="energy" gov_index="40">det</dependency>
+      <dependency dep="overall" dep_index="38" gov="energy" gov_index="40">amod</dependency>
+      <dependency dep="free" dep_index="39" gov="energy" gov_index="40">amod</dependency>
+      <dependency dep="energy" dep_index="40" gov="actin" gov_index="23">prep_to</dependency>
+      <dependency dep="binding" dep_index="42" gov="energy" gov_index="40">prep_of</dependency>
+      <dependency dep="are" dep_index="43" gov="different" gov_index="44">cop</dependency>
+      <dependency dep="different" dep_index="44" gov="30-fold" gov_index="13">advcl</dependency>
+      <dependency dep="the" dep_index="46" gov="profilins" gov_index="48">det</dependency>
+      <dependency dep="two" dep_index="47" gov="profilins" gov_index="48">num</dependency>
+      <dependency dep="profilins" dep_index="48" gov="different" gov_index="44">prep_for</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500020" relationship="false">5 2 13 44 17 20</relation>
+      <relation position="500008" relationship="true"></relation>
+      <relation position="500023" relationship="false">5 2 13 44 17 20 22 23</relation>
+      <relation position="500048" relationship="false">5 2 13 44 48</relation>
+      <relation position="800020" relationship="false">8 5 2 13 44 17 20</relation>
+      <relation position="2000023" relationship="true"></relation>
+      <relation position="2000048" relationship="false">20 17 44 48</relation>
+      <relation position="800023" relationship="false">8 5 2 13 44 17 20 22 23</relation>
+      <relation position="800048" relationship="false">8 5 2 13 44 48</relation>
+      <relation position="2300048" relationship="false">23 22 20 17 44 48</relation>
+   </relations>
+   <pairs>
+      <pair>2000023</pair>
+      <pair>500008</pair>
+   </pairs>
+</root>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@previously@have@shown@that@PTF@purified@from@human@HeLa@cells@is@a@multisubunit@complex@of@four@polypeptides@designated@PTF alpha@,@-beta@,@-gamma@,@and@-delta@.@</sentence>
+   <tags>
+      <tag pos="6">PTF</tag>
+      <tag pos="20">PTF alpha</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="RB">previously</taggedword>
+      <taggedword index="3" part-of-speech="VBP">have</taggedword>
+      <taggedword index="4" part-of-speech="VBN">shown</taggedword>
+      <taggedword index="5" part-of-speech="IN">that</taggedword>
+      <taggedword index="6" part-of-speech="NNP">PTF</taggedword>
+      <taggedword index="7" part-of-speech="NNP">purified</taggedword>
+      <taggedword index="8" part-of-speech="IN">from</taggedword>
+      <taggedword index="9" part-of-speech="JJ">human</taggedword>
+      <taggedword index="10" part-of-speech="NNP">HeLa</taggedword>
+      <taggedword index="11" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="12" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="JJ">multisubunit</taggedword>
+      <taggedword index="15" part-of-speech="NN">complex</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="CD">four</taggedword>
+      <taggedword index="18" part-of-speech="NNS">polypeptides</taggedword>
+      <taggedword index="19" part-of-speech="VBN">designated</taggedword>
+      <taggedword index="20" part-of-speech="NNP">PTF alpha</taggedword>
+      <taggedword index="21" part-of-speech=",">,</taggedword>
+      <taggedword index="22" part-of-speech="NN">-beta</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="NN">-gamma</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="NN">-delta</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="shown" gov_index="4">nsubj</dependency>
+      <dependency dep="previously" dep_index="2" gov="shown" gov_index="4">advmod</dependency>
+      <dependency dep="have" dep_index="3" gov="shown" gov_index="4">aux</dependency>
+      <dependency dep="shown" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="5" gov="complex" gov_index="15">mark</dependency>
+      <dependency dep="PTF" dep_index="6" gov="purified" gov_index="7">nn</dependency>
+      <dependency dep="purified" dep_index="7" gov="complex" gov_index="15">nsubj</dependency>
+      <dependency dep="human" dep_index="9" gov="cells" gov_index="11">amod</dependency>
+      <dependency dep="HeLa" dep_index="10" gov="cells" gov_index="11">nn</dependency>
+      <dependency dep="cells" dep_index="11" gov="purified" gov_index="7">prep_from</dependency>
+      <dependency dep="is" dep_index="12" gov="complex" gov_index="15">cop</dependency>
+      <dependency dep="a" dep_index="13" gov="complex" gov_index="15">det</dependency>
+      <dependency dep="multisubunit" dep_index="14" gov="complex" gov_index="15">amod</dependency>
+      <dependency dep="complex" dep_index="15" gov="shown" gov_index="4">ccomp</dependency>
+      <dependency dep="four" dep_index="17" gov="polypeptides" gov_index="18">num</dependency>
+      <dependency dep="polypeptides" dep_index="18" gov="complex" gov_index="15">prep_of</dependency>
+      <dependency dep="designated" dep_index="19" gov="polypeptides" gov_index="18">partmod</dependency>
+      <dependency dep="PTF alpha" dep_index="20" gov="designated" gov_index="19">dobj</dependency>
+      <dependency dep="-beta" dep_index="22" gov="designated" gov_index="19">dobj</dependency>
+      <dependency dep="-beta" dep_index="22" gov="PTF alpha" gov_index="20">conj_and</dependency>
+      <dependency dep="-gamma" dep_index="24" gov="designated" gov_index="19">dobj</dependency>
+      <dependency dep="-gamma" dep_index="24" gov="PTF alpha" gov_index="20">conj_and</dependency>
+      <dependency dep="-delta" dep_index="27" gov="designated" gov_index="19">dobj</dependency>
+      <dependency dep="-delta" dep_index="27" gov="PTF alpha" gov_index="20">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600020" relationship="false">6 7 15 18 19 20</relation>
+   </relations>
+   <pairs/>
+</root>

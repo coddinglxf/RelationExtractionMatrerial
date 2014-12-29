@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Selectivity@of@those@interactions@is@due@to@the@steric@complementarity@between@bulky@hydrophobic@residues@in@the@fusogenic@fragments@and@hydrophobic@residues@in@the@apolipoprotein@C-terminal@amphipathic@helices@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Selectivity</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">those</taggedword>
+      <taggedword index="4" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="6" part-of-speech="JJ">due</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="JJ">steric</taggedword>
+      <taggedword index="10" part-of-speech="NN">complementarity</taggedword>
+      <taggedword index="11" part-of-speech="IN">between</taggedword>
+      <taggedword index="12" part-of-speech="JJ">bulky</taggedword>
+      <taggedword index="13" part-of-speech="JJ">hydrophobic</taggedword>
+      <taggedword index="14" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="DT">the</taggedword>
+      <taggedword index="17" part-of-speech="JJ">fusogenic</taggedword>
+      <taggedword index="18" part-of-speech="NNS">fragments</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="JJ">hydrophobic</taggedword>
+      <taggedword index="21" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="JJ">apolipoprotein</taggedword>
+      <taggedword index="25" part-of-speech="JJ">C-terminal</taggedword>
+      <taggedword index="26" part-of-speech="JJ">amphipathic</taggedword>
+      <taggedword index="27" part-of-speech="NNS">helices</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Selectivity" dep_index="1" gov="due" gov_index="6">nsubj</dependency>
+      <dependency dep="those" dep_index="3" gov="interactions" gov_index="4">det</dependency>
+      <dependency dep="interactions" dep_index="4" gov="Selectivity" gov_index="1">prep_of</dependency>
+      <dependency dep="is" dep_index="5" gov="due" gov_index="6">cop</dependency>
+      <dependency dep="due" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="complementarity" gov_index="10">det</dependency>
+      <dependency dep="steric" dep_index="9" gov="complementarity" gov_index="10">amod</dependency>
+      <dependency dep="complementarity" dep_index="10" gov="due" gov_index="6">prep_to</dependency>
+      <dependency dep="bulky" dep_index="12" gov="residues" gov_index="14">amod</dependency>
+      <dependency dep="hydrophobic" dep_index="13" gov="residues" gov_index="14">amod</dependency>
+      <dependency dep="residues" dep_index="14" gov="complementarity" gov_index="10">prep_between</dependency>
+      <dependency dep="the" dep_index="16" gov="fragments" gov_index="18">det</dependency>
+      <dependency dep="fusogenic" dep_index="17" gov="fragments" gov_index="18">amod</dependency>
+      <dependency dep="fragments" dep_index="18" gov="residues" gov_index="14">prep_in</dependency>
+      <dependency dep="hydrophobic" dep_index="20" gov="residues" gov_index="21">amod</dependency>
+      <dependency dep="residues" dep_index="21" gov="complementarity" gov_index="10">prep_between</dependency>
+      <dependency dep="residues" dep_index="21" gov="residues" gov_index="14">conj_and</dependency>
+      <dependency dep="the" dep_index="23" gov="helices" gov_index="27">det</dependency>
+      <dependency dep="apolipoprotein" dep_index="24" gov="helices" gov_index="27">amod</dependency>
+      <dependency dep="C-terminal" dep_index="25" gov="helices" gov_index="27">amod</dependency>
+      <dependency dep="amphipathic" dep_index="26" gov="helices" gov_index="27">amod</dependency>
+      <dependency dep="helices" dep_index="27" gov="residues" gov_index="21">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

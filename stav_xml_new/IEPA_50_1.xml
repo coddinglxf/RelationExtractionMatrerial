@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Insulin@secretion@is@regulated@by@changes@in@blood@glucose@,@as@well@as@by@peptides@from@the@gastrointestinal@tract@and@neurotransmitters@that@activate@the@pancreatic@islet@adenylyl@cyclase@(e.g.@,@glucagon-like@peptide-1)@and@phospholipase C@(PLC)@(e.g.@,@acetylcholine)@signaling@pathways@to@further@potentiate@glucose-induced@insulin@secretion@</sentence>
+   <tags>
+      <tag pos="1">Insulin</tag>
+      <tag pos="34">phospholipase C</tag>
+      <tag pos="45">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Insulin</taggedword>
+      <taggedword index="2" part-of-speech="NNP">secretion</taggedword>
+      <taggedword index="3" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="4" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="5" part-of-speech="IN">by</taggedword>
+      <taggedword index="6" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="7" part-of-speech="IN">in</taggedword>
+      <taggedword index="8" part-of-speech="NN">blood</taggedword>
+      <taggedword index="9" part-of-speech="NN">glucose</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="RB">as</taggedword>
+      <taggedword index="12" part-of-speech="RB">well</taggedword>
+      <taggedword index="13" part-of-speech="IN">as</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="NNS">peptides</taggedword>
+      <taggedword index="16" part-of-speech="IN">from</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="JJ">gastrointestinal</taggedword>
+      <taggedword index="19" part-of-speech="NN">tract</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="NNS">neurotransmitters</taggedword>
+      <taggedword index="22" part-of-speech="WDT">that</taggedword>
+      <taggedword index="23" part-of-speech="VBP">activate</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="JJ">pancreatic</taggedword>
+      <taggedword index="26" part-of-speech="JJ">islet</taggedword>
+      <taggedword index="27" part-of-speech="JJ">adenylyl</taggedword>
+      <taggedword index="28" part-of-speech="NN">cyclase</taggedword>
+      <taggedword index="29" part-of-speech="NN">(e.g.</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="JJ">glucagon-like</taggedword>
+      <taggedword index="32" part-of-speech="JJ">peptide-1)</taggedword>
+      <taggedword index="33" part-of-speech="CC">and</taggedword>
+      <taggedword index="34" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="35" part-of-speech="JJ">(PLC)</taggedword>
+      <taggedword index="36" part-of-speech="NNS">(e.g.</taggedword>
+      <taggedword index="37" part-of-speech=",">,</taggedword>
+      <taggedword index="38" part-of-speech="VBZ">acetylcholine)</taggedword>
+      <taggedword index="39" part-of-speech="VBG">signaling</taggedword>
+      <taggedword index="40" part-of-speech="NNS">pathways</taggedword>
+      <taggedword index="41" part-of-speech="TO">to</taggedword>
+      <taggedword index="42" part-of-speech="RBR">further</taggedword>
+      <taggedword index="43" part-of-speech="VB">potentiate</taggedword>
+      <taggedword index="44" part-of-speech="JJ">glucose-induced</taggedword>
+      <taggedword index="45" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="46" part-of-speech="NN">secretion</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Insulin" dep_index="1" gov="secretion" gov_index="2">nn</dependency>
+      <dependency dep="secretion" dep_index="2" gov="regulated" gov_index="4">nsubjpass</dependency>
+      <dependency dep="is" dep_index="3" gov="regulated" gov_index="4">auxpass</dependency>
+      <dependency dep="regulated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="changes" dep_index="6" gov="regulated" gov_index="4">agent</dependency>
+      <dependency dep="blood" dep_index="8" gov="glucose" gov_index="9">nn</dependency>
+      <dependency dep="glucose" dep_index="9" gov="changes" gov_index="6">prep_in</dependency>
+      <dependency dep="peptides" dep_index="15" gov="regulated" gov_index="4">agent</dependency>
+      <dependency dep="peptides" dep_index="15" gov="changes" gov_index="6">conj_and</dependency>
+      <dependency dep="the" dep_index="17" gov="tract" gov_index="19">det</dependency>
+      <dependency dep="gastrointestinal" dep_index="18" gov="tract" gov_index="19">amod</dependency>
+      <dependency dep="tract" dep_index="19" gov="regulated" gov_index="4">prep_from</dependency>
+      <dependency dep="neurotransmitters" dep_index="21" gov="regulated" gov_index="4">prep_from</dependency>
+      <dependency dep="neurotransmitters" dep_index="21" gov="tract" gov_index="19">conj_and</dependency>
+      <dependency dep="neurotransmitters" dep_index="21" gov="activate" gov_index="23">nsubj</dependency>
+      <dependency dep="activate" dep_index="23" gov="neurotransmitters" gov_index="21">rcmod</dependency>
+      <dependency dep="the" dep_index="24" gov="(e.g." gov_index="29">det</dependency>
+      <dependency dep="pancreatic" dep_index="25" gov="(e.g." gov_index="29">amod</dependency>
+      <dependency dep="islet" dep_index="26" gov="(e.g." gov_index="29">amod</dependency>
+      <dependency dep="adenylyl" dep_index="27" gov="(e.g." gov_index="29">amod</dependency>
+      <dependency dep="cyclase" dep_index="28" gov="(e.g." gov_index="29">nn</dependency>
+      <dependency dep="(e.g." dep_index="29" gov="acetylcholine)" gov_index="38">nsubj</dependency>
+      <dependency dep="glucagon-like" dep_index="31" gov="(e.g." gov_index="36">amod</dependency>
+      <dependency dep="peptide-1)" dep_index="32" gov="(e.g." gov_index="36">amod</dependency>
+      <dependency dep="phospholipase C" dep_index="34" gov="peptide-1)" gov_index="32">conj_and</dependency>
+      <dependency dep="phospholipase C" dep_index="34" gov="(e.g." gov_index="36">amod</dependency>
+      <dependency dep="(PLC)" dep_index="35" gov="(e.g." gov_index="36">amod</dependency>
+      <dependency dep="(e.g." dep_index="36" gov="(e.g." gov_index="29">appos</dependency>
+      <dependency dep="acetylcholine)" dep_index="38" gov="activate" gov_index="23">ccomp</dependency>
+      <dependency dep="signaling" dep_index="39" gov="acetylcholine)" gov_index="38">xcomp</dependency>
+      <dependency dep="pathways" dep_index="40" gov="signaling" gov_index="39">dobj</dependency>
+      <dependency dep="to" dep_index="41" gov="potentiate" gov_index="43">aux</dependency>
+      <dependency dep="further" dep_index="42" gov="potentiate" gov_index="43">advmod</dependency>
+      <dependency dep="potentiate" dep_index="43" gov="signaling" gov_index="39">xcomp</dependency>
+      <dependency dep="glucose-induced" dep_index="44" gov="secretion" gov_index="46">amod</dependency>
+      <dependency dep="insulin" dep_index="45" gov="secretion" gov_index="46">nn</dependency>
+      <dependency dep="secretion" dep_index="46" gov="potentiate" gov_index="43">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100034" relationship="false">1 2 4 21 23 38 29 36 34</relation>
+      <relation position="100045" relationship="false">1 2 4 21 23 38 39 43 46 45</relation>
+      <relation position="3400045" relationship="true">34 36 29 38 39 43 46 45</relation>
+   </relations>
+   <pairs>
+      <pair>3400045</pair>
+   </pairs>
+</root>

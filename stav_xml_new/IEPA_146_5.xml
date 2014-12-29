@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Pretreatment@for@24@h@with@1@microM@PMA@downregulated@expression@of@PKC-alpha@and@-delta@,@but@not@PKC-epsilon@,@and@prevented@the@Ca2+-spiking@responses@to@either@1@nM@PMA@or@100@pM@AVP@</sentence>
+   <tags>
+      <tag pos="12">PKC-alpha</tag>
+      <tag pos="18">PKC-epsilon</tag>
+      <tag pos="33">AVP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Pretreatment</taggedword>
+      <taggedword index="2" part-of-speech="IN">for</taggedword>
+      <taggedword index="3" part-of-speech="CD">24</taggedword>
+      <taggedword index="4" part-of-speech="NN">h</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="CD">1</taggedword>
+      <taggedword index="7" part-of-speech="NN">microM</taggedword>
+      <taggedword index="8" part-of-speech="NNP">PMA</taggedword>
+      <taggedword index="9" part-of-speech="VBD">downregulated</taggedword>
+      <taggedword index="10" part-of-speech="NN">expression</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NNP">PKC-alpha</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NNP">-delta</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">but</taggedword>
+      <taggedword index="17" part-of-speech="RB">not</taggedword>
+      <taggedword index="18" part-of-speech="JJ">PKC-epsilon</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="CC">and</taggedword>
+      <taggedword index="21" part-of-speech="VBD">prevented</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">Ca2+-spiking</taggedword>
+      <taggedword index="24" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="25" part-of-speech="TO">to</taggedword>
+      <taggedword index="26" part-of-speech="CC">either</taggedword>
+      <taggedword index="27" part-of-speech="CD">1</taggedword>
+      <taggedword index="28" part-of-speech="NN">nM</taggedword>
+      <taggedword index="29" part-of-speech="NNP">PMA</taggedword>
+      <taggedword index="30" part-of-speech="CC">or</taggedword>
+      <taggedword index="31" part-of-speech="CD">100</taggedword>
+      <taggedword index="32" part-of-speech="NN">pM</taggedword>
+      <taggedword index="33" part-of-speech="NNP">AVP</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Pretreatment" dep_index="1" gov="downregulated" gov_index="9">nsubj</dependency>
+      <dependency dep="Pretreatment" dep_index="1" gov="prevented" gov_index="21">nsubj</dependency>
+      <dependency dep="24" dep_index="3" gov="h" gov_index="4">num</dependency>
+      <dependency dep="h" dep_index="4" gov="Pretreatment" gov_index="1">prep_for</dependency>
+      <dependency dep="1" dep_index="6" gov="PMA" gov_index="8">num</dependency>
+      <dependency dep="microM" dep_index="7" gov="PMA" gov_index="8">nn</dependency>
+      <dependency dep="PMA" dep_index="8" gov="h" gov_index="4">prep_with</dependency>
+      <dependency dep="downregulated" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="expression" dep_index="10" gov="downregulated" gov_index="9">dobj</dependency>
+      <dependency dep="PKC-alpha" dep_index="12" gov="downregulated" gov_index="9">prep_of</dependency>
+      <dependency dep="-delta" dep_index="14" gov="downregulated" gov_index="9">prep_of</dependency>
+      <dependency dep="-delta" dep_index="14" gov="PKC-alpha" gov_index="12">conj_and</dependency>
+      <dependency dep="not" dep_index="17" gov="PKC-epsilon" gov_index="18">cc</dependency>
+      <dependency dep="PKC-epsilon" dep_index="18" gov="downregulated" gov_index="9">dep</dependency>
+      <dependency dep="prevented" dep_index="21" gov="downregulated" gov_index="9">conj_and</dependency>
+      <dependency dep="the" dep_index="22" gov="responses" gov_index="24">det</dependency>
+      <dependency dep="Ca2+-spiking" dep_index="23" gov="responses" gov_index="24">nn</dependency>
+      <dependency dep="responses" dep_index="24" gov="prevented" gov_index="21">dobj</dependency>
+      <dependency dep="either" dep_index="26" gov="PMA" gov_index="29">preconj</dependency>
+      <dependency dep="1" dep_index="27" gov="PMA" gov_index="29">num</dependency>
+      <dependency dep="nM" dep_index="28" gov="PMA" gov_index="29">nn</dependency>
+      <dependency dep="PMA" dep_index="29" gov="prevented" gov_index="21">prep_to</dependency>
+      <dependency dep="100" dep_index="31" gov="AVP" gov_index="33">num</dependency>
+      <dependency dep="pM" dep_index="32" gov="AVP" gov_index="33">nn</dependency>
+      <dependency dep="AVP" dep_index="33" gov="prevented" gov_index="21">prep_to</dependency>
+      <dependency dep="AVP" dep_index="33" gov="PMA" gov_index="29">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200018" relationship="false">12 9 18</relation>
+      <relation position="1200033" relationship="false"></relation>
+      <relation position="1800033" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

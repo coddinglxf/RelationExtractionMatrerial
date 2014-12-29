@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@experiments@were@performed@with@the@cytoplasmic@beta@domain@(wild@type@or@mutated)@of@IR@and@IGF-1R@and@p85@or@its@subdomains@(N@+@C-SH2@,@N-SH2@,@C-SH2@,@SH3@+@N-SH2)@.@</sentence>
+   <tags>
+      <tag pos="15">IR</tag>
+      <tag pos="17">IGF-1R</tag>
+      <tag pos="19">p85</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="3" part-of-speech="VBD">were</taggedword>
+      <taggedword index="4" part-of-speech="VBN">performed</taggedword>
+      <taggedword index="5" part-of-speech="IN">with</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="JJ">cytoplasmic</taggedword>
+      <taggedword index="8" part-of-speech="JJ">beta</taggedword>
+      <taggedword index="9" part-of-speech="NN">domain</taggedword>
+      <taggedword index="10" part-of-speech="VBN">(wild</taggedword>
+      <taggedword index="11" part-of-speech="NN">type</taggedword>
+      <taggedword index="12" part-of-speech="CC">or</taggedword>
+      <taggedword index="13" part-of-speech="NN">mutated)</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="NNP">IR</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NNP">IGF-1R</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NNS">p85</taggedword>
+      <taggedword index="20" part-of-speech="CC">or</taggedword>
+      <taggedword index="21" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="22" part-of-speech="JJ">subdomains</taggedword>
+      <taggedword index="23" part-of-speech="NNP">(N</taggedword>
+      <taggedword index="24" part-of-speech="NNPS">+</taggedword>
+      <taggedword index="25" part-of-speech="NNP">C-SH2</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="NNP">N-SH2</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="NNP">C-SH2</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="NNP">SH3</taggedword>
+      <taggedword index="32" part-of-speech="NNP">+</taggedword>
+      <taggedword index="33" part-of-speech="NNP">N-SH2)</taggedword>
+      <taggedword index="34" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="experiments" gov_index="2">det</dependency>
+      <dependency dep="experiments" dep_index="2" gov="performed" gov_index="4">nsubjpass</dependency>
+      <dependency dep="were" dep_index="3" gov="performed" gov_index="4">auxpass</dependency>
+      <dependency dep="performed" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="6" gov="domain" gov_index="9">det</dependency>
+      <dependency dep="cytoplasmic" dep_index="7" gov="domain" gov_index="9">amod</dependency>
+      <dependency dep="beta" dep_index="8" gov="domain" gov_index="9">amod</dependency>
+      <dependency dep="domain" dep_index="9" gov="performed" gov_index="4">prep_with</dependency>
+      <dependency dep="(wild" dep_index="10" gov="domain" gov_index="9">partmod</dependency>
+      <dependency dep="type" dep_index="11" gov="(wild" gov_index="10">dobj</dependency>
+      <dependency dep="mutated)" dep_index="13" gov="(wild" gov_index="10">dobj</dependency>
+      <dependency dep="mutated)" dep_index="13" gov="type" gov_index="11">conj_or</dependency>
+      <dependency dep="IR" dep_index="15" gov="type" gov_index="11">prep_of</dependency>
+      <dependency dep="IGF-1R" dep_index="17" gov="type" gov_index="11">prep_of</dependency>
+      <dependency dep="IGF-1R" dep_index="17" gov="IR" gov_index="15">conj_and</dependency>
+      <dependency dep="p85" dep_index="19" gov="(wild" gov_index="10">dobj</dependency>
+      <dependency dep="p85" dep_index="19" gov="type" gov_index="11">conj_and</dependency>
+      <dependency dep="its" dep_index="21" gov="N-SH2)" gov_index="33">poss</dependency>
+      <dependency dep="subdomains" dep_index="22" gov="N-SH2)" gov_index="33">amod</dependency>
+      <dependency dep="(N" dep_index="23" gov="N-SH2)" gov_index="33">nn</dependency>
+      <dependency dep="+" dep_index="24" gov="N-SH2)" gov_index="33">nn</dependency>
+      <dependency dep="C-SH2" dep_index="25" gov="N-SH2)" gov_index="33">nn</dependency>
+      <dependency dep="N-SH2" dep_index="27" gov="N-SH2)" gov_index="33">appos</dependency>
+      <dependency dep="C-SH2" dep_index="29" gov="N-SH2)" gov_index="33">appos</dependency>
+      <dependency dep="SH3" dep_index="31" gov="N-SH2)" gov_index="33">appos</dependency>
+      <dependency dep="+" dep_index="32" gov="N-SH2)" gov_index="33">nn</dependency>
+      <dependency dep="N-SH2)" dep_index="33" gov="type" gov_index="11">conj_and</dependency>
+      <dependency dep="N-SH2)" dep_index="33" gov="p85" gov_index="19">conj_or</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500017" relationship="false">15 11 17</relation>
+      <relation position="1500019" relationship="false">15 11 10 19</relation>
+      <relation position="1700019" relationship="false">17 11 10 19</relation>
+   </relations>
+   <pairs/>
+</root>

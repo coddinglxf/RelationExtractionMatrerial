@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@we@demonstrate@that@cofilin@and@its@actin@binding@peptide@compete@with@gelsolin@segments@2-3@for@binding@to@actin@filaments@.@</sentence>
+   <tags>
+      <tag pos="10">actin</tag>
+      <tag pos="7">cofilin</tag>
+      <tag pos="21">actin</tag>
+      <tag pos="15">gelsolin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="PRP">we</taggedword>
+      <taggedword index="5" part-of-speech="VBP">demonstrate</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="12" part-of-speech="NN">peptide</taggedword>
+      <taggedword index="13" part-of-speech="VBP">compete</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="NN">gelsolin</taggedword>
+      <taggedword index="16" part-of-speech="NNS">segments</taggedword>
+      <taggedword index="17" part-of-speech="CD">2-3</taggedword>
+      <taggedword index="18" part-of-speech="IN">for</taggedword>
+      <taggedword index="19" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="VB">actin</taggedword>
+      <taggedword index="22" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="demonstrate" gov_index="5">prep_in</dependency>
+      <dependency dep="we" dep_index="4" gov="demonstrate" gov_index="5">nsubj</dependency>
+      <dependency dep="demonstrate" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="compete" gov_index="13">mark</dependency>
+      <dependency dep="cofilin" dep_index="7" gov="compete" gov_index="13">nsubj</dependency>
+      <dependency dep="cofilin" dep_index="7" gov="actin" gov_index="21">xsubj</dependency>
+      <dependency dep="its" dep_index="9" gov="peptide" gov_index="12">poss</dependency>
+      <dependency dep="actin" dep_index="10" gov="peptide" gov_index="12">nn</dependency>
+      <dependency dep="binding" dep_index="11" gov="peptide" gov_index="12">amod</dependency>
+      <dependency dep="peptide" dep_index="12" gov="cofilin" gov_index="7">conj_and</dependency>
+      <dependency dep="peptide" dep_index="12" gov="compete" gov_index="13">nsubj</dependency>
+      <dependency dep="peptide" dep_index="12" gov="actin" gov_index="21">xsubj</dependency>
+      <dependency dep="compete" dep_index="13" gov="demonstrate" gov_index="5">ccomp</dependency>
+      <dependency dep="gelsolin" dep_index="15" gov="segments" gov_index="16">nn</dependency>
+      <dependency dep="segments" dep_index="16" gov="compete" gov_index="13">prep_with</dependency>
+      <dependency dep="2-3" dep_index="17" gov="compete" gov_index="13">dobj</dependency>
+      <dependency dep="binding" dep_index="19" gov="2-3" gov_index="17">prep_for</dependency>
+      <dependency dep="to" dep_index="20" gov="actin" gov_index="21">aux</dependency>
+      <dependency dep="actin" dep_index="21" gov="compete" gov_index="13">xcomp</dependency>
+      <dependency dep="filaments" dep_index="22" gov="actin" gov_index="21">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700010" relationship="true">7 21 12 10</relation>
+      <relation position="1000021" relationship="false">10 12 13 21</relation>
+      <relation position="1000015" relationship="false">10 12 13 16 15</relation>
+      <relation position="700021" relationship="true">7 13 21</relation>
+      <relation position="700015" relationship="false">7 13 16 15</relation>
+      <relation position="1500021" relationship="true">15 16 13 21</relation>
+   </relations>
+   <pairs>
+      <pair>700010</pair>
+      <pair>1500021</pair>
+      <pair>700021</pair>
+   </pairs>
+</root>

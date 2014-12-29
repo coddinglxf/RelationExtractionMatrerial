@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@the@present@study@we@show@that@brush@cells@can@be@identified@in@tissue@sections@even@at@the@light@microscopic@level@by@immunostaining@with@antibodies@against@villin@and@fimbrin@,@two@proteins@that@crosslink@actin@filaments@to@form@bundles@.@</sentence>
+   <tags>
+      <tag pos="27">villin</tag>
+      <tag pos="35">actin</tag>
+      <tag pos="29">fimbrin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="JJ">present</taggedword>
+      <taggedword index="4" part-of-speech="NN">study</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBP">show</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="NN">brush</taggedword>
+      <taggedword index="9" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="10" part-of-speech="MD">can</taggedword>
+      <taggedword index="11" part-of-speech="VB">be</taggedword>
+      <taggedword index="12" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="13" part-of-speech="IN">in</taggedword>
+      <taggedword index="14" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="15" part-of-speech="NNS">sections</taggedword>
+      <taggedword index="16" part-of-speech="RB">even</taggedword>
+      <taggedword index="17" part-of-speech="IN">at</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="JJ">light</taggedword>
+      <taggedword index="20" part-of-speech="JJ">microscopic</taggedword>
+      <taggedword index="21" part-of-speech="NN">level</taggedword>
+      <taggedword index="22" part-of-speech="IN">by</taggedword>
+      <taggedword index="23" part-of-speech="VBG">immunostaining</taggedword>
+      <taggedword index="24" part-of-speech="IN">with</taggedword>
+      <taggedword index="25" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="26" part-of-speech="IN">against</taggedword>
+      <taggedword index="27" part-of-speech="NN">villin</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="NN">fimbrin</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="CD">two</taggedword>
+      <taggedword index="32" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="33" part-of-speech="WDT">that</taggedword>
+      <taggedword index="34" part-of-speech="VBP">crosslink</taggedword>
+      <taggedword index="35" part-of-speech="NN">actin</taggedword>
+      <taggedword index="36" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="37" part-of-speech="TO">to</taggedword>
+      <taggedword index="38" part-of-speech="VB">form</taggedword>
+      <taggedword index="39" part-of-speech="NNS">bundles</taggedword>
+      <taggedword index="40" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="study" gov_index="4">det</dependency>
+      <dependency dep="present" dep_index="3" gov="study" gov_index="4">amod</dependency>
+      <dependency dep="study" dep_index="4" gov="show" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="show" gov_index="6">nsubj</dependency>
+      <dependency dep="show" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="identified" gov_index="12">mark</dependency>
+      <dependency dep="brush" dep_index="8" gov="cells" gov_index="9">nn</dependency>
+      <dependency dep="cells" dep_index="9" gov="identified" gov_index="12">nsubjpass</dependency>
+      <dependency dep="can" dep_index="10" gov="identified" gov_index="12">aux</dependency>
+      <dependency dep="be" dep_index="11" gov="identified" gov_index="12">auxpass</dependency>
+      <dependency dep="identified" dep_index="12" gov="show" gov_index="6">ccomp</dependency>
+      <dependency dep="tissue" dep_index="14" gov="sections" gov_index="15">nn</dependency>
+      <dependency dep="sections" dep_index="15" gov="identified" gov_index="12">prep_in</dependency>
+      <dependency dep="even" dep_index="16" gov="identified" gov_index="12">advmod</dependency>
+      <dependency dep="the" dep_index="18" gov="level" gov_index="21">det</dependency>
+      <dependency dep="light" dep_index="19" gov="level" gov_index="21">amod</dependency>
+      <dependency dep="microscopic" dep_index="20" gov="level" gov_index="21">amod</dependency>
+      <dependency dep="level" dep_index="21" gov="identified" gov_index="12">prep_at</dependency>
+      <dependency dep="immunostaining" dep_index="23" gov="identified" gov_index="12">agent</dependency>
+      <dependency dep="antibodies" dep_index="25" gov="immunostaining" gov_index="23">prep_with</dependency>
+      <dependency dep="villin" dep_index="27" gov="antibodies" gov_index="25">prep_against</dependency>
+      <dependency dep="fimbrin" dep_index="29" gov="antibodies" gov_index="25">prep_against</dependency>
+      <dependency dep="fimbrin" dep_index="29" gov="villin" gov_index="27">conj_and</dependency>
+      <dependency dep="two" dep_index="31" gov="proteins" gov_index="32">num</dependency>
+      <dependency dep="proteins" dep_index="32" gov="villin" gov_index="27">appos</dependency>
+      <dependency dep="proteins" dep_index="32" gov="crosslink" gov_index="34">nsubj</dependency>
+      <dependency dep="crosslink" dep_index="34" gov="proteins" gov_index="32">rcmod</dependency>
+      <dependency dep="actin" dep_index="35" gov="filaments" gov_index="36">nn</dependency>
+      <dependency dep="filaments" dep_index="36" gov="form" gov_index="38">nsubj</dependency>
+      <dependency dep="to" dep_index="37" gov="form" gov_index="38">aux</dependency>
+      <dependency dep="form" dep_index="38" gov="crosslink" gov_index="34">xcomp</dependency>
+      <dependency dep="bundles" dep_index="39" gov="form" gov_index="38">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2700035" relationship="true"></relation>
+      <relation position="2700029" relationship="false">27 25 29</relation>
+      <relation position="2900035" relationship="true">29 25 27 32 34 38 36 35</relation>
+   </relations>
+   <pairs>
+      <pair>2900035</pair>
+      <pair>2700035</pair>
+   </pairs>
+</root>

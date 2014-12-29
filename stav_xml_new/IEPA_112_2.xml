@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Quantitative@studies@at@early@times@demonstrated@that@cycloheximide@treatment@of@aleurone@layers@increased@mRNA@levels@4-fold@,@whereas@a@combination@of@gibberellin@plus@cycloheximide@treatment@was@required@to@increase@alpha-amylase@mRNA@levels@to@the@same@extent@</sentence>
+   <tags>
+      <tag pos="22">gibberellin</tag>
+      <tag pos="30">alpha-amylase</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Quantitative</taggedword>
+      <taggedword index="2" part-of-speech="NNS">studies</taggedword>
+      <taggedword index="3" part-of-speech="IN">at</taggedword>
+      <taggedword index="4" part-of-speech="JJ">early</taggedword>
+      <taggedword index="5" part-of-speech="NNS">times</taggedword>
+      <taggedword index="6" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="JJ">cycloheximide</taggedword>
+      <taggedword index="9" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">aleurone</taggedword>
+      <taggedword index="12" part-of-speech="NNS">layers</taggedword>
+      <taggedword index="13" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="14" part-of-speech="NN">mRNA</taggedword>
+      <taggedword index="15" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="16" part-of-speech="JJ">4-fold</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="IN">whereas</taggedword>
+      <taggedword index="19" part-of-speech="DT">a</taggedword>
+      <taggedword index="20" part-of-speech="NN">combination</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NN">gibberellin</taggedword>
+      <taggedword index="23" part-of-speech="CC">plus</taggedword>
+      <taggedword index="24" part-of-speech="JJ">cycloheximide</taggedword>
+      <taggedword index="25" part-of-speech="NN">treatment</taggedword>
+      <taggedword index="26" part-of-speech="VBD">was</taggedword>
+      <taggedword index="27" part-of-speech="VBN">required</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="VB">increase</taggedword>
+      <taggedword index="30" part-of-speech="JJ">alpha-amylase</taggedword>
+      <taggedword index="31" part-of-speech="NN">mRNA</taggedword>
+      <taggedword index="32" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="33" part-of-speech="TO">to</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="JJ">same</taggedword>
+      <taggedword index="36" part-of-speech="NN">extent</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Quantitative" dep_index="1" gov="studies" gov_index="2">amod</dependency>
+      <dependency dep="studies" dep_index="2" gov="demonstrated" gov_index="6">nsubj</dependency>
+      <dependency dep="early" dep_index="4" gov="times" gov_index="5">amod</dependency>
+      <dependency dep="times" dep_index="5" gov="studies" gov_index="2">prep_at</dependency>
+      <dependency dep="demonstrated" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="increased" gov_index="13">mark</dependency>
+      <dependency dep="cycloheximide" dep_index="8" gov="treatment" gov_index="9">amod</dependency>
+      <dependency dep="treatment" dep_index="9" gov="increased" gov_index="13">nsubj</dependency>
+      <dependency dep="aleurone" dep_index="11" gov="layers" gov_index="12">amod</dependency>
+      <dependency dep="layers" dep_index="12" gov="treatment" gov_index="9">prep_of</dependency>
+      <dependency dep="increased" dep_index="13" gov="demonstrated" gov_index="6">ccomp</dependency>
+      <dependency dep="mRNA" dep_index="14" gov="levels" gov_index="15">nn</dependency>
+      <dependency dep="levels" dep_index="15" gov="4-fold" gov_index="16">nsubj</dependency>
+      <dependency dep="4-fold" dep_index="16" gov="increased" gov_index="13">xcomp</dependency>
+      <dependency dep="whereas" dep_index="18" gov="required" gov_index="27">mark</dependency>
+      <dependency dep="a" dep_index="19" gov="combination" gov_index="20">det</dependency>
+      <dependency dep="combination" dep_index="20" gov="required" gov_index="27">nsubjpass</dependency>
+      <dependency dep="combination" dep_index="20" gov="increase" gov_index="29">xsubj</dependency>
+      <dependency dep="gibberellin" dep_index="22" gov="combination" gov_index="20">prep_of</dependency>
+      <dependency dep="plus" dep_index="23" gov="gibberellin" gov_index="22">prep</dependency>
+      <dependency dep="cycloheximide" dep_index="24" gov="treatment" gov_index="25">amod</dependency>
+      <dependency dep="treatment" dep_index="25" gov="plus" gov_index="23">dep</dependency>
+      <dependency dep="was" dep_index="26" gov="required" gov_index="27">auxpass</dependency>
+      <dependency dep="required" dep_index="27" gov="increased" gov_index="13">advcl</dependency>
+      <dependency dep="to" dep_index="28" gov="increase" gov_index="29">aux</dependency>
+      <dependency dep="increase" dep_index="29" gov="required" gov_index="27">xcomp</dependency>
+      <dependency dep="alpha-amylase" dep_index="30" gov="levels" gov_index="32">amod</dependency>
+      <dependency dep="mRNA" dep_index="31" gov="levels" gov_index="32">nn</dependency>
+      <dependency dep="levels" dep_index="32" gov="increase" gov_index="29">dobj</dependency>
+      <dependency dep="the" dep_index="34" gov="extent" gov_index="36">det</dependency>
+      <dependency dep="same" dep_index="35" gov="extent" gov_index="36">amod</dependency>
+      <dependency dep="extent" dep_index="36" gov="increase" gov_index="29">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2200030" relationship="true">22 20 29 32 30</relation>
+   </relations>
+   <pairs>
+      <pair>2200030</pair>
+   </pairs>
+</root>

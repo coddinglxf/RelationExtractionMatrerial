@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Protein@phosphorylation@of@cofilin@,@an@actin-binding protein@that@depolymerizes@actin@filaments@,@suppresses@its@function@.@</sentence>
+   <tags>
+      <tag pos="4">cofilin</tag>
+      <tag pos="7">actin-binding protein</tag>
+      <tag pos="10">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Protein</taggedword>
+      <taggedword index="2" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="DT">an</taggedword>
+      <taggedword index="7" part-of-speech="NN">actin-binding protein</taggedword>
+      <taggedword index="8" part-of-speech="WDT">that</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">depolymerizes</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">suppresses</taggedword>
+      <taggedword index="14" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="15" part-of-speech="NN">function</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Protein" dep_index="1" gov="phosphorylation" gov_index="2">nn</dependency>
+      <dependency dep="phosphorylation" dep_index="2" gov="suppresses" gov_index="13">nsubj</dependency>
+      <dependency dep="cofilin" dep_index="4" gov="phosphorylation" gov_index="2">prep_of</dependency>
+      <dependency dep="an" dep_index="6" gov="actin-binding protein" gov_index="7">det</dependency>
+      <dependency dep="actin-binding protein" dep_index="7" gov="phosphorylation" gov_index="2">appos</dependency>
+      <dependency dep="actin-binding protein" dep_index="7" gov="depolymerizes" gov_index="9">nsubj</dependency>
+      <dependency dep="depolymerizes" dep_index="9" gov="actin-binding protein" gov_index="7">rcmod</dependency>
+      <dependency dep="actin" dep_index="10" gov="filaments" gov_index="11">nn</dependency>
+      <dependency dep="filaments" dep_index="11" gov="depolymerizes" gov_index="9">dobj</dependency>
+      <dependency dep="suppresses" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="its" dep_index="14" gov="function" gov_index="15">poss</dependency>
+      <dependency dep="function" dep_index="15" gov="suppresses" gov_index="13">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="true">4 2 7</relation>
+      <relation position="400010" relationship="true">4 2 7 9 11 10</relation>
+      <relation position="700010" relationship="false">7 9 11 10</relation>
+   </relations>
+   <pairs>
+      <pair>400010</pair>
+      <pair>400007</pair>
+   </pairs>
+</root>

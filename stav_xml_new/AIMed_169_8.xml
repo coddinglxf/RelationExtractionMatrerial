@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>COS-7@cells@transfected@with@the@IL-13R@cDNA@bind@IL-13@with@high@affinity@but@do@not@bind@IL-4@.@</sentence>
+   <tags>
+      <tag pos="6">IL-13R</tag>
+      <tag pos="9">IL-13</tag>
+      <tag pos="17">IL-4</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">COS-7</taggedword>
+      <taggedword index="2" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="3" part-of-speech="VBD">transfected</taggedword>
+      <taggedword index="4" part-of-speech="IN">with</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="NNP">IL-13R</taggedword>
+      <taggedword index="7" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="8" part-of-speech="NN">bind</taggedword>
+      <taggedword index="9" part-of-speech="NN">IL-13</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="JJ">high</taggedword>
+      <taggedword index="12" part-of-speech="NN">affinity</taggedword>
+      <taggedword index="13" part-of-speech="CC">but</taggedword>
+      <taggedword index="14" part-of-speech="VBP">do</taggedword>
+      <taggedword index="15" part-of-speech="RB">not</taggedword>
+      <taggedword index="16" part-of-speech="NN">bind</taggedword>
+      <taggedword index="17" part-of-speech="NN">IL-4</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="COS-7" dep_index="1" gov="cells" gov_index="2">nn</dependency>
+      <dependency dep="cells" dep_index="2" gov="transfected" gov_index="3">nsubj</dependency>
+      <dependency dep="cells" dep_index="2" gov="do" gov_index="14">nsubj</dependency>
+      <dependency dep="transfected" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="5" gov="IL-13" gov_index="9">det</dependency>
+      <dependency dep="IL-13R" dep_index="6" gov="IL-13" gov_index="9">nn</dependency>
+      <dependency dep="cDNA" dep_index="7" gov="IL-13" gov_index="9">nn</dependency>
+      <dependency dep="bind" dep_index="8" gov="IL-13" gov_index="9">nn</dependency>
+      <dependency dep="IL-13" dep_index="9" gov="transfected" gov_index="3">prep_with</dependency>
+      <dependency dep="high" dep_index="11" gov="affinity" gov_index="12">amod</dependency>
+      <dependency dep="affinity" dep_index="12" gov="transfected" gov_index="3">prep_with</dependency>
+      <dependency dep="do" dep_index="14" gov="transfected" gov_index="3">conj_but</dependency>
+      <dependency dep="not" dep_index="15" gov="IL-4" gov_index="17">neg</dependency>
+      <dependency dep="bind" dep_index="16" gov="IL-4" gov_index="17">nn</dependency>
+      <dependency dep="IL-4" dep_index="17" gov="do" gov_index="14">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600009" relationship="true"></relation>
+      <relation position="600017" relationship="false">6 9 3 14 17</relation>
+      <relation position="900017" relationship="false">9 3 14 17</relation>
+   </relations>
+   <pairs>
+      <pair>600009</pair>
+   </pairs>
+</root>

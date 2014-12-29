@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Using@ITP@(a@substrate@for@myosin II@ATPase@)@and/or@ATP@gamma@S@(a@substrate@for@myosin II heavy-chain kinase@[@MHCK@]),@we@demonstrated@that@phosphorylation@of@myosin heavy chains@occurred@at@the@foci@within@the@actin@network@,@a@result@that@suggests@that@MHCK@was@localized@at@the@foci@.@</sentence>
+   <tags>
+      <tag pos="18">MHCK</tag>
+      <tag pos="7">ATPase</tag>
+      <tag pos="6">myosin II</tag>
+      <tag pos="40">MHCK</tag>
+      <tag pos="16">myosin II heavy-chain kinase</tag>
+      <tag pos="25">myosin heavy chains</tag>
+      <tag pos="32">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Using</taggedword>
+      <taggedword index="2" part-of-speech="NNP">ITP</taggedword>
+      <taggedword index="3" part-of-speech="NN">(a</taggedword>
+      <taggedword index="4" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="5" part-of-speech="IN">for</taggedword>
+      <taggedword index="6" part-of-speech="NNP">myosin II</taggedword>
+      <taggedword index="7" part-of-speech="NNP">ATPase</taggedword>
+      <taggedword index="8" part-of-speech="NNP">)</taggedword>
+      <taggedword index="9" part-of-speech="NNP">and/or</taggedword>
+      <taggedword index="10" part-of-speech="NNP">ATP</taggedword>
+      <taggedword index="11" part-of-speech="NNP">gamma</taggedword>
+      <taggedword index="12" part-of-speech="NNP">S</taggedword>
+      <taggedword index="13" part-of-speech="NN">(a</taggedword>
+      <taggedword index="14" part-of-speech="NN">substrate</taggedword>
+      <taggedword index="15" part-of-speech="IN">for</taggedword>
+      <taggedword index="16" part-of-speech="JJ">myosin II heavy-chain kinase</taggedword>
+      <taggedword index="17" part-of-speech="NNP">[</taggedword>
+      <taggedword index="18" part-of-speech="NNP">MHCK</taggedword>
+      <taggedword index="19" part-of-speech="NNP">]),</taggedword>
+      <taggedword index="20" part-of-speech="PRP">we</taggedword>
+      <taggedword index="21" part-of-speech="VBD">demonstrated</taggedword>
+      <taggedword index="22" part-of-speech="IN">that</taggedword>
+      <taggedword index="23" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="24" part-of-speech="IN">of</taggedword>
+      <taggedword index="25" part-of-speech="NNS">myosin heavy chains</taggedword>
+      <taggedword index="26" part-of-speech="VBD">occurred</taggedword>
+      <taggedword index="27" part-of-speech="IN">at</taggedword>
+      <taggedword index="28" part-of-speech="DT">the</taggedword>
+      <taggedword index="29" part-of-speech="NN">foci</taggedword>
+      <taggedword index="30" part-of-speech="IN">within</taggedword>
+      <taggedword index="31" part-of-speech="DT">the</taggedword>
+      <taggedword index="32" part-of-speech="NN">actin</taggedword>
+      <taggedword index="33" part-of-speech="NN">network</taggedword>
+      <taggedword index="34" part-of-speech=",">,</taggedword>
+      <taggedword index="35" part-of-speech="DT">a</taggedword>
+      <taggedword index="36" part-of-speech="NN">result</taggedword>
+      <taggedword index="37" part-of-speech="WDT">that</taggedword>
+      <taggedword index="38" part-of-speech="VBZ">suggests</taggedword>
+      <taggedword index="39" part-of-speech="IN">that</taggedword>
+      <taggedword index="40" part-of-speech="NNP">MHCK</taggedword>
+      <taggedword index="41" part-of-speech="VBD">was</taggedword>
+      <taggedword index="42" part-of-speech="JJ">localized</taggedword>
+      <taggedword index="43" part-of-speech="IN">at</taggedword>
+      <taggedword index="44" part-of-speech="DT">the</taggedword>
+      <taggedword index="45" part-of-speech="NN">foci</taggedword>
+      <taggedword index="46" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Using" dep_index="1" gov="demonstrated" gov_index="21">dep</dependency>
+      <dependency dep="ITP" dep_index="2" gov="substrate" gov_index="4">nn</dependency>
+      <dependency dep="(a" dep_index="3" gov="substrate" gov_index="4">nn</dependency>
+      <dependency dep="substrate" dep_index="4" gov="Using" gov_index="1">dobj</dependency>
+      <dependency dep="myosin II" dep_index="6" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep="ATPase" dep_index="7" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep=")" dep_index="8" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep="and/or" dep_index="9" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep="ATP" dep_index="10" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep="gamma" dep_index="11" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep="S" dep_index="12" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep="(a" dep_index="13" gov="substrate" gov_index="14">nn</dependency>
+      <dependency dep="substrate" dep_index="14" gov="substrate" gov_index="4">prep_for</dependency>
+      <dependency dep="myosin II heavy-chain kinase" dep_index="16" gov="])," gov_index="19">amod</dependency>
+      <dependency dep="[" dep_index="17" gov="])," gov_index="19">nn</dependency>
+      <dependency dep="MHCK" dep_index="18" gov="])," gov_index="19">nn</dependency>
+      <dependency dep="])," dep_index="19" gov="Using" gov_index="1">prep_for</dependency>
+      <dependency dep="we" dep_index="20" gov="demonstrated" gov_index="21">nsubj</dependency>
+      <dependency dep="demonstrated" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="22" gov="occurred" gov_index="26">mark</dependency>
+      <dependency dep="phosphorylation" dep_index="23" gov="occurred" gov_index="26">nsubj</dependency>
+      <dependency dep="myosin heavy chains" dep_index="25" gov="phosphorylation" gov_index="23">prep_of</dependency>
+      <dependency dep="occurred" dep_index="26" gov="demonstrated" gov_index="21">ccomp</dependency>
+      <dependency dep="the" dep_index="28" gov="foci" gov_index="29">det</dependency>
+      <dependency dep="foci" dep_index="29" gov="occurred" gov_index="26">prep_at</dependency>
+      <dependency dep="the" dep_index="31" gov="network" gov_index="33">det</dependency>
+      <dependency dep="actin" dep_index="32" gov="network" gov_index="33">nn</dependency>
+      <dependency dep="network" dep_index="33" gov="occurred" gov_index="26">prep_within</dependency>
+      <dependency dep="a" dep_index="35" gov="result" gov_index="36">det</dependency>
+      <dependency dep="result" dep_index="36" gov="network" gov_index="33">appos</dependency>
+      <dependency dep="result" dep_index="36" gov="suggests" gov_index="38">nsubj</dependency>
+      <dependency dep="suggests" dep_index="38" gov="result" gov_index="36">rcmod</dependency>
+      <dependency dep="that" dep_index="39" gov="localized" gov_index="42">mark</dependency>
+      <dependency dep="MHCK" dep_index="40" gov="localized" gov_index="42">nsubj</dependency>
+      <dependency dep="was" dep_index="41" gov="localized" gov_index="42">cop</dependency>
+      <dependency dep="localized" dep_index="42" gov="suggests" gov_index="38">ccomp</dependency>
+      <dependency dep="the" dep_index="44" gov="foci" gov_index="45">det</dependency>
+      <dependency dep="foci" dep_index="45" gov="localized" gov_index="42">prep_at</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700018" relationship="false">7 14 4 1 19 18</relation>
+      <relation position="600018" relationship="false">6 14 4 1 19 18</relation>
+      <relation position="1800040" relationship="false">18 19 1 21 26 33 36 38 42 40</relation>
+      <relation position="1600018" relationship="false">16 19 18</relation>
+      <relation position="1800025" relationship="false">18 19 1 21 26 23 25</relation>
+      <relation position="1800032" relationship="false">18 19 1 21 26 33 32</relation>
+      <relation position="600007" relationship="true">6 14 7</relation>
+      <relation position="700040" relationship="false">7 14 4 1 21 26 33 36 38 42 40</relation>
+      <relation position="700016" relationship="false">7 14 4 1 19 16</relation>
+      <relation position="700025" relationship="false">7 14 4 1 21 26 23 25</relation>
+      <relation position="700032" relationship="false">7 14 4 1 21 26 33 32</relation>
+      <relation position="600040" relationship="false">6 14 4 1 21 26 33 36 38 42 40</relation>
+      <relation position="600016" relationship="false">6 14 4 1 19 16</relation>
+      <relation position="600025" relationship="false">6 14 4 1 21 26 23 25</relation>
+      <relation position="600032" relationship="false">6 14 4 1 21 26 33 32</relation>
+      <relation position="1600040" relationship="false">16 19 1 21 26 33 36 38 42 40</relation>
+      <relation position="2500040" relationship="false">25 23 26 33 36 38 42 40</relation>
+      <relation position="3200040" relationship="false">32 33 36 38 42 40</relation>
+      <relation position="1600025" relationship="false">16 19 1 21 26 23 25</relation>
+      <relation position="1600032" relationship="false">16 19 1 21 26 33 32</relation>
+      <relation position="2500032" relationship="false">25 23 26 33 32</relation>
+   </relations>
+   <pairs>
+      <pair>600007</pair>
+   </pairs>
+</root>

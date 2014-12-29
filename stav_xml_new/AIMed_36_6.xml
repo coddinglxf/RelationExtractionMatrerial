@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@study@,@we@simulated@interactions@of@all@amphipathic@helices@of@apolipoproteins E@and@A-I@with@Abeta@and@simian@immunodeficiency@virus@(SIV)@fusogenic@fragments@by@molecular@modeling@.@</sentence>
+   <tags>
+      <tag pos="13">apolipoproteins E</tag>
+      <tag pos="17">Abeta</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">study</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VBD">simulated</taggedword>
+      <taggedword index="7" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="DT">all</taggedword>
+      <taggedword index="10" part-of-speech="JJ">amphipathic</taggedword>
+      <taggedword index="11" part-of-speech="NNS">helices</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="NNP">apolipoproteins E</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NNP">A-I</taggedword>
+      <taggedword index="16" part-of-speech="IN">with</taggedword>
+      <taggedword index="17" part-of-speech="NNP">Abeta</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="NNP">simian</taggedword>
+      <taggedword index="20" part-of-speech="NN">immunodeficiency</taggedword>
+      <taggedword index="21" part-of-speech="NN">virus</taggedword>
+      <taggedword index="22" part-of-speech="NN">(SIV)</taggedword>
+      <taggedword index="23" part-of-speech="JJ">fusogenic</taggedword>
+      <taggedword index="24" part-of-speech="NNS">fragments</taggedword>
+      <taggedword index="25" part-of-speech="IN">by</taggedword>
+      <taggedword index="26" part-of-speech="JJ">molecular</taggedword>
+      <taggedword index="27" part-of-speech="NN">modeling</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="study" gov_index="3">det</dependency>
+      <dependency dep="study" dep_index="3" gov="simulated" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="simulated" gov_index="6">nsubj</dependency>
+      <dependency dep="simulated" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="interactions" dep_index="7" gov="simulated" gov_index="6">dobj</dependency>
+      <dependency dep="all" dep_index="9" gov="helices" gov_index="11">det</dependency>
+      <dependency dep="amphipathic" dep_index="10" gov="helices" gov_index="11">amod</dependency>
+      <dependency dep="helices" dep_index="11" gov="interactions" gov_index="7">prep_of</dependency>
+      <dependency dep="apolipoproteins E" dep_index="13" gov="helices" gov_index="11">prep_of</dependency>
+      <dependency dep="A-I" dep_index="15" gov="helices" gov_index="11">prep_of</dependency>
+      <dependency dep="A-I" dep_index="15" gov="apolipoproteins E" gov_index="13">conj_and</dependency>
+      <dependency dep="Abeta" dep_index="17" gov="fragments" gov_index="24">nn</dependency>
+      <dependency dep="simian" dep_index="19" gov="Abeta" gov_index="17">conj_and</dependency>
+      <dependency dep="simian" dep_index="19" gov="fragments" gov_index="24">nn</dependency>
+      <dependency dep="immunodeficiency" dep_index="20" gov="fragments" gov_index="24">nn</dependency>
+      <dependency dep="virus" dep_index="21" gov="fragments" gov_index="24">nn</dependency>
+      <dependency dep="(SIV)" dep_index="22" gov="fragments" gov_index="24">nn</dependency>
+      <dependency dep="fusogenic" dep_index="23" gov="fragments" gov_index="24">amod</dependency>
+      <dependency dep="fragments" dep_index="24" gov="simulated" gov_index="6">prep_with</dependency>
+      <dependency dep="molecular" dep_index="26" gov="modeling" gov_index="27">amod</dependency>
+      <dependency dep="modeling" dep_index="27" gov="simulated" gov_index="6">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1300017" relationship="false">13 11 7 6 24 17</relation>
+   </relations>
+   <pairs/>
+</root>

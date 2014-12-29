@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@balance@between@pro-@and@antiapoptotic@proteins@can@determine@cellular@fate@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">balance</taggedword>
+      <taggedword index="3" part-of-speech="IN">between</taggedword>
+      <taggedword index="4" part-of-speech="JJ">pro-</taggedword>
+      <taggedword index="5" part-of-speech="CC">and</taggedword>
+      <taggedword index="6" part-of-speech="JJ">antiapoptotic</taggedword>
+      <taggedword index="7" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="8" part-of-speech="MD">can</taggedword>
+      <taggedword index="9" part-of-speech="VB">determine</taggedword>
+      <taggedword index="10" part-of-speech="JJ">cellular</taggedword>
+      <taggedword index="11" part-of-speech="NN">fate</taggedword>
+      <taggedword index="12" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="balance" gov_index="2">det</dependency>
+      <dependency dep="balance" dep_index="2" gov="determine" gov_index="9">nsubj</dependency>
+      <dependency dep="pro-" dep_index="4" gov="proteins" gov_index="7">amod</dependency>
+      <dependency dep="antiapoptotic" dep_index="6" gov="pro-" gov_index="4">conj_and</dependency>
+      <dependency dep="antiapoptotic" dep_index="6" gov="proteins" gov_index="7">amod</dependency>
+      <dependency dep="proteins" dep_index="7" gov="balance" gov_index="2">prep_between</dependency>
+      <dependency dep="can" dep_index="8" gov="determine" gov_index="9">aux</dependency>
+      <dependency dep="determine" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cellular" dep_index="10" gov="fate" gov_index="11">amod</dependency>
+      <dependency dep="fate" dep_index="11" gov="determine" gov_index="9">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

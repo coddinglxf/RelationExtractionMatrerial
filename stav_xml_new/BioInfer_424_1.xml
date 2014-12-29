@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>METHODS@:@We@immunohistochemically@investigated@the@expression@of@E-cadherin@(@E-Cad@),@alpha-catenin@(@A-Cat@)@and@beta-catenin@(@B-Cat@)@during@human@intrahepatic@bile@duct@development@,@using@31@fetal@livers@of@various@gestational@ages@.@</sentence>
+   <tags>
+      <tag pos="18">beta-catenin</tag>
+      <tag pos="9">E-cadherin</tag>
+      <tag pos="15">A-Cat</tag>
+      <tag pos="13">alpha-catenin</tag>
+      <tag pos="20">B-Cat</tag>
+      <tag pos="11">E-Cad</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">METHODS</taggedword>
+      <taggedword index="2" part-of-speech=":">:</taggedword>
+      <taggedword index="3" part-of-speech="PRP">We</taggedword>
+      <taggedword index="4" part-of-speech="RB">immunohistochemically</taggedword>
+      <taggedword index="5" part-of-speech="VBD">investigated</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">expression</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="10" part-of-speech="NNP">(</taggedword>
+      <taggedword index="11" part-of-speech="JJ">E-Cad</taggedword>
+      <taggedword index="12" part-of-speech="NN">),</taggedword>
+      <taggedword index="13" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">A-Cat</taggedword>
+      <taggedword index="16" part-of-speech="NNP">)</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="JJ">beta-catenin</taggedword>
+      <taggedword index="19" part-of-speech="NN">(</taggedword>
+      <taggedword index="20" part-of-speech="NNP">B-Cat</taggedword>
+      <taggedword index="21" part-of-speech="NNP">)</taggedword>
+      <taggedword index="22" part-of-speech="IN">during</taggedword>
+      <taggedword index="23" part-of-speech="JJ">human</taggedword>
+      <taggedword index="24" part-of-speech="JJ">intrahepatic</taggedword>
+      <taggedword index="25" part-of-speech="NN">bile</taggedword>
+      <taggedword index="26" part-of-speech="NN">duct</taggedword>
+      <taggedword index="27" part-of-speech="NN">development</taggedword>
+      <taggedword index="28" part-of-speech=",">,</taggedword>
+      <taggedword index="29" part-of-speech="VBG">using</taggedword>
+      <taggedword index="30" part-of-speech="CD">31</taggedword>
+      <taggedword index="31" part-of-speech="JJ">fetal</taggedword>
+      <taggedword index="32" part-of-speech="NNS">livers</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="JJ">various</taggedword>
+      <taggedword index="35" part-of-speech="JJ">gestational</taggedword>
+      <taggedword index="36" part-of-speech="NNS">ages</taggedword>
+      <taggedword index="37" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="METHODS" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="We" dep_index="3" gov="investigated" gov_index="5">nsubj</dependency>
+      <dependency dep="immunohistochemically" dep_index="4" gov="investigated" gov_index="5">advmod</dependency>
+      <dependency dep="investigated" dep_index="5" gov="METHODS" gov_index="1">dep</dependency>
+      <dependency dep="the" dep_index="6" gov="expression" gov_index="7">det</dependency>
+      <dependency dep="expression" dep_index="7" gov="investigated" gov_index="5">dobj</dependency>
+      <dependency dep="E-cadherin" dep_index="9" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="(" dep_index="10" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="E-Cad" dep_index="11" gov=")" gov_index="16">amod</dependency>
+      <dependency dep=")," dep_index="12" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="alpha-catenin" dep_index="13" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="(" dep_index="14" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="A-Cat" dep_index="15" gov=")" gov_index="16">nn</dependency>
+      <dependency dep=")" dep_index="16" gov="expression" gov_index="7">prep_of</dependency>
+      <dependency dep="beta-catenin" dep_index="18" gov=")" gov_index="21">amod</dependency>
+      <dependency dep="(" dep_index="19" gov=")" gov_index="21">nn</dependency>
+      <dependency dep="B-Cat" dep_index="20" gov=")" gov_index="21">nn</dependency>
+      <dependency dep=")" dep_index="21" gov="expression" gov_index="7">prep_of</dependency>
+      <dependency dep=")" dep_index="21" gov=")" gov_index="16">conj_and</dependency>
+      <dependency dep="human" dep_index="23" gov="development" gov_index="27">amod</dependency>
+      <dependency dep="intrahepatic" dep_index="24" gov="development" gov_index="27">amod</dependency>
+      <dependency dep="bile" dep_index="25" gov="development" gov_index="27">nn</dependency>
+      <dependency dep="duct" dep_index="26" gov="development" gov_index="27">nn</dependency>
+      <dependency dep="development" dep_index="27" gov="investigated" gov_index="5">prep_during</dependency>
+      <dependency dep="using" dep_index="29" gov="investigated" gov_index="5">partmod</dependency>
+      <dependency dep="31" dep_index="30" gov="livers" gov_index="32">num</dependency>
+      <dependency dep="fetal" dep_index="31" gov="livers" gov_index="32">amod</dependency>
+      <dependency dep="livers" dep_index="32" gov="using" gov_index="29">dobj</dependency>
+      <dependency dep="various" dep_index="34" gov="ages" gov_index="36">amod</dependency>
+      <dependency dep="gestational" dep_index="35" gov="ages" gov_index="36">amod</dependency>
+      <dependency dep="ages" dep_index="36" gov="livers" gov_index="32">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900018" relationship="false">9 16 7 21 18</relation>
+      <relation position="1500018" relationship="false">15 16 7 21 18</relation>
+      <relation position="1300018" relationship="false">13 16 7 21 18</relation>
+      <relation position="1800020" relationship="false">18 21 20</relation>
+      <relation position="1100018" relationship="false">11 16 7 21 18</relation>
+      <relation position="900015" relationship="false">9 16 15</relation>
+      <relation position="900013" relationship="false">9 16 13</relation>
+      <relation position="900020" relationship="false">9 16 7 21 20</relation>
+      <relation position="900011" relationship="false">9 16 11</relation>
+      <relation position="1300015" relationship="false">13 16 15</relation>
+      <relation position="1500020" relationship="false">15 16 7 21 20</relation>
+      <relation position="1100015" relationship="false">11 16 15</relation>
+      <relation position="1300020" relationship="false">13 16 7 21 20</relation>
+      <relation position="1100013" relationship="false">11 16 13</relation>
+      <relation position="1100020" relationship="false">11 16 7 21 20</relation>
+   </relations>
+   <pairs/>
+</root>

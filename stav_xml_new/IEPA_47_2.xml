@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@effects@of@the@posterior-pituitary@peptides@oxytocin@(OT)@,@arginine-vasopressin@(AVP)@and@lysine-vasopressin@(LVP)@on@insulin@and@glucagon@secretion@were@examined@in@adult@sheep@</sentence>
+   <tags>
+      <tag pos="7">oxytocin</tag>
+      <tag pos="16">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">posterior-pituitary</taggedword>
+      <taggedword index="6" part-of-speech="NNS">peptides</taggedword>
+      <taggedword index="7" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="8" part-of-speech="NN">(OT)</taggedword>
+      <taggedword index="9" part-of-speech=",">,</taggedword>
+      <taggedword index="10" part-of-speech="JJ">arginine-vasopressin</taggedword>
+      <taggedword index="11" part-of-speech="NNS">(AVP)</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="JJ">lysine-vasopressin</taggedword>
+      <taggedword index="14" part-of-speech="NNS">(LVP)</taggedword>
+      <taggedword index="15" part-of-speech="IN">on</taggedword>
+      <taggedword index="16" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">glucagon</taggedword>
+      <taggedword index="19" part-of-speech="NN">secretion</taggedword>
+      <taggedword index="20" part-of-speech="VBD">were</taggedword>
+      <taggedword index="21" part-of-speech="VBN">examined</taggedword>
+      <taggedword index="22" part-of-speech="IN">in</taggedword>
+      <taggedword index="23" part-of-speech="JJ">adult</taggedword>
+      <taggedword index="24" part-of-speech="NN">sheep</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="effects" gov_index="2">det</dependency>
+      <dependency dep="effects" dep_index="2" gov="examined" gov_index="21">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="(OT)" gov_index="8">det</dependency>
+      <dependency dep="posterior-pituitary" dep_index="5" gov="(OT)" gov_index="8">amod</dependency>
+      <dependency dep="peptides" dep_index="6" gov="(OT)" gov_index="8">nn</dependency>
+      <dependency dep="oxytocin" dep_index="7" gov="(OT)" gov_index="8">nn</dependency>
+      <dependency dep="(OT)" dep_index="8" gov="effects" gov_index="2">prep_of</dependency>
+      <dependency dep="arginine-vasopressin" dep_index="10" gov="(AVP)" gov_index="11">amod</dependency>
+      <dependency dep="(AVP)" dep_index="11" gov="effects" gov_index="2">prep_of</dependency>
+      <dependency dep="(AVP)" dep_index="11" gov="(OT)" gov_index="8">conj_and</dependency>
+      <dependency dep="lysine-vasopressin" dep_index="13" gov="(LVP)" gov_index="14">amod</dependency>
+      <dependency dep="(LVP)" dep_index="14" gov="effects" gov_index="2">prep_of</dependency>
+      <dependency dep="(LVP)" dep_index="14" gov="(OT)" gov_index="8">conj_and</dependency>
+      <dependency dep="insulin" dep_index="16" gov="secretion" gov_index="19">nn</dependency>
+      <dependency dep="glucagon" dep_index="18" gov="insulin" gov_index="16">conj_and</dependency>
+      <dependency dep="glucagon" dep_index="18" gov="secretion" gov_index="19">nn</dependency>
+      <dependency dep="secretion" dep_index="19" gov="(LVP)" gov_index="14">prep_on</dependency>
+      <dependency dep="were" dep_index="20" gov="examined" gov_index="21">auxpass</dependency>
+      <dependency dep="examined" dep_index="21" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="adult" dep_index="23" gov="sheep" gov_index="24">amod</dependency>
+      <dependency dep="sheep" dep_index="24" gov="examined" gov_index="21">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700016" relationship="true">7 8 2 14 19 16</relation>
+   </relations>
+   <pairs>
+      <pair>700016</pair>
+   </pairs>
+</root>

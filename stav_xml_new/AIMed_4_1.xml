@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Positive@inotropic@responses@mediated@by@endothelin@ET(A)@and@ET(B)@receptors@in@human@myocardial@trabeculae@.@</sentence>
+   <tags>
+      <tag pos="7">ET(A)</tag>
+      <tag pos="9">ET(B)</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Positive</taggedword>
+      <taggedword index="2" part-of-speech="JJ">inotropic</taggedword>
+      <taggedword index="3" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="4" part-of-speech="VBD">mediated</taggedword>
+      <taggedword index="5" part-of-speech="IN">by</taggedword>
+      <taggedword index="6" part-of-speech="JJ">endothelin</taggedword>
+      <taggedword index="7" part-of-speech="NN">ET(A)</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NN">ET(B)</taggedword>
+      <taggedword index="10" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJ">human</taggedword>
+      <taggedword index="13" part-of-speech="JJ">myocardial</taggedword>
+      <taggedword index="14" part-of-speech="NN">trabeculae</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Positive" dep_index="1" gov="responses" gov_index="3">amod</dependency>
+      <dependency dep="inotropic" dep_index="2" gov="responses" gov_index="3">amod</dependency>
+      <dependency dep="responses" dep_index="3" gov="mediated" gov_index="4">nsubj</dependency>
+      <dependency dep="mediated" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="endothelin" dep_index="6" gov="ET(A)" gov_index="7">amod</dependency>
+      <dependency dep="ET(A)" dep_index="7" gov="mediated" gov_index="4">prep_by</dependency>
+      <dependency dep="ET(B)" dep_index="9" gov="receptors" gov_index="10">nn</dependency>
+      <dependency dep="receptors" dep_index="10" gov="mediated" gov_index="4">prep_by</dependency>
+      <dependency dep="receptors" dep_index="10" gov="ET(A)" gov_index="7">conj_and</dependency>
+      <dependency dep="human" dep_index="12" gov="trabeculae" gov_index="14">amod</dependency>
+      <dependency dep="myocardial" dep_index="13" gov="trabeculae" gov_index="14">amod</dependency>
+      <dependency dep="trabeculae" dep_index="14" gov="mediated" gov_index="4">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700009" relationship="false">7 4 10 9</relation>
+   </relations>
+   <pairs/>
+</root>

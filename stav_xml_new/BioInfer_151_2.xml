@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunofluorescence@staining@of@a@wild-type@strain@using@anti-@Aip1@antibodies@revealed@that@Aip1@was@distributed@in@cortical@actin@patches@where@cofilin@was@also@co-localized@.@</sentence>
+   <tags>
+      <tag pos="18">actin</tag>
+      <tag pos="21">cofilin</tag>
+      <tag pos="13">Aip1</tag>
+      <tag pos="9">Aip1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Immunofluorescence</taggedword>
+      <taggedword index="2" part-of-speech="NN">staining</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">a</taggedword>
+      <taggedword index="5" part-of-speech="JJ">wild-type</taggedword>
+      <taggedword index="6" part-of-speech="NN">strain</taggedword>
+      <taggedword index="7" part-of-speech="VBG">using</taggedword>
+      <taggedword index="8" part-of-speech="JJ">anti-</taggedword>
+      <taggedword index="9" part-of-speech="JJ">Aip1</taggedword>
+      <taggedword index="10" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="11" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="12" part-of-speech="IN">that</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Aip1</taggedword>
+      <taggedword index="14" part-of-speech="VBD">was</taggedword>
+      <taggedword index="15" part-of-speech="VBN">distributed</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="JJ">cortical</taggedword>
+      <taggedword index="18" part-of-speech="NN">actin</taggedword>
+      <taggedword index="19" part-of-speech="NNS">patches</taggedword>
+      <taggedword index="20" part-of-speech="WRB">where</taggedword>
+      <taggedword index="21" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="22" part-of-speech="VBD">was</taggedword>
+      <taggedword index="23" part-of-speech="RB">also</taggedword>
+      <taggedword index="24" part-of-speech="JJ">co-localized</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunofluorescence" dep_index="1" gov="staining" gov_index="2">amod</dependency>
+      <dependency dep="staining" dep_index="2" gov="revealed" gov_index="11">nsubj</dependency>
+      <dependency dep="a" dep_index="4" gov="strain" gov_index="6">det</dependency>
+      <dependency dep="wild-type" dep_index="5" gov="strain" gov_index="6">amod</dependency>
+      <dependency dep="strain" dep_index="6" gov="staining" gov_index="2">prep_of</dependency>
+      <dependency dep="using" dep_index="7" gov="strain" gov_index="6">partmod</dependency>
+      <dependency dep="anti-" dep_index="8" gov="antibodies" gov_index="10">amod</dependency>
+      <dependency dep="Aip1" dep_index="9" gov="antibodies" gov_index="10">amod</dependency>
+      <dependency dep="antibodies" dep_index="10" gov="using" gov_index="7">dobj</dependency>
+      <dependency dep="revealed" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="12" gov="distributed" gov_index="15">mark</dependency>
+      <dependency dep="Aip1" dep_index="13" gov="distributed" gov_index="15">nsubjpass</dependency>
+      <dependency dep="was" dep_index="14" gov="distributed" gov_index="15">auxpass</dependency>
+      <dependency dep="distributed" dep_index="15" gov="revealed" gov_index="11">ccomp</dependency>
+      <dependency dep="cortical" dep_index="17" gov="patches" gov_index="19">amod</dependency>
+      <dependency dep="actin" dep_index="18" gov="patches" gov_index="19">nn</dependency>
+      <dependency dep="patches" dep_index="19" gov="distributed" gov_index="15">prep_in</dependency>
+      <dependency dep="where" dep_index="20" gov="co-localized" gov_index="24">advmod</dependency>
+      <dependency dep="cofilin" dep_index="21" gov="co-localized" gov_index="24">nsubj</dependency>
+      <dependency dep="was" dep_index="22" gov="co-localized" gov_index="24">cop</dependency>
+      <dependency dep="also" dep_index="23" gov="co-localized" gov_index="24">advmod</dependency>
+      <dependency dep="co-localized" dep_index="24" gov="distributed" gov_index="15">advcl</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800021" relationship="true">18 19 15 24 21</relation>
+      <relation position="1300018" relationship="true">13 15 19 18</relation>
+      <relation position="900018" relationship="false">9 10 7 6 2 11 15 19 18</relation>
+      <relation position="1300021" relationship="false">13 15 24 21</relation>
+      <relation position="900021" relationship="false">9 10 7 6 2 11 15 24 21</relation>
+      <relation position="900013" relationship="false">9 10 7 6 2 11 15 13</relation>
+   </relations>
+   <pairs>
+      <pair>1300018</pair>
+      <pair>1800021</pair>
+   </pairs>
+</root>

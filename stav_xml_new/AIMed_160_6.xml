@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@VEGF@model@based@on@PDGFb@indicated@these@positively@and@negatively@charged@regions@are@distal@in@the@monomer@but@are@spatially@close@in@the@dimer@.@</sentence>
+   <tags>
+      <tag pos="2">VEGF</tag>
+      <tag pos="6">PDGFb</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">VEGF</taggedword>
+      <taggedword index="3" part-of-speech="NN">model</taggedword>
+      <taggedword index="4" part-of-speech="VBN">based</taggedword>
+      <taggedword index="5" part-of-speech="IN">on</taggedword>
+      <taggedword index="6" part-of-speech="NNP">PDGFb</taggedword>
+      <taggedword index="7" part-of-speech="VBD">indicated</taggedword>
+      <taggedword index="8" part-of-speech="DT">these</taggedword>
+      <taggedword index="9" part-of-speech="RB">positively</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="RB">negatively</taggedword>
+      <taggedword index="12" part-of-speech="VBD">charged</taggedword>
+      <taggedword index="13" part-of-speech="NNS">regions</taggedword>
+      <taggedword index="14" part-of-speech="VBP">are</taggedword>
+      <taggedword index="15" part-of-speech="JJ">distal</taggedword>
+      <taggedword index="16" part-of-speech="IN">in</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">monomer</taggedword>
+      <taggedword index="19" part-of-speech="CC">but</taggedword>
+      <taggedword index="20" part-of-speech="VBP">are</taggedword>
+      <taggedword index="21" part-of-speech="RB">spatially</taggedword>
+      <taggedword index="22" part-of-speech="JJ">close</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">dimer</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="model" gov_index="3">det</dependency>
+      <dependency dep="VEGF" dep_index="2" gov="model" gov_index="3">amod</dependency>
+      <dependency dep="model" dep_index="3" gov="indicated" gov_index="7">nsubj</dependency>
+      <dependency dep="model" dep_index="3" gov="charged" gov_index="12">nsubj</dependency>
+      <dependency dep="on" dep_index="5" gov="model" gov_index="3">prepc_based_on</dependency>
+      <dependency dep="PDGFb" dep_index="6" gov="model" gov_index="3">pobj</dependency>
+      <dependency dep="indicated" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="these" dep_index="8" gov="indicated" gov_index="7">dobj</dependency>
+      <dependency dep="positively" dep_index="9" gov="indicated" gov_index="7">advmod</dependency>
+      <dependency dep="negatively" dep_index="11" gov="indicated" gov_index="7">advmod</dependency>
+      <dependency dep="negatively" dep_index="11" gov="indicated" gov_index="7">conj_and</dependency>
+      <dependency dep="charged" dep_index="12" gov="indicated" gov_index="7">conj_and</dependency>
+      <dependency dep="regions" dep_index="13" gov="distal" gov_index="15">nsubj</dependency>
+      <dependency dep="regions" dep_index="13" gov="close" gov_index="22">nsubj</dependency>
+      <dependency dep="are" dep_index="14" gov="distal" gov_index="15">cop</dependency>
+      <dependency dep="distal" dep_index="15" gov="charged" gov_index="12">ccomp</dependency>
+      <dependency dep="the" dep_index="17" gov="monomer" gov_index="18">det</dependency>
+      <dependency dep="monomer" dep_index="18" gov="distal" gov_index="15">prep_in</dependency>
+      <dependency dep="are" dep_index="20" gov="close" gov_index="22">cop</dependency>
+      <dependency dep="spatially" dep_index="21" gov="close" gov_index="22">advmod</dependency>
+      <dependency dep="close" dep_index="22" gov="charged" gov_index="12">ccomp</dependency>
+      <dependency dep="close" dep_index="22" gov="distal" gov_index="15">conj_but</dependency>
+      <dependency dep="the" dep_index="24" gov="dimer" gov_index="25">det</dependency>
+      <dependency dep="dimer" dep_index="25" gov="close" gov_index="22">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200006" relationship="false">2 3 6</relation>
+   </relations>
+   <pairs/>
+</root>

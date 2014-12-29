@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Two@distinct@families@of@proteins@have@emerged@,@the@TNF@receptor-associated@factors@(TRAFs)@and@the@death@domain@homologues@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="CD">Two</taggedword>
+      <taggedword index="2" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="3" part-of-speech="NNS">families</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="6" part-of-speech="VBP">have</taggedword>
+      <taggedword index="7" part-of-speech="VBN">emerged</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NNP">TNF</taggedword>
+      <taggedword index="11" part-of-speech="JJ">receptor-associated</taggedword>
+      <taggedword index="12" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="13" part-of-speech="NN">(TRAFs)</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">death</taggedword>
+      <taggedword index="17" part-of-speech="NN">domain</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">homologues</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Two" dep_index="1" gov="families" gov_index="3">num</dependency>
+      <dependency dep="distinct" dep_index="2" gov="families" gov_index="3">amod</dependency>
+      <dependency dep="families" dep_index="3" gov="emerged" gov_index="7">nsubj</dependency>
+      <dependency dep="proteins" dep_index="5" gov="families" gov_index="3">prep_of</dependency>
+      <dependency dep="have" dep_index="6" gov="emerged" gov_index="7">aux</dependency>
+      <dependency dep="emerged" dep_index="7" gov="homologues" gov_index="18">ccomp</dependency>
+      <dependency dep="the" dep_index="9" gov="(TRAFs)" gov_index="13">det</dependency>
+      <dependency dep="TNF" dep_index="10" gov="(TRAFs)" gov_index="13">nn</dependency>
+      <dependency dep="receptor-associated" dep_index="11" gov="(TRAFs)" gov_index="13">amod</dependency>
+      <dependency dep="factors" dep_index="12" gov="(TRAFs)" gov_index="13">nn</dependency>
+      <dependency dep="(TRAFs)" dep_index="13" gov="homologues" gov_index="18">nsubj</dependency>
+      <dependency dep="the" dep_index="15" gov="domain" gov_index="17">det</dependency>
+      <dependency dep="death" dep_index="16" gov="domain" gov_index="17">nn</dependency>
+      <dependency dep="domain" dep_index="17" gov="(TRAFs)" gov_index="13">conj_and</dependency>
+      <dependency dep="domain" dep_index="17" gov="homologues" gov_index="18">nsubj</dependency>
+      <dependency dep="homologues" dep_index="18" gov="ROOT" gov_index="0">root</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

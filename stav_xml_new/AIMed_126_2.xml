@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Current@models@of@chaperonin-assisted@folding@suggest@that@proteins@undergo@multiple@rounds@of@binding@and@release@before@they@are@released@in@a@form@that@is@committed@to@folding@to@the@native@state@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Current</taggedword>
+      <taggedword index="2" part-of-speech="NNS">models</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">chaperonin-assisted</taggedword>
+      <taggedword index="5" part-of-speech="NN">folding</taggedword>
+      <taggedword index="6" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="9" part-of-speech="VBP">undergo</taggedword>
+      <taggedword index="10" part-of-speech="JJ">multiple</taggedword>
+      <taggedword index="11" part-of-speech="NNS">rounds</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">release</taggedword>
+      <taggedword index="16" part-of-speech="IN">before</taggedword>
+      <taggedword index="17" part-of-speech="PRP">they</taggedword>
+      <taggedword index="18" part-of-speech="VBP">are</taggedword>
+      <taggedword index="19" part-of-speech="VBN">released</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="DT">a</taggedword>
+      <taggedword index="22" part-of-speech="NN">form</taggedword>
+      <taggedword index="23" part-of-speech="WDT">that</taggedword>
+      <taggedword index="24" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="25" part-of-speech="VBN">committed</taggedword>
+      <taggedword index="26" part-of-speech="TO">to</taggedword>
+      <taggedword index="27" part-of-speech="NN">folding</taggedword>
+      <taggedword index="28" part-of-speech="TO">to</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="JJ">native</taggedword>
+      <taggedword index="31" part-of-speech="NN">state</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Current" dep_index="1" gov="models" gov_index="2">amod</dependency>
+      <dependency dep="models" dep_index="2" gov="suggest" gov_index="6">nsubj</dependency>
+      <dependency dep="chaperonin-assisted" dep_index="4" gov="folding" gov_index="5">amod</dependency>
+      <dependency dep="folding" dep_index="5" gov="models" gov_index="2">prep_of</dependency>
+      <dependency dep="suggest" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="7" gov="undergo" gov_index="9">mark</dependency>
+      <dependency dep="proteins" dep_index="8" gov="undergo" gov_index="9">nsubj</dependency>
+      <dependency dep="undergo" dep_index="9" gov="suggest" gov_index="6">ccomp</dependency>
+      <dependency dep="multiple" dep_index="10" gov="rounds" gov_index="11">amod</dependency>
+      <dependency dep="rounds" dep_index="11" gov="undergo" gov_index="9">dobj</dependency>
+      <dependency dep="binding" dep_index="13" gov="rounds" gov_index="11">prep_of</dependency>
+      <dependency dep="release" dep_index="15" gov="rounds" gov_index="11">prep_of</dependency>
+      <dependency dep="release" dep_index="15" gov="binding" gov_index="13">conj_and</dependency>
+      <dependency dep="before" dep_index="16" gov="released" gov_index="19">mark</dependency>
+      <dependency dep="they" dep_index="17" gov="released" gov_index="19">nsubjpass</dependency>
+      <dependency dep="are" dep_index="18" gov="released" gov_index="19">auxpass</dependency>
+      <dependency dep="released" dep_index="19" gov="undergo" gov_index="9">advcl</dependency>
+      <dependency dep="a" dep_index="21" gov="form" gov_index="22">det</dependency>
+      <dependency dep="form" dep_index="22" gov="released" gov_index="19">prep_in</dependency>
+      <dependency dep="form" dep_index="22" gov="committed" gov_index="25">nsubjpass</dependency>
+      <dependency dep="is" dep_index="24" gov="committed" gov_index="25">auxpass</dependency>
+      <dependency dep="committed" dep_index="25" gov="form" gov_index="22">rcmod</dependency>
+      <dependency dep="folding" dep_index="27" gov="committed" gov_index="25">prep_to</dependency>
+      <dependency dep="the" dep_index="29" gov="state" gov_index="31">det</dependency>
+      <dependency dep="native" dep_index="30" gov="state" gov_index="31">amod</dependency>
+      <dependency dep="state" dep_index="31" gov="committed" gov_index="25">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

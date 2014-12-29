@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>A@distinct@modulating@domain@in@glucocorticoid receptor@monomers@in@the@repression@of@activity@of@the@transcription@factor@AP-1@.@</sentence>
+   <tags>
+      <tag pos="17">AP-1</tag>
+      <tag pos="6">glucocorticoid receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">A</taggedword>
+      <taggedword index="2" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="3" part-of-speech="VBG">modulating</taggedword>
+      <taggedword index="4" part-of-speech="NN">domain</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="NN">glucocorticoid receptor</taggedword>
+      <taggedword index="7" part-of-speech="VBZ">monomers</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="NN">repression</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="NN">activity</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="16" part-of-speech="NN">factor</taggedword>
+      <taggedword index="17" part-of-speech="NN">AP-1</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="A" dep_index="1" gov="domain" gov_index="4">det</dependency>
+      <dependency dep="distinct" dep_index="2" gov="domain" gov_index="4">amod</dependency>
+      <dependency dep="modulating" dep_index="3" gov="domain" gov_index="4">amod</dependency>
+      <dependency dep="domain" dep_index="4" gov="monomers" gov_index="7">nsubj</dependency>
+      <dependency dep="glucocorticoid receptor" dep_index="6" gov="domain" gov_index="4">prep_in</dependency>
+      <dependency dep="monomers" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="9" gov="repression" gov_index="10">det</dependency>
+      <dependency dep="repression" dep_index="10" gov="monomers" gov_index="7">prep_in</dependency>
+      <dependency dep="activity" dep_index="12" gov="repression" gov_index="10">prep_of</dependency>
+      <dependency dep="the" dep_index="14" gov="AP-1" gov_index="17">det</dependency>
+      <dependency dep="transcription" dep_index="15" gov="AP-1" gov_index="17">nn</dependency>
+      <dependency dep="factor" dep_index="16" gov="AP-1" gov_index="17">nn</dependency>
+      <dependency dep="AP-1" dep_index="17" gov="activity" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="600017" relationship="true">6 4 7 10 12 17</relation>
+   </relations>
+   <pairs>
+      <pair>600017</pair>
+   </pairs>
+</root>

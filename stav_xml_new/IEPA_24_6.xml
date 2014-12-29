@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@contrast@,@nanogram@amounts@of@oxytocin@administered@ICV@cause@a@rise@of@insulin@levels@</sentence>
+   <tags>
+      <tag pos="7">oxytocin</tag>
+      <tag pos="14">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">nanogram</taggedword>
+      <taggedword index="5" part-of-speech="NNS">amounts</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="8" part-of-speech="VBN">administered</taggedword>
+      <taggedword index="9" part-of-speech="NNP">ICV</taggedword>
+      <taggedword index="10" part-of-speech="VB">cause</taggedword>
+      <taggedword index="11" part-of-speech="DT">a</taggedword>
+      <taggedword index="12" part-of-speech="NN">rise</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="15" part-of-speech="NNS">levels</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="contrast" dep_index="2" gov="amounts" gov_index="5">prep_in</dependency>
+      <dependency dep="nanogram" dep_index="4" gov="amounts" gov_index="5">nn</dependency>
+      <dependency dep="amounts" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="oxytocin" dep_index="7" gov="amounts" gov_index="5">prep_of</dependency>
+      <dependency dep="administered" dep_index="8" gov="amounts" gov_index="5">partmod</dependency>
+      <dependency dep="ICV" dep_index="9" gov="cause" gov_index="10">nsubj</dependency>
+      <dependency dep="cause" dep_index="10" gov="administered" gov_index="8">ccomp</dependency>
+      <dependency dep="a" dep_index="11" gov="rise" gov_index="12">det</dependency>
+      <dependency dep="rise" dep_index="12" gov="cause" gov_index="10">dobj</dependency>
+      <dependency dep="insulin" dep_index="14" gov="levels" gov_index="15">nn</dependency>
+      <dependency dep="levels" dep_index="15" gov="rise" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700014" relationship="true">7 5 8 10 12 15 14</relation>
+   </relations>
+   <pairs>
+      <pair>700014</pair>
+   </pairs>
+</root>

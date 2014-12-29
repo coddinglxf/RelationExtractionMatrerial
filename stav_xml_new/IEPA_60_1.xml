@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@activity@of@the@MAPKs@,@induced@by@AVP@or@PMA@was@inhibited@by@downregulation@of@protein kinase C@(PKC)@,@by@the@tyrosine@kinase@inhibitor@genistein@and@by@MAPK@kinase@(MEK)@inhibitor@,@PD98059@</sentence>
+   <tags>
+      <tag pos="9">AVP</tag>
+      <tag pos="17">protein kinase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">activity</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNPS">MAPKs</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="10" part-of-speech="CC">or</taggedword>
+      <taggedword index="11" part-of-speech="NNP">PMA</taggedword>
+      <taggedword index="12" part-of-speech="VBD">was</taggedword>
+      <taggedword index="13" part-of-speech="JJ">inhibited</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="NN">downregulation</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="18" part-of-speech="NNS">(PKC)</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="DT">the</taggedword>
+      <taggedword index="22" part-of-speech="JJ">tyrosine</taggedword>
+      <taggedword index="23" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="24" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="25" part-of-speech="NN">genistein</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="IN">by</taggedword>
+      <taggedword index="28" part-of-speech="NNP">MAPK</taggedword>
+      <taggedword index="29" part-of-speech="JJ">kinase</taggedword>
+      <taggedword index="30" part-of-speech="JJ">(MEK)</taggedword>
+      <taggedword index="31" part-of-speech="NN">inhibitor</taggedword>
+      <taggedword index="32" part-of-speech=",">,</taggedword>
+      <taggedword index="33" part-of-speech="NNP">PD98059</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="activity" gov_index="2">det</dependency>
+      <dependency dep="activity" dep_index="2" gov="inhibited" gov_index="13">nsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="MAPKs" gov_index="5">det</dependency>
+      <dependency dep="MAPKs" dep_index="5" gov="activity" gov_index="2">prep_of</dependency>
+      <dependency dep="induced" dep_index="7" gov="activity" gov_index="2">partmod</dependency>
+      <dependency dep="AVP" dep_index="9" gov="induced" gov_index="7">agent</dependency>
+      <dependency dep="PMA" dep_index="11" gov="induced" gov_index="7">agent</dependency>
+      <dependency dep="PMA" dep_index="11" gov="AVP" gov_index="9">conj_or</dependency>
+      <dependency dep="was" dep_index="12" gov="inhibited" gov_index="13">cop</dependency>
+      <dependency dep="inhibited" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="downregulation" dep_index="15" gov="inhibited" gov_index="13">prep_by</dependency>
+      <dependency dep="protein kinase C" dep_index="17" gov="(PKC)" gov_index="18">amod</dependency>
+      <dependency dep="(PKC)" dep_index="18" gov="downregulation" gov_index="15">prep_of</dependency>
+      <dependency dep="the" dep_index="21" gov="genistein" gov_index="25">det</dependency>
+      <dependency dep="tyrosine" dep_index="22" gov="genistein" gov_index="25">amod</dependency>
+      <dependency dep="kinase" dep_index="23" gov="genistein" gov_index="25">amod</dependency>
+      <dependency dep="inhibitor" dep_index="24" gov="genistein" gov_index="25">nn</dependency>
+      <dependency dep="genistein" dep_index="25" gov="inhibited" gov_index="13">prep_by</dependency>
+      <dependency dep="genistein" dep_index="25" gov="downregulation" gov_index="15">conj_and</dependency>
+      <dependency dep="MAPK" dep_index="28" gov="inhibitor" gov_index="31">nn</dependency>
+      <dependency dep="kinase" dep_index="29" gov="inhibitor" gov_index="31">amod</dependency>
+      <dependency dep="(MEK)" dep_index="30" gov="inhibitor" gov_index="31">amod</dependency>
+      <dependency dep="inhibitor" dep_index="31" gov="inhibited" gov_index="13">prep_by</dependency>
+      <dependency dep="inhibitor" dep_index="31" gov="downregulation" gov_index="15">conj_and</dependency>
+      <dependency dep="PD98059" dep_index="33" gov="inhibitor" gov_index="31">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900017" relationship="true">9 7 2 13 15 18 17</relation>
+   </relations>
+   <pairs>
+      <pair>900017</pair>
+   </pairs>
+</root>

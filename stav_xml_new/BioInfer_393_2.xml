@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Using@sodium@dodecyl@sulfate-polyacrylamide@gel@electrophoresis@(SDS-PAGE)@,@we@have@developed@a@simple@method@to@isolate@myosin heavy chain@(@MHC@)@and@actin@from@small@(60-80@mg)@human@skeletal@muscle@samples@for@the@determination@of@their@fractional@synthesis@rates@.@</sentence>
+   <tags>
+      <tag pos="22">actin</tag>
+      <tag pos="17">myosin heavy chain</tag>
+      <tag pos="19">MHC</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Using</taggedword>
+      <taggedword index="2" part-of-speech="NN">sodium</taggedword>
+      <taggedword index="3" part-of-speech="NN">dodecyl</taggedword>
+      <taggedword index="4" part-of-speech="JJ">sulfate-polyacrylamide</taggedword>
+      <taggedword index="5" part-of-speech="NN">gel</taggedword>
+      <taggedword index="6" part-of-speech="NNS">electrophoresis</taggedword>
+      <taggedword index="7" part-of-speech="JJ">(SDS-PAGE)</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="PRP">we</taggedword>
+      <taggedword index="10" part-of-speech="VBP">have</taggedword>
+      <taggedword index="11" part-of-speech="VBN">developed</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="JJ">simple</taggedword>
+      <taggedword index="14" part-of-speech="NN">method</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="VB">isolate</taggedword>
+      <taggedword index="17" part-of-speech="JJ">myosin heavy chain</taggedword>
+      <taggedword index="18" part-of-speech="NNP">(</taggedword>
+      <taggedword index="19" part-of-speech="NNP">MHC</taggedword>
+      <taggedword index="20" part-of-speech="NNP">)</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NN">actin</taggedword>
+      <taggedword index="23" part-of-speech="IN">from</taggedword>
+      <taggedword index="24" part-of-speech="JJ">small</taggedword>
+      <taggedword index="25" part-of-speech="CD">(60-80</taggedword>
+      <taggedword index="26" part-of-speech="NN">mg)</taggedword>
+      <taggedword index="27" part-of-speech="JJ">human</taggedword>
+      <taggedword index="28" part-of-speech="JJ">skeletal</taggedword>
+      <taggedword index="29" part-of-speech="NN">muscle</taggedword>
+      <taggedword index="30" part-of-speech="NNS">samples</taggedword>
+      <taggedword index="31" part-of-speech="IN">for</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NN">determination</taggedword>
+      <taggedword index="34" part-of-speech="IN">of</taggedword>
+      <taggedword index="35" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="36" part-of-speech="JJ">fractional</taggedword>
+      <taggedword index="37" part-of-speech="NN">synthesis</taggedword>
+      <taggedword index="38" part-of-speech="NNS">rates</taggedword>
+      <taggedword index="39" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Using" dep_index="1" gov="developed" gov_index="11">partmod</dependency>
+      <dependency dep="sodium" dep_index="2" gov="electrophoresis" gov_index="6">nn</dependency>
+      <dependency dep="dodecyl" dep_index="3" gov="electrophoresis" gov_index="6">nn</dependency>
+      <dependency dep="sulfate-polyacrylamide" dep_index="4" gov="electrophoresis" gov_index="6">amod</dependency>
+      <dependency dep="gel" dep_index="5" gov="electrophoresis" gov_index="6">nn</dependency>
+      <dependency dep="electrophoresis" dep_index="6" gov="(SDS-PAGE)" gov_index="7">nsubj</dependency>
+      <dependency dep="(SDS-PAGE)" dep_index="7" gov="Using" gov_index="1">xcomp</dependency>
+      <dependency dep="we" dep_index="9" gov="developed" gov_index="11">nsubj</dependency>
+      <dependency dep="we" dep_index="9" gov="isolate" gov_index="16">xsubj</dependency>
+      <dependency dep="have" dep_index="10" gov="developed" gov_index="11">aux</dependency>
+      <dependency dep="developed" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="12" gov="method" gov_index="14">det</dependency>
+      <dependency dep="simple" dep_index="13" gov="method" gov_index="14">amod</dependency>
+      <dependency dep="method" dep_index="14" gov="developed" gov_index="11">dobj</dependency>
+      <dependency dep="to" dep_index="15" gov="isolate" gov_index="16">aux</dependency>
+      <dependency dep="isolate" dep_index="16" gov="developed" gov_index="11">xcomp</dependency>
+      <dependency dep="myosin heavy chain" dep_index="17" gov=")" gov_index="20">amod</dependency>
+      <dependency dep="(" dep_index="18" gov=")" gov_index="20">nn</dependency>
+      <dependency dep="MHC" dep_index="19" gov=")" gov_index="20">nn</dependency>
+      <dependency dep=")" dep_index="20" gov="isolate" gov_index="16">dobj</dependency>
+      <dependency dep="actin" dep_index="22" gov="isolate" gov_index="16">dobj</dependency>
+      <dependency dep="actin" dep_index="22" gov=")" gov_index="20">conj_and</dependency>
+      <dependency dep="small" dep_index="24" gov="samples" gov_index="30">amod</dependency>
+      <dependency dep="(60-80" dep_index="25" gov="samples" gov_index="30">num</dependency>
+      <dependency dep="mg)" dep_index="26" gov="samples" gov_index="30">nn</dependency>
+      <dependency dep="human" dep_index="27" gov="samples" gov_index="30">amod</dependency>
+      <dependency dep="skeletal" dep_index="28" gov="samples" gov_index="30">amod</dependency>
+      <dependency dep="muscle" dep_index="29" gov="samples" gov_index="30">nn</dependency>
+      <dependency dep="samples" dep_index="30" gov="isolate" gov_index="16">prep_from</dependency>
+      <dependency dep="the" dep_index="32" gov="determination" gov_index="33">det</dependency>
+      <dependency dep="determination" dep_index="33" gov="samples" gov_index="30">prep_for</dependency>
+      <dependency dep="their" dep_index="35" gov="rates" gov_index="38">poss</dependency>
+      <dependency dep="fractional" dep_index="36" gov="rates" gov_index="38">amod</dependency>
+      <dependency dep="synthesis" dep_index="37" gov="rates" gov_index="38">nn</dependency>
+      <dependency dep="rates" dep_index="38" gov="determination" gov_index="33">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700022" relationship="false">17 20 16 22</relation>
+      <relation position="1900022" relationship="false">19 20 16 22</relation>
+      <relation position="1700019" relationship="false">17 20 19</relation>
+   </relations>
+   <pairs/>
+</root>

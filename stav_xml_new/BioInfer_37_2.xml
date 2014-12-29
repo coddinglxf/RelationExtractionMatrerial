@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interaction@of@Acanthamoeba@actin@and@Acanthamoeba@profilin@was@evaluated@as@a@function@of@ionic@conditions@.@</sentence>
+   <tags>
+      <tag pos="5">actin</tag>
+      <tag pos="8">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">Acanthamoeba</taggedword>
+      <taggedword index="5" part-of-speech="NN">actin</taggedword>
+      <taggedword index="6" part-of-speech="CC">and</taggedword>
+      <taggedword index="7" part-of-speech="NN">Acanthamoeba</taggedword>
+      <taggedword index="8" part-of-speech="NNS">profilin</taggedword>
+      <taggedword index="9" part-of-speech="VBD">was</taggedword>
+      <taggedword index="10" part-of-speech="VBN">evaluated</taggedword>
+      <taggedword index="11" part-of-speech="IN">as</taggedword>
+      <taggedword index="12" part-of-speech="DT">a</taggedword>
+      <taggedword index="13" part-of-speech="NN">function</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="JJ">ionic</taggedword>
+      <taggedword index="16" part-of-speech="NNS">conditions</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interaction" gov_index="2">det</dependency>
+      <dependency dep="interaction" dep_index="2" gov="evaluated" gov_index="10">nsubjpass</dependency>
+      <dependency dep="Acanthamoeba" dep_index="4" gov="actin" gov_index="5">nn</dependency>
+      <dependency dep="actin" dep_index="5" gov="interaction" gov_index="2">prep_of</dependency>
+      <dependency dep="Acanthamoeba" dep_index="7" gov="profilin" gov_index="8">nn</dependency>
+      <dependency dep="profilin" dep_index="8" gov="interaction" gov_index="2">prep_of</dependency>
+      <dependency dep="profilin" dep_index="8" gov="actin" gov_index="5">conj_and</dependency>
+      <dependency dep="was" dep_index="9" gov="evaluated" gov_index="10">auxpass</dependency>
+      <dependency dep="evaluated" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="12" gov="function" gov_index="13">det</dependency>
+      <dependency dep="function" dep_index="13" gov="evaluated" gov_index="10">prep_as</dependency>
+      <dependency dep="ionic" dep_index="15" gov="conditions" gov_index="16">amod</dependency>
+      <dependency dep="conditions" dep_index="16" gov="function" gov_index="13">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500008" relationship="true">5 2 8</relation>
+   </relations>
+   <pairs>
+      <pair>500008</pair>
+   </pairs>
+</root>

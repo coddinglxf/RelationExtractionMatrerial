@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>OT@may@rapidly@stimulate@inositol (1,4,5)-trisphosphate@(IP3)@and@diacylglycerol@(DAG)@formation@,@consistent@with@the@concept@of@rapid@activation@of@a@second-messenger@system@</sentence>
+   <tags>
+      <tag pos="1">OT</tag>
+      <tag pos="5">inositol (1,4,5)-trisphosphate</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="2" part-of-speech="MD">may</taggedword>
+      <taggedword index="3" part-of-speech="RB">rapidly</taggedword>
+      <taggedword index="4" part-of-speech="VB">stimulate</taggedword>
+      <taggedword index="5" part-of-speech="JJ">inositol (1,4,5)-trisphosphate</taggedword>
+      <taggedword index="6" part-of-speech="CD">(IP3)</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">diacylglycerol</taggedword>
+      <taggedword index="9" part-of-speech="JJ">(DAG)</taggedword>
+      <taggedword index="10" part-of-speech="NN">formation</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="JJ">consistent</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NN">concept</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="18" part-of-speech="NN">activation</taggedword>
+      <taggedword index="19" part-of-speech="IN">of</taggedword>
+      <taggedword index="20" part-of-speech="DT">a</taggedword>
+      <taggedword index="21" part-of-speech="JJ">second-messenger</taggedword>
+      <taggedword index="22" part-of-speech="NN">system</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="OT" dep_index="1" gov="stimulate" gov_index="4">nsubj</dependency>
+      <dependency dep="may" dep_index="2" gov="stimulate" gov_index="4">aux</dependency>
+      <dependency dep="rapidly" dep_index="3" gov="stimulate" gov_index="4">advmod</dependency>
+      <dependency dep="stimulate" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="inositol (1,4,5)-trisphosphate" dep_index="5" gov="(IP3)" gov_index="6">amod</dependency>
+      <dependency dep="(IP3)" dep_index="6" gov="stimulate" gov_index="4">dobj</dependency>
+      <dependency dep="diacylglycerol" dep_index="8" gov="formation" gov_index="10">amod</dependency>
+      <dependency dep="(DAG)" dep_index="9" gov="formation" gov_index="10">amod</dependency>
+      <dependency dep="formation" dep_index="10" gov="stimulate" gov_index="4">dobj</dependency>
+      <dependency dep="formation" dep_index="10" gov="(IP3)" gov_index="6">conj_and</dependency>
+      <dependency dep="consistent" dep_index="12" gov="(IP3)" gov_index="6">amod</dependency>
+      <dependency dep="the" dep_index="14" gov="concept" gov_index="15">det</dependency>
+      <dependency dep="concept" dep_index="15" gov="consistent" gov_index="12">prep_with</dependency>
+      <dependency dep="rapid" dep_index="17" gov="activation" gov_index="18">amod</dependency>
+      <dependency dep="activation" dep_index="18" gov="concept" gov_index="15">prep_of</dependency>
+      <dependency dep="a" dep_index="20" gov="system" gov_index="22">det</dependency>
+      <dependency dep="second-messenger" dep_index="21" gov="system" gov_index="22">amod</dependency>
+      <dependency dep="system" dep_index="22" gov="activation" gov_index="18">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100005" relationship="true">1 4 6 5</relation>
+   </relations>
+   <pairs>
+      <pair>100005</pair>
+   </pairs>
+</root>

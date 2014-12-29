@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Reverse@transcription-polymerase@chain@reaction@analysis@detected@the@receptor@transcript@only@in@cell@lines@known@to@bind@IL-13@.@</sentence>
+   <tags>
+      <tag pos="17">IL-13</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Reverse</taggedword>
+      <taggedword index="2" part-of-speech="JJ">transcription-polymerase</taggedword>
+      <taggedword index="3" part-of-speech="NN">chain</taggedword>
+      <taggedword index="4" part-of-speech="NN">reaction</taggedword>
+      <taggedword index="5" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="6" part-of-speech="VBD">detected</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="9" part-of-speech="NN">transcript</taggedword>
+      <taggedword index="10" part-of-speech="RB">only</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">cell</taggedword>
+      <taggedword index="13" part-of-speech="NNS">lines</taggedword>
+      <taggedword index="14" part-of-speech="VBN">known</taggedword>
+      <taggedword index="15" part-of-speech="TO">to</taggedword>
+      <taggedword index="16" part-of-speech="NN">bind</taggedword>
+      <taggedword index="17" part-of-speech="NN">IL-13</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Reverse" dep_index="1" gov="detected" gov_index="6">advmod</dependency>
+      <dependency dep="transcription-polymerase" dep_index="2" gov="analysis" gov_index="5">amod</dependency>
+      <dependency dep="chain" dep_index="3" gov="analysis" gov_index="5">nn</dependency>
+      <dependency dep="reaction" dep_index="4" gov="analysis" gov_index="5">nn</dependency>
+      <dependency dep="analysis" dep_index="5" gov="detected" gov_index="6">nsubj</dependency>
+      <dependency dep="detected" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="transcript" gov_index="9">det</dependency>
+      <dependency dep="receptor" dep_index="8" gov="transcript" gov_index="9">nn</dependency>
+      <dependency dep="transcript" dep_index="9" gov="detected" gov_index="6">dobj</dependency>
+      <dependency dep="only" dep_index="10" gov="detected" gov_index="6">advmod</dependency>
+      <dependency dep="cell" dep_index="12" gov="lines" gov_index="13">nn</dependency>
+      <dependency dep="lines" dep_index="13" gov="detected" gov_index="6">prep_in</dependency>
+      <dependency dep="known" dep_index="14" gov="lines" gov_index="13">partmod</dependency>
+      <dependency dep="bind" dep_index="16" gov="IL-13" gov_index="17">nn</dependency>
+      <dependency dep="IL-13" dep_index="17" gov="known" gov_index="14">prep_to</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

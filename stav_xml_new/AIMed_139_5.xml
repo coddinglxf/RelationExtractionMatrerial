@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@describe@the@first@example@of@an@amino@acid@substitution@in@helix@1@of@this@combined@alpha-beta@triple-helical@segment@,@which@,@although@relatively@minor@,@profoundly@impairs@tetramer@formation@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">describe</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">first</taggedword>
+      <taggedword index="5" part-of-speech="NN">example</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">an</taggedword>
+      <taggedword index="8" part-of-speech="JJ">amino</taggedword>
+      <taggedword index="9" part-of-speech="NN">acid</taggedword>
+      <taggedword index="10" part-of-speech="NN">substitution</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="NN">helix</taggedword>
+      <taggedword index="13" part-of-speech="CD">1</taggedword>
+      <taggedword index="14" part-of-speech="IN">of</taggedword>
+      <taggedword index="15" part-of-speech="DT">this</taggedword>
+      <taggedword index="16" part-of-speech="VBN">combined</taggedword>
+      <taggedword index="17" part-of-speech="JJ">alpha-beta</taggedword>
+      <taggedword index="18" part-of-speech="NN">triple-helical</taggedword>
+      <taggedword index="19" part-of-speech="NN">segment</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="WDT">which</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="IN">although</taggedword>
+      <taggedword index="24" part-of-speech="RB">relatively</taggedword>
+      <taggedword index="25" part-of-speech="JJ">minor</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="RB">profoundly</taggedword>
+      <taggedword index="28" part-of-speech="VBZ">impairs</taggedword>
+      <taggedword index="29" part-of-speech="NN">tetramer</taggedword>
+      <taggedword index="30" part-of-speech="NN">formation</taggedword>
+      <taggedword index="31" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="describe" gov_index="2">nsubj</dependency>
+      <dependency dep="describe" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="example" gov_index="5">det</dependency>
+      <dependency dep="first" dep_index="4" gov="example" gov_index="5">amod</dependency>
+      <dependency dep="example" dep_index="5" gov="describe" gov_index="2">dobj</dependency>
+      <dependency dep="an" dep_index="7" gov="substitution" gov_index="10">det</dependency>
+      <dependency dep="amino" dep_index="8" gov="substitution" gov_index="10">amod</dependency>
+      <dependency dep="acid" dep_index="9" gov="substitution" gov_index="10">nn</dependency>
+      <dependency dep="substitution" dep_index="10" gov="example" gov_index="5">prep_of</dependency>
+      <dependency dep="helix" dep_index="12" gov="describe" gov_index="2">prep_in</dependency>
+      <dependency dep="1" dep_index="13" gov="helix" gov_index="12">num</dependency>
+      <dependency dep="this" dep_index="15" gov="segment" gov_index="19">det</dependency>
+      <dependency dep="combined" dep_index="16" gov="segment" gov_index="19">amod</dependency>
+      <dependency dep="alpha-beta" dep_index="17" gov="segment" gov_index="19">amod</dependency>
+      <dependency dep="triple-helical" dep_index="18" gov="segment" gov_index="19">nn</dependency>
+      <dependency dep="segment" dep_index="19" gov="helix" gov_index="12">prep_of</dependency>
+      <dependency dep="segment" dep_index="19" gov="impairs" gov_index="28">nsubj</dependency>
+      <dependency dep="although" dep_index="23" gov="minor" gov_index="25">mark</dependency>
+      <dependency dep="relatively" dep_index="24" gov="minor" gov_index="25">advmod</dependency>
+      <dependency dep="minor" dep_index="25" gov="impairs" gov_index="28">parataxis</dependency>
+      <dependency dep="profoundly" dep_index="27" gov="impairs" gov_index="28">advmod</dependency>
+      <dependency dep="impairs" dep_index="28" gov="segment" gov_index="19">rcmod</dependency>
+      <dependency dep="tetramer" dep_index="29" gov="formation" gov_index="30">nn</dependency>
+      <dependency dep="formation" dep_index="30" gov="impairs" gov_index="28">dobj</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

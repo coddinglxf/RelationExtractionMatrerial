@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@findings@provide@the@first@evidence@that@profilin@is@a@key@molecule@linking@a@signaling@network@to@rapid@actin@polymerization@in@microspike@formation@.@</sentence>
+   <tags>
+      <tag pos="19">actin</tag>
+      <tag pos="8">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">findings</taggedword>
+      <taggedword index="3" part-of-speech="VBP">provide</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">first</taggedword>
+      <taggedword index="6" part-of-speech="NN">evidence</taggedword>
+      <taggedword index="7" part-of-speech="IN">that</taggedword>
+      <taggedword index="8" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="10" part-of-speech="DT">a</taggedword>
+      <taggedword index="11" part-of-speech="JJ">key</taggedword>
+      <taggedword index="12" part-of-speech="NN">molecule</taggedword>
+      <taggedword index="13" part-of-speech="VBG">linking</taggedword>
+      <taggedword index="14" part-of-speech="DT">a</taggedword>
+      <taggedword index="15" part-of-speech="JJ">signaling</taggedword>
+      <taggedword index="16" part-of-speech="NN">network</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="JJ">rapid</taggedword>
+      <taggedword index="19" part-of-speech="NN">actin</taggedword>
+      <taggedword index="20" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="21" part-of-speech="IN">in</taggedword>
+      <taggedword index="22" part-of-speech="JJ">microspike</taggedword>
+      <taggedword index="23" part-of-speech="NN">formation</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="findings" gov_index="2">det</dependency>
+      <dependency dep="findings" dep_index="2" gov="provide" gov_index="3">nsubj</dependency>
+      <dependency dep="provide" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="evidence" gov_index="6">det</dependency>
+      <dependency dep="first" dep_index="5" gov="evidence" gov_index="6">amod</dependency>
+      <dependency dep="evidence" dep_index="6" gov="provide" gov_index="3">dobj</dependency>
+      <dependency dep="that" dep_index="7" gov="molecule" gov_index="12">mark</dependency>
+      <dependency dep="profilin" dep_index="8" gov="molecule" gov_index="12">nsubj</dependency>
+      <dependency dep="is" dep_index="9" gov="molecule" gov_index="12">cop</dependency>
+      <dependency dep="a" dep_index="10" gov="molecule" gov_index="12">det</dependency>
+      <dependency dep="key" dep_index="11" gov="molecule" gov_index="12">amod</dependency>
+      <dependency dep="molecule" dep_index="12" gov="provide" gov_index="3">ccomp</dependency>
+      <dependency dep="linking" dep_index="13" gov="molecule" gov_index="12">partmod</dependency>
+      <dependency dep="a" dep_index="14" gov="network" gov_index="16">det</dependency>
+      <dependency dep="signaling" dep_index="15" gov="network" gov_index="16">amod</dependency>
+      <dependency dep="network" dep_index="16" gov="linking" gov_index="13">dobj</dependency>
+      <dependency dep="rapid" dep_index="18" gov="polymerization" gov_index="20">amod</dependency>
+      <dependency dep="actin" dep_index="19" gov="polymerization" gov_index="20">nn</dependency>
+      <dependency dep="polymerization" dep_index="20" gov="linking" gov_index="13">prep_to</dependency>
+      <dependency dep="microspike" dep_index="22" gov="formation" gov_index="23">amod</dependency>
+      <dependency dep="formation" dep_index="23" gov="polymerization" gov_index="20">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800019" relationship="true">8 12 13 20 19</relation>
+   </relations>
+   <pairs>
+      <pair>800019</pair>
+   </pairs>
+</root>

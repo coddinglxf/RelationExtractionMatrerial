@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@APC@protein@and@E-cadherin@form@similar@but@independent@complexes@with@alpha-catenin@,@beta-catenin@,@and@plakoglobin@.@</sentence>
+   <tags>
+      <tag pos="5">E-cadherin</tag>
+      <tag pos="2">APC</tag>
+      <tag pos="17">plakoglobin</tag>
+      <tag pos="12">alpha-catenin</tag>
+      <tag pos="14">beta-catenin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">APC</taggedword>
+      <taggedword index="3" part-of-speech="NN">protein</taggedword>
+      <taggedword index="4" part-of-speech="CC">and</taggedword>
+      <taggedword index="5" part-of-speech="NNP">E-cadherin</taggedword>
+      <taggedword index="6" part-of-speech="VBP">form</taggedword>
+      <taggedword index="7" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="8" part-of-speech="CC">but</taggedword>
+      <taggedword index="9" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="10" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="NN">alpha-catenin</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="NN">beta-catenin</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">plakoglobin</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="protein" gov_index="3">det</dependency>
+      <dependency dep="APC" dep_index="2" gov="protein" gov_index="3">nn</dependency>
+      <dependency dep="protein" dep_index="3" gov="form" gov_index="6">nsubj</dependency>
+      <dependency dep="E-cadherin" dep_index="5" gov="protein" gov_index="3">conj_and</dependency>
+      <dependency dep="E-cadherin" dep_index="5" gov="form" gov_index="6">nsubj</dependency>
+      <dependency dep="form" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="similar" dep_index="7" gov="complexes" gov_index="10">amod</dependency>
+      <dependency dep="independent" dep_index="9" gov="similar" gov_index="7">conj_but</dependency>
+      <dependency dep="independent" dep_index="9" gov="complexes" gov_index="10">amod</dependency>
+      <dependency dep="complexes" dep_index="10" gov="form" gov_index="6">dobj</dependency>
+      <dependency dep="alpha-catenin" dep_index="12" gov="form" gov_index="6">prep_with</dependency>
+      <dependency dep="beta-catenin" dep_index="14" gov="form" gov_index="6">prep_with</dependency>
+      <dependency dep="beta-catenin" dep_index="14" gov="alpha-catenin" gov_index="12">conj_and</dependency>
+      <dependency dep="plakoglobin" dep_index="17" gov="form" gov_index="6">prep_with</dependency>
+      <dependency dep="plakoglobin" dep_index="17" gov="alpha-catenin" gov_index="12">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200005" relationship="true">2 3 6 5</relation>
+      <relation position="500017" relationship="true">5 6 17</relation>
+      <relation position="500012" relationship="true">5 6 12</relation>
+      <relation position="500014" relationship="true">5 6 14</relation>
+      <relation position="200017" relationship="true">2 3 6 17</relation>
+      <relation position="200012" relationship="true">2 3 6 12</relation>
+      <relation position="200014" relationship="true">2 3 6 14</relation>
+      <relation position="1200017" relationship="true">12 6 17</relation>
+      <relation position="1400017" relationship="true">14 6 17</relation>
+      <relation position="1200014" relationship="true">12 6 14</relation>
+   </relations>
+   <pairs>
+      <pair>200012</pair>
+      <pair>500012</pair>
+      <pair>1200017</pair>
+      <pair>200014</pair>
+      <pair>500014</pair>
+      <pair>1400017</pair>
+      <pair>200005</pair>
+      <pair>1200014</pair>
+      <pair>200017</pair>
+      <pair>500017</pair>
+   </pairs>
+</root>

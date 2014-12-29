@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@addition@of@AVP@increased@protein kinase C@activity@in@cardiac@myocytes@,@and@its@effect@was@significantly@inhibited@in@the@presence@of@calphostin@C@</sentence>
+   <tags>
+      <tag pos="4">AVP</tag>
+      <tag pos="6">protein kinase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="5" part-of-speech="VBD">increased</taggedword>
+      <taggedword index="6" part-of-speech="JJ">protein kinase C</taggedword>
+      <taggedword index="7" part-of-speech="NN">activity</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">cardiac</taggedword>
+      <taggedword index="10" part-of-speech="NNS">myocytes</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="14" part-of-speech="NN">effect</taggedword>
+      <taggedword index="15" part-of-speech="VBD">was</taggedword>
+      <taggedword index="16" part-of-speech="RB">significantly</taggedword>
+      <taggedword index="17" part-of-speech="JJ">inhibited</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">presence</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNP">calphostin</taggedword>
+      <taggedword index="23" part-of-speech="NNP">C</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="addition" gov_index="2">det</dependency>
+      <dependency dep="addition" dep_index="2" gov="increased" gov_index="5">nsubj</dependency>
+      <dependency dep="AVP" dep_index="4" gov="addition" gov_index="2">prep_of</dependency>
+      <dependency dep="increased" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="protein kinase C" dep_index="6" gov="activity" gov_index="7">amod</dependency>
+      <dependency dep="activity" dep_index="7" gov="increased" gov_index="5">dobj</dependency>
+      <dependency dep="cardiac" dep_index="9" gov="myocytes" gov_index="10">amod</dependency>
+      <dependency dep="myocytes" dep_index="10" gov="increased" gov_index="5">prep_in</dependency>
+      <dependency dep="its" dep_index="13" gov="effect" gov_index="14">poss</dependency>
+      <dependency dep="effect" dep_index="14" gov="inhibited" gov_index="17">nsubj</dependency>
+      <dependency dep="was" dep_index="15" gov="inhibited" gov_index="17">cop</dependency>
+      <dependency dep="significantly" dep_index="16" gov="inhibited" gov_index="17">advmod</dependency>
+      <dependency dep="inhibited" dep_index="17" gov="increased" gov_index="5">conj_and</dependency>
+      <dependency dep="the" dep_index="19" gov="presence" gov_index="20">det</dependency>
+      <dependency dep="presence" dep_index="20" gov="inhibited" gov_index="17">prep_in</dependency>
+      <dependency dep="calphostin" dep_index="22" gov="C" gov_index="23">nn</dependency>
+      <dependency dep="C" dep_index="23" gov="presence" gov_index="20">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400006" relationship="true">4 2 5 7 6</relation>
+   </relations>
+   <pairs>
+      <pair>400006</pair>
+   </pairs>
+</root>

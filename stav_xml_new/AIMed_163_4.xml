@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>SNX1@contains@a@region@of@homology@to@a@yeast@vacuolar@sorting@protein@,@and@overexpression@of@SNX1@decreased@the@amount@of@EGFR@on@the@cell@surface@as@a@result@of@enhanced@rates@of@constitutive@and@ligand-induced@degradation@.@</sentence>
+   <tags>
+      <tag pos="1">SNX1</tag>
+      <tag pos="17">SNX1</tag>
+      <tag pos="22">EGFR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">SNX1</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">contains</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">region</taggedword>
+      <taggedword index="5" part-of-speech="IN">of</taggedword>
+      <taggedword index="6" part-of-speech="NN">homology</taggedword>
+      <taggedword index="7" part-of-speech="TO">to</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="10" part-of-speech="NN">vacuolar</taggedword>
+      <taggedword index="11" part-of-speech="VBG">sorting</taggedword>
+      <taggedword index="12" part-of-speech="NN">protein</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="NN">overexpression</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="NNP">SNX1</taggedword>
+      <taggedword index="18" part-of-speech="VBD">decreased</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="NN">amount</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="NNP">EGFR</taggedword>
+      <taggedword index="23" part-of-speech="IN">on</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="NN">cell</taggedword>
+      <taggedword index="26" part-of-speech="NN">surface</taggedword>
+      <taggedword index="27" part-of-speech="IN">as</taggedword>
+      <taggedword index="28" part-of-speech="DT">a</taggedword>
+      <taggedword index="29" part-of-speech="NN">result</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="JJ">enhanced</taggedword>
+      <taggedword index="32" part-of-speech="NNS">rates</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="JJ">constitutive</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="JJ">ligand-induced</taggedword>
+      <taggedword index="37" part-of-speech="NN">degradation</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="SNX1" dep_index="1" gov="contains" gov_index="2">nsubj</dependency>
+      <dependency dep="contains" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="3" gov="region" gov_index="4">det</dependency>
+      <dependency dep="region" dep_index="4" gov="contains" gov_index="2">dobj</dependency>
+      <dependency dep="homology" dep_index="6" gov="region" gov_index="4">prep_of</dependency>
+      <dependency dep="a" dep_index="8" gov="protein" gov_index="12">det</dependency>
+      <dependency dep="yeast" dep_index="9" gov="protein" gov_index="12">nn</dependency>
+      <dependency dep="vacuolar" dep_index="10" gov="protein" gov_index="12">nn</dependency>
+      <dependency dep="sorting" dep_index="11" gov="protein" gov_index="12">amod</dependency>
+      <dependency dep="protein" dep_index="12" gov="contains" gov_index="2">prep_to</dependency>
+      <dependency dep="overexpression" dep_index="15" gov="decreased" gov_index="18">nsubj</dependency>
+      <dependency dep="SNX1" dep_index="17" gov="overexpression" gov_index="15">prep_of</dependency>
+      <dependency dep="decreased" dep_index="18" gov="contains" gov_index="2">conj_and</dependency>
+      <dependency dep="the" dep_index="19" gov="amount" gov_index="20">det</dependency>
+      <dependency dep="amount" dep_index="20" gov="decreased" gov_index="18">dobj</dependency>
+      <dependency dep="EGFR" dep_index="22" gov="amount" gov_index="20">prep_of</dependency>
+      <dependency dep="the" dep_index="24" gov="surface" gov_index="26">det</dependency>
+      <dependency dep="cell" dep_index="25" gov="surface" gov_index="26">nn</dependency>
+      <dependency dep="surface" dep_index="26" gov="decreased" gov_index="18">prep_on</dependency>
+      <dependency dep="a" dep_index="28" gov="result" gov_index="29">det</dependency>
+      <dependency dep="result" dep_index="29" gov="decreased" gov_index="18">prep_as</dependency>
+      <dependency dep="enhanced" dep_index="31" gov="rates" gov_index="32">amod</dependency>
+      <dependency dep="rates" dep_index="32" gov="result" gov_index="29">prep_of</dependency>
+      <dependency dep="constitutive" dep_index="34" gov="degradation" gov_index="37">amod</dependency>
+      <dependency dep="ligand-induced" dep_index="36" gov="constitutive" gov_index="34">conj_and</dependency>
+      <dependency dep="ligand-induced" dep_index="36" gov="degradation" gov_index="37">amod</dependency>
+      <dependency dep="degradation" dep_index="37" gov="rates" gov_index="32">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100017" relationship="false"></relation>
+      <relation position="100022" relationship="false"></relation>
+      <relation position="1700022" relationship="false">17 15 18 20 22</relation>
+   </relations>
+   <pairs/>
+</root>

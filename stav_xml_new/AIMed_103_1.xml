@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Cloning@and@characterization@of@hTAFII18@,@hTAFII20@and@hTAFII28@:@three@subunits@of@the@human@transcription@factor@TFIID@.@</sentence>
+   <tags>
+      <tag pos="5">hTAFII18</tag>
+      <tag pos="7">hTAFII20</tag>
+      <tag pos="9">hTAFII28</tag>
+      <tag pos="18">TFIID</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Cloning</taggedword>
+      <taggedword index="2" part-of-speech="CC">and</taggedword>
+      <taggedword index="3" part-of-speech="NN">characterization</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="CD">hTAFII18</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="CD">hTAFII20</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="CD">hTAFII28</taggedword>
+      <taggedword index="10" part-of-speech=":">:</taggedword>
+      <taggedword index="11" part-of-speech="CD">three</taggedword>
+      <taggedword index="12" part-of-speech="NNS">subunits</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">human</taggedword>
+      <taggedword index="16" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="17" part-of-speech="NN">factor</taggedword>
+      <taggedword index="18" part-of-speech="NN">TFIID</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Cloning" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="characterization" dep_index="3" gov="Cloning" gov_index="1">conj_and</dependency>
+      <dependency dep="hTAFII18" dep_index="5" gov="Cloning" gov_index="1">prep_of</dependency>
+      <dependency dep="hTAFII20" dep_index="7" gov="hTAFII18" gov_index="5">num</dependency>
+      <dependency dep="hTAFII28" dep_index="9" gov="Cloning" gov_index="1">prep_of</dependency>
+      <dependency dep="hTAFII28" dep_index="9" gov="hTAFII18" gov_index="5">conj_and</dependency>
+      <dependency dep="three" dep_index="11" gov="subunits" gov_index="12">num</dependency>
+      <dependency dep="subunits" dep_index="12" gov="Cloning" gov_index="1">dep</dependency>
+      <dependency dep="the" dep_index="14" gov="TFIID" gov_index="18">det</dependency>
+      <dependency dep="human" dep_index="15" gov="TFIID" gov_index="18">amod</dependency>
+      <dependency dep="transcription" dep_index="16" gov="TFIID" gov_index="18">nn</dependency>
+      <dependency dep="factor" dep_index="17" gov="TFIID" gov_index="18">nn</dependency>
+      <dependency dep="TFIID" dep_index="18" gov="subunits" gov_index="12">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="true"></relation>
+      <relation position="500009" relationship="true">5 1 9</relation>
+      <relation position="500018" relationship="false">5 1 12 18</relation>
+      <relation position="700009" relationship="true">7 5 1 9</relation>
+      <relation position="700018" relationship="false">7 5 1 12 18</relation>
+      <relation position="900018" relationship="false">9 1 12 18</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+      <pair>500009</pair>
+      <pair>500007</pair>
+   </pairs>
+</root>

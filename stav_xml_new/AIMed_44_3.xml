@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Several@monoclonal@antibodies@(MAbs)@have@been@developed@against@CD30@and@,@based@on@mutual@inhibition@assays@,@are@grouped@into@three@nonoverlapping@serologic@clusters@.@</sentence>
+   <tags>
+      <tag pos="9">CD30</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Several</taggedword>
+      <taggedword index="2" part-of-speech="JJ">monoclonal</taggedword>
+      <taggedword index="3" part-of-speech="NNS">antibodies</taggedword>
+      <taggedword index="4" part-of-speech="RB">(MAbs)</taggedword>
+      <taggedword index="5" part-of-speech="VBP">have</taggedword>
+      <taggedword index="6" part-of-speech="VBN">been</taggedword>
+      <taggedword index="7" part-of-speech="VBN">developed</taggedword>
+      <taggedword index="8" part-of-speech="IN">against</taggedword>
+      <taggedword index="9" part-of-speech="NNP">CD30</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="VBN">based</taggedword>
+      <taggedword index="13" part-of-speech="IN">on</taggedword>
+      <taggedword index="14" part-of-speech="JJ">mutual</taggedword>
+      <taggedword index="15" part-of-speech="NN">inhibition</taggedword>
+      <taggedword index="16" part-of-speech="NNS">assays</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="VBP">are</taggedword>
+      <taggedword index="19" part-of-speech="VBN">grouped</taggedword>
+      <taggedword index="20" part-of-speech="IN">into</taggedword>
+      <taggedword index="21" part-of-speech="CD">three</taggedword>
+      <taggedword index="22" part-of-speech="VBG">nonoverlapping</taggedword>
+      <taggedword index="23" part-of-speech="JJ">serologic</taggedword>
+      <taggedword index="24" part-of-speech="NNS">clusters</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Several" dep_index="1" gov="antibodies" gov_index="3">amod</dependency>
+      <dependency dep="monoclonal" dep_index="2" gov="antibodies" gov_index="3">amod</dependency>
+      <dependency dep="antibodies" dep_index="3" gov="developed" gov_index="7">nsubjpass</dependency>
+      <dependency dep="antibodies" dep_index="3" gov="grouped" gov_index="19">nsubjpass</dependency>
+      <dependency dep="(MAbs)" dep_index="4" gov="developed" gov_index="7">advmod</dependency>
+      <dependency dep="have" dep_index="5" gov="developed" gov_index="7">aux</dependency>
+      <dependency dep="been" dep_index="6" gov="developed" gov_index="7">auxpass</dependency>
+      <dependency dep="developed" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="CD30" dep_index="9" gov="developed" gov_index="7">prep_against</dependency>
+      <dependency dep="on" dep_index="13" gov="developed" gov_index="7">prepc_based_on</dependency>
+      <dependency dep="mutual" dep_index="14" gov="assays" gov_index="16">amod</dependency>
+      <dependency dep="inhibition" dep_index="15" gov="assays" gov_index="16">nn</dependency>
+      <dependency dep="assays" dep_index="16" gov="developed" gov_index="7">pobj</dependency>
+      <dependency dep="are" dep_index="18" gov="grouped" gov_index="19">auxpass</dependency>
+      <dependency dep="grouped" dep_index="19" gov="developed" gov_index="7">conj_and</dependency>
+      <dependency dep="three" dep_index="21" gov="clusters" gov_index="24">num</dependency>
+      <dependency dep="nonoverlapping" dep_index="22" gov="clusters" gov_index="24">amod</dependency>
+      <dependency dep="serologic" dep_index="23" gov="clusters" gov_index="24">amod</dependency>
+      <dependency dep="clusters" dep_index="24" gov="grouped" gov_index="19">prep_into</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

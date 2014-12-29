@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@this@report@,@we@explore@the@biochemical@nature@of@the@connections@between@keratin@filaments@and@desmosomes@in@epidermal@keratinocytes@.@</sentence>
+   <tags/>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">this</taggedword>
+      <taggedword index="3" part-of-speech="NN">report</taggedword>
+      <taggedword index="4" part-of-speech=",">,</taggedword>
+      <taggedword index="5" part-of-speech="PRP">we</taggedword>
+      <taggedword index="6" part-of-speech="VB">explore</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">biochemical</taggedword>
+      <taggedword index="9" part-of-speech="NN">nature</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NNS">connections</taggedword>
+      <taggedword index="13" part-of-speech="IN">between</taggedword>
+      <taggedword index="14" part-of-speech="NN">keratin</taggedword>
+      <taggedword index="15" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NNS">desmosomes</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="JJ">epidermal</taggedword>
+      <taggedword index="20" part-of-speech="NNS">keratinocytes</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="this" dep_index="2" gov="report" gov_index="3">det</dependency>
+      <dependency dep="report" dep_index="3" gov="explore" gov_index="6">prep_in</dependency>
+      <dependency dep="we" dep_index="5" gov="explore" gov_index="6">nsubj</dependency>
+      <dependency dep="explore" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="nature" gov_index="9">det</dependency>
+      <dependency dep="biochemical" dep_index="8" gov="nature" gov_index="9">amod</dependency>
+      <dependency dep="nature" dep_index="9" gov="explore" gov_index="6">dobj</dependency>
+      <dependency dep="the" dep_index="11" gov="connections" gov_index="12">det</dependency>
+      <dependency dep="connections" dep_index="12" gov="nature" gov_index="9">prep_of</dependency>
+      <dependency dep="keratin" dep_index="14" gov="filaments" gov_index="15">nn</dependency>
+      <dependency dep="filaments" dep_index="15" gov="connections" gov_index="12">prep_between</dependency>
+      <dependency dep="desmosomes" dep_index="17" gov="connections" gov_index="12">prep_between</dependency>
+      <dependency dep="desmosomes" dep_index="17" gov="filaments" gov_index="15">conj_and</dependency>
+      <dependency dep="epidermal" dep_index="19" gov="keratinocytes" gov_index="20">amod</dependency>
+      <dependency dep="keratinocytes" dep_index="20" gov="explore" gov_index="6">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

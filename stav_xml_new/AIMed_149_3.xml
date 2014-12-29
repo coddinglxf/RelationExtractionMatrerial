@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Both@GRB2@and@sem-5@have@been@implicated@in@a@highly@conserved@mechanism@that@regulates@p21ras@signalling@by@receptor@tyrosine@kinases@.@</sentence>
+   <tags>
+      <tag pos="2">GRB2</tag>
+      <tag pos="4">sem-5</tag>
+      <tag pos="15">p21ras</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">Both</taggedword>
+      <taggedword index="2" part-of-speech="JJ">GRB2</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="JJ">sem-5</taggedword>
+      <taggedword index="5" part-of-speech="VBP">have</taggedword>
+      <taggedword index="6" part-of-speech="VBN">been</taggedword>
+      <taggedword index="7" part-of-speech="VBN">implicated</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="DT">a</taggedword>
+      <taggedword index="10" part-of-speech="RB">highly</taggedword>
+      <taggedword index="11" part-of-speech="JJ">conserved</taggedword>
+      <taggedword index="12" part-of-speech="NN">mechanism</taggedword>
+      <taggedword index="13" part-of-speech="WDT">that</taggedword>
+      <taggedword index="14" part-of-speech="VBZ">regulates</taggedword>
+      <taggedword index="15" part-of-speech="JJ">p21ras</taggedword>
+      <taggedword index="16" part-of-speech="NN">signalling</taggedword>
+      <taggedword index="17" part-of-speech="IN">by</taggedword>
+      <taggedword index="18" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="19" part-of-speech="NN">tyrosine</taggedword>
+      <taggedword index="20" part-of-speech="NNS">kinases</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Both" dep_index="1" gov="GRB2" gov_index="2">preconj</dependency>
+      <dependency dep="GRB2" dep_index="2" gov="implicated" gov_index="7">nsubjpass</dependency>
+      <dependency dep="sem-5" dep_index="4" gov="GRB2" gov_index="2">conj_and</dependency>
+      <dependency dep="sem-5" dep_index="4" gov="implicated" gov_index="7">nsubjpass</dependency>
+      <dependency dep="have" dep_index="5" gov="implicated" gov_index="7">aux</dependency>
+      <dependency dep="been" dep_index="6" gov="implicated" gov_index="7">auxpass</dependency>
+      <dependency dep="implicated" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="a" dep_index="9" gov="mechanism" gov_index="12">det</dependency>
+      <dependency dep="highly" dep_index="10" gov="conserved" gov_index="11">advmod</dependency>
+      <dependency dep="conserved" dep_index="11" gov="mechanism" gov_index="12">amod</dependency>
+      <dependency dep="mechanism" dep_index="12" gov="implicated" gov_index="7">prep_in</dependency>
+      <dependency dep="mechanism" dep_index="12" gov="regulates" gov_index="14">nsubj</dependency>
+      <dependency dep="regulates" dep_index="14" gov="mechanism" gov_index="12">rcmod</dependency>
+      <dependency dep="p21ras" dep_index="15" gov="signalling" gov_index="16">amod</dependency>
+      <dependency dep="signalling" dep_index="16" gov="regulates" gov_index="14">dobj</dependency>
+      <dependency dep="receptor" dep_index="18" gov="kinases" gov_index="20">nn</dependency>
+      <dependency dep="tyrosine" dep_index="19" gov="kinases" gov_index="20">nn</dependency>
+      <dependency dep="kinases" dep_index="20" gov="regulates" gov_index="14">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="200004" relationship="false">2 7 4</relation>
+      <relation position="200015" relationship="false">2 7 12 14 16 15</relation>
+      <relation position="400015" relationship="false">4 7 12 14 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

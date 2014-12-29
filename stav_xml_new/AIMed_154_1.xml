@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@three@human@syntrophin@genes@are@expressed@in@diverse@tissues@,@have@distinct@chromosomal@locations@,@and@each@bind@to@dystrophin@and@its@relatives@.@</sentence>
+   <tags>
+      <tag pos="21">dystrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="CD">three</taggedword>
+      <taggedword index="3" part-of-speech="JJ">human</taggedword>
+      <taggedword index="4" part-of-speech="NN">syntrophin</taggedword>
+      <taggedword index="5" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="6" part-of-speech="VBP">are</taggedword>
+      <taggedword index="7" part-of-speech="VBN">expressed</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="JJ">diverse</taggedword>
+      <taggedword index="10" part-of-speech="NNS">tissues</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="VBP">have</taggedword>
+      <taggedword index="13" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="14" part-of-speech="JJ">chromosomal</taggedword>
+      <taggedword index="15" part-of-speech="NNS">locations</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="DT">each</taggedword>
+      <taggedword index="19" part-of-speech="NN">bind</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="NN">dystrophin</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="24" part-of-speech="NNS">relatives</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="genes" gov_index="5">det</dependency>
+      <dependency dep="three" dep_index="2" gov="genes" gov_index="5">num</dependency>
+      <dependency dep="human" dep_index="3" gov="genes" gov_index="5">amod</dependency>
+      <dependency dep="syntrophin" dep_index="4" gov="genes" gov_index="5">nn</dependency>
+      <dependency dep="genes" dep_index="5" gov="expressed" gov_index="7">nsubjpass</dependency>
+      <dependency dep="are" dep_index="6" gov="expressed" gov_index="7">auxpass</dependency>
+      <dependency dep="expressed" dep_index="7" gov="have" gov_index="12">ccomp</dependency>
+      <dependency dep="diverse" dep_index="9" gov="tissues" gov_index="10">amod</dependency>
+      <dependency dep="tissues" dep_index="10" gov="expressed" gov_index="7">prep_in</dependency>
+      <dependency dep="have" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="distinct" dep_index="13" gov="locations" gov_index="15">amod</dependency>
+      <dependency dep="chromosomal" dep_index="14" gov="locations" gov_index="15">amod</dependency>
+      <dependency dep="locations" dep_index="15" gov="have" gov_index="12">nsubj</dependency>
+      <dependency dep="each" dep_index="18" gov="bind" gov_index="19">det</dependency>
+      <dependency dep="bind" dep_index="19" gov="have" gov_index="12">nsubj</dependency>
+      <dependency dep="bind" dep_index="19" gov="locations" gov_index="15">conj_and</dependency>
+      <dependency dep="dystrophin" dep_index="21" gov="bind" gov_index="19">prep_to</dependency>
+      <dependency dep="its" dep_index="23" gov="relatives" gov_index="24">poss</dependency>
+      <dependency dep="relatives" dep_index="24" gov="bind" gov_index="19">prep_to</dependency>
+      <dependency dep="relatives" dep_index="24" gov="dystrophin" gov_index="21">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

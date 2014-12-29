@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Immunoblotting@experiments@indicate@that@GRB2@associates@with@tyrosine-phosphorylated@epidermal@growth@factor@receptors@(EGFRs)@and@platelet-derived@growth@factor@receptors@(PDGFRs)@via@its@SH2@domain@.@</sentence>
+   <tags>
+      <tag pos="5">GRB2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Immunoblotting</taggedword>
+      <taggedword index="2" part-of-speech="NNS">experiments</taggedword>
+      <taggedword index="3" part-of-speech="VBP">indicate</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="CD">GRB2</taggedword>
+      <taggedword index="6" part-of-speech="NNS">associates</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="JJ">tyrosine-phosphorylated</taggedword>
+      <taggedword index="9" part-of-speech="JJ">epidermal</taggedword>
+      <taggedword index="10" part-of-speech="NN">growth</taggedword>
+      <taggedword index="11" part-of-speech="NN">factor</taggedword>
+      <taggedword index="12" part-of-speech="NNP">receptors</taggedword>
+      <taggedword index="13" part-of-speech="NNP">(EGFRs)</taggedword>
+      <taggedword index="14" part-of-speech="CC">and</taggedword>
+      <taggedword index="15" part-of-speech="JJ">platelet-derived</taggedword>
+      <taggedword index="16" part-of-speech="NN">growth</taggedword>
+      <taggedword index="17" part-of-speech="NN">factor</taggedword>
+      <taggedword index="18" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="19" part-of-speech="VBZ">(PDGFRs)</taggedword>
+      <taggedword index="20" part-of-speech="IN">via</taggedword>
+      <taggedword index="21" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="22" part-of-speech="JJ">SH2</taggedword>
+      <taggedword index="23" part-of-speech="NN">domain</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Immunoblotting" dep_index="1" gov="experiments" gov_index="2">amod</dependency>
+      <dependency dep="experiments" dep_index="2" gov="indicate" gov_index="3">nsubj</dependency>
+      <dependency dep="indicate" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="(PDGFRs)" gov_index="19">mark</dependency>
+      <dependency dep="GRB2" dep_index="5" gov="associates" gov_index="6">num</dependency>
+      <dependency dep="associates" dep_index="6" gov="(PDGFRs)" gov_index="19">nsubj</dependency>
+      <dependency dep="tyrosine-phosphorylated" dep_index="8" gov="(EGFRs)" gov_index="13">amod</dependency>
+      <dependency dep="epidermal" dep_index="9" gov="(EGFRs)" gov_index="13">amod</dependency>
+      <dependency dep="growth" dep_index="10" gov="(EGFRs)" gov_index="13">nn</dependency>
+      <dependency dep="factor" dep_index="11" gov="(EGFRs)" gov_index="13">nn</dependency>
+      <dependency dep="receptors" dep_index="12" gov="(EGFRs)" gov_index="13">nn</dependency>
+      <dependency dep="(EGFRs)" dep_index="13" gov="associates" gov_index="6">prep_with</dependency>
+      <dependency dep="platelet-derived" dep_index="15" gov="receptors" gov_index="18">amod</dependency>
+      <dependency dep="growth" dep_index="16" gov="receptors" gov_index="18">nn</dependency>
+      <dependency dep="factor" dep_index="17" gov="receptors" gov_index="18">nn</dependency>
+      <dependency dep="receptors" dep_index="18" gov="associates" gov_index="6">prep_with</dependency>
+      <dependency dep="receptors" dep_index="18" gov="(EGFRs)" gov_index="13">conj_and</dependency>
+      <dependency dep="(PDGFRs)" dep_index="19" gov="indicate" gov_index="3">ccomp</dependency>
+      <dependency dep="its" dep_index="21" gov="domain" gov_index="23">poss</dependency>
+      <dependency dep="SH2" dep_index="22" gov="domain" gov_index="23">amod</dependency>
+      <dependency dep="domain" dep_index="23" gov="(PDGFRs)" gov_index="19">prep_via</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

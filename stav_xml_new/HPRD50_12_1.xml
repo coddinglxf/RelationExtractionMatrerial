@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>AP180@binds@to@the@C-terminal@SH2@domain@of@phospholipase C-gamma1@and@inhibits@its@enzymatic@activity@</sentence>
+   <tags>
+      <tag pos="1">AP180</tag>
+      <tag pos="9">phospholipase C-gamma1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">AP180</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NNP">C-terminal</taggedword>
+      <taggedword index="6" part-of-speech="NNP">SH2</taggedword>
+      <taggedword index="7" part-of-speech="NN">domain</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="CD">phospholipase C-gamma1</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="VBZ">inhibits</taggedword>
+      <taggedword index="12" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="13" part-of-speech="JJ">enzymatic</taggedword>
+      <taggedword index="14" part-of-speech="NN">activity</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="AP180" dep_index="1" gov="binds" gov_index="2">nsubj</dependency>
+      <dependency dep="AP180" dep_index="1" gov="inhibits" gov_index="11">nsubj</dependency>
+      <dependency dep="binds" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="domain" gov_index="7">det</dependency>
+      <dependency dep="C-terminal" dep_index="5" gov="domain" gov_index="7">nn</dependency>
+      <dependency dep="SH2" dep_index="6" gov="domain" gov_index="7">nn</dependency>
+      <dependency dep="domain" dep_index="7" gov="binds" gov_index="2">prep_to</dependency>
+      <dependency dep="phospholipase C-gamma1" dep_index="9" gov="domain" gov_index="7">prep_of</dependency>
+      <dependency dep="inhibits" dep_index="11" gov="binds" gov_index="2">conj_and</dependency>
+      <dependency dep="its" dep_index="12" gov="activity" gov_index="14">poss</dependency>
+      <dependency dep="enzymatic" dep_index="13" gov="activity" gov_index="14">amod</dependency>
+      <dependency dep="activity" dep_index="14" gov="inhibits" gov_index="11">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100009" relationship="true">1 2 7 9</relation>
+   </relations>
+   <pairs>
+      <pair>100009</pair>
+   </pairs>
+</root>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@the@ADE2@assay@system@,@silencing@depends@completely@upon@the@function@of@the@SIR@genes@,@known@trans-acting@regulators@of@the@silent@loci@,@and@is@sensitive@to@the@gene@dosage@of@two@SIR@genes@,@SIR1@and@SIR4@.@</sentence>
+   <tags>
+      <tag pos="40">SIR4</tag>
+      <tag pos="38">SIR1</tag>
+      <tag pos="15">SIR</tag>
+      <tag pos="3">ADE2</tag>
+      <tag pos="35">SIR</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="NNP">ADE2</taggedword>
+      <taggedword index="4" part-of-speech="NN">assay</taggedword>
+      <taggedword index="5" part-of-speech="NN">system</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="NN">silencing</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">depends</taggedword>
+      <taggedword index="9" part-of-speech="RB">completely</taggedword>
+      <taggedword index="10" part-of-speech="IN">upon</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">function</taggedword>
+      <taggedword index="13" part-of-speech="IN">of</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="NNP">SIR</taggedword>
+      <taggedword index="16" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="VBN">known</taggedword>
+      <taggedword index="19" part-of-speech="JJ">trans-acting</taggedword>
+      <taggedword index="20" part-of-speech="NNS">regulators</taggedword>
+      <taggedword index="21" part-of-speech="IN">of</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="JJ">silent</taggedword>
+      <taggedword index="24" part-of-speech="NN">loci</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="CC">and</taggedword>
+      <taggedword index="27" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="28" part-of-speech="JJ">sensitive</taggedword>
+      <taggedword index="29" part-of-speech="TO">to</taggedword>
+      <taggedword index="30" part-of-speech="DT">the</taggedword>
+      <taggedword index="31" part-of-speech="NN">gene</taggedword>
+      <taggedword index="32" part-of-speech="NN">dosage</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="CD">two</taggedword>
+      <taggedword index="35" part-of-speech="NNP">SIR</taggedword>
+      <taggedword index="36" part-of-speech="NNS">genes</taggedword>
+      <taggedword index="37" part-of-speech=",">,</taggedword>
+      <taggedword index="38" part-of-speech="NNP">SIR1</taggedword>
+      <taggedword index="39" part-of-speech="CC">and</taggedword>
+      <taggedword index="40" part-of-speech="NNP">SIR4</taggedword>
+      <taggedword index="41" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="system" gov_index="5">det</dependency>
+      <dependency dep="ADE2" dep_index="3" gov="system" gov_index="5">nn</dependency>
+      <dependency dep="assay" dep_index="4" gov="system" gov_index="5">nn</dependency>
+      <dependency dep="system" dep_index="5" gov="depends" gov_index="8">prep_in</dependency>
+      <dependency dep="silencing" dep_index="7" gov="depends" gov_index="8">nsubj</dependency>
+      <dependency dep="silencing" dep_index="7" gov="sensitive" gov_index="28">nsubj</dependency>
+      <dependency dep="depends" dep_index="8" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="completely" dep_index="9" gov="depends" gov_index="8">advmod</dependency>
+      <dependency dep="the" dep_index="11" gov="function" gov_index="12">det</dependency>
+      <dependency dep="function" dep_index="12" gov="depends" gov_index="8">prep_upon</dependency>
+      <dependency dep="the" dep_index="14" gov="genes" gov_index="16">det</dependency>
+      <dependency dep="SIR" dep_index="15" gov="genes" gov_index="16">nn</dependency>
+      <dependency dep="genes" dep_index="16" gov="function" gov_index="12">prep_of</dependency>
+      <dependency dep="known" dep_index="18" gov="function" gov_index="12">partmod</dependency>
+      <dependency dep="trans-acting" dep_index="19" gov="regulators" gov_index="20">amod</dependency>
+      <dependency dep="regulators" dep_index="20" gov="known" gov_index="18">dobj</dependency>
+      <dependency dep="the" dep_index="22" gov="loci" gov_index="24">det</dependency>
+      <dependency dep="silent" dep_index="23" gov="loci" gov_index="24">amod</dependency>
+      <dependency dep="loci" dep_index="24" gov="regulators" gov_index="20">prep_of</dependency>
+      <dependency dep="is" dep_index="27" gov="sensitive" gov_index="28">cop</dependency>
+      <dependency dep="sensitive" dep_index="28" gov="depends" gov_index="8">conj_and</dependency>
+      <dependency dep="the" dep_index="30" gov="dosage" gov_index="32">det</dependency>
+      <dependency dep="gene" dep_index="31" gov="dosage" gov_index="32">nn</dependency>
+      <dependency dep="dosage" dep_index="32" gov="sensitive" gov_index="28">prep_to</dependency>
+      <dependency dep="two" dep_index="34" gov="genes" gov_index="36">num</dependency>
+      <dependency dep="SIR" dep_index="35" gov="genes" gov_index="36">nn</dependency>
+      <dependency dep="genes" dep_index="36" gov="dosage" gov_index="32">prep_of</dependency>
+      <dependency dep="SIR1" dep_index="38" gov="dosage" gov_index="32">prep_of</dependency>
+      <dependency dep="SIR1" dep_index="38" gov="genes" gov_index="36">conj_and</dependency>
+      <dependency dep="SIR4" dep_index="40" gov="dosage" gov_index="32">prep_of</dependency>
+      <dependency dep="SIR4" dep_index="40" gov="genes" gov_index="36">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="3800040" relationship="false">38 32 40</relation>
+      <relation position="1500040" relationship="false"></relation>
+      <relation position="300040" relationship="false"></relation>
+      <relation position="3500040" relationship="true">35 36 32 40</relation>
+      <relation position="1500038" relationship="false"></relation>
+      <relation position="300038" relationship="false"></relation>
+      <relation position="3500038" relationship="true">35 36 32 38</relation>
+      <relation position="300015" relationship="false">3 5 8 12 16 15</relation>
+      <relation position="1500035" relationship="false"></relation>
+      <relation position="300035" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>3500038</pair>
+      <pair>3500040</pair>
+   </pairs>
+</root>

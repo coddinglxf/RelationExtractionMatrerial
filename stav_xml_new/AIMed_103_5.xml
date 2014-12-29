@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@show@that@hTAFII28@interacts@with@hTAFII18@both@in@vitro@and@intracellularly@;@in@contrast@to@its@Drosophila@homologue@,@hTAFII28@also@interacts@directly@with@TBP@.@</sentence>
+   <tags>
+      <tag pos="4">hTAFII28</tag>
+      <tag pos="7">hTAFII18</tag>
+      <tag pos="21">hTAFII28</tag>
+      <tag pos="26">TBP</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBP">show</taggedword>
+      <taggedword index="3" part-of-speech="IN">that</taggedword>
+      <taggedword index="4" part-of-speech="NNS">hTAFII28</taggedword>
+      <taggedword index="5" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="6" part-of-speech="IN">with</taggedword>
+      <taggedword index="7" part-of-speech="CD">hTAFII18</taggedword>
+      <taggedword index="8" part-of-speech="DT">both</taggedword>
+      <taggedword index="9" part-of-speech="IN">in</taggedword>
+      <taggedword index="10" part-of-speech="NN">vitro</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="NN">intracellularly</taggedword>
+      <taggedword index="13" part-of-speech=":">;</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="NN">contrast</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="18" part-of-speech="NNP">Drosophila</taggedword>
+      <taggedword index="19" part-of-speech="NN">homologue</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="NNS">hTAFII28</taggedword>
+      <taggedword index="22" part-of-speech="RB">also</taggedword>
+      <taggedword index="23" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="24" part-of-speech="RB">directly</taggedword>
+      <taggedword index="25" part-of-speech="IN">with</taggedword>
+      <taggedword index="26" part-of-speech="NNP">TBP</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="show" gov_index="2">nsubj</dependency>
+      <dependency dep="show" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="3" gov="interacts" gov_index="5">mark</dependency>
+      <dependency dep="hTAFII28" dep_index="4" gov="interacts" gov_index="5">nsubj</dependency>
+      <dependency dep="interacts" dep_index="5" gov="show" gov_index="2">ccomp</dependency>
+      <dependency dep="hTAFII18" dep_index="7" gov="interacts" gov_index="5">prep_with</dependency>
+      <dependency dep="both" dep_index="8" gov="interacts" gov_index="5">dep</dependency>
+      <dependency dep="vitro" dep_index="10" gov="interacts" gov_index="5">prep_in</dependency>
+      <dependency dep="intracellularly" dep_index="12" gov="interacts" gov_index="5">prep_in</dependency>
+      <dependency dep="intracellularly" dep_index="12" gov="vitro" gov_index="10">conj_and</dependency>
+      <dependency dep="contrast" dep_index="15" gov="interacts" gov_index="23">prep_in</dependency>
+      <dependency dep="its" dep_index="17" gov="homologue" gov_index="19">poss</dependency>
+      <dependency dep="Drosophila" dep_index="18" gov="homologue" gov_index="19">nn</dependency>
+      <dependency dep="homologue" dep_index="19" gov="contrast" gov_index="15">prep_to</dependency>
+      <dependency dep="hTAFII28" dep_index="21" gov="interacts" gov_index="23">nsubj</dependency>
+      <dependency dep="also" dep_index="22" gov="interacts" gov_index="23">advmod</dependency>
+      <dependency dep="interacts" dep_index="23" gov="show" gov_index="2">parataxis</dependency>
+      <dependency dep="directly" dep_index="24" gov="interacts" gov_index="23">advmod</dependency>
+      <dependency dep="TBP" dep_index="26" gov="interacts" gov_index="23">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="true">4 5 7</relation>
+      <relation position="400021" relationship="false">4 5 2 23 21</relation>
+      <relation position="400026" relationship="false">4 5 2 23 26</relation>
+      <relation position="700021" relationship="false">7 5 2 23 21</relation>
+      <relation position="700026" relationship="false">7 5 2 23 26</relation>
+      <relation position="2100026" relationship="true">21 23 26</relation>
+   </relations>
+   <pairs>
+      <pair>2100026</pair>
+      <pair>400007</pair>
+   </pairs>
+</root>

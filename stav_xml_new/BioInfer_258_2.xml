@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@interactions@of@the@UL52@protein@with@the@UL8@and@UL5@proteins@were@analysed@by@using@the@yeast@two-hybrid@system@.@</sentence>
+   <tags>
+      <tag pos="11">UL5</tag>
+      <tag pos="9">UL8</tag>
+      <tag pos="5">UL52</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNS">interactions</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">UL52</taggedword>
+      <taggedword index="6" part-of-speech="NN">protein</taggedword>
+      <taggedword index="7" part-of-speech="IN">with</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NNP">UL8</taggedword>
+      <taggedword index="10" part-of-speech="CC">and</taggedword>
+      <taggedword index="11" part-of-speech="NNP">UL5</taggedword>
+      <taggedword index="12" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="13" part-of-speech="VBD">were</taggedword>
+      <taggedword index="14" part-of-speech="VBN">analysed</taggedword>
+      <taggedword index="15" part-of-speech="IN">by</taggedword>
+      <taggedword index="16" part-of-speech="VBG">using</taggedword>
+      <taggedword index="17" part-of-speech="DT">the</taggedword>
+      <taggedword index="18" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="19" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="20" part-of-speech="NN">system</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="interactions" gov_index="2">det</dependency>
+      <dependency dep="interactions" dep_index="2" gov="analysed" gov_index="14">nsubjpass</dependency>
+      <dependency dep="the" dep_index="4" gov="protein" gov_index="6">det</dependency>
+      <dependency dep="UL52" dep_index="5" gov="protein" gov_index="6">amod</dependency>
+      <dependency dep="protein" dep_index="6" gov="interactions" gov_index="2">prep_of</dependency>
+      <dependency dep="the" dep_index="8" gov="proteins" gov_index="12">det</dependency>
+      <dependency dep="UL8" dep_index="9" gov="proteins" gov_index="12">nn</dependency>
+      <dependency dep="UL5" dep_index="11" gov="UL8" gov_index="9">conj_and</dependency>
+      <dependency dep="UL5" dep_index="11" gov="proteins" gov_index="12">nn</dependency>
+      <dependency dep="proteins" dep_index="12" gov="protein" gov_index="6">prep_with</dependency>
+      <dependency dep="were" dep_index="13" gov="analysed" gov_index="14">auxpass</dependency>
+      <dependency dep="analysed" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="using" dep_index="16" gov="analysed" gov_index="14">agent</dependency>
+      <dependency dep="the" dep_index="17" gov="system" gov_index="20">det</dependency>
+      <dependency dep="yeast" dep_index="18" gov="system" gov_index="20">nn</dependency>
+      <dependency dep="two-hybrid" dep_index="19" gov="system" gov_index="20">amod</dependency>
+      <dependency dep="system" dep_index="20" gov="using" gov_index="16">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="900011" relationship="false">9 12 11</relation>
+      <relation position="500011" relationship="true">5 6 12 11</relation>
+      <relation position="500009" relationship="true">5 6 12 9</relation>
+   </relations>
+   <pairs>
+      <pair>500009</pair>
+      <pair>500011</pair>
+   </pairs>
+</root>

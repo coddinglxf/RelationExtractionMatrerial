@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Ligation@of@the@extracellular@domain@of@the@cell@surface@receptor@Fas@/@APO-1@(@CD95@)@elicits@a@characteristic@programmed@death@response@in@susceptible@cells@.@</sentence>
+   <tags>
+      <tag pos="11">Fas</tag>
+      <tag pos="13">APO-1</tag>
+      <tag pos="15">CD95</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Ligation</taggedword>
+      <taggedword index="2" part-of-speech="IN">of</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="NN">extracellular</taggedword>
+      <taggedword index="5" part-of-speech="NN">domain</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">cell</taggedword>
+      <taggedword index="9" part-of-speech="NN">surface</taggedword>
+      <taggedword index="10" part-of-speech="NN">receptor</taggedword>
+      <taggedword index="11" part-of-speech="NN">Fas</taggedword>
+      <taggedword index="12" part-of-speech=":">/</taggedword>
+      <taggedword index="13" part-of-speech="NNP">APO-1</taggedword>
+      <taggedword index="14" part-of-speech="NNP">(</taggedword>
+      <taggedword index="15" part-of-speech="NNP">CD95</taggedword>
+      <taggedword index="16" part-of-speech="NNP">)</taggedword>
+      <taggedword index="17" part-of-speech="VBZ">elicits</taggedword>
+      <taggedword index="18" part-of-speech="DT">a</taggedword>
+      <taggedword index="19" part-of-speech="JJ">characteristic</taggedword>
+      <taggedword index="20" part-of-speech="JJ">programmed</taggedword>
+      <taggedword index="21" part-of-speech="NN">death</taggedword>
+      <taggedword index="22" part-of-speech="NN">response</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="JJ">susceptible</taggedword>
+      <taggedword index="25" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="26" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Ligation" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="domain" gov_index="5">det</dependency>
+      <dependency dep="extracellular" dep_index="4" gov="domain" gov_index="5">nn</dependency>
+      <dependency dep="domain" dep_index="5" gov="Ligation" gov_index="1">prep_of</dependency>
+      <dependency dep="the" dep_index="7" gov="Fas" gov_index="11">det</dependency>
+      <dependency dep="cell" dep_index="8" gov="Fas" gov_index="11">nn</dependency>
+      <dependency dep="surface" dep_index="9" gov="Fas" gov_index="11">nn</dependency>
+      <dependency dep="receptor" dep_index="10" gov="Fas" gov_index="11">nn</dependency>
+      <dependency dep="Fas" dep_index="11" gov="Ligation" gov_index="1">prep_of</dependency>
+      <dependency dep="/" dep_index="12" gov="Ligation" gov_index="1">punct</dependency>
+      <dependency dep="APO-1" dep_index="13" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="(" dep_index="14" gov=")" gov_index="16">nn</dependency>
+      <dependency dep="CD95" dep_index="15" gov=")" gov_index="16">nn</dependency>
+      <dependency dep=")" dep_index="16" gov="elicits" gov_index="17">nsubj</dependency>
+      <dependency dep="elicits" dep_index="17" gov="Ligation" gov_index="1">dep</dependency>
+      <dependency dep="a" dep_index="18" gov="response" gov_index="22">det</dependency>
+      <dependency dep="characteristic" dep_index="19" gov="response" gov_index="22">amod</dependency>
+      <dependency dep="programmed" dep_index="20" gov="response" gov_index="22">amod</dependency>
+      <dependency dep="death" dep_index="21" gov="response" gov_index="22">nn</dependency>
+      <dependency dep="response" dep_index="22" gov="elicits" gov_index="17">dobj</dependency>
+      <dependency dep="susceptible" dep_index="24" gov="cells" gov_index="25">amod</dependency>
+      <dependency dep="cells" dep_index="25" gov="response" gov_index="22">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100013" relationship="false">11 1 17 16 13</relation>
+      <relation position="1100015" relationship="false">11 1 17 16 15</relation>
+      <relation position="1300015" relationship="false">13 16 15</relation>
+   </relations>
+   <pairs/>
+</root>

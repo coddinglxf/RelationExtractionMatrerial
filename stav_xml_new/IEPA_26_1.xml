@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@SGR@and@RGR@also@had@different@endocrine@profiles@with@,@for@example@,@twice@as@high@oxytocin@(p@&lt;@0.01)@and@insulin@levels@(p@&lt;@0.01)@in@RGR@compared@to@the@SGR@</sentence>
+   <tags>
+      <tag pos="18">oxytocin</tag>
+      <tag pos="23">insulin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NNP">SGR</taggedword>
+      <taggedword index="3" part-of-speech="CC">and</taggedword>
+      <taggedword index="4" part-of-speech="NNP">RGR</taggedword>
+      <taggedword index="5" part-of-speech="RB">also</taggedword>
+      <taggedword index="6" part-of-speech="VBD">had</taggedword>
+      <taggedword index="7" part-of-speech="JJ">different</taggedword>
+      <taggedword index="8" part-of-speech="NN">endocrine</taggedword>
+      <taggedword index="9" part-of-speech="NNS">profiles</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech=",">,</taggedword>
+      <taggedword index="12" part-of-speech="IN">for</taggedword>
+      <taggedword index="13" part-of-speech="NN">example</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="RB">twice</taggedword>
+      <taggedword index="16" part-of-speech="RB">as</taggedword>
+      <taggedword index="17" part-of-speech="JJ">high</taggedword>
+      <taggedword index="18" part-of-speech="NN">oxytocin</taggedword>
+      <taggedword index="19" part-of-speech="VBP">(p</taggedword>
+      <taggedword index="20" part-of-speech="CD">&lt;</taggedword>
+      <taggedword index="21" part-of-speech="CD">0.01)</taggedword>
+      <taggedword index="22" part-of-speech="CC">and</taggedword>
+      <taggedword index="23" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="24" part-of-speech="NNS">levels</taggedword>
+      <taggedword index="25" part-of-speech="VBP">(p</taggedword>
+      <taggedword index="26" part-of-speech="CD">&lt;</taggedword>
+      <taggedword index="27" part-of-speech="CD">0.01)</taggedword>
+      <taggedword index="28" part-of-speech="IN">in</taggedword>
+      <taggedword index="29" part-of-speech="NNP">RGR</taggedword>
+      <taggedword index="30" part-of-speech="VBN">compared</taggedword>
+      <taggedword index="31" part-of-speech="TO">to</taggedword>
+      <taggedword index="32" part-of-speech="DT">the</taggedword>
+      <taggedword index="33" part-of-speech="NNP">SGR</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="SGR" gov_index="2">det</dependency>
+      <dependency dep="SGR" dep_index="2" gov="had" gov_index="6">nsubj</dependency>
+      <dependency dep="RGR" dep_index="4" gov="SGR" gov_index="2">conj_and</dependency>
+      <dependency dep="RGR" dep_index="4" gov="had" gov_index="6">nsubj</dependency>
+      <dependency dep="also" dep_index="5" gov="had" gov_index="6">advmod</dependency>
+      <dependency dep="had" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="different" dep_index="7" gov="profiles" gov_index="9">amod</dependency>
+      <dependency dep="endocrine" dep_index="8" gov="profiles" gov_index="9">nn</dependency>
+      <dependency dep="profiles" dep_index="9" gov="had" gov_index="6">dobj</dependency>
+      <dependency dep="with" dep_index="10" gov="had" gov_index="6">prep</dependency>
+      <dependency dep="example" dep_index="13" gov="(p" gov_index="19">prep_for</dependency>
+      <dependency dep="twice" dep_index="15" gov="oxytocin" gov_index="18">advmod</dependency>
+      <dependency dep="as" dep_index="16" gov="oxytocin" gov_index="18">advmod</dependency>
+      <dependency dep="high" dep_index="17" gov="oxytocin" gov_index="18">amod</dependency>
+      <dependency dep="oxytocin" dep_index="18" gov="(p" gov_index="19">nsubj</dependency>
+      <dependency dep="(p" dep_index="19" gov="had" gov_index="6">conj_and</dependency>
+      <dependency dep="&lt;" dep_index="20" gov="0.01)" gov_index="21">number</dependency>
+      <dependency dep="0.01)" dep_index="21" gov="(p" gov_index="19">dobj</dependency>
+      <dependency dep="insulin" dep_index="23" gov="levels" gov_index="24">nn</dependency>
+      <dependency dep="levels" dep_index="24" gov="(p" gov_index="25">nsubj</dependency>
+      <dependency dep="(p" dep_index="25" gov="had" gov_index="6">conj_and</dependency>
+      <dependency dep="&lt;" dep_index="26" gov="0.01)" gov_index="27">number</dependency>
+      <dependency dep="0.01)" dep_index="27" gov="(p" gov_index="25">dobj</dependency>
+      <dependency dep="RGR" dep_index="29" gov="0.01)" gov_index="27">prep_in</dependency>
+      <dependency dep="to" dep_index="31" gov="(p" gov_index="25">prepc_compared_to</dependency>
+      <dependency dep="the" dep_index="32" gov="SGR" gov_index="33">det</dependency>
+      <dependency dep="SGR" dep_index="33" gov="(p" gov_index="25">pobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1800023" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

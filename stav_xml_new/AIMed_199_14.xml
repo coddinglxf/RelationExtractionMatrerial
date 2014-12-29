@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Sos@complex@via@the@adapter@protein@Shc@.@</sentence>
+   <tags>
+      <tag pos="1">Sos</tag>
+      <tag pos="7">Shc</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VB">Sos</taggedword>
+      <taggedword index="2" part-of-speech="NN">complex</taggedword>
+      <taggedword index="3" part-of-speech="IN">via</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">adapter</taggedword>
+      <taggedword index="6" part-of-speech="NN">protein</taggedword>
+      <taggedword index="7" part-of-speech="NN">Shc</taggedword>
+      <taggedword index="8" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Sos" dep_index="1" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="complex" dep_index="2" gov="Sos" gov_index="1">dobj</dependency>
+      <dependency dep="the" dep_index="4" gov="Shc" gov_index="7">det</dependency>
+      <dependency dep="adapter" dep_index="5" gov="Shc" gov_index="7">nn</dependency>
+      <dependency dep="protein" dep_index="6" gov="Shc" gov_index="7">nn</dependency>
+      <dependency dep="Shc" dep_index="7" gov="complex" gov_index="2">prep_via</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

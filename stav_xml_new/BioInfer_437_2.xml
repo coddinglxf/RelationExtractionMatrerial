@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>pH@control@of@actin@polymerization@by@cofilin@.@</sentence>
+   <tags>
+      <tag pos="7">cofilin</tag>
+      <tag pos="4">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">pH</taggedword>
+      <taggedword index="2" part-of-speech="NN">control</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">actin</taggedword>
+      <taggedword index="5" part-of-speech="VBN">polymerization</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="NN">cofilin</taggedword>
+      <taggedword index="8" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="pH" dep_index="1" gov="control" gov_index="2">nn</dependency>
+      <dependency dep="control" dep_index="2" gov="polymerization" gov_index="5">nsubj</dependency>
+      <dependency dep="actin" dep_index="4" gov="control" gov_index="2">prep_of</dependency>
+      <dependency dep="polymerization" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="cofilin" dep_index="7" gov="polymerization" gov_index="5">prep_by</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400007" relationship="true">4 2 5 7</relation>
+   </relations>
+   <pairs>
+      <pair>400007</pair>
+   </pairs>
+</root>

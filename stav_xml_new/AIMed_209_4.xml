@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>RIN1@interacts@with@the@"effector@domain"@of@RAS@and@employs@some@RAS@determinants@that@are@common@to@,@and@others@that@are@distinct@from@,@those@required@for@the@binding@of@RAF1@,@a@known@RAS@effector@.@</sentence>
+   <tags>
+      <tag pos="1">RIN1</tag>
+      <tag pos="8">RAS</tag>
+      <tag pos="12">RAS</tag>
+      <tag pos="32">RAF1</tag>
+      <tag pos="36">RAS</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">RIN1</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">interacts</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="NN">"effector</taggedword>
+      <taggedword index="6" part-of-speech="NN">domain"</taggedword>
+      <taggedword index="7" part-of-speech="IN">of</taggedword>
+      <taggedword index="8" part-of-speech="NNP">RAS</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="VBZ">employs</taggedword>
+      <taggedword index="11" part-of-speech="DT">some</taggedword>
+      <taggedword index="12" part-of-speech="NNP">RAS</taggedword>
+      <taggedword index="13" part-of-speech="NNS">determinants</taggedword>
+      <taggedword index="14" part-of-speech="WDT">that</taggedword>
+      <taggedword index="15" part-of-speech="VBP">are</taggedword>
+      <taggedword index="16" part-of-speech="JJ">common</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="CC">and</taggedword>
+      <taggedword index="20" part-of-speech="NNS">others</taggedword>
+      <taggedword index="21" part-of-speech="WDT">that</taggedword>
+      <taggedword index="22" part-of-speech="VBP">are</taggedword>
+      <taggedword index="23" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="24" part-of-speech="IN">from</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="DT">those</taggedword>
+      <taggedword index="27" part-of-speech="VBN">required</taggedword>
+      <taggedword index="28" part-of-speech="IN">for</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="31" part-of-speech="IN">of</taggedword>
+      <taggedword index="32" part-of-speech="NNP">RAF1</taggedword>
+      <taggedword index="33" part-of-speech=",">,</taggedword>
+      <taggedword index="34" part-of-speech="DT">a</taggedword>
+      <taggedword index="35" part-of-speech="VBN">known</taggedword>
+      <taggedword index="36" part-of-speech="NNP">RAS</taggedword>
+      <taggedword index="37" part-of-speech="NN">effector</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="RIN1" dep_index="1" gov="interacts" gov_index="2">nsubj</dependency>
+      <dependency dep="RIN1" dep_index="1" gov="employs" gov_index="10">nsubj</dependency>
+      <dependency dep="interacts" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="4" gov="domain&quot;" gov_index="6">det</dependency>
+      <dependency dep="&quot;effector" dep_index="5" gov="domain&quot;" gov_index="6">nn</dependency>
+      <dependency dep="domain&quot;" dep_index="6" gov="interacts" gov_index="2">prep_with</dependency>
+      <dependency dep="RAS" dep_index="8" gov="domain&quot;" gov_index="6">prep_of</dependency>
+      <dependency dep="employs" dep_index="10" gov="interacts" gov_index="2">conj_and</dependency>
+      <dependency dep="some" dep_index="11" gov="determinants" gov_index="13">det</dependency>
+      <dependency dep="RAS" dep_index="12" gov="determinants" gov_index="13">nn</dependency>
+      <dependency dep="determinants" dep_index="13" gov="employs" gov_index="10">dobj</dependency>
+      <dependency dep="determinants" dep_index="13" gov="common" gov_index="16">nsubj</dependency>
+      <dependency dep="are" dep_index="15" gov="common" gov_index="16">cop</dependency>
+      <dependency dep="common" dep_index="16" gov="determinants" gov_index="13">rcmod</dependency>
+      <dependency dep="to" dep_index="17" gov="common" gov_index="16">prep</dependency>
+      <dependency dep="others" dep_index="20" gov="determinants" gov_index="13">conj_and</dependency>
+      <dependency dep="others" dep_index="20" gov="distinct" gov_index="23">nsubj</dependency>
+      <dependency dep="are" dep_index="22" gov="distinct" gov_index="23">cop</dependency>
+      <dependency dep="distinct" dep_index="23" gov="others" gov_index="20">rcmod</dependency>
+      <dependency dep="from" dep_index="24" gov="distinct" gov_index="23">prep</dependency>
+      <dependency dep="those" dep_index="26" gov="determinants" gov_index="13">appos</dependency>
+      <dependency dep="required" dep_index="27" gov="those" gov_index="26">partmod</dependency>
+      <dependency dep="the" dep_index="29" gov="required" gov_index="27">prep_for</dependency>
+      <dependency dep="binding" dep_index="30" gov="the" gov_index="29">amod</dependency>
+      <dependency dep="RAF1" dep_index="32" gov="the" gov_index="29">prep_of</dependency>
+      <dependency dep="a" dep_index="34" gov="effector" gov_index="37">det</dependency>
+      <dependency dep="known" dep_index="35" gov="effector" gov_index="37">amod</dependency>
+      <dependency dep="RAS" dep_index="36" gov="effector" gov_index="37">nn</dependency>
+      <dependency dep="effector" dep_index="37" gov="determinants" gov_index="13">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100008" relationship="true">1 2 6 8</relation>
+      <relation position="100012" relationship="false">1 10 13 12</relation>
+      <relation position="100032" relationship="false">1 10 13 26 27 29 32</relation>
+      <relation position="100036" relationship="false">1 10 13 37 36</relation>
+      <relation position="800012" relationship="false"></relation>
+      <relation position="800032" relationship="false"></relation>
+      <relation position="800036" relationship="false"></relation>
+      <relation position="1200032" relationship="false">12 13 26 27 29 32</relation>
+      <relation position="1200036" relationship="false">12 13 37 36</relation>
+      <relation position="3200036" relationship="true">32 29 27 26 13 37 36</relation>
+   </relations>
+   <pairs>
+      <pair>3200036</pair>
+      <pair>100008</pair>
+   </pairs>
+</root>

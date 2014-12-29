@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>CREB@is@activated@through@phosphorylation@by@protein kinase A@(@PKA@),@but@precisely@how@phosphorylation@stimulates@CREB@function@is@unknown@.@</sentence>
+   <tags>
+      <tag pos="1">CREB</tag>
+      <tag pos="7">protein kinase A</tag>
+      <tag pos="9">PKA</tag>
+      <tag pos="16">CREB</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">CREB</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="VBN">activated</taggedword>
+      <taggedword index="4" part-of-speech="IN">through</taggedword>
+      <taggedword index="5" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="NNP">protein kinase A</taggedword>
+      <taggedword index="8" part-of-speech="NNP">(</taggedword>
+      <taggedword index="9" part-of-speech="NNP">PKA</taggedword>
+      <taggedword index="10" part-of-speech="NNP">),</taggedword>
+      <taggedword index="11" part-of-speech="CC">but</taggedword>
+      <taggedword index="12" part-of-speech="RB">precisely</taggedword>
+      <taggedword index="13" part-of-speech="WRB">how</taggedword>
+      <taggedword index="14" part-of-speech="NN">phosphorylation</taggedword>
+      <taggedword index="15" part-of-speech="VBZ">stimulates</taggedword>
+      <taggedword index="16" part-of-speech="NNP">CREB</taggedword>
+      <taggedword index="17" part-of-speech="NN">function</taggedword>
+      <taggedword index="18" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="19" part-of-speech="JJ">unknown</taggedword>
+      <taggedword index="20" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="CREB" dep_index="1" gov="activated" gov_index="3">nsubjpass</dependency>
+      <dependency dep="is" dep_index="2" gov="activated" gov_index="3">auxpass</dependency>
+      <dependency dep="activated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="phosphorylation" dep_index="5" gov="activated" gov_index="3">prep_through</dependency>
+      <dependency dep="protein kinase A" dep_index="7" gov=")," gov_index="10">nn</dependency>
+      <dependency dep="(" dep_index="8" gov=")," gov_index="10">nn</dependency>
+      <dependency dep="PKA" dep_index="9" gov=")," gov_index="10">nn</dependency>
+      <dependency dep=")," dep_index="10" gov="activated" gov_index="3">agent</dependency>
+      <dependency dep="precisely" dep_index="12" gov="how" gov_index="13">advmod</dependency>
+      <dependency dep="how" dep_index="13" gov="stimulates" gov_index="15">advmod</dependency>
+      <dependency dep="phosphorylation" dep_index="14" gov="stimulates" gov_index="15">nsubj</dependency>
+      <dependency dep="stimulates" dep_index="15" gov="unknown" gov_index="19">advcl</dependency>
+      <dependency dep="CREB" dep_index="16" gov="function" gov_index="17">nn</dependency>
+      <dependency dep="function" dep_index="17" gov="unknown" gov_index="19">nsubj</dependency>
+      <dependency dep="is" dep_index="18" gov="unknown" gov_index="19">cop</dependency>
+      <dependency dep="unknown" dep_index="19" gov="activated" gov_index="3">conj_but</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100007" relationship="true">1 3 10 7</relation>
+      <relation position="100009" relationship="true">1 3 10 9</relation>
+      <relation position="100016" relationship="false">1 3 19 17 16</relation>
+      <relation position="700009" relationship="false">7 10 9</relation>
+      <relation position="700016" relationship="false">7 10 3 19 17 16</relation>
+      <relation position="900016" relationship="false">9 10 3 19 17 16</relation>
+   </relations>
+   <pairs>
+      <pair>100009</pair>
+      <pair>100007</pair>
+   </pairs>
+</root>

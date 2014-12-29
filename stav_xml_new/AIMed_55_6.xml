@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Consistently@,@LEC@was@found@to@bind@to@CCR1@,@CCR2@and@CCR5@with@relatively@low@affinities@.@</sentence>
+   <tags>
+      <tag pos="3">LEC</tag>
+      <tag pos="9">CCR1</tag>
+      <tag pos="11">CCR2</tag>
+      <tag pos="13">CCR5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Consistently</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="NNP">LEC</taggedword>
+      <taggedword index="4" part-of-speech="VBD">was</taggedword>
+      <taggedword index="5" part-of-speech="VBN">found</taggedword>
+      <taggedword index="6" part-of-speech="TO">to</taggedword>
+      <taggedword index="7" part-of-speech="NN">bind</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="NNP">CCR1</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="NNP">CCR2</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="NNP">CCR5</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="RB">relatively</taggedword>
+      <taggedword index="16" part-of-speech="JJ">low</taggedword>
+      <taggedword index="17" part-of-speech="NNS">affinities</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Consistently" dep_index="1" gov="found" gov_index="5">advmod</dependency>
+      <dependency dep="LEC" dep_index="3" gov="found" gov_index="5">nsubjpass</dependency>
+      <dependency dep="was" dep_index="4" gov="found" gov_index="5">auxpass</dependency>
+      <dependency dep="found" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="bind" dep_index="7" gov="found" gov_index="5">prep_to</dependency>
+      <dependency dep="CCR1" dep_index="9" gov="found" gov_index="5">prep_to</dependency>
+      <dependency dep="CCR2" dep_index="11" gov="found" gov_index="5">prep_to</dependency>
+      <dependency dep="CCR2" dep_index="11" gov="CCR1" gov_index="9">conj_and</dependency>
+      <dependency dep="CCR5" dep_index="13" gov="found" gov_index="5">prep_to</dependency>
+      <dependency dep="CCR5" dep_index="13" gov="CCR1" gov_index="9">conj_and</dependency>
+      <dependency dep="relatively" dep_index="15" gov="low" gov_index="16">advmod</dependency>
+      <dependency dep="low" dep_index="16" gov="affinities" gov_index="17">amod</dependency>
+      <dependency dep="affinities" dep_index="17" gov="found" gov_index="5">prep_with</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300009" relationship="true">3 5 9</relation>
+      <relation position="300011" relationship="true">3 5 11</relation>
+      <relation position="300013" relationship="true">3 5 13</relation>
+      <relation position="900011" relationship="false">9 5 11</relation>
+      <relation position="900013" relationship="false">9 5 13</relation>
+      <relation position="1100013" relationship="false">11 5 13</relation>
+   </relations>
+   <pairs>
+      <pair>300013</pair>
+      <pair>300009</pair>
+      <pair>300011</pair>
+   </pairs>
+</root>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Insulin@was@conjugated@to@phospholipase C@by@a@three-step@procedure@with@hetero-bifunctional@crosslinking@reagents@,@succinimidyl@4-(N-maleimidomethyl)cyclohexane-1-carboxylate@and@3-(2-pyridyldithio)propionic@acid@N-hydroxysuccinimide@ester@</sentence>
+   <tags>
+      <tag pos="1">Insulin</tag>
+      <tag pos="5">phospholipase C</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Insulin</taggedword>
+      <taggedword index="2" part-of-speech="VBD">was</taggedword>
+      <taggedword index="3" part-of-speech="VBN">conjugated</taggedword>
+      <taggedword index="4" part-of-speech="TO">to</taggedword>
+      <taggedword index="5" part-of-speech="JJ">phospholipase C</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="DT">a</taggedword>
+      <taggedword index="8" part-of-speech="JJ">three-step</taggedword>
+      <taggedword index="9" part-of-speech="NN">procedure</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="JJ">hetero-bifunctional</taggedword>
+      <taggedword index="12" part-of-speech="NN">crosslinking</taggedword>
+      <taggedword index="13" part-of-speech="NNS">reagents</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="JJ">succinimidyl</taggedword>
+      <taggedword index="16" part-of-speech="JJ">4-(N-maleimidomethyl)cyclohexane-1-carboxylate</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="JJ">3-(2-pyridyldithio)propionic</taggedword>
+      <taggedword index="19" part-of-speech="NN">acid</taggedword>
+      <taggedword index="20" part-of-speech="NN">N-hydroxysuccinimide</taggedword>
+      <taggedword index="21" part-of-speech="NN">ester</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Insulin" dep_index="1" gov="conjugated" gov_index="3">nsubjpass</dependency>
+      <dependency dep="Insulin" dep_index="1" gov="phospholipase C" gov_index="5">xsubj</dependency>
+      <dependency dep="was" dep_index="2" gov="conjugated" gov_index="3">auxpass</dependency>
+      <dependency dep="conjugated" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="4" gov="phospholipase C" gov_index="5">aux</dependency>
+      <dependency dep="phospholipase C" dep_index="5" gov="conjugated" gov_index="3">xcomp</dependency>
+      <dependency dep="a" dep_index="7" gov="procedure" gov_index="9">det</dependency>
+      <dependency dep="three-step" dep_index="8" gov="procedure" gov_index="9">amod</dependency>
+      <dependency dep="procedure" dep_index="9" gov="phospholipase C" gov_index="5">prep_by</dependency>
+      <dependency dep="hetero-bifunctional" dep_index="11" gov="reagents" gov_index="13">amod</dependency>
+      <dependency dep="crosslinking" dep_index="12" gov="reagents" gov_index="13">nn</dependency>
+      <dependency dep="reagents" dep_index="13" gov="conjugated" gov_index="3">prep_with</dependency>
+      <dependency dep="succinimidyl" dep_index="15" gov="ester" gov_index="21">amod</dependency>
+      <dependency dep="4-(N-maleimidomethyl)cyclohexane-1-carboxylate" dep_index="16" gov="ester" gov_index="21">amod</dependency>
+      <dependency dep="3-(2-pyridyldithio)propionic" dep_index="18" gov="4-(N-maleimidomethyl)cyclohexane-1-carboxylate" gov_index="16">conj_and</dependency>
+      <dependency dep="3-(2-pyridyldithio)propionic" dep_index="18" gov="ester" gov_index="21">amod</dependency>
+      <dependency dep="acid" dep_index="19" gov="ester" gov_index="21">nn</dependency>
+      <dependency dep="N-hydroxysuccinimide" dep_index="20" gov="ester" gov_index="21">nn</dependency>
+      <dependency dep="ester" dep_index="21" gov="reagents" gov_index="13">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100005" relationship="false">1 3 5</relation>
+   </relations>
+   <pairs/>
+</root>

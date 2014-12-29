@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@data@suggest@that@the@in@vivo@gene@expression@of@FAT/CD36@,@PPAR-gamma2@,@leptin@,@UCP-2@,@UCP-3@,@and@TNF-alpha@in@subcutaneous@adipose@tissue@is@regulated@by@circulating@lipids@independent@of@insulin@and@that@prolonged@hyperlipidemia@may@therefore@contribute@to@increased@fat@metabolism@and@storage@as@a@result@of@the@increased@expression@of@these@proteins@</sentence>
+   <tags>
+      <tag pos="15">leptin</tag>
+      <tag pos="17">UCP-2</tag>
+      <tag pos="19">UCP-3</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">data</taggedword>
+      <taggedword index="3" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="4" part-of-speech="IN">that</taggedword>
+      <taggedword index="5" part-of-speech="DT">the</taggedword>
+      <taggedword index="6" part-of-speech="RB">in</taggedword>
+      <taggedword index="7" part-of-speech="JJ">vivo</taggedword>
+      <taggedword index="8" part-of-speech="NN">gene</taggedword>
+      <taggedword index="9" part-of-speech="NN">expression</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="NNP">FAT/CD36</taggedword>
+      <taggedword index="12" part-of-speech=",">,</taggedword>
+      <taggedword index="13" part-of-speech="NNS">PPAR-gamma2</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="NNS">leptin</taggedword>
+      <taggedword index="16" part-of-speech=",">,</taggedword>
+      <taggedword index="17" part-of-speech="NNS">UCP-2</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="NNP">UCP-3</taggedword>
+      <taggedword index="20" part-of-speech=",">,</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="NNP">TNF-alpha</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="JJ">subcutaneous</taggedword>
+      <taggedword index="25" part-of-speech="NN">adipose</taggedword>
+      <taggedword index="26" part-of-speech="NN">tissue</taggedword>
+      <taggedword index="27" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="28" part-of-speech="VBN">regulated</taggedword>
+      <taggedword index="29" part-of-speech="IN">by</taggedword>
+      <taggedword index="30" part-of-speech="VBG">circulating</taggedword>
+      <taggedword index="31" part-of-speech="NNS">lipids</taggedword>
+      <taggedword index="32" part-of-speech="JJ">independent</taggedword>
+      <taggedword index="33" part-of-speech="IN">of</taggedword>
+      <taggedword index="34" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="IN">that</taggedword>
+      <taggedword index="37" part-of-speech="VBN">prolonged</taggedword>
+      <taggedword index="38" part-of-speech="NN">hyperlipidemia</taggedword>
+      <taggedword index="39" part-of-speech="MD">may</taggedword>
+      <taggedword index="40" part-of-speech="RB">therefore</taggedword>
+      <taggedword index="41" part-of-speech="VB">contribute</taggedword>
+      <taggedword index="42" part-of-speech="TO">to</taggedword>
+      <taggedword index="43" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="44" part-of-speech="JJ">fat</taggedword>
+      <taggedword index="45" part-of-speech="NN">metabolism</taggedword>
+      <taggedword index="46" part-of-speech="CC">and</taggedword>
+      <taggedword index="47" part-of-speech="NN">storage</taggedword>
+      <taggedword index="48" part-of-speech="IN">as</taggedword>
+      <taggedword index="49" part-of-speech="DT">a</taggedword>
+      <taggedword index="50" part-of-speech="NN">result</taggedword>
+      <taggedword index="51" part-of-speech="IN">of</taggedword>
+      <taggedword index="52" part-of-speech="DT">the</taggedword>
+      <taggedword index="53" part-of-speech="VBN">increased</taggedword>
+      <taggedword index="54" part-of-speech="NN">expression</taggedword>
+      <taggedword index="55" part-of-speech="IN">of</taggedword>
+      <taggedword index="56" part-of-speech="DT">these</taggedword>
+      <taggedword index="57" part-of-speech="NNS">proteins</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="data" gov_index="2">det</dependency>
+      <dependency dep="data" dep_index="2" gov="suggest" gov_index="3">nsubj</dependency>
+      <dependency dep="suggest" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="4" gov="regulated" gov_index="28">mark</dependency>
+      <dependency dep="the" dep_index="5" gov="expression" gov_index="9">det</dependency>
+      <dependency dep="in" dep_index="6" gov="expression" gov_index="9">advmod</dependency>
+      <dependency dep="vivo" dep_index="7" gov="expression" gov_index="9">amod</dependency>
+      <dependency dep="gene" dep_index="8" gov="expression" gov_index="9">nn</dependency>
+      <dependency dep="expression" dep_index="9" gov="regulated" gov_index="28">nsubjpass</dependency>
+      <dependency dep="FAT/CD36" dep_index="11" gov="expression" gov_index="9">prep_of</dependency>
+      <dependency dep="PPAR-gamma2" dep_index="13" gov="expression" gov_index="9">prep_of</dependency>
+      <dependency dep="PPAR-gamma2" dep_index="13" gov="FAT/CD36" gov_index="11">conj_and</dependency>
+      <dependency dep="leptin" dep_index="15" gov="expression" gov_index="9">prep_of</dependency>
+      <dependency dep="leptin" dep_index="15" gov="FAT/CD36" gov_index="11">conj_and</dependency>
+      <dependency dep="UCP-2" dep_index="17" gov="expression" gov_index="9">prep_of</dependency>
+      <dependency dep="UCP-2" dep_index="17" gov="FAT/CD36" gov_index="11">conj_and</dependency>
+      <dependency dep="UCP-3" dep_index="19" gov="expression" gov_index="9">prep_of</dependency>
+      <dependency dep="UCP-3" dep_index="19" gov="FAT/CD36" gov_index="11">conj_and</dependency>
+      <dependency dep="TNF-alpha" dep_index="22" gov="expression" gov_index="9">prep_of</dependency>
+      <dependency dep="TNF-alpha" dep_index="22" gov="FAT/CD36" gov_index="11">conj_and</dependency>
+      <dependency dep="subcutaneous" dep_index="24" gov="tissue" gov_index="26">amod</dependency>
+      <dependency dep="adipose" dep_index="25" gov="tissue" gov_index="26">nn</dependency>
+      <dependency dep="tissue" dep_index="26" gov="expression" gov_index="9">prep_in</dependency>
+      <dependency dep="is" dep_index="27" gov="regulated" gov_index="28">auxpass</dependency>
+      <dependency dep="regulated" dep_index="28" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="circulating" dep_index="30" gov="regulated" gov_index="28">agent</dependency>
+      <dependency dep="lipids" dep_index="31" gov="independent" gov_index="32">nsubj</dependency>
+      <dependency dep="independent" dep_index="32" gov="circulating" gov_index="30">xcomp</dependency>
+      <dependency dep="insulin" dep_index="34" gov="independent" gov_index="32">prep_of</dependency>
+      <dependency dep="that" dep_index="36" gov="contribute" gov_index="41">mark</dependency>
+      <dependency dep="prolonged" dep_index="37" gov="hyperlipidemia" gov_index="38">amod</dependency>
+      <dependency dep="hyperlipidemia" dep_index="38" gov="contribute" gov_index="41">nsubj</dependency>
+      <dependency dep="may" dep_index="39" gov="contribute" gov_index="41">aux</dependency>
+      <dependency dep="therefore" dep_index="40" gov="contribute" gov_index="41">advmod</dependency>
+      <dependency dep="contribute" dep_index="41" gov="suggest" gov_index="3">ccomp</dependency>
+      <dependency dep="contribute" dep_index="41" gov="regulated" gov_index="28">conj_and</dependency>
+      <dependency dep="increased" dep_index="43" gov="metabolism" gov_index="45">amod</dependency>
+      <dependency dep="fat" dep_index="44" gov="metabolism" gov_index="45">amod</dependency>
+      <dependency dep="metabolism" dep_index="45" gov="contribute" gov_index="41">prep_to</dependency>
+      <dependency dep="storage" dep_index="47" gov="contribute" gov_index="41">prep_to</dependency>
+      <dependency dep="storage" dep_index="47" gov="metabolism" gov_index="45">conj_and</dependency>
+      <dependency dep="a" dep_index="49" gov="result" gov_index="50">det</dependency>
+      <dependency dep="result" dep_index="50" gov="storage" gov_index="47">prep_as</dependency>
+      <dependency dep="the" dep_index="52" gov="expression" gov_index="54">det</dependency>
+      <dependency dep="increased" dep_index="53" gov="expression" gov_index="54">amod</dependency>
+      <dependency dep="expression" dep_index="54" gov="result" gov_index="50">prep_of</dependency>
+      <dependency dep="these" dep_index="56" gov="proteins" gov_index="57">det</dependency>
+      <dependency dep="proteins" dep_index="57" gov="expression" gov_index="54">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1500017" relationship="false">15 9 17</relation>
+      <relation position="1500019" relationship="false">15 9 19</relation>
+      <relation position="1700019" relationship="false">17 9 19</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Following@immunoprecipitation@with@an@anticalnexin@antiserum@,@a@cross-linker-independent@association@was@observed@between@GT155@and@calnexin@.@</sentence>
+   <tags>
+      <tag pos="14">GT155</tag>
+      <tag pos="16">calnexin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Following</taggedword>
+      <taggedword index="2" part-of-speech="NN">immunoprecipitation</taggedword>
+      <taggedword index="3" part-of-speech="IN">with</taggedword>
+      <taggedword index="4" part-of-speech="DT">an</taggedword>
+      <taggedword index="5" part-of-speech="NN">anticalnexin</taggedword>
+      <taggedword index="6" part-of-speech="NN">antiserum</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="DT">a</taggedword>
+      <taggedword index="9" part-of-speech="JJ">cross-linker-independent</taggedword>
+      <taggedword index="10" part-of-speech="NN">association</taggedword>
+      <taggedword index="11" part-of-speech="VBD">was</taggedword>
+      <taggedword index="12" part-of-speech="VBN">observed</taggedword>
+      <taggedword index="13" part-of-speech="IN">between</taggedword>
+      <taggedword index="14" part-of-speech="NN">GT155</taggedword>
+      <taggedword index="15" part-of-speech="CC">and</taggedword>
+      <taggedword index="16" part-of-speech="NN">calnexin</taggedword>
+      <taggedword index="17" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="immunoprecipitation" dep_index="2" gov="observed" gov_index="12">prep_following</dependency>
+      <dependency dep="an" dep_index="4" gov="antiserum" gov_index="6">det</dependency>
+      <dependency dep="anticalnexin" dep_index="5" gov="antiserum" gov_index="6">nn</dependency>
+      <dependency dep="antiserum" dep_index="6" gov="immunoprecipitation" gov_index="2">prep_with</dependency>
+      <dependency dep="a" dep_index="8" gov="association" gov_index="10">det</dependency>
+      <dependency dep="cross-linker-independent" dep_index="9" gov="association" gov_index="10">amod</dependency>
+      <dependency dep="association" dep_index="10" gov="observed" gov_index="12">nsubjpass</dependency>
+      <dependency dep="was" dep_index="11" gov="observed" gov_index="12">auxpass</dependency>
+      <dependency dep="observed" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="GT155" dep_index="14" gov="observed" gov_index="12">prep_between</dependency>
+      <dependency dep="calnexin" dep_index="16" gov="observed" gov_index="12">prep_between</dependency>
+      <dependency dep="calnexin" dep_index="16" gov="GT155" gov_index="14">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1400016" relationship="true">14 12 16</relation>
+   </relations>
+   <pairs>
+      <pair>1400016</pair>
+   </pairs>
+</root>

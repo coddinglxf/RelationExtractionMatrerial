@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>This@is@the@first@report@describing@the@coexistence@of@profilin@with@actin@filaments@in@the@division@furrow@,@implying@the@possible@involvement@of@profilin@in@assembly@and@disassembly@of@contractile@ring@microfilaments@in@the@process@of@cytokinesis@.@</sentence>
+   <tags>
+      <tag pos="12">actin</tag>
+      <tag pos="24">profilin</tag>
+      <tag pos="10">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">This</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">first</taggedword>
+      <taggedword index="5" part-of-speech="NN">report</taggedword>
+      <taggedword index="6" part-of-speech="VBG">describing</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NN">coexistence</taggedword>
+      <taggedword index="9" part-of-speech="IN">of</taggedword>
+      <taggedword index="10" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="11" part-of-speech="IN">with</taggedword>
+      <taggedword index="12" part-of-speech="NN">actin</taggedword>
+      <taggedword index="13" part-of-speech="NNS">filaments</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">division</taggedword>
+      <taggedword index="17" part-of-speech="NN">furrow</taggedword>
+      <taggedword index="18" part-of-speech=",">,</taggedword>
+      <taggedword index="19" part-of-speech="VBG">implying</taggedword>
+      <taggedword index="20" part-of-speech="DT">the</taggedword>
+      <taggedword index="21" part-of-speech="JJ">possible</taggedword>
+      <taggedword index="22" part-of-speech="NN">involvement</taggedword>
+      <taggedword index="23" part-of-speech="IN">of</taggedword>
+      <taggedword index="24" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="25" part-of-speech="IN">in</taggedword>
+      <taggedword index="26" part-of-speech="NN">assembly</taggedword>
+      <taggedword index="27" part-of-speech="CC">and</taggedword>
+      <taggedword index="28" part-of-speech="NN">disassembly</taggedword>
+      <taggedword index="29" part-of-speech="IN">of</taggedword>
+      <taggedword index="30" part-of-speech="JJ">contractile</taggedword>
+      <taggedword index="31" part-of-speech="NN">ring</taggedword>
+      <taggedword index="32" part-of-speech="NNS">microfilaments</taggedword>
+      <taggedword index="33" part-of-speech="IN">in</taggedword>
+      <taggedword index="34" part-of-speech="DT">the</taggedword>
+      <taggedword index="35" part-of-speech="NN">process</taggedword>
+      <taggedword index="36" part-of-speech="IN">of</taggedword>
+      <taggedword index="37" part-of-speech="NNS">cytokinesis</taggedword>
+      <taggedword index="38" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="This" dep_index="1" gov="report" gov_index="5">nsubj</dependency>
+      <dependency dep="is" dep_index="2" gov="report" gov_index="5">cop</dependency>
+      <dependency dep="the" dep_index="3" gov="report" gov_index="5">det</dependency>
+      <dependency dep="first" dep_index="4" gov="report" gov_index="5">amod</dependency>
+      <dependency dep="report" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="describing" dep_index="6" gov="report" gov_index="5">partmod</dependency>
+      <dependency dep="the" dep_index="7" gov="coexistence" gov_index="8">det</dependency>
+      <dependency dep="coexistence" dep_index="8" gov="describing" gov_index="6">dobj</dependency>
+      <dependency dep="profilin" dep_index="10" gov="coexistence" gov_index="8">prep_of</dependency>
+      <dependency dep="actin" dep_index="12" gov="filaments" gov_index="13">nn</dependency>
+      <dependency dep="filaments" dep_index="13" gov="describing" gov_index="6">prep_with</dependency>
+      <dependency dep="the" dep_index="15" gov="furrow" gov_index="17">det</dependency>
+      <dependency dep="division" dep_index="16" gov="furrow" gov_index="17">nn</dependency>
+      <dependency dep="furrow" dep_index="17" gov="filaments" gov_index="13">prep_in</dependency>
+      <dependency dep="implying" dep_index="19" gov="describing" gov_index="6">partmod</dependency>
+      <dependency dep="the" dep_index="20" gov="involvement" gov_index="22">det</dependency>
+      <dependency dep="possible" dep_index="21" gov="involvement" gov_index="22">amod</dependency>
+      <dependency dep="involvement" dep_index="22" gov="implying" gov_index="19">dobj</dependency>
+      <dependency dep="profilin" dep_index="24" gov="involvement" gov_index="22">prep_of</dependency>
+      <dependency dep="assembly" dep_index="26" gov="implying" gov_index="19">prep_in</dependency>
+      <dependency dep="disassembly" dep_index="28" gov="implying" gov_index="19">prep_in</dependency>
+      <dependency dep="disassembly" dep_index="28" gov="assembly" gov_index="26">conj_and</dependency>
+      <dependency dep="contractile" dep_index="30" gov="microfilaments" gov_index="32">amod</dependency>
+      <dependency dep="ring" dep_index="31" gov="microfilaments" gov_index="32">nn</dependency>
+      <dependency dep="microfilaments" dep_index="32" gov="assembly" gov_index="26">prep_of</dependency>
+      <dependency dep="the" dep_index="34" gov="process" gov_index="35">det</dependency>
+      <dependency dep="process" dep_index="35" gov="implying" gov_index="19">prep_in</dependency>
+      <dependency dep="cytokinesis" dep_index="37" gov="process" gov_index="35">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200024" relationship="false">12 13 6 19 22 24</relation>
+      <relation position="1000012" relationship="true">10 8 6 13 12</relation>
+      <relation position="1000024" relationship="false">10 8 6 19 22 24</relation>
+   </relations>
+   <pairs>
+      <pair>1000012</pair>
+   </pairs>
+</root>

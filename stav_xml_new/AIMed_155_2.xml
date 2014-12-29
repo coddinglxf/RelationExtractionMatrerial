@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@general@transcription@factor@TFIID@nucleates@initiation@complex@formation@through@direct@core@promoter@binding@,@commits@promoters@within@chromatin@to@transcription@,@and@mediates@the@action@of@transcriptional@activators@,@a@phenomenon@that@may@correlate@with@enhanced@TFIID@recruitment@or@conformational@changes@in@TFIID@-promoter@complexes@.@</sentence>
+   <tags>
+      <tag pos="5">TFIID</tag>
+      <tag pos="38">TFIID</tag>
+      <tag pos="44">TFIID</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">general</taggedword>
+      <taggedword index="3" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="4" part-of-speech="NN">factor</taggedword>
+      <taggedword index="5" part-of-speech="VBD">TFIID</taggedword>
+      <taggedword index="6" part-of-speech="JJ">nucleates</taggedword>
+      <taggedword index="7" part-of-speech="NN">initiation</taggedword>
+      <taggedword index="8" part-of-speech="JJ">complex</taggedword>
+      <taggedword index="9" part-of-speech="NN">formation</taggedword>
+      <taggedword index="10" part-of-speech="IN">through</taggedword>
+      <taggedword index="11" part-of-speech="JJ">direct</taggedword>
+      <taggedword index="12" part-of-speech="NN">core</taggedword>
+      <taggedword index="13" part-of-speech="NN">promoter</taggedword>
+      <taggedword index="14" part-of-speech="VBG">binding</taggedword>
+      <taggedword index="15" part-of-speech=",">,</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">commits</taggedword>
+      <taggedword index="17" part-of-speech="NNS">promoters</taggedword>
+      <taggedword index="18" part-of-speech="IN">within</taggedword>
+      <taggedword index="19" part-of-speech="NN">chromatin</taggedword>
+      <taggedword index="20" part-of-speech="TO">to</taggedword>
+      <taggedword index="21" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="22" part-of-speech=",">,</taggedword>
+      <taggedword index="23" part-of-speech="CC">and</taggedword>
+      <taggedword index="24" part-of-speech="VBZ">mediates</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="NN">action</taggedword>
+      <taggedword index="27" part-of-speech="IN">of</taggedword>
+      <taggedword index="28" part-of-speech="JJ">transcriptional</taggedword>
+      <taggedword index="29" part-of-speech="NNS">activators</taggedword>
+      <taggedword index="30" part-of-speech=",">,</taggedword>
+      <taggedword index="31" part-of-speech="DT">a</taggedword>
+      <taggedword index="32" part-of-speech="NN">phenomenon</taggedword>
+      <taggedword index="33" part-of-speech="WDT">that</taggedword>
+      <taggedword index="34" part-of-speech="MD">may</taggedword>
+      <taggedword index="35" part-of-speech="VB">correlate</taggedword>
+      <taggedword index="36" part-of-speech="IN">with</taggedword>
+      <taggedword index="37" part-of-speech="JJ">enhanced</taggedword>
+      <taggedword index="38" part-of-speech="NNP">TFIID</taggedword>
+      <taggedword index="39" part-of-speech="NN">recruitment</taggedword>
+      <taggedword index="40" part-of-speech="CC">or</taggedword>
+      <taggedword index="41" part-of-speech="NN">conformational</taggedword>
+      <taggedword index="42" part-of-speech="NNS">changes</taggedword>
+      <taggedword index="43" part-of-speech="IN">in</taggedword>
+      <taggedword index="44" part-of-speech="JJ">TFIID</taggedword>
+      <taggedword index="45" part-of-speech="JJ">-promoter</taggedword>
+      <taggedword index="46" part-of-speech="NNS">complexes</taggedword>
+      <taggedword index="47" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="factor" gov_index="4">det</dependency>
+      <dependency dep="general" dep_index="2" gov="factor" gov_index="4">amod</dependency>
+      <dependency dep="transcription" dep_index="3" gov="factor" gov_index="4">nn</dependency>
+      <dependency dep="factor" dep_index="4" gov="TFIID" gov_index="5">nsubj</dependency>
+      <dependency dep="factor" dep_index="4" gov="commits" gov_index="16">nsubj</dependency>
+      <dependency dep="factor" dep_index="4" gov="mediates" gov_index="24">nsubj</dependency>
+      <dependency dep="TFIID" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="nucleates" dep_index="6" gov="formation" gov_index="9">amod</dependency>
+      <dependency dep="initiation" dep_index="7" gov="formation" gov_index="9">nn</dependency>
+      <dependency dep="complex" dep_index="8" gov="formation" gov_index="9">amod</dependency>
+      <dependency dep="formation" dep_index="9" gov="TFIID" gov_index="5">dobj</dependency>
+      <dependency dep="direct" dep_index="11" gov="promoter" gov_index="13">amod</dependency>
+      <dependency dep="core" dep_index="12" gov="promoter" gov_index="13">nn</dependency>
+      <dependency dep="promoter" dep_index="13" gov="TFIID" gov_index="5">prep_through</dependency>
+      <dependency dep="binding" dep_index="14" gov="promoter" gov_index="13">amod</dependency>
+      <dependency dep="commits" dep_index="16" gov="TFIID" gov_index="5">conj_and</dependency>
+      <dependency dep="promoters" dep_index="17" gov="commits" gov_index="16">dobj</dependency>
+      <dependency dep="chromatin" dep_index="19" gov="promoters" gov_index="17">prep_within</dependency>
+      <dependency dep="transcription" dep_index="21" gov="commits" gov_index="16">prep_to</dependency>
+      <dependency dep="mediates" dep_index="24" gov="TFIID" gov_index="5">conj_and</dependency>
+      <dependency dep="the" dep_index="25" gov="action" gov_index="26">det</dependency>
+      <dependency dep="action" dep_index="26" gov="mediates" gov_index="24">dobj</dependency>
+      <dependency dep="transcriptional" dep_index="28" gov="activators" gov_index="29">amod</dependency>
+      <dependency dep="activators" dep_index="29" gov="action" gov_index="26">prep_of</dependency>
+      <dependency dep="a" dep_index="31" gov="phenomenon" gov_index="32">det</dependency>
+      <dependency dep="phenomenon" dep_index="32" gov="activators" gov_index="29">appos</dependency>
+      <dependency dep="phenomenon" dep_index="32" gov="correlate" gov_index="35">nsubj</dependency>
+      <dependency dep="may" dep_index="34" gov="correlate" gov_index="35">aux</dependency>
+      <dependency dep="correlate" dep_index="35" gov="phenomenon" gov_index="32">rcmod</dependency>
+      <dependency dep="enhanced" dep_index="37" gov="recruitment" gov_index="39">amod</dependency>
+      <dependency dep="TFIID" dep_index="38" gov="recruitment" gov_index="39">nn</dependency>
+      <dependency dep="recruitment" dep_index="39" gov="correlate" gov_index="35">prep_with</dependency>
+      <dependency dep="conformational" dep_index="41" gov="changes" gov_index="42">nn</dependency>
+      <dependency dep="changes" dep_index="42" gov="correlate" gov_index="35">prep_with</dependency>
+      <dependency dep="changes" dep_index="42" gov="recruitment" gov_index="39">conj_or</dependency>
+      <dependency dep="TFIID" dep_index="44" gov="complexes" gov_index="46">amod</dependency>
+      <dependency dep="-promoter" dep_index="45" gov="complexes" gov_index="46">amod</dependency>
+      <dependency dep="complexes" dep_index="46" gov="correlate" gov_index="35">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500038" relationship="false"></relation>
+      <relation position="500044" relationship="false"></relation>
+      <relation position="3800044" relationship="false">38 39 35 46 44</relation>
+   </relations>
+   <pairs/>
+</root>

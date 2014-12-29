@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@used@the@'interaction@trap'@(two-hybrid@system)@to@identify@polypeptides@that@interact@with@the@neuronal@phosphoprotein@,@GAP-43@,@in@an@intracellular@environment@.@</sentence>
+   <tags>
+      <tag pos="18">GAP-43</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">used</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">'interaction</taggedword>
+      <taggedword index="5" part-of-speech="JJ">trap'</taggedword>
+      <taggedword index="6" part-of-speech="JJ">(two-hybrid</taggedword>
+      <taggedword index="7" part-of-speech="NN">system)</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">identify</taggedword>
+      <taggedword index="10" part-of-speech="NNS">polypeptides</taggedword>
+      <taggedword index="11" part-of-speech="WDT">that</taggedword>
+      <taggedword index="12" part-of-speech="VBD">interact</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="DT">the</taggedword>
+      <taggedword index="15" part-of-speech="JJ">neuronal</taggedword>
+      <taggedword index="16" part-of-speech="NN">phosphoprotein</taggedword>
+      <taggedword index="17" part-of-speech=",">,</taggedword>
+      <taggedword index="18" part-of-speech="NN">GAP-43</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="DT">an</taggedword>
+      <taggedword index="22" part-of-speech="NN">intracellular</taggedword>
+      <taggedword index="23" part-of-speech="NN">environment</taggedword>
+      <taggedword index="24" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="used" gov_index="2">nsubj</dependency>
+      <dependency dep="We" dep_index="1" gov="identify" gov_index="9">xsubj</dependency>
+      <dependency dep="used" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="system)" gov_index="7">det</dependency>
+      <dependency dep="'interaction" dep_index="4" gov="system)" gov_index="7">amod</dependency>
+      <dependency dep="trap'" dep_index="5" gov="system)" gov_index="7">amod</dependency>
+      <dependency dep="(two-hybrid" dep_index="6" gov="system)" gov_index="7">amod</dependency>
+      <dependency dep="system)" dep_index="7" gov="used" gov_index="2">dobj</dependency>
+      <dependency dep="to" dep_index="8" gov="identify" gov_index="9">aux</dependency>
+      <dependency dep="identify" dep_index="9" gov="used" gov_index="2">xcomp</dependency>
+      <dependency dep="polypeptides" dep_index="10" gov="identify" gov_index="9">dobj</dependency>
+      <dependency dep="polypeptides" dep_index="10" gov="interact" gov_index="12">nsubj</dependency>
+      <dependency dep="interact" dep_index="12" gov="polypeptides" gov_index="10">rcmod</dependency>
+      <dependency dep="the" dep_index="14" gov="phosphoprotein" gov_index="16">det</dependency>
+      <dependency dep="neuronal" dep_index="15" gov="phosphoprotein" gov_index="16">amod</dependency>
+      <dependency dep="phosphoprotein" dep_index="16" gov="interact" gov_index="12">prep_with</dependency>
+      <dependency dep="GAP-43" dep_index="18" gov="phosphoprotein" gov_index="16">appos</dependency>
+      <dependency dep="an" dep_index="21" gov="environment" gov_index="23">det</dependency>
+      <dependency dep="intracellular" dep_index="22" gov="environment" gov_index="23">nn</dependency>
+      <dependency dep="environment" dep_index="23" gov="interact" gov_index="12">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

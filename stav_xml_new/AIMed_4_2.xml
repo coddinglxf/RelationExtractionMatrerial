@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@aim@of@the@present@study@was@to@determine@possible@inotropic@effects@mediated@by@endothelin@ET(A)@and@ET(B)@receptors@in@human@myocardial@trabeculae@from@the@right@atrium@and@the@left@ventricle@.@</sentence>
+   <tags>
+      <tag pos="16">ET(A)</tag>
+      <tag pos="18">ET(B)</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">aim</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="DT">the</taggedword>
+      <taggedword index="5" part-of-speech="JJ">present</taggedword>
+      <taggedword index="6" part-of-speech="NN">study</taggedword>
+      <taggedword index="7" part-of-speech="VBD">was</taggedword>
+      <taggedword index="8" part-of-speech="TO">to</taggedword>
+      <taggedword index="9" part-of-speech="VB">determine</taggedword>
+      <taggedword index="10" part-of-speech="JJ">possible</taggedword>
+      <taggedword index="11" part-of-speech="JJ">inotropic</taggedword>
+      <taggedword index="12" part-of-speech="NNS">effects</taggedword>
+      <taggedword index="13" part-of-speech="VBN">mediated</taggedword>
+      <taggedword index="14" part-of-speech="IN">by</taggedword>
+      <taggedword index="15" part-of-speech="JJ">endothelin</taggedword>
+      <taggedword index="16" part-of-speech="NN">ET(A)</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">ET(B)</taggedword>
+      <taggedword index="19" part-of-speech="NNS">receptors</taggedword>
+      <taggedword index="20" part-of-speech="IN">in</taggedword>
+      <taggedword index="21" part-of-speech="JJ">human</taggedword>
+      <taggedword index="22" part-of-speech="JJ">myocardial</taggedword>
+      <taggedword index="23" part-of-speech="NN">trabeculae</taggedword>
+      <taggedword index="24" part-of-speech="IN">from</taggedword>
+      <taggedword index="25" part-of-speech="DT">the</taggedword>
+      <taggedword index="26" part-of-speech="JJ">right</taggedword>
+      <taggedword index="27" part-of-speech="NN">atrium</taggedword>
+      <taggedword index="28" part-of-speech="CC">and</taggedword>
+      <taggedword index="29" part-of-speech="DT">the</taggedword>
+      <taggedword index="30" part-of-speech="JJ">left</taggedword>
+      <taggedword index="31" part-of-speech="NN">ventricle</taggedword>
+      <taggedword index="32" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="aim" gov_index="2">det</dependency>
+      <dependency dep="aim" dep_index="2" gov="was" gov_index="7">nsubj</dependency>
+      <dependency dep="aim" dep_index="2" gov="determine" gov_index="9">xsubj</dependency>
+      <dependency dep="the" dep_index="4" gov="study" gov_index="6">det</dependency>
+      <dependency dep="present" dep_index="5" gov="study" gov_index="6">amod</dependency>
+      <dependency dep="study" dep_index="6" gov="aim" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="to" dep_index="8" gov="determine" gov_index="9">aux</dependency>
+      <dependency dep="determine" dep_index="9" gov="was" gov_index="7">xcomp</dependency>
+      <dependency dep="possible" dep_index="10" gov="effects" gov_index="12">amod</dependency>
+      <dependency dep="inotropic" dep_index="11" gov="effects" gov_index="12">amod</dependency>
+      <dependency dep="effects" dep_index="12" gov="determine" gov_index="9">dobj</dependency>
+      <dependency dep="mediated" dep_index="13" gov="effects" gov_index="12">partmod</dependency>
+      <dependency dep="endothelin" dep_index="15" gov="ET(A)" gov_index="16">amod</dependency>
+      <dependency dep="ET(A)" dep_index="16" gov="mediated" gov_index="13">agent</dependency>
+      <dependency dep="ET(B)" dep_index="18" gov="receptors" gov_index="19">nn</dependency>
+      <dependency dep="receptors" dep_index="19" gov="mediated" gov_index="13">agent</dependency>
+      <dependency dep="receptors" dep_index="19" gov="ET(A)" gov_index="16">conj_and</dependency>
+      <dependency dep="human" dep_index="21" gov="trabeculae" gov_index="23">amod</dependency>
+      <dependency dep="myocardial" dep_index="22" gov="trabeculae" gov_index="23">amod</dependency>
+      <dependency dep="trabeculae" dep_index="23" gov="ET(A)" gov_index="16">prep_in</dependency>
+      <dependency dep="the" dep_index="25" gov="atrium" gov_index="27">det</dependency>
+      <dependency dep="right" dep_index="26" gov="atrium" gov_index="27">amod</dependency>
+      <dependency dep="atrium" dep_index="27" gov="mediated" gov_index="13">prep_from</dependency>
+      <dependency dep="the" dep_index="29" gov="ventricle" gov_index="31">det</dependency>
+      <dependency dep="left" dep_index="30" gov="ventricle" gov_index="31">amod</dependency>
+      <dependency dep="ventricle" dep_index="31" gov="mediated" gov_index="13">prep_from</dependency>
+      <dependency dep="ventricle" dep_index="31" gov="atrium" gov_index="27">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1600018" relationship="false">16 13 19 18</relation>
+   </relations>
+   <pairs/>
+</root>

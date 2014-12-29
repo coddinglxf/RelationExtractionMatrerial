@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@use@of@glutathione@S-transferase-Lck@fusion@proteins@in@precipitation@analysis@showed@that@the@SH2@domain@of@p56lck@could@recognize@CD5@as@expressed@in@the@baculovirus@expression@system@.@</sentence>
+   <tags>
+      <tag pos="17">p56lck</tag>
+      <tag pos="20">CD5</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">use</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">glutathione</taggedword>
+      <taggedword index="5" part-of-speech="NNP">S-transferase-Lck</taggedword>
+      <taggedword index="6" part-of-speech="NN">fusion</taggedword>
+      <taggedword index="7" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NN">precipitation</taggedword>
+      <taggedword index="10" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="11" part-of-speech="VBD">showed</taggedword>
+      <taggedword index="12" part-of-speech="IN">that</taggedword>
+      <taggedword index="13" part-of-speech="DT">the</taggedword>
+      <taggedword index="14" part-of-speech="JJ">SH2</taggedword>
+      <taggedword index="15" part-of-speech="NN">domain</taggedword>
+      <taggedword index="16" part-of-speech="IN">of</taggedword>
+      <taggedword index="17" part-of-speech="CD">p56lck</taggedword>
+      <taggedword index="18" part-of-speech="MD">could</taggedword>
+      <taggedword index="19" part-of-speech="VB">recognize</taggedword>
+      <taggedword index="20" part-of-speech="NNP">CD5</taggedword>
+      <taggedword index="21" part-of-speech="IN">as</taggedword>
+      <taggedword index="22" part-of-speech="VBD">expressed</taggedword>
+      <taggedword index="23" part-of-speech="IN">in</taggedword>
+      <taggedword index="24" part-of-speech="DT">the</taggedword>
+      <taggedword index="25" part-of-speech="JJ">baculovirus</taggedword>
+      <taggedword index="26" part-of-speech="NN">expression</taggedword>
+      <taggedword index="27" part-of-speech="NN">system</taggedword>
+      <taggedword index="28" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="use" gov_index="2">det</dependency>
+      <dependency dep="use" dep_index="2" gov="showed" gov_index="11">nsubj</dependency>
+      <dependency dep="glutathione" dep_index="4" gov="proteins" gov_index="7">amod</dependency>
+      <dependency dep="S-transferase-Lck" dep_index="5" gov="proteins" gov_index="7">nn</dependency>
+      <dependency dep="fusion" dep_index="6" gov="proteins" gov_index="7">nn</dependency>
+      <dependency dep="proteins" dep_index="7" gov="use" gov_index="2">prep_of</dependency>
+      <dependency dep="precipitation" dep_index="9" gov="analysis" gov_index="10">nn</dependency>
+      <dependency dep="analysis" dep_index="10" gov="proteins" gov_index="7">prep_in</dependency>
+      <dependency dep="showed" dep_index="11" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="12" gov="recognize" gov_index="19">mark</dependency>
+      <dependency dep="the" dep_index="13" gov="domain" gov_index="15">det</dependency>
+      <dependency dep="SH2" dep_index="14" gov="domain" gov_index="15">amod</dependency>
+      <dependency dep="domain" dep_index="15" gov="recognize" gov_index="19">nsubj</dependency>
+      <dependency dep="p56lck" dep_index="17" gov="domain" gov_index="15">prep_of</dependency>
+      <dependency dep="could" dep_index="18" gov="recognize" gov_index="19">aux</dependency>
+      <dependency dep="recognize" dep_index="19" gov="showed" gov_index="11">ccomp</dependency>
+      <dependency dep="CD5" dep_index="20" gov="recognize" gov_index="19">dobj</dependency>
+      <dependency dep="as" dep_index="21" gov="expressed" gov_index="22">mark</dependency>
+      <dependency dep="expressed" dep_index="22" gov="recognize" gov_index="19">advcl</dependency>
+      <dependency dep="the" dep_index="24" gov="system" gov_index="27">det</dependency>
+      <dependency dep="baculovirus" dep_index="25" gov="system" gov_index="27">amod</dependency>
+      <dependency dep="expression" dep_index="26" gov="system" gov_index="27">nn</dependency>
+      <dependency dep="system" dep_index="27" gov="expressed" gov_index="22">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1700020" relationship="true">17 15 19 20</relation>
+   </relations>
+   <pairs>
+      <pair>1700020</pair>
+   </pairs>
+</root>

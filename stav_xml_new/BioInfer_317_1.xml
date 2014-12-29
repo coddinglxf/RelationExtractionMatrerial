@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>In@addition@,@we@report@that@radiation@induced@transient@activation@of@c-Jun N-terminal kinase@/@stress-activated protein kinase@(@JNK@/@SAPK@)@activation@and@the@transcription@factor@,@AP-1@.@</sentence>
+   <tags>
+      <tag pos="12">c-Jun N-terminal kinase</tag>
+      <tag pos="14">stress-activated protein kinase</tag>
+      <tag pos="26">AP-1</tag>
+      <tag pos="16">JNK</tag>
+      <tag pos="18">SAPK</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">In</taggedword>
+      <taggedword index="2" part-of-speech="NN">addition</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="PRP">we</taggedword>
+      <taggedword index="5" part-of-speech="VBP">report</taggedword>
+      <taggedword index="6" part-of-speech="DT">that</taggedword>
+      <taggedword index="7" part-of-speech="NN">radiation</taggedword>
+      <taggedword index="8" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="9" part-of-speech="JJ">transient</taggedword>
+      <taggedword index="10" part-of-speech="NN">activation</taggedword>
+      <taggedword index="11" part-of-speech="IN">of</taggedword>
+      <taggedword index="12" part-of-speech="JJ">c-Jun N-terminal kinase</taggedword>
+      <taggedword index="13" part-of-speech=":">/</taggedword>
+      <taggedword index="14" part-of-speech="RB">stress-activated protein kinase</taggedword>
+      <taggedword index="15" part-of-speech="NNP">(</taggedword>
+      <taggedword index="16" part-of-speech="NNP">JNK</taggedword>
+      <taggedword index="17" part-of-speech=":">/</taggedword>
+      <taggedword index="18" part-of-speech="JJ">SAPK</taggedword>
+      <taggedword index="19" part-of-speech="CD">)</taggedword>
+      <taggedword index="20" part-of-speech="NNS">activation</taggedword>
+      <taggedword index="21" part-of-speech="CC">and</taggedword>
+      <taggedword index="22" part-of-speech="DT">the</taggedword>
+      <taggedword index="23" part-of-speech="NN">transcription</taggedword>
+      <taggedword index="24" part-of-speech="NN">factor</taggedword>
+      <taggedword index="25" part-of-speech=",">,</taggedword>
+      <taggedword index="26" part-of-speech="NN">AP-1</taggedword>
+      <taggedword index="27" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="addition" dep_index="2" gov="report" gov_index="5">prep_in</dependency>
+      <dependency dep="we" dep_index="4" gov="report" gov_index="5">nsubj</dependency>
+      <dependency dep="report" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="radiation" gov_index="7">det</dependency>
+      <dependency dep="radiation" dep_index="7" gov="report" gov_index="5">dobj</dependency>
+      <dependency dep="induced" dep_index="8" gov="radiation" gov_index="7">partmod</dependency>
+      <dependency dep="transient" dep_index="9" gov="activation" gov_index="10">amod</dependency>
+      <dependency dep="activation" dep_index="10" gov="induced" gov_index="8">dobj</dependency>
+      <dependency dep="c-Jun N-terminal kinase" dep_index="12" gov="activation" gov_index="20">amod</dependency>
+      <dependency dep="/" dep_index="13" gov="JNK" gov_index="16">punct</dependency>
+      <dependency dep="stress-activated protein kinase" dep_index="14" gov="JNK" gov_index="16">dep</dependency>
+      <dependency dep="(" dep_index="15" gov="JNK" gov_index="16">nn</dependency>
+      <dependency dep="JNK" dep_index="16" gov="activation" gov_index="20">dep</dependency>
+      <dependency dep="/" dep_index="17" gov="JNK" gov_index="16">punct</dependency>
+      <dependency dep="SAPK" dep_index="18" gov="activation" gov_index="20">amod</dependency>
+      <dependency dep=")" dep_index="19" gov="activation" gov_index="20">num</dependency>
+      <dependency dep="activation" dep_index="20" gov="activation" gov_index="10">prep_of</dependency>
+      <dependency dep="the" dep_index="22" gov="factor" gov_index="24">det</dependency>
+      <dependency dep="transcription" dep_index="23" gov="factor" gov_index="24">nn</dependency>
+      <dependency dep="factor" dep_index="24" gov="induced" gov_index="8">dobj</dependency>
+      <dependency dep="factor" dep_index="24" gov="activation" gov_index="10">conj_and</dependency>
+      <dependency dep="AP-1" dep_index="26" gov="factor" gov_index="24">appos</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1200014" relationship="false">12 20 16 14</relation>
+      <relation position="1200026" relationship="false">12 20 10 8 24 26</relation>
+      <relation position="1200016" relationship="false">12 20 16</relation>
+      <relation position="1200018" relationship="false">12 20 18</relation>
+      <relation position="1400026" relationship="false">14 16 20 10 8 24 26</relation>
+      <relation position="1400016" relationship="false"></relation>
+      <relation position="1400018" relationship="false">14 16 20 18</relation>
+      <relation position="1600026" relationship="false">16 20 10 8 24 26</relation>
+      <relation position="1800026" relationship="false">18 20 10 8 24 26</relation>
+      <relation position="1600018" relationship="false">16 20 18</relation>
+   </relations>
+   <pairs/>
+</root>

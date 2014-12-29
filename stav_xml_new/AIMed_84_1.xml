@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Evidence@for@a@differential@interaction@of@SHC@and@the@insulin receptor substrate-1@(@IRS-1@)@with@the@insulin-like growth factor-I (IGF-I) receptor@in@the@yeast@two-hybrid@system@.@</sentence>
+   <tags>
+      <tag pos="7">SHC</tag>
+      <tag pos="10">insulin receptor substrate-1</tag>
+      <tag pos="12">IRS-1</tag>
+      <tag pos="16">insulin-like growth factor-I (IGF-I) receptor</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">Evidence</taggedword>
+      <taggedword index="2" part-of-speech="IN">for</taggedword>
+      <taggedword index="3" part-of-speech="DT">a</taggedword>
+      <taggedword index="4" part-of-speech="NN">differential</taggedword>
+      <taggedword index="5" part-of-speech="NN">interaction</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNP">SHC</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="DT">the</taggedword>
+      <taggedword index="10" part-of-speech="JJ">insulin receptor substrate-1</taggedword>
+      <taggedword index="11" part-of-speech="JJ">(</taggedword>
+      <taggedword index="12" part-of-speech="NN">IRS-1</taggedword>
+      <taggedword index="13" part-of-speech="VBZ">)</taggedword>
+      <taggedword index="14" part-of-speech="IN">with</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">insulin-like growth factor-I (IGF-I) receptor</taggedword>
+      <taggedword index="17" part-of-speech="IN">in</taggedword>
+      <taggedword index="18" part-of-speech="DT">the</taggedword>
+      <taggedword index="19" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="20" part-of-speech="JJ">two-hybrid</taggedword>
+      <taggedword index="21" part-of-speech="NN">system</taggedword>
+      <taggedword index="22" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Evidence" dep_index="1" gov=")" gov_index="13">nsubj</dependency>
+      <dependency dep="a" dep_index="3" gov="interaction" gov_index="5">det</dependency>
+      <dependency dep="differential" dep_index="4" gov="interaction" gov_index="5">nn</dependency>
+      <dependency dep="interaction" dep_index="5" gov="Evidence" gov_index="1">prep_for</dependency>
+      <dependency dep="SHC" dep_index="7" gov="interaction" gov_index="5">prep_of</dependency>
+      <dependency dep="the" dep_index="9" gov="IRS-1" gov_index="12">det</dependency>
+      <dependency dep="insulin receptor substrate-1" dep_index="10" gov="IRS-1" gov_index="12">amod</dependency>
+      <dependency dep="(" dep_index="11" gov="IRS-1" gov_index="12">amod</dependency>
+      <dependency dep="IRS-1" dep_index="12" gov="interaction" gov_index="5">prep_of</dependency>
+      <dependency dep="IRS-1" dep_index="12" gov="SHC" gov_index="7">conj_and</dependency>
+      <dependency dep=")" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="15" gov="insulin-like growth factor-I (IGF-I) receptor" gov_index="16">det</dependency>
+      <dependency dep="insulin-like growth factor-I (IGF-I) receptor" dep_index="16" gov=")" gov_index="13">prep_with</dependency>
+      <dependency dep="the" dep_index="18" gov="system" gov_index="21">det</dependency>
+      <dependency dep="yeast" dep_index="19" gov="system" gov_index="21">nn</dependency>
+      <dependency dep="two-hybrid" dep_index="20" gov="system" gov_index="21">amod</dependency>
+      <dependency dep="system" dep_index="21" gov="insulin-like growth factor-I (IGF-I) receptor" gov_index="16">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700010" relationship="false">7 5 12 10</relation>
+      <relation position="700012" relationship="false">7 5 12</relation>
+      <relation position="700016" relationship="false">7 5 1 13 16</relation>
+      <relation position="1000012" relationship="false"></relation>
+      <relation position="1000016" relationship="true">10 12 5 1 13 16</relation>
+      <relation position="1200016" relationship="true">12 5 1 13 16</relation>
+   </relations>
+   <pairs>
+      <pair>1200016</pair>
+      <pair>1000016</pair>
+   </pairs>
+</root>

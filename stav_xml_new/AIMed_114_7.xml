@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>On@the@basis@of@its@alternative@splicing@,@dystrophin@may@thus@be@present@in@two@functionally@distinct@populations@.@</sentence>
+   <tags>
+      <tag pos="9">dystrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="IN">On</taggedword>
+      <taggedword index="2" part-of-speech="DT">the</taggedword>
+      <taggedword index="3" part-of-speech="NN">basis</taggedword>
+      <taggedword index="4" part-of-speech="IN">of</taggedword>
+      <taggedword index="5" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="6" part-of-speech="JJ">alternative</taggedword>
+      <taggedword index="7" part-of-speech="NN">splicing</taggedword>
+      <taggedword index="8" part-of-speech=",">,</taggedword>
+      <taggedword index="9" part-of-speech="NN">dystrophin</taggedword>
+      <taggedword index="10" part-of-speech="MD">may</taggedword>
+      <taggedword index="11" part-of-speech="RB">thus</taggedword>
+      <taggedword index="12" part-of-speech="VB">be</taggedword>
+      <taggedword index="13" part-of-speech="JJ">present</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="CD">two</taggedword>
+      <taggedword index="16" part-of-speech="JJ">functionally</taggedword>
+      <taggedword index="17" part-of-speech="JJ">distinct</taggedword>
+      <taggedword index="18" part-of-speech="NNS">populations</taggedword>
+      <taggedword index="19" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="the" dep_index="2" gov="basis" gov_index="3">det</dependency>
+      <dependency dep="basis" dep_index="3" gov="present" gov_index="13">prep_on</dependency>
+      <dependency dep="its" dep_index="5" gov="splicing" gov_index="7">poss</dependency>
+      <dependency dep="alternative" dep_index="6" gov="splicing" gov_index="7">amod</dependency>
+      <dependency dep="splicing" dep_index="7" gov="basis" gov_index="3">prep_of</dependency>
+      <dependency dep="dystrophin" dep_index="9" gov="present" gov_index="13">nsubj</dependency>
+      <dependency dep="may" dep_index="10" gov="present" gov_index="13">aux</dependency>
+      <dependency dep="thus" dep_index="11" gov="present" gov_index="13">advmod</dependency>
+      <dependency dep="be" dep_index="12" gov="present" gov_index="13">cop</dependency>
+      <dependency dep="present" dep_index="13" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="two" dep_index="15" gov="populations" gov_index="18">num</dependency>
+      <dependency dep="functionally" dep_index="16" gov="populations" gov_index="18">amod</dependency>
+      <dependency dep="distinct" dep_index="17" gov="populations" gov_index="18">amod</dependency>
+      <dependency dep="populations" dep_index="18" gov="present" gov_index="13">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

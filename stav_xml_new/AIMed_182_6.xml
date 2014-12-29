@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@same@p53@residues@are@also@involved@in@transactivation@,@supporting@the@hypothesis@that@MDM2@inactivates@p53@by@concealing@its@transactivation@domain@.@</sentence>
+   <tags>
+      <tag pos="3">p53</tag>
+      <tag pos="15">MDM2</tag>
+      <tag pos="17">p53</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="JJ">same</taggedword>
+      <taggedword index="3" part-of-speech="NN">p53</taggedword>
+      <taggedword index="4" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="5" part-of-speech="VBP">are</taggedword>
+      <taggedword index="6" part-of-speech="RB">also</taggedword>
+      <taggedword index="7" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="NN">transactivation</taggedword>
+      <taggedword index="10" part-of-speech=",">,</taggedword>
+      <taggedword index="11" part-of-speech="VBG">supporting</taggedword>
+      <taggedword index="12" part-of-speech="DT">the</taggedword>
+      <taggedword index="13" part-of-speech="NNS">hypothesis</taggedword>
+      <taggedword index="14" part-of-speech="IN">that</taggedword>
+      <taggedword index="15" part-of-speech="NNP">MDM2</taggedword>
+      <taggedword index="16" part-of-speech="VBZ">inactivates</taggedword>
+      <taggedword index="17" part-of-speech="NN">p53</taggedword>
+      <taggedword index="18" part-of-speech="IN">by</taggedword>
+      <taggedword index="19" part-of-speech="VBG">concealing</taggedword>
+      <taggedword index="20" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="21" part-of-speech="NN">transactivation</taggedword>
+      <taggedword index="22" part-of-speech="NN">domain</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="residues" gov_index="4">det</dependency>
+      <dependency dep="same" dep_index="2" gov="residues" gov_index="4">amod</dependency>
+      <dependency dep="p53" dep_index="3" gov="residues" gov_index="4">nn</dependency>
+      <dependency dep="residues" dep_index="4" gov="involved" gov_index="7">nsubjpass</dependency>
+      <dependency dep="are" dep_index="5" gov="involved" gov_index="7">auxpass</dependency>
+      <dependency dep="also" dep_index="6" gov="involved" gov_index="7">advmod</dependency>
+      <dependency dep="involved" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="transactivation" dep_index="9" gov="involved" gov_index="7">prep_in</dependency>
+      <dependency dep="supporting" dep_index="11" gov="involved" gov_index="7">xcomp</dependency>
+      <dependency dep="the" dep_index="12" gov="hypothesis" gov_index="13">det</dependency>
+      <dependency dep="hypothesis" dep_index="13" gov="supporting" gov_index="11">dobj</dependency>
+      <dependency dep="that" dep_index="14" gov="inactivates" gov_index="16">mark</dependency>
+      <dependency dep="MDM2" dep_index="15" gov="inactivates" gov_index="16">nsubj</dependency>
+      <dependency dep="inactivates" dep_index="16" gov="supporting" gov_index="11">ccomp</dependency>
+      <dependency dep="p53" dep_index="17" gov="inactivates" gov_index="16">dobj</dependency>
+      <dependency dep="concealing" dep_index="19" gov="inactivates" gov_index="16">prepc_by</dependency>
+      <dependency dep="its" dep_index="20" gov="domain" gov_index="22">poss</dependency>
+      <dependency dep="transactivation" dep_index="21" gov="domain" gov_index="22">nn</dependency>
+      <dependency dep="domain" dep_index="22" gov="concealing" gov_index="19">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300015" relationship="false">3 4 7 11 16 15</relation>
+      <relation position="300017" relationship="false">3 4 7 11 16 17</relation>
+      <relation position="1500017" relationship="true">15 16 17</relation>
+   </relations>
+   <pairs>
+      <pair>1500017</pair>
+   </pairs>
+</root>

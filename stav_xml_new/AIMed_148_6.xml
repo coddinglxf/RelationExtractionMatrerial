@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@distribution@of@cyclin D@isoforms@was@modulated@by@serum@factors@in@primary@fetal@rat@lung@epithelial@cells@.@</sentence>
+   <tags>
+      <tag pos="4">cyclin D</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="NN">distribution</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">cyclin D</taggedword>
+      <taggedword index="5" part-of-speech="NNS">isoforms</taggedword>
+      <taggedword index="6" part-of-speech="VBD">was</taggedword>
+      <taggedword index="7" part-of-speech="VBN">modulated</taggedword>
+      <taggedword index="8" part-of-speech="IN">by</taggedword>
+      <taggedword index="9" part-of-speech="NN">serum</taggedword>
+      <taggedword index="10" part-of-speech="NNS">factors</taggedword>
+      <taggedword index="11" part-of-speech="IN">in</taggedword>
+      <taggedword index="12" part-of-speech="JJ">primary</taggedword>
+      <taggedword index="13" part-of-speech="JJ">fetal</taggedword>
+      <taggedword index="14" part-of-speech="NN">rat</taggedword>
+      <taggedword index="15" part-of-speech="NN">lung</taggedword>
+      <taggedword index="16" part-of-speech="JJ">epithelial</taggedword>
+      <taggedword index="17" part-of-speech="NNS">cells</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="distribution" gov_index="2">det</dependency>
+      <dependency dep="distribution" dep_index="2" gov="modulated" gov_index="7">nsubjpass</dependency>
+      <dependency dep="cyclin D" dep_index="4" gov="isoforms" gov_index="5">amod</dependency>
+      <dependency dep="isoforms" dep_index="5" gov="distribution" gov_index="2">prep_of</dependency>
+      <dependency dep="was" dep_index="6" gov="modulated" gov_index="7">auxpass</dependency>
+      <dependency dep="modulated" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="serum" dep_index="9" gov="factors" gov_index="10">nn</dependency>
+      <dependency dep="factors" dep_index="10" gov="modulated" gov_index="7">agent</dependency>
+      <dependency dep="primary" dep_index="12" gov="cells" gov_index="17">amod</dependency>
+      <dependency dep="fetal" dep_index="13" gov="cells" gov_index="17">amod</dependency>
+      <dependency dep="rat" dep_index="14" gov="cells" gov_index="17">nn</dependency>
+      <dependency dep="lung" dep_index="15" gov="cells" gov_index="17">nn</dependency>
+      <dependency dep="epithelial" dep_index="16" gov="cells" gov_index="17">amod</dependency>
+      <dependency dep="cells" dep_index="17" gov="factors" gov_index="10">prep_in</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Here@,@we@describe@proline-rich@proteins@involved@in@regulating@actin@polymerization@and@classify@them@according@to@their@role@in@recruiting@profilin@to@the@membrane@.@</sentence>
+   <tags>
+      <tag pos="10">actin</tag>
+      <tag pos="21">profilin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Here</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP">we</taggedword>
+      <taggedword index="4" part-of-speech="VB">describe</taggedword>
+      <taggedword index="5" part-of-speech="JJ">proline-rich</taggedword>
+      <taggedword index="6" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="7" part-of-speech="VBN">involved</taggedword>
+      <taggedword index="8" part-of-speech="IN">in</taggedword>
+      <taggedword index="9" part-of-speech="VBG">regulating</taggedword>
+      <taggedword index="10" part-of-speech="NN">actin</taggedword>
+      <taggedword index="11" part-of-speech="NN">polymerization</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="VB">classify</taggedword>
+      <taggedword index="14" part-of-speech="PRP">them</taggedword>
+      <taggedword index="15" part-of-speech="VBG">according</taggedword>
+      <taggedword index="16" part-of-speech="TO">to</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="18" part-of-speech="NN">role</taggedword>
+      <taggedword index="19" part-of-speech="IN">in</taggedword>
+      <taggedword index="20" part-of-speech="VBG">recruiting</taggedword>
+      <taggedword index="21" part-of-speech="NN">profilin</taggedword>
+      <taggedword index="22" part-of-speech="TO">to</taggedword>
+      <taggedword index="23" part-of-speech="DT">the</taggedword>
+      <taggedword index="24" part-of-speech="NN">membrane</taggedword>
+      <taggedword index="25" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Here" dep_index="1" gov="describe" gov_index="4">advmod</dependency>
+      <dependency dep="we" dep_index="3" gov="describe" gov_index="4">nsubj</dependency>
+      <dependency dep="we" dep_index="3" gov="classify" gov_index="13">nsubj</dependency>
+      <dependency dep="describe" dep_index="4" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="proline-rich" dep_index="5" gov="proteins" gov_index="6">amod</dependency>
+      <dependency dep="proteins" dep_index="6" gov="describe" gov_index="4">dobj</dependency>
+      <dependency dep="involved" dep_index="7" gov="proteins" gov_index="6">partmod</dependency>
+      <dependency dep="regulating" dep_index="9" gov="involved" gov_index="7">prepc_in</dependency>
+      <dependency dep="actin" dep_index="10" gov="polymerization" gov_index="11">nn</dependency>
+      <dependency dep="polymerization" dep_index="11" gov="regulating" gov_index="9">dobj</dependency>
+      <dependency dep="classify" dep_index="13" gov="describe" gov_index="4">conj_and</dependency>
+      <dependency dep="them" dep_index="14" gov="classify" gov_index="13">dobj</dependency>
+      <dependency dep="to" dep_index="16" gov="classify" gov_index="13">prepc_according_to</dependency>
+      <dependency dep="their" dep_index="17" gov="role" gov_index="18">poss</dependency>
+      <dependency dep="role" dep_index="18" gov="classify" gov_index="13">pobj</dependency>
+      <dependency dep="recruiting" dep_index="20" gov="role" gov_index="18">prepc_in</dependency>
+      <dependency dep="profilin" dep_index="21" gov="recruiting" gov_index="20">dobj</dependency>
+      <dependency dep="the" dep_index="23" gov="membrane" gov_index="24">det</dependency>
+      <dependency dep="membrane" dep_index="24" gov="recruiting" gov_index="20">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1000021" relationship="false"></relation>
+   </relations>
+   <pairs/>
+</root>

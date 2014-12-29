@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>The@maximal@insulin@responses@induced@by@OT@and@AVP@were@very@similar@,@but@the@threshold@and@maximal@doses@of@AVP@for@increasing@plasma@insulin@were@higher@than@those@of@OT@</sentence>
+   <tags>
+      <tag pos="3">insulin</tag>
+      <tag pos="7">OT</tag>
+      <tag pos="25">insulin</tag>
+      <tag pos="31">OT</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">The</taggedword>
+      <taggedword index="2" part-of-speech="JJ">maximal</taggedword>
+      <taggedword index="3" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="4" part-of-speech="NNS">responses</taggedword>
+      <taggedword index="5" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="6" part-of-speech="IN">by</taggedword>
+      <taggedword index="7" part-of-speech="NNP">OT</taggedword>
+      <taggedword index="8" part-of-speech="CC">and</taggedword>
+      <taggedword index="9" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="10" part-of-speech="VBD">were</taggedword>
+      <taggedword index="11" part-of-speech="RB">very</taggedword>
+      <taggedword index="12" part-of-speech="JJ">similar</taggedword>
+      <taggedword index="13" part-of-speech=",">,</taggedword>
+      <taggedword index="14" part-of-speech="CC">but</taggedword>
+      <taggedword index="15" part-of-speech="DT">the</taggedword>
+      <taggedword index="16" part-of-speech="NN">threshold</taggedword>
+      <taggedword index="17" part-of-speech="CC">and</taggedword>
+      <taggedword index="18" part-of-speech="NN">maximal</taggedword>
+      <taggedword index="19" part-of-speech="NNS">doses</taggedword>
+      <taggedword index="20" part-of-speech="IN">of</taggedword>
+      <taggedword index="21" part-of-speech="NNP">AVP</taggedword>
+      <taggedword index="22" part-of-speech="IN">for</taggedword>
+      <taggedword index="23" part-of-speech="VBG">increasing</taggedword>
+      <taggedword index="24" part-of-speech="NN">plasma</taggedword>
+      <taggedword index="25" part-of-speech="NN">insulin</taggedword>
+      <taggedword index="26" part-of-speech="VBD">were</taggedword>
+      <taggedword index="27" part-of-speech="JJR">higher</taggedword>
+      <taggedword index="28" part-of-speech="IN">than</taggedword>
+      <taggedword index="29" part-of-speech="DT">those</taggedword>
+      <taggedword index="30" part-of-speech="IN">of</taggedword>
+      <taggedword index="31" part-of-speech="NNP">OT</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="The" dep_index="1" gov="responses" gov_index="4">det</dependency>
+      <dependency dep="maximal" dep_index="2" gov="responses" gov_index="4">amod</dependency>
+      <dependency dep="insulin" dep_index="3" gov="responses" gov_index="4">nn</dependency>
+      <dependency dep="responses" dep_index="4" gov="similar" gov_index="12">nsubj</dependency>
+      <dependency dep="induced" dep_index="5" gov="responses" gov_index="4">partmod</dependency>
+      <dependency dep="OT" dep_index="7" gov="induced" gov_index="5">agent</dependency>
+      <dependency dep="AVP" dep_index="9" gov="induced" gov_index="5">agent</dependency>
+      <dependency dep="AVP" dep_index="9" gov="OT" gov_index="7">conj_and</dependency>
+      <dependency dep="were" dep_index="10" gov="similar" gov_index="12">cop</dependency>
+      <dependency dep="very" dep_index="11" gov="similar" gov_index="12">advmod</dependency>
+      <dependency dep="similar" dep_index="12" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="15" gov="doses" gov_index="19">det</dependency>
+      <dependency dep="threshold" dep_index="16" gov="doses" gov_index="19">nn</dependency>
+      <dependency dep="maximal" dep_index="18" gov="threshold" gov_index="16">conj_and</dependency>
+      <dependency dep="maximal" dep_index="18" gov="doses" gov_index="19">nn</dependency>
+      <dependency dep="doses" dep_index="19" gov="higher" gov_index="27">nsubj</dependency>
+      <dependency dep="AVP" dep_index="21" gov="doses" gov_index="19">prep_of</dependency>
+      <dependency dep="increasing" dep_index="23" gov="insulin" gov_index="25">amod</dependency>
+      <dependency dep="plasma" dep_index="24" gov="insulin" gov_index="25">nn</dependency>
+      <dependency dep="insulin" dep_index="25" gov="AVP" gov_index="21">prep_for</dependency>
+      <dependency dep="were" dep_index="26" gov="higher" gov_index="27">cop</dependency>
+      <dependency dep="higher" dep_index="27" gov="similar" gov_index="12">conj_but</dependency>
+      <dependency dep="those" dep_index="29" gov="higher" gov_index="27">prep_than</dependency>
+      <dependency dep="OT" dep_index="31" gov="those" gov_index="29">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="300007" relationship="true">3 4 5 7</relation>
+      <relation position="300025" relationship="false">3 4 12 27 19 21 25</relation>
+      <relation position="300031" relationship="false">3 4 12 27 29 31</relation>
+      <relation position="700025" relationship="false">7 5 4 12 27 19 21 25</relation>
+      <relation position="700031" relationship="false">7 5 4 12 27 29 31</relation>
+      <relation position="2500031" relationship="true">25 21 19 27 29 31</relation>
+   </relations>
+   <pairs>
+      <pair>300007</pair>
+      <pair>2500031</pair>
+   </pairs>
+</root>

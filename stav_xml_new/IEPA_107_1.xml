@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Molecular@characterization@of@catalytic-subunit@cDNA@sequences@encoding@protein@phosphatases@1@and@2A@and@study@of@their@roles@in@the@gibberellin@-dependent@Osamy-c@expression@in@rice@</sentence>
+   <tags>
+      <tag pos="20">gibberellin</tag>
+      <tag pos="22">Osamy-c</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Molecular</taggedword>
+      <taggedword index="2" part-of-speech="NNP">characterization</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="JJ">catalytic-subunit</taggedword>
+      <taggedword index="5" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="6" part-of-speech="NNS">sequences</taggedword>
+      <taggedword index="7" part-of-speech="VBG">encoding</taggedword>
+      <taggedword index="8" part-of-speech="NN">protein</taggedword>
+      <taggedword index="9" part-of-speech="VBZ">phosphatases</taggedword>
+      <taggedword index="10" part-of-speech="CD">1</taggedword>
+      <taggedword index="11" part-of-speech="CC">and</taggedword>
+      <taggedword index="12" part-of-speech="CD">2A</taggedword>
+      <taggedword index="13" part-of-speech="CC">and</taggedword>
+      <taggedword index="14" part-of-speech="NN">study</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="17" part-of-speech="NNS">roles</taggedword>
+      <taggedword index="18" part-of-speech="IN">in</taggedword>
+      <taggedword index="19" part-of-speech="DT">the</taggedword>
+      <taggedword index="20" part-of-speech="JJ">gibberellin</taggedword>
+      <taggedword index="21" part-of-speech="JJ">-dependent</taggedword>
+      <taggedword index="22" part-of-speech="NN">Osamy-c</taggedword>
+      <taggedword index="23" part-of-speech="NN">expression</taggedword>
+      <taggedword index="24" part-of-speech="IN">in</taggedword>
+      <taggedword index="25" part-of-speech="NN">rice</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Molecular" dep_index="1" gov="characterization" gov_index="2">nn</dependency>
+      <dependency dep="characterization" dep_index="2" gov="phosphatases" gov_index="9">nsubj</dependency>
+      <dependency dep="catalytic-subunit" dep_index="4" gov="protein" gov_index="8">amod</dependency>
+      <dependency dep="cDNA" dep_index="5" gov="protein" gov_index="8">nn</dependency>
+      <dependency dep="sequences" dep_index="6" gov="protein" gov_index="8">nn</dependency>
+      <dependency dep="encoding" dep_index="7" gov="protein" gov_index="8">amod</dependency>
+      <dependency dep="protein" dep_index="8" gov="characterization" gov_index="2">prep_of</dependency>
+      <dependency dep="phosphatases" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="1" dep_index="10" gov="phosphatases" gov_index="9">dobj</dependency>
+      <dependency dep="2A" dep_index="12" gov="phosphatases" gov_index="9">dobj</dependency>
+      <dependency dep="2A" dep_index="12" gov="1" gov_index="10">conj_and</dependency>
+      <dependency dep="study" dep_index="14" gov="phosphatases" gov_index="9">dobj</dependency>
+      <dependency dep="study" dep_index="14" gov="1" gov_index="10">conj_and</dependency>
+      <dependency dep="their" dep_index="16" gov="roles" gov_index="17">poss</dependency>
+      <dependency dep="roles" dep_index="17" gov="study" gov_index="14">prep_of</dependency>
+      <dependency dep="the" dep_index="19" gov="expression" gov_index="23">det</dependency>
+      <dependency dep="gibberellin" dep_index="20" gov="expression" gov_index="23">amod</dependency>
+      <dependency dep="-dependent" dep_index="21" gov="expression" gov_index="23">amod</dependency>
+      <dependency dep="Osamy-c" dep_index="22" gov="expression" gov_index="23">nn</dependency>
+      <dependency dep="expression" dep_index="23" gov="phosphatases" gov_index="9">prep_in</dependency>
+      <dependency dep="rice" dep_index="25" gov="expression" gov_index="23">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000022" relationship="true">20 23 22</relation>
+   </relations>
+   <pairs>
+      <pair>2000022</pair>
+   </pairs>
+</root>

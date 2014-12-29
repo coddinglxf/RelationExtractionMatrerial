@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>cDNA@cloning@,@heterologous@expression@,@and@actin@-binding@properties@.@</sentence>
+   <tags>
+      <tag pos="8">actin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">cDNA</taggedword>
+      <taggedword index="2" part-of-speech="NN">cloning</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="JJ">heterologous</taggedword>
+      <taggedword index="5" part-of-speech="NN">expression</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="CC">and</taggedword>
+      <taggedword index="8" part-of-speech="JJ">actin</taggedword>
+      <taggedword index="9" part-of-speech="JJ">-binding</taggedword>
+      <taggedword index="10" part-of-speech="NNS">properties</taggedword>
+      <taggedword index="11" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="cDNA" dep_index="1" gov="cloning" gov_index="2">nn</dependency>
+      <dependency dep="cloning" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="heterologous" dep_index="4" gov="expression" gov_index="5">amod</dependency>
+      <dependency dep="expression" dep_index="5" gov="cloning" gov_index="2">appos</dependency>
+      <dependency dep="actin" dep_index="8" gov="properties" gov_index="10">amod</dependency>
+      <dependency dep="-binding" dep_index="9" gov="properties" gov_index="10">amod</dependency>
+      <dependency dep="properties" dep_index="10" gov="cloning" gov_index="2">appos</dependency>
+      <dependency dep="properties" dep_index="10" gov="expression" gov_index="5">conj_and</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

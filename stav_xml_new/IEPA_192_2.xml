@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Relative@to@the@wild@type@,@the@GA@(3)-treated@aleurone@layer@of@d1@had@lower@expression@of@Ramy1A@,@which@encodes@alpha-amylase@,@and@OsGAMYB@,@which@encodes@a@GA@-inducible@transcriptional@factor@,@and@no@increase@in@expression@of@Ca(2@+)-ATPase@</sentence>
+   <tags>
+      <tag pos="8">GA</tag>
+      <tag pos="22">alpha-amylase</tag>
+      <tag pos="30">GA</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="JJ">Relative</taggedword>
+      <taggedword index="2" part-of-speech="TO">to</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">wild</taggedword>
+      <taggedword index="5" part-of-speech="NN">type</taggedword>
+      <taggedword index="6" part-of-speech=",">,</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="NNP">GA</taggedword>
+      <taggedword index="9" part-of-speech="JJ">(3)-treated</taggedword>
+      <taggedword index="10" part-of-speech="NN">aleurone</taggedword>
+      <taggedword index="11" part-of-speech="NN">layer</taggedword>
+      <taggedword index="12" part-of-speech="IN">of</taggedword>
+      <taggedword index="13" part-of-speech="CD">d1</taggedword>
+      <taggedword index="14" part-of-speech="VBD">had</taggedword>
+      <taggedword index="15" part-of-speech="JJR">lower</taggedword>
+      <taggedword index="16" part-of-speech="NN">expression</taggedword>
+      <taggedword index="17" part-of-speech="IN">of</taggedword>
+      <taggedword index="18" part-of-speech="NNS">Ramy1A</taggedword>
+      <taggedword index="19" part-of-speech=",">,</taggedword>
+      <taggedword index="20" part-of-speech="WDT">which</taggedword>
+      <taggedword index="21" part-of-speech="VBZ">encodes</taggedword>
+      <taggedword index="22" part-of-speech="JJ">alpha-amylase</taggedword>
+      <taggedword index="23" part-of-speech=",">,</taggedword>
+      <taggedword index="24" part-of-speech="CC">and</taggedword>
+      <taggedword index="25" part-of-speech="NNP">OsGAMYB</taggedword>
+      <taggedword index="26" part-of-speech=",">,</taggedword>
+      <taggedword index="27" part-of-speech="WDT">which</taggedword>
+      <taggedword index="28" part-of-speech="VBZ">encodes</taggedword>
+      <taggedword index="29" part-of-speech="DT">a</taggedword>
+      <taggedword index="30" part-of-speech="NNP">GA</taggedword>
+      <taggedword index="31" part-of-speech="JJ">-inducible</taggedword>
+      <taggedword index="32" part-of-speech="NN">transcriptional</taggedword>
+      <taggedword index="33" part-of-speech="NN">factor</taggedword>
+      <taggedword index="34" part-of-speech=",">,</taggedword>
+      <taggedword index="35" part-of-speech="CC">and</taggedword>
+      <taggedword index="36" part-of-speech="DT">no</taggedword>
+      <taggedword index="37" part-of-speech="NN">increase</taggedword>
+      <taggedword index="38" part-of-speech="IN">in</taggedword>
+      <taggedword index="39" part-of-speech="NN">expression</taggedword>
+      <taggedword index="40" part-of-speech="IN">of</taggedword>
+      <taggedword index="41" part-of-speech="JJ">Ca(2</taggedword>
+      <taggedword index="42" part-of-speech="NN">+)-ATPase</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Relative" dep_index="1" gov="had" gov_index="14">dep</dependency>
+      <dependency dep="the" dep_index="3" gov="type" gov_index="5">det</dependency>
+      <dependency dep="wild" dep_index="4" gov="type" gov_index="5">amod</dependency>
+      <dependency dep="type" dep_index="5" gov="Relative" gov_index="1">prep_to</dependency>
+      <dependency dep="the" dep_index="7" gov="layer" gov_index="11">det</dependency>
+      <dependency dep="GA" dep_index="8" gov="layer" gov_index="11">nn</dependency>
+      <dependency dep="(3)-treated" dep_index="9" gov="layer" gov_index="11">amod</dependency>
+      <dependency dep="aleurone" dep_index="10" gov="layer" gov_index="11">nn</dependency>
+      <dependency dep="layer" dep_index="11" gov="type" gov_index="5">appos</dependency>
+      <dependency dep="d1" dep_index="13" gov="layer" gov_index="11">prep_of</dependency>
+      <dependency dep="had" dep_index="14" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="lower" dep_index="15" gov="expression" gov_index="16">amod</dependency>
+      <dependency dep="expression" dep_index="16" gov="had" gov_index="14">dobj</dependency>
+      <dependency dep="Ramy1A" dep_index="18" gov="expression" gov_index="16">prep_of</dependency>
+      <dependency dep="Ramy1A" dep_index="18" gov="encodes" gov_index="21">nsubj</dependency>
+      <dependency dep="encodes" dep_index="21" gov="Ramy1A" gov_index="18">rcmod</dependency>
+      <dependency dep="alpha-amylase" dep_index="22" gov="encodes" gov_index="21">acomp</dependency>
+      <dependency dep="OsGAMYB" dep_index="25" gov="had" gov_index="14">dobj</dependency>
+      <dependency dep="OsGAMYB" dep_index="25" gov="expression" gov_index="16">conj_and</dependency>
+      <dependency dep="OsGAMYB" dep_index="25" gov="encodes" gov_index="28">nsubj</dependency>
+      <dependency dep="encodes" dep_index="28" gov="OsGAMYB" gov_index="25">rcmod</dependency>
+      <dependency dep="a" dep_index="29" gov="factor" gov_index="33">det</dependency>
+      <dependency dep="GA" dep_index="30" gov="factor" gov_index="33">nn</dependency>
+      <dependency dep="-inducible" dep_index="31" gov="factor" gov_index="33">amod</dependency>
+      <dependency dep="transcriptional" dep_index="32" gov="factor" gov_index="33">nn</dependency>
+      <dependency dep="factor" dep_index="33" gov="had" gov_index="14">nsubj</dependency>
+      <dependency dep="no" dep_index="36" gov="increase" gov_index="37">det</dependency>
+      <dependency dep="increase" dep_index="37" gov="had" gov_index="14">nsubj</dependency>
+      <dependency dep="increase" dep_index="37" gov="factor" gov_index="33">conj_and</dependency>
+      <dependency dep="expression" dep_index="39" gov="increase" gov_index="37">prep_in</dependency>
+      <dependency dep="Ca(2" dep_index="41" gov="+)-ATPase" gov_index="42">amod</dependency>
+      <dependency dep="+)-ATPase" dep_index="42" gov="expression" gov_index="39">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800022" relationship="true">8 11 5 1 14 16 18 21 22</relation>
+      <relation position="800030" relationship="false">8 11 5 1 14 33 30</relation>
+      <relation position="2200030" relationship="false">22 21 18 16 14 33 30</relation>
+   </relations>
+   <pairs>
+      <pair>800022</pair>
+   </pairs>
+</root>

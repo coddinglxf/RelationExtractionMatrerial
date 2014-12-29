@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>We@studied@the@human@IL-6@(@hIL-6@)/@hIL-6R@binding@interface@by@a@combination@of@molecular@modelling@and@site-directed@mutagenesis@.@</sentence>
+   <tags>
+      <tag pos="5">IL-6</tag>
+      <tag pos="7">hIL-6</tag>
+      <tag pos="9">hIL-6R</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="PRP">We</taggedword>
+      <taggedword index="2" part-of-speech="VBD">studied</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">human</taggedword>
+      <taggedword index="5" part-of-speech="NN">IL-6</taggedword>
+      <taggedword index="6" part-of-speech="CD">(</taggedword>
+      <taggedword index="7" part-of-speech="JJ">hIL-6</taggedword>
+      <taggedword index="8" part-of-speech="JJ">)/</taggedword>
+      <taggedword index="9" part-of-speech="JJ">hIL-6R</taggedword>
+      <taggedword index="10" part-of-speech="JJ">binding</taggedword>
+      <taggedword index="11" part-of-speech="NN">interface</taggedword>
+      <taggedword index="12" part-of-speech="IN">by</taggedword>
+      <taggedword index="13" part-of-speech="DT">a</taggedword>
+      <taggedword index="14" part-of-speech="NN">combination</taggedword>
+      <taggedword index="15" part-of-speech="IN">of</taggedword>
+      <taggedword index="16" part-of-speech="JJ">molecular</taggedword>
+      <taggedword index="17" part-of-speech="JJ">modelling</taggedword>
+      <taggedword index="18" part-of-speech="CC">and</taggedword>
+      <taggedword index="19" part-of-speech="JJ">site-directed</taggedword>
+      <taggedword index="20" part-of-speech="NNS">mutagenesis</taggedword>
+      <taggedword index="21" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="We" dep_index="1" gov="studied" gov_index="2">nsubj</dependency>
+      <dependency dep="studied" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="3" gov="interface" gov_index="11">det</dependency>
+      <dependency dep="human" dep_index="4" gov="interface" gov_index="11">amod</dependency>
+      <dependency dep="IL-6" dep_index="5" gov="interface" gov_index="11">nn</dependency>
+      <dependency dep="(" dep_index="6" gov="interface" gov_index="11">num</dependency>
+      <dependency dep="hIL-6" dep_index="7" gov="interface" gov_index="11">amod</dependency>
+      <dependency dep=")/" dep_index="8" gov="interface" gov_index="11">amod</dependency>
+      <dependency dep="hIL-6R" dep_index="9" gov="interface" gov_index="11">amod</dependency>
+      <dependency dep="binding" dep_index="10" gov="interface" gov_index="11">amod</dependency>
+      <dependency dep="interface" dep_index="11" gov="studied" gov_index="2">dobj</dependency>
+      <dependency dep="a" dep_index="13" gov="combination" gov_index="14">det</dependency>
+      <dependency dep="combination" dep_index="14" gov="studied" gov_index="2">prep_by</dependency>
+      <dependency dep="molecular" dep_index="16" gov="mutagenesis" gov_index="20">amod</dependency>
+      <dependency dep="modelling" dep_index="17" gov="mutagenesis" gov_index="20">amod</dependency>
+      <dependency dep="site-directed" dep_index="19" gov="modelling" gov_index="17">conj_and</dependency>
+      <dependency dep="site-directed" dep_index="19" gov="mutagenesis" gov_index="20">amod</dependency>
+      <dependency dep="mutagenesis" dep_index="20" gov="combination" gov_index="14">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="500007" relationship="false">5 11 7</relation>
+      <relation position="500009" relationship="true">5 11 9</relation>
+      <relation position="700009" relationship="true">7 11 9</relation>
+   </relations>
+   <pairs>
+      <pair>700009</pair>
+      <pair>500009</pair>
+   </pairs>
+</root>

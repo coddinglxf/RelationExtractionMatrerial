@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>More@importantly@,@adenosine@in@the@absence@of@cell@surface@ADA@inhibited@T@cell@proliferation@and@IL-2@production@induced@by@various@stimuli@.@</sentence>
+   <tags>
+      <tag pos="11">ADA</tag>
+      <tag pos="17">IL-2</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RBR">More</taggedword>
+      <taggedword index="2" part-of-speech="RB">importantly</taggedword>
+      <taggedword index="3" part-of-speech=",">,</taggedword>
+      <taggedword index="4" part-of-speech="NN">adenosine</taggedword>
+      <taggedword index="5" part-of-speech="IN">in</taggedword>
+      <taggedword index="6" part-of-speech="DT">the</taggedword>
+      <taggedword index="7" part-of-speech="NN">absence</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">cell</taggedword>
+      <taggedword index="10" part-of-speech="VBP">surface</taggedword>
+      <taggedword index="11" part-of-speech="NNP">ADA</taggedword>
+      <taggedword index="12" part-of-speech="NNP">inhibited</taggedword>
+      <taggedword index="13" part-of-speech="NNP">T</taggedword>
+      <taggedword index="14" part-of-speech="NN">cell</taggedword>
+      <taggedword index="15" part-of-speech="NN">proliferation</taggedword>
+      <taggedword index="16" part-of-speech="CC">and</taggedword>
+      <taggedword index="17" part-of-speech="NN">IL-2</taggedword>
+      <taggedword index="18" part-of-speech="NN">production</taggedword>
+      <taggedword index="19" part-of-speech="VBN">induced</taggedword>
+      <taggedword index="20" part-of-speech="IN">by</taggedword>
+      <taggedword index="21" part-of-speech="JJ">various</taggedword>
+      <taggedword index="22" part-of-speech="NNS">stimuli</taggedword>
+      <taggedword index="23" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="More" dep_index="1" gov="importantly" gov_index="2">advmod</dependency>
+      <dependency dep="importantly" dep_index="2" gov="surface" gov_index="10">advmod</dependency>
+      <dependency dep="adenosine" dep_index="4" gov="surface" gov_index="10">nsubj</dependency>
+      <dependency dep="the" dep_index="6" gov="absence" gov_index="7">det</dependency>
+      <dependency dep="absence" dep_index="7" gov="adenosine" gov_index="4">prep_in</dependency>
+      <dependency dep="cell" dep_index="9" gov="absence" gov_index="7">prep_of</dependency>
+      <dependency dep="surface" dep_index="10" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="ADA" dep_index="11" gov="proliferation" gov_index="15">nn</dependency>
+      <dependency dep="inhibited" dep_index="12" gov="proliferation" gov_index="15">nn</dependency>
+      <dependency dep="T" dep_index="13" gov="proliferation" gov_index="15">nn</dependency>
+      <dependency dep="cell" dep_index="14" gov="proliferation" gov_index="15">nn</dependency>
+      <dependency dep="proliferation" dep_index="15" gov="surface" gov_index="10">dobj</dependency>
+      <dependency dep="IL-2" dep_index="17" gov="production" gov_index="18">nn</dependency>
+      <dependency dep="production" dep_index="18" gov="surface" gov_index="10">dobj</dependency>
+      <dependency dep="production" dep_index="18" gov="proliferation" gov_index="15">conj_and</dependency>
+      <dependency dep="induced" dep_index="19" gov="proliferation" gov_index="15">partmod</dependency>
+      <dependency dep="various" dep_index="21" gov="stimuli" gov_index="22">amod</dependency>
+      <dependency dep="stimuli" dep_index="22" gov="induced" gov_index="19">agent</dependency>
+   </dependencies>
+   <relations>
+      <relation position="1100017" relationship="false">11 15 10 18 17</relation>
+   </relations>
+   <pairs/>
+</root>

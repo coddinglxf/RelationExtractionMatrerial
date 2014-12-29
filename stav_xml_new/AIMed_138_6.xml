@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Furthermore@,@the@60-kilodalton@subunit@of@SF3a@is@related@to@the@yeast@splicing@protein@PRP9@.@</sentence>
+   <tags>
+      <tag pos="7">SF3a</tag>
+      <tag pos="15">PRP9</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Furthermore</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="DT">the</taggedword>
+      <taggedword index="4" part-of-speech="JJ">60-kilodalton</taggedword>
+      <taggedword index="5" part-of-speech="NN">subunit</taggedword>
+      <taggedword index="6" part-of-speech="IN">of</taggedword>
+      <taggedword index="7" part-of-speech="NNS">SF3a</taggedword>
+      <taggedword index="8" part-of-speech="VBZ">is</taggedword>
+      <taggedword index="9" part-of-speech="VBN">related</taggedword>
+      <taggedword index="10" part-of-speech="TO">to</taggedword>
+      <taggedword index="11" part-of-speech="DT">the</taggedword>
+      <taggedword index="12" part-of-speech="NN">yeast</taggedword>
+      <taggedword index="13" part-of-speech="VBG">splicing</taggedword>
+      <taggedword index="14" part-of-speech="NN">protein</taggedword>
+      <taggedword index="15" part-of-speech="NN">PRP9</taggedword>
+      <taggedword index="16" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Furthermore" dep_index="1" gov="related" gov_index="9">advmod</dependency>
+      <dependency dep="the" dep_index="3" gov="subunit" gov_index="5">det</dependency>
+      <dependency dep="60-kilodalton" dep_index="4" gov="subunit" gov_index="5">amod</dependency>
+      <dependency dep="subunit" dep_index="5" gov="related" gov_index="9">nsubjpass</dependency>
+      <dependency dep="SF3a" dep_index="7" gov="subunit" gov_index="5">prep_of</dependency>
+      <dependency dep="is" dep_index="8" gov="related" gov_index="9">auxpass</dependency>
+      <dependency dep="related" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="11" gov="PRP9" gov_index="15">det</dependency>
+      <dependency dep="yeast" dep_index="12" gov="PRP9" gov_index="15">nn</dependency>
+      <dependency dep="splicing" dep_index="13" gov="PRP9" gov_index="15">amod</dependency>
+      <dependency dep="protein" dep_index="14" gov="PRP9" gov_index="15">nn</dependency>
+      <dependency dep="PRP9" dep_index="15" gov="related" gov_index="9">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="700015" relationship="false">7 5 9 15</relation>
+   </relations>
+   <pairs/>
+</root>

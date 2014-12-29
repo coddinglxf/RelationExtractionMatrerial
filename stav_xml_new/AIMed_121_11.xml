@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@very@same@hydrophobic@residues@contact@the@hdm-2@and@Ad5@E1B@55-kD@oncogene@products@.@</sentence>
+   <tags>
+      <tag pos="8">hdm-2</tag>
+      <tag pos="11">E1B</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="RB">very</taggedword>
+      <taggedword index="3" part-of-speech="JJ">same</taggedword>
+      <taggedword index="4" part-of-speech="JJ">hydrophobic</taggedword>
+      <taggedword index="5" part-of-speech="NNS">residues</taggedword>
+      <taggedword index="6" part-of-speech="VB">contact</taggedword>
+      <taggedword index="7" part-of-speech="DT">the</taggedword>
+      <taggedword index="8" part-of-speech="JJ">hdm-2</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="JJ">Ad5</taggedword>
+      <taggedword index="11" part-of-speech="CD">E1B</taggedword>
+      <taggedword index="12" part-of-speech="JJ">55-kD</taggedword>
+      <taggedword index="13" part-of-speech="NN">oncogene</taggedword>
+      <taggedword index="14" part-of-speech="NNS">products</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="residues" gov_index="5">det</dependency>
+      <dependency dep="very" dep_index="2" gov="same" gov_index="3">advmod</dependency>
+      <dependency dep="same" dep_index="3" gov="residues" gov_index="5">amod</dependency>
+      <dependency dep="hydrophobic" dep_index="4" gov="residues" gov_index="5">amod</dependency>
+      <dependency dep="residues" dep_index="5" gov="contact" gov_index="6">nsubj</dependency>
+      <dependency dep="contact" dep_index="6" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="7" gov="hdm-2" gov_index="8">dep</dependency>
+      <dependency dep="hdm-2" dep_index="8" gov="contact" gov_index="6">dobj</dependency>
+      <dependency dep="Ad5" dep_index="10" gov="products" gov_index="14">amod</dependency>
+      <dependency dep="E1B" dep_index="11" gov="products" gov_index="14">num</dependency>
+      <dependency dep="55-kD" dep_index="12" gov="products" gov_index="14">amod</dependency>
+      <dependency dep="oncogene" dep_index="13" gov="products" gov_index="14">nn</dependency>
+      <dependency dep="products" dep_index="14" gov="contact" gov_index="6">dobj</dependency>
+      <dependency dep="products" dep_index="14" gov="hdm-2" gov_index="8">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800011" relationship="false">8 6 14 11</relation>
+   </relations>
+   <pairs/>
+</root>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>SDS-PAGE@analysis@of@growth@cone@cytoskeletons@revealed@the@presence@of@several@major@bands@,@identified@by@their@mobility@as@actin@(43@kDa@Mr)@,@myosin heavy chain@(195@kDa@Mr)@,@spectrin@(235@and@240@kDa@Mr)@,@and@tubulin@(51-54@kDa@Mr)@.@</sentence>
+   <tags>
+      <tag pos="30">spectrin</tag>
+      <tag pos="20">actin</tag>
+      <tag pos="38">tubulin</tag>
+      <tag pos="25">myosin heavy chain</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NN">SDS-PAGE</taggedword>
+      <taggedword index="2" part-of-speech="NN">analysis</taggedword>
+      <taggedword index="3" part-of-speech="IN">of</taggedword>
+      <taggedword index="4" part-of-speech="NN">growth</taggedword>
+      <taggedword index="5" part-of-speech="NN">cone</taggedword>
+      <taggedword index="6" part-of-speech="NNS">cytoskeletons</taggedword>
+      <taggedword index="7" part-of-speech="VBD">revealed</taggedword>
+      <taggedword index="8" part-of-speech="DT">the</taggedword>
+      <taggedword index="9" part-of-speech="NN">presence</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">several</taggedword>
+      <taggedword index="12" part-of-speech="JJ">major</taggedword>
+      <taggedword index="13" part-of-speech="NNS">bands</taggedword>
+      <taggedword index="14" part-of-speech=",">,</taggedword>
+      <taggedword index="15" part-of-speech="VBN">identified</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="PRP$">their</taggedword>
+      <taggedword index="18" part-of-speech="NN">mobility</taggedword>
+      <taggedword index="19" part-of-speech="IN">as</taggedword>
+      <taggedword index="20" part-of-speech="NN">actin</taggedword>
+      <taggedword index="21" part-of-speech="CD">(43</taggedword>
+      <taggedword index="22" part-of-speech="NN">kDa</taggedword>
+      <taggedword index="23" part-of-speech="NN">Mr)</taggedword>
+      <taggedword index="24" part-of-speech=",">,</taggedword>
+      <taggedword index="25" part-of-speech="NN">myosin heavy chain</taggedword>
+      <taggedword index="26" part-of-speech="CD">(195</taggedword>
+      <taggedword index="27" part-of-speech="NN">kDa</taggedword>
+      <taggedword index="28" part-of-speech="NN">Mr)</taggedword>
+      <taggedword index="29" part-of-speech=",">,</taggedword>
+      <taggedword index="30" part-of-speech="JJ">spectrin</taggedword>
+      <taggedword index="31" part-of-speech="CD">(235</taggedword>
+      <taggedword index="32" part-of-speech="CC">and</taggedword>
+      <taggedword index="33" part-of-speech="CD">240</taggedword>
+      <taggedword index="34" part-of-speech="NN">kDa</taggedword>
+      <taggedword index="35" part-of-speech="NNS">Mr)</taggedword>
+      <taggedword index="36" part-of-speech=",">,</taggedword>
+      <taggedword index="37" part-of-speech="CC">and</taggedword>
+      <taggedword index="38" part-of-speech="NN">tubulin</taggedword>
+      <taggedword index="39" part-of-speech="CD">(51-54</taggedword>
+      <taggedword index="40" part-of-speech="NN">kDa</taggedword>
+      <taggedword index="41" part-of-speech="NN">Mr)</taggedword>
+      <taggedword index="42" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="SDS-PAGE" dep_index="1" gov="analysis" gov_index="2">nn</dependency>
+      <dependency dep="analysis" dep_index="2" gov="revealed" gov_index="7">nsubj</dependency>
+      <dependency dep="growth" dep_index="4" gov="cytoskeletons" gov_index="6">nn</dependency>
+      <dependency dep="cone" dep_index="5" gov="cytoskeletons" gov_index="6">nn</dependency>
+      <dependency dep="cytoskeletons" dep_index="6" gov="analysis" gov_index="2">prep_of</dependency>
+      <dependency dep="revealed" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="the" dep_index="8" gov="presence" gov_index="9">det</dependency>
+      <dependency dep="presence" dep_index="9" gov="revealed" gov_index="7">dobj</dependency>
+      <dependency dep="several" dep_index="11" gov="bands" gov_index="13">amod</dependency>
+      <dependency dep="major" dep_index="12" gov="bands" gov_index="13">amod</dependency>
+      <dependency dep="bands" dep_index="13" gov="presence" gov_index="9">prep_of</dependency>
+      <dependency dep="identified" dep_index="15" gov="bands" gov_index="13">partmod</dependency>
+      <dependency dep="their" dep_index="17" gov="mobility" gov_index="18">poss</dependency>
+      <dependency dep="mobility" dep_index="18" gov="identified" gov_index="15">agent</dependency>
+      <dependency dep="actin" dep_index="20" gov="Mr)" gov_index="23">nn</dependency>
+      <dependency dep="(43" dep_index="21" gov="Mr)" gov_index="23">num</dependency>
+      <dependency dep="kDa" dep_index="22" gov="Mr)" gov_index="23">nn</dependency>
+      <dependency dep="Mr)" dep_index="23" gov="identified" gov_index="15">prep_as</dependency>
+      <dependency dep="myosin heavy chain" dep_index="25" gov="Mr)" gov_index="28">nn</dependency>
+      <dependency dep="(195" dep_index="26" gov="Mr)" gov_index="28">num</dependency>
+      <dependency dep="kDa" dep_index="27" gov="Mr)" gov_index="28">nn</dependency>
+      <dependency dep="Mr)" dep_index="28" gov="identified" gov_index="15">prep_as</dependency>
+      <dependency dep="Mr)" dep_index="28" gov="Mr)" gov_index="23">conj_and</dependency>
+      <dependency dep="spectrin" dep_index="30" gov="(235" gov_index="31">amod</dependency>
+      <dependency dep="(235" dep_index="31" gov="identified" gov_index="15">prep_as</dependency>
+      <dependency dep="(235" dep_index="31" gov="Mr)" gov_index="23">conj_and</dependency>
+      <dependency dep="240" dep_index="33" gov="Mr)" gov_index="35">num</dependency>
+      <dependency dep="kDa" dep_index="34" gov="Mr)" gov_index="35">nn</dependency>
+      <dependency dep="Mr)" dep_index="35" gov="Mr)" gov_index="23">conj_and</dependency>
+      <dependency dep="Mr)" dep_index="35" gov="(235" gov_index="31">conj_and</dependency>
+      <dependency dep="tubulin" dep_index="38" gov="Mr)" gov_index="41">nn</dependency>
+      <dependency dep="(51-54" dep_index="39" gov="Mr)" gov_index="41">num</dependency>
+      <dependency dep="kDa" dep_index="40" gov="Mr)" gov_index="41">nn</dependency>
+      <dependency dep="Mr)" dep_index="41" gov="identified" gov_index="15">prep_as</dependency>
+      <dependency dep="Mr)" dep_index="41" gov="Mr)" gov_index="23">conj_and</dependency>
+   </dependencies>
+   <relations>
+      <relation position="2000030" relationship="false">20 23 15 31 30</relation>
+      <relation position="3000038" relationship="false">30 31 15 41 38</relation>
+      <relation position="2500030" relationship="false">25 28 15 31 30</relation>
+      <relation position="2000038" relationship="false">20 23 15 41 38</relation>
+      <relation position="2000025" relationship="false">20 23 15 28 25</relation>
+      <relation position="2500038" relationship="false">25 28 15 41 38</relation>
+   </relations>
+   <pairs/>
+</root>

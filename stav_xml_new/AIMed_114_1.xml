@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Syntrophin@binds@to@an@alternatively@spliced@exon@of@dystrophin@.@</sentence>
+   <tags>
+      <tag pos="1">Syntrophin</tag>
+      <tag pos="9">dystrophin</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNP">Syntrophin</taggedword>
+      <taggedword index="2" part-of-speech="VBZ">binds</taggedword>
+      <taggedword index="3" part-of-speech="TO">to</taggedword>
+      <taggedword index="4" part-of-speech="DT">an</taggedword>
+      <taggedword index="5" part-of-speech="RB">alternatively</taggedword>
+      <taggedword index="6" part-of-speech="JJ">spliced</taggedword>
+      <taggedword index="7" part-of-speech="NN">exon</taggedword>
+      <taggedword index="8" part-of-speech="IN">of</taggedword>
+      <taggedword index="9" part-of-speech="NN">dystrophin</taggedword>
+      <taggedword index="10" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Syntrophin" dep_index="1" gov="binds" gov_index="2">nsubj</dependency>
+      <dependency dep="binds" dep_index="2" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="an" dep_index="4" gov="exon" gov_index="7">det</dependency>
+      <dependency dep="alternatively" dep_index="5" gov="spliced" gov_index="6">advmod</dependency>
+      <dependency dep="spliced" dep_index="6" gov="exon" gov_index="7">amod</dependency>
+      <dependency dep="exon" dep_index="7" gov="binds" gov_index="2">prep_to</dependency>
+      <dependency dep="dystrophin" dep_index="9" gov="exon" gov_index="7">prep_of</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100009" relationship="false">1 2 7 9</relation>
+   </relations>
+   <pairs/>
+</root>

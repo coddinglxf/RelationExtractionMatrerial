@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Thus@,@our@data@show@that@both@calnexin@and@calreticulin@interact@with@Glut 1@in@a@glycosylation-dependent@manner@.@</sentence>
+   <tags>
+      <tag pos="8">calnexin</tag>
+      <tag pos="10">calreticulin</tag>
+      <tag pos="13">Glut 1</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="RB">Thus</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="PRP$">our</taggedword>
+      <taggedword index="4" part-of-speech="NNS">data</taggedword>
+      <taggedword index="5" part-of-speech="VBP">show</taggedword>
+      <taggedword index="6" part-of-speech="IN">that</taggedword>
+      <taggedword index="7" part-of-speech="DT">both</taggedword>
+      <taggedword index="8" part-of-speech="NN">calnexin</taggedword>
+      <taggedword index="9" part-of-speech="CC">and</taggedword>
+      <taggedword index="10" part-of-speech="NN">calreticulin</taggedword>
+      <taggedword index="11" part-of-speech="VBP">interact</taggedword>
+      <taggedword index="12" part-of-speech="IN">with</taggedword>
+      <taggedword index="13" part-of-speech="NNS">Glut 1</taggedword>
+      <taggedword index="14" part-of-speech="IN">in</taggedword>
+      <taggedword index="15" part-of-speech="DT">a</taggedword>
+      <taggedword index="16" part-of-speech="JJ">glycosylation-dependent</taggedword>
+      <taggedword index="17" part-of-speech="NN">manner</taggedword>
+      <taggedword index="18" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Thus" dep_index="1" gov="show" gov_index="5">advmod</dependency>
+      <dependency dep="our" dep_index="3" gov="data" gov_index="4">poss</dependency>
+      <dependency dep="data" dep_index="4" gov="show" gov_index="5">nsubj</dependency>
+      <dependency dep="show" dep_index="5" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="that" dep_index="6" gov="interact" gov_index="11">mark</dependency>
+      <dependency dep="both" dep_index="7" gov="calnexin" gov_index="8">preconj</dependency>
+      <dependency dep="calnexin" dep_index="8" gov="interact" gov_index="11">nsubj</dependency>
+      <dependency dep="calreticulin" dep_index="10" gov="calnexin" gov_index="8">conj_and</dependency>
+      <dependency dep="calreticulin" dep_index="10" gov="interact" gov_index="11">nsubj</dependency>
+      <dependency dep="interact" dep_index="11" gov="show" gov_index="5">ccomp</dependency>
+      <dependency dep="Glut 1" dep_index="13" gov="interact" gov_index="11">prep_with</dependency>
+      <dependency dep="a" dep_index="15" gov="manner" gov_index="17">det</dependency>
+      <dependency dep="glycosylation-dependent" dep_index="16" gov="manner" gov_index="17">amod</dependency>
+      <dependency dep="manner" dep_index="17" gov="Glut 1" gov_index="13">prep_in</dependency>
+   </dependencies>
+   <relations>
+      <relation position="800010" relationship="false">8 11 10</relation>
+      <relation position="800013" relationship="true">8 11 13</relation>
+      <relation position="1000013" relationship="true">10 11 13</relation>
+   </relations>
+   <pairs>
+      <pair>1000013</pair>
+      <pair>800013</pair>
+   </pairs>
+</root>

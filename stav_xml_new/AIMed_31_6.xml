@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>Using@histidine-tagged@recombinant@TR6@,@we@screened@soluble@forms@of@TNF-ligand@proteins@with@immunoprecipitation@.@</sentence>
+   <tags>
+      <tag pos="4">TR6</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="VBG">Using</taggedword>
+      <taggedword index="2" part-of-speech="JJ">histidine-tagged</taggedword>
+      <taggedword index="3" part-of-speech="JJ">recombinant</taggedword>
+      <taggedword index="4" part-of-speech="NN">TR6</taggedword>
+      <taggedword index="5" part-of-speech=",">,</taggedword>
+      <taggedword index="6" part-of-speech="PRP">we</taggedword>
+      <taggedword index="7" part-of-speech="VBD">screened</taggedword>
+      <taggedword index="8" part-of-speech="JJ">soluble</taggedword>
+      <taggedword index="9" part-of-speech="NNS">forms</taggedword>
+      <taggedword index="10" part-of-speech="IN">of</taggedword>
+      <taggedword index="11" part-of-speech="JJ">TNF-ligand</taggedword>
+      <taggedword index="12" part-of-speech="NNS">proteins</taggedword>
+      <taggedword index="13" part-of-speech="IN">with</taggedword>
+      <taggedword index="14" part-of-speech="NN">immunoprecipitation</taggedword>
+      <taggedword index="15" part-of-speech=".">.</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="Using" dep_index="1" gov="screened" gov_index="7">partmod</dependency>
+      <dependency dep="histidine-tagged" dep_index="2" gov="TR6" gov_index="4">amod</dependency>
+      <dependency dep="recombinant" dep_index="3" gov="TR6" gov_index="4">amod</dependency>
+      <dependency dep="TR6" dep_index="4" gov="Using" gov_index="1">dobj</dependency>
+      <dependency dep="we" dep_index="6" gov="screened" gov_index="7">nsubj</dependency>
+      <dependency dep="screened" dep_index="7" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="soluble" dep_index="8" gov="forms" gov_index="9">amod</dependency>
+      <dependency dep="forms" dep_index="9" gov="screened" gov_index="7">dobj</dependency>
+      <dependency dep="TNF-ligand" dep_index="11" gov="proteins" gov_index="12">amod</dependency>
+      <dependency dep="proteins" dep_index="12" gov="forms" gov_index="9">prep_of</dependency>
+      <dependency dep="immunoprecipitation" dep_index="14" gov="screened" gov_index="7">prep_with</dependency>
+   </dependencies>
+   <relations/>
+   <pairs/>
+</root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>beta 2 integrin@,@detected@by@anti-CD18@mAb@,@was@coprecipitated@with@GPI-80@from@human@neutrophil@lysates@by@a@mAb@to@GPI-80@</sentence>
+   <tags>
+      <tag pos="1">beta 2 integrin</tag>
+      <tag pos="11">GPI-80</tag>
+      <tag pos="20">GPI-80</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="NNS">beta 2 integrin</taggedword>
+      <taggedword index="2" part-of-speech=",">,</taggedword>
+      <taggedword index="3" part-of-speech="VBN">detected</taggedword>
+      <taggedword index="4" part-of-speech="IN">by</taggedword>
+      <taggedword index="5" part-of-speech="JJ">anti-CD18</taggedword>
+      <taggedword index="6" part-of-speech="NN">mAb</taggedword>
+      <taggedword index="7" part-of-speech=",">,</taggedword>
+      <taggedword index="8" part-of-speech="VBD">was</taggedword>
+      <taggedword index="9" part-of-speech="VBN">coprecipitated</taggedword>
+      <taggedword index="10" part-of-speech="IN">with</taggedword>
+      <taggedword index="11" part-of-speech="NN">GPI-80</taggedword>
+      <taggedword index="12" part-of-speech="IN">from</taggedword>
+      <taggedword index="13" part-of-speech="JJ">human</taggedword>
+      <taggedword index="14" part-of-speech="JJ">neutrophil</taggedword>
+      <taggedword index="15" part-of-speech="NNS">lysates</taggedword>
+      <taggedword index="16" part-of-speech="IN">by</taggedword>
+      <taggedword index="17" part-of-speech="DT">a</taggedword>
+      <taggedword index="18" part-of-speech="NN">mAb</taggedword>
+      <taggedword index="19" part-of-speech="TO">to</taggedword>
+      <taggedword index="20" part-of-speech="NN">GPI-80</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="beta 2 integrin" dep_index="1" gov="coprecipitated" gov_index="9">nsubjpass</dependency>
+      <dependency dep="detected" dep_index="3" gov="beta 2 integrin" gov_index="1">partmod</dependency>
+      <dependency dep="anti-CD18" dep_index="5" gov="mAb" gov_index="6">amod</dependency>
+      <dependency dep="mAb" dep_index="6" gov="detected" gov_index="3">agent</dependency>
+      <dependency dep="was" dep_index="8" gov="coprecipitated" gov_index="9">auxpass</dependency>
+      <dependency dep="coprecipitated" dep_index="9" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="GPI-80" dep_index="11" gov="coprecipitated" gov_index="9">prep_with</dependency>
+      <dependency dep="human" dep_index="13" gov="lysates" gov_index="15">amod</dependency>
+      <dependency dep="neutrophil" dep_index="14" gov="lysates" gov_index="15">amod</dependency>
+      <dependency dep="lysates" dep_index="15" gov="coprecipitated" gov_index="9">prep_from</dependency>
+      <dependency dep="a" dep_index="17" gov="mAb" gov_index="18">det</dependency>
+      <dependency dep="mAb" dep_index="18" gov="coprecipitated" gov_index="9">agent</dependency>
+      <dependency dep="GPI-80" dep_index="20" gov="mAb" gov_index="18">prep_to</dependency>
+   </dependencies>
+   <relations>
+      <relation position="100011" relationship="true">1 9 11</relation>
+      <relation position="100020" relationship="false">1 9 18 20</relation>
+      <relation position="1100020" relationship="false">11 9 18 20</relation>
+   </relations>
+   <pairs>
+      <pair>100011</pair>
+   </pairs>
+</root>

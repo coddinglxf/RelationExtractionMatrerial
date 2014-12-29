@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <sentence>These@results@identify@CD43@as@a@T@cell@counterreceptor@for@sialoadhesin@and@suggest@that@in@addition@to@its@anti-adhesive@role@CD43@may@promote@cell-cell@interactions@</sentence>
+   <tags>
+      <tag pos="4">CD43</tag>
+      <tag pos="11">sialoadhesin</tag>
+      <tag pos="21">CD43</tag>
+   </tags>
+   <Taggedwords>
+      <taggedword index="1" part-of-speech="DT">These</taggedword>
+      <taggedword index="2" part-of-speech="NNS">results</taggedword>
+      <taggedword index="3" part-of-speech="VBP">identify</taggedword>
+      <taggedword index="4" part-of-speech="NNP">CD43</taggedword>
+      <taggedword index="5" part-of-speech="IN">as</taggedword>
+      <taggedword index="6" part-of-speech="DT">a</taggedword>
+      <taggedword index="7" part-of-speech="NNP">T</taggedword>
+      <taggedword index="8" part-of-speech="NN">cell</taggedword>
+      <taggedword index="9" part-of-speech="NN">counterreceptor</taggedword>
+      <taggedword index="10" part-of-speech="IN">for</taggedword>
+      <taggedword index="11" part-of-speech="NN">sialoadhesin</taggedword>
+      <taggedword index="12" part-of-speech="CC">and</taggedword>
+      <taggedword index="13" part-of-speech="VBP">suggest</taggedword>
+      <taggedword index="14" part-of-speech="IN">that</taggedword>
+      <taggedword index="15" part-of-speech="IN">in</taggedword>
+      <taggedword index="16" part-of-speech="NN">addition</taggedword>
+      <taggedword index="17" part-of-speech="TO">to</taggedword>
+      <taggedword index="18" part-of-speech="PRP$">its</taggedword>
+      <taggedword index="19" part-of-speech="JJ">anti-adhesive</taggedword>
+      <taggedword index="20" part-of-speech="NN">role</taggedword>
+      <taggedword index="21" part-of-speech="NNP">CD43</taggedword>
+      <taggedword index="22" part-of-speech="MD">may</taggedword>
+      <taggedword index="23" part-of-speech="VB">promote</taggedword>
+      <taggedword index="24" part-of-speech="JJ">cell-cell</taggedword>
+      <taggedword index="25" part-of-speech="NNS">interactions</taggedword>
+   </Taggedwords>
+   <dependencies>
+      <dependency dep="These" dep_index="1" gov="results" gov_index="2">det</dependency>
+      <dependency dep="results" dep_index="2" gov="identify" gov_index="3">nsubj</dependency>
+      <dependency dep="results" dep_index="2" gov="suggest" gov_index="13">nsubj</dependency>
+      <dependency dep="identify" dep_index="3" gov="ROOT" gov_index="0">root</dependency>
+      <dependency dep="CD43" dep_index="4" gov="identify" gov_index="3">dobj</dependency>
+      <dependency dep="a" dep_index="6" gov="counterreceptor" gov_index="9">det</dependency>
+      <dependency dep="T" dep_index="7" gov="counterreceptor" gov_index="9">nn</dependency>
+      <dependency dep="cell" dep_index="8" gov="counterreceptor" gov_index="9">nn</dependency>
+      <dependency dep="counterreceptor" dep_index="9" gov="identify" gov_index="3">prep_as</dependency>
+      <dependency dep="sialoadhesin" dep_index="11" gov="counterreceptor" gov_index="9">prep_for</dependency>
+      <dependency dep="suggest" dep_index="13" gov="identify" gov_index="3">conj_and</dependency>
+      <dependency dep="that" dep_index="14" gov="promote" gov_index="23">mark</dependency>
+      <dependency dep="its" dep_index="18" gov="role" gov_index="20">poss</dependency>
+      <dependency dep="anti-adhesive" dep_index="19" gov="role" gov_index="20">amod</dependency>
+      <dependency dep="role" dep_index="20" gov="promote" gov_index="23">prep_in_addition_to</dependency>
+      <dependency dep="CD43" dep_index="21" gov="promote" gov_index="23">nsubj</dependency>
+      <dependency dep="may" dep_index="22" gov="promote" gov_index="23">aux</dependency>
+      <dependency dep="promote" dep_index="23" gov="suggest" gov_index="13">ccomp</dependency>
+      <dependency dep="cell-cell" dep_index="24" gov="interactions" gov_index="25">amod</dependency>
+      <dependency dep="interactions" dep_index="25" gov="promote" gov_index="23">dobj</dependency>
+   </dependencies>
+   <relations>
+      <relation position="400011" relationship="true">4 3 9 11</relation>
+      <relation position="400021" relationship="false"></relation>
+      <relation position="1100021" relationship="false"></relation>
+   </relations>
+   <pairs>
+      <pair>400011</pair>
+   </pairs>
+</root>
